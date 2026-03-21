@@ -1,0 +1,1451 @@
+{
+  "niveau": "4eme",
+  "thematique": {
+    "id": "relatifs_4eme",
+    "label": "Nombres relatifs",
+    "icon": "±",
+    "color": "#0c4a6e"
+  },
+  "questions": [
+    {
+      "id": "relat4_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+7) + (+3)",
+      "image": null,
+      "choix": [
+        "+4",
+        "+10",
+        "−10",
+        "+21"
+      ],
+      "reponse": "+10",
+      "explication": "(+7) + (+3) = +10"
+    },
+    {
+      "id": "relat4_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−8) + (−4)",
+      "image": null,
+      "choix": [
+        "−4",
+        "+12",
+        "−12",
+        "+4"
+      ],
+      "reponse": "−12",
+      "explication": "Même signe négatif : −(8+4) = −12"
+    },
+    {
+      "id": "relat4_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−3) + (+7)",
+      "image": null,
+      "choix": [
+        "−10",
+        "+10",
+        "−4",
+        "+4"
+      ],
+      "reponse": "+4",
+      "explication": "+4 (7>3, signe de +7)"
+    },
+    {
+      "id": "relat4_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+2) + (−8)",
+      "image": null,
+      "choix": [
+        "+10",
+        "−10",
+        "+6",
+        "−6"
+      ],
+      "reponse": "−6",
+      "explication": "−6 (8>2, signe de −8)"
+    },
+    {
+      "id": "relat4_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+3) − (−8)",
+      "image": null,
+      "choix": [
+        "−5",
+        "+5",
+        "+11",
+        "−11"
+      ],
+      "reponse": "+11",
+      "explication": "(+3) − (−8) = (+3) + (+8) = +11"
+    },
+    {
+      "id": "relat4_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−4) − (+6)",
+      "image": null,
+      "choix": [
+        "+10",
+        "−2",
+        "+2",
+        "−10"
+      ],
+      "reponse": "−10",
+      "explication": "(−4) + (−6) = −10"
+    },
+    {
+      "id": "relat4_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−5) + (+3)",
+      "image": null,
+      "choix": [
+        "+8",
+        "−8",
+        "+2",
+        "−2"
+      ],
+      "reponse": "−2",
+      "explication": "5 > 3, signe de −5 → −2"
+    },
+    {
+      "id": "relat4_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+9) − (−1)",
+      "image": null,
+      "choix": [
+        "+8",
+        "−8",
+        "+10",
+        "−10"
+      ],
+      "reponse": "+10",
+      "explication": "(+9) + (+1) = +10"
+    },
+    {
+      "id": "relat4_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−6) − (−4)",
+      "image": null,
+      "choix": [
+        "−10",
+        "+10",
+        "+2",
+        "−2"
+      ],
+      "reponse": "−2",
+      "explication": "(−6) + (+4) = −2"
+    },
+    {
+      "id": "relat4_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : 6 − 7 − 3,5 + 9,2",
+      "image": null,
+      "choix": [
+        "3,7",
+        "4,7",
+        "5,7",
+        "6,7"
+      ],
+      "reponse": "4,7",
+      "explication": "Positifs : 6+9,2=15,2. Négatifs : 7+3,5=10,5. 15,2−10,5 = 4,7"
+    },
+    {
+      "id": "relat4_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−2) × (−5)",
+      "image": null,
+      "choix": [
+        "−10",
+        "+10",
+        "−7",
+        "+7"
+      ],
+      "reponse": "+10",
+      "explication": "Même signe → positif. 2×5=10 → +10"
+    },
+    {
+      "id": "relat4_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−3) × (+4)",
+      "image": null,
+      "choix": [
+        "+12",
+        "−12",
+        "+1",
+        "−1"
+      ],
+      "reponse": "−12",
+      "explication": "Signes contraires → négatif. 3×4=12 → −12"
+    },
+    {
+      "id": "relat4_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+6) × (−7)",
+      "image": null,
+      "choix": [
+        "+42",
+        "−42",
+        "+1",
+        "−1"
+      ],
+      "reponse": "−42",
+      "explication": "Signes contraires → négatif. 6×7=42 → −42"
+    },
+    {
+      "id": "relat4_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−8) × (−2)",
+      "image": null,
+      "choix": [
+        "−16",
+        "+16",
+        "−10",
+        "+10"
+      ],
+      "reponse": "+16",
+      "explication": "Même signe → positif. 8×2=16 → +16"
+    },
+    {
+      "id": "relat4_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−15) ÷ (+3)",
+      "image": null,
+      "choix": [
+        "+5",
+        "−5",
+        "+45",
+        "−45"
+      ],
+      "reponse": "−5",
+      "explication": "Signes contraires → négatif. 15÷3=5 → −5"
+    },
+    {
+      "id": "relat4_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+24) ÷ (−4)",
+      "image": null,
+      "choix": [
+        "+6",
+        "−6",
+        "+96",
+        "−96"
+      ],
+      "reponse": "−6",
+      "explication": "Signes contraires → négatif. 24÷4=6 → −6"
+    },
+    {
+      "id": "relat4_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−18) ÷ (−6)",
+      "image": null,
+      "choix": [
+        "−3",
+        "+3",
+        "−12",
+        "+12"
+      ],
+      "reponse": "+3",
+      "explication": "Même signe → positif. 18÷6=3 → +3"
+    },
+    {
+      "id": "relat4_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+36) ÷ (−9)",
+      "image": null,
+      "choix": [
+        "+4",
+        "−4",
+        "+27",
+        "−27"
+      ],
+      "reponse": "−4",
+      "explication": "Signes contraires → négatif. 36÷9=4 → −4"
+    },
+    {
+      "id": "relat4_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−7) × 0",
+      "image": null,
+      "choix": [
+        "−7",
+        "+7",
+        "0",
+        "Indéfini"
+      ],
+      "reponse": "0",
+      "explication": "Tout nombre multiplié par 0 donne 0."
+    },
+    {
+      "id": "relat4_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−5) × (−1)",
+      "image": null,
+      "choix": [
+        "−5",
+        "+5",
+        "0",
+        "+1"
+      ],
+      "reponse": "+5",
+      "explication": "+5 (opposé de −5). Même signe → positif."
+    },
+    {
+      "id": "relat4_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme de calcul PC1 : multiplier par (−2) puis ajouter 5. Pour n=3, quel est le résultat ?",
+      "image": "relatifs/08e3ea03922fcb55783b0d91d838d6e04be77273.png",
+      "choix": [
+        "−11",
+        "−1",
+        "+1",
+        "+11"
+      ],
+      "reponse": "−1",
+      "explication": "3×(−2)=−6, −6+5=−1."
+    },
+    {
+      "id": "relat4_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC1 : multiplier par (−2) puis ajouter 5. Pour n=−4, quel est le résultat ?",
+      "image": "relatifs/08e3ea03922fcb55783b0d91d838d6e04be77273.png",
+      "choix": [
+        "3",
+        "7",
+        "13",
+        "−3"
+      ],
+      "reponse": "13",
+      "explication": "−4×(−2)=8, 8+5=13."
+    },
+    {
+      "id": "relat4_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC2 : soustraire (−3) puis multiplier par (−4). Pour n=0, quel est le résultat ?",
+      "image": "relatifs/c4ce262527737d8d389766277a6f4d68a7fd68c9.png",
+      "choix": [
+        "−3",
+        "+3",
+        "+12",
+        "−12"
+      ],
+      "reponse": "−12",
+      "explication": "0−(−3)=3, 3×(−4)=−12."
+    },
+    {
+      "id": "relat4_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC3 : ajouter (−6) puis diviser par (−2). Pour n=10, quel est le résultat ?",
+      "image": "relatifs/7f1d158759843eb92e4cb4f0a7f9ac76c182f54f.png",
+      "choix": [
+        "−2",
+        "+2",
+        "−8",
+        "+8"
+      ],
+      "reponse": "−2",
+      "explication": "10+(−6)=4, 4÷(−2)=−2."
+    },
+    {
+      "id": "relat4_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC4 : multiplier par (−3) puis soustraire 7. Pour n=−2, quel est le résultat ?",
+      "image": "relatifs/0dd793300f54c6098cd475d6ee3400d96fca7b5a.png",
+      "choix": [
+        "13",
+        "−13",
+        "−1",
+        "+1"
+      ],
+      "reponse": "−1",
+      "explication": "−2×(−3)=6, 6−7=−1."
+    },
+    {
+      "id": "relat4_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La température est −3°C le matin. Elle baisse encore de 4°C. Quelle est la nouvelle température ?",
+      "image": null,
+      "choix": [
+        "+1°C",
+        "−1°C",
+        "−7°C",
+        "+7°C"
+      ],
+      "reponse": "−7°C",
+      "explication": "(−3) + (−4) = −7°C."
+    },
+    {
+      "id": "relat4_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un plongeur est à −8 m. Il remonte de 3 m. À quelle profondeur est-il ?",
+      "image": null,
+      "choix": [
+        "−11 m",
+        "+11 m",
+        "−5 m",
+        "+5 m"
+      ],
+      "reponse": "−5 m",
+      "explication": "(−8) + (+3) = −5 m."
+    },
+    {
+      "id": "relat4_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un compte bancaire est à +50 €. On retire 75 €. Quel est le solde ?",
+      "image": null,
+      "choix": [
+        "+125 €",
+        "+25 €",
+        "−25 €",
+        "−125 €"
+      ],
+      "reponse": "−25 €",
+      "explication": "(+50) + (−75) = −25 €."
+    },
+    {
+      "id": "relat4_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La température baisse de 2°C par heure. Quelle est la variation après 5 heures ?",
+      "image": null,
+      "choix": [
+        "+10°C",
+        "−10°C",
+        "+2,5°C",
+        "−2,5°C"
+      ],
+      "reponse": "−10°C",
+      "explication": "(−2) × 5 = −10°C."
+    },
+    {
+      "id": "relat4_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un sous-marin descend à −3 m/min. Quelle est sa profondeur après 6 min ?",
+      "image": null,
+      "choix": [
+        "+18 m",
+        "−3 m",
+        "−9 m",
+        "−18 m"
+      ],
+      "reponse": "−18 m",
+      "explication": "(−3) × 6 = −18 m."
+    },
+    {
+      "id": "relat4_n1_031",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "(+5) + (−5) = ?",
+      "image": null,
+      "choix": [
+        "−10",
+        "0",
+        "+10",
+        "+25"
+      ],
+      "reponse": "0",
+      "explication": "Ce sont des opposés. Leur somme est 0."
+    },
+    {
+      "id": "relat4_n1_032",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "(−3) − (−3) = ?",
+      "image": null,
+      "choix": [
+        "−6",
+        "+6",
+        "0",
+        "+9"
+      ],
+      "reponse": "0",
+      "explication": "Opposé de (−3) = (+3). (−3) + (+3) = 0."
+    },
+    {
+      "id": "relat4_n1_033",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le signe de (−2) × (−3) × (−4) ?",
+      "image": null,
+      "choix": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Indéfini"
+      ],
+      "reponse": "Négatif",
+      "explication": "3 négatifs (nombre impair) → négatif."
+    },
+    {
+      "id": "relat4_n1_034",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "(−12) ÷ (+4) = ?",
+      "image": null,
+      "choix": [
+        "+3",
+        "−3",
+        "+48",
+        "−48"
+      ],
+      "reponse": "−3",
+      "explication": "Signes contraires → négatif. 12÷4=3 → −3."
+    },
+    {
+      "id": "relat4_n1_035",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est l'opposé de (+8) ?",
+      "image": null,
+      "choix": [
+        "+8",
+        "−8",
+        "0",
+        "1/8"
+      ],
+      "reponse": "−8",
+      "explication": "Opposé de +8 est −8."
+    },
+    {
+      "id": "relat4_n1_036",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La distance à zéro de −7 est :",
+      "image": null,
+      "choix": [
+        "−7",
+        "7",
+        "0",
+        "14"
+      ],
+      "reponse": "7",
+      "explication": "La distance est toujours positive : 7."
+    },
+    {
+      "id": "relat4_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "(+4) × (−3) = ?",
+      "image": null,
+      "choix": [
+        "+12",
+        "−12",
+        "+7",
+        "−7"
+      ],
+      "reponse": "−12",
+      "explication": "Signes contraires → négatif. 4×3=12 → −12."
+    },
+    {
+      "id": "relat4_n1_038",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "(−20) ÷ (−4) = ?",
+      "image": null,
+      "choix": [
+        "−5",
+        "+5",
+        "+80",
+        "−80"
+      ],
+      "reponse": "+5",
+      "explication": "Même signe → positif. 20÷4=5 → +5."
+    },
+    {
+      "id": "relat4_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le signe de (−1)¹⁰⁰ ?",
+      "image": null,
+      "choix": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Indéfini"
+      ],
+      "reponse": "Positif",
+      "explication": "100 est pair → (−1)¹⁰⁰ = (+1) > 0."
+    },
+    {
+      "id": "relat4_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "a × (−1) = ?",
+      "image": null,
+      "choix": [
+        "a",
+        "−a",
+        "0",
+        "1"
+      ],
+      "reponse": "−a",
+      "explication": "Multiplier par −1 donne l'opposé."
+    },
+    {
+      "id": "relat4_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−7,5) + (+3,2)",
+      "image": null,
+      "choix": [
+        "−4,3",
+        "+4,3",
+        "−10,7",
+        "+10,7"
+      ],
+      "reponse": "−4,3",
+      "explication": "7,5 > 3,2, signe de −7,5 → −4,3"
+    },
+    {
+      "id": "relat4_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+12) − (−5) + (−8) − (+3)",
+      "image": null,
+      "choix": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "reponse": "6",
+      "explication": "12+5−8−3 = 17−11 = 6"
+    },
+    {
+      "id": "relat4_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−4,8) − (−2,3)",
+      "image": null,
+      "choix": [
+        "−7,1",
+        "+7,1",
+        "−2,5",
+        "+2,5"
+      ],
+      "reponse": "−2,5",
+      "explication": "(−4,8) + (+2,3) = −2,5"
+    },
+    {
+      "id": "relat4_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : −5 + 8,2 − 4,7 + 1",
+      "image": null,
+      "choix": [
+        "+0,5",
+        "−0,5",
+        "+1,5",
+        "−1,5"
+      ],
+      "reponse": "−0,5",
+      "explication": "Positifs : 8,2+1=9,2. Négatifs : 5+4,7=9,7. 9,2−9,7=−0,5"
+    },
+    {
+      "id": "relat4_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−100) + (+37) + (+63)",
+      "image": null,
+      "choix": [
+        "−100",
+        "−26",
+        "0",
+        "+26"
+      ],
+      "reponse": "0",
+      "explication": "37+63=100. −100+100=0"
+    },
+    {
+      "id": "relat4_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+3/4) + (−1/2)",
+      "image": null,
+      "choix": [
+        "1/4",
+        "−1/4",
+        "5/4",
+        "−5/4"
+      ],
+      "reponse": "1/4",
+      "explication": "3/4 − 2/4 = 1/4"
+    },
+    {
+      "id": "relat4_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−2/3) − (−1/6)",
+      "image": null,
+      "choix": [
+        "1/2",
+        "−1/2",
+        "5/6",
+        "−5/6"
+      ],
+      "reponse": "−1/2",
+      "explication": "(−2/3) + (1/6) = −4/6 + 1/6 = −3/6 = −1/2"
+    },
+    {
+      "id": "relat4_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−1,5) × (−4)",
+      "image": null,
+      "choix": [
+        "−6",
+        "+6",
+        "−2,5",
+        "+2,5"
+      ],
+      "reponse": "+6",
+      "explication": "Même signe → positif. 1,5×4=6 → +6"
+    },
+    {
+      "id": "relat4_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−2)²",
+      "image": null,
+      "choix": [
+        "−4",
+        "+4",
+        "−2",
+        "+2"
+      ],
+      "reponse": "+4",
+      "explication": "(−2)² = (−2)×(−2) = +4 (exposant pair → positif)"
+    },
+    {
+      "id": "relat4_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−2)³",
+      "image": null,
+      "choix": [
+        "−8",
+        "+8",
+        "−6",
+        "+6"
+      ],
+      "reponse": "−8",
+      "explication": "(−2)³ = −2×−2×−2 = −8 (exposant impair → négatif)"
+    },
+    {
+      "id": "relat4_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−3)² × (−2)",
+      "image": null,
+      "choix": [
+        "+18",
+        "−18",
+        "+36",
+        "−36"
+      ],
+      "reponse": "−18",
+      "explication": "9×(−2) = −18"
+    },
+    {
+      "id": "relat4_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−2) × (−3) × (−4)",
+      "image": null,
+      "choix": [
+        "+24",
+        "−24",
+        "+9",
+        "−9"
+      ],
+      "reponse": "−24",
+      "explication": "3 négatifs (impair) → négatif. 2×3×4=24 → −24"
+    },
+    {
+      "id": "relat4_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−1)¹⁰⁰",
+      "image": null,
+      "choix": [
+        "−1",
+        "+1",
+        "0",
+        "100"
+      ],
+      "reponse": "+1",
+      "explication": "100 pair → (−1)¹⁰⁰ = +1"
+    },
+    {
+      "id": "relat4_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC6 : multiplier par (−5) puis prendre l'opposé. Pour n=2, quel est le résultat ?",
+      "image": "relatifs/991bd90a68ef46c15263e7346bf3f5d49f95eefe.png",
+      "choix": [
+        "−10",
+        "+10",
+        "−12",
+        "+12"
+      ],
+      "reponse": "+10",
+      "explication": "2×(−5)=−10, opposé de −10 = +10."
+    },
+    {
+      "id": "relat4_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC7 : diviser par (−2) puis multiplier par (−6). Pour n=8, quel est le résultat ?",
+      "image": "relatifs/41ca7ffa315014abc4d3c8d9418254eeeb2ee331.png",
+      "choix": [
+        "−24",
+        "+24",
+        "−4",
+        "+4"
+      ],
+      "reponse": "+24",
+      "explication": "8÷(−2)=−4, −4×(−6)=+24."
+    },
+    {
+      "id": "relat4_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC8 : soustraire (−5) puis soustraire (−3). Pour n=1, quel est le résultat ?",
+      "image": "relatifs/86a7e028c7ab13f6fe2610a7272f88beb0f34786.png",
+      "choix": [
+        "−7",
+        "+7",
+        "+9",
+        "−9"
+      ],
+      "reponse": "+9",
+      "explication": "1−(−5)=6, 6−(−3)=9."
+    },
+    {
+      "id": "relat4_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC9 : soustraire 4, multiplier par 3, ajouter 6, diviser par 4. Pour n=6, quel est le résultat ?",
+      "image": "relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "3",
+      "explication": "6−4=2, 2×3=6, 6+6=12, 12÷4=3."
+    },
+    {
+      "id": "relat4_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC10 : multiplier par (−2) puis ajouter 8. Quel nombre donne le résultat −4 ?",
+      "image": "relatifs/1d6d9dc5086c7181ab315fe8868c022d532ca518.png",
+      "choix": [
+        "n=−6",
+        "n=6",
+        "n=2",
+        "n=−2"
+      ],
+      "reponse": "n=6",
+      "explication": "n×(−2)+8=−4 → −2n=−12 → n=6."
+    },
+    {
+      "id": "relat4_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La température est −5°C. Elle baisse de 3°C/h pendant 4 heures. Température finale ?",
+      "image": null,
+      "choix": [
+        "−7°C",
+        "−12°C",
+        "−17°C",
+        "+7°C"
+      ],
+      "reponse": "−17°C",
+      "explication": "(−5) + 4×(−3) = −5 − 12 = −17°C."
+    },
+    {
+      "id": "relat4_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Compte à −120 €. 3 dépôts de 40 € et 2 retraits de 25 €. Solde final ?",
+      "image": null,
+      "choix": [
+        "−70 €",
+        "−50 €",
+        "−30 €",
+        "+50 €"
+      ],
+      "reponse": "−50 €",
+      "explication": "(−120) + 3×40 + 2×(−25) = −120+120−50 = −50 €."
+    },
+    {
+      "id": "relat4_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un plongeur est à −15 m. Il descend de 2,5 m puis remonte de 8 m. Profondeur finale ?",
+      "image": null,
+      "choix": [
+        "−9,5 m",
+        "+9,5 m",
+        "−5,5 m",
+        "+5,5 m"
+      ],
+      "reponse": "−9,5 m",
+      "explication": "(−15) + (−2,5) + 8 = −9,5 m."
+    },
+    {
+      "id": "relat4_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une action perd 1,50 €/jour pendant 5 jours à partir de 20 €. Valeur finale ?",
+      "image": null,
+      "choix": [
+        "7,5 €",
+        "10 €",
+        "12,5 €",
+        "15 €"
+      ],
+      "reponse": "12,5 €",
+      "explication": "20 + 5×(−1,5) = 20 − 7,5 = 12,5 €."
+    },
+    {
+      "id": "relat4_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−3,5) + (+1,2)",
+      "image": null,
+      "choix": [
+        "−2,3",
+        "+2,3",
+        "−4,7",
+        "+4,7"
+      ],
+      "reponse": "−2,3",
+      "explication": "−2,3 (3,5>1,2, signe de −3,5)"
+    },
+    {
+      "id": "relat4_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−7,2) ÷ (+0,9)",
+      "image": null,
+      "choix": [
+        "−8",
+        "+8",
+        "−6,48",
+        "+6,48"
+      ],
+      "reponse": "−8",
+      "explication": "7,2÷0,9=8. Signes contraires → −8."
+    },
+    {
+      "id": "relat4_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (+2,5) × (−4) × (−1)",
+      "image": null,
+      "choix": [
+        "−10",
+        "+10",
+        "−2,5",
+        "+2,5"
+      ],
+      "reponse": "+10",
+      "explication": "2 négatifs (pair) → positif. 2,5×4×1=10 → +10."
+    },
+    {
+      "id": "relat4_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC7 : diviser par (−2) puis multiplier par (−6). Pour n=−6, quel est le résultat ?",
+      "image": "relatifs/41ca7ffa315014abc4d3c8d9418254eeeb2ee331.png",
+      "choix": [
+        "−18",
+        "+18",
+        "−4",
+        "+4"
+      ],
+      "reponse": "−18",
+      "explication": "−6÷(−2)=+3, 3×(−6)=−18."
+    },
+    {
+      "id": "relat4_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : −8 − (−3) + (−7) + (+12)",
+      "image": null,
+      "choix": [
+        "−6",
+        "0",
+        "+4",
+        "+6"
+      ],
+      "reponse": "0",
+      "explication": "−8+3−7+12 = 15−15 = 0"
+    },
+    {
+      "id": "relat4_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−5)² ÷ (−5)",
+      "image": null,
+      "choix": [
+        "+5",
+        "−5",
+        "+25",
+        "−25"
+      ],
+      "reponse": "−5",
+      "explication": "25 ÷ (−5) = −5"
+    },
+    {
+      "id": "relat4_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−3,6) ÷ (−0,6)",
+      "image": null,
+      "choix": [
+        "−6",
+        "+6",
+        "−3",
+        "+3"
+      ],
+      "reponse": "+6",
+      "explication": "Même signe → positif. 3,6÷0,6=6 → +6."
+    },
+    {
+      "id": "relat4_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC9 : soustraire 4, multiplier par 3, ajouter 6, diviser par 4. Pour quel nombre obtient-on 0 ?",
+      "image": "relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
+      "choix": [
+        "n=0",
+        "n=2",
+        "n=4",
+        "n=6"
+      ],
+      "reponse": "n=2",
+      "explication": "(n−4)×3+6=0 → 3n−12+6=0 → 3n=6 → n=2. Vérif : (2−4)×3+6=−6+6=0 ✓"
+    },
+    {
+      "id": "relat4_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : −3 + 2×(−4) − (−6)÷3",
+      "image": null,
+      "choix": [
+        "−3",
+        "−7",
+        "−9",
+        "+9"
+      ],
+      "reponse": "−9",
+      "explication": "Priorité : 2×(−4)=−8 et (−6)÷3=−2. Résultat : −3−8+2=−9."
+    },
+    {
+      "id": "relat4_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : 5×(−2) + (−3)×(−4) − 8÷(−4)",
+      "image": null,
+      "choix": [
+        "0",
+        "+4",
+        "−4",
+        "+8"
+      ],
+      "reponse": "+4",
+      "explication": "−10+12+2 = +4."
+    },
+    {
+      "id": "relat4_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−2)⁴ − (−3)²",
+      "image": null,
+      "choix": [
+        "7",
+        "−7",
+        "25",
+        "−25"
+      ],
+      "reponse": "7",
+      "explication": "16 − 9 = 7."
+    },
+    {
+      "id": "relat4_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : −4² + (−4)²",
+      "image": null,
+      "choix": [
+        "−32",
+        "+32",
+        "0",
+        "−16"
+      ],
+      "reponse": "0",
+      "explication": "−4² = −(4²) = −16. (−4)² = 16. −16+16 = 0."
+    },
+    {
+      "id": "relat4_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−3+5) × (−4)",
+      "image": null,
+      "choix": [
+        "−8",
+        "+8",
+        "−2",
+        "+2"
+      ],
+      "reponse": "−8",
+      "explication": "2 × (−4) = −8."
+    },
+    {
+      "id": "relat4_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : [(−5)+3] × [(−2)−4]",
+      "image": null,
+      "choix": [
+        "−12",
+        "+12",
+        "−36",
+        "+36"
+      ],
+      "reponse": "+12",
+      "explication": "(−2) × (−6) = +12."
+    },
+    {
+      "id": "relat4_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−3)×[(+2)+(−5)+(+4)×(−1)]",
+      "image": null,
+      "choix": [
+        "−21",
+        "+21",
+        "−9",
+        "+9"
+      ],
+      "reponse": "+21",
+      "explication": "Crochet : 2−5−4=−7. (−3)×(−7)=+21."
+    },
+    {
+      "id": "relat4_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : [(−2)²−(−3)²] × (−1)",
+      "image": null,
+      "choix": [
+        "−5",
+        "+5",
+        "−13",
+        "+13"
+      ],
+      "reponse": "+5",
+      "explication": "(4−9)×(−1) = (−5)×(−1) = +5."
+    },
+    {
+      "id": "relat4_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−2,5+7,5)×(8−3)÷(−5)",
+      "image": null,
+      "choix": [
+        "−5",
+        "+5",
+        "−25",
+        "+25"
+      ],
+      "reponse": "−5",
+      "explication": "5×5÷(−5) = 25÷(−5) = −5."
+    },
+    {
+      "id": "relat4_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : (−99)×(−101) en utilisant l'astuce (−100+1)(−100−1)",
+      "image": null,
+      "choix": [
+        "9899",
+        "9999",
+        "10001",
+        "10099"
+      ],
+      "reponse": "9999",
+      "explication": "(−100)²−1² = 10000−1 = 9999."
+    },
+    {
+      "id": "relat4_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC11 : multiplier par (−1,5) puis ajouter 4,5. Pour n=−4, quel est le résultat ?",
+      "image": "relatifs/fa3c869cca130de531e5a503138b30563196e164.png",
+      "choix": [
+        "4,5",
+        "8,5",
+        "10,5",
+        "−10,5"
+      ],
+      "reponse": "10,5",
+      "explication": "−4×(−1,5)=6, 6+4,5=10,5."
+    },
+    {
+      "id": "relat4_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC12 : multiplier par (−3) puis ajouter 2x. Pour n=5, quel est le résultat ? (Résultat = −x, soit l'opposé du départ)",
+      "image": "relatifs/5cdd66097aa3514d64625add27defca27b258050.png",
+      "choix": [
+        "−10",
+        "+10",
+        "−5",
+        "+5"
+      ],
+      "reponse": "−5",
+      "explication": "5×(−3)=−15, −15+10=−5. Le résultat est l'opposé du nombre de départ."
+    },
+    {
+      "id": "relat4_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC13 : multiplier par (−4) puis soustraire 8. Quel nombre x faut-il pour obtenir 0 ?",
+      "image": "relatifs/4492262575c469cdd04d0a0b580923e4b801ef96.png",
+      "choix": [
+        "x=−2",
+        "x=2",
+        "x=0",
+        "x=−4"
+      ],
+      "reponse": "x=−2",
+      "explication": "x×(−4)−8=0 → −4x=8 → x=−2."
+    },
+    {
+      "id": "relat4_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC14 à plusieurs étapes. Pour n=2, quel est le résultat ? (Voir image)",
+      "image": "relatifs/54324a0eec8ff5d32615f24c2b777e980267b2e3.png",
+      "choix": [
+        "−2",
+        "+2",
+        "−4",
+        "+4"
+      ],
+      "reponse": "+2",
+      "explication": "Appliquer les opérations au nombre 2 selon le programme."
+    },
+    {
+      "id": "relat4_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC15 avec plusieurs étapes (voir image). Pour n=−4, quel résultat ?",
+      "image": "relatifs/dc74b3c4e79e4b710242f7bee9307c1652a9f688.png",
+      "choix": [
+        "−6",
+        "+6",
+        "−4",
+        "+4"
+      ],
+      "reponse": "+6",
+      "explication": "Appliquer les opérations au nombre −4 selon le programme."
+    },
+    {
+      "id": "relat4_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la différence entre −3² et (−3)² ?",
+      "image": null,
+      "choix": [
+        "Ce sont la même chose, tous deux valent 9",
+        "−3²=−9 (on élève 3 au carré puis l'opposé) et (−3)²=9",
+        "−3²=9 et (−3)²=−9",
+        "Tous deux valent −9"
+      ],
+      "reponse": "−3²=−9 (on élève 3 au carré puis l'opposé) et (−3)²=9",
+      "explication": "−3²=−(3²)=−9. (−3)²=(−3)×(−3)=9. −9 ≠ 9."
+    },
+    {
+      "id": "relat4_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le signe du produit de 5 nombres négatifs ?",
+      "image": null,
+      "choix": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Indéfini"
+      ],
+      "reponse": "Négatif",
+      "explication": "5 est impair → le produit est négatif."
+    },
+    {
+      "id": "relat4_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC11 pour n : le résultat est −1,5n+4,5. Pour quelle valeur de n obtient-on 0 ?",
+      "image": "relatifs/fa3c869cca130de531e5a503138b30563196e164.png",
+      "choix": [
+        "n=0",
+        "n=2",
+        "n=3",
+        "n=4"
+      ],
+      "reponse": "n=3",
+      "explication": "−1,5n+4,5=0 → −1,5n=−4,5 → n=3."
+    },
+    {
+      "id": "relat4_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : Programme PC9 pour n=−2 (soustraire 4, ×3, +6, ÷4)",
+      "image": "relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
+      "choix": [
+        "−4",
+        "−3",
+        "+3",
+        "+4"
+      ],
+      "reponse": "−3",
+      "explication": "−2−4=−6, −6×3=−18, −18+6=−12, −12÷4=−3."
+    },
+    {
+      "id": "relat4_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Programme PC12 : résultat = −x (opposé du départ). Pour n=−2, quel est le résultat ?",
+      "image": "relatifs/5cdd66097aa3514d64625add27defca27b258050.png",
+      "choix": [
+        "−4",
+        "+2",
+        "−2",
+        "+4"
+      ],
+      "reponse": "+2",
+      "explication": "Le résultat est l'opposé du départ. Opposé de −2 = +2."
+    }
+  ]
+}
