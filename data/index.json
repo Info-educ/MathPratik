@@ -28,6 +28,21 @@
   },
   "fichiers": [
     {
+      "id": "pythagore_4eme",
+      "fichier": "data/pythagore_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id": "relatifs_4eme",
+      "fichier": "data/relatifs_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id": "puissances_4eme",
+      "fichier": "data/puissances_4eme.json",
+      "niveau": "4eme"
+    },
+    {
       "id": "proportionnalite_4eme",
       "fichier": "data/proportionnalite_4eme.json",
       "niveau": "4eme"
@@ -53,9 +68,9 @@
       "niveau": "4eme"
     },
     {
-      "id":      "fractions_4eme",
+      "id": "fractions_4eme",
       "fichier": "data/fractions_4eme.json",
-      "niveau":  "4eme"
+      "niveau": "4eme"
     }
   ],
   "automatismes_notions": [
