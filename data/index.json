@@ -28,6 +28,16 @@
   },
   "fichiers": [
     {
+      "id": "proportionnalite_4eme",
+      "fichier": "data/proportionnalite_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id": "nombres_premiers_4eme",
+      "fichier": "data/nombres_premiers_4eme.json",
+      "niveau": "4eme"
+    },
+    {
       "id": "probabilites_4eme",
       "fichier": "data/probabilites_4eme.json",
       "niveau": "4eme"
