@@ -1,0 +1,7 @@
+# Configuration GitHub Pages
+# Jekyll doit servir tous les fichiers du projet sans transformation
+exclude: []
+include:
+  - "js/app.js"
+  - "data/index.json"
+  - "data/*.json"
