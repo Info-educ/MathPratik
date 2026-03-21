@@ -1,0 +1,341 @@
+{
+  "niveaux": {
+    "6eme": {
+      "label": "6ème",
+      "emoji": "🟨",
+      "couleur": "#d97706"
+    },
+    "5eme": {
+      "label": "5ème",
+      "emoji": "🟦",
+      "couleur": "#4f46e5"
+    },
+    "4eme": {
+      "label": "4ème",
+      "emoji": "🟩",
+      "couleur": "#059669"
+    },
+    "3eme": {
+      "label": "3ème",
+      "emoji": "🟥",
+      "couleur": "#dc2626"
+    },
+    "automatismes": {
+      "label": "Automatismes",
+      "emoji": "⚡",
+      "couleur": "#7c3aed"
+    }
+  },
+  "fichiers": [
+    {
+      "id": "probabilites_4eme",
+      "fichier": "data/probabilites_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id": "statistiques_4eme",
+      "fichier": "data/statistiques_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id": "equations_4eme",
+      "fichier": "data/equations_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id":      "fractions_4eme",
+      "fichier": "data/fractions_4eme.json",
+      "niveau":  "4eme"
+    }
+  ],
+  "automatismes_notions": [
+    {
+      "id": "aut_01",
+      "label": "Tables de multiplication",
+      "icon": "✖️",
+      "color": "#dc2626",
+      "fichier": "data/aut_01_tables_de_multiplication.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_02",
+      "label": "Compléter à 10, 100 ou 1 000",
+      "icon": "🎯",
+      "color": "#2563eb",
+      "fichier": "data/aut_02_completer_10_100_1000.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_03",
+      "label": "Doubles et moitiés",
+      "icon": "✌️",
+      "color": "#0891b2",
+      "fichier": "data/aut_03_doubles_et_moities.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_04",
+      "label": "+/− nombre finissant par 8 ou 9",
+      "icon": "🔢",
+      "color": "#7c3aed",
+      "fichier": "data/aut_04_finissant_par_8_ou_9.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_05",
+      "label": "Quadruples et quarts",
+      "icon": "4️⃣",
+      "color": "#d97706",
+      "fichier": "data/aut_05_quadruples_et_quarts.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_06",
+      "label": "Multiplier par 9",
+      "icon": "9️⃣",
+      "color": "#059669",
+      "fichier": "data/aut_06_multiplier_par_9.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_07",
+      "label": "Multiplier par 11",
+      "icon": "🔟",
+      "color": "#0284c7",
+      "fichier": "data/aut_07_multiplier_par_11.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_08",
+      "label": "Critères de divisibilité",
+      "icon": "🔍",
+      "color": "#be185d",
+      "fichier": "data/aut_08_criteres_divisibilite.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_09",
+      "label": "Lister les diviseurs d'un nombre",
+      "icon": "📊",
+      "color": "#0f766e",
+      "fichier": "data/aut_09_diviseurs_nombre.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_10",
+      "label": "Décomposition en facteurs premiers",
+      "icon": "🔣",
+      "color": "#6d28d9",
+      "fichier": "data/aut_10_facteurs_premiers.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_11",
+      "label": "Écrire des fractions égales",
+      "icon": "½",
+      "color": "#c2410c",
+      "fichier": "data/aut_11_fractions_egales.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_12",
+      "label": "Simplifier une fraction",
+      "icon": "➗",
+      "color": "#92400e",
+      "fichier": "data/aut_12_simplifier_une_fraction.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_13",
+      "label": "Additionner et soustraire des fractions",
+      "icon": "➕",
+      "color": "#1d4ed8",
+      "fichier": "data/aut_13_add_soustrait_fractions.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_14",
+      "label": "Multiplier ou diviser des fractions",
+      "icon": "✖️",
+      "color": "#065f46",
+      "fichier": "data/aut_14_mult_div_fractions.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_15",
+      "label": "Prendre une fraction d'un nombre",
+      "icon": "🧮",
+      "color": "#78350f",
+      "fichier": "data/aut_15_fraction_d_un_nombre.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_16",
+      "label": "Numération décimale",
+      "icon": "🔢",
+      "color": "#1e40af",
+      "fichier": "data/aut_16_numeration_decimale.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_17",
+      "label": "Multiplier/diviser par 10, 100, 1 000",
+      "icon": "🔄",
+      "color": "#047857",
+      "fichier": "data/aut_17_mult_div_10_100_1000.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_18",
+      "label": "Compléter un décimal à 1",
+      "icon": "1️⃣",
+      "color": "#115e59",
+      "fichier": "data/aut_18_completer_decimal_a_1.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_19",
+      "label": "Additionner et soustraire des décimaux",
+      "icon": "➕",
+      "color": "#064e3b",
+      "fichier": "data/aut_19_add_soustrait_decimaux.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_20",
+      "label": "Déterminer l'arrondi d'un nombre",
+      "icon": "≈",
+      "color": "#374151",
+      "fichier": "data/aut_20_arrondi.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_21",
+      "label": "Priorités opératoires",
+      "icon": "🔢",
+      "color": "#7f1d1d",
+      "fichier": "data/aut_21_priorites_operatoires.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_22",
+      "label": "Tableau de proportionnalité",
+      "icon": "📊",
+      "color": "#134e4a",
+      "fichier": "data/aut_22_proportionnalite.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_23",
+      "label": "Calculer un pourcentage d'un nombre",
+      "icon": "%",
+      "color": "#5b21b6",
+      "fichier": "data/aut_23_pourcentage.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_24",
+      "label": "Additionner et soustraire des relatifs",
+      "icon": "±",
+      "color": "#0c4a6e",
+      "fichier": "data/aut_24_add_soustrait_relatifs.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_25",
+      "label": "Multiplier et diviser des relatifs",
+      "icon": "±",
+      "color": "#1e3a5f",
+      "fichier": "data/aut_25_mult_div_relatifs.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_26",
+      "label": "Calculer une somme algébrique",
+      "icon": "Σ",
+      "color": "#312e81",
+      "fichier": "data/aut_26_somme_algebrique.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_27",
+      "label": "Simplifier une expression littérale",
+      "icon": "✏️",
+      "color": "#4a1942",
+      "fichier": "data/aut_27_simplifier_expression.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_28",
+      "label": "Réduire une expression littérale",
+      "icon": "🔡",
+      "color": "#1a1a2e",
+      "fichier": "data/aut_28_reduire_expression.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_29",
+      "label": "Calculer la valeur d'une expression",
+      "icon": "📊",
+      "color": "#2d1b69",
+      "fichier": "data/aut_29_valeur_expression.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_30",
+      "label": "Convertir des mesures",
+      "icon": "📏",
+      "color": "#134e4a",
+      "fichier": "data/aut_30_convertir_des_mesures.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_31",
+      "label": "Calculer des périmètres et des aires",
+      "icon": "📐",
+      "color": "#1a3a4a",
+      "fichier": "data/aut_31_perimetres_aires.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_32",
+      "label": "Convertir des durées",
+      "icon": "⏱️",
+      "color": "#7c2d12",
+      "fichier": "data/aut_32_durees.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_33",
+      "label": "Statistiques : effectifs, fréquences, moyenne",
+      "icon": "📈",
+      "color": "#0f3460",
+      "fichier": "data/aut_33_statistiques.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_34",
+      "label": "Partager selon un ratio",
+      "icon": "⚖️",
+      "color": "#064e3b",
+      "fichier": "data/aut_34_partager_selon_un_ratio.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_35",
+      "label": "Programme de calcul",
+      "icon": "🖥️",
+      "color": "#3b1f5c",
+      "fichier": "data/aut_35_programme_de_calcul.json",
+      "nb_questions": 30
+    },
+    {
+      "id": "aut_36",
+      "label": "Traduire une phrase en expression",
+      "icon": "💬",
+      "color": "#065f46",
+      "fichier": "data/aut_36_expression_litterale.json",
+      "nb_questions": 30
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_27",
+    "label": "Simplifier une expression littérale",
+    "icon": "✏️",
+    "color": "#4a1942"
+  },
+  "questions": [
+    {
+      "id": "aut_27_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4 × a = ?",
+      "choix": [
+        "a4",
+        "4+a",
+        "4a",
+        "a/4"
+      ],
+      "reponse": "4a",
+      "explication": "On supprime ×. 4a",
+      "image": null
+    },
+    {
+      "id": "aut_27_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6 × π = ?",
+      "choix": [
+        "6+π",
+        "π+6",
+        "6π",
+        "6/π"
+      ],
+      "reponse": "6π",
+      "explication": "6×π=6π",
+      "image": null
+    },
+    {
+      "id": "aut_27_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "x × y = ?",
+      "choix": [
+        "x+y",
+        "x/y",
+        "xy",
+        "x-y"
+      ],
+      "reponse": "xy",
+      "explication": "x×y=xy",
+      "image": null
+    },
+    {
+      "id": "aut_27_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "a × 3 × b = ?",
+      "choix": [
+        "a+3+b",
+        "3ab",
+        "ab3",
+        "3+ab"
+      ],
+      "reponse": "3ab",
+      "explication": "Nombre d'abord: 3ab",
+      "image": null
+    },
+    {
+      "id": "aut_27_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(1 + a) × 3 = ?",
+      "choix": [
+        "3+a",
+        "3a",
+        "3(1+a)",
+        "1+3a"
+      ],
+      "reponse": "3(1+a)",
+      "explication": "Garder parenthèses: 3(1+a)",
+      "image": null
+    },
+    {
+      "id": "aut_27_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "y × (1 - y) = ?",
+      "choix": [
+        "y(1-y)",
+        "y-y²",
+        "y-y",
+        "1-y²"
+      ],
+      "reponse": "y(1-y)",
+      "explication": "y×(1-y)=y(1-y)",
+      "image": null
+    },
+    {
+      "id": "aut_27_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "π × r × r = ?",
+      "choix": [
+        "πr+r",
+        "πr",
+        "πr²",
+        "2πr"
+      ],
+      "reponse": "πr²",
+      "explication": "r×r=r². Donc πr²",
+      "image": null
+    },
+    {
+      "id": "aut_27_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "a × a × a × 4 = ?",
+      "choix": [
+        "3a×4",
+        "4a²",
+        "4a³",
+        "a³×4"
+      ],
+      "reponse": "4a³",
+      "explication": "a³×4=4a³",
+      "image": null
+    },
+    {
+      "id": "aut_27_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4 - 1x = ?",
+      "choix": [
+        "4x",
+        "4-x",
+        "4+x",
+        "x-4"
+      ],
+      "reponse": "4-x",
+      "explication": "1x=x. Donc 4-x",
+      "image": null
+    },
+    {
+      "id": "aut_27_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "m × m = ?",
+      "choix": [
+        "2m",
+        "m2",
+        "m²",
+        "mm"
+      ],
+      "reponse": "m²",
+      "explication": "m×m=m²",
+      "image": null
+    },
+    {
+      "id": "aut_27_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5t + 3t = ?",
+      "choix": [
+        "8t²",
+        "8+t",
+        "8t",
+        "15t"
+      ],
+      "reponse": "8t",
+      "explication": "5t+3t=8t",
+      "image": null
+    },
+    {
+      "id": "aut_27_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "b × 1 = ?",
+      "choix": [
+        "1+b",
+        "b1",
+        "b",
+        "0"
+      ],
+      "reponse": "b",
+      "explication": "b×1=b",
+      "image": null
+    },
+    {
+      "id": "aut_27_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(2 + x) × 4 = ?",
+      "choix": [
+        "4+x",
+        "4(2+x)",
+        "2+4x",
+        "8+x"
+      ],
+      "reponse": "4(2+x)",
+      "explication": "4×(2+x)=4(2+x)",
+      "image": null
+    },
+    {
+      "id": "aut_27_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "n × n × n = ?",
+      "choix": [
+        "n3",
+        "3n",
+        "n²",
+        "n³"
+      ],
+      "reponse": "n³",
+      "explication": "n³",
+      "image": null
+    },
+    {
+      "id": "aut_27_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7 × a × b × 2 = ?",
+      "choix": [
+        "9ab",
+        "14ab",
+        "7ab2",
+        "14+ab"
+      ],
+      "reponse": "14ab",
+      "explication": "7×2=14. Donc 14ab",
+      "image": null
+    },
+    {
+      "id": "aut_27_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "c × (c - 1) = ?",
+      "choix": [
+        "c-1",
+        "c(c-1)",
+        "c²-1",
+        "c+c-1"
+      ],
+      "reponse": "c(c-1)",
+      "explication": "c×(c-1)=c(c-1)",
+      "image": null
+    },
+    {
+      "id": "aut_27_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 × x × x = ?",
+      "choix": [
+        "6x",
+        "3x²",
+        "9x",
+        "3x+x"
+      ],
+      "reponse": "3x²",
+      "explication": "3×x²=3x²",
+      "image": null
+    },
+    {
+      "id": "aut_27_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1×p + 2×q = ?",
+      "choix": [
+        "p+2q",
+        "pq",
+        "p+q",
+        "3pq"
+      ],
+      "reponse": "p+2q",
+      "explication": "1×p=p. Donc p+2q",
+      "image": null
+    },
+    {
+      "id": "aut_27_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(a+b) × (a-b) = ?",
+      "choix": [
+        "(a+b)(a-b)",
+        "a²+b²",
+        "a²-b²",
+        "2ab"
+      ],
+      "reponse": "(a+b)(a-b)",
+      "explication": "On ne développe pas ici",
+      "image": null
+    },
+    {
+      "id": "aut_27_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2 × r × π = ?",
+      "choix": [
+        "2r+π",
+        "2πr",
+        "rπ2",
+        "πr²"
+      ],
+      "reponse": "2πr",
+      "explication": "2πr",
+      "image": null
+    },
+    {
+      "id": "aut_27_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "k × k × k × k = ?",
+      "choix": [
+        "4k",
+        "k4",
+        "k³",
+        "k⁴"
+      ],
+      "reponse": "k⁴",
+      "explication": "k⁴",
+      "image": null
+    },
+    {
+      "id": "aut_27_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0 × z + 5 = ?",
+      "choix": [
+        "0",
+        "z+5",
+        "5z",
+        "5"
+      ],
+      "reponse": "5",
+      "explication": "0×z=0. 0+5=5",
+      "image": null
+    },
+    {
+      "id": "aut_27_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6 × a × a = ?",
+      "choix": [
+        "6a²",
+        "12a",
+        "6a+a",
+        "36a"
+      ],
+      "reponse": "6a²",
+      "explication": "6a²",
+      "image": null
+    },
+    {
+      "id": "aut_27_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "x × 1 × y = ?",
+      "choix": [
+        "x+y",
+        "1xy",
+        "xy",
+        "x×y"
+      ],
+      "reponse": "xy",
+      "explication": "xy",
+      "image": null
+    },
+    {
+      "id": "aut_27_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(4 + t) × 5 = ?",
+      "choix": [
+        "5+t",
+        "5(4+t)",
+        "20+t",
+        "5t+4"
+      ],
+      "reponse": "5(4+t)",
+      "explication": "5×(4+t)=5(4+t)",
+      "image": null
+    },
+    {
+      "id": "aut_27_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "m×m + 3×m = ?",
+      "choix": [
+        "m²+3m",
+        "4m",
+        "m(m+3)",
+        "m³"
+      ],
+      "reponse": "m²+3m",
+      "explication": "m²+3m",
+      "image": null
+    },
+    {
+      "id": "aut_27_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "9 × b × b × b = ?",
+      "choix": [
+        "27b",
+        "9b²",
+        "9b³",
+        "b9"
+      ],
+      "reponse": "9b³",
+      "explication": "9b³",
+      "image": null
+    },
+    {
+      "id": "aut_27_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(1 + 2x) × 3 = ?",
+      "choix": [
+        "3+6x",
+        "3(1+2x)",
+        "3+2x",
+        "6x"
+      ],
+      "reponse": "3(1+2x)",
+      "explication": "3(1+2x)",
+      "image": null
+    },
+    {
+      "id": "aut_27_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-1) × x = ?",
+      "choix": [
+        "x",
+        "-x",
+        "1-x",
+        "x-1"
+      ],
+      "reponse": "-x",
+      "explication": "(-1)×x=-x",
+      "image": null
+    },
+    {
+      "id": "aut_27_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5t - 3t = ?",
+      "choix": [
+        "2t",
+        "8t",
+        "15t",
+        "t²"
+      ],
+      "reponse": "2t",
+      "explication": "5t-3t=2t",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_10",
+    "label": "Décomposition en facteurs premiers",
+    "icon": "🔣",
+    "color": "#6d28d9"
+  },
+  "questions": [
+    {
+      "id": "aut_10_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 12 = ?",
+      "choix": [
+        "2×6",
+        "2²×3",
+        "3×4",
+        "2×3²"
+      ],
+      "reponse": "2²×3",
+      "explication": "12=4×3=2²×3",
+      "image": null
+    },
+    {
+      "id": "aut_10_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 18 = ?",
+      "choix": [
+        "2×9",
+        "2×3²",
+        "3×6",
+        "2²×3"
+      ],
+      "reponse": "2×3²",
+      "explication": "18=2×9=2×3²",
+      "image": null
+    },
+    {
+      "id": "aut_10_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 24 = ?",
+      "choix": [
+        "2³×3",
+        "2×12",
+        "4×6",
+        "2²×6"
+      ],
+      "reponse": "2³×3",
+      "explication": "24=8×3=2³×3",
+      "image": null
+    },
+    {
+      "id": "aut_10_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 30 = ?",
+      "choix": [
+        "2×15",
+        "2×3×5",
+        "5×6",
+        "3×10"
+      ],
+      "reponse": "2×3×5",
+      "explication": "30=2×3×5",
+      "image": null
+    },
+    {
+      "id": "aut_10_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 36 = ?",
+      "choix": [
+        "2×18",
+        "2²×9",
+        "2²×3²",
+        "4×9"
+      ],
+      "reponse": "2²×3²",
+      "explication": "36=4×9=2²×3²",
+      "image": null
+    },
+    {
+      "id": "aut_10_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 45 = ?",
+      "choix": [
+        "3×15",
+        "3²×5",
+        "5×9",
+        "3×5²"
+      ],
+      "reponse": "3²×5",
+      "explication": "45=9×5=3²×5",
+      "image": null
+    },
+    {
+      "id": "aut_10_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 48 = ?",
+      "choix": [
+        "2⁴×3",
+        "2×24",
+        "4×12",
+        "2³×6"
+      ],
+      "reponse": "2⁴×3",
+      "explication": "48=16×3=2⁴×3",
+      "image": null
+    },
+    {
+      "id": "aut_10_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 60 = ?",
+      "choix": [
+        "2×30",
+        "2²×3×5",
+        "4×15",
+        "3×20"
+      ],
+      "reponse": "2²×3×5",
+      "explication": "60=4×15=2²×3×5",
+      "image": null
+    },
+    {
+      "id": "aut_10_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 72 = ?",
+      "choix": [
+        "8×9",
+        "2³×3²",
+        "2²×18",
+        "2×36"
+      ],
+      "reponse": "2³×3²",
+      "explication": "72=8×9=2³×3²",
+      "image": null
+    },
+    {
+      "id": "aut_10_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 84 = ?",
+      "choix": [
+        "4×21",
+        "2²×3×7",
+        "2×42",
+        "3×28"
+      ],
+      "reponse": "2²×3×7",
+      "explication": "84=4×21=2²×3×7",
+      "image": null
+    },
+    {
+      "id": "aut_10_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 90 = ?",
+      "choix": [
+        "2×9×5",
+        "2×3²×5",
+        "3×30",
+        "9×10"
+      ],
+      "reponse": "2×3²×5",
+      "explication": "90=2×9×5=2×3²×5",
+      "image": null
+    },
+    {
+      "id": "aut_10_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 100 = ?",
+      "choix": [
+        "4×25",
+        "2²×5²",
+        "10×10",
+        "2×50"
+      ],
+      "reponse": "2²×5²",
+      "explication": "100=4×25=2²×5²",
+      "image": null
+    },
+    {
+      "id": "aut_10_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 120 = ?",
+      "choix": [
+        "2³×3×5",
+        "8×15",
+        "2×60",
+        "4×30"
+      ],
+      "reponse": "2³×3×5",
+      "explication": "120=8×15=2³×3×5",
+      "image": null
+    },
+    {
+      "id": "aut_10_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 132 = ?",
+      "choix": [
+        "4×33",
+        "2²×3×11",
+        "12×11",
+        "2×66"
+      ],
+      "reponse": "2²×3×11",
+      "explication": "132=4×33=2²×3×11",
+      "image": null
+    },
+    {
+      "id": "aut_10_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 144 = ?",
+      "choix": [
+        "12×12",
+        "2⁴×3²",
+        "2×72",
+        "4×36"
+      ],
+      "reponse": "2⁴×3²",
+      "explication": "144=16×9=2⁴×3²",
+      "image": null
+    },
+    {
+      "id": "aut_10_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 150 = ?",
+      "choix": [
+        "2×75",
+        "2×3×5²",
+        "6×25",
+        "3×50"
+      ],
+      "reponse": "2×3×5²",
+      "explication": "150=2×3×25=2×3×5²",
+      "image": null
+    },
+    {
+      "id": "aut_10_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 180 = ?",
+      "choix": [
+        "4×45",
+        "2²×3²×5",
+        "9×20",
+        "2×90"
+      ],
+      "reponse": "2²×3²×5",
+      "explication": "180=4×9×5",
+      "image": null
+    },
+    {
+      "id": "aut_10_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 200 = ?",
+      "choix": [
+        "8×25",
+        "2³×5²",
+        "4×50",
+        "2×100"
+      ],
+      "reponse": "2³×5²",
+      "explication": "200=8×25=2³×5²",
+      "image": null
+    },
+    {
+      "id": "aut_10_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 210 = ?",
+      "choix": [
+        "6×35",
+        "2×3×5×7",
+        "10×21",
+        "14×15"
+      ],
+      "reponse": "2×3×5×7",
+      "explication": "210=2×3×5×7",
+      "image": null
+    },
+    {
+      "id": "aut_10_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 250 = ?",
+      "choix": [
+        "2×125",
+        "2×5³",
+        "5×50",
+        "10×25"
+      ],
+      "reponse": "2×5³",
+      "explication": "250=2×125=2×5³",
+      "image": null
+    },
+    {
+      "id": "aut_10_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 126 = ?",
+      "choix": [
+        "2×63",
+        "2×3²×7",
+        "9×14",
+        "3×42"
+      ],
+      "reponse": "2×3²×7",
+      "explication": "126=2×9×7=2×3²×7",
+      "image": null
+    },
+    {
+      "id": "aut_10_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 140 = ?",
+      "choix": [
+        "4×35",
+        "2²×5×7",
+        "20×7",
+        "2×70"
+      ],
+      "reponse": "2²×5×7",
+      "explication": "140=4×35=2²×5×7",
+      "image": null
+    },
+    {
+      "id": "aut_10_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 300 = ?",
+      "choix": [
+        "4×75",
+        "2²×3×5²",
+        "12×25",
+        "3×100"
+      ],
+      "reponse": "2²×3×5²",
+      "explication": "300=4×75=2²×3×5²",
+      "image": null
+    },
+    {
+      "id": "aut_10_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 54 = ?",
+      "choix": [
+        "6×9",
+        "2×3³",
+        "3²×6",
+        "2×27"
+      ],
+      "reponse": "2×3³",
+      "explication": "54=2×27=2×3³",
+      "image": null
+    },
+    {
+      "id": "aut_10_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 360 = ?",
+      "choix": [
+        "8×45",
+        "2³×3²×5",
+        "4×90",
+        "36×10"
+      ],
+      "reponse": "2³×3²×5",
+      "explication": "360=8×45=2³×3²×5",
+      "image": null
+    },
+    {
+      "id": "aut_10_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 96 = ?",
+      "choix": [
+        "2⁵×3",
+        "32×3",
+        "2×48",
+        "8×12"
+      ],
+      "reponse": "2⁵×3",
+      "explication": "96=32×3=2⁵×3",
+      "image": null
+    },
+    {
+      "id": "aut_10_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 168 = ?",
+      "choix": [
+        "8×21",
+        "2³×3×7",
+        "4×42",
+        "2×84"
+      ],
+      "reponse": "2³×3×7",
+      "explication": "168=8×21=2³×3×7",
+      "image": null
+    },
+    {
+      "id": "aut_10_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 225 = ?",
+      "choix": [
+        "9×25",
+        "3²×5²",
+        "15×15",
+        "3×75"
+      ],
+      "reponse": "3²×5²",
+      "explication": "225=9×25=3²×5²",
+      "image": null
+    },
+    {
+      "id": "aut_10_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 75 = ?",
+      "choix": [
+        "3×25",
+        "3×5²",
+        "5×15",
+        "3²×5"
+      ],
+      "reponse": "3×5²",
+      "explication": "75=3×25=3×5²",
+      "image": null
+    },
+    {
+      "id": "aut_10_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 108 = ?",
+      "choix": [
+        "4×27",
+        "2²×3³",
+        "12×9",
+        "2×54"
+      ],
+      "reponse": "2²×3³",
+      "explication": "108=4×27=2²×3³",
+      "image": null
+    }
+  ]
+}

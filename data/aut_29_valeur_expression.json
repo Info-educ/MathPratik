@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_29",
+    "label": "Calculer la valeur d'une expression",
+    "icon": "📊",
+    "color": "#2d1b69"
+  },
+  "questions": [
+    {
+      "id": "aut_29_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4x + 2 pour x=5",
+      "choix": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "reponse": "22",
+      "explication": "4×5+2=22",
+      "image": null
+    },
+    {
+      "id": "aut_29_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2x - 4y pour x=6, y=2",
+      "choix": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "reponse": "4",
+      "explication": "12-8=4",
+      "image": null
+    },
+    {
+      "id": "aut_29_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3a + 1 pour a=4",
+      "choix": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "reponse": "13",
+      "explication": "12+1=13",
+      "image": null
+    },
+    {
+      "id": "aut_29_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5m - 3 pour m=2",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "10-3=7",
+      "image": null
+    },
+    {
+      "id": "aut_29_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "x² + x pour x=3",
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "reponse": "12",
+      "explication": "9+3=12",
+      "image": null
+    },
+    {
+      "id": "aut_29_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2y² - y + 1 pour y=2",
+      "choix": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "reponse": "7",
+      "explication": "8-2+1=7",
+      "image": null
+    },
+    {
+      "id": "aut_29_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3a + 2b pour a=4, b=1",
+      "choix": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "reponse": "14",
+      "explication": "12+2=14",
+      "image": null
+    },
+    {
+      "id": "aut_29_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10 - 2t pour t=3",
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reponse": "4",
+      "explication": "10-6=4",
+      "image": null
+    },
+    {
+      "id": "aut_29_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4x² pour x=2",
+      "choix": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "reponse": "16",
+      "explication": "4×4=16",
+      "image": null
+    },
+    {
+      "id": "aut_29_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "a + b - c pour a=5, b=3, c=2",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": "6",
+      "explication": "5+3-2=6",
+      "image": null
+    },
+    {
+      "id": "aut_29_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2(x + 3) pour x=7",
+      "choix": [
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "reponse": "20",
+      "explication": "2×10=20",
+      "image": null
+    },
+    {
+      "id": "aut_29_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3(2m - 1) pour m=4",
+      "choix": [
+        "18",
+        "21",
+        "24",
+        "33"
+      ],
+      "reponse": "21",
+      "explication": "3×7=21",
+      "image": null
+    },
+    {
+      "id": "aut_29_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "x² - 2x + 1 pour x=4",
+      "choix": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "reponse": "9",
+      "explication": "16-8+1=9",
+      "image": null
+    },
+    {
+      "id": "aut_29_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(a + b)² pour a=2, b=1",
+      "choix": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "reponse": "9",
+      "explication": "3²=9",
+      "image": null
+    },
+    {
+      "id": "aut_29_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2x + 3y pour x=0, y=4",
+      "choix": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "reponse": "12",
+      "explication": "0+12=12",
+      "image": null
+    },
+    {
+      "id": "aut_29_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 - a pour a=-2",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "5-(-2)=7",
+      "image": null
+    },
+    {
+      "id": "aut_29_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3x - 2 pour x=-1",
+      "choix": [
+        "-7",
+        "-6",
+        "-5",
+        "-4"
+      ],
+      "reponse": "-5",
+      "explication": "-3-2=-5",
+      "image": null
+    },
+    {
+      "id": "aut_29_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "y² + 2y pour y=3",
+      "choix": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "reponse": "15",
+      "explication": "9+6=15",
+      "image": null
+    },
+    {
+      "id": "aut_29_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4a - 3b pour a=3, b=2",
+      "choix": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "reponse": "6",
+      "explication": "12-6=6",
+      "image": null
+    },
+    {
+      "id": "aut_29_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "x + y + z pour x=1, y=-2, z=3",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "2",
+      "explication": "1-2+3=2",
+      "image": null
+    },
+    {
+      "id": "aut_29_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2(a - b) pour a=7, b=4",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "6",
+      "explication": "2×3=6",
+      "image": null
+    },
+    {
+      "id": "aut_29_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3m² - m pour m=2",
+      "choix": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "reponse": "10",
+      "explication": "12-2=10",
+      "image": null
+    },
+    {
+      "id": "aut_29_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "x² + y² pour x=3, y=4",
+      "choix": [
+        "21",
+        "25",
+        "28",
+        "30"
+      ],
+      "reponse": "25",
+      "explication": "9+16=25",
+      "image": null
+    },
+    {
+      "id": "aut_29_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6a ÷ 2 + 3 pour a=4",
+      "choix": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "reponse": "15",
+      "explication": "12+3=15",
+      "image": null
+    },
+    {
+      "id": "aut_29_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4(x + y) - 2 pour x=1, y=2",
+      "choix": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "reponse": "10",
+      "explication": "4×3-2=10",
+      "image": null
+    },
+    {
+      "id": "aut_29_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(2x - 1)² pour x=2",
+      "choix": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "reponse": "9",
+      "explication": "(4-1)²=9",
+      "image": null
+    },
+    {
+      "id": "aut_29_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "a³ pour a=2",
+      "choix": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "reponse": "8",
+      "explication": "2³=8",
+      "image": null
+    },
+    {
+      "id": "aut_29_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2a + 3b - ab pour a=2, b=3",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "4+9-6=7",
+      "image": null
+    },
+    {
+      "id": "aut_29_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5x² - 3x + 1 pour x=2",
+      "choix": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "reponse": "15",
+      "explication": "20-6+1=15",
+      "image": null
+    },
+    {
+      "id": "aut_29_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3(a+2) - 2(a-1) pour a=4",
+      "choix": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "reponse": "12",
+      "explication": "18-6=12",
+      "image": null
+    }
+  ]
+}

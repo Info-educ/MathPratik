@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_33",
+    "label": "Statistiques : effectifs, fréquences, moyenne",
+    "icon": "📈",
+    "color": "#0f3460"
+  },
+  "questions": [
+    {
+      "id": "aut_33_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Total 20, effectif 5. Fréquence = ?",
+      "choix": [
+        "1/3",
+        "1/4",
+        "1/5",
+        "1/6"
+      ],
+      "reponse": "1/4",
+      "explication": "5/20=1/4",
+      "image": null
+    },
+    {
+      "id": "aut_33_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Total 30, effectif 10. Fréquence = ?",
+      "choix": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "2/5"
+      ],
+      "reponse": "1/3",
+      "explication": "10/30=1/3",
+      "image": null
+    },
+    {
+      "id": "aut_33_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Total 40, effectif 8. Fréquence = ?",
+      "choix": [
+        "1/4",
+        "1/5",
+        "1/6",
+        "1/8"
+      ],
+      "reponse": "1/5",
+      "explication": "8/40=1/5",
+      "image": null
+    },
+    {
+      "id": "aut_33_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Total 50, effectif 15. Fréquence = ?",
+      "choix": [
+        "3/5",
+        "3/10",
+        "2/5",
+        "1/5"
+      ],
+      "reponse": "3/10",
+      "explication": "15/50=3/10",
+      "image": null
+    },
+    {
+      "id": "aut_33_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Fréquence 1/4, total 60. Effectif = ?",
+      "choix": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "reponse": "15",
+      "explication": "1/4×60=15",
+      "image": null
+    },
+    {
+      "id": "aut_33_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Fréquence 3/10, total 80. Effectif = ?",
+      "choix": [
+        "20",
+        "24",
+        "28",
+        "32"
+      ],
+      "reponse": "24",
+      "explication": "3/10×80=24",
+      "image": null
+    },
+    {
+      "id": "aut_33_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 12, 15, 9, 18 = ?",
+      "choix": [
+        "11",
+        "13",
+        "13,5",
+        "14"
+      ],
+      "reponse": "13,5",
+      "explication": "54÷4=13,5",
+      "image": null
+    },
+    {
+      "id": "aut_33_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 7, 7, 13, 11, 7 = ?",
+      "choix": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "reponse": "9",
+      "explication": "45÷5=9",
+      "image": null
+    },
+    {
+      "id": "aut_33_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 4 et 18 = ?",
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "reponse": "11",
+      "explication": "22÷2=11",
+      "image": null
+    },
+    {
+      "id": "aut_33_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 25 et 17 = ?",
+      "choix": [
+        "19",
+        "21",
+        "23",
+        "25"
+      ],
+      "reponse": "21",
+      "explication": "42÷2=21",
+      "image": null
+    },
+    {
+      "id": "aut_33_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 14, 7 et 18 = ?",
+      "choix": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "reponse": "13",
+      "explication": "39÷3=13",
+      "image": null
+    },
+    {
+      "id": "aut_33_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 5, 9, 6 et 8 = ?",
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "reponse": "7",
+      "explication": "28÷4=7",
+      "image": null
+    },
+    {
+      "id": "aut_33_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 10, 20, 30 = ?",
+      "choix": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "reponse": "20",
+      "explication": "60÷3=20",
+      "image": null
+    },
+    {
+      "id": "aut_33_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 3, 7, 5, 9, 6 = ?",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": "6",
+      "explication": "30÷5=6",
+      "image": null
+    },
+    {
+      "id": "aut_33_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 100, 80, 60, 40, 20 = ?",
+      "choix": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "reponse": "60",
+      "explication": "300÷5=60",
+      "image": null
+    },
+    {
+      "id": "aut_33_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Notes 12,15,8,13. Moyenne = ?",
+      "choix": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "reponse": "12",
+      "explication": "48÷4=12",
+      "image": null
+    },
+    {
+      "id": "aut_33_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Notes 10,11,9,14,6. Moyenne = ?",
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "reponse": "10",
+      "explication": "50÷5=10",
+      "image": null
+    },
+    {
+      "id": "aut_33_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Somme de 6 données = 90. Moyenne = ?",
+      "choix": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "reponse": "15",
+      "explication": "90÷6=15",
+      "image": null
+    },
+    {
+      "id": "aut_33_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Total 25. Judo=5. Fréquence = ?",
+      "choix": [
+        "1/4",
+        "1/5",
+        "2/5",
+        "3/5"
+      ],
+      "reponse": "1/5",
+      "explication": "5/25=1/5",
+      "image": null
+    },
+    {
+      "id": "aut_33_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Total 30, freq 1/6. Effectif = ?",
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reponse": "5",
+      "explication": "1/6×30=5",
+      "image": null
+    },
+    {
+      "id": "aut_33_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Fréquence 2/5, total 50. Effectif = ?",
+      "choix": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "reponse": "20",
+      "explication": "2/5×50=20",
+      "image": null
+    },
+    {
+      "id": "aut_33_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 0,5,10,15,20 = ?",
+      "choix": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "reponse": "10",
+      "explication": "50÷5=10",
+      "image": null
+    },
+    {
+      "id": "aut_33_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 données, moyenne 12. Somme = ?",
+      "choix": [
+        "30",
+        "33",
+        "36",
+        "39"
+      ],
+      "reponse": "36",
+      "explication": "3×12=36",
+      "image": null
+    },
+    {
+      "id": "aut_33_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4 données, moyenne 9. Somme = ?",
+      "choix": [
+        "30",
+        "34",
+        "36",
+        "40"
+      ],
+      "reponse": "36",
+      "explication": "4×9=36",
+      "image": null
+    },
+    {
+      "id": "aut_33_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Moyenne de 1 à 10 = ?",
+      "choix": [
+        "5",
+        "5,5",
+        "6",
+        "6,5"
+      ],
+      "reponse": "5,5",
+      "explication": "55÷10=5,5",
+      "image": null
+    },
+    {
+      "id": "aut_33_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Somme 4 données = 72. Moyenne = ?",
+      "choix": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "reponse": "18",
+      "explication": "72÷4=18",
+      "image": null
+    },
+    {
+      "id": "aut_33_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Notes 14,?,12,10. Moy=12. ?=?",
+      "choix": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "reponse": "12",
+      "explication": "48-14-12-10=12",
+      "image": null
+    },
+    {
+      "id": "aut_33_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Notes 8,15,?,11. Moy=11. ?=?",
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "reponse": "10",
+      "explication": "44-8-15-11=10",
+      "image": null
+    },
+    {
+      "id": "aut_33_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Fréquence de l'effectif 0 dans total 20",
+      "choix": [
+        "0",
+        "1",
+        "1/20",
+        "1/10"
+      ],
+      "reponse": "0",
+      "explication": "0/20=0",
+      "image": null
+    },
+    {
+      "id": "aut_33_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La somme des fréquences vaut toujours",
+      "choix": [
+        "0",
+        "0,5",
+        "1",
+        "2"
+      ],
+      "reponse": "1",
+      "explication": "La somme vaut toujours 1",
+      "image": null
+    }
+  ]
+}

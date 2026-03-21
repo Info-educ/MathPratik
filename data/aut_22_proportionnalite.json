@@ -1,0 +1,1240 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_22",
+    "label": "Tableau de proportionnalité",
+    "icon": "📊",
+    "color": "#134e4a"
+  },
+  "questions": [
+    {
+      "id": "aut_22_01",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 3→6. G2: 9→?",
+      "choix": [
+        "15",
+        "18",
+        "21",
+        "12"
+      ],
+      "reponse": "18",
+      "explication": "×2 : 9×2=18",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "3",
+          "9"
+        ],
+        "valeurs": [
+          [
+            "3",
+            "9"
+          ],
+          [
+            "6",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_02",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 4→12. G2: 5→?",
+      "choix": [
+        "12",
+        "15",
+        "20",
+        "25"
+      ],
+      "reponse": "15",
+      "explication": "×3 : 5×3=15",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "4",
+          "5"
+        ],
+        "valeurs": [
+          [
+            "4",
+            "5"
+          ],
+          [
+            "12",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_03",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 25→50. G2: 6→?",
+      "choix": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "reponse": "12",
+      "explication": "×2 : 6×2=12",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "25",
+          "6"
+        ],
+        "valeurs": [
+          [
+            "25",
+            "6"
+          ],
+          [
+            "50",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_04",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 9→12. G2: 3→?",
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reponse": "4",
+      "explication": "×(4/3) : 3×4/3=4",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "9",
+          "3"
+        ],
+        "valeurs": [
+          [
+            "9",
+            "3"
+          ],
+          [
+            "12",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_05",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Coeff=3. G1: 1→?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "3",
+      "explication": "1×3=3",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "1"
+        ],
+        "valeurs": [
+          [
+            "1"
+          ],
+          [
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          0
+        ],
+        "coeff": "3",
+        "note": "coefficient de proportionnalité : ×3"
+      }
+    },
+    {
+      "id": "aut_22_06",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 18→30. G2: 3→?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "3×30÷18=5",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "18",
+          "3"
+        ],
+        "valeurs": [
+          [
+            "18",
+            "3"
+          ],
+          [
+            "30",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_07",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 7→28. G2: 1→?",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": "4",
+      "explication": "×4 : 1×4=4",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "7",
+          "1"
+        ],
+        "valeurs": [
+          [
+            "7",
+            "1"
+          ],
+          [
+            "28",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_08",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 5→9. G2: 20→?",
+      "choix": [
+        "30",
+        "36",
+        "45",
+        "54"
+      ],
+      "reponse": "36",
+      "explication": "20×9÷5=36",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "5",
+          "20"
+        ],
+        "valeurs": [
+          [
+            "5",
+            "20"
+          ],
+          [
+            "9",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_09",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 10→30. G2: 12→?",
+      "choix": [
+        "24",
+        "36",
+        "40",
+        "48"
+      ],
+      "reponse": "36",
+      "explication": "×3 : 12×3=36",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "10",
+          "12"
+        ],
+        "valeurs": [
+          [
+            "10",
+            "12"
+          ],
+          [
+            "30",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_10",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 2→8. G2: 16→?",
+      "choix": [
+        "48",
+        "56",
+        "64",
+        "72"
+      ],
+      "reponse": "64",
+      "explication": "×4 : 16×4=64",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "2",
+          "16"
+        ],
+        "valeurs": [
+          [
+            "2",
+            "16"
+          ],
+          [
+            "8",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_11",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 12→36. G2: 5→?",
+      "choix": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "reponse": "15",
+      "explication": "×3 : 5×3=15",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "12",
+          "5"
+        ],
+        "valeurs": [
+          [
+            "12",
+            "5"
+          ],
+          [
+            "36",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_12",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 21→33. G2: 7→?",
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "reponse": "11",
+      "explication": "×(11/7) : 7×11/7=11",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "21",
+          "7"
+        ],
+        "valeurs": [
+          [
+            "21",
+            "7"
+          ],
+          [
+            "33",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_13",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 8→10. G2: 40→?",
+      "choix": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "reponse": "50",
+      "explication": "×(5/4) : 40×5/4=50",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "8",
+          "40"
+        ],
+        "valeurs": [
+          [
+            "8",
+            "40"
+          ],
+          [
+            "10",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_14",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 36→6. G2: 5→?",
+      "choix": [
+        "1/2",
+        "5/6",
+        "5/3",
+        "1"
+      ],
+      "reponse": "5/6",
+      "explication": "÷6 : 5÷6=5/6",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "36",
+          "5"
+        ],
+        "valeurs": [
+          [
+            "36",
+            "5"
+          ],
+          [
+            "6",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_15",
+      "niveau": 1,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 6→18. G2: 9→?",
+      "choix": [
+        "21",
+        "27",
+        "33",
+        "36"
+      ],
+      "reponse": "27",
+      "explication": "×3 : 9×3=27",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "6",
+          "9"
+        ],
+        "valeurs": [
+          [
+            "6",
+            "9"
+          ],
+          [
+            "18",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_16",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G2: 4→6. G1: 32→?",
+      "choix": [
+        "40",
+        "42",
+        "48",
+        "54"
+      ],
+      "reponse": "48",
+      "explication": "coeff=1,5. 32×1,5=48",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "32",
+          "4"
+        ],
+        "valeurs": [
+          [
+            "?",
+            "4"
+          ],
+          [
+            "32",
+            "6"
+          ]
+        ],
+        "case_manquante": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aut_22_17",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 2→3. G2: 18→?",
+      "choix": [
+        "24",
+        "27",
+        "30",
+        "33"
+      ],
+      "reponse": "27",
+      "explication": "×(3/2) : 18×3/2=27",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "2",
+          "18"
+        ],
+        "valeurs": [
+          [
+            "2",
+            "18"
+          ],
+          [
+            "3",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_18",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G2: 7→9. G1: 35→?",
+      "choix": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "reponse": "45",
+      "explication": "×(9/7) : 35×9/7=45",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "35",
+          "7"
+        ],
+        "valeurs": [
+          [
+            "?",
+            "7"
+          ],
+          [
+            "35",
+            "9"
+          ]
+        ],
+        "case_manquante": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aut_22_19",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G2: 18→30. G1: 3→?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "3×30÷18=5",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "3",
+          "18"
+        ],
+        "valeurs": [
+          [
+            "?",
+            "18"
+          ],
+          [
+            "3",
+            "30"
+          ]
+        ],
+        "case_manquante": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aut_22_20",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 1→4. G2: 20→?",
+      "choix": [
+        "80",
+        "85",
+        "90",
+        "100"
+      ],
+      "reponse": "80",
+      "explication": "×4 : 20×4=80",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "1",
+          "20"
+        ],
+        "valeurs": [
+          [
+            "1",
+            "20"
+          ],
+          [
+            "4",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_21",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G2: 3→12. G1: 4→?",
+      "choix": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "reponse": "16",
+      "explication": "coeff=4. 4×4=16",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "4",
+          "3"
+        ],
+        "valeurs": [
+          [
+            "?",
+            "3"
+          ],
+          [
+            "4",
+            "12"
+          ]
+        ],
+        "case_manquante": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aut_22_22",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G2: 12→15. G1: 4→?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "×(5/4) : 4×5/4=5",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "4",
+          "12"
+        ],
+        "valeurs": [
+          [
+            "?",
+            "12"
+          ],
+          [
+            "4",
+            "15"
+          ]
+        ],
+        "case_manquante": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aut_22_23",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 7→9. G2: 28→?",
+      "choix": [
+        "32",
+        "36",
+        "40",
+        "44"
+      ],
+      "reponse": "36",
+      "explication": "×(9/7) : 28×9/7=36",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "7",
+          "28"
+        ],
+        "valeurs": [
+          [
+            "7",
+            "28"
+          ],
+          [
+            "9",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_24",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G2: 8→48. G1: 6→?",
+      "choix": [
+        "36",
+        "40",
+        "42",
+        "48"
+      ],
+      "reponse": "36",
+      "explication": "coeff=6. 6×6=36",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "6",
+          "8"
+        ],
+        "valeurs": [
+          [
+            "?",
+            "8"
+          ],
+          [
+            "6",
+            "48"
+          ]
+        ],
+        "case_manquante": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aut_22_25",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 9→3. G2: 36→?",
+      "choix": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "reponse": "12",
+      "explication": "÷3 : 36÷3=12",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "9",
+          "36"
+        ],
+        "valeurs": [
+          [
+            "9",
+            "36"
+          ],
+          [
+            "3",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_26",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G2: 4→12. G1: 5→?",
+      "choix": [
+        "12",
+        "14",
+        "15",
+        "16"
+      ],
+      "reponse": "15",
+      "explication": "×3 : 5×3=15",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "5",
+          "4"
+        ],
+        "valeurs": [
+          [
+            "?",
+            "4"
+          ],
+          [
+            "5",
+            "12"
+          ]
+        ],
+        "case_manquante": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aut_22_27",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 12→13. G2: 24→?",
+      "choix": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "reponse": "26",
+      "explication": "×(13/12) : 24×13/12=26",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "12",
+          "24"
+        ],
+        "valeurs": [
+          [
+            "12",
+            "24"
+          ],
+          [
+            "13",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_28",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 1→6. G2: 8→?",
+      "choix": [
+        "42",
+        "48",
+        "54",
+        "60"
+      ],
+      "reponse": "48",
+      "explication": "×6 : 8×6=48",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "1",
+          "8"
+        ],
+        "valeurs": [
+          [
+            "1",
+            "8"
+          ],
+          [
+            "6",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_29",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 2→3. G2: 27→?",
+      "choix": [
+        "36",
+        "40",
+        "40,5",
+        "41"
+      ],
+      "reponse": "40,5",
+      "explication": "×(3/2) : 27×3/2=40,5",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "2",
+          "27"
+        ],
+        "valeurs": [
+          [
+            "2",
+            "27"
+          ],
+          [
+            "3",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "aut_22_30",
+      "niveau": 2,
+      "type": "tableau_proportionnalite",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "G1: 4→5. G2: 20→?",
+      "choix": [
+        "22",
+        "24",
+        "25",
+        "28"
+      ],
+      "reponse": "25",
+      "explication": "×(5/4) : 20×5/4=25",
+      "image": null,
+      "tableau": {
+        "lignes": [
+          "Grandeur 1",
+          "Grandeur 2"
+        ],
+        "colonnes": [
+          "4",
+          "20"
+        ],
+        "valeurs": [
+          [
+            "4",
+            "20"
+          ],
+          [
+            "5",
+            "?"
+          ]
+        ],
+        "case_manquante": [
+          1,
+          1
+        ]
+      }
+    }
+  ]
+}

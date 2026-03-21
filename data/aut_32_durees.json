@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_32",
+    "label": "Convertir des durées",
+    "icon": "⏱️",
+    "color": "#7c2d12"
+  },
+  "questions": [
+    {
+      "id": "aut_32_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "367 min = ? h ? min",
+      "choix": [
+        "5h 57min",
+        "6h 7min",
+        "6h 17min",
+        "5h 47min"
+      ],
+      "reponse": "6h 7min",
+      "explication": "367÷60=6 reste 7",
+      "image": null
+    },
+    {
+      "id": "aut_32_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4h 25min = ? min",
+      "choix": [
+        "245",
+        "255",
+        "265",
+        "275"
+      ],
+      "reponse": "265",
+      "explication": "4×60+25=265",
+      "image": null
+    },
+    {
+      "id": "aut_32_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "145 min = ? h ? min",
+      "choix": [
+        "2h 15min",
+        "2h 25min",
+        "2h 35min",
+        "2h 45min"
+      ],
+      "reponse": "2h 25min",
+      "explication": "145÷60=2 reste 25",
+      "image": null
+    },
+    {
+      "id": "aut_32_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2h 38min = ? min",
+      "choix": [
+        "148",
+        "158",
+        "168",
+        "178"
+      ],
+      "reponse": "158",
+      "explication": "2×60+38=158",
+      "image": null
+    },
+    {
+      "id": "aut_32_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "90 min = ? h ? min",
+      "choix": [
+        "1h 20min",
+        "1h 30min",
+        "1h 40min",
+        "1h 50min"
+      ],
+      "reponse": "1h 30min",
+      "explication": "90÷60=1 reste 30",
+      "image": null
+    },
+    {
+      "id": "aut_32_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5h 10min = ? min",
+      "choix": [
+        "290",
+        "300",
+        "310",
+        "320"
+      ],
+      "reponse": "310",
+      "explication": "5×60+10=310",
+      "image": null
+    },
+    {
+      "id": "aut_32_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "250 min = ? h ? min",
+      "choix": [
+        "4h 0min",
+        "4h 10min",
+        "4h 20min",
+        "4h 30min"
+      ],
+      "reponse": "4h 10min",
+      "explication": "250÷60=4 reste 10",
+      "image": null
+    },
+    {
+      "id": "aut_32_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3h 45min = ? min",
+      "choix": [
+        "205",
+        "215",
+        "225",
+        "235"
+      ],
+      "reponse": "225",
+      "explication": "3×60+45=225",
+      "image": null
+    },
+    {
+      "id": "aut_32_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "480 min = ? h",
+      "choix": [
+        "6 h",
+        "7 h",
+        "8 h",
+        "9 h"
+      ],
+      "reponse": "8 h",
+      "explication": "480÷60=8",
+      "image": null
+    },
+    {
+      "id": "aut_32_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6h 5min = ? min",
+      "choix": [
+        "355",
+        "360",
+        "365",
+        "370"
+      ],
+      "reponse": "365",
+      "explication": "6×60+5=365",
+      "image": null
+    },
+    {
+      "id": "aut_32_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "75 min = ? h ? min",
+      "choix": [
+        "1h 5min",
+        "1h 10min",
+        "1h 15min",
+        "1h 20min"
+      ],
+      "reponse": "1h 15min",
+      "explication": "75÷60=1 reste 15",
+      "image": null
+    },
+    {
+      "id": "aut_32_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1h 30min = ? min",
+      "choix": [
+        "80",
+        "90",
+        "100",
+        "110"
+      ],
+      "reponse": "90",
+      "explication": "60+30=90",
+      "image": null
+    },
+    {
+      "id": "aut_32_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "195 min = ? h ? min",
+      "choix": [
+        "3h 5min",
+        "3h 15min",
+        "3h 25min",
+        "3h 35min"
+      ],
+      "reponse": "3h 15min",
+      "explication": "195÷60=3 reste 15",
+      "image": null
+    },
+    {
+      "id": "aut_32_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7h 20min = ? min",
+      "choix": [
+        "420",
+        "430",
+        "440",
+        "450"
+      ],
+      "reponse": "440",
+      "explication": "7×60+20=440",
+      "image": null
+    },
+    {
+      "id": "aut_32_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "330 min = ? h ? min",
+      "choix": [
+        "5h 20min",
+        "5h 30min",
+        "5h 40min",
+        "5h 50min"
+      ],
+      "reponse": "5h 30min",
+      "explication": "330÷60=5 reste 30",
+      "image": null
+    },
+    {
+      "id": "aut_32_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8h 55min = ? min",
+      "choix": [
+        "525",
+        "535",
+        "545",
+        "555"
+      ],
+      "reponse": "535",
+      "explication": "8×60+55=535",
+      "image": null
+    },
+    {
+      "id": "aut_32_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "125 min = ? h ? min",
+      "choix": [
+        "2h 0min",
+        "2h 5min",
+        "2h 10min",
+        "2h 15min"
+      ],
+      "reponse": "2h 5min",
+      "explication": "125÷60=2 reste 5",
+      "image": null
+    },
+    {
+      "id": "aut_32_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2h 15min = ? min",
+      "choix": [
+        "125",
+        "135",
+        "145",
+        "155"
+      ],
+      "reponse": "135",
+      "explication": "2×60+15=135",
+      "image": null
+    },
+    {
+      "id": "aut_32_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "400 min = ? h ? min",
+      "choix": [
+        "6h 30min",
+        "6h 40min",
+        "6h 50min",
+        "7h 0min"
+      ],
+      "reponse": "6h 40min",
+      "explication": "400÷60=6 reste 40",
+      "image": null
+    },
+    {
+      "id": "aut_32_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10 h = ? min",
+      "choix": [
+        "550",
+        "580",
+        "600",
+        "620"
+      ],
+      "reponse": "600",
+      "explication": "10×60=600",
+      "image": null
+    },
+    {
+      "id": "aut_32_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 600 s = ? min",
+      "choix": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "reponse": "60",
+      "explication": "3600÷60=60",
+      "image": null
+    },
+    {
+      "id": "aut_32_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "90 s = ?",
+      "choix": [
+        "0min 50s",
+        "1min 20s",
+        "1min 30s",
+        "1min 40s"
+      ],
+      "reponse": "1min 30s",
+      "explication": "90÷60=1 reste 30",
+      "image": null
+    },
+    {
+      "id": "aut_32_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2min 45s = ? s",
+      "choix": [
+        "145",
+        "155",
+        "165",
+        "175"
+      ],
+      "reponse": "165",
+      "explication": "2×60+45=165",
+      "image": null
+    },
+    {
+      "id": "aut_32_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "150 s = ?",
+      "choix": [
+        "2min 20s",
+        "2min 30s",
+        "2min 40s",
+        "2min 50s"
+      ],
+      "reponse": "2min 30s",
+      "explication": "150÷60=2 reste 30",
+      "image": null
+    },
+    {
+      "id": "aut_32_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4min 10s = ? s",
+      "choix": [
+        "240",
+        "250",
+        "260",
+        "270"
+      ],
+      "reponse": "250",
+      "explication": "4×60+10=250",
+      "image": null
+    },
+    {
+      "id": "aut_32_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1h 12min = ? min",
+      "choix": [
+        "60",
+        "66",
+        "72",
+        "80"
+      ],
+      "reponse": "72",
+      "explication": "60+12=72",
+      "image": null
+    },
+    {
+      "id": "aut_32_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1h 47min = ? min",
+      "choix": [
+        "97",
+        "100",
+        "107",
+        "115"
+      ],
+      "reponse": "107",
+      "explication": "60+47=107",
+      "image": null
+    },
+    {
+      "id": "aut_32_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "245 min = ? h ? min",
+      "choix": [
+        "3h 55min",
+        "4h 5min",
+        "4h 15min",
+        "4h 25min"
+      ],
+      "reponse": "4h 5min",
+      "explication": "245÷60=4 reste 5",
+      "image": null
+    },
+    {
+      "id": "aut_32_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "95 min = ? h ? min",
+      "choix": [
+        "1h 25min",
+        "1h 30min",
+        "1h 35min",
+        "1h 45min"
+      ],
+      "reponse": "1h 35min",
+      "explication": "95÷60=1 reste 35",
+      "image": null
+    },
+    {
+      "id": "aut_32_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2h30min + 1h45min = ?",
+      "choix": [
+        "4h 0min",
+        "4h 15min",
+        "4h 20min",
+        "4h 30min"
+      ],
+      "reponse": "4h 15min",
+      "explication": "3h75min=4h15min",
+      "image": null
+    }
+  ]
+}

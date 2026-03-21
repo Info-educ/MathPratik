@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_12",
+    "label": "Simplifier une fraction",
+    "icon": "➗",
+    "color": "#92400e"
+  },
+  "questions": [
+    {
+      "id": "aut_12_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 6/9",
+      "choix": [
+        "1/3",
+        "2/3",
+        "3/4",
+        "1/2"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(6,9)=3 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 10/15",
+      "choix": [
+        "2/3",
+        "1/3",
+        "3/5",
+        "2/5"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(10,15)=5 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 8/12",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/4"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(8,12)=4 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 14/21",
+      "choix": [
+        "1/3",
+        "2/3",
+        "3/7",
+        "2/7"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(14,21)=7 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 15/25",
+      "choix": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "4/5"
+      ],
+      "reponse": "3/5",
+      "explication": "PGCD(15,25)=5 → 3/5",
+      "image": null
+    },
+    {
+      "id": "aut_12_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 12/18",
+      "choix": [
+        "1/3",
+        "2/3",
+        "1/2",
+        "3/4"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(12,18)=6 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 20/30",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(20,30)=10 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 24/36",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(24,36)=12 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 16/24",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(16,24)=8 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 9/27",
+      "choix": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "2/3"
+      ],
+      "reponse": "1/3",
+      "explication": "PGCD(9,27)=9 → 1/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 18/24",
+      "choix": [
+        "2/3",
+        "3/4",
+        "1/2",
+        "1/3"
+      ],
+      "reponse": "3/4",
+      "explication": "PGCD(18,24)=6 → 3/4",
+      "image": null
+    },
+    {
+      "id": "aut_12_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 25/100",
+      "choix": [
+        "1/2",
+        "1/4",
+        "1/5",
+        "2/5"
+      ],
+      "reponse": "1/4",
+      "explication": "PGCD(25,100)=25 → 1/4",
+      "image": null
+    },
+    {
+      "id": "aut_12_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 30/45",
+      "choix": [
+        "1/2",
+        "2/3",
+        "2/5",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(30,45)=15 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 21/28",
+      "choix": [
+        "2/3",
+        "3/4",
+        "1/2",
+        "3/7"
+      ],
+      "reponse": "3/4",
+      "explication": "PGCD(21,28)=7 → 3/4",
+      "image": null
+    },
+    {
+      "id": "aut_12_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 35/49",
+      "choix": [
+        "4/7",
+        "5/7",
+        "6/7",
+        "3/7"
+      ],
+      "reponse": "5/7",
+      "explication": "PGCD(35,49)=7 → 5/7",
+      "image": null
+    },
+    {
+      "id": "aut_12_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 12/32",
+      "choix": [
+        "1/3",
+        "3/8",
+        "1/4",
+        "1/2"
+      ],
+      "reponse": "3/8",
+      "explication": "PGCD(12,32)=4 → 3/8",
+      "image": null
+    },
+    {
+      "id": "aut_12_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 6/42",
+      "choix": [
+        "1/5",
+        "1/6",
+        "1/7",
+        "1/8"
+      ],
+      "reponse": "1/7",
+      "explication": "PGCD(6,42)=6 → 1/7",
+      "image": null
+    },
+    {
+      "id": "aut_12_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 22/33",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(22,33)=11 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 40/60",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(40,60)=20 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 56/98",
+      "choix": [
+        "4/7",
+        "5/7",
+        "6/7",
+        "4/9"
+      ],
+      "reponse": "4/7",
+      "explication": "PGCD(56,98)=14 → 4/7",
+      "image": null
+    },
+    {
+      "id": "aut_12_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 36/60",
+      "choix": [
+        "1/2",
+        "3/5",
+        "2/3",
+        "4/5"
+      ],
+      "reponse": "3/5",
+      "explication": "PGCD(36,60)=12 → 3/5",
+      "image": null
+    },
+    {
+      "id": "aut_12_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 27/45",
+      "choix": [
+        "2/5",
+        "3/5",
+        "3/4",
+        "1/2"
+      ],
+      "reponse": "3/5",
+      "explication": "PGCD(27,45)=9 → 3/5",
+      "image": null
+    },
+    {
+      "id": "aut_12_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 48/72",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(48,72)=24 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 15/35",
+      "choix": [
+        "2/5",
+        "3/7",
+        "3/5",
+        "2/7"
+      ],
+      "reponse": "3/7",
+      "explication": "PGCD(15,35)=5 → 3/7",
+      "image": null
+    },
+    {
+      "id": "aut_12_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 24/32",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/4"
+      ],
+      "reponse": "3/4",
+      "explication": "PGCD(24,32)=8 → 3/4",
+      "image": null
+    },
+    {
+      "id": "aut_12_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 45/75",
+      "choix": [
+        "2/5",
+        "3/5",
+        "3/4",
+        "4/5"
+      ],
+      "reponse": "3/5",
+      "explication": "PGCD(45,75)=15 → 3/5",
+      "image": null
+    },
+    {
+      "id": "aut_12_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 60/100",
+      "choix": [
+        "1/2",
+        "3/5",
+        "2/3",
+        "3/4"
+      ],
+      "reponse": "3/5",
+      "explication": "PGCD(60,100)=20 → 3/5",
+      "image": null
+    },
+    {
+      "id": "aut_12_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 28/42",
+      "choix": [
+        "1/2",
+        "2/3",
+        "2/5",
+        "3/7"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(28,42)=14 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 54/81",
+      "choix": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "reponse": "2/3",
+      "explication": "PGCD(54,81)=27 → 2/3",
+      "image": null
+    },
+    {
+      "id": "aut_12_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie 36/84",
+      "choix": [
+        "2/5",
+        "3/7",
+        "3/5",
+        "1/3"
+      ],
+      "reponse": "3/7",
+      "explication": "PGCD(36,84)=12 → 3/7",
+      "image": null
+    }
+  ]
+}

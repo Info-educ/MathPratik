@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_23",
+    "label": "Calculer un pourcentage d'un nombre",
+    "icon": "%",
+    "color": "#5b21b6"
+  },
+  "questions": [
+    {
+      "id": "aut_23_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "50 % de 60 = ?",
+      "choix": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "reponse": "30",
+      "explication": "60÷2=30",
+      "image": null
+    },
+    {
+      "id": "aut_23_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "25 % de 80 = ?",
+      "choix": [
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "reponse": "20",
+      "explication": "80÷4=20",
+      "image": null
+    },
+    {
+      "id": "aut_23_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10 % de 150 = ?",
+      "choix": [
+        "12",
+        "14",
+        "15",
+        "20"
+      ],
+      "reponse": "15",
+      "explication": "150÷10=15",
+      "image": null
+    },
+    {
+      "id": "aut_23_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "20 % de 45 = ?",
+      "choix": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "reponse": "9",
+      "explication": "45×0,2=9",
+      "image": null
+    },
+    {
+      "id": "aut_23_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 % de 200 = ?",
+      "choix": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "reponse": "10",
+      "explication": "10%=20, 5%=10",
+      "image": null
+    },
+    {
+      "id": "aut_23_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1 % de 350 = ?",
+      "choix": [
+        "3",
+        "3,5",
+        "4",
+        "4,5"
+      ],
+      "reponse": "3,5",
+      "explication": "350÷100=3,5",
+      "image": null
+    },
+    {
+      "id": "aut_23_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "50 % de 134 = ?",
+      "choix": [
+        "57",
+        "67",
+        "77",
+        "87"
+      ],
+      "reponse": "67",
+      "explication": "134÷2=67",
+      "image": null
+    },
+    {
+      "id": "aut_23_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "25 % de 48 = ?",
+      "choix": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "reponse": "12",
+      "explication": "48÷4=12",
+      "image": null
+    },
+    {
+      "id": "aut_23_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10 % de 73 = ?",
+      "choix": [
+        "6,3",
+        "7,3",
+        "8,3",
+        "9,3"
+      ],
+      "reponse": "7,3",
+      "explication": "73÷10=7,3",
+      "image": null
+    },
+    {
+      "id": "aut_23_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "20 % de 85 = ?",
+      "choix": [
+        "15",
+        "17",
+        "19",
+        "21"
+      ],
+      "reponse": "17",
+      "explication": "85×0,2=17",
+      "image": null
+    },
+    {
+      "id": "aut_23_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 % de 60 = ?",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": "3",
+      "explication": "10%=6, 5%=3",
+      "image": null
+    },
+    {
+      "id": "aut_23_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1 % de 540 = ?",
+      "choix": [
+        "4,4",
+        "5,4",
+        "6,4",
+        "5"
+      ],
+      "reponse": "5,4",
+      "explication": "540÷100=5,4",
+      "image": null
+    },
+    {
+      "id": "aut_23_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "17 % de 50 = ?",
+      "choix": [
+        "6,5",
+        "7,5",
+        "8,5",
+        "9,5"
+      ],
+      "reponse": "8,5",
+      "explication": "17×50÷100=8,5",
+      "image": null
+    },
+    {
+      "id": "aut_23_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "30 % de 90 = ?",
+      "choix": [
+        "24",
+        "27",
+        "30",
+        "33"
+      ],
+      "reponse": "27",
+      "explication": "90×30÷100=27",
+      "image": null
+    },
+    {
+      "id": "aut_23_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "15 % de 200 = ?",
+      "choix": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "reponse": "30",
+      "explication": "200×15÷100=30",
+      "image": null
+    },
+    {
+      "id": "aut_23_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "75 % de 120 = ?",
+      "choix": [
+        "75",
+        "80",
+        "90",
+        "95"
+      ],
+      "reponse": "90",
+      "explication": "3/4 de 120=90",
+      "image": null
+    },
+    {
+      "id": "aut_23_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "40 % de 65 = ?",
+      "choix": [
+        "24",
+        "26",
+        "28",
+        "30"
+      ],
+      "reponse": "26",
+      "explication": "65×40÷100=26",
+      "image": null
+    },
+    {
+      "id": "aut_23_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8 % de 150 = ?",
+      "choix": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "reponse": "12",
+      "explication": "150×8÷100=12",
+      "image": null
+    },
+    {
+      "id": "aut_23_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "12 % de 75 = ?",
+      "choix": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "reponse": "9",
+      "explication": "75×12÷100=9",
+      "image": null
+    },
+    {
+      "id": "aut_23_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "35 % de 40 = ?",
+      "choix": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "reponse": "14",
+      "explication": "40×35÷100=14",
+      "image": null
+    },
+    {
+      "id": "aut_23_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "50 % de 250 = ?",
+      "choix": [
+        "100",
+        "115",
+        "125",
+        "135"
+      ],
+      "reponse": "125",
+      "explication": "250÷2=125",
+      "image": null
+    },
+    {
+      "id": "aut_23_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "25 % de 360 = ?",
+      "choix": [
+        "80",
+        "90",
+        "100",
+        "110"
+      ],
+      "reponse": "90",
+      "explication": "360÷4=90",
+      "image": null
+    },
+    {
+      "id": "aut_23_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10 % de 4 200 = ?",
+      "choix": [
+        "400",
+        "420",
+        "440",
+        "460"
+      ],
+      "reponse": "420",
+      "explication": "4200÷10=420",
+      "image": null
+    },
+    {
+      "id": "aut_23_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "20 % de 700 = ?",
+      "choix": [
+        "120",
+        "140",
+        "160",
+        "180"
+      ],
+      "reponse": "140",
+      "explication": "700×0,2=140",
+      "image": null
+    },
+    {
+      "id": "aut_23_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 % de 1 400 = ?",
+      "choix": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "reponse": "70",
+      "explication": "10%=140, 5%=70",
+      "image": null
+    },
+    {
+      "id": "aut_23_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "15 % de 60 = ?",
+      "choix": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "reponse": "9",
+      "explication": "60×15÷100=9",
+      "image": null
+    },
+    {
+      "id": "aut_23_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "80 % de 25 = ?",
+      "choix": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "reponse": "20",
+      "explication": "4/5 de 25=20",
+      "image": null
+    },
+    {
+      "id": "aut_23_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "45 % de 200 = ?",
+      "choix": [
+        "80",
+        "90",
+        "95",
+        "100"
+      ],
+      "reponse": "90",
+      "explication": "200×45÷100=90",
+      "image": null
+    },
+    {
+      "id": "aut_23_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "60 % de 150 = ?",
+      "choix": [
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "reponse": "90",
+      "explication": "150×60÷100=90",
+      "image": null
+    },
+    {
+      "id": "aut_23_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 % de 600 = ?",
+      "choix": [
+        "15",
+        "18",
+        "21",
+        "24"
+      ],
+      "reponse": "18",
+      "explication": "600×3÷100=18",
+      "image": null
+    }
+  ]
+}

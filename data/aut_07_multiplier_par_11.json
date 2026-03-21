@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_07",
+    "label": "Multiplier par 11",
+    "icon": "🔟",
+    "color": "#0284c7"
+  },
+  "questions": [
+    {
+      "id": "aut_07_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "23 × 11 = ?",
+      "choix": [
+        "243",
+        "253",
+        "263",
+        "233"
+      ],
+      "reponse": "253",
+      "explication": "23×10+23=253",
+      "image": null
+    },
+    {
+      "id": "aut_07_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "14 × 11 = ?",
+      "choix": [
+        "144",
+        "154",
+        "164",
+        "148"
+      ],
+      "reponse": "154",
+      "explication": "14×10+14=154",
+      "image": null
+    },
+    {
+      "id": "aut_07_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "35 × 11 = ?",
+      "choix": [
+        "375",
+        "385",
+        "395",
+        "380"
+      ],
+      "reponse": "385",
+      "explication": "35×10+35=385",
+      "image": null
+    },
+    {
+      "id": "aut_07_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "42 × 11 = ?",
+      "choix": [
+        "452",
+        "462",
+        "472",
+        "460"
+      ],
+      "reponse": "462",
+      "explication": "42×10+42=462",
+      "image": null
+    },
+    {
+      "id": "aut_07_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "51 × 11 = ?",
+      "choix": [
+        "551",
+        "561",
+        "571",
+        "560"
+      ],
+      "reponse": "561",
+      "explication": "51×10+51=561",
+      "image": null
+    },
+    {
+      "id": "aut_07_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "63 × 11 = ?",
+      "choix": [
+        "683",
+        "693",
+        "703",
+        "690"
+      ],
+      "reponse": "693",
+      "explication": "63×10+63=693",
+      "image": null
+    },
+    {
+      "id": "aut_07_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "72 × 11 = ?",
+      "choix": [
+        "782",
+        "792",
+        "802",
+        "790"
+      ],
+      "reponse": "792",
+      "explication": "72×10+72=792",
+      "image": null
+    },
+    {
+      "id": "aut_07_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "81 × 11 = ?",
+      "choix": [
+        "881",
+        "891",
+        "901",
+        "890"
+      ],
+      "reponse": "891",
+      "explication": "81×10+81=891",
+      "image": null
+    },
+    {
+      "id": "aut_07_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "26 × 11 = ?",
+      "choix": [
+        "276",
+        "286",
+        "296",
+        "280"
+      ],
+      "reponse": "286",
+      "explication": "26×10+26=286",
+      "image": null
+    },
+    {
+      "id": "aut_07_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "34 × 11 = ?",
+      "choix": [
+        "364",
+        "374",
+        "384",
+        "370"
+      ],
+      "reponse": "374",
+      "explication": "34×10+34=374",
+      "image": null
+    },
+    {
+      "id": "aut_07_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "45 × 11 = ?",
+      "choix": [
+        "485",
+        "495",
+        "505",
+        "490"
+      ],
+      "reponse": "495",
+      "explication": "45×10+45=495",
+      "image": null
+    },
+    {
+      "id": "aut_07_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "53 × 11 = ?",
+      "choix": [
+        "573",
+        "583",
+        "593",
+        "580"
+      ],
+      "reponse": "583",
+      "explication": "53×10+53=583",
+      "image": null
+    },
+    {
+      "id": "aut_07_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "61 × 11 = ?",
+      "choix": [
+        "661",
+        "671",
+        "681",
+        "670"
+      ],
+      "reponse": "671",
+      "explication": "61×10+61=671",
+      "image": null
+    },
+    {
+      "id": "aut_07_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "74 × 11 = ?",
+      "choix": [
+        "804",
+        "814",
+        "824",
+        "810"
+      ],
+      "reponse": "814",
+      "explication": "74×10+74=814",
+      "image": null
+    },
+    {
+      "id": "aut_07_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "82 × 11 = ?",
+      "choix": [
+        "892",
+        "902",
+        "912",
+        "900"
+      ],
+      "reponse": "902",
+      "explication": "82×10+82=902",
+      "image": null
+    },
+    {
+      "id": "aut_07_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "91 × 11 = ?",
+      "choix": [
+        "991",
+        "1 001",
+        "1 011",
+        "1 000"
+      ],
+      "reponse": "1 001",
+      "explication": "91×10+91=1001",
+      "image": null
+    },
+    {
+      "id": "aut_07_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "47 × 11 = ?",
+      "choix": [
+        "507",
+        "517",
+        "527",
+        "515"
+      ],
+      "reponse": "517",
+      "explication": "47×10+47=517",
+      "image": null
+    },
+    {
+      "id": "aut_07_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "56 × 11 = ?",
+      "choix": [
+        "606",
+        "616",
+        "626",
+        "610"
+      ],
+      "reponse": "616",
+      "explication": "56×10+56=616",
+      "image": null
+    },
+    {
+      "id": "aut_07_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "64 × 11 = ?",
+      "choix": [
+        "694",
+        "704",
+        "714",
+        "700"
+      ],
+      "reponse": "704",
+      "explication": "64×10+64=704",
+      "image": null
+    },
+    {
+      "id": "aut_07_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "73 × 11 = ?",
+      "choix": [
+        "793",
+        "803",
+        "813",
+        "800"
+      ],
+      "reponse": "803",
+      "explication": "73×10+73=803",
+      "image": null
+    },
+    {
+      "id": "aut_07_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "85 × 11 = ?",
+      "choix": [
+        "925",
+        "935",
+        "945",
+        "930"
+      ],
+      "reponse": "935",
+      "explication": "85×10+85=935",
+      "image": null
+    },
+    {
+      "id": "aut_07_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "92 × 11 = ?",
+      "choix": [
+        "1 002",
+        "1 012",
+        "1 022",
+        "1 010"
+      ],
+      "reponse": "1 012",
+      "explication": "92×10+92=1012",
+      "image": null
+    },
+    {
+      "id": "aut_07_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "13 × 11 = ?",
+      "choix": [
+        "133",
+        "143",
+        "153",
+        "140"
+      ],
+      "reponse": "143",
+      "explication": "13×10+13=143",
+      "image": null
+    },
+    {
+      "id": "aut_07_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "31 × 11 = ?",
+      "choix": [
+        "331",
+        "341",
+        "351",
+        "340"
+      ],
+      "reponse": "341",
+      "explication": "31×10+31=341",
+      "image": null
+    },
+    {
+      "id": "aut_07_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "43 × 11 = ?",
+      "choix": [
+        "463",
+        "473",
+        "483",
+        "470"
+      ],
+      "reponse": "473",
+      "explication": "43×10+43=473",
+      "image": null
+    },
+    {
+      "id": "aut_07_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "52 × 11 = ?",
+      "choix": [
+        "562",
+        "572",
+        "582",
+        "570"
+      ],
+      "reponse": "572",
+      "explication": "52×10+52=572",
+      "image": null
+    },
+    {
+      "id": "aut_07_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "65 × 11 = ?",
+      "choix": [
+        "705",
+        "715",
+        "725",
+        "710"
+      ],
+      "reponse": "715",
+      "explication": "65×10+65=715",
+      "image": null
+    },
+    {
+      "id": "aut_07_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "71 × 11 = ?",
+      "choix": [
+        "771",
+        "781",
+        "791",
+        "780"
+      ],
+      "reponse": "781",
+      "explication": "71×10+71=781",
+      "image": null
+    },
+    {
+      "id": "aut_07_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "83 × 11 = ?",
+      "choix": [
+        "903",
+        "913",
+        "923",
+        "910"
+      ],
+      "reponse": "913",
+      "explication": "83×10+83=913",
+      "image": null
+    },
+    {
+      "id": "aut_07_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "97 × 11 = ?",
+      "choix": [
+        "1 057",
+        "1 067",
+        "1 077",
+        "1 060"
+      ],
+      "reponse": "1 067",
+      "explication": "97×10+97=1067",
+      "image": null
+    }
+  ]
+}

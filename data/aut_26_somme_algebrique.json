@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_26",
+    "label": "Calculer une somme algébrique",
+    "icon": "Σ",
+    "color": "#312e81"
+  },
+  "questions": [
+    {
+      "id": "aut_26_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 - 2 - 5 + 1 = ?",
+      "choix": [
+        "-4",
+        "-3",
+        "-2",
+        "-1"
+      ],
+      "reponse": "-3",
+      "explication": "Pos:4, Nég:7. 4-7=-3",
+      "image": null
+    },
+    {
+      "id": "aut_26_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-6 + 4 + 7 - 2 = ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "3",
+      "explication": "Pos:11, Nég:8. 3",
+      "image": null
+    },
+    {
+      "id": "aut_26_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7 - 6 - 8 + 4 = ?",
+      "choix": [
+        "-4",
+        "-3",
+        "-2",
+        "-1"
+      ],
+      "reponse": "-3",
+      "explication": "Pos:11, Nég:14. -3",
+      "image": null
+    },
+    {
+      "id": "aut_26_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "12 + 5 - 8 - 4 = ?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "17-12=5",
+      "image": null
+    },
+    {
+      "id": "aut_26_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "15 - 7 + 3 - 9 = ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "2",
+      "explication": "18-16=2",
+      "image": null
+    },
+    {
+      "id": "aut_26_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-4 + 8 - 5 + 1 = ?",
+      "choix": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "reponse": "0",
+      "explication": "9-9=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "20 - 11 - 6 + 3 = ?",
+      "choix": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "reponse": "6",
+      "explication": "23-17=6",
+      "image": null
+    },
+    {
+      "id": "aut_26_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-2 - 3 + 10 - 5 = ?",
+      "choix": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "reponse": "0",
+      "explication": "10-10=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8 - 3 + 2 - 7 = ?",
+      "choix": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "reponse": "0",
+      "explication": "10-10=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-1 + 9 - 4 - 6 = ?",
+      "choix": [
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "reponse": "-2",
+      "explication": "9-11=-2",
+      "image": null
+    },
+    {
+      "id": "aut_26_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "30 - 15 + 5 - 10 = ?",
+      "choix": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "reponse": "10",
+      "explication": "35-25=10",
+      "image": null
+    },
+    {
+      "id": "aut_26_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-8 + 3 - 2 + 9 = ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "2",
+      "explication": "12-10=2",
+      "image": null
+    },
+    {
+      "id": "aut_26_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6 - 6 + 6 - 6 = ?",
+      "choix": [
+        "-2",
+        "-1",
+        "0",
+        "1"
+      ],
+      "reponse": "0",
+      "explication": "12-12=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "14 - 9 + 2 - 8 = ?",
+      "choix": [
+        "-2",
+        "-1",
+        "0",
+        "+1"
+      ],
+      "reponse": "-1",
+      "explication": "16-17=-1",
+      "image": null
+    },
+    {
+      "id": "aut_26_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-5 + 12 - 3 - 4 = ?",
+      "choix": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "reponse": "0",
+      "explication": "12-12=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "100 - 40 - 30 - 20 = ?",
+      "choix": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "reponse": "10",
+      "explication": "100-90=10",
+      "image": null
+    },
+    {
+      "id": "aut_26_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-7 + 3 + 7 - 3 = ?",
+      "choix": [
+        "-2",
+        "-1",
+        "0",
+        "1"
+      ],
+      "reponse": "0",
+      "explication": "10-10=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "11 - 4 - 4 - 4 = ?",
+      "choix": [
+        "-2",
+        "-1",
+        "0",
+        "+1"
+      ],
+      "reponse": "-1",
+      "explication": "11-12=-1",
+      "image": null
+    },
+    {
+      "id": "aut_26_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-10 + 6 - 2 + 8 = ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "2",
+      "explication": "14-12=2",
+      "image": null
+    },
+    {
+      "id": "aut_26_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "25 - 14 + 6 - 12 = ?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "31-26=5",
+      "image": null
+    },
+    {
+      "id": "aut_26_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4 - 7 + 2 - 5 + 8 = ?",
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reponse": "2",
+      "explication": "14-12=2",
+      "image": null
+    },
+    {
+      "id": "aut_26_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-3 + 5 - 8 + 2 - 4 = ?",
+      "choix": [
+        "-10",
+        "-9",
+        "-8",
+        "-7"
+      ],
+      "reponse": "-8",
+      "explication": "7-15=-8",
+      "image": null
+    },
+    {
+      "id": "aut_26_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10 - 3 - 3 - 3 - 1 = ?",
+      "choix": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "reponse": "0",
+      "explication": "10-10=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-6 + 4 - 2 + 7 - 8 = ?",
+      "choix": [
+        "-6",
+        "-5",
+        "-4",
+        "-3"
+      ],
+      "reponse": "-5",
+      "explication": "11-16=-5",
+      "image": null
+    },
+    {
+      "id": "aut_26_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "50 - 20 - 10 + 5 - 15 = ?",
+      "choix": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "reponse": "10",
+      "explication": "55-45=10",
+      "image": null
+    },
+    {
+      "id": "aut_26_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-1 - 2 - 3 + 4 + 5 = ?",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": "3",
+      "explication": "9-6=3",
+      "image": null
+    },
+    {
+      "id": "aut_26_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "9 - 5 + 3 - 4 - 2 = ?",
+      "choix": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "reponse": "1",
+      "explication": "12-11=1",
+      "image": null
+    },
+    {
+      "id": "aut_26_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-8 + 8 - 8 + 8 = ?",
+      "choix": [
+        "-4",
+        "-2",
+        "0",
+        "2"
+      ],
+      "reponse": "0",
+      "explication": "0+0=0",
+      "image": null
+    },
+    {
+      "id": "aut_26_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7 - 3 + 2 - 8 + 5 = ?",
+      "choix": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "reponse": "3",
+      "explication": "14-11=3",
+      "image": null
+    },
+    {
+      "id": "aut_26_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-4 + 1 - 7 + 10 - 2 = ?",
+      "choix": [
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "reponse": "-2",
+      "explication": "11-13=-2",
+      "image": null
+    }
+  ]
+}

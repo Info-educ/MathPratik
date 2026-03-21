@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_34",
+    "label": "Partager selon un ratio",
+    "icon": "⚖️",
+    "color": "#064e3b"
+  },
+  "questions": [
+    {
+      "id": "aut_34_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "120 € selon 2:1. Part A = ?",
+      "choix": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "reponse": "80",
+      "explication": "3 parts. 120÷3=40. A=2×40=80",
+      "image": null
+    },
+    {
+      "id": "aut_34_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "80 € selon 5:3. Part A = ?",
+      "choix": [
+        "40",
+        "50",
+        "55",
+        "60"
+      ],
+      "reponse": "50",
+      "explication": "8 parts. 80÷8=10. A=5×10=50",
+      "image": null
+    },
+    {
+      "id": "aut_34_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "49 € selon 6:1. Part A = ?",
+      "choix": [
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "reponse": "42",
+      "explication": "7 parts. 49÷7=7. A=6×7=42",
+      "image": null
+    },
+    {
+      "id": "aut_34_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "440 € selon 3:1. Part A = ?",
+      "choix": [
+        "310",
+        "320",
+        "330",
+        "340"
+      ],
+      "reponse": "330",
+      "explication": "4 parts. 440÷4=110. A=330",
+      "image": null
+    },
+    {
+      "id": "aut_34_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "700 € selon 3:4. Part A = ?",
+      "choix": [
+        "280",
+        "300",
+        "320",
+        "340"
+      ],
+      "reponse": "300",
+      "explication": "7 parts. 700÷7=100. A=300",
+      "image": null
+    },
+    {
+      "id": "aut_34_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "350 € selon 2:3. Part A = ?",
+      "choix": [
+        "120",
+        "130",
+        "140",
+        "150"
+      ],
+      "reponse": "140",
+      "explication": "5 parts. 350÷5=70. A=140",
+      "image": null
+    },
+    {
+      "id": "aut_34_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "60 € selon 7:5. Part A = ?",
+      "choix": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "reponse": "35",
+      "explication": "12 parts. 60÷12=5. A=35",
+      "image": null
+    },
+    {
+      "id": "aut_34_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "320 € selon 3:1. Part A = ?",
+      "choix": [
+        "210",
+        "220",
+        "230",
+        "240"
+      ],
+      "reponse": "240",
+      "explication": "4 parts. 320÷4=80. A=240",
+      "image": null
+    },
+    {
+      "id": "aut_34_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "220 € selon 4:7. Part A = ?",
+      "choix": [
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "reponse": "80",
+      "explication": "11 parts. 220÷11=20. A=80",
+      "image": null
+    },
+    {
+      "id": "aut_34_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "240 € selon 1:2:3. Part C = ?",
+      "choix": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "reponse": "120",
+      "explication": "6 parts. 240÷6=40. C=120",
+      "image": null
+    },
+    {
+      "id": "aut_34_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "90 € selon 2:5:3. Part B = ?",
+      "choix": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "reponse": "45",
+      "explication": "10 parts. 90÷10=9. B=45",
+      "image": null
+    },
+    {
+      "id": "aut_34_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "125 € selon 2:1:2. Part B = ?",
+      "choix": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "reponse": "25",
+      "explication": "5 parts. 125÷5=25. B=25",
+      "image": null
+    },
+    {
+      "id": "aut_34_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "81 € selon 4:2:3. Part A = ?",
+      "choix": [
+        "30",
+        "36",
+        "40",
+        "42"
+      ],
+      "reponse": "36",
+      "explication": "9 parts. 81÷9=9. A=36",
+      "image": null
+    },
+    {
+      "id": "aut_34_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "72 € selon 1:1:4. Part C = ?",
+      "choix": [
+        "40",
+        "48",
+        "56",
+        "64"
+      ],
+      "reponse": "48",
+      "explication": "6 parts. 72÷6=12. C=48",
+      "image": null
+    },
+    {
+      "id": "aut_34_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "420 € selon 3:1:2. Part A = ?",
+      "choix": [
+        "180",
+        "190",
+        "200",
+        "210"
+      ],
+      "reponse": "210",
+      "explication": "6 parts. 420÷6=70. A=210",
+      "image": null
+    },
+    {
+      "id": "aut_34_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "45 € selon 2:3:4. Part C = ?",
+      "choix": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "reponse": "20",
+      "explication": "9 parts. 45÷9=5. C=20",
+      "image": null
+    },
+    {
+      "id": "aut_34_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "80 € selon 1:2:1. Part B = ?",
+      "choix": [
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "reponse": "40",
+      "explication": "4 parts. 80÷4=20. B=40",
+      "image": null
+    },
+    {
+      "id": "aut_34_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "360 € selon 3:2:1. Part A = ?",
+      "choix": [
+        "150",
+        "160",
+        "170",
+        "180"
+      ],
+      "reponse": "180",
+      "explication": "6 parts. 360÷6=60. A=180",
+      "image": null
+    },
+    {
+      "id": "aut_34_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "150 € selon 1:4. Part B = ?",
+      "choix": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "reponse": "120",
+      "explication": "5 parts. 150÷5=30. B=120",
+      "image": null
+    },
+    {
+      "id": "aut_34_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "200 € selon 3:2. Part A = ?",
+      "choix": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "reponse": "120",
+      "explication": "5 parts. 200÷5=40. A=120",
+      "image": null
+    },
+    {
+      "id": "aut_34_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "180 € selon 5:1. Part A = ?",
+      "choix": [
+        "140",
+        "150",
+        "160",
+        "170"
+      ],
+      "reponse": "150",
+      "explication": "6 parts. 180÷6=30. A=150",
+      "image": null
+    },
+    {
+      "id": "aut_34_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "560 € selon 3:4. Part B = ?",
+      "choix": [
+        "300",
+        "310",
+        "320",
+        "330"
+      ],
+      "reponse": "320",
+      "explication": "7 parts. 560÷7=80. B=320",
+      "image": null
+    },
+    {
+      "id": "aut_34_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "300 € selon 1:2:3. Part C = ?",
+      "choix": [
+        "130",
+        "140",
+        "150",
+        "160"
+      ],
+      "reponse": "150",
+      "explication": "6 parts. 300÷6=50. C=150",
+      "image": null
+    },
+    {
+      "id": "aut_34_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "270 € selon 4:5. Part B = ?",
+      "choix": [
+        "130",
+        "140",
+        "150",
+        "160"
+      ],
+      "reponse": "150",
+      "explication": "9 parts. 270÷9=30. B=150",
+      "image": null
+    },
+    {
+      "id": "aut_34_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "84 € selon 3:4:5. Part C = ?",
+      "choix": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "reponse": "35",
+      "explication": "12 parts. 84÷12=7. C=35",
+      "image": null
+    },
+    {
+      "id": "aut_34_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "110 € selon 1:10. Part B = ?",
+      "choix": [
+        "95",
+        "100",
+        "105",
+        "110"
+      ],
+      "reponse": "100",
+      "explication": "11 parts. 110÷11=10. B=100",
+      "image": null
+    },
+    {
+      "id": "aut_34_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "144 € selon 2:3:4. Part B = ?",
+      "choix": [
+        "40",
+        "48",
+        "56",
+        "64"
+      ],
+      "reponse": "48",
+      "explication": "9 parts. 144÷9=16. B=48",
+      "image": null
+    },
+    {
+      "id": "aut_34_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "500 € selon 1:4. Part B = ?",
+      "choix": [
+        "380",
+        "390",
+        "400",
+        "410"
+      ],
+      "reponse": "400",
+      "explication": "5 parts. 500÷5=100. B=400",
+      "image": null
+    },
+    {
+      "id": "aut_34_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "630 € selon 2:5. Part B = ?",
+      "choix": [
+        "410",
+        "420",
+        "430",
+        "450"
+      ],
+      "reponse": "450",
+      "explication": "7 parts. 630÷7=90. B=450",
+      "image": null
+    },
+    {
+      "id": "aut_34_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "120 € selon 1:3:2. Part B = ?",
+      "choix": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "reponse": "60",
+      "explication": "6 parts. 120÷6=20. B=60",
+      "image": null
+    }
+  ]
+}

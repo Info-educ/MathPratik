@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_31",
+    "label": "Calculer des périmètres et des aires",
+    "icon": "📐",
+    "color": "#1a3a4a"
+  },
+  "questions": [
+    {
+      "id": "aut_31_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre rectangle L=8cm, l=5cm",
+      "choix": [
+        "22 cm",
+        "24 cm",
+        "26 cm",
+        "28 cm"
+      ],
+      "reponse": "26 cm",
+      "explication": "2(8+5)=26 cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre carré côté 9 m",
+      "choix": [
+        "27 m",
+        "36 m",
+        "45 m",
+        "54 m"
+      ],
+      "reponse": "36 m",
+      "explication": "4×9=36 m",
+      "image": null
+    },
+    {
+      "id": "aut_31_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre triangle côtés 7,5,6 cm",
+      "choix": [
+        "16 cm",
+        "18 cm",
+        "20 cm",
+        "22 cm"
+      ],
+      "reponse": "18 cm",
+      "explication": "7+5+6=18 cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Longueur cercle rayon 4 cm (exacte)",
+      "choix": [
+        "4π cm",
+        "6π cm",
+        "8π cm",
+        "12π cm"
+      ],
+      "reponse": "8π cm",
+      "explication": "2π×4=8π cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Longueur cercle diamètre 10 m (exacte)",
+      "choix": [
+        "5π m",
+        "10π m",
+        "15π m",
+        "20π m"
+      ],
+      "reponse": "10π m",
+      "explication": "π×10=10π m",
+      "image": null
+    },
+    {
+      "id": "aut_31_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre rectangle L=12m, l=3m",
+      "choix": [
+        "28 m",
+        "30 m",
+        "32 m",
+        "34 m"
+      ],
+      "reponse": "30 m",
+      "explication": "2(12+3)=30 m",
+      "image": null
+    },
+    {
+      "id": "aut_31_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre carré côté 7 cm",
+      "choix": [
+        "21 cm",
+        "28 cm",
+        "35 cm",
+        "42 cm"
+      ],
+      "reponse": "28 cm",
+      "explication": "4×7=28 cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre triangle équilatéral côté 11 cm",
+      "choix": [
+        "22 cm",
+        "33 cm",
+        "44 cm",
+        "55 cm"
+      ],
+      "reponse": "33 cm",
+      "explication": "3×11=33 cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Longueur cercle rayon 6 cm (exacte)",
+      "choix": [
+        "6π cm",
+        "8π cm",
+        "12π cm",
+        "18π cm"
+      ],
+      "reponse": "12π cm",
+      "explication": "2π×6=12π cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre rectangle L=20m, l=8m",
+      "choix": [
+        "48 m",
+        "52 m",
+        "56 m",
+        "60 m"
+      ],
+      "reponse": "56 m",
+      "explication": "2(20+8)=56 m",
+      "image": null
+    },
+    {
+      "id": "aut_31_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire rectangle L=6cm, l=4cm",
+      "choix": [
+        "20 cm²",
+        "24 cm²",
+        "28 cm²",
+        "32 cm²"
+      ],
+      "reponse": "24 cm²",
+      "explication": "6×4=24 cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire carré côté 5 m",
+      "choix": [
+        "15 m²",
+        "20 m²",
+        "25 m²",
+        "30 m²"
+      ],
+      "reponse": "25 m²",
+      "explication": "5²=25 m²",
+      "image": null
+    },
+    {
+      "id": "aut_31_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire triangle base=10cm, h=6cm",
+      "choix": [
+        "24 cm²",
+        "28 cm²",
+        "30 cm²",
+        "36 cm²"
+      ],
+      "reponse": "30 cm²",
+      "explication": "(10×6)÷2=30 cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire disque rayon 3 cm (exacte)",
+      "choix": [
+        "3π cm²",
+        "6π cm²",
+        "9π cm²",
+        "12π cm²"
+      ],
+      "reponse": "9π cm²",
+      "explication": "π×3²=9π cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire rectangle L=9m, l=4m",
+      "choix": [
+        "30 m²",
+        "32 m²",
+        "34 m²",
+        "36 m²"
+      ],
+      "reponse": "36 m²",
+      "explication": "9×4=36 m²",
+      "image": null
+    },
+    {
+      "id": "aut_31_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire carré côté 12 cm",
+      "choix": [
+        "100 cm²",
+        "120 cm²",
+        "144 cm²",
+        "168 cm²"
+      ],
+      "reponse": "144 cm²",
+      "explication": "12²=144 cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire triangle base=8m, h=5m",
+      "choix": [
+        "15 m²",
+        "20 m²",
+        "25 m²",
+        "30 m²"
+      ],
+      "reponse": "20 m²",
+      "explication": "(8×5)÷2=20 m²",
+      "image": null
+    },
+    {
+      "id": "aut_31_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire disque rayon 5 cm (exacte)",
+      "choix": [
+        "10π cm²",
+        "20π cm²",
+        "25π cm²",
+        "30π cm²"
+      ],
+      "reponse": "25π cm²",
+      "explication": "π×5²=25π cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire rectangle L=15cm, l=7cm",
+      "choix": [
+        "95 cm²",
+        "100 cm²",
+        "105 cm²",
+        "110 cm²"
+      ],
+      "reponse": "105 cm²",
+      "explication": "15×7=105 cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire carré côté 3 m",
+      "choix": [
+        "6 m²",
+        "8 m²",
+        "9 m²",
+        "12 m²"
+      ],
+      "reponse": "9 m²",
+      "explication": "3²=9 m²",
+      "image": null
+    },
+    {
+      "id": "aut_31_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire triangle base=14cm, h=6cm",
+      "choix": [
+        "38 cm²",
+        "42 cm²",
+        "46 cm²",
+        "48 cm²"
+      ],
+      "reponse": "42 cm²",
+      "explication": "(14×6)÷2=42 cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire disque diamètre 8cm (exacte)",
+      "choix": [
+        "8π cm²",
+        "12π cm²",
+        "16π cm²",
+        "20π cm²"
+      ],
+      "reponse": "16π cm²",
+      "explication": "r=4, π×4²=16π cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre carré d'aire 49 cm²",
+      "choix": [
+        "24 cm",
+        "26 cm",
+        "28 cm",
+        "30 cm"
+      ],
+      "reponse": "28 cm",
+      "explication": "côté=7, 4×7=28 cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire carré de périmètre 36 m",
+      "choix": [
+        "64 m²",
+        "81 m²",
+        "100 m²",
+        "121 m²"
+      ],
+      "reponse": "81 m²",
+      "explication": "côté=9, 9²=81 m²",
+      "image": null
+    },
+    {
+      "id": "aut_31_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Longueur cercle rayon 3 m (exacte)",
+      "choix": [
+        "3π m",
+        "5π m",
+        "6π m",
+        "9π m"
+      ],
+      "reponse": "6π m",
+      "explication": "2π×3=6π m",
+      "image": null
+    },
+    {
+      "id": "aut_31_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire rectangle L=100m, l=25m",
+      "choix": [
+        "2000 m²",
+        "2500 m²",
+        "3000 m²",
+        "3500 m²"
+      ],
+      "reponse": "2500 m²",
+      "explication": "100×25=2500 m²",
+      "image": null
+    },
+    {
+      "id": "aut_31_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire disque rayon 10 cm (exacte)",
+      "choix": [
+        "50π cm²",
+        "75π cm²",
+        "100π cm²",
+        "125π cm²"
+      ],
+      "reponse": "100π cm²",
+      "explication": "π×10²=100π cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Périmètre triangle isocèle base=6cm, côtés=8cm",
+      "choix": [
+        "18 cm",
+        "20 cm",
+        "22 cm",
+        "24 cm"
+      ],
+      "reponse": "22 cm",
+      "explication": "6+8+8=22 cm",
+      "image": null
+    },
+    {
+      "id": "aut_31_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire triangle base=5cm, h=12cm",
+      "choix": [
+        "28 cm²",
+        "30 cm²",
+        "32 cm²",
+        "34 cm²"
+      ],
+      "reponse": "30 cm²",
+      "explication": "(5×12)÷2=30 cm²",
+      "image": null
+    },
+    {
+      "id": "aut_31_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Aire disque rayon 2 cm (exacte)",
+      "choix": [
+        "2π cm²",
+        "4π cm²",
+        "6π cm²",
+        "8π cm²"
+      ],
+      "reponse": "4π cm²",
+      "explication": "π×2²=4π cm²",
+      "image": null
+    }
+  ]
+}

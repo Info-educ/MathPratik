@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_15",
+    "label": "Prendre une fraction d'un nombre",
+    "icon": "🧮",
+    "color": "#78350f"
+  },
+  "questions": [
+    {
+      "id": "aut_15_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3/4 de 32 = ?",
+      "choix": [
+        "20",
+        "24",
+        "28",
+        "16"
+      ],
+      "reponse": "24",
+      "explication": "32×3÷4=24",
+      "image": null
+    },
+    {
+      "id": "aut_15_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2/5 de 35 = ?",
+      "choix": [
+        "10",
+        "14",
+        "16",
+        "18"
+      ],
+      "reponse": "14",
+      "explication": "35×2÷5=14",
+      "image": null
+    },
+    {
+      "id": "aut_15_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5/6 de 24 = ?",
+      "choix": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "reponse": "20",
+      "explication": "24×5÷6=20",
+      "image": null
+    },
+    {
+      "id": "aut_15_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3/7 de 49 = ?",
+      "choix": [
+        "18",
+        "21",
+        "24",
+        "27"
+      ],
+      "reponse": "21",
+      "explication": "49×3÷7=21",
+      "image": null
+    },
+    {
+      "id": "aut_15_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7/8 de 64 = ?",
+      "choix": [
+        "48",
+        "56",
+        "60",
+        "64"
+      ],
+      "reponse": "56",
+      "explication": "64×7÷8=56",
+      "image": null
+    },
+    {
+      "id": "aut_15_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4/9 de 81 = ?",
+      "choix": [
+        "28",
+        "32",
+        "36",
+        "40"
+      ],
+      "reponse": "36",
+      "explication": "81×4÷9=36",
+      "image": null
+    },
+    {
+      "id": "aut_15_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5/12 de 60 = ?",
+      "choix": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "reponse": "25",
+      "explication": "60×5÷12=25",
+      "image": null
+    },
+    {
+      "id": "aut_15_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2/3 de 45 = ?",
+      "choix": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "reponse": "30",
+      "explication": "45×2÷3=30",
+      "image": null
+    },
+    {
+      "id": "aut_15_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3/5 de 75 = ?",
+      "choix": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "reponse": "45",
+      "explication": "75×3÷5=45",
+      "image": null
+    },
+    {
+      "id": "aut_15_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7/10 de 90 = ?",
+      "choix": [
+        "56",
+        "63",
+        "70",
+        "77"
+      ],
+      "reponse": "63",
+      "explication": "90×7÷10=63",
+      "image": null
+    },
+    {
+      "id": "aut_15_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1/4 de 100 = ?",
+      "choix": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "reponse": "25",
+      "explication": "100÷4=25",
+      "image": null
+    },
+    {
+      "id": "aut_15_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5/8 de 40 = ?",
+      "choix": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "reponse": "25",
+      "explication": "40×5÷8=25",
+      "image": null
+    },
+    {
+      "id": "aut_15_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4/7 de 63 = ?",
+      "choix": [
+        "30",
+        "36",
+        "40",
+        "42"
+      ],
+      "reponse": "36",
+      "explication": "63×4÷7=36",
+      "image": null
+    },
+    {
+      "id": "aut_15_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3/11 de 88 = ?",
+      "choix": [
+        "20",
+        "24",
+        "30",
+        "36"
+      ],
+      "reponse": "24",
+      "explication": "88×3÷11=24",
+      "image": null
+    },
+    {
+      "id": "aut_15_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "9/10 de 50 = ?",
+      "choix": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "reponse": "45",
+      "explication": "50×9÷10=45",
+      "image": null
+    },
+    {
+      "id": "aut_15_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2/9 de 72 = ?",
+      "choix": [
+        "14",
+        "16",
+        "18",
+        "20"
+      ],
+      "reponse": "16",
+      "explication": "72×2÷9=16",
+      "image": null
+    },
+    {
+      "id": "aut_15_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5/7 de 56 = ?",
+      "choix": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "reponse": "40",
+      "explication": "56×5÷7=40",
+      "image": null
+    },
+    {
+      "id": "aut_15_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7/12 de 96 = ?",
+      "choix": [
+        "52",
+        "56",
+        "60",
+        "66"
+      ],
+      "reponse": "56",
+      "explication": "96×7÷12=56",
+      "image": null
+    },
+    {
+      "id": "aut_15_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4/5 de 120 = ?",
+      "choix": [
+        "80",
+        "88",
+        "96",
+        "100"
+      ],
+      "reponse": "96",
+      "explication": "120×4÷5=96",
+      "image": null
+    },
+    {
+      "id": "aut_15_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3/8 de 160 = ?",
+      "choix": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "reponse": "60",
+      "explication": "160×3÷8=60",
+      "image": null
+    },
+    {
+      "id": "aut_15_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5/9 de 54 = ?",
+      "choix": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "reponse": "30",
+      "explication": "54×5÷9=30",
+      "image": null
+    },
+    {
+      "id": "aut_15_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7/11 de 99 = ?",
+      "choix": [
+        "56",
+        "63",
+        "70",
+        "77"
+      ],
+      "reponse": "63",
+      "explication": "99×7÷11=63",
+      "image": null
+    },
+    {
+      "id": "aut_15_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2/7 de 84 = ?",
+      "choix": [
+        "20",
+        "24",
+        "28",
+        "32"
+      ],
+      "reponse": "24",
+      "explication": "84×2÷7=24",
+      "image": null
+    },
+    {
+      "id": "aut_15_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "9/16 de 48 = ?",
+      "choix": [
+        "24",
+        "27",
+        "30",
+        "33"
+      ],
+      "reponse": "27",
+      "explication": "48×9÷16=27",
+      "image": null
+    },
+    {
+      "id": "aut_15_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5/6 de 36 = ?",
+      "choix": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "reponse": "30",
+      "explication": "36×5÷6=30",
+      "image": null
+    },
+    {
+      "id": "aut_15_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "11/12 de 108 = ?",
+      "choix": [
+        "88",
+        "99",
+        "110",
+        "121"
+      ],
+      "reponse": "99",
+      "explication": "108×11÷12=99",
+      "image": null
+    },
+    {
+      "id": "aut_15_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3/10 de 200 = ?",
+      "choix": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "reponse": "60",
+      "explication": "200×3÷10=60",
+      "image": null
+    },
+    {
+      "id": "aut_15_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7/9 de 63 = ?",
+      "choix": [
+        "42",
+        "49",
+        "56",
+        "63"
+      ],
+      "reponse": "49",
+      "explication": "63×7÷9=49",
+      "image": null
+    },
+    {
+      "id": "aut_15_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4/11 de 55 = ?",
+      "choix": [
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "reponse": "20",
+      "explication": "55×4÷11=20",
+      "image": null
+    },
+    {
+      "id": "aut_15_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6/7 de 35 = ?",
+      "choix": [
+        "24",
+        "30",
+        "36",
+        "42"
+      ],
+      "reponse": "30",
+      "explication": "35×6÷7=30",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_36",
+    "label": "Traduire une phrase en expression",
+    "icon": "💬",
+    "color": "#065f46"
+  },
+  "questions": [
+    {
+      "id": "aut_36_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La somme de a et b",
+      "choix": [
+        "a-b",
+        "a×b",
+        "a+b",
+        "a÷b"
+      ],
+      "reponse": "a+b",
+      "explication": "somme = +",
+      "image": null
+    },
+    {
+      "id": "aut_36_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La différence entre x et 5",
+      "choix": [
+        "x+5",
+        "x×5",
+        "x-5",
+        "5-x"
+      ],
+      "reponse": "x-5",
+      "explication": "différence = -",
+      "image": null
+    },
+    {
+      "id": "aut_36_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le produit de m par 7",
+      "choix": [
+        "m+7",
+        "m-7",
+        "7m",
+        "m/7"
+      ],
+      "reponse": "7m",
+      "explication": "produit = ×",
+      "image": null
+    },
+    {
+      "id": "aut_36_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le quotient de n par 4",
+      "choix": [
+        "4n",
+        "n-4",
+        "n+4",
+        "n/4"
+      ],
+      "reponse": "n/4",
+      "explication": "quotient = ÷",
+      "image": null
+    },
+    {
+      "id": "aut_36_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le double de a",
+      "choix": [
+        "a+2",
+        "a²",
+        "2a",
+        "a/2"
+      ],
+      "reponse": "2a",
+      "explication": "double = ×2",
+      "image": null
+    },
+    {
+      "id": "aut_36_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La moitié de x",
+      "choix": [
+        "2x",
+        "x/2",
+        "x+2",
+        "x-2"
+      ],
+      "reponse": "x/2",
+      "explication": "moitié = ÷2",
+      "image": null
+    },
+    {
+      "id": "aut_36_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le triple de y",
+      "choix": [
+        "y+3",
+        "y²",
+        "3y",
+        "y/3"
+      ],
+      "reponse": "3y",
+      "explication": "triple = ×3",
+      "image": null
+    },
+    {
+      "id": "aut_36_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le tiers de z",
+      "choix": [
+        "3z",
+        "z+3",
+        "z/3",
+        "z-3"
+      ],
+      "reponse": "z/3",
+      "explication": "tiers = ÷3",
+      "image": null
+    },
+    {
+      "id": "aut_36_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le quadruple de p",
+      "choix": [
+        "p+4",
+        "4p",
+        "p/4",
+        "p²"
+      ],
+      "reponse": "4p",
+      "explication": "quadruple = ×4",
+      "image": null
+    },
+    {
+      "id": "aut_36_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le quart de q",
+      "choix": [
+        "4q",
+        "q-4",
+        "q/4",
+        "q+4"
+      ],
+      "reponse": "q/4",
+      "explication": "quart = ÷4",
+      "image": null
+    },
+    {
+      "id": "aut_36_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La somme du double de a et de 3",
+      "choix": [
+        "2a×3",
+        "2a+3",
+        "2(a+3)",
+        "a+3"
+      ],
+      "reponse": "2a+3",
+      "explication": "2a+3",
+      "image": null
+    },
+    {
+      "id": "aut_36_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La différence entre 10 et le triple de x",
+      "choix": [
+        "10+3x",
+        "3x-10",
+        "10-3x",
+        "10×3x"
+      ],
+      "reponse": "10-3x",
+      "explication": "10-3x",
+      "image": null
+    },
+    {
+      "id": "aut_36_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le produit du double de m par 5",
+      "choix": [
+        "2m+5",
+        "10m",
+        "2m×5",
+        "5m+2"
+      ],
+      "reponse": "10m",
+      "explication": "2m×5=10m",
+      "image": null
+    },
+    {
+      "id": "aut_36_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le quotient du quadruple de t par 8",
+      "choix": [
+        "4t+8",
+        "4t/8",
+        "t/2",
+        "8/4t"
+      ],
+      "reponse": "4t/8",
+      "explication": "4t÷8",
+      "image": null
+    },
+    {
+      "id": "aut_36_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La somme du carré de x et de x",
+      "choix": [
+        "2x",
+        "x+x",
+        "x²+x",
+        "x²×x"
+      ],
+      "reponse": "x²+x",
+      "explication": "x²+x",
+      "image": null
+    },
+    {
+      "id": "aut_36_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: 2a + 3",
+      "choix": [
+        "Le carré de a plus 3",
+        "Le double de a augmenté de 3",
+        "2 fois 3 plus a",
+        "Le double de a moins 3"
+      ],
+      "reponse": "Le double de a augmenté de 3",
+      "explication": "2a+3",
+      "image": null
+    },
+    {
+      "id": "aut_36_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: 5x - 1",
+      "choix": [
+        "Le quintuple de x diminué de 1",
+        "5 fois x plus 1",
+        "Le carré de x moins 1",
+        "Le quintuple de x plus 1"
+      ],
+      "reponse": "Le quintuple de x diminué de 1",
+      "explication": "5x-1",
+      "image": null
+    },
+    {
+      "id": "aut_36_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: (a+b) ÷ 2",
+      "choix": [
+        "La différence de a et b sur 2",
+        "La somme de a et b divisée par 2",
+        "a fois b sur 2",
+        "a plus b fois 2"
+      ],
+      "reponse": "La somme de a et b divisée par 2",
+      "explication": "(a+b)÷2",
+      "image": null
+    },
+    {
+      "id": "aut_36_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: 3(x+2)",
+      "choix": [
+        "Le triple de la somme de x et 2",
+        "3 plus x plus 2",
+        "x fois 3 plus 2",
+        "Le carré de x plus 6"
+      ],
+      "reponse": "Le triple de la somme de x et 2",
+      "explication": "3(x+2)",
+      "image": null
+    },
+    {
+      "id": "aut_36_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: a² - a",
+      "choix": [
+        "Le carré de a diminué de a",
+        "a fois a plus a",
+        "Le double de a moins a",
+        "a plus a au carré"
+      ],
+      "reponse": "Le carré de a diminué de a",
+      "explication": "a²-a",
+      "image": null
+    },
+    {
+      "id": "aut_36_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La somme du double de a et du tiers de a",
+      "choix": [
+        "2a+a/3",
+        "2a-a/3",
+        "a/3-2a",
+        "6a/3"
+      ],
+      "reponse": "2a+a/3",
+      "explication": "2a+a/3",
+      "image": null
+    },
+    {
+      "id": "aut_36_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La différence entre 2 et le tiers de a",
+      "choix": [
+        "2+a/3",
+        "a/3-2",
+        "2-a/3",
+        "2×a/3"
+      ],
+      "reponse": "2-a/3",
+      "explication": "2-a/3",
+      "image": null
+    },
+    {
+      "id": "aut_36_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le triple de la somme de x et 4",
+      "choix": [
+        "3x+4",
+        "3(x+4)",
+        "x+4×3",
+        "3x+12"
+      ],
+      "reponse": "3(x+4)",
+      "explication": "3(x+4)",
+      "image": null
+    },
+    {
+      "id": "aut_36_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le double de la différence entre y et 3",
+      "choix": [
+        "2y-3",
+        "2y+3",
+        "2(y-3)",
+        "y-6"
+      ],
+      "reponse": "2(y-3)",
+      "explication": "2(y-3)",
+      "image": null
+    },
+    {
+      "id": "aut_36_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le carré de la somme de a et b",
+      "choix": [
+        "a²+b²",
+        "(a+b)",
+        "(a+b)²",
+        "2(a+b)"
+      ],
+      "reponse": "(a+b)²",
+      "explication": "(a+b)²",
+      "image": null
+    },
+    {
+      "id": "aut_36_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: n/3 - 8",
+      "choix": [
+        "Le tiers de n diminué de 8",
+        "8 moins n sur 3",
+        "Le tiers de n augmenté de 8",
+        "n fois 8 sur 3"
+      ],
+      "reponse": "Le tiers de n diminué de 8",
+      "explication": "n/3-8",
+      "image": null
+    },
+    {
+      "id": "aut_36_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: 3(x+4)",
+      "choix": [
+        "Le triple de x plus 4",
+        "Le triple de la somme de x et 4",
+        "3 fois x plus 4",
+        "x plus 4 au carré"
+      ],
+      "reponse": "Le triple de la somme de x et 4",
+      "explication": "3(x+4)",
+      "image": null
+    },
+    {
+      "id": "aut_36_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Traduis: 2b - 15",
+      "choix": [
+        "Le double de b augmenté de 15",
+        "Le double de b diminué de 15",
+        "15 moins le double de b",
+        "b plus 15 fois 2"
+      ],
+      "reponse": "Le double de b diminué de 15",
+      "explication": "2b-15",
+      "image": null
+    },
+    {
+      "id": "aut_36_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Le quotient de (m+n) par 5",
+      "choix": [
+        "(m+n)×5",
+        "(m+n)/5",
+        "m+n/5",
+        "5(m+n)"
+      ],
+      "reponse": "(m+n)/5",
+      "explication": "(m+n)/5",
+      "image": null
+    },
+    {
+      "id": "aut_36_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "La somme du carré de x et du carré de y",
+      "choix": [
+        "x²×y²",
+        "(x+y)²",
+        "x²+y²",
+        "x+y²"
+      ],
+      "reponse": "x²+y²",
+      "explication": "x²+y²",
+      "image": null
+    }
+  ]
+}

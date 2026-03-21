@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_30",
+    "label": "Convertir des mesures",
+    "icon": "📏",
+    "color": "#134e4a"
+  },
+  "questions": [
+    {
+      "id": "aut_30_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4,5 dam = ? m",
+      "choix": [
+        "40",
+        "45",
+        "450",
+        "4500"
+      ],
+      "reponse": "45",
+      "explication": "4,5×10=45 m",
+      "image": null
+    },
+    {
+      "id": "aut_30_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "28 g = ? dag",
+      "choix": [
+        "0,28",
+        "2,8",
+        "280",
+        "2800"
+      ],
+      "reponse": "2,8",
+      "explication": "28÷10=2,8 dag",
+      "image": null
+    },
+    {
+      "id": "aut_30_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3,5 L = ? cL",
+      "choix": [
+        "3,5",
+        "35",
+        "350",
+        "3500"
+      ],
+      "reponse": "350",
+      "explication": "3,5×100=350 cL",
+      "image": null
+    },
+    {
+      "id": "aut_30_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2,7 km = ? m",
+      "choix": [
+        "27",
+        "270",
+        "2700",
+        "27000"
+      ],
+      "reponse": "2700",
+      "explication": "2,7×1000=2700 m",
+      "image": null
+    },
+    {
+      "id": "aut_30_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "350 mL = ? L",
+      "choix": [
+        "0,035",
+        "0,35",
+        "3,5",
+        "35"
+      ],
+      "reponse": "0,35",
+      "explication": "350÷1000=0,35 L",
+      "image": null
+    },
+    {
+      "id": "aut_30_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "12 ha = ? m²",
+      "choix": [
+        "120",
+        "1200",
+        "12000",
+        "120000"
+      ],
+      "reponse": "120000",
+      "explication": "12×10000=120000 m²",
+      "image": null
+    },
+    {
+      "id": "aut_30_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5,63 a = ? m²",
+      "choix": [
+        "5,63",
+        "56,3",
+        "563",
+        "5630"
+      ],
+      "reponse": "563",
+      "explication": "5,63×100=563 m²",
+      "image": null
+    },
+    {
+      "id": "aut_30_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3,5 m³ = ? dm³",
+      "choix": [
+        "3,5",
+        "35",
+        "350",
+        "3500"
+      ],
+      "reponse": "3500",
+      "explication": "3,5×1000=3500 dm³",
+      "image": null
+    },
+    {
+      "id": "aut_30_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4,2 L = ? dL",
+      "choix": [
+        "0,42",
+        "4,2",
+        "42",
+        "420"
+      ],
+      "reponse": "42",
+      "explication": "4,2×10=42 dL",
+      "image": null
+    },
+    {
+      "id": "aut_30_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1 dm³ = ? L",
+      "choix": [
+        "0,1",
+        "1",
+        "10",
+        "100"
+      ],
+      "reponse": "1",
+      "explication": "1 dm³=1 L",
+      "image": null
+    },
+    {
+      "id": "aut_30_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7 hm² = ? m²",
+      "choix": [
+        "700",
+        "7000",
+        "70000",
+        "700000"
+      ],
+      "reponse": "70000",
+      "explication": "7×10000=70000 m²",
+      "image": null
+    },
+    {
+      "id": "aut_30_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,45 km = ? m",
+      "choix": [
+        "4,5",
+        "45",
+        "450",
+        "4500"
+      ],
+      "reponse": "450",
+      "explication": "0,45×1000=450 m",
+      "image": null
+    },
+    {
+      "id": "aut_30_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 600 g = ? kg",
+      "choix": [
+        "0,36",
+        "3,6",
+        "36",
+        "360"
+      ],
+      "reponse": "3,6",
+      "explication": "3600÷1000=3,6 kg",
+      "image": null
+    },
+    {
+      "id": "aut_30_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 kL = ? L",
+      "choix": [
+        "50",
+        "500",
+        "5000",
+        "50000"
+      ],
+      "reponse": "5000",
+      "explication": "5×1000=5000 L",
+      "image": null
+    },
+    {
+      "id": "aut_30_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,08 m = ? cm",
+      "choix": [
+        "0,8",
+        "8",
+        "80",
+        "800"
+      ],
+      "reponse": "8",
+      "explication": "0,08×100=8 cm",
+      "image": null
+    },
+    {
+      "id": "aut_30_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2,4 dm² = ? cm²",
+      "choix": [
+        "24",
+        "240",
+        "2400",
+        "24000"
+      ],
+      "reponse": "240",
+      "explication": "2,4×100=240 cm²",
+      "image": null
+    },
+    {
+      "id": "aut_30_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "500 cm³ = ? dm³",
+      "choix": [
+        "0,05",
+        "0,5",
+        "5",
+        "50"
+      ],
+      "reponse": "0,5",
+      "explication": "500÷1000=0,5 dm³",
+      "image": null
+    },
+    {
+      "id": "aut_30_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6 500 m² = ? ha",
+      "choix": [
+        "0,065",
+        "0,65",
+        "6,5",
+        "65"
+      ],
+      "reponse": "0,65",
+      "explication": "6500÷10000=0,65 ha",
+      "image": null
+    },
+    {
+      "id": "aut_30_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1,5 m³ = ? dm³",
+      "choix": [
+        "15",
+        "150",
+        "1500",
+        "15000"
+      ],
+      "reponse": "1500",
+      "explication": "1,5×1000=1500 dm³",
+      "image": null
+    },
+    {
+      "id": "aut_30_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "250 dm = ? m",
+      "choix": [
+        "2,5",
+        "25",
+        "250",
+        "2500"
+      ],
+      "reponse": "25",
+      "explication": "250÷10=25 m",
+      "image": null
+    },
+    {
+      "id": "aut_30_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "72 mL = ? cL",
+      "choix": [
+        "0,72",
+        "7,2",
+        "72",
+        "720"
+      ],
+      "reponse": "7,2",
+      "explication": "72÷10=7,2 cL",
+      "image": null
+    },
+    {
+      "id": "aut_30_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3,6 hg = ? g",
+      "choix": [
+        "36",
+        "360",
+        "3600",
+        "36000"
+      ],
+      "reponse": "360",
+      "explication": "3,6×100=360 g",
+      "image": null
+    },
+    {
+      "id": "aut_30_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4 800 dm³ = ? m³",
+      "choix": [
+        "0,48",
+        "4,8",
+        "48",
+        "480"
+      ],
+      "reponse": "4,8",
+      "explication": "4800÷1000=4,8 m³",
+      "image": null
+    },
+    {
+      "id": "aut_30_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8 cm² = ? mm²",
+      "choix": [
+        "8",
+        "80",
+        "800",
+        "8000"
+      ],
+      "reponse": "800",
+      "explication": "8×100=800 mm²",
+      "image": null
+    },
+    {
+      "id": "aut_30_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1,2 m³ = ? dm³",
+      "choix": [
+        "12",
+        "120",
+        "1200",
+        "12000"
+      ],
+      "reponse": "1200",
+      "explication": "1,2×1000=1200 dm³",
+      "image": null
+    },
+    {
+      "id": "aut_30_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7 200 dm³ = ? m³",
+      "choix": [
+        "0,72",
+        "7,2",
+        "72",
+        "720"
+      ],
+      "reponse": "7,2",
+      "explication": "7200÷1000=7,2 m³",
+      "image": null
+    },
+    {
+      "id": "aut_30_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,006 km = ? m",
+      "choix": [
+        "0,6",
+        "6",
+        "60",
+        "600"
+      ],
+      "reponse": "6",
+      "explication": "0,006×1000=6 m",
+      "image": null
+    },
+    {
+      "id": "aut_30_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 dm² = ? m²",
+      "choix": [
+        "0,005",
+        "0,05",
+        "0,5",
+        "5"
+      ],
+      "reponse": "0,05",
+      "explication": "5÷100=0,05 m²",
+      "image": null
+    },
+    {
+      "id": "aut_30_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "120 min = ? h",
+      "choix": [
+        "1",
+        "1,5",
+        "2",
+        "2,5"
+      ],
+      "reponse": "2",
+      "explication": "120÷60=2 h",
+      "image": null
+    },
+    {
+      "id": "aut_30_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2,5 dm = ? cm",
+      "choix": [
+        "2,5",
+        "25",
+        "250",
+        "2500"
+      ],
+      "reponse": "25",
+      "explication": "2,5×10=25 cm",
+      "image": null
+    }
+  ]
+}
