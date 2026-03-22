@@ -106,6 +106,16 @@
       "id": "calcul_litteral_5eme",
       "fichier": "data/5eme/calcul_litteral_5eme.json",
       "niveau": "5eme"
+    },
+    {
+      "id": "nombres_premiers_5eme",
+      "fichier": "data/5eme/nombres_premiers_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "aire_perimetre_5eme",
+      "fichier": "data/5eme/aire_perimetre_5eme.json",
+      "niveau": "5eme"
     }
   ],
   "automatismes_notions": [
