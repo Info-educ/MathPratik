@@ -146,6 +146,16 @@
       "id":      "statistiques_5eme",
       "fichier": "data/5eme/statistiques_5eme.json",
       "niveau":  "5eme"
+    },
+    {
+      "id":      "geometrie_triangles_5eme",
+      "fichier": "data/5eme/geometrie_triangles_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "fractions_5eme",
+      "fichier": "data/5eme/fractions_5eme.json",
+      "niveau":  "5eme"
     }
   ],
   "automatismes_notions": [
