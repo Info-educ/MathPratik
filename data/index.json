@@ -81,6 +81,16 @@
       "id": "transformations_4eme",
       "fichier": "data/transformations_4eme.json",
       "niveau": "4eme"
+    },
+    {
+      "id": "volumes_4eme",
+      "fichier": "data/volumes_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id": "triangles_egaux_4eme",
+      "fichier": "data/triangles_egaux_4eme.json",
+      "niveau": "4eme"
     }
   ],
   "automatismes_notions": [
