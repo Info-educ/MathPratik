@@ -530,18 +530,19 @@ function renderQuestion() {
   // Pour les types visuels, adapter l'énoncé affiché
   const qtextEl = document.getElementById('q-text');
   if (q.type === 'diviseurs_multi') {
-    qtextEl.textContent = q.enonce;
+    setMathText(qtextEl, q.enonce);
   } else if (q.type === 'tableau_proportionnalite') {
-    qtextEl.textContent = 'Complète le tableau de proportionnalité :';
+    setMathText(qtextEl, 'Complète le tableau de proportionnalité :');
   } else if (q.type === 'programme_calcul') {
-    qtextEl.textContent = q.question_type === 'litterale'
+    setMathText(qtextEl, q.question_type === 'litterale'
       ? 'Quelle expression le programme produit-il ?'
-      : 'Applique le programme et trouve le résultat :';
+      : 'Applique le programme et trouve le résultat :');
   } else if (q.enonce_html) {
     // Support HTML enrichi dans l'énoncé (tableaux, formules, etc.)
     qtextEl.innerHTML = q.enonce_html;
+    renderMath(qtextEl);
   } else {
-    qtextEl.textContent = q.enonce;
+    setMathText(qtextEl, q.enonce);
   }
 
   // Image optionnelle
@@ -586,7 +587,15 @@ function renderQuestion() {
       const btn = document.createElement('button');
       btn.className   = 'choice-btn';
       btn.dataset.val = choix;
-      btn.innerHTML   = `<span class="choice-letter">${letters[i]}</span><span>${escapeHtml(choix)}</span>`;
+      // Lettre + texte du choix (KaTeX rendu après injection)
+      const letterSpan = document.createElement('span');
+      letterSpan.className = 'choice-letter';
+      letterSpan.textContent = letters[i];
+      const textSpan = document.createElement('span');
+      textSpan.textContent = choix;
+      btn.appendChild(letterSpan);
+      btn.appendChild(textSpan);
+      renderMath(textSpan);
       btn.addEventListener('click', () => handleAnswer(choix, q));
       list.appendChild(btn);
     });
@@ -841,7 +850,7 @@ function afficherFeedback(isCorrect, question) {
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
-  document.getElementById('feedback-text').textContent = question.explication || '';
+  setMathText(document.getElementById('feedback-text'), question.explication || '');
   document.getElementById('quiz-score-live').textContent =
     `${State.sessionCorrect}/${State.sessionTotal}`;
 
@@ -897,7 +906,7 @@ function handleAnswer(chosen, question) {
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
-  document.getElementById('feedback-text').textContent = question.explication || '';
+  setMathText(document.getElementById('feedback-text'), question.explication || '');
   document.getElementById('quiz-score-live').textContent = `${State.sessionCorrect}/${State.sessionTotal}`;
 
   const btnNext = document.getElementById('btn-next');
@@ -920,8 +929,10 @@ function nextQuestion() {
   const fb = document.getElementById('feedback-box');
   if (fb.classList.contains('wrong')) {
     const q = State.quizQuestions[State.currentQIndex];
-    document.getElementById('fail-question-preview').textContent =
-      `Bloqué à la question ${State.currentQIndex + 1} : ${q.enonce.substring(0, 80)}…`;
+    setMathText(
+      document.getElementById('fail-question-preview'),
+      `Bloqué à la question ${State.currentQIndex + 1} : ${q.enonce.substring(0, 80)}…`
+    );
     showScreen('screen-exam-fail');
     return;
   }
@@ -963,15 +974,27 @@ function showResults() {
   list.innerHTML = '';
   State.quizQuestions.forEach((q, i) => {
     const wasOk = State.sessionResults[i] === true;
-    list.insertAdjacentHTML('beforeend', `
-      <div class="result-item">
-        <div class="result-dot ${wasOk ? 'ok' : 'ko'}">${wasOk ? '✓' : '✗'}</div>
-        <div class="result-item-text">
-          <strong>Q${i+1} : ${escapeHtml(q.enonce.substring(0, 65))}${q.enonce.length > 65 ? '…' : ''}</strong>
-          Bonne réponse : ${escapeHtml(Array.isArray(q.reponse) ? '÷' + q.reponse.join(', ÷') : q.reponse)}
-        </div>
-      </div>
-    `);
+    const item = document.createElement('div');
+    item.className = 'result-item';
+    const dot = document.createElement('div');
+    dot.className = `result-dot ${wasOk ? 'ok' : 'ko'}`;
+    dot.textContent = wasOk ? '✓' : '✗';
+    const textDiv = document.createElement('div');
+    textDiv.className = 'result-item-text';
+    const strong = document.createElement('strong');
+    const enonceText = `Q${i+1} : ${q.enonce.substring(0, 65)}${q.enonce.length > 65 ? '…' : ''}`;
+    strong.textContent = enonceText;
+    renderMath(strong);
+    const repLine = document.createElement('span');
+    const repText = Array.isArray(q.reponse) ? '÷' + q.reponse.join(', ÷') : q.reponse;
+    repLine.textContent = 'Bonne réponse : ' + repText;
+    renderMath(repLine);
+    textDiv.appendChild(strong);
+    textDiv.appendChild(document.createElement('br'));
+    textDiv.appendChild(repLine);
+    item.appendChild(dot);
+    item.appendChild(textDiv);
+    list.appendChild(item);
   });
 
   showScreen('screen-results');
@@ -992,6 +1015,33 @@ function escapeHtml(str) {
   const d = document.createElement('div');
   d.appendChild(document.createTextNode(String(str)));
   return d.innerHTML;
+}
+
+/**
+ * renderMath(el)
+ * Déclenche le rendu KaTeX sur un élément DOM.
+ * Reconnaît les délimiteurs $...$ (inline) et $$...$$ (bloc).
+ * Sans effet si KaTeX n'est pas encore chargé (sécurité).
+ */
+function renderMath(el) {
+  if (!el || typeof window.renderMathInElement !== 'function') return;
+  window.renderMathInElement(el, {
+    delimiters: [
+      { left: '$$', right: '$$', display: true  },
+      { left: '$',  right: '$',  display: false }
+    ],
+    throwOnError: false   // ne jamais crasher si formule invalide
+  });
+}
+
+/**
+ * setMathText(el, text)
+ * Équivalent de el.textContent = text MAIS avec rendu KaTeX automatique.
+ * Utiliser partout à la place de textContent pour énoncés, choix, explications.
+ */
+function setMathText(el, text) {
+  el.textContent = String(text);
+  renderMath(el);
 }
 
 // ══════════════════════════════════════════════════════
