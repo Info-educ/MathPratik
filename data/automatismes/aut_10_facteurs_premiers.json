@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_10",
+    "label": "Décomposition en facteurs premiers",
+    "icon": "🔣",
+    "color": "#6d28d9"
+  },
+  "questions": [
+    {
+      "id": "aut_10_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 12 = ?",
+      "choix": [
+        "2$\\times$6",
+        "$2^{2}\\times$3",
+        "3$\\times$4",
+        "2$\\times3^{2}$"
+      ],
+      "reponse": "$2^{2}\\times$3",
+      "explication": "12=4$\\times$3=$2^{2}\\times$3",
+      "image": null
+    },
+    {
+      "id": "aut_10_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 18 = ?",
+      "choix": [
+        "2$\\times$9",
+        "2$\\times3^{2}$",
+        "3$\\times$6",
+        "$2^{2}\\times$3"
+      ],
+      "reponse": "2$\\times3^{2}$",
+      "explication": "18=2$\\times$9=2$\\times3^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 24 = ?",
+      "choix": [
+        "$2^{3}\\times$3",
+        "2$\\times$12",
+        "4$\\times$6",
+        "$2^{2}\\times$6"
+      ],
+      "reponse": "$2^{3}\\times$3",
+      "explication": "24=8$\\times$3=$2^{3}\\times$3",
+      "image": null
+    },
+    {
+      "id": "aut_10_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 30 = ?",
+      "choix": [
+        "2$\\times$15",
+        "2$\\times$3$\\times$5",
+        "5$\\times$6",
+        "3$\\times$10"
+      ],
+      "reponse": "2$\\times$3$\\times$5",
+      "explication": "30=2$\\times$3$\\times$5",
+      "image": null
+    },
+    {
+      "id": "aut_10_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 36 = ?",
+      "choix": [
+        "2$\\times$18",
+        "$2^{2}\\times$9",
+        "$2^{2} \\times 3^{2}$",
+        "4$\\times$9"
+      ],
+      "reponse": "$2^{2} \\times 3^{2}$",
+      "explication": "36=4$\\times$9=$2^{2} \\times 3^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 45 = ?",
+      "choix": [
+        "3$\\times$15",
+        "$3^{2}\\times$5",
+        "5$\\times$9",
+        "3$\\times5^{2}$"
+      ],
+      "reponse": "$3^{2}\\times$5",
+      "explication": "45=9$\\times$5=$3^{2}\\times$5",
+      "image": null
+    },
+    {
+      "id": "aut_10_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 48 = ?",
+      "choix": [
+        "$2^{4}\\times$3",
+        "2$\\times$24",
+        "4$\\times$12",
+        "$2^{3}\\times$6"
+      ],
+      "reponse": "$2^{4}\\times$3",
+      "explication": "48=16$\\times$3=$2^{4}\\times$3",
+      "image": null
+    },
+    {
+      "id": "aut_10_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 60 = ?",
+      "choix": [
+        "2$\\times$30",
+        "$2^{2}\\times$3$\\times$5",
+        "4$\\times$15",
+        "3$\\times$20"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times$5",
+      "explication": "60=4$\\times$15=$2^{2}\\times$3$\\times$5",
+      "image": null
+    },
+    {
+      "id": "aut_10_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 72 = ?",
+      "choix": [
+        "8$\\times$9",
+        "$2^{3} \\times 3^{2}$",
+        "$2^{2}\\times$18",
+        "2$\\times$36"
+      ],
+      "reponse": "$2^{3} \\times 3^{2}$",
+      "explication": "72=8$\\times$9=$2^{3} \\times 3^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 84 = ?",
+      "choix": [
+        "4$\\times$21",
+        "$2^{2}\\times$3$\\times$7",
+        "2$\\times$42",
+        "3$\\times$28"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times$7",
+      "explication": "84=4$\\times$21=$2^{2}\\times$3$\\times$7",
+      "image": null
+    },
+    {
+      "id": "aut_10_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 90 = ?",
+      "choix": [
+        "2$\\times$9$\\times$5",
+        "2$\\times3^{2}\\times$5",
+        "3$\\times$30",
+        "9$\\times$10"
+      ],
+      "reponse": "2$\\times3^{2}\\times$5",
+      "explication": "90=2$\\times$9$\\times$5=2$\\times3^{2}\\times$5",
+      "image": null
+    },
+    {
+      "id": "aut_10_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 100 = ?",
+      "choix": [
+        "4$\\times$25",
+        "$2^{2} \\times 5^{2}$",
+        "10$\\times$10",
+        "2$\\times$50"
+      ],
+      "reponse": "$2^{2} \\times 5^{2}$",
+      "explication": "100=4$\\times$25=$2^{2} \\times 5^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 120 = ?",
+      "choix": [
+        "$2^{3}\\times$3$\\times$5",
+        "8$\\times$15",
+        "2$\\times$60",
+        "4$\\times$30"
+      ],
+      "reponse": "$2^{3}\\times$3$\\times$5",
+      "explication": "120=8$\\times$15=$2^{3}\\times$3$\\times$5",
+      "image": null
+    },
+    {
+      "id": "aut_10_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 132 = ?",
+      "choix": [
+        "4$\\times$33",
+        "$2^{2}\\times$3$\\times$11",
+        "12$\\times$11",
+        "2$\\times$66"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times$11",
+      "explication": "132=4$\\times$33=$2^{2}\\times$3$\\times$11",
+      "image": null
+    },
+    {
+      "id": "aut_10_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 144 = ?",
+      "choix": [
+        "12$\\times$12",
+        "$2^{4} \\times 3^{2}$",
+        "2$\\times$72",
+        "4$\\times$36"
+      ],
+      "reponse": "$2^{4} \\times 3^{2}$",
+      "explication": "144=16$\\times$9=$2^{4} \\times 3^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 150 = ?",
+      "choix": [
+        "2$\\times$75",
+        "2$\\times$3$\\times5^{2}$",
+        "6$\\times$25",
+        "3$\\times$50"
+      ],
+      "reponse": "2$\\times$3$\\times5^{2}$",
+      "explication": "150=2$\\times$3$\\times$25=2$\\times$3$\\times5^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 180 = ?",
+      "choix": [
+        "4$\\times$45",
+        "$2^{2} \\times 3^{2}\\times$5",
+        "9$\\times$20",
+        "2$\\times$90"
+      ],
+      "reponse": "$2^{2} \\times 3^{2}\\times$5",
+      "explication": "180=4$\\times$9$\\times$5",
+      "image": null
+    },
+    {
+      "id": "aut_10_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 200 = ?",
+      "choix": [
+        "8$\\times$25",
+        "$2^{3} \\times 5^{2}$",
+        "4$\\times$50",
+        "2$\\times$100"
+      ],
+      "reponse": "$2^{3} \\times 5^{2}$",
+      "explication": "200=8$\\times$25=$2^{3} \\times 5^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 210 = ?",
+      "choix": [
+        "6$\\times$35",
+        "2$\\times$3$\\times$5$\\times$7",
+        "10$\\times$21",
+        "14$\\times$15"
+      ],
+      "reponse": "2$\\times$3$\\times$5$\\times$7",
+      "explication": "210=2$\\times$3$\\times$5$\\times$7",
+      "image": null
+    },
+    {
+      "id": "aut_10_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 250 = ?",
+      "choix": [
+        "2$\\times$125",
+        "2$\\times5^{3}$",
+        "5$\\times$50",
+        "10$\\times$25"
+      ],
+      "reponse": "2$\\times5^{3}$",
+      "explication": "250=2$\\times$125=2$\\times5^{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 126 = ?",
+      "choix": [
+        "2$\\times$63",
+        "2$\\times3^{2}\\times$7",
+        "9$\\times$14",
+        "3$\\times$42"
+      ],
+      "reponse": "2$\\times3^{2}\\times$7",
+      "explication": "126=2$\\times$9$\\times$7=2$\\times3^{2}\\times$7",
+      "image": null
+    },
+    {
+      "id": "aut_10_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 140 = ?",
+      "choix": [
+        "4$\\times$35",
+        "$2^{2}\\times$5$\\times$7",
+        "20$\\times$7",
+        "2$\\times$70"
+      ],
+      "reponse": "$2^{2}\\times$5$\\times$7",
+      "explication": "140=4$\\times$35=$2^{2}\\times$5$\\times$7",
+      "image": null
+    },
+    {
+      "id": "aut_10_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 300 = ?",
+      "choix": [
+        "4$\\times$75",
+        "$2^{2}\\times$3$\\times5^{2}$",
+        "12$\\times$25",
+        "3$\\times$100"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times5^{2}$",
+      "explication": "300=4$\\times$75=$2^{2}\\times$3$\\times5^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 54 = ?",
+      "choix": [
+        "6$\\times$9",
+        "2$\\times3^{3}$",
+        "$3^{2}\\times$6",
+        "2$\\times$27"
+      ],
+      "reponse": "2$\\times3^{3}$",
+      "explication": "54=2$\\times$27=2$\\times3^{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 360 = ?",
+      "choix": [
+        "8$\\times$45",
+        "$2^{3} \\times 3^{2}\\times$5",
+        "4$\\times$90",
+        "36$\\times$10"
+      ],
+      "reponse": "$2^{3} \\times 3^{2}\\times$5",
+      "explication": "360=8$\\times$45=$2^{3} \\times 3^{2}\\times$5",
+      "image": null
+    },
+    {
+      "id": "aut_10_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 96 = ?",
+      "choix": [
+        "$2^{5}\\times$3",
+        "32$\\times$3",
+        "2$\\times$48",
+        "8$\\times$12"
+      ],
+      "reponse": "$2^{5}\\times$3",
+      "explication": "96=32$\\times$3=$2^{5}\\times$3",
+      "image": null
+    },
+    {
+      "id": "aut_10_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 168 = ?",
+      "choix": [
+        "8$\\times$21",
+        "$2^{3}\\times$3$\\times$7",
+        "4$\\times$42",
+        "2$\\times$84"
+      ],
+      "reponse": "$2^{3}\\times$3$\\times$7",
+      "explication": "168=8$\\times$21=$2^{3}\\times$3$\\times$7",
+      "image": null
+    },
+    {
+      "id": "aut_10_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 225 = ?",
+      "choix": [
+        "9$\\times$25",
+        "$3^{2} \\times 5^{2}$",
+        "15$\\times$15",
+        "3$\\times$75"
+      ],
+      "reponse": "$3^{2} \\times 5^{2}$",
+      "explication": "225=9$\\times$25=$3^{2} \\times 5^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 75 = ?",
+      "choix": [
+        "3$\\times$25",
+        "3$\\times5^{2}$",
+        "5$\\times$15",
+        "$3^{2}\\times$5"
+      ],
+      "reponse": "3$\\times5^{2}$",
+      "explication": "75=3$\\times$25=3$\\times5^{2}$",
+      "image": null
+    },
+    {
+      "id": "aut_10_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décomposition de 108 = ?",
+      "choix": [
+        "4$\\times$27",
+        "$2^{2} \\times 3^{3}$",
+        "12$\\times$9",
+        "2$\\times$54"
+      ],
+      "reponse": "$2^{2} \\times 3^{3}$",
+      "explication": "108=4$\\times$27=$2^{2} \\times 3^{3}$",
+      "image": null
+    }
+  ]
+}

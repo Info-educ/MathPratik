@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_28",
+    "label": "Réduire une expression littérale",
+    "icon": "🔡",
+    "color": "#1a1a2e"
+  },
+  "questions": [
+    {
+      "id": "aut_28_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3a + 4a = ?",
+      "choix": [
+        "6a",
+        "7a",
+        "8a",
+        "12a"
+      ],
+      "reponse": "7a",
+      "explication": "3a+4a=7a",
+      "image": null
+    },
+    {
+      "id": "aut_28_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7b - 2b = ?",
+      "choix": [
+        "4b",
+        "5b",
+        "6b",
+        "9b"
+      ],
+      "reponse": "5b",
+      "explication": "7b-2b=5b",
+      "image": null
+    },
+    {
+      "id": "aut_28_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-5 + 2x + 2 + 5x = ?",
+      "choix": [
+        "7x-3",
+        "7x+3",
+        "3x-3",
+        "3x+3"
+      ],
+      "reponse": "7x-3",
+      "explication": "7x et -3",
+      "image": null
+    },
+    {
+      "id": "aut_28_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4m + 3 - m + 7 = ?",
+      "choix": [
+        "3m+10",
+        "5m+10",
+        "3m+4",
+        "5m+4"
+      ],
+      "reponse": "3m+10",
+      "explication": "3m et 10",
+      "image": null
+    },
+    {
+      "id": "aut_28_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6x - x + 2x = ?",
+      "choix": [
+        "5x",
+        "7x",
+        "3x",
+        "9x"
+      ],
+      "reponse": "7x",
+      "explication": "6-1+2=7",
+      "image": null
+    },
+    {
+      "id": "aut_28_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5a - 3 + 2a + 8 = ?",
+      "choix": [
+        "3a+5",
+        "7a+5",
+        "3a+11",
+        "7a+11"
+      ],
+      "reponse": "7a+5",
+      "explication": "7a et 5",
+      "image": null
+    },
+    {
+      "id": "aut_28_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-4y + 9 + 4y - 9 = ?",
+      "choix": [
+        "-8y",
+        "8y",
+        "0",
+        "18y"
+      ],
+      "reponse": "0",
+      "explication": "-4y+4y=0, 9-9=0",
+      "image": null
+    },
+    {
+      "id": "aut_28_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10t - 3t + t = ?",
+      "choix": [
+        "6t",
+        "7t",
+        "8t",
+        "9t"
+      ],
+      "reponse": "8t",
+      "explication": "10-3+1=8",
+      "image": null
+    },
+    {
+      "id": "aut_28_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 + 5n - 7 - 2n = ?",
+      "choix": [
+        "3n-4",
+        "3n+4",
+        "-4+3n",
+        "7n-4"
+      ],
+      "reponse": "3n-4",
+      "explication": "3n et -4",
+      "image": null
+    },
+    {
+      "id": "aut_28_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8x + 2 - 5x - 6 = ?",
+      "choix": [
+        "3x-4",
+        "3x+4",
+        "13x+4",
+        "13x-4"
+      ],
+      "reponse": "3x-4",
+      "explication": "3x et -4",
+      "image": null
+    },
+    {
+      "id": "aut_28_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "a + b + 2a + 3b = ?",
+      "choix": [
+        "3a+4b",
+        "4a+3b",
+        "3a+3b",
+        "4a+4b"
+      ],
+      "reponse": "3a+4b",
+      "explication": "3a et 4b",
+      "image": null
+    },
+    {
+      "id": "aut_28_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6m - 2n + m - 5n = ?",
+      "choix": [
+        "7m-7n",
+        "5m+7n",
+        "7m+7n",
+        "7m-3n"
+      ],
+      "reponse": "7m-7n",
+      "explication": "7m et -7n",
+      "image": null
+    },
+    {
+      "id": "aut_28_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4x - 4 + x + 4 = ?",
+      "choix": [
+        "3x",
+        "4x",
+        "5x",
+        "x"
+      ],
+      "reponse": "5x",
+      "explication": "5x, -4+4=0",
+      "image": null
+    },
+    {
+      "id": "aut_28_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-2a + 7 + 5a - 3 = ?",
+      "choix": [
+        "3a+4",
+        "3a-4",
+        "7a+4",
+        "7a-4"
+      ],
+      "reponse": "3a+4",
+      "explication": "3a et 4",
+      "image": null
+    },
+    {
+      "id": "aut_28_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "9y - 4y - y = ?",
+      "choix": [
+        "4y",
+        "5y",
+        "3y",
+        "6y"
+      ],
+      "reponse": "4y",
+      "explication": "9-4-1=4",
+      "image": null
+    },
+    {
+      "id": "aut_28_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3p + 2q - p + 4q = ?",
+      "choix": [
+        "4p+2q",
+        "2p+4q",
+        "2p+6q",
+        "4p+6q"
+      ],
+      "reponse": "2p+6q",
+      "explication": "2p et 6q",
+      "image": null
+    },
+    {
+      "id": "aut_28_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7 - 3k + 4k - 7 = ?",
+      "choix": [
+        "-k",
+        "0",
+        "k",
+        "2k"
+      ],
+      "reponse": "k",
+      "explication": "-3k+4k=k, 7-7=0",
+      "image": null
+    },
+    {
+      "id": "aut_28_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5a + 3b - 2a - b = ?",
+      "choix": [
+        "3a+2b",
+        "7a+4b",
+        "3a-2b",
+        "3a+4b"
+      ],
+      "reponse": "3a+2b",
+      "explication": "3a et 2b",
+      "image": null
+    },
+    {
+      "id": "aut_28_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2x + 1 - 2x - 1 = ?",
+      "choix": [
+        "-4x",
+        "-2",
+        "0",
+        "4x"
+      ],
+      "reponse": "0",
+      "explication": "2x-2x=0, 1-1=0",
+      "image": null
+    },
+    {
+      "id": "aut_28_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6m - 3 + 2m + 3 = ?",
+      "choix": [
+        "4m",
+        "6m",
+        "8m",
+        "10m"
+      ],
+      "reponse": "8m",
+      "explication": "8m, -3+3=0",
+      "image": null
+    },
+    {
+      "id": "aut_28_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-n + 2n - 3n + 4n = ?",
+      "choix": [
+        "-2n",
+        "0",
+        "2n",
+        "4n"
+      ],
+      "reponse": "2n",
+      "explication": "-1+2-3+4=2",
+      "image": null
+    },
+    {
+      "id": "aut_28_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "10 - 4x + 3 - 2x = ?",
+      "choix": [
+        "13-6x",
+        "6x+13",
+        "-6x+7",
+        "13+6x"
+      ],
+      "reponse": "13-6x",
+      "explication": "-6x et 13",
+      "image": null
+    },
+    {
+      "id": "aut_28_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5y - 5 + 5 - 5y = ?",
+      "choix": [
+        "-10y",
+        "0",
+        "10y",
+        "10"
+      ],
+      "reponse": "0",
+      "explication": "0",
+      "image": null
+    },
+    {
+      "id": "aut_28_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3a + 4b - a - 4b = ?",
+      "choix": [
+        "2a",
+        "4b",
+        "2a+8b",
+        "2a-8b"
+      ],
+      "reponse": "2a",
+      "explication": "2a et 0",
+      "image": null
+    },
+    {
+      "id": "aut_28_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8t - 2 - 3t + 2 = ?",
+      "choix": [
+        "5t",
+        "11t",
+        "5t+4",
+        "11t+4"
+      ],
+      "reponse": "5t",
+      "explication": "5t, 0",
+      "image": null
+    },
+    {
+      "id": "aut_28_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "-x + 4 - x + 4 = ?",
+      "choix": [
+        "-2x+8",
+        "2x+8",
+        "8",
+        "-2x"
+      ],
+      "reponse": "-2x+8",
+      "explication": "-2x et 8",
+      "image": null
+    },
+    {
+      "id": "aut_28_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7p - 3p + 2 - 2 = ?",
+      "choix": [
+        "4p",
+        "4p+4",
+        "10p",
+        "10p-4"
+      ],
+      "reponse": "4p",
+      "explication": "4p, 0",
+      "image": null
+    },
+    {
+      "id": "aut_28_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4a + 3a - 2a = ?",
+      "choix": [
+        "3a",
+        "4a",
+        "5a",
+        "6a"
+      ],
+      "reponse": "5a",
+      "explication": "4+3-2=5",
+      "image": null
+    },
+    {
+      "id": "aut_28_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "6x - 1 - 6x + 1 = ?",
+      "choix": [
+        "-12",
+        "0",
+        "12x",
+        "12"
+      ],
+      "reponse": "0",
+      "explication": "0",
+      "image": null
+    },
+    {
+      "id": "aut_28_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2m + 5 + m - 5 + m = ?",
+      "choix": [
+        "2m",
+        "4m",
+        "4m+5",
+        "2m+5"
+      ],
+      "reponse": "4m",
+      "explication": "4m, 0",
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_17",
+    "label": "Multiplier/diviser par 10, 100, 1 000",
+    "icon": "🔄",
+    "color": "#047857"
+  },
+  "questions": [
+    {
+      "id": "aut_17_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3,67$\\times$10 = ?",
+      "choix": [
+        "3,670",
+        "36,7",
+        "367",
+        "0,367"
+      ],
+      "reponse": "36,7",
+      "explication": "virgule +1 rang : 36,7",
+      "image": null
+    },
+    {
+      "id": "aut_17_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,245$\\times$100 = ?",
+      "choix": [
+        "0,0245",
+        "2,45",
+        "24,5",
+        "245"
+      ],
+      "reponse": "24,5",
+      "explication": "virgule +2 rangs : 24,5",
+      "image": null
+    },
+    {
+      "id": "aut_17_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,038$\\times$1 000 = ?",
+      "choix": [
+        "0,38",
+        "3,8",
+        "38",
+        "380"
+      ],
+      "reponse": "38",
+      "explication": "virgule +3 rangs : 38",
+      "image": null
+    },
+    {
+      "id": "aut_17_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "42,1$\\div$10 = ?",
+      "choix": [
+        "0,421",
+        "4,21",
+        "42,1",
+        "421"
+      ],
+      "reponse": "4,21",
+      "explication": "virgule -1 rang : 4,21",
+      "image": null
+    },
+    {
+      "id": "aut_17_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7,5$\\div$100 = ?",
+      "choix": [
+        "0,0075",
+        "0,075",
+        "0,75",
+        "7,5"
+      ],
+      "reponse": "0,075",
+      "explication": "virgule -2 rangs : 0,075",
+      "image": null
+    },
+    {
+      "id": "aut_17_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "85$\\div$1 000 = ?",
+      "choix": [
+        "0,0085",
+        "0,085",
+        "0,85",
+        "8,5"
+      ],
+      "reponse": "0,085",
+      "explication": "virgule -3 rangs : 0,085",
+      "image": null
+    },
+    {
+      "id": "aut_17_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1,508$\\times$10 = ?",
+      "choix": [
+        "0,1508",
+        "15,08",
+        "150,8",
+        "1 508"
+      ],
+      "reponse": "15,08",
+      "explication": "1,508$\\times$10=15,08",
+      "image": null
+    },
+    {
+      "id": "aut_17_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,072$\\times$100 = ?",
+      "choix": [
+        "0,72",
+        "7,2",
+        "72",
+        "720"
+      ],
+      "reponse": "7,2",
+      "explication": "0,072$\\times$100=7,2",
+      "image": null
+    },
+    {
+      "id": "aut_17_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,9$\\times$1 000 = ?",
+      "choix": [
+        "9",
+        "90",
+        "900",
+        "9 000"
+      ],
+      "reponse": "900",
+      "explication": "0,9$\\times$1000=900",
+      "image": null
+    },
+    {
+      "id": "aut_17_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "136,4$\\div$10 = ?",
+      "choix": [
+        "1,364",
+        "13,64",
+        "136,4",
+        "1364"
+      ],
+      "reponse": "13,64",
+      "explication": "136,4$\\div$10=13,64",
+      "image": null
+    },
+    {
+      "id": "aut_17_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5,2$\\div$100 = ?",
+      "choix": [
+        "0,0052",
+        "0,052",
+        "0,52",
+        "52"
+      ],
+      "reponse": "0,052",
+      "explication": "5,2$\\div$100=0,052",
+      "image": null
+    },
+    {
+      "id": "aut_17_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "4 300$\\div$1 000 = ?",
+      "choix": [
+        "0,43",
+        "4,3",
+        "43",
+        "430"
+      ],
+      "reponse": "4,3",
+      "explication": "4300$\\div$1000=4,3",
+      "image": null
+    },
+    {
+      "id": "aut_17_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,006$\\times$10 = ?",
+      "choix": [
+        "0,0006",
+        "0,06",
+        "0,6",
+        "6"
+      ],
+      "reponse": "0,06",
+      "explication": "0,006$\\times$10=0,06",
+      "image": null
+    },
+    {
+      "id": "aut_17_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,0014$\\times$100 = ?",
+      "choix": [
+        "0,014",
+        "0,14",
+        "1,4",
+        "14"
+      ],
+      "reponse": "0,14",
+      "explication": "0,0014$\\times$100=0,14",
+      "image": null
+    },
+    {
+      "id": "aut_17_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "1,57$\\times$1 000 = ?",
+      "choix": [
+        "15,7",
+        "157",
+        "1 570",
+        "15 700"
+      ],
+      "reponse": "1 570",
+      "explication": "1,57$\\times$1000=1570",
+      "image": null
+    },
+    {
+      "id": "aut_17_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,8$\\div$10 = ?",
+      "choix": [
+        "0,008",
+        "0,08",
+        "0,8",
+        "8"
+      ],
+      "reponse": "0,08",
+      "explication": "0,8$\\div$10=0,08",
+      "image": null
+    },
+    {
+      "id": "aut_17_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,03$\\div$100 = ?",
+      "choix": [
+        "0,0003",
+        "0,003",
+        "0,03",
+        "0,3"
+      ],
+      "reponse": "0,0003",
+      "explication": "0,03$\\div$100=0,0003",
+      "image": null
+    },
+    {
+      "id": "aut_17_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "52$\\div$1 000 = ?",
+      "choix": [
+        "0,0052",
+        "0,052",
+        "0,52",
+        "5,2"
+      ],
+      "reponse": "0,052",
+      "explication": "52$\\div$1000=0,052",
+      "image": null
+    },
+    {
+      "id": "aut_17_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "74$\\times$0,1 = ?",
+      "choix": [
+        "0,74",
+        "7,4",
+        "74",
+        "740"
+      ],
+      "reponse": "7,4",
+      "explication": "$\\times$0,1=$\\div$10 → 7,4",
+      "image": null
+    },
+    {
+      "id": "aut_17_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "630$\\times$0,01 = ?",
+      "choix": [
+        "0,63",
+        "6,3",
+        "63",
+        "630"
+      ],
+      "reponse": "6,3",
+      "explication": "$\\times$0,01=$\\div$100 → 6,3",
+      "image": null
+    },
+    {
+      "id": "aut_17_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 200$\\times$0,001 = ?",
+      "choix": [
+        "0,52",
+        "5,2",
+        "52",
+        "520"
+      ],
+      "reponse": "5,2",
+      "explication": "$\\times$0,001=$\\div$1000 → 5,2",
+      "image": null
+    },
+    {
+      "id": "aut_17_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,45$\\times$0,1 = ?",
+      "choix": [
+        "0,0045",
+        "0,045",
+        "0,45",
+        "4,5"
+      ],
+      "reponse": "0,045",
+      "explication": "0,45$\\div$10=0,045",
+      "image": null
+    },
+    {
+      "id": "aut_17_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2,8$\\times$0,01 = ?",
+      "choix": [
+        "0,0028",
+        "0,028",
+        "0,28",
+        "2,8"
+      ],
+      "reponse": "0,028",
+      "explication": "2,8$\\div$100=0,028",
+      "image": null
+    },
+    {
+      "id": "aut_17_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "16$\\times$0,001 = ?",
+      "choix": [
+        "0,0016",
+        "0,016",
+        "0,16",
+        "1,6"
+      ],
+      "reponse": "0,016",
+      "explication": "16$\\div$1000=0,016",
+      "image": null
+    },
+    {
+      "id": "aut_17_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "9 360$\\times$0,01 = ?",
+      "choix": [
+        "0,936",
+        "9,36",
+        "93,6",
+        "936"
+      ],
+      "reponse": "93,6",
+      "explication": "9360$\\div$100=93,6",
+      "image": null
+    },
+    {
+      "id": "aut_17_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,07$\\times$10 = ?",
+      "choix": [
+        "0,007",
+        "0,7",
+        "7",
+        "70"
+      ],
+      "reponse": "0,7",
+      "explication": "0,07$\\times$10=0,7",
+      "image": null
+    },
+    {
+      "id": "aut_17_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2,004$\\times$1 000 = ?",
+      "choix": [
+        "20,04",
+        "200,4",
+        "2 004",
+        "20 040"
+      ],
+      "reponse": "2 004",
+      "explication": "2,004$\\times$1000=2004",
+      "image": null
+    },
+    {
+      "id": "aut_17_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "30 500$\\div$1 000 = ?",
+      "choix": [
+        "0,305",
+        "3,05",
+        "30,5",
+        "305"
+      ],
+      "reponse": "30,5",
+      "explication": "30500$\\div$1000=30,5",
+      "image": null
+    },
+    {
+      "id": "aut_17_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "0,003$\\times$100 = ?",
+      "choix": [
+        "0,03",
+        "0,3",
+        "3",
+        "30"
+      ],
+      "reponse": "0,3",
+      "explication": "0,003$\\times$100=0,3",
+      "image": null
+    },
+    {
+      "id": "aut_17_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "125$\\times$0,01 = ?",
+      "choix": [
+        "0,125",
+        "1,25",
+        "12,5",
+        "1250"
+      ],
+      "reponse": "1,25",
+      "explication": "125$\\div$100=1,25",
+      "image": null
+    }
+  ]
+}

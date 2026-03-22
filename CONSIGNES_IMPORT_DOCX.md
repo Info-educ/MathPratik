@@ -1,0 +1,510 @@
+# CONSIGNES — Import d'un fichier docx dans MathPratik
+
+> **À placer à la racine du projet MathPratik.**  
+> Ce fichier est destiné à Claude : il contient toutes les instructions nécessaires pour transformer un fichier `.docx` d'exercices mathématiques en module intégré au site MathPratik.
+
+---
+
+## Contexte du projet
+
+MathPratik est une application web mobile-first de révision en mathématiques (collège, cycle 4 : 5ème, 4ème, 3ème). Le projet doit rester maintenable sur **plus de 5 ans**.
+
+### Structure du projet
+
+```
+MathPratik-main/
+├── index.html               ← Interface HTML + CSS (mobile-first)
+├── _config.yml              ← Requis pour GitHub Pages
+├── .nojekyll
+├── README.md
+├── CONSIGNES_IMPORT_DOCX.md ← CE FICHIER
+├── data/
+│   ├── index.json           ← Registre de tous les fichiers de questions
+│   ├── questions.js         ← (legacy, ne pas modifier)
+│   ├── probabilites_4eme.json
+│   ├── statistiques_4eme.json
+│   └── [nouvelle_notion].json
+├── images/
+│   └── [notion]/            ← Images extraites du docx (ex: stats/)
+└── js/
+    └── app.js               ← Logique applicative
+```
+
+### Niveaux disponibles
+
+| Clé JSON | Label affiché | Emoji |
+|----------|---------------|-------|
+| `6eme`   | 6ème          | 🟨    |
+| `5eme`   | 5ème          | 🟦    |
+| `4eme`   | 4ème          | 🟩    |
+| `3eme`   | 3ème          | 🟥    |
+| `automatismes` | Automatismes | ⚡ |
+
+---
+
+## Étape 1 — Lire le fichier docx
+
+Utiliser `pandoc` pour convertir le docx en markdown lisible :
+
+```bash
+pandoc /mnt/user-data/uploads/NOM_DU_FICHIER.docx -t markdown 2>/dev/null
+```
+
+Identifier dans le document :
+- Le **niveau scolaire** ciblé (5ème / 4ème / 3ème)
+- La **notion mathématique** (ex : Statistiques, Probabilités, Pythagore…)
+- Les **niveaux de difficulté** des questions (★ niv1 / ★★ niv2 / ★★★ niv3)
+- Tous les **types de questions** : QCM, réponse ouverte, calcul
+- Toutes les **images** référencées (tableaux, diagrammes, graphiques, figures géométriques)
+
+---
+
+## Étape 2 — Extraire les images du docx
+
+Extraire **toutes** les images dans le dossier `images/[niveau]/[notion]/` :
+
+```bash
+mkdir -p /home/claude/MathPratik-main/images/[notion]
+unzip -j /mnt/user-data/uploads/NOM_DU_FICHIER.docx "word/media/*" \
+  -d /home/claude/MathPratik-main/images/[niveau]/[notion]/
+```
+
+> **Important :** Les noms de fichiers restent tels quels (hash SHA1). Ils sont référencés dans le JSON via `"image": "[niveau]/[notion]/nom_du_fichier.png"`.
+
+Règle absolue : **chaque figure, schéma, tableau ou diagramme du document doit apparaître tel quel dans la question correspondante, sans modification ni recréation.**
+
+---
+
+## Étape 3 — Créer le fichier JSON de la notion
+
+Créer le fichier `data/[niveau]/[notion].json` en respectant **exactement** ce format :
+
+```json
+{
+  "niveau": "4eme",
+  "thematique": {
+    "id":    "nom_notion",
+    "label": "Nom affiché",
+    "icon":  "📊",
+    "color": "#059669"
+  },
+  "questions": [
+    {
+      "id":               "s4_001",
+      "niveau":           1,
+      "type":             "qcm",
+      "avec_calculatrice": false,
+      "enonce":           "Texte de la question",
+      "image":            null,
+      "choix":            ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+      "reponse":          "Réponse A",
+      "explication":      "Explication affichée après réponse."
+    }
+  ]
+}
+```
+
+### Champs obligatoires par question
+
+| Champ | Type | Description |
+|-------|------|-------------|
+| `id` | string | Identifiant **unique**, ex : `s4_001`, `s4_n1_001` |
+| `niveau` | int | `1`, `2` ou `3` (difficulté) |
+| `type` | string | Toujours `"qcm"` |
+| `avec_calculatrice` | bool | `true` si la question nécessite un calcul non mental |
+| `enonce` | string | Texte de la question (avec KaTeX si notation mathématique) |
+| `image` | string \| null | Chemin relatif depuis `images/`, ex : `"stats/abc.png"` |
+| `choix` | array[4] | Exactement **4 choix** |
+| `reponse` | string | Copie exacte d'un des 4 choix |
+| `explication` | string | Correction détaillée |
+
+### Règles de conversion des questions
+
+#### Questions déjà en QCM
+→ Reprendre tels quels les 4 choix et la bonne réponse.
+
+#### Questions « Calcul » ou « Réponse ouverte »
+→ Convertir en QCM avec **4 propositions plausibles**.  
+→ La bonne réponse doit être l'une des 4.  
+→ Activer `"avec_calculatrice": true` si le calcul dépasse le calcul mental.  
+→ Les distracteurs (mauvaises réponses) doivent être crédibles (erreurs fréquentes).
+
+#### Questions avec figure / schéma / tableau
+→ Référencer l'image extraite dans le champ `"image"`.  
+→ L'énoncé textuel reste dans `"enonce"`.  
+→ Ne jamais recréer une image en HTML/SVG — utiliser l'original.
+
+### Règle sur la calculatrice
+
+Activer `"avec_calculatrice": true` pour toute question impliquant :
+- Une somme de plus de 4 termes
+- Une multiplication à plusieurs chiffres
+- Une division avec résultat décimal
+- Un calcul de moyenne pondérée
+- Un calcul d'angle (× 360 ÷ 100)
+- Une racine carrée ou une puissance
+- Tout calcul qu'un élève de collège ne ferait pas de tête
+
+### Distribution des niveaux de difficulté
+
+| Niveau | Signification |
+|--------|---------------|
+| `1` | Connaissance du cours, définitions, lectures directes de graphiques |
+| `2` | Application, calculs développés, lecture approfondie, problèmes |
+| `3` | Raisonnement, démonstrations, problèmes complexes, interprétation |
+
+---
+
+## Étape 3-bis — Notation mathématique avec KaTeX ⚠️ OBLIGATOIRE
+
+> **Règle absolue : toute notation mathématique doit être écrite en KaTeX, sans exception.**  
+> Ne jamais utiliser du texte brut pour représenter des expressions mathématiques (ex : ne pas écrire `x^2` ou `racine(2)` — utiliser impérativement la syntaxe KaTeX).
+
+### Principe général
+
+KaTeX est la bibliothèque de rendu mathématique intégrée dans MathPratik. Elle interprète la syntaxe LaTeX pour afficher des formules typographiquement correctes dans le navigateur.
+
+- Les expressions **en ligne** (dans une phrase) sont délimitées par `$…$`
+- Les expressions **en bloc** (centrées, sur leur propre ligne) sont délimitées par `$$…$$`
+
+Le champ `enonce` doit utiliser du KaTeX dès qu'une notation mathématique apparaît. Il devient alors un champ **`enonce_html`** (voir Étape 7).
+
+---
+
+### Tableau de correspondance — Notations du collège → KaTeX
+
+#### Opérations et calculs de base
+
+| Notation courante | KaTeX à écrire | Rendu attendu |
+|-------------------|---------------|---------------|
+| a au carré | `$a^2$` | a² |
+| a au cube | `$a^3$` | a³ |
+| a puissance n | `$a^n$` | aⁿ |
+| racine carrée de 2 | `$\sqrt{2}$` | √2 |
+| racine carrée de a+b | `$\sqrt{a+b}$` | √(a+b) |
+| fraction a sur b | `$\dfrac{a}{b}$` | a/b (fraction verticale) |
+| fraction inline | `$\frac{a}{b}$` | a/b (fraction compacte) |
+| multiplication (point) | `$a \times b$` | a × b |
+| division | `$a \div b$` | a ÷ b |
+| valeur absolue | `$|{-3}|$` | |-3| |
+| différent de | `$a \neq b$` | a ≠ b |
+| inférieur ou égal | `$a \leq b$` | a ≤ b |
+| supérieur ou égal | `$a \geq b$` | a ≥ b |
+| environ égal | `$a \approx b$` | a ≈ b |
+
+#### Géométrie
+
+| Notation courante | KaTeX à écrire | Rendu attendu |
+|-------------------|---------------|---------------|
+| angle ABC | `$\widehat{ABC}$` | Â avec chapeau |
+| angle droit | `$90°$` ou `$\ang{90}$` | 90° |
+| longueur AB | `$AB$` | AB |
+| vecteur AB | `$\overrightarrow{AB}$` | AB→ |
+| triangle ABC | `$\triangle ABC$` | △ ABC |
+| parallèle | `$(d_1) \parallel (d_2)$` | d₁ ∥ d₂ |
+| perpendiculaire | `$(d_1) \perp (d_2)$` | d₁ ⊥ d₂ |
+| congruence | `$\overline{AB} \equiv \overline{CD}$` | AB ≡ CD |
+| degré | `$30°$` | 30° |
+| pi | `$\pi$` | π |
+
+#### Algèbre et calcul littéral
+
+| Notation courante | KaTeX à écrire | Rendu attendu |
+|-------------------|---------------|---------------|
+| expression développée | `$(a+b)^2 = a^2 + 2ab + b^2$` | identité remarquable |
+| équation | `$3x + 5 = 14$` | 3x + 5 = 14 |
+| solution d'équation | `$x = \dfrac{14 - 5}{3}$` | fraction verticale |
+| inéquation | `$2x - 1 \leq 7$` | 2x − 1 ≤ 7 |
+| expression factorisée | `$(x+2)(x-3)$` | (x+2)(x−3) |
+
+#### Statistiques et probabilités
+
+| Notation courante | KaTeX à écrire | Rendu attendu |
+|-------------------|---------------|---------------|
+| moyenne | `$\bar{x}$` | x̄ |
+| somme | `$\sum$` ou `$\sum_{i=1}^{n}$` | Σ |
+| fréquence en % | `$f = \dfrac{n_i}{N} \times 100$` | formule fréquence |
+| probabilité de A | `$P(A)$` | P(A) |
+| probabilité entre 0 et 1 | `$0 \leq P(A) \leq 1$` | inégalité |
+| événement contraire | `$\bar{A}$` | Ā |
+| effectif total | `$N = \sum n_i$` | formule |
+
+#### Pythagore et trigonométrie
+
+| Notation courante | KaTeX à écrire | Rendu attendu |
+|-------------------|---------------|---------------|
+| Pythagore | `$BC^2 = AB^2 + AC^2$` | formule |
+| racine dans Pythagore | `$BC = \sqrt{AB^2 + AC^2}$` | formule complète |
+| cosinus | `$\cos(\widehat{A}) = \dfrac{\text{adj}}{\text{hyp}}$` | formule cos |
+| sinus | `$\sin(\widehat{A}) = \dfrac{\text{opp}}{\text{hyp}}$` | formule sin |
+| tangente | `$\tan(\widehat{A}) = \dfrac{\text{opp}}{\text{adj}}$` | formule tan |
+
+#### Nombres relatifs et puissances
+
+| Notation courante | KaTeX à écrire | Rendu attendu |
+|-------------------|---------------|---------------|
+| nombre négatif | `$-5$` | −5 |
+| puissance négative | `$10^{-3}$` | 10⁻³ |
+| notation scientifique | `$3{,}2 \times 10^{4}$` | 3,2 × 10⁴ |
+| a puissance 0 | `$a^0 = 1$` | a⁰ = 1 |
+
+---
+
+### Règles de mise en œuvre
+
+#### 1. Utiliser `enonce_html` dès qu'il y a du KaTeX
+
+Quand l'énoncé contient des notations mathématiques, remplacer le champ `enonce` par `enonce_html` :
+
+```json
+{
+  "id": "py4_n1_001",
+  "enonce_html": "Dans le triangle ABC rectangle en A, on a $AB = 3$ cm et $AC = 4$ cm. Quelle est la longueur $BC$ ?",
+  "choix": ["$BC = 5$ cm", "$BC = 7$ cm", "$BC = \\sqrt{7}$ cm", "$BC = 25$ cm"],
+  "reponse": "$BC = 5$ cm",
+  "explication": "D'après le théorème de Pythagore : $BC^2 = AB^2 + AC^2 = 9 + 16 = 25$, donc $BC = \\sqrt{25} = 5$ cm."
+}
+```
+
+> **Important :** Dans le JSON, le backslash `\` des commandes LaTeX doit être **échappé** en `\\`.  
+> Exemple : `\sqrt` → `"\\sqrt"`, `\frac` → `"\\frac"`, `\times` → `"\\times"`
+
+#### 2. KaTeX s'applique à TOUS les champs textuels
+
+Les notations mathématiques en KaTeX doivent être utilisées dans :
+- `enonce` / `enonce_html` — l'énoncé de la question
+- `choix` — chaque proposition de réponse
+- `reponse` — la bonne réponse (doit correspondre exactement à l'un des choix)
+- `explication` — la correction détaillée
+
+#### 3. Cohérence `reponse` / `choix`
+
+La valeur de `reponse` doit être la **copie exacte** (caractère par caractère) de l'un des éléments du tableau `choix`, KaTeX inclus.
+
+```json
+"choix":   ["$\\frac{1}{2}$", "$\\frac{1}{4}$", "$\\frac{3}{4}$", "$2$"],
+"reponse": "$\\frac{1}{4}$"
+```
+
+#### 4. Virgule décimale française
+
+En France, la virgule est le séparateur décimal. Dans KaTeX, utiliser `{,}` pour un espacement correct :
+
+```
+$3{,}14$     → 3,14  ✓
+$3.14$       → 3.14  ✗ (point anglo-saxon)
+```
+
+#### 5. Texte dans les formules
+
+Pour insérer du texte dans une formule KaTeX (unités, mots), utiliser `\text{}` :
+
+```
+$v = \dfrac{d}{t}$ avec $d$ en $\text{km}$ et $t$ en $\text{h}$
+```
+
+---
+
+### Intégration KaTeX dans index.html (déjà en place)
+
+KaTeX est chargé via CDN dans `index.html`. Ces balises **ne doivent pas être modifiées** :
+
+```html
+<!-- KaTeX — rendu des notations mathématiques -->
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+  crossorigin="anonymous">
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+  crossorigin="anonymous"></script>
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$',  right: '$',  display: false}
+    ]
+  });"></script>
+```
+
+> `auto-render` parcourt automatiquement le DOM après chaque injection de contenu et rend toutes les expressions `$…$` et `$$…$$` trouvées.  
+> Si du contenu est injecté dynamiquement via `innerHTML` dans `app.js`, appeler manuellement `renderMathInElement(element)` après l'injection.
+
+---
+
+### Checklist KaTeX à valider avant livraison
+
+- [ ] Toutes les fractions sont écrites avec `\dfrac` ou `\frac` (pas de `/` seul)
+- [ ] Toutes les racines carrées utilisent `\sqrt{}`
+- [ ] Les puissances utilisent `^{}` (ex : `x^{2}` et non `x2`)
+- [ ] Les backslashs sont bien échappés en `\\` dans le JSON
+- [ ] La virgule décimale française est écrite `{,}` dans les formules
+- [ ] Le champ `enonce_html` est utilisé (et non `enonce`) quand du KaTeX est présent
+- [ ] Les choix et la réponse contiennent du KaTeX cohérent et identique
+
+---
+
+## Étape 4 — Tirage des 15 questions par session
+
+Le moteur `buildQuestionPool()` dans `app.js` tire automatiquement :
+
+| Difficulté | Nombre tiré | Pool disponible |
+|-----------|-------------|-----------------|
+| Niveau 1  | **7 questions** | aléatoires parmi toutes les niv1 |
+| Niveau 2  | **7 questions** | aléatoires parmi toutes les niv2 |
+| Niveau 3  | **1 question**  | aléatoire parmi toutes les niv3 |
+
+> **Recommandation :** Pour un tirage varié, prévoir au minimum **20 questions par niveau** (niv1 et niv2) et **5 questions minimum en niv3**.
+
+---
+
+## Étape 5 — Mettre à jour index.json
+
+Ajouter le nouveau fichier dans `data/index.json`, tableau `fichiers` :
+
+```json
+{
+  "id":      "statistiques_4eme",
+  "fichier": "data/statistiques_4eme.json",
+  "niveau":  "4eme"
+}
+```
+
+---
+
+## Étape 6 — Vérifications avant livraison
+
+Exécuter ces contrôles :
+
+```python
+import json, os
+
+data = json.load(open('data/statistiques_4eme.json'))
+
+# 1. JSON valide
+print("JSON valide ✓")
+
+# 2. Distribution des niveaux
+from collections import Counter
+levels = Counter(q['niveau'] for q in data['questions'])
+print("Niveaux:", dict(levels))
+
+# 3. IDs uniques
+ids = [q['id'] for q in data['questions']]
+assert len(ids) == len(set(ids)), "IDs dupliqués !"
+print("IDs uniques ✓")
+
+# 4. Toutes les images existent
+missing = [q['image'] for q in data['questions']
+           if q.get('image') and not os.path.exists(f'images/{q["image"]}')]
+print("Images manquantes :", missing if missing else "aucune ✓")
+
+# 5. Chaque question a exactement 4 choix
+bad = [q['id'] for q in data['questions'] if len(q.get('choix', [])) != 4]
+print("Questions sans 4 choix :", bad if bad else "aucune ✓")
+
+# 6. La réponse est dans les choix
+bad2 = [q['id'] for q in data['questions'] if q['reponse'] not in q['choix']]
+print("Réponse absente des choix :", bad2 if bad2 else "aucune ✓")
+
+# 7. Vérification KaTeX — détecter les notations mathématiques non converties
+import re
+katex_suspects = []
+raw_math_pattern = re.compile(
+    r'(?<!\$)(?:x\^[0-9]|[0-9]+\^[0-9]|sqrt\(|racine\(|/[0-9]|[0-9]/[0-9])(?!\$)'
+)
+for q in data['questions']:
+    for field in ['enonce', 'explication'] + (q.get('choix', [])):
+        if isinstance(field, str) and raw_math_pattern.search(field):
+            katex_suspects.append({'id': q['id'], 'champ': field[:60]})
+if katex_suspects:
+    print("⚠️  Notations mathématiques suspectes (non-KaTeX) :", katex_suspects)
+else:
+    print("KaTeX — aucune notation brute suspecte détectée ✓")
+
+print(f"\nTotal : {len(data['questions'])} questions")
+```
+
+---
+
+## Étape 7 — Modifications dans app.js et index.html
+
+Ces modifications ont déjà été appliquées une fois et **n'ont pas besoin d'être refaites** pour chaque nouvelle notion. Elles sont documentées ici pour mémoire.
+
+### app.js — Modifications permanentes déjà en place
+
+#### 1. Support du champ `enonce_html`
+Si une question a un champ `enonce_html` (HTML enrichi avec KaTeX), il est injecté via `innerHTML` au lieu de `textContent`. Après injection, `renderMathInElement(element)` est appelé pour que KaTeX rende les formules `$…$` et `$$…$$`.
+
+```javascript
+// Exemple dans app.js — rendu KaTeX après injection dynamique
+if (question.enonce_html) {
+  enonceEl.innerHTML = question.enonce_html;
+  if (window.renderMathInElement) {
+    renderMathInElement(enonceEl);
+  }
+} else {
+  enonceEl.textContent = question.enonce;
+}
+```
+
+#### 2. Support du champ `avec_calculatrice`
+Si `avec_calculatrice: true`, une calculatrice est affichée sous l'image (ou seule si pas d'image). Elle supporte : `+ − × ÷ % √ x² ( )`.
+
+#### 3. CSS calculatrice dans index.html
+Le CSS de la calculatrice est injecté dans la balise `<style>` de `index.html`. Il inclut les styles `.calc-wrap`, `.calc-screen`, `.calc-grid`, `.calc-btn`, `.calc-eq`, etc.
+
+> **Si une nouvelle notion ne nécessite pas ces fonctionnalités**, elles sont silencieuses : `avec_calculatrice: false` et pas d'`enonce_html` → comportement standard.
+
+---
+
+## Mémo — Couleurs suggérées par notion
+
+| Notion | Icon | Couleur |
+|--------|------|---------|
+| Statistiques | 📊 | `#059669` |
+| Probabilités | 🎲 | `#7c3aed` |
+| Pythagore | 📐 | `#0284c7` |
+| Trigonométrie | 📐 | `#0891b2` |
+| Fonctions | 📈 | `#dc2626` |
+| Équations | ✏️ | `#d97706` |
+| Géométrie | 🔷 | `#4f46e5` |
+| Fractions | ½ | `#c2410c` |
+| Nombres relatifs | ± | `#0c4a6e` |
+| Calcul littéral | 🔡 | `#1a1a2e` |
+| Théorème de Thalès | 📏 | `#065f46` |
+
+---
+
+## Checklist finale
+
+Avant de packager le zip à livrer :
+
+- [ ] `data/[niveau]/[notion].json` — JSON valide, toutes les questions présentes
+- [ ] `images/[niveau]/[notion]/` — toutes les images du docx extraites
+- [ ] `data/index.json` — nouvelle entrée ajoutée
+- [ ] Vérification Python (Étape 6) — tous les contrôles passent
+- [ ] Syntax check JS : `node --check js/app.js`
+- [ ] Au moins 20 questions niv1, 20 questions niv2, 5 questions niv3
+- [ ] Toutes les questions du document sont présentes (y compris les questions ouvertes converties en QCM)
+- [ ] **Toutes les notations mathématiques sont en KaTeX** (checklist Étape 3-bis validée)
+- [ ] Les backslashs KaTeX sont bien échappés `\\` dans le JSON
+- [ ] `renderMathInElement()` est appelé après chaque injection `innerHTML` dans app.js
+
+---
+
+## Exemple de session de travail type
+
+```
+1. Utilisateur envoie : exercices_pythagore_4eme.docx
+2. Claude lit le docx avec pandoc
+3. Claude extrait les images → images/pythagore/
+4. Claude génère data/pythagore_4eme.json
+   → Toutes questions converties en QCM
+   → Toutes notations mathématiques converties en KaTeX
+   → Backslashs échappés en \\ dans le JSON
+5. Claude met à jour data/index.json
+6. Claude exécute les vérifications (Étape 6)
+7. Claude package et livre le zip complet
+```

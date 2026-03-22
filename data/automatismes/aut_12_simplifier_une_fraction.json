@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_12",
+    "label": "Simplifier une fraction",
+    "icon": "➗",
+    "color": "#92400e"
+  },
+  "questions": [
+    {
+      "id": "aut_12_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{6}{9}$",
+      "choix": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(6,9)=3 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{10}{15}$",
+      "choix": [
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{5}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(10,15)=5 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{8}{12}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{4}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(8,12)=4 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{14}{21}$",
+      "choix": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{2}{7}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(14,21)=7 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{15}{25}$",
+      "choix": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{5}$"
+      ],
+      "reponse": "$\\frac{3}{5}$",
+      "explication": "PGCD(15,25)=5 →$\\frac{3}{5}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{12}{18}$",
+      "choix": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{4}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(12,18)=6 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{20}{30}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(20,30)=10 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{24}{36}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(24,36)=12 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{16}{24}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(16,24)=8 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{9}{27}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{3}$"
+      ],
+      "reponse": "$\\frac{1}{3}$",
+      "explication": "PGCD(9,27)=9 →$\\frac{1}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{18}{24}$",
+      "choix": [
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{3}{4}$",
+      "explication": "PGCD(18,24)=6 →$\\frac{3}{4}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{25}{100}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$"
+      ],
+      "reponse": "$\\frac{1}{4}$",
+      "explication": "PGCD(25,100)=25 →$\\frac{1}{4}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{30}{45}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(30,45)=15 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{21}{28}$",
+      "choix": [
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{7}$"
+      ],
+      "reponse": "$\\frac{3}{4}$",
+      "explication": "PGCD(21,28)=7 →$\\frac{3}{4}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{35}{49}$",
+      "choix": [
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{6}{7}$",
+        "$\\frac{3}{7}$"
+      ],
+      "reponse": "$\\frac{5}{7}$",
+      "explication": "PGCD(35,49)=7 →$\\frac{5}{7}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{12}{32}$",
+      "choix": [
+        "$\\frac{1}{3}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "reponse": "$\\frac{3}{8}$",
+      "explication": "PGCD(12,32)=4 →$\\frac{3}{8}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{6}{42}$",
+      "choix": [
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{1}{8}$"
+      ],
+      "reponse": "$\\frac{1}{7}$",
+      "explication": "PGCD(6,42)=6 →$\\frac{1}{7}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{22}{33}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(22,33)=11 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{40}{60}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(40,60)=20 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{56}{98}$",
+      "choix": [
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{6}{7}$",
+        "$\\frac{4}{9}$"
+      ],
+      "reponse": "$\\frac{4}{7}$",
+      "explication": "PGCD(56,98)=14 →$\\frac{4}{7}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{36}{60}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{4}{5}$"
+      ],
+      "reponse": "$\\frac{3}{5}$",
+      "explication": "PGCD(36,60)=12 →$\\frac{3}{5}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{27}{45}$",
+      "choix": [
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "reponse": "$\\frac{3}{5}$",
+      "explication": "PGCD(27,45)=9 →$\\frac{3}{5}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{48}{72}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(48,72)=24 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{15}{35}$",
+      "choix": [
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{7}$"
+      ],
+      "reponse": "$\\frac{3}{7}$",
+      "explication": "PGCD(15,35)=5 →$\\frac{3}{7}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{24}{32}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{4}$"
+      ],
+      "reponse": "$\\frac{3}{4}$",
+      "explication": "PGCD(24,32)=8 →$\\frac{3}{4}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{45}{75}$",
+      "choix": [
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{5}$"
+      ],
+      "reponse": "$\\frac{3}{5}$",
+      "explication": "PGCD(45,75)=15 →$\\frac{3}{5}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{60}{100}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "reponse": "$\\frac{3}{5}$",
+      "explication": "PGCD(60,100)=20 →$\\frac{3}{5}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{28}{42}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{7}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(28,42)=14 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{54}{81}$",
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "PGCD(54,81)=27 →$\\frac{2}{3}$",
+      "image": null
+    },
+    {
+      "id": "aut_12_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Simplifie$\\frac{36}{84}$",
+      "choix": [
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{3}$"
+      ],
+      "reponse": "$\\frac{3}{7}$",
+      "explication": "PGCD(36,84)=12 →$\\frac{3}{7}$",
+      "image": null
+    }
+  ]
+}

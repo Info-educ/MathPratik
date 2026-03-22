@@ -16,15 +16,35 @@ MathPratik-main/
 ├── CONSIGNES_IMPORT_DOCX.md         ← Instructions pour Claude (import de nouvelles notions)
 ├── data/
 │   ├── index.json                    ← REGISTRE de toutes les notions (à mettre à jour à chaque ajout)
-│   ├── questions.js                  ← Legacy — ne pas modifier
-│   ├── fractions_4eme.json           ← Notion : Fractions (4ème)
-│   ├── equations_4eme.json           ← Notion : Équations (4ème)
-│   ├── probabilites_4eme.json        ← Notion : Probabilités (4ème)
-│   ├── statistiques_4eme.json        ← Notion : Statistiques (4ème)
-│   └── aut_XX_[nom].json            ← Automatismes (36 fichiers)
+│   ├── 6eme/                         ← Notions pour la 6ème
+│   │   ├── [notion].json
+│   │   └── ...
+│   ├── 5eme/                         ← Notions pour la 5ème
+│   │   ├── [notion].json
+│   │   └── ...
+│   ├── 4eme/                         ← Notions pour la 4ème
+│   │   ├── pythagore_4eme.json
+│   │   ├── fractions_4eme.json
+│   │   ├── equations_4eme.json
+│   │   ├── probabilites_4eme.json
+│   │   └── ... (13 notions)
+│   ├── 3eme/                         ← Notions pour la 3ème
+│   │   ├── [notion].json
+│   │   └── ...
+│   └── automatismes/                 ← Automatismes (36 fichiers)
+│       ├── aut_01_tables_de_multiplication.json
+│       ├── aut_02_completer_10_100_1000.json
+│       └── ... (aut_01 à aut_36)
 ├── images/
-│   ├── probabilites/                 ← Images extraites du docx probabilités
-│   └── stats/                        ← Images extraites du docx statistiques
+│   ├── 6eme/                         ← Images pour 6ème
+│   ├── 5eme/                         ← Images pour 5ème
+│   ├── 4eme/                         ← Images pour 4ème
+│   │   ├── probabilites/
+│   │   ├── statistiques/
+│   │   ├── pythagore/
+│   │   └── ... (par notion)
+│   ├── 3eme/                         ← Images pour 3ème
+│   └── automatismes/                 ← Images des automatismes (optionnel)
 └── js/
     └── app.js                        ← Logique applicative (navigation, quiz, scores)
 ```
@@ -60,27 +80,30 @@ Puis ouvrir `http://localhost:8080`
 
 ## Architecture des contenus — Règles actuelles
 
-### Chaque notion = un fichier JSON indépendant
+### Chaque notion = un fichier JSON indépendant dans son dossier de niveau
 
-Depuis la refonte, les questions ne sont **plus** dans `questions.js` (legacy). Chaque notion mathématique a son propre fichier dans `data/` et est déclarée dans `data/index.json`.
+Depuis la refonte, les questions ne sont **plus** dans `questions.js` (legacy). Chaque notion mathématique a son propre fichier dans `data/[niveau]/` et est déclarée dans `data/index.json`.
 
 ### Niveaux disponibles
 
-| Clé JSON | Label affiché | Emoji |
-|----------|---------------|-------|
-| `5eme`   | 5ème          | 🟦    |
-| `4eme`   | 4ème          | 🟩    |
-| `3eme`   | 3ème          | 🟥    |
-| `automatismes` | Automatismes | ⚡ |
+| Clé JSON | Label affiché | Emoji | Dossier |
+|----------|---------------|-------|---------|
+| `6eme`   | 6ème          | 🟨    | `data/6eme/` |
+| `5eme`   | 5ème          | 🟦    | `data/5eme/` |
+| `4eme`   | 4ème          | 🟩    | `data/4eme/` |
+| `3eme`   | 3ème          | 🟥    | `data/3eme/` |
+| `automatismes` | Automatismes | ⚡ | `data/automatismes/` |
 
-### Notions actuellement intégrées (cycle 4)
+### Notions actuellement intégrées (cycle 4 — 4ème)
 
-| Fichier | Niveau | Nb questions |
-|---------|--------|-------------|
-| `fractions_4eme.json` | 4ème | 90 |
-| `equations_4eme.json` | 4ème | — |
-| `probabilites_4eme.json` | 4ème | — |
-| `statistiques_4eme.json` | 4ème | — |
+| Fichier | Dossier | Niveau | Nb questions |
+|---------|---------|--------|-------------|
+| `pythagore_4eme.json` | `data/4eme/` | 4ème | ~90 |
+| `equations_4eme.json` | `data/4eme/` | 4ème | — |
+| `probabilites_4eme.json` | `data/4eme/` | 4ème | — |
+| `statistiques_4eme.json` | `data/4eme/` | 4ème | — |
+| ... 9 autres notions 4ème | `data/4eme/` | 4ème | — |
+| **Automatismes** | `data/automatismes/` | Tous niveaux | 30 × 36 |
 
 ---
 
@@ -110,7 +133,7 @@ Toutes les questions sont au format **QCM avec exactement 4 choix** :
 | `niveau` | `1` (cours), `2` (application), `3` (raisonnement) |
 | `choix` | Exactement **4 éléments** |
 | `reponse` | Doit être la **copie exacte** d'un des 4 choix |
-| `image` | `null` si pas d'image, sinon chemin relatif depuis `images/` ex: `"stats/abc.png"` |
+| `image` | `null` si pas d'image, sinon chemin relatif depuis `images/[niveau]/` ex: `"4eme/probabilites/abc.png"` |
 | `avec_calculatrice` | `true` si la question nécessite un calcul non mental (divisions à virgule, grandes multiplications, racines…) |
 
 ### Niveaux de difficulté
@@ -136,7 +159,7 @@ Le moteur tire aléatoirement à chaque session :
 
 ### Étape 1 — Créer le fichier JSON
 
-Créer `data/[notion]_[niveau].json` en respectant le format ci-dessus.
+Créer `data/[niveau]/[notion].json` en respectant le format ci-dessus.
 Nommage du fichier : tout en minuscules, underscores, sans accents. Ex : `pythagore_4eme.json`
 
 Structure minimale du fichier :
@@ -161,7 +184,7 @@ Ajouter une entrée dans le tableau `fichiers` de `data/index.json` :
 ```json
 {
   "id":      "pythagore_4eme",
-  "fichier": "data/pythagore_4eme.json",
+  "fichier": "data/4eme/pythagore_4eme.json",
   "niveau":  "4eme"
 }
 ```
@@ -169,11 +192,11 @@ Ajouter une entrée dans le tableau `fichiers` de `data/index.json` :
 ### Étape 3 — Extraire les images (si le document en contient)
 
 ```bash
-mkdir -p images/[notion]/
-unzip -j fichier.docx "word/media/*" -d images/[notion]/
+mkdir -p images/4eme/pythagore/
+unzip -j fichier.docx "word/media/*" -d images/4eme/pythagore/
 ```
 
-Les noms de fichiers restent tels quels (hash). Les référencer dans le JSON via `"image": "[notion]/nom.png"`.
+Les noms de fichiers restent tels quels (hash). Les référencer dans le JSON via `"image": "4eme/pythagore/nom.png"`.
 
 ### Étape 4 — Vérification avant déploiement
 
@@ -181,7 +204,7 @@ Les noms de fichiers restent tels quels (hash). Les référencer dans le JSON vi
 import json, os
 from collections import Counter
 
-data = json.load(open('data/[notion]_[niveau].json'))
+data = json.load(open('data/4eme/pythagore_4eme.json'))
 print("JSON valide ✓")
 
 levels = Counter(q['niveau'] for q in data['questions'])
@@ -212,7 +235,7 @@ Le fichier `CONSIGNES_IMPORT_DOCX.md` contient toutes les instructions détaill�
 
 1. Envoyer le fichier `.docx` à Claude avec le fichier `CONSIGNES_IMPORT_DOCX.md`
 2. Claude lit le document, extrait les images, convertit toutes les questions en QCM
-3. Claude génère le fichier `.json` et met à jour `index.json`
+3. Claude génère le fichier `.json` dans le bon dossier (`data/[niveau]/`) et met à jour `index.json`
 4. Claude exécute les vérifications automatiques (étape 4 ci-dessus)
 5. Claude livre un `.zip` complet prêt à déployer
 

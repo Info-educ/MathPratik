@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_25",
+    "label": "Multiplier et diviser des relatifs",
+    "icon": "±",
+    "color": "#1e3a5f"
+  },
+  "questions": [
+    {
+      "id": "aut_25_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+5)$\\times$(+7) = ?",
+      "choix": [
+        "+30",
+        "+35",
+        "+40",
+        "+45"
+      ],
+      "reponse": "+35",
+      "explication": "(+)$\\times$(+)=(+). 5$\\times$7=35",
+      "image": null
+    },
+    {
+      "id": "aut_25_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-4)$\\times$(+3) = ?",
+      "choix": [
+        "-14",
+        "-12",
+        "-10",
+        "-8"
+      ],
+      "reponse": "-12",
+      "explication": "(-)$\\times$(+)=(-). 4$\\times$3=12",
+      "image": null
+    },
+    {
+      "id": "aut_25_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+6)$\\times$(-8) = ?",
+      "choix": [
+        "-56",
+        "-52",
+        "-48",
+        "-44"
+      ],
+      "reponse": "-48",
+      "explication": "(+)$\\times$(-)=(-). 6$\\times$8=48",
+      "image": null
+    },
+    {
+      "id": "aut_25_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-9)$\\times$(-4) = ?",
+      "choix": [
+        "+32",
+        "+36",
+        "+40",
+        "+44"
+      ],
+      "reponse": "+36",
+      "explication": "(-)$\\times$(-)=(+). 9$\\times$4=36",
+      "image": null
+    },
+    {
+      "id": "aut_25_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+12)$\\div$(+4) = ?",
+      "choix": [
+        "+2",
+        "+3",
+        "+4",
+        "+5"
+      ],
+      "reponse": "+3",
+      "explication": "(+)$\\div$(+)=(+). 12$\\div$4=3",
+      "image": null
+    },
+    {
+      "id": "aut_25_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-15)$\\div$(+5) = ?",
+      "choix": [
+        "-4",
+        "-3",
+        "-2",
+        "-1"
+      ],
+      "reponse": "-3",
+      "explication": "(-)$\\div$(+)=(-). 15$\\div$5=3",
+      "image": null
+    },
+    {
+      "id": "aut_25_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+18)$\\div$(-6) = ?",
+      "choix": [
+        "-4",
+        "-3",
+        "-2",
+        "-1"
+      ],
+      "reponse": "-3",
+      "explication": "(+)$\\div$(-)=(-). 18$\\div$6=3",
+      "image": null
+    },
+    {
+      "id": "aut_25_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-24)$\\div$(-8) = ?",
+      "choix": [
+        "+2",
+        "+3",
+        "+4",
+        "+5"
+      ],
+      "reponse": "+3",
+      "explication": "(-)$\\div$(-)=(+). 24$\\div$8=3",
+      "image": null
+    },
+    {
+      "id": "aut_25_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-3)$\\times$(-3)$\\times$(-3) = ?",
+      "choix": [
+        "-27",
+        "-18",
+        "+27",
+        "+18"
+      ],
+      "reponse": "-27",
+      "explication": "3 négatifs→(-). 27",
+      "image": null
+    },
+    {
+      "id": "aut_25_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+2)$\\times$(-5)$\\times$(+4) = ?",
+      "choix": [
+        "-40",
+        "-30",
+        "+30",
+        "+40"
+      ],
+      "reponse": "-40",
+      "explication": "1 négatif→(-). 40",
+      "image": null
+    },
+    {
+      "id": "aut_25_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-6)$\\times$(+2)$\\times$(-1) = ?",
+      "choix": [
+        "-12",
+        "+12",
+        "-6",
+        "+6"
+      ],
+      "reponse": "+12",
+      "explication": "2 négatifs→(+). 12",
+      "image": null
+    },
+    {
+      "id": "aut_25_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+7)$\\times$(-4) = ?",
+      "choix": [
+        "-24",
+        "-28",
+        "-32",
+        "-36"
+      ],
+      "reponse": "-28",
+      "explication": "7$\\times$4=28, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-11)$\\times$(-3) = ?",
+      "choix": [
+        "+28",
+        "+33",
+        "+38",
+        "+43"
+      ],
+      "reponse": "+33",
+      "explication": "11$\\times$3=33, signe(+)",
+      "image": null
+    },
+    {
+      "id": "aut_25_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+25)$\\div$(-5) = ?",
+      "choix": [
+        "-6",
+        "-5",
+        "-4",
+        "-3"
+      ],
+      "reponse": "-5",
+      "explication": "25$\\div$5=5, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-36)$\\div$(-9) = ?",
+      "choix": [
+        "+2",
+        "+3",
+        "+4",
+        "+5"
+      ],
+      "reponse": "+4",
+      "explication": "36$\\div$9=4, signe(+)",
+      "image": null
+    },
+    {
+      "id": "aut_25_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+8)$\\times$(+8) = ?",
+      "choix": [
+        "+56",
+        "+64",
+        "+72",
+        "+80"
+      ],
+      "reponse": "+64",
+      "explication": "8$\\times$8=64",
+      "image": null
+    },
+    {
+      "id": "aut_25_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-5)$\\times$(+9) = ?",
+      "choix": [
+        "-50",
+        "-45",
+        "-40",
+        "-35"
+      ],
+      "reponse": "-45",
+      "explication": "5$\\times$9=45, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-2)$\\times$(-4)$\\times$(-5) = ?",
+      "choix": [
+        "-60",
+        "-40",
+        "+40",
+        "+60"
+      ],
+      "reponse": "-40",
+      "explication": "3 négatifs→(-). 40",
+      "image": null
+    },
+    {
+      "id": "aut_25_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+100)$\\div$(-10) = ?",
+      "choix": [
+        "-11",
+        "-10",
+        "-9",
+        "-8"
+      ],
+      "reponse": "-10",
+      "explication": "100$\\div$10=10, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-48)$\\div$(+8) = ?",
+      "choix": [
+        "-7",
+        "-6",
+        "-5",
+        "-4"
+      ],
+      "reponse": "-6",
+      "explication": "48$\\div$8=6, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+3)$\\times$(-7) = ?",
+      "choix": [
+        "-23",
+        "-21",
+        "-19",
+        "-17"
+      ],
+      "reponse": "-21",
+      "explication": "3$\\times$7=21, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-6)$\\times$(-6) = ?",
+      "choix": [
+        "+30",
+        "+36",
+        "+42",
+        "+48"
+      ],
+      "reponse": "+36",
+      "explication": "6$\\times$6=36, signe(+)",
+      "image": null
+    },
+    {
+      "id": "aut_25_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+30)$\\div$(-6) = ?",
+      "choix": [
+        "-6",
+        "-5",
+        "-4",
+        "-3"
+      ],
+      "reponse": "-5",
+      "explication": "30$\\div$6=5, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-45)$\\div$(-9) = ?",
+      "choix": [
+        "+3",
+        "+4",
+        "+5",
+        "+6"
+      ],
+      "reponse": "+5",
+      "explication": "45$\\div$9=5, signe(+)",
+      "image": null
+    },
+    {
+      "id": "aut_25_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+4)$\\times$(-3)$\\times$(-2) = ?",
+      "choix": [
+        "-24",
+        "+24",
+        "-12",
+        "+12"
+      ],
+      "reponse": "+24",
+      "explication": "2 négatifs→(+). 24",
+      "image": null
+    },
+    {
+      "id": "aut_25_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-2)$\\times$(+5)$\\times$(-3)$\\times$(-1) = ?",
+      "choix": [
+        "-30",
+        "+30",
+        "-15",
+        "+15"
+      ],
+      "reponse": "-30",
+      "explication": "3 négatifs→(-). 30",
+      "image": null
+    },
+    {
+      "id": "aut_25_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+72)$\\div$(-8) = ?",
+      "choix": [
+        "-10",
+        "-9",
+        "-8",
+        "-7"
+      ],
+      "reponse": "-9",
+      "explication": "72$\\div$8=9, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-13)$\\times$(-2) = ?",
+      "choix": [
+        "+22",
+        "+26",
+        "+28",
+        "+32"
+      ],
+      "reponse": "+26",
+      "explication": "13$\\times$2=26, signe(+)",
+      "image": null
+    },
+    {
+      "id": "aut_25_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(+5)$\\times$(-10) = ?",
+      "choix": [
+        "-60",
+        "-55",
+        "-50",
+        "-45"
+      ],
+      "reponse": "-50",
+      "explication": "5$\\times$10=50, signe(-)",
+      "image": null
+    },
+    {
+      "id": "aut_25_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(-63)$\\div$(+7) = ?",
+      "choix": [
+        "-10",
+        "-9",
+        "-8",
+        "-7"
+      ],
+      "reponse": "-9",
+      "explication": "63$\\div$7=9, signe(-)",
+      "image": null
+    }
+  ]
+}

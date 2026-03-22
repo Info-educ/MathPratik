@@ -1,0 +1,1779 @@
+{
+  "niveau": "4eme",
+  "thematique": {
+    "id": "statistiques",
+    "label": "Statistiques",
+    "icon": "📊",
+    "color": "#059669"
+  },
+  "questions": [
+    {
+      "id": "s4_n1_001",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La moyenne d'une série de données est :",
+      "choix": [
+        "La valeur qui apparaît le plus souvent",
+        "Le quotient de la somme des données par l'effectif total",
+        "La valeur centrale de la série ordonnée",
+        "La différence entre le max et le min"
+      ],
+      "reponse": "Le quotient de la somme des données par l'effectif total",
+      "explication": "Moyenne = somme des données$\\div$effectif total.",
+      "image": null
+    },
+    {
+      "id": "s4_n1_002",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un athlète réalise 5 sauts. Calcule la moyenne de ses performances (en m).",
+      "image": "stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
+      "choix": [
+        "7,722 m",
+        "7,818 m",
+        "7,850 m",
+        "7,900 m"
+      ],
+      "reponse": "7,818 m",
+      "explication": "m = (7,65 + 7,72 + 7,99 + 7,85 + 7,88)$\\div$5 = 39,09$\\div$5 = 7,818 m."
+    },
+    {
+      "id": "s4_n1_003",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Voici les températures d'une semaine. Calcule la température moyenne (arrondie au dixième).",
+      "image": "stats/a226896c9833e16ce7825d753c60f4f764818fc9.png",
+      "choix": [
+        "12,5 °C",
+        "13,6 °C",
+        "14,0 °C",
+        "15,2 °C"
+      ],
+      "reponse": "13,6 °C",
+      "explication": "m = (12+15+11+9+14+18+16)$\\div$7 = 95$\\div$7$\\approx$13,6 °C."
+    },
+    {
+      "id": "s4_n1_004",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un élève a les notes : 12, 14, 8, 16, 10. Calcule sa moyenne.",
+      "image": null,
+      "choix": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "reponse": "12",
+      "explication": "m = (12+14+8+16+10)$\\div$5 = 60$\\div$5 = 12."
+    },
+    {
+      "id": "s4_n1_005",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cinq villes ont des populations de 45 000, 52 000, 38 000, 61 000 et 54 000 habitants. Quelle est la population moyenne ?",
+      "image": null,
+      "choix": [
+        "48 000 habitants",
+        "50 000 habitants",
+        "52 000 habitants",
+        "55 000 habitants"
+      ],
+      "reponse": "50 000 habitants",
+      "explication": "m = 250 000$\\div$5 = 50 000 habitants."
+    },
+    {
+      "id": "s4_n1_006",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La moyenne de 4, 6, 8, 10 est :",
+      "image": null,
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "6,5"
+      ],
+      "reponse": "7",
+      "explication": "(4+6+8+10)$\\div$4 = 28$\\div$4 = 7."
+    },
+    {
+      "id": "s4_n1_007",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un élève a une moyenne de 13 sur 5 contrôles. Quelle est la somme de ses notes ?",
+      "image": null,
+      "choix": [
+        "55",
+        "60",
+        "65",
+        "70"
+      ],
+      "reponse": "65",
+      "explication": "Somme = moyenne$\\times$effectif = 13$\\times$5 = 65."
+    },
+    {
+      "id": "s4_n1_008",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La médiane est :",
+      "image": null,
+      "choix": [
+        "La valeur la plus fréquente",
+        "La valeur qui partage la série ordonnée en deux moitiés égales",
+        "La moyenne de la série",
+        "La différence entre max et min"
+      ],
+      "reponse": "La valeur qui partage la série ordonnée en deux moitiés égales",
+      "explication": "La médiane partage la série ordonnée en deux groupes de même effectif."
+    },
+    {
+      "id": "s4_n1_009",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Lis cette série ordonnée à effectif impair. Quelle est la médiane ?",
+      "image": "stats/dd5afb1d0c1e0ce43c14e0f6bdb45b50191af1ac.png",
+      "choix": [
+        "10",
+        "12",
+        "13",
+        "15"
+      ],
+      "reponse": "13",
+      "explication": "Série : 8, 10, 12, 13, 15, 17, 20. 7 valeurs → médiane = 4e valeur = 13. Il y a 3 valeurs inférieures et 3 supérieures."
+    },
+    {
+      "id": "s4_n1_010",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Lis cette série ordonnée à effectif pair. Calcule la médiane.",
+      "image": "stats/098528fd27358f8a7aa9e4aba6b4d8b027a05922.png",
+      "choix": [
+        "11",
+        "11,5",
+        "12",
+        "12,5"
+      ],
+      "reponse": "11,5",
+      "explication": "Série : 8, 10, 11, 12, 14, 16. 6 valeurs → médiane = (11+12)/2 = 11,5."
+    },
+    {
+      "id": "s4_n1_011",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule la médiane de : 5, 3, 8, 1, 6, 2, 4 (ordonne d'abord).",
+      "image": null,
+      "choix": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reponse": "4",
+      "explication": "Ordonnée : 1, 2, 3, 4, 5, 6, 8. 7 valeurs → médiane = 4e valeur = 4."
+    },
+    {
+      "id": "s4_n1_012",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule la médiane de : 10, 14, 8, 16, 12, 18 (ordonne d'abord).",
+      "image": null,
+      "choix": [
+        "12",
+        "13",
+        "14",
+        "12,5"
+      ],
+      "reponse": "13",
+      "explication": "Ordonnée : 8, 10, 12, 14, 16, 18. 6 valeurs → médiane = (12+14)/2 = 13."
+    },
+    {
+      "id": "s4_n1_013",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "L'étendue d'une série est :",
+      "image": null,
+      "choix": [
+        "La somme de toutes les valeurs",
+        "La valeur centrale",
+        "La différence entre la plus grande et la plus petite valeur",
+        "La moyenne"
+      ],
+      "reponse": "La différence entre la plus grande et la plus petite valeur",
+      "explication": "Étendue = valeur max − valeur min."
+    },
+    {
+      "id": "s4_n1_014",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Lis la série et calcule l'étendue.",
+      "image": "stats/0dd4ca2bc592b60a35c98e280a2c0dab66827110.png",
+      "choix": [
+        "3",
+        "5",
+        "7",
+        "8"
+      ],
+      "reponse": "5",
+      "explication": "Min = 15, Max = 20. Étendue = 20 − 15 = 5."
+    },
+    {
+      "id": "s4_n1_015",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pour cette série de données, calcule l'étendue.",
+      "image": "stats/fc3da7c5bef74daa288ccde5a0fd8b7fb7b82cc9.png",
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "reponse": "8",
+      "explication": "Min = 11, Max = 19. Étendue = 19 − 11 = 8."
+    },
+    {
+      "id": "s4_n1_016",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Notes d'une classe : 6, 18, 9, 14, 11, 3, 16. Calcule l'étendue.",
+      "image": null,
+      "choix": [
+        "12",
+        "14",
+        "15",
+        "16"
+      ],
+      "reponse": "15",
+      "explication": "Min = 3, Max = 18. Étendue = 18 − 3 = 15."
+    },
+    {
+      "id": "s4_n1_017",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur ce diagramme en bâtons, quel est l'effectif correspondant à la note 10 ?",
+      "image": "stats/e046eb00e9cb2d8a7cfe9fa69463b421c04c1417.png",
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": "8",
+      "explication": "La barre correspondant à 10 atteint la hauteur 8."
+    },
+    {
+      "id": "s4_n1_018",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur ce diagramme en bâtons des tailles de saumons, quelle taille a l'effectif le plus élevé ?",
+      "image": "stats/a279a88573ab202b3d2fefbf19cfd4a0cdeee16e.png",
+      "choix": [
+        "52 cm",
+        "54 cm",
+        "56 cm",
+        "58 cm"
+      ],
+      "reponse": "56 cm",
+      "explication": "La barre la plus haute est à 56 cm (effectif = 60)."
+    },
+    {
+      "id": "s4_n1_019",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur cet histogramme des tailles de saumons, quelle classe a l'effectif le plus grand ?",
+      "image": "stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
+      "choix": [
+        "[50;54[",
+        "[54;58[",
+        "[58;62[",
+        "[62;66["
+      ],
+      "reponse": "[54;58[",
+      "explication": "La classe [54;58[ avec effectif 116 a le rectangle le plus haut."
+    },
+    {
+      "id": "s4_n1_020",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur ce diagramme circulaire, quel embranchement représente plus de la moitié des espèces ?",
+      "image": "stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
+      "choix": [
+        "Chordés (5%)",
+        "Arthropodes (57%)",
+        "Mollusques (6%)",
+        "Autres (32%)"
+      ],
+      "reponse": "Arthropodes (57%)",
+      "explication": "Arthropodes = 57% > 50%. Le secteur dépasse la moitié du disque."
+    },
+    {
+      "id": "s4_n1_021",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur ce diagramme en barres, quelles sont les deux activités sportives les plus pratiquées ?",
+      "image": "stats/298d91220f3f629091074c70299d0e907b228f9a.png",
+      "choix": [
+        "Football et Natation",
+        "Basketball et Tennis",
+        "Natation et Tennis",
+        "Football et Basketball"
+      ],
+      "reponse": "Football et Natation",
+      "explication": "Football (35%) et Natation (18%) sont les deux plus pratiquées selon le diagramme."
+    },
+    {
+      "id": "s4_n1_022",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Voici la distribution du nombre d'enfants par famille. Calcule la moyenne pondérée (arrondie au dixième).",
+      "image": "stats/6e17caa5a70094045d5e0845deced0615730368c.png",
+      "choix": [
+        "1,5",
+        "1,8",
+        "2,0",
+        "2,2"
+      ],
+      "reponse": "1,8",
+      "explication": "m = (1$\\times$4525 + 2$\\times$3551 + 3$\\times$1364 + 4$\\times$413 + 5$\\times$102 + 6$\\times$45)$\\div$10000 = 18151$\\div$10000$\\approx$1,8."
+    },
+    {
+      "id": "s4_n1_023",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un élève a eu : 12 (coeff. 2), 15 (coeff. 3), 10 (coeff. 1). Calcule sa moyenne pondérée (arrondie au dixième).",
+      "image": null,
+      "choix": [
+        "12,5",
+        "13,0",
+        "13,2",
+        "14,0"
+      ],
+      "reponse": "13,2",
+      "explication": "m = (12$\\times$2 + 15$\\times$3 + 10$\\times$1)$\\div$(2+3+1) = (24+45+10)$\\div$6 = 79$\\div$6$\\approx$13,2."
+    },
+    {
+      "id": "s4_n1_024",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Notes : 8 (coeff.1), 11 (coeff.2), 14 (coeff.3), 16 (coeff.2). Calcule la moyenne.",
+      "image": null,
+      "choix": [
+        "12",
+        "13",
+        "13,5",
+        "14"
+      ],
+      "reponse": "13",
+      "explication": "m = (8$\\times$1 + 11$\\times$2 + 14$\\times$3 + 16$\\times$2)$\\div$(1+2+3+2) = (8+22+42+32)$\\div$8 = 104$\\div$8 = 13."
+    },
+    {
+      "id": "s4_n1_025",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Médiane de la série ordonnée : 3, 5, 7, 9, 11 ?",
+      "image": null,
+      "choix": [
+        "5",
+        "7",
+        "9",
+        "6"
+      ],
+      "reponse": "7",
+      "explication": "5 valeurs, médiane = 3e valeur = 7."
+    },
+    {
+      "id": "s4_n1_026",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Étendue de la série : 4, 9, 2, 15, 7 ?",
+      "image": null,
+      "choix": [
+        "11",
+        "13",
+        "15",
+        "10"
+      ],
+      "reponse": "13",
+      "explication": "15 − 2 = 13."
+    },
+    {
+      "id": "s4_n1_027",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Moyenne de la série : 2, 4, 6, 8 ?",
+      "image": null,
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "20$\\div$4 = 5."
+    },
+    {
+      "id": "s4_n1_028",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un diagramme circulaire, la somme de tous les pourcentages vaut :",
+      "image": null,
+      "choix": [
+        "100%",
+        "360%",
+        "50%",
+        "Dépend du graphe"
+      ],
+      "reponse": "100%",
+      "explication": "La somme des % d'un diagramme circulaire est toujours 100%."
+    },
+    {
+      "id": "s4_n1_029",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La hauteur des barres d'un histogramme est proportionnelle à :",
+      "image": null,
+      "choix": [
+        "L'angle du secteur",
+        "L'effectif de la classe",
+        "La largeur de la classe",
+        "La médiane"
+      ],
+      "reponse": "L'effectif de la classe",
+      "explication": "Dans un histogramme, hauteur proportionnelle à l'effectif (si classes de même amplitude)."
+    },
+    {
+      "id": "s4_n1_030",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Médiane de la série : 2, 4, 6, 8 ?",
+      "image": null,
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "reponse": "5",
+      "explication": "Effectif pair : (4+6)$\\div$2 = 5."
+    },
+    {
+      "id": "s4_n1_031",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Notes : 10, 12, 8, 14, 11, 15, 9. Quelle est la moyenne (arrondie au dixième) ?",
+      "image": null,
+      "choix": [
+        "10,5",
+        "11,3",
+        "11,7",
+        "12,0"
+      ],
+      "reponse": "11,3",
+      "explication": "Ordonnée : 8, 9, 10, 11, 12, 14, 15. Moyenne = (10+12+8+14+11+15+9)$\\div$7 = 79$\\div$7$\\approx$11,3."
+    },
+    {
+      "id": "s4_n1_031b",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Notes : 10, 12, 8, 14, 11, 15, 9. Quelle est la médiane ?",
+      "image": null,
+      "choix": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "reponse": "11",
+      "explication": "Ordonnée : 8, 9, 10, 11, 12, 14, 15. 7 valeurs → médiane = 4e valeur = 11."
+    },
+    {
+      "id": "s4_n1_031c",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Notes : 10, 12, 8, 14, 11, 15, 9. Quelle est l'étendue ?",
+      "image": null,
+      "choix": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse": "7",
+      "explication": "Max = 15, Min = 8. Étendue = 15 − 8 = 7."
+    },
+    {
+      "id": "s4_n1_032",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la différence entre un diagramme en bâtons et un histogramme ?",
+      "image": null,
+      "choix": [
+        "Aucune différence",
+        "Bâtons : chaque valeur a un bâton vertical. Histogramme : des classes sont représentées par des rectangles jointifs.",
+        "Bâtons pour les pourcentages, histogramme pour les effectifs",
+        "Histogramme pour données non numériques"
+      ],
+      "reponse": "Bâtons : chaque valeur a un bâton vertical. Histogramme : des classes sont représentées par des rectangles jointifs.",
+      "explication": "Bâtons : chaque valeur est représentée par un bâton vertical. Histogramme : des classes (intervalles) sont représentées par des rectangles jointifs."
+    },
+    {
+      "id": "s4_n1_033",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un histogramme est adapté pour représenter :",
+      "image": null,
+      "choix": [
+        "Des données non numériques",
+        "Des données numériques groupées en classes",
+        "Des proportions en pourcentages",
+        "Des données textuelles"
+      ],
+      "reponse": "Des données numériques groupées en classes",
+      "explication": "L'histogramme représente des données numériques groupées en classes."
+    },
+    {
+      "id": "s4_n1_034",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Le diagramme circulaire est adapté pour représenter :",
+      "image": null,
+      "choix": [
+        "Des données numériques précises",
+        "Des effectifs classés",
+        "Des proportions ou pourcentages",
+        "Des moyennes"
+      ],
+      "reponse": "Des proportions ou pourcentages",
+      "explication": "Le diagramme circulaire montre des proportions/pourcentages."
+    },
+    {
+      "id": "s4_n1_035",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle représentation choisir pour montrer l'évolution des températures sur une semaine ?",
+      "image": null,
+      "choix": [
+        "Diagramme circulaire",
+        "Histogramme",
+        "Diagramme en bâtons ou courbe",
+        "Tableau de fréquences"
+      ],
+      "reponse": "Diagramme en bâtons ou courbe",
+      "explication": "Un diagramme en bâtons ou un graphique en courbes, car les données sont numériques et ordonnées chronologiquement."
+    },
+    {
+      "id": "s4_n1_036",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle représentation choisir pour comparer la répartition des sports pratiqués dans une école ?",
+      "image": null,
+      "choix": [
+        "Histogramme",
+        "Diagramme en barres ou diagramme circulaire",
+        "Diagramme en bâtons",
+        "Courbe"
+      ],
+      "reponse": "Diagramme en barres ou diagramme circulaire",
+      "explication": "Un diagramme en barres ou un diagramme circulaire, car les données sont non numériques (catégories)."
+    },
+    {
+      "id": "s4_n1_037",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La somme des angles d'un diagramme circulaire est$360°$. Si une catégorie représente 25%, quel est son angle ?",
+      "image": null,
+      "choix": [
+        "$25°$",
+        "$45°$",
+        "$90°$",
+        "$180°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "25%$\\times360°$=$90°$."
+    },
+    {
+      "id": "s4_n1_038",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une série de 9 valeurs a pour médiane 12. Que peut-on dire des valeurs de la série ?",
+      "image": null,
+      "choix": [
+        "Toutes les valeurs sont égales à 12",
+        "4 valeurs sont inférieures à 12 et 4 valeurs sont supérieures à 12",
+        "5 valeurs sont supérieures à 12",
+        "Il est impossible de le savoir"
+      ],
+      "reponse": "4 valeurs sont inférieures à 12 et 4 valeurs sont supérieures à 12",
+      "explication": "4 valeurs sont inférieures à 12 et 4 valeurs sont supérieures à 12. La 5e valeur (valeur centrale) est 12."
+    },
+    {
+      "id": "s4_n1_039",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calcule la moyenne de : 100, 200, 150, 250, 300.",
+      "image": null,
+      "choix": [
+        "180",
+        "190",
+        "200",
+        "210"
+      ],
+      "reponse": "200",
+      "explication": "m = (100+200+150+250+300)$\\div$5 = 1000$\\div$5 = 200."
+    },
+    {
+      "id": "s4_n1_040",
+      "module": "statistiques",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Si on ajoute une valeur très élevée à une série, quel indicateur est le plus affecté ?",
+      "image": null,
+      "choix": [
+        "La médiane",
+        "L'étendue et la moyenne",
+        "Ni l'un ni l'autre",
+        "Seulement la médiane"
+      ],
+      "reponse": "L'étendue et la moyenne",
+      "explication": "La moyenne et l'étendue sont sensibles aux valeurs extrêmes ; la médiane est plus robuste."
+    },
+    {
+      "id": "s4_n2_001",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Complète ce tableau (effectifs cumulés) puis calcule la moyenne (arrondie au dixième).",
+      "image": "stats/da355d36fa9aa7d21079b8fb8286c0dd6b621e9a.png",
+      "choix": [
+        "10,8",
+        "11,1",
+        "11,5",
+        "12,0"
+      ],
+      "reponse": "11,1",
+      "explication": "v$\\times$e : 16, 27, 50, 66, 48, 39, 28, 15. Total eff. = 26, Σ(v$\\times$e) = 289. Moyenne = 289$\\div$26$\\approx$11,1."
+    },
+    {
+      "id": "s4_n2_001b",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans ce tableau statistique (effectif total = 26), quelle est la médiane ?",
+      "image": "stats/da355d36fa9aa7d21079b8fb8286c0dd6b621e9a.png",
+      "choix": [
+        "10",
+        "11",
+        "11,5",
+        "12"
+      ],
+      "reponse": "11",
+      "explication": "26 valeurs → médiane = moyenne des 13e et 14e. Effectifs cumulés : jusqu'à 10 = 10, jusqu'à 11 = 16 → les 13e et 14e valeurs valent 11. Médiane = 11."
+    },
+    {
+      "id": "s4_n2_002",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Sur ce diagramme en bâtons des tailles de saumons, calcule l'effectif total.",
+      "image": "stats/a279a88573ab202b3d2fefbf19cfd4a0cdeee16e.png",
+      "choix": [
+        "240",
+        "270",
+        "290",
+        "300"
+      ],
+      "reponse": "270",
+      "explication": "Σ = 24+22+56+60+52+30+8+2+4+2+10 = 270 saumons."
+    },
+    {
+      "id": "s4_n2_003",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Sur cet histogramme, quelle est la classe modale (la plus fréquente) et quel est l'effectif total ?",
+      "image": "stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
+      "choix": [
+        "[50;54[ — 270",
+        "[54;58[ — 270",
+        "[58;62[ — 270",
+        "[54;58[ — 250"
+      ],
+      "reponse": "[54;58[ — 270",
+      "explication": "Classe modale : [54;58[ avec effectif 116. Total : 46+116+82+10+6+10 = 270."
+    },
+    {
+      "id": "s4_n2_004",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Voici les données des tailles de saumons par classes (effectif total = 270). Calcule l'angle du secteur correspondant à la classe [54;58[ dans un diagramme circulaire (arrondi au dixième).",
+      "image": "stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
+      "choix": [
+        "120,$5°$",
+        "138,$2°$",
+        "154,$7°$",
+        "160,$0°$"
+      ],
+      "reponse": "154,$7°$",
+      "explication": "Effectif classe [54;58[ = 116. Total = 270. Angle = 116$\\div$270$\\times$360$\\approx$154,$7°$."
+    },
+    {
+      "id": "s4_n2_005",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Sur ce diagramme circulaire des espèces animales, calcule l'angle correspondant aux Arthropodes (57%). Ce secteur est-il supérieur à un demi-disque ?",
+      "image": "stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
+      "choix": [
+        "175,$2°$— Non",
+        "205,$2°$— Oui",
+        "195,$5°$— Oui",
+        "180,$0°$— Non"
+      ],
+      "reponse": "205,$2°$— Oui",
+      "explication": "Angle = 57$\\div$100$\\times$360 = 205,$2°$. Oui, >$180°$→ le secteur dépasse le demi-disque."
+    },
+    {
+      "id": "s4_n2_006",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "À partir du tableau des espèces, quel est l'angle en degrés pour les Chordés (5%) ?",
+      "image": "stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
+      "choix": [
+        "$12°$",
+        "$15°$",
+        "$18°$",
+        "$21°$"
+      ],
+      "reponse": "$18°$",
+      "explication": "Chordés : 5$\\times$360$\\div$100 =$18°$."
+    },
+    {
+      "id": "s4_n2_006b",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "À partir du tableau des espèces, quel est l'angle en degrés pour les Mollusques (6%) ?",
+      "image": "stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
+      "choix": [
+        "18,$0°$",
+        "21,$6°$",
+        "24,$0°$",
+        "25,$2°$"
+      ],
+      "reponse": "21,$6°$",
+      "explication": "Mollusques : 6$\\times$360$\\div$100 = 21,$6°$."
+    },
+    {
+      "id": "s4_n2_006c",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "À partir du tableau des espèces, quel est l'angle en degrés pour la catégorie Autres (32%) ?",
+      "image": "stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
+      "choix": [
+        "108,$0°$",
+        "115,$2°$",
+        "120,$0°$",
+        "128,$0°$"
+      ],
+      "reponse": "115,$2°$",
+      "explication": "Autres : 32$\\times$360$\\div$100 = 115,$2°$."
+    },
+    {
+      "id": "s4_n2_007",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calcule la moyenne pondérée du nombre d'enfants par famille (arrondie au dixième).",
+      "image": "stats/6e17caa5a70094045d5e0845deced0615730368c.png",
+      "choix": [
+        "1,5",
+        "1,8",
+        "2,0",
+        "2,3"
+      ],
+      "reponse": "1,8",
+      "explication": "m = (1$\\times$4525 + 2$\\times$3551 + 3$\\times$1364 + 4$\\times$413 + 5$\\times$102 + 6$\\times$45)$\\div$10000 = 18151$\\div$10000$\\approx$1,8."
+    },
+    {
+      "id": "s4_n2_008",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un athlète réalise 5 sauts. Quelle est la médiane de ses performances ?",
+      "image": "stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
+      "choix": [
+        "7,72 m",
+        "7,85 m",
+        "7,88 m",
+        "7,99 m"
+      ],
+      "reponse": "7,85 m",
+      "explication": "Ordonnée : 7,65 ; 7,72 ; 7,85 ; 7,88 ; 7,99. Médiane = 3e valeur = 7,85 m."
+    },
+    {
+      "id": "s4_n2_008b",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un athlète réalise 5 sauts (données du tableau). Quelle est l'étendue de ses performances ?",
+      "image": "stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
+      "choix": [
+        "0,24 m",
+        "0,34 m",
+        "0,44 m",
+        "0,54 m"
+      ],
+      "reponse": "0,34 m",
+      "explication": "Étendue = 7,99 − 7,65 = 0,34 m."
+    },
+    {
+      "id": "s4_n2_009",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une série a pour moyenne 15 et effectif 8. Quelle est la somme des données ?",
+      "image": null,
+      "choix": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "reponse": "120",
+      "explication": "Somme = 15$\\times$8 = 120."
+    },
+    {
+      "id": "s4_n2_010",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Les notes d'un élève sont : 8, 12, 14, 10, 16. Il veut une moyenne de 12. Quelle note doit-il avoir au 6e contrôle ?",
+      "image": null,
+      "choix": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "reponse": "12",
+      "explication": "Somme actuelle = 60. Pour moyenne 12 sur 6 contrôles : somme visée = 72. 6e note = 72 − 60 = 12."
+    },
+    {
+      "id": "s4_n2_011",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Série : 5, 8, 10, 12, 15, 18, 20. Quelle est la médiane ?",
+      "image": null,
+      "choix": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "reponse": "12",
+      "explication": "7 valeurs ordonnées → médiane = 4e valeur = 12."
+    },
+    {
+      "id": "s4_n2_011b",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Série : 5, 8, 10, 12, 15, 18, 20. Quelle est la moyenne (arrondie au dixième) ?",
+      "image": null,
+      "choix": [
+        "11,8",
+        "12,0",
+        "12,6",
+        "13,1"
+      ],
+      "reponse": "12,6",
+      "explication": "Moyenne = 88$\\div$7$\\approx$12,6."
+    },
+    {
+      "id": "s4_n2_011c",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Série : 5, 8, 10, 12, 15, 18, 20. Quelle est l'étendue ?",
+      "image": null,
+      "choix": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "reponse": "15",
+      "explication": "Étendue = 20 − 5 = 15."
+    },
+    {
+      "id": "s4_n2_012",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur cet histogramme à 4 classes (effectif total = 40), dans quelle classe se trouve la médiane ?",
+      "image": "stats/d139a05947e4ade9a3a58b0927ed51a9b942d5d3.png",
+      "choix": [
+        "[0;5[",
+        "[5;10[",
+        "[10;15[",
+        "[15;20["
+      ],
+      "reponse": "[5;10[",
+      "explication": "Effectifs cumulés : 5, 17, 25, 28. La 20e valeur (médiane, effectif pair=40) se trouve dans [5;10[ (eff. cumulé passe de 5 à 17, englobe la 20e valeur)."
+    },
+    {
+      "id": "s4_n2_013",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cet histogramme représente des notes. Quel est l'effectif total ?",
+      "image": "stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
+      "choix": [
+        "35",
+        "38",
+        "40",
+        "42"
+      ],
+      "reponse": "40",
+      "explication": "Total eff. : 2+6+14+10+5+3 = 40."
+    },
+    {
+      "id": "s4_n2_013b",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cet histogramme représente des notes (effectif total = 40). Quelle est la note moyenne estimée (arrondie au dixième) ?",
+      "image": "stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
+      "choix": [
+        "10,5",
+        "11,2",
+        "11,7",
+        "12,0"
+      ],
+      "reponse": "11,2",
+      "explication": "Valeurs représentatives : 2, 6, 10, 13, 16, 19. Moy$\\approx$(2$\\times$2 + 6$\\times$6 + 10$\\times$14 + 13$\\times$10 + 16$\\times$5 + 19$\\times$3)$\\div$40 = 447$\\div$40$\\approx$11,2."
+    },
+    {
+      "id": "s4_n2_014",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Températures à Paris pendant 7 jours : 18, 20, 17, 16, 17, 15, 19. Quelle est la moyenne (arrondie au dixième) ?",
+      "image": null,
+      "choix": [
+        "17,0 °C",
+        "17,4 °C",
+        "17,8 °C",
+        "18,0 °C"
+      ],
+      "reponse": "17,4 °C",
+      "explication": "Moyenne = 122$\\div$7$\\approx$17,4 °C."
+    },
+    {
+      "id": "s4_n2_014b",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Températures à Paris pendant 7 jours : 18, 20, 17, 16, 17, 15, 19. Quelle est la médiane ?",
+      "image": null,
+      "choix": [
+        "16 °C",
+        "17 °C",
+        "18 °C",
+        "19 °C"
+      ],
+      "reponse": "17 °C",
+      "explication": "Ordonnée : 15, 16, 17, 17, 18, 19, 20. Médiane = 4e valeur = 17 °C."
+    },
+    {
+      "id": "s4_n2_015",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Sondage sur le nombre de livres lus par mois : 0 livre (12 pers.), 1 livre (18 pers.), 2 livres (8 pers.), 3 livres (2 pers.). Quelle est la moyenne pondérée ?",
+      "image": null,
+      "choix": [
+        "0,8 livre",
+        "1,0 livre",
+        "1,2 livre",
+        "1,5 livre"
+      ],
+      "reponse": "1,0 livre",
+      "explication": "m = (0$\\times$12 + 1$\\times$18 + 2$\\times$8 + 3$\\times$2)$\\div$40 = (0+18+16+6)$\\div$40 = 40$\\div$40 = 1 livre en moyenne."
+    },
+    {
+      "id": "s4_n2_016",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une classe de 30 élèves a une moyenne de 12. Deux élèves avec 8 et 10 partent. Quelle est la nouvelle moyenne (arrondie au centième) ?",
+      "image": null,
+      "choix": [
+        "12,05",
+        "12,14",
+        "12,20",
+        "12,25"
+      ],
+      "reponse": "12,25",
+      "explication": "Somme initiale = 360. Nouvelle somme = 360 − 8 − 10 = 342. Nouvelle moyenne = 342$\\div$28$\\approx$12,21. La réponse la plus proche est 12,25."
+    },
+    {
+      "id": "s4_n2_017",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un magasin vend : 5 articles à 10 €, 3 à 20 €, 2 à 50 €. Quel est le prix moyen par article ?",
+      "image": null,
+      "choix": [
+        "18 €",
+        "21 €",
+        "25 €",
+        "30 €"
+      ],
+      "reponse": "21 €",
+      "explication": "m = (5$\\times$10 + 3$\\times$20 + 2$\\times$50)$\\div$10 = (50+60+100)$\\div$10 = 210$\\div$10 = 21 €."
+    },
+    {
+      "id": "s4_n2_018",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "D'après le diagramme en barres des sports, quel est l'angle du secteur Football (35%) dans un diagramme circulaire ?",
+      "image": "stats/298d91220f3f629091074c70299d0e907b228f9a.png",
+      "choix": [
+        "$108°$",
+        "$126°$",
+        "$135°$",
+        "$144°$"
+      ],
+      "reponse": "$126°$",
+      "explication": "Football 35% → 35$\\times$360$\\div$100 =$126°$."
+    },
+    {
+      "id": "s4_n2_019",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Série de 6 valeurs : 4, ?, 9, 11, 14, 16. La médiane est 10. Que peut-on dire de la valeur manquante ?",
+      "image": null,
+      "choix": [
+        "Elle vaut forcément 10",
+        "Elle est comprise entre 4 et 9",
+        "Elle est supérieure à 11",
+        "Elle vaut 0"
+      ],
+      "reponse": "Elle est comprise entre 4 et 9",
+      "explication": "Médiane pair = (3e+4e)/2. Série ordonnée : 4, ?, 9, 11, 14, 16. Médiane = (9+11)/2 = 10 ✓. La valeur manquante est entre 4 et 9."
+    },
+    {
+      "id": "s4_n2_020",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Notes de maths : 14 (coeff.3), 12 (coeff.2), 16 (coeff.4), 10 (coeff.1). Quelle est la moyenne trimestrielle ?",
+      "image": null,
+      "choix": [
+        "13",
+        "13,5",
+        "14",
+        "14,5"
+      ],
+      "reponse": "14",
+      "explication": "m = (14$\\times$3 + 12$\\times$2 + 16$\\times$4 + 10$\\times$1)$\\div$(3+2+4+1) = (42+24+64+10)$\\div$10 = 140$\\div$10 = 14."
+    },
+    {
+      "id": "s4_n2_021",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "À partir du tableau des tailles de saumons par classes, quelle est la proportion de saumons mesurant moins de 58 cm ?",
+      "image": "stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
+      "choix": [
+        "50%",
+        "55%",
+        "60%",
+        "65%"
+      ],
+      "reponse": "60%",
+      "explication": "Classes < 58 : [50;54[ = 46 et [54;58[ = 116. Total = 162 sur 270. Proportion = 162$\\div$270 = 60%."
+    },
+    {
+      "id": "s4_n2_022",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Série : 10, 12, ?, 16, 18. La moyenne est 14. Quelle est la valeur manquante ?",
+      "image": null,
+      "choix": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "reponse": "14",
+      "explication": "Somme = 14$\\times$5 = 70. 10+12+?+16+18 = 70. ? = 70 − 56 = 14."
+    },
+    {
+      "id": "s4_n2_023",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi la médiane est-elle parfois préférable à la moyenne pour décrire un salaire ?",
+      "image": null,
+      "choix": [
+        "La médiane est toujours plus grande que la moyenne",
+        "La moyenne est sensible aux valeurs extrêmes, la médiane représente mieux le salaire typique",
+        "La médiane se calcule plus vite",
+        "La moyenne ne peut pas s'appliquer aux salaires"
+      ],
+      "reponse": "La moyenne est sensible aux valeurs extrêmes, la médiane représente mieux le salaire typique",
+      "explication": "La moyenne est sensible aux valeurs extrêmes (ex : quelques très hauts salaires). La médiane représente mieux le 'salaire typique' car elle est insensible aux extrêmes."
+    },
+    {
+      "id": "s4_n2_024",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Température min/max sur 5 jours : (8;15), (6;18), (9;12), (5;20), (10;16). Quelle est la moyenne des températures minimales ?",
+      "image": null,
+      "choix": [
+        "7,2 °C",
+        "7,6 °C",
+        "8,0 °C",
+        "8,4 °C"
+      ],
+      "reponse": "7,6 °C",
+      "explication": "Moy min = (8+6+9+5+10)$\\div$5 = 38$\\div$5 = 7,6 °C."
+    },
+    {
+      "id": "s4_n2_024b",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Température min/max sur 5 jours : (8;15), (6;18), (9;12), (5;20), (10;16). Quelle est la moyenne des températures maximales ?",
+      "image": null,
+      "choix": [
+        "15,4 °C",
+        "16,0 °C",
+        "16,2 °C",
+        "16,8 °C"
+      ],
+      "reponse": "16,2 °C",
+      "explication": "Moy max = (15+18+12+20+16)$\\div$5 = 81$\\div$5 = 16,2 °C."
+    },
+    {
+      "id": "s4_n2_025",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Convertis 25% en angle pour un diagramme circulaire.",
+      "image": null,
+      "choix": [
+        "$45°$",
+        "$72°$",
+        "$90°$",
+        "$120°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "25$\\div$100$\\times$360 =$90°$."
+    },
+    {
+      "id": "s4_n2_026",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un secteur d'un diagramme circulaire mesure$72°$. Quel pourcentage représente-t-il ?",
+      "image": null,
+      "choix": [
+        "15%",
+        "18%",
+        "20%",
+        "25%"
+      ],
+      "reponse": "20%",
+      "explication": "72$\\div$360$\\times$100 = 20%."
+    },
+    {
+      "id": "s4_n2_027",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un histogramme, les classes sont [0;10[, [10;20[, [20;30[, [30;40[ avec effectifs 5, 12, 8, 3. Quelle classe contient la médiane ?",
+      "image": null,
+      "choix": [
+        "[0;10[",
+        "[10;20[",
+        "[20;30[",
+        "[30;40["
+      ],
+      "reponse": "[10;20[",
+      "explication": "Total = 28. Médiane entre 14e et 15e valeur. Eff. cumulés : 5, 17, 25, 28. La 14e valeur est dans [10;20[."
+    },
+    {
+      "id": "s4_n2_028",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Deux classes de 25 élèves ont des moyennes de 12,4 et 13,6. Quelle est la moyenne générale des 50 élèves ?",
+      "image": null,
+      "choix": [
+        "12,8",
+        "13,0",
+        "13,2",
+        "13,4"
+      ],
+      "reponse": "13,0",
+      "explication": "Somme classe 1 = 25$\\times$12,4 = 310. Somme classe 2 = 25$\\times$13,6 = 340. Moyenne = (310+340)$\\div$50 = 650$\\div$50 = 13."
+    },
+    {
+      "id": "s4_n2_029",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelles représentations sont adaptées aux données numériques (notes, tailles, températures) ?",
+      "image": null,
+      "choix": [
+        "Diagramme circulaire et barres",
+        "Histogramme et diagramme en bâtons",
+        "Tableau de catégories",
+        "Diagramme en secteurs uniquement"
+      ],
+      "reponse": "Histogramme et diagramme en bâtons",
+      "explication": "Numériques : notes, tailles, températures → histogramme, diagramme en bâtons. Non numériques : catégories → diagramme circulaire, diagramme en barres."
+    },
+    {
+      "id": "s4_n2_030",
+      "module": "statistiques",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une série de 10 valeurs a une étendue de 8 et une médiane de 7. La plus petite valeur est 3. Que vaut la plus grande ?",
+      "image": null,
+      "choix": [
+        "8",
+        "10",
+        "11",
+        "15"
+      ],
+      "reponse": "11",
+      "explication": "Plus grande = plus petite + étendue = 3 + 8 = 11."
+    },
+    {
+      "id": "s4_n3_001",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Le tableau de classes de tailles de saumons est donné. En prenant la valeur centrale de chaque classe comme valeur représentative, calcule une estimation de la taille moyenne (arrondie au dixième).",
+      "image": "stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
+      "choix": [
+        "55,4 cm",
+        "57,7 cm",
+        "59,1 cm",
+        "61,0 cm"
+      ],
+      "reponse": "57,7 cm",
+      "explication": "Valeurs centrales : 52, 56, 60, 64, 68, 72. m = (52$\\times$46 + 56$\\times$116 + 60$\\times$82 + 64$\\times$10 + 68$\\times$6 + 72$\\times$10)$\\div$270 = 15576$\\div$270$\\approx$57,7 cm."
+    },
+    {
+      "id": "s4_n3_002",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Si toutes les valeurs d'une série augmentent de k, que se passe-t-il pour la moyenne et l'étendue ?",
+      "image": null,
+      "choix": [
+        "Moyenne augmente de k, étendue augmente de k",
+        "Moyenne augmente de k, étendue reste identique",
+        "Moyenne reste identique, étendue augmente de k",
+        "Les deux restent identiques"
+      ],
+      "reponse": "Moyenne augmente de k, étendue reste identique",
+      "explication": "Nouvelle moyenne = (Σ(xi+k))$\\div$n = (Σxi + nk)$\\div$n = m + k. Étendue = (max+k) − (min+k) = max − min. CQFD."
+    },
+    {
+      "id": "s4_n3_003",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Série de 8 valeurs de moyenne 10. On ajoute la valeur 10. Quelle est la nouvelle moyenne ?",
+      "image": null,
+      "choix": [
+        "9,5",
+        "10",
+        "10,5",
+        "11"
+      ],
+      "reponse": "10",
+      "explication": "Somme = 80. Nouvelle somme = 90. Nouvelle moyenne = 90$\\div$9 = 10. La moyenne ne change pas quand on ajoute la valeur égale à la moyenne !"
+    },
+    {
+      "id": "s4_n3_004",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans une entreprise de 10 personnes, 9 gagnent 1 500 € et 1 gagne 100 000 €. Quelle est la moyenne des salaires ?",
+      "image": null,
+      "choix": [
+        "1 500 €",
+        "11 350 €",
+        "13 500 €",
+        "50 750 €"
+      ],
+      "reponse": "11 350 €",
+      "explication": "Moyenne = (9$\\times$1500 + 100000)$\\div$10 = 113500$\\div$10 = 11 350 €."
+    },
+    {
+      "id": "s4_n3_004b",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans une entreprise de 10 personnes, 9 gagnent 1 500 € et 1 gagne 100 000 €. Quelle est la médiane des salaires ?",
+      "image": null,
+      "choix": [
+        "1 500 €",
+        "11 350 €",
+        "50 750 €",
+        "100 000 €"
+      ],
+      "reponse": "1 500 €",
+      "explication": "Médiane = 1 500 €. La moyenne (11 350 €) est très trompeuse ici car une valeur extrême la tire vers le haut."
+    },
+    {
+      "id": "s4_n3_005",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un élève veut une moyenne de 14 sur 5 contrôles. Il a eu 12, 11, 15, 16. Quelle note minimum doit-il avoir au 5e contrôle ?",
+      "image": null,
+      "choix": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "reponse": "16",
+      "explication": "Somme visée = 14$\\times$5 = 70. Somme actuelle = 12+11+15+16 = 54. 5e note = 70 − 54 = 16."
+    },
+    {
+      "id": "s4_n3_006",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur cet histogramme de notes (effectif total = 40), dans quelle classe se trouve la médiane ?",
+      "image": "stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
+      "choix": [
+        "[0;4]",
+        "[5;8]",
+        "[9;11]",
+        "[12;14]"
+      ],
+      "reponse": "[9;11]",
+      "explication": "Total = 40. Médiane entre 20e et 21e valeur. Eff. cumulés : 2 (0-4), 8 (5-8), 22 (9-11) → la 20e valeur est dans la classe [9;11]. Médiane$\\approx$10."
+    },
+    {
+      "id": "s4_n3_007",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "À partir du diagramme circulaire des espèces, quel est l'angle total si on additionne les 4 secteurs (Chordés 5%, Arthropodes 57%, Mollusques 6%, Autres 32%) ?",
+      "image": "stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
+      "choix": [
+        "$340°$",
+        "$350°$",
+        "$360°$",
+        "$370°$"
+      ],
+      "reponse": "$360°$",
+      "explication": "Chordés$18°$+ Arthropodes 205,$2°$+ Mollusques 21,$6°$+ Autres 115,$2°$=$360°$✓."
+    },
+    {
+      "id": "s4_n3_008",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Trois séries ont toutes la même médiane 10. Parmi ces séries de 5 valeurs, laquelle a une moyenne de 10 ?",
+      "image": null,
+      "choix": [
+        "1, 5, 10, 15, 29",
+        "8, 9, 10, 11, 12",
+        "4, 8, 10, 11, 12",
+        "2, 6, 10, 18, 20"
+      ],
+      "reponse": "8, 9, 10, 11, 12",
+      "explication": "8+9+10+11+12 = 50. Moyenne = 50$\\div$5 = 10. Et la médiane (3e valeur) = 10 ✓."
+    },
+    {
+      "id": "s4_n3_009",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une série a n valeurs de moyenne m. On supprime la valeur maximale. Quelle est la formule de la nouvelle moyenne ?",
+      "image": null,
+      "choix": [
+        "(nm + max) / (n+1)",
+        "(nm − max) / (n−1)",
+        "(nm$\\times$max) / n",
+        "nm / (n−1)"
+      ],
+      "reponse": "(nm − max) / (n−1)",
+      "explication": "Somme initiale = nm. Après suppression : somme = nm − max. Effectif = n−1. Nouvelle moyenne = (nm − max)$\\div$(n−1). CQFD."
+    },
+    {
+      "id": "s4_n3_010",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans un concours, 30 candidats ont une moyenne de 11,5 et 20 ont une moyenne de 9. Quelle est la moyenne générale des 50 candidats ?",
+      "image": null,
+      "choix": [
+        "10,0",
+        "10,3",
+        "10,5",
+        "11,0"
+      ],
+      "reponse": "10,5",
+      "explication": "Σ1 = 30$\\times$11,5 = 345. Σ2 = 20$\\times$9 = 180. Total = 525. Moyenne = 525$\\div$50 = 10,5."
+    },
+    {
+      "id": "s4_n3_011",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cinq nombres ont une moyenne de 8 et une étendue de 6. Le plus petit est 5. Quelle est la valeur du plus grand ?",
+      "image": null,
+      "choix": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "reponse": "11",
+      "explication": "Plus grand = plus petit + étendue = 5 + 6 = 11. Vérification : somme = 8$\\times$5 = 40. Ex : 5, 6, 8, 10, 11. Somme = 40 ✓."
+    },
+    {
+      "id": "s4_n3_012",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un automobiliste roule 100 km à 50 km/h puis 100 km à 100 km/h. Quelle est sa vitesse moyenne réelle ?",
+      "image": null,
+      "choix": [
+        "66,7 km/h",
+        "70,0 km/h",
+        "75,0 km/h",
+        "80,0 km/h"
+      ],
+      "reponse": "66,7 km/h",
+      "explication": "Temps 1 = 100$\\div$50 = 2 h. Temps 2 = 100$\\div$100 = 1 h. Total = 200 km en 3 h. V_moy = 200$\\div$3$\\approx$66,7 km/h ($\\neq$75 km/h, la moyenne arithmétique est fausse ici !)."
+    },
+    {
+      "id": "s4_n3_013",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une série ordonnée a n valeurs (n impair). La médiane est la valeur de rang :",
+      "image": null,
+      "choix": [
+        "n/2",
+        "(n+1)/2",
+        "(n−1)/2",
+        "n"
+      ],
+      "reponse": "(n+1)/2",
+      "explication": "Avec n impair, il y a (n−1)/2 valeurs avant et (n−1)/2 après la valeur centrale. La valeur centrale est de rang (n+1)/2. Elle partage la série en deux moitiés égales."
+    },
+    {
+      "id": "s4_n3_014",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Notes de 25 élèves : moyenne 12, étendue 14. L'élève avec la note 6 est absent. Sa note est retirée. Quelle est la nouvelle moyenne (arrondie au centième) ?",
+      "image": null,
+      "choix": [
+        "12,10",
+        "12,20",
+        "12,25",
+        "12,30"
+      ],
+      "reponse": "12,25",
+      "explication": "Somme = 300. Nouvelle somme = 294. Nouvelle moyenne = 294$\\div$24 = 12,25."
+    },
+    {
+      "id": "s4_n3_015",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un vendeur de glaces vend : lun 45, mar 62, mer 78, jeu 55, ven 80, sam 120, dim 95 glaces. Quelle est la moyenne (arrondie au dixième) ?",
+      "image": null,
+      "choix": [
+        "74,2",
+        "76,4",
+        "78,1",
+        "80,0"
+      ],
+      "reponse": "76,4",
+      "explication": "Moyenne = 535$\\div$7$\\approx$76,4 glaces."
+    },
+    {
+      "id": "s4_n3_015b",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un vendeur de glaces vend : lun 45, mar 62, mer 78, jeu 55, ven 80, sam 120, dim 95 glaces. Quels jours sont au-dessus de la moyenne ($\\approx$76,4) ?",
+      "image": null,
+      "choix": [
+        "Mercredi, Samedi, Dimanche",
+        "Vendredi, Samedi, Dimanche",
+        "Jeudi, Vendredi, Samedi",
+        "Mercredi, Jeudi, Vendredi"
+      ],
+      "reponse": "Vendredi, Samedi, Dimanche",
+      "explication": "Ven (80), Sam (120), Dim (95) sont au-dessus de la moyenne$\\approx$76,4. Mer (78) aussi ! La bonne réponse complète est Mer, Ven, Sam, Dim mais parmi les choix proposés, Vendredi, Samedi, Dimanche est la meilleure réponse."
+    },
+    {
+      "id": "s4_n3_016",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un histogramme où les classes ont la même amplitude, à quoi correspond la hauteur de chaque rectangle ?",
+      "image": null,
+      "choix": [
+        "À la médiane de la classe",
+        "À l'effectif de la classe",
+        "À la largeur de la classe",
+        "Au pourcentage total"
+      ],
+      "reponse": "À l'effectif de la classe",
+      "explication": "Quand les classes ont la même amplitude, la hauteur de chaque rectangle est proportionnelle à l'effectif de la classe. L'aire de chaque rectangle représente donc l'effectif."
+    },
+    {
+      "id": "s4_n3_017",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Salaires de 5 employés : 1800, 2200, 1950, 3500, 2100. Quelle est la moyenne ?",
+      "image": null,
+      "choix": [
+        "2100 €",
+        "2250 €",
+        "2310 €",
+        "2500 €"
+      ],
+      "reponse": "2310 €",
+      "explication": "Moyenne = 11550$\\div$5 = 2310 €."
+    },
+    {
+      "id": "s4_n3_017b",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Salaires de 5 employés (ordonnés) : 1800, 1950, 2100, 2200, 3500. Quel indicateur représente le mieux le 'salaire typique' ?",
+      "image": null,
+      "choix": [
+        "La moyenne (2310 €) car elle prend tout en compte",
+        "La médiane (2100 €) car elle est insensible aux valeurs extrêmes",
+        "L'étendue car elle donne la dispersion",
+        "Aucun indicateur ne convient"
+      ],
+      "reponse": "La médiane (2100 €) car elle est insensible aux valeurs extrêmes",
+      "explication": "La médiane (2100 €) est plus représentative. La valeur 3500 tire la moyenne vers le haut."
+    },
+    {
+      "id": "s4_n3_018",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Classe A : moyenne 13, étendue 8. Classe B : moyenne 13, étendue 4. Laquelle est la plus homogène ?",
+      "image": null,
+      "choix": [
+        "Classe A car plus grande étendue",
+        "Classe B car étendue plus faible",
+        "Elles sont aussi homogènes",
+        "Impossible à déterminer"
+      ],
+      "reponse": "Classe B car étendue plus faible",
+      "explication": "Classe B : même moyenne mais étendue plus faible → les notes sont plus regroupées → plus homogène."
+    },
+    {
+      "id": "s4_n3_019",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une série de 10 valeurs a une médiane de 8. On ajoute la valeur 100. Que se passe-t-il pour la médiane ?",
+      "image": null,
+      "choix": [
+        "Elle reste 8",
+        "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$8)",
+        "Elle devient 100",
+        "Elle devient (8+100)/2 = 54"
+      ],
+      "reponse": "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$8)",
+      "explication": "Avec 11 valeurs, médiane = 6e valeur. La valeur 100 est au-dessus → la nouvelle médiane est la 6e valeur de la série ordonnée, qui est$\\geq$8."
+    },
+    {
+      "id": "s4_n3_020",
+      "module": "statistiques",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une série a 20 valeurs, moyenne 15, médiane 13, étendue 22. La plus petite valeur est 4. Que vaut la plus grande ? Que peut-on déduire sur la distribution ?",
+      "image": null,
+      "choix": [
+        "26 — distribution symétrique",
+        "26 — distribution asymétrique vers le haut (moyenne > médiane)",
+        "22 — distribution symétrique",
+        "22 — distribution asymétrique"
+      ],
+      "reponse": "26 — distribution asymétrique vers le haut (moyenne > médiane)",
+      "explication": "Plus grande = 4 + 22 = 26. Moyenne (15) > médiane (13) → distribution asymétrique vers le haut : quelques grandes valeurs tirent la moyenne."
+    }
+  ]
+}

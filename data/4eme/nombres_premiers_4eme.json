@@ -1,0 +1,1451 @@
+{
+  "niveau": "4eme",
+  "thematique": {
+    "id": "nombres_premiers_4eme",
+    "label": "Nombres premiers",
+    "icon": "🔢",
+    "color": "#7c3aed"
+  },
+  "questions": [
+    {
+      "id": "prem4_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "15 = 3$\\times$5. Quelles affirmations sont vraies ?",
+      "image": null,
+      "choix": [
+        "15 est un multiple de 3 seulement",
+        "3 est un diviseur de 15 seulement",
+        "15 est divisible par 5 seulement",
+        "Toutes ces affirmations"
+      ],
+      "reponse": "Toutes ces affirmations",
+      "explication": "15=3$\\times$5 donc 15 est multiple de 3 et de 5, et 3, 5 sont diviseurs de 15."
+    },
+    {
+      "id": "prem4_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Parmi les propositions suivantes, lesquelles sont des multiples de 7 ?",
+      "image": null,
+      "choix": [
+        "14 et 21",
+        "13 et 20",
+        "15 et 22",
+        "11 et 18"
+      ],
+      "reponse": "14 et 21",
+      "explication": "Exemples de multiples de 7 : 14, 21, 28... 14=7$\\times$2, 21=7$\\times$3."
+    },
+    {
+      "id": "prem4_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien de diviseurs possède 24 ?",
+      "image": null,
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "reponse": "8",
+      "explication": "Diviseurs de 24 : 1, 2, 3, 4, 6, 8, 12, 24. → 8 diviseurs."
+    },
+    {
+      "id": "prem4_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel entier k vérifie 36 = 4$\\times$k ?",
+      "image": null,
+      "choix": [
+        "8",
+        "9",
+        "32",
+        "40"
+      ],
+      "reponse": "9",
+      "explication": "36 = 4$\\times$9."
+    },
+    {
+      "id": "prem4_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "48 est-il un multiple de 6 ?",
+      "image": null,
+      "choix": [
+        "Non, car 48$\\div$6 n'est pas entier",
+        "Oui, car 48=6$\\times$8",
+        "Non, car 6 ne divise pas 48",
+        "Oui, car 48 est pair"
+      ],
+      "reponse": "Oui, car 48=6$\\times$8",
+      "explication": "48 = 6$\\times$8 → oui, multiple de 6."
+    },
+    {
+      "id": "prem4_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Avec 15 = 3$\\times$5, quelle affirmation est correcte sur les notions de multiple et diviseur ?",
+      "image": null,
+      "choix": [
+        "15 est un diviseur de 3",
+        "3 et 5 sont des multiples de 15",
+        "3 et 5 sont des diviseurs de 15",
+        "15 est un diviseur de 5"
+      ],
+      "reponse": "3 et 5 sont des diviseurs de 15",
+      "explication": "3 et 5 sont diviseurs de 15 (ils divisent 15 sans reste). 15 est multiple de 3 et de 5."
+    },
+    {
+      "id": "prem4_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "D'après le tableau des critères de divisibilité, 276 est divisible par :",
+      "image": "premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
+      "choix": [
+        "2 seulement",
+        "2 et 3",
+        "2, 3 et 9",
+        "5 seulement"
+      ],
+      "reponse": "2 et 3",
+      "explication": "276 : finit par 6 →$\\div$2 ✓. Somme 2+7+6=15, multiple de 3 →$\\div$3 ✓. 15 pas multiple de 9 ✗."
+    },
+    {
+      "id": "prem4_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "765 est-il divisible par 9 ?",
+      "image": "premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
+      "choix": [
+        "Non, car 765 est impair",
+        "Oui, car 7+6+5=18=9$\\times$2",
+        "Non, car 7+6+5=18 n'est pas un multiple de 9",
+        "Oui, car 765 finit par 5"
+      ],
+      "reponse": "Oui, car 7+6+5=18=9$\\times$2",
+      "explication": "7+6+5=18=9$\\times$2 → oui, divisible par 9 ✓."
+    },
+    {
+      "id": "prem4_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "312 est-il divisible par 4 ?",
+      "image": null,
+      "choix": [
+        "Non, car 312 est pair",
+        "Oui, car 312 finit par 2",
+        "Oui, car les 2 derniers chiffres 12 = 4$\\times$3",
+        "Non, car la somme des chiffres n'est pas multiple de 4"
+      ],
+      "reponse": "Oui, car les 2 derniers chiffres 12 = 4$\\times$3",
+      "explication": "2 derniers chiffres : 12=4$\\times$3 → oui ✓."
+    },
+    {
+      "id": "prem4_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Lequel est divisible par 3 ?",
+      "image": null,
+      "choix": [
+        "124",
+        "251",
+        "372",
+        "481"
+      ],
+      "reponse": "372",
+      "explication": "3+7+2=12, multiple de 3."
+    },
+    {
+      "id": "prem4_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "4 560 est-il divisible par 2, 5 et 3 ?",
+      "image": null,
+      "choix": [
+        "Divisible par 2 seulement",
+        "Divisible par 2 et 5 seulement",
+        "Divisible par 2, 5 et 3",
+        "Non divisible par aucun des trois"
+      ],
+      "reponse": "Divisible par 2, 5 et 3",
+      "explication": "$\\div$2 : finit par 0 ✓.$\\div$5 : finit par 0 ✓.$\\div$3 : 4+5+6+0=15, multiple de 3 ✓."
+    },
+    {
+      "id": "prem4_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel critère permet de tester si 1 036 est divisible par 4 ?",
+      "image": null,
+      "choix": [
+        "Dernier chiffre = 4 ou 8",
+        "Les 2 derniers chiffres 36 sont divisibles par 4",
+        "Somme des chiffres",
+        "Nombre pair"
+      ],
+      "reponse": "Les 2 derniers chiffres 36 sont divisibles par 4",
+      "explication": "36=4$\\times$9 → 1 036 divisible par 4 ✓."
+    },
+    {
+      "id": "prem4_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le critère de divisibilité par 9 ?",
+      "image": null,
+      "choix": [
+        "Le nombre finit par 9",
+        "Le nombre est impair",
+        "La somme des chiffres est multiple de 9",
+        "Le dernier chiffre est multiple de 9"
+      ],
+      "reponse": "La somme des chiffres est multiple de 9",
+      "explication": "Si la somme des chiffres est multiple de 9, le nombre est divisible par 9. Ex : 729 → 7+2+9=18=9$\\times$2 ✓."
+    },
+    {
+      "id": "prem4_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Qu'est-ce qu'un nombre premier ?",
+      "image": null,
+      "choix": [
+        "Un entier divisible par 2",
+        "Un entier ayant exactement 2 diviseurs : 1 et lui-même",
+        "Un entier impair",
+        "Un entier avec beaucoup de diviseurs"
+      ],
+      "reponse": "Un entier ayant exactement 2 diviseurs : 1 et lui-même",
+      "explication": "Définition : exactement 2 diviseurs distincts, 1 et lui-même."
+    },
+    {
+      "id": "prem4_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi 1 n'est-il pas un nombre premier ?",
+      "image": null,
+      "choix": [
+        "Trop petit",
+        "Il n'a qu'un seul diviseur : lui-même",
+        "Il est pair",
+        "Il ne divise rien"
+      ],
+      "reponse": "Il n'a qu'un seul diviseur : lui-même",
+      "explication": "1 n'a qu'un seul diviseur (lui-même). Un nombre premier en a exactement deux."
+    },
+    {
+      "id": "prem4_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur le crible d'Ératosthène, combien y a-t-il de nombres premiers entre 2 et 50 ?",
+      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "choix": [
+        "10",
+        "13",
+        "15",
+        "17"
+      ],
+      "reponse": "15",
+      "explication": "15 nombres premiers : 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47."
+    },
+    {
+      "id": "prem4_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quels sont les nombres premiers entre 10 et 30 ?",
+      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "choix": [
+        "11, 13, 17, 19, 23, 29",
+        "11, 13, 15, 17, 19, 23",
+        "13, 17, 19, 23, 27, 29",
+        "11, 13, 17, 21, 23, 29"
+      ],
+      "reponse": "11, 13, 17, 19, 23, 29",
+      "explication": "11, 13, 17, 19, 23, 29 sont premiers entre 10 et 30."
+    },
+    {
+      "id": "prem4_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "2 est-il un nombre premier ?",
+      "image": null,
+      "choix": [
+        "Non, il est pair",
+        "Oui, ses seuls diviseurs sont 1 et 2",
+        "Non, 2=1+1",
+        "Oui, c'est le plus petit entier"
+      ],
+      "reponse": "Oui, ses seuls diviseurs sont 1 et 2",
+      "explication": "2 est le seul nombre premier pair."
+    },
+    {
+      "id": "prem4_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Parmi 11, 15 et 17, lesquels sont premiers ?",
+      "image": null,
+      "choix": [
+        "11 seulement",
+        "11 et 17",
+        "15 et 17",
+        "11, 15 et 17"
+      ],
+      "reponse": "11 et 17",
+      "explication": "11 : premier ✓. 15=3$\\times$5 : non. 17 : premier ✓."
+    },
+    {
+      "id": "prem4_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quels sont les 5 premiers nombres premiers ?",
+      "image": null,
+      "choix": [
+        "1, 2, 3, 5, 7",
+        "2, 3, 5, 7, 11",
+        "2, 4, 5, 7, 11",
+        "1, 3, 5, 7, 9"
+      ],
+      "reponse": "2, 3, 5, 7, 11",
+      "explication": "Les 10 premiers nombres premiers sont : 2, 3, 5, 7, 11, 13, 17, 19, 23, 29."
+    },
+    {
+      "id": "prem4_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Lequel n'est PAS premier ?",
+      "image": null,
+      "choix": [
+        "7",
+        "11",
+        "21",
+        "13"
+      ],
+      "reponse": "21",
+      "explication": "21=3$\\times$7, donc 21 a plus de 2 diviseurs."
+    },
+    {
+      "id": "prem4_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "97 est-il premier ? (Teste$\\div$2,$\\div$3,$\\div$5,$\\div$7.)",
+      "image": null,
+      "choix": [
+        "Non, car 97$\\div$7 est entier",
+        "Non, car 9+7=16 est multiple de 3",
+        "Oui, aucun de 2, 3, 5, 7 ne le divise",
+        "Non, car 97 finit par 7"
+      ],
+      "reponse": "Oui, aucun de 2, 3, 5, 7 ne le divise",
+      "explication": "Impair, somme=16 (pas$\\div$3), ne finit pas par$\\frac{0}{5}$, 97$\\div$7$\\approx$13,8 → 97 est premier ✓."
+    },
+    {
+      "id": "prem4_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quels sont les diviseurs communs à 12 et 18 ?",
+      "image": null,
+      "choix": [
+        "1 et 2",
+        "1, 2 et 3",
+        "1, 2, 3 et 6",
+        "1, 2, 3, 6 et 9"
+      ],
+      "reponse": "1, 2, 3 et 6",
+      "explication": "Div(12)={1,2,3,4,6,12}, Div(18)={1,2,3,6,9,18}. Communs : 1,2,3,6."
+    },
+    {
+      "id": "prem4_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quand dit-on que deux entiers sont premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "Quand ils sont tous les deux premiers",
+        "Quand leur seul diviseur commun est 1",
+        "Quand leur somme est première",
+        "Quand ils sont proches l'un de l'autre"
+      ],
+      "reponse": "Quand leur seul diviseur commun est 1",
+      "explication": "Leur seul diviseur commun est 1."
+    },
+    {
+      "id": "prem4_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "12 et 35 sont-ils premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "Non, 12 et 35 ont 5 comme diviseur commun",
+        "Non, 12 et 35 ont 2 comme diviseur commun",
+        "Oui, leur seul diviseur commun est 1",
+        "Non, car 35 est impair"
+      ],
+      "reponse": "Oui, leur seul diviseur commun est 1",
+      "explication": "Div(12)={1,2,3,4,6,12}, Div(35)={1,5,7,35}. Commun : 1 seulement → oui ✓."
+    },
+    {
+      "id": "prem4_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "8 et 9 sont-ils premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "Non, ils sont proches",
+        "Oui, seul diviseur commun = 1",
+        "Non, 8 est pair",
+        "Non, 9 est un carré"
+      ],
+      "reponse": "Oui, seul diviseur commun = 1",
+      "explication": "Div(8)={1,2,4,8}, Div(9)={1,3,9}. Commun : 1 seulement → premiers entre eux ✓."
+    },
+    {
+      "id": "prem4_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le PGCD de 20 et 30 (plus grand diviseur commun) ?",
+      "image": null,
+      "choix": [
+        "2",
+        "5",
+        "10",
+        "15"
+      ],
+      "reponse": "10",
+      "explication": "Div(20)={1,2,4,5,10,20}, Div(30)={1,2,3,5,6,10,15,30}. PGCD = 10."
+    },
+    {
+      "id": "prem4_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "588 =$2^{2}\\times$3$\\times7^{2}$. Comment écrit-on cette décomposition avec des puissances ? Lis l'arbre.",
+      "image": "premiers/734afd7accde0b16aa3cd1e88803ef146a466d57.png",
+      "choix": [
+        "2$\\times$3$\\times$7",
+        "$2^{2}\\times$3$\\times$7",
+        "$2^{2}\\times$3$\\times7^{2}$",
+        "$2^{3}\\times$3$\\times7^{2}$"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times7^{2}$",
+      "explication": "588=2$\\times$2$\\times$3$\\times$7$\\times$7=$2^{2}\\times$3$\\times7^{2}$."
+    },
+    {
+      "id": "prem4_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 60 en facteurs premiers à l'aide de l'arbre.",
+      "image": "premiers/d7e7f60e3c30e508e61bfc9344d6eaf182a0e941.png",
+      "choix": [
+        "2$\\times$3$\\times$5",
+        "$2^{2}\\times$3$\\times$5",
+        "$2^{2} \\times 3^{2}\\times$5",
+        "$2^{3}\\times$3$\\times$5"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times$5",
+      "explication": "60=2$\\times$2$\\times$3$\\times$5=$2^{2}\\times$3$\\times$5."
+    },
+    {
+      "id": "prem4_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 36 en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$2^{2}\\times$3",
+        "$2^{2} \\times 3^{2}$",
+        "2$\\times3^{2}$",
+        "$2^{3}\\times$3"
+      ],
+      "reponse": "$2^{2} \\times 3^{2}$",
+      "explication": "36=$2^{2} \\times 3^{2}$."
+    },
+    {
+      "id": "prem4_n1_031",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 45 en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "3$\\times$5",
+        "$3^{2}\\times$5",
+        "3$\\times5^{2}$",
+        "$3^{3}\\times$5"
+      ],
+      "reponse": "$3^{2}\\times$5",
+      "explication": "45=$3^{2}\\times$5."
+    },
+    {
+      "id": "prem4_n1_032",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décomposition de 28 en facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "2$\\times$14",
+        "$2^{2}\\times$7",
+        "4$\\times$7",
+        "$2^{3}\\times$5"
+      ],
+      "reponse": "$2^{2}\\times$7",
+      "explication": "28=2$\\times$14=2$\\times$2$\\times$7=$2^{2}\\times$7."
+    },
+    {
+      "id": "prem4_n1_033",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Comment simplifier une fraction avec les facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "On divise par 2 jusqu'à ne plus pouvoir",
+        "On décompose numérateur et dénominateur, puis on supprime les facteurs communs",
+        "On additionne numérateur et dénominateur",
+        "On multiplie par le même nombre en haut et en bas"
+      ],
+      "reponse": "On décompose numérateur et dénominateur, puis on supprime les facteurs communs",
+      "explication": "On décompose numérateur et dénominateur, puis on supprime les facteurs communs. Ex :$\\frac{120}{84}$=($2^{3}\\times$3$\\times$5)/($2^{2}\\times$3$\\times$7)=(2$\\times$5)/7=$\\frac{10}{7}$."
+    },
+    {
+      "id": "prem4_n1_034",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans la simplification de$\\frac{120}{84}$, quels facteurs ont été supprimés ?",
+      "image": "premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
+      "choix": [
+        "2 et 3",
+        "$2^{2}$et 3",
+        "$2^{3}$et 7",
+        "3 et 5"
+      ],
+      "reponse": "$2^{2}$et 3",
+      "explication": "On a simplifié par$2^{2}\\times$3=12. Il reste 2$\\times\\frac{5}{7}=\\frac{10}{7}$."
+    },
+    {
+      "id": "prem4_n1_035",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{36}{48}$. Quel est le résultat ?",
+      "image": "premiers/4b7050c13d8482f769e124888fa641af7eebb7dc.png",
+      "choix": [
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{5}{6}$"
+      ],
+      "reponse": "$\\frac{3}{4}$",
+      "explication": "36=$2^{2} \\times 3^{2}$, 48=$2^{4}\\times$3. Commun :$2^{2}\\times$3=12.$\\frac{36}{48}=\\frac{3}{4}$."
+    },
+    {
+      "id": "prem4_n1_036",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "$\\frac{5}{7}$est-elle irréductible ?",
+      "image": null,
+      "choix": [
+        "Non, on peut diviser par 5",
+        "Non, on peut diviser par 7",
+        "Oui, car 5 et 7 sont premiers entre eux",
+        "Non, car les deux nombres sont impairs"
+      ],
+      "reponse": "Oui, car 5 et 7 sont premiers entre eux",
+      "explication": "5 et 7 sont tous deux premiers. Seul diviseur commun = 1 → irréductible ✓."
+    },
+    {
+      "id": "prem4_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle fraction est irréductible ?",
+      "image": null,
+      "choix": [
+        "$\\frac{6}{9}$",
+        "$\\frac{4}{10}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{8}{12}$"
+      ],
+      "reponse": "$\\frac{5}{7}$",
+      "explication": "5 et 7 premiers entre eux →$\\frac{5}{7}$irréductible."
+    },
+    {
+      "id": "prem4_n1_038",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{18}{24}$.",
+      "image": null,
+      "choix": [
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{5}{6}$"
+      ],
+      "reponse": "$\\frac{3}{4}$",
+      "explication": "18=2$\\times3^{2}$, 24=$2^{3}\\times$3. PGCD=2$\\times$3=6.$\\frac{18}{24}=\\frac{3}{4}$."
+    },
+    {
+      "id": "prem4_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 1000 en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$2^{3} \\times 5^{2}$",
+        "$2^{2} \\times 5^{3}$",
+        "$2^{3} \\times 5^{3}$",
+        "2$\\times$5$\\times$100"
+      ],
+      "reponse": "$2^{3} \\times 5^{3}$",
+      "explication": "1000=8$\\times$125=$2^{3} \\times 5^{3}$."
+    },
+    {
+      "id": "prem4_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Peut-on toujours décomposer un entier >1 en facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "Non, seulement si le nombre est composé",
+        "Oui, et cette décomposition est unique",
+        "Non, seulement pour les nombres pairs",
+        "Oui, mais la décomposition n'est pas unique"
+      ],
+      "reponse": "Oui, et cette décomposition est unique",
+      "explication": "Oui. Ex : 100=$2^{2} \\times 5^{2}$. Cette décomposition est unique (théorème fondamental de l'arithmétique)."
+    },
+    {
+      "id": "prem4_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "2 376 est-il divisible par 4 ? par 9 ?",
+      "image": "premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
+      "choix": [
+        "Divisible par 4 seulement",
+        "Divisible par 9 seulement",
+        "Divisible par 4 et par 9",
+        "Ni par 4 ni par 9"
+      ],
+      "reponse": "Divisible par 4 et par 9",
+      "explication": "$\\div$4 : 76=4$\\times$19 ✓.$\\div$9 : 2+3+7+6=18=9$\\times$2 ✓."
+    },
+    {
+      "id": "prem4_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le plus petit multiple de 6 supérieur à 50 ?",
+      "image": null,
+      "choix": [
+        "51",
+        "54",
+        "56",
+        "60"
+      ],
+      "reponse": "54",
+      "explication": "54=6$\\times$9. Vérif : pair ✓, 5+4=9 multiple de 3 ✓."
+    },
+    {
+      "id": "prem4_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un nombre de 3 chiffres commence par 3 et finit par 5. Peut-il être divisible par 2 ?",
+      "image": null,
+      "choix": [
+        "Oui, car il commence par 3",
+        "Non, car il finit par 5 (impair)",
+        "Oui, si la somme des chiffres est paire",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Non, car il finit par 5 (impair)",
+      "explication": "$\\div$2 : non (impair).$\\div$9 : si 3+x+5=9, x=1 → 315 est possible divisible par 9."
+    },
+    {
+      "id": "prem4_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Les multiples de 7 entre 14 et 49 (14,21,28,35,42,49) sont-ils premiers ?",
+      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "choix": [
+        "Oui, ils sont tous premiers",
+        "Seulement 49 est premier",
+        "Aucun n'est premier (tous divisibles par 7)",
+        "Seulement 14 est premier"
+      ],
+      "reponse": "Aucun n'est premier (tous divisibles par 7)",
+      "explication": "14,21,28,35,42,49 : aucun n'est premier (tous divisibles par 7)."
+    },
+    {
+      "id": "prem4_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien de nombres premiers entre 2 et 20 ?",
+      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "choix": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "reponse": "8",
+      "explication": "2,3,5,7,11,13,17,19 : 8 nombres."
+    },
+    {
+      "id": "prem4_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Parmi 51, 53, 57, 59, lesquels sont premiers ?",
+      "image": null,
+      "choix": [
+        "51 et 53",
+        "53 et 59",
+        "57 et 59",
+        "51 et 57"
+      ],
+      "reponse": "53 et 59",
+      "explication": "51=3$\\times$17 (non). 53 : premier ✓. 57=3$\\times$19 (non). 59 : premier ✓."
+    },
+    {
+      "id": "prem4_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le principe du crible d'Ératosthène ?",
+      "image": null,
+      "choix": [
+        "On liste tous les multiples de 2",
+        "On part de 2, on barre ses multiples, puis les multiples du premier non barré, etc.",
+        "On divise tous les nombres par les premiers",
+        "On additionne les chiffres de chaque nombre"
+      ],
+      "reponse": "On part de 2, on barre ses multiples, puis les multiples du premier non barré, etc.",
+      "explication": "On part de 2, on barre ses multiples. Au prochain non barré (3), on barre ses multiples. Etc. Les non-barrés sont les premiers."
+    },
+    {
+      "id": "prem4_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 120 en facteurs premiers à l'aide de l'arbre.",
+      "image": "premiers/501449a417e4eb87b5fd8006f433309297075bae.png",
+      "choix": [
+        "$2^{2}\\times$3$\\times$5",
+        "$2^{3}\\times$3$\\times$5",
+        "$2^{2} \\times 3^{2}\\times$5",
+        "$2^{3} \\times 3^{2}$"
+      ],
+      "reponse": "$2^{3}\\times$3$\\times$5",
+      "explication": "120=$2^{3}\\times$3$\\times$5."
+    },
+    {
+      "id": "prem4_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 84 en facteurs premiers à l'aide de l'arbre.",
+      "image": "premiers/2790c6dfa6a5ab0faa16a0ad9e1d1daacdd961e6.png",
+      "choix": [
+        "2$\\times$3$\\times$7",
+        "$2^{2}\\times$3$\\times$7",
+        "$2^{2} \\times 3^{2}\\times$7",
+        "2$\\times3^{2}\\times$7"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times$7",
+      "explication": "84=$2^{2}\\times$3$\\times$7."
+    },
+    {
+      "id": "prem4_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 180 en facteurs premiers à l'aide de l'arbre.",
+      "image": "premiers/6cd3f02401b550a15efd188604091a5ab75d2a45.png",
+      "choix": [
+        "2$\\times3^{2}\\times$5",
+        "$2^{2}\\times$3$\\times$5",
+        "$2^{2} \\times 3^{2}\\times$5",
+        "$2^{2} \\times 3^{3}$"
+      ],
+      "reponse": "$2^{2} \\times 3^{2}\\times$5",
+      "explication": "180=$2^{2} \\times 3^{2}\\times$5."
+    },
+    {
+      "id": "prem4_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 252 en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$2^{2}\\times$3$\\times$7",
+        "$2^{2} \\times 3^{2}\\times$7",
+        "$2^{3}\\times$3$\\times$7",
+        "2$\\times3^{2} \\times 7^{2}$"
+      ],
+      "reponse": "$2^{2} \\times 3^{2}\\times$7",
+      "explication": "252=$2^{2} \\times 3^{2}\\times$7."
+    },
+    {
+      "id": "prem4_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décomposition de 72 en facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "$2^{3}\\times$3",
+        "$2^{3} \\times 3^{2}$",
+        "$2^{2} \\times 3^{2}$",
+        "2$\\times3^{3}$"
+      ],
+      "reponse": "$2^{3} \\times 3^{2}$",
+      "explication": "72=8$\\times$9=$2^{3} \\times 3^{2}$."
+    },
+    {
+      "id": "prem4_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule$2^{2}\\times$3$\\times5^{2}$sans calculatrice.",
+      "image": null,
+      "choix": [
+        "200",
+        "250",
+        "300",
+        "350"
+      ],
+      "reponse": "300",
+      "explication": "4$\\times$3$\\times$25=12$\\times$25=300."
+    },
+    {
+      "id": "prem4_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quels sont tous les diviseurs communs à 24 et 36 ?",
+      "image": null,
+      "choix": [
+        "1, 2, 3, 6",
+        "1, 2, 3, 4, 6",
+        "1, 2, 3, 4, 6, 12",
+        "1, 2, 3, 4, 6, 9, 12"
+      ],
+      "reponse": "1, 2, 3, 4, 6, 12",
+      "explication": "Div(24)={1,2,3,4,6,8,12,24}, Div(36)={1,2,3,4,6,9,12,18,36}. Communs : 1,2,3,4,6,12."
+    },
+    {
+      "id": "prem4_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "14 et 25 sont-ils premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "Non, car 14 et 25 ont 7 comme diviseur commun",
+        "Non, car 14 est pair",
+        "Oui, leur seul diviseur commun est 1",
+        "Non, car 25=$5^{2}$et 14=2$\\times$7"
+      ],
+      "reponse": "Oui, leur seul diviseur commun est 1",
+      "explication": "Div(14)={1,2,7,14}, Div(25)={1,5,25}. Seul commun : 1 → oui ✓."
+    },
+    {
+      "id": "prem4_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{120}{84}$avec les facteurs premiers. Quel est le résultat ?",
+      "image": "premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
+      "choix": [
+        "$\\frac{5}{3}$",
+        "$\\frac{8}{7}$",
+        "$\\frac{10}{7}$",
+        "$\\frac{15}{7}$"
+      ],
+      "reponse": "$\\frac{10}{7}$",
+      "explication": "120=$2^{3}\\times$3$\\times$5, 84=$2^{2}\\times$3$\\times$7. PGCD=$2^{2}\\times$3=12.$\\frac{120}{84}$=(2$\\times$5)/7=$\\frac{10}{7}$."
+    },
+    {
+      "id": "prem4_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{60}{84}$.",
+      "image": "premiers/76ac89e055fa410c194035c66f7f21b5d259ac6a.png",
+      "choix": [
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{5}{6}$"
+      ],
+      "reponse": "$\\frac{5}{7}$",
+      "explication": "60=$2^{2}\\times$3$\\times$5, 84=$2^{2}\\times$3$\\times$7. PGCD=$2^{2}\\times$3=12.$\\frac{60}{84}=\\frac{5}{7}$."
+    },
+    {
+      "id": "prem4_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{126}{90}$.",
+      "image": null,
+      "choix": [
+        "$\\frac{5}{7}$",
+        "$\\frac{6}{5}$",
+        "$\\frac{7}{5}$",
+        "$\\frac{7}{6}$"
+      ],
+      "reponse": "$\\frac{7}{5}$",
+      "explication": "126=2$\\times3^{2}\\times$7, 90=2$\\times3^{2}\\times$5. PGCD=18.$\\frac{126}{90}=\\frac{7}{5}$."
+    },
+    {
+      "id": "prem4_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "$\\frac{15}{22}$est-elle irréductible ?",
+      "image": null,
+      "choix": [
+        "Non,$\\div$3 possible",
+        "Oui, PGCD(15,22)=1",
+        "Non,$\\div$2 possible",
+        "Non,$\\div$5 possible"
+      ],
+      "reponse": "Oui, PGCD(15,22)=1",
+      "explication": "15=3$\\times$5, 22=2$\\times$11. Aucun facteur commun → irréductible ✓."
+    },
+    {
+      "id": "prem4_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "PGCD de 12 et 18.",
+      "image": null,
+      "choix": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "reponse": "6",
+      "explication": "12=$2^{2}\\times$3, 18=2$\\times3^{2}$. PGCD=2$\\times$3=6."
+    },
+    {
+      "id": "prem4_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "36 stylos et 48 cahiers à ranger en paquets identiques sans restes. Nombre maximum de paquets ?",
+      "image": null,
+      "choix": [
+        "6",
+        "9",
+        "12",
+        "18"
+      ],
+      "reponse": "12",
+      "explication": "PGCD(36,48)=12. 12 paquets (3 stylos + 4 cahiers chacun)."
+    },
+    {
+      "id": "prem4_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "72 carreaux rouges et 60 bleus en rangées identiques. Nombre maximum de rangées ?",
+      "image": null,
+      "choix": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "reponse": "12",
+      "explication": "PGCD(72,60)=12. 12 rangées."
+    },
+    {
+      "id": "prem4_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{2310}{1155}$.",
+      "image": null,
+      "choix": [
+        "$\\frac{1}{2}$",
+        "2",
+        "$\\frac{3}{2}$",
+        "$\\frac{7}{5}$"
+      ],
+      "reponse": "2",
+      "explication": "2310=2$\\times$3$\\times$5$\\times$7$\\times$11, 1155=3$\\times$5$\\times$7$\\times$11. PGCD=1155.$\\frac{2310}{1155}$=2."
+    },
+    {
+      "id": "prem4_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{180}{252}$.",
+      "image": null,
+      "choix": [
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{5}{6}$"
+      ],
+      "reponse": "$\\frac{5}{7}$",
+      "explication": "180=$2^{2} \\times 3^{2}\\times$5, 252=$2^{2} \\times 3^{2}\\times$7. PGCD=36.$\\frac{180}{252}=\\frac{5}{7}$."
+    },
+    {
+      "id": "prem4_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Deux nombres premiers entre eux ont un produit de 35. Lesquels ?",
+      "image": null,
+      "choix": [
+        "1 et 35",
+        "5 et 7",
+        "7 et 5 (mais ils ne sont pas premiers entre eux)",
+        "3 et 12"
+      ],
+      "reponse": "5 et 7",
+      "explication": "35=5$\\times$7. PGCD(5,7)=1 → 5 et 7 premiers entre eux ✓."
+    },
+    {
+      "id": "prem4_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans 10!=10$\\times$9$\\times$8$\\times$7$\\times$6$\\times$5$\\times$4$\\times$3$\\times$2$\\times$1, combien de fois 5 apparaît-il dans la décomposition en facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "reponse": "2",
+      "explication": "⌊$\\frac{10}{5}$⌋=2 facteurs 5 dans 10!."
+    },
+    {
+      "id": "prem4_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un nombre est divisible par 4 et par 9. Est-il forcément divisible par 36 ?",
+      "image": null,
+      "choix": [
+        "Non, car 4+9=13$\\neq$36",
+        "Oui, car PGCD(4,9)=1, donc il est divisible par 4$\\times$9=36",
+        "Non, ce n'est pas garanti",
+        "Oui, seulement si le nombre est pair"
+      ],
+      "reponse": "Oui, car PGCD(4,9)=1, donc il est divisible par 4$\\times$9=36",
+      "explication": "PGCD(4,9)=1 (premiers entre eux). Oui, il est forcément divisible par 4$\\times$9=36."
+    },
+    {
+      "id": "prem4_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le PGCD de$2^{2} \\times 3^{3}\\times$5 et$2^{3}\\times$3$\\times5^{2}$?",
+      "image": null,
+      "choix": [
+        "2$\\times$3$\\times$5=30",
+        "$2^{2}\\times$3$\\times$5=60",
+        "$2^{2} \\times 3^{2}\\times$5=180",
+        "$2^{3} \\times 3^{3}\\times5^{2}$"
+      ],
+      "reponse": "$2^{2}\\times$3$\\times$5=60",
+      "explication": "PGCD = prendre le minimum des exposants :$2^{2}\\times$3$\\times$5=60."
+    },
+    {
+      "id": "prem4_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie ($2^{4} \\times 3^{2}\\times$7)/($2^{2} \\times 3^{3}\\times$5).",
+      "image": null,
+      "choix": [
+        "$2^{2}\\times$7/(3$\\times$5)=$\\frac{28}{15}$",
+        "$2^{2} \\times \\frac{7}{3}=\\frac{28}{3}$",
+        "7/(3$\\times$5)=$\\frac{7}{15}$",
+        "$2^{4}\\times$7/($3^{3}\\times$5)=$\\frac{112}{135}$"
+      ],
+      "reponse": "$2^{2}\\times$7/(3$\\times$5)=$\\frac{28}{15}$",
+      "explication": "PGCD=$2^{2} \\times 3^{2}$=36. Résultat=($2^{2}\\times$7)/(3$\\times$5)=$\\frac{28}{15}$."
+    },
+    {
+      "id": "prem4_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "3 et 4 sont-ils premiers entre eux ? Et 4 et 6 ?",
+      "image": null,
+      "choix": [
+        "3 et 4 : oui. 4 et 6 : oui aussi.",
+        "3 et 4 : oui. 4 et 6 : non (PGCD=2).",
+        "3 et 4 : non. 4 et 6 : oui.",
+        "3 et 4 : non. 4 et 6 : non."
+      ],
+      "reponse": "3 et 4 : oui. 4 et 6 : non (PGCD=2).",
+      "explication": "Div(3)∩Div(4)={1} → premiers entre eux. Div(4)∩Div(6)={1,2} → PGCD=2$\\neq$1 → pas premiers entre eux."
+    },
+    {
+      "id": "prem4_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Décompose 588 et 420. Quel est leur PGCD ?",
+      "image": "premiers/734afd7accde0b16aa3cd1e88803ef146a466d57.png",
+      "choix": [
+        "42",
+        "60",
+        "84",
+        "168"
+      ],
+      "reponse": "84",
+      "explication": "588=$2^{2}\\times$3$\\times7^{2}$. 420=$2^{2}\\times$3$\\times$5$\\times$7. PGCD=$2^{2}\\times$3$\\times$7=84."
+    },
+    {
+      "id": "prem4_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "PGCD de 360 et 252.",
+      "image": null,
+      "choix": [
+        "18",
+        "24",
+        "36",
+        "72"
+      ],
+      "reponse": "36",
+      "explication": "360=$2^{3} \\times 3^{2}\\times$5, 252=$2^{2} \\times 3^{2}\\times$7. PGCD=$2^{2} \\times 3^{2}$=36."
+    },
+    {
+      "id": "prem4_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Flacons de 360 mL et 252 mL. Quelle est la dose entière maximale pour vider exactement les deux flacons ?",
+      "image": null,
+      "choix": [
+        "12 mL",
+        "18 mL",
+        "36 mL",
+        "72 mL"
+      ],
+      "reponse": "36 mL",
+      "explication": "PGCD(360,252)=36 mL. 10 doses pour 360 mL, 7 pour 252 mL."
+    },
+    {
+      "id": "prem4_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi tout entier n>1 a-t-il au moins un diviseur premier ?",
+      "image": null,
+      "choix": [
+        "Parce que tous les entiers sont premiers",
+        "Le plus petit diviseur d de n supérieur à 1 est forcément premier",
+        "Parce que n est divisible par 2",
+        "Parce que n est dans la liste des premiers"
+      ],
+      "reponse": "Le plus petit diviseur d de n supérieur à 1 est forcément premier",
+      "explication": "Soit d le plus petit diviseur de n supérieur à 1. Si d n'était pas premier, d aurait un diviseur d' avec 1<d'<d, qui diviserait aussi n : contradiction. Donc d est premier."
+    },
+    {
+      "id": "prem4_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Si p premier divise ab (p|ab), alors (lemme d'Euclide) :",
+      "image": null,
+      "choix": [
+        "p|a et p|b obligatoirement",
+        "p|a ou p|b (au moins un)",
+        "p|a seulement",
+        "p|b seulement"
+      ],
+      "reponse": "p|a ou p|b (au moins un)",
+      "explication": "Lemme d'Euclide : si un premier divise un produit, il divise l'un des facteurs."
+    },
+    {
+      "id": "prem4_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi tout nombre premier n>2 est-il impair ?",
+      "image": null,
+      "choix": [
+        "Car les nombres pairs ne peuvent pas être premiers",
+        "Car si n est pair, 2|n, et comme n est premier ses seuls diviseurs sont 1 et n, donc n=2 : contradiction avec n>2",
+        "Car les impairs ont toujours exactement 2 diviseurs",
+        "Par définition des nombres premiers"
+      ],
+      "reponse": "Car si n est pair, 2|n, et comme n est premier ses seuls diviseurs sont 1 et n, donc n=2 : contradiction avec n>2",
+      "explication": "Si n est pair, 2|n. Comme n est premier, ses seuls diviseurs sont 1 et n → 2=n. Contradiction avec n>2. Donc n est impair."
+    },
+    {
+      "id": "prem4_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "1023 =$2^{10}$− 1. Est-il premier ?",
+      "image": null,
+      "choix": [
+        "Oui, car c'est une puissance de 2 moins 1",
+        "Non, car 1+0+2+3=6, multiple de 3 → 1023=3$\\times$341",
+        "Oui, car il est impair",
+        "Non, car il est divisible par 7"
+      ],
+      "reponse": "Non, car 1+0+2+3=6, multiple de 3 → 1023=3$\\times$341",
+      "explication": "1+0+2+3=6, multiple de 3 → 1023=3$\\times$341. Non premier."
+    },
+    {
+      "id": "prem4_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie$\\frac{2310}{2730}$en fraction irréductible.",
+      "image": null,
+      "choix": [
+        "$\\frac{7}{9}$",
+        "$\\frac{9}{11}$",
+        "$\\frac{11}{13}$",
+        "$\\frac{13}{15}$"
+      ],
+      "reponse": "$\\frac{11}{13}$",
+      "explication": "2310=2$\\times$3$\\times$5$\\times$7$\\times$11, 2730=2$\\times$3$\\times$5$\\times$7$\\times$13. PGCD=210.$\\frac{2310}{2730}=\\frac{11}{13}$."
+    },
+    {
+      "id": "prem4_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi (n+1)/n est-elle irréductible pour tout n$\\geq$1 ?",
+      "image": null,
+      "choix": [
+        "Car n+1 et n sont tous les deux premiers",
+        "Car si d|n et d|(n+1), alors d|(n+1-n)=1, donc d=1 → PGCD=1",
+        "Car n+1 est toujours impair",
+        "Car la fraction est supérieure à 1"
+      ],
+      "reponse": "Car si d|n et d|(n+1), alors d|(n+1-n)=1, donc d=1 → PGCD=1",
+      "explication": "Soit d|n et d|(n+1). Alors d|(n+1−n)=1 → d=1. PGCD=1 → irréductible. CQFD."
+    },
+    {
+      "id": "prem4_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie ($2^{2} \\times 3^{4}\\times$5)/($2^{3} \\times 3^{2}\\times$7).",
+      "image": null,
+      "choix": [
+        "$3^{2}\\times$5/(2$\\times$7) =$\\frac{45}{14}$",
+        "2$\\times3^{2}$/(5$\\times$7) =$\\frac{18}{35}$",
+        "$3^{4}$/(2$\\times$5$\\times$7) =$\\frac{81}{70}$",
+        "5/(2$\\times$7) =$\\frac{5}{14}$"
+      ],
+      "reponse": "$3^{2}\\times$5/(2$\\times$7) =$\\frac{45}{14}$",
+      "explication": "PGCD=$2^{2} \\times 3^{2}$=36. Résultat=($3^{2}\\times$5)/(2$\\times$7)=$\\frac{45}{14}$."
+    },
+    {
+      "id": "prem4_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un nombre à 3 chiffres est divisible par 2, 3 et 5. Lequel parmi ces exemples convient ?",
+      "image": null,
+      "choix": [
+        "315",
+        "360",
+        "375",
+        "420"
+      ],
+      "reponse": "360",
+      "explication": "360 :$\\div$2 (finit par 0) ✓,$\\div$5 (finit par 0) ✓,$\\div$3 (3+6+0=9) ✓."
+    },
+    {
+      "id": "prem4_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien de diviseurs possède$2^{2}\\times$3$\\times5^{2}$?",
+      "image": null,
+      "choix": [
+        "12",
+        "15",
+        "18",
+        "24"
+      ],
+      "reponse": "18",
+      "explication": "(2+1)$\\times$(1+1)$\\times$(2+1)=3$\\times$2$\\times$3=18 diviseurs."
+    },
+    {
+      "id": "prem4_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Deux engrenages : 60 et 84 dents. Après combien de tours du petit engrenage (84 dents) se retrouvent-ils en position initiale ?",
+      "image": null,
+      "choix": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "reponse": "5",
+      "explication": "PPCM(60,84)=$2^{2}\\times$3$\\times$5$\\times$7=420. Le petit (84 dents) fait 420$\\div$84=5 tours."
+    },
+    {
+      "id": "prem4_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi 6 divise-t-il n(n+1)(n+2) pour tout entier n ?",
+      "image": null,
+      "choix": [
+        "Car n est toujours pair",
+        "Car parmi 3 entiers consécutifs, l'un est divisible par 2 et l'un par 3, donc le produit est divisible par 6",
+        "Car n+2 est toujours divisible par 3",
+        "Car (n+1) est toujours pair"
+      ],
+      "reponse": "Car parmi 3 entiers consécutifs, l'un est divisible par 2 et l'un par 3, donc le produit est divisible par 6",
+      "explication": "Parmi 3 entiers consécutifs, l'un est$\\div$2 et l'un est$\\div$3. Produit divisible par 2$\\times$3=6. CQFD."
+    },
+    {
+      "id": "prem4_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Laquelle de ces affirmations est vraie ?",
+      "image": null,
+      "choix": [
+        "Tous les impairs sont premiers",
+        "Tout nombre premier >2 est impair",
+        "2 n'est pas premier",
+        "Aucun pair n'est premier"
+      ],
+      "reponse": "Tout nombre premier >2 est impair",
+      "explication": "Tout nombre premier >2 est impair."
+    },
+    {
+      "id": "prem4_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "$2^{5}$−1=31. Est-ce un nombre de Mersenne premier ?",
+      "image": null,
+      "choix": [
+        "Non, car 31 est impair",
+        "Non, car 3+1=4 est multiple de 2",
+        "Oui, 31 est premier (aucun diviseur jusqu'à$\\sqrt{31}\\approx$5,6)",
+        "Non, car 31$\\div$7 est entier"
+      ],
+      "reponse": "Oui, 31 est premier (aucun diviseur jusqu'à$\\sqrt{31}\\approx$5,6)",
+      "explication": "31 impair, 3+1=4 (pas$\\div$3), ne finit pas par$\\frac{0}{5}$, 31$\\div$7$\\approx$4,4.$\\sqrt{31}\\approx$5,6 → testé jusqu'à 5. 31 est premier ✓."
+    },
+    {
+      "id": "prem4_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Trouve deux nombres premiers dont la somme est 100.",
+      "image": null,
+      "choix": [
+        "50 et 50 (pas premiers)",
+        "3 et 97",
+        "9 et 91 (pas premiers)",
+        "51 et 49 (pas premiers)"
+      ],
+      "reponse": "3 et 97",
+      "explication": "Ex : 3+97=100, ou 11+89, ou 17+83, ou 41+59. (Conjecture de Goldbach.)"
+    },
+    {
+      "id": "prem4_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Qu'affirme le théorème fondamental de l'arithmétique sur la décomposition en facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "Tout entier peut être décomposé de plusieurs façons différentes",
+        "Tout entier >1 admet une décomposition unique en produit de facteurs premiers",
+        "Seuls les nombres composés peuvent être décomposés",
+        "La décomposition dépend de l'ordre dans lequel on divise"
+      ],
+      "reponse": "Tout entier >1 admet une décomposition unique en produit de facteurs premiers",
+      "explication": "Toute autre décomposition conduirait à un facteur premier qui divise le produit des autres → par le lemme d'Euclide, il est égal à l'un d'eux. Les listes sont identiques."
+    },
+    {
+      "id": "prem4_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "$n^{2}$=2$\\times$3$\\times$5$\\times$p, p premier. Trouve p pour que n soit entier.",
+      "image": null,
+      "choix": [
+        "p=5",
+        "p=10",
+        "p=15",
+        "p=30"
+      ],
+      "reponse": "p=30",
+      "explication": "$n^{2}$=30p doit être un carré parfait. 30p=2$\\times$3$\\times$5$\\times$p. Pour avoir des exposants pairs : p=2$\\times$3$\\times$5=30.$n^{2}$=900 → n=30."
+    },
+    {
+      "id": "prem4_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi existe-t-il une infinité de nombres premiers ? (Raisonnement d'Euclide)",
+      "image": null,
+      "choix": [
+        "Car on peut toujours décomposer un nombre en facteurs premiers",
+        "Si on suppose une liste finie de premiers$p_{1}$,...,pₙ, le nombre N=$p_{1}$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
+        "Car la suite des premiers est croissante",
+        "Car tout nombre impair est premier"
+      ],
+      "reponse": "Si on suppose une liste finie de premiers$p_{1}$,...,pₙ, le nombre N=$p_{1}$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
+      "explication": "Suppose$p_{1}$,...,pₙ tous les premiers. Pose N=$p_{1}$\\times$...$\\times$pₙ+1. N n'est divisible par aucun pᵢ (reste 1). Donc N est premier ou a un facteur premier hors de la liste → contradiction. Il y a une infinité de premiers. CQFD."
+    }
+  ]
+}
