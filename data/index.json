@@ -71,6 +71,16 @@
       "id": "fractions_4eme",
       "fichier": "data/fractions_4eme.json",
       "niveau": "4eme"
+    },
+    {
+      "id": "solides_4eme",
+      "fichier": "data/solides_4eme.json",
+      "niveau": "4eme"
+    },
+    {
+      "id": "transformations_5eme",
+      "fichier": "data/transformations_5eme.json",
+      "niveau": "5eme"
     }
   ],
   "automatismes_notions": [

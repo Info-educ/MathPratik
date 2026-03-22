@@ -1,0 +1,1071 @@
+{
+  "niveau": "4eme",
+  "thematique": {
+    "id": "solides_4eme",
+    "label": "Solides de l'espace",
+    "icon": "🧊",
+    "color": "#0284c7"
+  },
+  "questions": [
+    {
+      "id": "sol4_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est ce solide ?",
+      "image": "solides/d9273aa7a37c973894ab614b96e406176146bd65.png",
+      "choix": ["Cube", "Prisme", "Parallélépipède rectangle", "Pyramide"],
+      "reponse": "Parallélépipède rectangle",
+      "explication": "Un parallélépipède rectangle (pavé droit) possède 6 faces rectangulaires, 12 arêtes et 8 sommets."
+    },
+    {
+      "id": "sol4_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est ce solide ?",
+      "image": "solides/bfed30b869a13ca2386648d73e42a52570715c47.png",
+      "choix": ["Pavé droit", "Prisme", "Cube", "Pyramide"],
+      "reponse": "Cube",
+      "explication": "Un cube possède 6 faces carrées identiques et toutes ses arêtes sont égales."
+    },
+    {
+      "id": "sol4_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est ce solide ?",
+      "image": "solides/a7af667a1275301891fb6d33812fb6daf0be758e.png",
+      "choix": ["Cône", "Prisme", "Sphère", "Cylindre de révolution"],
+      "reponse": "Cylindre de révolution",
+      "explication": "Un cylindre de révolution possède 2 bases circulaires, une surface latérale arrondie, un rayon r et une hauteur h."
+    },
+    {
+      "id": "sol4_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est ce solide ?",
+      "image": "solides/4434d31fbc7696979c807f970b02a54e8628e92d.png",
+      "choix": ["Cylindre", "Sphère", "Cône de révolution", "Pyramide"],
+      "reponse": "Cône de révolution",
+      "explication": "Un cône possède 1 base circulaire, 1 sommet S et une surface latérale courbe."
+    },
+    {
+      "id": "sol4_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est ce solide ?",
+      "image": "solides/422c3a34fbbd127323df669f50a30f07721e5e52.png",
+      "choix": ["Cercle", "Cylindre", "Ellipsoïde", "Sphère"],
+      "reponse": "Sphère",
+      "explication": "Une sphère est l'ensemble des points à égale distance R du centre O."
+    },
+    {
+      "id": "sol4_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est ce solide ?",
+      "image": "solides/dbc8fd53fed54ea1796d312338069d785b04c67e.png",
+      "choix": ["Prisme", "Cône", "Cube", "Pyramide à base rectangulaire"],
+      "reponse": "Pyramide à base rectangulaire",
+      "explication": "Une pyramide possède 1 base, des faces latérales triangulaires et 1 sommet S."
+    },
+    {
+      "id": "sol4_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est ce solide ?",
+      "image": "solides/ac94b4157dff5c256d4af30ad0910f2d7c28ca7c.png",
+      "choix": ["Pyramide", "Pavé droit", "Prisme droit à base triangulaire", "Cylindre"],
+      "reponse": "Prisme droit à base triangulaire",
+      "explication": "Un prisme droit possède 2 bases triangulaires identiques et des faces latérales rectangulaires."
+    },
+    {
+      "id": "sol4_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "D'après le tableau, quelle est la différence principale entre un cube et un pavé droit ?",
+      "image": "solides/689dab358366d3d97b05233a891b7026bff2e287.png",
+      "choix": [
+        "Le cube a 8 sommets, le pavé 6",
+        "Le cube a toutes ses faces carrées et égales ; le pavé a des faces rectangulaires pas forcément égales",
+        "Le cube a moins d'arêtes",
+        "Il n'y a aucune différence"
+      ],
+      "reponse": "Le cube a toutes ses faces carrées et égales ; le pavé a des faces rectangulaires pas forcément égales",
+      "explication": "Le cube est un cas particulier de pavé droit avec toutes les arêtes égales."
+    },
+    {
+      "id": "sol4_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un prisme à base triangulaire a combien de faces ?",
+      "image": null,
+      "choix": ["3", "4", "5", "6"],
+      "reponse": "5",
+      "explication": "Un prisme à base triangulaire a 2 bases triangulaires + 3 faces latérales rectangulaires = 5 faces."
+    },
+    {
+      "id": "sol4_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une pyramide à base carrée a combien de faces en tout ?",
+      "image": null,
+      "choix": ["4", "5", "6", "8"],
+      "reponse": "5",
+      "explication": "1 base carrée + 4 faces latérales triangulaires = 5 faces."
+    },
+    {
+      "id": "sol4_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien d'arêtes a un pavé droit ?",
+      "image": null,
+      "choix": ["8", "10", "12", "6"],
+      "reponse": "12",
+      "explication": "Un pavé droit a 4 arêtes de longueur + 4 de largeur + 4 de hauteur = 12 arêtes."
+    },
+    {
+      "id": "sol4_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel solide n'a aucune face plane ?",
+      "image": null,
+      "choix": ["Le cube", "Le cylindre", "La sphère", "La pyramide"],
+      "reponse": "La sphère",
+      "explication": "La sphère est entièrement courbe, elle ne possède aucune face plane."
+    },
+    {
+      "id": "sol4_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la différence entre une pyramide et un prisme ?",
+      "image": null,
+      "choix": [
+        "Le prisme a une seule base ; la pyramide en a deux",
+        "Le prisme a 2 bases identiques parallèles et des faces latérales rectangulaires ; la pyramide a 1 seule base, des faces triangulaires et 1 sommet S",
+        "Il n'y a aucune différence",
+        "La pyramide a des faces rectangulaires"
+      ],
+      "reponse": "Le prisme a 2 bases identiques parallèles et des faces latérales rectangulaires ; la pyramide a 1 seule base, des faces triangulaires et 1 sommet S",
+      "explication": "Le prisme a 2 bases parallèles identiques avec des faces latérales rectangulaires. La pyramide a 1 seule base avec des faces triangulaires convergeant vers un sommet S."
+    },
+    {
+      "id": "sol4_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelles sont les coordonnées de E dans ce pavé (D à l'origine) ?",
+      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "choix": ["(0;0;3)", "(2;3;3)", "(2;0;3)", "(0;3;3)"],
+      "reponse": "(2;0;3)",
+      "explication": "E est au-dessus de A(2;0;0) à la hauteur z=3. Donc E(2;0;3)."
+    },
+    {
+      "id": "sol4_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel point a les coordonnées (0;3;3) dans ce pavé ?",
+      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "choix": ["F", "H", "G", "E"],
+      "reponse": "G",
+      "explication": "G est au-dessus de C(0;3;0), à hauteur z=3. Donc G(0;3;3)."
+    },
+    {
+      "id": "sol4_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un repère 3D, un point M(0;0;0) est :",
+      "image": null,
+      "choix": ["Un point quelconque", "L'origine du repère", "Un point sur l'axe z", "Le centre du pavé"],
+      "reponse": "L'origine du repère",
+      "explication": "M(0;0;0) est l'origine du repère, correspondant au sommet de référence D."
+    },
+    {
+      "id": "sol4_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un point a z=0. Il se trouve :",
+      "image": null,
+      "choix": ["Au sommet du pavé", "Sur la base inférieure", "Au milieu du pavé", "Sur un axe vertical"],
+      "reponse": "Sur la base inférieure",
+      "explication": "z=0 signifie que le point est sur le plan de base (hauteur nulle), donc sur la base inférieure du pavé."
+    },
+    {
+      "id": "sol4_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un pavé ABCDEFGH (D à l'origine), le sommet F a les coordonnées (l;L;h). Quelles sont les coordonnées de A si le pavé a pour dimensions l=4, L=3, h=3 ?",
+      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "choix": ["A(4;3;3)", "A(4;0;0)", "A(0;3;0)", "A(0;0;3)"],
+      "reponse": "A(4;0;0)",
+      "explication": "A est sur l'axe x uniquement, donc A(l;0;0) = A(4;0;0)."
+    },
+    {
+      "id": "sol4_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule du volume d'un pavé droit de dimensions l, L et h ?",
+      "image": null,
+      "choix": ["V = l + L + h", "V = 2(lL + lh + Lh)", "V = l × L × h", "V = ⅓ × l × L × h"],
+      "reponse": "V = l × L × h",
+      "explication": "Le volume d'un pavé droit (et plus généralement d'un prisme) est le produit des trois dimensions : V = l × L × h."
+    },
+    {
+      "id": "sol4_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule du volume d'un cube de côté a ?",
+      "image": null,
+      "choix": ["V = 6a²", "V = 3a", "V = a³", "V = a²"],
+      "reponse": "V = a³",
+      "explication": "Un cube de côté a a pour volume V = a × a × a = a³."
+    },
+    {
+      "id": "sol4_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien de faces a un cube ?",
+      "image": null,
+      "choix": ["4", "6", "8", "12"],
+      "reponse": "6",
+      "explication": "Un cube possède 6 faces carrées identiques."
+    },
+    {
+      "id": "sol4_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien de sommets a une pyramide à base rectangulaire ?",
+      "image": null,
+      "choix": ["4", "5", "6", "8"],
+      "reponse": "5",
+      "explication": "Une pyramide à base rectangulaire a 4 sommets sur la base + 1 sommet S = 5 sommets."
+    },
+    {
+      "id": "sol4_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule de l'aire totale d'un cube de côté a ?",
+      "image": null,
+      "choix": ["A = a²", "A = 4a²", "A = 6a²", "A = 12a²"],
+      "reponse": "A = 6a²",
+      "explication": "Un cube a 6 faces carrées de côté a. Aire totale = 6 × a²."
+    },
+    {
+      "id": "sol4_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Comment appelle-t-on la droite perpendiculaire passant par le centre d'un cylindre ou d'un cône ?",
+      "image": null,
+      "choix": ["La génératrice", "L'axe de révolution", "La diagonale", "Le rayon"],
+      "reponse": "L'axe de révolution",
+      "explication": "L'axe de révolution est la droite centrale autour de laquelle on fait tourner un demi-cercle pour obtenir une sphère, ou un rectangle pour un cylindre."
+    },
+    {
+      "id": "sol4_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le patron d'un cube composé d'un seul morceau ?",
+      "image": null,
+      "choix": [
+        "6 carrés disposés en croix ou en ligne",
+        "6 rectangles",
+        "4 carrés et 2 rectangles",
+        "Un carré et 4 triangles"
+      ],
+      "reponse": "6 carrés disposés en croix ou en ligne",
+      "explication": "Le patron d'un cube est composé de 6 carrés identiques pouvant être disposés de différentes façons (croix, T, L…)."
+    },
+    {
+      "id": "sol4_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un prisme droit a ses faces latérales de quelle forme ?",
+      "image": null,
+      "choix": ["Triangulaires", "Rectangulaires", "Circulaires", "Hexagonales"],
+      "reponse": "Rectangulaires",
+      "explication": "Un prisme droit a des faces latérales rectangulaires, perpendiculaires aux bases."
+    },
+    {
+      "id": "sol4_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule du volume d'un cylindre de rayon r et de hauteur h ?",
+      "image": null,
+      "choix": ["V = π × r × h", "V = 2π × r × h", "V = π × r² × h", "V = ⅓ × π × r² × h"],
+      "reponse": "V = π × r² × h",
+      "explication": "Le volume d'un cylindre est V = aire de la base × hauteur = π × r² × h."
+    },
+    {
+      "id": "sol4_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule du volume d'un cône de rayon r et de hauteur h ?",
+      "image": null,
+      "choix": ["V = π × r² × h", "V = ⅓ × π × r² × h", "V = 2π × r² × h", "V = ⅔ × π × r³"],
+      "reponse": "V = ⅓ × π × r² × h",
+      "explication": "Le volume d'un cône est le tiers de celui du cylindre de même base : V = ⅓ × π × r² × h."
+    },
+    {
+      "id": "sol4_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule du volume d'une sphère de rayon R ?",
+      "image": null,
+      "choix": ["V = π × R²", "V = 4 × π × R²", "V = ⅔ × π × R³", "V = ⁴⁄₃ × π × R³"],
+      "reponse": "V = ⁴⁄₃ × π × R³",
+      "explication": "Le volume d'une sphère de rayon R est V = ⁴⁄₃ × π × R³."
+    },
+    {
+      "id": "sol4_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule du volume d'une pyramide de base B et de hauteur h ?",
+      "image": null,
+      "choix": ["V = B × h", "V = ½ × B × h", "V = ⅓ × B × h", "V = ¼ × B × h"],
+      "reponse": "V = ⅓ × B × h",
+      "explication": "Le volume d'une pyramide est le tiers du produit de l'aire de la base par la hauteur : V = ⅓ × B × h."
+    },
+    {
+      "id": "sol4_n1_031",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Qu'obtient-on en coupant un cylindre par un plan perpendiculaire à son axe ?",
+      "image": null,
+      "choix": ["Un rectangle", "Une ellipse", "Un disque (cercle)", "Un triangle"],
+      "reponse": "Un disque (cercle)",
+      "explication": "La section d'un cylindre par un plan perpendiculaire à son axe est un disque de même rayon r que les bases."
+    },
+    {
+      "id": "sol4_n1_032",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Qu'obtient-on en coupant un cône par un plan parallèle à sa base ?",
+      "image": null,
+      "choix": [
+        "Un rectangle",
+        "Un triangle",
+        "Un disque (cercle) plus petit",
+        "Un disque de même taille que la base"
+      ],
+      "reponse": "Un disque (cercle) plus petit",
+      "explication": "La section d'un cône par un plan parallèle à sa base est un disque (cercle) de rayon proportionnel à la distance au sommet."
+    },
+    {
+      "id": "sol4_n1_033",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien d'arêtes a une pyramide à base carrée ?",
+      "image": null,
+      "choix": ["4", "6", "8", "12"],
+      "reponse": "8",
+      "explication": "Une pyramide à base carrée a 4 arêtes de la base + 4 arêtes latérales = 8 arêtes."
+    },
+    {
+      "id": "sol4_n1_034",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la formule de l'aire latérale d'un cylindre de rayon r et de hauteur h ?",
+      "image": null,
+      "choix": ["A = π × r²", "A = 2π × r × h", "A = π × r × h", "A = 2π × r²"],
+      "reponse": "A = 2π × r × h",
+      "explication": "L'aire latérale d'un cylindre est la surface du rectangle enroulé : A = périmètre de la base × hauteur = 2π × r × h."
+    },
+    {
+      "id": "sol4_n1_035",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Comment calcule-t-on l'aire totale d'un pavé droit de dimensions l, L et h ?",
+      "image": null,
+      "choix": [
+        "A = l × L × h",
+        "A = 2(l + L + h)",
+        "A = 2(lL + lh + Lh)",
+        "A = lL + lh + Lh"
+      ],
+      "reponse": "A = 2(lL + lh + Lh)",
+      "explication": "Un pavé droit a 3 paires de faces rectangulaires : 2 faces lL, 2 faces lh, 2 faces Lh. Aire totale = 2(lL + lh + Lh)."
+    },
+    {
+      "id": "sol4_n1_036",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un repère 3D (x, y, z), les axes x et y définissent :",
+      "image": null,
+      "choix": [
+        "La hauteur du pavé",
+        "Le plan de la base",
+        "Le plan vertical",
+        "L'axe central"
+      ],
+      "reponse": "Le plan de la base",
+      "explication": "Les axes x (longueur) et y (largeur) définissent le plan de la base horizontale. L'axe z donne la hauteur."
+    },
+    {
+      "id": "sol4_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cube est un cas particulier de :",
+      "image": null,
+      "choix": ["Pyramide", "Prisme à base triangulaire", "Pavé droit", "Cylindre"],
+      "reponse": "Pavé droit",
+      "explication": "Un cube est un pavé droit particulier dont toutes les arêtes sont égales (l = L = h = a)."
+    },
+    {
+      "id": "sol4_n1_038",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien de sommets a un cube ?",
+      "image": null,
+      "choix": ["4", "6", "8", "12"],
+      "reponse": "8",
+      "explication": "Un cube (pavé droit) possède 8 sommets."
+    },
+    {
+      "id": "sol4_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans ce pavé 4×3×3, D est à l'origine. Quelles sont les coordonnées de C ?",
+      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "choix": ["C(4;3;0)", "C(0;0;3)", "C(0;3;0)", "C(4;0;0)"],
+      "reponse": "C(0;3;0)",
+      "explication": "C est sur l'axe y uniquement, donc C(0;L;0) = C(0;3;0)."
+    },
+    {
+      "id": "sol4_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle figure est le patron d'un cylindre ?",
+      "image": null,
+      "choix": [
+        "Un rectangle et deux carrés",
+        "Un grand rectangle et deux disques",
+        "Deux triangles et trois rectangles",
+        "Une croix de 6 rectangles"
+      ],
+      "reponse": "Un grand rectangle et deux disques",
+      "explication": "Le patron d'un cylindre est composé d'un rectangle (la surface latérale déroulée) et de deux disques (les deux bases)."
+    },
+    {
+      "id": "sol4_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans ce pavé 4×3×3, D est à l'origine et F est le sommet opposé. Quelles sont les coordonnées du milieu de [DF] ?",
+      "image": "solides/f6ae5bdbbd03d49047ba6323d9489a32ecdeebc3.png",
+      "choix": ["(4;3;3)", "(2;1,5;1,5)", "(2;3;1,5)", "(1;1;1)"],
+      "reponse": "(2;1,5;1,5)",
+      "explication": "D(0;0;0) et F(4;3;3). Milieu = ((0+4)/2 ; (0+3)/2 ; (0+3)/2) = (2 ; 1,5 ; 1,5)."
+    },
+    {
+      "id": "sol4_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans ce pavé 4×3×3, D(0;0;0) et F(4;3;3). Que vaut DA²+DC²+DH² ?",
+      "image": "solides/f6ae5bdbbd03d49047ba6323d9489a32ecdeebc3.png",
+      "choix": ["10", "29", "34", "100"],
+      "reponse": "34",
+      "explication": "DA=4, DC=3, DH=3. DA²+DC²+DH² = 16+9+9 = 34. On vérifie que DF² = 34, donc DF = √34. ✓"
+    },
+    {
+      "id": "sol4_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans un pavé de dimensions 5×4×3 cm, quelle est la longueur de la diagonale DF ?",
+      "image": null,
+      "choix": ["√29 ≈ 5,39 cm", "√50 = 5√2 ≈ 7,07 cm", "12 cm", "√41 ≈ 6,40 cm"],
+      "reponse": "√50 = 5√2 ≈ 7,07 cm",
+      "explication": "DF² = 5²+4²+3² = 25+16+9 = 50. DF = √50 = 5√2 ≈ 7,07 cm."
+    },
+    {
+      "id": "sol4_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans un cube de côté 6 cm, quelle est la longueur de la diagonale principale ?",
+      "image": null,
+      "choix": ["6√2 ≈ 8,49 cm", "6√3 ≈ 10,39 cm", "18 cm", "6 cm"],
+      "reponse": "6√3 ≈ 10,39 cm",
+      "explication": "d² = 6²+6²+6² = 108. d = √108 = 6√3 ≈ 10,39 cm."
+    },
+    {
+      "id": "sol4_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "M(2;3;0) et N(2;3;4) dans un pavé 4×3×4. Que représente [MN] ?",
+      "image": null,
+      "choix": [
+        "La diagonale principale",
+        "Une arête de la base",
+        "Une arête verticale parallèle à l'axe z, de longueur 4",
+        "La diagonale d'une face"
+      ],
+      "reponse": "Une arête verticale parallèle à l'axe z, de longueur 4",
+      "explication": "M et N ont les mêmes coordonnées x et y. Seul z varie (de 0 à 4). [MN] est une arête verticale parallèle à l'axe z, de longueur 4."
+    },
+    {
+      "id": "sol4_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans ce pavé 3×4×2 cm, quelle est la longueur de la diagonale DF ?",
+      "image": "solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
+      "choix": ["√9 = 3 cm", "√29 ≈ 5,39 cm", "9 cm", "√41 ≈ 6,40 cm"],
+      "reponse": "√29 ≈ 5,39 cm",
+      "explication": "DF² = 3²+4²+2² = 9+16+4 = 29. DF = √29 ≈ 5,39 cm."
+    },
+    {
+      "id": "sol4_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans ce pavé 3×4×2 cm, quelle est la longueur de la diagonale de la base DB ?",
+      "image": "solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
+      "choix": ["3 cm", "4 cm", "5 cm", "7 cm"],
+      "reponse": "5 cm",
+      "explication": "DB² = 3²+4² = 9+16 = 25. DB = 5 cm. C'est le triplet pythagoricien 3-4-5 !"
+    },
+    {
+      "id": "sol4_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Quelle est la longueur de la diagonale d'une base rectangulaire de 6×8 cm ?",
+      "image": null,
+      "choix": ["7 cm", "10 cm", "14 cm", "100 cm"],
+      "reponse": "10 cm",
+      "explication": "d² = 6²+8² = 36+64 = 100. d = 10 cm."
+    },
+    {
+      "id": "sol4_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le volume d'un pavé de dimensions 5×3×4 cm ?",
+      "image": null,
+      "choix": ["24 cm³", "47 cm³", "60 cm³", "94 cm³"],
+      "reponse": "60 cm³",
+      "explication": "V = 5×3×4 = 60 cm³."
+    },
+    {
+      "id": "sol4_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le volume d'un cube de côté 7 cm ?",
+      "image": null,
+      "choix": ["49 cm³", "147 cm³", "294 cm³", "343 cm³"],
+      "reponse": "343 cm³",
+      "explication": "V = 7³ = 343 cm³."
+    },
+    {
+      "id": "sol4_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Volume du cylindre : r = 3 cm, h = 5 cm. Quelle est la valeur approchée au cm³ ?",
+      "image": "solides/a7af667a1275301891fb6d33812fb6daf0be758e.png",
+      "choix": ["47 cm³", "94 cm³", "141 cm³", "282 cm³"],
+      "reponse": "141 cm³",
+      "explication": "V = π × 3² × 5 = 45π ≈ 141,4 cm³."
+    },
+    {
+      "id": "sol4_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Volume du cône : r = 4 cm, h = 6 cm. Quelle est la valeur approchée au cm³ ?",
+      "image": "solides/4434d31fbc7696979c807f970b02a54e8628e92d.png",
+      "choix": ["50 cm³", "100 cm³", "150 cm³", "301 cm³"],
+      "reponse": "100 cm³",
+      "explication": "V = ⅓ × π × 4² × 6 = ⅓ × π × 16 × 6 = 32π ≈ 100,5 cm³."
+    },
+    {
+      "id": "sol4_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Volume de la sphère de rayon R = 5 cm. Valeur approchée ?",
+      "image": "solides/422c3a34fbbd127323df669f50a30f07721e5e52.png",
+      "choix": ["314 cm³", "392 cm³", "524 cm³", "628 cm³"],
+      "reponse": "524 cm³",
+      "explication": "V = ⁴⁄₃ × π × 5³ = ⁴⁄₃ × π × 125 = 500π/3 ≈ 523,6 cm³."
+    },
+    {
+      "id": "sol4_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Volume d'une pyramide à base carrée de côté 6 cm et de hauteur 9 cm ?",
+      "image": null,
+      "choix": ["54 cm³", "108 cm³", "162 cm³", "324 cm³"],
+      "reponse": "108 cm³",
+      "explication": "B = 6² = 36 cm². V = ⅓ × 36 × 9 = 108 cm³."
+    },
+    {
+      "id": "sol4_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est l'aire totale d'un cube de côté 4 cm ?",
+      "image": null,
+      "choix": ["16 cm²", "48 cm²", "64 cm²", "96 cm²"],
+      "reponse": "96 cm²",
+      "explication": "Un cube a 6 faces carrées de côté 4 cm. A = 6 × 4² = 6 × 16 = 96 cm²."
+    },
+    {
+      "id": "sol4_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Quelle est l'aire latérale d'un cylindre de rayon r = 3 cm et hauteur h = 8 cm ?",
+      "image": null,
+      "choix": ["24π ≈ 75,4 cm²", "48π ≈ 150,8 cm²", "72π ≈ 226,2 cm²", "9π ≈ 28,3 cm²"],
+      "reponse": "48π ≈ 150,8 cm²",
+      "explication": "A latérale = 2π × r × h = 2π × 3 × 8 = 48π ≈ 150,8 cm²."
+    },
+    {
+      "id": "sol4_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est l'aire totale d'un pavé de dimensions 3×5×4 cm ?",
+      "image": "solides/d9273aa7a37c973894ab614b96e406176146bd65.png",
+      "choix": ["60 cm²", "94 cm²", "120 cm²", "47 cm²"],
+      "reponse": "94 cm²",
+      "explication": "A = 2(3×5) + 2(5×4) + 2(3×4) = 30+40+24 = 94 cm²."
+    },
+    {
+      "id": "sol4_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La face colorée ABFE de ce pavé (l=3, h=2) est de quelle forme et quelle aire ?",
+      "image": "solides/9b751ebcb828020dcc75e6dfa3ca16d1cab0a963.png",
+      "choix": [
+        "Carré, aire = 9 cm²",
+        "Rectangle, aire = 6 cm²",
+        "Rectangle, aire = 10 cm²",
+        "Triangle, aire = 3 cm²"
+      ],
+      "reponse": "Rectangle, aire = 6 cm²",
+      "explication": "ABFE est un rectangle de largeur 3 cm et hauteur 2 cm. Aire = 3 × 2 = 6 cm²."
+    },
+    {
+      "id": "sol4_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une boîte pavé droit de dimensions 20×15×10 cm. Quelle est sa contenance en litres ?",
+      "image": null,
+      "choix": ["0,3 L", "3 L", "30 L", "300 L"],
+      "reponse": "3 L",
+      "explication": "V = 20×15×10 = 3000 cm³ = 3 L (1 L = 1000 cm³)."
+    },
+    {
+      "id": "sol4_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Aquarium cylindrique r = 20 cm, h = 40 cm. Contenance approchée en litres ?",
+      "image": null,
+      "choix": ["5 L", "25 L", "50 L", "100 L"],
+      "reponse": "50 L",
+      "explication": "V = π × 400 × 40 = 16000π ≈ 50265 cm³ ≈ 50,3 L."
+    },
+    {
+      "id": "sol4_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Volume d'une bille sphérique de rayon r = 1,5 cm. Valeur approchée ?",
+      "image": null,
+      "choix": ["7,1 cm³", "14,1 cm³", "28,3 cm³", "56,5 cm³"],
+      "reponse": "14,1 cm³",
+      "explication": "V = ⁴⁄₃ × π × 1,5³ = 4,5π ≈ 14,1 cm³."
+    },
+    {
+      "id": "sol4_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un container cubique a un volume de 125 m³. Quelle est la longueur de son arête ?",
+      "image": null,
+      "choix": ["5 m", "10 m", "25 m", "41,7 m"],
+      "reponse": "5 m",
+      "explication": "a³ = 125 → a = ∛125 = 5 m."
+    },
+    {
+      "id": "sol4_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un pavé de dimensions 6×8×10 cm. Quelle est la longueur de sa diagonale ?",
+      "image": null,
+      "choix": ["√100 = 10 cm", "√164 ≈ 12,8 cm", "√200 = 10√2 ≈ 14,1 cm", "24 cm"],
+      "reponse": "√200 = 10√2 ≈ 14,1 cm",
+      "explication": "d² = 6²+8²+10² = 36+64+100 = 200. d = √200 = 10√2 ≈ 14,1 cm."
+    },
+    {
+      "id": "sol4_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un silo cylindrique r = 3 m, h = 10 m, rempli à 75 %. Volume de grain ?",
+      "image": null,
+      "choix": ["67,5π ≈ 212 m³", "90π ≈ 283 m³", "30π ≈ 94 m³", "45π ≈ 141 m³"],
+      "reponse": "67,5π ≈ 212 m³",
+      "explication": "V_total = π × 9 × 10 = 90π m³. V = 0,75 × 90π = 67,5π ≈ 212 m³."
+    },
+    {
+      "id": "sol4_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pyramide à base carrée de côté 4 m, volume = 48 m³. Quelle est sa hauteur ?",
+      "image": null,
+      "choix": ["3 m", "6 m", "9 m", "12 m"],
+      "reponse": "9 m",
+      "explication": "⅓ × 16 × h = 48 → 16h/3 = 48 → h = 144/16 = 9 m."
+    },
+    {
+      "id": "sol4_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Quelle est la longueur de la diagonale d'un cube de côté a = 10 cm ?",
+      "image": null,
+      "choix": ["10 cm", "10√2 ≈ 14,1 cm", "10√3 ≈ 17,3 cm", "30 cm"],
+      "reponse": "10√3 ≈ 17,3 cm",
+      "explication": "d² = 10²+10²+10² = 300. d = √300 = 10√3 ≈ 17,3 cm."
+    },
+    {
+      "id": "sol4_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Vérifie : aire totale du pavé 3×5×4 cm = 94 cm². Quel calcul utilise-t-on ?",
+      "image": null,
+      "choix": [
+        "3+5+4 = 12 cm²",
+        "3×5×4 = 60 cm²",
+        "2(3×5)+2(5×4)+2(3×4) = 30+40+24 = 94 cm²",
+        "2×(3+5+4) = 24 cm²"
+      ],
+      "reponse": "2(3×5)+2(5×4)+2(3×4) = 30+40+24 = 94 cm²",
+      "explication": "L'aire totale d'un pavé est la somme des 6 faces : 2(lL)+2(lh)+2(Lh) = 2(15)+2(20)+2(12) = 94 cm²."
+    },
+    {
+      "id": "sol4_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Prisme triangulaire à base équilatérale de côté 6 cm, hauteur 10 cm. Volume approché ? (A_triangle = √3/4 × a²)",
+      "image": null,
+      "choix": ["60 cm³", "90√3 ≈ 155,9 cm³", "180 cm³", "360 cm³"],
+      "reponse": "90√3 ≈ 155,9 cm³",
+      "explication": "A_base = √3/4 × 36 = 9√3 ≈ 15,6 cm². V = 9√3 × 10 = 90√3 ≈ 155,9 cm³."
+    },
+    {
+      "id": "sol4_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un pavé ABCDEFGH (D à l'origine), combien y a-t-il de diagonales principales ?",
+      "image": null,
+      "choix": ["2", "3", "4", "6"],
+      "reponse": "4",
+      "explication": "Un pavé a 4 diagonales principales (AG, BH, CE, DF selon les conventions)."
+    },
+    {
+      "id": "sol4_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un pavé de dimensions l×L×h, toutes les diagonales principales ont-elles la même longueur ?",
+      "image": null,
+      "choix": [
+        "Non, elles varient selon la direction",
+        "Seulement si c'est un cube",
+        "Oui, elles valent toutes √(l²+L²+h²)",
+        "Seulement deux d'entre elles"
+      ],
+      "reponse": "Oui, elles valent toutes √(l²+L²+h²)",
+      "explication": "Chaque diagonale relie deux sommets opposés. Dans tous les cas d² = l²+L²+h², donc d = √(l²+L²+h²). Elles ont toutes la même longueur."
+    },
+    {
+      "id": "sol4_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Dans ce pavé 3×4×2 cm, quelle est la distance entre A(3;0;0) et G(0;4;2) ?",
+      "image": "solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
+      "choix": ["√9 = 3 cm", "√25 = 5 cm", "√29 ≈ 5,39 cm", "√41 ≈ 6,40 cm"],
+      "reponse": "√29 ≈ 5,39 cm",
+      "explication": "AG² = (3-0)²+(0-4)²+(0-2)² = 9+16+4 = 29. AG = √29 ≈ 5,39 cm."
+    },
+    {
+      "id": "sol4_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un pavé l×L×h, la formule de la diagonale principale est :",
+      "image": null,
+      "choix": ["d = l+L+h", "d = √(l+L+h)", "d = √(l²+L²+h²)", "d = l²+L²+h²"],
+      "reponse": "d = √(l²+L²+h²)",
+      "explication": "Toutes les diagonales principales d'un pavé vérifient d² = l²+L²+h² (invariant de l'espace). Cette relation est une généralisation de Pythagore à 3 dimensions."
+    },
+    {
+      "id": "sol4_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "E(4;0;3) et F(4;4;3). Quelles sont les coordonnées du milieu M de [EF] ?",
+      "image": null,
+      "choix": ["M(4;2;3)", "M(8;4;6)", "M(0;4;0)", "M(2;2;1,5)"],
+      "reponse": "M(4;2;3)",
+      "explication": "M = ((4+4)/2 ; (0+4)/2 ; (3+3)/2) = M(4;2;3)."
+    },
+    {
+      "id": "sol4_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelles sont les coordonnées du centre O d'un pavé l×L×h (D à l'origine) ?",
+      "image": null,
+      "choix": ["O(l;L;h)", "O(l/2;L/2;h/2)", "O(0;0;0)", "O(l+L+h;0;0)"],
+      "reponse": "O(l/2;L/2;h/2)",
+      "explication": "O est le milieu de la diagonale [DF]. D(0;0;0) et F(l;L;h) → O((0+l)/2 ; (0+L)/2 ; (0+h)/2) = O(l/2;L/2;h/2)."
+    },
+    {
+      "id": "sol4_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un cube de côté a, quelles sont les longueurs de la diagonale d'une face et de la diagonale principale ?",
+      "image": null,
+      "choix": [
+        "Diag. face = a ; Diag. principale = a√2",
+        "Diag. face = a√2 ; Diag. principale = a√3",
+        "Diag. face = a√3 ; Diag. principale = a√2",
+        "Diag. face = a√2 ; Diag. principale = 2a"
+      ],
+      "reponse": "Diag. face = a√2 ; Diag. principale = a√3",
+      "explication": "Diag. face : d² = a²+a² = 2a² → d = a√2. Diag. principale : d² = a²+a²+a² = 3a² → d = a√3."
+    },
+    {
+      "id": "sol4_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Des boîtes cylindriques de rayon r=4 cm et hauteur h=12 cm sont posées verticalement dans une caisse cubique de 30 cm. Combien de boîtes tient-on ?",
+      "image": null,
+      "choix": ["9 boîtes", "12 boîtes", "18 boîtes", "27 boîtes"],
+      "reponse": "18 boîtes",
+      "explication": "Chaque cylindre occupe 8 cm de diamètre. En L et l : ⌊30/8⌋ = 3. En hauteur : ⌊30/12⌋ = 2. Total : 3×3×2 = 18 boîtes."
+    },
+    {
+      "id": "sol4_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Piscine pavé 10×5×1,5 m remplie à 80%. Quel est le temps de remplissage à 2 m³/min ?",
+      "image": null,
+      "choix": ["15 min", "30 min", "37,5 min", "60 min"],
+      "reponse": "30 min",
+      "explication": "V_total = 10×5×1,5 = 75 m³. V_eau = 0,8×75 = 60 m³. Temps = 60÷2 = 30 min."
+    },
+    {
+      "id": "sol4_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cône de glace r=3 cm, h=12 cm + boule sphérique r=3 cm. Volume total approché ?",
+      "image": null,
+      "choix": ["36π ≈ 113 cm³", "72π ≈ 226 cm³", "108π ≈ 339 cm³", "144π ≈ 452 cm³"],
+      "reponse": "72π ≈ 226 cm³",
+      "explication": "V_cône = ⅓×π×9×12 = 36π. V_sphère = ⁴⁄₃×π×27 = 36π. V_total = 72π ≈ 226 cm³."
+    },
+    {
+      "id": "sol4_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un losange a des diagonales de 6 cm et 8 cm (perpendiculaires, coupées en leur milieu). Quelle est la longueur de son côté ?",
+      "image": null,
+      "choix": ["3 cm", "4 cm", "5 cm", "7 cm"],
+      "reponse": "5 cm",
+      "explication": "Les demi-diagonales forment un triangle rectangle de côtés 3 et 4. Côté² = 3²+4² = 25. Côté = 5 cm."
+    },
+    {
+      "id": "sol4_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "On coupe un pavé par le plan passant par A, F et les milieux de [DH] et [BC]. Quelle est la section obtenue ?",
+      "image": "solides/9b751ebcb828020dcc75e6dfa3ca16d1cab0a963.png",
+      "choix": ["Un triangle", "Un carré", "Un rectangle ABFE de dimensions l×h", "Un losange"],
+      "reponse": "Un rectangle ABFE de dimensions l×h",
+      "explication": "Le plan coupe le pavé selon la face entière ABFE qui est un rectangle de dimensions l×h."
+    },
+    {
+      "id": "sol4_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans une sphère de rayon R, quelle est la section de plus grande surface possible ?",
+      "image": null,
+      "choix": [
+        "Un disque de rayon R/2",
+        "Un grand cercle de rayon R passant par le centre",
+        "Un rectangle",
+        "Un disque de rayon 2R"
+      ],
+      "reponse": "Un grand cercle de rayon R passant par le centre",
+      "explication": "La section maximale d'une sphère est un grand cercle (plan équatorial) de rayon R passant par le centre O."
+    },
+    {
+      "id": "sol4_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "On coupe un cube par un plan passant par 3 sommets alternés. Quel triangle obtient-on ?",
+      "image": null,
+      "choix": ["Isocèle", "Scalène", "Rectangle", "Équilatéral"],
+      "reponse": "Équilatéral",
+      "explication": "Les 3 côtés de ce triangle sont des diagonales de faces du cube, toutes de longueur a√2. Côtés égaux → triangle équilatéral."
+    },
+    {
+      "id": "sol4_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Justification de V_pyramide = ⅓ × aire_base × hauteur : un prisme peut être décomposé en combien de pyramides de volumes égaux ?",
+      "image": null,
+      "choix": ["2", "3", "4", "6"],
+      "reponse": "3",
+      "explication": "Un prisme se décompose en 3 pyramides de volumes égaux. V_prisme = Base×h = 3×V_pyramide → V_pyramide = ⅓×Base×h."
+    },
+    {
+      "id": "sol4_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le taux d'empilement maximal théorique de sphères identiques ?",
+      "image": null,
+      "choix": ["50%", "63%", "74%", "100%"],
+      "reponse": "74%",
+      "explication": "Les sphères laissent des interstices entre elles. Le taux d'empilement maximal est π/(3√2) ≈ 74%. Les sphères ne peuvent pas remplir exactement un espace sans vide."
+    },
+    {
+      "id": "sol4_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Triangle ABC rectangle en A, AB=3k, AC=4k (k>0). Si le périmètre est 48 cm, quelle est la valeur de k ?",
+      "image": null,
+      "choix": ["2", "3", "4", "5"],
+      "reponse": "4",
+      "explication": "BC = 5k (triplet 3-4-5). Périmètre = 3k+4k+5k = 12k = 48 → k = 4. Côtés : 12, 16, 20 cm."
+    },
+    {
+      "id": "sol4_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un pavé a l=3, L=5 et une aire totale S=94 cm². Quelle est la hauteur h ?",
+      "image": null,
+      "choix": ["2 cm", "3 cm", "4 cm", "5 cm"],
+      "reponse": "4 cm",
+      "explication": "S = 2(lL+lh+Lh) = 2(15+3h+5h) = 30+16h = 94 → 16h = 64 → h = 4 cm."
+    },
+    {
+      "id": "sol4_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un cube de côté 10 cm est creusé d'un cylindre de rayon 3 cm traversant de bas en haut. Volume restant approché ?",
+      "image": null,
+      "choix": ["282 cm³", "500 cm³", "717 cm³", "1000 cm³"],
+      "reponse": "717 cm³",
+      "explication": "V_cube = 1000 cm³. V_cylindre = π×9×10 = 90π ≈ 282,7 cm³. V_restant ≈ 1000−282,7 ≈ 717,3 cm³."
+    },
+    {
+      "id": "sol4_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un entrepôt en prisme triangulaire : base rectangulaire 20×12 m, toit triangulaire de hauteur 4 m. Volume total ?",
+      "image": null,
+      "choix": ["240 m³", "360 m³", "480 m³", "960 m³"],
+      "reponse": "480 m³",
+      "explication": "Base triangulaire : A = ½×12×4 = 24 m². V = 24×20 = 480 m³."
+    },
+    {
+      "id": "sol4_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans un pavé ABCDEFGH, combien y a-t-il de diagonales principales et ont-elles toutes la même longueur ?",
+      "image": null,
+      "choix": [
+        "2 diagonales, longueurs différentes",
+        "4 diagonales, longueurs différentes",
+        "4 diagonales, toutes de même longueur √(l²+L²+h²)",
+        "8 diagonales, toutes égales"
+      ],
+      "reponse": "4 diagonales, toutes de même longueur √(l²+L²+h²)",
+      "explication": "Un pavé a 4 diagonales principales (AG, BH, CE, DF). Chacune relie deux sommets opposés et vérifie d² = l²+L²+h², donc elles ont toutes la même longueur."
+    },
+    {
+      "id": "sol4_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un silo cylindrique V=100 m³ avec h=2r. Quelles sont les dimensions approchées (r et h) ?",
+      "image": null,
+      "choix": ["r≈1,26 m; h≈2,52 m", "r≈2,52 m; h≈5,04 m", "r≈5 m; h≈10 m", "r≈3,99 m; h≈7,98 m"],
+      "reponse": "r≈2,52 m; h≈5,04 m",
+      "explication": "V = π×r²×2r = 2πr³ = 100 → r³ = 50/π → r = ∛(50/π) ≈ 2,52 m. h = 2r ≈ 5,04 m."
+    }
+  ]
+}
