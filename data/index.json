@@ -78,9 +78,9 @@
       "niveau": "4eme"
     },
     {
-      "id": "transformations_5eme",
+      "id": "transformations_4eme",
       "fichier": "data/transformations_5eme.json",
-      "niveau": "5eme"
+      "niveau": "4eme"
     }
   ],
   "automatismes_notions": [
