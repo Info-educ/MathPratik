@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3,67 $\\times$ 10 = ?",
+      "enonce": "3,67$\\times$10 = ?",
       "choix": [
         "3,670",
         "36,7",
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,245 $\\times$ 100 = ?",
+      "enonce": "0,245$\\times$100 = ?",
       "choix": [
         "0,0245",
         "2,45",
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,038 $\\times$ 1 000 = ?",
+      "enonce": "0,038$\\times$1 000 = ?",
       "choix": [
         "0,38",
         "3,8",
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "42,1 $\\div$ 10 = ?",
+      "enonce": "42,1$\\div$10 = ?",
       "choix": [
         "0,421",
         "4,21",
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7,5 $\\div$ 100 = ?",
+      "enonce": "7,5$\\div$100 = ?",
       "choix": [
         "0,0075",
         "0,075",
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "85 $\\div$ 1 000 = ?",
+      "enonce": "85$\\div$1 000 = ?",
       "choix": [
         "0,0085",
         "0,085",
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1,508 $\\times$ 10 = ?",
+      "enonce": "1,508$\\times$10 = ?",
       "choix": [
         "0,1508",
         "15,08",
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,072 $\\times$ 100 = ?",
+      "enonce": "0,072$\\times$100 = ?",
       "choix": [
         "0,72",
         "7,2",
@@ -149,7 +149,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,9 $\\times$ 1 000 = ?",
+      "enonce": "0,9$\\times$1 000 = ?",
       "choix": [
         "9",
         "90",
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "136,4 $\\div$ 10 = ?",
+      "enonce": "136,4$\\div$10 = ?",
       "choix": [
         "1,364",
         "13,64",
@@ -183,7 +183,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5,2 $\\div$ 100 = ?",
+      "enonce": "5,2$\\div$100 = ?",
       "choix": [
         "0,0052",
         "0,052",
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4 300 $\\div$ 1 000 = ?",
+      "enonce": "4 300$\\div$1 000 = ?",
       "choix": [
         "0,43",
         "4,3",
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,006 $\\times$ 10 = ?",
+      "enonce": "0,006$\\times$10 = ?",
       "choix": [
         "0,0006",
         "0,06",
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,0014 $\\times$ 100 = ?",
+      "enonce": "0,0014$\\times$100 = ?",
       "choix": [
         "0,014",
         "0,14",
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1,57 $\\times$ 1 000 = ?",
+      "enonce": "1,57$\\times$1 000 = ?",
       "choix": [
         "15,7",
         "157",
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,8 $\\div$ 10 = ?",
+      "enonce": "0,8$\\div$10 = ?",
       "choix": [
         "0,008",
         "0,08",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,03 $\\div$ 100 = ?",
+      "enonce": "0,03$\\div$100 = ?",
       "choix": [
         "0,0003",
         "0,003",
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "52 $\\div$ 1 000 = ?",
+      "enonce": "52$\\div$1 000 = ?",
       "choix": [
         "0,0052",
         "0,052",
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "74 $\\times$ 0,1 = ?",
+      "enonce": "74$\\times$0,1 = ?",
       "choix": [
         "0,74",
         "7,4",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "630 $\\times$ 0,01 = ?",
+      "enonce": "630$\\times$0,01 = ?",
       "choix": [
         "0,63",
         "6,3",
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5 200 $\\times$ 0,001 = ?",
+      "enonce": "5 200$\\times$0,001 = ?",
       "choix": [
         "0,52",
         "5,2",
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,45 $\\times$ 0,1 = ?",
+      "enonce": "0,45$\\times$0,1 = ?",
       "choix": [
         "0,0045",
         "0,045",
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2,8 $\\times$ 0,01 = ?",
+      "enonce": "2,8$\\times$0,01 = ?",
       "choix": [
         "0,0028",
         "0,028",
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "16 $\\times$ 0,001 = ?",
+      "enonce": "16$\\times$0,001 = ?",
       "choix": [
         "0,0016",
         "0,016",
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 360 $\\times$ 0,01 = ?",
+      "enonce": "9 360$\\times$0,01 = ?",
       "choix": [
         "0,936",
         "9,36",
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,07 $\\times$ 10 = ?",
+      "enonce": "0,07$\\times$10 = ?",
       "choix": [
         "0,007",
         "0,7",
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2,004 $\\times$ 1 000 = ?",
+      "enonce": "2,004$\\times$1 000 = ?",
       "choix": [
         "20,04",
         "200,4",
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "30 500 $\\div$ 1 000 = ?",
+      "enonce": "30 500$\\div$1 000 = ?",
       "choix": [
         "0,305",
         "3,05",
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0,003 $\\times$ 100 = ?",
+      "enonce": "0,003$\\times$100 = ?",
       "choix": [
         "0,03",
         "0,3",
@@ -506,7 +506,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "125 $\\times$ 0,01 = ?",
+      "enonce": "125$\\times$0,01 = ?",
       "choix": [
         "0,125",
         "1,25",

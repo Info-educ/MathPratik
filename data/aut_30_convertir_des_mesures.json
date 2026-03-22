@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12 ha = ? $\\mathrm{m}^2$",
+      "enonce": "12 ha = ?$\\mathrm{m}^2$",
       "choix": [
         "120",
         "1200",
@@ -106,7 +106,7 @@
         "120000"
       ],
       "reponse": "120000",
-      "explication": "12$\\times$10000=120000 $\\mathrm{m}^2$",
+      "explication": "12$\\times$10000=120000$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5,63 a = ? $\\mathrm{m}^2$",
+      "enonce": "5,63 a = ?$\\mathrm{m}^2$",
       "choix": [
         "5,63",
         "56,3",
@@ -123,7 +123,7 @@
         "5630"
       ],
       "reponse": "563",
-      "explication": "5,63$\\times$100=563 $\\mathrm{m}^2$",
+      "explication": "5,63$\\times$100=563$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3,5 $\\mathrm{m}^3$ = ? $\\mathrm{dm}^3$",
+      "enonce": "3,5$\\mathrm{m}^3$= ?$\\mathrm{dm}^3$",
       "choix": [
         "3,5",
         "35",
@@ -140,7 +140,7 @@
         "3500"
       ],
       "reponse": "3500",
-      "explication": "3,5$\\times$1000=3500 $\\mathrm{dm}^3$",
+      "explication": "3,5$\\times$1000=3500$\\mathrm{dm}^3$",
       "image": null
     },
     {
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1 $\\mathrm{dm}^3$ = ? L",
+      "enonce": "1$\\mathrm{dm}^3$= ? L",
       "choix": [
         "0,1",
         "1",
@@ -174,7 +174,7 @@
         "100"
       ],
       "reponse": "1",
-      "explication": "1 $\\mathrm{dm}^3$=1 L",
+      "explication": "1$\\mathrm{dm}^3$=1 L",
       "image": null
     },
     {
@@ -183,7 +183,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 $h$\\mathrm{m}^2$ = ? $\\mathrm{m}^2$",
+      "enonce": "7$h$\\mathrm{m}^2$= ?$\\mathrm{m}^2$",
       "choix": [
         "700",
         "7000",
@@ -191,7 +191,7 @@
         "700000"
       ],
       "reponse": "70000",
-      "explication": "7$\\times$10000=70000 $\\mathrm{m}^2$",
+      "explication": "7$\\times$10000=70000$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2,4 $\\mathrm{dm}^2$ = ? $\\mathrm{cm}^2$",
+      "enonce": "2,4$\\mathrm{dm}^2$= ?$\\mathrm{cm}^2$",
       "choix": [
         "24",
         "240",
@@ -276,7 +276,7 @@
         "24000"
       ],
       "reponse": "240",
-      "explication": "2,4$\\times$100=240 $\\mathrm{cm}^2$",
+      "explication": "2,4$\\times$100=240$\\mathrm{cm}^2$",
       "image": null
     },
     {
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "500 $\\mathrm{cm}^3$ = ? $\\mathrm{dm}^3$",
+      "enonce": "500$\\mathrm{cm}^3$= ?$\\mathrm{dm}^3$",
       "choix": [
         "0,05",
         "0,5",
@@ -293,7 +293,7 @@
         "50"
       ],
       "reponse": "0,5",
-      "explication": "500$\\div$1000=0,5 $\\mathrm{dm}^3$",
+      "explication": "500$\\div$1000=0,5$\\mathrm{dm}^3$",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 500 $\\mathrm{m}^2$ = ? ha",
+      "enonce": "6 500$\\mathrm{m}^2$= ? ha",
       "choix": [
         "0,065",
         "0,65",
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1,5 $\\mathrm{m}^3$ = ? $\\mathrm{dm}^3$",
+      "enonce": "1,5$\\mathrm{m}^3$= ?$\\mathrm{dm}^3$",
       "choix": [
         "15",
         "150",
@@ -327,7 +327,7 @@
         "15000"
       ],
       "reponse": "1500",
-      "explication": "1,5$\\times$1000=1500 $\\mathrm{dm}^3$",
+      "explication": "1,5$\\times$1000=1500$\\mathrm{dm}^3$",
       "image": null
     },
     {
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4 800 $\\mathrm{dm}^3$ = ? $\\mathrm{m}^3$",
+      "enonce": "4 800$\\mathrm{dm}^3$= ?$\\mathrm{m}^3$",
       "choix": [
         "0,48",
         "4,8",
@@ -395,7 +395,7 @@
         "480"
       ],
       "reponse": "4,8",
-      "explication": "4800$\\div$1000=4,8 $\\mathrm{m}^3$",
+      "explication": "4800$\\div$1000=4,8$\\mathrm{m}^3$",
       "image": null
     },
     {
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8 $\\mathrm{cm}^2$ = ? m$\\mathrm{m}^2$",
+      "enonce": "8$\\mathrm{cm}^2$= ? m$\\mathrm{m}^2$",
       "choix": [
         "8",
         "80",
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1,2 $\\mathrm{m}^3$ = ? $\\mathrm{dm}^3$",
+      "enonce": "1,2$\\mathrm{m}^3$= ?$\\mathrm{dm}^3$",
       "choix": [
         "12",
         "120",
@@ -429,7 +429,7 @@
         "12000"
       ],
       "reponse": "1200",
-      "explication": "1,2$\\times$1000=1200 $\\mathrm{dm}^3$",
+      "explication": "1,2$\\times$1000=1200$\\mathrm{dm}^3$",
       "image": null
     },
     {
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 200 $\\mathrm{dm}^3$ = ? $\\mathrm{m}^3$",
+      "enonce": "7 200$\\mathrm{dm}^3$= ?$\\mathrm{m}^3$",
       "choix": [
         "0,72",
         "7,2",
@@ -446,7 +446,7 @@
         "720"
       ],
       "reponse": "7,2",
-      "explication": "7200$\\div$1000=7,2 $\\mathrm{m}^3$",
+      "explication": "7200$\\div$1000=7,2$\\mathrm{m}^3$",
       "image": null
     },
     {
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5 $\\mathrm{dm}^2$ = ? $\\mathrm{m}^2$",
+      "enonce": "5$\\mathrm{dm}^2$= ?$\\mathrm{m}^2$",
       "choix": [
         "0,005",
         "0,05",
@@ -480,7 +480,7 @@
         "5"
       ],
       "reponse": "0,05",
-      "explication": "5$\\div$100=0,05 $\\mathrm{m}^2$",
+      "explication": "5$\\div$100=0,05$\\mathrm{m}^2$",
       "image": null
     },
     {

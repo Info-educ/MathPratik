@@ -13,7 +13,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n-6 puis $\\times$2. Pour n=22",
+      "enonce": "Programme: n-6 puis$\\times$2. Pour n=22",
       "choix": [
         "26",
         "28",
@@ -40,7 +40,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n-6 puis $\\times$2. Pour n=18",
+      "enonce": "Programme: n-6 puis$\\times$2. Pour n=18",
       "choix": [
         "22",
         "24",
@@ -67,7 +67,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n-6 puis $\\times$2. Pour n=33",
+      "enonce": "Programme: n-6 puis$\\times$2. Pour n=33",
       "choix": [
         "50",
         "52",
@@ -102,7 +102,7 @@
         "2a+6"
       ],
       "reponse": "2(a-6)",
-      "explication": "a-6 puis $\\times$2=2(a-6)",
+      "explication": "a-6 puis$\\times$2=2(a-6)",
       "image": null,
       "programme": {
         "lettre": "A",
@@ -200,7 +200,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+4 puis $\\times$3. Pour n=5",
+      "enonce": "Programme: n+4 puis$\\times$3. Pour n=5",
       "choix": [
         "25",
         "27",
@@ -227,7 +227,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+4 puis $\\times$3. Pour n=3",
+      "enonce": "Programme: n+4 puis$\\times$3. Pour n=3",
       "choix": [
         "18",
         "20",
@@ -262,7 +262,7 @@
         "3x+12"
       ],
       "reponse": "3(x+4)",
-      "explication": "x+4 puis $\\times$3",
+      "explication": "x+4 puis$\\times$3",
       "image": null,
       "programme": {
         "lettre": "C",
@@ -360,7 +360,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: $n^{2}$ puis +3. Pour n=2",
+      "enonce": "Programme:$n^{2}$puis +3. Pour n=2",
       "choix": [
         "5",
         "6",
@@ -387,7 +387,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: $n^{2}$ puis +3. Pour n=5",
+      "enonce": "Programme:$n^{2}$puis +3. Pour n=5",
       "choix": [
         "26",
         "28",
@@ -418,11 +418,11 @@
       "choix": [
         "$t^{2}$+3",
         "t+3",
-        "(t+3)²",
+        "$(t+3)^{2}$",
         "$3$t^{2}"
       ],
       "reponse": "$t^{2}$+3",
-      "explication": "$t^{2}$ puis +3",
+      "explication": "$t^{2}$puis +3",
       "image": null,
       "programme": {
         "lettre": "E",
@@ -528,7 +528,7 @@
         "13"
       ],
       "reponse": "9",
-      "explication": "(4-1)²=9",
+      "explication": "$(4-1)^{2}$=9",
       "image": null,
       "programme": {
         "lettre": "G",
@@ -555,7 +555,7 @@
         "40"
       ],
       "reponse": "36",
-      "explication": "(7-1)²=36",
+      "explication": "$(7-1)^{2}$=36",
       "image": null,
       "programme": {
         "lettre": "G",
@@ -577,12 +577,12 @@
       "enonce": "Programme G: expression pour x ?",
       "choix": [
         "x-1",
-        "(x-1)²",
+        "$(x-1)^{2}$",
         "$x^{2}$-1",
         "$x^{2}$-2x"
       ],
-      "reponse": "(x-1)²",
-      "explication": "(x-1)²",
+      "reponse": "$(x-1)^{2}$",
+      "explication": "$(x-1)^{2}$",
       "image": null,
       "programme": {
         "lettre": "G",
@@ -680,7 +680,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+10 puis $\\div$2. Pour n=8",
+      "enonce": "Programme: n+10 puis$\\div$2. Pour n=8",
       "choix": [
         "7",
         "8",
@@ -707,7 +707,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+10 puis $\\div$2. Pour n=20",
+      "enonce": "Programme: n+10 puis$\\div$2. Pour n=20",
       "choix": [
         "13",
         "15",
@@ -760,7 +760,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: $n^{2}$ puis +lui-même. Pour n=3",
+      "enonce": "Programme:$n^{2}$puis +lui-même. Pour n=3",
       "choix": [
         "9",
         "12",

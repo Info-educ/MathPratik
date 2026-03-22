@@ -66,13 +66,13 @@
       "chrono": 20,
       "enonce": "Longueur cercle rayon 4 cm (exacte)",
       "choix": [
-        "4$\\pi$ cm",
-        "6$\\pi$ cm",
-        "8$\\pi$ cm",
-        "12$\\pi$ cm"
+        "4$\\pi$cm",
+        "6$\\pi$cm",
+        "8$\\pi$cm",
+        "12$\\pi$cm"
       ],
-      "reponse": "8$\\pi$ cm",
-      "explication": "2$\\pi\\times$4=8$\\pi$ cm",
+      "reponse": "8$\\pi$cm",
+      "explication": "2$\\pi\\times$4=8$\\pi$cm",
       "image": null
     },
     {
@@ -83,13 +83,13 @@
       "chrono": 20,
       "enonce": "Longueur cercle diamètre 10 m (exacte)",
       "choix": [
-        "5$\\pi$ m",
-        "10$\\pi$ m",
-        "15$\\pi$ m",
-        "20$\\pi$ m"
+        "5$\\pi$m",
+        "10$\\pi$m",
+        "15$\\pi$m",
+        "20$\\pi$m"
       ],
-      "reponse": "10$\\pi$ m",
-      "explication": "$\\pi\\times$10=10$\\pi$ m",
+      "reponse": "10$\\pi$m",
+      "explication": "$\\pi\\times$10=10$\\pi$m",
       "image": null
     },
     {
@@ -151,13 +151,13 @@
       "chrono": 20,
       "enonce": "Longueur cercle rayon 6 cm (exacte)",
       "choix": [
-        "6$\\pi$ cm",
-        "8$\\pi$ cm",
-        "12$\\pi$ cm",
-        "18$\\pi$ cm"
+        "6$\\pi$cm",
+        "8$\\pi$cm",
+        "12$\\pi$cm",
+        "18$\\pi$cm"
       ],
-      "reponse": "12$\\pi$ cm",
-      "explication": "2$\\pi\\times$6=12$\\pi$ cm",
+      "reponse": "12$\\pi$cm",
+      "explication": "2$\\pi\\times$6=12$\\pi$cm",
       "image": null
     },
     {
@@ -185,13 +185,13 @@
       "chrono": 20,
       "enonce": "Aire rectangle L=6cm, l=4cm",
       "choix": [
-        "20 $\\mathrm{cm}^2$",
-        "24 $\\mathrm{cm}^2$",
-        "28 $\\mathrm{cm}^2$",
-        "32 $\\mathrm{cm}^2$"
+        "20$\\mathrm{cm}^2$",
+        "24$\\mathrm{cm}^2$",
+        "28$\\mathrm{cm}^2$",
+        "32$\\mathrm{cm}^2$"
       ],
-      "reponse": "24 $\\mathrm{cm}^2$",
-      "explication": "6$\\times$4=24 $\\mathrm{cm}^2$",
+      "reponse": "24$\\mathrm{cm}^2$",
+      "explication": "6$\\times$4=24$\\mathrm{cm}^2$",
       "image": null
     },
     {
@@ -202,13 +202,13 @@
       "chrono": 20,
       "enonce": "Aire carré côté 5 m",
       "choix": [
-        "15 $\\mathrm{m}^2$",
-        "20 $\\mathrm{m}^2$",
-        "25 $\\mathrm{m}^2$",
-        "30 $\\mathrm{m}^2$"
+        "15$\\mathrm{m}^2$",
+        "20$\\mathrm{m}^2$",
+        "25$\\mathrm{m}^2$",
+        "30$\\mathrm{m}^2$"
       ],
-      "reponse": "25 $\\mathrm{m}^2$",
-      "explication": "$5^{2}$=25 $\\mathrm{m}^2$",
+      "reponse": "25$\\mathrm{m}^2$",
+      "explication": "$5^{2}$=25$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -219,13 +219,13 @@
       "chrono": 20,
       "enonce": "Aire triangle base=10cm, h=6cm",
       "choix": [
-        "24 $\\mathrm{cm}^2$",
-        "28 $\\mathrm{cm}^2$",
-        "30 $\\mathrm{cm}^2$",
-        "36 $\\mathrm{cm}^2$"
+        "24$\\mathrm{cm}^2$",
+        "28$\\mathrm{cm}^2$",
+        "30$\\mathrm{cm}^2$",
+        "36$\\mathrm{cm}^2$"
       ],
-      "reponse": "30 $\\mathrm{cm}^2$",
-      "explication": "(10$\\times$6)$\\div$2=30 $\\mathrm{cm}^2$",
+      "reponse": "30$\\mathrm{cm}^2$",
+      "explication": "(10$\\times$6)$\\div$2=30$\\mathrm{cm}^2$",
       "image": null
     },
     {
@@ -253,13 +253,13 @@
       "chrono": 20,
       "enonce": "Aire rectangle L=9m, l=4m",
       "choix": [
-        "30 $\\mathrm{m}^2$",
-        "32 $\\mathrm{m}^2$",
-        "34 $\\mathrm{m}^2$",
-        "36 $\\mathrm{m}^2$"
+        "30$\\mathrm{m}^2$",
+        "32$\\mathrm{m}^2$",
+        "34$\\mathrm{m}^2$",
+        "36$\\mathrm{m}^2$"
       ],
-      "reponse": "36 $\\mathrm{m}^2$",
-      "explication": "9$\\times$4=36 $\\mathrm{m}^2$",
+      "reponse": "36$\\mathrm{m}^2$",
+      "explication": "9$\\times$4=36$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -270,13 +270,13 @@
       "chrono": 20,
       "enonce": "Aire carré côté 12 cm",
       "choix": [
-        "100 $\\mathrm{cm}^2$",
-        "120 $\\mathrm{cm}^2$",
-        "144 $\\mathrm{cm}^2$",
-        "168 $\\mathrm{cm}^2$"
+        "100$\\mathrm{cm}^2$",
+        "120$\\mathrm{cm}^2$",
+        "144$\\mathrm{cm}^2$",
+        "168$\\mathrm{cm}^2$"
       ],
-      "reponse": "144 $\\mathrm{cm}^2$",
-      "explication": "$1$2^{2}=144 $\\mathrm{cm}^2$",
+      "reponse": "144$\\mathrm{cm}^2$",
+      "explication": "$1$2^{2}=144$\\mathrm{cm}^2$",
       "image": null
     },
     {
@@ -287,13 +287,13 @@
       "chrono": 20,
       "enonce": "Aire triangle base=8m, h=5m",
       "choix": [
-        "15 $\\mathrm{m}^2$",
-        "20 $\\mathrm{m}^2$",
-        "25 $\\mathrm{m}^2$",
-        "30 $\\mathrm{m}^2$"
+        "15$\\mathrm{m}^2$",
+        "20$\\mathrm{m}^2$",
+        "25$\\mathrm{m}^2$",
+        "30$\\mathrm{m}^2$"
       ],
-      "reponse": "20 $\\mathrm{m}^2$",
-      "explication": "(8$\\times$5)$\\div$2=20 $\\mathrm{m}^2$",
+      "reponse": "20$\\mathrm{m}^2$",
+      "explication": "(8$\\times$5)$\\div$2=20$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -321,13 +321,13 @@
       "chrono": 20,
       "enonce": "Aire rectangle L=15cm, l=7cm",
       "choix": [
-        "95 $\\mathrm{cm}^2$",
-        "100 $\\mathrm{cm}^2$",
-        "105 $\\mathrm{cm}^2$",
-        "110 $\\mathrm{cm}^2$"
+        "95$\\mathrm{cm}^2$",
+        "100$\\mathrm{cm}^2$",
+        "105$\\mathrm{cm}^2$",
+        "110$\\mathrm{cm}^2$"
       ],
-      "reponse": "105 $\\mathrm{cm}^2$",
-      "explication": "15$\\times$7=105 $\\mathrm{cm}^2$",
+      "reponse": "105$\\mathrm{cm}^2$",
+      "explication": "15$\\times$7=105$\\mathrm{cm}^2$",
       "image": null
     },
     {
@@ -338,13 +338,13 @@
       "chrono": 20,
       "enonce": "Aire carré côté 3 m",
       "choix": [
-        "6 $\\mathrm{m}^2$",
-        "8 $\\mathrm{m}^2$",
-        "9 $\\mathrm{m}^2$",
-        "12 $\\mathrm{m}^2$"
+        "6$\\mathrm{m}^2$",
+        "8$\\mathrm{m}^2$",
+        "9$\\mathrm{m}^2$",
+        "12$\\mathrm{m}^2$"
       ],
-      "reponse": "9 $\\mathrm{m}^2$",
-      "explication": "$3^{2}$=9 $\\mathrm{m}^2$",
+      "reponse": "9$\\mathrm{m}^2$",
+      "explication": "$3^{2}$=9$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -355,13 +355,13 @@
       "chrono": 20,
       "enonce": "Aire triangle base=14cm, h=6cm",
       "choix": [
-        "38 $\\mathrm{cm}^2$",
-        "42 $\\mathrm{cm}^2$",
-        "46 $\\mathrm{cm}^2$",
-        "48 $\\mathrm{cm}^2$"
+        "38$\\mathrm{cm}^2$",
+        "42$\\mathrm{cm}^2$",
+        "46$\\mathrm{cm}^2$",
+        "48$\\mathrm{cm}^2$"
       ],
-      "reponse": "42 $\\mathrm{cm}^2$",
-      "explication": "(14$\\times$6)$\\div$2=42 $\\mathrm{cm}^2$",
+      "reponse": "42$\\mathrm{cm}^2$",
+      "explication": "(14$\\times$6)$\\div$2=42$\\mathrm{cm}^2$",
       "image": null
     },
     {
@@ -378,7 +378,7 @@
         "20$\\pi c$\\mathrm{m}^2$"
       ],
       "reponse": "16$\\pi c$\\mathrm{m}^2$",
-      "explication": "r=4, $\\pi \\times 4^{2}$=16$\\pi c$\\mathrm{m}^2$",
+      "explication": "r=4,$\\pi \\times 4^{2}$=16$\\pi c$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Périmètre carré d'aire 49 $\\mathrm{cm}^2$",
+      "enonce": "Périmètre carré d'aire 49$\\mathrm{cm}^2$",
       "choix": [
         "24 cm",
         "26 cm",
@@ -406,13 +406,13 @@
       "chrono": 20,
       "enonce": "Aire carré de périmètre 36 m",
       "choix": [
-        "64 $\\mathrm{m}^2$",
-        "81 $\\mathrm{m}^2$",
-        "100 $\\mathrm{m}^2$",
-        "121 $\\mathrm{m}^2$"
+        "64$\\mathrm{m}^2$",
+        "81$\\mathrm{m}^2$",
+        "100$\\mathrm{m}^2$",
+        "121$\\mathrm{m}^2$"
       ],
-      "reponse": "81 $\\mathrm{m}^2$",
-      "explication": "côté=9, $9^{2}$=81 $\\mathrm{m}^2$",
+      "reponse": "81$\\mathrm{m}^2$",
+      "explication": "côté=9,$9^{2}$=81$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -423,13 +423,13 @@
       "chrono": 20,
       "enonce": "Longueur cercle rayon 3 m (exacte)",
       "choix": [
-        "3$\\pi$ m",
-        "5$\\pi$ m",
-        "6$\\pi$ m",
-        "9$\\pi$ m"
+        "3$\\pi$m",
+        "5$\\pi$m",
+        "6$\\pi$m",
+        "9$\\pi$m"
       ],
-      "reponse": "6$\\pi$ m",
-      "explication": "2$\\pi\\times$3=6$\\pi$ m",
+      "reponse": "6$\\pi$m",
+      "explication": "2$\\pi\\times$3=6$\\pi$m",
       "image": null
     },
     {
@@ -440,13 +440,13 @@
       "chrono": 20,
       "enonce": "Aire rectangle L=100m, l=25m",
       "choix": [
-        "2000 $\\mathrm{m}^2$",
-        "2500 $\\mathrm{m}^2$",
-        "3000 $\\mathrm{m}^2$",
-        "3500 $\\mathrm{m}^2$"
+        "2000$\\mathrm{m}^2$",
+        "2500$\\mathrm{m}^2$",
+        "3000$\\mathrm{m}^2$",
+        "3500$\\mathrm{m}^2$"
       ],
-      "reponse": "2500 $\\mathrm{m}^2$",
-      "explication": "100$\\times$25=2500 $\\mathrm{m}^2$",
+      "reponse": "2500$\\mathrm{m}^2$",
+      "explication": "100$\\times$25=2500$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -491,13 +491,13 @@
       "chrono": 20,
       "enonce": "Aire triangle base=5cm, h=12cm",
       "choix": [
-        "28 $\\mathrm{cm}^2$",
-        "30 $\\mathrm{cm}^2$",
-        "32 $\\mathrm{cm}^2$",
-        "34 $\\mathrm{cm}^2$"
+        "28$\\mathrm{cm}^2$",
+        "30$\\mathrm{cm}^2$",
+        "32$\\mathrm{cm}^2$",
+        "34$\\mathrm{cm}^2$"
       ],
-      "reponse": "30 $\\mathrm{cm}^2$",
-      "explication": "(5$\\times$12)$\\div$2=30 $\\mathrm{cm}^2$",
+      "reponse": "30$\\mathrm{cm}^2$",
+      "explication": "(5$\\times$12)$\\div$2=30$\\mathrm{cm}^2$",
       "image": null
     },
     {

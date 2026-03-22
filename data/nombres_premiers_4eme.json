@@ -12,7 +12,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "15 = 3 $\\times$ 5. Quelles affirmations sont vraies ?",
+      "enonce": "15 = 3$\\times$5. Quelles affirmations sont vraies ?",
       "image": null,
       "choix": [
         "15 est un multiple de 3 seulement",
@@ -60,7 +60,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Quel entier k vérifie 36 = 4 $\\times$ k ?",
+      "enonce": "Quel entier k vérifie 36 = 4$\\times$k ?",
       "image": null,
       "choix": [
         "8",
@@ -69,7 +69,7 @@
         "40"
       ],
       "reponse": "9",
-      "explication": "36 = 4 $\\times$ 9."
+      "explication": "36 = 4$\\times$9."
     },
     {
       "id": "prem4_n1_005",
@@ -85,14 +85,14 @@
         "Oui, car 48 est pair"
       ],
       "reponse": "Oui, car 48=6$\\times$8",
-      "explication": "48 = 6 $\\times$ 8 → oui, multiple de 6."
+      "explication": "48 = 6$\\times$8 → oui, multiple de 6."
     },
     {
       "id": "prem4_n1_006",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Avec 15 = 3 $\\times$ 5, quelle affirmation est correcte sur les notions de multiple et diviseur ?",
+      "enonce": "Avec 15 = 3$\\times$5, quelle affirmation est correcte sur les notions de multiple et diviseur ?",
       "image": null,
       "choix": [
         "15 est un diviseur de 3",
@@ -117,7 +117,7 @@
         "5 seulement"
       ],
       "reponse": "2 et 3",
-      "explication": "276 : finit par 6 → $\\div$2 ✓. Somme 2+7+6=15, multiple de 3 → $\\div$3 ✓. 15 pas multiple de 9 ✗."
+      "explication": "276 : finit par 6 →$\\div$2 ✓. Somme 2+7+6=15, multiple de 3 →$\\div$3 ✓. 15 pas multiple de 9 ✗."
     },
     {
       "id": "prem4_n1_008",
@@ -181,7 +181,7 @@
         "Non divisible par aucun des trois"
       ],
       "reponse": "Divisible par 2, 5 et 3",
-      "explication": "$\\div$2 : finit par 0 ✓. $\\div$5 : finit par 0 ✓. $\\div$3 : 4+5+6+0=15, multiple de 3 ✓."
+      "explication": "$\\div$2 : finit par 0 ✓.$\\div$5 : finit par 0 ✓.$\\div$3 : 4+5+6+0=15, multiple de 3 ✓."
     },
     {
       "id": "prem4_n1_012",
@@ -348,7 +348,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "97 est-il premier ? (Teste $\\div$2, $\\div$3, $\\div$5, $\\div$7.)",
+      "enonce": "97 est-il premier ? (Teste$\\div$2,$\\div$3,$\\div$5,$\\div$7.)",
       "image": null,
       "choix": [
         "Non, car 97$\\div$7 est entier",
@@ -357,7 +357,7 @@
         "Non, car 97 finit par 7"
       ],
       "reponse": "Oui, aucun de 2, 3, 5, 7 ne le divise",
-      "explication": "Impair, somme=16 (pas $\\div$3), ne finit pas par $\\frac{0}{5}$, 97$\\div$7$\\approx$13,8 → 97 est premier ✓."
+      "explication": "Impair, somme=16 (pas$\\div$3), ne finit pas par$\\frac{0}{5}$, 97$\\div$7$\\approx$13,8 → 97 est premier ✓."
     },
     {
       "id": "prem4_n1_023",
@@ -444,7 +444,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "588 = $2^{2}\\times$ 3 $\\times7^{2}$. Comment écrit-on cette décomposition avec des puissances ? Lis l'arbre.",
+      "enonce": "588 =$2^{2}\\times$3$\\times7^{2}$. Comment écrit-on cette décomposition avec des puissances ? Lis l'arbre.",
       "image": "premiers/734afd7accde0b16aa3cd1e88803ef146a466d57.png",
       "choix": [
         "2$\\times$3$\\times$7",
@@ -533,30 +533,30 @@
         "On multiplie par le même nombre en haut et en bas"
       ],
       "reponse": "On décompose numérateur et dénominateur, puis on supprime les facteurs communs",
-      "explication": "On décompose numérateur et dénominateur, puis on supprime les facteurs communs. Ex : $\\frac{120}{84}$=($2^{3}\\times$3$\\times$5)/($2^{2}\\times$3$\\times$7)=(2$\\times$5)/7=$\\frac{10}{7}$."
+      "explication": "On décompose numérateur et dénominateur, puis on supprime les facteurs communs. Ex :$\\frac{120}{84}$=($2^{3}\\times$3$\\times$5)/($2^{2}\\times$3$\\times$7)=(2$\\times$5)/7=$\\frac{10}{7}$."
     },
     {
       "id": "prem4_n1_034",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans la simplification de $\\frac{120}{84}$, quels facteurs ont été supprimés ?",
+      "enonce": "Dans la simplification de$\\frac{120}{84}$, quels facteurs ont été supprimés ?",
       "image": "premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
       "choix": [
         "2 et 3",
-        "$2^{2}$ et 3",
-        "$2^{3}$ et 7",
+        "$2^{2}$et 3",
+        "$2^{3}$et 7",
         "3 et 5"
       ],
-      "reponse": "$2^{2}$ et 3",
-      "explication": "On a simplifié par $2^{2}\\times$3=12. Il reste 2$\\times\\frac{5}{7}=\\frac{10}{7}$."
+      "reponse": "$2^{2}$et 3",
+      "explication": "On a simplifié par$2^{2}\\times$3=12. Il reste 2$\\times\\frac{5}{7}=\\frac{10}{7}$."
     },
     {
       "id": "prem4_n1_035",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{36}{48}$. Quel est le résultat ?",
+      "enonce": "Simplifie$\\frac{36}{48}$. Quel est le résultat ?",
       "image": "premiers/4b7050c13d8482f769e124888fa641af7eebb7dc.png",
       "choix": [
         "$\\frac{2}{3}$",
@@ -565,14 +565,14 @@
         "$\\frac{5}{6}$"
       ],
       "reponse": "$\\frac{3}{4}$",
-      "explication": "36=$2^{2} \\times 3^{2}$, 48=$2^{4}\\times$3. Commun : $2^{2}\\times$3=12. $\\frac{36}{48}=\\frac{3}{4}$."
+      "explication": "36=$2^{2} \\times 3^{2}$, 48=$2^{4}\\times$3. Commun :$2^{2}\\times$3=12.$\\frac{36}{48}=\\frac{3}{4}$."
     },
     {
       "id": "prem4_n1_036",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "$\\frac{5}{7}$ est-elle irréductible ?",
+      "enonce": "$\\frac{5}{7}$est-elle irréductible ?",
       "image": null,
       "choix": [
         "Non, on peut diviser par 5",
@@ -597,14 +597,14 @@
         "$\\frac{8}{12}$"
       ],
       "reponse": "$\\frac{5}{7}$",
-      "explication": "5 et 7 premiers entre eux → $\\frac{5}{7}$ irréductible."
+      "explication": "5 et 7 premiers entre eux →$\\frac{5}{7}$irréductible."
     },
     {
       "id": "prem4_n1_038",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{18}{24}$.",
+      "enonce": "Simplifie$\\frac{18}{24}$.",
       "image": null,
       "choix": [
         "$\\frac{2}{3}$",
@@ -613,7 +613,7 @@
         "$\\frac{5}{6}$"
       ],
       "reponse": "$\\frac{3}{4}$",
-      "explication": "18=2$\\times3^{2}$, 24=$2^{3}\\times$3. PGCD=2$\\times$3=6. $\\frac{18}{24}=\\frac{3}{4}$."
+      "explication": "18=2$\\times3^{2}$, 24=$2^{3}\\times$3. PGCD=2$\\times$3=6.$\\frac{18}{24}=\\frac{3}{4}$."
     },
     {
       "id": "prem4_n1_039",
@@ -661,7 +661,7 @@
         "Ni par 4 ni par 9"
       ],
       "reponse": "Divisible par 4 et par 9",
-      "explication": "$\\div$4 : 76=4$\\times$19 ✓. $\\div$9 : 2+3+7+6=18=9$\\times$2 ✓."
+      "explication": "$\\div$4 : 76=4$\\times$19 ✓.$\\div$9 : 2+3+7+6=18=9$\\times$2 ✓."
     },
     {
       "id": "prem4_n2_002",
@@ -693,7 +693,7 @@
         "On ne peut pas savoir"
       ],
       "reponse": "Non, car il finit par 5 (impair)",
-      "explication": "$\\div$2 : non (impair). $\\div$9 : si 3+x+5=9, x=1 → 315 est possible divisible par 9."
+      "explication": "$\\div$2 : non (impair).$\\div$9 : si 3+x+5=9, x=1 → 315 est possible divisible par 9."
     },
     {
       "id": "prem4_n2_004",
@@ -844,7 +844,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule $2^{2}\\times$3$\\times5^{2}$ sans calculatrice.",
+      "enonce": "Calcule$2^{2}\\times$3$\\times5^{2}$sans calculatrice.",
       "image": null,
       "choix": [
         "200",
@@ -882,7 +882,7 @@
         "Non, car 14 et 25 ont 7 comme diviseur commun",
         "Non, car 14 est pair",
         "Oui, leur seul diviseur commun est 1",
-        "Non, car 25=$5^{2}$ et 14=2$\\times$7"
+        "Non, car 25=$5^{2}$et 14=2$\\times$7"
       ],
       "reponse": "Oui, leur seul diviseur commun est 1",
       "explication": "Div(14)={1,2,7,14}, Div(25)={1,5,25}. Seul commun : 1 → oui ✓."
@@ -892,7 +892,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{120}{84}$ avec les facteurs premiers. Quel est le résultat ?",
+      "enonce": "Simplifie$\\frac{120}{84}$avec les facteurs premiers. Quel est le résultat ?",
       "image": "premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
       "choix": [
         "$\\frac{5}{3}$",
@@ -901,14 +901,14 @@
         "$\\frac{15}{7}$"
       ],
       "reponse": "$\\frac{10}{7}$",
-      "explication": "120=$2^{3}\\times$3$\\times$5, 84=$2^{2}\\times$3$\\times$7. PGCD=$2^{2}\\times$3=12. $\\frac{120}{84}$=(2$\\times$5)/7=$\\frac{10}{7}$."
+      "explication": "120=$2^{3}\\times$3$\\times$5, 84=$2^{2}\\times$3$\\times$7. PGCD=$2^{2}\\times$3=12.$\\frac{120}{84}$=(2$\\times$5)/7=$\\frac{10}{7}$."
     },
     {
       "id": "prem4_n2_017",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{60}{84}$.",
+      "enonce": "Simplifie$\\frac{60}{84}$.",
       "image": "premiers/76ac89e055fa410c194035c66f7f21b5d259ac6a.png",
       "choix": [
         "$\\frac{3}{5}$",
@@ -917,14 +917,14 @@
         "$\\frac{5}{6}$"
       ],
       "reponse": "$\\frac{5}{7}$",
-      "explication": "60=$2^{2}\\times$3$\\times$5, 84=$2^{2}\\times$3$\\times$7. PGCD=$2^{2}\\times$3=12. $\\frac{60}{84}=\\frac{5}{7}$."
+      "explication": "60=$2^{2}\\times$3$\\times$5, 84=$2^{2}\\times$3$\\times$7. PGCD=$2^{2}\\times$3=12.$\\frac{60}{84}=\\frac{5}{7}$."
     },
     {
       "id": "prem4_n2_018",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{126}{90}$.",
+      "enonce": "Simplifie$\\frac{126}{90}$.",
       "image": null,
       "choix": [
         "$\\frac{5}{7}$",
@@ -933,20 +933,20 @@
         "$\\frac{7}{6}$"
       ],
       "reponse": "$\\frac{7}{5}$",
-      "explication": "126=2$\\times3^{2}\\times$7, 90=2$\\times3^{2}\\times$5. PGCD=18. $\\frac{126}{90}=\\frac{7}{5}$."
+      "explication": "126=2$\\times3^{2}\\times$7, 90=2$\\times3^{2}\\times$5. PGCD=18.$\\frac{126}{90}=\\frac{7}{5}$."
     },
     {
       "id": "prem4_n2_019",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "$\\frac{15}{22}$ est-elle irréductible ?",
+      "enonce": "$\\frac{15}{22}$est-elle irréductible ?",
       "image": null,
       "choix": [
-        "Non, $\\div$3 possible",
+        "Non,$\\div$3 possible",
         "Oui, PGCD(15,22)=1",
-        "Non, $\\div$2 possible",
-        "Non, $\\div$5 possible"
+        "Non,$\\div$2 possible",
+        "Non,$\\div$5 possible"
       ],
       "reponse": "Oui, PGCD(15,22)=1",
       "explication": "15=3$\\times$5, 22=2$\\times$11. Aucun facteur commun → irréductible ✓."
@@ -1004,7 +1004,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{2310}{1155}$.",
+      "enonce": "Simplifie$\\frac{2310}{1155}$.",
       "image": null,
       "choix": [
         "$\\frac{1}{2}$",
@@ -1013,14 +1013,14 @@
         "$\\frac{7}{5}$"
       ],
       "reponse": "2",
-      "explication": "2310=2$\\times$3$\\times$5$\\times$7$\\times$11, 1155=3$\\times$5$\\times$7$\\times$11. PGCD=1155. $\\frac{2310}{1155}$=2."
+      "explication": "2310=2$\\times$3$\\times$5$\\times$7$\\times$11, 1155=3$\\times$5$\\times$7$\\times$11. PGCD=1155.$\\frac{2310}{1155}$=2."
     },
     {
       "id": "prem4_n2_024",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{180}{252}$.",
+      "enonce": "Simplifie$\\frac{180}{252}$.",
       "image": null,
       "choix": [
         "$\\frac{3}{5}$",
@@ -1029,7 +1029,7 @@
         "$\\frac{5}{6}$"
       ],
       "reponse": "$\\frac{5}{7}$",
-      "explication": "180=$2^{2} \\times 3^{2}\\times$5, 252=$2^{2} \\times 3^{2}\\times$7. PGCD=36. $\\frac{180}{252}=\\frac{5}{7}$."
+      "explication": "180=$2^{2} \\times 3^{2}\\times$5, 252=$2^{2} \\times 3^{2}\\times$7. PGCD=36.$\\frac{180}{252}=\\frac{5}{7}$."
     },
     {
       "id": "prem4_n2_025",
@@ -1071,7 +1071,7 @@
       "enonce": "Un nombre est divisible par 4 et par 9. Est-il forcément divisible par 36 ?",
       "image": null,
       "choix": [
-        "Non, car 4+9=13 $\\neq$ 36",
+        "Non, car 4+9=13$\\neq$36",
         "Oui, car PGCD(4,9)=1, donc il est divisible par 4$\\times$9=36",
         "Non, ce n'est pas garanti",
         "Oui, seulement si le nombre est pair"
@@ -1084,7 +1084,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Quel est le PGCD de $2^{2} \\times 3^{3}\\times$5 et $2^{3}\\times$3$\\times5^{2}$ ?",
+      "enonce": "Quel est le PGCD de$2^{2} \\times 3^{3}\\times$5 et$2^{3}\\times$3$\\times5^{2}$?",
       "image": null,
       "choix": [
         "2$\\times$3$\\times$5=30",
@@ -1093,7 +1093,7 @@
         "$2^{3} \\times 3^{3}\\times5^{2}$"
       ],
       "reponse": "$2^{2}\\times$3$\\times$5=60",
-      "explication": "PGCD = prendre le minimum des exposants : $2^{2}\\times$3$\\times$5=60."
+      "explication": "PGCD = prendre le minimum des exposants :$2^{2}\\times$3$\\times$5=60."
     },
     {
       "id": "prem4_n2_029",
@@ -1125,7 +1125,7 @@
         "3 et 4 : non. 4 et 6 : non."
       ],
       "reponse": "3 et 4 : oui. 4 et 6 : non (PGCD=2).",
-      "explication": "Div(3)∩Div(4)={1} → premiers entre eux. Div(4)∩Div(6)={1,2} → PGCD=2 $\\neq$ 1 → pas premiers entre eux."
+      "explication": "Div(3)∩Div(4)={1} → premiers entre eux. Div(4)∩Div(6)={1,2} → PGCD=2$\\neq$1 → pas premiers entre eux."
     },
     {
       "id": "prem4_n3_001",
@@ -1228,7 +1228,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "1023 = $2^{10}$ − 1. Est-il premier ?",
+      "enonce": "1023 =$2^{10}$− 1. Est-il premier ?",
       "image": null,
       "choix": [
         "Oui, car c'est une puissance de 2 moins 1",
@@ -1244,7 +1244,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Simplifie $\\frac{2310}{2730}$ en fraction irréductible.",
+      "enonce": "Simplifie$\\frac{2310}{2730}$en fraction irréductible.",
       "image": null,
       "choix": [
         "$\\frac{7}{9}$",
@@ -1253,7 +1253,7 @@
         "$\\frac{13}{15}$"
       ],
       "reponse": "$\\frac{11}{13}$",
-      "explication": "2310=2$\\times$3$\\times$5$\\times$7$\\times$11, 2730=2$\\times$3$\\times$5$\\times$7$\\times$13. PGCD=210. $\\frac{2310}{2730}=\\frac{11}{13}$."
+      "explication": "2310=2$\\times$3$\\times$5$\\times$7$\\times$11, 2730=2$\\times$3$\\times$5$\\times$7$\\times$13. PGCD=210.$\\frac{2310}{2730}=\\frac{11}{13}$."
     },
     {
       "id": "prem4_n3_009",
@@ -1279,12 +1279,12 @@
       "enonce": "Simplifie ($2^{2} \\times 3^{4}\\times$5)/($2^{3} \\times 3^{2}\\times$7).",
       "image": null,
       "choix": [
-        "$3^{2}\\times$5/(2$\\times$7) = $\\frac{45}{14}$",
-        "2$\\times3^{2}$/(5$\\times$7) = $\\frac{18}{35}$",
-        "$3^{4}$/(2$\\times$5$\\times$7) = $\\frac{81}{70}$",
-        "5/(2$\\times$7) = $\\frac{5}{14}$"
+        "$3^{2}\\times$5/(2$\\times$7) =$\\frac{45}{14}$",
+        "2$\\times3^{2}$/(5$\\times$7) =$\\frac{18}{35}$",
+        "$3^{4}$/(2$\\times$5$\\times$7) =$\\frac{81}{70}$",
+        "5/(2$\\times$7) =$\\frac{5}{14}$"
       ],
-      "reponse": "$3^{2}\\times$5/(2$\\times$7) = $\\frac{45}{14}$",
+      "reponse": "$3^{2}\\times$5/(2$\\times$7) =$\\frac{45}{14}$",
       "explication": "PGCD=$2^{2} \\times 3^{2}$=36. Résultat=($3^{2}\\times$5)/(2$\\times$7)=$\\frac{45}{14}$."
     },
     {
@@ -1301,14 +1301,14 @@
         "420"
       ],
       "reponse": "360",
-      "explication": "360 : $\\div$2 (finit par 0) ✓, $\\div$5 (finit par 0) ✓, $\\div$3 (3+6+0=9) ✓."
+      "explication": "360 :$\\div$2 (finit par 0) ✓,$\\div$5 (finit par 0) ✓,$\\div$3 (3+6+0=9) ✓."
     },
     {
       "id": "prem4_n3_012",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Combien de diviseurs possède $2^{2}\\times$3$\\times5^{2}$ ?",
+      "enonce": "Combien de diviseurs possède$2^{2}\\times$3$\\times5^{2}$?",
       "image": null,
       "choix": [
         "12",
@@ -1349,7 +1349,7 @@
         "Car (n+1) est toujours pair"
       ],
       "reponse": "Car parmi 3 entiers consécutifs, l'un est divisible par 2 et l'un par 3, donc le produit est divisible par 6",
-      "explication": "Parmi 3 entiers consécutifs, l'un est $\\div$2 et l'un est $\\div$3. Produit divisible par 2$\\times$3=6. CQFD."
+      "explication": "Parmi 3 entiers consécutifs, l'un est$\\div$2 et l'un est$\\div$3. Produit divisible par 2$\\times$3=6. CQFD."
     },
     {
       "id": "prem4_n3_015",
@@ -1377,11 +1377,11 @@
       "choix": [
         "Non, car 31 est impair",
         "Non, car 3+1=4 est multiple de 2",
-        "Oui, 31 est premier (aucun diviseur jusqu'à $\\sqrt{31}\\approx$5,6)",
+        "Oui, 31 est premier (aucun diviseur jusqu'à$\\sqrt{31}\\approx$5,6)",
         "Non, car 31$\\div$7 est entier"
       ],
-      "reponse": "Oui, 31 est premier (aucun diviseur jusqu'à $\\sqrt{31}\\approx$5,6)",
-      "explication": "31 impair, 3+1=4 (pas $\\div$3), ne finit pas par $\\frac{0}{5}$, 31$\\div$7$\\approx$4,4. $\\sqrt{31}\\approx$5,6 → testé jusqu'à 5. 31 est premier ✓."
+      "reponse": "Oui, 31 est premier (aucun diviseur jusqu'à$\\sqrt{31}\\approx$5,6)",
+      "explication": "31 impair, 3+1=4 (pas$\\div$3), ne finit pas par$\\frac{0}{5}$, 31$\\div$7$\\approx$4,4.$\\sqrt{31}\\approx$5,6 → testé jusqu'à 5. 31 est premier ✓."
     },
     {
       "id": "prem4_n3_017",
@@ -1429,7 +1429,7 @@
         "p=30"
       ],
       "reponse": "p=30",
-      "explication": "$n^{2}$=30p doit être un carré parfait. 30p=2$\\times$3$\\times$5$\\times$p. Pour avoir des exposants pairs : p=2$\\times$3$\\times$5=30. $n^{2}$=900 → n=30."
+      "explication": "$n^{2}$=30p doit être un carré parfait. 30p=2$\\times$3$\\times$5$\\times$p. Pour avoir des exposants pairs : p=2$\\times$3$\\times$5=30.$n^{2}$=900 → n=30."
     },
     {
       "id": "prem4_n3_020",
@@ -1440,12 +1440,12 @@
       "image": null,
       "choix": [
         "Car on peut toujours décomposer un nombre en facteurs premiers",
-        "Si on suppose une liste finie de premiers p₁,...,pₙ, le nombre N=p₁$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
+        "Si on suppose une liste finie de premiers$p_{1}$,...,pₙ, le nombre N=$p_{1}$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
         "Car la suite des premiers est croissante",
         "Car tout nombre impair est premier"
       ],
-      "reponse": "Si on suppose une liste finie de premiers p₁,...,pₙ, le nombre N=p₁$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
-      "explication": "Suppose p₁,...,pₙ tous les premiers. Pose N=p₁$\\times$...$\\times$pₙ+1. N n'est divisible par aucun pᵢ (reste 1). Donc N est premier ou a un facteur premier hors de la liste → contradiction. Il y a une infinité de premiers. CQFD."
+      "reponse": "Si on suppose une liste finie de premiers$p_{1}$,...,pₙ, le nombre N=$p_{1}$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
+      "explication": "Suppose$p_{1}$,...,pₙ tous les premiers. Pose N=$p_{1}$\\times$...$\\times$pₙ+1. N n'est divisible par aucun pᵢ (reste 1). Donc N est premier ou a un facteur premier hors de la liste → contradiction. Il y a une infinité de premiers. CQFD."
     }
   ]
 }

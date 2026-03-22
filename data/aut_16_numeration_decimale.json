@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{7}{10}$ + $\\frac{3}{100}$ + $\\frac{5}{1000}$ = ?",
+      "enonce": "$\\frac{7}{10}$+$\\frac{3}{100}$+$\\frac{5}{1000}$= ?",
       "choix": [
         "0,735",
         "0,753",
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{134}{1000}$ en décimal ?",
+      "enonce": "$\\frac{134}{1000}$en décimal ?",
       "choix": [
         "0,0134",
         "0,134",
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{9}{100}$ en décimal ?",
+      "enonce": "$\\frac{9}{100}$en décimal ?",
       "choix": [
         "0,009",
         "0,09",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2 + $\\frac{3}{10}$ + $\\frac{7}{100}$ = ?",
+      "enonce": "2 +$\\frac{3}{10}$+$\\frac{7}{100}$= ?",
       "choix": [
         "2,307",
         "2,37",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "40 + $\\frac{9}{10}$ + $\\frac{2}{100}$ = ?",
+      "enonce": "40 +$\\frac{9}{10}$+$\\frac{2}{100}$= ?",
       "choix": [
         "40,92",
         "40,29",
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3 + $\\frac{5}{1000}$ = ?",
+      "enonce": "3 +$\\frac{5}{1000}$= ?",
       "choix": [
         "3,005",
         "3,05",

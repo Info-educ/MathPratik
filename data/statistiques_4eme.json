@@ -21,7 +21,7 @@
         "La différence entre le max et le min"
       ],
       "reponse": "Le quotient de la somme des données par l'effectif total",
-      "explication": "Moyenne = somme des données $\\div$ effectif total.",
+      "explication": "Moyenne = somme des données$\\div$effectif total.",
       "image": null
     },
     {
@@ -39,7 +39,7 @@
         "7,900 m"
       ],
       "reponse": "7,818 m",
-      "explication": "m = (7,65 + 7,72 + 7,99 + 7,85 + 7,88) $\\div$ 5 = 39,09 $\\div$ 5 = 7,818 m."
+      "explication": "m = (7,65 + 7,72 + 7,99 + 7,85 + 7,88)$\\div$5 = 39,09$\\div$5 = 7,818 m."
     },
     {
       "id": "s4_n1_003",
@@ -56,7 +56,7 @@
         "15,2 °C"
       ],
       "reponse": "13,6 °C",
-      "explication": "m = (12+15+11+9+14+18+16) $\\div$ 7 = 95 $\\div$ 7 $\\approx$ 13,6 °C."
+      "explication": "m = (12+15+11+9+14+18+16)$\\div$7 = 95$\\div$7$\\approx$13,6 °C."
     },
     {
       "id": "s4_n1_004",
@@ -73,7 +73,7 @@
         "14"
       ],
       "reponse": "12",
-      "explication": "m = (12+14+8+16+10) $\\div$ 5 = 60 $\\div$ 5 = 12."
+      "explication": "m = (12+14+8+16+10)$\\div$5 = 60$\\div$5 = 12."
     },
     {
       "id": "s4_n1_005",
@@ -90,7 +90,7 @@
         "55 000 habitants"
       ],
       "reponse": "50 000 habitants",
-      "explication": "m = 250 000 $\\div$ 5 = 50 000 habitants."
+      "explication": "m = 250 000$\\div$5 = 50 000 habitants."
     },
     {
       "id": "s4_n1_006",
@@ -107,7 +107,7 @@
         "6,5"
       ],
       "reponse": "7",
-      "explication": "(4+6+8+10) $\\div$ 4 = 28 $\\div$ 4 = 7."
+      "explication": "(4+6+8+10)$\\div$4 = 28$\\div$4 = 7."
     },
     {
       "id": "s4_n1_007",
@@ -124,7 +124,7 @@
         "70"
       ],
       "reponse": "65",
-      "explication": "Somme = moyenne $\\times$ effectif = 13 $\\times$ 5 = 65."
+      "explication": "Somme = moyenne$\\times$effectif = 13$\\times$5 = 65."
     },
     {
       "id": "s4_n1_008",
@@ -379,7 +379,7 @@
         "2,2"
       ],
       "reponse": "1,8",
-      "explication": "m = (1$\\times$4525 + 2$\\times$3551 + 3$\\times$1364 + 4$\\times$413 + 5$\\times$102 + 6$\\times$45) $\\div$ 10000 = 18151 $\\div$ 10000 $\\approx$ 1,8."
+      "explication": "m = (1$\\times$4525 + 2$\\times$3551 + 3$\\times$1364 + 4$\\times$413 + 5$\\times$102 + 6$\\times$45)$\\div$10000 = 18151$\\div$10000$\\approx$1,8."
     },
     {
       "id": "s4_n1_023",
@@ -396,7 +396,7 @@
         "14,0"
       ],
       "reponse": "13,2",
-      "explication": "m = (12$\\times$2 + 15$\\times$3 + 10$\\times$1) $\\div$ (2+3+1) = (24+45+10) $\\div$ 6 = 79 $\\div$ 6 $\\approx$ 13,2."
+      "explication": "m = (12$\\times$2 + 15$\\times$3 + 10$\\times$1)$\\div$(2+3+1) = (24+45+10)$\\div$6 = 79$\\div$6$\\approx$13,2."
     },
     {
       "id": "s4_n1_024",
@@ -413,7 +413,7 @@
         "14"
       ],
       "reponse": "13",
-      "explication": "m = (8$\\times$1 + 11$\\times$2 + 14$\\times$3 + 16$\\times$2) $\\div$ (1+2+3+2) = (8+22+42+32) $\\div$ 8 = 104 $\\div$ 8 = 13."
+      "explication": "m = (8$\\times$1 + 11$\\times$2 + 14$\\times$3 + 16$\\times$2)$\\div$(1+2+3+2) = (8+22+42+32)$\\div$8 = 104$\\div$8 = 13."
     },
     {
       "id": "s4_n1_025",
@@ -464,7 +464,7 @@
         "7"
       ],
       "reponse": "5",
-      "explication": "20 $\\div$ 4 = 5."
+      "explication": "20$\\div$4 = 5."
     },
     {
       "id": "s4_n1_028",
@@ -515,7 +515,7 @@
         "7"
       ],
       "reponse": "5",
-      "explication": "Effectif pair : (4+6) $\\div$ 2 = 5."
+      "explication": "Effectif pair : (4+6)$\\div$2 = 5."
     },
     {
       "id": "s4_n1_031",
@@ -532,7 +532,7 @@
         "12,0"
       ],
       "reponse": "11,3",
-      "explication": "Ordonnée : 8, 9, 10, 11, 12, 14, 15. Moyenne = (10+12+8+14+11+15+9) $\\div$ 7 = 79 $\\div$ 7 $\\approx$ 11,3."
+      "explication": "Ordonnée : 8, 9, 10, 11, 12, 14, 15. Moyenne = (10+12+8+14+11+15+9)$\\div$7 = 79$\\div$7$\\approx$11,3."
     },
     {
       "id": "s4_n1_031b",
@@ -659,7 +659,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "La somme des angles d'un diagramme circulaire est $360°$. Si une catégorie représente 25%, quel est son angle ?",
+      "enonce": "La somme des angles d'un diagramme circulaire est$360°$. Si une catégorie représente 25%, quel est son angle ?",
       "image": null,
       "choix": [
         "$25°$",
@@ -668,7 +668,7 @@
         "$180°$"
       ],
       "reponse": "$90°$",
-      "explication": "25% $\\times360°$ = $90°$."
+      "explication": "25%$\\times360°$=$90°$."
     },
     {
       "id": "s4_n1_038",
@@ -702,7 +702,7 @@
         "210"
       ],
       "reponse": "200",
-      "explication": "m = (100+200+150+250+300) $\\div$ 5 = 1000 $\\div$ 5 = 200."
+      "explication": "m = (100+200+150+250+300)$\\div$5 = 1000$\\div$5 = 200."
     },
     {
       "id": "s4_n1_040",
@@ -736,7 +736,7 @@
         "12,0"
       ],
       "reponse": "11,1",
-      "explication": "v$\\times$e : 16, 27, 50, 66, 48, 39, 28, 15. Total eff. = 26, Σ(v$\\times$e) = 289. Moyenne = 289 $\\div$ 26 $\\approx$ 11,1."
+      "explication": "v$\\times$e : 16, 27, 50, 66, 48, 39, 28, 15. Total eff. = 26, Σ(v$\\times$e) = 289. Moyenne = 289$\\div$26$\\approx$11,1."
     },
     {
       "id": "s4_n2_001b",
@@ -804,7 +804,7 @@
         "160,$0°$"
       ],
       "reponse": "154,$7°$",
-      "explication": "Effectif classe [54;58[ = 116. Total = 270. Angle = 116 $\\div$ 270 $\\times$ 360 $\\approx$ 154,$7°$."
+      "explication": "Effectif classe [54;58[ = 116. Total = 270. Angle = 116$\\div$270$\\times$360$\\approx$154,$7°$."
     },
     {
       "id": "s4_n2_005",
@@ -815,13 +815,13 @@
       "enonce": "Sur ce diagramme circulaire des espèces animales, calcule l'angle correspondant aux Arthropodes (57%). Ce secteur est-il supérieur à un demi-disque ?",
       "image": "stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
       "choix": [
-        "175,$2°$ — Non",
-        "205,$2°$ — Oui",
-        "195,$5°$ — Oui",
-        "180,$0°$ — Non"
+        "175,$2°$— Non",
+        "205,$2°$— Oui",
+        "195,$5°$— Oui",
+        "180,$0°$— Non"
       ],
-      "reponse": "205,$2°$ — Oui",
-      "explication": "Angle = 57 $\\div$ 100 $\\times$ 360 = 205,$2°$. Oui, > $180°$ → le secteur dépasse le demi-disque."
+      "reponse": "205,$2°$— Oui",
+      "explication": "Angle = 57$\\div$100$\\times$360 = 205,$2°$. Oui, >$180°$→ le secteur dépasse le demi-disque."
     },
     {
       "id": "s4_n2_006",
@@ -838,7 +838,7 @@
         "$21°$"
       ],
       "reponse": "$18°$",
-      "explication": "Chordés : 5 $\\times$ 360 $\\div$ 100 = $18°$."
+      "explication": "Chordés : 5$\\times$360$\\div$100 =$18°$."
     },
     {
       "id": "s4_n2_006b",
@@ -855,7 +855,7 @@
         "25,$2°$"
       ],
       "reponse": "21,$6°$",
-      "explication": "Mollusques : 6 $\\times$ 360 $\\div$ 100 = 21,$6°$."
+      "explication": "Mollusques : 6$\\times$360$\\div$100 = 21,$6°$."
     },
     {
       "id": "s4_n2_006c",
@@ -872,7 +872,7 @@
         "128,$0°$"
       ],
       "reponse": "115,$2°$",
-      "explication": "Autres : 32 $\\times$ 360 $\\div$ 100 = 115,$2°$."
+      "explication": "Autres : 32$\\times$360$\\div$100 = 115,$2°$."
     },
     {
       "id": "s4_n2_007",
@@ -889,7 +889,7 @@
         "2,3"
       ],
       "reponse": "1,8",
-      "explication": "m = (1$\\times$4525 + 2$\\times$3551 + 3$\\times$1364 + 4$\\times$413 + 5$\\times$102 + 6$\\times$45) $\\div$ 10000 = 18151 $\\div$ 10000 $\\approx$ 1,8."
+      "explication": "m = (1$\\times$4525 + 2$\\times$3551 + 3$\\times$1364 + 4$\\times$413 + 5$\\times$102 + 6$\\times$45)$\\div$10000 = 18151$\\div$10000$\\approx$1,8."
     },
     {
       "id": "s4_n2_008",
@@ -940,7 +940,7 @@
         "130"
       ],
       "reponse": "120",
-      "explication": "Somme = 15 $\\times$ 8 = 120."
+      "explication": "Somme = 15$\\times$8 = 120."
     },
     {
       "id": "s4_n2_010",
@@ -991,7 +991,7 @@
         "13,1"
       ],
       "reponse": "12,6",
-      "explication": "Moyenne = 88 $\\div$ 7 $\\approx$ 12,6."
+      "explication": "Moyenne = 88$\\div$7$\\approx$12,6."
     },
     {
       "id": "s4_n2_011c",
@@ -1059,7 +1059,7 @@
         "12,0"
       ],
       "reponse": "11,2",
-      "explication": "Valeurs représentatives : 2, 6, 10, 13, 16, 19. Moy $\\approx$ (2$\\times$2 + 6$\\times$6 + 10$\\times$14 + 13$\\times$10 + 16$\\times$5 + 19$\\times$3) $\\div$ 40 = 447 $\\div$ 40 $\\approx$ 11,2."
+      "explication": "Valeurs représentatives : 2, 6, 10, 13, 16, 19. Moy$\\approx$(2$\\times$2 + 6$\\times$6 + 10$\\times$14 + 13$\\times$10 + 16$\\times$5 + 19$\\times$3)$\\div$40 = 447$\\div$40$\\approx$11,2."
     },
     {
       "id": "s4_n2_014",
@@ -1076,7 +1076,7 @@
         "18,0 °C"
       ],
       "reponse": "17,4 °C",
-      "explication": "Moyenne = 122 $\\div$ 7 $\\approx$ 17,4 °C."
+      "explication": "Moyenne = 122$\\div$7$\\approx$17,4 °C."
     },
     {
       "id": "s4_n2_014b",
@@ -1110,7 +1110,7 @@
         "1,5 livre"
       ],
       "reponse": "1,0 livre",
-      "explication": "m = (0$\\times$12 + 1$\\times$18 + 2$\\times$8 + 3$\\times$2) $\\div$ 40 = (0+18+16+6) $\\div$ 40 = 40 $\\div$ 40 = 1 livre en moyenne."
+      "explication": "m = (0$\\times$12 + 1$\\times$18 + 2$\\times$8 + 3$\\times$2)$\\div$40 = (0+18+16+6)$\\div$40 = 40$\\div$40 = 1 livre en moyenne."
     },
     {
       "id": "s4_n2_016",
@@ -1127,7 +1127,7 @@
         "12,25"
       ],
       "reponse": "12,25",
-      "explication": "Somme initiale = 360. Nouvelle somme = 360 − 8 − 10 = 342. Nouvelle moyenne = 342 $\\div$ 28 $\\approx$ 12,21. La réponse la plus proche est 12,25."
+      "explication": "Somme initiale = 360. Nouvelle somme = 360 − 8 − 10 = 342. Nouvelle moyenne = 342$\\div$28$\\approx$12,21. La réponse la plus proche est 12,25."
     },
     {
       "id": "s4_n2_017",
@@ -1144,7 +1144,7 @@
         "30 €"
       ],
       "reponse": "21 €",
-      "explication": "m = (5$\\times$10 + 3$\\times$20 + 2$\\times$50) $\\div$ 10 = (50+60+100) $\\div$ 10 = 210 $\\div$ 10 = 21 €."
+      "explication": "m = (5$\\times$10 + 3$\\times$20 + 2$\\times$50)$\\div$10 = (50+60+100)$\\div$10 = 210$\\div$10 = 21 €."
     },
     {
       "id": "s4_n2_018",
@@ -1161,7 +1161,7 @@
         "$144°$"
       ],
       "reponse": "$126°$",
-      "explication": "Football 35% → 35 $\\times$ 360 $\\div$ 100 = $126°$."
+      "explication": "Football 35% → 35$\\times$360$\\div$100 =$126°$."
     },
     {
       "id": "s4_n2_019",
@@ -1195,7 +1195,7 @@
         "14,5"
       ],
       "reponse": "14",
-      "explication": "m = (14$\\times$3 + 12$\\times$2 + 16$\\times$4 + 10$\\times$1) $\\div$ (3+2+4+1) = (42+24+64+10) $\\div$ 10 = 140 $\\div$ 10 = 14."
+      "explication": "m = (14$\\times$3 + 12$\\times$2 + 16$\\times$4 + 10$\\times$1)$\\div$(3+2+4+1) = (42+24+64+10)$\\div$10 = 140$\\div$10 = 14."
     },
     {
       "id": "s4_n2_021",
@@ -1212,7 +1212,7 @@
         "65%"
       ],
       "reponse": "60%",
-      "explication": "Classes < 58 : [50;54[ = 46 et [54;58[ = 116. Total = 162 sur 270. Proportion = 162 $\\div$ 270 = 60%."
+      "explication": "Classes < 58 : [50;54[ = 46 et [54;58[ = 116. Total = 162 sur 270. Proportion = 162$\\div$270 = 60%."
     },
     {
       "id": "s4_n2_022",
@@ -1229,7 +1229,7 @@
         "15"
       ],
       "reponse": "14",
-      "explication": "Somme = 14 $\\times$ 5 = 70. 10+12+?+16+18 = 70. ? = 70 − 56 = 14."
+      "explication": "Somme = 14$\\times$5 = 70. 10+12+?+16+18 = 70. ? = 70 − 56 = 14."
     },
     {
       "id": "s4_n2_023",
@@ -1263,7 +1263,7 @@
         "8,4 °C"
       ],
       "reponse": "7,6 °C",
-      "explication": "Moy min = (8+6+9+5+10) $\\div$ 5 = 38 $\\div$ 5 = 7,6 °C."
+      "explication": "Moy min = (8+6+9+5+10)$\\div$5 = 38$\\div$5 = 7,6 °C."
     },
     {
       "id": "s4_n2_024b",
@@ -1280,7 +1280,7 @@
         "16,8 °C"
       ],
       "reponse": "16,2 °C",
-      "explication": "Moy max = (15+18+12+20+16) $\\div$ 5 = 81 $\\div$ 5 = 16,2 °C."
+      "explication": "Moy max = (15+18+12+20+16)$\\div$5 = 81$\\div$5 = 16,2 °C."
     },
     {
       "id": "s4_n2_025",
@@ -1297,7 +1297,7 @@
         "$120°$"
       ],
       "reponse": "$90°$",
-      "explication": "25 $\\div$ 100 $\\times$ 360 = $90°$."
+      "explication": "25$\\div$100$\\times$360 =$90°$."
     },
     {
       "id": "s4_n2_026",
@@ -1305,7 +1305,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un secteur d'un diagramme circulaire mesure $72°$. Quel pourcentage représente-t-il ?",
+      "enonce": "Un secteur d'un diagramme circulaire mesure$72°$. Quel pourcentage représente-t-il ?",
       "image": null,
       "choix": [
         "15%",
@@ -1314,7 +1314,7 @@
         "25%"
       ],
       "reponse": "20%",
-      "explication": "72 $\\div$ 360 $\\times$ 100 = 20%."
+      "explication": "72$\\div$360$\\times$100 = 20%."
     },
     {
       "id": "s4_n2_027",
@@ -1348,7 +1348,7 @@
         "13,4"
       ],
       "reponse": "13,0",
-      "explication": "Somme classe 1 = 25$\\times$12,4 = 310. Somme classe 2 = 25$\\times$13,6 = 340. Moyenne = (310+340) $\\div$ 50 = 650 $\\div$ 50 = 13."
+      "explication": "Somme classe 1 = 25$\\times$12,4 = 310. Somme classe 2 = 25$\\times$13,6 = 340. Moyenne = (310+340)$\\div$50 = 650$\\div$50 = 13."
     },
     {
       "id": "s4_n2_029",
@@ -1399,7 +1399,7 @@
         "61,0 cm"
       ],
       "reponse": "57,7 cm",
-      "explication": "Valeurs centrales : 52, 56, 60, 64, 68, 72. m = (52$\\times$46 + 56$\\times$116 + 60$\\times$82 + 64$\\times$10 + 68$\\times$6 + 72$\\times$10) $\\div$ 270 = 15576 $\\div$ 270 $\\approx$ 57,7 cm."
+      "explication": "Valeurs centrales : 52, 56, 60, 64, 68, 72. m = (52$\\times$46 + 56$\\times$116 + 60$\\times$82 + 64$\\times$10 + 68$\\times$6 + 72$\\times$10)$\\div$270 = 15576$\\div$270$\\approx$57,7 cm."
     },
     {
       "id": "s4_n3_002",
@@ -1416,7 +1416,7 @@
         "Les deux restent identiques"
       ],
       "reponse": "Moyenne augmente de k, étendue reste identique",
-      "explication": "Nouvelle moyenne = (Σ(xi+k)) $\\div$ n = (Σxi + nk) $\\div$ n = m + k. Étendue = (max+k) − (min+k) = max − min. CQFD."
+      "explication": "Nouvelle moyenne = (Σ(xi+k))$\\div$n = (Σxi + nk)$\\div$n = m + k. Étendue = (max+k) − (min+k) = max − min. CQFD."
     },
     {
       "id": "s4_n3_003",
@@ -1433,7 +1433,7 @@
         "11"
       ],
       "reponse": "10",
-      "explication": "Somme = 80. Nouvelle somme = 90. Nouvelle moyenne = 90 $\\div$ 9 = 10. La moyenne ne change pas quand on ajoute la valeur égale à la moyenne !"
+      "explication": "Somme = 80. Nouvelle somme = 90. Nouvelle moyenne = 90$\\div$9 = 10. La moyenne ne change pas quand on ajoute la valeur égale à la moyenne !"
     },
     {
       "id": "s4_n3_004",
@@ -1450,7 +1450,7 @@
         "50 750 €"
       ],
       "reponse": "11 350 €",
-      "explication": "Moyenne = (9$\\times$1500 + 100000) $\\div$ 10 = 113500 $\\div$ 10 = 11 350 €."
+      "explication": "Moyenne = (9$\\times$1500 + 100000)$\\div$10 = 113500$\\div$10 = 11 350 €."
     },
     {
       "id": "s4_n3_004b",
@@ -1484,7 +1484,7 @@
         "17"
       ],
       "reponse": "16",
-      "explication": "Somme visée = 14 $\\times$ 5 = 70. Somme actuelle = 12+11+15+16 = 54. 5e note = 70 − 54 = 16."
+      "explication": "Somme visée = 14$\\times$5 = 70. Somme actuelle = 12+11+15+16 = 54. 5e note = 70 − 54 = 16."
     },
     {
       "id": "s4_n3_006",
@@ -1501,7 +1501,7 @@
         "[12;14]"
       ],
       "reponse": "[9;11]",
-      "explication": "Total = 40. Médiane entre 20e et 21e valeur. Eff. cumulés : 2 (0-4), 8 (5-8), 22 (9-11) → la 20e valeur est dans la classe [9;11]. Médiane $\\approx$ 10."
+      "explication": "Total = 40. Médiane entre 20e et 21e valeur. Eff. cumulés : 2 (0-4), 8 (5-8), 22 (9-11) → la 20e valeur est dans la classe [9;11]. Médiane$\\approx$10."
     },
     {
       "id": "s4_n3_007",
@@ -1518,7 +1518,7 @@
         "$370°$"
       ],
       "reponse": "$360°$",
-      "explication": "Chordés $18°$ + Arthropodes 205,$2°$ + Mollusques 21,$6°$ + Autres 115,$2°$ = $360°$ ✓."
+      "explication": "Chordés$18°$+ Arthropodes 205,$2°$+ Mollusques 21,$6°$+ Autres 115,$2°$=$360°$✓."
     },
     {
       "id": "s4_n3_008",
@@ -1535,7 +1535,7 @@
         "2, 6, 10, 18, 20"
       ],
       "reponse": "8, 9, 10, 11, 12",
-      "explication": "8+9+10+11+12 = 50. Moyenne = 50 $\\div$ 5 = 10. Et la médiane (3e valeur) = 10 ✓."
+      "explication": "8+9+10+11+12 = 50. Moyenne = 50$\\div$5 = 10. Et la médiane (3e valeur) = 10 ✓."
     },
     {
       "id": "s4_n3_009",
@@ -1548,11 +1548,11 @@
       "choix": [
         "(nm + max) / (n+1)",
         "(nm − max) / (n−1)",
-        "(nm $\\times$ max) / n",
+        "(nm$\\times$max) / n",
         "nm / (n−1)"
       ],
       "reponse": "(nm − max) / (n−1)",
-      "explication": "Somme initiale = nm. Après suppression : somme = nm − max. Effectif = n−1. Nouvelle moyenne = (nm − max) $\\div$ (n−1). CQFD."
+      "explication": "Somme initiale = nm. Après suppression : somme = nm − max. Effectif = n−1. Nouvelle moyenne = (nm − max)$\\div$(n−1). CQFD."
     },
     {
       "id": "s4_n3_010",
@@ -1569,7 +1569,7 @@
         "11,0"
       ],
       "reponse": "10,5",
-      "explication": "Σ1 = 30$\\times$11,5 = 345. Σ2 = 20$\\times$9 = 180. Total = 525. Moyenne = 525 $\\div$ 50 = 10,5."
+      "explication": "Σ1 = 30$\\times$11,5 = 345. Σ2 = 20$\\times$9 = 180. Total = 525. Moyenne = 525$\\div$50 = 10,5."
     },
     {
       "id": "s4_n3_011",
@@ -1603,7 +1603,7 @@
         "80,0 km/h"
       ],
       "reponse": "66,7 km/h",
-      "explication": "Temps 1 = 100$\\div$50 = 2 h. Temps 2 = 100$\\div$100 = 1 h. Total = 200 km en 3 h. V_moy = 200$\\div$3 $\\approx$ 66,7 km/h ($\\neq$ 75 km/h, la moyenne arithmétique est fausse ici !)."
+      "explication": "Temps 1 = 100$\\div$50 = 2 h. Temps 2 = 100$\\div$100 = 1 h. Total = 200 km en 3 h. V_moy = 200$\\div$3$\\approx$66,7 km/h ($\\neq$75 km/h, la moyenne arithmétique est fausse ici !)."
     },
     {
       "id": "s4_n3_013",
@@ -1637,7 +1637,7 @@
         "12,30"
       ],
       "reponse": "12,25",
-      "explication": "Somme = 300. Nouvelle somme = 294. Nouvelle moyenne = 294 $\\div$ 24 = 12,25."
+      "explication": "Somme = 300. Nouvelle somme = 294. Nouvelle moyenne = 294$\\div$24 = 12,25."
     },
     {
       "id": "s4_n3_015",
@@ -1654,7 +1654,7 @@
         "80,0"
       ],
       "reponse": "76,4",
-      "explication": "Moyenne = 535 $\\div$ 7 $\\approx$ 76,4 glaces."
+      "explication": "Moyenne = 535$\\div$7$\\approx$76,4 glaces."
     },
     {
       "id": "s4_n3_015b",
@@ -1671,7 +1671,7 @@
         "Mercredi, Jeudi, Vendredi"
       ],
       "reponse": "Vendredi, Samedi, Dimanche",
-      "explication": "Ven (80), Sam (120), Dim (95) sont au-dessus de la moyenne $\\approx$ 76,4. Mer (78) aussi ! La bonne réponse complète est Mer, Ven, Sam, Dim mais parmi les choix proposés, Vendredi, Samedi, Dimanche est la meilleure réponse."
+      "explication": "Ven (80), Sam (120), Dim (95) sont au-dessus de la moyenne$\\approx$76,4. Mer (78) aussi ! La bonne réponse complète est Mer, Ven, Sam, Dim mais parmi les choix proposés, Vendredi, Samedi, Dimanche est la meilleure réponse."
     },
     {
       "id": "s4_n3_016",
@@ -1705,7 +1705,7 @@
         "2500 €"
       ],
       "reponse": "2310 €",
-      "explication": "Moyenne = 11550 $\\div$ 5 = 2310 €."
+      "explication": "Moyenne = 11550$\\div$5 = 2310 €."
     },
     {
       "id": "s4_n3_017b",
@@ -1751,12 +1751,12 @@
       "image": null,
       "choix": [
         "Elle reste 8",
-        "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$ 8)",
+        "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$8)",
         "Elle devient 100",
         "Elle devient (8+100)/2 = 54"
       ],
-      "reponse": "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$ 8)",
-      "explication": "Avec 11 valeurs, médiane = 6e valeur. La valeur 100 est au-dessus → la nouvelle médiane est la 6e valeur de la série ordonnée, qui est $\\geq$ 8."
+      "reponse": "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$8)",
+      "explication": "Avec 11 valeurs, médiane = 6e valeur. La valeur 100 est au-dessus → la nouvelle médiane est la 6e valeur de la série ordonnée, qui est$\\geq$8."
     },
     {
       "id": "s4_n3_020",

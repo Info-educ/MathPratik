@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{3}{5}$ = ?/10",
+      "enonce": "$\\frac{3}{5}$= ?/10",
       "choix": [
         "4",
         "5",
@@ -21,7 +21,7 @@
         "8"
       ],
       "reponse": "6",
-      "explication": "$\\frac{3}{5}=\\frac{6}{10}$ ($\\times$2)",
+      "explication": "$\\frac{3}{5}=\\frac{6}{10}$($\\times$2)",
       "image": null
     },
     {
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{2}{3}$ = ?/6",
+      "enonce": "$\\frac{2}{3}$= ?/6",
       "choix": [
         "3",
         "4",
@@ -38,7 +38,7 @@
         "6"
       ],
       "reponse": "4",
-      "explication": "$\\frac{2}{3}=\\frac{4}{6}$ ($\\times$2)",
+      "explication": "$\\frac{2}{3}=\\frac{4}{6}$($\\times$2)",
       "image": null
     },
     {
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{1}{4}$ = ?/8",
+      "enonce": "$\\frac{1}{4}$= ?/8",
       "choix": [
         "2",
         "3",
@@ -55,7 +55,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{1}{4}=\\frac{2}{8}$ ($\\times$2)",
+      "explication": "$\\frac{1}{4}=\\frac{2}{8}$($\\times$2)",
       "image": null
     },
     {
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{5}{6}$ = ?/12",
+      "enonce": "$\\frac{5}{6}$= ?/12",
       "choix": [
         "8",
         "9",
@@ -72,7 +72,7 @@
         "11"
       ],
       "reponse": "10",
-      "explication": "$\\frac{5}{6}=\\frac{10}{12}$ ($\\times$2)",
+      "explication": "$\\frac{5}{6}=\\frac{10}{12}$($\\times$2)",
       "image": null
     },
     {
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{3}{7}$ = ?/14",
+      "enonce": "$\\frac{3}{7}$= ?/14",
       "choix": [
         "5",
         "6",
@@ -89,7 +89,7 @@
         "8"
       ],
       "reponse": "6",
-      "explication": "$\\frac{3}{7}=\\frac{6}{14}$ ($\\times$2)",
+      "explication": "$\\frac{3}{7}=\\frac{6}{14}$($\\times$2)",
       "image": null
     },
     {
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{7}{10}$ = ?/20",
+      "enonce": "$\\frac{7}{10}$= ?/20",
       "choix": [
         "12",
         "13",
@@ -106,7 +106,7 @@
         "15"
       ],
       "reponse": "14",
-      "explication": "$\\frac{7}{10}=\\frac{14}{20}$ ($\\times$2)",
+      "explication": "$\\frac{7}{10}=\\frac{14}{20}$($\\times$2)",
       "image": null
     },
     {
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{2}{5}$ = ?/10",
+      "enonce": "$\\frac{2}{5}$= ?/10",
       "choix": [
         "3",
         "4",
@@ -123,7 +123,7 @@
         "6"
       ],
       "reponse": "4",
-      "explication": "$\\frac{2}{5}=\\frac{4}{10}$ ($\\times$2)",
+      "explication": "$\\frac{2}{5}=\\frac{4}{10}$($\\times$2)",
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{4}{9}$ = ?/18",
+      "enonce": "$\\frac{4}{9}$= ?/18",
       "choix": [
         "7",
         "8",
@@ -140,7 +140,7 @@
         "10"
       ],
       "reponse": "8",
-      "explication": "$\\frac{4}{9}=\\frac{8}{18}$ ($\\times$2)",
+      "explication": "$\\frac{4}{9}=\\frac{8}{18}$($\\times$2)",
       "image": null
     },
     {
@@ -149,7 +149,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{1}{6}$ = ?/12",
+      "enonce": "$\\frac{1}{6}$= ?/12",
       "choix": [
         "1",
         "2",
@@ -157,7 +157,7 @@
         "4"
       ],
       "reponse": "2",
-      "explication": "$\\frac{1}{6}=\\frac{2}{12}$ ($\\times$2)",
+      "explication": "$\\frac{1}{6}=\\frac{2}{12}$($\\times$2)",
       "image": null
     },
     {
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{5}{8}$ = ?/16",
+      "enonce": "$\\frac{5}{8}$= ?/16",
       "choix": [
         "9",
         "10",
@@ -174,7 +174,7 @@
         "12"
       ],
       "reponse": "10",
-      "explication": "$\\frac{5}{8}=\\frac{10}{16}$ ($\\times$2)",
+      "explication": "$\\frac{5}{8}=\\frac{10}{16}$($\\times$2)",
       "image": null
     },
     {
@@ -183,7 +183,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{3}{4}$ = ?/8",
+      "enonce": "$\\frac{3}{4}$= ?/8",
       "choix": [
         "5",
         "6",
@@ -191,7 +191,7 @@
         "8"
       ],
       "reponse": "6",
-      "explication": "$\\frac{3}{4}=\\frac{6}{8}$ ($\\times$2)",
+      "explication": "$\\frac{3}{4}=\\frac{6}{8}$($\\times$2)",
       "image": null
     },
     {
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{2}{7}$ = ?/14",
+      "enonce": "$\\frac{2}{7}$= ?/14",
       "choix": [
         "3",
         "4",
@@ -208,7 +208,7 @@
         "6"
       ],
       "reponse": "4",
-      "explication": "$\\frac{2}{7}=\\frac{4}{14}$ ($\\times$2)",
+      "explication": "$\\frac{2}{7}=\\frac{4}{14}$($\\times$2)",
       "image": null
     },
     {
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{5}{9}$ = ?/27",
+      "enonce": "$\\frac{5}{9}$= ?/27",
       "choix": [
         "14",
         "15",
@@ -225,7 +225,7 @@
         "17"
       ],
       "reponse": "15",
-      "explication": "$\\frac{5}{9}=\\frac{15}{27}$ ($\\times$3)",
+      "explication": "$\\frac{5}{9}=\\frac{15}{27}$($\\times$3)",
       "image": null
     },
     {
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{1}{3}$ = ?/9",
+      "enonce": "$\\frac{1}{3}$= ?/9",
       "choix": [
         "2",
         "3",
@@ -242,7 +242,7 @@
         "5"
       ],
       "reponse": "3",
-      "explication": "$\\frac{1}{3}=\\frac{3}{9}$ ($\\times$3)",
+      "explication": "$\\frac{1}{3}=\\frac{3}{9}$($\\times$3)",
       "image": null
     },
     {
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{7}{8}$ = ?/24",
+      "enonce": "$\\frac{7}{8}$= ?/24",
       "choix": [
         "19",
         "20",
@@ -259,7 +259,7 @@
         "22"
       ],
       "reponse": "21",
-      "explication": "$\\frac{7}{8}=\\frac{21}{24}$ ($\\times$3)",
+      "explication": "$\\frac{7}{8}=\\frac{21}{24}$($\\times$3)",
       "image": null
     },
     {
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{6}{10}$ = ?/5 (simplifie)",
+      "enonce": "$\\frac{6}{10}$= ?/5 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -276,7 +276,7 @@
         "5"
       ],
       "reponse": "3",
-      "explication": "$\\frac{6}{10}=\\frac{3}{5}$ ($\\div$2)",
+      "explication": "$\\frac{6}{10}=\\frac{3}{5}$($\\div$2)",
       "image": null
     },
     {
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{12}{18}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{12}{18}$= ?/3 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -293,7 +293,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{12}{18}=\\frac{2}{3}$ ($\\div$6)",
+      "explication": "$\\frac{12}{18}=\\frac{2}{3}$($\\div$6)",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{15}{25}$ = ?/5 (simplifie)",
+      "enonce": "$\\frac{15}{25}$= ?/5 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -310,7 +310,7 @@
         "5"
       ],
       "reponse": "3",
-      "explication": "$\\frac{15}{25}=\\frac{3}{5}$ ($\\div$5)",
+      "explication": "$\\frac{15}{25}=\\frac{3}{5}$($\\div$5)",
       "image": null
     },
     {
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{8}{24}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{8}{24}$= ?/3 (simplifie)",
       "choix": [
         "1",
         "2",
@@ -327,7 +327,7 @@
         "4"
       ],
       "reponse": "1",
-      "explication": "$\\frac{8}{24}=\\frac{1}{3}$ ($\\div$8)",
+      "explication": "$\\frac{8}{24}=\\frac{1}{3}$($\\div$8)",
       "image": null
     },
     {
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{20}{30}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{20}{30}$= ?/3 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -344,7 +344,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{20}{30}=\\frac{2}{3}$ ($\\div$10)",
+      "explication": "$\\frac{20}{30}=\\frac{2}{3}$($\\div$10)",
       "image": null
     },
     {
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{14}{21}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{14}{21}$= ?/3 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -361,7 +361,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{14}{21}=\\frac{2}{3}$ ($\\div$7)",
+      "explication": "$\\frac{14}{21}=\\frac{2}{3}$($\\div$7)",
       "image": null
     },
     {
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{9}{27}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{9}{27}$= ?/3 (simplifie)",
       "choix": [
         "1",
         "2",
@@ -378,7 +378,7 @@
         "4"
       ],
       "reponse": "1",
-      "explication": "$\\frac{9}{27}=\\frac{1}{3}$ ($\\div$9)",
+      "explication": "$\\frac{9}{27}=\\frac{1}{3}$($\\div$9)",
       "image": null
     },
     {
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{16}{24}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{16}{24}$= ?/3 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -395,7 +395,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{16}{24}=\\frac{2}{3}$ ($\\div$8)",
+      "explication": "$\\frac{16}{24}=\\frac{2}{3}$($\\div$8)",
       "image": null
     },
     {
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{25}{100}$ = ?/4 (simplifie)",
+      "enonce": "$\\frac{25}{100}$= ?/4 (simplifie)",
       "choix": [
         "1",
         "2",
@@ -412,7 +412,7 @@
         "4"
       ],
       "reponse": "1",
-      "explication": "$\\frac{25}{100}=\\frac{1}{4}$ ($\\div$25)",
+      "explication": "$\\frac{25}{100}=\\frac{1}{4}$($\\div$25)",
       "image": null
     },
     {
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{30}{45}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{30}{45}$= ?/3 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -429,7 +429,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{30}{45}=\\frac{2}{3}$ ($\\div$15)",
+      "explication": "$\\frac{30}{45}=\\frac{2}{3}$($\\div$15)",
       "image": null
     },
     {
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{4}{6}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{4}{6}$= ?/3 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -446,7 +446,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{4}{6}=\\frac{2}{3}$ ($\\div$2)",
+      "explication": "$\\frac{4}{6}=\\frac{2}{3}$($\\div$2)",
       "image": null
     },
     {
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{6}{9}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{6}{9}$= ?/3 (simplifie)",
       "choix": [
         "1",
         "2",
@@ -463,7 +463,7 @@
         "4"
       ],
       "reponse": "2",
-      "explication": "$\\frac{6}{9}=\\frac{2}{3}$ ($\\div$3)",
+      "explication": "$\\frac{6}{9}=\\frac{2}{3}$($\\div$3)",
       "image": null
     },
     {
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{10}{25}$ = ?/5 (simplifie)",
+      "enonce": "$\\frac{10}{25}$= ?/5 (simplifie)",
       "choix": [
         "1",
         "2",
@@ -480,7 +480,7 @@
         "4"
       ],
       "reponse": "2",
-      "explication": "$\\frac{10}{25}=\\frac{2}{5}$ ($\\div$5)",
+      "explication": "$\\frac{10}{25}=\\frac{2}{5}$($\\div$5)",
       "image": null
     },
     {
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{18}{27}$ = ?/3 (simplifie)",
+      "enonce": "$\\frac{18}{27}$= ?/3 (simplifie)",
       "choix": [
         "2",
         "3",
@@ -497,7 +497,7 @@
         "5"
       ],
       "reponse": "2",
-      "explication": "$\\frac{18}{27}=\\frac{2}{3}$ ($\\div$9)",
+      "explication": "$\\frac{18}{27}=\\frac{2}{3}$($\\div$9)",
       "image": null
     },
     {
@@ -506,7 +506,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\frac{6}{15}$ = ?/5 (simplifie)",
+      "enonce": "$\\frac{6}{15}$= ?/5 (simplifie)",
       "choix": [
         "1",
         "2",
@@ -514,7 +514,7 @@
         "4"
       ],
       "reponse": "2",
-      "explication": "$\\frac{6}{15}=\\frac{2}{5}$ ($\\div$3)",
+      "explication": "$\\frac{6}{15}=\\frac{2}{5}$($\\div$3)",
       "image": null
     }
   ]

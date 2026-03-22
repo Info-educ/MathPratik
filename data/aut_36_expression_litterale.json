@@ -55,7 +55,7 @@
         "m/7"
       ],
       "reponse": "7m",
-      "explication": "produit = $\\times$",
+      "explication": "produit =$\\times$",
       "image": null
     },
     {
@@ -72,7 +72,7 @@
         "n/4"
       ],
       "reponse": "n/4",
-      "explication": "quotient = $\\div$",
+      "explication": "quotient =$\\div$",
       "image": null
     },
     {
@@ -89,7 +89,7 @@
         "a/2"
       ],
       "reponse": "2a",
-      "explication": "double = $\\times$2",
+      "explication": "double =$\\times$2",
       "image": null
     },
     {
@@ -106,7 +106,7 @@
         "x-2"
       ],
       "reponse": "x/2",
-      "explication": "moitié = $\\div$2",
+      "explication": "moitié =$\\div$2",
       "image": null
     },
     {
@@ -123,7 +123,7 @@
         "y/3"
       ],
       "reponse": "3y",
-      "explication": "triple = $\\times$3",
+      "explication": "triple =$\\times$3",
       "image": null
     },
     {
@@ -140,7 +140,7 @@
         "z-3"
       ],
       "reponse": "z/3",
-      "explication": "tiers = $\\div$3",
+      "explication": "tiers =$\\div$3",
       "image": null
     },
     {
@@ -157,7 +157,7 @@
         "$p^{2}$"
       ],
       "reponse": "4p",
-      "explication": "quadruple = $\\times$4",
+      "explication": "quadruple =$\\times$4",
       "image": null
     },
     {
@@ -174,7 +174,7 @@
         "q+4"
       ],
       "reponse": "q/4",
-      "explication": "quart = $\\div$4",
+      "explication": "quart =$\\div$4",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Traduis: (a+b) $\\div$ 2",
+      "enonce": "Traduis: (a+b)$\\div$2",
       "choix": [
         "La différence de a et b sur 2",
         "La somme de a et b divisée par 2",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Traduis: $a^{2}$ - a",
+      "enonce": "Traduis:$a^{2}$- a",
       "choix": [
         "Le carré de a diminué de a",
         "a fois a plus a",
@@ -425,11 +425,11 @@
       "choix": [
         "$a^{2}$+$b^{2}$",
         "(a+b)",
-        "(a+b)²",
+        "$(a+b)^{2}$",
         "2(a+b)"
       ],
-      "reponse": "(a+b)²",
-      "explication": "(a+b)²",
+      "reponse": "$(a+b)^{2}$",
+      "explication": "$(a+b)^{2}$",
       "image": null
     },
     {
@@ -509,7 +509,7 @@
       "enonce": "La somme du carré de x et du carré de y",
       "choix": [
         "$x^{2} \\times y^{2}$",
-        "(x+y)²",
+        "$(x+y)^{2}$",
         "$x^{2}$+$y^{2}$",
         "x+$y^{2}$"
       ],

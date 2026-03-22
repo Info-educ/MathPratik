@@ -172,7 +172,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−2) $\\times$ (−5)",
+      "enonce": "Calcule : (−2)$\\times$(−5)",
       "image": null,
       "choix": [
         "−10",
@@ -188,7 +188,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−3) $\\times$ (+4)",
+      "enonce": "Calcule : (−3)$\\times$(+4)",
       "image": null,
       "choix": [
         "+12",
@@ -204,7 +204,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (+6) $\\times$ (−7)",
+      "enonce": "Calcule : (+6)$\\times$(−7)",
       "image": null,
       "choix": [
         "+42",
@@ -220,7 +220,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−8) $\\times$ (−2)",
+      "enonce": "Calcule : (−8)$\\times$(−2)",
       "image": null,
       "choix": [
         "−16",
@@ -236,7 +236,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−15) $\\div$ (+3)",
+      "enonce": "Calcule : (−15)$\\div$(+3)",
       "image": null,
       "choix": [
         "+5",
@@ -252,7 +252,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (+24) $\\div$ (−4)",
+      "enonce": "Calcule : (+24)$\\div$(−4)",
       "image": null,
       "choix": [
         "+6",
@@ -268,7 +268,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−18) $\\div$ (−6)",
+      "enonce": "Calcule : (−18)$\\div$(−6)",
       "image": null,
       "choix": [
         "−3",
@@ -284,7 +284,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (+36) $\\div$ (−9)",
+      "enonce": "Calcule : (+36)$\\div$(−9)",
       "image": null,
       "choix": [
         "+4",
@@ -300,7 +300,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−7) $\\times$ 0",
+      "enonce": "Calcule : (−7)$\\times$0",
       "image": null,
       "choix": [
         "−7",
@@ -316,7 +316,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−5) $\\times$ (−1)",
+      "enonce": "Calcule : (−5)$\\times$(−1)",
       "image": null,
       "choix": [
         "−5",
@@ -412,7 +412,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "La température est −$3°$C le matin. Elle baisse encore de $4°$C. Quelle est la nouvelle température ?",
+      "enonce": "La température est −$3°$C le matin. Elle baisse encore de$4°$C. Quelle est la nouvelle température ?",
       "image": null,
       "choix": [
         "+$1°$C",
@@ -460,7 +460,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "La température baisse de $2°$C par heure. Quelle est la variation après 5 heures ?",
+      "enonce": "La température baisse de$2°$C par heure. Quelle est la variation après 5 heures ?",
       "image": null,
       "choix": [
         "+$10°$C",
@@ -469,7 +469,7 @@
         "−2,$5°$C"
       ],
       "reponse": "−$10°$C",
-      "explication": "(−2) $\\times$ 5 = −$10°$C."
+      "explication": "(−2)$\\times$5 = −$10°$C."
     },
     {
       "id": "relat4_n1_030",
@@ -485,7 +485,7 @@
         "−18 m"
       ],
       "reponse": "−18 m",
-      "explication": "(−3) $\\times$ 6 = −18 m."
+      "explication": "(−3)$\\times$6 = −18 m."
     },
     {
       "id": "relat4_n1_031",
@@ -524,7 +524,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Quel est le signe de (−2) $\\times$ (−3) $\\times$ (−4) ?",
+      "enonce": "Quel est le signe de (−2)$\\times$(−3)$\\times$(−4) ?",
       "image": null,
       "choix": [
         "Positif",
@@ -540,7 +540,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "(−12) $\\div$ (+4) = ?",
+      "enonce": "(−12)$\\div$(+4) = ?",
       "image": null,
       "choix": [
         "+3",
@@ -588,7 +588,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "(+4) $\\times$ (−3) = ?",
+      "enonce": "(+4)$\\times$(−3) = ?",
       "image": null,
       "choix": [
         "+12",
@@ -604,7 +604,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "(−20) $\\div$ (−4) = ?",
+      "enonce": "(−20)$\\div$(−4) = ?",
       "image": null,
       "choix": [
         "−5",
@@ -620,7 +620,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Quel est le signe de (−1)¹⁰⁰ ?",
+      "enonce": "Quel est le signe de$(−1)^{100}$?",
       "image": null,
       "choix": [
         "Positif",
@@ -629,14 +629,14 @@
         "Indéfini"
       ],
       "reponse": "Positif",
-      "explication": "100 est pair → (−1)¹⁰⁰ = (+1) > 0."
+      "explication": "100 est pair →$(−1)^{100}$= (+1) > 0."
     },
     {
       "id": "relat4_n1_040",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "a $\\times$ (−1) = ?",
+      "enonce": "a$\\times$(−1) = ?",
       "image": null,
       "choix": [
         "a",
@@ -741,7 +741,7 @@
         "−$\\frac{5}{4}$"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "$\\frac{3}{4}$ − $\\frac{2}{4}$ = $\\frac{1}{4}$"
+      "explication": "$\\frac{3}{4}$−$\\frac{2}{4}$=$\\frac{1}{4}$"
     },
     {
       "id": "relat4_n2_007",
@@ -757,14 +757,14 @@
         "−$\\frac{5}{6}$"
       ],
       "reponse": "−$\\frac{1}{2}$",
-      "explication": "(−$\\frac{2}{3}$) + ($\\frac{1}{6}$) = −$\\frac{4}{6}$ + $\\frac{1}{6}$ = −$\\frac{3}{6}$ = −$\\frac{1}{2}$"
+      "explication": "(−$\\frac{2}{3}$) + ($\\frac{1}{6}$) = −$\\frac{4}{6}$+$\\frac{1}{6}$= −$\\frac{3}{6}$= −$\\frac{1}{2}$"
     },
     {
       "id": "relat4_n2_008",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−1,5) $\\times$ (−4)",
+      "enonce": "Calcule : (−1,5)$\\times$(−4)",
       "image": null,
       "choix": [
         "−6",
@@ -780,7 +780,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−2)²",
+      "enonce": "Calcule :$(−2)^{2}$",
       "image": null,
       "choix": [
         "−4",
@@ -789,14 +789,14 @@
         "+2"
       ],
       "reponse": "+4",
-      "explication": "(−2)² = (−2)$\\times$(−2) = +4 (exposant pair → positif)"
+      "explication": "$(−2)^{2}$= (−2)$\\times$(−2) = +4 (exposant pair → positif)"
     },
     {
       "id": "relat4_n2_010",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−2)³",
+      "enonce": "Calcule :$(−2)^{3}$",
       "image": null,
       "choix": [
         "−8",
@@ -805,14 +805,14 @@
         "+6"
       ],
       "reponse": "−8",
-      "explication": "(−2)³ = −2$\\times$−2$\\times$−2 = −8 (exposant impair → négatif)"
+      "explication": "$(−2)^{3}$= −2$\\times$−2$\\times$−2 = −8 (exposant impair → négatif)"
     },
     {
       "id": "relat4_n2_011",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−3)² $\\times$ (−2)",
+      "enonce": "Calcule :$(−3)^{2}\\times$(−2)",
       "image": null,
       "choix": [
         "+18",
@@ -828,7 +828,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−2) $\\times$ (−3) $\\times$ (−4)",
+      "enonce": "Calcule : (−2)$\\times$(−3)$\\times$(−4)",
       "image": null,
       "choix": [
         "+24",
@@ -844,7 +844,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−1)¹⁰⁰",
+      "enonce": "Calcule :$(−1)^{100}$",
       "image": null,
       "choix": [
         "−1",
@@ -853,7 +853,7 @@
         "100"
       ],
       "reponse": "+1",
-      "explication": "100 pair → (−1)¹⁰⁰ = +1"
+      "explication": "100 pair →$(−1)^{100}$= +1"
     },
     {
       "id": "relat4_n2_014",
@@ -940,7 +940,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "La température est −$5°$C. Elle baisse de $3°$C/h pendant 4 heures. Température finale ?",
+      "enonce": "La température est −$5°$C. Elle baisse de$3°$C/h pendant 4 heures. Température finale ?",
       "image": null,
       "choix": [
         "−$7°$C",
@@ -1020,7 +1020,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−7,2) $\\div$ (+0,9)",
+      "enonce": "Calcule : (−7,2)$\\div$(+0,9)",
       "image": null,
       "choix": [
         "−8",
@@ -1036,7 +1036,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (+2,5) $\\times$ (−4) $\\times$ (−1)",
+      "enonce": "Calcule : (+2,5)$\\times$(−4)$\\times$(−1)",
       "image": null,
       "choix": [
         "−10",
@@ -1084,7 +1084,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−5)² $\\div$ (−5)",
+      "enonce": "Calcule :$(−5)^{2}\\div$(−5)",
       "image": null,
       "choix": [
         "+5",
@@ -1093,14 +1093,14 @@
         "−25"
       ],
       "reponse": "−5",
-      "explication": "25 $\\div$ (−5) = −5"
+      "explication": "25$\\div$(−5) = −5"
     },
     {
       "id": "relat4_n2_029",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−3,6) $\\div$ (−0,6)",
+      "enonce": "Calcule : (−3,6)$\\div$(−0,6)",
       "image": null,
       "choix": [
         "−6",
@@ -1164,7 +1164,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−2)⁴ − (−3)²",
+      "enonce": "Calcule :$(−2)^{4}$−$(−3)^{2}$",
       "image": null,
       "choix": [
         "7",
@@ -1180,7 +1180,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : −$4^{2}$ + (−4)²",
+      "enonce": "Calcule : −$4^{2}$+$(−4)^{2}$",
       "image": null,
       "choix": [
         "−32",
@@ -1189,14 +1189,14 @@
         "−16"
       ],
       "reponse": "0",
-      "explication": "−$4^{2}$ = −($4^{2}$) = −16. (−4)² = 16. −16+16 = 0."
+      "explication": "−$4^{2}$= −($4^{2}$) = −16.$(−4)^{2}$= 16. −16+16 = 0."
     },
     {
       "id": "relat4_n3_005",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : (−3+5) $\\times$ (−4)",
+      "enonce": "Calcule : (−3+5)$\\times$(−4)",
       "image": null,
       "choix": [
         "−8",
@@ -1205,14 +1205,14 @@
         "+2"
       ],
       "reponse": "−8",
-      "explication": "2 $\\times$ (−4) = −8."
+      "explication": "2$\\times$(−4) = −8."
     },
     {
       "id": "relat4_n3_006",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : [(−5)+3] $\\times$ [(−2)−4]",
+      "enonce": "Calcule : [(−5)+3]$\\times$[(−2)−4]",
       "image": null,
       "choix": [
         "−12",
@@ -1221,7 +1221,7 @@
         "+36"
       ],
       "reponse": "+12",
-      "explication": "(−2) $\\times$ (−6) = +12."
+      "explication": "(−2)$\\times$(−6) = +12."
     },
     {
       "id": "relat4_n3_007",
@@ -1244,7 +1244,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : [(−2)²−(−3)²] $\\times$ (−1)",
+      "enonce": "Calcule : [$(−2)^{2}$−$(−3)^{2}$]$\\times$(−1)",
       "image": null,
       "choix": [
         "−5",
@@ -1285,7 +1285,7 @@
         "10099"
       ],
       "reponse": "9999",
-      "explication": "(−100)²−$1^{2}$ = 10000−1 = 9999."
+      "explication": "$(−100)^{2}$−$1^{2}$= 10000−1 = 9999."
     },
     {
       "id": "relat4_n3_011",
@@ -1372,16 +1372,16 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Quelle est la différence entre −$3^{2}$ et (−3)² ?",
+      "enonce": "Quelle est la différence entre −$3^{2}$et$(−3)^{2}$?",
       "image": null,
       "choix": [
         "Ce sont la même chose, tous deux valent 9",
-        "−$3^{2}$=−9 (on élève 3 au carré puis l'opposé) et (−3)²=9",
-        "−$3^{2}$=9 et (−3)²=−9",
+        "−$3^{2}$=−9 (on élève 3 au carré puis l'opposé) et$(−3)^{2}$=9",
+        "−$3^{2}$=9 et$(−3)^{2}$=−9",
         "Tous deux valent −9"
       ],
-      "reponse": "−$3^{2}$=−9 (on élève 3 au carré puis l'opposé) et (−3)²=9",
-      "explication": "−$3^{2}$=−($3^{2}$)=−9. (−3)²=(−3)$\\times$(−3)=9. −9 $\\neq$ 9."
+      "reponse": "−$3^{2}$=−9 (on élève 3 au carré puis l'opposé) et$(−3)^{2}$=9",
+      "explication": "−$3^{2}$=−($3^{2}$)=−9.$(−3)^{2}$=(−3)$\\times$(−3)=9. −9$\\neq$9."
     },
     {
       "id": "relat4_n3_017",
@@ -1420,7 +1420,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : Programme PC9 pour n=−2 (soustraire 4, $\\times$3, +6, $\\div$4)",
+      "enonce": "Calcule : Programme PC9 pour n=−2 (soustraire 4,$\\times$3, +6,$\\div$4)",
       "image": "relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
       "choix": [
         "−4",

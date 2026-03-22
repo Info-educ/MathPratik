@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+5) $\\times$ (+7) = ?",
+      "enonce": "(+5)$\\times$(+7) = ?",
       "choix": [
         "+30",
         "+35",
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-4) $\\times$ (+3) = ?",
+      "enonce": "(-4)$\\times$(+3) = ?",
       "choix": [
         "-14",
         "-12",
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+6) $\\times$ (-8) = ?",
+      "enonce": "(+6)$\\times$(-8) = ?",
       "choix": [
         "-56",
         "-52",
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-9) $\\times$ (-4) = ?",
+      "enonce": "(-9)$\\times$(-4) = ?",
       "choix": [
         "+32",
         "+36",
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+12) $\\div$ (+4) = ?",
+      "enonce": "(+12)$\\div$(+4) = ?",
       "choix": [
         "+2",
         "+3",
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-15) $\\div$ (+5) = ?",
+      "enonce": "(-15)$\\div$(+5) = ?",
       "choix": [
         "-4",
         "-3",
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+18) $\\div$ (-6) = ?",
+      "enonce": "(+18)$\\div$(-6) = ?",
       "choix": [
         "-4",
         "-3",
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-24) $\\div$ (-8) = ?",
+      "enonce": "(-24)$\\div$(-8) = ?",
       "choix": [
         "+2",
         "+3",
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+7) $\\times$ (-4) = ?",
+      "enonce": "(+7)$\\times$(-4) = ?",
       "choix": [
         "-24",
         "-28",
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-11) $\\times$ (-3) = ?",
+      "enonce": "(-11)$\\times$(-3) = ?",
       "choix": [
         "+28",
         "+33",
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+25) $\\div$ (-5) = ?",
+      "enonce": "(+25)$\\div$(-5) = ?",
       "choix": [
         "-6",
         "-5",
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-36) $\\div$ (-9) = ?",
+      "enonce": "(-36)$\\div$(-9) = ?",
       "choix": [
         "+2",
         "+3",
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+8) $\\times$ (+8) = ?",
+      "enonce": "(+8)$\\times$(+8) = ?",
       "choix": [
         "+56",
         "+64",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-5) $\\times$ (+9) = ?",
+      "enonce": "(-5)$\\times$(+9) = ?",
       "choix": [
         "-50",
         "-45",
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+100) $\\div$ (-10) = ?",
+      "enonce": "(+100)$\\div$(-10) = ?",
       "choix": [
         "-11",
         "-10",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-48) $\\div$ (+8) = ?",
+      "enonce": "(-48)$\\div$(+8) = ?",
       "choix": [
         "-7",
         "-6",
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+3) $\\times$ (-7) = ?",
+      "enonce": "(+3)$\\times$(-7) = ?",
       "choix": [
         "-23",
         "-21",
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-6) $\\times$ (-6) = ?",
+      "enonce": "(-6)$\\times$(-6) = ?",
       "choix": [
         "+30",
         "+36",
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+30) $\\div$ (-6) = ?",
+      "enonce": "(+30)$\\div$(-6) = ?",
       "choix": [
         "-6",
         "-5",
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-45) $\\div$ (-9) = ?",
+      "enonce": "(-45)$\\div$(-9) = ?",
       "choix": [
         "+3",
         "+4",
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+72) $\\div$ (-8) = ?",
+      "enonce": "(+72)$\\div$(-8) = ?",
       "choix": [
         "-10",
         "-9",
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-13) $\\times$ (-2) = ?",
+      "enonce": "(-13)$\\times$(-2) = ?",
       "choix": [
         "+22",
         "+26",
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+5) $\\times$ (-10) = ?",
+      "enonce": "(+5)$\\times$(-10) = ?",
       "choix": [
         "-60",
         "-55",
@@ -506,7 +506,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-63) $\\div$ (+7) = ?",
+      "enonce": "(-63)$\\div$(+7) = ?",
       "choix": [
         "-10",
         "-9",

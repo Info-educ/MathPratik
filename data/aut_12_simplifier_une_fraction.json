@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{6}{9}$",
+      "enonce": "Simplifie$\\frac{6}{9}$",
       "choix": [
         "$\\frac{1}{3}$",
         "$\\frac{2}{3}$",
@@ -21,7 +21,7 @@
         "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(6,9)=3 → $\\frac{2}{3}$",
+      "explication": "PGCD(6,9)=3 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{10}{15}$",
+      "enonce": "Simplifie$\\frac{10}{15}$",
       "choix": [
         "$\\frac{2}{3}$",
         "$\\frac{1}{3}$",
@@ -38,7 +38,7 @@
         "$\\frac{2}{5}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(10,15)=5 → $\\frac{2}{3}$",
+      "explication": "PGCD(10,15)=5 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{8}{12}$",
+      "enonce": "Simplifie$\\frac{8}{12}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -55,7 +55,7 @@
         "$\\frac{1}{4}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(8,12)=4 → $\\frac{2}{3}$",
+      "explication": "PGCD(8,12)=4 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{14}{21}$",
+      "enonce": "Simplifie$\\frac{14}{21}$",
       "choix": [
         "$\\frac{1}{3}$",
         "$\\frac{2}{3}$",
@@ -72,7 +72,7 @@
         "$\\frac{2}{7}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(14,21)=7 → $\\frac{2}{3}$",
+      "explication": "PGCD(14,21)=7 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{15}{25}$",
+      "enonce": "Simplifie$\\frac{15}{25}$",
       "choix": [
         "$\\frac{1}{5}$",
         "$\\frac{2}{5}$",
@@ -89,7 +89,7 @@
         "$\\frac{4}{5}$"
       ],
       "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(15,25)=5 → $\\frac{3}{5}$",
+      "explication": "PGCD(15,25)=5 →$\\frac{3}{5}$",
       "image": null
     },
     {
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{12}{18}$",
+      "enonce": "Simplifie$\\frac{12}{18}$",
       "choix": [
         "$\\frac{1}{3}$",
         "$\\frac{2}{3}$",
@@ -106,7 +106,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(12,18)=6 → $\\frac{2}{3}$",
+      "explication": "PGCD(12,18)=6 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{20}{30}$",
+      "enonce": "Simplifie$\\frac{20}{30}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -123,7 +123,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(20,30)=10 → $\\frac{2}{3}$",
+      "explication": "PGCD(20,30)=10 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{24}{36}$",
+      "enonce": "Simplifie$\\frac{24}{36}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -140,7 +140,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(24,36)=12 → $\\frac{2}{3}$",
+      "explication": "PGCD(24,36)=12 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -149,7 +149,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{16}{24}$",
+      "enonce": "Simplifie$\\frac{16}{24}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -157,7 +157,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(16,24)=8 → $\\frac{2}{3}$",
+      "explication": "PGCD(16,24)=8 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{9}{27}$",
+      "enonce": "Simplifie$\\frac{9}{27}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{1}{3}$",
@@ -174,7 +174,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{3}$",
-      "explication": "PGCD(9,27)=9 → $\\frac{1}{3}$",
+      "explication": "PGCD(9,27)=9 →$\\frac{1}{3}$",
       "image": null
     },
     {
@@ -183,7 +183,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{18}{24}$",
+      "enonce": "Simplifie$\\frac{18}{24}$",
       "choix": [
         "$\\frac{2}{3}$",
         "$\\frac{3}{4}$",
@@ -191,7 +191,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{3}{4}$",
-      "explication": "PGCD(18,24)=6 → $\\frac{3}{4}$",
+      "explication": "PGCD(18,24)=6 →$\\frac{3}{4}$",
       "image": null
     },
     {
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{25}{100}$",
+      "enonce": "Simplifie$\\frac{25}{100}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{1}{4}$",
@@ -208,7 +208,7 @@
         "$\\frac{2}{5}$"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "PGCD(25,100)=25 → $\\frac{1}{4}$",
+      "explication": "PGCD(25,100)=25 →$\\frac{1}{4}$",
       "image": null
     },
     {
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{30}{45}$",
+      "enonce": "Simplifie$\\frac{30}{45}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -225,7 +225,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(30,45)=15 → $\\frac{2}{3}$",
+      "explication": "PGCD(30,45)=15 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{21}{28}$",
+      "enonce": "Simplifie$\\frac{21}{28}$",
       "choix": [
         "$\\frac{2}{3}$",
         "$\\frac{3}{4}$",
@@ -242,7 +242,7 @@
         "$\\frac{3}{7}$"
       ],
       "reponse": "$\\frac{3}{4}$",
-      "explication": "PGCD(21,28)=7 → $\\frac{3}{4}$",
+      "explication": "PGCD(21,28)=7 →$\\frac{3}{4}$",
       "image": null
     },
     {
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{35}{49}$",
+      "enonce": "Simplifie$\\frac{35}{49}$",
       "choix": [
         "$\\frac{4}{7}$",
         "$\\frac{5}{7}$",
@@ -259,7 +259,7 @@
         "$\\frac{3}{7}$"
       ],
       "reponse": "$\\frac{5}{7}$",
-      "explication": "PGCD(35,49)=7 → $\\frac{5}{7}$",
+      "explication": "PGCD(35,49)=7 →$\\frac{5}{7}$",
       "image": null
     },
     {
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{12}{32}$",
+      "enonce": "Simplifie$\\frac{12}{32}$",
       "choix": [
         "$\\frac{1}{3}$",
         "$\\frac{3}{8}$",
@@ -276,7 +276,7 @@
         "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{3}{8}$",
-      "explication": "PGCD(12,32)=4 → $\\frac{3}{8}$",
+      "explication": "PGCD(12,32)=4 →$\\frac{3}{8}$",
       "image": null
     },
     {
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{6}{42}$",
+      "enonce": "Simplifie$\\frac{6}{42}$",
       "choix": [
         "$\\frac{1}{5}$",
         "$\\frac{1}{6}$",
@@ -293,7 +293,7 @@
         "$\\frac{1}{8}$"
       ],
       "reponse": "$\\frac{1}{7}$",
-      "explication": "PGCD(6,42)=6 → $\\frac{1}{7}$",
+      "explication": "PGCD(6,42)=6 →$\\frac{1}{7}$",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{22}{33}$",
+      "enonce": "Simplifie$\\frac{22}{33}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -310,7 +310,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(22,33)=11 → $\\frac{2}{3}$",
+      "explication": "PGCD(22,33)=11 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{40}{60}$",
+      "enonce": "Simplifie$\\frac{40}{60}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -327,7 +327,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(40,60)=20 → $\\frac{2}{3}$",
+      "explication": "PGCD(40,60)=20 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{56}{98}$",
+      "enonce": "Simplifie$\\frac{56}{98}$",
       "choix": [
         "$\\frac{4}{7}$",
         "$\\frac{5}{7}$",
@@ -344,7 +344,7 @@
         "$\\frac{4}{9}$"
       ],
       "reponse": "$\\frac{4}{7}$",
-      "explication": "PGCD(56,98)=14 → $\\frac{4}{7}$",
+      "explication": "PGCD(56,98)=14 →$\\frac{4}{7}$",
       "image": null
     },
     {
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{36}{60}$",
+      "enonce": "Simplifie$\\frac{36}{60}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{3}{5}$",
@@ -361,7 +361,7 @@
         "$\\frac{4}{5}$"
       ],
       "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(36,60)=12 → $\\frac{3}{5}$",
+      "explication": "PGCD(36,60)=12 →$\\frac{3}{5}$",
       "image": null
     },
     {
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{27}{45}$",
+      "enonce": "Simplifie$\\frac{27}{45}$",
       "choix": [
         "$\\frac{2}{5}$",
         "$\\frac{3}{5}$",
@@ -378,7 +378,7 @@
         "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(27,45)=9 → $\\frac{3}{5}$",
+      "explication": "PGCD(27,45)=9 →$\\frac{3}{5}$",
       "image": null
     },
     {
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{48}{72}$",
+      "enonce": "Simplifie$\\frac{48}{72}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -395,7 +395,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(48,72)=24 → $\\frac{2}{3}$",
+      "explication": "PGCD(48,72)=24 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{15}{35}$",
+      "enonce": "Simplifie$\\frac{15}{35}$",
       "choix": [
         "$\\frac{2}{5}$",
         "$\\frac{3}{7}$",
@@ -412,7 +412,7 @@
         "$\\frac{2}{7}$"
       ],
       "reponse": "$\\frac{3}{7}$",
-      "explication": "PGCD(15,35)=5 → $\\frac{3}{7}$",
+      "explication": "PGCD(15,35)=5 →$\\frac{3}{7}$",
       "image": null
     },
     {
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{24}{32}$",
+      "enonce": "Simplifie$\\frac{24}{32}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -429,7 +429,7 @@
         "$\\frac{1}{4}$"
       ],
       "reponse": "$\\frac{3}{4}$",
-      "explication": "PGCD(24,32)=8 → $\\frac{3}{4}$",
+      "explication": "PGCD(24,32)=8 →$\\frac{3}{4}$",
       "image": null
     },
     {
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{45}{75}$",
+      "enonce": "Simplifie$\\frac{45}{75}$",
       "choix": [
         "$\\frac{2}{5}$",
         "$\\frac{3}{5}$",
@@ -446,7 +446,7 @@
         "$\\frac{4}{5}$"
       ],
       "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(45,75)=15 → $\\frac{3}{5}$",
+      "explication": "PGCD(45,75)=15 →$\\frac{3}{5}$",
       "image": null
     },
     {
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{60}{100}$",
+      "enonce": "Simplifie$\\frac{60}{100}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{3}{5}$",
@@ -463,7 +463,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(60,100)=20 → $\\frac{3}{5}$",
+      "explication": "PGCD(60,100)=20 →$\\frac{3}{5}$",
       "image": null
     },
     {
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{28}{42}$",
+      "enonce": "Simplifie$\\frac{28}{42}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -480,7 +480,7 @@
         "$\\frac{3}{7}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(28,42)=14 → $\\frac{2}{3}$",
+      "explication": "PGCD(28,42)=14 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{54}{81}$",
+      "enonce": "Simplifie$\\frac{54}{81}$",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
@@ -497,7 +497,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(54,81)=27 → $\\frac{2}{3}$",
+      "explication": "PGCD(54,81)=27 →$\\frac{2}{3}$",
       "image": null
     },
     {
@@ -506,7 +506,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie $\\frac{36}{84}$",
+      "enonce": "Simplifie$\\frac{36}{84}$",
       "choix": [
         "$\\frac{2}{5}$",
         "$\\frac{3}{7}$",
@@ -514,7 +514,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{3}{7}$",
-      "explication": "PGCD(36,84)=12 → $\\frac{3}{7}$",
+      "explication": "PGCD(36,84)=12 →$\\frac{3}{7}$",
       "image": null
     }
   ]

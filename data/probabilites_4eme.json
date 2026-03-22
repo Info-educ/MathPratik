@@ -53,7 +53,7 @@
         "1"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "P(FACE) = $\\frac{1}{2}$ = 0,5. Il y a autant de chances d'obtenir PILE que FACE."
+      "explication": "P(FACE) =$\\frac{1}{2}$= 0,5. Il y a autant de chances d'obtenir PILE que FACE."
     },
     {
       "id": "p4_n1_004",
@@ -117,7 +117,7 @@
         "2"
       ],
       "reponse": "1",
-      "explication": "P(PILE) + P(FACE) = $\\frac{1}{2}$ + $\\frac{1}{2}$ = 1. La somme vaut toujours 1."
+      "explication": "P(PILE) + P(FACE) =$\\frac{1}{2}$+$\\frac{1}{2}$= 1. La somme vaut toujours 1."
     },
     {
       "id": "p4_n1_008",
@@ -149,7 +149,7 @@
         "$\\frac{1}{36}$"
       ],
       "reponse": "$\\frac{1}{6}$",
-      "explication": "6 issues équiprobables → P(chaque issue) = $\\frac{1}{6}$."
+      "explication": "6 issues équiprobables → P(chaque issue) =$\\frac{1}{6}$."
     },
     {
       "id": "p4_n1_010",
@@ -165,7 +165,7 @@
         "$\\frac{1}{10}$"
       ],
       "reponse": "$\\frac{1}{8}$",
-      "explication": "P(chaque issue) = $\\frac{1}{8}$ = 0,125. On divise 1 par le nombre d'issues."
+      "explication": "P(chaque issue) =$\\frac{1}{8}$= 0,125. On divise 1 par le nombre d'issues."
     },
     {
       "id": "p4_n1_011",
@@ -213,7 +213,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{3}$",
-      "explication": "P(A) = $\\frac{2}{6}$ = $\\frac{1}{3}$. Il y a 2 issues favorables (3 et 6) sur 6 équiprobables."
+      "explication": "P(A) =$\\frac{2}{6}$=$\\frac{1}{3}$. Il y a 2 issues favorables (3 et 6) sur 6 équiprobables."
     },
     {
       "id": "p4_n1_014",
@@ -245,7 +245,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{3}$",
-      "explication": "P(C) = $\\frac{2}{6}$ = $\\frac{1}{3}$. Issues favorables : 5 et 6 (2 issues sur 6)."
+      "explication": "P(C) =$\\frac{2}{6}$=$\\frac{1}{3}$. Issues favorables : 5 et 6 (2 issues sur 6)."
     },
     {
       "id": "p4_n1_016",
@@ -261,7 +261,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "Issues paires : 2, 4, 6 → P(pair) = $\\frac{3}{6}$ = $\\frac{1}{2}$."
+      "explication": "Issues paires : 2, 4, 6 → P(pair) =$\\frac{3}{6}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n1_017",
@@ -341,7 +341,7 @@
         "Équiprobable"
       ],
       "reponse": "Certain",
-      "explication": "Tous les résultats du dé sont $\\leq$ 6. Cet événement est certain, P = 1."
+      "explication": "Tous les résultats du dé sont$\\leq$6. Cet événement est certain, P = 1."
     },
     {
       "id": "p4_n1_022",
@@ -383,13 +383,13 @@
       "enonce": "On lance une pièce 1000 fois et on obtient 510 fois FACE. Que peut-on dire de la probabilité de FACE ?",
       "image": null,
       "choix": [
-        "P(FACE) = $\\frac{510}{1000}$ exactement",
-        "P(FACE) $\\approx\\frac{1}{2}$ car $\\frac{510}{1000}\\approx$ 0,5",
+        "P(FACE) =$\\frac{510}{1000}$exactement",
+        "P(FACE)$\\approx\\frac{1}{2}$car$\\frac{510}{1000}\\approx$0,5",
         "P(FACE) = 0 car on n'a pas eu 500 exactement",
         "On ne peut pas savoir"
       ],
-      "reponse": "P(FACE) $\\approx\\frac{1}{2}$ car $\\frac{510}{1000}\\approx$ 0,5",
-      "explication": "La fréquence $\\frac{510}{1000}$ = 0,51 $\\approx$ 0,5 confirme que P(FACE) $\\approx\\frac{1}{2}$."
+      "reponse": "P(FACE)$\\approx\\frac{1}{2}$car$\\frac{510}{1000}\\approx$0,5",
+      "explication": "La fréquence$\\frac{510}{1000}$= 0,51$\\approx$0,5 confirme que P(FACE)$\\approx\\frac{1}{2}$."
     },
     {
       "id": "p4_n1_025",
@@ -405,7 +405,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{1}{3}$",
-      "explication": "Total = 9 boules. P(rouge) = $\\frac{3}{9}$ = $\\frac{1}{3}$."
+      "explication": "Total = 9 boules. P(rouge) =$\\frac{3}{9}$=$\\frac{1}{3}$."
     },
     {
       "id": "p4_n1_026",
@@ -421,14 +421,14 @@
         "$\\frac{5}{9}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "Issues 'pas rouge' = verte ou bleue : 2+4=6. P = $\\frac{6}{9}$ = $\\frac{2}{3}$."
+      "explication": "Issues 'pas rouge' = verte ou bleue : 2+4=6. P =$\\frac{6}{9}$=$\\frac{2}{3}$."
     },
     {
       "id": "p4_n1_027",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "La roue de fortune ci-dessous a 4 secteurs. Le secteur Rouge mesure $120°$. Quelle est la probabilité de tomber sur Rouge ?",
+      "enonce": "La roue de fortune ci-dessous a 4 secteurs. Le secteur Rouge mesure$120°$. Quelle est la probabilité de tomber sur Rouge ?",
       "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{4}$",
@@ -437,14 +437,14 @@
         "$\\frac{1}{6}$"
       ],
       "reponse": "$\\frac{1}{3}$",
-      "explication": "Secteur rouge = $120°$. P(rouge) = $\\frac{120}{360}$ = $\\frac{1}{3}$."
+      "explication": "Secteur rouge =$120°$. P(rouge) =$\\frac{120}{360}$=$\\frac{1}{3}$."
     },
     {
       "id": "p4_n1_028",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur la roue (Bleu = $90°$, Vert = $90°$), quelle est la probabilité d'obtenir Bleu OU Vert ?",
+      "enonce": "Sur la roue (Bleu =$90°$, Vert =$90°$), quelle est la probabilité d'obtenir Bleu OU Vert ?",
       "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{4}$",
@@ -453,7 +453,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "P(bleu) = $\\frac{90}{360}$ = $\\frac{1}{4}$. P(vert) = $\\frac{90}{360}$ = $\\frac{1}{4}$. P(bleu ou vert) = $\\frac{1}{4}$ + $\\frac{1}{4}$ = $\\frac{1}{2}$."
+      "explication": "P(bleu) =$\\frac{90}{360}$=$\\frac{1}{4}$. P(vert) =$\\frac{90}{360}$=$\\frac{1}{4}$. P(bleu ou vert) =$\\frac{1}{4}$+$\\frac{1}{4}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n1_029",
@@ -469,7 +469,7 @@
         "4"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "4 issues équiprobables → P = $\\frac{1}{4}$ pour chacune."
+      "explication": "4 issues équiprobables → P =$\\frac{1}{4}$pour chacune."
     },
     {
       "id": "p4_n1_030",
@@ -533,7 +533,7 @@
         "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{5}{8}$",
-      "explication": "Total = 5 + 3 = 8. P(rouge) = $\\frac{5}{8}$."
+      "explication": "Total = 5 + 3 = 8. P(rouge) =$\\frac{5}{8}$."
     },
     {
       "id": "p4_n1_034",
@@ -556,7 +556,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "On a P(A) = $\\frac{1}{3}$ et P(B) = $\\frac{1}{2}$. A et B sont incompatibles. P(A ou B) = ?",
+      "enonce": "On a P(A) =$\\frac{1}{3}$et P(B) =$\\frac{1}{2}$. A et B sont incompatibles. P(A ou B) = ?",
       "image": null,
       "choix": [
         "$\\frac{1}{5}$",
@@ -565,7 +565,7 @@
         "1"
       ],
       "reponse": "$\\frac{5}{6}$",
-      "explication": "A et B incompatibles : P(A ou B) = $\\frac{1}{3}$ + $\\frac{1}{2}$ = $\\frac{2}{6}$ + $\\frac{3}{6}$ = $\\frac{5}{6}$."
+      "explication": "A et B incompatibles : P(A ou B) =$\\frac{1}{3}$+$\\frac{1}{2}$=$\\frac{2}{6}$+$\\frac{3}{6}$=$\\frac{5}{6}$."
     },
     {
       "id": "p4_n1_036",
@@ -597,7 +597,7 @@
         "$\\frac{8}{10}$"
       ],
       "reponse": "$\\frac{5}{10}$",
-      "explication": "Multiples de 2 entre 1 et 10 : 2,4,6,8,10 → 5 issues. P = $\\frac{5}{10}$ = $\\frac{1}{2}$."
+      "explication": "Multiples de 2 entre 1 et 10 : 2,4,6,8,10 → 5 issues. P =$\\frac{5}{10}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n1_038",
@@ -613,7 +613,7 @@
         "$\\frac{5}{10}$"
       ],
       "reponse": "$\\frac{3}{10}$",
-      "explication": "Multiples de 3 entre 1 et 10 : 3, 6, 9 → 3 issues. P = $\\frac{3}{10}$."
+      "explication": "Multiples de 3 entre 1 et 10 : 3, 6, 9 → 3 issues. P =$\\frac{3}{10}$."
     },
     {
       "id": "p4_n1_039",
@@ -629,7 +629,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{3}$",
-      "explication": "P(1 ou 2) = $\\frac{1}{6}$ + $\\frac{1}{6}$ = $\\frac{2}{6}$ = $\\frac{1}{3}$."
+      "explication": "P(1 ou 2) =$\\frac{1}{6}$+$\\frac{1}{6}$=$\\frac{2}{6}$=$\\frac{1}{3}$."
     },
     {
       "id": "p4_n1_040",
@@ -645,7 +645,7 @@
         "$\\frac{5}{12}$"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "P(jaune) = $\\frac{3}{12}$ = $\\frac{1}{4}$."
+      "explication": "P(jaune) =$\\frac{3}{12}$=$\\frac{1}{4}$."
     },
     {
       "id": "p4_n2_001",
@@ -709,7 +709,7 @@
         "0,2"
       ],
       "reponse": "$\\frac{1}{6}$",
-      "explication": "Pour un dé équilibré : toutes les probabilités = $\\frac{1}{6}\\approx$ 0,167. Vérif : 6 $\\times$ ($\\frac{1}{6}$) = 1 ✓"
+      "explication": "Pour un dé équilibré : toutes les probabilités =$\\frac{1}{6}\\approx$0,167. Vérif : 6$\\times$($\\frac{1}{6}$) = 1 ✓"
     },
     {
       "id": "p4_n2_005",
@@ -725,7 +725,7 @@
         "0,30"
       ],
       "reponse": "0,15",
-      "explication": "Somme connue = 0,7. Reste : 1 − 0,7 = 0,3. Les deux cases = 0,3 $\\div$ 2 = 0,15 chacune."
+      "explication": "Somme connue = 0,7. Reste : 1 − 0,7 = 0,3. Les deux cases = 0,3$\\div$2 = 0,15 chacune."
     },
     {
       "id": "p4_n2_006",
@@ -741,7 +741,7 @@
         "$\\frac{5}{6}$"
       ],
       "reponse": "$\\frac{5}{6}$",
-      "explication": "A = {1}. P(A) = $\\frac{1}{6}$. P(Ā) = 1 − $\\frac{1}{6}$ = $\\frac{5}{6}$."
+      "explication": "A = {1}. P(A) =$\\frac{1}{6}$. P(Ā) = 1 −$\\frac{1}{6}$=$\\frac{5}{6}$."
     },
     {
       "id": "p4_n2_007",
@@ -751,13 +751,13 @@
       "enonce": "La figure montre A = {1} et B = {5, 6} sur le dé. Ces événements sont-ils incompatibles ? Quelle est P(A ou B) ?",
       "image": "probabilites/9f1ee46611e67baf62f984908e822e623734abd7.png",
       "choix": [
-        "Non incompatibles, P = $\\frac{3}{6}$",
-        "Oui incompatibles, P = $\\frac{1}{2}$",
-        "Oui incompatibles, P = $\\frac{2}{6}$",
-        "Non incompatibles, P = $\\frac{1}{6}$"
+        "Non incompatibles, P =$\\frac{3}{6}$",
+        "Oui incompatibles, P =$\\frac{1}{2}$",
+        "Oui incompatibles, P =$\\frac{2}{6}$",
+        "Non incompatibles, P =$\\frac{1}{6}$"
       ],
-      "reponse": "Oui incompatibles, P = $\\frac{1}{2}$",
-      "explication": "A = {1}, B = {5, 6} : aucune issue commune → incompatibles. P(A ou B) = $\\frac{1}{6}$ + $\\frac{2}{6}$ = $\\frac{3}{6}$ = $\\frac{1}{2}$."
+      "reponse": "Oui incompatibles, P =$\\frac{1}{2}$",
+      "explication": "A = {1}, B = {5, 6} : aucune issue commune → incompatibles. P(A ou B) =$\\frac{1}{6}$+$\\frac{2}{6}$=$\\frac{3}{6}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n2_008",
@@ -773,7 +773,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "Impairs : 1, 3, 5 → P = $\\frac{3}{6}$ = $\\frac{1}{2}$."
+      "explication": "Impairs : 1, 3, 5 → P =$\\frac{3}{6}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n2_009",
@@ -789,7 +789,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "Nombres premiers entre 1 et 6 : 2, 3, 5 → P = $\\frac{3}{6}$ = $\\frac{1}{2}$."
+      "explication": "Nombres premiers entre 1 et 6 : 2, 3, 5 → P =$\\frac{3}{6}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n2_010",
@@ -805,7 +805,7 @@
         "$\\frac{5}{6}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "Diviseurs de 6 : 1, 2, 3, 6 → P = $\\frac{4}{6}$ = $\\frac{2}{3}$."
+      "explication": "Diviseurs de 6 : 1, 2, 3, 6 → P =$\\frac{4}{6}$=$\\frac{2}{3}$."
     },
     {
       "id": "p4_n2_011",
@@ -821,14 +821,14 @@
         "$\\frac{2}{9}$"
       ],
       "reponse": "$\\frac{4}{9}$",
-      "explication": "Total = 9. P(bleue) = $\\frac{4}{9}$."
+      "explication": "Total = 9. P(bleue) =$\\frac{4}{9}$."
     },
     {
       "id": "p4_n2_012",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "P(A) = $\\frac{3}{7}$. Calcule P(Ā).",
+      "enonce": "P(A) =$\\frac{3}{7}$. Calcule P(Ā).",
       "image": null,
       "choix": [
         "$\\frac{3}{7}$",
@@ -837,7 +837,7 @@
         "$\\frac{7}{3}$"
       ],
       "reponse": "$\\frac{4}{7}$",
-      "explication": "P(Ā) = 1 − $\\frac{3}{7}$ = $\\frac{4}{7}$."
+      "explication": "P(Ā) = 1 −$\\frac{3}{7}$=$\\frac{4}{7}$."
     },
     {
       "id": "p4_n2_013",
@@ -860,7 +860,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "P(A) = $\\frac{2}{5}$. Calcule P(Ā).",
+      "enonce": "P(A) =$\\frac{2}{5}$. Calcule P(Ā).",
       "image": null,
       "choix": [
         "$\\frac{1}{5}$",
@@ -869,14 +869,14 @@
         "$\\frac{4}{5}$"
       ],
       "reponse": "$\\frac{3}{5}$",
-      "explication": "P(Ā) = 1 − $\\frac{2}{5}$ = $\\frac{3}{5}$."
+      "explication": "P(Ā) = 1 −$\\frac{2}{5}$=$\\frac{3}{5}$."
     },
     {
       "id": "p4_n2_015",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un sac contient 6 billes bleues et n billes rouges. P(rouge) = $\\frac{3}{8}$. Combien y a-t-il de billes rouges ?",
+      "enonce": "Un sac contient 6 billes bleues et n billes rouges. P(rouge) =$\\frac{3}{8}$. Combien y a-t-il de billes rouges ?",
       "image": null,
       "choix": [
         "2",
@@ -885,7 +885,7 @@
         "6"
       ],
       "reponse": "3",
-      "explication": "P(rouge) = n/(6+n) = $\\frac{3}{8}$. Si n = 3 : total = 8 et P(rouge) = $\\frac{3}{8}$ ✓."
+      "explication": "P(rouge) = n/(6+n) =$\\frac{3}{8}$. Si n = 3 : total = 8 et P(rouge) =$\\frac{3}{8}$✓."
     },
     {
       "id": "p4_n2_016",
@@ -895,13 +895,13 @@
       "enonce": "Dé équilibré : A = {1, 2}, B = {5}. Sont-ils incompatibles ? Quelle est P(A ou B) ?",
       "image": null,
       "choix": [
-        "Non, P(A ou B) = $\\frac{1}{6}$",
-        "Oui, P(A ou B) = $\\frac{1}{2}$",
-        "Oui, P(A ou B) = $\\frac{1}{3}$",
-        "Non, P(A ou B) = $\\frac{2}{3}$"
+        "Non, P(A ou B) =$\\frac{1}{6}$",
+        "Oui, P(A ou B) =$\\frac{1}{2}$",
+        "Oui, P(A ou B) =$\\frac{1}{3}$",
+        "Non, P(A ou B) =$\\frac{2}{3}$"
       ],
-      "reponse": "Oui, P(A ou B) = $\\frac{1}{2}$",
-      "explication": "A = {1,2}, B = {5} : aucune issue commune → incompatibles. P(A) = $\\frac{2}{6}$, P(B) = $\\frac{1}{6}$. P(A ou B) = $\\frac{3}{6}$ = $\\frac{1}{2}$."
+      "reponse": "Oui, P(A ou B) =$\\frac{1}{2}$",
+      "explication": "A = {1,2}, B = {5} : aucune issue commune → incompatibles. P(A) =$\\frac{2}{6}$, P(B) =$\\frac{1}{6}$. P(A ou B) =$\\frac{3}{6}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n2_017",
@@ -924,7 +924,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "P(A) = $\\frac{1}{4}$, P(B) = $\\frac{1}{3}$. A et B sont incompatibles. Calcule P(A ou B).",
+      "enonce": "P(A) =$\\frac{1}{4}$, P(B) =$\\frac{1}{3}$. A et B sont incompatibles. Calcule P(A ou B).",
       "image": null,
       "choix": [
         "$\\frac{1}{12}$",
@@ -933,14 +933,14 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{7}{12}$",
-      "explication": "P(A ou B) = $\\frac{1}{4}$ + $\\frac{1}{3}$ = $\\frac{3}{12}$ + $\\frac{4}{12}$ = $\\frac{7}{12}$."
+      "explication": "P(A ou B) =$\\frac{1}{4}$+$\\frac{1}{3}$=$\\frac{3}{12}$+$\\frac{4}{12}$=$\\frac{7}{12}$."
     },
     {
       "id": "p4_n2_019",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Avec la roue de fortune (Jaune = $60°$), calcule P(jaune).",
+      "enonce": "Avec la roue de fortune (Jaune =$60°$), calcule P(jaune).",
       "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{4}$",
@@ -949,14 +949,14 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{1}{6}$",
-      "explication": "Jaune = $60°$. P(jaune) = $\\frac{60}{360}$ = $\\frac{1}{6}$."
+      "explication": "Jaune =$60°$. P(jaune) =$\\frac{60}{360}$=$\\frac{1}{6}$."
     },
     {
       "id": "p4_n2_020",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur la roue (Rouge = $120°$), calcule P(ne pas obtenir Rouge).",
+      "enonce": "Sur la roue (Rouge =$120°$), calcule P(ne pas obtenir Rouge).",
       "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{3}$",
@@ -965,7 +965,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{2}{3}$",
-      "explication": "P(rouge) = $\\frac{120}{360}$ = $\\frac{1}{3}$. P(pas rouge) = 1 − $\\frac{1}{3}$ = $\\frac{2}{3}$."
+      "explication": "P(rouge) =$\\frac{120}{360}$=$\\frac{1}{3}$. P(pas rouge) = 1 −$\\frac{1}{3}$=$\\frac{2}{3}$."
     },
     {
       "id": "p4_n2_021",
@@ -981,7 +981,7 @@
         "1"
       ],
       "reponse": "$\\frac{4}{5}$",
-      "explication": "P(rouge) = $\\frac{5}{10}$. P(bleue) = $\\frac{3}{10}$. P(rouge ou bleue) = $\\frac{5}{10}$ + $\\frac{3}{10}$ = $\\frac{8}{10}$ = $\\frac{4}{5}$."
+      "explication": "P(rouge) =$\\frac{5}{10}$. P(bleue) =$\\frac{3}{10}$. P(rouge ou bleue) =$\\frac{5}{10}$+$\\frac{3}{10}$=$\\frac{8}{10}$=$\\frac{4}{5}$."
     },
     {
       "id": "p4_n2_022",
@@ -997,7 +997,7 @@
         "$\\frac{14}{26}$"
       ],
       "reponse": "$\\frac{6}{13}$",
-      "explication": "Total = 26 élèves. P(fille) = $\\frac{12}{26}$ = $\\frac{6}{13}$."
+      "explication": "Total = 26 élèves. P(fille) =$\\frac{12}{26}$=$\\frac{6}{13}$."
     },
     {
       "id": "p4_n2_023",
@@ -1013,7 +1013,7 @@
         "$\\frac{1}{3}$"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "P(cœur) = $\\frac{8}{32}$ = $\\frac{1}{4}$."
+      "explication": "P(cœur) =$\\frac{8}{32}$=$\\frac{1}{4}$."
     },
     {
       "id": "p4_n2_024",
@@ -1029,7 +1029,7 @@
         "$\\frac{1}{4}$"
       ],
       "reponse": "$\\frac{1}{8}$",
-      "explication": "P(as) = $\\frac{4}{32}$ = $\\frac{1}{8}$."
+      "explication": "P(as) =$\\frac{4}{32}$=$\\frac{1}{8}$."
     },
     {
       "id": "p4_n2_025",
@@ -1045,7 +1045,7 @@
         "$\\frac{7}{10}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "P(pas bleue) = 1 − $\\frac{5}{10}$ = $\\frac{5}{10}$ = $\\frac{1}{2}$. Ou directement : (3+2)/10 = $\\frac{5}{10}$ = $\\frac{1}{2}$."
+      "explication": "P(pas bleue) = 1 −$\\frac{5}{10}$=$\\frac{5}{10}$=$\\frac{1}{2}$. Ou directement : (3+2)/10 =$\\frac{5}{10}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n2_026",
@@ -1061,7 +1061,7 @@
         "$\\frac{4}{10}$"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "Multiples de 4 entre 1 et 20 : 4, 8, 12, 16, 20 → 5 issues. P = $\\frac{5}{20}$ = $\\frac{1}{4}$."
+      "explication": "Multiples de 4 entre 1 et 20 : 4, 8, 12, 16, 20 → 5 issues. P =$\\frac{5}{20}$=$\\frac{1}{4}$."
     },
     {
       "id": "p4_n2_027",
@@ -1077,7 +1077,7 @@
         "$\\frac{9}{20}$"
       ],
       "reponse": "$\\frac{8}{20}$",
-      "explication": "Premiers entre 1 et 20 : 2, 3, 5, 7, 11, 13, 17, 19 → 8 issues. P = $\\frac{8}{20}$ = $\\frac{2}{5}$."
+      "explication": "Premiers entre 1 et 20 : 2, 3, 5, 7, 11, 13, 17, 19 → 8 issues. P =$\\frac{8}{20}$=$\\frac{2}{5}$."
     },
     {
       "id": "p4_n2_028",
@@ -1125,7 +1125,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "P(bonne réponse) = $\\frac{1}{4}$. P(mauvaise réponse) = $\\frac{3}{4}$."
+      "explication": "P(bonne réponse) =$\\frac{1}{4}$. P(mauvaise réponse) =$\\frac{3}{4}$."
     },
     {
       "id": "p4_n3_001",
@@ -1151,13 +1151,13 @@
       "enonce": "Dé équilibré : A = {2,4,6} (pairs), B = {3,6} (multiples de 3). Ces événements sont-ils incompatibles ? Quelle est P(A ou B) ?",
       "image": null,
       "choix": [
-        "Incompatibles, P(A ou B) = $\\frac{5}{6}$",
-        "Non incompatibles, P(A ou B) = $\\frac{2}{3}$",
-        "Non incompatibles, P(A ou B) = $\\frac{5}{6}$",
-        "Incompatibles, P(A ou B) = $\\frac{1}{2}$"
+        "Incompatibles, P(A ou B) =$\\frac{5}{6}$",
+        "Non incompatibles, P(A ou B) =$\\frac{2}{3}$",
+        "Non incompatibles, P(A ou B) =$\\frac{5}{6}$",
+        "Incompatibles, P(A ou B) =$\\frac{1}{2}$"
       ],
-      "reponse": "Non incompatibles, P(A ou B) = $\\frac{2}{3}$",
-      "explication": "A = {2,4,6}, B = {3,6} : ils ont 6 en commun → pas incompatibles. P(A ou B) = P(A) + P(B) − P(A et B) = $\\frac{3}{6}$ + $\\frac{2}{6}$ − $\\frac{1}{6}$ = $\\frac{4}{6}$ = $\\frac{2}{3}$."
+      "reponse": "Non incompatibles, P(A ou B) =$\\frac{2}{3}$",
+      "explication": "A = {2,4,6}, B = {3,6} : ils ont 6 en commun → pas incompatibles. P(A ou B) = P(A) + P(B) − P(A et B) =$\\frac{3}{6}$+$\\frac{2}{6}$−$\\frac{1}{6}$=$\\frac{4}{6}$=$\\frac{2}{3}$."
     },
     {
       "id": "p4_n3_003",
@@ -1173,14 +1173,14 @@
         "$\\frac{8}{81}$"
       ],
       "reponse": "$\\frac{16}{81}$",
-      "explication": "P(bleue) = $\\frac{4}{9}$. Avec remise, les tirages sont indépendants : P(2 bleues) = $\\frac{4}{9} \\times \\frac{4}{9}$ = $\\frac{16}{81}$."
+      "explication": "P(bleue) =$\\frac{4}{9}$. Avec remise, les tirages sont indépendants : P(2 bleues) =$\\frac{4}{9} \\times \\frac{4}{9}$=$\\frac{16}{81}$."
     },
     {
       "id": "p4_n3_004",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "P(A) = $\\frac{2}{5}$, P(B) = $\\frac{1}{3}$, A et B incompatibles. Calcule P(ni A ni B).",
+      "enonce": "P(A) =$\\frac{2}{5}$, P(B) =$\\frac{1}{3}$, A et B incompatibles. Calcule P(ni A ni B).",
       "image": null,
       "choix": [
         "$\\frac{4}{15}$",
@@ -1189,14 +1189,14 @@
         "$\\frac{7}{15}$"
       ],
       "reponse": "$\\frac{4}{15}$",
-      "explication": "P(A ou B) = $\\frac{2}{5}$ + $\\frac{1}{3}$ = $\\frac{6}{15}$ + $\\frac{5}{15}$ = $\\frac{11}{15}$. P(ni A ni B) = 1 − $\\frac{11}{15}$ = $\\frac{4}{15}$."
+      "explication": "P(A ou B) =$\\frac{2}{5}$+$\\frac{1}{3}$=$\\frac{6}{15}$+$\\frac{5}{15}$=$\\frac{11}{15}$. P(ni A ni B) = 1 −$\\frac{11}{15}$=$\\frac{4}{15}$."
     },
     {
       "id": "p4_n3_005",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "P(pair) = $\\frac{3}{8}$, P(multiple de 3) = $\\frac{2}{8}$, P(pair ET multiple de 3) = $\\frac{1}{8}$. Calcule P(pair OU multiple de 3).",
+      "enonce": "P(pair) =$\\frac{3}{8}$, P(multiple de 3) =$\\frac{2}{8}$, P(pair ET multiple de 3) =$\\frac{1}{8}$. Calcule P(pair OU multiple de 3).",
       "image": null,
       "choix": [
         "$\\frac{5}{8}$",
@@ -1205,7 +1205,7 @@
         "$\\frac{3}{8}$"
       ],
       "reponse": "$\\frac{4}{8}$",
-      "explication": "P(pair ou mult 3) = $\\frac{3}{8}$ + $\\frac{2}{8}$ − $\\frac{1}{8}$ = $\\frac{4}{8}$ = $\\frac{1}{2}$. On soustrait l'intersection pour ne pas la compter deux fois."
+      "explication": "P(pair ou mult 3) =$\\frac{3}{8}$+$\\frac{2}{8}$−$\\frac{1}{8}$=$\\frac{4}{8}$=$\\frac{1}{2}$. On soustrait l'intersection pour ne pas la compter deux fois."
     },
     {
       "id": "p4_n3_006",
@@ -1221,7 +1221,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "P(A ou B) = $\\frac{1}{2}$. P(ni A ni B) = 1 − $\\frac{1}{2}$ = $\\frac{1}{2}$. Les issues non couvertes sont {2, 3, 4}."
+      "explication": "P(A ou B) =$\\frac{1}{2}$. P(ni A ni B) = 1 −$\\frac{1}{2}$=$\\frac{1}{2}$. Les issues non couvertes sont {2, 3, 4}."
     },
     {
       "id": "p4_n3_007",
@@ -1232,12 +1232,12 @@
       "image": null,
       "choix": [
         "P(A) + P(B) = 1 obligatoirement",
-        "P(A) + P(B) $\\leq$ 1",
-        "P(A) + P(B) $\\geq$ 1",
+        "P(A) + P(B)$\\leq$1",
+        "P(A) + P(B)$\\geq$1",
         "On ne peut rien affirmer"
       ],
-      "reponse": "P(A) + P(B) $\\leq$ 1",
-      "explication": "A et B incompatibles → P(A ou B) = P(A) + P(B). Or P(A ou B) $\\leq$ 1 donc P(A) + P(B) $\\leq$ 1."
+      "reponse": "P(A) + P(B)$\\leq$1",
+      "explication": "A et B incompatibles → P(A ou B) = P(A) + P(B). Or P(A ou B)$\\leq$1 donc P(A) + P(B)$\\leq$1."
     },
     {
       "id": "p4_n3_008",
@@ -1269,7 +1269,7 @@
         "250"
       ],
       "reponse": "248",
-      "explication": "Nombre de FACE = 0,496 $\\times$ 500 = 248 fois."
+      "explication": "Nombre de FACE = 0,496$\\times$500 = 248 fois."
     },
     {
       "id": "p4_n3_010",
@@ -1285,7 +1285,7 @@
         "150"
       ],
       "reponse": "100",
-      "explication": "P(1) = $\\frac{1}{6}$. Fréquence attendue = 600 $\\times\\frac{1}{6}$ = 100 fois."
+      "explication": "P(1) =$\\frac{1}{6}$. Fréquence attendue = 600$\\times\\frac{1}{6}$= 100 fois."
     },
     {
       "id": "p4_n3_011",
@@ -1301,14 +1301,14 @@
         "$\\frac{3}{8}$"
       ],
       "reponse": "$\\frac{1}{4}$",
-      "explication": "P(roi) = $\\frac{4}{32}$ = $\\frac{1}{8}$. P(as) = $\\frac{4}{32}$ = $\\frac{1}{8}$. Incompatibles. P(roi ou as) = $\\frac{1}{8}$ + $\\frac{1}{8}$ = $\\frac{2}{8}$ = $\\frac{1}{4}$."
+      "explication": "P(roi) =$\\frac{4}{32}$=$\\frac{1}{8}$. P(as) =$\\frac{4}{32}$=$\\frac{1}{8}$. Incompatibles. P(roi ou as) =$\\frac{1}{8}$+$\\frac{1}{8}$=$\\frac{2}{8}$=$\\frac{1}{4}$."
     },
     {
       "id": "p4_n3_012",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Une urne contient x boules rouges et 6 bleues. P(rouge) = $\\frac{2}{5}$. Trouve x.",
+      "enonce": "Une urne contient x boules rouges et 6 bleues. P(rouge) =$\\frac{2}{5}$. Trouve x.",
       "image": null,
       "choix": [
         "2",
@@ -1317,23 +1317,23 @@
         "5"
       ],
       "reponse": "4",
-      "explication": "x/(x+6) = $\\frac{2}{5}$ → 5x = 2(x+6) = 2x+12 → 3x = 12 → x = 4."
+      "explication": "x/(x+6) =$\\frac{2}{5}$→ 5x = 2(x+6) = 2x+12 → 3x = 12 → x = 4."
     },
     {
       "id": "p4_n3_013",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "P(A) = $\\frac{1}{3}$, P(B) = $\\frac{1}{4}$, P(A ou B) = $\\frac{1}{2}$. A et B sont-ils incompatibles ?",
+      "enonce": "P(A) =$\\frac{1}{3}$, P(B) =$\\frac{1}{4}$, P(A ou B) =$\\frac{1}{2}$. A et B sont-ils incompatibles ?",
       "image": null,
       "choix": [
-        "Oui, car P(A) + P(B) = $\\frac{7}{12}\\neq\\frac{1}{2}$",
-        "Non, car P(A) + P(B) $\\neq$ P(A ou B)",
+        "Oui, car P(A) + P(B) =$\\frac{7}{12}\\neq\\frac{1}{2}$",
+        "Non, car P(A) + P(B)$\\neq$P(A ou B)",
         "Oui, car P(A ou B) < 1",
-        "Non, car P(A ou B) = $\\frac{1}{2}$"
+        "Non, car P(A ou B) =$\\frac{1}{2}$"
       ],
-      "reponse": "Non, car P(A) + P(B) $\\neq$ P(A ou B)",
-      "explication": "Si incompatibles : P(A ou B) = $\\frac{1}{3}$ + $\\frac{1}{4}$ = $\\frac{7}{12}\\neq\\frac{1}{2}$. Donc A et B ne sont pas incompatibles. P(A et B) = $\\frac{1}{3}$ + $\\frac{1}{4}$ − $\\frac{1}{2}$ = $\\frac{1}{12}$."
+      "reponse": "Non, car P(A) + P(B)$\\neq$P(A ou B)",
+      "explication": "Si incompatibles : P(A ou B) =$\\frac{1}{3}$+$\\frac{1}{4}$=$\\frac{7}{12}\\neq\\frac{1}{2}$. Donc A et B ne sont pas incompatibles. P(A et B) =$\\frac{1}{3}$+$\\frac{1}{4}$−$\\frac{1}{2}$=$\\frac{1}{12}$."
     },
     {
       "id": "p4_n3_014",
@@ -1349,7 +1349,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "Les 4 issues équiprobables sont : (P,P), (P,F), (F,P), (F,F). Exactement 1 FACE → (P,F) et (F,P) : P = $\\frac{2}{4}$ = $\\frac{1}{2}$."
+      "explication": "Les 4 issues équiprobables sont : (P,P), (P,F), (F,P), (F,F). Exactement 1 FACE → (P,F) et (F,P) : P =$\\frac{2}{4}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n3_015",
@@ -1365,7 +1365,7 @@
         "$\\frac{3}{15}$"
       ],
       "reponse": "$\\frac{3}{13}$",
-      "explication": "Nouveau total = 12 − 2 + 3 = 13. Rouges restantes = 5 − 2 = 3. P(rouge) = $\\frac{3}{13}$."
+      "explication": "Nouveau total = 12 − 2 + 3 = 13. Rouges restantes = 5 − 2 = 3. P(rouge) =$\\frac{3}{13}$."
     },
     {
       "id": "p4_n3_016",
@@ -1388,7 +1388,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un sac contient n billes dont 8 rouges. P(pas rouge) = $\\frac{3}{4}$. Combien y a-t-il de billes au total ?",
+      "enonce": "Un sac contient n billes dont 8 rouges. P(pas rouge) =$\\frac{3}{4}$. Combien y a-t-il de billes au total ?",
       "image": null,
       "choix": [
         "16",
@@ -1397,7 +1397,7 @@
         "40"
       ],
       "reponse": "32",
-      "explication": "P(rouge) = 1 − $\\frac{3}{4}$ = $\\frac{1}{4}$. Or P(rouge) = 8/n = $\\frac{1}{4}$ → n = 32."
+      "explication": "P(rouge) = 1 −$\\frac{3}{4}$=$\\frac{1}{4}$. Or P(rouge) = 8/n =$\\frac{1}{4}$→ n = 32."
     },
     {
       "id": "p4_n3_018",
@@ -1413,7 +1413,7 @@
         "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{1}{2}$",
-      "explication": "Issues > 2 : {3, 4}. P(>2) = $\\frac{2}{4}$ = $\\frac{1}{2}$."
+      "explication": "Issues > 2 : {3, 4}. P(>2) =$\\frac{2}{4}$=$\\frac{1}{2}$."
     },
     {
       "id": "p4_n3_019",
@@ -1445,7 +1445,7 @@
         "$\\frac{21}{25}$"
       ],
       "reponse": "$\\frac{15}{25}$",
-      "explication": "P(sport) = $\\frac{10}{25}$, P(musique) = $\\frac{8}{25}$, P(les deux) = $\\frac{3}{25}$. P(sport ou musique) = $\\frac{10}{25}$ + $\\frac{8}{25}$ − $\\frac{3}{25}$ = $\\frac{15}{25}$ = $\\frac{3}{5}$."
+      "explication": "P(sport) =$\\frac{10}{25}$, P(musique) =$\\frac{8}{25}$, P(les deux) =$\\frac{3}{25}$. P(sport ou musique) =$\\frac{10}{25}$+$\\frac{8}{25}$−$\\frac{3}{25}$=$\\frac{15}{25}$=$\\frac{3}{5}$."
     }
   ]
 }

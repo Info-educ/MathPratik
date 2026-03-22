@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4 $\\times$ a = ?",
+      "enonce": "4$\\times$a = ?",
       "choix": [
         "a4",
         "4+a",
@@ -21,7 +21,7 @@
         "a/4"
       ],
       "reponse": "4a",
-      "explication": "On supprime $\\times$. 4a",
+      "explication": "On supprime$\\times$. 4a",
       "image": null
     },
     {
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times\\pi$ = ?",
+      "enonce": "6$\\times\\pi$= ?",
       "choix": [
         "6+$\\pi$",
         "$\\pi$+6",
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "x $\\times$ y = ?",
+      "enonce": "x$\\times$y = ?",
       "choix": [
         "x+y",
         "$\\frac{x}{y}$",
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "a $\\times$ 3 $\\times$ b = ?",
+      "enonce": "a$\\times$3$\\times$b = ?",
       "choix": [
         "a+3+b",
         "3ab",
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(1 + a) $\\times$ 3 = ?",
+      "enonce": "(1 + a)$\\times$3 = ?",
       "choix": [
         "3+a",
         "3a",
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "y $\\times$ (1 - y) = ?",
+      "enonce": "y$\\times$(1 - y) = ?",
       "choix": [
         "y(1-y)",
         "y-$y^{2}$",
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\pi\\times$ r $\\times$ r = ?",
+      "enonce": "$\\pi\\times$r$\\times$r = ?",
       "choix": [
         "$\\pi$r+r",
         "$\\pi$r",
@@ -123,7 +123,7 @@
         "2$\\pi$r"
       ],
       "reponse": "$\\pi r^{2}$",
-      "explication": "r$\\times$r=$r^{2}$. Donc $\\pi r^{2}$",
+      "explication": "r$\\times$r=$r^{2}$. Donc$\\pi r^{2}$",
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "a $\\times$ a $\\times$ a $\\times$ 4 = ?",
+      "enonce": "a$\\times$a$\\times$a$\\times$4 = ?",
       "choix": [
         "3a$\\times$4",
         "$4$a^{2}",
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "m $\\times$ m = ?",
+      "enonce": "m$\\times$m = ?",
       "choix": [
         "2m",
         "m2",
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "b $\\times$ 1 = ?",
+      "enonce": "b$\\times$1 = ?",
       "choix": [
         "1+b",
         "b1",
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(2 + x) $\\times$ 4 = ?",
+      "enonce": "(2 + x)$\\times$4 = ?",
       "choix": [
         "4+x",
         "4(2+x)",
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "n $\\times$ n $\\times$ n = ?",
+      "enonce": "n$\\times$n$\\times$n = ?",
       "choix": [
         "n3",
         "3n",
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 $\\times$ a $\\times$ b $\\times$ 2 = ?",
+      "enonce": "7$\\times$a$\\times$b$\\times$2 = ?",
       "choix": [
         "9ab",
         "14ab",
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "c $\\times$ (c - 1) = ?",
+      "enonce": "c$\\times$(c - 1) = ?",
       "choix": [
         "c-1",
         "c(c-1)",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3 $\\times$ x $\\times$ x = ?",
+      "enonce": "3$\\times$x$\\times$x = ?",
       "choix": [
         "6x",
         "$3$x^{2}",
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(a+b) $\\times$ (a-b) = ?",
+      "enonce": "(a+b)$\\times$(a-b) = ?",
       "choix": [
         "(a+b)(a-b)",
         "$a^{2}$+$b^{2}$",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2 $\\times$ r $\\times\\pi$ = ?",
+      "enonce": "2$\\times$r$\\times\\pi$= ?",
       "choix": [
         "2r+$\\pi$",
         "2$\\pi$r",
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "k $\\times$ k $\\times$ k $\\times$ k = ?",
+      "enonce": "k$\\times$k$\\times$k$\\times$k = ?",
       "choix": [
         "4k",
         "k4",
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0 $\\times$ z + 5 = ?",
+      "enonce": "0$\\times$z + 5 = ?",
       "choix": [
         "0",
         "z+5",
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times$ a $\\times$ a = ?",
+      "enonce": "6$\\times$a$\\times$a = ?",
       "choix": [
         "$6$a^{2}",
         "12a",
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "x $\\times$ 1 $\\times$ y = ?",
+      "enonce": "x$\\times$1$\\times$y = ?",
       "choix": [
         "x+y",
         "1xy",
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(4 + t) $\\times$ 5 = ?",
+      "enonce": "(4 + t)$\\times$5 = ?",
       "choix": [
         "5+t",
         "5(4+t)",
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 $\\times$ b $\\times$ b $\\times$ b = ?",
+      "enonce": "9$\\times$b$\\times$b$\\times$b = ?",
       "choix": [
         "27b",
         "$9$b^{2}",
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(1 + 2x) $\\times$ 3 = ?",
+      "enonce": "(1 + 2x)$\\times$3 = ?",
       "choix": [
         "3+6x",
         "3(1+2x)",
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-1) $\\times$ x = ?",
+      "enonce": "(-1)$\\times$x = ?",
       "choix": [
         "x",
         "-x",

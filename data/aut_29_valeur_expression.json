@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$x^{2}$ + x pour x=3",
+      "enonce": "$x^{2}$+ x pour x=3",
       "choix": [
         "9",
         "10",
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$x^{2}$ - 2x + 1 pour x=4",
+      "enonce": "$x^{2}$- 2x + 1 pour x=4",
       "choix": [
         "7",
         "8",
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(a + b)² pour a=2, b=1",
+      "enonce": "$(a + b)^{2}$pour a=2, b=1",
       "choix": [
         "7",
         "8",
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$y^{2}$ + 2y pour y=3",
+      "enonce": "$y^{2}$+ 2y pour y=3",
       "choix": [
         "13",
         "14",
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$3$\\mathrm{m}^2$ - m pour m=2",
+      "enonce": "$3$\\mathrm{m}^2$- m pour m=2",
       "choix": [
         "8",
         "10",
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$x^{2}$ + $y^{2}$ pour x=3, y=4",
+      "enonce": "$x^{2}$+$y^{2}$pour x=3, y=4",
       "choix": [
         "21",
         "25",
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6a $\\div$ 2 + 3 pour a=4",
+      "enonce": "6a$\\div$2 + 3 pour a=4",
       "choix": [
         "13",
         "14",
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(2x - 1)² pour x=2",
+      "enonce": "$(2x - 1)^{2}$pour x=2",
       "choix": [
         "7",
         "8",
@@ -446,7 +446,7 @@
         "10"
       ],
       "reponse": "9",
-      "explication": "(4-1)²=9",
+      "explication": "$(4-1)^{2}$=9",
       "image": null
     },
     {
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$a^{3}$ pour a=2",
+      "enonce": "$a^{3}$pour a=2",
       "choix": [
         "6",
         "8",

@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 $\\times$ 8 = ?",
+      "enonce": "7$\\times$8 = ?",
       "choix": [
         "54",
         "56",
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 $\\times$ 6 = ?",
+      "enonce": "9$\\times$6 = ?",
       "choix": [
         "54",
         "63",
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12 $\\times$ 7 = ?",
+      "enonce": "12$\\times$7 = ?",
       "choix": [
         "74",
         "84",
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8 $\\times$ 11 = ?",
+      "enonce": "8$\\times$11 = ?",
       "choix": [
         "80",
         "88",
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 $\\times$ 9 = ?",
+      "enonce": "9$\\times$9 = ?",
       "choix": [
         "72",
         "81",
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times$ 7 = ?",
+      "enonce": "6$\\times$7 = ?",
       "choix": [
         "36",
         "48",
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "11 $\\times$ 12 = ?",
+      "enonce": "11$\\times$12 = ?",
       "choix": [
         "121",
         "132",
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8 $\\times$ 8 = ?",
+      "enonce": "8$\\times$8 = ?",
       "choix": [
         "64",
         "72",
@@ -149,7 +149,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 $\\times$ 9 = ?",
+      "enonce": "7$\\times$9 = ?",
       "choix": [
         "54",
         "72",
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12 $\\times$ 6 = ?",
+      "enonce": "12$\\times$6 = ?",
       "choix": [
         "66",
         "72",
@@ -183,7 +183,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 $\\times$ 11 = ?",
+      "enonce": "9$\\times$11 = ?",
       "choix": [
         "90",
         "99",
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times$ 8 = ?",
+      "enonce": "6$\\times$8 = ?",
       "choix": [
         "42",
         "54",
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 $\\times$ 12 = ?",
+      "enonce": "7$\\times$12 = ?",
       "choix": [
         "72",
         "77",
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "11 $\\times$ 9 = ?",
+      "enonce": "11$\\times$9 = ?",
       "choix": [
         "88",
         "99",
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8 $\\times$ 12 = ?",
+      "enonce": "8$\\times$12 = ?",
       "choix": [
         "84",
         "96",
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 $\\times$ 7 = ?",
+      "enonce": "9$\\times$7 = ?",
       "choix": [
         "56",
         "72",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times$ 11 = ?",
+      "enonce": "6$\\times$11 = ?",
       "choix": [
         "60",
         "66",
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12 $\\times$ 9 = ?",
+      "enonce": "12$\\times$9 = ?",
       "choix": [
         "96",
         "108",
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 $\\times$ 7 = ?",
+      "enonce": "7$\\times$7 = ?",
       "choix": [
         "42",
         "56",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "11 $\\times$ 8 = ?",
+      "enonce": "11$\\times$8 = ?",
       "choix": [
         "77",
         "88",
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 $\\times$ 12 = ?",
+      "enonce": "9$\\times$12 = ?",
       "choix": [
         "99",
         "108",
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times$ 9 = ?",
+      "enonce": "6$\\times$9 = ?",
       "choix": [
         "48",
         "54",
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12 $\\times$ 11 = ?",
+      "enonce": "12$\\times$11 = ?",
       "choix": [
         "120",
         "132",
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8 $\\times$ 9 = ?",
+      "enonce": "8$\\times$9 = ?",
       "choix": [
         "64",
         "81",
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 $\\times$ 11 = ?",
+      "enonce": "7$\\times$11 = ?",
       "choix": [
         "70",
         "77",
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times$ 12 = ?",
+      "enonce": "6$\\times$12 = ?",
       "choix": [
         "60",
         "66",
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "11 $\\times$ 11 = ?",
+      "enonce": "11$\\times$11 = ?",
       "choix": [
         "110",
         "121",
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12 $\\times$ 12 = ?",
+      "enonce": "12$\\times$12 = ?",
       "choix": [
         "132",
         "140",
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 $\\times$ 8 = ?",
+      "enonce": "9$\\times$8 = ?",
       "choix": [
         "63",
         "72",
@@ -506,7 +506,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 $\\times$ 6 = ?",
+      "enonce": "6$\\times$6 = ?",
       "choix": [
         "30",
         "36",

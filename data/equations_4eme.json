@@ -63,7 +63,7 @@
       "enonce": "x = 8 est-il solution de 3 + x = 11 ?",
       "image": null,
       "choix": [
-        "Non, 3 + 8 $\\neq$ 11",
+        "Non, 3 + 8$\\neq$11",
         "Oui, 3 + 8 = 11",
         "On ne peut pas savoir",
         "Non, x doit être négatif"
@@ -80,12 +80,12 @@
       "image": null,
       "choix": [
         "Oui, 3 + 4 = 11",
-        "Non, 3 + 4 = 7 $\\neq$ 11",
+        "Non, 3 + 4 = 7$\\neq$11",
         "Oui, car 4 < 11",
         "On ne peut pas savoir"
       ],
-      "reponse": "Non, 3 + 4 = 7 $\\neq$ 11",
-      "explication": "3 + 4 = 7 $\\neq$ 11. Donc x = 4 n'est pas solution."
+      "reponse": "Non, 3 + 4 = 7$\\neq$11",
+      "explication": "3 + 4 = 7$\\neq$11. Donc x = 4 n'est pas solution."
     },
     {
       "id": "eq4_n1_006",
@@ -95,13 +95,13 @@
       "enonce": "x = 4 est-il solution de 5x − 3 = 17 ?",
       "image": null,
       "choix": [
-        "Non, 5 $\\times$ 4 − 3 = 14 $\\neq$ 17",
-        "Oui, 5 $\\times$ 4 − 3 = 17",
-        "Non, 5 $\\times$ 4 − 3 = 23 $\\neq$ 17",
+        "Non, 5$\\times$4 − 3 = 14$\\neq$17",
+        "Oui, 5$\\times$4 − 3 = 17",
+        "Non, 5$\\times$4 − 3 = 23$\\neq$17",
         "On ne peut pas savoir"
       ],
-      "reponse": "Oui, 5 $\\times$ 4 − 3 = 17",
-      "explication": "5 $\\times$ 4 − 3 = 20 − 3 = 17 ✓. Oui, x = 4 est solution."
+      "reponse": "Oui, 5$\\times$4 − 3 = 17",
+      "explication": "5$\\times$4 − 3 = 20 − 3 = 17 ✓. Oui, x = 4 est solution."
     },
     {
       "id": "eq4_n1_007",
@@ -111,13 +111,13 @@
       "enonce": "x = 6 est-il solution de 5x − 3 = 17 ?",
       "image": null,
       "choix": [
-        "Oui, 5 $\\times$ 6 − 3 = 17",
-        "Non, 5 $\\times$ 6 − 3 = 27 $\\neq$ 17",
+        "Oui, 5$\\times$6 − 3 = 17",
+        "Non, 5$\\times$6 − 3 = 27$\\neq$17",
         "Oui, car 6 > 0",
-        "Non, 5 $\\times$ 6 − 3 = 33 $\\neq$ 17"
+        "Non, 5$\\times$6 − 3 = 33$\\neq$17"
       ],
-      "reponse": "Non, 5 $\\times$ 6 − 3 = 27 $\\neq$ 17",
-      "explication": "5 $\\times$ 6 − 3 = 30 − 3 = 27 $\\neq$ 17. Non, x = 6 n'est pas solution."
+      "reponse": "Non, 5$\\times$6 − 3 = 27$\\neq$17",
+      "explication": "5$\\times$6 − 3 = 30 − 3 = 27$\\neq$17. Non, x = 6 n'est pas solution."
     },
     {
       "id": "eq4_n1_008",
@@ -143,13 +143,13 @@
       "enonce": "x = −3 est-il solution de 2x + 7 = 1 ?",
       "image": null,
       "choix": [
-        "Non, 2 $\\times$ (−3) + 7 = −13 $\\neq$ 1",
-        "Oui, 2 $\\times$ (−3) + 7 = 1",
+        "Non, 2$\\times$(−3) + 7 = −13$\\neq$1",
+        "Oui, 2$\\times$(−3) + 7 = 1",
         "Non, car x doit être positif",
-        "Oui, car −3 + 7 = 4 $\\neq$ 1"
+        "Oui, car −3 + 7 = 4$\\neq$1"
       ],
-      "reponse": "Oui, 2 $\\times$ (−3) + 7 = 1",
-      "explication": "2 $\\times$ (−3) + 7 = −6 + 7 = 1 ✓. Oui, x = −3 est solution."
+      "reponse": "Oui, 2$\\times$(−3) + 7 = 1",
+      "explication": "2$\\times$(−3) + 7 = −6 + 7 = 1 ✓. Oui, x = −3 est solution."
     },
     {
       "id": "eq4_n1_010",
@@ -165,7 +165,7 @@
         "Oui, mais seulement si l'inconnue est négative"
       ],
       "reponse": "Oui, par exemple x + 1 = x n'a aucune solution",
-      "explication": "Oui. Par exemple x + 1 = x n'a aucune solution car quel que soit x, x+1 $\\neq$ x."
+      "explication": "Oui. Par exemple x + 1 = x n'a aucune solution car quel que soit x, x+1$\\neq$x."
     },
     {
       "id": "eq4_n1_011",
@@ -316,16 +316,16 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Quelle est la solution de x − $\\frac{2}{3}$ = $\\frac{1}{3}$ ?",
+      "enonce": "Quelle est la solution de x −$\\frac{2}{3}$=$\\frac{1}{3}$?",
       "image": null,
       "choix": [
-        "x = $\\frac{1}{3}$",
+        "x =$\\frac{1}{3}$",
         "x = 1",
         "x = 3",
         "x = −$\\frac{1}{3}$"
       ],
       "reponse": "x = 1",
-      "explication": "x = $\\frac{1}{3}$ + $\\frac{2}{3}$ = $\\frac{3}{3}$ = 1."
+      "explication": "x =$\\frac{1}{3}$+$\\frac{2}{3}$=$\\frac{3}{3}$= 1."
     },
     {
       "id": "eq4_n1_021",
@@ -341,7 +341,7 @@
         "L'associativité"
       ],
       "reponse": "La conservation de l'égalité par multiplication",
-      "explication": "Si a = b et k $\\neq$ 0, alors a $\\times$ k = b $\\times$ k."
+      "explication": "Si a = b et k$\\neq$0, alors a$\\times$k = b$\\times$k."
     },
     {
       "id": "eq4_n1_022",
@@ -357,7 +357,7 @@
         "y = 10"
       ],
       "reponse": "y = 10",
-      "explication": "y/2 $\\times$ 2 = 5 $\\times$ 2 → y = 10. Vérif : $\\frac{10}{2}$ = 5 ✓"
+      "explication": "y/2$\\times$2 = 5$\\times$2 → y = 10. Vérif :$\\frac{10}{2}$= 5 ✓"
     },
     {
       "id": "eq4_n1_023",
@@ -369,11 +369,11 @@
       "choix": [
         "s = 3",
         "s = −3",
-        "s = $\\frac{1}{3}$",
+        "s =$\\frac{1}{3}$",
         "s = −$\\frac{1}{3}$"
       ],
       "reponse": "s = −$\\frac{1}{3}$",
-      "explication": "3s/3 = −$\\frac{1}{3}$ → s = −$\\frac{1}{3}$. Vérif : 3 $\\times$ (−$\\frac{1}{3}$) = −1 ✓"
+      "explication": "3s/3 = −$\\frac{1}{3}$→ s = −$\\frac{1}{3}$. Vérif : 3$\\times$(−$\\frac{1}{3}$) = −1 ✓"
     },
     {
       "id": "eq4_n1_024",
@@ -389,7 +389,7 @@
         "x = 24"
       ],
       "reponse": "x = 5",
-      "explication": "x = $\\frac{20}{4}$ = 5. Vérif : 4 $\\times$ 5 = 20 ✓"
+      "explication": "x =$\\frac{20}{4}$= 5. Vérif : 4$\\times$5 = 20 ✓"
     },
     {
       "id": "eq4_n1_025",
@@ -401,11 +401,11 @@
       "choix": [
         "x = 4",
         "x = 10",
-        "x = $\\frac{7}{3}$",
+        "x =$\\frac{7}{3}$",
         "x = 21"
       ],
       "reponse": "x = 21",
-      "explication": "x = 7 $\\times$ 3 = 21. Vérif : $\\frac{21}{3}$ = 7 ✓"
+      "explication": "x = 7$\\times$3 = 21. Vérif :$\\frac{21}{3}$= 7 ✓"
     },
     {
       "id": "eq4_n1_026",
@@ -421,7 +421,7 @@
         "Diviser par 5"
       ],
       "reponse": "Diviser par 5",
-      "explication": "On divise les deux membres par 5 : x = $\\frac{30}{5}$ = 6."
+      "explication": "On divise les deux membres par 5 : x =$\\frac{30}{5}$= 6."
     },
     {
       "id": "eq4_n1_027",
@@ -437,7 +437,7 @@
         "t = 16"
       ],
       "reponse": "t = −4",
-      "explication": "t = −$\\frac{8}{2}$ = −4."
+      "explication": "t = −$\\frac{8}{2}$= −4."
     },
     {
       "id": "eq4_n1_028",
@@ -453,7 +453,7 @@
         "x = 15"
       ],
       "reponse": "x = −15",
-      "explication": "x = −3 $\\times$ 5 = −15."
+      "explication": "x = −3$\\times$5 = −15."
     },
     {
       "id": "eq4_n1_029",
@@ -469,7 +469,7 @@
         "x = 0,5"
       ],
       "reponse": "x = 8",
-      "explication": "x = $\\frac{4}{0}$,5 = 8."
+      "explication": "x =$\\frac{4}{0}$,5 = 8."
     },
     {
       "id": "eq4_n1_030",
@@ -481,7 +481,7 @@
       "choix": [
         "x = 7",
         "x = −7",
-        "x = $\\frac{1}{7}$",
+        "x =$\\frac{1}{7}$",
         "x = −$\\frac{1}{7}$"
       ],
       "reponse": "x = −7",
@@ -498,7 +498,7 @@
         "x = 3",
         "x = 5",
         "x = 7",
-        "x = $\\frac{23}{3}$"
+        "x =$\\frac{23}{3}$"
       ],
       "reponse": "x = 5",
       "explication": "3x = 19 − 4 = 15 → x = 5. Vérif : 3$\\times$5+4=19 ✓"
@@ -528,7 +528,7 @@
       "image": null,
       "choix": [
         "x = 3",
-        "x = $\\frac{19}{5}$",
+        "x =$\\frac{19}{5}$",
         "x = 15",
         "x = 1"
       ],
@@ -545,7 +545,7 @@
       "choix": [
         "x = 2,5",
         "x = 3",
-        "x = $\\frac{10}{4}$",
+        "x =$\\frac{10}{4}$",
         "x = 12"
       ],
       "reponse": "x = 3",
@@ -610,7 +610,7 @@
         "x = 4",
         "x = 3",
         "x = 5",
-        "x = $\\frac{23}{3}$"
+        "x =$\\frac{23}{3}$"
       ],
       "reponse": "x = 5",
       "explication": "3x = 15 → x = 5. Léa a 5 bonbons au coca."
@@ -988,7 +988,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Une piscine se remplit en 8h. Après combien d'heures est-elle remplie aux $\\frac{3}{4}$ ?",
+      "enonce": "Une piscine se remplit en 8h. Après combien d'heures est-elle remplie aux$\\frac{3}{4}$?",
       "image": null,
       "choix": [
         "4 h",
@@ -997,7 +997,7 @@
         "7 h"
       ],
       "reponse": "6 h",
-      "explication": "x/8 = $\\frac{3}{4}$ → x = 8 $\\times\\frac{3}{4}$ = 6 h."
+      "explication": "x/8 =$\\frac{3}{4}$→ x = 8$\\times\\frac{3}{4}$= 6 h."
     },
     {
       "id": "eq4_n2_023",
@@ -1276,7 +1276,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans une classe, $\\frac{3}{5}$ des élèves sont des filles. Si 4 garçons s'ajoutent, les filles représentent la moitié. Combien y avait-il d'élèves au départ ?",
+      "enonce": "Dans une classe,$\\frac{3}{5}$des élèves sont des filles. Si 4 garçons s'ajoutent, les filles représentent la moitié. Combien y avait-il d'élèves au départ ?",
       "image": null,
       "choix": [
         "15",
@@ -1308,7 +1308,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si ax + b = c avec a $\\neq$ 0, quelle est la solution x ?",
+      "enonce": "Si ax + b = c avec a$\\neq$0, quelle est la solution x ?",
       "image": null,
       "choix": [
         "x = (a−b)/c",
@@ -1388,7 +1388,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "La longueur d'un rectangle est (3x−2) cm, sa largeur est (x+1) cm, l'aire est 50 $\\mathrm{cm}^2$. Quelle valeur de x convient (vérifier par substitution) ?",
+      "enonce": "La longueur d'un rectangle est (3x−2) cm, sa largeur est (x+1) cm, l'aire est 50$\\mathrm{cm}^2$. Quelle valeur de x convient (vérifier par substitution) ?",
       "image": null,
       "choix": [
         "x = 3",
@@ -1397,7 +1397,7 @@
         "x = 6"
       ],
       "reponse": "x = 4",
-      "explication": "Pour x=4 : longueur=10, largeur=5, aire=50 ✓. (3$\\times$4−2)$\\times$(4+1) = 10$\\times$5 = 50 $\\mathrm{cm}^2$."
+      "explication": "Pour x=4 : longueur=10, largeur=5, aire=50 ✓. (3$\\times$4−2)$\\times$(4+1) = 10$\\times$5 = 50$\\mathrm{cm}^2$."
     },
     {
       "id": "eq4_n3_018",
@@ -1429,7 +1429,7 @@
         "3h"
       ],
       "reponse": "2h24",
-      "explication": "En 1h : $\\frac{1}{6}$+$\\frac{1}{4}$ = $\\frac{5}{12}$. Temps = $\\frac{12}{5}$ = 2h24 min."
+      "explication": "En 1h :$\\frac{1}{6}$+$\\frac{1}{4}$=$\\frac{5}{12}$. Temps =$\\frac{12}{5}$= 2h24 min."
     },
     {
       "id": "eq4_n3_020",

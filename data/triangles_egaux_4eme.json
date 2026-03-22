@@ -21,14 +21,14 @@
         "$360°$"
       ],
       "reponse": "$180°$",
-      "explication": "Dans tout triangle, la somme des trois angles est $180°$."
+      "explication": "Dans tout triangle, la somme des trois angles est$180°$."
     },
     {
       "id": "tri4_n1_002",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle ABC, $\\widehat{ABC}$ = $50°$ et $\\widehat{BAC}$ = $35°$. Que vaut ACB ?",
+      "enonce": "Dans le triangle$\\widehat{ABC}$,$\\widehat{ABC}$=$50°$et$\\widehat{BAC}$=$35°$. Que vaut$\\widehat{ACB}$?",
       "image": "triangles/7230290a10e2fb630c96f25da76977bc077fa2a5.png",
       "choix": [
         "$80°$",
@@ -37,14 +37,14 @@
         "$100°$"
       ],
       "reponse": "$95°$",
-      "explication": "$\\widehat{ACB}$ = $180°$ − ($50°$ + $35°$) = $180°$ − $85°$ = $95°$."
+      "explication": "$\\widehat{ACB}$=$180°$− ($50°$+$35°$) =$180°$−$85°$=$95°$."
     },
     {
       "id": "tri4_n1_003",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle PQR, $\\widehat{QPR}$ = $62°$ et $\\widehat{PRQ}$ = $58°$. Que vaut PQR ?",
+      "enonce": "Dans le triangle$\\widehat{PQR}$,$\\widehat{QPR}$=$62°$et$\\widehat{PRQ}$=$58°$. Que vaut$\\widehat{PQR}$?",
       "image": "triangles/2fe9e783fbf8b9319d4e413516b0057010aaa48a.png",
       "choix": [
         "$55°$",
@@ -53,14 +53,14 @@
         "$65°$"
       ],
       "reponse": "$60°$",
-      "explication": "$\\widehat{PQR}$ = $180°$ − $62°$ − $58°$ = $60°$."
+      "explication": "$\\widehat{PQR}$=$180°$−$62°$−$58°$=$60°$."
     },
     {
       "id": "tri4_n1_004",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle ABC, $\\widehat{ABC}$ = $70°$ et $\\widehat{BAC}$ = $45°$. Que vaut ACB ?",
+      "enonce": "Dans le triangle$\\widehat{ABC}$,$\\widehat{ABC}$=$70°$et$\\widehat{BAC}$=$45°$. Que vaut$\\widehat{ACB}$?",
       "image": "triangles/dcdb0cd5e2034ed9c70bde5a740cb7cd65d48592.png",
       "choix": [
         "$60°$",
@@ -69,14 +69,14 @@
         "$75°$"
       ],
       "reponse": "$65°$",
-      "explication": "$\\widehat{ACB}$ = $180°$ − $70°$ − $45°$ = $65°$."
+      "explication": "$\\widehat{ACB}$=$180°$−$70°$−$45°$=$65°$."
     },
     {
       "id": "tri4_n1_005",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle a deux angles égaux à $55°$. Le troisième angle mesure :",
+      "enonce": "Un triangle a deux angles égaux à$55°$. Le troisième angle mesure :",
       "image": null,
       "choix": [
         "$55°$",
@@ -85,14 +85,14 @@
         "$90°$"
       ],
       "reponse": "$70°$",
-      "explication": "3e angle = $180°$ − $55°$ − $55°$ = $70°$."
+      "explication": "3e angle =$180°$−$55°$−$55°$=$70°$."
     },
     {
       "id": "tri4_n1_006",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle a les angles $30°$, $90°$ et x°. Quelle est la valeur de x ?",
+      "enonce": "Un triangle a les angles$30°$,$90°$et x°. Quelle est la valeur de x ?",
       "image": null,
       "choix": [
         "$30°$",
@@ -101,7 +101,7 @@
         "$90°$"
       ],
       "reponse": "$60°$",
-      "explication": "x = $180°$ − $30°$ − $90°$ = $60°$."
+      "explication": "x =$180°$−$30°$−$90°$=$60°$."
     },
     {
       "id": "tri4_n1_007",
@@ -112,11 +112,11 @@
       "image": null,
       "choix": [
         "Oui",
-        "Non, car $90°$+$90°=180°$ et il resterait $0°$ pour le 3e",
+        "Non, car$90°$+$90°=180°$et il resterait$0°$pour le 3e",
         "Oui si c'est un triangle rectangle",
         "Oui si c'est un triangle isocèle"
       ],
-      "reponse": "Non, car $90°$+$90°=180°$ et il resterait $0°$ pour le 3e",
+      "reponse": "Non, car$90°$+$90°=180°$et il resterait$0°$pour le 3e",
       "explication": "$90°$+$90°=180°$, il ne resterait rien pour le 3e angle : impossible."
     },
     {
@@ -124,7 +124,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle ABC a A = 2$\\times$B et C = 3$\\times$B. L'angle B mesure :",
+      "enonce": "Un triangle$\\widehat{ABC}$a A = 2$\\times$B et C = 3$\\times$B. L'angle B mesure :",
       "image": null,
       "choix": [
         "$20°$",
@@ -133,14 +133,14 @@
         "$36°$"
       ],
       "reponse": "$30°$",
-      "explication": "2B + B + 3B = 6B = $180°$ → B = $30°$. Donc A = $60°$, C = $90°$."
+      "explication": "2B + B + 3B = 6B =$180°$→ B =$30°$. Donc A =$60°$, C =$90°$."
     },
     {
       "id": "tri4_n1_009",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans ce triangle équilatéral ABC, que signifient les tirets rouges sur les côtés ?",
+      "enonce": "Dans ce triangle équilatéral$\\widehat{ABC}$, que signifient les tirets rouges sur les côtés ?",
       "image": "triangles/effe3fa604cd3d2acc54b59f4a53deede9adee30.png",
       "choix": [
         "Les côtés sont parallèles",
@@ -165,30 +165,30 @@
         "$120°$"
       ],
       "reponse": "$60°$",
-      "explication": "Dans un triangle équilatéral, chaque angle mesure $60°$ ($180°\\div$3)."
+      "explication": "Dans un triangle équilatéral, chaque angle mesure$60°$($180°\\div$3)."
     },
     {
       "id": "tri4_n1_011",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Pourquoi les angles d'un triangle équilatéral mesurent-ils tous $60°$ ?",
+      "enonce": "Pourquoi les angles d'un triangle équilatéral mesurent-ils tous$60°$?",
       "image": null,
       "choix": [
         "C'est une convention",
-        "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est $180°$ donc chacun = $60°$",
+        "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est$180°$donc chacun =$60°$",
         "Un triangle equilatéral est toujours rectangle",
-        "La somme fait $270°$ pour un équilatéral"
+        "La somme fait$270°$pour un équilatéral"
       ],
-      "reponse": "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est $180°$ donc chacun = $60°$",
-      "explication": "Dans un triangle équilatéral : AB=BC=CA → angles égaux → $180°\\div$3 = $60°$ chacun."
+      "reponse": "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est$180°$donc chacun =$60°$",
+      "explication": "Dans un triangle équilatéral : AB=BC=CA → angles égaux →$180°\\div$3 =$60°$chacun."
     },
     {
       "id": "tri4_n1_012",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle équilatéral XYZ, quelle est la valeur de X + Z ?",
+      "enonce": "Dans le triangle équilatéral$\\widehat{XYZ}$, quelle est la valeur de X + Z ?",
       "image": "triangles/ef8527aabcda8743fb10467aa57a91910e31be9c.png",
       "choix": [
         "$60°$",
@@ -197,14 +197,14 @@
         "$180°$"
       ],
       "reponse": "$120°$",
-      "explication": "Chaque angle vaut $60°$. X + Z = $60°$ + $60°$ = $120°$."
+      "explication": "Chaque angle vaut$60°$. X + Z =$60°$+$60°$=$120°$."
     },
     {
       "id": "tri4_n1_013",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans ce triangle isocèle DEF (sommet F), que codent les double-tirets rouges ?",
+      "enonce": "Dans ce triangle isocèle$\\widehat{DEF}$(sommet F), que codent les double-tirets rouges ?",
       "image": "triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
       "choix": [
         "Les angles en D et E sont droits",
@@ -220,7 +220,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans ce triangle isocèle DEF, $\\widehat{FDE}$ = $53°$. Que vaut FED ?",
+      "enonce": "Dans ce triangle isocèle$\\widehat{DEF}$,$\\widehat{FDE}$=$53°$. Que vaut$\\widehat{FED}$?",
       "image": "triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
       "choix": [
         "$43°$",
@@ -229,7 +229,7 @@
         "$74°$"
       ],
       "reponse": "$53°$",
-      "explication": "Dans un triangle isocèle en F, les angles à la base sont égaux : $\\widehat{FED}$ = $\\widehat{FDE}$ = $53°$."
+      "explication": "Dans un triangle isocèle en F, les angles à la base sont égaux :$\\widehat{FED}$=$\\widehat{FDE}$=$53°$."
     },
     {
       "id": "tri4_n1_015",
@@ -240,19 +240,19 @@
       "image": "triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
       "choix": [
         "Les angles sont droits",
-        "Les angles FDE et FED ont la même mesure",
+        "Les angles$\\widehat{FDE}$et$\\widehat{FED}$ont la même mesure",
         "Les angles sont au sommet",
-        "Les angles mesurent $90°$"
+        "Les angles mesurent$90°$"
       ],
-      "reponse": "Les angles FDE et FED ont la même mesure",
-      "explication": "Même codage (arc orange) sur D et E → $\\widehat{FDE}$ = FED."
+      "reponse": "Les angles$\\widehat{FDE}$et$\\widehat{FED}$ont la même mesure",
+      "explication": "Même codage (arc orange) sur D et E →$\\widehat{FDE}$=$\\widehat{FED}$."
     },
     {
       "id": "tri4_n1_016",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle isocèle en A avec $\\widehat{ABC}$ = $\\widehat{ACB}$ = $40°$. Que vaut BAC ?",
+      "enonce": "Triangle isocèle en A avec$\\widehat{ABC}$=$\\widehat{ACB}$=$40°$. Que vaut$\\widehat{BAC}$?",
       "image": null,
       "choix": [
         "$80°$",
@@ -261,55 +261,55 @@
         "$120°$"
       ],
       "reponse": "$100°$",
-      "explication": "$\\widehat{BAC}$ = $180°$ − $40°$ − $40°$ = $100°$."
+      "explication": "$\\widehat{BAC}$=$180°$−$40°$−$40°$=$100°$."
     },
     {
       "id": "tri4_n1_017",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle isocèle MNP en M avec $\\widehat{NMP}$ = $100°$. Que valent MNP et MPN ?",
+      "enonce": "Triangle isocèle$\\widehat{MNP}$en M avec$\\widehat{NMP}$=$100°$. Que valent$\\widehat{MNP}$et$\\widehat{MPN}$?",
       "image": null,
       "choix": [
-        "$20°$ chacun",
-        "$40°$ chacun",
-        "$50°$ chacun",
-        "$80°$ chacun"
+        "$20°$chacun",
+        "$40°$chacun",
+        "$50°$chacun",
+        "$80°$chacun"
       ],
-      "reponse": "$40°$ chacun",
-      "explication": "$\\widehat{MNP}$ = $\\widehat{MPN}$ = ($180°$−$100°$)$\\div$2 = $40°$."
+      "reponse": "$40°$chacun",
+      "explication": "$\\widehat{MNP}$=$\\widehat{MPN}$= ($180°$−$100°$)$\\div$2 =$40°$."
     },
     {
       "id": "tri4_n1_018",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle isocèle ABC (AB = AC), $\\widehat{BAC}$ = $44°$. Que valent ABC et ACB ?",
+      "enonce": "Dans le triangle isocèle$\\widehat{ABC}$(AB = AC),$\\widehat{BAC}$=$44°$. Que valent$\\widehat{ABC}$et$\\widehat{ACB}$?",
       "image": "triangles/879a75bd46649b17e2bdf20dd07dfe703c3f9492.png",
       "choix": [
-        "$44°$ chacun",
-        "$60°$ chacun",
-        "$68°$ chacun",
-        "$72°$ chacun"
+        "$44°$chacun",
+        "$60°$chacun",
+        "$68°$chacun",
+        "$72°$chacun"
       ],
-      "reponse": "$68°$ chacun",
-      "explication": "Isocèle en A : $\\widehat{ABC}$ = $\\widehat{ACB}$ = ($180°$−$44°$)$\\div$2 = $68°$."
+      "reponse": "$68°$chacun",
+      "explication": "Isocèle en A :$\\widehat{ABC}$=$\\widehat{ACB}$= ($180°$−$44°$)$\\div$2 =$68°$."
     },
     {
       "id": "tri4_n1_019",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle MNP isocèle en M, $\\widehat{NMP}$ = $100°$. Les angles à la base valent :",
+      "enonce": "Dans le triangle$\\widehat{MNP}$isocèle en M,$\\widehat{NMP}$=$100°$. Les angles à la base valent :",
       "image": "triangles/5af6363fda66b188245b899b4ab76a318281c7d2.png",
       "choix": [
-        "$20°$ chacun",
-        "$40°$ chacun",
-        "$50°$ chacun",
-        "$80°$ chacun"
+        "$20°$chacun",
+        "$40°$chacun",
+        "$50°$chacun",
+        "$80°$chacun"
       ],
-      "reponse": "$40°$ chacun",
-      "explication": "$\\widehat{MNP}$ = $\\widehat{MPN}$ = ($180°$−$100°$)$\\div$2 = $40°$."
+      "reponse": "$40°$chacun",
+      "explication": "$\\widehat{MNP}$=$\\widehat{MPN}$= ($180°$−$100°$)$\\div$2 =$40°$."
     },
     {
       "id": "tri4_n1_020",
@@ -319,8 +319,8 @@
       "enonce": "Deux droites parallèles coupées par une sécante forment des angles alternes-internes qui sont :",
       "image": null,
       "choix": [
-        "Supplémentaires (somme $180°$)",
-        "Complémentaires (somme $90°$)",
+        "Supplémentaires (somme$180°$)",
+        "Complémentaires (somme$90°$)",
         "Égaux",
         "Différents"
       ],
@@ -332,23 +332,23 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur cette figure, (AB)//(CD). Que peut-on dire des angles AMN et MND ?",
+      "enonce": "Sur cette figure, (AB)//(CD). Que peut-on dire des angles$\\widehat{AMN}$et$\\widehat{MND}$?",
       "image": "triangles/3814efbb25e40accacddf3bf45ea8238811e0a72.png",
       "choix": [
         "Ils sont supplémentaires",
         "Ils sont alternes-internes et donc égaux",
-        "AMN > MND",
+        "$\\widehat{AMN}$>$\\widehat{MND}$",
         "Ils n'ont pas de relation"
       ],
       "reponse": "Ils sont alternes-internes et donc égaux",
-      "explication": "(AB)//(CD) et (MN) est la sécante → $\\widehat{AMN}$ = MND (alternes-internes)."
+      "explication": "(AB)//(CD) et (MN) est la sécante →$\\widehat{AMN}$=$\\widehat{MND}$(alternes-internes)."
     },
     {
       "id": "tri4_n1_022",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur cette figure, $\\widehat{AMN}$ = $\\widehat{MND}$ = 41,$97°$. Que peut-on conclure sur (AB) et (CD) ?",
+      "enonce": "Sur cette figure,$\\widehat{AMN}$=$\\widehat{MND}$= 41,$97°$. Que peut-on conclure sur (AB) et (CD) ?",
       "image": "triangles/71309e4f0c39455d75222cce2f64e254663fa16d.png",
       "choix": [
         "(AB) et (CD) sont perpendiculaires",
@@ -357,7 +357,7 @@
         "(AB) et (CD) se croisent en M"
       ],
       "reponse": "(AB) et (CD) sont parallèles",
-      "explication": "Les angles alternes-internes sont égaux (41,$97°$ = 41,$97°$). Donc d'après la réciproque, (AB) // (CD)."
+      "explication": "Les angles alternes-internes sont égaux (41,$97°$= 41,$97°$). Donc d'après la réciproque, (AB) // (CD)."
     },
     {
       "id": "tri4_n1_023",
@@ -396,7 +396,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle a $\\widehat{BAC}=70°$ et $\\widehat{ABC}=70°$. Quel type de triangle est-ce ?",
+      "enonce": "Un triangle a$\\widehat{BAC}=70°$et$\\widehat{ABC}=70°$. Quel type de triangle est-ce ?",
       "image": null,
       "choix": [
         "Équilatéral",
@@ -405,14 +405,14 @@
         "Scalène"
       ],
       "reponse": "Isocèle en C",
-      "explication": "$\\widehat{BAC}$ = ABC → les côtés opposés à ces angles sont égaux → BC = BC... En fait: deux angles égaux → isocèle. $\\widehat{ACB}$ = $180°$−$140°$ = $40°$. Le côté opposé à C est le plus court."
+      "explication": "$\\widehat{BAC}$=$\\widehat{ABC}$→ les côtés opposés à ces angles sont égaux → BC = BC... En fait: deux angles égaux → isocèle.$\\widehat{ACB}$=$180°$−$140°$=$40°$. Le côté opposé à C est le plus court."
     },
     {
       "id": "tri4_n1_026",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "$\\widehat{BAC}$ = $\\widehat{ABC}$ = ACB dans un triangle. Que vaut chaque angle ?",
+      "enonce": "$\\widehat{BAC}$=$\\widehat{ABC}$=$\\widehat{ACB}$dans un triangle. Que vaut chaque angle ?",
       "image": null,
       "choix": [
         "$45°$",
@@ -421,14 +421,14 @@
         "$30°$"
       ],
       "reponse": "$60°$",
-      "explication": "Équilatéral : $180°\\div$3 = $60°$."
+      "explication": "Équilatéral :$180°\\div$3 =$60°$."
     },
     {
       "id": "tri4_n1_027",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle isocèle en B avec $\\widehat{BAC}$ = $\\widehat{BCA}$ = $35°$. Que vaut ABC ?",
+      "enonce": "Triangle isocèle en B avec$\\widehat{BAC}$=$\\widehat{BCA}$=$35°$. Que vaut$\\widehat{ABC}$?",
       "image": null,
       "choix": [
         "$35°$",
@@ -437,14 +437,14 @@
         "$145°$"
       ],
       "reponse": "$110°$",
-      "explication": "$\\widehat{ABC}$ = $180°$ − $35°$ − $35°$ = $110°$."
+      "explication": "$\\widehat{ABC}$=$180°$−$35°$−$35°$=$110°$."
     },
     {
       "id": "tri4_n1_028",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "$\\widehat{BAC}$ = 3x, $\\widehat{ABC}$ = 2x, $\\widehat{ACB}$ = x. Quelle est la valeur de x ?",
+      "enonce": "$\\widehat{BAC}$= 3x,$\\widehat{ABC}$= 2x,$\\widehat{ACB}$= x. Quelle est la valeur de x ?",
       "image": null,
       "choix": [
         "$20°$",
@@ -453,14 +453,14 @@
         "$35°$"
       ],
       "reponse": "$30°$",
-      "explication": "6x = $180°$ → x = $30°$. $\\widehat{BAC}$ = $90°$, $\\widehat{ABC}$ = $60°$, $\\widehat{ACB}$ = $30°$."
+      "explication": "6x =$180°$→ x =$30°$.$\\widehat{BAC}$=$90°$,$\\widehat{ABC}$=$60°$,$\\widehat{ACB}$=$30°$."
     },
     {
       "id": "tri4_n1_029",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle rectangle a un angle de $30°$. Quel est le 3e angle ?",
+      "enonce": "Un triangle rectangle a un angle de$30°$. Quel est le 3e angle ?",
       "image": null,
       "choix": [
         "$30°$",
@@ -469,14 +469,14 @@
         "$120°$"
       ],
       "reponse": "$60°$",
-      "explication": "$180°$ − $90°$ − $30°$ = $60°$."
+      "explication": "$180°$−$90°$−$30°$=$60°$."
     },
     {
       "id": "tri4_n1_030",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle a $\\widehat{BAC}$ = 2$\\times$ABC et $\\widehat{ACB}$ = ABC + $20°$. L'$\\widehat{ABC}$ mesure :",
+      "enonce": "Un triangle a$\\widehat{BAC}$= 2$\\times\\widehat{ABC}$et$\\widehat{ACB}$=$\\widehat{ABC}$+$20°$. L'$\\widehat{ABC}$mesure :",
       "image": null,
       "choix": [
         "$30°$",
@@ -485,14 +485,14 @@
         "$50°$"
       ],
       "reponse": "$40°$",
-      "explication": "2x + x + x + $20°$ = $180°$ → 4x = $160°$ → x = $40°$. $\\widehat{BAC}$ = $80°$, $\\widehat{ACB}$ = $60°$."
+      "explication": "2x + x + x +$20°$=$180°$→ 4x =$160°$→ x =$40°$.$\\widehat{BAC}$=$80°$,$\\widehat{ACB}$=$60°$."
     },
     {
       "id": "tri4_n1_031",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Les droites (d1) et (d2) sont coupées par (d3). Si les alternes-internes mesurent $75°$ chacun, alors :",
+      "enonce": "Les droites (d1) et (d2) sont coupées par (d3). Si les alternes-internes mesurent$75°$chacun, alors :",
       "image": null,
       "choix": [
         "(d1) et (d2) sont perpendiculaires",
@@ -517,30 +517,30 @@
         "$180°$"
       ],
       "reponse": "$120°$",
-      "explication": "$60°$ + $60°$ = $120°$."
+      "explication": "$60°$+$60°$=$120°$."
     },
     {
       "id": "tri4_n1_033",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle isocèle a un angle au sommet de $80°$. Les angles de base mesurent :",
+      "enonce": "Un triangle isocèle a un angle au sommet de$80°$. Les angles de base mesurent :",
       "image": null,
       "choix": [
-        "$80°$ chacun",
-        "$40°$ chacun",
-        "$50°$ chacun",
-        "$60°$ chacun"
+        "$80°$chacun",
+        "$40°$chacun",
+        "$50°$chacun",
+        "$60°$chacun"
       ],
-      "reponse": "$50°$ chacun",
-      "explication": "($180°$ − $80°$) $\\div$ 2 = $50°$."
+      "reponse": "$50°$chacun",
+      "explication": "($180°$−$80°$)$\\div$2 =$50°$."
     },
     {
       "id": "tri4_n1_034",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC est isocèle en B. $\\widehat{BAC}$ = BCA. $\\widehat{ABC}$ = $50°$. Que vaut BAC ?",
+      "enonce": "$\\widehat{ABC}$est isocèle en B.$\\widehat{BAC}$=$\\widehat{BCA}$.$\\widehat{ABC}$=$50°$. Que vaut$\\widehat{BAC}$?",
       "image": null,
       "choix": [
         "$50°$",
@@ -549,30 +549,30 @@
         "$70°$"
       ],
       "reponse": "$65°$",
-      "explication": "$\\widehat{BAC}$ = ($180°$ − $50°$) $\\div$ 2 = $65°$."
+      "explication": "$\\widehat{BAC}$= ($180°$−$50°$)$\\div$2 =$65°$."
     },
     {
       "id": "tri4_n1_035",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans un triangle, peut-on avoir $\\widehat{BAC}$ = $100°$, $\\widehat{ABC}$ = $80°$, $\\widehat{ACB}$ = $20°$ ?",
+      "enonce": "Dans un triangle, peut-on avoir$\\widehat{BAC}$=$100°$,$\\widehat{ABC}$=$80°$,$\\widehat{ACB}$=$20°$?",
       "image": null,
       "choix": [
         "Oui",
-        "Non, $100°$+$80°$+$20°=200°\\neq180°$",
+        "Non,$100°$+$80°$+$20°=200°\\neq180°$",
         "Oui si le triangle est obtus",
         "Oui si c'est un triangle rectangle"
       ],
-      "reponse": "Non, $100°$+$80°$+$20°=200°\\neq180°$",
-      "explication": "Somme = $200°\\neq180°$ : impossible."
+      "reponse": "Non,$100°$+$80°$+$20°=200°\\neq180°$",
+      "explication": "Somme =$200°\\neq180°$: impossible."
     },
     {
       "id": "tri4_n1_036",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "$\\widehat{ABC}$ = BAC + $30°$ et $\\widehat{ACB}$ = BAC − $10°$ dans un triangle. BAC est approximativement égal à :",
+      "enonce": "$\\widehat{ABC}$=$\\widehat{BAC}$+$30°$et$\\widehat{ACB}$=$\\widehat{BAC}$−$10°$dans un triangle.$\\widehat{BAC}$est approximativement égal à :",
       "image": null,
       "choix": [
         "$48°$",
@@ -581,14 +581,14 @@
         "$63°$"
       ],
       "reponse": "$53°$",
-      "explication": "BAC + (BAC+$30°$) + (BAC−$10°$) = $180°$ → 3$\\times$BAC + $20°$ = $180°$ → BAC $\\approx$ 53,$3°$."
+      "explication": "$\\widehat{BAC}$+ ($\\widehat{BAC}$+$30°$) + ($\\widehat{BAC}$−$10°$) =$180°$→ 3$\\times\\widehat{BAC}$+$20°$=$180°$→$\\widehat{BAC}\\approx$53,$3°$."
     },
     {
       "id": "tri4_n1_037",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Deux angles alternes-internes forment chacun $90°$. Que dire des droites ?",
+      "enonce": "Deux angles alternes-internes forment chacun$90°$. Que dire des droites ?",
       "image": null,
       "choix": [
         "Elles sont parallèles",
@@ -597,14 +597,14 @@
         "Elles sont confondues"
       ],
       "reponse": "Elles sont parallèles",
-      "explication": "Alternes-internes égaux ($90°$ = $90°$) → parallèles."
+      "explication": "Alternes-internes égaux ($90°$=$90°$) → parallèles."
     },
     {
       "id": "tri4_n1_038",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle ABC est tel que AB = BC = CA = 5 cm. Quelle est la mesure de chaque angle ?",
+      "enonce": "Un triangle$\\widehat{ABC}$est tel que AB = BC = CA = 5 cm. Quelle est la mesure de chaque angle ?",
       "image": null,
       "choix": [
         "$45°$",
@@ -613,30 +613,30 @@
         "$30°$"
       ],
       "reponse": "$60°$",
-      "explication": "Triangle équilatéral : chaque angle = $60°$."
+      "explication": "Triangle équilatéral : chaque angle =$60°$."
     },
     {
       "id": "tri4_n1_039",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle isocèle en S avec SS' = ST et S'ST = $140°$. Les angles de base SS'T et STS' mesurent :",
+      "enonce": "Triangle isocèle en S avec SS' = ST et S'ST =$140°$. Les angles de base SS'T et STS' mesurent :",
       "image": null,
       "choix": [
-        "$10°$ chacun",
-        "$20°$ chacun",
-        "$40°$ chacun",
-        "$70°$ chacun"
+        "$10°$chacun",
+        "$20°$chacun",
+        "$40°$chacun",
+        "$70°$chacun"
       ],
-      "reponse": "$20°$ chacun",
-      "explication": "($180°$ − $140°$) $\\div$ 2 = $20°$."
+      "reponse": "$20°$chacun",
+      "explication": "($180°$−$140°$)$\\div$2 =$20°$."
     },
     {
       "id": "tri4_n1_040",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si (AB)//(CD) et $\\widehat{AMN}$ = $55°$, alors $\\widehat{MND}$ =",
+      "enonce": "Si (AB)//(CD) et$\\widehat{AMN}$=$55°$, alors$\\widehat{MND}$=",
       "image": null,
       "choix": [
         "$35°$",
@@ -645,7 +645,7 @@
         "$90°$"
       ],
       "reponse": "$55°$",
-      "explication": "Alternes-internes égaux : $\\widehat{MND}$ = $55°$."
+      "explication": "Alternes-internes égaux :$\\widehat{MND}$=$55°$."
     },
     {
       "id": "tri4_n2_001",
@@ -668,7 +668,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Les triangles ABC et DEF ont AB=DF, BC=DE, AC=EF. Quelle est la conclusion ?",
+      "enonce": "Les triangles$\\widehat{ABC}$et$\\widehat{DEF}$ont AB=DF, BC=DE, AC=EF. Quelle est la conclusion ?",
       "image": "triangles/bde16af2239b93a5e58409d94574d54a0dc7f712.png",
       "choix": [
         "Ils sont semblables seulement",
@@ -677,14 +677,14 @@
         "Ils ont la même aire seulement"
       ],
       "reponse": "Ils sont égaux (isométriques)",
-      "explication": "Les 3 côtés sont deux à deux égaux → triangles ABC et DEF égaux (≅)."
+      "explication": "Les 3 côtés sont deux à deux égaux → triangles$\\widehat{ABC}$et$\\widehat{DEF}$égaux (≅)."
     },
     {
       "id": "tri4_n2_003",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Les triangles ABC et DEF sont égaux. $\\widehat{BAC}$ = $64°$, $\\widehat{ABC}$ = $36°$, $\\widehat{BCA}$ = $80°$. Quel angle correspond à DFE ?",
+      "enonce": "Les triangles$\\widehat{ABC}$et$\\widehat{DEF}$sont égaux.$\\widehat{BAC}$=$64°$,$\\widehat{ABC}$=$36°$,$\\widehat{BCA}$=$80°$. Quel angle correspond à$\\widehat{DFE}$?",
       "image": "triangles/bde16af2239b93a5e58409d94574d54a0dc7f712.png",
       "choix": [
         "$36°$",
@@ -693,7 +693,7 @@
         "$44°$"
       ],
       "reponse": "$64°$",
-      "explication": "AB=DF, AC=EF, BC=DE. L'$\\widehat{DFE}$ correspond à $\\widehat{BAC}$ = $64°$."
+      "explication": "AB=DF, AC=EF, BC=DE. L'$\\widehat{DFE}$correspond à$\\widehat{BAC}$=$64°$."
     },
     {
       "id": "tri4_n2_004",
@@ -703,7 +703,7 @@
       "enonce": "Si deux triangles sont égaux, leurs angles sont :",
       "image": null,
       "choix": [
-        "Tous égaux à $60°$",
+        "Tous égaux à$60°$",
         "Deux à deux de même mesure",
         "Tous droits",
         "Indépendants"
@@ -748,7 +748,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur cette figure, AB = A'B', BC = B'C', $\\widehat{ABC}$ = A'B'C'. Par quel critère les triangles sont-ils égaux ?",
+      "enonce": "Sur cette figure, AB = A'B', BC = B'C',$\\widehat{ABC}$= A'B'C'. Par quel critère les triangles sont-ils égaux ?",
       "image": "triangles/deb397167f3692e47da087c079ccff800f7909f0.png",
       "choix": [
         "CCC",
@@ -757,7 +757,7 @@
         "On ne peut pas conclure"
       ],
       "reponse": "CAS",
-      "explication": "AB=A'B', BC=B'C', $\\widehat{ABC}$=A'B'C' (angle compris entre les deux côtés). Critère CAS → ABC ≅ A'B'C'."
+      "explication": "AB=A'B', BC=B'C',$\\widehat{ABC}$=A'B'C' (angle compris entre les deux côtés). Critère CAS →$\\widehat{ABC}$≅ A'B'C'."
     },
     {
       "id": "tri4_n2_008",
@@ -773,22 +773,22 @@
         "Oui mais c'est le critère CCC"
       ],
       "reponse": "Oui, critère CAS vérifié",
-      "explication": "AB=A'B' (2 ticks), BC=B'C' (1 tick), $\\widehat{ABC}$=A'B'C' (arc violet). Les deux côtés encadrent l'angle codé → CAS vérifié."
+      "explication": "AB=A'B' (2 ticks), BC=B'C' (1 tick),$\\widehat{ABC}$=A'B'C' (arc violet). Les deux côtés encadrent l'angle codé → CAS vérifié."
     },
     {
       "id": "tri4_n2_009",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "PQ = P'Q' = 5 cm, QR = Q'R' = 7 cm et $\\widehat{PQR}$ = P'Q'R' = $60°$. Les triangles PQR et P'Q'R' sont-ils égaux ?",
+      "enonce": "PQ = P'Q' = 5 cm, QR = Q'R' = 7 cm et$\\widehat{PQR}$= P'Q'R' =$60°$. Les triangles$\\widehat{PQR}$et P'Q'R' sont-ils égaux ?",
       "image": null,
       "choix": [
-        "Oui, par CAS (l'$\\widehat{PQR}$ est compris entre PQ et QR)",
+        "Oui, par CAS (l'$\\widehat{PQR}$est compris entre PQ et QR)",
         "Non, il faut le 3e côté",
         "Oui mais par CCC",
         "Non, l'angle n'est pas compris"
       ],
-      "reponse": "Oui, par CAS (l'$\\widehat{PQR}$ est compris entre PQ et QR)",
+      "reponse": "Oui, par CAS (l'$\\widehat{PQR}$est compris entre PQ et QR)",
       "explication": "PQ=P'Q', QR=Q'R' et l'$\\widehat{PQR}$=P'Q'R' est l'angle compris entre PQ et QR. Critère CAS → égaux."
     },
     {
@@ -801,7 +801,7 @@
       "choix": [
         "Par convention uniquement",
         "Si l'angle n'est pas compris, deux configurations différentes sont possibles avec les mêmes données",
-        "Car l'angle compris est toujours $90°$",
+        "Car l'angle compris est toujours$90°$",
         "Car le 3e côté serait inconnu"
       ],
       "reponse": "Si l'angle n'est pas compris, deux configurations différentes sont possibles avec les mêmes données",
@@ -828,7 +828,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur cette figure, BC=B'C', $\\widehat{ABC}$=A'B'C', $\\widehat{BCA}$=B'C'A'. Par quel critère les triangles sont-ils égaux ?",
+      "enonce": "Sur cette figure, BC=B'C',$\\widehat{ABC}$=A'B'C',$\\widehat{BCA}$=B'C'A'. Par quel critère les triangles sont-ils égaux ?",
       "image": "triangles/a927f54940fad3eacc8b0e90b8aff1fefeea1e6b.png",
       "choix": [
         "CCC",
@@ -837,7 +837,7 @@
         "On ne peut pas conclure"
       ],
       "reponse": "ACA",
-      "explication": "BC=B'C' (côté compris entre angles B et C), $\\widehat{ABC}$=A'B'C', $\\widehat{BCA}$=B'C'A'. Critère ACA → ABC ≅ A'B'C'."
+      "explication": "BC=B'C' (côté compris entre angles B et C),$\\widehat{ABC}$=A'B'C',$\\widehat{BCA}$=B'C'A'. Critère ACA →$\\widehat{ABC}$≅ A'B'C'."
     },
     {
       "id": "tri4_n2_013",
@@ -853,14 +853,14 @@
         "Oui mais c'est le critère CAS"
       ],
       "reponse": "Oui, critère ACA vérifié",
-      "explication": "BC=B'C' (1 tick), $\\widehat{ABC}$=A'B'C' (1 arc violet), $\\widehat{ACB}$=A'C'B' (2 arcs oranges). Le côté BC est compris entre les angles → ACA vérifié."
+      "explication": "BC=B'C' (1 tick),$\\widehat{ABC}$=A'B'C' (1 arc violet),$\\widehat{ACB}$=A'C'B' (2 arcs oranges). Le côté BC est compris entre les angles → ACA vérifié."
     },
     {
       "id": "tri4_n2_014",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "$\\widehat{BAC}$ = B'A'C' = $40°$, $\\widehat{ABC}$ = A'B'C' = $70°$ et BC = B'C' = 6 cm. Les triangles ABC et A'B'C' sont-ils égaux ?",
+      "enonce": "$\\widehat{BAC}$= B'A'C' =$40°$,$\\widehat{ABC}$= A'B'C' =$70°$et BC = B'C' = 6 cm. Les triangles$\\widehat{ABC}$et A'B'C' sont-ils égaux ?",
       "image": null,
       "choix": [
         "Oui, par ACA",
@@ -869,14 +869,14 @@
         "Non, il faut 3 côtés"
       ],
       "reponse": "Oui, par ACA",
-      "explication": "$\\widehat{ABC}$=A'B'C'=$70°$, $\\widehat{ACB}$=A'C'B' (déduit). BC=B'C' côté entre angles B et C → critère ACA vérifié."
+      "explication": "$\\widehat{ABC}$=A'B'C'=$70°$,$\\widehat{ACB}$=A'C'B' (déduit). BC=B'C' côté entre angles B et C → critère ACA vérifié."
     },
     {
       "id": "tri4_n2_015",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur cette figure, AB=DE, BC=EF, AC=DF. Les triangles ABC et DEF sont-ils égaux ?",
+      "enonce": "Sur cette figure, AB=DE, BC=EF, AC=DF. Les triangles$\\widehat{ABC}$et$\\widehat{DEF}$sont-ils égaux ?",
       "image": "triangles/dcb86baafced324ebb331093d55f4eea240d3bd7.png",
       "choix": [
         "Oui, par CCC (3 côtés deux à deux égaux)",
@@ -908,39 +908,39 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans un triangle ABC, AB = AC = 8 cm et $\\widehat{BAC}$ = $50°$. Que valent ABC et ACB ?",
+      "enonce": "Dans un triangle$\\widehat{ABC}$, AB = AC = 8 cm et$\\widehat{BAC}$=$50°$. Que valent$\\widehat{ABC}$et$\\widehat{ACB}$?",
       "image": null,
       "choix": [
-        "$50°$ chacun",
-        "$60°$ chacun",
-        "$65°$ chacun",
-        "$70°$ chacun"
+        "$50°$chacun",
+        "$60°$chacun",
+        "$65°$chacun",
+        "$70°$chacun"
       ],
-      "reponse": "$65°$ chacun",
-      "explication": "Isocèle en A → $\\widehat{ABC}$ = $\\widehat{ACB}$ = ($180°$−$50°$)$\\div$2 = $65°$."
+      "reponse": "$65°$chacun",
+      "explication": "Isocèle en A →$\\widehat{ABC}$=$\\widehat{ACB}$= ($180°$−$50°$)$\\div$2 =$65°$."
     },
     {
       "id": "tri4_n2_018",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC et DEF sont des triangles égaux. $\\widehat{BAC}$ = $72°$ et $\\widehat{ABC}$ = $58°$. Que valent BCA et EDF ?",
+      "enonce": "$\\widehat{ABC}$et$\\widehat{DEF}$sont des triangles égaux.$\\widehat{BAC}$=$72°$et$\\widehat{ABC}$=$58°$. Que valent$\\widehat{BCA}$et$\\widehat{EDF}$?",
       "image": null,
       "choix": [
-        "$\\widehat{BCA}$ = $50°$, $\\widehat{EDF}$ = $72°$",
-        "$\\widehat{BCA}$ = $44°$, $\\widehat{EDF}$ = $64°$",
-        "$\\widehat{BCA}$ = $50°$, $\\widehat{EDF}$ = $58°$",
-        "$\\widehat{BCA}$ = $58°$, $\\widehat{EDF}$ = $72°$"
+        "$\\widehat{BCA}$=$50°$,$\\widehat{EDF}$=$72°$",
+        "$\\widehat{BCA}$=$44°$,$\\widehat{EDF}$=$64°$",
+        "$\\widehat{BCA}$=$50°$,$\\widehat{EDF}$=$58°$",
+        "$\\widehat{BCA}$=$58°$,$\\widehat{EDF}$=$72°$"
       ],
-      "reponse": "$\\widehat{BCA}$ = $50°$, $\\widehat{EDF}$ = $72°$",
-      "explication": "$\\widehat{BCA}$ = $180°$−$72°$−$58°$ = $50°$. Triangles égaux : $\\widehat{EDF}$ = $\\widehat{BAC}$ = $72°$."
+      "reponse": "$\\widehat{BCA}$=$50°$,$\\widehat{EDF}$=$72°$",
+      "explication": "$\\widehat{BCA}$=$180°$−$72°$−$58°$=$50°$. Triangles égaux :$\\widehat{EDF}$=$\\widehat{BAC}$=$72°$."
     },
     {
       "id": "tri4_n2_019",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Deux triangles rectangles ABC et DEF ont $\\widehat{ABC}=\\widehat{DEF}$=$90°$, AB=DE=4 cm et BC=EF=3 cm. Sont-ils égaux et par quel critère ?",
+      "enonce": "Deux triangles rectangles$\\widehat{ABC}$et$\\widehat{DEF}$ont$\\widehat{ABC}=\\widehat{DEF}$=$90°$, AB=DE=4 cm et BC=EF=3 cm. Sont-ils égaux et par quel critère ?",
       "image": null,
       "choix": [
         "Oui, par CCC",
@@ -949,14 +949,14 @@
         "Non, il manque un élément"
       ],
       "reponse": "Oui, par CAS (angle droit compris)",
-      "explication": "AB=DE, BC=EF et $\\widehat{ABC}=\\widehat{DEF}$=$90°$ (angle compris entre AB et BC). Critère CAS → triangles égaux."
+      "explication": "AB=DE, BC=EF et$\\widehat{ABC}=\\widehat{DEF}$=$90°$(angle compris entre AB et BC). Critère CAS → triangles égaux."
     },
     {
       "id": "tri4_n2_020",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un losange ABCD est coupé par sa diagonale AC. Les triangles ABC et ACD sont-ils égaux ?",
+      "enonce": "Un losange ABCD est coupé par sa diagonale AC. Les triangles$\\widehat{ABC}$et$\\widehat{ACD}$sont-ils égaux ?",
       "image": null,
       "choix": [
         "Oui, par CAS",
@@ -965,14 +965,14 @@
         "Oui mais seulement semblables"
       ],
       "reponse": "Oui, par CCC (AB=AD, BC=DC, AC=AC commun)",
-      "explication": "Dans ABCD losange : AB=BC=CD=DA. ABC et ACD : AB=AD, BC=DC, AC=AC → 3 côtés deux à deux égaux → CCC → égaux."
+      "explication": "Dans ABCD losange : AB=BC=CD=DA.$\\widehat{ABC}$et$\\widehat{ACD}$: AB=AD, BC=DC, AC=AC → 3 côtés deux à deux égaux → CCC → égaux."
     },
     {
       "id": "tri4_n2_021",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle ABC isocèle en A (AB=AC=6 cm, BC=4 cm). H est le milieu de BC. Les triangles ABH et ACH sont-ils égaux ?",
+      "enonce": "Triangle$\\widehat{ABC}$isocèle en A (AB=AC=6 cm, BC=4 cm). H est le milieu de BC. Les triangles$\\widehat{ABH}$et$\\widehat{ACH}$sont-ils égaux ?",
       "image": null,
       "choix": [
         "Oui, par CCC",
@@ -981,14 +981,14 @@
         "Non, il manque les angles"
       ],
       "reponse": "Oui, par CCC",
-      "explication": "AB=AC=6 cm, BH=HC=2 cm (H milieu de BC), AH=AH (côté commun). CCC → ABH ≅ ACH."
+      "explication": "AB=AC=6 cm, BH=HC=2 cm (H milieu de BC), AH=AH (côté commun). CCC →$\\widehat{ABH}$≅$\\widehat{ACH}$."
     },
     {
       "id": "tri4_n2_022",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "PQ = P'Q' = 7 cm, $\\widehat{QPR}$ = Q'P'R' = $55°$ et $\\widehat{PQR}$ = P'Q'R' = $65°$. Ces triangles sont-ils égaux ?",
+      "enonce": "PQ = P'Q' = 7 cm,$\\widehat{QPR}$= Q'P'R' =$55°$et$\\widehat{PQR}$= P'Q'R' =$65°$. Ces triangles sont-ils égaux ?",
       "image": null,
       "choix": [
         "Oui, par ACA (PQ entre angles P et Q)",
@@ -997,14 +997,14 @@
         "Non, il faut les 3 côtés"
       ],
       "reponse": "Oui, par ACA (PQ entre angles P et Q)",
-      "explication": "$\\widehat{QPR}$=Q'P'R'=$55°$, $\\widehat{PQR}$=P'Q'R'=$65°$, PQ=P'Q' côté entre P et Q → critère ACA → égaux."
+      "explication": "$\\widehat{QPR}$=Q'P'R'=$55°$,$\\widehat{PQR}$=P'Q'R'=$65°$, PQ=P'Q' côté entre P et Q → critère ACA → égaux."
     },
     {
       "id": "tri4_n2_023",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC est équilatéral, M est le milieu de BC. Les triangles ABM et ACM sont-ils égaux ?",
+      "enonce": "$\\widehat{ABC}$est équilatéral, M est le milieu de BC. Les triangles$\\widehat{ABM}$et$\\widehat{ACM}$sont-ils égaux ?",
       "image": null,
       "choix": [
         "Oui, par CCC (AB=AC, BM=MC, AM commun)",
@@ -1013,14 +1013,14 @@
         "On ne peut pas conclure"
       ],
       "reponse": "Oui, par CCC (AB=AC, BM=MC, AM commun)",
-      "explication": "AB=AC (équilatéral), BM=MC (M milieu), AM=AM. CCC → ABM ≅ ACM."
+      "explication": "AB=AC (équilatéral), BM=MC (M milieu), AM=AM. CCC →$\\widehat{ABM}$≅$\\widehat{ACM}$."
     },
     {
       "id": "tri4_n2_024",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle PQR en Q : PQ = 5 cm, QR = 12 cm. Que vaut PR ?",
+      "enonce": "Triangle rectangle$\\widehat{PQR}$en Q : PQ = 5 cm, QR = 12 cm. Que vaut PR ?",
       "image": null,
       "choix": [
         "10 cm",
@@ -1029,7 +1029,7 @@
         "17 cm"
       ],
       "reponse": "13 cm",
-      "explication": "PR = $\\sqrt{$5^{2}$+$1$2^{2}}$ = $\\sqrt{25+144}$ = $\\sqrt{169}$ = 13 cm (Pythagore)."
+      "explication": "PR =$\\sqrt{$5^{2}$+$1$2^{2}}$=$\\sqrt{25+144}$=$\\sqrt{169}$= 13 cm (Pythagore)."
     },
     {
       "id": "tri4_n2_025",
@@ -1052,32 +1052,32 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC et A'B'C' avec AB=A'B'=5, AC=A'C'=7 et $\\widehat{BAC}$=B'A'C'=$50°$. Par quel critère sont-ils égaux ?",
+      "enonce": "$\\widehat{ABC}$et A'B'C' avec AB=A'B'=5, AC=A'C'=7 et$\\widehat{BAC}$=B'A'C'=$50°$. Par quel critère sont-ils égaux ?",
       "image": null,
       "choix": [
         "CCC",
-        "CAS (BAC compris entre AB et AC)",
+        "CAS ($\\widehat{BAC}$compris entre AB et AC)",
         "ACA",
         "Ils ne sont pas égaux"
       ],
-      "reponse": "CAS (BAC compris entre AB et AC)",
-      "explication": "AB=A'B', AC=A'C', $\\widehat{BAC}$=B'A'C' (angle compris entre AB et AC). CAS → égaux."
+      "reponse": "CAS ($\\widehat{BAC}$compris entre AB et AC)",
+      "explication": "AB=A'B', AC=A'C',$\\widehat{BAC}$=B'A'C' (angle compris entre AB et AC). CAS → égaux."
     },
     {
       "id": "tri4_n2_027",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle isocèle DEF avec DE=DF=9 cm et $\\widehat{EDF}=80°$. On trace DH la hauteur sur EF. Les triangles DHE et DHF sont-ils égaux ?",
+      "enonce": "Triangle isocèle$\\widehat{DEF}$avec DE=DF=9 cm et$\\widehat{EDF}=80°$. On trace DH la hauteur sur EF. Les triangles$\\widehat{DHE}$et$\\widehat{DHF}$sont-ils égaux ?",
       "image": null,
       "choix": [
-        "Oui, par CAS (DH commun, DE=DF, $\\widehat{DHE}=\\widehat{DHF}$=$90°$)",
+        "Oui, par CAS (DH commun, DE=DF,$\\widehat{DHE}=\\widehat{DHF}$=$90°$)",
         "Non, ils ont des angles différents",
         "Oui mais par ACA",
         "On ne peut pas conclure"
       ],
-      "reponse": "Oui, par CAS (DH commun, DE=DF, $\\widehat{DHE}=\\widehat{DHF}$=$90°$)",
-      "explication": "DH=DH (commun), DE=DF=9 cm, $\\widehat{DHE}=\\widehat{DHF}$=$90°$ (hauteur). CAS → DHE ≅ DHF."
+      "reponse": "Oui, par CAS (DH commun, DE=DF,$\\widehat{DHE}=\\widehat{DHF}$=$90°$)",
+      "explication": "DH=DH (commun), DE=DF=9 cm,$\\widehat{DHE}=\\widehat{DHF}$=$90°$(hauteur). CAS →$\\widehat{DHE}$≅$\\widehat{DHF}$."
     },
     {
       "id": "tri4_n2_028",
@@ -1100,7 +1100,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC a $\\widehat{BAC}=40°$, $\\widehat{ABC}=70°$, AB=6 cm. A'B'C' a B'A'C'=$40°$, A'B'C'=$70°$, A'B'=6 cm. Sont-ils égaux ?",
+      "enonce": "$\\widehat{ABC}$a$\\widehat{BAC}=40°$,$\\widehat{ABC}=70°$, AB=6 cm. A'B'C' a B'A'C'=$40°$, A'B'C'=$70°$, A'B'=6 cm. Sont-ils égaux ?",
       "image": null,
       "choix": [
         "Oui, par ACA (AB côté entre A et B)",
@@ -1109,14 +1109,14 @@
         "Non, l'angle n'est pas compris"
       ],
       "reponse": "Oui, par ACA (AB côté entre A et B)",
-      "explication": "$\\widehat{BAC}$=B'A'C'=$40°$, $\\widehat{ABC}$=A'B'C'=$70°$, AB=A'B'=6 cm côté entre angles A et B. Critère ACA → égaux."
+      "explication": "$\\widehat{BAC}$=B'A'C'=$40°$,$\\widehat{ABC}$=A'B'C'=$70°$, AB=A'B'=6 cm côté entre angles A et B. Critère ACA → égaux."
     },
     {
       "id": "tri4_n2_030",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABCD est un rectangle. Les triangles ABC et CDA sont-ils égaux ?",
+      "enonce": "ABCD est un rectangle. Les triangles$\\widehat{ABC}$et$\\widehat{CDA}$sont-ils égaux ?",
       "image": null,
       "choix": [
         "Oui, par CCC (AB=CD, BC=DA, AC=CA)",
@@ -1125,30 +1125,30 @@
         "On ne peut pas conclure"
       ],
       "reponse": "Oui, par CCC (AB=CD, BC=DA, AC=CA)",
-      "explication": "AB=CD, BC=DA (côtés opposés d'un rectangle), AC=CA (diagonale commune). CCC → ABC ≅ CDA."
+      "explication": "AB=CD, BC=DA (côtés opposés d'un rectangle), AC=CA (diagonale commune). CCC →$\\widehat{ABC}$≅$\\widehat{CDA}$."
     },
     {
       "id": "tri4_n3_001",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Démonstration CAS : AB=A'B' (2 ticks), BC=B'C' (1 tick), $\\widehat{ABC}$=A'B'C' (arc violet). L'$\\widehat{ABC}$ est-il compris entre AB et BC ?",
+      "enonce": "Démonstration CAS : AB=A'B' (2 ticks), BC=B'C' (1 tick),$\\widehat{ABC}$=A'B'C' (arc violet). L'$\\widehat{ABC}$est-il compris entre AB et BC ?",
       "image": "triangles/deb397167f3692e47da087c079ccff800f7909f0.png",
       "choix": [
         "Non, l'angle est en A",
-        "Oui, ABC est l'angle au sommet B, compris entre AB et BC → CAS valide",
+        "Oui,$\\widehat{ABC}$est l'angle au sommet B, compris entre AB et BC → CAS valide",
         "Non, il faudrait l'angle en A",
         "Oui mais c'est plutôt le critère ACA"
       ],
-      "reponse": "Oui, ABC est l'angle au sommet B, compris entre AB et BC → CAS valide",
-      "explication": "AB=A'B', BC=B'C', $\\widehat{ABC}$=A'B'C' (angle B compris entre AB et BC). Critère CAS → ABC ≅ A'B'C'. CQFD."
+      "reponse": "Oui,$\\widehat{ABC}$est l'angle au sommet B, compris entre AB et BC → CAS valide",
+      "explication": "AB=A'B', BC=B'C',$\\widehat{ABC}$=A'B'C' (angle B compris entre AB et BC). Critère CAS →$\\widehat{ABC}$≅ A'B'C'. CQFD."
     },
     {
       "id": "tri4_n3_002",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Démonstration ACA : BC=B'C' (1 tick), $\\widehat{ABC}$=A'B'C' (1 arc), $\\widehat{BCA}$=B'C'A' (2 arcs). Le côté BC est-il bien entre angles B et C ?",
+      "enonce": "Démonstration ACA : BC=B'C' (1 tick),$\\widehat{ABC}$=A'B'C' (1 arc),$\\widehat{BCA}$=B'C'A' (2 arcs). Le côté BC est-il bien entre angles B et C ?",
       "image": "triangles/a927f54940fad3eacc8b0e90b8aff1fefeea1e6b.png",
       "choix": [
         "Non, BC est entre A et B",
@@ -1157,46 +1157,46 @@
         "Oui mais c'est le critère CCC"
       ],
       "reponse": "Oui, BC relie les sommets B et C, donc compris entre les angles en B et en C → ACA valide",
-      "explication": "BC=B'C', $\\widehat{ABC}$=A'B'C', $\\widehat{BCA}$=B'C'A'. Le côté BC est entre angles B et C. Critère ACA → ABC ≅ A'B'C'. CQFD."
+      "explication": "BC=B'C',$\\widehat{ABC}$=A'B'C',$\\widehat{BCA}$=B'C'A'. Le côté BC est entre angles B et C. Critère ACA →$\\widehat{ABC}$≅ A'B'C'. CQFD."
     },
     {
       "id": "tri4_n3_003",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC isocèle en A. H est le pied de la hauteur issue de A sur BC. On montre ABH ≅ ACH. Quelle conséquence en tire-t-on ?",
+      "enonce": "$\\widehat{ABC}$isocèle en A. H est le pied de la hauteur issue de A sur BC. On montre$\\widehat{ABH}$≅$\\widehat{ACH}$. Quelle conséquence en tire-t-on ?",
       "image": null,
       "choix": [
         "AH est une médiane mais pas une médiatrice",
         "BH = HC : la hauteur coïncide avec la médiane et la médiatrice",
-        "BH $\\neq$ HC car le triangle est isocèle",
+        "BH$\\neq$HC car le triangle est isocèle",
         "On ne peut rien conclure"
       ],
       "reponse": "BH = HC : la hauteur coïncide avec la médiane et la médiatrice",
-      "explication": "ABH et ACH : AB=AC, AH=AH, $\\widehat{AHB}=\\widehat{AHC}$=$90°$. CAS → ABH≅ACH → BH=HC. CQFD."
+      "explication": "$\\widehat{ABH}$et$\\widehat{ACH}$: AB=AC, AH=AH,$\\widehat{AHB}=\\widehat{AHC}$=$90°$. CAS →$\\widehat{ABH}$≅$\\widehat{ACH}$→ BH=HC. CQFD."
     },
     {
       "id": "tri4_n3_004",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABCD losange. O = intersection des diagonales. On montre AOB ≅ COB. Que conclut-on ?",
+      "enonce": "ABCD losange. O = intersection des diagonales. On montre$\\widehat{AOB}$≅$\\widehat{COB}$. Que conclut-on ?",
       "image": null,
       "choix": [
-        "$\\widehat{AOB}$ = $45°$",
-        "$\\widehat{AOB}$ = $90°$ : les diagonales sont perpendiculaires",
+        "$\\widehat{AOB}$=$45°$",
+        "$\\widehat{AOB}$=$90°$: les diagonales sont perpendiculaires",
         "Les diagonales sont égales",
         "On ne peut rien conclure"
       ],
-      "reponse": "$\\widehat{AOB}$ = $90°$ : les diagonales sont perpendiculaires",
-      "explication": "CCC → AOB≅COB → $\\widehat{AOB}$=COB. Leur somme = $180°$ → chacun = $90°$. Les diagonales du losange sont perpendiculaires. CQFD."
+      "reponse": "$\\widehat{AOB}$=$90°$: les diagonales sont perpendiculaires",
+      "explication": "CCC →$\\widehat{AOB}$≅$\\widehat{COB}$→$\\widehat{AOB}$=$\\widehat{COB}$. Leur somme =$180°$→ chacun =$90°$. Les diagonales du losange sont perpendiculaires. CQFD."
     },
     {
       "id": "tri4_n3_005",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Isocèle en A, H milieu de BC. ABH et ACH : AB=AC, BH=HC, AH=AH. On conclut $\\widehat{AHB}=\\widehat{AHC}$=$90°$. Qu'a-t-on prouvé ?",
+      "enonce": "Isocèle en A, H milieu de BC.$\\widehat{ABH}$et$\\widehat{ACH}$: AB=AC, BH=HC, AH=AH. On conclut$\\widehat{AHB}=\\widehat{AHC}$=$90°$. Qu'a-t-on prouvé ?",
       "image": null,
       "choix": [
         "Que AH est la hauteur seulement",
@@ -1205,14 +1205,14 @@
         "Que AH est une bissectrice uniquement"
       ],
       "reponse": "Que la médiatrice de BC passe par A (AH ⊥ BC et H milieu de BC)",
-      "explication": "CCC → ABH≅ACH → $\\widehat{AHB}=\\widehat{AHC}$=$90°$. AH ⊥ BC et passe par A et H (milieu de BC) → AH est la médiatrice de BC. CQFD."
+      "explication": "CCC →$\\widehat{ABH}$≅$\\widehat{ACH}$→$\\widehat{AHB}=\\widehat{AHC}$=$90°$. AH ⊥ BC et passe par A et H (milieu de BC) → AH est la médiatrice de BC. CQFD."
     },
     {
       "id": "tri4_n3_006",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC équilatéral côté 6 cm. M sur BC avec BM=2 cm, N sur CA avec CN=2 cm. AB=BC=6, BM=CN=2, $\\widehat{ABM}=\\widehat{CBN}$=$60°$. Quel critère prouve ABM ≅ BCN ?",
+      "enonce": "$\\widehat{ABC}$équilatéral côté 6 cm. M sur BC avec BM=2 cm, N sur CA avec CN=2 cm. AB=BC=6, BM=CN=2,$\\widehat{ABM}=\\widehat{CBN}$=$60°$. Quel critère prouve$\\widehat{ABM}$≅$\\widehat{BCN}$?",
       "image": null,
       "choix": [
         "CCC (3 côtés égaux)",
@@ -1221,7 +1221,7 @@
         "On ne peut pas conclure"
       ],
       "reponse": "CAS (deux côtés et angle compris)",
-      "explication": "AB=BC=6 cm, BM=CN=2 cm, $\\widehat{ABM}=\\widehat{CBN}$=$60°$. Le critère CAS : deux côtés et l'angle compris → ABM ≅ BCN. CQFD."
+      "explication": "AB=BC=6 cm, BM=CN=2 cm,$\\widehat{ABM}=\\widehat{CBN}$=$60°$. Le critère CAS : deux côtés et l'angle compris →$\\widehat{ABM}$≅$\\widehat{BCN}$. CQFD."
     },
     {
       "id": "tri4_n3_007",
@@ -1244,7 +1244,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Carré ABCD côté a. E milieu de AB. AED ≅ BEC (par CAS). Qu'en déduit-on ?",
+      "enonce": "Carré ABCD côté a. E milieu de AB.$\\widehat{AED}$≅$\\widehat{BEC}$(par CAS). Qu'en déduit-on ?",
       "image": null,
       "choix": [
         "ED = EA",
@@ -1253,14 +1253,14 @@
         "AE = DC"
       ],
       "reponse": "ED = EC",
-      "explication": "AE=BE=a/2, AD=BC=a, $\\widehat{EAD}=\\widehat{EBC}$=$90°$. CAS → AED≅BEC → ED=EC. CQFD."
+      "explication": "AE=BE=a/2, AD=BC=a,$\\widehat{EAD}=\\widehat{EBC}$=$90°$. CAS →$\\widehat{AED}$≅$\\widehat{BEC}$→ ED=EC. CQFD."
     },
     {
       "id": "tri4_n3_009",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Deux triangles ABC et A'B'C' avec AB=A'B', AC=A'C', $\\widehat{ABC}$=A'B'C'. Peut-on conclure qu'ils sont égaux ?",
+      "enonce": "Deux triangles$\\widehat{ABC}$et A'B'C' avec AB=A'B', AC=A'C',$\\widehat{ABC}$=A'B'C'. Peut-on conclure qu'ils sont égaux ?",
       "image": null,
       "choix": [
         "Oui, c'est le critère CAS",
@@ -1276,7 +1276,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "ABC rectangle en A, AB=3, AC=4. DEF rectangle en D, DE=3, DF=4. Par quel critère ABC ≅ DEF ? Quelle est l'hypoténuse ?",
+      "enonce": "$\\widehat{ABC}$rectangle en A, AB=3, AC=4.$\\widehat{DEF}$rectangle en D, DE=3, DF=4. Par quel critère$\\widehat{ABC}$≅$\\widehat{DEF}$? Quelle est l'hypoténuse ?",
       "image": null,
       "choix": [
         "CAS, hypoténuse = 5",
@@ -1285,14 +1285,14 @@
         "CAS, hypoténuse = 6"
       ],
       "reponse": "CAS, hypoténuse = 5",
-      "explication": "AB=DE=3, AC=DF=4, $\\widehat{BAC}=\\widehat{EDF}$=$90°$. CAS → ABC≅DEF. BC=$\\sqrt{9+16}$=5. CQFD."
+      "explication": "AB=DE=3, AC=DF=4,$\\widehat{BAC}=\\widehat{EDF}$=$90°$. CAS →$\\widehat{ABC}$≅$\\widehat{DEF}$. BC=$\\sqrt{9+16}$=5. CQFD."
     },
     {
       "id": "tri4_n3_011",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle ABC avec $\\widehat{BAC}$=x, $\\widehat{ABC}$=2x, $\\widehat{ACB}$=3x. Que vaut x et quel type de triangle est-ce ?",
+      "enonce": "Triangle$\\widehat{ABC}$avec$\\widehat{BAC}$=x,$\\widehat{ABC}$=2x,$\\widehat{ACB}$=3x. Que vaut x et quel type de triangle est-ce ?",
       "image": null,
       "choix": [
         "x=$20°$, triangle obtus",
@@ -1301,30 +1301,30 @@
         "x=$36°$, triangle équilatéral"
       ],
       "reponse": "x=$30°$, triangle rectangle en C",
-      "explication": "6x=$180°$ → x=$30°$. $\\widehat{BAC}=30°$, $\\widehat{ABC}=60°$, $\\widehat{ACB}=90°$. Triangle rectangle en C."
+      "explication": "6x=$180°$→ x=$30°$.$\\widehat{BAC}=30°$,$\\widehat{ABC}=60°$,$\\widehat{ACB}=90°$. Triangle rectangle en C."
     },
     {
       "id": "tri4_n3_012",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC isocèle en B, $\\widehat{ABC}=140°$. BD est la bissectrice de B. ABD ≅ CBD par quel critère ?",
+      "enonce": "$\\widehat{ABC}$isocèle en B,$\\widehat{ABC}=140°$. BD est la bissectrice de B.$\\widehat{ABD}$≅$\\widehat{CBD}$par quel critère ?",
       "image": null,
       "choix": [
         "CCC",
         "ACA",
-        "CAS (AB=CB, BD commun, $\\widehat{ABD}=\\widehat{CBD}$=$70°$)",
+        "CAS (AB=CB, BD commun,$\\widehat{ABD}=\\widehat{CBD}$=$70°$)",
         "On ne peut pas conclure"
       ],
-      "reponse": "CAS (AB=CB, BD commun, $\\widehat{ABD}=\\widehat{CBD}$=$70°$)",
-      "explication": "AB=CB (isocèle), BD=BD (commun), $\\widehat{ABD}=\\widehat{CBD}$=$70°$ (bissectrice). CAS → ABD≅CBD."
+      "reponse": "CAS (AB=CB, BD commun,$\\widehat{ABD}=\\widehat{CBD}$=$70°$)",
+      "explication": "AB=CB (isocèle), BD=BD (commun),$\\widehat{ABD}=\\widehat{CBD}$=$70°$(bissectrice). CAS →$\\widehat{ABD}$≅$\\widehat{CBD}$."
     },
     {
       "id": "tri4_n3_013",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "$\\widehat{BAC}$=B'A'C'=$70°$, $\\widehat{ABC}$=A'B'C'=$50°$, BC=B'C'=8 cm. Par quel critère ABC ≅ A'B'C' ?",
+      "enonce": "$\\widehat{BAC}$=B'A'C'=$70°$,$\\widehat{ABC}$=A'B'C'=$50°$, BC=B'C'=8 cm. Par quel critère$\\widehat{ABC}$≅ A'B'C' ?",
       "image": null,
       "choix": [
         "CAS",
@@ -1333,14 +1333,14 @@
         "On ne peut pas conclure"
       ],
       "reponse": "ACA (BC côté compris entre angles B et C)",
-      "explication": "$\\widehat{ACB}$=A'C'B'=$60°$ (déduit). BC=B'C' côté entre angles B et C → critère ACA → ABC ≅ A'B'C'."
+      "explication": "$\\widehat{ACB}$=A'C'B'=$60°$(déduit). BC=B'C' côté entre angles B et C → critère ACA →$\\widehat{ABC}$≅ A'B'C'."
     },
     {
       "id": "tri4_n3_014",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABCD est un parallélogramme. Par quel critère ABC ≅ CDA ?",
+      "enonce": "ABCD est un parallélogramme. Par quel critère$\\widehat{ABC}$≅$\\widehat{CDA}$?",
       "image": null,
       "choix": [
         "CAS (diagonale commune)",
@@ -1349,23 +1349,23 @@
         "On ne peut pas conclure"
       ],
       "reponse": "CCC (AB=CD, BC=DA, AC=CA commun)",
-      "explication": "AB=CD, BC=DA (côtés opposés du parallélogramme), AC=CA (diagonale commune). CCC → ABC≅CDA. CQFD."
+      "explication": "AB=CD, BC=DA (côtés opposés du parallélogramme), AC=CA (diagonale commune). CCC →$\\widehat{ABC}$≅$\\widehat{CDA}$. CQFD."
     },
     {
       "id": "tri4_n3_015",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle ABC rectangle en A. AM est la médiane sur BC (M milieu). Dans un triangle rectangle, la médiane issue de l'angle droit vaut BC/2. Que peut-on dire de AM ?",
+      "enonce": "Triangle$\\widehat{ABC}$rectangle en A. AM est la médiane sur BC (M milieu). Dans un triangle rectangle, la médiane issue de l'angle droit vaut BC/2. Que peut-on dire de AM ?",
       "image": null,
       "choix": [
         "AM = BC uniquement",
-        "AM = BM = CM = BC/2 → ABM et ACM sont isocèles en M",
+        "AM = BM = CM = BC/2 →$\\widehat{ABM}$et$\\widehat{ACM}$sont isocèles en M",
         "AM est la hauteur uniquement",
         "AM = AB seulement"
       ],
-      "reponse": "AM = BM = CM = BC/2 → ABM et ACM sont isocèles en M",
-      "explication": "AM=BM=CM=BC/2. Donc ABM est isocèle en M (AM=BM) et ACM est isocèle en M (AM=CM). CQFD."
+      "reponse": "AM = BM = CM = BC/2 →$\\widehat{ABM}$et$\\widehat{ACM}$sont isocèles en M",
+      "explication": "AM=BM=CM=BC/2. Donc$\\widehat{ABM}$est isocèle en M (AM=BM) et$\\widehat{ACM}$est isocèle en M (AM=CM). CQFD."
     },
     {
       "id": "tri4_n3_016",
@@ -1388,55 +1388,55 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "A, B, C, D alignés avec AB=CD. Triangles ABE et CDF tels que AE=CF et $\\widehat{BAE}$=DCF. Par quel critère ABE ≅ CDF ?",
+      "enonce": "A, B, C, D alignés avec AB=CD. Triangles$\\widehat{ABE}$et$\\widehat{CDF}$tels que AE=CF et$\\widehat{BAE}$=$\\widehat{DCF}$. Par quel critère$\\widehat{ABE}$≅$\\widehat{CDF}$?",
       "image": null,
       "choix": [
         "CCC",
         "ACA",
-        "CAS (AB=CD, AE=CF, $\\widehat{BAE}$=DCF compris)",
+        "CAS (AB=CD, AE=CF,$\\widehat{BAE}$=$\\widehat{DCF}$compris)",
         "On ne peut pas conclure"
       ],
-      "reponse": "CAS (AB=CD, AE=CF, $\\widehat{BAE}$=DCF compris)",
-      "explication": "AB=CD, AE=CF, $\\widehat{BAE}$=DCF (angle compris entre AB et AE). CAS → ABE≅CDF. CQFD."
+      "reponse": "CAS (AB=CD, AE=CF,$\\widehat{BAE}$=$\\widehat{DCF}$compris)",
+      "explication": "AB=CD, AE=CF,$\\widehat{BAE}$=$\\widehat{DCF}$(angle compris entre AB et AE). CAS →$\\widehat{ABE}$≅$\\widehat{CDF}$. CQFD."
     },
     {
       "id": "tri4_n3_018",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "La diagonale d'un rectangle ABCD coupe le rectangle en deux triangles ABC et CDA. Comment prouver qu'ils sont égaux ?",
+      "enonce": "La diagonale d'un rectangle ABCD coupe le rectangle en deux triangles$\\widehat{ABC}$et$\\widehat{CDA}$. Comment prouver qu'ils sont égaux ?",
       "image": null,
       "choix": [
         "Par ACA car les angles sont alternes-internes",
         "Par CCC : AB=CD, BC=DA, AC=CA (diagonale commune) → égaux",
-        "Par CAS avec un angle de $90°$",
+        "Par CAS avec un angle de$90°$",
         "On ne peut pas prouver l'égalité"
       ],
       "reponse": "Par CCC : AB=CD, BC=DA, AC=CA (diagonale commune) → égaux",
-      "explication": "Rectangle ABCD : AB=CD, BC=DA (côtés opposés), AC=CA (diagonale commune). CCC → ABC≅CDA. Les deux sont rectangles aux sommets B et D. CQFD."
+      "explication": "Rectangle ABCD : AB=CD, BC=DA (côtés opposés), AC=CA (diagonale commune). CCC →$\\widehat{ABC}$≅$\\widehat{CDA}$. Les deux sont rectangles aux sommets B et D. CQFD."
     },
     {
       "id": "tri4_n3_019",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "ABC isocèle en A avec $\\widehat{BAC}=20°$. Les angles de base ABC et ACB mesurent :",
+      "enonce": "$\\widehat{ABC}$isocèle en A avec$\\widehat{BAC}=20°$. Les angles de base$\\widehat{ABC}$et$\\widehat{ACB}$mesurent :",
       "image": null,
       "choix": [
-        "$60°$ chacun",
-        "$70°$ chacun",
-        "$80°$ chacun",
-        "$90°$ chacun"
+        "$60°$chacun",
+        "$70°$chacun",
+        "$80°$chacun",
+        "$90°$chacun"
       ],
-      "reponse": "$80°$ chacun",
-      "explication": "$\\widehat{ABC}$ = $\\widehat{ACB}$ = ($180°$−$20°$)/2 = $80°$."
+      "reponse": "$80°$chacun",
+      "explication": "$\\widehat{ABC}$=$\\widehat{ACB}$= ($180°$−$20°$)/2 =$80°$."
     },
     {
       "id": "tri4_n3_020",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Deux triangles ABC et DEF : AB=DE=6 cm, $\\widehat{BAC}=\\widehat{EDF}$=$45°$, $\\widehat{ABC}=\\widehat{DEF}$=$90°$. Sont-ils égaux et par quel critère ?",
+      "enonce": "Deux triangles$\\widehat{ABC}$et$\\widehat{DEF}$: AB=DE=6 cm,$\\widehat{BAC}=\\widehat{EDF}$=$45°$,$\\widehat{ABC}=\\widehat{DEF}$=$90°$. Sont-ils égaux et par quel critère ?",
       "image": null,
       "choix": [
         "Oui, par ACA (AB côté compris entre A et B)",
@@ -1445,7 +1445,7 @@
         "Non, les angles ne sont pas dans le même ordre"
       ],
       "reponse": "Oui, par ACA (AB côté compris entre A et B)",
-      "explication": "$\\widehat{ACB}=\\widehat{DFE}$=$45°$ (déduit). AB=DE côté entre angles A et B. ACA → ABC≅DEF. Dans ABC rectangle en B : tan$45°$=BC/AB → BC=AB=6. AC=6$\\sqrt{2}$."
+      "explication": "$\\widehat{ACB}=\\widehat{DFE}$=$45°$(déduit). AB=DE côté entre angles A et B. ACA →$\\widehat{ABC}$≅$\\widehat{DEF}$. Dans$\\widehat{ABC}$rectangle en B : tan$45°$=BC/AB → BC=AB=6. AC=6$\\sqrt{2}$."
     }
   ]
 }

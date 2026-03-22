@@ -21,7 +21,7 @@
         "Un tableau où les valeurs sont égales"
       ],
       "reponse": "Un tableau où les valeurs de la ligne 2 s'obtiennent en multipliant celles de la ligne 1 par un même coefficient",
-      "explication": "Il y a proportionnalité quand toutes les valeurs de la 2e ligne = valeurs de la 1re ligne $\\times$ même coefficient k."
+      "explication": "Il y a proportionnalité quand toutes les valeurs de la 2e ligne = valeurs de la 1re ligne$\\times$même coefficient k."
     },
     {
       "id": "prop4_n1_002",
@@ -37,14 +37,14 @@
         "5,44"
       ],
       "reponse": "2,72",
-      "explication": "1,36 $\\div$ 0,5 = 2,72. Toutes les valeurs prix $\\div$ masse = 2,72 = prix au kg."
+      "explication": "1,36$\\div$0,5 = 2,72. Toutes les valeurs prix$\\div$masse = 2,72 = prix au kg."
     },
     {
       "id": "prop4_n1_003",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Vérifie que le tableau est bien un tableau de proportionnalité. Que valent tous les quotients ligne 2 $\\div$ ligne 1 ?",
+      "enonce": "Vérifie que le tableau est bien un tableau de proportionnalité. Que valent tous les quotients ligne 2$\\div$ligne 1 ?",
       "image": "proportionnalite/15095c01a927be267a09aceb10d432f96d7d0618.png",
       "choix": [
         "Ils valent tous 2,72",
@@ -85,7 +85,7 @@
         "37"
       ],
       "reponse": "21",
-      "explication": "7 $\\times$ 3 = 21"
+      "explication": "7$\\times$3 = 21"
     },
     {
       "id": "prop4_n1_006",
@@ -101,7 +101,7 @@
         "0,5"
       ],
       "reponse": "7",
-      "explication": "14 $\\times$ 0,5 = 7"
+      "explication": "14$\\times$0,5 = 7"
     },
     {
       "id": "prop4_n1_007",
@@ -172,7 +172,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Produit en croix : $\\frac{4}{6}$ = ?/9. Trouve ?.",
+      "enonce": "Produit en croix :$\\frac{4}{6}$= ?/9. Trouve ?.",
       "image": null,
       "choix": [
         "4",
@@ -188,7 +188,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Produit en croix : $\\frac{3}{5}$ = 12/?. Trouve ?.",
+      "enonce": "Produit en croix :$\\frac{3}{5}$= 12/?. Trouve ?.",
       "image": null,
       "choix": [
         "15",
@@ -204,7 +204,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Produit en croix : ?/8 = $\\frac{3}{4}$. Trouve ?.",
+      "enonce": "Produit en croix : ?/8 =$\\frac{3}{4}$. Trouve ?.",
       "image": null,
       "choix": [
         "4",
@@ -277,14 +277,14 @@
         "20"
       ],
       "reponse": "18",
-      "explication": "30 $\\times\\frac{60}{100}$ = 30 $\\times$ 0,6 = 18 sportifs."
+      "explication": "30$\\times\\frac{60}{100}$= 30$\\times$0,6 = 18 sportifs."
     },
     {
       "id": "prop4_n1_018",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule 30% de 60 avec la méthode : Q $\\times$ t $\\div$ 100.",
+      "enonce": "Calcule 30% de 60 avec la méthode : Q$\\times$t$\\div$100.",
       "image": "proportionnalite/e2bf17bb12a175cf35287850f95e57a24d80d3ad.png",
       "choix": [
         "60$\\div$30=2",
@@ -293,7 +293,7 @@
         "60$\\div$100=0,6"
       ],
       "reponse": "60$\\times$30$\\div$100=18",
-      "explication": "Méthode 1 : Q $\\times$ t$\\div$100 = 60 $\\times$ 30$\\div$100 = 18."
+      "explication": "Méthode 1 : Q$\\times$t$\\div$100 = 60$\\times$30$\\div$100 = 18."
     },
     {
       "id": "prop4_n1_019",
@@ -309,7 +309,7 @@
         "35"
       ],
       "reponse": "30",
-      "explication": "150 $\\times\\frac{20}{100}$ = 150 $\\times$ 0,2 = 30"
+      "explication": "150$\\times\\frac{20}{100}$= 150$\\times$0,2 = 30"
     },
     {
       "id": "prop4_n1_020",
@@ -325,7 +325,7 @@
         "84"
       ],
       "reponse": "42",
-      "explication": "84 $\\times$ 0,5 = 42"
+      "explication": "84$\\times$0,5 = 42"
     },
     {
       "id": "prop4_n1_021",
@@ -341,7 +341,7 @@
         "3700"
       ],
       "reponse": "37",
-      "explication": "370 $\\times$ 0,1 = 37"
+      "explication": "370$\\times$0,1 = 37"
     },
     {
       "id": "prop4_n1_022",
@@ -357,7 +357,7 @@
         "75"
       ],
       "reponse": "50",
-      "explication": "200 $\\times$ 0,25 = 50"
+      "explication": "200$\\times$0,25 = 50"
     },
     {
       "id": "prop4_n1_023",
@@ -373,7 +373,7 @@
         "105"
       ],
       "reponse": "90",
-      "explication": "120 $\\times$ 0,75 = 90"
+      "explication": "120$\\times$0,75 = 90"
     },
     {
       "id": "prop4_n1_024",
@@ -389,7 +389,7 @@
         "250 kg"
       ],
       "reponse": "210 kg",
-      "explication": "600 $\\times$ 0,35 = 210 kg"
+      "explication": "600$\\times$0,35 = 210 kg"
     },
     {
       "id": "prop4_n1_025",
@@ -405,7 +405,7 @@
         "1,5 km"
       ],
       "reponse": "1,125 km",
-      "explication": "2,5 $\\times$ 0,45 = 1,125 km"
+      "explication": "2,5$\\times$0,45 = 1,125 km"
     },
     {
       "id": "prop4_n1_026",
@@ -421,7 +421,7 @@
         "3200"
       ],
       "reponse": "3060",
-      "explication": "3600 $\\times$ 0,85 = 3060 personnes"
+      "explication": "3600$\\times$0,85 = 3060 personnes"
     },
     {
       "id": "prop4_n1_027",
@@ -437,7 +437,7 @@
         "1,44 L"
       ],
       "reponse": "0,96 L",
-      "explication": "8 $\\times$ 0,12 = 0,96 L"
+      "explication": "8$\\times$0,12 = 0,96 L"
     },
     {
       "id": "prop4_n1_028",
@@ -453,7 +453,7 @@
         "30%"
       ],
       "reponse": "24%",
-      "explication": "120 $\\times$ 100 $\\div$ 500 = 24. Donc 24% des élèves étudient l'allemand."
+      "explication": "120$\\times$100$\\div$500 = 24. Donc 24% des élèves étudient l'allemand."
     },
     {
       "id": "prop4_n1_029",
@@ -469,7 +469,7 @@
         "65%"
       ],
       "reponse": "62,5%",
-      "explication": "15 $\\times$ 100 $\\div$ 24 = 62,5%"
+      "explication": "15$\\times$100$\\div$24 = 62,5%"
     },
     {
       "id": "prop4_n1_030",
@@ -485,7 +485,7 @@
         "25%"
       ],
       "reponse": "23,4%",
-      "explication": "351 $\\times$ 100 $\\div$ 1500 = 23,4%"
+      "explication": "351$\\times$100$\\div$1500 = 23,4%"
     },
     {
       "id": "prop4_n1_031",
@@ -501,7 +501,7 @@
         "40%"
       ],
       "reponse": "25%",
-      "explication": "50 $\\times$ 100 $\\div$ 200 = 25%"
+      "explication": "50$\\times$100$\\div$200 = 25%"
     },
     {
       "id": "prop4_n1_032",
@@ -517,7 +517,7 @@
         "40"
       ],
       "reponse": "30",
-      "explication": "50 $\\times$ 0,6 = 30."
+      "explication": "50$\\times$0,6 = 30."
     },
     {
       "id": "prop4_n1_033",
@@ -533,7 +533,7 @@
         "$\\frac{1}{4}$"
       ],
       "reponse": "4",
-      "explication": "20 $\\div$ 5 = 4."
+      "explication": "20$\\div$5 = 4."
     },
     {
       "id": "prop4_n1_034",
@@ -565,14 +565,14 @@
         "4%"
       ],
       "reponse": "25%",
-      "explication": "12 $\\times$ 100 $\\div$ 48 = 25%."
+      "explication": "12$\\times$100$\\div$48 = 25%."
     },
     {
       "id": "prop4_n1_036",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si $\\frac{3}{4}$ = ?/12 (produit en croix), ? =",
+      "enonce": "Si$\\frac{3}{4}$= ?/12 (produit en croix), ? =",
       "image": null,
       "choix": [
         "4",
@@ -581,7 +581,7 @@
         "3"
       ],
       "reponse": "9",
-      "explication": "3 $\\times$ 12 $\\div$ 4 = 9."
+      "explication": "3$\\times$12$\\div$4 = 9."
     },
     {
       "id": "prop4_n1_037",
@@ -613,7 +613,7 @@
         "1776"
       ],
       "reponse": "17760",
-      "explication": "24000 $\\times$ 0,74 = 17760."
+      "explication": "24000$\\times$0,74 = 17760."
     },
     {
       "id": "prop4_n1_039",
@@ -629,7 +629,7 @@
         "15 €"
       ],
       "reponse": "35 €",
-      "explication": "50 $\\times$ 0,3 = 15 € de réduction. 50 − 15 = 35 €."
+      "explication": "50$\\times$0,3 = 15 € de réduction. 50 − 15 = 35 €."
     },
     {
       "id": "prop4_n1_040",
@@ -671,13 +671,13 @@
       "enonce": "Tableau de change euro/dollar avec k=1,08. Combien de dollars pour 5 € ?",
       "image": "proportionnalite/d286aa440ecba920227244a4ecccd33f1ac503a1.png",
       "choix": [
-        "4,63 $",
-        "5,08 $",
-        "5,40 $",
-        "6,00 $"
+        "4,63$",
+        "5,08$",
+        "5,40$",
+        "6,00$"
       ],
-      "reponse": "5,40 $",
-      "explication": "k=1,08. 5€→5$\\times$1,08=5,40 $."
+      "reponse": "5,40$",
+      "explication": "k=1,08. 5€→5$\\times$1,08=5,40$."
     },
     {
       "id": "prop4_n2_003",
@@ -693,7 +693,7 @@
         "270 km"
       ],
       "reponse": "225 km",
-      "explication": "k=90 km/h. 2,5h $\\times$ 90 = 225 km."
+      "explication": "k=90 km/h. 2,5h$\\times$90 = 225 km."
     },
     {
       "id": "prop4_n2_004",
@@ -757,7 +757,7 @@
         "4"
       ],
       "reponse": "2",
-      "explication": "En lisant le point (1,2) : k=$\\frac{y}{x}=\\frac{2}{1}$=2. Ou point (3,6) : $\\frac{6}{3}$=2. k=2."
+      "explication": "En lisant le point (1,2) : k=$\\frac{y}{x}=\\frac{2}{1}$=2. Ou point (3,6) :$\\frac{6}{3}$=2. k=2."
     },
     {
       "id": "prop4_n2_008",
@@ -773,7 +773,7 @@
         "On ne peut pas déterminer"
       ],
       "reponse": "Oui, le coefficient est toujours 2,5 et passe par O",
-      "explication": "k=$\\frac{5}{2}$=2,5 et $\\frac{10}{4}$=2,5. Même coefficient, passe par O → proportionnel."
+      "explication": "k=$\\frac{5}{2}$=2,5 et$\\frac{10}{4}$=2,5. Même coefficient, passe par O → proportionnel."
     },
     {
       "id": "prop4_n2_009",
@@ -789,7 +789,7 @@
         "18 000"
       ],
       "reponse": "17 760",
-      "explication": "24000 $\\times$ 0,74 = 17 760 propriétaires."
+      "explication": "24000$\\times$0,74 = 17 760 propriétaires."
     },
     {
       "id": "prop4_n2_010",
@@ -892,7 +892,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans une classe de 32 élèves, 8 ont eu $\\frac{15}{20}$ ou plus. Quel pourcentage ?",
+      "enonce": "Dans une classe de 32 élèves, 8 ont eu$\\frac{15}{20}$ou plus. Quel pourcentage ?",
       "image": null,
       "choix": [
         "20%",
@@ -1084,7 +1084,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Convertis $\\frac{3}{5}$ en pourcentage.",
+      "enonce": "Convertis$\\frac{3}{5}$en pourcentage.",
       "image": null,
       "choix": [
         "35%",
@@ -1100,7 +1100,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Convertis $\\frac{7}{25}$ en pourcentage.",
+      "enonce": "Convertis$\\frac{7}{25}$en pourcentage.",
       "image": null,
       "choix": [
         "14%",
@@ -1132,7 +1132,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Prouve que si $\\frac{a}{b}$ = $\\frac{c}{d}$, alors ad = bc. Cette propriété s'appelle :",
+      "enonce": "Prouve que si$\\frac{a}{b}$=$\\frac{c}{d}$, alors ad = bc. Cette propriété s'appelle :",
       "image": null,
       "choix": [
         "Le théorème de Pythagore",
@@ -1141,7 +1141,7 @@
         "Le théorème de Thalès"
       ],
       "reponse": "La propriété des produits en croix",
-      "explication": "$\\frac{a}{b}=\\frac{c}{d}$ ↔ on multiplie les deux membres par b$\\times$d : a$\\times$d=c$\\times$b. CQFD."
+      "explication": "$\\frac{a}{b}=\\frac{c}{d}$↔ on multiplie les deux membres par b$\\times$d : a$\\times$d=c$\\times$b. CQFD."
     },
     {
       "id": "prop4_n3_002",
@@ -1189,7 +1189,7 @@
         "30 L"
       ],
       "reponse": "27 L",
-      "explication": "Proportion : $\\frac{6}{100}$ = ?/450. ?=6$\\times$450$\\div$100=27 L."
+      "explication": "Proportion :$\\frac{6}{100}$= ?/450. ?=6$\\times$450$\\div$100=27 L."
     },
     {
       "id": "prop4_n3_005",
@@ -1216,11 +1216,11 @@
       "image": null,
       "choix": [
         "P (prix initial)",
-        "P $\\times$ 0,96 (−4%)",
-        "P $\\times$ 1,04 (+4%)",
-        "P $\\times$ 0,98 (−2%)"
+        "P$\\times$0,96 (−4%)",
+        "P$\\times$1,04 (+4%)",
+        "P$\\times$0,98 (−2%)"
       ],
-      "reponse": "P $\\times$ 0,96 (−4%)",
+      "reponse": "P$\\times$0,96 (−4%)",
       "explication": "P$\\times$1,2$\\times$0,8=P$\\times$0,96. Non, on n'est pas revenu au prix initial ! Le prix final est 96% du prix initial."
     },
     {
@@ -1388,7 +1388,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si $\\frac{5}{8}$ des élèves sont des filles et qu'il y a 200 élèves, combien sont des garçons ?",
+      "enonce": "Si$\\frac{5}{8}$des élèves sont des filles et qu'il y a 200 élèves, combien sont des garçons ?",
       "image": null,
       "choix": [
         "60",
@@ -1397,7 +1397,7 @@
         "80"
       ],
       "reponse": "75",
-      "explication": "Garçons : $\\frac{3}{8}$. 200$\\times\\frac{3}{8}$=75 garçons."
+      "explication": "Garçons :$\\frac{3}{8}$. 200$\\times\\frac{3}{8}$=75 garçons."
     },
     {
       "id": "prop4_n3_018",
@@ -1445,7 +1445,7 @@
         "480 g, +60%"
       ],
       "reponse": "450 g, +50%",
-      "explication": "Coefficient : $\\frac{9}{6}$=1,5. Farine : 300$\\times$1,5=450 g (+50%). Beurre : 225 g. Sucre : 300 g."
+      "explication": "Coefficient :$\\frac{9}{6}$=1,5. Farine : 300$\\times$1,5=450 g (+50%). Beurre : 225 g. Sucre : 300 g."
     }
   ]
 }

@@ -21,7 +21,7 @@
         "Le carré de a"
       ],
       "reponse": "Le nombre positif dont le carré est égal à a",
-      "explication": "√a est le nombre positif tel que (√a)² = a. Ex : $\\sqrt{25}$ = 5 car $5^{2}$ = 25."
+      "explication": "$\\sqrt{a}$ est le nombre positif tel que $(\\sqrt{a})^{2}$ = a. Ex : $\\sqrt{25}$ = 5 car $5^{2}$ = 25."
     },
     {
       "id": "pyth4_n1_002",
@@ -37,14 +37,14 @@
         "Un nombre premier"
       ],
       "reponse": "Le carré d'un nombre entier",
-      "explication": "Ex : 9 = $3^{2}$, 25 = $5^{2}$, 49 = $7^{2}$ sont des carrés parfaits."
+      "explication": "Ex : 9 =$3^{2}$, 25 =$5^{2}$, 49 =$7^{2}$sont des carrés parfaits."
     },
     {
       "id": "pyth4_n1_003",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "À l'aide du tableau, quelle est la valeur de $\\sqrt{36}$ ?",
+      "enonce": "À l'aide du tableau, quelle est la valeur de$\\sqrt{36}$?",
       "image": "pythagore/9a6613436923445c2b3bf4cf244d103bd0064406.png",
       "choix": [
         "4",
@@ -53,14 +53,14 @@
         "7"
       ],
       "reponse": "6",
-      "explication": "$\\sqrt{36}$ = 6 car $6^{2}$ = 36 ; $\\sqrt{64}$ = 8 ; $\\sqrt{144}$ = 12."
+      "explication": "$\\sqrt{36}$= 6 car$6^{2}$= 36 ;$\\sqrt{64}$= 8 ;$\\sqrt{144}$= 12."
     },
     {
       "id": "pyth4_n1_004",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Dans le tableau des racines carrées, quelle est la valeur de $\\sqrt{64}$ ?",
+      "enonce": "Dans le tableau des racines carrées, quelle est la valeur de$\\sqrt{64}$?",
       "image": "pythagore/2b2c76669504882984ce50335ca42e1c717f6b7c.png",
       "choix": [
         "6",
@@ -69,14 +69,14 @@
         "9"
       ],
       "reponse": "8",
-      "explication": "$\\sqrt{64}$ = 8 car $8^{2}$ = 64."
+      "explication": "$\\sqrt{64}$= 8 car$8^{2}$= 64."
     },
     {
       "id": "pyth4_n1_005",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice : $\\sqrt{9}$ = ?",
+      "enonce": "Calcule sans calculatrice :$\\sqrt{9}$= ?",
       "image": null,
       "choix": [
         "2",
@@ -85,14 +85,14 @@
         "5"
       ],
       "reponse": "3",
-      "explication": "$\\sqrt{9}$ = 3 car $3^{2}$ = 9."
+      "explication": "$\\sqrt{9}$= 3 car$3^{2}$= 9."
     },
     {
       "id": "pyth4_n1_006",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice : $\\sqrt{100}$ = ?",
+      "enonce": "Calcule sans calculatrice :$\\sqrt{100}$= ?",
       "image": null,
       "choix": [
         "8",
@@ -101,14 +101,14 @@
         "11"
       ],
       "reponse": "10",
-      "explication": "$\\sqrt{100}$ = 10 car $1$0^{2} = 100."
+      "explication": "$\\sqrt{100}$= 10 car$1$0^{2} = 100."
     },
     {
       "id": "pyth4_n1_007",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice : $\\sqrt{49}$ = ?",
+      "enonce": "Calcule sans calculatrice :$\\sqrt{49}$= ?",
       "image": null,
       "choix": [
         "5",
@@ -117,14 +117,14 @@
         "8"
       ],
       "reponse": "7",
-      "explication": "$\\sqrt{49}$ = 7 car $7^{2}$ = 49."
+      "explication": "$\\sqrt{49}$= 7 car$7^{2}$= 49."
     },
     {
       "id": "pyth4_n1_008",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice : $\\sqrt{121}$ = ?",
+      "enonce": "Calcule sans calculatrice :$\\sqrt{121}$= ?",
       "image": null,
       "choix": [
         "9",
@@ -133,14 +133,14 @@
         "12"
       ],
       "reponse": "11",
-      "explication": "$\\sqrt{121}$ = 11 car $1$1^{2} = 121."
+      "explication": "$\\sqrt{121}$= 11 car$1$1^{2} = 121."
     },
     {
       "id": "pyth4_n1_009",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "$\\sqrt{16}$ = ?",
+      "enonce": "$\\sqrt{16}$= ?",
       "image": null,
       "choix": [
         "2",
@@ -149,7 +149,7 @@
         "6"
       ],
       "reponse": "4",
-      "explication": "$4^{2}$ = 16 donc $\\sqrt{16}$ = 4."
+      "explication": "$4^{2}$= 16 donc$\\sqrt{16}$= 4."
     },
     {
       "id": "pyth4_n1_010",
@@ -165,7 +165,7 @@
         "60"
       ],
       "reponse": "49",
-      "explication": "$7^{2}$ = 49 et $8^{2}$ = 64. Le carré parfait juste avant 64 est 49."
+      "explication": "$7^{2}$= 49 et$8^{2}$= 64. Le carré parfait juste avant 64 est 49."
     },
     {
       "id": "pyth4_n1_011",
@@ -220,39 +220,39 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Pour un triangle PQR rectangle en P, quelle est l'égalité de Pythagore ?",
+      "enonce": "Pour un triangle$\\widehat{PQR}$rectangle en P, quelle est l'égalité de Pythagore ?",
       "image": null,
       "choix": [
-        "$P$Q^{2} = $Q$R^{2} + $P$R^{2}",
-        "$Q$R^{2} = $P$Q^{2} + $P$R^{2}",
-        "$P$R^{2} = $P$Q^{2} + $Q$R^{2}",
-        "$P$Q^{2} + $Q$R^{2} = $P$R^{2}"
+        "$P$Q^{2} =$Q$R^{2} +$P$R^{2}",
+        "$Q$R^{2} =$P$Q^{2} +$P$R^{2}",
+        "$P$R^{2} =$P$Q^{2} +$Q$R^{2}",
+        "$P$Q^{2} +$Q$R^{2} =$P$R^{2}"
       ],
-      "reponse": "$Q$R^{2} = $P$Q^{2} + $P$R^{2}",
-      "explication": "$Q$R^{2} = $P$Q^{2} + $P$R^{2} (QR est l'hypoténuse car l'angle droit est en P)."
+      "reponse": "$Q$R^{2} =$P$Q^{2} +$P$R^{2}",
+      "explication": "$Q$R^{2} =$P$Q^{2} +$P$R^{2} (QR est l'hypoténuse car l'angle droit est en P)."
     },
     {
       "id": "pyth4_n1_015",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Pour un triangle EFG rectangle en F, quelle est l'égalité de Pythagore ?",
+      "enonce": "Pour un triangle$\\widehat{EFG}$rectangle en F, quelle est l'égalité de Pythagore ?",
       "image": null,
       "choix": [
-        "$E$G^{2} = $E$F^{2} + $F$G^{2}",
-        "$E$F^{2} = $E$G^{2} + $F$G^{2}",
-        "$F$G^{2} = $E$F^{2} + $E$G^{2}",
-        "$E$F^{2} + $F$G^{2} = $F$G^{2}"
+        "$E$G^{2} =$E$F^{2} +$F$G^{2}",
+        "$E$F^{2} =$E$G^{2} +$F$G^{2}",
+        "$F$G^{2} =$E$F^{2} +$E$G^{2}",
+        "$E$F^{2} +$F$G^{2} =$F$G^{2}"
       ],
-      "reponse": "$E$G^{2} = $E$F^{2} + $F$G^{2}",
-      "explication": "$E$G^{2} = $E$F^{2} + $F$G^{2} (EG est l'hypoténuse car l'angle droit est en F)."
+      "reponse": "$E$G^{2} =$E$F^{2} +$F$G^{2}",
+      "explication": "$E$G^{2} =$E$F^{2} +$F$G^{2} (EG est l'hypoténuse car l'angle droit est en F)."
     },
     {
       "id": "pyth4_n1_016",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle IJK est rectangle en I avec IJ=3 cm et IK=4 cm. Calcule JK.",
+      "enonce": "Le triangle$\\widehat{IJK}$est rectangle en I avec IJ=3 cm et IK=4 cm. Calcule JK.",
       "image": "pythagore/3c7f2bb20fd98252f322b4cc99dac8c034cb13b9.png",
       "choix": [
         "4 cm",
@@ -261,14 +261,14 @@
         "7 cm"
       ],
       "reponse": "5 cm",
-      "explication": "$J$K^{2} = $I$J^{2} + $I$K^{2} = $3^{2}$ + $4^{2}$ = 9 + 16 = 25. JK = $\\sqrt{25}$ = 5 cm."
+      "explication": "$J$K^{2} =$I$J^{2} +$I$K^{2} =$3^{2}$+$4^{2}$= 9 + 16 = 25. JK =$\\sqrt{25}$= 5 cm."
     },
     {
       "id": "pyth4_n1_017",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle ABC est rectangle en A avec AB=6 cm et AC=8 cm. Calcule BC.",
+      "enonce": "Le triangle$\\widehat{ABC}$est rectangle en A avec AB=6 cm et AC=8 cm. Calcule BC.",
       "image": "pythagore/eec77f65308b9c832af9a22f66daf315f9f44e1d.png",
       "choix": [
         "8 cm",
@@ -277,14 +277,14 @@
         "14 cm"
       ],
       "reponse": "10 cm",
-      "explication": "$B$C^{2} = $A$B^{2} + $A$C^{2} = $6^{2}$ + $8^{2}$ = 36 + 64 = 100. BC = $\\sqrt{100}$ = 10 cm."
+      "explication": "$B$C^{2} =$A$B^{2} +$A$C^{2} =$6^{2}$+$8^{2}$= 36 + 64 = 100. BC =$\\sqrt{100}$= 10 cm."
     },
     {
       "id": "pyth4_n1_018",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle MNP est rectangle en M avec MN=5 cm et MP=12 cm. Calcule NP.",
+      "enonce": "Le triangle$\\widehat{MNP}$est rectangle en M avec MN=5 cm et MP=12 cm. Calcule NP.",
       "image": "pythagore/a966d9d5aee7abff24a3201f4409a661fcd74447.png",
       "choix": [
         "11 cm",
@@ -293,7 +293,7 @@
         "15 cm"
       ],
       "reponse": "13 cm",
-      "explication": "$N$P^{2} = $M$N^{2} + $M$P^{2} = $5^{2}$ + $1$2^{2} = 25 + 144 = 169. NP = $\\sqrt{169}$ = 13 cm."
+      "explication": "$N$P^{2} =$M$N^{2} +$M$P^{2} =$5^{2}$+$1$2^{2} = 25 + 144 = 169. NP =$\\sqrt{169}$= 13 cm."
     },
     {
       "id": "pyth4_n1_019",
@@ -309,7 +309,7 @@
         "18 cm"
       ],
       "reponse": "15 cm",
-      "explication": "$A$B^{2} = $9^{2}$ + $1$2^{2} = 81 + 144 = 225. AB = $\\sqrt{225}$ = 15 cm."
+      "explication": "$A$B^{2} =$9^{2}$+$1$2^{2} = 81 + 144 = 225. AB =$\\sqrt{225}$= 15 cm."
     },
     {
       "id": "pyth4_n1_020",
@@ -325,14 +325,14 @@
         "18 cm"
       ],
       "reponse": "17 cm",
-      "explication": "$Y$Z^{2} = $8^{2}$ + $1$5^{2} = 64 + 225 = 289. YZ = $\\sqrt{289}$ = 17 cm."
+      "explication": "$Y$Z^{2} =$8^{2}$+$1$5^{2} = 64 + 225 = 289. YZ =$\\sqrt{289}$= 17 cm."
     },
     {
       "id": "pyth4_n1_021",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle EGF est rectangle en E. EG=40 cm, GF=41 cm (hypoténuse). Calcule EF.",
+      "enonce": "Le triangle$\\widehat{EGF}$est rectangle en E. EG=40 cm, GF=41 cm (hypoténuse). Calcule EF.",
       "image": "pythagore/fa1bf4fab0d2468ce8196eaeaa1c83fcf1e0e5fd.png",
       "choix": [
         "7 cm",
@@ -341,14 +341,14 @@
         "10 cm"
       ],
       "reponse": "9 cm",
-      "explication": "$G$F^{2} = $G$E^{2} + $E$F^{2}. $4$1^{2} = $4$0^{2} + $E$F^{2}. 1681 = 1600 + $E$F^{2}. $E$F^{2} = 81. EF = $\\sqrt{81}$ = 9 cm."
+      "explication": "$G$F^{2} =$G$E^{2} +$E$F^{2}.$4$1^{2} =$4$0^{2} +$E$F^{2}. 1681 = 1600 +$E$F^{2}.$E$F^{2} = 81. EF =$\\sqrt{81}$= 9 cm."
     },
     {
       "id": "pyth4_n1_022",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle RST est rectangle en R. ST=17 cm (hyp.) et RT=15 cm. Calcule RS.",
+      "enonce": "Le triangle$\\widehat{RST}$est rectangle en R. ST=17 cm (hyp.) et RT=15 cm. Calcule RS.",
       "image": "pythagore/cd4f9ef4d894f5fc6d3563a6b55d753cafb9239e.png",
       "choix": [
         "6 cm",
@@ -357,14 +357,14 @@
         "9 cm"
       ],
       "reponse": "8 cm",
-      "explication": "$S$T^{2} = $R$S^{2} + $R$T^{2}. $1$7^{2} = $R$S^{2} + $1$5^{2}. 289 = $R$S^{2} + 225. $R$S^{2} = 64. RS = 8 cm."
+      "explication": "$S$T^{2} =$R$S^{2} +$R$T^{2}.$1$7^{2} =$R$S^{2} +$1$5^{2}. 289 =$R$S^{2} + 225.$R$S^{2} = 64. RS = 8 cm."
     },
     {
       "id": "pyth4_n1_023",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle LMN est rectangle en L. MN=26 cm (hyp.) et LN=24 cm. Calcule LM.",
+      "enonce": "Le triangle$\\widehat{LMN}$est rectangle en L. MN=26 cm (hyp.) et LN=24 cm. Calcule LM.",
       "image": "pythagore/94a822088af2101d8dcda186046faa3b4f39693a.png",
       "choix": [
         "8 cm",
@@ -373,7 +373,7 @@
         "12 cm"
       ],
       "reponse": "10 cm",
-      "explication": "$M$N^{2} = $L$M^{2} + $L$N^{2}. $2$6^{2} = $L$M^{2} + $2$4^{2}. 676 = $L$M^{2} + 576. $L$M^{2} = 100. LM = 10 cm."
+      "explication": "$M$N^{2} =$L$M^{2} +$L$N^{2}.$2$6^{2} =$L$M^{2} +$2$4^{2}. 676 =$L$M^{2} + 576.$L$M^{2} = 100. LM = 10 cm."
     },
     {
       "id": "pyth4_n1_024",
@@ -389,7 +389,7 @@
         "8 cm"
       ],
       "reponse": "7 cm",
-      "explication": "$B$C^{2} = $A$B^{2} + $A$C^{2}. 625 = 576 + $A$C^{2}. $A$C^{2} = 49. AC = 7 cm."
+      "explication": "$B$C^{2} =$A$B^{2} +$A$C^{2}. 625 = 576 +$A$C^{2}.$A$C^{2} = 49. AC = 7 cm."
     },
     {
       "id": "pyth4_n1_025",
@@ -405,7 +405,7 @@
         "16 cm"
       ],
       "reponse": "14 cm",
-      "explication": "$5$0^{2} = $4$8^{2} + $E$G^{2}. 2500 = 2304 + $E$G^{2}. $E$G^{2} = 196. EG = 14 cm."
+      "explication": "$5$0^{2} =$4$8^{2} +$E$G^{2}. 2500 = 2304 +$E$G^{2}.$E$G^{2} = 196. EG = 14 cm."
     },
     {
       "id": "pyth4_n1_026",
@@ -421,14 +421,14 @@
         "$\\sqrt{7}$"
       ],
       "reponse": "5",
-      "explication": "$A$C^{2} = $A$B^{2} + $B$C^{2} = 9 + 16 = 25. AC = 5."
+      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} = 9 + 16 = 25. AC = 5."
     },
     {
       "id": "pyth4_n1_027",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "$\\sqrt{81}$ = ?",
+      "enonce": "$\\sqrt{81}$= ?",
       "image": null,
       "choix": [
         "9",
@@ -437,7 +437,7 @@
         "6"
       ],
       "reponse": "9",
-      "explication": "$9^{2}$ = 81."
+      "explication": "$9^{2}$= 81."
     },
     {
       "id": "pyth4_n1_028",
@@ -460,7 +460,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Si $B$C^{2} = $A$B^{2} + $A$C^{2}, l'angle droit est en :",
+      "enonce": "Si$B$C^{2} =$A$B^{2} +$A$C^{2}, l'angle droit est en :",
       "image": null,
       "choix": [
         "B",
@@ -492,7 +492,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "$\\sqrt{4}$ + $\\sqrt{9}$ = ?",
+      "enonce": "$\\sqrt{4}$+$\\sqrt{9}$= ?",
       "image": null,
       "choix": [
         "$\\sqrt{13}$",
@@ -501,7 +501,7 @@
         "7"
       ],
       "reponse": "5",
-      "explication": "$\\sqrt{4}$ = 2, $\\sqrt{9}$ = 3. 2 + 3 = 5."
+      "explication": "$\\sqrt{4}$= 2,$\\sqrt{9}$= 3. 2 + 3 = 5."
     },
     {
       "id": "pyth4_n1_032",
@@ -517,7 +517,7 @@
         "100"
       ],
       "reponse": "50",
-      "explication": "50 n'est pas le carré d'un entier. $\\sqrt{50}\\approx$ 7,07."
+      "explication": "50 n'est pas le carré d'un entier.$\\sqrt{50}\\approx$7,07."
     },
     {
       "id": "pyth4_n1_033",
@@ -549,7 +549,7 @@
         "14 cm"
       ],
       "reponse": "12 cm",
-      "explication": "$2$0^{2} = $M$N^{2} + $1$6^{2}. $M$N^{2} = 400 − 256 = 144. MN = 12 cm."
+      "explication": "$2$0^{2} =$M$N^{2} +$1$6^{2}.$M$N^{2} = 400 − 256 = 144. MN = 12 cm."
     },
     {
       "id": "pyth4_n1_035",
@@ -560,19 +560,19 @@
       "image": null,
       "choix": [
         "5 cm",
-        "$\\sqrt{50}\\approx$ 7,07 cm",
+        "$\\sqrt{50}\\approx$7,07 cm",
         "10 cm",
-        "$\\sqrt{25}$ = 5 cm"
+        "$\\sqrt{25}$= 5 cm"
       ],
-      "reponse": "$\\sqrt{50}\\approx$ 7,07 cm",
-      "explication": "Côté = 5 cm. $D$iagonale^{2} = $5^{2}$ + $5^{2}$ = 50. Diagonale = $\\sqrt{50}\\approx$ 7,07 cm."
+      "reponse": "$\\sqrt{50}\\approx$7,07 cm",
+      "explication": "Côté = 5 cm.$D$iagonale^{2} =$5^{2}$+$5^{2}$= 50. Diagonale =$\\sqrt{50}\\approx$7,07 cm."
     },
     {
       "id": "pyth4_n1_036",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Calcule $\\sqrt{0}$ + $\\sqrt{1}$ + $\\sqrt{4}$.",
+      "enonce": "Calcule$\\sqrt{0}$+$\\sqrt{1}$+$\\sqrt{4}$.",
       "image": null,
       "choix": [
         "2",
@@ -604,16 +604,16 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Si ABC est rectangle en B, quelle est l'égalité de Pythagore ?",
+      "enonce": "Si$\\widehat{ABC}$est rectangle en B, quelle est l'égalité de Pythagore ?",
       "image": null,
       "choix": [
-        "$A$B^{2} = $A$C^{2} + $B$C^{2}",
-        "$A$C^{2} = $A$B^{2} + $B$C^{2}",
-        "$B$C^{2} = $A$B^{2} + $A$C^{2}",
-        "$A$B^{2} = $A$C^{2} − $B$C^{2}"
+        "$A$B^{2} =$A$C^{2} +$B$C^{2}",
+        "$A$C^{2} =$A$B^{2} +$B$C^{2}",
+        "$B$C^{2} =$A$B^{2} +$A$C^{2}",
+        "$A$B^{2} =$A$C^{2} −$B$C^{2}"
       ],
-      "reponse": "$A$C^{2} = $A$B^{2} + $B$C^{2}",
-      "explication": "$A$C^{2} = $A$B^{2} + $B$C^{2} (AC est l'hypoténuse, opposée à B)."
+      "reponse": "$A$C^{2} =$A$B^{2} +$B$C^{2}",
+      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} (AC est l'hypoténuse, opposée à B)."
     },
     {
       "id": "pyth4_n1_039",
@@ -640,35 +640,35 @@
       "image": null,
       "choix": [
         "5+12=17$\\neq$13",
-        "$1$3^{2}=169 et $5^{2}$+$1$2^{2}=25+144=169 → égaux",
+        "$1$3^{2}=169 et$5^{2}$+$1$2^{2}=25+144=169 → égaux",
         "13+5$\\neq$12",
         "Rien à vérifier"
       ],
-      "reponse": "$1$3^{2}=169 et $5^{2}$+$1$2^{2}=25+144=169 → égaux",
-      "explication": "$1$3^{2} = 169 = $5^{2}$ + $1$2^{2}. Ce triplet vérifie le théorème de Pythagore."
+      "reponse": "$1$3^{2}=169 et$5^{2}$+$1$2^{2}=25+144=169 → égaux",
+      "explication": "$1$3^{2} = 169 =$5^{2}$+$1$2^{2}. Ce triplet vérifie le théorème de Pythagore."
     },
     {
       "id": "pyth4_n2_001",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle STU : ST=5, SU=3, UT=4. [ST] est le plus grand côté. $S$T^{2}=25, $S$U^{2}+$U$T^{2}=9+16=25. Que peut-on conclure ?",
+      "enonce": "Triangle$\\widehat{STU}$: ST=5, SU=3, UT=4. [ST] est le plus grand côté.$S$T^{2}=25,$S$U^{2}+$U$T^{2}=9+16=25. Que peut-on conclure ?",
       "image": "pythagore/bbce66495044b37d302b685bfe353aae33094361.png",
       "choix": [
-        "Le triangle STU est rectangle en S",
-        "Le triangle STU est rectangle en U",
-        "Le triangle STU n'est pas rectangle",
+        "Le triangle$\\widehat{STU}$est rectangle en S",
+        "Le triangle$\\widehat{STU}$est rectangle en U",
+        "Le triangle$\\widehat{STU}$n'est pas rectangle",
         "On ne peut pas conclure"
       ],
-      "reponse": "Le triangle STU est rectangle en U",
-      "explication": "[ST] est le plus grand côté (5>4>3). $S$T^{2}=25. $S$U^{2}+$U$T^{2}=9+16=25. $S$T^{2}=$S$U^{2}+$U$T^{2} → triangle STU rectangle en U (angle droit opposé à ST)."
+      "reponse": "Le triangle$\\widehat{STU}$est rectangle en U",
+      "explication": "[ST] est le plus grand côté (5>4>3).$S$T^{2}=25.$S$U^{2}+$U$T^{2}=9+16=25.$S$T^{2}=$S$U^{2}+$U$T^{2} → triangle$\\widehat{STU}$rectangle en U (angle droit opposé à ST)."
     },
     {
       "id": "pyth4_n2_002",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle PQR : PQ=8, QR=10 (grand côté), PR=6. $Q$R^{2}=100, $P$Q^{2}+$P$R^{2}=64+36=100. Conclusion ?",
+      "enonce": "Triangle$\\widehat{PQR}$: PQ=8, QR=10 (grand côté), PR=6.$Q$R^{2}=100,$P$Q^{2}+$P$R^{2}=64+36=100. Conclusion ?",
       "image": "pythagore/9cddae7da841994b10171b0cebbbe69b8374ae08.png",
       "choix": [
         "Pas rectangle car 8+6$\\neq$10",
@@ -677,23 +677,23 @@
         "On ne peut pas savoir"
       ],
       "reponse": "Rectangle en P ($Q$R^{2}=$P$Q^{2}+$P$R^{2})",
-      "explication": "$Q$R^{2}=100. $P$Q^{2}+$P$R^{2}=64+36=100. $Q$R^{2}=$P$Q^{2}+$P$R^{2} → triangle PQR rectangle en P."
+      "explication": "$Q$R^{2}=100.$P$Q^{2}+$P$R^{2}=64+36=100.$Q$R^{2}=$P$Q^{2}+$P$R^{2} → triangle$\\widehat{PQR}$rectangle en P."
     },
     {
       "id": "pyth4_n2_003",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle XYZ : XY=7, YZ=9 (grand côté), XZ=5. $Y$Z^{2}=81, $X$Y^{2}+$X$Z^{2}=49+25=74. Est-il rectangle ?",
+      "enonce": "Triangle$\\widehat{XYZ}$: XY=7, YZ=9 (grand côté), XZ=5.$Y$Z^{2}=81,$X$Y^{2}+$X$Z^{2}=49+25=74. Est-il rectangle ?",
       "image": "pythagore/7a81dc9a93a6dd4076faca426bba8ea6affcf079.png",
       "choix": [
         "Oui, rectangle en X",
         "Oui, rectangle en Z",
-        "Non, 81 $\\neq$ 74",
+        "Non, 81$\\neq$74",
         "On ne peut pas conclure"
       ],
-      "reponse": "Non, 81 $\\neq$ 74",
-      "explication": "$Y$Z^{2}=81. $X$Y^{2}+$X$Z^{2}=49+25=74. 81 $\\neq$ 74 → triangle XYZ n'est pas rectangle."
+      "reponse": "Non, 81$\\neq$74",
+      "explication": "$Y$Z^{2}=81.$X$Y^{2}+$X$Z^{2}=49+25=74. 81$\\neq$74 → triangle$\\widehat{XYZ}$n'est pas rectangle."
     },
     {
       "id": "pyth4_n2_004",
@@ -704,12 +704,12 @@
       "image": null,
       "choix": [
         "Non, 9+12$\\neq$15",
-        "Oui, $1$5^{2}=225=$9^{2}$+$1$2^{2}=81+144",
-        "Non, car $9^{2}$+$1$5^{2}$\\neq1$2^{2}",
+        "Oui,$1$5^{2}=225=$9^{2}$+$1$2^{2}=81+144",
+        "Non, car$9^{2}$+$1$5^{2}$\\neq1$2^{2}",
         "On ne sait pas"
       ],
-      "reponse": "Oui, $1$5^{2}=225=$9^{2}$+$1$2^{2}=81+144",
-      "explication": "Grand côté : 15. $1$5^{2}=225. $9^{2}$+$1$2^{2}=81+144=225. 225=225 → rectangle en l'angle opposé au côté 15."
+      "reponse": "Oui,$1$5^{2}=225=$9^{2}$+$1$2^{2}=81+144",
+      "explication": "Grand côté : 15.$1$5^{2}=225.$9^{2}$+$1$2^{2}=81+144=225. 225=225 → rectangle en l'angle opposé au côté 15."
     },
     {
       "id": "pyth4_n2_005",
@@ -719,13 +719,13 @@
       "enonce": "Un triangle a les côtés 7 cm, 8 cm et 11 cm. Est-il rectangle ?",
       "image": null,
       "choix": [
-        "Oui, $1$1^{2}=$7^{2}$+$8^{2}$",
-        "Non, $1$1^{2}=121 $\\neq7^{2}$+$8^{2}$=113",
+        "Oui,$1$1^{2}=$7^{2}$+$8^{2}$",
+        "Non,$1$1^{2}=121$\\neq7^{2}$+$8^{2}$=113",
         "Oui, 7+8=15>11",
         "On ne peut pas savoir"
       ],
-      "reponse": "Non, $1$1^{2}=121 $\\neq7^{2}$+$8^{2}$=113",
-      "explication": "Grand côté : 11. $1$1^{2}=121. $7^{2}$+$8^{2}$=49+64=113. 121$\\neq$113 → pas rectangle."
+      "reponse": "Non,$1$1^{2}=121$\\neq7^{2}$+$8^{2}$=113",
+      "explication": "Grand côté : 11.$1$1^{2}=121.$7^{2}$+$8^{2}$=49+64=113. 121$\\neq$113 → pas rectangle."
     },
     {
       "id": "pyth4_n2_006",
@@ -736,28 +736,28 @@
       "image": null,
       "choix": [
         "Non, 20+21$\\neq$29",
-        "Oui, $2$9^{2}=841=$2$0^{2}+$2$1^{2}=400+441",
+        "Oui,$2$9^{2}=841=$2$0^{2}+$2$1^{2}=400+441",
         "Non, aucun n'est pair",
         "On ne peut pas décider"
       ],
-      "reponse": "Oui, $2$9^{2}=841=$2$0^{2}+$2$1^{2}=400+441",
-      "explication": "$2$9^{2}=841. $2$0^{2}+$2$1^{2}=400+441=841. 841=841 → rectangle."
+      "reponse": "Oui,$2$9^{2}=841=$2$0^{2}+$2$1^{2}=400+441",
+      "explication": "$2$9^{2}=841.$2$0^{2}+$2$1^{2}=400+441=841. 841=841 → rectangle."
     },
     {
       "id": "pyth4_n2_007",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle DEF : DE=6, EF=4, DF=7 (grand côté). $D$F^{2}=49, $D$E^{2}+$E$F^{2}=36+16=52. Conclusion ?",
+      "enonce": "Triangle$\\widehat{DEF}$: DE=6, EF=4, DF=7 (grand côté).$D$F^{2}=49,$D$E^{2}+$E$F^{2}=36+16=52. Conclusion ?",
       "image": "pythagore/6229e88a22b389a394318754b26e45dcfc4013e6.png",
       "choix": [
         "Rectangle en E",
         "Rectangle en D",
-        "Pas rectangle (49 $\\neq$ 52)",
+        "Pas rectangle (49$\\neq$52)",
         "Rectangle en F"
       ],
-      "reponse": "Pas rectangle (49 $\\neq$ 52)",
-      "explication": "Grand côté : DF=7. $D$F^{2}=49. $D$E^{2}+$E$F^{2}=36+16=52. 49$\\neq$52 → triangle DEF n'est pas rectangle (contraposée)."
+      "reponse": "Pas rectangle (49$\\neq$52)",
+      "explication": "Grand côté : DF=7.$D$F^{2}=49.$D$E^{2}+$E$F^{2}=36+16=52. 49$\\neq$52 → triangle$\\widehat{DEF}$n'est pas rectangle (contraposée)."
     },
     {
       "id": "pyth4_n2_008",
@@ -767,13 +767,13 @@
       "enonce": "Un triangle a les côtés 5 cm, 7 cm et 9 cm. Est-il rectangle ?",
       "image": null,
       "choix": [
-        "Oui, $9^{2}=5^{2}$+$7^{2}$",
-        "Non, 81 $\\neq$ 74",
+        "Oui,$9^{2}=5^{2}$+$7^{2}$",
+        "Non, 81$\\neq$74",
         "Oui, car 5+7>9",
         "On ne sait pas"
       ],
-      "reponse": "Non, 81 $\\neq$ 74",
-      "explication": "Grand côté : 9. $9^{2}$=81. $5^{2}$+$7^{2}$=25+49=74. 81$\\neq$74 → pas rectangle."
+      "reponse": "Non, 81$\\neq$74",
+      "explication": "Grand côté : 9.$9^{2}$=81.$5^{2}$+$7^{2}$=25+49=74. 81$\\neq$74 → pas rectangle."
     },
     {
       "id": "pyth4_n2_009",
@@ -796,16 +796,16 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en A. AB=$\\sqrt{5}$ cm, AC=$\\sqrt{20}$ cm. Calcule BC.",
+      "enonce": "Triangle rectangle en A. AB=$\\sqrt{5}$cm, AC=$\\sqrt{20}$cm. Calcule BC.",
       "image": null,
       "choix": [
         "4 cm",
         "5 cm",
-        "$\\sqrt{25}$ = 5 cm",
-        "$\\sqrt{45}$ cm"
+        "$\\sqrt{25}$= 5 cm",
+        "$\\sqrt{45}$cm"
       ],
       "reponse": "5 cm",
-      "explication": "$B$C^{2} = ($\\sqrt{5}$)² + ($\\sqrt{20}$)² = 5 + 20 = 25. BC = 5 cm."
+      "explication": "$B$C^{2} =$\\left(\\sqrt{5}\\right)^{2}$+$\\left(\\sqrt{20}\\right)^{2}$= 5 + 20 = 25. BC = 5 cm."
     },
     {
       "id": "pyth4_n2_011",
@@ -821,7 +821,7 @@
         "60 cm"
       ],
       "reponse": "55,6 cm",
-      "explication": "$d^{2}$ = 48,$5^{2}$ + 27,$2^{2}$ = 2352,25 + 739,84 = 3092,09. d = $\\sqrt{3092}$,09 $\\approx$ 55,6 cm ✓"
+      "explication": "$d^{2}$= 48,$5^{2}$+ 27,$2^{2}$= 2352,25 + 739,84 = 3092,09. d =$\\sqrt{3092}$,09$\\approx$55,6 cm ✓"
     },
     {
       "id": "pyth4_n2_012",
@@ -837,14 +837,14 @@
         "5 m"
       ],
       "reponse": "4,77 m",
-      "explication": "$h^{2}$ = $5^{2}$ − 1,$5^{2}$ = 25 − 2,25 = 22,75. h = $\\sqrt{22}$,75 $\\approx$ 4,77 m."
+      "explication": "$h^{2}$=$5^{2}$− 1,$5^{2}$= 25 − 2,25 = 22,75. h =$\\sqrt{22}$,75$\\approx$4,77 m."
     },
     {
       "id": "pyth4_n2_013",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un terrain rectangulaire mesure 24 m $\\times$ 10 m. Calcule la longueur de la diagonale.",
+      "enonce": "Un terrain rectangulaire mesure 24 m$\\times$10 m. Calcule la longueur de la diagonale.",
       "image": null,
       "choix": [
         "20 m",
@@ -853,14 +853,14 @@
         "34 m"
       ],
       "reponse": "26 m",
-      "explication": "$d^{2}$ = $2$4^{2} + $1$0^{2} = 576 + 100 = 676. d = $\\sqrt{676}$ = 26 m."
+      "explication": "$d^{2}$=$2$4^{2} +$1$0^{2} = 576 + 100 = 676. d =$\\sqrt{676}$= 26 m."
     },
     {
       "id": "pyth4_n2_014",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle isocèle ABC a AB=AC=10 cm et BC=12 cm. Calcule la hauteur issue de A.",
+      "enonce": "Un triangle isocèle$\\widehat{ABC}$a AB=AC=10 cm et BC=12 cm. Calcule la hauteur issue de A.",
       "image": null,
       "choix": [
         "6 cm",
@@ -869,14 +869,14 @@
         "9 cm"
       ],
       "reponse": "8 cm",
-      "explication": "H est le milieu de BC donc BH=6 cm. $A$H^{2} = $A$B^{2} − $B$H^{2} = 100 − 36 = 64. AH = 8 cm."
+      "explication": "H est le milieu de BC donc BH=6 cm.$A$H^{2} =$A$B^{2} −$B$H^{2} = 100 − 36 = 64. AH = 8 cm."
     },
     {
       "id": "pyth4_n2_015",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Lequel de ces triplets (a,b,c) vérifie $a^{2}$+$b^{2}=c^{2}$ ?",
+      "enonce": "Lequel de ces triplets (a,b,c) vérifie$a^{2}$+$b^{2}=c^{2}$?",
       "image": null,
       "choix": [
         "(2,3,4)",
@@ -885,7 +885,7 @@
         "(5,6,7)"
       ],
       "reponse": "(3,4,5)",
-      "explication": "$3^{2}$ + $4^{2}$ = 9 + 16 = 25 = $5^{2}$."
+      "explication": "$3^{2}$+$4^{2}$= 9 + 16 = 25 =$5^{2}$."
     },
     {
       "id": "pyth4_n2_016",
@@ -896,12 +896,12 @@
       "image": null,
       "choix": [
         "Non : 8+15$\\neq$17",
-        "Oui : $8^{2}$+$1$5^{2}=64+225=289=$1$7^{2}",
+        "Oui :$8^{2}$+$1$5^{2}=64+225=289=$1$7^{2}",
         "Non : 8$\\times$15$\\neq$17",
         "On ne peut pas savoir"
       ],
-      "reponse": "Oui : $8^{2}$+$1$5^{2}=64+225=289=$1$7^{2}",
-      "explication": "$8^{2}$ + $1$5^{2} = 289 = $1$7^{2}. Oui, c'est un triplet pythagoricien."
+      "reponse": "Oui :$8^{2}$+$1$5^{2}=64+225=289=$1$7^{2}",
+      "explication": "$8^{2}$+$1$5^{2} = 289 =$1$7^{2}. Oui, c'est un triplet pythagoricien."
     },
     {
       "id": "pyth4_n2_017",
@@ -911,13 +911,13 @@
       "enonce": "Vérifie : (5,12,13) est-il un triplet pythagoricien ?",
       "image": null,
       "choix": [
-        "Non, $5^{2}$+$1$2^{2}$\\neq1$3^{2}",
-        "Oui, $5^{2}$+$1$2^{2}=25+144=169=$1$3^{2}",
+        "Non,$5^{2}$+$1$2^{2}$\\neq1$3^{2}",
+        "Oui,$5^{2}$+$1$2^{2}=25+144=169=$1$3^{2}",
         "Non, 5+12$\\neq$13",
         "Oui, mais seulement approximativement"
       ],
-      "reponse": "Oui, $5^{2}$+$1$2^{2}=25+144=169=$1$3^{2}",
-      "explication": "$5^{2}$ + $1$2^{2} = 25 + 144 = 169 = $1$3^{2}. ✓"
+      "reponse": "Oui,$5^{2}$+$1$2^{2}=25+144=169=$1$3^{2}",
+      "explication": "$5^{2}$+$1$2^{2} = 25 + 144 = 169 =$1$3^{2}. ✓"
     },
     {
       "id": "pyth4_n2_018",
@@ -927,20 +927,20 @@
       "enonce": "Vérifie : (7,24,25) est-il un triplet pythagoricien ?",
       "image": null,
       "choix": [
-        "Non, $7^{2}$+$2$4^{2}$\\neq2$5^{2}",
-        "Oui, $7^{2}$+$2$4^{2}=49+576=625=$2$5^{2}",
+        "Non,$7^{2}$+$2$4^{2}$\\neq2$5^{2}",
+        "Oui,$7^{2}$+$2$4^{2}=49+576=625=$2$5^{2}",
         "Non, 7+24$\\neq$25",
         "Oui, seulement approximativement"
       ],
-      "reponse": "Oui, $7^{2}$+$2$4^{2}=49+576=625=$2$5^{2}",
-      "explication": "$7^{2}$ + $2$4^{2} = 49 + 576 = 625 = $2$5^{2}. ✓"
+      "reponse": "Oui,$7^{2}$+$2$4^{2}=49+576=625=$2$5^{2}",
+      "explication": "$7^{2}$+$2$4^{2} = 49 + 576 = 625 =$2$5^{2}. ✓"
     },
     {
       "id": "pyth4_n2_019",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un jardinier vérifie qu'un terrain rectangulaire de 6 m $\\times$ 8 m est bien rectangle en mesurant la diagonale. Quelle longueur doit-il trouver ?",
+      "enonce": "Un jardinier vérifie qu'un terrain rectangulaire de 6 m$\\times$8 m est bien rectangle en mesurant la diagonale. Quelle longueur doit-il trouver ?",
       "image": null,
       "choix": [
         "8 m",
@@ -949,7 +949,7 @@
         "12 m"
       ],
       "reponse": "10 m",
-      "explication": "$d^{2}$ = $6^{2}$ + $8^{2}$ = 36 + 64 = 100. d = 10 m."
+      "explication": "$d^{2}$=$6^{2}$+$8^{2}$= 36 + 64 = 100. d = 10 m."
     },
     {
       "id": "pyth4_n2_020",
@@ -959,13 +959,13 @@
       "enonce": "Un triangle a les côtés 7 cm, 10 cm et 12 cm. Est-il rectangle ?",
       "image": null,
       "choix": [
-        "Oui, $1$2^{2}=$7^{2}$+$1$0^{2}",
-        "Non, 144 $\\neq$ 149",
+        "Oui,$1$2^{2}=$7^{2}$+$1$0^{2}",
+        "Non, 144$\\neq$149",
         "Oui, car 7+10>12",
         "On ne peut pas décider sans angle"
       ],
-      "reponse": "Non, 144 $\\neq$ 149",
-      "explication": "Grand côté : 12. $1$2^{2}=144. $7^{2}$+$1$0^{2}=49+100=149. 144$\\neq$149 → pas rectangle."
+      "reponse": "Non, 144$\\neq$149",
+      "explication": "Grand côté : 12.$1$2^{2}=144.$7^{2}$+$1$0^{2}=49+100=149. 144$\\neq$149 → pas rectangle."
     },
     {
       "id": "pyth4_n2_021",
@@ -981,7 +981,7 @@
         "16 cm"
       ],
       "reponse": "15 cm",
-      "explication": "$A$C^{2} = $A$B^{2} + $B$C^{2} = 81 + 144 = 225. AC = 15 cm."
+      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} = 81 + 144 = 225. AC = 15 cm."
     },
     {
       "id": "pyth4_n2_022",
@@ -997,7 +997,7 @@
         "14 km"
       ],
       "reponse": "10 km",
-      "explication": "$A$C^{2} = $6^{2}$ + $8^{2}$ = 36 + 64 = 100. AC = 10 km."
+      "explication": "$A$C^{2} =$6^{2}$+$8^{2}$= 36 + 64 = 100. AC = 10 km."
     },
     {
       "id": "pyth4_n2_023",
@@ -1013,7 +1013,7 @@
         "35 m"
       ],
       "reponse": "25 m",
-      "explication": "Diagonale : $d^{2}$ = $1$5^{2} + $2$0^{2} = 225 + 400 = 625. d = 25 m."
+      "explication": "Diagonale :$d^{2}$=$1$5^{2} +$2$0^{2} = 225 + 400 = 625. d = 25 m."
     },
     {
       "id": "pyth4_n2_024",
@@ -1029,14 +1029,14 @@
         "7 m"
       ],
       "reponse": "5 m",
-      "explication": "$d^{2}$ = $1$3^{2} − $1$2^{2} = 169 − 144 = 25. d = 5 m."
+      "explication": "$d^{2}$=$1$3^{2} −$1$2^{2} = 169 − 144 = 25. d = 5 m."
     },
     {
       "id": "pyth4_n2_025",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle ABC rectangle en C. AC=3 cm et AB=5 cm. Calcule BC et le périmètre.",
+      "enonce": "Triangle$\\widehat{ABC}$rectangle en C. AC=3 cm et AB=5 cm. Calcule BC et le périmètre.",
       "image": null,
       "choix": [
         "BC=3 cm, P=11 cm",
@@ -1045,7 +1045,7 @@
         "BC=5 cm, P=13 cm"
       ],
       "reponse": "BC=4 cm, P=12 cm",
-      "explication": "$B$C^{2} = $A$B^{2} − $A$C^{2} = 25 − 9 = 16. BC = 4 cm. Périmètre = 3+4+5 = 12 cm."
+      "explication": "$B$C^{2} =$A$B^{2} −$A$C^{2} = 25 − 9 = 16. BC = 4 cm. Périmètre = 3+4+5 = 12 cm."
     },
     {
       "id": "pyth4_n2_026",
@@ -1061,7 +1061,7 @@
         "5,6 cm"
       ],
       "reponse": "4 cm",
-      "explication": "$Q$R^{2} = 2,$4^{2}$ + 3,$2^{2}$ = 5,76 + 10,24 = 16. QR = 4 cm."
+      "explication": "$Q$R^{2} = 2,$4^{2}$+ 3,$2^{2}$= 5,76 + 10,24 = 16. QR = 4 cm."
     },
     {
       "id": "pyth4_n2_027",
@@ -1072,12 +1072,12 @@
       "image": null,
       "choix": [
         "Non, les valeurs sont différentes",
-        "Oui, $6^{2}$+$8^{2}$=36+64=100=$1$0^{2}",
+        "Oui,$6^{2}$+$8^{2}$=36+64=100=$1$0^{2}",
         "On ne peut pas savoir",
         "Oui, mais seulement par coïncidence"
       ],
-      "reponse": "Oui, $6^{2}$+$8^{2}$=36+64=100=$1$0^{2}",
-      "explication": "$6^{2}$ + $8^{2}$ = 36 + 64 = 100 = $1$0^{2}. ✓ En fait (6,8,10)=2$\\times$(3,4,5) : tout multiple d'un triplet est aussi un triplet."
+      "reponse": "Oui,$6^{2}$+$8^{2}$=36+64=100=$1$0^{2}",
+      "explication": "$6^{2}$+$8^{2}$= 36 + 64 = 100 =$1$0^{2}. ✓ En fait (6,8,10)=2$\\times$(3,4,5) : tout multiple d'un triplet est aussi un triplet."
     },
     {
       "id": "pyth4_n2_028",
@@ -1093,7 +1093,7 @@
         "16 cm"
       ],
       "reponse": "15 cm",
-      "explication": "H milieu de BC, BH=8. $A$H^{2} = $1$7^{2} − $8^{2}$ = 289 − 64 = 225. AH = 15 cm."
+      "explication": "H milieu de BC, BH=8.$A$H^{2} =$1$7^{2} −$8^{2}$= 289 − 64 = 225. AH = 15 cm."
     },
     {
       "id": "pyth4_n2_029",
@@ -1104,28 +1104,28 @@
       "image": null,
       "choix": [
         "5,0 cm",
-        "5$\\sqrt{2}\\approx$ 7,1 cm",
+        "5$\\sqrt{2}\\approx$7,1 cm",
         "10 cm",
-        "$\\sqrt{50}\\approx$ 7,5 cm"
+        "$\\sqrt{50}\\approx$7,5 cm"
       ],
-      "reponse": "5$\\sqrt{2}\\approx$ 7,1 cm",
-      "explication": "$d^{2}$ = $5^{2}$ + $5^{2}$ = 50. d = $\\sqrt{50}$ = 5$\\sqrt{2}\\approx$ 7,1 cm."
+      "reponse": "5$\\sqrt{2}\\approx$7,1 cm",
+      "explication": "$d^{2}$=$5^{2}$+$5^{2}$= 50. d =$\\sqrt{50}$= 5$\\sqrt{2}\\approx$7,1 cm."
     },
     {
       "id": "pyth4_n2_030",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en E. EF=2$\\sqrt{3}$ cm, EG=$\\sqrt{12}$ cm. Calcule $F$G^{2} puis FG.",
+      "enonce": "Triangle rectangle en E. EF=2$\\sqrt{3}$cm, EG=$\\sqrt{12}$cm. Calcule$F$G^{2} puis FG.",
       "image": null,
       "choix": [
-        "FG=$\\sqrt{12}$=2$\\sqrt{3}$ cm",
-        "FG=$\\sqrt{24}$=2$\\sqrt{6}$ cm",
-        "FG=$\\sqrt{30}$ cm",
+        "FG=$\\sqrt{12}$=2$\\sqrt{3}$cm",
+        "FG=$\\sqrt{24}$=2$\\sqrt{6}$cm",
+        "FG=$\\sqrt{30}$cm",
         "FG=6 cm"
       ],
-      "reponse": "FG=$\\sqrt{24}$=2$\\sqrt{6}$ cm",
-      "explication": "$F$G^{2} = (2$\\sqrt{3}$)² + ($\\sqrt{12}$)² = 12 + 12 = 24. FG = $\\sqrt{24}$ = 2$\\sqrt{6}\\approx$ 4,90 cm."
+      "reponse": "FG=$\\sqrt{24}$=2$\\sqrt{6}$cm",
+      "explication": "$F$G^{2} = (2$\\sqrt{3})^{2}$+$\\left(\\sqrt{12}\\right)^{2}$= 12 + 12 = 24. FG =$\\sqrt{24}$= 2$\\sqrt{6}\\approx$4,90 cm."
     },
     {
       "id": "pyth4_n3_001",
@@ -1141,14 +1141,14 @@
         "a$\\sqrt{3}$"
       ],
       "reponse": "a$\\sqrt{2}$",
-      "explication": "$d^{2}$ = $a^{2}$ + $a^{2}$ = $2$a^{2}. d = $\\sqrt{$2$a^{2}}$ = a$\\sqrt{2}$. CQFD."
+      "explication": "$d^{2}$=$a^{2}$+$a^{2}$=$2$a^{2}. d =$\\sqrt{$2$a^{2}}$= a$\\sqrt{2}$. CQFD."
     },
     {
       "id": "pyth4_n3_002",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Dans un triangle ABC rectangle en A : AB=(2x+1) cm, AC=(x+3) cm, BC=$\\sqrt{50}$ cm. Que vaut x ?",
+      "enonce": "Dans un triangle$\\widehat{ABC}$rectangle en A : AB=(2x+1) cm, AC=(x+3) cm, BC=$\\sqrt{50}$cm. Que vaut x ?",
       "image": null,
       "choix": [
         "x=1",
@@ -1157,7 +1157,7 @@
         "x=4"
       ],
       "reponse": "x=2",
-      "explication": "$B$C^{2}=$A$B^{2}+$A$C^{2}. 50=(2x+1)²+(x+3)²=$5$x^{2}+10x+10. $5$x^{2}+10x−40=0. $x^{2}$+2x−8=0. (x+4)(x−2)=0. x=2 (positif)."
+      "explication": "$B$C^{2}=$A$B^{2}+$A$C^{2}. 50=$(2x+1)^{2}$+$(x+3)^{2}$=$5$x^{2}+10x+10.$5$x^{2}+10x−40=0.$x^{2}$+2x−8=0. (x+4)(x−2)=0. x=2 (positif)."
     },
     {
       "id": "pyth4_n3_003",
@@ -1168,12 +1168,12 @@
       "image": null,
       "choix": [
         "a/2",
-        "a√$\\frac{2}{2}$",
-        "a√$\\frac{3}{2}$",
+        "$a\\sqrt{}$\\frac{2}{2}$",
+        "$a\\sqrt{}$\\frac{3}{2}$",
         "a$\\sqrt{3}$"
       ],
-      "reponse": "a√$\\frac{3}{2}$",
-      "explication": "H est le milieu de BC, BH=a/2. $A$H^{2}=$a^{2}$−(a/2)²=$a^{2}$−$a^{2}$/4=$3$a^{2}/4. AH=a√$\\frac{3}{2}$. CQFD."
+      "reponse": "$a\\sqrt{}$\\frac{3}{2}$",
+      "explication": "H est le milieu de BC, BH=a/2.$A$H^{2}=$a^{2}$−$(a/2)^{2}$=$a^{2}$−$a^{2}$/4=$3$a^{2}/4. AH=$a\\sqrt{}$\\frac{3}{2}$. CQFD."
     },
     {
       "id": "pyth4_n3_004",
@@ -1183,13 +1183,13 @@
       "enonce": "Un bateau part de A : 12 km vers le Nord (→B), puis 9 km vers l'Est (→C), puis 8 km vers le Nord (→D). Distance AD en ligne droite ?",
       "image": null,
       "choix": [
-        "$\\sqrt{400}$ = 20 km",
-        "$\\sqrt{445}\\approx$ 21 km",
-        "$\\sqrt{481}\\approx$ 21,9 km",
-        "$\\sqrt{500}\\approx$ 22,4 km"
+        "$\\sqrt{400}$= 20 km",
+        "$\\sqrt{445}\\approx$21 km",
+        "$\\sqrt{481}\\approx$21,9 km",
+        "$\\sqrt{500}\\approx$22,4 km"
       ],
-      "reponse": "$\\sqrt{481}\\approx$ 21,9 km",
-      "explication": "Horizontal : 9 km. Vertical : 12+8=20 km. $A$D^{2} = $9^{2}$ + $2$0^{2} = 81 + 400 = 481. AD = $\\sqrt{481}\\approx$ 21,9 km."
+      "reponse": "$\\sqrt{481}\\approx$21,9 km",
+      "explication": "Horizontal : 9 km. Vertical : 12+8=20 km.$A$D^{2} =$9^{2}$+$2$0^{2} = 81 + 400 = 481. AD =$\\sqrt{481}\\approx$21,9 km."
     },
     {
       "id": "pyth4_n3_005",
@@ -1199,13 +1199,13 @@
       "enonce": "Un terrain en triangle rectangle a une hypoténuse de 25 m et un côté de 7 m. Quelle est l'aire du triangle ?",
       "image": null,
       "choix": [
-        "70 $\\mathrm{m}^2$",
-        "75 $\\mathrm{m}^2$",
-        "80 $\\mathrm{m}^2$",
-        "84 $\\mathrm{m}^2$"
+        "70$\\mathrm{m}^2$",
+        "75$\\mathrm{m}^2$",
+        "80$\\mathrm{m}^2$",
+        "84$\\mathrm{m}^2$"
       ],
-      "reponse": "84 $\\mathrm{m}^2$",
-      "explication": "Autre côté : $x^{2}=2$5^{2}−$7^{2}$=625−49=576. x=24 m. Aire=($\\frac{1}{2}$)$\\times$7$\\times$24=84 $\\mathrm{m}^2$."
+      "reponse": "84$\\mathrm{m}^2$",
+      "explication": "Autre côté :$x^{2}=2$5^{2}−$7^{2}$=625−49=576. x=24 m. Aire=($\\frac{1}{2}$)$\\times$7$\\times$24=84$\\mathrm{m}^2$."
     },
     {
       "id": "pyth4_n3_006",
@@ -1221,14 +1221,14 @@
         "18 m"
       ],
       "reponse": "17 m",
-      "explication": "câ$b$le^{2} = $1$5^{2} + $8^{2}$ = 225 + 64 = 289. câble = 17 m."
+      "explication": "câ$b$le^{2} =$1$5^{2} +$8^{2}$= 225 + 64 = 289. câble = 17 m."
     },
     {
       "id": "pyth4_n3_007",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle ABC rectangle en A : AB=3k et AC=4k (k>0). Si le périmètre est 48 cm, que vaut k ?",
+      "enonce": "Triangle$\\widehat{ABC}$rectangle en A : AB=3k et AC=4k (k>0). Si le périmètre est 48 cm, que vaut k ?",
       "image": null,
       "choix": [
         "k=3",
@@ -1237,7 +1237,7 @@
         "k=6"
       ],
       "reponse": "k=4",
-      "explication": "$B$C^{2}=(3k)²+(4k)²=$2$5k^{2}. BC=5k. Périmètre=3k+4k+5k=12k=48. k=4. Côtés : 12, 16, 20 cm."
+      "explication": "$B$C^{2}=$(3k)^{2}$+$(4k)^{2}$=$2$5k^{2}. BC=5k. Périmètre=3k+4k+5k=12k=48. k=4. Côtés : 12, 16, 20 cm."
     },
     {
       "id": "pyth4_n3_008",
@@ -1253,7 +1253,7 @@
         "14"
       ],
       "reponse": "10",
-      "explication": "$A$B^{2} = (6−0)² + (8−0)² = 36 + 64 = 100. AB = 10."
+      "explication": "$A$B^{2} =$(6−0)^{2}$+$(8−0)^{2}$= 36 + 64 = 100. AB = 10."
     },
     {
       "id": "pyth4_n3_009",
@@ -1269,23 +1269,23 @@
         "$\\sqrt{9+16}$=5"
       ],
       "reponse": "$\\sqrt{9+16}$=5",
-      "explication": "$C$D^{2} = (4−1)² + (7−3)² = 9 + 16 = 25. CD = 5."
+      "explication": "$C$D^{2} =$(4−1)^{2}$+$(7−3)^{2}$= 9 + 16 = 25. CD = 5."
     },
     {
       "id": "pyth4_n3_010",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Quelle est la longueur BC d'un triangle ABC rectangle en A avec AB=3k et AC=4k ?",
+      "enonce": "Quelle est la longueur BC d'un triangle$\\widehat{ABC}$rectangle en A avec AB=3k et AC=4k ?",
       "image": null,
       "choix": [
         "6k",
         "5k",
         "7k",
-        "$\\sqrt{7}\\times$ k"
+        "$\\sqrt{7}\\times$k"
       ],
       "reponse": "5k",
-      "explication": "$B$C^{2} = (3k)² + (4k)² = $9$k^{2} + $1$6k^{2} = $2$5k^{2}. BC = 5k."
+      "explication": "$B$C^{2} =$(3k)^{2}$+$(4k)^{2}$=$9$k^{2} +$1$6k^{2} =$2$5k^{2}. BC = 5k."
     },
     {
       "id": "pyth4_n3_011",
@@ -1296,28 +1296,28 @@
       "image": null,
       "choix": [
         "Seulement le théorème direct de Pythagore",
-        "La réciproque : si $c^{2}=a^{2}$+$b^{2}$ alors le triangle est rectangle",
+        "La réciproque : si$c^{2}=a^{2}$+$b^{2}$alors le triangle est rectangle",
         "Seulement la contraposée",
         "Il faut mesurer les angles"
       ],
-      "reponse": "La réciproque : si $c^{2}=a^{2}$+$b^{2}$ alors le triangle est rectangle",
-      "explication": "La réciproque du théorème de Pythagore permet de démontrer qu'un triangle est rectangle en vérifiant que $c^{2}=a^{2}$+$b^{2}$."
+      "reponse": "La réciproque : si$c^{2}=a^{2}$+$b^{2}$alors le triangle est rectangle",
+      "explication": "La réciproque du théorème de Pythagore permet de démontrer qu'un triangle est rectangle en vérifiant que$c^{2}=a^{2}$+$b^{2}$."
     },
     {
       "id": "pyth4_n3_012",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en A. AB=$\\sqrt{5}$ cm, AC=$\\sqrt{20}$ cm. Quelle est la valeur exacte de BC ?",
+      "enonce": "Triangle rectangle en A. AB=$\\sqrt{5}$cm, AC=$\\sqrt{20}$cm. Quelle est la valeur exacte de BC ?",
       "image": null,
       "choix": [
-        "$\\sqrt{15}$ cm",
-        "$\\sqrt{25}$ = 5 cm",
-        "$\\sqrt{45}$ cm",
-        "$\\sqrt{$\\sqrt{5}$+$\\sqrt{20}$}$ cm"
+        "$\\sqrt{15}$cm",
+        "$\\sqrt{25}$= 5 cm",
+        "$\\sqrt{45}$cm",
+        "$\\sqrt{$\\sqrt{5}$+$\\sqrt{20}$}$cm"
       ],
-      "reponse": "$\\sqrt{25}$ = 5 cm",
-      "explication": "$B$C^{2} = ($\\sqrt{5}$)² + ($\\sqrt{20}$)² = 5 + 20 = 25. BC = 5 cm."
+      "reponse": "$\\sqrt{25}$= 5 cm",
+      "explication": "$B$C^{2} =$\\left(\\sqrt{5}\\right)^{2}$+$\\left(\\sqrt{20}\\right)^{2}$= 5 + 20 = 25. BC = 5 cm."
     },
     {
       "id": "pyth4_n3_013",
@@ -1349,7 +1349,7 @@
         "16 cm"
       ],
       "reponse": "15 cm",
-      "explication": "H milieu de BC, BH=8. $A$H^{2}=$1$7^{2}−$8^{2}$=289−64=225. AH=15 cm."
+      "explication": "H milieu de BC, BH=8.$A$H^{2}=$1$7^{2}−$8^{2}$=289−64=225. AH=15 cm."
     },
     {
       "id": "pyth4_n3_015",
@@ -1360,12 +1360,12 @@
       "image": null,
       "choix": [
         "Non, ce n'est jamais le cas",
-        "Oui, car (ka)²+(kb)²=$k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=(kc)²",
+        "Oui, car$(ka)^{2}$+$(kb)^{2}$=$k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=$(kc)^{2}$",
         "Oui, seulement si k est entier",
         "Non, cela dépend du triplet de départ"
       ],
-      "reponse": "Oui, car (ka)²+(kb)²=$k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=(kc)²",
-      "explication": "(ka)²+(kb)²=$k^{2}a^{2}$+$k^{2}b^{2}=k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=(kc)². CQFD. Tout multiple d'un triplet est un triplet."
+      "reponse": "Oui, car$(ka)^{2}$+$(kb)^{2}$=$k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=$(kc)^{2}$",
+      "explication": "$(ka)^{2}$+$(kb)^{2}$=$k^{2}a^{2}$+$k^{2}b^{2}=k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=$(kc)^{2}$. CQFD. Tout multiple d'un triplet est un triplet."
     },
     {
       "id": "pyth4_n3_016",
@@ -1381,14 +1381,14 @@
         "16 cm"
       ],
       "reponse": "15 cm",
-      "explication": "$A$C^{2} = $A$B^{2} + $B$C^{2} = 81 + 144 = 225. AC = 15 cm."
+      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} = 81 + 144 = 225. AC = 15 cm."
     },
     {
       "id": "pyth4_n3_017",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle ABC rectangle en A a AB=(2x+1) cm, AC=(x+3) cm et BC=$\\sqrt{50}$ cm. Quelles sont les longueurs AB et AC pour x=2 ?",
+      "enonce": "Un triangle$\\widehat{ABC}$rectangle en A a AB=(2x+1) cm, AC=(x+3) cm et BC=$\\sqrt{50}$cm. Quelles sont les longueurs AB et AC pour x=2 ?",
       "image": null,
       "choix": [
         "AB=4 cm, AC=4 cm",
@@ -1397,23 +1397,23 @@
         "AB=4 cm, AC=5 cm"
       ],
       "reponse": "AB=5 cm, AC=5 cm",
-      "explication": "x=2 : AB=2$\\times$2+1=5 cm. AC=2+3=5 cm. Vérif : $5^{2}$+$5^{2}$=50=$B$C^{2}. ✓"
+      "explication": "x=2 : AB=2$\\times$2+1=5 cm. AC=2+3=5 cm. Vérif :$5^{2}$+$5^{2}$=50=$B$C^{2}. ✓"
     },
     {
       "id": "pyth4_n3_018",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Comment calcule-t-on la distance entre deux points A(x₁,y₁) et B(x₂,y₂) dans un repère ?",
+      "enonce": "Comment calcule-t-on la distance entre deux points A($x_{1}$,$y_{1}$) et B($x_{2}$,$y_{2}$) dans un repère ?",
       "image": null,
       "choix": [
-        "AB = (x₂-x₁) + (y₂-y₁)",
-        "AB = √[(x₂-x₁)² + (y₂-y₁)²]",
-        "AB = |x₂-x₁| $\\times$ |y₂-y₁|",
-        "AB = (x₂-x₁)² + (y₂-y₁)²"
+        "$AB = (x_2 - x_1) + (y_2 - y_1)$",
+        "$AB = \\sqrt{(x_2-x_1)^{2}+(y_2-y_1)^{2}}$",
+        "$AB = |x_2-x_1| \\times |y_2-y_1|$",
+        "$AB = (x_2-x_1)^{2}+(y_2-y_1)^{2}$"
       ],
-      "reponse": "AB = √[(x₂-x₁)² + (y₂-y₁)²]",
-      "explication": "Par le théorème de Pythagore, $A$B^{2} = (x₂-x₁)² + (y₂-y₁)², donc AB = √[(x₂-x₁)² + (y₂-y₁)²]."
+      "reponse": "$AB = \\sqrt{(x_2-x_1)^{2}+(y_2-y_1)^{2}}$",
+      "explication": "Par le théorème de Pythagore, $AB^{2} = (x_2-x_1)^{2}+(y_2-y_1)^{2}$, donc $AB = \\sqrt{(x_2-x_1)^{2}+(y_2-y_1)^{2}}$."
     },
     {
       "id": "pyth4_n3_019",
@@ -1429,14 +1429,14 @@
         "26 m"
       ],
       "reponse": "24 m",
-      "explication": "$x^{2}$ = $2$5^{2} − $7^{2}$ = 625 − 49 = 576. x = 24 m."
+      "explication": "$x^{2}$=$2$5^{2} −$7^{2}$= 625 − 49 = 576. x = 24 m."
     },
     {
       "id": "pyth4_n3_020",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un rectangle a un périmètre de 40 cm et une diagonale de 5$\\sqrt{8}$ cm. Quelle est la nature de ce rectangle ?",
+      "enonce": "Un rectangle a un périmètre de 40 cm et une diagonale de 5$\\sqrt{8}$cm. Quelle est la nature de ce rectangle ?",
       "image": null,
       "choix": [
         "Un rectangle quelconque",
@@ -1445,7 +1445,7 @@
         "Impossible à déterminer"
       ],
       "reponse": "Un carré de côté 10 cm",
-      "explication": "l+L=20. $d$iagonale^{2}=200, donc $l^{2}$+$L^{2}$=200. (l+L)²=400 → 2lL=200 → lL=100. $x^{2}$−20x+100=0 → (x−10)²=0 → carré 10$\\times$10."
+      "explication": "l+L=20.$d$iagonale^{2}=200, donc$l^{2}$+$L^{2}$=200.$(l+L)^{2}$=400 → 2lL=200 → lL=100.$x^{2}$−20x+100=0 →$(x−10)^{2}$=0 → carré 10$\\times$10."
     }
   ]
 }

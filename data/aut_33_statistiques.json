@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Fréquence $\\frac{1}{4}$, total 60. Effectif = ?",
+      "enonce": "Fréquence$\\frac{1}{4}$, total 60. Effectif = ?",
       "choix": [
         "10",
         "15",
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Fréquence $\\frac{3}{10}$, total 80. Effectif = ?",
+      "enonce": "Fréquence$\\frac{3}{10}$, total 80. Effectif = ?",
       "choix": [
         "20",
         "24",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Total 30, freq $\\frac{1}{6}$. Effectif = ?",
+      "enonce": "Total 30, freq$\\frac{1}{6}$. Effectif = ?",
       "choix": [
         "3",
         "4",
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Fréquence $\\frac{2}{5}$, total 50. Effectif = ?",
+      "enonce": "Fréquence$\\frac{2}{5}$, total 50. Effectif = ?",
       "choix": [
         "15",
         "20",
