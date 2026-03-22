@@ -127,6 +127,16 @@
       "fichier": "data/5eme/parallelogrammes_5eme.json",
       "niveau": "5eme"
     }
+    {
+      "id":      "proportionnalite_5eme",
+      "fichier": "data/5eme/proportionnalite_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "probabilites_5eme",
+      "fichier": "data/5eme/probabilites_5eme.json",
+      "niveau":  "5eme"
+    }
   ],
   "automatismes_notions": [
     {
