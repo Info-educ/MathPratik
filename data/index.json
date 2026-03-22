@@ -136,6 +136,16 @@
       "id":      "probabilites_5eme",
       "fichier": "data/5eme/probabilites_5eme.json",
       "niveau":  "5eme"
+    },
+    {
+      "id":      "symetrie_5eme",
+      "fichier": "data/5eme/symetrie_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "statistiques_5eme",
+      "fichier": "data/5eme/statistiques_5eme.json",
+      "niveau":  "5eme"
     }
   ],
   "automatismes_notions": [
