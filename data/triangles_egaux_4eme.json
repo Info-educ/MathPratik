@@ -28,7 +28,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle ABC,ABC=$50°$et$\\widehat{BAC}$=$35°$. Que vaut$\\widehat{ACB}$?",
+      "enonce": "Dans le triangle ABC,$\\widehat{ABC}$=$50°$et$\\widehat{BAC}$=$35°$. Que vaut$\\widehat{ACB}$?",
       "image": "triangles/7230290a10e2fb630c96f25da76977bc077fa2a5.png",
       "choix": [
         "$80°$",
@@ -44,7 +44,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle PQR,$\\widehat{QPR}$=$62°$et$\\widehat{PRQ}$=$58°$. Que vaut PQR?",
+      "enonce": "Dans le triangle PQR,$\\widehat{QPR}$=$62°$et$\\widehat{PRQ}$=$58°$. Que vaut $\\widehat{PQR}$?",
       "image": "triangles/2fe9e783fbf8b9319d4e413516b0057010aaa48a.png",
       "choix": [
         "$55°$",
@@ -60,7 +60,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle ABC,ABC=$70°$et$\\widehat{BAC}$=$45°$. Que vaut$\\widehat{ACB}$?",
+      "enonce": "Dans le triangle ABC,$\\widehat{ABC}$=$70°$et$\\widehat{BAC}$=$45°$. Que vaut$\\widehat{ACB}$?",
       "image": "triangles/dcdb0cd5e2034ed9c70bde5a740cb7cd65d48592.png",
       "choix": [
         "$60°$",
