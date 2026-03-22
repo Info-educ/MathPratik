@@ -93,9 +93,74 @@
       "niveau": "4eme"
     },
     {
-    "id": "angles_alternes_internes_5eme",
-    "fichier": "data/5eme/angles_alternes_internes_5eme.json",
-    "niveau": "5eme"
+      "id": "angles_alternes_internes_5eme",
+      "fichier": "data/5eme/angles_alternes_internes_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "enchainement_operations_5eme",
+      "fichier": "data/5eme/enchainement_operations_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "calcul_litteral_5eme",
+      "fichier": "data/5eme/calcul_litteral_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "nombres_premiers_5eme",
+      "fichier": "data/5eme/nombres_premiers_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "aire_perimetre_5eme",
+      "fichier": "data/5eme/aire_perimetre_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "nombres_relatifs_5eme",
+      "fichier": "data/5eme/nombres_relatifs_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "parallelogrammes_5eme",
+      "fichier": "data/5eme/parallelogrammes_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id":      "proportionnalite_5eme",
+      "fichier": "data/5eme/proportionnalite_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "probabilites_5eme",
+      "fichier": "data/5eme/probabilites_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "symetrie_5eme",
+      "fichier": "data/5eme/symetrie_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "statistiques_5eme",
+      "fichier": "data/5eme/statistiques_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "geometrie_triangles_5eme",
+      "fichier": "data/5eme/geometrie_triangles_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "fractions_5eme",
+      "fichier": "data/5eme/fractions_5eme.json",
+      "niveau":  "5eme"
+    },
+    {
+      "id":      "prisme_cylindre_5eme",
+      "fichier": "data/5eme/prisme_cylindre_5eme.json",
+      "niveau":  "5eme"
     }
   ],
   "automatismes_notions": [

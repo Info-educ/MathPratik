@@ -1,0 +1,1451 @@
+{
+  "niveau": "5eme",
+  "thematique": {
+    "id": "nombres_premiers_5eme",
+    "label": "Nombres premiers",
+    "icon": "🔢",
+    "color": "#7c3aed"
+  },
+  "questions": [
+    {
+      "id": "np5_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi les affirmations suivantes, laquelle est vraie ?",
+      "image": null,
+      "choix": [
+        "$24$ est un diviseur de $4$",
+        "$4$ est un multiple de $24$",
+        "$4$ est un diviseur de $24$",
+        "$24$ est un diviseur de $2$"
+      ],
+      "reponse": "$4$ est un diviseur de $24$",
+      "explication": "$4$ est un diviseur de $24$ car $24 = 4 \\times 6$. On peut écrire $4 \\mid 24$. Un diviseur de $24$ doit diviser $24$ sans reste."
+    },
+    {
+      "id": "np5_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre est un multiple de $7$ ?",
+      "image": null,
+      "choix": [
+        "$27$",
+        "$35$",
+        "$37$",
+        "$47$"
+      ],
+      "reponse": "$35$",
+      "explication": "$35 = 7 \\times 5$, donc $35$ est bien un multiple de $7$. Les autres nombres ne sont pas divisibles par $7$ : $27 = 7 \\times 3 + 6$, $37 = 7 \\times 5 + 2$, $47 = 7 \\times 6 + 5$."
+    },
+    {
+      "id": "np5_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien $36$ a-t-il de diviseurs ?",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$7$",
+        "$8$",
+        "$9$"
+      ],
+      "reponse": "$9$",
+      "explication": "Les diviseurs de $36$ sont : $1, 2, 3, 4, 6, 9, 12, 18, 36$. Cela fait bien $9$ diviseurs. $36 = 2^2 \\times 3^2$, donc le nombre de diviseurs est $(2+1)(2+1) = 9$."
+    },
+    {
+      "id": "np5_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le nombre $375$ est divisible par :",
+      "image": null,
+      "choix": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$9$"
+      ],
+      "reponse": "$3$",
+      "explication": "La somme des chiffres de $375$ est $3 + 7 + 5 = 15$, et $15$ est divisible par $3$. Donc $375$ est divisible par $3$. Il ne se termine pas par un chiffre pair, donc pas divisible par $2$ ; les deux derniers chiffres ($75$) ne sont pas divisibles par $4$ ; la somme $15$ n'est pas divisible par $9$."
+    },
+    {
+      "id": "np5_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre parmi les suivants est divisible par $4$ ?",
+      "image": null,
+      "choix": [
+        "$326$",
+        "$518$",
+        "$312$",
+        "$234$"
+      ],
+      "reponse": "$312$",
+      "explication": "Pour tester la divisibilité par $4$, on regarde les deux derniers chiffres. $12 \\div 4 = 3$ (exact), donc $312$ est divisible par $4$. Pour les autres : $26 \\div 4 = 6{,}5$ ; $18 \\div 4 = 4{,}5$ ; $34 \\div 4 = 8{,}5$."
+    },
+    {
+      "id": "np5_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le nombre $810$ est divisible par :",
+      "image": null,
+      "choix": [
+        "$2$, $3$, $5$ et $9$",
+        "$4$ seulement",
+        "$3$ et $7$",
+        "Aucun de ces nombres"
+      ],
+      "reponse": "$2$, $3$, $5$ et $9$",
+      "explication": "$810$ se termine par $0$ : divisible par $2$ et par $5$. Somme des chiffres : $8 + 1 + 0 = 9$, divisible par $3$ et par $9$. Donc $810$ est divisible par $2$, $3$, $5$ et $9$."
+    },
+    {
+      "id": "np5_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La somme des chiffres de $567$ vaut :",
+      "image": null,
+      "choix": [
+        "$15$",
+        "$16$",
+        "$18$",
+        "$21$"
+      ],
+      "reponse": "$18$",
+      "explication": "$5 + 6 + 7 = 18$. Puisque $18$ est divisible par $9$ (car $18 = 9 \\times 2$), le nombre $567$ est lui-même divisible par $9$."
+    },
+    {
+      "id": "np5_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel critère utilise-t-on pour tester la divisibilité par $9$ ?",
+      "image": null,
+      "choix": [
+        "Regarder les deux derniers chiffres",
+        "Regarder le dernier chiffre",
+        "Vérifier que la somme des chiffres est un multiple de $9$",
+        "Regarder le premier chiffre"
+      ],
+      "reponse": "Vérifier que la somme des chiffres est un multiple de $9$",
+      "explication": "Un entier est divisible par $9$ si et seulement si la somme de ses chiffres est divisible par $9$. Exemple : $729 \\to 7 + 2 + 9 = 18 = 9 \\times 2$, donc $729$ est divisible par $9$."
+    },
+    {
+      "id": "np5_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le nombre $204$ est-il divisible par $4$ ?",
+      "image": null,
+      "choix": [
+        "Oui, car $04$ est divisible par $4$",
+        "Non, car $204$ est impair",
+        "Oui, car la somme des chiffres vaut $6$",
+        "Non, car il ne se termine pas par $0$"
+      ],
+      "reponse": "Oui, car $04$ est divisible par $4$",
+      "explication": "Pour tester la divisibilité par $4$, on examine les deux derniers chiffres : $04 = 4 \\times 1$, donc $04$ est divisible par $4$, et par conséquent $204$ aussi. $204 = 4 \\times 51$."
+    },
+    {
+      "id": "np5_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Lequel de ces nombres est premier ?",
+      "image": null,
+      "choix": [
+        "$1$",
+        "$9$",
+        "$11$",
+        "$15$"
+      ],
+      "reponse": "$11$",
+      "explication": "Un nombre premier a exactement $2$ diviseurs : $1$ et lui-même. $1$ n'est pas premier (un seul diviseur). $9 = 3 \\times 3$ (divisible par $3$). $15 = 3 \\times 5$. En revanche, $11$ n'est divisible que par $1$ et $11$ : c'est un nombre premier."
+    },
+    {
+      "id": "np5_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de diviseurs a un nombre premier ?",
+      "image": null,
+      "choix": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "Autant que l'on veut"
+      ],
+      "reponse": "$2$",
+      "explication": "Par définition, un nombre premier est un entier supérieur à $1$ qui admet exactement deux diviseurs : $1$ et lui-même. Par exemple, $7$ n'est divisible que par $1$ et $7$."
+    },
+    {
+      "id": "np5_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces nombres, lequel n'est PAS premier ?",
+      "image": null,
+      "choix": [
+        "$13$",
+        "$17$",
+        "$21$",
+        "$23$"
+      ],
+      "reponse": "$21$",
+      "explication": "$21 = 3 \\times 7$, donc $21$ est divisible par $3$ et par $7$ : il a plus de $2$ diviseurs, ce n'est pas un nombre premier. En revanche $13$, $17$ et $23$ sont bien premiers."
+    },
+    {
+      "id": "np5_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le seul nombre premier pair ?",
+      "image": null,
+      "choix": [
+        "$1$",
+        "$2$",
+        "$4$",
+        "$6$"
+      ],
+      "reponse": "$2$",
+      "explication": "$2$ est le seul nombre premier pair. Tout autre nombre pair est divisible par $2$, donc il admet au moins trois diviseurs ($1$, $2$ et lui-même si différent de $2$), ce qui exclut la primalité."
+    },
+    {
+      "id": "np5_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le nombre $1$ est-il premier ?",
+      "image": null,
+      "choix": [
+        "Oui",
+        "Non",
+        "Cela dépend",
+        "Seulement en mathématiques avancées"
+      ],
+      "reponse": "Non",
+      "explication": "$1$ n'est PAS un nombre premier. Par définition, un nombre premier doit avoir exactement deux diviseurs distincts : $1$ et lui-même. Or $1$ n'a qu'un seul diviseur : $1$ lui-même. Il est donc exclu des nombres premiers."
+    },
+    {
+      "id": "np5_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le $10^{\\text{ème}}$ nombre premier ?",
+      "image": null,
+      "choix": [
+        "$23$",
+        "$27$",
+        "$29$",
+        "$31$"
+      ],
+      "reponse": "$29$",
+      "explication": "Les $10$ premiers nombres premiers sont : $2, 3, 5, 7, 11, 13, 17, 19, 23, 29$. Le $10^{\\text{ème}}$ est bien $29$. $27 = 3^3$ n'est pas premier."
+    },
+    {
+      "id": "np5_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$15$ est-il un multiple de $3$ ?",
+      "image": null,
+      "choix": [
+        "Non",
+        "Oui",
+        "Cela dépend du contexte",
+        "Impossible à déterminer"
+      ],
+      "reponse": "Oui",
+      "explication": "$15 = 3 \\times 5$, donc $15$ est bien un multiple de $3$. On peut aussi vérifier par le critère de divisibilité : la somme des chiffres de $15$ est $1 + 5 = 6$, qui est divisible par $3$."
+    },
+    {
+      "id": "np5_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le nombre $1\\,260$ est divisible par :",
+      "image": null,
+      "choix": [
+        "$2$, $3$, $4$, $5$ et $9$",
+        "$4$ seulement",
+        "$7$ seulement",
+        "Aucun de ces nombres"
+      ],
+      "reponse": "$2$, $3$, $4$, $5$ et $9$",
+      "explication": "$1\\,260$ : se termine par $0$ → divisible par $2$ et $5$ ; derniers chiffres $60 = 4 \\times 15$ → divisible par $4$ ; somme des chiffres $1+2+6+0 = 9$ → divisible par $3$ et par $9$. Tous les critères sont satisfaits."
+    },
+    {
+      "id": "np5_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces paires, laquelle est formée de nombres premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "$(6 ; 9)$",
+        "$(4 ; 6)$",
+        "$(9 ; 16)$",
+        "$(6 ; 12)$"
+      ],
+      "reponse": "$(9 ; 16)$",
+      "explication": "Deux nombres sont premiers entre eux si leur seul diviseur commun est $1$. $9 = 3^2$ et $16 = 2^4$ n'ont aucun facteur premier commun, donc leur PGCD est $1$. Les autres paires : $\\text{PGCD}(6,9) = 3$ ; $\\text{PGCD}(4,6) = 2$ ; $\\text{PGCD}(6,12) = 6$."
+    },
+    {
+      "id": "np5_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour que deux nombres soient premiers entre eux, il faut que :",
+      "image": null,
+      "choix": [
+        "Ils soient tous les deux premiers",
+        "Leur seul diviseur commun soit $1$",
+        "L'un divise l'autre",
+        "Ils soient tous les deux impairs"
+      ],
+      "reponse": "Leur seul diviseur commun soit $1$",
+      "explication": "Deux entiers sont dits « premiers entre eux » (ou « coprimes ») si et seulement si leur PGCD vaut $1$. Il n'est pas nécessaire que ces nombres soient eux-mêmes premiers : par exemple, $8$ et $9$ sont premiers entre eux sans être premiers."
+    },
+    {
+      "id": "np5_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la décomposition correcte de $36$ en facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "$36 = 4 \\times 9$",
+        "$36 = 2 \\times 18$",
+        "$36 = 2^2 \\times 3^2$",
+        "$36 = 6 \\times 6$"
+      ],
+      "reponse": "$36 = 2^2 \\times 3^2$",
+      "explication": "$36 \\div 2 = 18$ ; $18 \\div 2 = 9$ ; $9 \\div 3 = 3$ ; $3 \\div 3 = 1$. On obtient $36 = 2 \\times 2 \\times 3 \\times 3 = 2^2 \\times 3^2$. Les autres expressions ($4 \\times 9$, $2 \\times 18$, $6 \\times 6$) ne sont pas des décompositions en facteurs premiers car $4$, $6$, $9$, $18$ ne sont pas premiers."
+    },
+    {
+      "id": "np5_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La décomposition de $48$ en facteurs premiers est :",
+      "image": null,
+      "choix": [
+        "$2^3 \\times 3$",
+        "$2^4 \\times 3$",
+        "$2 \\times 24$",
+        "$3^2 \\times 5$"
+      ],
+      "reponse": "$2^4 \\times 3$",
+      "explication": "$48 \\div 2 = 24$ ; $24 \\div 2 = 12$ ; $12 \\div 2 = 6$ ; $6 \\div 2 = 3$ ; $3 \\div 3 = 1$. On a quatre fois le facteur $2$ et une fois le facteur $3$ : $48 = 2^4 \\times 3 = 16 \\times 3 = 48$ ✓."
+    },
+    {
+      "id": "np5_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour décomposer $90$ en facteurs premiers, on obtient :",
+      "image": null,
+      "choix": [
+        "$2 \\times 5 \\times 9$",
+        "$2 \\times 3^2 \\times 5$",
+        "$2 \\times 45$",
+        "$3 \\times 30$"
+      ],
+      "reponse": "$2 \\times 3^2 \\times 5$",
+      "explication": "$90 \\div 2 = 45$ ; $45 \\div 3 = 15$ ; $15 \\div 3 = 5$ ; $5 \\div 5 = 1$. Donc $90 = 2 \\times 3 \\times 3 \\times 5 = 2 \\times 3^2 \\times 5$. Les autres propositions incluent des facteurs composés ($9 = 3^2$, $45$, $30$) qui ne sont pas premiers."
+    },
+    {
+      "id": "np5_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La fraction $\\dfrac{24}{36}$ simplifiée au maximum vaut :",
+      "image": null,
+      "choix": [
+        "$\\dfrac{12}{18}$",
+        "$\\dfrac{6}{9}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{4}{6}$"
+      ],
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$24 = 2^3 \\times 3$ et $36 = 2^2 \\times 3^2$. Le PGCD de $24$ et $36$ est $2^2 \\times 3 = 12$. On divise numérateur et dénominateur par $12$ : $\\dfrac{24}{36} = \\dfrac{24 \\div 12}{36 \\div 12} = \\dfrac{2}{3}$. Cette fraction est irréductible car $\\text{PGCD}(2, 3) = 1$."
+    },
+    {
+      "id": "np5_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle fraction est irréductible ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{6}{10}$",
+        "$\\dfrac{15}{21}$",
+        "$\\dfrac{10}{14}$",
+        "$\\dfrac{5}{7}$"
+      ],
+      "reponse": "$\\dfrac{5}{7}$",
+      "explication": "Une fraction est irréductible quand son numérateur et son dénominateur sont premiers entre eux (PGCD = 1). $\\text{PGCD}(5, 7) = 1$ car $5$ et $7$ sont tous les deux premiers et distincts. Pour les autres : $\\text{PGCD}(6,10) = 2$ ; $\\text{PGCD}(15,21) = 3$ ; $\\text{PGCD}(10,14) = 2$."
+    },
+    {
+      "id": "np5_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Lequel est un facteur premier de $84$ ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$6$",
+        "$7$",
+        "$14$"
+      ],
+      "reponse": "$7$",
+      "explication": "$84 = 2^2 \\times 3 \\times 7$. Les facteurs premiers de $84$ sont donc $2$, $3$ et $7$. Parmi les propositions, seul $7$ est un nombre premier. Les autres ($4 = 2^2$, $6 = 2 \\times 3$, $14 = 2 \\times 7$) sont des facteurs composés."
+    },
+    {
+      "id": "np5_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quels sont les diviseurs communs à $12$ et $18$ ?",
+      "image": null,
+      "choix": [
+        "$1$, $2$, $3$ seulement",
+        "$1$, $2$, $3$, $6$",
+        "$1$, $3$, $9$",
+        "$2$, $4$, $6$"
+      ],
+      "reponse": "$1$, $2$, $3$, $6$",
+      "explication": "Diviseurs de $12$ : $1, 2, 3, 4, 6, 12$. Diviseurs de $18$ : $1, 2, 3, 6, 9, 18$. Les diviseurs communs sont les nombres figurant dans les deux listes : $1, 2, 3, 6$. Le plus grand est $6 = \\text{PGCD}(12, 18)$."
+    },
+    {
+      "id": "np5_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les nombres $15$ et $28$ sont-ils premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "Oui, car leur seul diviseur commun est $1$",
+        "Non, car $5$ les divise tous les deux",
+        "Oui, car ce sont deux nombres premiers",
+        "Non, car $28$ est pair"
+      ],
+      "reponse": "Oui, car leur seul diviseur commun est $1$",
+      "explication": "$15 = 3 \\times 5$ et $28 = 2^2 \\times 7$. Ces décompositions n'ont aucun facteur premier commun, donc $\\text{PGCD}(15, 28) = 1$ : ils sont bien premiers entre eux. Ni $15$ ni $28$ n'est un nombre premier, mais cela n'a aucune importance ici."
+    },
+    {
+      "id": "np5_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Quel est le plus grand diviseur commun de $24$ et $36$ ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$6$",
+        "$12$",
+        "$24$"
+      ],
+      "reponse": "$12$",
+      "explication": "$24 = 2^3 \\times 3$ et $36 = 2^2 \\times 3^2$. Le PGCD est le produit des facteurs premiers communs avec le plus petit exposant : $\\text{PGCD}(24, 36) = 2^2 \\times 3 = 4 \\times 3 = 12$."
+    },
+    {
+      "id": "np5_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La décomposition $2^2 \\times 3 \\times 7$ correspond au nombre :",
+      "image": null,
+      "choix": [
+        "$42$",
+        "$84$",
+        "$168$",
+        "$21$"
+      ],
+      "reponse": "$84$",
+      "explication": "$2^2 \\times 3 \\times 7 = 4 \\times 3 \\times 7 = 4 \\times 21 = 84$. Vérification : $84 \\div 2 = 42$ ; $42 \\div 2 = 21$ ; $21 \\div 3 = 7$ ; $7 \\div 7 = 1$ ✓."
+    },
+    {
+      "id": "np5_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de facteurs premiers distincts possède le nombre $180$ ?",
+      "image": null,
+      "choix": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$"
+      ],
+      "reponse": "$3$",
+      "explication": "$180 = 2^2 \\times 3^2 \\times 5$. Les facteurs premiers distincts sont $2$, $3$ et $5$ : il y en a exactement $3$. La décomposition : $180 \\div 2 = 90$ ; $90 \\div 2 = 45$ ; $45 \\div 3 = 15$ ; $15 \\div 3 = 5$ ; $5 \\div 5 = 1$."
+    },
+    {
+      "id": "np5_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour rendre $\\dfrac{30}{42}$ irréductible, on divise par :",
+      "image": null,
+      "choix": [
+        "$2$",
+        "$3$",
+        "$6$",
+        "$7$"
+      ],
+      "reponse": "$6$",
+      "explication": "$30 = 2 \\times 3 \\times 5$ et $42 = 2 \\times 3 \\times 7$. Le PGCD est $2 \\times 3 = 6$. On divise : $\\dfrac{30}{42} = \\dfrac{30 \\div 6}{42 \\div 6} = \\dfrac{5}{7}$. Cette fraction est irréductible car $\\text{PGCD}(5, 7) = 1$."
+    },
+    {
+      "id": "np5_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La fraction $\\dfrac{120}{84}$ simplifiée par décomposition en facteurs premiers vaut :",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{3}$",
+        "$\\dfrac{10}{7}$",
+        "$\\dfrac{15}{14}$",
+        "$\\dfrac{60}{42}$"
+      ],
+      "reponse": "$\\dfrac{10}{7}$",
+      "explication": "$120 = 2^3 \\times 3 \\times 5$ et $84 = 2^2 \\times 3 \\times 7$. $\\text{PGCD}(120, 84) = 2^2 \\times 3 = 12$. Donc $\\dfrac{120}{84} = \\dfrac{120 \\div 12}{84 \\div 12} = \\dfrac{10}{7}$."
+    },
+    {
+      "id": "np5_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un rectangle a une longueur de $48$ cm et une largeur de $36$ cm. On veut le paver avec des carreaux carrés identiques, sans découper aucun carreau. Quelle est la plus grande taille possible d'un carreau ?",
+      "image": null,
+      "choix": [
+        "$6$ cm",
+        "$9$ cm",
+        "$12$ cm",
+        "$18$ cm"
+      ],
+      "reponse": "$12$ cm",
+      "explication": "La plus grande taille de carreau est le PGCD de $48$ et $36$. $48 = 2^4 \\times 3$ et $36 = 2^2 \\times 3^2$. $\\text{PGCD}(48, 36) = 2^2 \\times 3 = 12$. On peut donc paver le rectangle avec des carreaux de $12$ cm de côté ($4 \\times 3 = 12$ carreaux au total)."
+    },
+    {
+      "id": "np5_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Deux nombres $A$ et $B$ ont pour décompositions $A = 2^2 \\times 3 \\times 5$ et $B = 2 \\times 3^2 \\times 7$. Quel est leur PGCD ?",
+      "image": null,
+      "choix": [
+        "$1$",
+        "$6$",
+        "$12$",
+        "$2 \\times 3^2 \\times 7$"
+      ],
+      "reponse": "$6$",
+      "explication": "Le PGCD est le produit des facteurs premiers communs, pris avec le plus petit exposant. Facteurs communs : $2$ (exposant min = $1$) et $3$ (exposant min = $1$). Donc $\\text{PGCD}(A, B) = 2^1 \\times 3^1 = 6$."
+    },
+    {
+      "id": "np5_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Décompose $504$ en facteurs premiers. Quelle est la bonne décomposition ?",
+      "image": null,
+      "choix": [
+        "$2^2 \\times 3 \\times 7$",
+        "$2^3 \\times 3^2 \\times 7$",
+        "$2^2 \\times 3^2 \\times 14$",
+        "$2^3 \\times 63$"
+      ],
+      "reponse": "$2^3 \\times 3^2 \\times 7$",
+      "explication": "$504 \\div 2 = 252$ ; $252 \\div 2 = 126$ ; $126 \\div 2 = 63$ ; $63 \\div 3 = 21$ ; $21 \\div 3 = 7$ ; $7 \\div 7 = 1$. Donc $504 = 2^3 \\times 3^2 \\times 7 = 8 \\times 9 \\times 7 = 504$ ✓."
+    },
+    {
+      "id": "np5_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Vrai ou faux ? $2^3 \\times 5 = 40$.",
+      "image": null,
+      "choix": [
+        "Vrai",
+        "Faux, car $2^3 \\times 5 = 80$",
+        "Faux, car $2^3 \\times 5 = 20$",
+        "Faux, car $2^3 \\times 5 = 30$"
+      ],
+      "reponse": "Vrai",
+      "explication": "$2^3 = 2 \\times 2 \\times 2 = 8$. Puis $8 \\times 5 = 40$. L'affirmation est vraie : $2^3 \\times 5 = 40$."
+    },
+    {
+      "id": "np5_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus petit facteur premier de $105$ ?",
+      "image": null,
+      "choix": [
+        "$2$",
+        "$3$",
+        "$5$",
+        "$7$"
+      ],
+      "reponse": "$3$",
+      "explication": "$105$ est impair (non divisible par $2$). Somme des chiffres : $1 + 0 + 5 = 6$, divisible par $3$. Donc $3$ est le plus petit facteur premier de $105$. En effet, $105 = 3 \\times 5 \\times 7$."
+    },
+    {
+      "id": "np5_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un bus A passe toutes les $12$ minutes, un bus B toutes les $18$ minutes. Ils partent ensemble à $8$ h $00$. Au bout de combien de minutes se retrouvent-ils ensemble pour la première fois ?",
+      "image": null,
+      "choix": [
+        "$12$ min",
+        "$18$ min",
+        "$36$ min",
+        "$216$ min"
+      ],
+      "reponse": "$36$ min",
+      "explication": "On cherche le PPCM de $12$ et $18$. $12 = 2^2 \\times 3$ et $18 = 2 \\times 3^2$. $\\text{PPCM}(12, 18) = 2^2 \\times 3^2 = 4 \\times 9 = 36$. Les deux bus se retrouvent ensemble au bout de $36$ minutes, soit à $8$ h $36$."
+    },
+    {
+      "id": "np5_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Parmi les nombres suivants, lequel est premier avec $10$ ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$6$",
+        "$15$",
+        "$9$"
+      ],
+      "reponse": "$9$",
+      "explication": "$10 = 2 \\times 5$. Pour qu'un nombre soit premier avec $10$, il ne doit être divisible ni par $2$ ni par $5$. $9 = 3^2$ n'est divisible ni par $2$ ni par $5$ : $\\text{PGCD}(9, 10) = 1$ ✓. Les autres : $\\text{PGCD}(4, 10) = 2$ ; $\\text{PGCD}(6, 10) = 2$ ; $\\text{PGCD}(15, 10) = 5$."
+    },
+    {
+      "id": "np5_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux nombres premiers distincts sont-ils toujours premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "Oui, toujours",
+        "Non, jamais",
+        "Seulement s'ils sont tous les deux impairs",
+        "Seulement si leur somme est paire"
+      ],
+      "reponse": "Oui, toujours",
+      "explication": "Si $p$ et $q$ sont deux nombres premiers distincts, leurs seuls diviseurs sont respectivement $\\{1, p\\}$ et $\\{1, q\\}$. Puisque $p \\neq q$, leur seul diviseur commun est $1$ : ils sont toujours premiers entre eux."
+    },
+    {
+      "id": "np5_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un professeur distribue $84$ stylos bleus et $126$ stylos rouges équitablement entre le maximum d'élèves possible. Combien d'élèves peut-il servir ?",
+      "image": null,
+      "choix": [
+        "$14$ élèves",
+        "$21$ élèves",
+        "$42$ élèves",
+        "$63$ élèves"
+      ],
+      "reponse": "$42$ élèves",
+      "explication": "Le nombre d'élèves est le PGCD de $84$ et $126$. $84 = 2^2 \\times 3 \\times 7$ et $126 = 2 \\times 3^2 \\times 7$. $\\text{PGCD}(84, 126) = 2 \\times 3 \\times 7 = 42$. Chaque élève reçoit $84 \\div 42 = 2$ stylos bleus et $126 \\div 42 = 3$ stylos rouges."
+    },
+    {
+      "id": "np5_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Détermine le PGCD de $60$ et $84$ par décomposition en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$6$",
+        "$12$",
+        "$60$"
+      ],
+      "reponse": "$12$",
+      "explication": "$60 = 2^2 \\times 3 \\times 5$ et $84 = 2^2 \\times 3 \\times 7$. Facteurs communs avec le plus petit exposant : $2^2 \\times 3 = 4 \\times 3 = 12$. Donc $\\text{PGCD}(60, 84) = 12$."
+    },
+    {
+      "id": "np5_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pourquoi un nombre divisible par $9$ est-il forcément divisible par $3$ ?",
+      "image": null,
+      "choix": [
+        "Car $9 = 3 + 6$",
+        "Car $9$ est un multiple de $3$",
+        "Car $9$ est un nombre premier",
+        "Car tous les multiples de $9$ sont pairs"
+      ],
+      "reponse": "Car $9$ est un multiple de $3$",
+      "explication": "$9 = 3 \\times 3$, donc $9$ est un multiple de $3$. Si un nombre $n$ est divisible par $9$, on peut écrire $n = 9k = 3 \\times (3k)$, ce qui montre que $n$ est aussi divisible par $3$. En général, si $a$ divise $b$ et $b$ divise $n$, alors $a$ divise $n$."
+    },
+    {
+      "id": "np5_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Les fractions $\\dfrac{45}{75}$ et $\\dfrac{64}{96}$ simplifiées au maximum donnent-elles la même fraction ?",
+      "image": null,
+      "choix": [
+        "Oui, toutes deux valent $\\dfrac{3}{5}$",
+        "Non, $\\dfrac{45}{75} = \\dfrac{3}{5}$ et $\\dfrac{64}{96} = \\dfrac{2}{3}$",
+        "Oui, toutes deux valent $\\dfrac{2}{3}$",
+        "Impossible à déterminer sans calculatrice"
+      ],
+      "reponse": "Non, $\\dfrac{45}{75} = \\dfrac{3}{5}$ et $\\dfrac{64}{96} = \\dfrac{2}{3}$",
+      "explication": "$45 = 3^2 \\times 5$ et $75 = 3 \\times 5^2$. $\\text{PGCD}(45, 75) = 3 \\times 5 = 15$. $\\dfrac{45}{75} = \\dfrac{3}{5}$. $64 = 2^6$ et $96 = 2^5 \\times 3$. $\\text{PGCD}(64, 96) = 2^5 = 32$. $\\dfrac{64}{96} = \\dfrac{2}{3}$. Comme $\\dfrac{3}{5} \\neq \\dfrac{2}{3}$, les deux fractions simplifiées sont différentes."
+    },
+    {
+      "id": "np5_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Vrai ou faux ? $51$ est un nombre premier.",
+      "image": null,
+      "choix": [
+        "Vrai",
+        "Faux, car $51 = 3 \\times 17$",
+        "Faux, car $51 = 7 \\times 7 + 2$",
+        "Impossible à déterminer sans calculatrice"
+      ],
+      "reponse": "Faux, car $51 = 3 \\times 17$",
+      "explication": "$51$ n'est pas premier : somme de ses chiffres $= 5 + 1 = 6$, divisible par $3$. Donc $51$ est divisible par $3$ : $51 = 3 \\times 17$. Puisqu'il a plus de deux diviseurs, $51$ n'est pas un nombre premier."
+    },
+    {
+      "id": "np5_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On décompose $2310$ en facteurs premiers. Combien de facteurs premiers distincts obtient-on ?",
+      "image": null,
+      "choix": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "reponse": "$5$",
+      "explication": "$2310 = 2 \\times 1155 = 2 \\times 3 \\times 385 = 2 \\times 3 \\times 5 \\times 77 = 2 \\times 3 \\times 5 \\times 7 \\times 11$. Les facteurs premiers distincts sont : $2, 3, 5, 7, 11$. Il y en a exactement $5$."
+    },
+    {
+      "id": "np5_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Le nombre de diviseurs de $2^3 \\times 3^2 \\times 5$ est :",
+      "image": null,
+      "choix": [
+        "$12$",
+        "$18$",
+        "$24$",
+        "$30$"
+      ],
+      "reponse": "$24$",
+      "explication": "Si $n = p_1^{a_1} \\times p_2^{a_2} \\times \\ldots$, le nombre de diviseurs est $(a_1 + 1)(a_2 + 1)\\ldots$. Ici : $(3+1)(2+1)(1+1) = 4 \\times 3 \\times 2 = 24$. Exemple : $n = 8 \\times 9 \\times 5 = 360$, qui possède bien $24$ diviseurs."
+    },
+    {
+      "id": "np5_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Si $a = 2^2 \\times 3 \\times 5$ et $b = 2 \\times 3^2 \\times 5^2$, le PGCD de $a$ et $b$ est :",
+      "image": null,
+      "choix": [
+        "$2 \\times 3 \\times 5$",
+        "$2^2 \\times 3^2$",
+        "$2^2 \\times 3^2 \\times 5^2$",
+        "$2 \\times 5$"
+      ],
+      "reponse": "$2 \\times 3 \\times 5$",
+      "explication": "Pour chaque facteur premier commun, on prend le plus petit exposant. $2$ : min$(2, 1) = 1$ ; $3$ : min$(1, 2) = 1$ ; $5$ : min$(1, 2) = 1$. Donc $\\text{PGCD}(a, b) = 2^1 \\times 3^1 \\times 5^1 = 2 \\times 3 \\times 5 = 30$."
+    },
+    {
+      "id": "np5_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La fraction $\\dfrac{2^3 \\times 3^2 \\times 5}{2^2 \\times 3 \\times 5^2}$ simplifiée est :",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2}{5}$",
+        "$\\dfrac{6}{5}$",
+        "$\\dfrac{2}{25}$",
+        "$\\dfrac{12}{5}$"
+      ],
+      "reponse": "$\\dfrac{2}{5}$",
+      "explication": "On simplifie en soustrayant les exposants : $\\dfrac{2^3}{2^2} = 2^{3-2} = 2$ ; $\\dfrac{3^2}{3^1} = 3^{2-1} = 3$ ; $\\dfrac{5^1}{5^2} = 5^{1-2} = \\dfrac{1}{5}$. Donc la fraction vaut $2 \\times 3 \\times \\dfrac{1}{5} = \\dfrac{6}{5}$. Recalcul direct : numérateur $= 8 \\times 9 \\times 5 = 360$ ; dénominateur $= 4 \\times 3 \\times 25 = 300$ ; $\\dfrac{360}{300} = \\dfrac{6}{5}$."
+    },
+    {
+      "id": "np5_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Le nombre $143$ est-il premier ?",
+      "image": null,
+      "choix": [
+        "Oui, il est premier",
+        "Non, car $143 = 11 \\times 13$",
+        "Oui, car il est impair",
+        "Impossible à déterminer sans ordinateur"
+      ],
+      "reponse": "Non, car $143 = 11 \\times 13$",
+      "explication": "$143$ n'est pas divisible par $2$, $3$, $5$, $7$ (vérifications rapides). On teste $11$ : $143 \\div 11 = 13$ (exact). Donc $143 = 11 \\times 13$. Il a plus de deux diviseurs : ce n'est pas un nombre premier. Pour tester la primalité d'un entier $n$, il suffit de tester les diviseurs premiers jusqu'à $\\sqrt{n}$ (ici $\\sqrt{143} \\approx 12$)."
+    },
+    {
+      "id": "np5_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Alexia simplifie la fraction $\\dfrac{630}{882}$ et obtient $\\dfrac{5}{7}$. A-t-elle raison ?",
+      "image": null,
+      "choix": [
+        "Oui, le résultat est bien $\\dfrac{5}{7}$",
+        "Non, le résultat est $\\dfrac{5}{7}$ mais le PGCD était $126$",
+        "Non, le résultat est $\\dfrac{3}{5}$",
+        "Non, le résultat est $\\dfrac{5}{7}$ et le PGCD était $90$"
+      ],
+      "reponse": "Non, le résultat est $\\dfrac{5}{7}$ mais le PGCD était $126$",
+      "explication": "$630 = 2 \\times 3^2 \\times 5 \\times 7$ et $882 = 2 \\times 3^2 \\times 7^2$. $\\text{PGCD} = 2 \\times 3^2 \\times 7 = 126$. $\\dfrac{630}{882} = \\dfrac{630 \\div 126}{882 \\div 126} = \\dfrac{5}{7}$. La fraction est correcte mais Alexia a peut-être simplifié en plusieurs étapes sans avoir trouvé le PGCD directement."
+    },
+    {
+      "id": "np5_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Les entiers $a = 2^2 \\times 3^2 \\times 7$ et $b = 2^3 \\times 3 \\times 5$ sont-ils premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "Oui, leur PGCD vaut $1$",
+        "Non, leur PGCD vaut $12$",
+        "Non, leur PGCD vaut $6$",
+        "Non, leur PGCD vaut $4$"
+      ],
+      "reponse": "Non, leur PGCD vaut $12$",
+      "explication": "Facteurs premiers communs : $2$ avec min$(2, 3) = 2$ et $3$ avec min$(2, 1) = 1$. $\\text{PGCD}(a, b) = 2^2 \\times 3 = 12 \\neq 1$. Donc $a$ et $b$ ne sont PAS premiers entre eux. Ils partagent le facteur commun $12$."
+    },
+    {
+      "id": "np5_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un bus A passe toutes les $12$ minutes, un bus B toutes les $18$ minutes, un bus C toutes les $20$ minutes. Ils partent ensemble à $8$ h $00$. Au bout de combien de minutes se retrouvent-ils ensemble pour la première fois ?",
+      "image": null,
+      "choix": [
+        "$36$ min",
+        "$60$ min",
+        "$180$ min",
+        "$360$ min"
+      ],
+      "reponse": "$180$ min",
+      "explication": "On calcule le PPCM de $12$, $18$ et $20$. $12 = 2^2 \\times 3$ ; $18 = 2 \\times 3^2$ ; $20 = 2^2 \\times 5$. On prend pour chaque facteur premier le plus grand exposant : $\\text{PPCM} = 2^2 \\times 3^2 \\times 5 = 4 \\times 9 \\times 5 = 180$ minutes, soit exactement $3$ heures. Les trois bus se retrouvent donc ensemble à $11$ h $00$."
+    },
+    {
+      "id": "np5_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On simplifie $\\dfrac{48}{60}$ en utilisant la décomposition en facteurs premiers. Quelle est la fraction irréductible obtenue ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{4}{5}$",
+        "$\\dfrac{8}{10}$",
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "reponse": "$\\dfrac{4}{5}$",
+      "explication": "$48 = 2^4 \\times 3$ et $60 = 2^2 \\times 3 \\times 5$. $\\text{PGCD}(48, 60) = 2^2 \\times 3 = 12$. $\\dfrac{48}{60} = \\dfrac{48 \\div 12}{60 \\div 12} = \\dfrac{4}{5}$. $\\text{PGCD}(4, 5) = 1$ : fraction irréductible ✓."
+    },
+    {
+      "id": "np5_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces nombres, lequel est premier ?",
+      "image": null,
+      "choix": [
+        "$27$",
+        "$33$",
+        "$19$",
+        "$49$"
+      ],
+      "reponse": "$19$",
+      "explication": "$19$ est premier : ses seuls diviseurs sont $1$ et $19$. $27 = 3^3$, $33 = 3 \\times 11$, $49 = 7^2$ : tous ont des diviseurs autres que $1$ et eux-mêmes."
+    },
+    {
+      "id": "np5_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus grand nombre premier inférieur à $30$ ?",
+      "image": null,
+      "choix": [
+        "$27$",
+        "$28$",
+        "$29$",
+        "$25$"
+      ],
+      "reponse": "$29$",
+      "explication": "$29$ est premier (non divisible par $2$, $3$, $5$ ; $\\sqrt{29} < 6$). $27 = 3^3$, $28 = 4 \\times 7$, $25 = 5^2$ : aucun n'est premier."
+    },
+    {
+      "id": "np5_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$432$ est-il divisible par $3$ ?",
+      "image": null,
+      "choix": [
+        "Non, sa somme de chiffres est $8$",
+        "Oui, car il est pair",
+        "Oui, car la somme de ses chiffres est $9$",
+        "Non, car il ne se termine pas par $3$"
+      ],
+      "reponse": "Oui, car la somme de ses chiffres est $9$",
+      "explication": "$4 + 3 + 2 = 9$. Comme $9$ est divisible par $3$, le nombre $432$ est divisible par $3$. En effet $432 = 3 \\times 144$."
+    },
+    {
+      "id": "np5_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces paires, laquelle n'est PAS formée de nombres premiers entre eux ?",
+      "image": null,
+      "choix": [
+        "$(4 ; 9)$",
+        "$(7 ; 13)$",
+        "$(6 ; 25)$",
+        "$(8 ; 12)$"
+      ],
+      "reponse": "$(8 ; 12)$",
+      "explication": "$\\text{PGCD}(8, 12) = 4 \\neq 1$, donc $8$ et $12$ ne sont pas premiers entre eux. Pour les autres : $\\text{PGCD}(4, 9) = 1$ ; $\\text{PGCD}(7, 13) = 1$ ; $\\text{PGCD}(6, 25) = 1$."
+    },
+    {
+      "id": "np5_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la décomposition correcte de $12$ en facteurs premiers ?",
+      "image": null,
+      "choix": [
+        "$12 = 3 \\times 4$",
+        "$12 = 2 \\times 6$",
+        "$12 = 2^2 \\times 3$",
+        "$12 = 2 \\times 3^2$"
+      ],
+      "reponse": "$12 = 2^2 \\times 3$",
+      "explication": "$12 \\div 2 = 6$ ; $6 \\div 2 = 3$ ; $3 \\div 3 = 1$. Donc $12 = 2 \\times 2 \\times 3 = 2^2 \\times 3$. Les autres expressions contiennent des facteurs composés ($4 = 2^2$, $6 = 2 \\times 3$)."
+    },
+    {
+      "id": "np5_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Décompose $120$ en facteurs premiers. Quelle est la bonne écriture ?",
+      "image": null,
+      "choix": [
+        "$2^3 \\times 3 \\times 5$",
+        "$2^4 \\times 5$",
+        "$2^2 \\times 3 \\times 10$",
+        "$2^3 \\times 15$"
+      ],
+      "reponse": "$2^3 \\times 3 \\times 5$",
+      "explication": "$120 \\div 2 = 60$ ; $60 \\div 2 = 30$ ; $30 \\div 2 = 15$ ; $15 \\div 3 = 5$ ; $5 \\div 5 = 1$. Donc $120 = 2^3 \\times 3 \\times 5$. Vérification : $8 \\times 3 \\times 5 = 120$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Trouve tous les diviseurs communs à $16$ et $24$, puis indique le plus grand.",
+      "image": null,
+      "choix": [
+        "PGCD $= 4$, diviseurs communs : $1, 2, 4$",
+        "PGCD $= 8$, diviseurs communs : $1, 2, 4, 8$",
+        "PGCD $= 6$, diviseurs communs : $1, 2, 3, 6$",
+        "PGCD $= 4$, diviseurs communs : $1, 4$"
+      ],
+      "reponse": "PGCD $= 8$, diviseurs communs : $1, 2, 4, 8$",
+      "explication": "$16 = 2^4$ et $24 = 2^3 \\times 3$. $\\text{PGCD}(16, 24) = 2^3 = 8$. Les diviseurs communs sont exactement les diviseurs du PGCD : diviseurs de $8$ $= \\{1, 2, 4, 8\\}$. [Question générée]"
+    },
+    {
+      "id": "np5_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Décompose $756$ en facteurs premiers. Quelle est la bonne écriture ?",
+      "image": null,
+      "choix": [
+        "$2^2 \\times 3^3 \\times 7$",
+        "$2^2 \\times 3^2 \\times 7$",
+        "$2^3 \\times 3^3$",
+        "$2^2 \\times 189$"
+      ],
+      "reponse": "$2^2 \\times 3^3 \\times 7$",
+      "explication": "$756 \\div 2 = 378$ ; $378 \\div 2 = 189$ ; $189 \\div 3 = 63$ ; $63 \\div 3 = 21$ ; $21 \\div 3 = 7$ ; $7 \\div 7 = 1$. Donc $756 = 2^2 \\times 3^3 \\times 7 = 4 \\times 27 \\times 7 = 756$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Simplifie la fraction $\\dfrac{90}{126}$ en utilisant la décomposition en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{7}$",
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{15}{21}$",
+        "$\\dfrac{5}{9}$"
+      ],
+      "reponse": "$\\dfrac{5}{7}$",
+      "explication": "$90 = 2 \\times 3^2 \\times 5$ et $126 = 2 \\times 3^2 \\times 7$. $\\text{PGCD}(90, 126) = 2 \\times 3^2 = 18$. $\\dfrac{90}{126} = \\dfrac{90 \\div 18}{126 \\div 18} = \\dfrac{5}{7}$. $\\text{PGCD}(5, 7) = 1$ : fraction irréductible ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Simplifie la fraction $\\dfrac{315}{420}$ en utilisant la décomposition en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{5}{6}$",
+        "$\\dfrac{7}{9}$",
+        "$\\dfrac{9}{12}$"
+      ],
+      "reponse": "$\\dfrac{3}{4}$",
+      "explication": "$315 = 3^2 \\times 5 \\times 7$ et $420 = 2^2 \\times 3 \\times 5 \\times 7$. $\\text{PGCD}(315, 420) = 3 \\times 5 \\times 7 = 105$. $\\dfrac{315}{420} = \\dfrac{315 \\div 105}{420 \\div 105} = \\dfrac{3}{4}$. [Question générée]"
+    },
+    {
+      "id": "np5_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un entier $n = 2^3 \\times 3 \\times p$ où $p$ est premier. Si $n = 168$, quelle est la valeur de $p$ ?",
+      "image": null,
+      "choix": [
+        "$p = 5$",
+        "$p = 7$",
+        "$p = 11$",
+        "$p = 13$"
+      ],
+      "reponse": "$p = 7$",
+      "explication": "$2^3 \\times 3 = 8 \\times 3 = 24$. Donc $p = \\dfrac{168}{24} = 7$. Vérification : $7$ est bien un nombre premier et $2^3 \\times 3 \\times 7 = 168$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Calcule le PGCD de $756$ et $980$ par décomposition en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$28$",
+        "$56$",
+        "$14$",
+        "$7$"
+      ],
+      "reponse": "$28$",
+      "explication": "$756 = 2^2 \\times 3^3 \\times 7$ et $980 = 2^2 \\times 5 \\times 7^2$. Facteurs communs : $2$ (min $2, 2 = 2$) et $7$ (min $1, 2 = 1$). $\\text{PGCD}(756, 980) = 2^2 \\times 7 = 28$. La fraction $\\dfrac{756}{980} = \\dfrac{27}{35}$ après simplification. [Question générée]"
+    },
+    {
+      "id": "np5_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Parmi les nombres $126$, $345$, $480$ et $999$, lequel est divisible à la fois par $2$, $3$ ET $9$ ?",
+      "image": null,
+      "choix": [
+        "$126$",
+        "$345$",
+        "$480$",
+        "$999$"
+      ],
+      "reponse": "$126$",
+      "explication": "$126$ : pair ✓ ; somme des chiffres $= 1+2+6 = 9$, divisible par $3$ ✓ et par $9$ ✓. $345$ : impair, non divisible par $2$. $480$ : pair ✓, $4+8+0 = 12$ divisible par $3$ ✓ mais $12$ non divisible par $9$ ✗. $999$ : impair, non divisible par $2$. [Question générée]"
+    },
+    {
+      "id": "np5_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Alexia affirme que $91$ est premier car il n'est pas divisible par $2$, $3$ ou $5$. A-t-elle raison ?",
+      "image": null,
+      "choix": [
+        "Oui, elle a raison",
+        "Non, car $91 = 7 \\times 13$",
+        "Non, car $91 = 9 \\times 10 + 1$",
+        "On ne peut pas le savoir sans calculatrice"
+      ],
+      "reponse": "Non, car $91 = 7 \\times 13$",
+      "explication": "Pour tester la primalité de $91$, il faut vérifier tous les nombres premiers jusqu'à $\\sqrt{91} \\approx 9{,}5$, soit $2$, $3$, $5$ ET $7$. Or $91 \\div 7 = 13$ : $91 = 7 \\times 13$. Alexia a oublié de tester $7$."
+    },
+    {
+      "id": "np5_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Pourquoi $2$ est-il « spécial » parmi les nombres premiers ?",
+      "image": null,
+      "choix": [
+        "Car c'est le plus grand nombre premier connu",
+        "Car c'est le seul nombre premier pair",
+        "Car il est divisible par lui-même",
+        "Car sa décomposition est $2 = 1 \\times 2$"
+      ],
+      "reponse": "Car c'est le seul nombre premier pair",
+      "explication": "$2$ est le seul nombre premier pair. Tout autre nombre pair $n > 2$ est divisible par $2$, donc il a au moins trois diviseurs distincts ($1$, $2$ et $n$) : il ne peut pas être premier. $2$ est aussi le plus petit nombre premier."
+    },
+    {
+      "id": "np5_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Vrai ou faux ? Si $p$ est un nombre premier et $p > 2$, alors $p$ est impair.",
+      "image": null,
+      "choix": [
+        "Vrai, tout premier $> 2$ est impair",
+        "Faux, certains premiers pairs existent",
+        "Vrai, mais seulement pour les premiers $> 10$",
+        "On ne peut pas conclure sans liste exhaustive"
+      ],
+      "reponse": "Vrai, tout premier $> 2$ est impair",
+      "explication": "Si $p > 2$ est pair, alors $p$ est divisible par $2$, donc il admet $1$, $2$ et $p$ comme diviseurs distincts (au moins trois). Il n'est donc pas premier. Tout nombre premier supérieur à $2$ est nécessairement impair."
+    },
+    {
+      "id": "np5_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La décomposition $2^2 \\times 3^2 \\times 5 \\times 7$ correspond au nombre :",
+      "image": null,
+      "choix": [
+        "$630$",
+        "$1\\,260$",
+        "$2\\,520$",
+        "$315$"
+      ],
+      "reponse": "$1\\,260$",
+      "explication": "$2^2 \\times 3^2 \\times 5 \\times 7 = 4 \\times 9 \\times 5 \\times 7 = 36 \\times 35 = 1\\,260$. [Question générée]"
+    },
+    {
+      "id": "np5_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sans poser de calcul, détermine si $\\dfrac{2 \\times 3 \\times 5 \\times 7}{2 \\times 5}$ est un entier. Justifie.",
+      "image": null,
+      "choix": [
+        "Non, car $7$ n'est pas divisible par $5$",
+        "Oui, car $2 \\times 5$ divise $2 \\times 3 \\times 5 \\times 7$",
+        "Non, car le numérateur n'est pas un multiple du dénominateur",
+        "Oui, mais seulement si on développe complètement"
+      ],
+      "reponse": "Oui, car $2 \\times 5$ divise $2 \\times 3 \\times 5 \\times 7$",
+      "explication": "Le dénominateur $2 \\times 5$ est un sous-produit du numérateur $2 \\times 3 \\times 5 \\times 7$ : on peut simplifier directement. $\\dfrac{2 \\times 3 \\times 5 \\times 7}{2 \\times 5} = 3 \\times 7 = 21$. C'est bien un entier. [Question générée]"
+    },
+    {
+      "id": "np5_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Parmi ces nombres, lequel est premier avec tous les autres de la liste ?",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$10$",
+        "$35$",
+        "$37$"
+      ],
+      "reponse": "$37$",
+      "explication": "$37$ est un nombre premier. Comme $\\text{PGCD}(37, n) = 1$ pour tout $n$ non multiple de $37$, il est premier avec $6 = 2 \\times 3$, $10 = 2 \\times 5$, et $35 = 5 \\times 7$ (aucun ne contient $37$ comme facteur). [Question générée]"
+    },
+    {
+      "id": "np5_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Vérifie que $10$ peut s'écrire comme somme de deux nombres premiers. Parmi ces propositions, laquelle est correcte ?",
+      "image": null,
+      "choix": [
+        "$10 = 1 + 9$",
+        "$10 = 3 + 7$",
+        "$10 = 4 + 6$",
+        "$10 = 2 + 8$"
+      ],
+      "reponse": "$10 = 3 + 7$",
+      "explication": "$3$ et $7$ sont tous les deux premiers. $3 + 7 = 10$ ✓. Pour les autres : $1$ n'est pas premier ; $4 = 2^2$ et $6 = 2 \\times 3$ ne sont pas premiers ; $8 = 2^3$ n'est pas premier. [Question générée]"
+    },
+    {
+      "id": "np5_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Vérifie que $16$ peut s'écrire comme somme de deux nombres premiers.",
+      "image": null,
+      "choix": [
+        "$16 = 2 + 14$",
+        "$16 = 3 + 13$",
+        "$16 = 5 + 11$",
+        "$16 = 3 + 13$ ou $16 = 5 + 11$"
+      ],
+      "reponse": "$16 = 3 + 13$ ou $16 = 5 + 11$",
+      "explication": "$3 + 13 = 16$ avec $3$ et $13$ premiers ✓. $5 + 11 = 16$ avec $5$ et $11$ premiers ✓. $14 = 2 \\times 7$ n'est pas premier, donc $2 + 14$ ne convient pas. Les deux décompositions valides existent. [Question générée]"
+    },
+    {
+      "id": "np5_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Combien de diviseurs possède le nombre $n = 2^2 \\times 3 \\times 7$ ?",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$8$",
+        "$12$",
+        "$16$"
+      ],
+      "reponse": "$12$",
+      "explication": "Si $n = p_1^{a_1} \\times p_2^{a_2} \\times p_3^{a_3}$, le nombre de diviseurs est $(a_1+1)(a_2+1)(a_3+1)$. Ici : $(2+1)(1+1)(1+1) = 3 \\times 2 \\times 2 = 12$. $n = 4 \\times 3 \\times 7 = 84$, qui possède bien $12$ diviseurs. [Question générée]"
+    },
+    {
+      "id": "np5_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Liste tous les diviseurs de $168 = 2^3 \\times 3 \\times 7$. Combien en compte-t-on ?",
+      "image": null,
+      "choix": [
+        "$12$",
+        "$14$",
+        "$16$",
+        "$18$"
+      ],
+      "reponse": "$16$",
+      "explication": "Nombre de diviseurs $= (3+1)(1+1)(1+1) = 4 \\times 2 \\times 2 = 16$. Les diviseurs sont : $1, 2, 3, 4, 6, 7, 8, 12, 14, 21, 24, 28, 42, 56, 84, 168$. [Question générée]"
+    },
+    {
+      "id": "np5_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On dispose de $84$ stylos bleus et $126$ stylos rouges à distribuer équitablement. Combien chaque élève reçoit-il de stylos au total (bleus + rouges) si on sert le maximum d'élèves ?",
+      "image": null,
+      "choix": [
+        "$3$ stylos",
+        "$5$ stylos",
+        "$4$ stylos",
+        "$2$ stylos"
+      ],
+      "reponse": "$5$ stylos",
+      "explication": "$\\text{PGCD}(84, 126) = 42$ élèves. Chacun reçoit $84 \\div 42 = 2$ stylos bleus et $126 \\div 42 = 3$ stylos rouges, soit $2 + 3 = 5$ stylos au total. [Question générée]"
+    },
+    {
+      "id": "np5_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Décompose $980$ en facteurs premiers. Quelle est la bonne écriture ?",
+      "image": null,
+      "choix": [
+        "$2^2 \\times 5 \\times 7^2$",
+        "$2^2 \\times 5^2 \\times 7$",
+        "$4 \\times 245$",
+        "$2^3 \\times 5 \\times 7$"
+      ],
+      "reponse": "$2^2 \\times 5 \\times 7^2$",
+      "explication": "$980 \\div 2 = 490$ ; $490 \\div 2 = 245$ ; $245 \\div 5 = 49$ ; $49 \\div 7 = 7$ ; $7 \\div 7 = 1$. Donc $980 = 2^2 \\times 5 \\times 7^2 = 4 \\times 5 \\times 49 = 980$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Calcule le PGCD de $48$ et $180$ par décomposition en facteurs premiers.",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$12$",
+        "$24$",
+        "$36$"
+      ],
+      "reponse": "$12$",
+      "explication": "$48 = 2^4 \\times 3$ et $180 = 2^2 \\times 3^2 \\times 5$. Facteurs communs : $2^{\\min(4,2)} \\times 3^{\\min(1,2)} = 2^2 \\times 3 = 12$. Vérification : $48 = 12 \\times 4$ et $180 = 12 \\times 15$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Calcule le PPCM de $12$, $18$ et $20$.",
+      "image": null,
+      "choix": [
+        "$36$",
+        "$60$",
+        "$180$",
+        "$360$"
+      ],
+      "reponse": "$180$",
+      "explication": "$12 = 2^2 \\times 3$ ; $18 = 2 \\times 3^2$ ; $20 = 2^2 \\times 5$. Pour le PPCM, on prend chaque facteur premier avec le plus grand exposant : $\\text{PPCM} = 2^2 \\times 3^2 \\times 5 = 4 \\times 9 \\times 5 = 180$. [Question générée]"
+    },
+    {
+      "id": "np5_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La fraction $\\dfrac{48}{60}$ simplifiée est irréductible. Quel est le résultat ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{4}{5}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{6}{9}$"
+      ],
+      "reponse": "$\\dfrac{4}{5}$",
+      "explication": "$48 = 2^4 \\times 3$ et $60 = 2^2 \\times 3 \\times 5$. $\\text{PGCD}(48, 60) = 2^2 \\times 3 = 12$. $\\dfrac{48}{60} = \\dfrac{4}{5}$. Vérification : $\\text{PGCD}(4, 5) = 1$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Quel est le PPCM de $6$, $10$ et $15$ ?",
+      "image": null,
+      "choix": [
+        "$15$",
+        "$30$",
+        "$60$",
+        "$90$"
+      ],
+      "reponse": "$30$",
+      "explication": "$6 = 2 \\times 3$ ; $10 = 2 \\times 5$ ; $15 = 3 \\times 5$. $\\text{PPCM} = 2 \\times 3 \\times 5 = 30$. Vérification : $30 \\div 6 = 5$ ✓ ; $30 \\div 10 = 3$ ✓ ; $30 \\div 15 = 2$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Deux amis font du vélo sur un circuit. Le premier fait un tour toutes les $8$ minutes, le second toutes les $12$ minutes. Partant ensemble, au bout de combien de minutes se retrouvent-ils au départ pour la première fois ?",
+      "image": null,
+      "choix": [
+        "$16$ min",
+        "$24$ min",
+        "$36$ min",
+        "$96$ min"
+      ],
+      "reponse": "$24$ min",
+      "explication": "On cherche le PPCM de $8$ et $12$. $8 = 2^3$ et $12 = 2^2 \\times 3$. $\\text{PPCM} = 2^3 \\times 3 = 24$ minutes. Vérification : $24 \\div 8 = 3$ tours et $24 \\div 12 = 2$ tours ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Simplifie $\\dfrac{2^4 \\times 3^2}{2^2 \\times 3^3}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{4}{3}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{4}{9}$",
+        "$\\dfrac{2}{9}$"
+      ],
+      "reponse": "$\\dfrac{4}{3}$",
+      "explication": "$\\dfrac{2^4 \\times 3^2}{2^2 \\times 3^3} = 2^{4-2} \\times 3^{2-3} = 2^2 \\times 3^{-1} = \\dfrac{4}{3}$. Vérification numérique : $\\dfrac{16 \\times 9}{4 \\times 27} = \\dfrac{144}{108} = \\dfrac{4}{3}$ ✓. [Question générée]"
+    },
+    {
+      "id": "np5_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un entier $n$ a exactement $6$ diviseurs. Laquelle de ces formes est impossible pour $n$ ?",
+      "image": null,
+      "choix": [
+        "$n = p \\times q$ ($p \\neq q$ premiers)",
+        "$n = p^2 \\times q$ ($p, q$ premiers distincts)",
+        "$n = p^5$ ($p$ premier)",
+        "$n = p \\times q \\times r$ ($p, q, r$ premiers distincts)"
+      ],
+      "reponse": "$n = p \\times q \\times r$ ($p, q, r$ premiers distincts)",
+      "explication": "Nombre de diviseurs : $p \\times q$ → $(1+1)^2 = 4$ ; $p^2 \\times q$ → $(2+1)(1+1) = 6$ ✓ ; $p^5$ → $(5+1) = 6$ ✓. Pour $p \\times q \\times r$ : $(1+1)^3 = 8 \\neq 6$ : c'est impossible. [Question générée]"
+    },
+    {
+      "id": "np5_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On cherche le plus grand entier $d$ qui divise à la fois $180$, $252$ et $270$. Quelle est sa valeur ?",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$9$",
+        "$18$",
+        "$36$"
+      ],
+      "reponse": "$18$",
+      "explication": "$180 = 2^2 \\times 3^2 \\times 5$ ; $252 = 2^2 \\times 3^2 \\times 7$ ; $270 = 2 \\times 3^3 \\times 5$. $\\text{PGCD} = 2^{\\min(2,2,1)} \\times 3^{\\min(2,2,3)} = 2^1 \\times 3^2 = 18$. [Question générée]"
+    },
+    {
+      "id": "np5_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Décompose $2\\,310$ en facteurs premiers et donne le nombre de diviseurs de $2\\,310$.",
+      "image": null,
+      "choix": [
+        "$2\\,310 = 2 \\times 3 \\times 5 \\times 7 \\times 11$, soit $32$ diviseurs",
+        "$2\\,310 = 2 \\times 3 \\times 5 \\times 7 \\times 11$, soit $16$ diviseurs",
+        "$2\\,310 = 2^2 \\times 3 \\times 5 \\times 7 \\times 11$, soit $48$ diviseurs",
+        "$2\\,310 = 2 \\times 3 \\times 5 \\times 77$, soit $8$ diviseurs"
+      ],
+      "reponse": "$2\\,310 = 2 \\times 3 \\times 5 \\times 7 \\times 11$, soit $32$ diviseurs",
+      "explication": "$2\\,310 = 2 \\times 3 \\times 5 \\times 7 \\times 11$ (tous exposants $= 1$). Nombre de diviseurs $= (1+1)^5 = 2^5 = 32$. [Question générée]"
+    },
+    {
+      "id": "np5_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Vérifie que $28$ peut s'écrire comme somme de deux nombres premiers de deux façons différentes.",
+      "image": null,
+      "choix": [
+        "$28 = 1 + 27$ ou $28 = 5 + 23$",
+        "$28 = 5 + 23$ ou $28 = 11 + 17$",
+        "$28 = 3 + 25$ ou $28 = 7 + 21$",
+        "$28 = 2 + 26$ ou $28 = 5 + 23$"
+      ],
+      "reponse": "$28 = 5 + 23$ ou $28 = 11 + 17$",
+      "explication": "$5$ et $23$ sont premiers et $5 + 23 = 28$ ✓. $11$ et $17$ sont premiers et $11 + 17 = 28$ ✓. Les autres : $1$ non premier, $25 = 5^2$ non premier, $21 = 3 \\times 7$ non premier, $26 = 2 \\times 13$ non premier. [Question générée]"
+    },
+    {
+      "id": "np5_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Quel est le PGCD de $a = 2^3 \\times 3^2 \\times 5$ et $b = 2^2 \\times 3 \\times 5^2 \\times 7$ ?",
+      "image": null,
+      "choix": [
+        "$2^2 \\times 3 \\times 5$",
+        "$2^2 \\times 3^2 \\times 5^2$",
+        "$2^3 \\times 3^2 \\times 5^2 \\times 7$",
+        "$2 \\times 3 \\times 5$"
+      ],
+      "reponse": "$2^2 \\times 3 \\times 5$",
+      "explication": "On prend pour chaque facteur premier commun le plus petit exposant : $2^{\\min(3,2)} = 2^2$ ; $3^{\\min(2,1)} = 3^1$ ; $5^{\\min(1,2)} = 5^1$. $7$ n'est pas dans $a$. Donc $\\text{PGCD}(a, b) = 2^2 \\times 3 \\times 5 = 60$. [Question générée]"
+    }
+  ]
+}
