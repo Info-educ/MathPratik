@@ -858,7 +858,7 @@ function afficherFeedback(isCorrect, question) {
   btnNext.classList.add('visible');
   const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
   if (!isCorrect) {
-    btnNext.textContent = '→ Voir l\'erreur, puis recommencer';
+    btnNext.textContent = '→ Recommencer';
   } else if (isLast) {
     btnNext.textContent = 'Voir les résultats →';
   } else {
