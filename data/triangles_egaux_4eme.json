@@ -620,7 +620,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Triangle isocèle en S avec SS' = ST et S'ST =$140°$. Les angles de base SS'T et STS' mesurent :",
+      "enonce": "Triangle isocèle en S avec SS' = ST et $\widehat{S'ST}$ =$140°$. Les angles de base $\widehat{SS'T}$ et $\widehat{STS'}$ mesurent :",
       "image": null,
       "choix": [
         "$10°$chacun",
