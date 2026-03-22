@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7/10 + 3/100 + 5/1000 = ?",
+      "enonce": "$\\frac{7}{10}$ + $\\frac{3}{100}$ + $\\frac{5}{1000}$ = ?",
       "choix": [
         "0,735",
         "0,753",
@@ -140,7 +140,7 @@
         "7"
       ],
       "reponse": "572",
-      "explication": "5,72×100=572 centièmes",
+      "explication": "5,72$\\times$100=572 centièmes",
       "image": null
     },
     {
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "134/1000 en décimal ?",
+      "enonce": "$\\frac{134}{1000}$ en décimal ?",
       "choix": [
         "0,0134",
         "0,134",
@@ -174,7 +174,7 @@
         "13,4"
       ],
       "reponse": "0,134",
-      "explication": "134÷1000=0,134",
+      "explication": "134$\\div$1000=0,134",
       "image": null
     },
     {
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9/100 en décimal ?",
+      "enonce": "$\\frac{9}{100}$ en décimal ?",
       "choix": [
         "0,009",
         "0,09",
@@ -225,7 +225,7 @@
         "9"
       ],
       "reponse": "0,09",
-      "explication": "9÷100=0,09",
+      "explication": "9$\\div$100=0,09",
       "image": null
     },
     {
@@ -276,7 +276,7 @@
         "0"
       ],
       "reponse": "28",
-      "explication": "2,8×10=28 dixièmes",
+      "explication": "2,8$\\times$10=28 dixièmes",
       "image": null
     },
     {
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2 + 3/10 + 7/100 = ?",
+      "enonce": "2 + $\\frac{3}{10}$ + $\\frac{7}{100}$ = ?",
       "choix": [
         "2,307",
         "2,37",
@@ -304,13 +304,13 @@
       "chrono": 20,
       "enonce": "0,056 en fraction décimale ?",
       "choix": [
-        "56/100",
-        "56/1000",
-        "5,6/100",
-        "0,56/10"
+        "$\\frac{56}{100}$",
+        "$\\frac{56}{1000}$",
+        "5,$\\frac{6}{100}$",
+        "0,$\\frac{56}{10}$"
       ],
-      "reponse": "56/1000",
-      "explication": "0,056=56/1000",
+      "reponse": "$\\frac{56}{1000}$",
+      "explication": "0,056=$\\frac{56}{1000}$",
       "image": null
     },
     {
@@ -321,13 +321,13 @@
       "chrono": 20,
       "enonce": "6,05 en fraction ?",
       "choix": [
-        "605/10",
-        "605/100",
-        "65/10",
-        "605/1000"
+        "$\\frac{605}{10}$",
+        "$\\frac{605}{100}$",
+        "$\\frac{65}{10}$",
+        "$\\frac{605}{1000}$"
       ],
-      "reponse": "605/100",
-      "explication": "6,05=605/100",
+      "reponse": "$\\frac{605}{100}$",
+      "explication": "6,05=$\\frac{605}{100}$",
       "image": null
     },
     {
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "40 + 9/10 + 2/100 = ?",
+      "enonce": "40 + $\\frac{9}{10}$ + $\\frac{2}{100}$ = ?",
       "choix": [
         "40,92",
         "40,29",
@@ -378,7 +378,7 @@
         "7"
       ],
       "reponse": "372",
-      "explication": "3,72×100=372 centièmes",
+      "explication": "3,72$\\times$100=372 centièmes",
       "image": null
     },
     {
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3 + 5/1000 = ?",
+      "enonce": "3 + $\\frac{5}{1000}$ = ?",
       "choix": [
         "3,005",
         "3,05",
@@ -429,7 +429,7 @@
         "0,725"
       ],
       "reponse": "725",
-      "explication": "72,5×10=725 dixièmes",
+      "explication": "72,5$\\times$10=725 dixièmes",
       "image": null
     },
     {
@@ -446,7 +446,7 @@
         "9810"
       ],
       "reponse": "981",
-      "explication": "98,1×10=981 dixièmes",
+      "explication": "98,1$\\times$10=981 dixièmes",
       "image": null
     },
     {
@@ -491,13 +491,13 @@
       "chrono": 20,
       "enonce": "Dans 8,304 : fraction représentant le 4 ?",
       "choix": [
-        "4/10",
-        "4/100",
-        "4/1000",
-        "4/10000"
+        "$\\frac{4}{10}$",
+        "$\\frac{4}{100}$",
+        "$\\frac{4}{1000}$",
+        "$\\frac{4}{10000}$"
       ],
-      "reponse": "4/1000",
-      "explication": "8,304=8+3/10+0/100+4/1000",
+      "reponse": "$\\frac{4}{1000}$",
+      "explication": "8,304=8+$\\frac{3}{10}$+$\\frac{0}{100}$+$\\frac{4}{1000}$",
       "image": null
     },
     {
@@ -508,13 +508,13 @@
       "chrono": 20,
       "enonce": "Dans 100,04 : fraction des centièmes ?",
       "choix": [
-        "4/10",
-        "4/100",
-        "4/1000",
-        "40/100"
+        "$\\frac{4}{10}$",
+        "$\\frac{4}{100}$",
+        "$\\frac{4}{1000}$",
+        "$\\frac{40}{100}$"
       ],
-      "reponse": "4/100",
-      "explication": "100,04=100+4/100",
+      "reponse": "$\\frac{4}{100}$",
+      "explication": "100,04=100+$\\frac{4}{100}$",
       "image": null
     }
   ]

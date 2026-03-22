@@ -13,7 +13,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n-6 puis ×2. Pour n=22",
+      "enonce": "Programme: n-6 puis $\\times$2. Pour n=22",
       "choix": [
         "26",
         "28",
@@ -21,7 +21,7 @@
         "32"
       ],
       "reponse": "32",
-      "explication": "22-6=16, 16×2=32",
+      "explication": "22-6=16, 16$\\times$2=32",
       "image": null,
       "programme": {
         "lettre": "A",
@@ -40,7 +40,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n-6 puis ×2. Pour n=18",
+      "enonce": "Programme: n-6 puis $\\times$2. Pour n=18",
       "choix": [
         "22",
         "24",
@@ -48,7 +48,7 @@
         "28"
       ],
       "reponse": "24",
-      "explication": "18-6=12, 12×2=24",
+      "explication": "18-6=12, 12$\\times$2=24",
       "image": null,
       "programme": {
         "lettre": "A",
@@ -67,7 +67,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n-6 puis ×2. Pour n=33",
+      "enonce": "Programme: n-6 puis $\\times$2. Pour n=33",
       "choix": [
         "50",
         "52",
@@ -75,7 +75,7 @@
         "56"
       ],
       "reponse": "54",
-      "explication": "33-6=27, 27×2=54",
+      "explication": "33-6=27, 27$\\times$2=54",
       "image": null,
       "programme": {
         "lettre": "A",
@@ -102,7 +102,7 @@
         "2a+6"
       ],
       "reponse": "2(a-6)",
-      "explication": "a-6 puis ×2=2(a-6)",
+      "explication": "a-6 puis $\\times$2=2(a-6)",
       "image": null,
       "programme": {
         "lettre": "A",
@@ -120,7 +120,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n÷3 puis -8. Pour n=18",
+      "enonce": "Programme: n$\\div$3 puis -8. Pour n=18",
       "choix": [
         "-4",
         "-3",
@@ -128,7 +128,7 @@
         "-1"
       ],
       "reponse": "-2",
-      "explication": "18÷3=6, 6-8=-2",
+      "explication": "18$\\div$3=6, 6-8=-2",
       "image": null,
       "programme": {
         "lettre": "B",
@@ -147,7 +147,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n÷3 puis -8. Pour n=33",
+      "enonce": "Programme: n$\\div$3 puis -8. Pour n=33",
       "choix": [
         "1",
         "2",
@@ -155,7 +155,7 @@
         "4"
       ],
       "reponse": "3",
-      "explication": "33÷3=11, 11-8=3",
+      "explication": "33$\\div$3=11, 11-8=3",
       "image": null,
       "programme": {
         "lettre": "B",
@@ -178,11 +178,11 @@
       "choix": [
         "a/3-8",
         "(a-8)/3",
-        "a-8/3",
+        "a-$\\frac{8}{3}$",
         "3a-8"
       ],
       "reponse": "a/3-8",
-      "explication": "a÷3 puis -8",
+      "explication": "a$\\div$3 puis -8",
       "image": null,
       "programme": {
         "lettre": "B",
@@ -200,7 +200,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+4 puis ×3. Pour n=5",
+      "enonce": "Programme: n+4 puis $\\times$3. Pour n=5",
       "choix": [
         "25",
         "27",
@@ -208,7 +208,7 @@
         "31"
       ],
       "reponse": "27",
-      "explication": "5+4=9, 9×3=27",
+      "explication": "5+4=9, 9$\\times$3=27",
       "image": null,
       "programme": {
         "lettre": "C",
@@ -227,7 +227,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+4 puis ×3. Pour n=3",
+      "enonce": "Programme: n+4 puis $\\times$3. Pour n=3",
       "choix": [
         "18",
         "20",
@@ -235,7 +235,7 @@
         "23"
       ],
       "reponse": "21",
-      "explication": "3+4=7, 7×3=21",
+      "explication": "3+4=7, 7$\\times$3=21",
       "image": null,
       "programme": {
         "lettre": "C",
@@ -262,7 +262,7 @@
         "3x+12"
       ],
       "reponse": "3(x+4)",
-      "explication": "x+4 puis ×3",
+      "explication": "x+4 puis $\\times$3",
       "image": null,
       "programme": {
         "lettre": "C",
@@ -280,7 +280,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n×2 puis -15. Pour n=4",
+      "enonce": "Programme: n$\\times$2 puis -15. Pour n=4",
       "choix": [
         "-9",
         "-8",
@@ -307,7 +307,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n×2 puis -15. Pour n=12",
+      "enonce": "Programme: n$\\times$2 puis -15. Pour n=12",
       "choix": [
         "7",
         "8",
@@ -342,7 +342,7 @@
         "15-2b"
       ],
       "reponse": "2b-15",
-      "explication": "b×2 puis -15",
+      "explication": "b$\\times$2 puis -15",
       "image": null,
       "programme": {
         "lettre": "D",
@@ -360,7 +360,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n² puis +3. Pour n=2",
+      "enonce": "Programme: $n^{2}$ puis +3. Pour n=2",
       "choix": [
         "5",
         "6",
@@ -387,7 +387,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n² puis +3. Pour n=5",
+      "enonce": "Programme: $n^{2}$ puis +3. Pour n=5",
       "choix": [
         "26",
         "28",
@@ -416,13 +416,13 @@
       "chrono": 20,
       "enonce": "Programme E: expression pour t ?",
       "choix": [
-        "t²+3",
+        "$t^{2}$+3",
         "t+3",
         "(t+3)²",
-        "3t²"
+        "$3$t^{2}"
       ],
-      "reponse": "t²+3",
-      "explication": "t² puis +3",
+      "reponse": "$t^{2}$+3",
+      "explication": "$t^{2}$ puis +3",
       "image": null,
       "programme": {
         "lettre": "E",
@@ -440,7 +440,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n×5 puis +1. Pour n=4",
+      "enonce": "Programme: n$\\times$5 puis +1. Pour n=4",
       "choix": [
         "19",
         "21",
@@ -467,7 +467,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n×5 puis +1. Pour n=10",
+      "enonce": "Programme: n$\\times$5 puis +1. Pour n=10",
       "choix": [
         "49",
         "51",
@@ -502,7 +502,7 @@
         "n+5"
       ],
       "reponse": "5n+1",
-      "explication": "n×5 puis +1",
+      "explication": "n$\\times$5 puis +1",
       "image": null,
       "programme": {
         "lettre": "F",
@@ -578,8 +578,8 @@
       "choix": [
         "x-1",
         "(x-1)²",
-        "x²-1",
-        "x²-2x"
+        "$x^{2}$-1",
+        "$x^{2}$-2x"
       ],
       "reponse": "(x-1)²",
       "explication": "(x-1)²",
@@ -600,7 +600,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n×3 puis -4. Pour n=6",
+      "enonce": "Programme: n$\\times$3 puis -4. Pour n=6",
       "choix": [
         "12",
         "14",
@@ -627,7 +627,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n×3 puis -4. Pour n=2",
+      "enonce": "Programme: n$\\times$3 puis -4. Pour n=2",
       "choix": [
         "0",
         "2",
@@ -662,7 +662,7 @@
         "3(m-4)"
       ],
       "reponse": "3m-4",
-      "explication": "m×3 puis -4",
+      "explication": "m$\\times$3 puis -4",
       "image": null,
       "programme": {
         "lettre": "H",
@@ -680,7 +680,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+10 puis ÷2. Pour n=8",
+      "enonce": "Programme: n+10 puis $\\div$2. Pour n=8",
       "choix": [
         "7",
         "8",
@@ -688,7 +688,7 @@
         "10"
       ],
       "reponse": "9",
-      "explication": "(8+10)÷2=9",
+      "explication": "(8+10)$\\div$2=9",
       "image": null,
       "programme": {
         "lettre": "I",
@@ -707,7 +707,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n+10 puis ÷2. Pour n=20",
+      "enonce": "Programme: n+10 puis $\\div$2. Pour n=20",
       "choix": [
         "13",
         "15",
@@ -715,7 +715,7 @@
         "19"
       ],
       "reponse": "15",
-      "explication": "(20+10)÷2=15",
+      "explication": "(20+10)$\\div$2=15",
       "image": null,
       "programme": {
         "lettre": "I",
@@ -742,7 +742,7 @@
         "(p+5)/2"
       ],
       "reponse": "(p+10)/2",
-      "explication": "(p+10)÷2",
+      "explication": "(p+10)$\\div$2",
       "image": null,
       "programme": {
         "lettre": "I",
@@ -760,7 +760,7 @@
       "type": "programme_calcul",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Programme: n² puis +lui-même. Pour n=3",
+      "enonce": "Programme: $n^{2}$ puis +lui-même. Pour n=3",
       "choix": [
         "9",
         "12",
@@ -790,12 +790,12 @@
       "enonce": "Programme J: expression pour k ?",
       "choix": [
         "2k",
-        "k²+k",
-        "k²+2k",
-        "2k²"
+        "$k^{2}$+k",
+        "$k^{2}$+2k",
+        "$2$k^{2}"
       ],
-      "reponse": "2k²",
-      "explication": "k²+k²=2k²",
+      "reponse": "$2$k^{2}",
+      "explication": "$k^{2}$+$k^{2}=2$k^{2}",
       "image": null,
       "programme": {
         "lettre": "J",

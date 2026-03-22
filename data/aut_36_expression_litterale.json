@@ -16,9 +16,9 @@
       "enonce": "La somme de a et b",
       "choix": [
         "a-b",
-        "a×b",
+        "a$\\times$b",
         "a+b",
-        "a÷b"
+        "a$\\div$b"
       ],
       "reponse": "a+b",
       "explication": "somme = +",
@@ -33,7 +33,7 @@
       "enonce": "La différence entre x et 5",
       "choix": [
         "x+5",
-        "x×5",
+        "x$\\times$5",
         "x-5",
         "5-x"
       ],
@@ -55,7 +55,7 @@
         "m/7"
       ],
       "reponse": "7m",
-      "explication": "produit = ×",
+      "explication": "produit = $\\times$",
       "image": null
     },
     {
@@ -72,7 +72,7 @@
         "n/4"
       ],
       "reponse": "n/4",
-      "explication": "quotient = ÷",
+      "explication": "quotient = $\\div$",
       "image": null
     },
     {
@@ -84,12 +84,12 @@
       "enonce": "Le double de a",
       "choix": [
         "a+2",
-        "a²",
+        "$a^{2}$",
         "2a",
         "a/2"
       ],
       "reponse": "2a",
-      "explication": "double = ×2",
+      "explication": "double = $\\times$2",
       "image": null
     },
     {
@@ -106,7 +106,7 @@
         "x-2"
       ],
       "reponse": "x/2",
-      "explication": "moitié = ÷2",
+      "explication": "moitié = $\\div$2",
       "image": null
     },
     {
@@ -118,12 +118,12 @@
       "enonce": "Le triple de y",
       "choix": [
         "y+3",
-        "y²",
+        "$y^{2}$",
         "3y",
         "y/3"
       ],
       "reponse": "3y",
-      "explication": "triple = ×3",
+      "explication": "triple = $\\times$3",
       "image": null
     },
     {
@@ -140,7 +140,7 @@
         "z-3"
       ],
       "reponse": "z/3",
-      "explication": "tiers = ÷3",
+      "explication": "tiers = $\\div$3",
       "image": null
     },
     {
@@ -154,10 +154,10 @@
         "p+4",
         "4p",
         "p/4",
-        "p²"
+        "$p^{2}$"
       ],
       "reponse": "4p",
-      "explication": "quadruple = ×4",
+      "explication": "quadruple = $\\times$4",
       "image": null
     },
     {
@@ -174,7 +174,7 @@
         "q+4"
       ],
       "reponse": "q/4",
-      "explication": "quart = ÷4",
+      "explication": "quart = $\\div$4",
       "image": null
     },
     {
@@ -185,7 +185,7 @@
       "chrono": 20,
       "enonce": "La somme du double de a et de 3",
       "choix": [
-        "2a×3",
+        "2a$\\times$3",
         "2a+3",
         "2(a+3)",
         "a+3"
@@ -205,7 +205,7 @@
         "10+3x",
         "3x-10",
         "10-3x",
-        "10×3x"
+        "10$\\times$3x"
       ],
       "reponse": "10-3x",
       "explication": "10-3x",
@@ -221,11 +221,11 @@
       "choix": [
         "2m+5",
         "10m",
-        "2m×5",
+        "2m$\\times$5",
         "5m+2"
       ],
       "reponse": "10m",
-      "explication": "2m×5=10m",
+      "explication": "2m$\\times$5=10m",
       "image": null
     },
     {
@@ -239,10 +239,10 @@
         "4t+8",
         "4t/8",
         "t/2",
-        "8/4t"
+        "$\\frac{8}{4}$t"
       ],
       "reponse": "4t/8",
-      "explication": "4t÷8",
+      "explication": "4t$\\div$8",
       "image": null
     },
     {
@@ -255,11 +255,11 @@
       "choix": [
         "2x",
         "x+x",
-        "x²+x",
-        "x²×x"
+        "$x^{2}$+x",
+        "$x^{2}\\times$x"
       ],
-      "reponse": "x²+x",
-      "explication": "x²+x",
+      "reponse": "$x^{2}$+x",
+      "explication": "$x^{2}$+x",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Traduis: (a+b) ÷ 2",
+      "enonce": "Traduis: (a+b) $\\div$ 2",
       "choix": [
         "La différence de a et b sur 2",
         "La somme de a et b divisée par 2",
@@ -310,7 +310,7 @@
         "a plus b fois 2"
       ],
       "reponse": "La somme de a et b divisée par 2",
-      "explication": "(a+b)÷2",
+      "explication": "(a+b)$\\div$2",
       "image": null
     },
     {
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Traduis: a² - a",
+      "enonce": "Traduis: $a^{2}$ - a",
       "choix": [
         "Le carré de a diminué de a",
         "a fois a plus a",
@@ -344,7 +344,7 @@
         "a plus a au carré"
       ],
       "reponse": "Le carré de a diminué de a",
-      "explication": "a²-a",
+      "explication": "$a^{2}$-a",
       "image": null
     },
     {
@@ -375,7 +375,7 @@
         "2+a/3",
         "a/3-2",
         "2-a/3",
-        "2×a/3"
+        "2$\\times$a/3"
       ],
       "reponse": "2-a/3",
       "explication": "2-a/3",
@@ -391,7 +391,7 @@
       "choix": [
         "3x+4",
         "3(x+4)",
-        "x+4×3",
+        "x+4$\\times$3",
         "3x+12"
       ],
       "reponse": "3(x+4)",
@@ -423,7 +423,7 @@
       "chrono": 20,
       "enonce": "Le carré de la somme de a et b",
       "choix": [
-        "a²+b²",
+        "$a^{2}$+$b^{2}$",
         "(a+b)",
         "(a+b)²",
         "2(a+b)"
@@ -491,7 +491,7 @@
       "chrono": 20,
       "enonce": "Le quotient de (m+n) par 5",
       "choix": [
-        "(m+n)×5",
+        "(m+n)$\\times$5",
         "(m+n)/5",
         "m+n/5",
         "5(m+n)"
@@ -508,13 +508,13 @@
       "chrono": 20,
       "enonce": "La somme du carré de x et du carré de y",
       "choix": [
-        "x²×y²",
+        "$x^{2} \\times y^{2}$",
         "(x+y)²",
-        "x²+y²",
-        "x+y²"
+        "$x^{2}$+$y^{2}$",
+        "x+$y^{2}$"
       ],
-      "reponse": "x²+y²",
-      "explication": "x²+y²",
+      "reponse": "$x^{2}$+$y^{2}$",
+      "explication": "$x^{2}$+$y^{2}$",
       "image": null
     }
   ]

@@ -13,15 +13,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2/3 × 3/4 = ?",
+      "enonce": "$\\frac{2}{3} \\times \\frac{3}{4}$ = ?",
       "choix": [
-        "1/3",
-        "1/2",
-        "3/8",
-        "2/7"
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{2}{7}$"
       ],
-      "reponse": "1/2",
-      "explication": "6/12=1/2",
+      "reponse": "$\\frac{1}{2}$",
+      "explication": "$\\frac{6}{12}=\\frac{1}{2}$",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5/6 × 3/10 = ?",
+      "enonce": "$\\frac{5}{6} \\times \\frac{3}{10}$ = ?",
       "choix": [
-        "1/3",
-        "1/4",
-        "3/8",
-        "1/2"
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{2}$"
       ],
-      "reponse": "1/4",
-      "explication": "15/60=1/4",
+      "reponse": "$\\frac{1}{4}$",
+      "explication": "$\\frac{15}{60}=\\frac{1}{4}$",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4/7 × 7/8 = ?",
+      "enonce": "$\\frac{4}{7} \\times \\frac{7}{8}$ = ?",
       "choix": [
-        "4/8",
-        "1/2",
-        "7/14",
-        "1/4"
+        "$\\frac{4}{8}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{14}$",
+        "$\\frac{1}{4}$"
       ],
-      "reponse": "1/2",
-      "explication": "28/56=1/2",
+      "reponse": "$\\frac{1}{2}$",
+      "explication": "$\\frac{28}{56}=\\frac{1}{2}$",
       "image": null
     },
     {
@@ -64,15 +64,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3/5 × 10/9 = ?",
+      "enonce": "$\\frac{3}{5} \\times \\frac{10}{9}$ = ?",
       "choix": [
-        "1/3",
-        "1/2",
-        "2/3",
-        "3/5"
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{5}$"
       ],
-      "reponse": "2/3",
-      "explication": "30/45=2/3",
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "$\\frac{30}{45}=\\frac{2}{3}$",
       "image": null
     },
     {
@@ -81,15 +81,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2/3 × 9/4 = ?",
+      "enonce": "$\\frac{2}{3} \\times \\frac{9}{4}$ = ?",
       "choix": [
-        "3/4",
-        "3/2",
-        "6/4",
-        "9/6"
+        "$\\frac{3}{4}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{6}{4}$",
+        "$\\frac{9}{6}$"
       ],
-      "reponse": "3/2",
-      "explication": "18/12=3/2",
+      "reponse": "$\\frac{3}{2}$",
+      "explication": "$\\frac{18}{12}=\\frac{3}{2}$",
       "image": null
     },
     {
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5/8 × 4/15 = ?",
+      "enonce": "$\\frac{5}{8} \\times \\frac{4}{15}$ = ?",
       "choix": [
-        "1/4",
-        "1/6",
-        "5/6",
-        "2/8"
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{2}{8}$"
       ],
-      "reponse": "1/6",
-      "explication": "20/120=1/6",
+      "reponse": "$\\frac{1}{6}$",
+      "explication": "$\\frac{20}{120}=\\frac{1}{6}$",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7/9 × 3/14 = ?",
+      "enonce": "$\\frac{7}{9} \\times \\frac{3}{14}$ = ?",
       "choix": [
-        "1/3",
-        "1/6",
-        "3/14",
-        "7/18"
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{3}{14}$",
+        "$\\frac{7}{18}$"
       ],
-      "reponse": "1/6",
-      "explication": "21/126=1/6",
+      "reponse": "$\\frac{1}{6}$",
+      "explication": "$\\frac{21}{126}=\\frac{1}{6}$",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4/5 × 15/8 = ?",
+      "enonce": "$\\frac{4}{5} \\times \\frac{15}{8}$ = ?",
       "choix": [
-        "3/4",
-        "3/2",
-        "4/5",
-        "5/4"
+        "$\\frac{3}{4}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{5}{4}$"
       ],
-      "reponse": "3/2",
-      "explication": "60/40=3/2",
+      "reponse": "$\\frac{3}{2}$",
+      "explication": "$\\frac{60}{40}=\\frac{3}{2}$",
       "image": null
     },
     {
@@ -149,15 +149,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3/4 ÷ 1/2 = ?",
+      "enonce": "$\\frac{3}{4} \\div \\frac{1}{2}$ = ?",
       "choix": [
-        "3/8",
-        "3/2",
-        "1/2",
-        "6/4"
+        "$\\frac{3}{8}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{6}{4}$"
       ],
-      "reponse": "3/2",
-      "explication": "3/4×2=3/2",
+      "reponse": "$\\frac{3}{2}$",
+      "explication": "$\\frac{3}{4}\\times$2=$\\frac{3}{2}$",
       "image": null
     },
     {
@@ -166,15 +166,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5/6 ÷ 5/3 = ?",
+      "enonce": "$\\frac{5}{6} \\div \\frac{5}{3}$ = ?",
       "choix": [
-        "1/3",
-        "1/2",
-        "2/3",
-        "5/6"
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{5}{6}$"
       ],
-      "reponse": "1/2",
-      "explication": "5/6×3/5=1/2",
+      "reponse": "$\\frac{1}{2}$",
+      "explication": "$\\frac{5}{6} \\times \\frac{3}{5}=\\frac{1}{2}$",
       "image": null
     },
     {
@@ -183,15 +183,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2/3 ÷ 4/9 = ?",
+      "enonce": "$\\frac{2}{3} \\div \\frac{4}{9}$ = ?",
       "choix": [
-        "1/2",
-        "2/3",
-        "3/2",
-        "5/4"
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{5}{4}$"
       ],
-      "reponse": "3/2",
-      "explication": "2/3×9/4=3/2",
+      "reponse": "$\\frac{3}{2}$",
+      "explication": "$\\frac{2}{3} \\times \\frac{9}{4}=\\frac{3}{2}$",
       "image": null
     },
     {
@@ -200,15 +200,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7/8 ÷ 7/4 = ?",
+      "enonce": "$\\frac{7}{8} \\div \\frac{7}{4}$ = ?",
       "choix": [
-        "1/4",
-        "1/2",
-        "7/32",
-        "2/3"
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{32}$",
+        "$\\frac{2}{3}$"
       ],
-      "reponse": "1/2",
-      "explication": "7/8×4/7=1/2",
+      "reponse": "$\\frac{1}{2}$",
+      "explication": "$\\frac{7}{8} \\times \\frac{4}{7}=\\frac{1}{2}$",
       "image": null
     },
     {
@@ -217,15 +217,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3/5 ÷ 6/10 = ?",
+      "enonce": "$\\frac{3}{5} \\div \\frac{6}{10}$ = ?",
       "choix": [
-        "1/2",
+        "$\\frac{1}{2}$",
         "1",
-        "3/5",
-        "5/6"
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{6}$"
       ],
       "reponse": "1",
-      "explication": "3/5×10/6=1",
+      "explication": "$\\frac{3}{5} \\times \\frac{10}{6}$=1",
       "image": null
     },
     {
@@ -234,15 +234,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4/7 ÷ 2/7 = ?",
+      "enonce": "$\\frac{4}{7} \\div \\frac{2}{7}$ = ?",
       "choix": [
-        "1/2",
+        "$\\frac{1}{2}$",
         "2",
-        "4/2",
-        "8/7"
+        "$\\frac{4}{2}$",
+        "$\\frac{8}{7}$"
       ],
       "reponse": "2",
-      "explication": "4/7×7/2=2",
+      "explication": "$\\frac{4}{7} \\times \\frac{7}{2}$=2",
       "image": null
     },
     {
@@ -251,15 +251,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9/10 ÷ 3/5 = ?",
+      "enonce": "$\\frac{9}{10} \\div \\frac{3}{5}$ = ?",
       "choix": [
-        "1/2",
-        "3/2",
-        "3/10",
-        "2/3"
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{3}{10}$",
+        "$\\frac{2}{3}$"
       ],
-      "reponse": "3/2",
-      "explication": "9/10×5/3=3/2",
+      "reponse": "$\\frac{3}{2}$",
+      "explication": "$\\frac{9}{10} \\times \\frac{5}{3}=\\frac{3}{2}$",
       "image": null
     },
     {
@@ -268,15 +268,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1/2 × 2/3 × 3/4 = ?",
+      "enonce": "$\\frac{1}{2} \\times \\frac{2}{3}\\times\\frac{3}{4}$ = ?",
       "choix": [
-        "1/4",
-        "1/2",
-        "3/8",
-        "1/3"
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{3}$"
       ],
-      "reponse": "1/4",
-      "explication": "6/24=1/4",
+      "reponse": "$\\frac{1}{4}$",
+      "explication": "$\\frac{6}{24}=\\frac{1}{4}$",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2/5 × 5/6 × 3/4 = ?",
+      "enonce": "$\\frac{2}{5} \\times \\frac{5}{6}\\times\\frac{3}{4}$ = ?",
       "choix": [
-        "1/4",
-        "1/2",
-        "3/8",
-        "2/5"
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{2}{5}$"
       ],
-      "reponse": "1/4",
-      "explication": "30/120=1/4",
+      "reponse": "$\\frac{1}{4}$",
+      "explication": "$\\frac{30}{120}=\\frac{1}{4}$",
       "image": null
     },
     {
@@ -302,15 +302,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3/4 × 4/3 = ?",
+      "enonce": "$\\frac{3}{4} \\times \\frac{4}{3}$ = ?",
       "choix": [
-        "1/2",
+        "$\\frac{1}{2}$",
         "1",
-        "3/4",
-        "5/4"
+        "$\\frac{3}{4}$",
+        "$\\frac{5}{4}$"
       ],
       "reponse": "1",
-      "explication": "12/12=1",
+      "explication": "$\\frac{12}{12}$=1",
       "image": null
     },
     {
@@ -319,15 +319,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5/4 ÷ 5/8 = ?",
+      "enonce": "$\\frac{5}{4} \\div \\frac{5}{8}$ = ?",
       "choix": [
-        "1/2",
+        "$\\frac{1}{2}$",
         "2",
-        "5/2",
-        "8/4"
+        "$\\frac{5}{2}$",
+        "$\\frac{8}{4}$"
       ],
       "reponse": "2",
-      "explication": "5/4×8/5=2",
+      "explication": "$\\frac{5}{4} \\times \\frac{8}{5}$=2",
       "image": null
     },
     {
@@ -336,15 +336,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3/7 × 14/9 = ?",
+      "enonce": "$\\frac{3}{7} \\times \\frac{14}{9}$ = ?",
       "choix": [
-        "1/3",
-        "2/3",
-        "3/9",
-        "6/9"
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{9}$",
+        "$\\frac{6}{9}$"
       ],
-      "reponse": "2/3",
-      "explication": "42/63=2/3",
+      "reponse": "$\\frac{2}{3}$",
+      "explication": "$\\frac{42}{63}=\\frac{2}{3}$",
       "image": null
     },
     {
@@ -353,15 +353,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8/5 ÷ 4/5 = ?",
+      "enonce": "$\\frac{8}{5} \\div \\frac{4}{5}$ = ?",
       "choix": [
-        "1/2",
+        "$\\frac{1}{2}$",
         "2",
-        "4/5",
-        "8/4"
+        "$\\frac{4}{5}$",
+        "$\\frac{8}{4}$"
       ],
       "reponse": "2",
-      "explication": "8/5×5/4=2",
+      "explication": "$\\frac{8}{5} \\times \\frac{5}{4}$=2",
       "image": null
     },
     {
@@ -370,15 +370,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6/11 × 11/3 = ?",
+      "enonce": "$\\frac{6}{11} \\times \\frac{11}{3}$ = ?",
       "choix": [
-        "1/2",
+        "$\\frac{1}{2}$",
         "2",
-        "3/2",
-        "6/3"
+        "$\\frac{3}{2}$",
+        "$\\frac{6}{3}$"
       ],
       "reponse": "2",
-      "explication": "66/33=2",
+      "explication": "$\\frac{66}{33}$=2",
       "image": null
     },
     {
@@ -387,15 +387,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7/12 ÷ 7/6 = ?",
+      "enonce": "$\\frac{7}{12} \\div \\frac{7}{6}$ = ?",
       "choix": [
-        "1/2",
-        "1/3",
-        "7/6",
-        "2/3"
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{7}{6}$",
+        "$\\frac{2}{3}$"
       ],
-      "reponse": "1/2",
-      "explication": "7/12×6/7=1/2",
+      "reponse": "$\\frac{1}{2}$",
+      "explication": "$\\frac{7}{12} \\times \\frac{6}{7}=\\frac{1}{2}$",
       "image": null
     },
     {
@@ -404,15 +404,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9/16 × 8/3 = ?",
+      "enonce": "$\\frac{9}{16} \\times \\frac{8}{3}$ = ?",
       "choix": [
-        "1/2",
-        "3/2",
-        "9/6",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{9}{6}$",
         "2"
       ],
-      "reponse": "3/2",
-      "explication": "72/48=3/2",
+      "reponse": "$\\frac{3}{2}$",
+      "explication": "$\\frac{72}{48}=\\frac{3}{2}$",
       "image": null
     },
     {
@@ -421,15 +421,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5/9 ÷ 5/3 = ?",
+      "enonce": "$\\frac{5}{9} \\div \\frac{5}{3}$ = ?",
       "choix": [
-        "1/3",
-        "1/2",
-        "3/5",
-        "2/3"
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{3}$"
       ],
-      "reponse": "1/3",
-      "explication": "5/9×3/5=1/3",
+      "reponse": "$\\frac{1}{3}$",
+      "explication": "$\\frac{5}{9} \\times \\frac{3}{5}=\\frac{1}{3}$",
       "image": null
     },
     {
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2/3 × 6 = ?",
+      "enonce": "$\\frac{2}{3}\\times$ 6 = ?",
       "choix": [
         "3",
         "4",
@@ -446,7 +446,7 @@
         "6"
       ],
       "reponse": "4",
-      "explication": "12/3=4",
+      "explication": "$\\frac{12}{3}$=4",
       "image": null
     },
     {
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3/4 × 8 = ?",
+      "enonce": "$\\frac{3}{4}\\times$ 8 = ?",
       "choix": [
         "5",
         "6",
@@ -463,7 +463,7 @@
         "8"
       ],
       "reponse": "6",
-      "explication": "24/4=6",
+      "explication": "$\\frac{24}{4}$=6",
       "image": null
     },
     {
@@ -472,15 +472,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5/6 ÷ 1/6 = ?",
+      "enonce": "$\\frac{5}{6} \\div \\frac{1}{6}$ = ?",
       "choix": [
-        "1/5",
+        "$\\frac{1}{5}$",
         "5",
         "4",
         "6"
       ],
       "reponse": "5",
-      "explication": "5/6×6=5",
+      "explication": "$\\frac{5}{6}\\times$6=5",
       "image": null
     },
     {
@@ -489,15 +489,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4/5 × 5/4 = ?",
+      "enonce": "$\\frac{4}{5} \\times \\frac{5}{4}$ = ?",
       "choix": [
-        "3/4",
-        "4/5",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{5}$",
         "1",
-        "5/4"
+        "$\\frac{5}{4}$"
       ],
       "reponse": "1",
-      "explication": "20/20=1",
+      "explication": "$\\frac{20}{20}$=1",
       "image": null
     },
     {
@@ -506,15 +506,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7/10 × 10/7 = ?",
+      "enonce": "$\\frac{7}{10} \\times \\frac{10}{7}$ = ?",
       "choix": [
-        "7/10",
-        "10/7",
+        "$\\frac{7}{10}$",
+        "$\\frac{10}{7}$",
         "1",
         "2"
       ],
       "reponse": "1",
-      "explication": "70/70=1",
+      "explication": "$\\frac{70}{70}$=1",
       "image": null
     }
   ]

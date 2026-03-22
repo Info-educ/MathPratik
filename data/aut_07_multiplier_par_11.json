@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "23 × 11 = ?",
+      "enonce": "23 $\\times$ 11 = ?",
       "choix": [
         "243",
         "253",
@@ -21,7 +21,7 @@
         "233"
       ],
       "reponse": "253",
-      "explication": "23×10+23=253",
+      "explication": "23$\\times$10+23=253",
       "image": null
     },
     {
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "14 × 11 = ?",
+      "enonce": "14 $\\times$ 11 = ?",
       "choix": [
         "144",
         "154",
@@ -38,7 +38,7 @@
         "148"
       ],
       "reponse": "154",
-      "explication": "14×10+14=154",
+      "explication": "14$\\times$10+14=154",
       "image": null
     },
     {
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "35 × 11 = ?",
+      "enonce": "35 $\\times$ 11 = ?",
       "choix": [
         "375",
         "385",
@@ -55,7 +55,7 @@
         "380"
       ],
       "reponse": "385",
-      "explication": "35×10+35=385",
+      "explication": "35$\\times$10+35=385",
       "image": null
     },
     {
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "42 × 11 = ?",
+      "enonce": "42 $\\times$ 11 = ?",
       "choix": [
         "452",
         "462",
@@ -72,7 +72,7 @@
         "460"
       ],
       "reponse": "462",
-      "explication": "42×10+42=462",
+      "explication": "42$\\times$10+42=462",
       "image": null
     },
     {
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "51 × 11 = ?",
+      "enonce": "51 $\\times$ 11 = ?",
       "choix": [
         "551",
         "561",
@@ -89,7 +89,7 @@
         "560"
       ],
       "reponse": "561",
-      "explication": "51×10+51=561",
+      "explication": "51$\\times$10+51=561",
       "image": null
     },
     {
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "63 × 11 = ?",
+      "enonce": "63 $\\times$ 11 = ?",
       "choix": [
         "683",
         "693",
@@ -106,7 +106,7 @@
         "690"
       ],
       "reponse": "693",
-      "explication": "63×10+63=693",
+      "explication": "63$\\times$10+63=693",
       "image": null
     },
     {
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "72 × 11 = ?",
+      "enonce": "72 $\\times$ 11 = ?",
       "choix": [
         "782",
         "792",
@@ -123,7 +123,7 @@
         "790"
       ],
       "reponse": "792",
-      "explication": "72×10+72=792",
+      "explication": "72$\\times$10+72=792",
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "81 × 11 = ?",
+      "enonce": "81 $\\times$ 11 = ?",
       "choix": [
         "881",
         "891",
@@ -140,7 +140,7 @@
         "890"
       ],
       "reponse": "891",
-      "explication": "81×10+81=891",
+      "explication": "81$\\times$10+81=891",
       "image": null
     },
     {
@@ -149,7 +149,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "26 × 11 = ?",
+      "enonce": "26 $\\times$ 11 = ?",
       "choix": [
         "276",
         "286",
@@ -157,7 +157,7 @@
         "280"
       ],
       "reponse": "286",
-      "explication": "26×10+26=286",
+      "explication": "26$\\times$10+26=286",
       "image": null
     },
     {
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "34 × 11 = ?",
+      "enonce": "34 $\\times$ 11 = ?",
       "choix": [
         "364",
         "374",
@@ -174,7 +174,7 @@
         "370"
       ],
       "reponse": "374",
-      "explication": "34×10+34=374",
+      "explication": "34$\\times$10+34=374",
       "image": null
     },
     {
@@ -183,7 +183,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "45 × 11 = ?",
+      "enonce": "45 $\\times$ 11 = ?",
       "choix": [
         "485",
         "495",
@@ -191,7 +191,7 @@
         "490"
       ],
       "reponse": "495",
-      "explication": "45×10+45=495",
+      "explication": "45$\\times$10+45=495",
       "image": null
     },
     {
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "53 × 11 = ?",
+      "enonce": "53 $\\times$ 11 = ?",
       "choix": [
         "573",
         "583",
@@ -208,7 +208,7 @@
         "580"
       ],
       "reponse": "583",
-      "explication": "53×10+53=583",
+      "explication": "53$\\times$10+53=583",
       "image": null
     },
     {
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "61 × 11 = ?",
+      "enonce": "61 $\\times$ 11 = ?",
       "choix": [
         "661",
         "671",
@@ -225,7 +225,7 @@
         "670"
       ],
       "reponse": "671",
-      "explication": "61×10+61=671",
+      "explication": "61$\\times$10+61=671",
       "image": null
     },
     {
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "74 × 11 = ?",
+      "enonce": "74 $\\times$ 11 = ?",
       "choix": [
         "804",
         "814",
@@ -242,7 +242,7 @@
         "810"
       ],
       "reponse": "814",
-      "explication": "74×10+74=814",
+      "explication": "74$\\times$10+74=814",
       "image": null
     },
     {
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "82 × 11 = ?",
+      "enonce": "82 $\\times$ 11 = ?",
       "choix": [
         "892",
         "902",
@@ -259,7 +259,7 @@
         "900"
       ],
       "reponse": "902",
-      "explication": "82×10+82=902",
+      "explication": "82$\\times$10+82=902",
       "image": null
     },
     {
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "91 × 11 = ?",
+      "enonce": "91 $\\times$ 11 = ?",
       "choix": [
         "991",
         "1 001",
@@ -276,7 +276,7 @@
         "1 000"
       ],
       "reponse": "1 001",
-      "explication": "91×10+91=1001",
+      "explication": "91$\\times$10+91=1001",
       "image": null
     },
     {
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "47 × 11 = ?",
+      "enonce": "47 $\\times$ 11 = ?",
       "choix": [
         "507",
         "517",
@@ -293,7 +293,7 @@
         "515"
       ],
       "reponse": "517",
-      "explication": "47×10+47=517",
+      "explication": "47$\\times$10+47=517",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "56 × 11 = ?",
+      "enonce": "56 $\\times$ 11 = ?",
       "choix": [
         "606",
         "616",
@@ -310,7 +310,7 @@
         "610"
       ],
       "reponse": "616",
-      "explication": "56×10+56=616",
+      "explication": "56$\\times$10+56=616",
       "image": null
     },
     {
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "64 × 11 = ?",
+      "enonce": "64 $\\times$ 11 = ?",
       "choix": [
         "694",
         "704",
@@ -327,7 +327,7 @@
         "700"
       ],
       "reponse": "704",
-      "explication": "64×10+64=704",
+      "explication": "64$\\times$10+64=704",
       "image": null
     },
     {
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "73 × 11 = ?",
+      "enonce": "73 $\\times$ 11 = ?",
       "choix": [
         "793",
         "803",
@@ -344,7 +344,7 @@
         "800"
       ],
       "reponse": "803",
-      "explication": "73×10+73=803",
+      "explication": "73$\\times$10+73=803",
       "image": null
     },
     {
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "85 × 11 = ?",
+      "enonce": "85 $\\times$ 11 = ?",
       "choix": [
         "925",
         "935",
@@ -361,7 +361,7 @@
         "930"
       ],
       "reponse": "935",
-      "explication": "85×10+85=935",
+      "explication": "85$\\times$10+85=935",
       "image": null
     },
     {
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "92 × 11 = ?",
+      "enonce": "92 $\\times$ 11 = ?",
       "choix": [
         "1 002",
         "1 012",
@@ -378,7 +378,7 @@
         "1 010"
       ],
       "reponse": "1 012",
-      "explication": "92×10+92=1012",
+      "explication": "92$\\times$10+92=1012",
       "image": null
     },
     {
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "13 × 11 = ?",
+      "enonce": "13 $\\times$ 11 = ?",
       "choix": [
         "133",
         "143",
@@ -395,7 +395,7 @@
         "140"
       ],
       "reponse": "143",
-      "explication": "13×10+13=143",
+      "explication": "13$\\times$10+13=143",
       "image": null
     },
     {
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "31 × 11 = ?",
+      "enonce": "31 $\\times$ 11 = ?",
       "choix": [
         "331",
         "341",
@@ -412,7 +412,7 @@
         "340"
       ],
       "reponse": "341",
-      "explication": "31×10+31=341",
+      "explication": "31$\\times$10+31=341",
       "image": null
     },
     {
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "43 × 11 = ?",
+      "enonce": "43 $\\times$ 11 = ?",
       "choix": [
         "463",
         "473",
@@ -429,7 +429,7 @@
         "470"
       ],
       "reponse": "473",
-      "explication": "43×10+43=473",
+      "explication": "43$\\times$10+43=473",
       "image": null
     },
     {
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "52 × 11 = ?",
+      "enonce": "52 $\\times$ 11 = ?",
       "choix": [
         "562",
         "572",
@@ -446,7 +446,7 @@
         "570"
       ],
       "reponse": "572",
-      "explication": "52×10+52=572",
+      "explication": "52$\\times$10+52=572",
       "image": null
     },
     {
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "65 × 11 = ?",
+      "enonce": "65 $\\times$ 11 = ?",
       "choix": [
         "705",
         "715",
@@ -463,7 +463,7 @@
         "710"
       ],
       "reponse": "715",
-      "explication": "65×10+65=715",
+      "explication": "65$\\times$10+65=715",
       "image": null
     },
     {
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "71 × 11 = ?",
+      "enonce": "71 $\\times$ 11 = ?",
       "choix": [
         "771",
         "781",
@@ -480,7 +480,7 @@
         "780"
       ],
       "reponse": "781",
-      "explication": "71×10+71=781",
+      "explication": "71$\\times$10+71=781",
       "image": null
     },
     {
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "83 × 11 = ?",
+      "enonce": "83 $\\times$ 11 = ?",
       "choix": [
         "903",
         "913",
@@ -497,7 +497,7 @@
         "910"
       ],
       "reponse": "913",
-      "explication": "83×10+83=913",
+      "explication": "83$\\times$10+83=913",
       "image": null
     },
     {
@@ -506,7 +506,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "97 × 11 = ?",
+      "enonce": "97 $\\times$ 11 = ?",
       "choix": [
         "1 057",
         "1 067",
@@ -514,7 +514,7 @@
         "1 060"
       ],
       "reponse": "1 067",
-      "explication": "97×10+97=1067",
+      "explication": "97$\\times$10+97=1067",
       "image": null
     }
   ]

@@ -21,7 +21,7 @@
         "6"
       ],
       "reponse": "4",
-      "explication": "dixième 7≥5 → 4",
+      "explication": "dixième 7$\\geq$5 → 4",
       "image": null
     },
     {
@@ -55,7 +55,7 @@
         "4,6"
       ],
       "reponse": "4,4",
-      "explication": "centième 8≥5 → 4,4",
+      "explication": "centième 8$\\geq$5 → 4,4",
       "image": null
     },
     {
@@ -89,7 +89,7 @@
         "6,37"
       ],
       "reponse": "6,35",
-      "explication": "millième 7≥5 → 6,35",
+      "explication": "millième 7$\\geq$5 → 6,35",
       "image": null
     },
     {
@@ -191,7 +191,7 @@
         "11,9"
       ],
       "reponse": "12,1",
-      "explication": "centième 7≥5 → 12,1",
+      "explication": "centième 7$\\geq$5 → 12,1",
       "image": null
     },
     {
@@ -310,7 +310,7 @@
         "10,49"
       ],
       "reponse": "10,51",
-      "explication": "millième 6≥5 → 10,51",
+      "explication": "millième 6$\\geq$5 → 10,51",
       "image": null
     },
     {
@@ -361,7 +361,7 @@
         "7,12"
       ],
       "reponse": "7,14",
-      "explication": "millième 8≥5 → 7,14",
+      "explication": "millième 8$\\geq$5 → 7,14",
       "image": null
     },
     {

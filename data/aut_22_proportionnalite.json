@@ -21,7 +21,7 @@
         "12"
       ],
       "reponse": "18",
-      "explication": "×2 : 9×2=18",
+      "explication": "$\\times$2 : 9$\\times$2=18",
       "image": null,
       "tableau": {
         "lignes": [
@@ -62,7 +62,7 @@
         "25"
       ],
       "reponse": "15",
-      "explication": "×3 : 5×3=15",
+      "explication": "$\\times$3 : 5$\\times$3=15",
       "image": null,
       "tableau": {
         "lignes": [
@@ -103,7 +103,7 @@
         "14"
       ],
       "reponse": "12",
-      "explication": "×2 : 6×2=12",
+      "explication": "$\\times$2 : 6$\\times$2=12",
       "image": null,
       "tableau": {
         "lignes": [
@@ -144,7 +144,7 @@
         "6"
       ],
       "reponse": "4",
-      "explication": "×(4/3) : 3×4/3=4",
+      "explication": "$\\times$($\\frac{4}{3}$) : 3$\\times\\frac{4}{3}$=4",
       "image": null,
       "tableau": {
         "lignes": [
@@ -185,7 +185,7 @@
         "4"
       ],
       "reponse": "3",
-      "explication": "1×3=3",
+      "explication": "1$\\times$3=3",
       "image": null,
       "tableau": {
         "lignes": [
@@ -225,7 +225,7 @@
         "7"
       ],
       "reponse": "5",
-      "explication": "3×30÷18=5",
+      "explication": "3$\\times$30$\\div$18=5",
       "image": null,
       "tableau": {
         "lignes": [
@@ -266,7 +266,7 @@
         "5"
       ],
       "reponse": "4",
-      "explication": "×4 : 1×4=4",
+      "explication": "$\\times$4 : 1$\\times$4=4",
       "image": null,
       "tableau": {
         "lignes": [
@@ -307,7 +307,7 @@
         "54"
       ],
       "reponse": "36",
-      "explication": "20×9÷5=36",
+      "explication": "20$\\times$9$\\div$5=36",
       "image": null,
       "tableau": {
         "lignes": [
@@ -348,7 +348,7 @@
         "48"
       ],
       "reponse": "36",
-      "explication": "×3 : 12×3=36",
+      "explication": "$\\times$3 : 12$\\times$3=36",
       "image": null,
       "tableau": {
         "lignes": [
@@ -389,7 +389,7 @@
         "72"
       ],
       "reponse": "64",
-      "explication": "×4 : 16×4=64",
+      "explication": "$\\times$4 : 16$\\times$4=64",
       "image": null,
       "tableau": {
         "lignes": [
@@ -430,7 +430,7 @@
         "20"
       ],
       "reponse": "15",
-      "explication": "×3 : 5×3=15",
+      "explication": "$\\times$3 : 5$\\times$3=15",
       "image": null,
       "tableau": {
         "lignes": [
@@ -471,7 +471,7 @@
         "12"
       ],
       "reponse": "11",
-      "explication": "×(11/7) : 7×11/7=11",
+      "explication": "$\\times$($\\frac{11}{7}$) : 7$\\times\\frac{11}{7}$=11",
       "image": null,
       "tableau": {
         "lignes": [
@@ -512,7 +512,7 @@
         "60"
       ],
       "reponse": "50",
-      "explication": "×(5/4) : 40×5/4=50",
+      "explication": "$\\times$($\\frac{5}{4}$) : 40$\\times\\frac{5}{4}$=50",
       "image": null,
       "tableau": {
         "lignes": [
@@ -547,13 +547,13 @@
       "chrono": 20,
       "enonce": "G1: 36→6. G2: 5→?",
       "choix": [
-        "1/2",
-        "5/6",
-        "5/3",
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{5}{3}$",
         "1"
       ],
-      "reponse": "5/6",
-      "explication": "÷6 : 5÷6=5/6",
+      "reponse": "$\\frac{5}{6}$",
+      "explication": "$\\div$6 : 5$\\div$6=$\\frac{5}{6}$",
       "image": null,
       "tableau": {
         "lignes": [
@@ -594,7 +594,7 @@
         "36"
       ],
       "reponse": "27",
-      "explication": "×3 : 9×3=27",
+      "explication": "$\\times$3 : 9$\\times$3=27",
       "image": null,
       "tableau": {
         "lignes": [
@@ -635,7 +635,7 @@
         "54"
       ],
       "reponse": "48",
-      "explication": "coeff=1,5. 32×1,5=48",
+      "explication": "coeff=1,5. 32$\\times$1,5=48",
       "image": null,
       "tableau": {
         "lignes": [
@@ -676,7 +676,7 @@
         "33"
       ],
       "reponse": "27",
-      "explication": "×(3/2) : 18×3/2=27",
+      "explication": "$\\times$($\\frac{3}{2}$) : 18$\\times\\frac{3}{2}$=27",
       "image": null,
       "tableau": {
         "lignes": [
@@ -717,7 +717,7 @@
         "55"
       ],
       "reponse": "45",
-      "explication": "×(9/7) : 35×9/7=45",
+      "explication": "$\\times$($\\frac{9}{7}$) : 35$\\times\\frac{9}{7}$=45",
       "image": null,
       "tableau": {
         "lignes": [
@@ -758,7 +758,7 @@
         "7"
       ],
       "reponse": "5",
-      "explication": "3×30÷18=5",
+      "explication": "3$\\times$30$\\div$18=5",
       "image": null,
       "tableau": {
         "lignes": [
@@ -799,7 +799,7 @@
         "100"
       ],
       "reponse": "80",
-      "explication": "×4 : 20×4=80",
+      "explication": "$\\times$4 : 20$\\times$4=80",
       "image": null,
       "tableau": {
         "lignes": [
@@ -840,7 +840,7 @@
         "18"
       ],
       "reponse": "16",
-      "explication": "coeff=4. 4×4=16",
+      "explication": "coeff=4. 4$\\times$4=16",
       "image": null,
       "tableau": {
         "lignes": [
@@ -881,7 +881,7 @@
         "7"
       ],
       "reponse": "5",
-      "explication": "×(5/4) : 4×5/4=5",
+      "explication": "$\\times$($\\frac{5}{4}$) : 4$\\times\\frac{5}{4}$=5",
       "image": null,
       "tableau": {
         "lignes": [
@@ -922,7 +922,7 @@
         "44"
       ],
       "reponse": "36",
-      "explication": "×(9/7) : 28×9/7=36",
+      "explication": "$\\times$($\\frac{9}{7}$) : 28$\\times\\frac{9}{7}$=36",
       "image": null,
       "tableau": {
         "lignes": [
@@ -963,7 +963,7 @@
         "48"
       ],
       "reponse": "36",
-      "explication": "coeff=6. 6×6=36",
+      "explication": "coeff=6. 6$\\times$6=36",
       "image": null,
       "tableau": {
         "lignes": [
@@ -1004,7 +1004,7 @@
         "13"
       ],
       "reponse": "12",
-      "explication": "÷3 : 36÷3=12",
+      "explication": "$\\div$3 : 36$\\div$3=12",
       "image": null,
       "tableau": {
         "lignes": [
@@ -1045,7 +1045,7 @@
         "16"
       ],
       "reponse": "15",
-      "explication": "×3 : 5×3=15",
+      "explication": "$\\times$3 : 5$\\times$3=15",
       "image": null,
       "tableau": {
         "lignes": [
@@ -1086,7 +1086,7 @@
         "28"
       ],
       "reponse": "26",
-      "explication": "×(13/12) : 24×13/12=26",
+      "explication": "$\\times$($\\frac{13}{12}$) : 24$\\times\\frac{13}{12}$=26",
       "image": null,
       "tableau": {
         "lignes": [
@@ -1127,7 +1127,7 @@
         "60"
       ],
       "reponse": "48",
-      "explication": "×6 : 8×6=48",
+      "explication": "$\\times$6 : 8$\\times$6=48",
       "image": null,
       "tableau": {
         "lignes": [
@@ -1168,7 +1168,7 @@
         "41"
       ],
       "reponse": "40,5",
-      "explication": "×(3/2) : 27×3/2=40,5",
+      "explication": "$\\times$($\\frac{3}{2}$) : 27$\\times\\frac{3}{2}$=40,5",
       "image": null,
       "tableau": {
         "lignes": [
@@ -1209,7 +1209,7 @@
         "28"
       ],
       "reponse": "25",
-      "explication": "×(5/4) : 20×5/4=25",
+      "explication": "$\\times$($\\frac{5}{4}$) : 20$\\times\\frac{5}{4}$=25",
       "image": null,
       "tableau": {
         "lignes": [

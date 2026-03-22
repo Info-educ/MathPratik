@@ -34,7 +34,7 @@
         10
       ],
       "choix": [],
-      "explication": "240 = 2⁴ × 3 × 5. ✓ ÷2 : se termine par 0 (chiffre pair) | ✓ ÷3 : somme des chiffres = 2+4+0 = 6 (divisible par 3) | ✓ ÷4 : les 2 derniers chiffres forment 40 (40÷4=10) | ✓ ÷5 : se termine par 0 (0 ou 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✗ ÷9 : somme des chiffres = 2+4+0 = 6 (non divisible par 9) | ✓ ÷10 : se termine par 0 (zéro)",
+      "explication": "240 = $2^{4}\\times$ 3 $\\times$ 5. ✓ $\\div$2 : se termine par 0 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 2+4+0 = 6 (divisible par 3) | ✓ $\\div$4 : les 2 derniers chiffres forment 40 (40$\\div$4=10) | ✓ $\\div$5 : se termine par 0 (0 ou 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✗ $\\div$9 : somme des chiffres = 2+4+0 = 6 (non divisible par 9) | ✓ $\\div$10 : se termine par 0 (zéro)",
       "image": null
     },
     {
@@ -65,7 +65,7 @@
         10
       ],
       "choix": [],
-      "explication": "180 = 2² × 3² × 5. ✓ ÷2 : se termine par 0 (chiffre pair) | ✓ ÷3 : somme des chiffres = 1+8+0 = 9 (divisible par 3) | ✓ ÷4 : les 2 derniers chiffres forment 80 (80÷4=20) | ✓ ÷5 : se termine par 0 (0 ou 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✓ ÷9 : somme des chiffres = 1+8+0 = 9 (divisible par 9) | ✓ ÷10 : se termine par 0 (zéro)",
+      "explication": "180 = $2^{2} \\times 3^{2}\\times$ 5. ✓ $\\div$2 : se termine par 0 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 1+8+0 = 9 (divisible par 3) | ✓ $\\div$4 : les 2 derniers chiffres forment 80 (80$\\div$4=20) | ✓ $\\div$5 : se termine par 0 (0 ou 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✓ $\\div$9 : somme des chiffres = 1+8+0 = 9 (divisible par 9) | ✓ $\\div$10 : se termine par 0 (zéro)",
       "image": null
     },
     {
@@ -92,7 +92,7 @@
         9
       ],
       "choix": [],
-      "explication": "315 = 3² × 5 × 7. ✗ ÷2 : se termine par 5 (chiffre impair) | ✓ ÷3 : somme des chiffres = 3+1+5 = 9 (divisible par 3) | ✗ ÷4 : les 2 derniers chiffres forment 15 (non divisible par 4) | ✓ ÷5 : se termine par 5 (0 ou 5) | ✗ ÷6 : pas divisible par 2 ou 3 | ✓ ÷9 : somme des chiffres = 3+1+5 = 9 (divisible par 9) | ✗ ÷10 : se termine par 5 (pas zéro)",
+      "explication": "315 = $3^{2}\\times$ 5 $\\times$ 7. ✗ $\\div$2 : se termine par 5 (chiffre impair) | ✓ $\\div$3 : somme des chiffres = 3+1+5 = 9 (divisible par 3) | ✗ $\\div$4 : les 2 derniers chiffres forment 15 (non divisible par 4) | ✓ $\\div$5 : se termine par 5 (0 ou 5) | ✗ $\\div$6 : pas divisible par 2 ou 3 | ✓ $\\div$9 : somme des chiffres = 3+1+5 = 9 (divisible par 9) | ✗ $\\div$10 : se termine par 5 (pas zéro)",
       "image": null
     },
     {
@@ -121,7 +121,7 @@
         9
       ],
       "choix": [],
-      "explication": "504 = 2³ × 3² × 7. ✓ ÷2 : se termine par 4 (chiffre pair) | ✓ ÷3 : somme des chiffres = 5+0+4 = 9 (divisible par 3) | ✓ ÷4 : les 2 derniers chiffres forment 04 (4÷4=1) | ✗ ÷5 : se termine par 4 (pas 0 ni 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✓ ÷9 : somme des chiffres = 5+0+4 = 9 (divisible par 9) | ✗ ÷10 : se termine par 4 (pas zéro)",
+      "explication": "504 = $2^{3} \\times 3^{2}\\times$ 7. ✓ $\\div$2 : se termine par 4 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 5+0+4 = 9 (divisible par 3) | ✓ $\\div$4 : les 2 derniers chiffres forment 04 (4$\\div$4=1) | ✗ $\\div$5 : se termine par 4 (pas 0 ni 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✓ $\\div$9 : somme des chiffres = 5+0+4 = 9 (divisible par 9) | ✗ $\\div$10 : se termine par 4 (pas zéro)",
       "image": null
     },
     {
@@ -151,7 +151,7 @@
         10
       ],
       "choix": [],
-      "explication": "420 = 2² × 3 × 5 × 7. ✓ ÷2 : se termine par 0 (chiffre pair) | ✓ ÷3 : somme des chiffres = 4+2+0 = 6 (divisible par 3) | ✓ ÷4 : les 2 derniers chiffres forment 20 (20÷4=5) | ✓ ÷5 : se termine par 0 (0 ou 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✗ ÷9 : somme des chiffres = 4+2+0 = 6 (non divisible par 9) | ✓ ÷10 : se termine par 0 (zéro)",
+      "explication": "420 = $2^{2}\\times$ 3 $\\times$ 5 $\\times$ 7. ✓ $\\div$2 : se termine par 0 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 4+2+0 = 6 (divisible par 3) | ✓ $\\div$4 : les 2 derniers chiffres forment 20 (20$\\div$4=5) | ✓ $\\div$5 : se termine par 0 (0 ou 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✗ $\\div$9 : somme des chiffres = 4+2+0 = 6 (non divisible par 9) | ✓ $\\div$10 : se termine par 0 (zéro)",
       "image": null
     },
     {
@@ -178,7 +178,7 @@
         9
       ],
       "choix": [],
-      "explication": "135 = 3³ × 5. ✗ ÷2 : se termine par 5 (chiffre impair) | ✓ ÷3 : somme des chiffres = 1+3+5 = 9 (divisible par 3) | ✗ ÷4 : les 2 derniers chiffres forment 35 (non divisible par 4) | ✓ ÷5 : se termine par 5 (0 ou 5) | ✗ ÷6 : pas divisible par 2 ou 3 | ✓ ÷9 : somme des chiffres = 1+3+5 = 9 (divisible par 9) | ✗ ÷10 : se termine par 5 (pas zéro)",
+      "explication": "135 = $3^{3}\\times$ 5. ✗ $\\div$2 : se termine par 5 (chiffre impair) | ✓ $\\div$3 : somme des chiffres = 1+3+5 = 9 (divisible par 3) | ✗ $\\div$4 : les 2 derniers chiffres forment 35 (non divisible par 4) | ✓ $\\div$5 : se termine par 5 (0 ou 5) | ✗ $\\div$6 : pas divisible par 2 ou 3 | ✓ $\\div$9 : somme des chiffres = 1+3+5 = 9 (divisible par 9) | ✗ $\\div$10 : se termine par 5 (pas zéro)",
       "image": null
     },
     {
@@ -207,7 +207,7 @@
         9
       ],
       "choix": [],
-      "explication": "756 = 2² × 3³ × 7. ✓ ÷2 : se termine par 6 (chiffre pair) | ✓ ÷3 : somme des chiffres = 7+5+6 = 18 (divisible par 3) | ✓ ÷4 : les 2 derniers chiffres forment 56 (56÷4=14) | ✗ ÷5 : se termine par 6 (pas 0 ni 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✓ ÷9 : somme des chiffres = 7+5+6 = 18 (divisible par 9) | ✗ ÷10 : se termine par 6 (pas zéro)",
+      "explication": "756 = $2^{2} \\times 3^{3}\\times$ 7. ✓ $\\div$2 : se termine par 6 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 7+5+6 = 18 (divisible par 3) | ✓ $\\div$4 : les 2 derniers chiffres forment 56 (56$\\div$4=14) | ✗ $\\div$5 : se termine par 6 (pas 0 ni 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✓ $\\div$9 : somme des chiffres = 7+5+6 = 18 (divisible par 9) | ✗ $\\div$10 : se termine par 6 (pas zéro)",
       "image": null
     },
     {
@@ -237,7 +237,7 @@
         10
       ],
       "choix": [],
-      "explication": "450 = 2 × 3² × 5². ✓ ÷2 : se termine par 0 (chiffre pair) | ✓ ÷3 : somme des chiffres = 4+5+0 = 9 (divisible par 3) | ✗ ÷4 : les 2 derniers chiffres forment 50 (non divisible par 4) | ✓ ÷5 : se termine par 0 (0 ou 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✓ ÷9 : somme des chiffres = 4+5+0 = 9 (divisible par 9) | ✓ ÷10 : se termine par 0 (zéro)",
+      "explication": "450 = 2 $\\times3^{2} \\times 5^{2}$. ✓ $\\div$2 : se termine par 0 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 4+5+0 = 9 (divisible par 3) | ✗ $\\div$4 : les 2 derniers chiffres forment 50 (non divisible par 4) | ✓ $\\div$5 : se termine par 0 (0 ou 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✓ $\\div$9 : somme des chiffres = 4+5+0 = 9 (divisible par 9) | ✓ $\\div$10 : se termine par 0 (zéro)",
       "image": null
     },
     {
@@ -268,7 +268,7 @@
         10
       ],
       "choix": [],
-      "explication": "1260 = 2² × 3² × 5 × 7. ✓ ÷2 : se termine par 0 (chiffre pair) | ✓ ÷3 : somme des chiffres = 1+2+6+0 = 9 (divisible par 3) | ✓ ÷4 : les 2 derniers chiffres forment 60 (60÷4=15) | ✓ ÷5 : se termine par 0 (0 ou 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✓ ÷9 : somme des chiffres = 1+2+6+0 = 9 (divisible par 9) | ✓ ÷10 : se termine par 0 (zéro)",
+      "explication": "1260 = $2^{2} \\times 3^{2}\\times$ 5 $\\times$ 7. ✓ $\\div$2 : se termine par 0 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 1+2+6+0 = 9 (divisible par 3) | ✓ $\\div$4 : les 2 derniers chiffres forment 60 (60$\\div$4=15) | ✓ $\\div$5 : se termine par 0 (0 ou 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✓ $\\div$9 : somme des chiffres = 1+2+6+0 = 9 (divisible par 9) | ✓ $\\div$10 : se termine par 0 (zéro)",
       "image": null
     },
     {
@@ -298,7 +298,7 @@
         10
       ],
       "choix": [],
-      "explication": "990 = 2 × 3² × 5 × 11. ✓ ÷2 : se termine par 0 (chiffre pair) | ✓ ÷3 : somme des chiffres = 9+9+0 = 18 (divisible par 3) | ✗ ÷4 : les 2 derniers chiffres forment 90 (non divisible par 4) | ✓ ÷5 : se termine par 0 (0 ou 5) | ✓ ÷6 : divisible par 2 ET par 3 | ✓ ÷9 : somme des chiffres = 9+9+0 = 18 (divisible par 9) | ✓ ÷10 : se termine par 0 (zéro)",
+      "explication": "990 = 2 $\\times3^{2}\\times$ 5 $\\times$ 11. ✓ $\\div$2 : se termine par 0 (chiffre pair) | ✓ $\\div$3 : somme des chiffres = 9+9+0 = 18 (divisible par 3) | ✗ $\\div$4 : les 2 derniers chiffres forment 90 (non divisible par 4) | ✓ $\\div$5 : se termine par 0 (0 ou 5) | ✓ $\\div$6 : divisible par 2 ET par 3 | ✓ $\\div$9 : somme des chiffres = 9+9+0 = 18 (divisible par 9) | ✓ $\\div$10 : se termine par 0 (zéro)",
       "image": null
     },
     {
@@ -310,10 +310,26 @@
       "enonce": "Quels sont les diviseurs de 360 parmi les nombres proposés ?",
       "nombre": 360,
       "nombre_affiche": "360",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 5, 6, 9, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
       "choix": [],
-      "explication": "360 = 2³ × 3² × 5. ✓ ÷2 : finit par 0 (pair) | ✓ ÷3 : 3+6+0=9 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 60÷4=15 | ✓ ÷5 : finit par 0 (0 ou 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 3+6+0=9 (divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "360 = $2^{3} \\times 3^{2}\\times$ 5. ✓ $\\div$2 : finit par 0 (pair) | ✓ $\\div$3 : 3+6+0=9 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 60$\\div$4=15 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 3+6+0=9 (divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     },
     {
@@ -325,10 +341,23 @@
       "enonce": "Quels sont les diviseurs de 126 parmi les nombres proposés ?",
       "nombre": 126,
       "nombre_affiche": "126",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 6, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        6,
+        9
+      ],
       "choix": [],
-      "explication": "126 = 2 × 3² × 7. ✓ ÷2 : finit par 6 (pair) | ✓ ÷3 : 1+2+6=9 (divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 26 non divisible par 4 | ✗ ÷5 : finit par 6 (pas 0 ni 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 1+2+6=9 (divisible par 9) | ✗ ÷10 : finit par 6 (pas zéro)",
+      "explication": "126 = 2 $\\times3^{2}\\times$ 7. ✓ $\\div$2 : finit par 6 (pair) | ✓ $\\div$3 : 1+2+6=9 (divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 26 non divisible par 4 | ✗ $\\div$5 : finit par 6 (pas 0 ni 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 1+2+6=9 (divisible par 9) | ✗ $\\div$10 : finit par 6 (pas zéro)",
       "image": null
     },
     {
@@ -340,10 +369,20 @@
       "enonce": "Quels sont les diviseurs de 875 parmi les nombres proposés ?",
       "nombre": 875,
       "nombre_affiche": "875",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [5],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        5
+      ],
       "choix": [],
-      "explication": "875 = 5³ × 7. ✗ ÷2 : finit par 5 (impair) | ✗ ÷3 : 8+7+5=20 (non divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 75 non divisible par 4 | ✓ ÷5 : finit par 5 (0 ou 5) | ✗ ÷6 : impair | ✗ ÷9 : 8+7+5=20 (non divisible par 9) | ✗ ÷10 : finit par 5 (pas zéro)",
+      "explication": "875 = $5^{3}\\times$ 7. ✗ $\\div$2 : finit par 5 (impair) | ✗ $\\div$3 : 8+7+5=20 (non divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 75 non divisible par 4 | ✓ $\\div$5 : finit par 5 (0 ou 5) | ✗ $\\div$6 : impair | ✗ $\\div$9 : 8+7+5=20 (non divisible par 9) | ✗ $\\div$10 : finit par 5 (pas zéro)",
       "image": null
     },
     {
@@ -355,10 +394,24 @@
       "enonce": "Quels sont les diviseurs de 648 parmi les nombres proposés ?",
       "nombre": 648,
       "nombre_affiche": "648",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 6, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        6,
+        9
+      ],
       "choix": [],
-      "explication": "648 = 2³ × 3⁴. ✓ ÷2 : finit par 8 (pair) | ✓ ÷3 : 6+4+8=18 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 48÷4=12 | ✗ ÷5 : finit par 8 (pas 0 ni 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 6+4+8=18 (divisible par 9) | ✗ ÷10 : finit par 8 (pas zéro)",
+      "explication": "648 = $2^{3} \\times 3^{4}$. ✓ $\\div$2 : finit par 8 (pair) | ✓ $\\div$3 : 6+4+8=18 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 48$\\div$4=12 | ✗ $\\div$5 : finit par 8 (pas 0 ni 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 6+4+8=18 (divisible par 9) | ✗ $\\div$10 : finit par 8 (pas zéro)",
       "image": null
     },
     {
@@ -370,10 +423,22 @@
       "enonce": "Quels sont les diviseurs de 350 parmi les nombres proposés ?",
       "nombre": 350,
       "nombre_affiche": "350",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 5, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        5,
+        10
+      ],
       "choix": [],
-      "explication": "350 = 2 × 5² × 7. ✓ ÷2 : finit par 0 (pair) | ✗ ÷3 : 3+5+0=8 (non divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 50 non divisible par 4 | ✓ ÷5 : finit par 0 (0 ou 5) | ✗ ÷6 : pair mais ÷3 ✗ | ✗ ÷9 : 3+5+0=8 (non divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "350 = 2 $\\times5^{2}\\times$ 7. ✓ $\\div$2 : finit par 0 (pair) | ✗ $\\div$3 : 3+5+0=8 (non divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 50 non divisible par 4 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✗ $\\div$6 : pair mais $\\div$3 ✗ | ✗ $\\div$9 : 3+5+0=8 (non divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     },
     {
@@ -385,10 +450,22 @@
       "enonce": "Quels sont les diviseurs de 225 parmi les nombres proposés ?",
       "nombre": 225,
       "nombre_affiche": "225",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [3, 5, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        3,
+        5,
+        9
+      ],
       "choix": [],
-      "explication": "225 = 3² × 5². ✗ ÷2 : finit par 5 (impair) | ✓ ÷3 : 2+2+5=9 (divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 25 non divisible par 4 | ✓ ÷5 : finit par 5 (0 ou 5) | ✗ ÷6 : impair | ✓ ÷9 : 2+2+5=9 (divisible par 9) | ✗ ÷10 : finit par 5 (pas zéro)",
+      "explication": "225 = $3^{2} \\times 5^{2}$. ✗ $\\div$2 : finit par 5 (impair) | ✓ $\\div$3 : 2+2+5=9 (divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 25 non divisible par 4 | ✓ $\\div$5 : finit par 5 (0 ou 5) | ✗ $\\div$6 : impair | ✓ $\\div$9 : 2+2+5=9 (divisible par 9) | ✗ $\\div$10 : finit par 5 (pas zéro)",
       "image": null
     },
     {
@@ -400,10 +477,24 @@
       "enonce": "Quels sont les diviseurs de 432 parmi les nombres proposés ?",
       "nombre": 432,
       "nombre_affiche": "432",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 6, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        6,
+        9
+      ],
       "choix": [],
-      "explication": "432 = 2⁴ × 3³. ✓ ÷2 : finit par 2 (pair) | ✓ ÷3 : 4+3+2=9 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 32÷4=8 | ✗ ÷5 : finit par 2 (pas 0 ni 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 4+3+2=9 (divisible par 9) | ✗ ÷10 : finit par 2 (pas zéro)",
+      "explication": "432 = $2^{4} \\times 3^{3}$. ✓ $\\div$2 : finit par 2 (pair) | ✓ $\\div$3 : 4+3+2=9 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 32$\\div$4=8 | ✗ $\\div$5 : finit par 2 (pas 0 ni 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 4+3+2=9 (divisible par 9) | ✗ $\\div$10 : finit par 2 (pas zéro)",
       "image": null
     },
     {
@@ -415,10 +506,23 @@
       "enonce": "Quels sont les diviseurs de 700 parmi les nombres proposés ?",
       "nombre": 700,
       "nombre_affiche": "700",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 4, 5, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        4,
+        5,
+        10
+      ],
       "choix": [],
-      "explication": "700 = 2² × 5² × 7. ✓ ÷2 : finit par 0 (pair) | ✗ ÷3 : 7+0+0=7 (non divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 0÷4=0 | ✓ ÷5 : finit par 0 (0 ou 5) | ✗ ÷6 : pair mais ÷3 ✗ | ✗ ÷9 : 7+0+0=7 (non divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "700 = $2^{2} \\times 5^{2}\\times$ 7. ✓ $\\div$2 : finit par 0 (pair) | ✗ $\\div$3 : 7+0+0=7 (non divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 0$\\div$4=0 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✗ $\\div$6 : pair mais $\\div$3 ✗ | ✗ $\\div$9 : 7+0+0=7 (non divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     },
     {
@@ -430,10 +534,23 @@
       "enonce": "Quels sont les diviseurs de 378 parmi les nombres proposés ?",
       "nombre": 378,
       "nombre_affiche": "378",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 6, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        6,
+        9
+      ],
       "choix": [],
-      "explication": "378 = 2 × 3³ × 7. ✓ ÷2 : finit par 8 (pair) | ✓ ÷3 : 3+7+8=18 (divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 78 non divisible par 4 | ✗ ÷5 : finit par 8 (pas 0 ni 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 3+7+8=18 (divisible par 9) | ✗ ÷10 : finit par 8 (pas zéro)",
+      "explication": "378 = 2 $\\times3^{3}\\times$ 7. ✓ $\\div$2 : finit par 8 (pair) | ✓ $\\div$3 : 3+7+8=18 (divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 78 non divisible par 4 | ✗ $\\div$5 : finit par 8 (pas 0 ni 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 3+7+8=18 (divisible par 9) | ✗ $\\div$10 : finit par 8 (pas zéro)",
       "image": null
     },
     {
@@ -445,10 +562,21 @@
       "enonce": "Quels sont les diviseurs de 825 parmi les nombres proposés ?",
       "nombre": 825,
       "nombre_affiche": "825",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [3, 5],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        3,
+        5
+      ],
       "choix": [],
-      "explication": "825 = 3 × 5² × 11. ✗ ÷2 : finit par 5 (impair) | ✓ ÷3 : 8+2+5=15 (divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 25 non divisible par 4 | ✓ ÷5 : finit par 5 (0 ou 5) | ✗ ÷6 : impair | ✗ ÷9 : 8+2+5=15 (non divisible par 9) | ✗ ÷10 : finit par 5 (pas zéro)",
+      "explication": "825 = 3 $\\times5^{2}\\times$ 11. ✗ $\\div$2 : finit par 5 (impair) | ✓ $\\div$3 : 8+2+5=15 (divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 25 non divisible par 4 | ✓ $\\div$5 : finit par 5 (0 ou 5) | ✗ $\\div$6 : impair | ✗ $\\div$9 : 8+2+5=15 (non divisible par 9) | ✗ $\\div$10 : finit par 5 (pas zéro)",
       "image": null
     },
     {
@@ -460,10 +588,26 @@
       "enonce": "Quels sont les diviseurs de 1 080 parmi les nombres proposés ?",
       "nombre": 1080,
       "nombre_affiche": "1 080",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 5, 6, 9, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
       "choix": [],
-      "explication": "1 080 = 2³ × 3³ × 5. ✓ ÷2 : finit par 0 (pair) | ✓ ÷3 : 1+0+8+0=9 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 80÷4=20 | ✓ ÷5 : finit par 0 (0 ou 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 1+0+8+0=9 (divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "1 080 = $2^{3} \\times 3^{3}\\times$ 5. ✓ $\\div$2 : finit par 0 (pair) | ✓ $\\div$3 : 1+0+8+0=9 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 80$\\div$4=20 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 1+0+8+0=9 (divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     },
     {
@@ -475,10 +619,26 @@
       "enonce": "Quels sont les diviseurs de 2 520 parmi les nombres proposés ?",
       "nombre": 2520,
       "nombre_affiche": "2 520",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 5, 6, 9, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
       "choix": [],
-      "explication": "2 520 = 2³ × 3² × 5 × 7. ✓ ÷2 : finit par 0 (pair) | ✓ ÷3 : 2+5+2+0=9 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 20÷4=5 | ✓ ÷5 : finit par 0 (0 ou 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 2+5+2+0=9 (divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "2 520 = $2^{3} \\times 3^{2}\\times$ 5 $\\times$ 7. ✓ $\\div$2 : finit par 0 (pair) | ✓ $\\div$3 : 2+5+2+0=9 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 20$\\div$4=5 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 2+5+2+0=9 (divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     },
     {
@@ -490,10 +650,21 @@
       "enonce": "Quels sont les diviseurs de 392 parmi les nombres proposés ?",
       "nombre": 392,
       "nombre_affiche": "392",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 4],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        4
+      ],
       "choix": [],
-      "explication": "392 = 2³ × 7². ✓ ÷2 : finit par 2 (pair) | ✗ ÷3 : 3+9+2=14 (non divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 92÷4=23 | ✗ ÷5 : finit par 2 (pas 0 ni 5) | ✗ ÷6 : pair mais ÷3 ✗ | ✗ ÷9 : 3+9+2=14 (non divisible par 9) | ✗ ÷10 : finit par 2 (pas zéro)",
+      "explication": "392 = $2^{3} \\times 7^{2}$. ✓ $\\div$2 : finit par 2 (pair) | ✗ $\\div$3 : 3+9+2=14 (non divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 92$\\div$4=23 | ✗ $\\div$5 : finit par 2 (pas 0 ni 5) | ✗ $\\div$6 : pair mais $\\div$3 ✗ | ✗ $\\div$9 : 3+9+2=14 (non divisible par 9) | ✗ $\\div$10 : finit par 2 (pas zéro)",
       "image": null
     },
     {
@@ -505,10 +676,22 @@
       "enonce": "Quels sont les diviseurs de 675 parmi les nombres proposés ?",
       "nombre": 675,
       "nombre_affiche": "675",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [3, 5, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        3,
+        5,
+        9
+      ],
       "choix": [],
-      "explication": "675 = 3³ × 5². ✗ ÷2 : finit par 5 (impair) | ✓ ÷3 : 6+7+5=18 (divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 75 non divisible par 4 | ✓ ÷5 : finit par 5 (0 ou 5) | ✗ ÷6 : impair | ✓ ÷9 : 6+7+5=18 (divisible par 9) | ✗ ÷10 : finit par 5 (pas zéro)",
+      "explication": "675 = $3^{3} \\times 5^{2}$. ✗ $\\div$2 : finit par 5 (impair) | ✓ $\\div$3 : 6+7+5=18 (divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 75 non divisible par 4 | ✓ $\\div$5 : finit par 5 (0 ou 5) | ✗ $\\div$6 : impair | ✓ $\\div$9 : 6+7+5=18 (divisible par 9) | ✗ $\\div$10 : finit par 5 (pas zéro)",
       "image": null
     },
     {
@@ -520,10 +703,26 @@
       "enonce": "Quels sont les diviseurs de 1 440 parmi les nombres proposés ?",
       "nombre": 1440,
       "nombre_affiche": "1 440",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 5, 6, 9, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
       "choix": [],
-      "explication": "1 440 = 2⁵ × 3² × 5. ✓ ÷2 : finit par 0 (pair) | ✓ ÷3 : 1+4+4+0=9 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 40÷4=10 | ✓ ÷5 : finit par 0 (0 ou 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 1+4+4+0=9 (divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "1 440 = $2^{5} \\times 3^{2}\\times$ 5. ✓ $\\div$2 : finit par 0 (pair) | ✓ $\\div$3 : 1+4+4+0=9 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 40$\\div$4=10 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 1+4+4+0=9 (divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     },
     {
@@ -535,10 +734,24 @@
       "enonce": "Quels sont les diviseurs de 252 parmi les nombres proposés ?",
       "nombre": 252,
       "nombre_affiche": "252",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 6, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        6,
+        9
+      ],
       "choix": [],
-      "explication": "252 = 2² × 3² × 7. ✓ ÷2 : finit par 2 (pair) | ✓ ÷3 : 2+5+2=9 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 52÷4=13 | ✗ ÷5 : finit par 2 (pas 0 ni 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 2+5+2=9 (divisible par 9) | ✗ ÷10 : finit par 2 (pas zéro)",
+      "explication": "252 = $2^{2} \\times 3^{2}\\times$ 7. ✓ $\\div$2 : finit par 2 (pair) | ✓ $\\div$3 : 2+5+2=9 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 52$\\div$4=13 | ✗ $\\div$5 : finit par 2 (pas 0 ni 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 2+5+2=9 (divisible par 9) | ✗ $\\div$10 : finit par 2 (pas zéro)",
       "image": null
     },
     {
@@ -550,10 +763,25 @@
       "enonce": "Quels sont les diviseurs de 1 350 parmi les nombres proposés ?",
       "nombre": 1350,
       "nombre_affiche": "1 350",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 5, 6, 9, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
       "choix": [],
-      "explication": "1 350 = 2 × 3³ × 5². ✓ ÷2 : finit par 0 (pair) | ✓ ÷3 : 1+3+5+0=9 (divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 50 non divisible par 4 | ✓ ÷5 : finit par 0 (0 ou 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 1+3+5+0=9 (divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "1 350 = 2 $\\times3^{3} \\times 5^{2}$. ✓ $\\div$2 : finit par 0 (pair) | ✓ $\\div$3 : 1+3+5+0=9 (divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 50 non divisible par 4 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 1+3+5+0=9 (divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     },
     {
@@ -565,10 +793,21 @@
       "enonce": "Quels sont les diviseurs de 784 parmi les nombres proposés ?",
       "nombre": 784,
       "nombre_affiche": "784",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 4],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        4
+      ],
       "choix": [],
-      "explication": "784 = 2⁴ × 7². ✓ ÷2 : finit par 4 (pair) | ✗ ÷3 : 7+8+4=19 (non divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 84÷4=21 | ✗ ÷5 : finit par 4 (pas 0 ni 5) | ✗ ÷6 : pair mais ÷3 ✗ | ✗ ÷9 : 7+8+4=19 (non divisible par 9) | ✗ ÷10 : finit par 4 (pas zéro)",
+      "explication": "784 = $2^{4} \\times 7^{2}$. ✓ $\\div$2 : finit par 4 (pair) | ✗ $\\div$3 : 7+8+4=19 (non divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 84$\\div$4=21 | ✗ $\\div$5 : finit par 4 (pas 0 ni 5) | ✗ $\\div$6 : pair mais $\\div$3 ✗ | ✗ $\\div$9 : 7+8+4=19 (non divisible par 9) | ✗ $\\div$10 : finit par 4 (pas zéro)",
       "image": null
     },
     {
@@ -580,10 +819,22 @@
       "enonce": "Quels sont les diviseurs de 945 parmi les nombres proposés ?",
       "nombre": 945,
       "nombre_affiche": "945",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [3, 5, 9],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        3,
+        5,
+        9
+      ],
       "choix": [],
-      "explication": "945 = 3³ × 5 × 7. ✗ ÷2 : finit par 5 (impair) | ✓ ÷3 : 9+4+5=18 (divisible par 3) | ✗ ÷4 : 2 derniers chiffres → 45 non divisible par 4 | ✓ ÷5 : finit par 5 (0 ou 5) | ✗ ÷6 : impair | ✓ ÷9 : 9+4+5=18 (divisible par 9) | ✗ ÷10 : finit par 5 (pas zéro)",
+      "explication": "945 = $3^{3}\\times$ 5 $\\times$ 7. ✗ $\\div$2 : finit par 5 (impair) | ✓ $\\div$3 : 9+4+5=18 (divisible par 3) | ✗ $\\div$4 : 2 derniers chiffres → 45 non divisible par 4 | ✓ $\\div$5 : finit par 5 (0 ou 5) | ✗ $\\div$6 : impair | ✓ $\\div$9 : 9+4+5=18 (divisible par 9) | ✗ $\\div$10 : finit par 5 (pas zéro)",
       "image": null
     },
     {
@@ -595,10 +846,26 @@
       "enonce": "Quels sont les diviseurs de 3 240 parmi les nombres proposés ?",
       "nombre": 3240,
       "nombre_affiche": "3 240",
-      "diviseurs_proposes": [2, 3, 4, 5, 6, 9, 10],
-      "reponse": [2, 3, 4, 5, 6, 9, 10],
+      "diviseurs_proposes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "reponse": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
       "choix": [],
-      "explication": "3 240 = 2³ × 3⁴ × 5. ✓ ÷2 : finit par 0 (pair) | ✓ ÷3 : 3+2+4+0=9 (divisible par 3) | ✓ ÷4 : 2 derniers chiffres → 40÷4=10 | ✓ ÷5 : finit par 0 (0 ou 5) | ✓ ÷6 : ÷2 et ÷3 ✓ | ✓ ÷9 : 3+2+4+0=9 (divisible par 9) | ✓ ÷10 : finit par 0 (zéro ✓)",
+      "explication": "3 240 = $2^{3} \\times 3^{4}\\times$ 5. ✓ $\\div$2 : finit par 0 (pair) | ✓ $\\div$3 : 3+2+4+0=9 (divisible par 3) | ✓ $\\div$4 : 2 derniers chiffres → 40$\\div$4=10 | ✓ $\\div$5 : finit par 0 (0 ou 5) | ✓ $\\div$6 : $\\div$2 et $\\div$3 ✓ | ✓ $\\div$9 : 3+2+4+0=9 (divisible par 9) | ✓ $\\div$10 : finit par 0 (zéro ✓)",
       "image": null
     }
   ]

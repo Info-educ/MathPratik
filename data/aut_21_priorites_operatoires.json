@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3 + 8 × 5 = ?",
+      "enonce": "3 + 8 $\\times$ 5 = ?",
       "choix": [
         "43",
         "55",
@@ -21,7 +21,7 @@
         "48"
       ],
       "reponse": "43",
-      "explication": "8×5=40 d'abord → 3+40=43",
+      "explication": "8$\\times$5=40 d'abord → 3+40=43",
       "image": null
     },
     {
@@ -30,7 +30,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12 ÷ 4 + 2 = ?",
+      "enonce": "12 $\\div$ 4 + 2 = ?",
       "choix": [
         "3",
         "4",
@@ -38,7 +38,7 @@
         "7"
       ],
       "reponse": "5",
-      "explication": "12÷4=3 → 3+2=5",
+      "explication": "12$\\div$4=3 → 3+2=5",
       "image": null
     },
     {
@@ -47,7 +47,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "20 - 5 × 3 + 1 = ?",
+      "enonce": "20 - 5 $\\times$ 3 + 1 = ?",
       "choix": [
         "6",
         "7",
@@ -55,7 +55,7 @@
         "50"
       ],
       "reponse": "6",
-      "explication": "5×3=15 → 20-15+1=6",
+      "explication": "5$\\times$3=15 → 20-15+1=6",
       "image": null
     },
     {
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8 ÷ 2 × 4 = ?",
+      "enonce": "8 $\\div$ 2 $\\times$ 4 = ?",
       "choix": [
         "1",
         "16",
@@ -72,7 +72,7 @@
         "8"
       ],
       "reponse": "16",
-      "explication": "G→D: 8÷2=4, 4×4=16",
+      "explication": "G→D: 8$\\div$2=4, 4$\\times$4=16",
       "image": null
     },
     {
@@ -98,7 +98,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(7 + 4) × 6 = ?",
+      "enonce": "(7 + 4) $\\times$ 6 = ?",
       "choix": [
         "46",
         "54",
@@ -106,7 +106,7 @@
         "74"
       ],
       "reponse": "66",
-      "explication": "(7+4)=11 → 11×6=66",
+      "explication": "(7+4)=11 → 11$\\times$6=66",
       "image": null
     },
     {
@@ -115,7 +115,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "45 ÷ (9 - 6) = ?",
+      "enonce": "45 $\\div$ (9 - 6) = ?",
       "choix": [
         "5",
         "9",
@@ -123,7 +123,7 @@
         "45"
       ],
       "reponse": "15",
-      "explication": "(9-6)=3 → 45÷3=15",
+      "explication": "(9-6)=3 → 45$\\div$3=15",
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(30 - 6) × (10 - 8) = ?",
+      "enonce": "(30 - 6) $\\times$ (10 - 8) = ?",
       "choix": [
         "24",
         "36",
@@ -140,7 +140,7 @@
         "56"
       ],
       "reponse": "48",
-      "explication": "24×2=48",
+      "explication": "24$\\times$2=48",
       "image": null
     },
     {
@@ -149,7 +149,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5 + 24 ÷ 4 = ?",
+      "enonce": "5 + 24 $\\div$ 4 = ?",
       "choix": [
         "5",
         "11",
@@ -157,7 +157,7 @@
         "29"
       ],
       "reponse": "11",
-      "explication": "24÷4=6 → 5+6=11",
+      "explication": "24$\\div$4=6 → 5+6=11",
       "image": null
     },
     {
@@ -166,7 +166,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8 + (18 - 3 × 5) = ?",
+      "enonce": "8 + (18 - 3 $\\times$ 5) = ?",
       "choix": [
         "3",
         "11",
@@ -174,7 +174,7 @@
         "32"
       ],
       "reponse": "11",
-      "explication": "3×5=15, 18-15=3 → 8+3=11",
+      "explication": "3$\\times$5=15, 18-15=3 → 8+3=11",
       "image": null
     },
     {
@@ -183,7 +183,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5 × (12 - 3 - 7) = ?",
+      "enonce": "5 $\\times$ (12 - 3 - 7) = ?",
       "choix": [
         "5",
         "10",
@@ -191,7 +191,7 @@
         "20"
       ],
       "reponse": "10",
-      "explication": "(12-3-7)=2 → 5×2=10",
+      "explication": "(12-3-7)=2 → 5$\\times$2=10",
       "image": null
     },
     {
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "60 ÷ 4 × 3 ÷ 5 = ?",
+      "enonce": "60 $\\div$ 4 $\\times$ 3 $\\div$ 5 = ?",
       "choix": [
         "3",
         "9",
@@ -208,7 +208,7 @@
         "20"
       ],
       "reponse": "9",
-      "explication": "60÷4=15, 15×3=45, 45÷5=9",
+      "explication": "60$\\div$4=15, 15$\\times$3=45, 45$\\div$5=9",
       "image": null
     },
     {
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "22 - (5 + 2 × 7) = ?",
+      "enonce": "22 - (5 + 2 $\\times$ 7) = ?",
       "choix": [
         "3",
         "5",
@@ -225,7 +225,7 @@
         "7"
       ],
       "reponse": "3",
-      "explication": "2×7=14, 5+14=19 → 22-19=3",
+      "explication": "2$\\times$7=14, 5+14=19 → 22-19=3",
       "image": null
     },
     {
@@ -234,7 +234,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2 × (20 - 12 + 3) = ?",
+      "enonce": "2 $\\times$ (20 - 12 + 3) = ?",
       "choix": [
         "11",
         "22",
@@ -242,7 +242,7 @@
         "46"
       ],
       "reponse": "22",
-      "explication": "(20-12+3)=11 → 2×11=22",
+      "explication": "(20-12+3)=11 → 2$\\times$11=22",
       "image": null
     },
     {
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "15 + 3 × 4 - 2 = ?",
+      "enonce": "15 + 3 $\\times$ 4 - 2 = ?",
       "choix": [
         "25",
         "35",
@@ -259,7 +259,7 @@
         "55"
       ],
       "reponse": "25",
-      "explication": "3×4=12 → 15+12-2=25",
+      "explication": "3$\\times$4=12 → 15+12-2=25",
       "image": null
     },
     {
@@ -268,7 +268,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "100 ÷ (4 × 5) = ?",
+      "enonce": "100 $\\div$ (4 $\\times$ 5) = ?",
       "choix": [
         "4",
         "5",
@@ -276,7 +276,7 @@
         "20"
       ],
       "reponse": "5",
-      "explication": "4×5=20 → 100÷20=5",
+      "explication": "4$\\times$5=20 → 100$\\div$20=5",
       "image": null
     },
     {
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 × 3 + 4 × 5 = ?",
+      "enonce": "7 $\\times$ 3 + 4 $\\times$ 5 = ?",
       "choix": [
         "41",
         "53",
@@ -293,7 +293,7 @@
         "61"
       ],
       "reponse": "41",
-      "explication": "7×3=21, 4×5=20 → 41",
+      "explication": "7$\\times$3=21, 4$\\times$5=20 → 41",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(3 + 5) × (7 - 2) = ?",
+      "enonce": "(3 + 5) $\\times$ (7 - 2) = ?",
       "choix": [
         "24",
         "30",
@@ -310,7 +310,7 @@
         "56"
       ],
       "reponse": "40",
-      "explication": "8×5=40",
+      "explication": "8$\\times$5=40",
       "image": null
     },
     {
@@ -319,7 +319,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "18 ÷ 3 + 4 × 2 = ?",
+      "enonce": "18 $\\div$ 3 + 4 $\\times$ 2 = ?",
       "choix": [
         "6",
         "10",
@@ -336,7 +336,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "50 - (6 + 4) × 3 = ?",
+      "enonce": "50 - (6 + 4) $\\times$ 3 = ?",
       "choix": [
         "20",
         "30",
@@ -344,7 +344,7 @@
         "50"
       ],
       "reponse": "20",
-      "explication": "10×3=30 → 50-30=20",
+      "explication": "10$\\times$3=30 → 50-30=20",
       "image": null
     },
     {
@@ -353,7 +353,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2 × 3 + 4 × 5 - 10 = ?",
+      "enonce": "2 $\\times$ 3 + 4 $\\times$ 5 - 10 = ?",
       "choix": [
         "16",
         "26",
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(12 - 4) ÷ (5 - 3) = ?",
+      "enonce": "(12 - 4) $\\div$ (5 - 3) = ?",
       "choix": [
         "2",
         "4",
@@ -378,7 +378,7 @@
         "8"
       ],
       "reponse": "4",
-      "explication": "8÷2=4",
+      "explication": "8$\\div$2=4",
       "image": null
     },
     {
@@ -387,7 +387,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5 + 3 × (8 - 2) = ?",
+      "enonce": "5 + 3 $\\times$ (8 - 2) = ?",
       "choix": [
         "18",
         "23",
@@ -395,7 +395,7 @@
         "33"
       ],
       "reponse": "23",
-      "explication": "3×6=18 → 5+18=23",
+      "explication": "3$\\times$6=18 → 5+18=23",
       "image": null
     },
     {
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "24 ÷ (3 + 5) × 2 = ?",
+      "enonce": "24 $\\div$ (3 + 5) $\\times$ 2 = ?",
       "choix": [
         "3",
         "6",
@@ -412,7 +412,7 @@
         "24"
       ],
       "reponse": "6",
-      "explication": "24÷8=3, 3×2=6",
+      "explication": "24$\\div$8=3, 3$\\times$2=6",
       "image": null
     },
     {
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 × 2 - 6 ÷ 3 = ?",
+      "enonce": "9 $\\times$ 2 - 6 $\\div$ 3 = ?",
       "choix": [
         "4",
         "14",
@@ -438,7 +438,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(15 - 3) × 2 + 4 = ?",
+      "enonce": "(15 - 3) $\\times$ 2 + 4 = ?",
       "choix": [
         "24",
         "28",
@@ -446,7 +446,7 @@
         "36"
       ],
       "reponse": "28",
-      "explication": "12×2=24 → 24+4=28",
+      "explication": "12$\\times$2=24 → 24+4=28",
       "image": null
     },
     {
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "36 ÷ 4 - 2 × 3 = ?",
+      "enonce": "36 $\\div$ 4 - 2 $\\times$ 3 = ?",
       "choix": [
         "0",
         "3",
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(4 + 2) × (3 + 1) - 5 = ?",
+      "enonce": "(4 + 2) $\\times$ (3 + 1) - 5 = ?",
       "choix": [
         "17",
         "19",
@@ -480,7 +480,7 @@
         "29"
       ],
       "reponse": "19",
-      "explication": "6×4=24 → 24-5=19",
+      "explication": "6$\\times$4=24 → 24-5=19",
       "image": null
     },
     {
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "100 - (20 + 5) × 3 = ?",
+      "enonce": "100 - (20 + 5) $\\times$ 3 = ?",
       "choix": [
         "15",
         "25",
@@ -497,7 +497,7 @@
         "75"
       ],
       "reponse": "25",
-      "explication": "25×3=75 → 100-75=25",
+      "explication": "25$\\times$3=75 → 100-75=25",
       "image": null
     },
     {
@@ -506,7 +506,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 + (18 ÷ 6) × 4 = ?",
+      "enonce": "7 + (18 $\\div$ 6) $\\times$ 4 = ?",
       "choix": [
         "11",
         "19",
@@ -514,7 +514,7 @@
         "25"
       ],
       "reponse": "19",
-      "explication": "18÷6=3, 3×4=12 → 7+12=19",
+      "explication": "18$\\div$6=3, 3$\\times$4=12 → 7+12=19",
       "image": null
     }
   ]

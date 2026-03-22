@@ -13,7 +13,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4 × a = ?",
+      "enonce": "4 $\\times$ a = ?",
       "choix": [
         "a4",
         "4+a",
@@ -21,7 +21,7 @@
         "a/4"
       ],
       "reponse": "4a",
-      "explication": "On supprime ×. 4a",
+      "explication": "On supprime $\\times$. 4a",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 × π = ?",
+      "enonce": "6 $\\times\\pi$ = ?",
       "choix": [
-        "6+π",
-        "π+6",
-        "6π",
-        "6/π"
+        "6+$\\pi$",
+        "$\\pi$+6",
+        "6$\\pi$",
+        "6/$\\pi$"
       ],
-      "reponse": "6π",
-      "explication": "6×π=6π",
+      "reponse": "6$\\pi$",
+      "explication": "6$\\times\\pi$=6$\\pi$",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "x × y = ?",
+      "enonce": "x $\\times$ y = ?",
       "choix": [
         "x+y",
-        "x/y",
+        "$\\frac{x}{y}$",
         "xy",
         "x-y"
       ],
       "reponse": "xy",
-      "explication": "x×y=xy",
+      "explication": "x$\\times$y=xy",
       "image": null
     },
     {
@@ -64,7 +64,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "a × 3 × b = ?",
+      "enonce": "a $\\times$ 3 $\\times$ b = ?",
       "choix": [
         "a+3+b",
         "3ab",
@@ -81,7 +81,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(1 + a) × 3 = ?",
+      "enonce": "(1 + a) $\\times$ 3 = ?",
       "choix": [
         "3+a",
         "3a",
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "y × (1 - y) = ?",
+      "enonce": "y $\\times$ (1 - y) = ?",
       "choix": [
         "y(1-y)",
-        "y-y²",
+        "y-$y^{2}$",
         "y-y",
-        "1-y²"
+        "1-$y^{2}$"
       ],
       "reponse": "y(1-y)",
-      "explication": "y×(1-y)=y(1-y)",
+      "explication": "y$\\times$(1-y)=y(1-y)",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "π × r × r = ?",
+      "enonce": "$\\pi\\times$ r $\\times$ r = ?",
       "choix": [
-        "πr+r",
-        "πr",
-        "πr²",
-        "2πr"
+        "$\\pi$r+r",
+        "$\\pi$r",
+        "$\\pi r^{2}$",
+        "2$\\pi$r"
       ],
-      "reponse": "πr²",
-      "explication": "r×r=r². Donc πr²",
+      "reponse": "$\\pi r^{2}$",
+      "explication": "r$\\times$r=$r^{2}$. Donc $\\pi r^{2}$",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "a × a × a × 4 = ?",
+      "enonce": "a $\\times$ a $\\times$ a $\\times$ 4 = ?",
       "choix": [
-        "3a×4",
-        "4a²",
-        "4a³",
-        "a³×4"
+        "3a$\\times$4",
+        "$4$a^{2}",
+        "$4$a^{3}",
+        "$a^{3}\\times$4"
       ],
-      "reponse": "4a³",
-      "explication": "a³×4=4a³",
+      "reponse": "$4$a^{3}",
+      "explication": "$a^{3}\\times$4=$4$a^{3}",
       "image": null
     },
     {
@@ -166,15 +166,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "m × m = ?",
+      "enonce": "m $\\times$ m = ?",
       "choix": [
         "2m",
         "m2",
-        "m²",
+        "$\\mathrm{m}^2$",
         "mm"
       ],
-      "reponse": "m²",
-      "explication": "m×m=m²",
+      "reponse": "$\\mathrm{m}^2$",
+      "explication": "m$\\times$m=$\\mathrm{m}^2$",
       "image": null
     },
     {
@@ -185,7 +185,7 @@
       "chrono": 20,
       "enonce": "5t + 3t = ?",
       "choix": [
-        "8t²",
+        "$8$t^{2}",
         "8+t",
         "8t",
         "15t"
@@ -200,7 +200,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "b × 1 = ?",
+      "enonce": "b $\\times$ 1 = ?",
       "choix": [
         "1+b",
         "b1",
@@ -208,7 +208,7 @@
         "0"
       ],
       "reponse": "b",
-      "explication": "b×1=b",
+      "explication": "b$\\times$1=b",
       "image": null
     },
     {
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(2 + x) × 4 = ?",
+      "enonce": "(2 + x) $\\times$ 4 = ?",
       "choix": [
         "4+x",
         "4(2+x)",
@@ -225,7 +225,7 @@
         "8+x"
       ],
       "reponse": "4(2+x)",
-      "explication": "4×(2+x)=4(2+x)",
+      "explication": "4$\\times$(2+x)=4(2+x)",
       "image": null
     },
     {
@@ -234,15 +234,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "n × n × n = ?",
+      "enonce": "n $\\times$ n $\\times$ n = ?",
       "choix": [
         "n3",
         "3n",
-        "n²",
-        "n³"
+        "$n^{2}$",
+        "$n^{3}$"
       ],
-      "reponse": "n³",
-      "explication": "n³",
+      "reponse": "$n^{3}$",
+      "explication": "$n^{3}$",
       "image": null
     },
     {
@@ -251,7 +251,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7 × a × b × 2 = ?",
+      "enonce": "7 $\\times$ a $\\times$ b $\\times$ 2 = ?",
       "choix": [
         "9ab",
         "14ab",
@@ -259,7 +259,7 @@
         "14+ab"
       ],
       "reponse": "14ab",
-      "explication": "7×2=14. Donc 14ab",
+      "explication": "7$\\times$2=14. Donc 14ab",
       "image": null
     },
     {
@@ -268,15 +268,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "c × (c - 1) = ?",
+      "enonce": "c $\\times$ (c - 1) = ?",
       "choix": [
         "c-1",
         "c(c-1)",
-        "c²-1",
+        "$c^{2}$-1",
         "c+c-1"
       ],
       "reponse": "c(c-1)",
-      "explication": "c×(c-1)=c(c-1)",
+      "explication": "c$\\times$(c-1)=c(c-1)",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3 × x × x = ?",
+      "enonce": "3 $\\times$ x $\\times$ x = ?",
       "choix": [
         "6x",
-        "3x²",
+        "$3$x^{2}",
         "9x",
         "3x+x"
       ],
-      "reponse": "3x²",
-      "explication": "3×x²=3x²",
+      "reponse": "$3$x^{2}",
+      "explication": "3$\\timesx^{2}=3$x^{2}",
       "image": null
     },
     {
@@ -302,7 +302,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1×p + 2×q = ?",
+      "enonce": "1$\\times$p + 2$\\times$q = ?",
       "choix": [
         "p+2q",
         "pq",
@@ -310,7 +310,7 @@
         "3pq"
       ],
       "reponse": "p+2q",
-      "explication": "1×p=p. Donc p+2q",
+      "explication": "1$\\times$p=p. Donc p+2q",
       "image": null
     },
     {
@@ -319,11 +319,11 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(a+b) × (a-b) = ?",
+      "enonce": "(a+b) $\\times$ (a-b) = ?",
       "choix": [
         "(a+b)(a-b)",
-        "a²+b²",
-        "a²-b²",
+        "$a^{2}$+$b^{2}$",
+        "$a^{2}$-$b^{2}$",
         "2ab"
       ],
       "reponse": "(a+b)(a-b)",
@@ -336,15 +336,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2 × r × π = ?",
+      "enonce": "2 $\\times$ r $\\times\\pi$ = ?",
       "choix": [
-        "2r+π",
-        "2πr",
-        "rπ2",
-        "πr²"
+        "2r+$\\pi$",
+        "2$\\pi$r",
+        "r$\\pi$2",
+        "$\\pi r^{2}$"
       ],
-      "reponse": "2πr",
-      "explication": "2πr",
+      "reponse": "2$\\pi$r",
+      "explication": "2$\\pi$r",
       "image": null
     },
     {
@@ -353,15 +353,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "k × k × k × k = ?",
+      "enonce": "k $\\times$ k $\\times$ k $\\times$ k = ?",
       "choix": [
         "4k",
         "k4",
-        "k³",
-        "k⁴"
+        "$k^{3}$",
+        "$k^{4}$"
       ],
-      "reponse": "k⁴",
-      "explication": "k⁴",
+      "reponse": "$k^{4}$",
+      "explication": "$k^{4}$",
       "image": null
     },
     {
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0 × z + 5 = ?",
+      "enonce": "0 $\\times$ z + 5 = ?",
       "choix": [
         "0",
         "z+5",
@@ -378,7 +378,7 @@
         "5"
       ],
       "reponse": "5",
-      "explication": "0×z=0. 0+5=5",
+      "explication": "0$\\times$z=0. 0+5=5",
       "image": null
     },
     {
@@ -387,15 +387,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6 × a × a = ?",
+      "enonce": "6 $\\times$ a $\\times$ a = ?",
       "choix": [
-        "6a²",
+        "$6$a^{2}",
         "12a",
         "6a+a",
         "36a"
       ],
-      "reponse": "6a²",
-      "explication": "6a²",
+      "reponse": "$6$a^{2}",
+      "explication": "$6$a^{2}",
       "image": null
     },
     {
@@ -404,12 +404,12 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "x × 1 × y = ?",
+      "enonce": "x $\\times$ 1 $\\times$ y = ?",
       "choix": [
         "x+y",
         "1xy",
         "xy",
-        "x×y"
+        "x$\\times$y"
       ],
       "reponse": "xy",
       "explication": "xy",
@@ -421,7 +421,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(4 + t) × 5 = ?",
+      "enonce": "(4 + t) $\\times$ 5 = ?",
       "choix": [
         "5+t",
         "5(4+t)",
@@ -429,7 +429,7 @@
         "5t+4"
       ],
       "reponse": "5(4+t)",
-      "explication": "5×(4+t)=5(4+t)",
+      "explication": "5$\\times$(4+t)=5(4+t)",
       "image": null
     },
     {
@@ -438,15 +438,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "m×m + 3×m = ?",
+      "enonce": "m$\\times$m + 3$\\times$m = ?",
       "choix": [
-        "m²+3m",
+        "$\\mathrm{m}^2$+3m",
         "4m",
         "m(m+3)",
-        "m³"
+        "$\\mathrm{m}^3$"
       ],
-      "reponse": "m²+3m",
-      "explication": "m²+3m",
+      "reponse": "$\\mathrm{m}^2$+3m",
+      "explication": "$\\mathrm{m}^2$+3m",
       "image": null
     },
     {
@@ -455,15 +455,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9 × b × b × b = ?",
+      "enonce": "9 $\\times$ b $\\times$ b $\\times$ b = ?",
       "choix": [
         "27b",
-        "9b²",
-        "9b³",
+        "$9$b^{2}",
+        "$9$b^{3}",
         "b9"
       ],
-      "reponse": "9b³",
-      "explication": "9b³",
+      "reponse": "$9$b^{3}",
+      "explication": "$9$b^{3}",
       "image": null
     },
     {
@@ -472,7 +472,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(1 + 2x) × 3 = ?",
+      "enonce": "(1 + 2x) $\\times$ 3 = ?",
       "choix": [
         "3+6x",
         "3(1+2x)",
@@ -489,7 +489,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-1) × x = ?",
+      "enonce": "(-1) $\\times$ x = ?",
       "choix": [
         "x",
         "-x",
@@ -497,7 +497,7 @@
         "x-1"
       ],
       "reponse": "-x",
-      "explication": "(-1)×x=-x",
+      "explication": "(-1)$\\times$x=-x",
       "image": null
     },
     {
@@ -511,7 +511,7 @@
         "2t",
         "8t",
         "15t",
-        "t²"
+        "$t^{2}$"
       ],
       "reponse": "2t",
       "explication": "5t-3t=2t",

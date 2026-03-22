@@ -21,7 +21,7 @@
         "40"
       ],
       "reponse": "30",
-      "explication": "60÷2=30",
+      "explication": "60$\\div$2=30",
       "image": null
     },
     {
@@ -38,7 +38,7 @@
         "28"
       ],
       "reponse": "20",
-      "explication": "80÷4=20",
+      "explication": "80$\\div$4=20",
       "image": null
     },
     {
@@ -55,7 +55,7 @@
         "20"
       ],
       "reponse": "15",
-      "explication": "150÷10=15",
+      "explication": "150$\\div$10=15",
       "image": null
     },
     {
@@ -72,7 +72,7 @@
         "10"
       ],
       "reponse": "9",
-      "explication": "45×0,2=9",
+      "explication": "45$\\times$0,2=9",
       "image": null
     },
     {
@@ -106,7 +106,7 @@
         "4,5"
       ],
       "reponse": "3,5",
-      "explication": "350÷100=3,5",
+      "explication": "350$\\div$100=3,5",
       "image": null
     },
     {
@@ -123,7 +123,7 @@
         "87"
       ],
       "reponse": "67",
-      "explication": "134÷2=67",
+      "explication": "134$\\div$2=67",
       "image": null
     },
     {
@@ -140,7 +140,7 @@
         "16"
       ],
       "reponse": "12",
-      "explication": "48÷4=12",
+      "explication": "48$\\div$4=12",
       "image": null
     },
     {
@@ -157,7 +157,7 @@
         "9,3"
       ],
       "reponse": "7,3",
-      "explication": "73÷10=7,3",
+      "explication": "73$\\div$10=7,3",
       "image": null
     },
     {
@@ -174,7 +174,7 @@
         "21"
       ],
       "reponse": "17",
-      "explication": "85×0,2=17",
+      "explication": "85$\\times$0,2=17",
       "image": null
     },
     {
@@ -208,7 +208,7 @@
         "5"
       ],
       "reponse": "5,4",
-      "explication": "540÷100=5,4",
+      "explication": "540$\\div$100=5,4",
       "image": null
     },
     {
@@ -225,7 +225,7 @@
         "9,5"
       ],
       "reponse": "8,5",
-      "explication": "17×50÷100=8,5",
+      "explication": "17$\\times$50$\\div$100=8,5",
       "image": null
     },
     {
@@ -242,7 +242,7 @@
         "33"
       ],
       "reponse": "27",
-      "explication": "90×30÷100=27",
+      "explication": "90$\\times$30$\\div$100=27",
       "image": null
     },
     {
@@ -259,7 +259,7 @@
         "35"
       ],
       "reponse": "30",
-      "explication": "200×15÷100=30",
+      "explication": "200$\\times$15$\\div$100=30",
       "image": null
     },
     {
@@ -276,7 +276,7 @@
         "95"
       ],
       "reponse": "90",
-      "explication": "3/4 de 120=90",
+      "explication": "$\\frac{3}{4}$ de 120=90",
       "image": null
     },
     {
@@ -293,7 +293,7 @@
         "30"
       ],
       "reponse": "26",
-      "explication": "65×40÷100=26",
+      "explication": "65$\\times$40$\\div$100=26",
       "image": null
     },
     {
@@ -310,7 +310,7 @@
         "16"
       ],
       "reponse": "12",
-      "explication": "150×8÷100=12",
+      "explication": "150$\\times$8$\\div$100=12",
       "image": null
     },
     {
@@ -327,7 +327,7 @@
         "10"
       ],
       "reponse": "9",
-      "explication": "75×12÷100=9",
+      "explication": "75$\\times$12$\\div$100=9",
       "image": null
     },
     {
@@ -344,7 +344,7 @@
         "18"
       ],
       "reponse": "14",
-      "explication": "40×35÷100=14",
+      "explication": "40$\\times$35$\\div$100=14",
       "image": null
     },
     {
@@ -361,7 +361,7 @@
         "135"
       ],
       "reponse": "125",
-      "explication": "250÷2=125",
+      "explication": "250$\\div$2=125",
       "image": null
     },
     {
@@ -378,7 +378,7 @@
         "110"
       ],
       "reponse": "90",
-      "explication": "360÷4=90",
+      "explication": "360$\\div$4=90",
       "image": null
     },
     {
@@ -395,7 +395,7 @@
         "460"
       ],
       "reponse": "420",
-      "explication": "4200÷10=420",
+      "explication": "4200$\\div$10=420",
       "image": null
     },
     {
@@ -412,7 +412,7 @@
         "180"
       ],
       "reponse": "140",
-      "explication": "700×0,2=140",
+      "explication": "700$\\times$0,2=140",
       "image": null
     },
     {
@@ -446,7 +446,7 @@
         "12"
       ],
       "reponse": "9",
-      "explication": "60×15÷100=9",
+      "explication": "60$\\times$15$\\div$100=9",
       "image": null
     },
     {
@@ -463,7 +463,7 @@
         "22"
       ],
       "reponse": "20",
-      "explication": "4/5 de 25=20",
+      "explication": "$\\frac{4}{5}$ de 25=20",
       "image": null
     },
     {
@@ -480,7 +480,7 @@
         "100"
       ],
       "reponse": "90",
-      "explication": "200×45÷100=90",
+      "explication": "200$\\times$45$\\div$100=90",
       "image": null
     },
     {
@@ -497,7 +497,7 @@
         "95"
       ],
       "reponse": "90",
-      "explication": "150×60÷100=90",
+      "explication": "150$\\times$60$\\div$100=90",
       "image": null
     },
     {
@@ -514,7 +514,7 @@
         "24"
       ],
       "reponse": "18",
-      "explication": "600×3÷100=18",
+      "explication": "600$\\times$3$\\div$100=18",
       "image": null
     }
   ]

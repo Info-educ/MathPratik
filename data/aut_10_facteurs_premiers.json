@@ -15,13 +15,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 12 = ?",
       "choix": [
-        "2×6",
-        "2²×3",
-        "3×4",
-        "2×3²"
+        "2$\\times$6",
+        "$2^{2}\\times$3",
+        "3$\\times$4",
+        "2$\\times3^{2}$"
       ],
-      "reponse": "2²×3",
-      "explication": "12=4×3=2²×3",
+      "reponse": "$2^{2}\\times$3",
+      "explication": "12=4$\\times$3=$2^{2}\\times$3",
       "image": null
     },
     {
@@ -32,13 +32,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 18 = ?",
       "choix": [
-        "2×9",
-        "2×3²",
-        "3×6",
-        "2²×3"
+        "2$\\times$9",
+        "2$\\times3^{2}$",
+        "3$\\times$6",
+        "$2^{2}\\times$3"
       ],
-      "reponse": "2×3²",
-      "explication": "18=2×9=2×3²",
+      "reponse": "2$\\times3^{2}$",
+      "explication": "18=2$\\times$9=2$\\times3^{2}$",
       "image": null
     },
     {
@@ -49,13 +49,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 24 = ?",
       "choix": [
-        "2³×3",
-        "2×12",
-        "4×6",
-        "2²×6"
+        "$2^{3}\\times$3",
+        "2$\\times$12",
+        "4$\\times$6",
+        "$2^{2}\\times$6"
       ],
-      "reponse": "2³×3",
-      "explication": "24=8×3=2³×3",
+      "reponse": "$2^{3}\\times$3",
+      "explication": "24=8$\\times$3=$2^{3}\\times$3",
       "image": null
     },
     {
@@ -66,13 +66,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 30 = ?",
       "choix": [
-        "2×15",
-        "2×3×5",
-        "5×6",
-        "3×10"
+        "2$\\times$15",
+        "2$\\times$3$\\times$5",
+        "5$\\times$6",
+        "3$\\times$10"
       ],
-      "reponse": "2×3×5",
-      "explication": "30=2×3×5",
+      "reponse": "2$\\times$3$\\times$5",
+      "explication": "30=2$\\times$3$\\times$5",
       "image": null
     },
     {
@@ -83,13 +83,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 36 = ?",
       "choix": [
-        "2×18",
-        "2²×9",
-        "2²×3²",
-        "4×9"
+        "2$\\times$18",
+        "$2^{2}\\times$9",
+        "$2^{2} \\times 3^{2}$",
+        "4$\\times$9"
       ],
-      "reponse": "2²×3²",
-      "explication": "36=4×9=2²×3²",
+      "reponse": "$2^{2} \\times 3^{2}$",
+      "explication": "36=4$\\times$9=$2^{2} \\times 3^{2}$",
       "image": null
     },
     {
@@ -100,13 +100,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 45 = ?",
       "choix": [
-        "3×15",
-        "3²×5",
-        "5×9",
-        "3×5²"
+        "3$\\times$15",
+        "$3^{2}\\times$5",
+        "5$\\times$9",
+        "3$\\times5^{2}$"
       ],
-      "reponse": "3²×5",
-      "explication": "45=9×5=3²×5",
+      "reponse": "$3^{2}\\times$5",
+      "explication": "45=9$\\times$5=$3^{2}\\times$5",
       "image": null
     },
     {
@@ -117,13 +117,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 48 = ?",
       "choix": [
-        "2⁴×3",
-        "2×24",
-        "4×12",
-        "2³×6"
+        "$2^{4}\\times$3",
+        "2$\\times$24",
+        "4$\\times$12",
+        "$2^{3}\\times$6"
       ],
-      "reponse": "2⁴×3",
-      "explication": "48=16×3=2⁴×3",
+      "reponse": "$2^{4}\\times$3",
+      "explication": "48=16$\\times$3=$2^{4}\\times$3",
       "image": null
     },
     {
@@ -134,13 +134,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 60 = ?",
       "choix": [
-        "2×30",
-        "2²×3×5",
-        "4×15",
-        "3×20"
+        "2$\\times$30",
+        "$2^{2}\\times$3$\\times$5",
+        "4$\\times$15",
+        "3$\\times$20"
       ],
-      "reponse": "2²×3×5",
-      "explication": "60=4×15=2²×3×5",
+      "reponse": "$2^{2}\\times$3$\\times$5",
+      "explication": "60=4$\\times$15=$2^{2}\\times$3$\\times$5",
       "image": null
     },
     {
@@ -151,13 +151,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 72 = ?",
       "choix": [
-        "8×9",
-        "2³×3²",
-        "2²×18",
-        "2×36"
+        "8$\\times$9",
+        "$2^{3} \\times 3^{2}$",
+        "$2^{2}\\times$18",
+        "2$\\times$36"
       ],
-      "reponse": "2³×3²",
-      "explication": "72=8×9=2³×3²",
+      "reponse": "$2^{3} \\times 3^{2}$",
+      "explication": "72=8$\\times$9=$2^{3} \\times 3^{2}$",
       "image": null
     },
     {
@@ -168,13 +168,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 84 = ?",
       "choix": [
-        "4×21",
-        "2²×3×7",
-        "2×42",
-        "3×28"
+        "4$\\times$21",
+        "$2^{2}\\times$3$\\times$7",
+        "2$\\times$42",
+        "3$\\times$28"
       ],
-      "reponse": "2²×3×7",
-      "explication": "84=4×21=2²×3×7",
+      "reponse": "$2^{2}\\times$3$\\times$7",
+      "explication": "84=4$\\times$21=$2^{2}\\times$3$\\times$7",
       "image": null
     },
     {
@@ -185,13 +185,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 90 = ?",
       "choix": [
-        "2×9×5",
-        "2×3²×5",
-        "3×30",
-        "9×10"
+        "2$\\times$9$\\times$5",
+        "2$\\times3^{2}\\times$5",
+        "3$\\times$30",
+        "9$\\times$10"
       ],
-      "reponse": "2×3²×5",
-      "explication": "90=2×9×5=2×3²×5",
+      "reponse": "2$\\times3^{2}\\times$5",
+      "explication": "90=2$\\times$9$\\times$5=2$\\times3^{2}\\times$5",
       "image": null
     },
     {
@@ -202,13 +202,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 100 = ?",
       "choix": [
-        "4×25",
-        "2²×5²",
-        "10×10",
-        "2×50"
+        "4$\\times$25",
+        "$2^{2} \\times 5^{2}$",
+        "10$\\times$10",
+        "2$\\times$50"
       ],
-      "reponse": "2²×5²",
-      "explication": "100=4×25=2²×5²",
+      "reponse": "$2^{2} \\times 5^{2}$",
+      "explication": "100=4$\\times$25=$2^{2} \\times 5^{2}$",
       "image": null
     },
     {
@@ -219,13 +219,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 120 = ?",
       "choix": [
-        "2³×3×5",
-        "8×15",
-        "2×60",
-        "4×30"
+        "$2^{3}\\times$3$\\times$5",
+        "8$\\times$15",
+        "2$\\times$60",
+        "4$\\times$30"
       ],
-      "reponse": "2³×3×5",
-      "explication": "120=8×15=2³×3×5",
+      "reponse": "$2^{3}\\times$3$\\times$5",
+      "explication": "120=8$\\times$15=$2^{3}\\times$3$\\times$5",
       "image": null
     },
     {
@@ -236,13 +236,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 132 = ?",
       "choix": [
-        "4×33",
-        "2²×3×11",
-        "12×11",
-        "2×66"
+        "4$\\times$33",
+        "$2^{2}\\times$3$\\times$11",
+        "12$\\times$11",
+        "2$\\times$66"
       ],
-      "reponse": "2²×3×11",
-      "explication": "132=4×33=2²×3×11",
+      "reponse": "$2^{2}\\times$3$\\times$11",
+      "explication": "132=4$\\times$33=$2^{2}\\times$3$\\times$11",
       "image": null
     },
     {
@@ -253,13 +253,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 144 = ?",
       "choix": [
-        "12×12",
-        "2⁴×3²",
-        "2×72",
-        "4×36"
+        "12$\\times$12",
+        "$2^{4} \\times 3^{2}$",
+        "2$\\times$72",
+        "4$\\times$36"
       ],
-      "reponse": "2⁴×3²",
-      "explication": "144=16×9=2⁴×3²",
+      "reponse": "$2^{4} \\times 3^{2}$",
+      "explication": "144=16$\\times$9=$2^{4} \\times 3^{2}$",
       "image": null
     },
     {
@@ -270,13 +270,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 150 = ?",
       "choix": [
-        "2×75",
-        "2×3×5²",
-        "6×25",
-        "3×50"
+        "2$\\times$75",
+        "2$\\times$3$\\times5^{2}$",
+        "6$\\times$25",
+        "3$\\times$50"
       ],
-      "reponse": "2×3×5²",
-      "explication": "150=2×3×25=2×3×5²",
+      "reponse": "2$\\times$3$\\times5^{2}$",
+      "explication": "150=2$\\times$3$\\times$25=2$\\times$3$\\times5^{2}$",
       "image": null
     },
     {
@@ -287,13 +287,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 180 = ?",
       "choix": [
-        "4×45",
-        "2²×3²×5",
-        "9×20",
-        "2×90"
+        "4$\\times$45",
+        "$2^{2} \\times 3^{2}\\times$5",
+        "9$\\times$20",
+        "2$\\times$90"
       ],
-      "reponse": "2²×3²×5",
-      "explication": "180=4×9×5",
+      "reponse": "$2^{2} \\times 3^{2}\\times$5",
+      "explication": "180=4$\\times$9$\\times$5",
       "image": null
     },
     {
@@ -304,13 +304,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 200 = ?",
       "choix": [
-        "8×25",
-        "2³×5²",
-        "4×50",
-        "2×100"
+        "8$\\times$25",
+        "$2^{3} \\times 5^{2}$",
+        "4$\\times$50",
+        "2$\\times$100"
       ],
-      "reponse": "2³×5²",
-      "explication": "200=8×25=2³×5²",
+      "reponse": "$2^{3} \\times 5^{2}$",
+      "explication": "200=8$\\times$25=$2^{3} \\times 5^{2}$",
       "image": null
     },
     {
@@ -321,13 +321,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 210 = ?",
       "choix": [
-        "6×35",
-        "2×3×5×7",
-        "10×21",
-        "14×15"
+        "6$\\times$35",
+        "2$\\times$3$\\times$5$\\times$7",
+        "10$\\times$21",
+        "14$\\times$15"
       ],
-      "reponse": "2×3×5×7",
-      "explication": "210=2×3×5×7",
+      "reponse": "2$\\times$3$\\times$5$\\times$7",
+      "explication": "210=2$\\times$3$\\times$5$\\times$7",
       "image": null
     },
     {
@@ -338,13 +338,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 250 = ?",
       "choix": [
-        "2×125",
-        "2×5³",
-        "5×50",
-        "10×25"
+        "2$\\times$125",
+        "2$\\times5^{3}$",
+        "5$\\times$50",
+        "10$\\times$25"
       ],
-      "reponse": "2×5³",
-      "explication": "250=2×125=2×5³",
+      "reponse": "2$\\times5^{3}$",
+      "explication": "250=2$\\times$125=2$\\times5^{3}$",
       "image": null
     },
     {
@@ -355,13 +355,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 126 = ?",
       "choix": [
-        "2×63",
-        "2×3²×7",
-        "9×14",
-        "3×42"
+        "2$\\times$63",
+        "2$\\times3^{2}\\times$7",
+        "9$\\times$14",
+        "3$\\times$42"
       ],
-      "reponse": "2×3²×7",
-      "explication": "126=2×9×7=2×3²×7",
+      "reponse": "2$\\times3^{2}\\times$7",
+      "explication": "126=2$\\times$9$\\times$7=2$\\times3^{2}\\times$7",
       "image": null
     },
     {
@@ -372,13 +372,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 140 = ?",
       "choix": [
-        "4×35",
-        "2²×5×7",
-        "20×7",
-        "2×70"
+        "4$\\times$35",
+        "$2^{2}\\times$5$\\times$7",
+        "20$\\times$7",
+        "2$\\times$70"
       ],
-      "reponse": "2²×5×7",
-      "explication": "140=4×35=2²×5×7",
+      "reponse": "$2^{2}\\times$5$\\times$7",
+      "explication": "140=4$\\times$35=$2^{2}\\times$5$\\times$7",
       "image": null
     },
     {
@@ -389,13 +389,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 300 = ?",
       "choix": [
-        "4×75",
-        "2²×3×5²",
-        "12×25",
-        "3×100"
+        "4$\\times$75",
+        "$2^{2}\\times$3$\\times5^{2}$",
+        "12$\\times$25",
+        "3$\\times$100"
       ],
-      "reponse": "2²×3×5²",
-      "explication": "300=4×75=2²×3×5²",
+      "reponse": "$2^{2}\\times$3$\\times5^{2}$",
+      "explication": "300=4$\\times$75=$2^{2}\\times$3$\\times5^{2}$",
       "image": null
     },
     {
@@ -406,13 +406,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 54 = ?",
       "choix": [
-        "6×9",
-        "2×3³",
-        "3²×6",
-        "2×27"
+        "6$\\times$9",
+        "2$\\times3^{3}$",
+        "$3^{2}\\times$6",
+        "2$\\times$27"
       ],
-      "reponse": "2×3³",
-      "explication": "54=2×27=2×3³",
+      "reponse": "2$\\times3^{3}$",
+      "explication": "54=2$\\times$27=2$\\times3^{3}$",
       "image": null
     },
     {
@@ -423,13 +423,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 360 = ?",
       "choix": [
-        "8×45",
-        "2³×3²×5",
-        "4×90",
-        "36×10"
+        "8$\\times$45",
+        "$2^{3} \\times 3^{2}\\times$5",
+        "4$\\times$90",
+        "36$\\times$10"
       ],
-      "reponse": "2³×3²×5",
-      "explication": "360=8×45=2³×3²×5",
+      "reponse": "$2^{3} \\times 3^{2}\\times$5",
+      "explication": "360=8$\\times$45=$2^{3} \\times 3^{2}\\times$5",
       "image": null
     },
     {
@@ -440,13 +440,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 96 = ?",
       "choix": [
-        "2⁵×3",
-        "32×3",
-        "2×48",
-        "8×12"
+        "$2^{5}\\times$3",
+        "32$\\times$3",
+        "2$\\times$48",
+        "8$\\times$12"
       ],
-      "reponse": "2⁵×3",
-      "explication": "96=32×3=2⁵×3",
+      "reponse": "$2^{5}\\times$3",
+      "explication": "96=32$\\times$3=$2^{5}\\times$3",
       "image": null
     },
     {
@@ -457,13 +457,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 168 = ?",
       "choix": [
-        "8×21",
-        "2³×3×7",
-        "4×42",
-        "2×84"
+        "8$\\times$21",
+        "$2^{3}\\times$3$\\times$7",
+        "4$\\times$42",
+        "2$\\times$84"
       ],
-      "reponse": "2³×3×7",
-      "explication": "168=8×21=2³×3×7",
+      "reponse": "$2^{3}\\times$3$\\times$7",
+      "explication": "168=8$\\times$21=$2^{3}\\times$3$\\times$7",
       "image": null
     },
     {
@@ -474,13 +474,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 225 = ?",
       "choix": [
-        "9×25",
-        "3²×5²",
-        "15×15",
-        "3×75"
+        "9$\\times$25",
+        "$3^{2} \\times 5^{2}$",
+        "15$\\times$15",
+        "3$\\times$75"
       ],
-      "reponse": "3²×5²",
-      "explication": "225=9×25=3²×5²",
+      "reponse": "$3^{2} \\times 5^{2}$",
+      "explication": "225=9$\\times$25=$3^{2} \\times 5^{2}$",
       "image": null
     },
     {
@@ -491,13 +491,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 75 = ?",
       "choix": [
-        "3×25",
-        "3×5²",
-        "5×15",
-        "3²×5"
+        "3$\\times$25",
+        "3$\\times5^{2}$",
+        "5$\\times$15",
+        "$3^{2}\\times$5"
       ],
-      "reponse": "3×5²",
-      "explication": "75=3×25=3×5²",
+      "reponse": "3$\\times5^{2}$",
+      "explication": "75=3$\\times$25=3$\\times5^{2}$",
       "image": null
     },
     {
@@ -508,13 +508,13 @@
       "chrono": 20,
       "enonce": "Décomposition de 108 = ?",
       "choix": [
-        "4×27",
-        "2²×3³",
-        "12×9",
-        "2×54"
+        "4$\\times$27",
+        "$2^{2} \\times 3^{3}$",
+        "12$\\times$9",
+        "2$\\times$54"
       ],
-      "reponse": "2²×3³",
-      "explication": "108=4×27=2²×3³",
+      "reponse": "$2^{2} \\times 3^{3}$",
+      "explication": "108=4$\\times$27=$2^{2} \\times 3^{3}$",
       "image": null
     }
   ]

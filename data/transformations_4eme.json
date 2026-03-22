@@ -101,7 +101,7 @@
         "25 cm"
       ],
       "reponse": "10 cm",
-      "explication": "AA' = 2 × AH = 2 × 5 = 10 cm."
+      "explication": "AA' = 2 $\\times$ AH = 2 $\\times$ 5 = 10 cm."
     },
     {
       "id": "trf4_n1_007",
@@ -140,16 +140,16 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si l'angle ABC = 47° dans une figure, quelle est la mesure de l'angle A'B'C' de son image par symétrie axiale ?",
+      "enonce": "Si l'$\\widehat{ABC}$ = $47°$ dans une figure, quelle est la mesure de l'angle A'B'C' de son image par symétrie axiale ?",
       "image": null,
       "choix": [
-        "47°",
-        "90°",
-        "133°",
+        "$47°$",
+        "$90°$",
+        "$133°$",
         "On ne peut pas savoir"
       ],
-      "reponse": "47°",
-      "explication": "La symétrie axiale conserve les mesures d'angles. Donc A'B'C' = ABC = 47°."
+      "reponse": "$47°$",
+      "explication": "La symétrie axiale conserve les mesures d'angles. Donc A'B'C' = $\\widehat{ABC}$ = $47°$."
     },
     {
       "id": "trf4_n1_010",
@@ -197,7 +197,7 @@
         "Un agrandissement depuis un centre"
       ],
       "reponse": "Un demi-tour autour d'un point appelé centre de symétrie",
-      "explication": "La symétrie centrale consiste à faire effectuer un demi-tour (180°) à une figure autour d'un point O appelé centre de symétrie."
+      "explication": "La symétrie centrale consiste à faire effectuer un demi-tour ($180°$) à une figure autour d'un point O appelé centre de symétrie."
     },
     {
       "id": "trf4_n1_013",
@@ -229,7 +229,7 @@
         "49 cm"
       ],
       "reponse": "14 cm",
-      "explication": "AA' = 2 × AO = 2 × 7 = 14 cm."
+      "explication": "AA' = 2 $\\times$ AO = 2 $\\times$ 7 = 14 cm."
     },
     {
       "id": "trf4_n1_015",
@@ -288,28 +288,28 @@
       "image": null,
       "choix": [
         "Sym. axiale : on tourne autour d'un point. Sym. centrale : on plie le long d'une droite",
-        "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de 180° autour d'un POINT (centre)",
+        "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de $180°$ autour d'un POINT (centre)",
         "Elles sont identiques",
         "Sym. axiale agrandit la figure, sym. centrale la réduit"
       ],
-      "reponse": "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de 180° autour d'un POINT (centre)",
-      "explication": "Sym. axiale : pliage le long d'une droite → reflet dans un miroir. Sym. centrale : demi-tour (180°) autour d'un point → figure retournée tête en bas."
+      "reponse": "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de $180°$ autour d'un POINT (centre)",
+      "explication": "Sym. axiale : pliage le long d'une droite → reflet dans un miroir. Sym. centrale : demi-tour ($180°$) autour d'un point → figure retournée tête en bas."
     },
     {
       "id": "trf4_n1_019",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si l'aire d'une figure F est 24 cm², quelle est l'aire de son image par symétrie centrale ?",
+      "enonce": "Si l'aire d'une figure F est 24 $\\mathrm{cm}^2$, quelle est l'aire de son image par symétrie centrale ?",
       "image": null,
       "choix": [
-        "12 cm²",
-        "24 cm²",
-        "48 cm²",
+        "12 $\\mathrm{cm}^2$",
+        "24 $\\mathrm{cm}^2$",
+        "48 $\\mathrm{cm}^2$",
         "Impossible à savoir"
       ],
-      "reponse": "24 cm²",
-      "explication": "La symétrie centrale conserve les aires. L'aire de l'image est aussi 24 cm²."
+      "reponse": "24 $\\mathrm{cm}^2$",
+      "explication": "La symétrie centrale conserve les aires. L'aire de l'image est aussi 24 $\\mathrm{cm}^2$."
     },
     {
       "id": "trf4_n1_020",
@@ -517,7 +517,7 @@
         "Aucune des trois"
       ],
       "reponse": "La symétrie centrale",
-      "explication": "La symétrie centrale effectue un demi-tour (180°), ce qui retourne la figure 'tête en bas'."
+      "explication": "La symétrie centrale effectue un demi-tour ($180°$), ce qui retourne la figure 'tête en bas'."
     },
     {
       "id": "trf4_n1_033",
@@ -620,16 +620,16 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si l'angle en A dans un triangle vaut 60°, quelle est la mesure de l'angle en A' après une translation ?",
+      "enonce": "Si l'angle en A dans un triangle vaut $60°$, quelle est la mesure de l'angle en A' après une translation ?",
       "image": null,
       "choix": [
-        "30°",
-        "60°",
-        "90°",
-        "120°"
+        "$30°$",
+        "$60°$",
+        "$90°$",
+        "$120°$"
       ],
-      "reponse": "60°",
-      "explication": "La translation conserve les mesures d'angles. L'angle en A' vaut aussi 60°."
+      "reponse": "$60°$",
+      "explication": "La translation conserve les mesures d'angles. L'angle en A' vaut aussi $60°$."
     },
     {
       "id": "trf4_n1_040",
@@ -700,16 +700,16 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Une figure de 18 cm² est réfléchie par symétrie axiale. Quelle est l'aire de l'image ?",
+      "enonce": "Une figure de 18 $\\mathrm{cm}^2$ est réfléchie par symétrie axiale. Quelle est l'aire de l'image ?",
       "image": null,
       "choix": [
-        "9 cm²",
-        "18 cm²",
-        "36 cm²",
+        "9 $\\mathrm{cm}^2$",
+        "18 $\\mathrm{cm}^2$",
+        "36 $\\mathrm{cm}^2$",
         "On ne peut pas savoir"
       ],
-      "reponse": "18 cm²",
-      "explication": "La symétrie axiale conserve les aires. L'image a aussi une aire de 18 cm²."
+      "reponse": "18 $\\mathrm{cm}^2$",
+      "explication": "La symétrie axiale conserve les aires. L'image a aussi une aire de 18 $\\mathrm{cm}^2$."
     },
     {
       "id": "trf4_n2_005",
@@ -769,7 +769,7 @@
       "choix": [
         "Parce que ses côtés sont égaux",
         "Parce que O est le milieu de [AC] et de [BD] : A et C sont symétriques par rapport à O, et B et D aussi",
-        "Parce que tous ses angles valent 90°",
+        "Parce que tous ses angles valent $90°$",
         "Parce que ses diagonales sont perpendiculaires"
       ],
       "reponse": "Parce que O est le milieu de [AC] et de [BD] : A et C sont symétriques par rapport à O, et B et D aussi",
@@ -812,16 +812,16 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Une figure F a une aire de 36 cm² et un périmètre de 24 cm. Après une symétrie axiale, quelles sont l'aire et le périmètre de l'image F' ?",
+      "enonce": "Une figure F a une aire de 36 $\\mathrm{cm}^2$ et un périmètre de 24 cm. Après une symétrie axiale, quelles sont l'aire et le périmètre de l'image F' ?",
       "image": null,
       "choix": [
-        "Aire = 18 cm² et périmètre = 12 cm",
-        "Aire = 36 cm² et périmètre = 24 cm",
-        "Aire = 72 cm² et périmètre = 48 cm",
+        "Aire = 18 $\\mathrm{cm}^2$ et périmètre = 12 cm",
+        "Aire = 36 $\\mathrm{cm}^2$ et périmètre = 24 cm",
+        "Aire = 72 $\\mathrm{cm}^2$ et périmètre = 48 cm",
         "Impossible à savoir"
       ],
-      "reponse": "Aire = 36 cm² et périmètre = 24 cm",
-      "explication": "Les trois transformations (symétrie axiale, symétrie centrale, translation) conservent longueurs et aires. Aire F' = 36 cm² et périmètre F' = 24 cm."
+      "reponse": "Aire = 36 $\\mathrm{cm}^2$ et périmètre = 24 cm",
+      "explication": "Les trois transformations (symétrie axiale, symétrie centrale, translation) conservent longueurs et aires. Aire F' = 36 $\\mathrm{cm}^2$ et périmètre F' = 24 cm."
     },
     {
       "id": "trf4_n2_012",
@@ -860,16 +860,16 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un angle de 73° est conservé par translation. L'image de cet angle mesure :",
+      "enonce": "Un angle de $73°$ est conservé par translation. L'image de cet angle mesure :",
       "image": null,
       "choix": [
-        "17°",
-        "73°",
-        "107°",
-        "146°"
+        "$17°$",
+        "$73°$",
+        "$107°$",
+        "$146°$"
       ],
-      "reponse": "73°",
-      "explication": "x = 73° (conservation des angles par translation)."
+      "reponse": "$73°$",
+      "explication": "x = $73°$ (conservation des angles par translation)."
     },
     {
       "id": "trf4_n2_015",
@@ -901,7 +901,7 @@
         "A' est à 12 cm de (d) et AA' = 24 cm"
       ],
       "reponse": "A' est à 6 cm de (d) et AA' = 12 cm",
-      "explication": "A' est à 6 cm de (d) (équidistance). AA' = 2 × 6 = 12 cm."
+      "explication": "A' est à 6 cm de (d) (équidistance). AA' = 2 $\\times$ 6 = 12 cm."
     },
     {
       "id": "trf4_n2_017",
@@ -917,7 +917,7 @@
         "18 cm"
       ],
       "reponse": "9 cm",
-      "explication": "AA' = 2 × AO = 2 × 4,5 = 9 cm."
+      "explication": "AA' = 2 $\\times$ AO = 2 $\\times$ 4,5 = 9 cm."
     },
     {
       "id": "trf4_n2_018",
@@ -1285,7 +1285,7 @@
         "A'(4,3)"
       ],
       "reponse": "A'(9,3)",
-      "explication": "Sym. axiale (x=5) : x' = 2×5−x = 10−x, y'=y. A(1,3) → A'(10−1, 3) = A'(9,3)."
+      "explication": "Sym. axiale (x=5) : x' = 2$\\times$5−x = 10−x, y'=y. A(1,3) → A'(10−1, 3) = A'(9,3)."
     },
     {
       "id": "trf4_n3_011",
@@ -1301,7 +1301,7 @@
         "B'(1,6)"
       ],
       "reponse": "B'(6,6)",
-      "explication": "Sym. centrale (O): x'=2×5−x, y'=2×4−y. B(4,2) → B'(10−4, 8−2) = B'(6,6)."
+      "explication": "Sym. centrale (O): x'=2$\\times$5−x, y'=2$\\times$4−y. B(4,2) → B'(10−4, 8−2) = B'(6,6)."
     },
     {
       "id": "trf4_n3_012",
@@ -1376,12 +1376,12 @@
       "image": null,
       "choix": [
         "Car la symétrie centrale conserve les aires",
-        "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut 90°, l'angle en B' vaut aussi 90°",
+        "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut $90°$, l'angle en B' vaut aussi $90°$",
         "Car les côtés restent parallèles",
         "Car les deux triangles ont le même centre de gravité"
       ],
-      "reponse": "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut 90°, l'angle en B' vaut aussi 90°",
-      "explication": "La symétrie centrale conserve les mesures d'angles. Si le triangle ABC a un angle droit en B (90°), l'angle en B' dans le triangle A'B'C' vaut aussi 90°. L'image est rectangle. CQFD."
+      "reponse": "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut $90°$, l'angle en B' vaut aussi $90°$",
+      "explication": "La symétrie centrale conserve les mesures d'angles. Si le triangle ABC a un angle droit en B ($90°$), l'angle en B' dans le triangle A'B'C' vaut aussi $90°$. L'image est rectangle. CQFD."
     },
     {
       "id": "trf4_n3_017",
@@ -1397,7 +1397,7 @@
         "8"
       ],
       "reponse": "1",
-      "explication": "Il y a une seule symétrie centrale de centre O : le demi-tour d'angle 180°. Pour un carré, cela envoie A→C, B→D."
+      "explication": "Il y a une seule symétrie centrale de centre O : le demi-tour d'angle $180°$. Pour un carré, cela envoie A→C, B→D."
     },
     {
       "id": "trf4_n3_018",
@@ -1408,7 +1408,7 @@
       "image": null,
       "choix": [
         "La figure est agrandie",
-        "La figure est tournée de 90°",
+        "La figure est tournée de $90°$",
         "On revient à la figure initiale (identité) : A → A' → A",
         "La figure est déplacée parallèlement à (d)"
       ],
@@ -1445,7 +1445,7 @@
         "A''(11,4)"
       ],
       "reponse": "A''(11,6)",
-      "explication": "1) Sym. centrale : A'(2×5−1, 2×4−3) = A'(9,5). 2) Translation (2,1) : A''(9+2, 5+1) = A''(11,6)."
+      "explication": "1) Sym. centrale : A'(2$\\times$5−1, 2$\\times$4−3) = A'(9,5). 2) Translation (2,1) : A''(9+2, 5+1) = A''(11,6)."
     }
   ]
 }

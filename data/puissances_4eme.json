@@ -8,749 +8,1444 @@
   },
   "questions": [
     {
-      "id": "puiss4_n1_001", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Que signifie aⁿ ?",
       "image": null,
-      "choix": ["a multiplié par n", "Le produit de n facteurs égaux à a", "a divisé par n", "a + n"],
+      "choix": [
+        "a multiplié par n",
+        "Le produit de n facteurs égaux à a",
+        "a divisé par n",
+        "a + n"
+      ],
       "reponse": "Le produit de n facteurs égaux à a",
-      "explication": "aⁿ = a × a × ... × a (n fois). C'est le produit de n facteurs égaux à a."
+      "explication": "aⁿ = a $\\times$ a $\\times$ ... $\\times$ a (n fois). C'est le produit de n facteurs égaux à a."
     },
     {
-      "id": "puiss4_n1_002", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 2⁵.",
+      "id": "puiss4_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $2^{5}$.",
       "image": null,
-      "choix": ["16", "25", "32", "64"],
+      "choix": [
+        "16",
+        "25",
+        "32",
+        "64"
+      ],
       "reponse": "32",
-      "explication": "2⁵ = 2×2×2×2×2 = 32"
+      "explication": "$2^{5}$ = 2$\\times$2$\\times$2$\\times$2$\\times$2 = 32"
     },
     {
-      "id": "puiss4_n1_003", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Calcule (−3)⁴.",
       "image": null,
-      "choix": ["−81", "+81", "−12", "+12"],
+      "choix": [
+        "−81",
+        "+81",
+        "−12",
+        "+12"
+      ],
       "reponse": "+81",
-      "explication": "(−3)⁴ = (−3)×(−3)×(−3)×(−3) = 81 (exposant pair → résultat positif)"
+      "explication": "(−3)⁴ = (−3)$\\times$(−3)$\\times$(−3)$\\times$(−3) = 81 (exposant pair → résultat positif)"
     },
     {
-      "id": "puiss4_n1_004", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Calcule (−2)³.",
       "image": null,
-      "choix": ["−8", "+8", "−6", "+6"],
+      "choix": [
+        "−8",
+        "+8",
+        "−6",
+        "+6"
+      ],
       "reponse": "−8",
-      "explication": "(−2)³ = (−2)×(−2)×(−2) = −8 (exposant impair → résultat négatif)"
+      "explication": "(−2)³ = (−2)$\\times$(−2)$\\times$(−2) = −8 (exposant impair → résultat négatif)"
     },
     {
-      "id": "puiss4_n1_005", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut a¹ ?",
+      "id": "puiss4_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut $a^{1}$ ?",
       "image": null,
-      "choix": ["0", "1", "a", "a²"],
+      "choix": [
+        "0",
+        "1",
+        "a",
+        "$a^{2}$"
+      ],
       "reponse": "a",
-      "explication": "a¹ = a. Tout nombre à la puissance 1 est lui-même."
+      "explication": "$a^{1}$ = a. Tout nombre à la puissance 1 est lui-même."
     },
     {
-      "id": "puiss4_n1_006", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut a⁰ pour a ≠ 0 ?",
+      "id": "puiss4_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut $a^{0}$ pour a $\\neq$ 0 ?",
       "image": null,
-      "choix": ["0", "1", "a", "Indéfini"],
+      "choix": [
+        "0",
+        "1",
+        "a",
+        "Indéfini"
+      ],
       "reponse": "1",
-      "explication": "Pour tout a ≠ 0, a⁰ = 1."
+      "explication": "Pour tout a $\\neq$ 0, $a^{0}$ = 1."
     },
     {
-      "id": "puiss4_n1_007", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 5⁰.",
+      "id": "puiss4_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $5^{0}$.",
       "image": null,
-      "choix": ["0", "1", "5", "25"],
+      "choix": [
+        "0",
+        "1",
+        "5",
+        "25"
+      ],
       "reponse": "1",
-      "explication": "5⁰ = 1"
+      "explication": "$5^{0}$ = 1"
     },
     {
-      "id": "puiss4_n1_008", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 1¹⁰⁰.",
+      "id": "puiss4_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $1^{100}$.",
       "image": null,
-      "choix": ["0", "1", "100", "Indéfini"],
+      "choix": [
+        "0",
+        "1",
+        "100",
+        "Indéfini"
+      ],
       "reponse": "1",
-      "explication": "1¹⁰⁰ = 1 (1 multiplié par lui-même reste 1)"
+      "explication": "$1^{100}$ = 1 (1 multiplié par lui-même reste 1)"
     },
     {
-      "id": "puiss4_n1_009", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Calcule (−1)⁷.",
       "image": null,
-      "choix": ["−7", "+7", "−1", "+1"],
+      "choix": [
+        "−7",
+        "+7",
+        "−1",
+        "+1"
+      ],
       "reponse": "−1",
       "explication": "(−1)⁷ = −1 (exposant impair)"
     },
     {
-      "id": "puiss4_n1_010", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Calcule (−1)⁸.",
       "image": null,
-      "choix": ["−8", "+8", "−1", "+1"],
+      "choix": [
+        "−8",
+        "+8",
+        "−1",
+        "+1"
+      ],
       "reponse": "+1",
       "explication": "(−1)⁸ = 1 (exposant pair)"
     },
     {
-      "id": "puiss4_n1_011", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Quelle est la règle de signe pour (−a)ⁿ ?",
       "image": null,
-      "choix": ["Toujours positif", "Toujours négatif", "Positif si n pair, négatif si n impair", "Dépend de la valeur de a"],
+      "choix": [
+        "Toujours positif",
+        "Toujours négatif",
+        "Positif si n pair, négatif si n impair",
+        "Dépend de la valeur de a"
+      ],
       "reponse": "Positif si n pair, négatif si n impair",
       "explication": "Si n est pair, (−a)ⁿ > 0. Si n est impair, (−a)ⁿ < 0."
     },
     {
-      "id": "puiss4_n1_012", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Dans l'ordre des priorités, les puissances s'effectuent :",
       "image": null,
-      "choix": ["Après les multiplications", "Avant les multiplications et divisions", "En même temps que les additions", "En dernier"],
+      "choix": [
+        "Après les multiplications",
+        "Avant les multiplications et divisions",
+        "En même temps que les additions",
+        "En dernier"
+      ],
       "reponse": "Avant les multiplications et divisions",
-      "explication": "Ordre : parenthèses → puissances → × et ÷ → + et −."
+      "explication": "Ordre : parenthèses → puissances → $\\times$ et $\\div$ → + et −."
     },
     {
-      "id": "puiss4_n1_013", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule A = 1 + 3 × 2³.",
-      "image": null,
-      "choix": ["25", "32", "13", "49"],
-      "reponse": "25",
-      "explication": "Puissance d'abord : 2³=8. Puis × : 3×8=24. Puis + : 1+24=25."
-    },
-    {
-      "id": "puiss4_n1_014", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule B = 2 + 5² − 3.",
-      "image": null,
-      "choix": ["20", "22", "24", "26"],
-      "reponse": "24",
-      "explication": "5²=25. B=2+25−3=24"
-    },
-    {
-      "id": "puiss4_n1_015", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule C = 4 × 3² − 10.",
-      "image": null,
-      "choix": ["22", "24", "26", "46"],
-      "reponse": "26",
-      "explication": "3²=9. 4×9=36. 36−10=26"
-    },
-    {
-      "id": "puiss4_n1_016", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule D = (1 + 3) × 2³.",
-      "image": null,
-      "choix": ["17", "24", "32", "64"],
-      "reponse": "32",
-      "explication": "Parenthèses d'abord : 1+3=4. 2³=8. 4×8=32"
-    },
-    {
-      "id": "puiss4_n1_017", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut 2 + 3² × 2 ?",
-      "image": null,
-      "choix": ["50", "20", "25", "13"],
-      "reponse": "20",
-      "explication": "3²=9, 9×2=18, 2+18=20."
-    },
-    {
-      "id": "puiss4_n1_018", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut 10³ ?",
-      "image": null,
-      "choix": ["30", "300", "1 000", "10 000"],
-      "reponse": "1 000",
-      "explication": "10³ = 1 000 (1 suivi de 3 zéros)."
-    },
-    {
-      "id": "puiss4_n1_019", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 10⁶ en écriture décimale.",
-      "image": null,
-      "choix": ["60", "10 000", "100 000", "1 000 000"],
-      "reponse": "1 000 000",
-      "explication": "10⁶ = 1 000 000 (1 million, 6 zéros)"
-    },
-    {
-      "id": "puiss4_n1_020", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "1 milliard s'écrit comme puissance de 10 :",
-      "image": null,
-      "choix": ["10⁶", "10⁷", "10⁸", "10⁹"],
-      "reponse": "10⁹",
-      "explication": "1 milliard = 1 000 000 000 = 10⁹."
-    },
-    {
-      "id": "puiss4_n1_021", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 5 × 10⁴.",
-      "image": null,
-      "choix": ["500", "5 000", "50 000", "500 000"],
-      "reponse": "50 000",
-      "explication": "5 × 10 000 = 50 000"
-    },
-    {
-      "id": "puiss4_n1_022", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que signifie a⁻ⁿ ?",
-      "image": null,
-      "choix": ["−aⁿ", "L'inverse de aⁿ = 1/aⁿ", "a multiplié par −n", "a − n"],
-      "reponse": "L'inverse de aⁿ = 1/aⁿ",
-      "explication": "a⁻ⁿ = 1/aⁿ. L'exposant négatif donne l'inverse."
-    },
-    {
-      "id": "puiss4_n1_023", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 2⁻³.",
-      "image": null,
-      "choix": ["−8", "1/8", "1/6", "−6"],
-      "reponse": "1/8",
-      "explication": "2⁻³ = 1/2³ = 1/8"
-    },
-    {
-      "id": "puiss4_n1_024", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 5⁻².",
-      "image": null,
-      "choix": ["−25", "1/25", "−10", "1/10"],
-      "reponse": "1/25",
-      "explication": "5⁻² = 1/5² = 1/25"
-    },
-    {
-      "id": "puiss4_n1_025", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 10⁻³.",
-      "image": null,
-      "choix": ["−1 000", "1 000", "0,001", "0,01"],
-      "reponse": "0,001",
-      "explication": "10⁻³ = 1/10³ = 1/1000 = 0,001"
-    },
-    {
-      "id": "puiss4_n1_026", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut 10⁻⁶ en écriture décimale ?",
-      "image": null,
-      "choix": ["0,000 01", "0,000 001", "0,001", "0,01"],
-      "reponse": "0,000 001",
-      "explication": "10⁻⁶ = 0,000 001 (1 millionième, 6 décimales)."
-    },
-    {
-      "id": "puiss4_n1_027", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 0,001 à l'aide d'une puissance de 10.",
-      "image": null,
-      "choix": ["10⁻¹", "10⁻²", "10⁻³", "10⁻⁴"],
-      "reponse": "10⁻³",
-      "explication": "0,001 = 10⁻³"
-    },
-    {
-      "id": "puiss4_n1_028", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Quelle est la forme d'une écriture scientifique ?",
-      "image": null,
-      "choix": ["a × 10ⁿ avec a entier", "a × 10ⁿ avec 1 ≤ a < 10 et n entier", "a + 10ⁿ", "a / 10ⁿ"],
-      "reponse": "a × 10ⁿ avec 1 ≤ a < 10 et n entier",
-      "explication": "Écriture scientifique : a × 10ⁿ avec 1 ≤ a < 10 et n entier relatif."
-    },
-    {
-      "id": "puiss4_n1_029", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Laquelle de ces écritures est une notation scientifique valide ?",
-      "image": null,
-      "choix": ["35 × 10⁴", "0,5 × 10³", "3,5 × 10⁴", "350 × 10²"],
-      "reponse": "3,5 × 10⁴",
-      "explication": "3,5 × 10⁴ : 1 ≤ 3,5 < 10 ✓. Les autres ne respectent pas 1 ≤ a < 10."
-    },
-    {
-      "id": "puiss4_n1_030", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 45 000 en notation scientifique.",
-      "image": null,
-      "choix": ["4,5 × 10³", "4,5 × 10⁴", "45 × 10³", "0,45 × 10⁵"],
-      "reponse": "4,5 × 10⁴",
-      "explication": "4,5 × 10⁴"
-    },
-    {
-      "id": "puiss4_n1_031", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 0,0037 en notation scientifique.",
-      "image": null,
-      "choix": ["3,7 × 10²", "3,7 × 10⁻³", "3,7 × 10⁻⁴", "37 × 10⁻⁴"],
-      "reponse": "3,7 × 10⁻³",
-      "explication": "3,7 × 10⁻³"
-    },
-    {
-      "id": "puiss4_n1_032", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 1 785 000 000 en notation scientifique.",
-      "image": null,
-      "choix": ["1,785 × 10⁷", "1,785 × 10⁸", "1,785 × 10⁹", "17,85 × 10⁸"],
-      "reponse": "1,785 × 10⁹",
-      "explication": "1,785 × 10⁹"
-    },
-    {
-      "id": "puiss4_n1_033", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 0,000 028 en notation scientifique.",
-      "image": null,
-      "choix": ["2,8 × 10⁻⁴", "2,8 × 10⁻⁵", "2,8 × 10⁻⁶", "28 × 10⁻⁶"],
-      "reponse": "2,8 × 10⁻⁵",
-      "explication": "2,8 × 10⁻⁵"
-    },
-    {
-      "id": "puiss4_n1_034", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 1,3 × 10⁵ en écriture décimale.",
-      "image": null,
-      "choix": ["13 000", "130 000", "1 300 000", "0,000 013"],
-      "reponse": "130 000",
-      "explication": "1,3 × 10⁵ = 130 000"
-    },
-    {
-      "id": "puiss4_n1_035", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Quelle est la différence entre 10³ et 10⁻³ ?",
+      "id": "puiss4_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule A = 1 + 3 $\\times2^{3}$.",
       "image": null,
       "choix": [
-        "10³=30 et 10⁻³=−30",
-        "10³=1000 (grand nombre) et 10⁻³=0,001 (petit nombre)",
-        "Ils sont égaux",
-        "10³>0 et 10⁻³<0"
+        "25",
+        "32",
+        "13",
+        "49"
       ],
-      "reponse": "10³=1000 (grand nombre) et 10⁻³=0,001 (petit nombre)",
-      "explication": "10³=1000. 10⁻³=1/1000=0,001. L'exposant négatif donne l'inverse."
+      "reponse": "25",
+      "explication": "Puissance d'abord : $2^{3}$=8. Puis $\\times$ : 3$\\times$8=24. Puis + : 1+24=25."
     },
     {
-      "id": "puiss4_n1_036", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 257 × 10⁻⁴ en écriture décimale.",
+      "id": "puiss4_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule B = 2 + $5^{2}$ − 3.",
       "image": null,
-      "choix": ["0,00257", "0,0257", "0,257", "2,57"],
-      "reponse": "0,0257",
-      "explication": "257 × 10⁻⁴ = 257 × 0,0001 = 0,0257"
+      "choix": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "reponse": "24",
+      "explication": "$5^{2}$=25. B=2+25−3=24"
     },
     {
-      "id": "puiss4_n1_037", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule C = 4 $\\times3^{2}$ − 10.",
+      "image": null,
+      "choix": [
+        "22",
+        "24",
+        "26",
+        "46"
+      ],
+      "reponse": "26",
+      "explication": "$3^{2}$=9. 4$\\times$9=36. 36−10=26"
+    },
+    {
+      "id": "puiss4_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule D = (1 + 3) $\\times2^{3}$.",
+      "image": null,
+      "choix": [
+        "17",
+        "24",
+        "32",
+        "64"
+      ],
+      "reponse": "32",
+      "explication": "Parenthèses d'abord : 1+3=4. $2^{3}$=8. 4$\\times$8=32"
+    },
+    {
+      "id": "puiss4_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut 2 + $3^{2}\\times$ 2 ?",
+      "image": null,
+      "choix": [
+        "50",
+        "20",
+        "25",
+        "13"
+      ],
+      "reponse": "20",
+      "explication": "$3^{2}$=9, 9$\\times$2=18, 2+18=20."
+    },
+    {
+      "id": "puiss4_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut $1$0^{3} ?",
+      "image": null,
+      "choix": [
+        "30",
+        "300",
+        "1 000",
+        "10 000"
+      ],
+      "reponse": "1 000",
+      "explication": "$1$0^{3} = 1 000 (1 suivi de 3 zéros)."
+    },
+    {
+      "id": "puiss4_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris $1$0^{6} en écriture décimale.",
+      "image": null,
+      "choix": [
+        "60",
+        "10 000",
+        "100 000",
+        "1 000 000"
+      ],
+      "reponse": "1 000 000",
+      "explication": "$1$0^{6} = 1 000 000 (1 million, 6 zéros)"
+    },
+    {
+      "id": "puiss4_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "1 milliard s'écrit comme puissance de 10 :",
+      "image": null,
+      "choix": [
+        "$1$0^{6}",
+        "$1$0^{7}",
+        "$1$0^{8}",
+        "$1$0^{9}"
+      ],
+      "reponse": "$1$0^{9}",
+      "explication": "1 milliard = 1 000 000 000 = $1$0^{9}."
+    },
+    {
+      "id": "puiss4_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule 5 $\\times1$0^{4}.",
+      "image": null,
+      "choix": [
+        "500",
+        "5 000",
+        "50 000",
+        "500 000"
+      ],
+      "reponse": "50 000",
+      "explication": "5 $\\times$ 10 000 = 50 000"
+    },
+    {
+      "id": "puiss4_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que signifie $a^{-}$ⁿ ?",
+      "image": null,
+      "choix": [
+        "−aⁿ",
+        "L'inverse de aⁿ = 1/aⁿ",
+        "a multiplié par −n",
+        "a − n"
+      ],
+      "reponse": "L'inverse de aⁿ = 1/aⁿ",
+      "explication": "$a^{-}$ⁿ = 1/aⁿ. L'exposant négatif donne l'inverse."
+    },
+    {
+      "id": "puiss4_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $2^{-3}$.",
+      "image": null,
+      "choix": [
+        "−8",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{6}$",
+        "−6"
+      ],
+      "reponse": "$\\frac{1}{8}$",
+      "explication": "$2^{-3}$ = $\\frac{1}{2}$³ = $\\frac{1}{8}$"
+    },
+    {
+      "id": "puiss4_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $5^{-2}$.",
+      "image": null,
+      "choix": [
+        "−25",
+        "$\\frac{1}{25}$",
+        "−10",
+        "$\\frac{1}{10}$"
+      ],
+      "reponse": "$\\frac{1}{25}$",
+      "explication": "$5^{-2}$ = $\\frac{1}{5}$² = $\\frac{1}{25}$"
+    },
+    {
+      "id": "puiss4_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $1$0^{-3}.",
+      "image": null,
+      "choix": [
+        "−1 000",
+        "1 000",
+        "0,001",
+        "0,01"
+      ],
+      "reponse": "0,001",
+      "explication": "$1$0^{-3} = $\\frac{1}{10}$³ = $\\frac{1}{1000}$ = 0,001"
+    },
+    {
+      "id": "puiss4_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut $1$0^{-6} en écriture décimale ?",
+      "image": null,
+      "choix": [
+        "0,000 01",
+        "0,000 001",
+        "0,001",
+        "0,01"
+      ],
+      "reponse": "0,000 001",
+      "explication": "$1$0^{-6} = 0,000 001 (1 millionième, 6 décimales)."
+    },
+    {
+      "id": "puiss4_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 0,001 à l'aide d'une puissance de 10.",
+      "image": null,
+      "choix": [
+        "$1$0^{-1}",
+        "$1$0^{-2}",
+        "$1$0^{-3}",
+        "$1$0^{-4}"
+      ],
+      "reponse": "$1$0^{-3}",
+      "explication": "0,001 = $1$0^{-3}"
+    },
+    {
+      "id": "puiss4_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la forme d'une écriture scientifique ?",
+      "image": null,
+      "choix": [
+        "a $\\times$ 10ⁿ avec a entier",
+        "a $\\times$ 10ⁿ avec 1 $\\leq$ a < 10 et n entier",
+        "a + 10ⁿ",
+        "a / 10ⁿ"
+      ],
+      "reponse": "a $\\times$ 10ⁿ avec 1 $\\leq$ a < 10 et n entier",
+      "explication": "Écriture scientifique : a $\\times$ 10ⁿ avec 1 $\\leq$ a < 10 et n entier relatif."
+    },
+    {
+      "id": "puiss4_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Laquelle de ces écritures est une notation scientifique valide ?",
+      "image": null,
+      "choix": [
+        "35 $\\times1$0^{4}",
+        "0,5 $\\times1$0^{3}",
+        "3,5 $\\times1$0^{4}",
+        "350 $\\times1$0^{2}"
+      ],
+      "reponse": "3,5 $\\times1$0^{4}",
+      "explication": "3,5 $\\times1$0^{4} : 1 $\\leq$ 3,5 < 10 ✓. Les autres ne respectent pas 1 $\\leq$ a < 10."
+    },
+    {
+      "id": "puiss4_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 45 000 en notation scientifique.",
+      "image": null,
+      "choix": [
+        "4,5 $\\times1$0^{3}",
+        "4,5 $\\times1$0^{4}",
+        "45 $\\times1$0^{3}",
+        "0,45 $\\times1$0^{5}"
+      ],
+      "reponse": "4,5 $\\times1$0^{4}",
+      "explication": "4,5 $\\times1$0^{4}"
+    },
+    {
+      "id": "puiss4_n1_031",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 0,0037 en notation scientifique.",
+      "image": null,
+      "choix": [
+        "3,7 $\\times1$0^{2}",
+        "3,7 $\\times1$0^{-3}",
+        "3,7 $\\times1$0^{-4}",
+        "37 $\\times1$0^{-4}"
+      ],
+      "reponse": "3,7 $\\times1$0^{-3}",
+      "explication": "3,7 $\\times1$0^{-3}"
+    },
+    {
+      "id": "puiss4_n1_032",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 1 785 000 000 en notation scientifique.",
+      "image": null,
+      "choix": [
+        "1,785 $\\times1$0^{7}",
+        "1,785 $\\times1$0^{8}",
+        "1,785 $\\times1$0^{9}",
+        "17,85 $\\times1$0^{8}"
+      ],
+      "reponse": "1,785 $\\times1$0^{9}",
+      "explication": "1,785 $\\times1$0^{9}"
+    },
+    {
+      "id": "puiss4_n1_033",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 0,000 028 en notation scientifique.",
+      "image": null,
+      "choix": [
+        "2,8 $\\times1$0^{-4}",
+        "2,8 $\\times1$0^{-5}",
+        "2,8 $\\times1$0^{-6}",
+        "28 $\\times1$0^{-6}"
+      ],
+      "reponse": "2,8 $\\times1$0^{-5}",
+      "explication": "2,8 $\\times1$0^{-5}"
+    },
+    {
+      "id": "puiss4_n1_034",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 1,3 $\\times1$0^{5} en écriture décimale.",
+      "image": null,
+      "choix": [
+        "13 000",
+        "130 000",
+        "1 300 000",
+        "0,000 013"
+      ],
+      "reponse": "130 000",
+      "explication": "1,3 $\\times1$0^{5} = 130 000"
+    },
+    {
+      "id": "puiss4_n1_035",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la différence entre $1$0^{3} et $1$0^{-3} ?",
+      "image": null,
+      "choix": [
+        "$1$0^{3}=30 et $1$0^{-3}=−30",
+        "$1$0^{3}=1000 (grand nombre) et $1$0^{-3}=0,001 (petit nombre)",
+        "Ils sont égaux",
+        "$1$0^{3}>0 et $1$0^{-3}<0"
+      ],
+      "reponse": "$1$0^{3}=1000 (grand nombre) et $1$0^{-3}=0,001 (petit nombre)",
+      "explication": "$1$0^{3}=1000. $1$0^{-3}=$\\frac{1}{1000}$=0,001. L'exposant négatif donne l'inverse."
+    },
+    {
+      "id": "puiss4_n1_036",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 257 $\\times1$0^{-4} en écriture décimale.",
+      "image": null,
+      "choix": [
+        "0,00257",
+        "0,0257",
+        "0,257",
+        "2,57"
+      ],
+      "reponse": "0,0257",
+      "explication": "257 $\\times1$0^{-4} = 257 $\\times$ 0,0001 = 0,0257"
+    },
+    {
+      "id": "puiss4_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Comment trouver l'exposant n dans l'écriture scientifique de 6 200 000 ?",
       "image": null,
       "choix": [
         "On compte les zéros",
-        "On place la virgule après le premier chiffre : 6,2. Pour passer de 6,2 à 6 200 000, on multiplie par 10⁶",
+        "On place la virgule après le premier chiffre : 6,2. Pour passer de 6,2 à 6 200 000, on multiplie par $1$0^{6}",
         "On divise par 10",
         "On additionne tous les chiffres"
       ],
-      "reponse": "On place la virgule après le premier chiffre : 6,2. Pour passer de 6,2 à 6 200 000, on multiplie par 10⁶",
-      "explication": "On place la virgule après le premier chiffre : 6,2. 6,2 × 10⁶ = 6 200 000. Donc 6,2 × 10⁶."
+      "reponse": "On place la virgule après le premier chiffre : 6,2. Pour passer de 6,2 à 6 200 000, on multiplie par $1$0^{6}",
+      "explication": "On place la virgule après le premier chiffre : 6,2. 6,2 $\\times1$0^{6} = 6 200 000. Donc 6,2 $\\times1$0^{6}."
     },
     {
-      "id": "puiss4_n1_038", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 7⁻¹.",
+      "id": "puiss4_n1_038",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $7^{-1}$.",
       "image": null,
-      "choix": ["−7", "0", "1/7", "7"],
-      "reponse": "1/7",
-      "explication": "7⁻¹ = 1/7"
+      "choix": [
+        "−7",
+        "0",
+        "$\\frac{1}{7}$",
+        "7"
+      ],
+      "reponse": "$\\frac{1}{7}$",
+      "explication": "$7^{-1}$ = $\\frac{1}{7}$"
     },
     {
-      "id": "puiss4_n1_039", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "283 000 000 exprimé à l'aide d'une puissance de 10 :",
       "image": null,
-      "choix": ["283 × 10⁵", "283 × 10⁶", "2,83 × 10⁸", "2,83 × 10⁹"],
-      "reponse": "283 × 10⁶",
-      "explication": "283 × 10⁶"
+      "choix": [
+        "283 $\\times1$0^{5}",
+        "283 $\\times1$0^{6}",
+        "2,83 $\\times1$0^{8}",
+        "2,83 $\\times1$0^{9}"
+      ],
+      "reponse": "283 $\\times1$0^{6}",
+      "explication": "283 $\\times1$0^{6}"
     },
     {
-      "id": "puiss4_n1_040", "niveau": 1, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 10⁹ en écriture décimale.",
+      "id": "puiss4_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris $1$0^{9} en écriture décimale.",
       "image": null,
-      "choix": ["1 000 000", "10 000 000", "100 000 000", "1 000 000 000"],
+      "choix": [
+        "1 000 000",
+        "10 000 000",
+        "100 000 000",
+        "1 000 000 000"
+      ],
       "reponse": "1 000 000 000",
-      "explication": "10⁹ = 1 000 000 000 (1 milliard, 9 zéros)"
+      "explication": "$1$0^{9} = 1 000 000 000 (1 milliard, 9 zéros)"
     },
     {
-      "id": "puiss4_n2_001", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule : 3 × 2⁴ − 5² + 1.",
+      "id": "puiss4_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : 3 $\\times2^{4}$ − $5^{2}$ + 1.",
       "image": null,
-      "choix": ["20", "24", "26", "30"],
+      "choix": [
+        "20",
+        "24",
+        "26",
+        "30"
+      ],
       "reponse": "24",
-      "explication": "2⁴=16, 5²=25. 3×16=48. 48−25+1=24"
+      "explication": "$2^{4}$=16, $5^{2}$=25. 3$\\times$16=48. 48−25+1=24"
     },
     {
-      "id": "puiss4_n2_002", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule : (2³ − 3)².",
+      "id": "puiss4_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : ($2^{3}$ − 3)².",
       "image": null,
-      "choix": ["1", "9", "25", "64"],
+      "choix": [
+        "1",
+        "9",
+        "25",
+        "64"
+      ],
       "reponse": "25",
-      "explication": "2³=8. 8−3=5. 5²=25"
+      "explication": "$2^{3}$=8. 8−3=5. $5^{2}$=25"
     },
     {
-      "id": "puiss4_n2_003", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Quelle est la différence entre −2⁴ et (−2)⁴ ?",
+      "id": "puiss4_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la différence entre −$2^{4}$ et (−2)⁴ ?",
       "image": null,
       "choix": [
         "Ils sont égaux, tous deux valent 16",
-        "−2⁴=−16 et (−2)⁴=16, ils sont différents",
-        "−2⁴=16 et (−2)⁴=−16",
+        "−$2^{4}$=−16 et (−2)⁴=16, ils sont différents",
+        "−$2^{4}$=16 et (−2)⁴=−16",
         "Tous deux valent −16"
       ],
-      "reponse": "−2⁴=−16 et (−2)⁴=16, ils sont différents",
-      "explication": "−2⁴ = −(2⁴) = −16. (−2)⁴ = 16. Non, ils ne sont pas égaux."
+      "reponse": "−$2^{4}$=−16 et (−2)⁴=16, ils sont différents",
+      "explication": "−$2^{4}$ = −($2^{4}$) = −16. (−2)⁴ = 16. Non, ils ne sont pas égaux."
     },
     {
-      "id": "puiss4_n2_004", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 2³ × 2².",
+      "id": "puiss4_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $2^{3} \\times 2^{2}$.",
       "image": null,
-      "choix": ["16", "32", "64", "8"],
+      "choix": [
+        "16",
+        "32",
+        "64",
+        "8"
+      ],
       "reponse": "32",
-      "explication": "2³×2²=2⁵=32. Ou bien : 8×4=32."
+      "explication": "$2^{3} \\times 2^{2}=2^{5}$=32. Ou bien : 8$\\times$4=32."
     },
     {
-      "id": "puiss4_n2_005", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule 3⁴ ÷ 3².",
+      "id": "puiss4_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule $3^{4} \\div 3^{2}$.",
       "image": null,
-      "choix": ["3", "9", "27", "81"],
+      "choix": [
+        "3",
+        "9",
+        "27",
+        "81"
+      ],
       "reponse": "9",
-      "explication": "81÷9=9. Ou 3⁽⁴⁻²⁾=3²=9."
+      "explication": "81$\\div$9=9. Ou $3^{(4-2)}=3^{2}$=9."
     },
     {
-      "id": "puiss4_n2_006", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Convertis 7,2 × 10⁴ en écriture décimale.",
+      "id": "puiss4_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Convertis 7,2 $\\times1$0^{4} en écriture décimale.",
       "image": null,
-      "choix": ["720", "7 200", "72 000", "720 000"],
+      "choix": [
+        "720",
+        "7 200",
+        "72 000",
+        "720 000"
+      ],
       "reponse": "72 000",
       "explication": "72 000"
     },
     {
-      "id": "puiss4_n2_007", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Convertis 3,05 × 10⁻³ en écriture décimale.",
+      "id": "puiss4_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Convertis 3,05 $\\times1$0^{-3} en écriture décimale.",
       "image": null,
-      "choix": ["0,000305", "0,00305", "0,0305", "305"],
+      "choix": [
+        "0,000305",
+        "0,00305",
+        "0,0305",
+        "305"
+      ],
       "reponse": "0,00305",
       "explication": "0,00305"
     },
     {
-      "id": "puiss4_n2_008", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "La distance Terre-Lune est environ 384 000 km. En notation scientifique :",
       "image": null,
-      "choix": ["3,84 × 10⁴", "3,84 × 10⁵", "3,84 × 10⁶", "38,4 × 10⁴"],
-      "reponse": "3,84 × 10⁵",
-      "explication": "3,84 × 10⁵ km."
+      "choix": [
+        "3,84 $\\times1$0^{4}",
+        "3,84 $\\times1$0^{5}",
+        "3,84 $\\times1$0^{6}",
+        "38,4 $\\times1$0^{4}"
+      ],
+      "reponse": "3,84 $\\times1$0^{5}",
+      "explication": "3,84 $\\times1$0^{5} km."
     },
     {
-      "id": "puiss4_n2_009", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Lequel est le plus grand : 3,2 × 10⁵ ou 4,1 × 10⁴ ?",
-      "image": null,
-      "choix": ["4,1 × 10⁴", "3,2 × 10⁵", "Ils sont égaux", "On ne peut pas comparer"],
-      "reponse": "3,2 × 10⁵",
-      "explication": "3,2×10⁵=320 000. 4,1×10⁴=41 000. 3,2×10⁵ > 4,1×10⁴."
-    },
-    {
-      "id": "puiss4_n2_010", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris 0,000 000 045 en notation scientifique.",
-      "image": null,
-      "choix": ["4,5 × 10⁻⁷", "4,5 × 10⁻⁸", "4,5 × 10⁻⁹", "45 × 10⁻⁹"],
-      "reponse": "4,5 × 10⁻⁸",
-      "explication": "4,5 × 10⁻⁸. L'exposant est −8."
-    },
-    {
-      "id": "puiss4_n2_011", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule (2,5 × 10³) × (4 × 10²) en notation scientifique.",
-      "image": null,
-      "choix": ["1 × 10⁵", "1,0 × 10⁶", "10 × 10⁵", "2,0 × 10⁵"],
-      "reponse": "1,0 × 10⁶",
-      "explication": "2,5×4=10. 10³×10²=10⁵. 10 × 10⁵ = 1,0 × 10⁶ = 1 000 000"
-    },
-    {
-      "id": "puiss4_n2_012", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule (6 × 10⁷) ÷ (3 × 10⁴).",
-      "image": null,
-      "choix": ["2 × 10², soit 200", "2 × 10³, soit 2000", "2 × 10¹¹", "3 × 10³"],
-      "reponse": "2 × 10³, soit 2000",
-      "explication": "6÷3=2. 10⁷÷10⁴=10³. Résultat : 2 × 10³ = 2000"
-    },
-    {
-      "id": "puiss4_n2_013", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut aᵐ × aⁿ ?",
-      "image": null,
-      "choix": ["a⁽ᵐ⁺ⁿ⁾", "a⁽ᵐˣⁿ⁾", "a⁽ᵐ⁻ⁿ⁾", "(a+a)⁽ᵐ⁺ⁿ⁾"],
-      "reponse": "a⁽ᵐ⁺ⁿ⁾",
-      "explication": "aᵐ × aⁿ = a⁽ᵐ⁺ⁿ⁾. On additionne les exposants."
-    },
-    {
-      "id": "puiss4_n2_014", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut aᵐ ÷ aⁿ (a≠0) ?",
-      "image": null,
-      "choix": ["a⁽ᵐ⁺ⁿ⁾", "a⁽ᵐˣⁿ⁾", "a⁽ᵐ⁻ⁿ⁾", "a⁽ⁿ⁻ᵐ⁾"],
-      "reponse": "a⁽ᵐ⁻ⁿ⁾",
-      "explication": "aᵐ ÷ aⁿ = a⁽ᵐ⁻ⁿ⁾. On soustrait les exposants."
-    },
-    {
-      "id": "puiss4_n2_015", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Que vaut (aᵐ)ⁿ ?",
-      "image": null,
-      "choix": ["a⁽ᵐ⁺ⁿ⁾", "a⁽ᵐ⁻ⁿ⁾", "a⁽ᵐˣⁿ⁾", "a⁽ᵐ÷ⁿ⁾"],
-      "reponse": "a⁽ᵐˣⁿ⁾",
-      "explication": "(aᵐ)ⁿ = a⁽ᵐˣⁿ⁾. On multiplie les exposants."
-    },
-    {
-      "id": "puiss4_n2_016", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : 5³ × 5⁴.",
-      "image": null,
-      "choix": ["5⁶", "5⁷", "5¹²", "25⁷"],
-      "reponse": "5⁷",
-      "explication": "5⁽³⁺⁴⁾ = 5⁷"
-    },
-    {
-      "id": "puiss4_n2_017", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : 10⁵ × 10⁻³.",
-      "image": null,
-      "choix": ["10²", "10⁸", "10⁻¹⁵", "10⁻²"],
-      "reponse": "10²",
-      "explication": "10⁽⁵⁺⁽⁻³⁾⁾ = 10² = 100"
-    },
-    {
-      "id": "puiss4_n2_018", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : (3²)⁴.",
-      "image": null,
-      "choix": ["3⁶", "3⁸", "3⁹", "9⁴"],
-      "reponse": "3⁸",
-      "explication": "3⁽²ˣ⁴⁾ = 3⁸"
-    },
-    {
-      "id": "puiss4_n2_019", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : (10³)⁻².",
-      "image": null,
-      "choix": ["10⁻⁵", "10⁻⁶", "10⁶", "10⁵"],
-      "reponse": "10⁻⁶",
-      "explication": "10⁽³ˣ⁽⁻²⁾⁾ = 10⁻⁶"
-    },
-    {
-      "id": "puiss4_n2_020", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : 2⁸ ÷ 2³.",
-      "image": null,
-      "choix": ["2³", "2⁵", "2¹¹", "32"],
-      "reponse": "2⁵",
-      "explication": "2⁽⁸⁻³⁾ = 2⁵ = 32"
-    },
-    {
-      "id": "puiss4_n2_021", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : 10⁻² × 10⁵ ÷ 10³.",
-      "image": null,
-      "choix": ["10⁻⁶", "10⁰=1", "10⁶", "10²"],
-      "reponse": "10⁰=1",
-      "explication": "10⁽⁻²⁺⁵⁻³⁾ = 10⁰ = 1"
-    },
-    {
-      "id": "puiss4_n2_022", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Range dans l'ordre croissant : 4,2×10³ ; 8,1×10² ; 3,5×10⁴ ; 9×10³.",
+      "id": "puiss4_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Lequel est le plus grand : 3,2 $\\times1$0^{5} ou 4,1 $\\times1$0^{4} ?",
       "image": null,
       "choix": [
-        "8,1×10² < 4,2×10³ < 9×10³ < 3,5×10⁴",
-        "4,2×10³ < 8,1×10² < 3,5×10⁴ < 9×10³",
-        "3,5×10⁴ > 9×10³ > 4,2×10³ > 8,1×10²",
+        "4,1 $\\times1$0^{4}",
+        "3,2 $\\times1$0^{5}",
+        "Ils sont égaux",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "3,2 $\\times1$0^{5}",
+      "explication": "3,2$\\times1$0^{5}=320 000. 4,1$\\times1$0^{4}=41 000. 3,2$\\times1$0^{5} > 4,1$\\times1$0^{4}."
+    },
+    {
+      "id": "puiss4_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris 0,000 000 045 en notation scientifique.",
+      "image": null,
+      "choix": [
+        "4,5 $\\times1$0^{-7}",
+        "4,5 $\\times1$0^{-8}",
+        "4,5 $\\times1$0^{-9}",
+        "45 $\\times1$0^{-9}"
+      ],
+      "reponse": "4,5 $\\times1$0^{-8}",
+      "explication": "4,5 $\\times1$0^{-8}. L'exposant est −8."
+    },
+    {
+      "id": "puiss4_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule (2,5 $\\times1$0^{3}) $\\times$ (4 $\\times1$0^{2}) en notation scientifique.",
+      "image": null,
+      "choix": [
+        "1 $\\times1$0^{5}",
+        "1,0 $\\times1$0^{6}",
+        "10 $\\times1$0^{5}",
+        "2,0 $\\times1$0^{5}"
+      ],
+      "reponse": "1,0 $\\times1$0^{6}",
+      "explication": "2,5$\\times$4=10. $1$0^{3}$\\times1$0^{2}=$1$0^{5}. 10 $\\times1$0^{5} = 1,0 $\\times1$0^{6} = 1 000 000"
+    },
+    {
+      "id": "puiss4_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule (6 $\\times1$0^{7}) $\\div$ (3 $\\times1$0^{4}).",
+      "image": null,
+      "choix": [
+        "2 $\\times1$0^{2}, soit 200",
+        "2 $\\times1$0^{3}, soit 2000",
+        "2 $\\times1$0^{11}",
+        "3 $\\times1$0^{3}"
+      ],
+      "reponse": "2 $\\times1$0^{3}, soit 2000",
+      "explication": "6$\\div$3=2. $1$0^{7}$\\div1$0^{4}=$1$0^{3}. Résultat : 2 $\\times1$0^{3} = 2000"
+    },
+    {
+      "id": "puiss4_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut aᵐ $\\times$ aⁿ ?",
+      "image": null,
+      "choix": [
+        "$a^{(}$ᵐ⁺ⁿ⁾",
+        "$a^{(}$ᵐˣⁿ⁾",
+        "$a^{(}$ᵐ⁻ⁿ⁾",
+        "(a+a)⁽ᵐ⁺ⁿ⁾"
+      ],
+      "reponse": "$a^{(}$ᵐ⁺ⁿ⁾",
+      "explication": "aᵐ $\\times$ aⁿ = $a^{(}$ᵐ⁺ⁿ⁾. On additionne les exposants."
+    },
+    {
+      "id": "puiss4_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut aᵐ $\\div$ aⁿ (a$\\neq$0) ?",
+      "image": null,
+      "choix": [
+        "$a^{(}$ᵐ⁺ⁿ⁾",
+        "$a^{(}$ᵐˣⁿ⁾",
+        "$a^{(}$ᵐ⁻ⁿ⁾",
+        "$a^{(}$ⁿ⁻ᵐ⁾"
+      ],
+      "reponse": "$a^{(}$ᵐ⁻ⁿ⁾",
+      "explication": "aᵐ $\\div$ aⁿ = $a^{(}$ᵐ⁻ⁿ⁾. On soustrait les exposants."
+    },
+    {
+      "id": "puiss4_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que vaut (aᵐ)ⁿ ?",
+      "image": null,
+      "choix": [
+        "$a^{(}$ᵐ⁺ⁿ⁾",
+        "$a^{(}$ᵐ⁻ⁿ⁾",
+        "$a^{(}$ᵐˣⁿ⁾",
+        "$a^{(}$ᵐ$\\div$ⁿ⁾"
+      ],
+      "reponse": "$a^{(}$ᵐˣⁿ⁾",
+      "explication": "(aᵐ)ⁿ = $a^{(}$ᵐˣⁿ⁾. On multiplie les exposants."
+    },
+    {
+      "id": "puiss4_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : $5^{3} \\times 5^{4}$.",
+      "image": null,
+      "choix": [
+        "$5^{6}$",
+        "$5^{7}$",
+        "$5^{12}$",
+        "$2$5^{7}"
+      ],
+      "reponse": "$5^{7}$",
+      "explication": "$5^{(3}$⁺⁴⁾ = $5^{7}$"
+    },
+    {
+      "id": "puiss4_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : $1$0^{5} $\\times1$0^{-3}.",
+      "image": null,
+      "choix": [
+        "$1$0^{2}",
+        "$1$0^{8}",
+        "$1$0^{-15}",
+        "$1$0^{-2}"
+      ],
+      "reponse": "$1$0^{2}",
+      "explication": "$1$0^{(5}⁺⁽⁻³⁾⁾ = $1$0^{2} = 100"
+    },
+    {
+      "id": "puiss4_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : ($3^{2}$)⁴.",
+      "image": null,
+      "choix": [
+        "$3^{6}$",
+        "$3^{8}$",
+        "$3^{9}$",
+        "$9^{4}$"
+      ],
+      "reponse": "$3^{8}$",
+      "explication": "$3^{(2}$ˣ⁴⁾ = $3^{8}$"
+    },
+    {
+      "id": "puiss4_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : ($1$0^{3})⁻².",
+      "image": null,
+      "choix": [
+        "$1$0^{-5}",
+        "$1$0^{-6}",
+        "$1$0^{6}",
+        "$1$0^{5}"
+      ],
+      "reponse": "$1$0^{-6}",
+      "explication": "$1$0^{(3}ˣ⁽⁻²⁾⁾ = $1$0^{-6}"
+    },
+    {
+      "id": "puiss4_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : $2^{8} \\div 2^{3}$.",
+      "image": null,
+      "choix": [
+        "$2^{3}$",
+        "$2^{5}$",
+        "$2^{11}$",
+        "32"
+      ],
+      "reponse": "$2^{5}$",
+      "explication": "$2^{(8-3)}$ = $2^{5}$ = 32"
+    },
+    {
+      "id": "puiss4_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : $1$0^{-2} $\\times1$0^{5} $\\div1$0^{3}.",
+      "image": null,
+      "choix": [
+        "$1$0^{-6}",
+        "$1$0^{0}=1",
+        "$1$0^{6}",
+        "$1$0^{2}"
+      ],
+      "reponse": "$1$0^{0}=1",
+      "explication": "$1$0^{(-2}⁺⁵⁻³⁾ = $1$0^{0} = 1"
+    },
+    {
+      "id": "puiss4_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Range dans l'ordre croissant : 4,2$\\times1$0^{3} ; 8,1$\\times1$0^{2} ; 3,5$\\times1$0^{4} ; 9$\\times1$0^{3}.",
+      "image": null,
+      "choix": [
+        "8,1$\\times1$0^{2} < 4,2$\\times1$0^{3} < 9$\\times1$0^{3} < 3,5$\\times1$0^{4}",
+        "4,2$\\times1$0^{3} < 8,1$\\times1$0^{2} < 3,5$\\times1$0^{4} < 9$\\times1$0^{3}",
+        "3,5$\\times1$0^{4} > 9$\\times1$0^{3} > 4,2$\\times1$0^{3} > 8,1$\\times1$0^{2}",
         "Tous sont égaux"
       ],
-      "reponse": "8,1×10² < 4,2×10³ < 9×10³ < 3,5×10⁴",
-      "explication": "8,1×10²=810 < 4,2×10³=4200 < 9×10³=9000 < 3,5×10⁴=35000."
+      "reponse": "8,1$\\times1$0^{2} < 4,2$\\times1$0^{3} < 9$\\times1$0^{3} < 3,5$\\times1$0^{4}",
+      "explication": "8,1$\\times1$0^{2}=810 < 4,2$\\times1$0^{3}=4200 < 9$\\times1$0^{3}=9000 < 3,5$\\times1$0^{4}=35000."
     },
     {
-      "id": "puiss4_n2_023", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule (1,5 × 10⁴)² en notation scientifique.",
+      "id": "puiss4_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule (1,5 $\\times1$0^{4})² en notation scientifique.",
       "image": null,
-      "choix": ["2,25 × 10⁶", "2,25 × 10⁷", "2,25 × 10⁸", "3 × 10⁸"],
-      "reponse": "2,25 × 10⁸",
-      "explication": "1,5²=2,25. (10⁴)²=10⁸. Résultat : 2,25×10⁸"
+      "choix": [
+        "2,25 $\\times1$0^{6}",
+        "2,25 $\\times1$0^{7}",
+        "2,25 $\\times1$0^{8}",
+        "3 $\\times1$0^{8}"
+      ],
+      "reponse": "2,25 $\\times1$0^{8}",
+      "explication": "1,$5^{2}$=2,25. ($1$0^{4})²=$1$0^{8}. Résultat : 2,25$\\times1$0^{8}"
     },
     {
-      "id": "puiss4_n2_024", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "La vitesse de la lumière est 3 × 10⁸ m/s. En combien de secondes la lumière parcourt-elle 1 milliard de km (=10¹² m) ?",
+      "id": "puiss4_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "La vitesse de la lumière est 3 $\\times1$0^{8} $\\frac{m}{s}$. En combien de secondes la lumière parcourt-elle 1 milliard de km (=$1$0^{12} m) ?",
       "image": null,
-      "choix": ["1000 s", "3000 s", "3333 s", "10 000 s"],
+      "choix": [
+        "1000 s",
+        "3000 s",
+        "3333 s",
+        "10 000 s"
+      ],
       "reponse": "3333 s",
-      "explication": "t = 10¹² ÷ (3×10⁸) = (1/3)×10⁴ ≈ 3333 s."
+      "explication": "t = $1$0^{12} $\\div$ (3$\\times1$0^{8}) = ($\\frac{1}{3}$)$\\times1$0^{4} $\\approx$ 3333 s."
     },
     {
-      "id": "puiss4_n2_025", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris en notation scientifique : 45 × 10³.",
+      "id": "puiss4_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris en notation scientifique : 45 $\\times1$0^{3}.",
       "image": null,
-      "choix": ["4,5 × 10³", "4,5 × 10⁴", "45 × 10³", "0,45 × 10⁵"],
-      "reponse": "4,5 × 10⁴",
-      "explication": "45×10³ = 4,5×10⁴"
+      "choix": [
+        "4,5 $\\times1$0^{3}",
+        "4,5 $\\times1$0^{4}",
+        "45 $\\times1$0^{3}",
+        "0,45 $\\times1$0^{5}"
+      ],
+      "reponse": "4,5 $\\times1$0^{4}",
+      "explication": "45$\\times1$0^{3} = 4,5$\\times1$0^{4}"
     },
     {
-      "id": "puiss4_n2_026", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris en notation scientifique : 0,07 × 10⁻².",
+      "id": "puiss4_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris en notation scientifique : 0,07 $\\times1$0^{-2}.",
       "image": null,
-      "choix": ["7 × 10⁻³", "7 × 10⁻⁴", "0,7 × 10⁻³", "7 × 10⁻⁵"],
-      "reponse": "7 × 10⁻⁴",
-      "explication": "0,07×10⁻² = 7×10⁻²×10⁻² = 7×10⁻⁴"
+      "choix": [
+        "7 $\\times1$0^{-3}",
+        "7 $\\times1$0^{-4}",
+        "0,7 $\\times1$0^{-3}",
+        "7 $\\times1$0^{-5}"
+      ],
+      "reponse": "7 $\\times1$0^{-4}",
+      "explication": "0,07$\\times1$0^{-2} = 7$\\times1$0^{-2}$\\times1$0^{-2} = 7$\\times1$0^{-4}"
     },
     {
-      "id": "puiss4_n2_027", "niveau": 2, "type": "qcm", "avec_calculatrice": true,
-      "enonce": "La masse d'un proton est 1,67×10⁻²⁷ kg et d'un électron 9,11×10⁻³¹ kg. Combien de fois un proton est-il plus lourd ?",
+      "id": "puiss4_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "La masse d'un proton est 1,67$\\times1$0^{-27} kg et d'un électron 9,11$\\times1$0^{-31} kg. Combien de fois un proton est-il plus lourd ?",
       "image": null,
-      "choix": ["Environ 100", "Environ 500", "Environ 1836", "Environ 10 000"],
+      "choix": [
+        "Environ 100",
+        "Environ 500",
+        "Environ 1836",
+        "Environ 10 000"
+      ],
       "reponse": "Environ 1836",
-      "explication": "1,67×10⁻²⁷ ÷ (9,11×10⁻³¹) ≈ 0,183×10⁴ ≈ 1836 fois."
+      "explication": "1,67$\\times1$0^{-27} $\\div$ (9,11$\\times1$0^{-31}) $\\approx$ 0,183$\\times1$0^{4} $\\approx$ 1836 fois."
     },
     {
-      "id": "puiss4_n2_028", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule (3×10⁴) + (5×10³) en notation scientifique.",
+      "id": "puiss4_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule (3$\\times1$0^{4}) + (5$\\times1$0^{3}) en notation scientifique.",
       "image": null,
-      "choix": ["8 × 10³", "3,5 × 10⁴", "8 × 10⁴", "3,5 × 10⁷"],
-      "reponse": "3,5 × 10⁴",
-      "explication": "30 000 + 5 000 = 35 000 = 3,5 × 10⁴"
+      "choix": [
+        "8 $\\times1$0^{3}",
+        "3,5 $\\times1$0^{4}",
+        "8 $\\times1$0^{4}",
+        "3,5 $\\times1$0^{7}"
+      ],
+      "reponse": "3,5 $\\times1$0^{4}",
+      "explication": "30 000 + 5 000 = 35 000 = 3,5 $\\times1$0^{4}"
     },
     {
-      "id": "puiss4_n2_029", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : (a³ × a⁻¹)².",
+      "id": "puiss4_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : ($a^{3} \\times a^{-1}$)².",
       "image": null,
-      "choix": ["a⁴", "a⁶", "a²", "a⁻²"],
-      "reponse": "a⁴",
-      "explication": "(a⁽³⁺⁽⁻¹⁾⁾)² = (a²)² = a⁴"
+      "choix": [
+        "$a^{4}$",
+        "$a^{6}$",
+        "$a^{2}$",
+        "$a^{-2}$"
+      ],
+      "reponse": "$a^{4}$",
+      "explication": "($a^{(3}$⁺⁽⁻¹⁾⁾)² = ($a^{2}$)² = $a^{4}$"
     },
     {
-      "id": "puiss4_n2_030", "niveau": 2, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Quelle est la règle pour (aᵐ)ⁿ appliquée à (10⁻²)³ ?",
+      "id": "puiss4_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quelle est la règle pour (aᵐ)ⁿ appliquée à ($1$0^{-2})³ ?",
       "image": null,
-      "choix": ["10⁻⁵", "10⁻⁶", "10⁻⁸", "10⁻⁹"],
-      "reponse": "10⁻⁶",
-      "explication": "(10⁻²)³ = 10⁽⁻²ˣ³⁾ = 10⁻⁶"
+      "choix": [
+        "$1$0^{-5}",
+        "$1$0^{-6}",
+        "$1$0^{-8}",
+        "$1$0^{-9}"
+      ],
+      "reponse": "$1$0^{-6}",
+      "explication": "($1$0^{-2})³ = $1$0^{(-2}ˣ³⁾ = $1$0^{-6}"
     },
     {
-      "id": "puiss4_n3_001", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule : (2³ × 3²) ÷ (6²).",
+      "id": "puiss4_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : ($2^{3} \\times 3^{2}$) $\\div$ ($6^{2}$).",
       "image": null,
-      "choix": ["1", "2", "4", "6"],
+      "choix": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
       "reponse": "2",
-      "explication": "8×9=72. 6²=36. 72÷36=2"
+      "explication": "8$\\times$9=72. $6^{2}$=36. 72$\\div$36=2"
     },
     {
-      "id": "puiss4_n3_002", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Montre que 2¹⁰ = (2⁵)². Quelle est la valeur de 2¹⁰ ?",
+      "id": "puiss4_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Montre que $2^{10}$ = ($2^{5}$)². Quelle est la valeur de $2^{10}$ ?",
       "image": null,
-      "choix": ["512", "1024", "2048", "4096"],
+      "choix": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
       "reponse": "1024",
-      "explication": "(2⁵)² = 2¹⁰. 2⁵=32, 32²=1024."
+      "explication": "($2^{5}$)² = $2^{10}$. $2^{5}$=32, $3$2^{2}=1024."
     },
     {
-      "id": "puiss4_n3_003", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie : (a² × b³) × (a³ × b⁻¹).",
+      "id": "puiss4_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie : ($a^{2} \\times b^{3}$) $\\times$ ($a^{3} \\times b^{-1}$).",
       "image": null,
-      "choix": ["a⁵ × b", "a⁵ × b²", "a⁶ × b²", "a⁵ × b⁴"],
-      "reponse": "a⁵ × b²",
-      "explication": "a⁽²⁺³⁾ × b⁽³⁺⁽⁻¹⁾⁾ = a⁵ × b²"
+      "choix": [
+        "$a^{5}\\times$ b",
+        "$a^{5} \\times b^{2}$",
+        "$a^{6} \\times b^{2}$",
+        "$a^{5} \\times b^{4}$"
+      ],
+      "reponse": "$a^{5} \\times b^{2}$",
+      "explication": "$a^{(2}$⁺³⁾ $\\timesb^{(3}$⁺⁽⁻¹⁾⁾ = $a^{5} \\times b^{2}$"
     },
     {
-      "id": "puiss4_n3_004", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Prouve que 4ⁿ = 2²ⁿ. Que vaut 4³ exprimé en puissance de 2 ?",
+      "id": "puiss4_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Prouve que 4ⁿ = $2^{2}$ⁿ. Que vaut $4^{3}$ exprimé en puissance de 2 ?",
       "image": null,
-      "choix": ["2⁴", "2⁵", "2⁶", "2⁸"],
-      "reponse": "2⁶",
-      "explication": "4ⁿ = (2²)ⁿ = 2²ⁿ. Pour n=3 : 4³ = 2⁶ = 64."
+      "choix": [
+        "$2^{4}$",
+        "$2^{5}$",
+        "$2^{6}$",
+        "$2^{8}$"
+      ],
+      "reponse": "$2^{6}$",
+      "explication": "4ⁿ = ($2^{2}$)ⁿ = $2^{2}$ⁿ. Pour n=3 : $4^{3}$ = $2^{6}$ = 64."
     },
     {
-      "id": "puiss4_n3_005", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule : 10³ + 10² + 10¹ + 10⁰ + 10⁻¹.",
+      "id": "puiss4_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule : $1$0^{3} + $1$0^{2} + $1$0^{1} + $1$0^{0} + $1$0^{-1}.",
       "image": null,
-      "choix": ["1000,1", "1100,1", "1111,1", "1111,0"],
+      "choix": [
+        "1000,1",
+        "1100,1",
+        "1111,1",
+        "1111,0"
+      ],
       "reponse": "1111,1",
       "explication": "1000+100+10+1+0,1 = 1111,1"
     },
     {
-      "id": "puiss4_n3_006", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie (2ⁿ × 4ⁿ) ÷ 8ⁿ. Le résultat dépend-il de n ?",
+      "id": "puiss4_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie (2ⁿ $\\times$ 4ⁿ) $\\div$ 8ⁿ. Le résultat dépend-il de n ?",
       "image": null,
-      "choix": ["Oui, le résultat est 2ⁿ", "Oui, le résultat est 4ⁿ", "Non, le résultat est toujours 1", "Non, le résultat est toujours 2"],
+      "choix": [
+        "Oui, le résultat est 2ⁿ",
+        "Oui, le résultat est 4ⁿ",
+        "Non, le résultat est toujours 1",
+        "Non, le résultat est toujours 2"
+      ],
       "reponse": "Non, le résultat est toujours 1",
-      "explication": "2ⁿ×4ⁿ=2ⁿ×2²ⁿ=2³ⁿ. 8ⁿ=(2³)ⁿ=2³ⁿ. Quotient=1. Non, le résultat est toujours 1."
+      "explication": "2ⁿ$\\times$4ⁿ=2ⁿ$\\times2^{2}$ⁿ=$2^{3}$ⁿ. 8ⁿ=($2^{3}$)ⁿ=$2^{3}$ⁿ. Quotient=1. Non, le résultat est toujours 1."
     },
     {
-      "id": "puiss4_n3_007", "niveau": 3, "type": "qcm", "avec_calculatrice": true,
-      "enonce": "La distance Terre-Soleil est 1,5×10⁸ km. La lumière voyage à 3×10⁵ km/s. En combien de secondes la lumière atteint-elle la Terre ?",
+      "id": "puiss4_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "La distance Terre-Soleil est 1,5$\\times1$0^{8} km. La lumière voyage à 3$\\times1$0^{5} km/s. En combien de secondes la lumière atteint-elle la Terre ?",
       "image": null,
-      "choix": ["50 s", "500 s", "5 000 s", "50 000 s"],
+      "choix": [
+        "50 s",
+        "500 s",
+        "5 000 s",
+        "50 000 s"
+      ],
       "reponse": "500 s",
-      "explication": "t = 1,5×10⁸ ÷ (3×10⁵) = 500 s = 8 min 20 s."
+      "explication": "t = 1,5$\\times1$0^{8} $\\div$ (3$\\times1$0^{5}) = 500 s = 8 min 20 s."
     },
     {
-      "id": "puiss4_n3_008", "niveau": 3, "type": "qcm", "avec_calculatrice": true,
-      "enonce": "Un atome d'hydrogène a un diamètre de 1,06×10⁻¹⁰ m. Combien d'atomes faut-il aligner pour faire 1 mm (=10⁻³ m) ?",
+      "id": "puiss4_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un atome d'hydrogène a un diamètre de 1,06$\\times1$0^{-10} m. Combien d'atomes faut-il aligner pour faire 1 mm (=$1$0^{-3} m) ?",
       "image": null,
-      "choix": ["≈ 9,4 × 10⁴", "≈ 9,4 × 10⁵", "≈ 9,4 × 10⁶", "≈ 9,4 × 10⁷"],
-      "reponse": "≈ 9,4 × 10⁶",
-      "explication": "10⁻³ ÷ (1,06×10⁻¹⁰) ≈ 9,4×10⁶ atomes."
+      "choix": [
+        "$\\approx$ 9,4 $\\times1$0^{4}",
+        "$\\approx$ 9,4 $\\times1$0^{5}",
+        "$\\approx$ 9,4 $\\times1$0^{6}",
+        "$\\approx$ 9,4 $\\times1$0^{7}"
+      ],
+      "reponse": "$\\approx$ 9,4 $\\times1$0^{6}",
+      "explication": "$1$0^{-3} $\\div$ (1,06$\\times1$0^{-10}) $\\approx$ 9,4$\\times1$0^{6} atomes."
     },
     {
-      "id": "puiss4_n3_009", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Écris en notation scientifique : (2,4×10⁵) × (3,5×10⁻³) ÷ (1,2×10⁴).",
+      "id": "puiss4_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Écris en notation scientifique : (2,4$\\times1$0^{5}) $\\times$ (3,5$\\times1$0^{-3}) $\\div$ (1,2$\\times1$0^{4}).",
       "image": null,
-      "choix": ["7 × 10⁻¹", "7 × 10⁻²", "7 × 10⁻³", "0,7 × 10⁻¹"],
-      "reponse": "7 × 10⁻²",
-      "explication": "2,4×3,5/1,2=7. 10⁽⁵⁺⁽⁻³⁾⁻⁴⁾=10⁻². Résultat : 7×10⁻²=0,07"
+      "choix": [
+        "7 $\\times1$0^{-1}",
+        "7 $\\times1$0^{-2}",
+        "7 $\\times1$0^{-3}",
+        "0,7 $\\times1$0^{-1}"
+      ],
+      "reponse": "7 $\\times1$0^{-2}",
+      "explication": "2,4$\\times$3,$\\frac{5}{1}$,2=7. $1$0^{(5}⁺⁽⁻³⁾⁻⁴⁾=$1$0^{-2}. Résultat : 7$\\times1$0^{-2}=0,07"
     },
     {
-      "id": "puiss4_n3_010", "niveau": 3, "type": "qcm", "avec_calculatrice": true,
-      "enonce": "La population mondiale est 8×10⁹ personnes. Si chaque personne émet 5 tonnes de CO₂ par an, quelle est l'émission totale ?",
+      "id": "puiss4_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "La population mondiale est 8$\\times1$0^{9} personnes. Si chaque personne émet 5 tonnes de CO₂ par an, quelle est l'émission totale ?",
       "image": null,
-      "choix": ["4 × 10⁹ t", "4 × 10¹⁰ t", "4 × 10¹¹ t", "40 × 10⁹ t"],
-      "reponse": "4 × 10¹⁰ t",
-      "explication": "8×10⁹ × 5 = 40×10⁹ = 4×10¹⁰ tonnes de CO₂."
+      "choix": [
+        "4 $\\times1$0^{9} t",
+        "4 $\\times1$0^{10} t",
+        "4 $\\times1$0^{11} t",
+        "40 $\\times1$0^{9} t"
+      ],
+      "reponse": "4 $\\times1$0^{10} t",
+      "explication": "8$\\times1$0^{9} $\\times$ 5 = 40$\\times1$0^{9} = 4$\\times1$0^{10} tonnes de CO₂."
     },
     {
-      "id": "puiss4_n3_011", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Résous : 2ˣ = 32.",
       "image": null,
-      "choix": ["x=3", "x=4", "x=5", "x=6"],
+      "choix": [
+        "x=3",
+        "x=4",
+        "x=5",
+        "x=6"
+      ],
       "reponse": "x=5",
-      "explication": "32 = 2⁵, donc x = 5."
+      "explication": "32 = $2^{5}$, donc x = 5."
     },
     {
-      "id": "puiss4_n3_012", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Résous : 3ˣ = 81.",
       "image": null,
-      "choix": ["x=3", "x=4", "x=5", "x=6"],
+      "choix": [
+        "x=3",
+        "x=4",
+        "x=5",
+        "x=6"
+      ],
       "reponse": "x=4",
-      "explication": "81 = 3⁴, donc x = 4."
+      "explication": "81 = $3^{4}$, donc x = 4."
     },
     {
-      "id": "puiss4_n3_013", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Résous : 10ˣ = 0,001.",
       "image": null,
-      "choix": ["x=−1", "x=−2", "x=−3", "x=−4"],
+      "choix": [
+        "x=−1",
+        "x=−2",
+        "x=−3",
+        "x=−4"
+      ],
       "reponse": "x=−3",
-      "explication": "0,001 = 10⁻³, donc x = −3."
+      "explication": "0,001 = $1$0^{-3}, donc x = −3."
     },
     {
-      "id": "puiss4_n3_014", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Résous : 4ˣ = 8. (Aide : écrire tout en puissance de 2)",
       "image": null,
-      "choix": ["x=1", "x=3/2", "x=2", "x=3"],
-      "reponse": "x=3/2",
-      "explication": "4ˣ=(2²)ˣ=2²ˣ. 8=2³. Donc 2x=3 → x=3/2."
+      "choix": [
+        "x=1",
+        "x=$\\frac{3}{2}$",
+        "x=2",
+        "x=3"
+      ],
+      "reponse": "x=$\\frac{3}{2}$",
+      "explication": "4ˣ=($2^{2}$)ˣ=$2^{2}$ˣ. 8=$2^{3}$. Donc 2x=3 → x=$\\frac{3}{2}$."
     },
     {
-      "id": "puiss4_n3_015", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
+      "id": "puiss4_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
       "enonce": "Parmi ces nombres, lequel est le plus grand ?",
       "image": null,
-      "choix": ["2¹⁰=1024", "10³=1000", "3⁷=2187", "5⁵=3125"],
-      "reponse": "5⁵=3125",
-      "explication": "2¹⁰=1024, 10³=1000, 3⁷=2187, 5⁵=3125. 5⁵=3125 est le plus grand."
+      "choix": [
+        "$2^{10}$=1024",
+        "$1$0^{3}=1000",
+        "$3^{7}$=2187",
+        "$5^{5}$=3125"
+      ],
+      "reponse": "$5^{5}$=3125",
+      "explication": "$2^{10}$=1024, $1$0^{3}=1000, $3^{7}$=2187, $5^{5}$=3125. $5^{5}$=3125 est le plus grand."
     },
     {
-      "id": "puiss4_n3_016", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Pour n=3 : (10³−1)/9 = ?",
+      "id": "puiss4_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pour n=3 : ($1$0^{3}−1)/9 = ?",
       "image": null,
-      "choix": ["11", "111", "1111", "11111"],
+      "choix": [
+        "11",
+        "111",
+        "1111",
+        "11111"
+      ],
       "reponse": "111",
-      "explication": "(10³−1)/9 = 999/9 = 111. Et 1+10+10²=1+10+100=111. ✓"
+      "explication": "($1$0^{3}−1)/9 = $\\frac{999}{9}$ = 111. Et 1+10+$1$0^{2}=1+10+100=111. ✓"
     },
     {
-      "id": "puiss4_n3_017", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Simplifie (aⁿ × a⁻ⁿ) pour a≠0.",
+      "id": "puiss4_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Simplifie (aⁿ $\\timesa^{-}$ⁿ) pour a$\\neq$0.",
       "image": null,
-      "choix": ["a²ⁿ", "a⁰=1", "0", "Indéfini"],
-      "reponse": "a⁰=1",
-      "explication": "a⁽ⁿ⁺⁽⁻ⁿ⁾⁾ = a⁰ = 1"
+      "choix": [
+        "$a^{2}$ⁿ",
+        "$a^{0}$=1",
+        "0",
+        "Indéfini"
+      ],
+      "reponse": "$a^{0}$=1",
+      "explication": "$a^{(}$ⁿ⁺⁽⁻ⁿ⁾⁾ = $a^{0}$ = 1"
     },
     {
-      "id": "puiss4_n3_018", "niveau": 3, "type": "qcm", "avec_calculatrice": true,
-      "enonce": "Le PIB mondial est 10¹⁴ $. Réparti en 8×10⁹ personnes, quel est le PIB par personne en notation scientifique ?",
+      "id": "puiss4_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Le PIB mondial est $1$0^{14} $. Réparti en 8×$1$0^{9} personnes, quel est le PIB par personne en notation scientifique ?",
       "image": null,
-      "choix": ["1,25 × 10³ $", "1,25 × 10⁴ $", "1,25 × 10⁵ $", "8 × 10⁴ $"],
-      "reponse": "1,25 × 10⁴ $",
-      "explication": "10¹⁴ ÷ (8×10⁹) = (1/8)×10⁵ = 1,25×10⁴ = 12 500 $ par personne."
+      "choix": [
+        "1,25 $\\times1$0^{3} $",
+        "1,25 $\\times1$0^{4} $",
+        "1,25 $\\times1$0^{5} $",
+        "8 $\\times1$0^{4} $"
+      ],
+      "reponse": "1,25 $\\times1$0^{4} $",
+      "explication": "$1$0^{14} $\\div$ (8$\\times1$0^{9}) = ($\\frac{1}{8}$)$\\times1$0^{5} = 1,25$\\times1$0^{4} = 12 500 $ par personne."
     },
     {
-      "id": "puiss4_n3_019", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Pourquoi 2²ⁿ⁺¹ est-il toujours pair pour tout entier n≥0 ?",
+      "id": "puiss4_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi $2^{2}$ⁿ⁺¹ est-il toujours pair pour tout entier n$\\geq$0 ?",
       "image": null,
       "choix": [
         "Car 2n+1 est impair",
-        "Car 2²ⁿ⁺¹=2×2²ⁿ, qui est un multiple de 2",
+        "Car $2^{2}$ⁿ⁺¹=2$\\times2^{2}$ⁿ, qui est un multiple de 2",
         "Car 2 est pair",
         "Car 2ⁿ est toujours entier"
       ],
-      "reponse": "Car 2²ⁿ⁺¹=2×2²ⁿ, qui est un multiple de 2",
-      "explication": "2²ⁿ⁺¹ = 2 × 2²ⁿ. C'est un multiple de 2, donc toujours pair. CQFD."
+      "reponse": "Car $2^{2}$ⁿ⁺¹=2$\\times2^{2}$ⁿ, qui est un multiple de 2",
+      "explication": "$2^{2}$ⁿ⁺¹ = 2 $\\times2^{2}$ⁿ. C'est un multiple de 2, donc toujours pair. CQFD."
     },
     {
-      "id": "puiss4_n3_020", "niveau": 3, "type": "qcm", "avec_calculatrice": false,
-      "enonce": "Calcule la somme 1 + 2 + 4 + 8 + ... + 2⁹ (utilise la formule 2¹⁰ − 1).",
+      "id": "puiss4_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule la somme 1 + 2 + 4 + 8 + ... + $2^{9}$ (utilise la formule $2^{10}$ − 1).",
       "image": null,
-      "choix": ["511", "1022", "1023", "1024"],
+      "choix": [
+        "511",
+        "1022",
+        "1023",
+        "1024"
+      ],
       "reponse": "1023",
-      "explication": "2¹⁰ − 1 = 1024 − 1 = 1023"
+      "explication": "$2^{10}$ − 1 = 1024 − 1 = 1023"
     }
   ]
 }
