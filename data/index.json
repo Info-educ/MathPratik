@@ -91,12 +91,7 @@
       "id": "triangles_egaux_4eme",
       "fichier": "data/4eme/triangles_egaux_4eme.json",
       "niveau": "4eme"
-    },
-    {
-      "id": "calcul_litteral_5eme",
-      "fichier": "data/5eme/calcul_litteral_5eme.json",
-      "niveau": "5eme"
-    },
+    }
   ],
   "automatismes_notions": [
     {
