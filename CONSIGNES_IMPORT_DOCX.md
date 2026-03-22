@@ -15,6 +15,11 @@
 > Si des notations brutes subsistent dans le JSON livré, le rendu sera illisible pour les élèves.  
 > **Effectuer plusieurs passes de relecture KaTeX est obligatoire avant livraison.**
 
+> 📏 **RÈGLE ABSOLUE — 90 QUESTIONS MINIMUM PAR NOTION**  
+> **Chaque fichier JSON livré doit contenir exactement 90 questions**, réparties en 30 niv1, 30 niv2 et 30 niv3, quelle que soit la quantité de questions présentes dans le `.docx` source.  
+> Si le document ne contient pas suffisamment de questions, **Claude en génère autant que nécessaire** pour atteindre 90, en respectant la notion, le niveau scolaire, le style des questions existantes, et toutes les règles du présent document (QCM, KaTeX, cohérence pédagogique).  
+> Aucune livraison avec moins de 90 questions n'est acceptable.
+
 > 🧠 **RÈGLE ABSOLUE — COHÉRENCE ET LOGIQUE PÉDAGOGIQUE DE CHAQUE QUESTION**  
 > **Chaque question doit être relue dans son ensemble — énoncé, image, choix, réponse, explication — pour s'assurer qu'elle est cohérente, logique et qu'elle ne se contredit pas elle-même.**  
 > En particulier : **si une question s'appuie sur un schéma, vérifier que la question est bien adaptée au schéma ET que la réponse n'est pas déjà visible ou lisible dans le schéma** (ce qui rendrait la question triviale et sans intérêt pédagogique).  
@@ -583,7 +588,40 @@ Le moteur `buildQuestionPool()` dans `app.js` tire automatiquement :
 | Niveau 2  | **7 questions** | aléatoires parmi toutes les niv2 |
 | Niveau 3  | **1 question**  | aléatoire parmi toutes les niv3 |
 
-> **Recommandation :** Pour un tirage varié, prévoir au minimum **20 questions par niveau** (niv1 et niv2) et **5 questions minimum en niv3**.
+### 📏 Règle absolue — 90 questions par notion
+
+**Chaque fichier JSON livré doit contenir exactement 90 questions**, réparties comme suit :
+
+| Niveau | Nombre requis | Pourquoi |
+|--------|--------------|----------|
+| Niveau 1 | **30 questions** | Pool suffisant pour un tirage varié sur de nombreuses sessions |
+| Niveau 2 | **30 questions** | Idem |
+| Niveau 3 | **30 questions** | Idem |
+| **Total** | **90 questions** | |
+
+#### Si le document source contient moins de 90 questions
+
+Le nombre de questions dans le `.docx` n'a aucune importance : **Claude complète jusqu'à 90 quoi qu'il arrive.**
+
+Procédure de complétion :
+
+1. **Intégrer d'abord toutes les questions du document source** (converties en QCM si nécessaire).
+2. **Compter les questions manquantes** par niveau (niv1, niv2, niv3).
+3. **Générer les questions manquantes** en s'inspirant du style, des valeurs numériques et des situations du document source — mais avec des données différentes pour éviter les doublons.
+4. **Appliquer toutes les règles** aux questions générées : QCM à 4 choix, KaTeX, cohérence pédagogique, distracteurs crédibles.
+5. **Signaler dans le champ `explication`** des questions générées la mention `[Question générée]` pour distinguer les questions d'origine documentaire et les questions produites par Claude.
+
+#### Exemples de génération pour compléter
+
+| Notion | Stratégies pour générer des questions supplémentaires |
+|--------|------------------------------------------------------|
+| Pythagore | Varier les triplets pythagoriciens, changer les sommets nommés, proposer des réciproques, des démonstrations avec valeurs différentes |
+| Probabilités | Changer le nombre de boules, d'événements, la nature de l'expérience aléatoire |
+| Statistiques | Inventer de nouveaux jeux de données cohérents (notes de classe, températures, scores…) |
+| Équations | Varier les coefficients et les membres, proposer des inéquations, des équations à fractions |
+| Fractions | Changer les valeurs numériques, varier les opérations demandées, proposer des comparaisons |
+
+> **Qualité constante :** les questions générées doivent être d'une qualité identique aux questions du document source. Elles doivent couvrir l'ensemble du programme de la notion, pas seulement les sous-thèmes présents dans le document.
 
 ---
 
@@ -727,7 +765,8 @@ Avant de packager le zip à livrer :
 - [ ] `data/index.json` — nouvelle entrée ajoutée
 - [ ] Vérification Python (Étape 6) — tous les contrôles passent
 - [ ] Syntax check JS : `node --check js/app.js`
-- [ ] Au moins 20 questions niv1, 20 questions niv2, 5 questions niv3
+- [ ] **90 questions présentes** — exactement 30 niv1, 30 niv2, 30 niv3 (questions du docx + questions générées si nécessaire)
+- [ ] **Questions générées identifiées** — mention `[Question générée]` dans le champ `explication` des questions produites par Claude
 - [ ] Toutes les questions du document sont présentes (y compris les questions ouvertes converties en QCM)
 - [ ] **Toutes les notations mathématiques sont en KaTeX** — passes 1, 2 et 3 effectuées (voir checklist Étape 3-bis)
 - [ ] **Aucune expression mathématique en texte brut** dans aucun champ d'aucune question
@@ -743,9 +782,11 @@ Avant de packager le zip à livrer :
 1. Utilisateur envoie : exercices_pythagore_4eme.docx
 2. Claude lit le docx avec pandoc
 3. Claude extrait les images → images/4eme/pythagore/
-4. Claude génère data/4eme/pythagore_4eme.json
-   → TOUTES les questions converties en QCM à 4 choix (y compris questions ouvertes,
-     calculs, démonstrations, vrai/faux, constructions géométriques)
+4. Claude intègre toutes les questions du docx (converties en QCM)
+   puis compte les questions manquantes par niveau pour atteindre 90
+   (30 niv1 + 30 niv2 + 30 niv3) et génère les questions manquantes
+   → Questions générées marquées [Question générée] dans explication
+   → TOUTES les questions au format QCM à 4 choix
    → Distracteurs pédagogiquement crédibles (erreurs fréquentes)
    → Chemins d'images préfixés : "4eme/pythagore/nom_fichier.png"
    → Toutes notations mathématiques converties en KaTeX
