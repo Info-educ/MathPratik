@@ -66,6 +66,10 @@ async function loadAllData() {
     DB.automatismesNotions = index.automatismes_notions || [];
 
     const fichiers = index.fichiers || [];
+
+    // Exposer l'index pour le module enseignant
+    window._indexData = index;
+
     await Promise.all(fichiers.map(f => chargerFichierThematique(f)));
 
     renderHome();
@@ -1179,3 +1183,332 @@ if (document.readyState === 'loading') {
 } else {
   loadAllData();
 }
+
+
+// ══════════════════════════════════════════════════════
+//  MODULE ENSEIGNANT
+// ══════════════════════════════════════════════════════
+
+const TEACHER_PIN = '1789';
+
+const Teacher = {
+  pin:          '',
+  filterNiveau: 'all',
+  currentNotion: null,   // { id, fichier, niveau, label, icon, color, questions[] }
+  filteredQs:   [],
+  qIndex:       0,
+};
+
+// ── LOGIN ────────────────────────────────────────────
+
+function openTeacherLogin() {
+  Teacher.pin = '';
+  renderPinDisplay();
+  document.getElementById('pin-error').textContent = '';
+  document.getElementById('teacher-login-overlay').classList.add('open');
+}
+
+function closeTeacherLogin() {
+  document.getElementById('teacher-login-overlay').classList.remove('open');
+}
+
+function teacherOverlayClose(e) {
+  if (e.target === document.getElementById('teacher-login-overlay')) closeTeacherLogin();
+}
+
+function renderPinDisplay() {
+  for (let i = 0; i < 4; i++) {
+    const el = document.getElementById('pin-d' + i);
+    if (Teacher.pin.length > i) {
+      el.textContent = '●';
+      el.classList.add('filled');
+      el.classList.remove('error');
+    } else {
+      el.textContent = '·';
+      el.classList.remove('filled', 'error');
+    }
+  }
+}
+
+function pinKey(k) {
+  const errEl = document.getElementById('pin-error');
+  if (k === 'del') {
+    Teacher.pin = Teacher.pin.slice(0, -1);
+    errEl.textContent = '';
+    renderPinDisplay();
+    return;
+  }
+  if (k === 'ok') {
+    checkPin();
+    return;
+  }
+  if (Teacher.pin.length < 4) {
+    Teacher.pin += k;
+    renderPinDisplay();
+    if (Teacher.pin.length === 4) checkPin();
+  }
+}
+
+function checkPin() {
+  if (Teacher.pin === TEACHER_PIN) {
+    closeTeacherLogin();
+    showTeacherModule();
+  } else {
+    const errEl = document.getElementById('pin-error');
+    errEl.textContent = 'Code incorrect — réessayer';
+    for (let i = 0; i < 4; i++) {
+      const el = document.getElementById('pin-d' + i);
+      el.classList.add('error');
+    }
+    setTimeout(() => {
+      Teacher.pin = '';
+      renderPinDisplay();
+      errEl.textContent = '';
+    }, 900);
+  }
+}
+
+// ── ÉCRAN LISTE DES NOTIONS ──────────────────────────
+
+function showTeacherModule() {
+  showScreen('screen-teacher');
+  renderTeacherFilters();
+  renderTeacherNotionList();
+}
+
+function closeTeacherModule() {
+  showScreen('screen-home');
+}
+
+function renderTeacherFilters() {
+  const container = document.getElementById('teacher-filters');
+  const niveaux = DB.niveaux || {};
+  const chips = [{ key: 'all', label: 'Tous les niveaux', emoji: '📚' }];
+  Object.entries(niveaux).forEach(([k, v]) => {
+    chips.push({ key: k, label: v.label, emoji: v.emoji || '' });
+  });
+
+  container.innerHTML = chips.map(c => `
+    <button class="tf-chip ${Teacher.filterNiveau === c.key ? 'active' : ''}"
+      onclick="teacherSetFilter('${c.key}')">
+      ${c.emoji} ${c.label}
+    </button>
+  `).join('');
+}
+
+function teacherSetFilter(niveau) {
+  Teacher.filterNiveau = niveau;
+  renderTeacherFilters();
+  renderTeacherNotionList();
+}
+
+function renderTeacherNotionList() {
+  const container = document.getElementById('teacher-notion-list');
+  const statsLine = document.getElementById('teacher-stats-line');
+
+  const fichiers = (window._indexData && window._indexData.fichiers) || [];
+  const allNotions = [];
+
+  fichiers.forEach(f => {
+    if (Teacher.filterNiveau !== 'all' && f.niveau !== Teacher.filterNiveau) return;
+    const niveauData = DB.questions[f.niveau];
+    if (!niveauData) return;
+    // themeId = f.id (ex: pythagore_4eme)
+    const data = niveauData[f.id];
+    if (!data) return;
+    allNotions.push({
+      id:        f.id,
+      fichier:   f.fichier,
+      niveau:    f.niveau,
+      label:     data.label,
+      icon:      data.icon,
+      color:     data.color || 'var(--ac)',
+      questions: data.questions || [],
+    });
+  });
+
+  const totalQ = allNotions.reduce((s, n) => s + n.questions.length, 0);
+  statsLine.textContent = `${allNotions.length} notion${allNotions.length > 1 ? 's' : ''} · ${totalQ} questions`;
+
+  if (allNotions.length === 0) {
+    container.innerHTML = '<p style="text-align:center;color:var(--tx3);padding:32px 20px;font-size:0.88rem;">Aucune notion chargée pour ce filtre.</p>';
+    return;
+  }
+
+  const grouped = {};
+  allNotions.forEach(n => {
+    if (!grouped[n.niveau]) grouped[n.niveau] = [];
+    grouped[n.niveau].push(n);
+  });
+
+  const niveauLabels = DB.niveaux || {};
+  let html = '';
+
+  Object.entries(grouped).forEach(([niv, notions]) => {
+    const nvData = niveauLabels[niv] || { label: niv, emoji: '' };
+    html += `<div style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--tx3);padding:12px 0 6px;">${nvData.emoji || ''} ${nvData.label}</div>`;
+    notions.forEach(n => {
+      const n1 = n.questions.filter(q => q.niveau === 1).length;
+      const n2 = n.questions.filter(q => q.niveau === 2).length;
+      const n3 = n.questions.filter(q => q.niveau === 3).length;
+      const safeId = n.id.replace(/'/g, "\\'");
+      html += `
+        <div class="tn-card" style="--notion-color:${n.color}"
+          onclick="openTeacherReader('${safeId}')">
+          <div class="tn-icon">${n.icon}</div>
+          <div class="tn-info">
+            <div class="name">${n.label}</div>
+            <div class="meta">${n.questions.length} questions · ★ ${n1} &nbsp;★★ ${n2} &nbsp;★★★ ${n3}</div>
+          </div>
+          <div class="tn-arrow">›</div>
+        </div>`;
+    });
+  });
+
+  container.innerHTML = html;
+}
+
+// ── LECTEUR DE QUESTIONS ─────────────────────────────
+
+function openTeacherReader(notionId) {
+  const fichiers = (window._indexData && window._indexData.fichiers) || [];
+  const f = fichiers.find(x => x.id === notionId);
+  if (!f) return;
+  const niveauData = DB.questions[f.niveau];
+  if (!niveauData) return;
+  const data = niveauData[notionId];
+  if (!data) return;
+
+  Teacher.currentNotion = {
+    id:        notionId,
+    niveau:    f.niveau,
+    label:     data.label,
+    icon:      data.icon,
+    color:     data.color || 'var(--ac)',
+    questions: data.questions || [],
+  };
+  Teacher.filterLevel = 'all';
+  Teacher.qIndex = 0;
+  readerBuildFiltered();
+  showScreen('screen-teacher-reader');
+  renderReaderQuestion();
+}
+
+function readerBuildFiltered() {
+  const all = Teacher.currentNotion ? Teacher.currentNotion.questions : [];
+  if (!Teacher.filterLevel || Teacher.filterLevel === 'all') {
+    Teacher.filteredQs = all.slice();
+  } else {
+    Teacher.filteredQs = all.filter(q => q.niveau === Teacher.filterLevel);
+  }
+  Teacher.qIndex = 0;
+}
+
+function readerSetLevel(lvl) {
+  Teacher.filterLevel = lvl === 'all' ? 'all' : parseInt(lvl);
+  readerBuildFiltered();
+  // Update tabs
+  document.querySelectorAll('.rlt-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.lvl === String(lvl));
+  });
+  renderReaderQuestion();
+}
+
+function readerGo(delta) {
+  const max = Teacher.filteredQs.length - 1;
+  Teacher.qIndex = Math.max(0, Math.min(max, Teacher.qIndex + delta));
+  renderReaderQuestion();
+}
+
+function renderReaderQuestion() {
+  const qs = Teacher.filteredQs;
+  const idx = Teacher.qIndex;
+  const notion = Teacher.currentNotion;
+
+  document.getElementById('reader-notion-title').textContent =
+    (notion ? notion.icon + ' ' + notion.label : '—');
+
+  document.getElementById('rnav-cur').textContent   = qs.length ? idx + 1 : 0;
+  document.getElementById('rnav-total').textContent = qs.length;
+  document.getElementById('rnav-prev').disabled     = idx <= 0;
+  document.getElementById('rnav-next').disabled     = idx >= qs.length - 1;
+
+  const content = document.getElementById('reader-content');
+
+  if (!qs.length) {
+    content.innerHTML = '<p style="text-align:center;color:var(--tx3);padding:32px;font-size:0.88rem;">Aucune question pour ce filtre.</p>';
+    return;
+  }
+
+  const q = qs[idx];
+  const letters = ['A', 'B', 'C', 'D'];
+  const niveauLabel = ['', '★ Niveau 1', '★★ Niveau 2', '★★★ Niveau 3'];
+  const niveauClass = ['', 'niv1', 'niv2', 'niv3'];
+
+  const calcBadge = q.avec_calculatrice
+    ? '<span class="reader-calc-badge">🖩 Calculatrice</span>' : '';
+
+  const imageHtml = q.image
+    ? `<img class="reader-image" src="images/${q.image}" alt="Illustration" loading="lazy">`
+    : '';
+
+  const enonceHtml = q.enonce_html || q.enonce || '';
+
+  const choicesHtml = (q.choix || []).map((c, i) => {
+    const isAns = c === q.reponse;
+    return `<div class="reader-choice ${isAns ? 'is-answer' : ''}">
+      <div class="reader-choice-letter">${letters[i]}</div>
+      <div>${c}</div>
+    </div>`;
+  }).join('');
+
+  content.innerHTML = `
+    <div class="reader-q-header">
+      <span class="reader-q-num">Question ${idx + 1} / ${qs.length}</span>
+      <span class="reader-level-badge ${niveauClass[q.niveau] || ''}">${niveauLabel[q.niveau] || ''}</span>
+      ${calcBadge}
+    </div>
+
+    <div class="reader-enonce">${enonceHtml}</div>
+    ${imageHtml}
+    <div class="reader-choices">${choicesHtml}</div>
+
+    <div class="reader-explication">
+      <strong>Explication</strong>
+      ${q.explication || '<em>—</em>'}
+    </div>
+
+    <div class="reader-id-badge">ID : ${q.id || '—'}</div>
+
+    <div class="reader-jump-row">
+      <span class="reader-jump-label">Aller à la question :</span>
+      <input type="number" class="reader-jump-input" id="reader-jump-input"
+        min="1" max="${qs.length}" placeholder="${idx+1}">
+      <button class="reader-jump-btn" onclick="readerJump()">Go</button>
+    </div>
+  `;
+
+  // Rendu KaTeX
+  if (window.renderMathInElement) {
+    renderMathInElement(content, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$',  right: '$',  display: false },
+      ],
+      throwOnError: false,
+    });
+  }
+
+  // Scroll en haut du contenu
+  content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function readerJump() {
+  const inp = document.getElementById('reader-jump-input');
+  const val = parseInt(inp ? inp.value : '');
+  if (!isNaN(val)) {
+    Teacher.qIndex = Math.max(0, Math.min(Teacher.filteredQs.length - 1, val - 1));
+    renderReaderQuestion();
+  }
+}
+
