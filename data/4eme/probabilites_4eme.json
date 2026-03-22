@@ -29,7 +29,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "L'expérience 'lancer une pièce' est représentée ci-dessous. Combien y a-t-il d'issues possibles ?",
-      "image": "probabilites/e4fcb878b41d0f4df3bfc2ff1b7ea25e580fd68d.png",
+      "image": "4eme/probabilites/e4fcb878b41d0f4df3bfc2ff1b7ea25e580fd68d.png",
       "choix": [
         "1",
         "2",
@@ -45,7 +45,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure de la pièce, quelle est la probabilité d'obtenir FACE ?",
-      "image": "probabilites/e4fcb878b41d0f4df3bfc2ff1b7ea25e580fd68d.png",
+      "image": "4eme/probabilites/e4fcb878b41d0f4df3bfc2ff1b7ea25e580fd68d.png",
       "choix": [
         "0",
         "$\\frac{1}{4}$",
@@ -109,7 +109,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "On lance une pièce équilibrée (PILE et FACE). Quelle est la somme des probabilités de toutes ses issues ?",
-      "image": "probabilites/e4fcb878b41d0f4df3bfc2ff1b7ea25e580fd68d.png",
+      "image": "4eme/probabilites/e4fcb878b41d0f4df3bfc2ff1b7ea25e580fd68d.png",
       "choix": [
         "0",
         "$\\frac{1}{2}$",
@@ -125,7 +125,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur ce dé cubique équilibré, combien y a-t-il d'issues possibles ?",
-      "image": "probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
+      "image": "4eme/probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
       "choix": [
         "3",
         "4",
@@ -141,7 +141,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les issues du dé équilibré sont équiprobables. Quelle est la probabilité de chaque issue ?",
-      "image": "probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
+      "image": "4eme/probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
       "choix": [
         "1",
         "$\\frac{1}{2}$",
@@ -189,7 +189,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure, les cases vertes représentent l'événement A : « obtenir un multiple de 3 ». Quelles sont les issues de A ?",
-      "image": "probabilites/de195dc4e9178c95fae91b27d99d14d761022083.png",
+      "image": "4eme/probabilites/de195dc4e9178c95fae91b27d99d14d761022083.png",
       "choix": [
         "1 et 2",
         "2 et 4",
@@ -205,7 +205,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Calcule P(A) = probabilité d'obtenir un multiple de 3 avec le dé équilibré (voir figure).",
-      "image": "probabilites/de195dc4e9178c95fae91b27d99d14d761022083.png",
+      "image": "4eme/probabilites/de195dc4e9178c95fae91b27d99d14d761022083.png",
       "choix": [
         "$\\frac{1}{6}$",
         "$\\frac{1}{3}$",
@@ -221,7 +221,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure, l'événement C = « strictement supérieur à 4 ». Quelles sont les issues ?",
-      "image": "probabilites/341d1376fa5435806edbfd8767699cb3f0cbf145.png",
+      "image": "4eme/probabilites/341d1376fa5435806edbfd8767699cb3f0cbf145.png",
       "choix": [
         "4 et 5",
         "5 et 6",
@@ -237,7 +237,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Calcule P(C) = probabilité d'obtenir strictement plus de 4 avec le dé équilibré (voir figure).",
-      "image": "probabilites/341d1376fa5435806edbfd8767699cb3f0cbf145.png",
+      "image": "4eme/probabilites/341d1376fa5435806edbfd8767699cb3f0cbf145.png",
       "choix": [
         "$\\frac{1}{6}$",
         "$\\frac{1}{3}$",
@@ -253,7 +253,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Calcule P(pair) = probabilité d'obtenir un nombre pair avec le dé (voir figure).",
-      "image": "probabilites/45f544c25d2b9122c6c168c3160730397ad855fd.png",
+      "image": "4eme/probabilites/45f544c25d2b9122c6c168c3160730397ad855fd.png",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{1}{3}$",
@@ -269,7 +269,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur l'axe des probabilités, entre quelles valeurs se situe toujours une probabilité ?",
-      "image": "probabilites/187ca11176a4e2e5e47f108dd836fcc801b89988.png",
+      "image": "4eme/probabilites/187ca11176a4e2e5e47f108dd836fcc801b89988.png",
       "choix": [
         "Entre −1 et 1",
         "Entre 0 et 1",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur l'axe des probabilités, quelle est la probabilité d'un événement IMPOSSIBLE ?",
-      "image": "probabilites/187ca11176a4e2e5e47f108dd836fcc801b89988.png",
+      "image": "4eme/probabilites/187ca11176a4e2e5e47f108dd836fcc801b89988.png",
       "choix": [
         "1",
         "$\\frac{1}{2}$",
@@ -301,7 +301,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quelle est la probabilité d'un événement CERTAIN ?",
-      "image": "probabilites/187ca11176a4e2e5e47f108dd836fcc801b89988.png",
+      "image": "4eme/probabilites/187ca11176a4e2e5e47f108dd836fcc801b89988.png",
       "choix": [
         "0",
         "$\\frac{1}{2}$",
@@ -349,7 +349,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Le tableau montre les fréquences de FACE selon le nombre de lancers. Que se passe-t-il quand on lance beaucoup de fois ?",
-      "image": "probabilites/07f11a76bb16f5653143834af4891270da0885ae.png",
+      "image": "4eme/probabilites/07f11a76bb16f5653143834af4891270da0885ae.png",
       "choix": [
         "La fréquence s'éloigne de 0,5",
         "La fréquence se rapproche de 0,5",
@@ -397,7 +397,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "L'urne ci-dessous contient des boules de 3 couleurs (3 rouges, 2 vertes, 4 bleues). Quelle est la probabilité de tirer une boule rouge ?",
-      "image": "probabilites/058cc49fde44df902da94ec8588ffdfdbba5db48.png",
+      "image": "4eme/probabilites/058cc49fde44df902da94ec8588ffdfdbba5db48.png",
       "choix": [
         "$\\frac{1}{3}$",
         "$\\frac{2}{9}$",
@@ -413,7 +413,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Avec la même urne (3 rouges, 2 vertes, 4 bleues), quelle est la probabilité de NE PAS tirer une boule rouge ?",
-      "image": "probabilites/058cc49fde44df902da94ec8588ffdfdbba5db48.png",
+      "image": "4eme/probabilites/058cc49fde44df902da94ec8588ffdfdbba5db48.png",
       "choix": [
         "$\\frac{1}{3}$",
         "$\\frac{2}{3}$",
@@ -429,7 +429,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "La roue de fortune ci-dessous a 4 secteurs. Le secteur Rouge mesure$120°$. Quelle est la probabilité de tomber sur Rouge ?",
-      "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
+      "image": "4eme/probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{4}$",
         "$\\frac{1}{2}$",
@@ -445,7 +445,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la roue (Bleu =$90°$, Vert =$90°$), quelle est la probabilité d'obtenir Bleu OU Vert ?",
-      "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
+      "image": "4eme/probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{4}$",
         "$\\frac{1}{3}$",
@@ -653,7 +653,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Le tableau ci-dessous donne les probabilités d'un dé truqué. Quelle est la somme de toutes ces probabilités ?",
-      "image": "probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
+      "image": "4eme/probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
       "choix": [
         "0,90",
         "0,95",
@@ -669,7 +669,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Avec le dé truqué (P(2)=0,10 ; P(4)=0,10 ; P(6)=0,05), calcule P(B) = P(nombre pair).",
-      "image": "probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
+      "image": "4eme/probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
       "choix": [
         "0,20",
         "0,25",
@@ -685,7 +685,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Avec le dé truqué (P(3)=0,40 ; P(4)=0,10), calcule P(obtenir 3 ou 4).",
-      "image": "probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
+      "image": "4eme/probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
       "choix": [
         "0,30",
         "0,40",
@@ -701,7 +701,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Pour un dé équilibré à 6 faces, toutes les probabilités dans le tableau sont égales. Quelle est chacune d'elles ?",
-      "image": "probabilites/c004d7c484d894b30e280bfd07564e0ae898ccf2.png",
+      "image": "4eme/probabilites/c004d7c484d894b30e280bfd07564e0ae898ccf2.png",
       "choix": [
         "0,1",
         "$\\frac{1}{6}$",
@@ -717,7 +717,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Un tableau de dé truqué a 6 cases. Les probabilités connues sont 0,2 + 0,3 + 0,1 + 0,1 = 0,7. Les deux cases restantes sont égales. Quelle est chacune de ces deux probabilités manquantes ?",
-      "image": "probabilites/21089ebd0dd7f45405c547c2909973794aecf6c9.png",
+      "image": "4eme/probabilites/21089ebd0dd7f45405c547c2909973794aecf6c9.png",
       "choix": [
         "0,10",
         "0,15",
@@ -733,7 +733,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "L'événement A sur le dé est illustré ci-dessous (case rouge = {1}). Quelle est P(Ā) ?",
-      "image": "probabilites/10064de9f566ed85c1b3f0ed3c56d672dd389cb4.png",
+      "image": "4eme/probabilites/10064de9f566ed85c1b3f0ed3c56d672dd389cb4.png",
       "choix": [
         "$\\frac{1}{6}$",
         "$\\frac{2}{6}$",
@@ -749,7 +749,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "La figure montre A = {1} et B = {5, 6} sur le dé. Ces événements sont-ils incompatibles ? Quelle est P(A ou B) ?",
-      "image": "probabilites/9f1ee46611e67baf62f984908e822e623734abd7.png",
+      "image": "4eme/probabilites/9f1ee46611e67baf62f984908e822e623734abd7.png",
       "choix": [
         "Non incompatibles, P =$\\frac{3}{6}$",
         "Oui incompatibles, P =$\\frac{1}{2}$",
@@ -765,7 +765,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Avec le dé équilibré, calcule P(obtenir un nombre impair).",
-      "image": "probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
+      "image": "4eme/probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
       "choix": [
         "$\\frac{1}{6}$",
         "$\\frac{1}{3}$",
@@ -781,7 +781,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Calcule P(obtenir un nombre premier) avec le dé équilibré.",
-      "image": "probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
+      "image": "4eme/probabilites/dc308564acd806b48fcc9f83a2d013ed4af56899.png",
       "choix": [
         "$\\frac{1}{6}$",
         "$\\frac{1}{3}$",
@@ -813,7 +813,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "L'urne contient 3 rouges, 2 vertes, 4 bleues. Calcule P(A) = P(bleue).",
-      "image": "probabilites/604d4259160db3be9bd5ae3a1b79480e37e05a15.png",
+      "image": "4eme/probabilites/604d4259160db3be9bd5ae3a1b79480e37e05a15.png",
       "choix": [
         "$\\frac{3}{9}$",
         "$\\frac{4}{9}$",
@@ -941,7 +941,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Avec la roue de fortune (Jaune =$60°$), calcule P(jaune).",
-      "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
+      "image": "4eme/probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{4}$",
         "$\\frac{1}{5}$",
@@ -957,7 +957,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la roue (Rouge =$120°$), calcule P(ne pas obtenir Rouge).",
-      "image": "probabilites/796066f858cb766f540933912f11bda580372fcc.png",
+      "image": "4eme/probabilites/796066f858cb766f540933912f11bda580372fcc.png",
       "choix": [
         "$\\frac{1}{3}$",
         "$\\frac{1}{2}$",
@@ -973,7 +973,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "L'urne contient 5 rouges, 2 jaunes, 3 bleues (total 10). Calcule P(rouge ou bleue).",
-      "image": "probabilites/b5275fc90a4414dff2cf793749e91962f1d52d98.png",
+      "image": "4eme/probabilites/b5275fc90a4414dff2cf793749e91962f1d52d98.png",
       "choix": [
         "$\\frac{1}{2}$",
         "$\\frac{3}{5}$",
@@ -1133,7 +1133,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Le dé truqué a P(3)=0,40 et P(6)=0,05. Calcule P(obtenir un nombre NON multiple de 3).",
-      "image": "probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
+      "image": "4eme/probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
       "choix": [
         "0,40",
         "0,45",
@@ -1213,7 +1213,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure, A = {1}, B = {5,6} (incompatibles). Quelle est P(ni A ni B) ?",
-      "image": "probabilites/9f1ee46611e67baf62f984908e822e623734abd7.png",
+      "image": "4eme/probabilites/9f1ee46611e67baf62f984908e822e623734abd7.png",
       "choix": [
         "$\\frac{1}{6}$",
         "$\\frac{1}{3}$",
@@ -1261,7 +1261,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Une pièce est lancée 500 fois, la fréquence de FACE est 0,496. Combien de fois FACE est-il apparu ?",
-      "image": "probabilites/07f11a76bb16f5653143834af4891270da0885ae.png",
+      "image": "4eme/probabilites/07f11a76bb16f5653143834af4891270da0885ae.png",
       "choix": [
         "246",
         "247",

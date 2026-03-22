@@ -333,7 +333,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme de calcul PC1 : multiplier par (−2) puis ajouter 5. Pour n=3, quel est le résultat ?",
-      "image": "relatifs/08e3ea03922fcb55783b0d91d838d6e04be77273.png",
+      "image": "4eme/relatifs/08e3ea03922fcb55783b0d91d838d6e04be77273.png",
       "choix": [
         "−11",
         "−1",
@@ -349,7 +349,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC1 : multiplier par (−2) puis ajouter 5. Pour n=−4, quel est le résultat ?",
-      "image": "relatifs/08e3ea03922fcb55783b0d91d838d6e04be77273.png",
+      "image": "4eme/relatifs/08e3ea03922fcb55783b0d91d838d6e04be77273.png",
       "choix": [
         "3",
         "7",
@@ -365,7 +365,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC2 : soustraire (−3) puis multiplier par (−4). Pour n=0, quel est le résultat ?",
-      "image": "relatifs/c4ce262527737d8d389766277a6f4d68a7fd68c9.png",
+      "image": "4eme/relatifs/c4ce262527737d8d389766277a6f4d68a7fd68c9.png",
       "choix": [
         "−3",
         "+3",
@@ -381,7 +381,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC3 : ajouter (−6) puis diviser par (−2). Pour n=10, quel est le résultat ?",
-      "image": "relatifs/7f1d158759843eb92e4cb4f0a7f9ac76c182f54f.png",
+      "image": "4eme/relatifs/7f1d158759843eb92e4cb4f0a7f9ac76c182f54f.png",
       "choix": [
         "−2",
         "+2",
@@ -397,7 +397,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC4 : multiplier par (−3) puis soustraire 7. Pour n=−2, quel est le résultat ?",
-      "image": "relatifs/0dd793300f54c6098cd475d6ee3400d96fca7b5a.png",
+      "image": "4eme/relatifs/0dd793300f54c6098cd475d6ee3400d96fca7b5a.png",
       "choix": [
         "13",
         "−13",
@@ -861,7 +861,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC6 : multiplier par (−5) puis prendre l'opposé. Pour n=2, quel est le résultat ?",
-      "image": "relatifs/991bd90a68ef46c15263e7346bf3f5d49f95eefe.png",
+      "image": "4eme/relatifs/991bd90a68ef46c15263e7346bf3f5d49f95eefe.png",
       "choix": [
         "−10",
         "+10",
@@ -877,7 +877,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC7 : diviser par (−2) puis multiplier par (−6). Pour n=8, quel est le résultat ?",
-      "image": "relatifs/41ca7ffa315014abc4d3c8d9418254eeeb2ee331.png",
+      "image": "4eme/relatifs/41ca7ffa315014abc4d3c8d9418254eeeb2ee331.png",
       "choix": [
         "−24",
         "+24",
@@ -893,7 +893,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC8 : soustraire (−5) puis soustraire (−3). Pour n=1, quel est le résultat ?",
-      "image": "relatifs/86a7e028c7ab13f6fe2610a7272f88beb0f34786.png",
+      "image": "4eme/relatifs/86a7e028c7ab13f6fe2610a7272f88beb0f34786.png",
       "choix": [
         "−7",
         "+7",
@@ -909,7 +909,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC9 : soustraire 4, multiplier par 3, ajouter 6, diviser par 4. Pour n=6, quel est le résultat ?",
-      "image": "relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
+      "image": "4eme/relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
       "choix": [
         "1",
         "2",
@@ -925,7 +925,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC10 : multiplier par (−2) puis ajouter 8. Quel nombre donne le résultat −4 ?",
-      "image": "relatifs/1d6d9dc5086c7181ab315fe8868c022d532ca518.png",
+      "image": "4eme/relatifs/1d6d9dc5086c7181ab315fe8868c022d532ca518.png",
       "choix": [
         "n=−6",
         "n=6",
@@ -1053,7 +1053,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC7 : diviser par (−2) puis multiplier par (−6). Pour n=−6, quel est le résultat ?",
-      "image": "relatifs/41ca7ffa315014abc4d3c8d9418254eeeb2ee331.png",
+      "image": "4eme/relatifs/41ca7ffa315014abc4d3c8d9418254eeeb2ee331.png",
       "choix": [
         "−18",
         "+18",
@@ -1117,7 +1117,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC9 : soustraire 4, multiplier par 3, ajouter 6, diviser par 4. Pour quel nombre obtient-on 0 ?",
-      "image": "relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
+      "image": "4eme/relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
       "choix": [
         "n=0",
         "n=2",
@@ -1293,7 +1293,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC11 : multiplier par (−1,5) puis ajouter 4,5. Pour n=−4, quel est le résultat ?",
-      "image": "relatifs/fa3c869cca130de531e5a503138b30563196e164.png",
+      "image": "4eme/relatifs/fa3c869cca130de531e5a503138b30563196e164.png",
       "choix": [
         "4,5",
         "8,5",
@@ -1309,7 +1309,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC12 : multiplier par (−3) puis ajouter 2x. Pour n=5, quel est le résultat ? (Résultat = −x, soit l'opposé du départ)",
-      "image": "relatifs/5cdd66097aa3514d64625add27defca27b258050.png",
+      "image": "4eme/relatifs/5cdd66097aa3514d64625add27defca27b258050.png",
       "choix": [
         "−10",
         "+10",
@@ -1325,7 +1325,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC13 : multiplier par (−4) puis soustraire 8. Quel nombre x faut-il pour obtenir 0 ?",
-      "image": "relatifs/4492262575c469cdd04d0a0b580923e4b801ef96.png",
+      "image": "4eme/relatifs/4492262575c469cdd04d0a0b580923e4b801ef96.png",
       "choix": [
         "x=−2",
         "x=2",
@@ -1341,7 +1341,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC14 à plusieurs étapes. Pour n=2, quel est le résultat ? (Voir image)",
-      "image": "relatifs/54324a0eec8ff5d32615f24c2b777e980267b2e3.png",
+      "image": "4eme/relatifs/54324a0eec8ff5d32615f24c2b777e980267b2e3.png",
       "choix": [
         "−2",
         "+2",
@@ -1357,7 +1357,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC15 avec plusieurs étapes (voir image). Pour n=−4, quel résultat ?",
-      "image": "relatifs/dc74b3c4e79e4b710242f7bee9307c1652a9f688.png",
+      "image": "4eme/relatifs/dc74b3c4e79e4b710242f7bee9307c1652a9f688.png",
       "choix": [
         "−6",
         "+6",
@@ -1405,7 +1405,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC11 pour n : le résultat est −1,5n+4,5. Pour quelle valeur de n obtient-on 0 ?",
-      "image": "relatifs/fa3c869cca130de531e5a503138b30563196e164.png",
+      "image": "4eme/relatifs/fa3c869cca130de531e5a503138b30563196e164.png",
       "choix": [
         "n=0",
         "n=2",
@@ -1421,7 +1421,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Calcule : Programme PC9 pour n=−2 (soustraire 4,$\\times$3, +6,$\\div$4)",
-      "image": "relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
+      "image": "4eme/relatifs/93c3efb7e19bf49a622a0bf83685c31ecee10121.png",
       "choix": [
         "−4",
         "−3",
@@ -1437,7 +1437,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Programme PC12 : résultat = −x (opposé du départ). Pour n=−2, quel est le résultat ?",
-      "image": "relatifs/5cdd66097aa3514d64625add27defca27b258050.png",
+      "image": "4eme/relatifs/5cdd66097aa3514d64625add27defca27b258050.png",
       "choix": [
         "−4",
         "+2",

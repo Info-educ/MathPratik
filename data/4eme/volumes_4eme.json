@@ -301,7 +301,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calculer le volume de ce parallélépipède rectangle (dimensions visibles sur la figure).",
-      "image": "volumes/c8ed59a34d5d0ba1438eb801c50720d4c247ae60.png",
+      "image": "4eme/volumes/c8ed59a34d5d0ba1438eb801c50720d4c247ae60.png",
       "choix": [
         "47$\\mathrm{cm}^3$",
         "60$\\mathrm{cm}^3$",
@@ -317,7 +317,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calculer le volume de ce parallélépipède rectangle (dimensions visibles sur la figure).",
-      "image": "volumes/33c0d3f932afdb33d1946a359e5367ebf8721e4f.png",
+      "image": "4eme/volumes/33c0d3f932afdb33d1946a359e5367ebf8721e4f.png",
       "choix": [
         "96$\\mathrm{cm}^3$",
         "16$\\mathrm{cm}^3$",
@@ -333,7 +333,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Cette boîte de rangement (pavé droit 30$\\times$20$\\times$15 cm) a un volume de :",
-      "image": "volumes/ce9a44d98cf86490d9455ddb6bfb5be6856ca6e2.png",
+      "image": "4eme/volumes/ce9a44d98cf86490d9455ddb6bfb5be6856ca6e2.png",
       "choix": [
         "9 000$\\mathrm{cm}^3$soit 9 L",
         "6 000$\\mathrm{cm}^3$soit 6 L",
@@ -349,7 +349,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Un cube a une arête de 5 cm. Son volume est :",
-      "image": "volumes/0476cf1c5fbf96e02140080a0869c08aabc075a8.png",
+      "image": "4eme/volumes/0476cf1c5fbf96e02140080a0869c08aabc075a8.png",
       "choix": [
         "15$\\mathrm{cm}^3$",
         "75$\\mathrm{cm}^3$",
@@ -429,7 +429,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calculer le volume de ce prisme droit à base triangulaire (base 6 cm, hauteur triangle 4 cm, hauteur prisme 10 cm).",
-      "image": "volumes/fe35b7543bc0c21dc9f6b16b091f4e8bc7d7ea1c.png",
+      "image": "4eme/volumes/fe35b7543bc0c21dc9f6b16b091f4e8bc7d7ea1c.png",
       "choix": [
         "120$\\mathrm{cm}^3$",
         "240$\\mathrm{cm}^3$",
@@ -445,7 +445,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Ce prisme droit a une base en triangle rectangle (côtés de l'angle droit : 5 cm et 8 cm) et une hauteur de 12 cm. Son volume est :",
-      "image": "volumes/60ece0924a616d4f8fa7dedc64a5ff60d7dc6499.png",
+      "image": "4eme/volumes/60ece0924a616d4f8fa7dedc64a5ff60d7dc6499.png",
       "choix": [
         "480$\\mathrm{cm}^3$",
         "240$\\mathrm{cm}^3$",
@@ -493,7 +493,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calculer le volume de ce cylindre droit (rayon 3 cm, hauteur 8 cm).",
-      "image": "volumes/92cdb86c1f0a7f9619619c5efae3cf82ac91896a.png",
+      "image": "4eme/volumes/92cdb86c1f0a7f9619619c5efae3cf82ac91896a.png",
       "choix": [
         "226,08$\\mathrm{cm}^3$",
         "75,36$\\mathrm{cm}^3$",
@@ -509,7 +509,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Ce verre cylindrique a un rayon de 4 cm et une hauteur de 10 cm. Son volume arrondi au$\\mathrm{cm}^3$est :",
-      "image": "volumes/888063c27d0592e3bbeda3faf95ce0ab4d162dfb.png",
+      "image": "4eme/volumes/888063c27d0592e3bbeda3faf95ce0ab4d162dfb.png",
       "choix": [
         "251$\\mathrm{cm}^3$",
         "502$\\mathrm{cm}^3$",
@@ -525,7 +525,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Un cylindre droit de rayon 2 cm et hauteur 5 cm. Son volume exact est :",
-      "image": "volumes/4347b99f8099388f98d762cc7d7b85813e5cf4a0.png",
+      "image": "4eme/volumes/4347b99f8099388f98d762cc7d7b85813e5cf4a0.png",
       "choix": [
         "20$\\pi c$\\mathrm{m}^3$",
         "10$\\pi c$\\mathrm{m}^3$",
@@ -589,7 +589,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calculer le volume de cette pyramide à base carrée (côté 6 cm, hauteur 9 cm).",
-      "image": "volumes/98ccbd1be7296de5135657c1f7d7254272f90087.png",
+      "image": "4eme/volumes/98ccbd1be7296de5135657c1f7d7254272f90087.png",
       "choix": [
         "162$\\mathrm{cm}^3$",
         "324$\\mathrm{cm}^3$",
@@ -637,7 +637,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calculer le volume de ce cône de révolution (rayon 4 cm, hauteur 9 cm).",
-      "image": "volumes/da52fbc51185a8d4472b5e93ba7e121a483ce798.png",
+      "image": "4eme/volumes/da52fbc51185a8d4472b5e93ba7e121a483ce798.png",
       "choix": [
         "150,7$\\mathrm{cm}^3$",
         "452,2$\\mathrm{cm}^3$",
@@ -781,7 +781,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calculer le volume de ce cylindre droit (r = 5 cm, H = 10 cm), puis l'exprimer en litres.",
-      "image": "volumes/d1945e1ec7fdc61a20a977bd6771c8df90fc839e.png",
+      "image": "4eme/volumes/d1945e1ec7fdc61a20a977bd6771c8df90fc839e.png",
       "choix": [
         "0,785 L",
         "7,85 L",
@@ -829,7 +829,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Cet entonnoir a la forme d'un cône de révolution (r = 6 cm, H = 8 cm). Son volume arrondi au$\\mathrm{cm}^3$est :",
-      "image": "volumes/fb21afd9fc8c6b7898df7e771318a91ec0e4468f.png",
+      "image": "4eme/volumes/fb21afd9fc8c6b7898df7e771318a91ec0e4468f.png",
       "choix": [
         "301$\\mathrm{cm}^3$",
         "904$\\mathrm{cm}^3$",
@@ -861,7 +861,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Cette pyramide à base carrée (côté 4 cm, H = 6 cm) a le même volume qu'un cube d'arête x. La valeur de x arrondie au dixième est :",
-      "image": "volumes/f894728b0c78b6de3f8026f5286197b72b1e806c.png",
+      "image": "4eme/volumes/f894728b0c78b6de3f8026f5286197b72b1e806c.png",
       "choix": [
         "x$\\approx$2,6 cm",
         "x$\\approx$3,2 cm",
@@ -909,7 +909,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Cette boule de rayon 5 cm est placée dans une boîte cubique juste assez grande. Quel volume d'espace est inoccupé ?",
-      "image": "volumes/d9aeeaa717dd6b2a0c860d473bd655dda2708649.png",
+      "image": "4eme/volumes/d9aeeaa717dd6b2a0c860d473bd655dda2708649.png",
       "choix": [
         "476$\\mathrm{cm}^3$",
         "238$\\mathrm{cm}^3$",
@@ -1021,7 +1021,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "La surface d'une sphère est 100$\\pi c$\\mathrm{m}^2$. Son rayon est (A = 4$\\pi r^{2}$) :",
-      "image": "volumes/fc3793ebc4b66846d3642fa29d3fd5fe08f440d2.png",
+      "image": "4eme/volumes/fc3793ebc4b66846d3642fa29d3fd5fe08f440d2.png",
       "choix": [
         "5 cm",
         "10 cm",
@@ -1181,7 +1181,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Ce récipient conique (r = 6 cm, H = 18 cm) est rempli jusqu'à mi-hauteur (9 cm). Le cône d'eau est une réduction k = 0,5. Quel volume d'eau y a-t-il ?",
-      "image": "volumes/bae342b418867b3fc991421a1734ab7585850d53.png",
+      "image": "4eme/volumes/bae342b418867b3fc991421a1734ab7585850d53.png",
       "choix": [
         "254,3$\\mathrm{cm}^3$",
         "63,6$\\mathrm{cm}^3$",
@@ -1277,7 +1277,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "BOULES EMBOÎTÉES — Trois boules de rayon 1, 2 et 3 cm. Somme des volumes approchée au$\\mathrm{cm}^3$:",
-      "image": "volumes/fc3793ebc4b66846d3642fa29d3fd5fe08f440d2.png",
+      "image": "4eme/volumes/fc3793ebc4b66846d3642fa29d3fd5fe08f440d2.png",
       "choix": [
         "151$\\mathrm{cm}^3$",
         "167$\\mathrm{cm}^3$",
@@ -1293,7 +1293,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "PYRAMIDE TRONQUÉE — Pyramide base carrée (côté 9 cm, H = 12 cm) coupée au tiers de la hauteur depuis le sommet. Volume du tronc :",
-      "image": "volumes/1e1d3be61c6dad0cfb967a29b883eb4a224dcb45.png",
+      "image": "4eme/volumes/1e1d3be61c6dad0cfb967a29b883eb4a224dcb45.png",
       "choix": [
         "288$\\mathrm{cm}^3$",
         "296$\\mathrm{cm}^3$",

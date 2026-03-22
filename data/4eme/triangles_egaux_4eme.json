@@ -29,7 +29,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans le triangle ABC,$\\widehat{ABC}$=$50°$et$\\widehat{BAC}$=$35°$. Que vaut$\\widehat{ACB}$?",
-      "image": "triangles/7230290a10e2fb630c96f25da76977bc077fa2a5.png",
+      "image": "4eme/triangles/7230290a10e2fb630c96f25da76977bc077fa2a5.png",
       "choix": [
         "$80°$",
         "$85°$",
@@ -45,7 +45,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans le triangle PQR,$\\widehat{QPR}$=$62°$et$\\widehat{PRQ}$=$58°$. Que vaut $\\widehat{PQR}$?",
-      "image": "triangles/2fe9e783fbf8b9319d4e413516b0057010aaa48a.png",
+      "image": "4eme/triangles/2fe9e783fbf8b9319d4e413516b0057010aaa48a.png",
       "choix": [
         "$55°$",
         "$58°$",
@@ -61,7 +61,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans le triangle ABC,$\\widehat{ABC}$=$70°$et$\\widehat{BAC}$=$45°$. Que vaut$\\widehat{ACB}$?",
-      "image": "triangles/dcdb0cd5e2034ed9c70bde5a740cb7cd65d48592.png",
+      "image": "4eme/triangles/dcdb0cd5e2034ed9c70bde5a740cb7cd65d48592.png",
       "choix": [
         "$60°$",
         "$65°$",
@@ -141,7 +141,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans ce triangle équilatéral ABC, que signifient les tirets rouges sur les côtés ?",
-      "image": "triangles/effe3fa604cd3d2acc54b59f4a53deede9adee30.png",
+      "image": "4eme/triangles/effe3fa604cd3d2acc54b59f4a53deede9adee30.png",
       "choix": [
         "Les côtés sont parallèles",
         "Les trois côtés sont égaux (même codage = même longueur)",
@@ -157,7 +157,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans ce triangle équilatéral, combien mesure chaque angle ?",
-      "image": "triangles/effe3fa604cd3d2acc54b59f4a53deede9adee30.png",
+      "image": "4eme/triangles/effe3fa604cd3d2acc54b59f4a53deede9adee30.png",
       "choix": [
         "$45°$",
         "$60°$",
@@ -189,7 +189,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans le triangle équilatéral XYZ, quelle est la valeur de X + Z ?",
-      "image": "triangles/ef8527aabcda8743fb10467aa57a91910e31be9c.png",
+      "image": "4eme/triangles/ef8527aabcda8743fb10467aa57a91910e31be9c.png",
       "choix": [
         "$60°$",
         "$90°$",
@@ -205,7 +205,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans ce triangle isocèle DEF(sommet F), que codent les double-tirets rouges ?",
-      "image": "triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
+      "image": "4eme/triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
       "choix": [
         "Les angles en D et E sont droits",
         "FD = FE : les deux côtés issus de F sont égaux",
@@ -221,7 +221,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans ce triangle isocèle$\\widehat{DEF}$,$\\widehat{FDE}$=$53°$. Que vaut$\\widehat{FED}$?",
-      "image": "triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
+      "image": "4eme/triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
       "choix": [
         "$43°$",
         "$53°$",
@@ -237,7 +237,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les arcs orange sur D et E du triangle isocèle montrent que :",
-      "image": "triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
+      "image": "4eme/triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
       "choix": [
         "Les angles sont droits",
         "Les angles$\\widehat{FDE}$et$\\widehat{FED}$ont la même mesure",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans le triangle isocèle ABC (AB = AC),$\\widehat{BAC}$=$44°$. Que valent $\\widehat{ABC}$ et$\\widehat{ACB}$?",
-      "image": "triangles/879a75bd46649b17e2bdf20dd07dfe703c3f9492.png",
+      "image": "4eme/triangles/879a75bd46649b17e2bdf20dd07dfe703c3f9492.png",
       "choix": [
         "$44°$chacun",
         "$60°$chacun",
@@ -301,7 +301,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans le triangle MNP isocèle en M,$\\widehat{NMP}$=$100°$. Les angles à la base valent :",
-      "image": "triangles/5af6363fda66b188245b899b4ab76a318281c7d2.png",
+      "image": "4eme/triangles/5af6363fda66b188245b899b4ab76a318281c7d2.png",
       "choix": [
         "$20°$chacun",
         "$40°$chacun",
@@ -333,7 +333,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, (AB)//(CD). Que peut-on dire des angles$\\widehat{AMN}$et$\\widehat{MND}$?",
-      "image": "triangles/3814efbb25e40accacddf3bf45ea8238811e0a72.png",
+      "image": "4eme/triangles/3814efbb25e40accacddf3bf45ea8238811e0a72.png",
       "choix": [
         "Ils sont supplémentaires",
         "Ils sont alternes-internes et donc égaux",
@@ -349,7 +349,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure,$\\widehat{AMN}$=$\\widehat{MND}$= 41,$97°$. Que peut-on conclure sur (AB) et (CD) ?",
-      "image": "triangles/71309e4f0c39455d75222cce2f64e254663fa16d.png",
+      "image": "4eme/triangles/71309e4f0c39455d75222cce2f64e254663fa16d.png",
       "choix": [
         "(AB) et (CD) sont perpendiculaires",
         "(AB) et (CD) sont parallèles",
@@ -365,7 +365,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure des alternes-internes, que représente le même codage d'arc sur les deux angles ?",
-      "image": "triangles/3814efbb25e40accacddf3bf45ea8238811e0a72.png",
+      "image": "4eme/triangles/3814efbb25e40accacddf3bf45ea8238811e0a72.png",
       "choix": [
         "Les angles sont droits",
         "Les angles sont supplémentaires",
@@ -669,7 +669,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les triangles ABC et$\\widehat{DEF}$ont AB=DF, BC=DE, AC=EF. Quelle est la conclusion ?",
-      "image": "triangles/bde16af2239b93a5e58409d94574d54a0dc7f712.png",
+      "image": "4eme/triangles/bde16af2239b93a5e58409d94574d54a0dc7f712.png",
       "choix": [
         "Ils sont semblables seulement",
         "Ils sont égaux (isométriques)",
@@ -685,7 +685,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les triangles ABC et$\\widehat{DEF}$sont égaux.$\\widehat{BAC}$=$64°$,ABC=$36°$,$\\widehat{BCA}$=$80°$. Quel angle correspond à$\\widehat{DFE}$?",
-      "image": "triangles/bde16af2239b93a5e58409d94574d54a0dc7f712.png",
+      "image": "4eme/triangles/bde16af2239b93a5e58409d94574d54a0dc7f712.png",
       "choix": [
         "$36°$",
         "$64°$",
@@ -749,7 +749,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, AB = A'B', BC = B'C',$\\widehat{ABC}$= $\\widehat{A'B'C'}$. Par quel critère les triangles sont-ils égaux ?",
-      "image": "triangles/deb397167f3692e47da087c079ccff800f7909f0.png",
+      "image": "4eme/triangles/deb397167f3692e47da087c079ccff800f7909f0.png",
       "choix": [
         "CCC",
         "ACA",
@@ -765,7 +765,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Ces deux triangles vérifient-ils le critère CAS ?",
-      "image": "triangles/b0690dd0d826d55c86124c8de769da767b6bf04d.png",
+      "image": "4eme/triangles/b0690dd0d826d55c86124c8de769da767b6bf04d.png",
       "choix": [
         "Oui, critère CAS vérifié",
         "Non, l'angle n'est pas compris",
@@ -829,7 +829,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, BC=B'C',$\\widehat{ABC}$=$\\widehat{A'B'C'}$,$\\widehat{BCA}$=$\\widehat{B'C'A'}$. Par quel critère les triangles sont-ils égaux ?",
-      "image": "triangles/a927f54940fad3eacc8b0e90b8aff1fefeea1e6b.png",
+      "image": "4eme/triangles/a927f54940fad3eacc8b0e90b8aff1fefeea1e6b.png",
       "choix": [
         "CCC",
         "CAS",
@@ -845,7 +845,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Ces deux triangles vérifient-ils le critère ACA ?",
-      "image": "triangles/8942fc0267a94dac940471dc80264909e577e3dc.png",
+      "image": "4eme/triangles/8942fc0267a94dac940471dc80264909e577e3dc.png",
       "choix": [
         "Oui, critère ACA vérifié",
         "Non, il manque un angle",
@@ -877,7 +877,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, AB=DE, BC=EF, AC=DF. Les triangles ABC et$\\widehat{DEF}$sont-ils égaux ?",
-      "image": "triangles/dcb86baafced324ebb331093d55f4eea240d3bd7.png",
+      "image": "4eme/triangles/dcb86baafced324ebb331093d55f4eea240d3bd7.png",
       "choix": [
         "Oui, par CCC (3 côtés deux à deux égaux)",
         "Oui, par CAS",
@@ -1133,7 +1133,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Démonstration CAS : AB=A'B' (2 ticks), BC=B'C' (1 tick),$\\widehat{ABC}$=$\\widehat{A'B'C'}$ (arc violet). L'$\\widehat{ABC}$est-il compris entre AB et BC ?",
-      "image": "triangles/deb397167f3692e47da087c079ccff800f7909f0.png",
+      "image": "4eme/triangles/deb397167f3692e47da087c079ccff800f7909f0.png",
       "choix": [
         "Non, l'angle est en A",
         "Oui,$\\widehat{ABC}$est l'angle au sommet B, compris entre AB et BC → CAS valide",
@@ -1149,7 +1149,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Démonstration ACA : BC=B'C' (1 tick),$\\widehat{ABC}$=$\\widehat{A'B'C'}$ (1 arc),$\\widehat{BCA}$=$\\widehat{B'C'A'}$ (2 arcs). Le côté BC est-il bien entre angles B et C ?",
-      "image": "triangles/a927f54940fad3eacc8b0e90b8aff1fefeea1e6b.png",
+      "image": "4eme/triangles/a927f54940fad3eacc8b0e90b8aff1fefeea1e6b.png",
       "choix": [
         "Non, BC est entre A et B",
         "Oui, BC relie les sommets B et C, donc compris entre les angles en B et en C → ACA valide",

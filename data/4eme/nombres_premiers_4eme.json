@@ -109,7 +109,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "D'après le tableau des critères de divisibilité, 276 est divisible par :",
-      "image": "premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
+      "image": "4eme/premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
       "choix": [
         "2 seulement",
         "2 et 3",
@@ -125,7 +125,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "765 est-il divisible par 9 ?",
-      "image": "premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
+      "image": "4eme/premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
       "choix": [
         "Non, car 765 est impair",
         "Oui, car 7+6+5=18=9$\\times$2",
@@ -253,7 +253,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur le crible d'Ératosthène, combien y a-t-il de nombres premiers entre 2 et 50 ?",
-      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "10",
         "13",
@@ -269,7 +269,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quels sont les nombres premiers entre 10 et 30 ?",
-      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "11, 13, 17, 19, 23, 29",
         "11, 13, 15, 17, 19, 23",
@@ -445,7 +445,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "588 =$2^{2}\\times$3$\\times7^{2}$. Comment écrit-on cette décomposition avec des puissances ? Lis l'arbre.",
-      "image": "premiers/734afd7accde0b16aa3cd1e88803ef146a466d57.png",
+      "image": "4eme/premiers/734afd7accde0b16aa3cd1e88803ef146a466d57.png",
       "choix": [
         "2$\\times$3$\\times$7",
         "$2^{2}\\times$3$\\times$7",
@@ -461,7 +461,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Décompose 60 en facteurs premiers à l'aide de l'arbre.",
-      "image": "premiers/d7e7f60e3c30e508e61bfc9344d6eaf182a0e941.png",
+      "image": "4eme/premiers/d7e7f60e3c30e508e61bfc9344d6eaf182a0e941.png",
       "choix": [
         "2$\\times$3$\\times$5",
         "$2^{2}\\times$3$\\times$5",
@@ -541,7 +541,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans la simplification de$\\frac{120}{84}$, quels facteurs ont été supprimés ?",
-      "image": "premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
+      "image": "4eme/premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
       "choix": [
         "2 et 3",
         "$2^{2}$et 3",
@@ -557,7 +557,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Simplifie$\\frac{36}{48}$. Quel est le résultat ?",
-      "image": "premiers/4b7050c13d8482f769e124888fa641af7eebb7dc.png",
+      "image": "4eme/premiers/4b7050c13d8482f769e124888fa641af7eebb7dc.png",
       "choix": [
         "$\\frac{2}{3}$",
         "$\\frac{3}{4}$",
@@ -653,7 +653,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "2 376 est-il divisible par 4 ? par 9 ?",
-      "image": "premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
+      "image": "4eme/premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
       "choix": [
         "Divisible par 4 seulement",
         "Divisible par 9 seulement",
@@ -701,7 +701,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les multiples de 7 entre 14 et 49 (14,21,28,35,42,49) sont-ils premiers ?",
-      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "Oui, ils sont tous premiers",
         "Seulement 49 est premier",
@@ -717,7 +717,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Combien de nombres premiers entre 2 et 20 ?",
-      "image": "premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "6",
         "7",
@@ -765,7 +765,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Décompose 120 en facteurs premiers à l'aide de l'arbre.",
-      "image": "premiers/501449a417e4eb87b5fd8006f433309297075bae.png",
+      "image": "4eme/premiers/501449a417e4eb87b5fd8006f433309297075bae.png",
       "choix": [
         "$2^{2}\\times$3$\\times$5",
         "$2^{3}\\times$3$\\times$5",
@@ -781,7 +781,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Décompose 84 en facteurs premiers à l'aide de l'arbre.",
-      "image": "premiers/2790c6dfa6a5ab0faa16a0ad9e1d1daacdd961e6.png",
+      "image": "4eme/premiers/2790c6dfa6a5ab0faa16a0ad9e1d1daacdd961e6.png",
       "choix": [
         "2$\\times$3$\\times$7",
         "$2^{2}\\times$3$\\times$7",
@@ -797,7 +797,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Décompose 180 en facteurs premiers à l'aide de l'arbre.",
-      "image": "premiers/6cd3f02401b550a15efd188604091a5ab75d2a45.png",
+      "image": "4eme/premiers/6cd3f02401b550a15efd188604091a5ab75d2a45.png",
       "choix": [
         "2$\\times3^{2}\\times$5",
         "$2^{2}\\times$3$\\times$5",
@@ -893,7 +893,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Simplifie$\\frac{120}{84}$avec les facteurs premiers. Quel est le résultat ?",
-      "image": "premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
+      "image": "4eme/premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
       "choix": [
         "$\\frac{5}{3}$",
         "$\\frac{8}{7}$",
@@ -909,7 +909,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Simplifie$\\frac{60}{84}$.",
-      "image": "premiers/76ac89e055fa410c194035c66f7f21b5d259ac6a.png",
+      "image": "4eme/premiers/76ac89e055fa410c194035c66f7f21b5d259ac6a.png",
       "choix": [
         "$\\frac{3}{5}$",
         "$\\frac{4}{7}$",
@@ -1133,7 +1133,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Décompose 588 et 420. Quel est leur PGCD ?",
-      "image": "premiers/734afd7accde0b16aa3cd1e88803ef146a466d57.png",
+      "image": "4eme/premiers/734afd7accde0b16aa3cd1e88803ef146a466d57.png",
       "choix": [
         "42",
         "60",
