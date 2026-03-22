@@ -3,6 +3,23 @@
 > **À placer à la racine du projet MathPratik.**  
 > Ce fichier est destiné à Claude : il contient toutes les instructions nécessaires pour transformer un fichier `.docx` d'exercices mathématiques en module intégré au site MathPratik.
 
+> ⚠️ **RÈGLE ABSOLUE — FORMAT QCM UNIQUE**  
+> **Toutes les questions du fichier livré doivent être au format QCM avec exactement 4 choix.**  
+> Peu importe le format d'origine dans le `.docx` (question ouverte, calcul à trou, vrai/faux, construction géométrique, démonstration…) : **chaque question doit être reformulée en QCM** avant d'être intégrée.  
+> Aucune question ouverte ne doit subsister dans le JSON final.
+
+> 🔢 **RÈGLE ABSOLUE — KATEX POUR TOUTES LES NOTATIONS MATHÉMATIQUES**  
+> **Toute notation mathématique, sans aucune exception, doit être rendue en KaTeX.**  
+> Ne jamais laisser une expression mathématique en texte brut : pas de `x^2`, pas de `racine(x)`, pas de `1/2`, pas de `a*b`. Utiliser systématiquement la syntaxe KaTeX (`$…$` ou `$$…$$`).  
+> **Cette règle s'applique à chaque champ de chaque question : `enonce_html`, `choix`, `reponse`, `explication`.**  
+> Si des notations brutes subsistent dans le JSON livré, le rendu sera illisible pour les élèves.  
+> **Effectuer plusieurs passes de relecture KaTeX est obligatoire avant livraison.**
+
+> 🧠 **RÈGLE ABSOLUE — COHÉRENCE ET LOGIQUE PÉDAGOGIQUE DE CHAQUE QUESTION**  
+> **Chaque question doit être relue dans son ensemble — énoncé, image, choix, réponse, explication — pour s'assurer qu'elle est cohérente, logique et qu'elle ne se contredit pas elle-même.**  
+> En particulier : **si une question s'appuie sur un schéma, vérifier que la question est bien adaptée au schéma ET que la réponse n'est pas déjà visible ou lisible dans le schéma** (ce qui rendrait la question triviale et sans intérêt pédagogique).  
+> Une question incohérente, mal posée ou dont la réponse est trahie par l'image est **plus nuisible qu'une question absente** : elle induit l'élève en erreur et décrédibilise l'outil.
+
 ---
 
 ## Contexte du projet
@@ -21,11 +38,20 @@ MathPratik-main/
 ├── data/
 │   ├── index.json           ← Registre de tous les fichiers de questions
 │   ├── questions.js         ← (legacy, ne pas modifier)
-│   ├── probabilites_4eme.json
-│   ├── statistiques_4eme.json
-│   └── [nouvelle_notion].json
+│   ├── 4eme/                ← Notions pour la 4ème
+│   │   ├── probabilites_4eme.json
+│   │   ├── statistiques_4eme.json
+│   │   └── [nouvelle_notion]_4eme.json
+│   ├── 5eme/                ← Notions pour la 5ème
+│   ├── 3eme/                ← Notions pour la 3ème
+│   └── automatismes/        ← Automatismes (aut_01 à aut_36)
 ├── images/
-│   └── [notion]/            ← Images extraites du docx (ex: stats/)
+│   ├── 4eme/                ← Images pour la 4ème
+│   │   ├── probabilites/    ← Une notion = un sous-dossier
+│   │   ├── statistiques/
+│   │   └── [notion]/
+│   ├── 5eme/
+│   └── 3eme/
 └── js/
     └── app.js               ← Logique applicative
 ```
@@ -64,12 +90,13 @@ Identifier dans le document :
 Extraire **toutes** les images dans le dossier `images/[niveau]/[notion]/` :
 
 ```bash
-mkdir -p /home/claude/MathPratik-main/images/[notion]
+mkdir -p /home/claude/MathPratik-main/images/[niveau]/[notion]
 unzip -j /mnt/user-data/uploads/NOM_DU_FICHIER.docx "word/media/*" \
   -d /home/claude/MathPratik-main/images/[niveau]/[notion]/
 ```
 
-> **Important :** Les noms de fichiers restent tels quels (hash SHA1). Ils sont référencés dans le JSON via `"image": "[niveau]/[notion]/nom_du_fichier.png"`.
+> **Important :** Les noms de fichiers restent tels quels (hash SHA1). Ils sont référencés dans le JSON via `"image": "[niveau]/[notion]/nom_du_fichier.png"`.  
+> Exemple pour une notion 4ème : `"image": "4eme/probabilites/abc123.png"`
 
 Règle absolue : **chaque figure, schéma, tableau ou diagramme du document doit apparaître tel quel dans la question correspondante, sans modification ni recréation.**
 
@@ -113,26 +140,68 @@ Créer le fichier `data/[niveau]/[notion].json` en respectant **exactement** ce 
 | `type` | string | Toujours `"qcm"` |
 | `avec_calculatrice` | bool | `true` si la question nécessite un calcul non mental |
 | `enonce` | string | Texte de la question (avec KaTeX si notation mathématique) |
-| `image` | string \| null | Chemin relatif depuis `images/`, ex : `"stats/abc.png"` |
+| `image` | string \| null | Chemin relatif depuis `images/`, **toujours au format `[classe]/[notion]/fichier.png`** — ex : `"4eme/probabilites/abc.png"` |
 | `choix` | array[4] | Exactement **4 choix** |
 | `reponse` | string | Copie exacte d'un des 4 choix |
 | `explication` | string | Correction détaillée |
 
+### ⚠️ Règle fondamentale — Toutes les questions sont en QCM
+
+**Le format QCM à 4 choix est le seul format accepté dans MathPratik.**  
+Quelle que soit la forme des questions dans le `.docx` source, **toutes doivent être converties en QCM** avant intégration. Aucune exception.
+
+---
+
 ### Règles de conversion des questions
 
 #### Questions déjà en QCM
-→ Reprendre tels quels les 4 choix et la bonne réponse.
+→ Reprendre tels quels les 4 choix et la bonne réponse.  
+→ Vérifier que la liste contient bien exactement 4 propositions (ni 3, ni 5).
 
-#### Questions « Calcul » ou « Réponse ouverte »
-→ Convertir en QCM avec **4 propositions plausibles**.  
+#### Questions « Calcul » ou « Réponse à trou »
+→ Convertir en QCM avec **4 propositions numériques plausibles**.  
 → La bonne réponse doit être l'une des 4.  
 → Activer `"avec_calculatrice": true` si le calcul dépasse le calcul mental.  
-→ Les distracteurs (mauvaises réponses) doivent être crédibles (erreurs fréquentes).
+→ Les distracteurs (mauvaises réponses) doivent correspondre à des **erreurs fréquentes** chez les élèves (ex : oubli du carré, inversion d'une formule, erreur de virgule…).
+
+#### Questions « Réponse ouverte » ou « Rédaction »
+
+> Ce type de question est le plus courant dans les exercices classiques. La conversion est **obligatoire**.
+
+Méthode de conversion :
+
+1. **Identifier la réponse correcte** attendue par l'énoncé.
+2. **Reformuler l'énoncé** si nécessaire pour qu'il appelle une réponse parmi 4 choix (ex : "Parmi les affirmations suivantes, laquelle est vraie ?", "Quelle est la valeur de… ?").
+3. **Construire 3 distracteurs crédibles** : erreurs de raisonnement fréquentes, résultats proches, confusions de formules.
+4. **Placer la bonne réponse parmi les 4 choix** (ne pas toujours la mettre en premier).
+5. **Rédiger une explication** de correction détaillée dans le champ `explication`.
+
+Exemples de reformulation :
+
+| Type original | Reformulation QCM |
+|---------------|-------------------|
+| "Calcule BC." | "Quelle est la longueur BC ?" + 4 valeurs numériques |
+| "Démontre que ABC est rectangle." | "Le triangle ABC est-il rectangle ? Justifie." → "Parmi les affirmations suivantes, laquelle est correcte ?" + 4 affirmations |
+| "Construis la médiatrice de [AB]." | "Quelle est la propriété utilisée pour tracer la médiatrice ?" + 4 définitions |
+| "Donne la définition de la médiane." | "Parmi ces définitions, laquelle correspond à la médiane d'un triangle ?" + 4 définitions |
+| "Rédige la preuve par Pythagore." | "Quelle égalité prouve que le triangle est rectangle ?" + 4 égalités |
+| "Complète le tableau de fréquences." | "Quelle est la fréquence de la valeur X ?" + 4 valeurs |
+
+#### Questions « Vrai / Faux »
+→ Reformuler en QCM : conserver l'affirmation dans l'énoncé, proposer 4 choix dont "Vrai" et "Faux" plus deux affirmations nuancées ou voisines, **ou** transformer en question à 4 affirmations alternatives.
+
+#### Questions de construction géométrique
+→ Ne pas demander la construction (impossible en QCM).  
+→ Reformuler en question de connaissance ou d'application : "Quelle propriété justifie…", "Quel outil utilise-t-on pour…", "Quelle est la mesure de l'angle…".
+
+#### Questions de démonstration
+→ Reformuler en question de raisonnement : "Parmi ces justifications, laquelle est correcte ?", "Quelle est l'étape manquante dans cette démonstration ?", "Quel théorème permet d'affirmer que… ?".
 
 #### Questions avec figure / schéma / tableau
 → Référencer l'image extraite dans le champ `"image"`.  
 → L'énoncé textuel reste dans `"enonce"`.  
-→ Ne jamais recréer une image en HTML/SVG — utiliser l'original.
+→ Ne jamais recréer une image en HTML/SVG — utiliser l'original.  
+→ La question posée sur la figure doit être reformulée en QCM si elle ne l'est pas déjà.
 
 ### Règle sur la calculatrice
 
@@ -155,10 +224,145 @@ Activer `"avec_calculatrice": true` pour toute question impliquant :
 
 ---
 
-## Étape 3-bis — Notation mathématique avec KaTeX ⚠️ OBLIGATOIRE
+## Étape 3-ter — Cohérence et logique pédagogique 🧠 RELECTURE OBLIGATOIRE
 
-> **Règle absolue : toute notation mathématique doit être écrite en KaTeX, sans exception.**  
-> Ne jamais utiliser du texte brut pour représenter des expressions mathématiques (ex : ne pas écrire `x^2` ou `racine(2)` — utiliser impérativement la syntaxe KaTeX).
+> **Chaque question doit être lue dans sa globalité — énoncé + image + choix + réponse + explication — pour vérifier qu'elle forme un tout cohérent, logique, et pédagogiquement correct.**  
+> Cette relecture est aussi importante que la conversion en QCM et que le KaTeX. Une question techniquement valide (JSON correct, 4 choix, KaTeX présent) peut rester pédagogiquement nuisible si elle est incohérente ou si la réponse est trahie.
+
+---
+
+### Règle 1 — Questions avec schéma, figure ou tableau : cohérence image / question
+
+Lorsqu'une question est accompagnée d'une image (schéma géométrique, graphique, tableau de données, diagramme…), effectuer obligatoirement les vérifications suivantes :
+
+#### 1a. La question est-elle bien adaptée au schéma ?
+
+Vérifier que l'énoncé pose une question que le schéma permet effectivement de traiter.  
+Exemples d'inadéquation à corriger :
+
+| ❌ Inadéquation | ✅ Correction |
+|----------------|--------------|
+| Le schéma montre un triangle quelconque, l'énoncé demande d'appliquer Pythagore | Reformuler pour préciser que le triangle est rectangle, ou choisir une autre question |
+| Le tableau ne contient pas la valeur demandée dans l'énoncé | Adapter l'énoncé à ce que le tableau contient réellement |
+| Le graphique représente des effectifs, l'énoncé demande des fréquences non présentes | Vérifier que le calcul demandé est bien faisable avec les données visibles |
+| L'énoncé mentionne "le point A" mais A n'est pas nommé dans la figure | Corriger le nom ou adapter l'énoncé |
+
+#### 1b. La réponse n'est-elle pas déjà inscrite dans le schéma ?
+
+C'est l'erreur la plus fréquente et la plus grave : **si la bonne réponse est directement lisible dans l'image, la question n'a aucune valeur pédagogique** — l'élève n'a qu'à lire pour répondre, sans réfléchir.
+
+Cas typiques à détecter et corriger :
+
+| ❌ Réponse visible dans le schéma | ✅ Action à prendre |
+|----------------------------------|---------------------|
+| La longueur BC est déjà annotée sur la figure, la question demande "Quelle est la longueur BC ?" | Reformuler : demander un calcul (via Pythagore, trigonométrie…) à partir d'autres données visibles — ou masquer la valeur dans l'énoncé et demander la démarche |
+| L'angle est affiché dans la figure, la question demande sa valeur | Demander plutôt comment calculer cet angle, ou quelle propriété permet de le trouver |
+| Le tableau affiche déjà la moyenne, la question demande la moyenne | Demander le calcul intermédiaire, ou retirer la moyenne du tableau si l'image peut être recadrée — sinon changer la question |
+| La figure indique "triangle rectangle en A", la question demande "en quel sommet est l'angle droit ?" | Changer la question : demander une conséquence du fait que l'angle est en A, pas le fait lui-même |
+
+> **Règle simple :** après avoir lu l'énoncé, regarder l'image comme le ferait un élève. Si la réponse correcte saute aux yeux sans aucun calcul ni raisonnement, la question doit être reformulée.
+
+---
+
+### Règle 2 — Cohérence interne de chaque question
+
+Indépendamment de la présence d'un schéma, relire chaque question pour vérifier :
+
+#### 2a. L'énoncé est-il clair et sans ambiguïté ?
+
+- L'élève comprend immédiatement ce qui est demandé.
+- Les noms de points, de variables, de figures sont cohérents entre l'énoncé, l'image et les choix (pas de "triangle ABC" dans l'énoncé et "triangle DEF" dans les choix).
+- L'énoncé ne contient pas d'information contradictoire (ex : "triangle rectangle isocèle en A avec AB = 3 et AC = 5").
+
+#### 2b. Les 4 choix sont-ils logiquement compatibles avec l'énoncé ?
+
+- Tous les choix doivent être des réponses plausibles à la question posée (même unité, même nature, même ordre de grandeur).
+- Un choix manifestement absurde (ex : une longueur négative, une probabilité > 1, une moyenne hors de l'intervalle des valeurs) doit être remplacé par un distracteur plus crédible.
+- Les choix ne doivent pas se contredire entre eux de façon trop évidente (ex : "Vrai" et "Faux" ne sont pas des choix suffisamment distincts si la question n'est pas clairement binaire).
+
+#### 2c. La réponse correcte est-elle réellement correcte ?
+
+- Recalculer ou revérifier mentalement la bonne réponse pour s'assurer qu'elle est juste.
+- En cas de doute sur la correction du document source, signaler l'anomalie dans le champ `explication` et marquer la question comme à vérifier.
+
+#### 2d. L'explication est-elle pédagogiquement utile ?
+
+- L'explication doit détailler **pourquoi** la bonne réponse est correcte, pas seulement l'énoncer.
+- Elle doit mentionner le théorème, la définition ou la propriété mobilisée.
+- Elle ne doit pas être une simple répétition de l'énoncé.
+
+---
+
+### Règle 3 — Relecture globale du lot de questions
+
+Une fois toutes les questions rédigées, effectuer une relecture d'ensemble pour détecter :
+
+- **Des questions en double** : deux questions qui posent exactement la même chose, ou avec les mêmes valeurs numériques.
+- **Des questions dont la réponse est trahie par une autre question** du même fichier (ex : une question niv1 qui donne explicitement la réponse d'une question niv2).
+- **Un déséquilibre de difficulté** : si toutes les questions niv1 sont en réalité des questions niv2, reclasser ou reformuler.
+- **Des formulations copiées-collées** trop similaires entre questions du même niveau : varier les tournures pour maintenir l'attention de l'élève.
+
+---
+
+## Étape 3-bis — Notation mathématique avec KaTeX 🔢 CRITIQUE — PASSES MULTIPLES OBLIGATOIRES
+
+> **🚨 PRIORITÉ ABSOLUE : toute notation mathématique doit être rendue en KaTeX, sans aucune exception.**  
+> Une expression mathématique en texte brut dans le JSON final est une **erreur bloquante** : elle s'affichera de façon illisible pour l'élève et dégrade directement l'expérience d'apprentissage.  
+>  
+> **Ne jamais livrer sans avoir effectué au minimum 3 passes de relecture KaTeX** (voir protocole ci-dessous).  
+>  
+> Ne jamais utiliser du texte brut pour représenter des expressions mathématiques :  
+> ❌ `x^2` → ✅ `$x^{2}$`  
+> ❌ `racine(2)` → ✅ `$\sqrt{2}$`  
+> ❌ `1/2` → ✅ `$\dfrac{1}{2}$`  
+> ❌ `AB^2 + AC^2` → ✅ `$AB^2 + AC^2$`  
+> ❌ `P(A) = 3/6` → ✅ `$P(A) = \dfrac{3}{6}$`
+
+---
+
+### 🔁 Protocole de passes KaTeX — À exécuter OBLIGATOIREMENT
+
+Après avoir rédigé l'intégralité du JSON, effectuer les trois passes suivantes dans l'ordre :
+
+#### Passe 1 — Détection exhaustive des notations brutes
+
+Parcourir **toutes les questions**, **tous les champs** (`enonce_html`, chaque élément de `choix`, `reponse`, `explication`) et signaler toute expression mathématique non encadrée par `$…$` ou `$$…$$`.
+
+Chercher spécifiquement :
+- Tout chiffre collé à une lettre : `3x`, `2a`, `AB2` → doit devenir `$3x$`, `$2a$`, `$AB^2$`
+- Tout exposant texte : `x^2`, `a^3`, `10^4` hors balises `$`
+- Toute fraction avec `/` : `3/4`, `n/N`, `opp/hyp` hors balises `$`
+- Toute racine : `racine(`, `sqrt(`, `√` hors balises `$`
+- Tout opérateur : `×`, `÷`, `≤`, `≥`, `≠`, `≈` hors balises `$`
+- Toute lettre de variable isolée : `x`, `a`, `n`, `N` dans un contexte mathématique
+- Toute unité ou formule : `cm²`, `m²`, `km/h`, `°`
+
+#### Passe 2 — Vérification des backslashs dans le JSON
+
+Dans un fichier JSON, le backslash `\` doit **toujours** être échappé en `\\`.  
+Parcourir tous les champs KaTeX et vérifier :
+
+| Commande LaTeX | Dans le JSON |
+|----------------|-------------|
+| `\sqrt{2}` | `"\\sqrt{2}"` |
+| `\dfrac{a}{b}` | `"\\dfrac{a}{b}"` |
+| `\times` | `"\\times"` |
+| `\leq` | `"\\leq"` |
+| `\widehat{ABC}` | `"\\widehat{ABC}"` |
+| `\bar{x}` | `"\\bar{x}"` |
+| `\text{cm}` | `"\\text{cm}"` |
+| `\triangle` | `"\\triangle"` |
+
+Un `\` seul dans le JSON est toujours une erreur — le JSON serait invalide ou le rendu KaTeX cassé.
+
+#### Passe 3 — Cohérence `choix` / `reponse` et virgule décimale
+
+- Vérifier que la valeur de `reponse` est la **copie exacte** (caractère par caractère, y compris les `$` et `\\`) de l'un des 4 éléments de `choix`.
+- Vérifier que la **virgule décimale française** est écrite `{,}` dans toutes les formules KaTeX :  
+  ❌ `$3.14$` → ✅ `$3{,}14$`  
+  ❌ `$2.5 \times 10^3$` → ✅ `$2{,}5 \times 10^{3}$`
+
+---
 
 ### Principe général
 
@@ -333,15 +537,39 @@ KaTeX est chargé via CDN dans `index.html`. Ces balises **ne doivent pas être 
 
 ---
 
-### Checklist KaTeX à valider avant livraison
+### 🔢 Checklist KaTeX — À valider OBLIGATOIREMENT avant livraison
 
-- [ ] Toutes les fractions sont écrites avec `\dfrac` ou `\frac` (pas de `/` seul)
-- [ ] Toutes les racines carrées utilisent `\sqrt{}`
-- [ ] Les puissances utilisent `^{}` (ex : `x^{2}` et non `x2`)
+> **Ces vérifications doivent être faites en plusieurs passes, question par question, champ par champ.**  
+> Ne pas se contenter d'une lecture rapide : les oublis de KaTeX sont la première source d'erreurs dans MathPratik.
+
+#### Passes de relecture (dans l'ordre)
+
+- [ ] **Passe 1 — Détection des notations brutes** : aucun `x^2`, `/`, `racine(`, `sqrt(`, `×`, `÷`, `≤`, `≥`, `cm²`, `°` hors balises `$`
+- [ ] **Passe 2 — Backslashs JSON** : tous les `\commande` sont bien `\\commande` dans le JSON
+- [ ] **Passe 3 — Cohérence choix/réponse + virgule française** : `reponse` = copie exacte d'un choix ; `{,}` partout à la place du point décimal
+
+#### Points techniques
+
+- [ ] Toutes les fractions sont écrites avec `\\dfrac` ou `\\frac` (jamais de `/` seul dans une expression mathématique)
+- [ ] Toutes les racines carrées utilisent `\\sqrt{}`
+- [ ] Les puissances utilisent `^{}` avec accolades : `x^{2}` et non `x2` ni `x^2` hors `$`
 - [ ] Les backslashs sont bien échappés en `\\` dans le JSON
-- [ ] La virgule décimale française est écrite `{,}` dans les formules
-- [ ] Le champ `enonce_html` est utilisé (et non `enonce`) quand du KaTeX est présent
-- [ ] Les choix et la réponse contiennent du KaTeX cohérent et identique
+- [ ] La virgule décimale française est écrite `{,}` dans toutes les formules
+- [ ] Le champ `enonce_html` est utilisé (et non `enonce`) dès qu'il y a du KaTeX dans l'énoncé
+- [ ] Les choix et la réponse contiennent du KaTeX cohérent et identique au caractère près
+
+#### Erreurs fréquentes à traquer spécifiquement
+
+| ❌ Erreur courante | ✅ Forme correcte |
+|--------------------|------------------|
+| `BC² = AB² + AC²` (texte brut) | `$BC^{2} = AB^{2} + AC^{2}$` |
+| `P(A) = 1/6` | `$P(A) = \\dfrac{1}{6}$` |
+| `racine de 25` | `$\\sqrt{25}$` |
+| `x = 3,14` (hors formule) | `$x = 3{,}14$` |
+| `angle ABC` (texte) | `$\\widehat{ABC}$` |
+| `moyenne = 12.5` | `$\\bar{x} = 12{,}5$` |
+| `f = ni/N × 100` | `$f = \\dfrac{n_i}{N} \\times 100$` |
+| `\sqrt{25}` dans JSON (un seul `\`) | `"\\sqrt{25}"` |
 
 ---
 
@@ -366,7 +594,7 @@ Ajouter le nouveau fichier dans `data/index.json`, tableau `fichiers` :
 ```json
 {
   "id":      "statistiques_4eme",
-  "fichier": "data/statistiques_4eme.json",
+  "fichier": "data/4eme/statistiques_4eme.json",
   "niveau":  "4eme"
 }
 ```
@@ -380,7 +608,7 @@ Exécuter ces contrôles :
 ```python
 import json, os
 
-data = json.load(open('data/statistiques_4eme.json'))
+data = json.load(open('data/4eme/statistiques_4eme.json'))
 
 # 1. JSON valide
 print("JSON valide ✓")
@@ -403,6 +631,10 @@ print("Images manquantes :", missing if missing else "aucune ✓")
 # 5. Chaque question a exactement 4 choix
 bad = [q['id'] for q in data['questions'] if len(q.get('choix', [])) != 4]
 print("Questions sans 4 choix :", bad if bad else "aucune ✓")
+
+# 5-bis. Aucune question de type autre que QCM
+bad_type = [q['id'] for q in data['questions'] if q.get('type') != 'qcm']
+print("Questions non-QCM :", bad_type if bad_type else "aucune ✓")
 
 # 6. La réponse est dans les choix
 bad2 = [q['id'] for q in data['questions'] if q['reponse'] not in q['choix']]
@@ -482,14 +714,25 @@ Le CSS de la calculatrice est injecté dans la balise `<style>` de `index.html`.
 Avant de packager le zip à livrer :
 
 - [ ] `data/[niveau]/[notion].json` — JSON valide, toutes les questions présentes
+- [ ] **Toutes les questions sont au format QCM** — aucune question ouverte, vrai/faux brut, ou construction dans le JSON
+- [ ] **Toutes les questions ont exactement 4 choix** — ni 3, ni 5
+- [ ] **Les distracteurs sont pédagogiquement crédibles** (erreurs fréquentes, pas de choix absurdes)
+- [ ] **Cohérence pédagogique vérifiée** — chaque question relue dans sa globalité (énoncé + image + choix + réponse + explication)
+- [ ] **Questions avec schéma : la question est adaptée au schéma** — les données demandées sont bien présentes dans la figure
+- [ ] **Questions avec schéma : la réponse n'est pas déjà visible dans le schéma** — aucune valeur lisible directement sans calcul ni raisonnement
+- [ ] **Aucune question en double** — ni énoncé identique, ni valeurs numériques identiques
+- [ ] **Aucune question ne trahit la réponse d'une autre** dans le même fichier
+- [ ] **Tous les noms de points, variables et figures sont cohérents** entre l'énoncé, l'image et les choix
 - [ ] `images/[niveau]/[notion]/` — toutes les images du docx extraites
 - [ ] `data/index.json` — nouvelle entrée ajoutée
 - [ ] Vérification Python (Étape 6) — tous les contrôles passent
 - [ ] Syntax check JS : `node --check js/app.js`
 - [ ] Au moins 20 questions niv1, 20 questions niv2, 5 questions niv3
 - [ ] Toutes les questions du document sont présentes (y compris les questions ouvertes converties en QCM)
-- [ ] **Toutes les notations mathématiques sont en KaTeX** (checklist Étape 3-bis validée)
+- [ ] **Toutes les notations mathématiques sont en KaTeX** — passes 1, 2 et 3 effectuées (voir checklist Étape 3-bis)
+- [ ] **Aucune expression mathématique en texte brut** dans aucun champ d'aucune question
 - [ ] Les backslashs KaTeX sont bien échappés `\\` dans le JSON
+- [ ] La virgule décimale est bien `{,}` et non `.` dans toutes les formules
 - [ ] `renderMathInElement()` est appelé après chaque injection `innerHTML` dans app.js
 
 ---
@@ -499,12 +742,24 @@ Avant de packager le zip à livrer :
 ```
 1. Utilisateur envoie : exercices_pythagore_4eme.docx
 2. Claude lit le docx avec pandoc
-3. Claude extrait les images → images/pythagore/
-4. Claude génère data/pythagore_4eme.json
-   → Toutes questions converties en QCM
+3. Claude extrait les images → images/4eme/pythagore/
+4. Claude génère data/4eme/pythagore_4eme.json
+   → TOUTES les questions converties en QCM à 4 choix (y compris questions ouvertes,
+     calculs, démonstrations, vrai/faux, constructions géométriques)
+   → Distracteurs pédagogiquement crédibles (erreurs fréquentes)
+   → Chemins d'images préfixés : "4eme/pythagore/nom_fichier.png"
    → Toutes notations mathématiques converties en KaTeX
    → Backslashs échappés en \\ dans le JSON
-5. Claude met à jour data/index.json
-6. Claude exécute les vérifications (Étape 6)
-7. Claude package et livre le zip complet
+5. Claude effectue la relecture de cohérence pédagogique (Étape 3-ter) :
+   → Vérification que chaque question avec schéma est adaptée au schéma
+   → Vérification que la réponse n'est pas déjà lisible dans les figures
+   → Relecture de cohérence interne (énoncé / choix / réponse / explication)
+   → Détection des doublons et des questions qui trahissent d'autres réponses
+6. Claude effectue les 3 passes KaTeX obligatoires :
+   → Passe 1 : détection et correction de toutes les notations brutes
+   → Passe 2 : vérification des \\ dans le JSON
+   → Passe 3 : cohérence choix/réponse et virgule décimale française {,}
+7. Claude met à jour data/index.json (fichier : "data/4eme/pythagore_4eme.json")
+8. Claude exécute les vérifications Python (Étape 6)
+9. Claude package et livre le zip complet
 ```
