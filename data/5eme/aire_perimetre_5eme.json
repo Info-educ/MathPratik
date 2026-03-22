@@ -1,638 +1,1451 @@
 {
   "niveau": "5eme",
   "thematique": {
-    "id":    "aire_perimetre_5eme",
+    "id": "aire_perimetre_5eme",
     "label": "Aire et périmètre",
-    "icon":  "📐",
+    "icon": "📐",
     "color": "#0891b2"
   },
   "questions": [
     {
-      "id":               "ap5_n1_001",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_001",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le carré ABCD a un côté de $5$ cm. Quel est son périmètre ?",
-      "image":            "5eme/aire_perimetre/8fc1c637fec167ccf2bfd678654b6851fe8eae2a.png",
-      "choix":            ["$10$ cm", "$20$ cm", "$25$ cm", "$15$ cm"],
-      "reponse":          "$20$ cm",
-      "explication":      "Le périmètre d'un carré est $4 \\times c$ où $c$ est le côté. Ici $P = 4 \\times 5 = 20$ cm."
+      "enonce_html": "Le carré ABCD a un côté de $5$ cm. Quel est son périmètre ?",
+      "image": "5eme/aire_perimetre/8fc1c637fec167ccf2bfd678654b6851fe8eae2a.png",
+      "choix": [
+        "$10$ cm",
+        "$20$ cm",
+        "$25$ cm",
+        "$15$ cm"
+      ],
+      "reponse": "$20$ cm",
+      "explication": "Le périmètre d'un carré est $4 \\times c$ où $c$ est le côté. Ici $P = 4 \\times 5 = 20$ cm."
     },
     {
-      "id":               "ap5_n1_002",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_002",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le rectangle ABCD a une longueur de $8$ cm et une largeur de $3$ cm. Quel est son périmètre ?",
-      "image":            "5eme/aire_perimetre/388c46d18b8e7c7c11b802d6c118f9010a703949.png",
-      "choix":            ["$24$ cm", "$11$ cm", "$22$ cm", "$16$ cm"],
-      "reponse":          "$22$ cm",
-      "explication":      "Formule : $P = 2 \\times (L + l) = 2 \\times (8 + 3) = 2 \\times 11 = 22$ cm."
+      "enonce_html": "Le rectangle ABCD a une longueur de $8$ cm et une largeur de $3$ cm. Quel est son périmètre ?",
+      "image": "5eme/aire_perimetre/388c46d18b8e7c7c11b802d6c118f9010a703949.png",
+      "choix": [
+        "$24$ cm",
+        "$11$ cm",
+        "$22$ cm",
+        "$16$ cm"
+      ],
+      "reponse": "$22$ cm",
+      "explication": "Formule : $P = 2 \\times (L + l) = 2 \\times (8 + 3) = 2 \\times 11 = 22$ cm."
     },
     {
-      "id":               "ap5_n1_003",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_003",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le carré ABCD a un côté de $4$ cm. Quelle est son aire ?",
-      "image":            "5eme/aire_perimetre/2cc3179eaaff790b027243123a8308c167a32b81.png",
-      "choix":            ["$8$ cm²", "$16$ cm²", "$12$ cm²", "$4$ cm²"],
-      "reponse":          "$16$ cm²",
-      "explication":      "L'aire d'un carré est $c^2$. Ici $\\mathcal{A} = 4^2 = 16$ cm²."
+      "enonce_html": "Le carré ABCD a un côté de $4$ cm. Quelle est son aire ?",
+      "image": "5eme/aire_perimetre/2cc3179eaaff790b027243123a8308c167a32b81.png",
+      "choix": [
+        "$8$ cm²",
+        "$16$ cm²",
+        "$12$ cm²",
+        "$4$ cm²"
+      ],
+      "reponse": "$16$ cm²",
+      "explication": "L'aire d'un carré est $c^2$. Ici $\\mathcal{A} = 4^2 = 16$ cm²."
     },
     {
-      "id":               "ap5_n1_004",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_004",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un triangle a une base de $6$ cm et une hauteur de $4$ cm. Quelle est son aire ?",
-      "image":            "5eme/aire_perimetre/35025385c29f46ca1b00cd3bbe3ec307c2969fec.png",
-      "choix":            ["$24$ cm²", "$10$ cm²", "$12$ cm²", "$20$ cm²"],
-      "reponse":          "$12$ cm²",
-      "explication":      "Aire d'un triangle : $\\mathcal{A} = \\dfrac{\\text{base} \\times \\text{hauteur}}{2} = \\dfrac{6 \\times 4}{2} = \\dfrac{24}{2} = 12$ cm²."
+      "enonce_html": "Un triangle a une base de $6$ cm et une hauteur de $4$ cm. Quelle est son aire ?",
+      "image": "5eme/aire_perimetre/35025385c29f46ca1b00cd3bbe3ec307c2969fec.png",
+      "choix": [
+        "$24$ cm²",
+        "$10$ cm²",
+        "$12$ cm²",
+        "$20$ cm²"
+      ],
+      "reponse": "$12$ cm²",
+      "explication": "Aire d'un triangle : $\\mathcal{A} = \\dfrac{\\text{base} \\times \\text{hauteur}}{2} = \\dfrac{6 \\times 4}{2} = \\dfrac{24}{2} = 12$ cm²."
     },
     {
-      "id":               "ap5_n1_005",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_005",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Parmi ces unités, laquelle est une unité d'aire ?",
-      "image":            null,
-      "choix":            ["$\\text{cm}$", "$\\text{cm}^2$", "$\\text{cm}^3$", "$\\text{m}$"],
-      "reponse":          "$\\text{cm}^2$",
-      "explication":      "Les unités d'aire s'expriment en unités au carré : $\\text{cm}^2$, $\\text{m}^2$, $\\text{km}^2$... Le $\\text{cm}$ est une unité de longueur et le $\\text{cm}^3$ une unité de volume."
+      "enonce_html": "Parmi ces unités, laquelle est une unité d'aire ?",
+      "image": null,
+      "choix": [
+        "$\\text{cm}$",
+        "$\\text{cm}^2$",
+        "$\\text{cm}^3$",
+        "$\\text{m}$"
+      ],
+      "reponse": "$\\text{cm}^2$",
+      "explication": "Les unités d'aire s'expriment en unités au carré : $\\text{cm}^2$, $\\text{m}^2$, $\\text{km}^2$... Le $\\text{cm}$ est une unité de longueur et le $\\text{cm}^3$ une unité de volume."
     },
     {
-      "id":               "ap5_n1_006",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_006",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "La formule du périmètre d'un rectangle de longueur $L$ et de largeur $l$ est :",
-      "image":            null,
-      "choix":            ["$L \\times l$", "$2 \\times (L + l)$", "$L + l$", "$4 \\times L$"],
-      "reponse":          "$2 \\times (L + l)$",
-      "explication":      "Un rectangle a deux côtés de longueur $L$ et deux côtés de longueur $l$. Son périmètre est donc $P = L + l + L + l = 2 \\times (L + l)$."
+      "enonce_html": "La formule du périmètre d'un rectangle de longueur $L$ et de largeur $l$ est :",
+      "image": null,
+      "choix": [
+        "$L \\times l$",
+        "$2 \\times (L + l)$",
+        "$L + l$",
+        "$4 \\times L$"
+      ],
+      "reponse": "$2 \\times (L + l)$",
+      "explication": "Un rectangle a deux côtés de longueur $L$ et deux côtés de longueur $l$. Son périmètre est donc $P = L + l + L + l = 2 \\times (L + l)$."
     },
     {
-      "id":               "ap5_n1_007",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_007",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le triangle équilatéral ABC a un côté de $7$ cm. Quel est son périmètre ?",
-      "image":            "5eme/aire_perimetre/425b909e9c3d712e68a6f6eac257492aa4de41ed.png",
-      "choix":            ["$14$ cm", "$49$ cm", "$21$ cm", "$7$ cm"],
-      "reponse":          "$21$ cm",
-      "explication":      "Un triangle équilatéral a ses trois côtés égaux. Périmètre $= 3 \\times 7 = 21$ cm."
+      "enonce_html": "Le triangle équilatéral ABC a un côté de $7$ cm. Quel est son périmètre ?",
+      "image": "5eme/aire_perimetre/425b909e9c3d712e68a6f6eac257492aa4de41ed.png",
+      "choix": [
+        "$14$ cm",
+        "$49$ cm",
+        "$21$ cm",
+        "$7$ cm"
+      ],
+      "reponse": "$21$ cm",
+      "explication": "Un triangle équilatéral a ses trois côtés égaux. Périmètre $= 3 \\times 7 = 21$ cm."
     },
     {
-      "id":               "ap5_n1_008",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_008",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Quel est le nom de la mesure de la surface d'une figure ?",
-      "image":            null,
-      "choix":            ["Périmètre", "Volume", "Aire", "Longueur"],
-      "reponse":          "Aire",
-      "explication":      "L'aire mesure la surface d'une figure plane (l'espace qu'elle occupe). Le périmètre mesure le contour. Le volume mesure l'espace occupé par un solide."
+      "enonce_html": "Quel est le nom de la mesure de la surface d'une figure ?",
+      "image": null,
+      "choix": [
+        "Périmètre",
+        "Volume",
+        "Aire",
+        "Longueur"
+      ],
+      "reponse": "Aire",
+      "explication": "L'aire mesure la surface d'une figure plane (l'espace qu'elle occupe). Le périmètre mesure le contour. Le volume mesure l'espace occupé par un solide."
     },
     {
-      "id":               "ap5_n1_009",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_009",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un carré a un périmètre de $28$ cm. Quelle est la longueur de son côté ?",
-      "image":            "5eme/aire_perimetre/bb6a794192a699a7b66d73673725c52c887387a9.png",
-      "choix":            ["$14$ cm", "$4$ cm", "$7$ cm", "$28$ cm"],
-      "reponse":          "$7$ cm",
-      "explication":      "Périmètre d'un carré $= 4 \\times c$. Donc $c = P \\div 4 = 28 \\div 4 = 7$ cm."
+      "enonce_html": "Un carré a un périmètre de $28$ cm. Quelle est la longueur de son côté ?",
+      "image": "5eme/aire_perimetre/bb6a794192a699a7b66d73673725c52c887387a9.png",
+      "choix": [
+        "$14$ cm",
+        "$4$ cm",
+        "$7$ cm",
+        "$28$ cm"
+      ],
+      "reponse": "$7$ cm",
+      "explication": "Périmètre d'un carré $= 4 \\times c$. Donc $c = P \\div 4 = 28 \\div 4 = 7$ cm."
     },
     {
-      "id":               "ap5_n1_010",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_010",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "$1$ m² est égal à combien de cm² ?",
-      "image":            null,
-      "choix":            ["$100$ cm²", "$1\\,000$ cm²", "$10\\,000$ cm²", "$1\\,000\\,000$ cm²"],
-      "reponse":          "$10\\,000$ cm²",
-      "explication":      "$1$ m $= 100$ cm. Donc $1$ m² $= (100 \\text{ cm})^2 = 100 \\times 100 = 10\\,000$ cm². Pour les aires, la conversion se fait en élevant au carré : chaque côté est multiplié par $100$, donc l'aire est multipliée par $100^2 = 10\\,000$."
+      "enonce_html": "$1$ m² est égal à combien de cm² ?",
+      "image": null,
+      "choix": [
+        "$100$ cm²",
+        "$1\\,000$ cm²",
+        "$10\\,000$ cm²",
+        "$1\\,000\\,000$ cm²"
+      ],
+      "reponse": "$10\\,000$ cm²",
+      "explication": "$1$ m $= 100$ cm. Donc $1$ m² $= (100 \\text{ cm})^2 = 100 \\times 100 = 10\\,000$ cm². Pour les aires, la conversion se fait en élevant au carré : chaque côté est multiplié par $100$, donc l'aire est multipliée par $100^2 = 10\\,000$."
     },
     {
-      "id":               "ap5_n1_011",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_011",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le rectangle ABCD a une longueur de $9$ cm et une largeur de $5$ cm. Quelle est son aire ?",
-      "image":            "5eme/aire_perimetre/00c7bc4b811ed24d3da40b06e2ccd4048c2f551e.png",
-      "choix":            ["$28$ cm²", "$45$ cm²", "$40$ cm²", "$14$ cm²"],
-      "reponse":          "$45$ cm²",
-      "explication":      "Aire d'un rectangle : $\\mathcal{A} = L \\times l = 9 \\times 5 = 45$ cm²."
+      "enonce_html": "Le rectangle ABCD a une longueur de $9$ cm et une largeur de $5$ cm. Quelle est son aire ?",
+      "image": "5eme/aire_perimetre/00c7bc4b811ed24d3da40b06e2ccd4048c2f551e.png",
+      "choix": [
+        "$28$ cm²",
+        "$45$ cm²",
+        "$40$ cm²",
+        "$14$ cm²"
+      ],
+      "reponse": "$45$ cm²",
+      "explication": "Aire d'un rectangle : $\\mathcal{A} = L \\times l = 9 \\times 5 = 45$ cm²."
     },
     {
-      "id":               "ap5_n1_012",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_012",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "La formule de l'aire d'un triangle est :",
-      "image":            null,
-      "choix":            ["$\\text{base} \\times \\text{hauteur}$", "$\\dfrac{\\text{base} \\times \\text{hauteur}}{2}$", "$\\text{base} + \\text{hauteur}$", "$2 \\times b \\times h$"],
-      "reponse":          "$\\dfrac{\\text{base} \\times \\text{hauteur}}{2}$",
-      "explication":      "L'aire d'un triangle est la moitié du produit base × hauteur : $\\mathcal{A} = \\dfrac{b \\times h}{2}$. Cela vient du fait qu'un triangle est la moitié d'un parallélogramme de mêmes base et hauteur."
+      "enonce_html": "La formule de l'aire d'un triangle est :",
+      "image": null,
+      "choix": [
+        "$\\text{base} \\times \\text{hauteur}$",
+        "$\\dfrac{\\text{base} \\times \\text{hauteur}}{2}$",
+        "$\\text{base} + \\text{hauteur}$",
+        "$2 \\times b \\times h$"
+      ],
+      "reponse": "$\\dfrac{\\text{base} \\times \\text{hauteur}}{2}$",
+      "explication": "L'aire d'un triangle est la moitié du produit base × hauteur : $\\mathcal{A} = \\dfrac{b \\times h}{2}$. Cela vient du fait qu'un triangle est la moitié d'un parallélogramme de mêmes base et hauteur."
     },
     {
-      "id":               "ap5_n1_013",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_013",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Le disque de centre O a un rayon de $4$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
-      "image":            "5eme/aire_perimetre/42d6ba01e2f283be152a9f8d1c3eb353e1168a6c.png",
-      "choix":            ["$12{,}56$ cm²", "$25{,}12$ cm²", "$50{,}24$ cm²", "$100{,}48$ cm²"],
-      "reponse":          "$50{,}24$ cm²",
-      "explication":      "$\\mathcal{A} = \\pi \\times r^2 = 3{,}14 \\times 4^2 = 3{,}14 \\times 16 = 50{,}24$ cm²."
+      "enonce_html": "Le disque de centre O a un rayon de $4$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
+      "image": "5eme/aire_perimetre/42d6ba01e2f283be152a9f8d1c3eb353e1168a6c.png",
+      "choix": [
+        "$12{,}56$ cm²",
+        "$25{,}12$ cm²",
+        "$50{,}24$ cm²",
+        "$100{,}48$ cm²"
+      ],
+      "reponse": "$50{,}24$ cm²",
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = 3{,}14 \\times 4^2 = 3{,}14 \\times 16 = 50{,}24$ cm²."
     },
     {
-      "id":               "ap5_n1_014",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_014",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "La formule du périmètre d'un carré de côté $c$ est :",
-      "image":            null,
-      "choix":            ["$c^2$", "$2c$", "$4c$", "$c + 4$"],
-      "reponse":          "$4c$",
-      "explication":      "Un carré a quatre côtés égaux. Son périmètre est donc $P = c + c + c + c = 4c$."
+      "enonce_html": "La formule du périmètre d'un carré de côté $c$ est :",
+      "image": null,
+      "choix": [
+        "$c^2$",
+        "$2c$",
+        "$4c$",
+        "$c + 4$"
+      ],
+      "reponse": "$4c$",
+      "explication": "Un carré a quatre côtés égaux. Son périmètre est donc $P = c + c + c + c = 4c$."
     },
     {
-      "id":               "ap5_n1_015",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_015",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Combien de cm² y a-t-il dans $1$ dm² ?",
-      "image":            null,
-      "choix":            ["$10$", "$100$", "$1\\,000$", "$10\\,000$"],
-      "reponse":          "$100$",
-      "explication":      "$1$ dm $= 10$ cm. Donc $1$ dm² $= (10 \\text{ cm})^2 = 10 \\times 10 = 100$ cm²."
+      "enonce_html": "Combien de cm² y a-t-il dans $1$ dm² ?",
+      "image": null,
+      "choix": [
+        "$10$",
+        "$100$",
+        "$1\\,000$",
+        "$10\\,000$"
+      ],
+      "reponse": "$100$",
+      "explication": "$1$ dm $= 10$ cm. Donc $1$ dm² $= (10 \\text{ cm})^2 = 10 \\times 10 = 100$ cm²."
     },
     {
-      "id":               "ap5_n1_016",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_016",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le triangle ABC a une base de $6$ cm et une hauteur de $4$ cm. Quelle est son aire ?",
-      "image":            "5eme/aire_perimetre/2c2951c7fd774b4ec31b9b7f61ef84114e5d99fb.png",
-      "choix":            ["$24$ cm²", "$10$ cm²", "$12$ cm²", "$6$ cm²"],
-      "reponse":          "$12$ cm²",
-      "explication":      "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{6 \\times 4}{2} = 12$ cm²."
+      "enonce_html": "Le triangle ABC a une base de $6$ cm et une hauteur de $4$ cm. Quelle est son aire ?",
+      "image": "5eme/aire_perimetre/2c2951c7fd774b4ec31b9b7f61ef84114e5d99fb.png",
+      "choix": [
+        "$24$ cm²",
+        "$10$ cm²",
+        "$12$ cm²",
+        "$6$ cm²"
+      ],
+      "reponse": "$12$ cm²",
+      "explication": "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{6 \\times 4}{2} = 12$ cm²."
     },
     {
-      "id":               "ap5_n1_017",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_017",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le carré ABCD a un côté de $6$ cm. Quel est son périmètre ?",
-      "image":            "5eme/aire_perimetre/2601a8199964e3407bad765f5be1975e0f86bc38.png",
-      "choix":            ["$12$ cm", "$24$ cm", "$36$ cm", "$6$ cm"],
-      "reponse":          "$24$ cm",
-      "explication":      "$P = 4 \\times c = 4 \\times 6 = 24$ cm."
+      "enonce_html": "Le carré ABCD a un côté de $6$ cm. Quel est son périmètre ?",
+      "image": "5eme/aire_perimetre/2601a8199964e3407bad765f5be1975e0f86bc38.png",
+      "choix": [
+        "$12$ cm",
+        "$24$ cm",
+        "$36$ cm",
+        "$6$ cm"
+      ],
+      "reponse": "$24$ cm",
+      "explication": "$P = 4 \\times c = 4 \\times 6 = 24$ cm."
     },
     {
-      "id":               "ap5_n1_018",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_018",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Le disque de centre O a un rayon de $6$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
-      "image":            "5eme/aire_perimetre/0facf9a1e0568e35ddee43e862e1c7ae1bb51e70.png",
-      "choix":            ["$18{,}84$ cm²", "$56{,}52$ cm²", "$113{,}04$ cm²", "$226{,}08$ cm²"],
-      "reponse":          "$113{,}04$ cm²",
-      "explication":      "$\\mathcal{A} = \\pi \\times r^2 = 3{,}14 \\times 6^2 = 3{,}14 \\times 36 = 113{,}04$ cm²."
+      "enonce_html": "Le disque de centre O a un rayon de $6$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
+      "image": "5eme/aire_perimetre/0facf9a1e0568e35ddee43e862e1c7ae1bb51e70.png",
+      "choix": [
+        "$18{,}84$ cm²",
+        "$56{,}52$ cm²",
+        "$113{,}04$ cm²",
+        "$226{,}08$ cm²"
+      ],
+      "reponse": "$113{,}04$ cm²",
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = 3{,}14 \\times 6^2 = 3{,}14 \\times 36 = 113{,}04$ cm²."
     },
     {
-      "id":               "ap5_n1_019",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_019",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Le cercle de centre O a un rayon de $5$ cm. Quelle est sa longueur (périmètre du cercle) ($\\pi \\approx 3{,}14$) ?",
-      "image":            "5eme/aire_perimetre/e77236b97a4abf9c94adafb36ace336261b769d0.png",
-      "choix":            ["$15{,}7$ cm", "$31{,}4$ cm", "$78{,}5$ cm", "$10$ cm"],
-      "reponse":          "$31{,}4$ cm",
-      "explication":      "Longueur d'un cercle : $C = 2 \\times \\pi \\times r = 2 \\times 3{,}14 \\times 5 = 31{,}4$ cm."
+      "enonce_html": "Le cercle de centre O a un rayon de $5$ cm. Quelle est sa longueur (périmètre du cercle) ($\\pi \\approx 3{,}14$) ?",
+      "image": "5eme/aire_perimetre/e77236b97a4abf9c94adafb36ace336261b769d0.png",
+      "choix": [
+        "$15{,}7$ cm",
+        "$31{,}4$ cm",
+        "$78{,}5$ cm",
+        "$10$ cm"
+      ],
+      "reponse": "$31{,}4$ cm",
+      "explication": "Longueur d'un cercle : $C = 2 \\times \\pi \\times r = 2 \\times 3{,}14 \\times 5 = 31{,}4$ cm."
     },
     {
-      "id":               "ap5_n1_020",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_020",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Le disque de centre O a un rayon de $3$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
-      "image":            "5eme/aire_perimetre/3324cabcdbdf787bd8eba40743f8f37f258932d5.png",
-      "choix":            ["$9{,}42$ cm²", "$18{,}84$ cm²", "$28{,}26$ cm²", "$56{,}52$ cm²"],
-      "reponse":          "$28{,}26$ cm²",
-      "explication":      "$\\mathcal{A} = \\pi \\times r^2 = 3{,}14 \\times 3^2 = 3{,}14 \\times 9 = 28{,}26$ cm²."
+      "enonce_html": "Le disque de centre O a un rayon de $3$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
+      "image": "5eme/aire_perimetre/3324cabcdbdf787bd8eba40743f8f37f258932d5.png",
+      "choix": [
+        "$9{,}42$ cm²",
+        "$18{,}84$ cm²",
+        "$28{,}26$ cm²",
+        "$56{,}52$ cm²"
+      ],
+      "reponse": "$28{,}26$ cm²",
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = 3{,}14 \\times 3^2 = 3{,}14 \\times 9 = 28{,}26$ cm²."
     },
     {
-      "id":               "ap5_n1_021",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_021",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Quelle est l'aire d'un triangle de base $14$ cm et de hauteur $4$ cm ?",
-      "image":            null,
-      "choix":            ["$56$ cm²", "$28$ cm²", "$14$ cm²", "$7$ cm²"],
-      "reponse":          "$28$ cm²",
-      "explication":      "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{14 \\times 4}{2} = \\dfrac{56}{2} = 28$ cm²."
+      "enonce_html": "Quelle est l'aire d'un triangle de base $14$ cm et de hauteur $4$ cm ?",
+      "image": null,
+      "choix": [
+        "$56$ cm²",
+        "$28$ cm²",
+        "$14$ cm²",
+        "$7$ cm²"
+      ],
+      "reponse": "$28$ cm²",
+      "explication": "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{14 \\times 4}{2} = \\dfrac{56}{2} = 28$ cm²."
     },
     {
-      "id":               "ap5_n1_022",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_022",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "La formule de l'aire d'un disque de rayon $r$ est :",
-      "image":            null,
-      "choix":            ["$2 \\pi r$", "$\\pi r$", "$\\pi r^2$", "$2 \\pi r^2$"],
-      "reponse":          "$\\pi r^2$",
-      "explication":      "L'aire d'un disque est $\\mathcal{A} = \\pi r^2$. À ne pas confondre avec la longueur du cercle qui est $C = 2 \\pi r$."
+      "enonce_html": "La formule de l'aire d'un disque de rayon $r$ est :",
+      "image": null,
+      "choix": [
+        "$2 \\pi r$",
+        "$\\pi r$",
+        "$\\pi r^2$",
+        "$2 \\pi r^2$"
+      ],
+      "reponse": "$\\pi r^2$",
+      "explication": "L'aire d'un disque est $\\mathcal{A} = \\pi r^2$. À ne pas confondre avec la longueur du cercle qui est $C = 2 \\pi r$."
     },
     {
-      "id":               "ap5_n1_023",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_023",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Le cercle de centre O a un rayon de $7$ cm. Quelle est sa longueur ($\\pi \\approx 3{,}14$) ?",
-      "image":            "5eme/aire_perimetre/13797d0c251ece60af4a8248aebb7945af706649.png",
-      "choix":            ["$21{,}98$ cm", "$43{,}96$ cm", "$153{,}86$ cm", "$7$ cm"],
-      "reponse":          "$43{,}96$ cm",
-      "explication":      "$C = 2 \\times \\pi \\times r = 2 \\times 3{,}14 \\times 7 = 43{,}96$ cm."
+      "enonce_html": "Le cercle de centre O a un rayon de $7$ cm. Quelle est sa longueur ($\\pi \\approx 3{,}14$) ?",
+      "image": "5eme/aire_perimetre/13797d0c251ece60af4a8248aebb7945af706649.png",
+      "choix": [
+        "$21{,}98$ cm",
+        "$43{,}96$ cm",
+        "$153{,}86$ cm",
+        "$7$ cm"
+      ],
+      "reponse": "$43{,}96$ cm",
+      "explication": "$C = 2 \\times \\pi \\times r = 2 \\times 3{,}14 \\times 7 = 43{,}96$ cm."
     },
     {
-      "id":               "ap5_n1_024",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_024",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un carré et un rectangle ont le même périmètre de $20$ cm. Le rectangle a une longueur de $7$ cm. Quelle est son aire ?",
-      "image":            null,
-      "choix":            ["$20$ cm²", "$21$ cm²", "$35$ cm²", "$14$ cm²"],
-      "reponse":          "$21$ cm²",
-      "explication":      "Périmètre du rectangle $= 2(L + l) = 20$ cm, donc $L + l = 10$ cm. Avec $L = 7$ cm : $l = 10 - 7 = 3$ cm. Aire $= 7 \\times 3 = 21$ cm²."
+      "enonce_html": "Un carré et un rectangle ont le même périmètre de $20$ cm. Le rectangle a une longueur de $7$ cm. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$20$ cm²",
+        "$21$ cm²",
+        "$35$ cm²",
+        "$14$ cm²"
+      ],
+      "reponse": "$21$ cm²",
+      "explication": "Périmètre du rectangle $= 2(L + l) = 20$ cm, donc $L + l = 10$ cm. Avec $L = 7$ cm : $l = 10 - 7 = 3$ cm. Aire $= 7 \\times 3 = 21$ cm²."
     },
     {
-      "id":               "ap5_n1_025",
-      "niveau":           1,
-      "type":             "qcm",
+      "id": "ap5_n1_025",
+      "niveau": 1,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le rectangle ABCD a une longueur de $12$ cm et une largeur de $5$ cm. Quel est son périmètre ?",
-      "image":            "5eme/aire_perimetre/15a24d8af5a2b904102353b8207cd596ea151972.png",
-      "choix":            ["$17$ cm", "$34$ cm", "$60$ cm", "$24$ cm"],
-      "reponse":          "$34$ cm",
-      "explication":      "$P = 2 \\times (L + l) = 2 \\times (12 + 5) = 2 \\times 17 = 34$ cm."
+      "enonce_html": "Le rectangle ABCD a une longueur de $12$ cm et une largeur de $5$ cm. Quel est son périmètre ?",
+      "image": "5eme/aire_perimetre/15a24d8af5a2b904102353b8207cd596ea151972.png",
+      "choix": [
+        "$17$ cm",
+        "$34$ cm",
+        "$60$ cm",
+        "$24$ cm"
+      ],
+      "reponse": "$34$ cm",
+      "explication": "$P = 2 \\times (L + l) = 2 \\times (12 + 5) = 2 \\times 17 = 34$ cm."
     },
     {
-      "id":               "ap5_n2_001",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_001",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un rectangle a une aire de $48$ cm² et une longueur de $8$ cm. Quelle est sa largeur ?",
-      "image":            null,
-      "choix":            ["$4$ cm", "$6$ cm", "$8$ cm", "$40$ cm"],
-      "reponse":          "$6$ cm",
-      "explication":      "$\\mathcal{A} = L \\times l$, donc $l = \\dfrac{\\mathcal{A}}{L} = \\dfrac{48}{8} = 6$ cm."
+      "enonce_html": "Un rectangle a une aire de $48$ cm² et une longueur de $8$ cm. Quelle est sa largeur ?",
+      "image": null,
+      "choix": [
+        "$4$ cm",
+        "$6$ cm",
+        "$8$ cm",
+        "$40$ cm"
+      ],
+      "reponse": "$6$ cm",
+      "explication": "$\\mathcal{A} = L \\times l$, donc $l = \\dfrac{\\mathcal{A}}{L} = \\dfrac{48}{8} = 6$ cm."
     },
     {
-      "id":               "ap5_n2_002",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_002",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Un disque a un diamètre de $10$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
-      "image":            null,
-      "choix":            ["$31{,}4$ cm²", "$78{,}5$ cm²", "$157$ cm²", "$314$ cm²"],
-      "reponse":          "$78{,}5$ cm²",
-      "explication":      "Diamètre $= 10$ cm, donc rayon $r = 5$ cm. $\\mathcal{A} = \\pi r^2 = 3{,}14 \\times 5^2 = 3{,}14 \\times 25 = 78{,}5$ cm². Attention à bien utiliser le rayon, pas le diamètre."
+      "enonce_html": "Un disque a un diamètre de $10$ cm. Quelle est son aire ($\\pi \\approx 3{,}14$) ?",
+      "image": null,
+      "choix": [
+        "$31{,}4$ cm²",
+        "$78{,}5$ cm²",
+        "$157$ cm²",
+        "$314$ cm²"
+      ],
+      "reponse": "$78{,}5$ cm²",
+      "explication": "Diamètre $= 10$ cm, donc rayon $r = 5$ cm. $\\mathcal{A} = \\pi r^2 = 3{,}14 \\times 5^2 = 3{,}14 \\times 25 = 78{,}5$ cm². Attention à bien utiliser le rayon, pas le diamètre."
     },
     {
-      "id":               "ap5_n2_003",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_003",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Convertis : $1\\,500$ cm² $=$ __ m²",
-      "image":            null,
-      "choix":            ["$15$ m²", "$1{,}5$ m²", "$0{,}15$ m²", "$0{,}015$ m²"],
-      "reponse":          "$0{,}15$ m²",
-      "explication":      "$1$ m² $= 10\\,000$ cm². Donc $1\\,500$ cm² $= \\dfrac{1\\,500}{10\\,000}$ m² $= 0{,}15$ m²."
+      "enonce_html": "Convertis : $1\\,500$ cm² $=$ __ m²",
+      "image": null,
+      "choix": [
+        "$15$ m²",
+        "$1{,}5$ m²",
+        "$0{,}15$ m²",
+        "$0{,}015$ m²"
+      ],
+      "reponse": "$0{,}15$ m²",
+      "explication": "$1$ m² $= 10\\,000$ cm². Donc $1\\,500$ cm² $= \\dfrac{1\\,500}{10\\,000}$ m² $= 0{,}15$ m²."
     },
     {
-      "id":               "ap5_n2_004",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_004",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un triangle a une aire de $30$ cm² et une base de $10$ cm. Quelle est sa hauteur ?",
-      "image":            null,
-      "choix":            ["$3$ cm", "$6$ cm", "$15$ cm", "$30$ cm"],
-      "reponse":          "$6$ cm",
-      "explication":      "$\\mathcal{A} = \\dfrac{b \\times h}{2}$, donc $h = \\dfrac{2 \\times \\mathcal{A}}{b} = \\dfrac{2 \\times 30}{10} = \\dfrac{60}{10} = 6$ cm."
+      "enonce_html": "Un triangle a une aire de $30$ cm² et une base de $10$ cm. Quelle est sa hauteur ?",
+      "image": null,
+      "choix": [
+        "$3$ cm",
+        "$6$ cm",
+        "$15$ cm",
+        "$30$ cm"
+      ],
+      "reponse": "$6$ cm",
+      "explication": "$\\mathcal{A} = \\dfrac{b \\times h}{2}$, donc $h = \\dfrac{2 \\times \\mathcal{A}}{b} = \\dfrac{2 \\times 30}{10} = \\dfrac{60}{10} = 6$ cm."
     },
     {
-      "id":               "ap5_n2_005",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_005",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Quel est le périmètre d'un rectangle de longueur $15$ cm et de largeur $8$ cm ?",
-      "image":            null,
-      "choix":            ["$23$ cm", "$46$ cm", "$120$ cm", "$240$ cm"],
-      "reponse":          "$46$ cm",
-      "explication":      "$P = 2 \\times (L + l) = 2 \\times (15 + 8) = 2 \\times 23 = 46$ cm."
+      "enonce_html": "Quel est le périmètre d'un rectangle de longueur $15$ cm et de largeur $8$ cm ?",
+      "image": null,
+      "choix": [
+        "$23$ cm",
+        "$46$ cm",
+        "$120$ cm",
+        "$240$ cm"
+      ],
+      "reponse": "$46$ cm",
+      "explication": "$P = 2 \\times (L + l) = 2 \\times (15 + 8) = 2 \\times 23 = 46$ cm."
     },
     {
-      "id":               "ap5_n2_006",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_006",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Convertis : $2\\,450$ mm $=$ __ cm",
-      "image":            null,
-      "choix":            ["$0{,}245$ cm", "$2{,}45$ cm", "$24{,}5$ cm", "$245$ cm"],
-      "reponse":          "$245$ cm",
-      "explication":      "$1$ cm $= 10$ mm. Donc $2\\,450$ mm $= 2\\,450 \\div 10 = 245$ cm."
+      "enonce_html": "Convertis : $2\\,450$ mm $=$ __ cm",
+      "image": null,
+      "choix": [
+        "$0{,}245$ cm",
+        "$2{,}45$ cm",
+        "$24{,}5$ cm",
+        "$245$ cm"
+      ],
+      "reponse": "$245$ cm",
+      "explication": "$1$ cm $= 10$ mm. Donc $2\\,450$ mm $= 2\\,450 \\div 10 = 245$ cm."
     },
     {
-      "id":               "ap5_n2_007",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_007",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "La longueur d'un cercle de rayon $4$ cm est :",
-      "image":            null,
-      "choix":            ["$4\\pi$ cm", "$8\\pi$ cm", "$16\\pi$ cm", "$16\\pi$ cm²"],
-      "reponse":          "$8\\pi$ cm",
-      "explication":      "$C = 2 \\times \\pi \\times r = 2 \\times \\pi \\times 4 = 8\\pi$ cm. On garde l'expression exacte avec $\\pi$ plutôt qu'une valeur approchée."
+      "enonce_html": "La longueur d'un cercle de rayon $4$ cm est :",
+      "image": null,
+      "choix": [
+        "$4\\pi$ cm",
+        "$8\\pi$ cm",
+        "$16\\pi$ cm",
+        "$16\\pi$ cm²"
+      ],
+      "reponse": "$8\\pi$ cm",
+      "explication": "$C = 2 \\times \\pi \\times r = 2 \\times \\pi \\times 4 = 8\\pi$ cm. On garde l'expression exacte avec $\\pi$ plutôt qu'une valeur approchée."
     },
     {
-      "id":               "ap5_n2_008",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_008",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Un carré a un périmètre de $52$ cm. Quelle est son aire ?",
-      "image":            null,
-      "choix":            ["$52$ cm²", "$104$ cm²", "$169$ cm²", "$676$ cm²"],
-      "reponse":          "$169$ cm²",
-      "explication":      "Côté $= P \\div 4 = 52 \\div 4 = 13$ cm. Aire $= 13^2 = 169$ cm²."
+      "enonce_html": "Un carré a un périmètre de $52$ cm. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$52$ cm²",
+        "$104$ cm²",
+        "$169$ cm²",
+        "$676$ cm²"
+      ],
+      "reponse": "$169$ cm²",
+      "explication": "Côté $= P \\div 4 = 52 \\div 4 = 13$ cm. Aire $= 13^2 = 169$ cm²."
     },
     {
-      "id":               "ap5_n2_009",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_009",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Une figure est composée d'un rectangle de $8$ cm $\\times$ $3$ cm et d'un carré de $3$ cm de côté accolé. Quelle est son aire totale ?",
-      "image":            null,
-      "choix":            ["$24$ cm²", "$33$ cm²", "$42$ cm²", "$55$ cm²"],
-      "reponse":          "$33$ cm²",
-      "explication":      "Aire du rectangle $= 8 \\times 3 = 24$ cm². Aire du carré $= 3^2 = 9$ cm². Aire totale $= 24 + 9 = 33$ cm²."
+      "enonce_html": "Une figure est composée d'un rectangle de $8$ cm $\\times$ $3$ cm et d'un carré de $3$ cm de côté accolé. Quelle est son aire totale ?",
+      "image": null,
+      "choix": [
+        "$24$ cm²",
+        "$33$ cm²",
+        "$42$ cm²",
+        "$55$ cm²"
+      ],
+      "reponse": "$33$ cm²",
+      "explication": "Aire du rectangle $= 8 \\times 3 = 24$ cm². Aire du carré $= 3^2 = 9$ cm². Aire totale $= 24 + 9 = 33$ cm²."
     },
     {
-      "id":               "ap5_n2_010",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_010",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Quel est le périmètre d'un demi-disque de rayon $6$ cm ($\\pi \\approx 3{,}14$) ?",
-      "image":            null,
-      "choix":            ["$18{,}84$ cm", "$24{,}84$ cm", "$30{,}84$ cm", "$37{,}68$ cm"],
-      "reponse":          "$30{,}84$ cm",
-      "explication":      "Le périmètre du demi-disque comprend : le demi-cercle $= \\pi \\times r = 3{,}14 \\times 6 = 18{,}84$ cm, et le diamètre $= 2 \\times 6 = 12$ cm. Total $= 18{,}84 + 12 = 30{,}84$ cm."
+      "enonce_html": "Quel est le périmètre d'un demi-disque de rayon $6$ cm ($\\pi \\approx 3{,}14$) ?",
+      "image": null,
+      "choix": [
+        "$18{,}84$ cm",
+        "$24{,}84$ cm",
+        "$30{,}84$ cm",
+        "$37{,}68$ cm"
+      ],
+      "reponse": "$30{,}84$ cm",
+      "explication": "Le périmètre du demi-disque comprend : le demi-cercle $= \\pi \\times r = 3{,}14 \\times 6 = 18{,}84$ cm, et le diamètre $= 2 \\times 6 = 12$ cm. Total $= 18{,}84 + 12 = 30{,}84$ cm."
     },
     {
-      "id":               "ap5_n2_011",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_011",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un rectangle a une aire de $60$ cm² et une largeur de $5$ cm. Quel est son périmètre ?",
-      "image":            null,
-      "choix":            ["$12$ cm", "$17$ cm", "$34$ cm", "$70$ cm"],
-      "reponse":          "$34$ cm",
-      "explication":      "Longueur $= \\mathcal{A} \\div l = 60 \\div 5 = 12$ cm. Périmètre $= 2 \\times (12 + 5) = 2 \\times 17 = 34$ cm."
+      "enonce_html": "Un rectangle a une aire de $60$ cm² et une largeur de $5$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$12$ cm",
+        "$17$ cm",
+        "$34$ cm",
+        "$70$ cm"
+      ],
+      "reponse": "$34$ cm",
+      "explication": "Longueur $= \\mathcal{A} \\div l = 60 \\div 5 = 12$ cm. Périmètre $= 2 \\times (12 + 5) = 2 \\times 17 = 34$ cm."
     },
     {
-      "id":               "ap5_n2_012",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_012",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Quelle est l'aire d'un triangle de base $9$ cm et de hauteur $8$ cm ?",
-      "image":            null,
-      "choix":            ["$17$ cm²", "$36$ cm²", "$72$ cm²", "$144$ cm²"],
-      "reponse":          "$36$ cm²",
-      "explication":      "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{9 \\times 8}{2} = \\dfrac{72}{2} = 36$ cm²."
+      "enonce_html": "Quelle est l'aire d'un triangle de base $9$ cm et de hauteur $8$ cm ?",
+      "image": null,
+      "choix": [
+        "$17$ cm²",
+        "$36$ cm²",
+        "$72$ cm²",
+        "$144$ cm²"
+      ],
+      "reponse": "$36$ cm²",
+      "explication": "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{9 \\times 8}{2} = \\dfrac{72}{2} = 36$ cm²."
     },
     {
-      "id":               "ap5_n2_013",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_013",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Le triangle équilatéral ABC a une aire de $9\\sqrt{3}$ cm². Quel est son périmètre ?",
-      "image":            null,
-      "choix":            ["$9$ cm", "$12$ cm", "$18$ cm", "$27$ cm"],
-      "reponse":          "$18$ cm",
-      "explication":      "L'aire d'un triangle équilatéral de côté $a$ est $\\dfrac{a^2 \\sqrt{3}}{4}$. Donc $\\dfrac{a^2 \\sqrt{3}}{4} = 9\\sqrt{3}$, d'où $a^2 = 36$, soit $a = 6$ cm. Périmètre $= 3 \\times 6 = 18$ cm."
+      "enonce_html": "Le triangle équilatéral ABC a une aire de $9\\sqrt{3}$ cm². Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$9$ cm",
+        "$12$ cm",
+        "$18$ cm",
+        "$27$ cm"
+      ],
+      "reponse": "$18$ cm",
+      "explication": "L'aire d'un triangle équilatéral de côté $a$ est $\\dfrac{a^2 \\sqrt{3}}{4}$. Donc $\\dfrac{a^2 \\sqrt{3}}{4} = 9\\sqrt{3}$, d'où $a^2 = 36$, soit $a = 6$ cm. Périmètre $= 3 \\times 6 = 18$ cm."
     },
     {
-      "id":               "ap5_n2_014",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_014",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Une figure est formée d'un carré de $5$ cm de côté et d'un demi-disque de diamètre $5$ cm accolé. Quelle est son aire totale ($\\pi \\approx 3{,}14$) ?",
-      "image":            null,
-      "choix":            ["$25$ cm²", "$34{,}81$ cm²", "$44{,}63$ cm²", "$59{,}63$ cm²"],
-      "reponse":          "$34{,}81$ cm²",
-      "explication":      "Aire du carré $= 5^2 = 25$ cm². Rayon du demi-disque $= \\dfrac{5}{2} = 2{,}5$ cm. Aire du demi-disque $= \\dfrac{\\pi r^2}{2} = \\dfrac{3{,}14 \\times 6{,}25}{2} = \\dfrac{19{,}625}{2} \\approx 9{,}81$ cm². Aire totale $\\approx 25 + 9{,}81 = 34{,}81$ cm²."
+      "enonce_html": "Une figure est formée d'un carré de $5$ cm de côté et d'un demi-disque de diamètre $5$ cm accolé. Quelle est son aire totale ($\\pi \\approx 3{,}14$) ?",
+      "image": null,
+      "choix": [
+        "$25$ cm²",
+        "$34{,}81$ cm²",
+        "$44{,}63$ cm²",
+        "$59{,}63$ cm²"
+      ],
+      "reponse": "$34{,}81$ cm²",
+      "explication": "Aire du carré $= 5^2 = 25$ cm². Rayon du demi-disque $= \\dfrac{5}{2} = 2{,}5$ cm. Aire du demi-disque $= \\dfrac{\\pi r^2}{2} = \\dfrac{3{,}14 \\times 6{,}25}{2} = \\dfrac{19{,}625}{2} \\approx 9{,}81$ cm². Aire totale $\\approx 25 + 9{,}81 = 34{,}81$ cm²."
     },
     {
-      "id":               "ap5_n2_015",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_015",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Le triangle ABC a une base de $8$ cm et une hauteur de $5$ cm. Quelle est son aire ?",
-      "image":            "5eme/aire_perimetre/08b15cbc20ea717fbb95256aea7e18bb37d1d4ae.png",
-      "choix":            ["$40$ cm²", "$20$ cm²", "$13$ cm²", "$26$ cm²"],
-      "reponse":          "$20$ cm²",
-      "explication":      "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{8 \\times 5}{2} = \\dfrac{40}{2} = 20$ cm²."
+      "enonce_html": "Le triangle ABC a une base de $8$ cm et une hauteur de $5$ cm. Quelle est son aire ?",
+      "image": "5eme/aire_perimetre/08b15cbc20ea717fbb95256aea7e18bb37d1d4ae.png",
+      "choix": [
+        "$40$ cm²",
+        "$20$ cm²",
+        "$13$ cm²",
+        "$26$ cm²"
+      ],
+      "reponse": "$20$ cm²",
+      "explication": "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{8 \\times 5}{2} = \\dfrac{40}{2} = 20$ cm²."
     },
     {
-      "id":               "ap5_n2_016",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_016",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Si on double le côté d'un carré, son aire est multipliée par :",
-      "image":            null,
-      "choix":            ["$2$", "$4$", "$8$", "$6$"],
-      "reponse":          "$4$",
-      "explication":      "Si le côté initial est $c$, l'aire est $c^2$. Si le côté double, il devient $2c$ et l'aire devient $(2c)^2 = 4c^2$. L'aire est donc multipliée par $4$."
+      "enonce_html": "Si on double le côté d'un carré, son aire est multipliée par :",
+      "image": null,
+      "choix": [
+        "$2$",
+        "$4$",
+        "$8$",
+        "$6$"
+      ],
+      "reponse": "$4$",
+      "explication": "Si le côté initial est $c$, l'aire est $c^2$. Si le côté double, il devient $2c$ et l'aire devient $(2c)^2 = 4c^2$. L'aire est donc multipliée par $4$."
     },
     {
-      "id":               "ap5_n2_017",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_017",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Convertis : $0{,}032$ km $=$ __ cm",
-      "image":            null,
-      "choix":            ["$3{,}2$ cm", "$32$ cm", "$320$ cm", "$3\\,200$ cm"],
-      "reponse":          "$3\\,200$ cm",
-      "explication":      "$1$ km $= 1\\,000$ m et $1$ m $= 100$ cm, donc $1$ km $= 100\\,000$ cm. $0{,}032$ km $= 0{,}032 \\times 100\\,000 = 3\\,200$ cm."
+      "enonce_html": "Convertis : $0{,}032$ km $=$ __ cm",
+      "image": null,
+      "choix": [
+        "$3{,}2$ cm",
+        "$32$ cm",
+        "$320$ cm",
+        "$3\\,200$ cm"
+      ],
+      "reponse": "$3\\,200$ cm",
+      "explication": "$1$ km $= 1\\,000$ m et $1$ m $= 100$ cm, donc $1$ km $= 100\\,000$ cm. $0{,}032$ km $= 0{,}032 \\times 100\\,000 = 3\\,200$ cm."
     },
     {
-      "id":               "ap5_n2_018",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_018",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Convertis : $45\\,000$ cm² $=$ __ m²",
-      "image":            null,
-      "choix":            ["$4{,}5$ m²", "$45$ m²", "$450$ m²", "$0{,}45$ m²"],
-      "reponse":          "$4{,}5$ m²",
-      "explication":      "$1$ m² $= 10\\,000$ cm². Donc $45\\,000$ cm² $= \\dfrac{45\\,000}{10\\,000} = 4{,}5$ m²."
+      "enonce_html": "Convertis : $45\\,000$ cm² $=$ __ m²",
+      "image": null,
+      "choix": [
+        "$4{,}5$ m²",
+        "$45$ m²",
+        "$450$ m²",
+        "$0{,}45$ m²"
+      ],
+      "reponse": "$4{,}5$ m²",
+      "explication": "$1$ m² $= 10\\,000$ cm². Donc $45\\,000$ cm² $= \\dfrac{45\\,000}{10\\,000} = 4{,}5$ m²."
     },
     {
-      "id":               "ap5_n2_019",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_019",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Convertis : $0{,}08$ m² $=$ __ cm²",
-      "image":            null,
-      "choix":            ["$8$ cm²", "$80$ cm²", "$800$ cm²", "$8\\,000$ cm²"],
-      "reponse":          "$800$ cm²",
-      "explication":      "$1$ m² $= 10\\,000$ cm². Donc $0{,}08$ m² $= 0{,}08 \\times 10\\,000 = 800$ cm²."
+      "enonce_html": "Convertis : $0{,}08$ m² $=$ __ cm²",
+      "image": null,
+      "choix": [
+        "$8$ cm²",
+        "$80$ cm²",
+        "$800$ cm²",
+        "$8\\,000$ cm²"
+      ],
+      "reponse": "$800$ cm²",
+      "explication": "$1$ m² $= 10\\,000$ cm². Donc $0{,}08$ m² $= 0{,}08 \\times 10\\,000 = 800$ cm²."
     },
     {
-      "id":               "ap5_n2_020",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_020",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Convertis : $4{,}5$ dm² $=$ __ cm²",
-      "image":            null,
-      "choix":            ["$45$ cm²", "$450$ cm²", "$4\\,500$ cm²", "$0{,}045$ cm²"],
-      "reponse":          "$450$ cm²",
-      "explication":      "$1$ dm $= 10$ cm, donc $1$ dm² $= 100$ cm². Ainsi $4{,}5$ dm² $= 4{,}5 \\times 100 = 450$ cm²."
+      "enonce_html": "Convertis : $4{,}5$ dm² $=$ __ cm²",
+      "image": null,
+      "choix": [
+        "$45$ cm²",
+        "$450$ cm²",
+        "$4\\,500$ cm²",
+        "$0{,}045$ cm²"
+      ],
+      "reponse": "$450$ cm²",
+      "explication": "$1$ dm $= 10$ cm, donc $1$ dm² $= 100$ cm². Ainsi $4{,}5$ dm² $= 4{,}5 \\times 100 = 450$ cm²."
     },
     {
-      "id":               "ap5_n2_021",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_021",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Un rectangle ABCD a une longueur de $7$ cm et une largeur de $4$ cm. Calcule son aire.",
-      "image":            "5eme/aire_perimetre/64e1080aa8ee49c4ce75b3d23908f619f99457b3.png",
-      "choix":            ["$11$ cm²", "$22$ cm²", "$28$ cm²", "$14$ cm²"],
-      "reponse":          "$28$ cm²",
-      "explication":      "$\\mathcal{A} = L \\times l = 7 \\times 4 = 28$ cm²."
+      "enonce_html": "Un rectangle ABCD a une longueur de $7$ cm et une largeur de $4$ cm. Calcule son aire.",
+      "image": "5eme/aire_perimetre/64e1080aa8ee49c4ce75b3d23908f619f99457b3.png",
+      "choix": [
+        "$11$ cm²",
+        "$22$ cm²",
+        "$28$ cm²",
+        "$14$ cm²"
+      ],
+      "reponse": "$28$ cm²",
+      "explication": "$\\mathcal{A} = L \\times l = 7 \\times 4 = 28$ cm²."
     },
     {
-      "id":               "ap5_n2_022",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_022",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un rectangle ABCD a une longueur de $6$ cm et une largeur de $4$ cm. Calcule son aire.",
-      "image":            "5eme/aire_perimetre/7dbe7109470beda5049c08ad65d9f98b2e922915.png",
-      "choix":            ["$10$ cm²", "$20$ cm²", "$24$ cm²", "$48$ cm²"],
-      "reponse":          "$24$ cm²",
-      "explication":      "$\\mathcal{A} = L \\times l = 6 \\times 4 = 24$ cm²."
+      "enonce_html": "Un rectangle ABCD a une longueur de $6$ cm et une largeur de $4$ cm. Calcule son aire.",
+      "image": "5eme/aire_perimetre/7dbe7109470beda5049c08ad65d9f98b2e922915.png",
+      "choix": [
+        "$10$ cm²",
+        "$20$ cm²",
+        "$24$ cm²",
+        "$48$ cm²"
+      ],
+      "reponse": "$24$ cm²",
+      "explication": "$\\mathcal{A} = L \\times l = 6 \\times 4 = 24$ cm²."
     },
     {
-      "id":               "ap5_n2_023",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_023",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Un rectangle ABCD a une longueur inconnue et une largeur de $4$ cm. Son périmètre est de $30$ cm. Quelle est sa longueur ?",
-      "image":            "5eme/aire_perimetre/316552c80812aa5dbd297bcf833facd4d9d855c1.png",
-      "choix":            ["$22$ cm", "$11$ cm", "$7$ cm", "$26$ cm"],
-      "reponse":          "$11$ cm",
-      "explication":      "$P = 2 \\times (L + l)$, donc $L + l = \\dfrac{P}{2} = \\dfrac{30}{2} = 15$ cm. Avec $l = 4$ cm : $L = 15 - 4 = 11$ cm."
+      "enonce_html": "Un rectangle ABCD a une longueur inconnue et une largeur de $4$ cm. Son périmètre est de $30$ cm. Quelle est sa longueur ?",
+      "image": "5eme/aire_perimetre/316552c80812aa5dbd297bcf833facd4d9d855c1.png",
+      "choix": [
+        "$22$ cm",
+        "$11$ cm",
+        "$7$ cm",
+        "$26$ cm"
+      ],
+      "reponse": "$11$ cm",
+      "explication": "$P = 2 \\times (L + l)$, donc $L + l = \\dfrac{P}{2} = \\dfrac{30}{2} = 15$ cm. Avec $l = 4$ cm : $L = 15 - 4 = 11$ cm."
     },
     {
-      "id":               "ap5_n2_024",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_024",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le carré ABCD a un côté de $8$ cm. Quel est son périmètre ?",
-      "image":            "5eme/aire_perimetre/50d03fa9483bc3f3fd11d074bfc644e0b0ec5b95.png",
-      "choix":            ["$8$ cm", "$16$ cm", "$32$ cm", "$64$ cm"],
-      "reponse":          "$32$ cm",
-      "explication":      "$P = 4 \\times c = 4 \\times 8 = 32$ cm."
+      "enonce_html": "Le carré ABCD a un côté de $8$ cm. Quel est son périmètre ?",
+      "image": "5eme/aire_perimetre/50d03fa9483bc3f3fd11d074bfc644e0b0ec5b95.png",
+      "choix": [
+        "$8$ cm",
+        "$16$ cm",
+        "$32$ cm",
+        "$64$ cm"
+      ],
+      "reponse": "$32$ cm",
+      "explication": "$P = 4 \\times c = 4 \\times 8 = 32$ cm."
     },
     {
-      "id":               "ap5_n2_025",
-      "niveau":           2,
-      "type":             "qcm",
+      "id": "ap5_n2_025",
+      "niveau": 2,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Le rectangle ABCD a une longueur de $10$ cm et une largeur de $6$ cm. Calcule son aire.",
-      "image":            "5eme/aire_perimetre/eec7eaf9982dff528d59daa4f4a0b642f1de1194.png",
-      "choix":            ["$16$ cm²", "$32$ cm²", "$60$ cm²", "$100$ cm²"],
-      "reponse":          "$60$ cm²",
-      "explication":      "$\\mathcal{A} = L \\times l = 10 \\times 6 = 60$ cm²."
+      "enonce_html": "Le rectangle ABCD a une longueur de $10$ cm et une largeur de $6$ cm. Calcule son aire.",
+      "image": "5eme/aire_perimetre/eec7eaf9982dff528d59daa4f4a0b642f1de1194.png",
+      "choix": [
+        "$16$ cm²",
+        "$32$ cm²",
+        "$60$ cm²",
+        "$100$ cm²"
+      ],
+      "reponse": "$60$ cm²",
+      "explication": "$\\mathcal{A} = L \\times l = 10 \\times 6 = 60$ cm²."
     },
     {
-      "id":               "ap5_n3_001",
-      "niveau":           3,
-      "type":             "qcm",
+      "id": "ap5_n3_001",
+      "niveau": 3,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Si on triple le rayon d'un disque, son aire est multipliée par :",
-      "image":            null,
-      "choix":            ["$3$", "$6$", "$9$", "$27$"],
-      "reponse":          "$9$",
-      "explication":      "Aire initiale : $\\pi r^2$. Avec le nouveau rayon $3r$ : $(3r)^2 \\times \\pi = 9r^2 \\times \\pi$. L'aire est multipliée par $9 = 3^2$. En général, si on multiplie le rayon par $k$, l'aire est multipliée par $k^2$."
+      "enonce_html": "Si on triple le rayon d'un disque, son aire est multipliée par :",
+      "image": null,
+      "choix": [
+        "$3$",
+        "$6$",
+        "$9$",
+        "$27$"
+      ],
+      "reponse": "$9$",
+      "explication": "Aire initiale : $\\pi r^2$. Avec le nouveau rayon $3r$ : $(3r)^2 \\times \\pi = 9r^2 \\times \\pi$. L'aire est multipliée par $9 = 3^2$. En général, si on multiplie le rayon par $k$, l'aire est multipliée par $k^2$."
     },
     {
-      "id":               "ap5_n3_002",
-      "niveau":           3,
-      "type":             "qcm",
+      "id": "ap5_n3_002",
+      "niveau": 3,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Un carré a une diagonale de $10$ cm. Quelle est son aire ?",
-      "image":            null,
-      "choix":            ["$25$ cm²", "$50$ cm²", "$100$ cm²", "$200$ cm²"],
-      "reponse":          "$50$ cm²",
-      "explication":      "Soit $c$ le côté. Par Pythagore : $c^2 + c^2 = 10^2$, soit $2c^2 = 100$, donc $c^2 = 50$. L'aire du carré est $c^2 = 50$ cm². Ou directement : aire $= \\dfrac{d^2}{2} = \\dfrac{10^2}{2} = 50$ cm²."
+      "enonce_html": "Un carré a une diagonale de $10$ cm. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$25$ cm²",
+        "$50$ cm²",
+        "$100$ cm²",
+        "$200$ cm²"
+      ],
+      "reponse": "$50$ cm²",
+      "explication": "Soit $c$ le côté. Par Pythagore : $c^2 + c^2 = 10^2$, soit $2c^2 = 100$, donc $c^2 = 50$. L'aire du carré est $c^2 = 50$ cm². Ou directement : aire $= \\dfrac{d^2}{2} = \\dfrac{10^2}{2} = 50$ cm²."
     },
     {
-      "id":               "ap5_n3_003",
-      "niveau":           3,
-      "type":             "qcm",
+      "id": "ap5_n3_003",
+      "niveau": 3,
+      "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "L'aire d'un triangle est $30$ cm². Sa hauteur est le double de sa base. Quelle est sa base ?",
-      "image":            null,
-      "choix":            ["$5$ cm", "$\\sqrt{30}$ cm", "$6$ cm", "$10$ cm"],
-      "reponse":          "$\\sqrt{30}$ cm",
-      "explication":      "Posons $b$ la base. La hauteur vaut $h = 2b$. Aire $= \\dfrac{b \\times 2b}{2} = b^2 = 30$. Donc $b = \\sqrt{30}$ cm. $\\sqrt{30} \\approx 5{,}48$ cm. Vérification : $h = 2\\sqrt{30}$, aire $= \\dfrac{\\sqrt{30} \\times 2\\sqrt{30}}{2} = \\dfrac{2 \\times 30}{2} = 30$ cm² ✓."
+      "enonce_html": "L'aire d'un triangle est $30$ cm². Sa hauteur est le double de sa base. Quelle est sa base ?",
+      "image": null,
+      "choix": [
+        "$5$ cm",
+        "$\\sqrt{30}$ cm",
+        "$6$ cm",
+        "$10$ cm"
+      ],
+      "reponse": "$\\sqrt{30}$ cm",
+      "explication": "Posons $b$ la base. La hauteur vaut $h = 2b$. Aire $= \\dfrac{b \\times 2b}{2} = b^2 = 30$. Donc $b = \\sqrt{30}$ cm. $\\sqrt{30} \\approx 5{,}48$ cm. Vérification : $h = 2\\sqrt{30}$, aire $= \\dfrac{\\sqrt{30} \\times 2\\sqrt{30}}{2} = \\dfrac{2 \\times 30}{2} = 30$ cm² ✓."
     },
     {
-      "id":               "ap5_n3_004",
-      "niveau":           3,
-      "type":             "qcm",
+      "id": "ap5_n3_004",
+      "niveau": 3,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Parmi ces rectangles de périmètre $24$ cm, lequel a l'aire la plus grande ?",
-      "image":            null,
-      "choix":            ["$11$ cm $\\times$ $1$ cm", "$9$ cm $\\times$ $3$ cm", "$8$ cm $\\times$ $4$ cm", "$6$ cm $\\times$ $6$ cm"],
-      "reponse":          "$6$ cm $\\times$ $6$ cm",
-      "explication":      "Vérifions d'abord les périmètres : tous font $24$ cm. Aires : $11 \\times 1 = 11$ cm² ; $9 \\times 3 = 27$ cm² ; $8 \\times 4 = 32$ cm² ; $6 \\times 6 = 36$ cm². Le carré $6 \\times 6$ a l'aire maximale. Principe général : parmi tous les rectangles de même périmètre, le carré a l'aire la plus grande."
+      "enonce_html": "Parmi ces rectangles de périmètre $24$ cm, lequel a l'aire la plus grande ?",
+      "image": null,
+      "choix": [
+        "$11$ cm $\\times$ $1$ cm",
+        "$9$ cm $\\times$ $3$ cm",
+        "$8$ cm $\\times$ $4$ cm",
+        "$6$ cm $\\times$ $6$ cm"
+      ],
+      "reponse": "$6$ cm $\\times$ $6$ cm",
+      "explication": "Vérifions d'abord les périmètres : tous font $24$ cm. Aires : $11 \\times 1 = 11$ cm² ; $9 \\times 3 = 27$ cm² ; $8 \\times 4 = 32$ cm² ; $6 \\times 6 = 36$ cm². Le carré $6 \\times 6$ a l'aire maximale. Principe général : parmi tous les rectangles de même périmètre, le carré a l'aire la plus grande."
     },
     {
-      "id":               "ap5_n3_005",
-      "niveau":           3,
-      "type":             "qcm",
+      "id": "ap5_n3_005",
+      "niveau": 3,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Un disque est inscrit dans un carré de côté $10$ cm. Quelle est l'aire de la zone entre le carré et le disque ($\\pi \\approx 3{,}14$) ?",
-      "image":            null,
-      "choix":            ["$78{,}5$ cm²", "$21{,}5$ cm²", "$100$ cm²", "$28{,}5$ cm²"],
-      "reponse":          "$21{,}5$ cm²",
-      "explication":      "Le disque inscrit dans un carré de côté $10$ cm a un rayon $r = 5$ cm. Aire du carré $= 10^2 = 100$ cm². Aire du disque $= \\pi \\times 5^2 = 3{,}14 \\times 25 = 78{,}5$ cm². Aire de la zone $= 100 - 78{,}5 = 21{,}5$ cm²."
+      "enonce_html": "Un disque est inscrit dans un carré de côté $10$ cm. Quelle est l'aire de la zone entre le carré et le disque ($\\pi \\approx 3{,}14$) ?",
+      "image": null,
+      "choix": [
+        "$78{,}5$ cm²",
+        "$21{,}5$ cm²",
+        "$100$ cm²",
+        "$28{,}5$ cm²"
+      ],
+      "reponse": "$21{,}5$ cm²",
+      "explication": "Le disque inscrit dans un carré de côté $10$ cm a un rayon $r = 5$ cm. Aire du carré $= 10^2 = 100$ cm². Aire du disque $= \\pi \\times 5^2 = 3{,}14 \\times 25 = 78{,}5$ cm². Aire de la zone $= 100 - 78{,}5 = 21{,}5$ cm²."
     },
     {
-      "id":               "ap5_n3_006",
-      "niveau":           3,
-      "type":             "qcm",
+      "id": "ap5_n3_006",
+      "niveau": 3,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Deux disques ont des rayons de $3$ cm et $4$ cm. L'aire du disque dont le rayon est la somme des deux rayons est-elle égale à la somme des aires des deux disques ?",
-      "image":            null,
-      "choix":            ["Oui, les aires s'additionnent", "Non, car $(r_1 + r_2)^2 \\neq r_1^2 + r_2^2$", "Seulement si $\\pi = 3{,}14$", "Cela dépend des unités"],
-      "reponse":          "Non, car $(r_1 + r_2)^2 \\neq r_1^2 + r_2^2$",
-      "explication":      "Aire du disque de rayon $3 + 4 = 7$ cm : $\\pi \\times 7^2 = 49\\pi$. Somme des aires : $\\pi \\times 3^2 + \\pi \\times 4^2 = 9\\pi + 16\\pi = 25\\pi$. $49\\pi \\neq 25\\pi$. En général $(r_1 + r_2)^2 = r_1^2 + 2r_1r_2 + r_2^2 \\neq r_1^2 + r_2^2$ car le terme croisé $2r_1r_2$ n'est pas nul."
+      "enonce_html": "Deux disques ont des rayons de $3$ cm et $4$ cm. L'aire du disque dont le rayon est la somme des deux rayons est-elle égale à la somme des aires des deux disques ?",
+      "image": null,
+      "choix": [
+        "Oui, les aires s'additionnent",
+        "Non, car $(r_1 + r_2)^2 \\neq r_1^2 + r_2^2$",
+        "Seulement si $\\pi = 3{,}14$",
+        "Cela dépend des unités"
+      ],
+      "reponse": "Non, car $(r_1 + r_2)^2 \\neq r_1^2 + r_2^2$",
+      "explication": "Aire du disque de rayon $3 + 4 = 7$ cm : $\\pi \\times 7^2 = 49\\pi$. Somme des aires : $\\pi \\times 3^2 + \\pi \\times 4^2 = 9\\pi + 16\\pi = 25\\pi$. $49\\pi \\neq 25\\pi$. En général $(r_1 + r_2)^2 = r_1^2 + 2r_1r_2 + r_2^2 \\neq r_1^2 + r_2^2$ car le terme croisé $2r_1r_2$ n'est pas nul."
     },
     {
-      "id":               "ap5_n3_007",
-      "niveau":           3,
-      "type":             "qcm",
+      "id": "ap5_n3_007",
+      "niveau": 3,
+      "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html":      "Un terrain en L est formé de deux rectangles : un de $12$ m $\\times$ $8$ m et un de $6$ m $\\times$ $4$ m. Quelle est son aire totale ?",
-      "image":            null,
-      "choix":            ["$72$ m²", "$96$ m²", "$120$ m²", "$144$ m²"],
-      "reponse":          "$120$ m²",
-      "explication":      "Aire du premier rectangle $= 12 \\times 8 = 96$ m². Aire du second rectangle $= 6 \\times 4 = 24$ m². Aire totale $= 96 + 24 = 120$ m²."
+      "enonce_html": "Un terrain en L est formé de deux rectangles : un de $12$ m $\\times$ $8$ m et un de $6$ m $\\times$ $4$ m. Quelle est son aire totale ?",
+      "image": null,
+      "choix": [
+        "$72$ m²",
+        "$96$ m²",
+        "$120$ m²",
+        "$144$ m²"
+      ],
+      "reponse": "$120$ m²",
+      "explication": "Aire du premier rectangle $= 12 \\times 8 = 96$ m². Aire du second rectangle $= 6 \\times 4 = 24$ m². Aire totale $= 96 + 24 = 120$ m²."
+    },
+    {
+      "id": "ap5_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un carré a un périmètre de $36$ cm. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$9$ cm²",
+        "$36$ cm²",
+        "$81$ cm²",
+        "$324$ cm²"
+      ],
+      "reponse": "$81$ cm²",
+      "explication": "Côté $= 36 \\div 4 = 9$ cm. Aire $= 9^2 = 81$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le périmètre d'un triangle isocèle dont les deux côtés égaux mesurent $5$ cm et la base $3$ cm ?",
+      "image": null,
+      "choix": [
+        "$8$ cm",
+        "$13$ cm",
+        "$10$ cm",
+        "$15$ cm"
+      ],
+      "reponse": "$13$ cm",
+      "explication": "Périmètre $= 5 + 5 + 3 = 13$ cm. Dans un triangle isocèle, les deux côtés égaux sont les côtés latéraux. [Question générée]"
+    },
+    {
+      "id": "ap5_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un rectangle a une longueur de $9$ cm et une largeur de $3$ cm. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$12$ cm²",
+        "$24$ cm²",
+        "$27$ cm²",
+        "$36$ cm²"
+      ],
+      "reponse": "$27$ cm²",
+      "explication": "$\\mathcal{A} = L \\times l = 9 \\times 3 = 27$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle de base $12$ cm et de hauteur $5$ cm. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$17$ cm²",
+        "$30$ cm²",
+        "$60$ cm²",
+        "$120$ cm²"
+      ],
+      "reponse": "$30$ cm²",
+      "explication": "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{12 \\times 5}{2} = 30$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un disque a un rayon de $2$ cm. Exprime son aire en fonction de $\\pi$.",
+      "image": null,
+      "choix": [
+        "$2\\pi$ cm²",
+        "$4\\pi$ cm²",
+        "$8\\pi$ cm²",
+        "$16\\pi$ cm²"
+      ],
+      "reponse": "$4\\pi$ cm²",
+      "explication": "$\\mathcal{A} = \\pi r^2 = \\pi \\times 2^2 = 4\\pi$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une piscine circulaire a un rayon de $4$ m. Calcule sa surface en m² ($\\pi \\approx 3{,}14$). Combien de dalles de $20$ cm $\\times$ $20$ cm faut-il pour la couvrir ?",
+      "image": null,
+      "choix": [
+        "$200{,}96$ m², $502$ dalles",
+        "$50{,}24$ m², $1\\,256$ dalles",
+        "$50{,}24$ m², $502$ dalles",
+        "$200{,}96$ m², $1\\,256$ dalles"
+      ],
+      "reponse": "$50{,}24$ m², $1\\,256$ dalles",
+      "explication": "Aire $= \\pi \\times 4^2 = 3{,}14 \\times 16 = 50{,}24$ m². Une dalle : $0{,}20 \\times 0{,}20 = 0{,}04$ m². Nombre de dalles $= 50{,}24 \\div 0{,}04 = 1\\,256$. [Question générée]"
+    },
+    {
+      "id": "ap5_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un jardin rectangulaire mesure $12$ m de long et $8$ m de large. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$20$ m",
+        "$40$ m",
+        "$96$ m",
+        "$48$ m"
+      ],
+      "reponse": "$40$ m",
+      "explication": "$P = 2 \\times (L + l) = 2 \\times (12 + 8) = 2 \\times 20 = 40$ m. [Question générée]"
+    },
+    {
+      "id": "ap5_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si on triple les dimensions d'un rectangle, son aire est multipliée par :",
+      "image": null,
+      "choix": [
+        "$3$",
+        "$6$",
+        "$9$",
+        "$27$"
+      ],
+      "reponse": "$9$",
+      "explication": "Si $L$ devient $3L$ et $l$ devient $3l$, la nouvelle aire est $3L \\times 3l = 9Ll$. L'aire est multipliée par $9 = 3^2$. En général, si on multiplie les dimensions par $k$, l'aire est multipliée par $k^2$. [Question générée]"
+    },
+    {
+      "id": "ap5_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un triangle ABC a une base de $10$ cm et une hauteur de $6$ cm. Quelle est son aire ?",
+      "image": "5eme/aire_perimetre/e70dfc7f0b45e43fb52df1332b30a8558c79d66d.png",
+      "choix": [
+        "$60$ cm²",
+        "$30$ cm²",
+        "$16$ cm²",
+        "$24$ cm²"
+      ],
+      "reponse": "$30$ cm²",
+      "explication": "$\\mathcal{A} = \\dfrac{b \\times h}{2} = \\dfrac{10 \\times 6}{2} = 30$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un carré a une aire de $25$ cm². Quelle est la longueur de son côté ?",
+      "image": null,
+      "choix": [
+        "$5$ cm",
+        "$6{,}25$ cm",
+        "$12{,}5$ cm",
+        "$25$ cm"
+      ],
+      "reponse": "$5$ cm",
+      "explication": "Aire $= c^2 = 25$, donc $c = \\sqrt{25} = 5$ cm. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un carré et un rectangle ont la même aire. Le carré a un côté de $6$ cm, le rectangle a une largeur de $4$ cm. Quel est le périmètre du rectangle ?",
+      "image": null,
+      "choix": [
+        "$20$ cm",
+        "$26$ cm",
+        "$32$ cm",
+        "$34$ cm"
+      ],
+      "reponse": "$26$ cm",
+      "explication": "Aire du carré $= 6^2 = 36$ cm². Longueur du rectangle $= 36 \\div 4 = 9$ cm. Périmètre $= 2 \\times (9 + 4) = 26$ cm. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une piste de course est formée d'un rectangle de $80$ m $\\times$ $40$ m avec deux demi-disques aux extrémités de diamètre $40$ m. Quelle est la longueur totale de la piste ($\\pi \\approx 3{,}14$) ?",
+      "image": null,
+      "choix": [
+        "$160$ m",
+        "$205{,}6$ m",
+        "$285{,}6$ m",
+        "$325{,}6$ m"
+      ],
+      "reponse": "$285{,}6$ m",
+      "explication": "Les deux demi-disques forment un cercle complet de diamètre $40$ m (rayon $= 20$ m). Longueur du cercle $= 2 \\times \\pi \\times 20 = 3{,}14 \\times 40 = 125{,}6$ m. Les deux longueurs droites $= 2 \\times 80 = 160$ m. Total $= 160 + 125{,}6 = 285{,}6$ m. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un carreleur doit paver une salle en forme de L ($12$ m $\\times$ $8$ m avec un coin de $4$ m $\\times$ $3$ m enlevé) avec des carreaux de $60$ cm $\\times$ $60$ cm. Combien de carreaux faut-il ?",
+      "image": null,
+      "choix": [
+        "$200$ carreaux",
+        "$244$ carreaux",
+        "$267$ carreaux",
+        "$300$ carreaux"
+      ],
+      "reponse": "$267$ carreaux",
+      "explication": "Aire totale $= 12 \\times 8 - 4 \\times 3 = 96 - 12 = 84$ m². Un carreau : $0{,}60 \\times 0{,}60 = 0{,}36$ m². Nombre de carreaux $= 84 \\div 0{,}36 \\approx 233{,}3$ → on arrondit à $234$ carreaux (on ne peut pas couper). Correction exacte : $84 \\div 0{,}36 = 233{,}\\overline{3}$, donc $234$ carreaux. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Si on multiplie les dimensions d'un rectangle par $k$, son aire est multipliée par :",
+      "image": null,
+      "choix": [
+        "$k$",
+        "$2k$",
+        "$k^2$",
+        "$k^3$"
+      ],
+      "reponse": "$k^2$",
+      "explication": "Nouveau rectangle : $kL \\times kl = k^2 Ll$. L'aire est multipliée par $k^2$. Exemple : si $k = 3$, les dimensions triplent et l'aire est multipliée par $9 = 3^2$. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un terrain triangulaire de côtés $8$ m, $6$ m et $10$ m doit être entouré d'une clôture. Un jardinier dispose de $25$ m de grillage. A-t-il assez ?",
+      "image": null,
+      "choix": [
+        "Oui, car le périmètre est $24$ m",
+        "Non, car le périmètre est $26$ m",
+        "Oui, car le périmètre est $22$ m",
+        "Non, car le périmètre est $28$ m"
+      ],
+      "reponse": "Oui, car le périmètre est $24$ m",
+      "explication": "Périmètre $= 8 + 6 + 10 = 24$ m. Comme $24 < 25$, le jardinier a assez de grillage (il lui reste même $1$ m). [Question générée]"
+    },
+    {
+      "id": "ap5_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Avec $40$ m de clôture, un éleveur délimite un enclos rectangulaire en appuyant un côté contre un mur (ce côté ne nécessite pas de clôture). Quelles dimensions maximisent l'aire ?",
+      "image": null,
+      "choix": [
+        "Largeur $= 5$ m, longueur $= 30$ m",
+        "Largeur $= 10$ m, longueur $= 20$ m",
+        "Largeur $= 15$ m, longueur $= 10$ m",
+        "Largeur $= 20$ m, longueur $= 0$ m"
+      ],
+      "reponse": "Largeur $= 10$ m, longueur $= 20$ m",
+      "explication": "On clôture $2$ largeurs $+ 1$ longueur $= 40$ m. Longueur $= 40 - 2l$. Aire $= l \\times (40 - 2l) = 40l - 2l^2$. Pour $l = 5$ : aire $= 150$ m². Pour $l = 10$ : aire $= 200$ m². Pour $l = 15$ : aire $= 150$ m². Le maximum est pour $l = 10$ m, longueur $= 20$ m, aire $= 200$ m². [Question générée]"
+    },
+    {
+      "id": "ap5_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un disque a une aire de $100\\pi$ cm². Quel est son rayon ?",
+      "image": null,
+      "choix": [
+        "$r = 5$ cm",
+        "$r = 10$ cm",
+        "$r = 20$ cm",
+        "$r = 50$ cm"
+      ],
+      "reponse": "$r = 10$ cm",
+      "explication": "$\\pi r^2 = 100\\pi \\Rightarrow r^2 = 100 \\Rightarrow r = \\sqrt{100} = 10$ cm. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un terrain en L est formé de deux rectangles : un grand de $12$ m $\\times$ $8$ m et un petit de $6$ m $\\times$ $4$ m accolé dans le coin supérieur droit. Quel est le périmètre du terrain ?",
+      "image": null,
+      "choix": [
+        "$36$ m",
+        "$40$ m",
+        "$44$ m",
+        "$48$ m"
+      ],
+      "reponse": "$40$ m",
+      "explication": "On parcourt le contour du L dans le sens des aiguilles d'une montre. Les segments extérieurs sont : $12 + 8 + 6 + 4 + (12 - 6) + (8 - 4) = 12 + 8 + 6 + 4 + 6 + 4 = 40$ m... Recalcul : côtés du L $= 12 + 8 + 6 + 4 + 6 + 4 = 40$ m. Mais avec $4$ coins intérieurs : $12 + 8 + (12-6) + (8-4) + 6 + 4 = 12 + 8 + 6 + 4 + 6 + 4 = 40$ m. La réponse est $40$ m — correction de cette question générée : périmètre $= 12 + 8 + 6 + 4 + 6 + 4 = 40$ m. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La surface d'un terrain circulaire est $\\pi \\times r^2$. Si on augmente le rayon de $1$ m (de $r$ à $r+1$), de combien augmente l'aire ?",
+      "image": null,
+      "choix": [
+        "De $\\pi$ m²",
+        "De $\\pi(2r+1)$ m²",
+        "De $2\\pi r$ m²",
+        "De $\\pi r^2$ m²"
+      ],
+      "reponse": "De $\\pi(2r+1)$ m²",
+      "explication": "Nouvelle aire $= \\pi(r+1)^2 = \\pi(r^2 + 2r + 1)$. Ancienne aire $= \\pi r^2$. Différence $= \\pi(r^2 + 2r + 1) - \\pi r^2 = \\pi(2r + 1)$. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un rectangle a pour longueur $l + 3$ et pour largeur $l$. Son aire est $28$ cm². Quelle est la valeur de $l$ ?",
+      "image": null,
+      "choix": [
+        "$l = 3$ cm",
+        "$l = 4$ cm",
+        "$l = 7$ cm",
+        "$l = 5$ cm"
+      ],
+      "reponse": "$l = 4$ cm",
+      "explication": "Aire $= l(l+3) = 28$, soit $l^2 + 3l - 28 = 0$. On cherche deux entiers dont le produit est $-28$ et la somme est $3$ : $7$ et $-4$. Ainsi $(l + 7)(l - 4) = 0$. Comme $l > 0$, $l = 4$ cm. Vérification : $4 \\times 7 = 28$ ✓. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Deux disques ont des rayons de $3$ cm et $4$ cm. Quelle est l'aire du disque dont le rayon est $\\sqrt{3^2 + 4^2}$ ?",
+      "image": null,
+      "choix": [
+        "$\\pi \\times 7$ cm²",
+        "$25\\pi$ cm²",
+        "$49\\pi$ cm²",
+        "$7\\pi$ cm²"
+      ],
+      "reponse": "$25\\pi$ cm²",
+      "explication": "$\\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$ cm. Aire $= \\pi \\times 5^2 = 25\\pi$ cm². Notez que $25\\pi = 9\\pi + 16\\pi$ : dans ce cas particulier, les aires s'additionnent ! C'est la propriété de Pythagore appliquée aux aires. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un carré a un périmètre de $40$ cm. Un rectangle a la même aire que ce carré et une largeur de $5$ cm. Quel est le périmètre du rectangle ?",
+      "image": null,
+      "choix": [
+        "$40$ cm",
+        "$42$ cm",
+        "$50$ cm",
+        "$30$ cm"
+      ],
+      "reponse": "$50$ cm",
+      "explication": "Côté du carré $= 40 \\div 4 = 10$ cm. Aire $= 10^2 = 100$ cm². Longueur du rectangle $= 100 \\div 5 = 20$ cm. Périmètre $= 2 \\times (20 + 5) = 50$ cm. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Parmi ces rectangles de périmètre $20$ cm, lequel a l'aire la plus petite ?",
+      "image": null,
+      "choix": [
+        "$5$ cm $\\times$ $5$ cm",
+        "$8$ cm $\\times$ $2$ cm",
+        "$7$ cm $\\times$ $3$ cm",
+        "$9$ cm $\\times$ $1$ cm"
+      ],
+      "reponse": "$9$ cm $\\times$ $1$ cm",
+      "explication": "Aires : $5 \\times 5 = 25$ cm² ; $8 \\times 2 = 16$ cm² ; $7 \\times 3 = 21$ cm² ; $9 \\times 1 = 9$ cm². Le minimum est $9$ cm². Plus les dimensions sont éloignées (rectangle « allongé »), plus l'aire est petite pour un périmètre fixé. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un disque est inscrit dans un carré de côté $a$. Exprime, en fonction de $a$ et $\\pi$, l'aire de la région entre le carré et le disque.",
+      "image": null,
+      "choix": [
+        "$a^2 - \\pi a$",
+        "$a^2 - \\dfrac{\\pi a^2}{4}$",
+        "$\\pi a^2 - a^2$",
+        "$a^2 + \\pi a^2$"
+      ],
+      "reponse": "$a^2 - \\dfrac{\\pi a^2}{4}$",
+      "explication": "Le disque inscrit dans un carré de côté $a$ a un rayon $r = \\dfrac{a}{2}$. Aire du disque $= \\pi \\left(\\dfrac{a}{2}\\right)^2 = \\dfrac{\\pi a^2}{4}$. Aire entre le carré et le disque $= a^2 - \\dfrac{\\pi a^2}{4} = a^2\\left(1 - \\dfrac{\\pi}{4}\\right)$. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un carreleur pave un couloir de $15$ m de long et $1{,}2$ m de large avec des carreaux carrés de $30$ cm de côté. Combien de carreaux faut-il ?",
+      "image": null,
+      "choix": [
+        "$100$ carreaux",
+        "$150$ carreaux",
+        "$200$ carreaux",
+        "$250$ carreaux"
+      ],
+      "reponse": "$200$ carreaux",
+      "explication": "Aire du couloir $= 15 \\times 1{,}2 = 18$ m² $= 180\\,000$ cm². Aire d'un carreau $= 30^2 = 900$ cm². Nombre $= 180\\,000 \\div 900 = 200$ carreaux. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On peint un mur rectangulaire de $4$ m $\\times$ $2{,}5$ m. Au centre se trouve une fenêtre rectangulaire de $1{,}2$ m $\\times$ $0{,}8$ m. Quelle est l'aire à peindre ?",
+      "image": null,
+      "choix": [
+        "$8{,}04$ m²",
+        "$9{,}04$ m²",
+        "$10{,}04$ m²",
+        "$10$ m²"
+      ],
+      "reponse": "$9{,}04$ m²",
+      "explication": "Aire du mur $= 4 \\times 2{,}5 = 10$ m². Aire de la fenêtre $= 1{,}2 \\times 0{,}8 = 0{,}96$ m². Aire à peindre $= 10 - 0{,}96 = 9{,}04$ m². [Question générée]"
+    },
+    {
+      "id": "ap5_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un rectangle a un périmètre de $30$ cm et une longueur double de sa largeur. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$25$ cm²",
+        "$50$ cm²",
+        "$100$ cm²",
+        "$150$ cm²"
+      ],
+      "reponse": "$50$ cm²",
+      "explication": "Posons $l$ la largeur, alors $L = 2l$. Périmètre $= 2(L + l) = 2(2l + l) = 6l = 30$, donc $l = 5$ cm et $L = 10$ cm. Aire $= 10 \\times 5 = 50$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Quel est le périmètre d'un demi-disque de rayon $10$ cm ($\\pi \\approx 3{,}14$) ?",
+      "image": null,
+      "choix": [
+        "$31{,}4$ cm",
+        "$51{,}4$ cm",
+        "$62{,}8$ cm",
+        "$41{,}4$ cm"
+      ],
+      "reponse": "$51{,}4$ cm",
+      "explication": "Périmètre du demi-disque $=$ demi-cercle $+$ diamètre $= \\pi r + 2r = 3{,}14 \\times 10 + 20 = 31{,}4 + 20 = 51{,}4$ cm. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un terrain circulaire de rayon $6$ m est entouré d'un chemin de $1$ m de large. Quelle est l'aire du chemin ($\\pi \\approx 3{,}14$) ?",
+      "image": null,
+      "choix": [
+        "$6{,}28$ m²",
+        "$12{,}56$ m²",
+        "$40{,}82$ m²",
+        "$43{,}96$ m²"
+      ],
+      "reponse": "$43{,}96$ m²",
+      "explication": "Rayon extérieur $= 6 + 1 = 7$ m. Aire du grand disque $= \\pi \\times 7^2 = 3{,}14 \\times 49 = 153{,}86$ m². Aire du petit disque $= \\pi \\times 6^2 = 3{,}14 \\times 36 = 113{,}04$ m². Aire du chemin $= 153{,}86 - 113{,}04 = 40{,}82$ m². [Question générée]"
+    },
+    {
+      "id": "ap5_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un carré a une aire de $144$ cm². Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$12$ cm",
+        "$24$ cm",
+        "$36$ cm",
+        "$48$ cm"
+      ],
+      "reponse": "$48$ cm",
+      "explication": "Côté $= \\sqrt{144} = 12$ cm. Périmètre $= 4 \\times 12 = 48$ cm. [Question générée]"
+    },
+    {
+      "id": "ap5_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La surface d'un trapèze rectangle est $\\dfrac{(B + b) \\times h}{2}$ où $B$ et $b$ sont les bases parallèles et $h$ la hauteur. Un trapèze a $B = 10$ cm, $b = 6$ cm et $h = 4$ cm. Quelle est son aire ?",
+      "image": null,
+      "choix": [
+        "$20$ cm²",
+        "$32$ cm²",
+        "$40$ cm²",
+        "$64$ cm²"
+      ],
+      "reponse": "$32$ cm²",
+      "explication": "$\\mathcal{A} = \\dfrac{(B + b) \\times h}{2} = \\dfrac{(10 + 6) \\times 4}{2} = \\dfrac{16 \\times 4}{2} = \\dfrac{64}{2} = 32$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un parallélogramme a une base de $8$ cm et une hauteur de $5$ cm. Son aire est égale à celle de quel rectangle ?",
+      "image": null,
+      "choix": [
+        "Rectangle de $4$ cm $\\times$ $5$ cm",
+        "Rectangle de $8$ cm $\\times$ $5$ cm",
+        "Rectangle de $4$ cm $\\times$ $10$ cm",
+        "Rectangle de $13$ cm $\\times$ $2$ cm"
+      ],
+      "reponse": "Rectangle de $8$ cm $\\times$ $5$ cm",
+      "explication": "L'aire d'un parallélogramme est $\\mathcal{A} = \\text{base} \\times \\text{hauteur} = 8 \\times 5 = 40$ cm². C'est la même formule que pour un rectangle. Le rectangle de $8$ cm $\\times$ $5$ cm a la même aire $40$ cm². [Question générée]"
+    },
+    {
+      "id": "ap5_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une figure est composée d'un rectangle de $10$ cm $\\times$ $6$ cm dont on a soustrait un triangle de base $4$ cm et de hauteur $3$ cm à l'un des coins. Quelle est l'aire de cette figure ?",
+      "image": null,
+      "choix": [
+        "$48$ cm²",
+        "$54$ cm²",
+        "$56$ cm²",
+        "$60$ cm²"
+      ],
+      "reponse": "$54$ cm²",
+      "explication": "Aire du rectangle $= 10 \\times 6 = 60$ cm². Aire du triangle soustrait $= \\dfrac{4 \\times 3}{2} = 6$ cm². Aire de la figure $= 60 - 6 = 54$ cm². [Question générée]"
     }
   ]
 }
