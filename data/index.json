@@ -93,9 +93,19 @@
       "niveau": "4eme"
     },
     {
-    "id": "angles_alternes_internes_5eme",
-    "fichier": "data/5eme/angles_alternes_internes_5eme.json",
-    "niveau": "5eme"
+      "id": "angles_alternes_internes_5eme",
+      "fichier": "data/5eme/angles_alternes_internes_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "enchainement_operations_5eme",
+      "fichier": "data/5eme/enchainement_operations_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "calcul_litteral_5eme",
+      "fichier": "data/5eme/calcul_litteral_5eme.json",
+      "niveau": "5eme"
     }
   ],
   "automatismes_notions": [
