@@ -116,7 +116,17 @@
       "id": "aire_perimetre_5eme",
       "fichier": "data/5eme/aire_perimetre_5eme.json",
       "niveau": "5eme"
-    }
+    },
+    {
+      "id": "nombres_relatifs_5eme",
+      "fichier": "data/5eme/nombres_relatifs_5eme.json",
+      "niveau": "5eme"
+    },
+    {
+      "id": "parallelogrammes_5eme",
+      "fichier": "data/5eme/parallelogrammes_5eme",
+      "niveau": "5eme"
+    },
   ],
   "automatismes_notions": [
     {
