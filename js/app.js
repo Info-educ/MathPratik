@@ -508,7 +508,15 @@ function launchQuiz() {
 }
 
 function retryQuiz() { launchQuiz(); }
-function retryExam()  { launchQuiz(); }
+function retryExam()  {
+  // Sécurité : si l'état a été perdu (ex. rechargement partiel),
+  // retourner à la sélection plutôt que de bloquer silencieusement
+  if (State.selectedThemes.length === 0) {
+    showSelect(State.currentNiveau);
+    return;
+  }
+  launchQuiz();
+}
 
 // ══════════════════════════════════════════════════════
 //  RENDU QUESTION
@@ -858,7 +866,7 @@ function afficherFeedback(isCorrect, question) {
   btnNext.classList.add('visible');
   const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
   if (!isCorrect) {
-    btnNext.textContent = '→ Voir l\'erreur, puis recommencer';
+    btnNext.textContent = '→ Recommencer';
   } else if (isLast) {
     btnNext.textContent = 'Voir les résultats →';
   } else {
@@ -914,7 +922,7 @@ function handleAnswer(chosen, question) {
   const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
 
   if (!isCorrect) {
-    btnNext.textContent = '→ Voir l\'erreur, puis recommencer';
+    btnNext.textContent = '→ Recommencer';
   } else if (isLast) {
     btnNext.textContent = 'Voir les résultats →';
   } else {
@@ -929,9 +937,15 @@ function nextQuestion() {
   const fb = document.getElementById('feedback-box');
   if (fb.classList.contains('wrong')) {
     const q = State.quizQuestions[State.currentQIndex];
+    // Compatibilité : certaines questions utilisent enonce_html sans enonce
+    const enonceTexte = q.enonce
+      ? q.enonce.substring(0, 80)
+      : (q.enonce_html
+          ? q.enonce_html.replace(/<[^>]*>/g, '').substring(0, 80)
+          : '—');
     setMathText(
       document.getElementById('fail-question-preview'),
-      `Bloqué à la question ${State.currentQIndex + 1} : ${q.enonce.substring(0, 80)}…`
+      `Bloqué à la question ${State.currentQIndex + 1} : ${enonceTexte}…`
     );
     showScreen('screen-exam-fail');
     return;
@@ -982,7 +996,11 @@ function showResults() {
     const textDiv = document.createElement('div');
     textDiv.className = 'result-item-text';
     const strong = document.createElement('strong');
-    const enonceText = `Q${i+1} : ${q.enonce.substring(0, 65)}${q.enonce.length > 65 ? '…' : ''}`;
+    // Compatibilité : certaines questions utilisent enonce_html sans enonce
+    const enonceRaw = q.enonce
+      ? q.enonce
+      : (q.enonce_html ? q.enonce_html.replace(/<[^>]*>/g, '') : '—');
+    const enonceText = `Q${i+1} : ${enonceRaw.substring(0, 65)}${enonceRaw.length > 65 ? '…' : ''}`;
     strong.textContent = enonceText;
     renderMath(strong);
     const repLine = document.createElement('span');
