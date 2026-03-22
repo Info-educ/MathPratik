@@ -45,7 +45,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "À l'aide du tableau, quelle est la valeur de$\\sqrt{36}$?",
-      "image": "pythagore/9a6613436923445c2b3bf4cf244d103bd0064406.png",
+      "image": "4eme/pythagore/9a6613436923445c2b3bf4cf244d103bd0064406.png",
       "choix": [
         "4",
         "5",
@@ -61,7 +61,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Dans le tableau des racines carrées, quelle est la valeur de$\\sqrt{64}$?",
-      "image": "pythagore/2b2c76669504882984ce50335ca42e1c717f6b7c.png",
+      "image": "4eme/pythagore/2b2c76669504882984ce50335ca42e1c717f6b7c.png",
       "choix": [
         "6",
         "7",
@@ -173,7 +173,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Sur la figure, [BC] est l'hypoténuse. Pourquoi ?",
-      "image": "pythagore/1201e36c9d390c6cd5d6d07b161bef6f4511e6c8.png",
+      "image": "4eme/pythagore/1201e36c9d390c6cd5d6d07b161bef6f4511e6c8.png",
       "choix": [
         "Car BC est le côté horizontal",
         "Car BC est le côté opposé à l'angle droit en A et le plus grand côté",
@@ -189,7 +189,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Sur la figure, où se trouve l'angle droit et quelle est l'hypoténuse ?",
-      "image": "pythagore/35d4c4f2d921fdc17652d797244ba787494b9987.png",
+      "image": "4eme/pythagore/35d4c4f2d921fdc17652d797244ba787494b9987.png",
       "choix": [
         "Angle droit en B, hypoténuse [AC]",
         "Angle droit en A, hypoténuse [BC]",
@@ -253,7 +253,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Le triangle$\\widehat{IJK}$est rectangle en I avec IJ=3 cm et IK=4 cm. Calcule JK.",
-      "image": "pythagore/3c7f2bb20fd98252f322b4cc99dac8c034cb13b9.png",
+      "image": "4eme/pythagore/3c7f2bb20fd98252f322b4cc99dac8c034cb13b9.png",
       "choix": [
         "4 cm",
         "5 cm",
@@ -269,7 +269,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Le triangle$\\widehat{ABC}$est rectangle en A avec AB=6 cm et AC=8 cm. Calcule BC.",
-      "image": "pythagore/eec77f65308b9c832af9a22f66daf315f9f44e1d.png",
+      "image": "4eme/pythagore/eec77f65308b9c832af9a22f66daf315f9f44e1d.png",
       "choix": [
         "8 cm",
         "10 cm",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Le triangle$\\widehat{MNP}$est rectangle en M avec MN=5 cm et MP=12 cm. Calcule NP.",
-      "image": "pythagore/a966d9d5aee7abff24a3201f4409a661fcd74447.png",
+      "image": "4eme/pythagore/a966d9d5aee7abff24a3201f4409a661fcd74447.png",
       "choix": [
         "11 cm",
         "12 cm",
@@ -333,7 +333,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Le triangle$\\widehat{EGF}$est rectangle en E. EG=40 cm, GF=41 cm (hypoténuse). Calcule EF.",
-      "image": "pythagore/fa1bf4fab0d2468ce8196eaeaa1c83fcf1e0e5fd.png",
+      "image": "4eme/pythagore/fa1bf4fab0d2468ce8196eaeaa1c83fcf1e0e5fd.png",
       "choix": [
         "7 cm",
         "8 cm",
@@ -349,7 +349,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Le triangle$\\widehat{RST}$est rectangle en R. ST=17 cm (hyp.) et RT=15 cm. Calcule RS.",
-      "image": "pythagore/cd4f9ef4d894f5fc6d3563a6b55d753cafb9239e.png",
+      "image": "4eme/pythagore/cd4f9ef4d894f5fc6d3563a6b55d753cafb9239e.png",
       "choix": [
         "6 cm",
         "7 cm",
@@ -365,7 +365,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Le triangle$\\widehat{LMN}$est rectangle en L. MN=26 cm (hyp.) et LN=24 cm. Calcule LM.",
-      "image": "pythagore/94a822088af2101d8dcda186046faa3b4f39693a.png",
+      "image": "4eme/pythagore/94a822088af2101d8dcda186046faa3b4f39693a.png",
       "choix": [
         "8 cm",
         "9 cm",
@@ -653,7 +653,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Triangle$\\widehat{STU}$: ST=5, SU=3, UT=4. [ST] est le plus grand côté.$S$T^{2}=25,$S$U^{2}+$U$T^{2}=9+16=25. Que peut-on conclure ?",
-      "image": "pythagore/bbce66495044b37d302b685bfe353aae33094361.png",
+      "image": "4eme/pythagore/bbce66495044b37d302b685bfe353aae33094361.png",
       "choix": [
         "Le triangle$\\widehat{STU}$est rectangle en S",
         "Le triangle$\\widehat{STU}$est rectangle en U",
@@ -669,7 +669,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Triangle$\\widehat{PQR}$: PQ=8, QR=10 (grand côté), PR=6.$Q$R^{2}=100,$P$Q^{2}+$P$R^{2}=64+36=100. Conclusion ?",
-      "image": "pythagore/9cddae7da841994b10171b0cebbbe69b8374ae08.png",
+      "image": "4eme/pythagore/9cddae7da841994b10171b0cebbbe69b8374ae08.png",
       "choix": [
         "Pas rectangle car 8+6$\\neq$10",
         "Rectangle en P ($Q$R^{2}=$P$Q^{2}+$P$R^{2})",
@@ -685,7 +685,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Triangle$\\widehat{XYZ}$: XY=7, YZ=9 (grand côté), XZ=5.$Y$Z^{2}=81,$X$Y^{2}+$X$Z^{2}=49+25=74. Est-il rectangle ?",
-      "image": "pythagore/7a81dc9a93a6dd4076faca426bba8ea6affcf079.png",
+      "image": "4eme/pythagore/7a81dc9a93a6dd4076faca426bba8ea6affcf079.png",
       "choix": [
         "Oui, rectangle en X",
         "Oui, rectangle en Z",
@@ -749,7 +749,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Triangle$\\widehat{DEF}$: DE=6, EF=4, DF=7 (grand côté).$D$F^{2}=49,$D$E^{2}+$E$F^{2}=36+16=52. Conclusion ?",
-      "image": "pythagore/6229e88a22b389a394318754b26e45dcfc4013e6.png",
+      "image": "4eme/pythagore/6229e88a22b389a394318754b26e45dcfc4013e6.png",
       "choix": [
         "Rectangle en E",
         "Rectangle en D",

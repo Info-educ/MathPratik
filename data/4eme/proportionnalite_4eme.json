@@ -29,7 +29,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans ce tableau, quel est le coefficient de proportionnalité ?",
-      "image": "proportionnalite/15095c01a927be267a09aceb10d432f96d7d0618.png",
+      "image": "4eme/proportionnalite/15095c01a927be267a09aceb10d432f96d7d0618.png",
       "choix": [
         "0,5",
         "1,36",
@@ -45,7 +45,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Vérifie que le tableau est bien un tableau de proportionnalité. Que valent tous les quotients ligne 2$\\div$ligne 1 ?",
-      "image": "proportionnalite/15095c01a927be267a09aceb10d432f96d7d0618.png",
+      "image": "4eme/proportionnalite/15095c01a927be267a09aceb10d432f96d7d0618.png",
       "choix": [
         "Ils valent tous 2,72",
         "Ils valent tous 1,36",
@@ -109,7 +109,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans un tableau de proportionnalité, la ligne 1 contient les valeurs 2, 4, 6, 10. Le coefficient est 3. Quelle est la valeur manquante pour 4 ?",
-      "image": "proportionnalite/5231f18bbcbda2cf2c49f6e7b93098c37e54c97d.png",
+      "image": "4eme/proportionnalite/5231f18bbcbda2cf2c49f6e7b93098c37e54c97d.png",
       "choix": [
         "8",
         "12",
@@ -125,7 +125,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Un tableau de proportionnalité de vitesse (km/h) et temps (min). Pour 30 km/h, on obtient 20 min. Pour 10 km/h, quelle valeur en minutes ?",
-      "image": "proportionnalite/e25e117211a47b7baea51d99df7fdee3840b269b.png",
+      "image": "4eme/proportionnalite/e25e117211a47b7baea51d99df7fdee3840b269b.png",
       "choix": [
         "10 min",
         "15 min",
@@ -141,7 +141,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur le schéma du produit en croix, si a=3, b=6, c=5, quelle est la valeur de « ? » ?",
-      "image": "proportionnalite/941f3e0ce488e0f831597c647587b2b98615f439.png",
+      "image": "4eme/proportionnalite/941f3e0ce488e0f831597c647587b2b98615f439.png",
       "choix": [
         "2",
         "10",
@@ -157,7 +157,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "La masse de cerises est proportionnelle au prix. 0,5 kg coûte 1,36 €. Quel est le prix de 15 kg ?",
-      "image": "proportionnalite/1dd56f12ebdeccfed3b6f629be5b6988c01c7d97.png",
+      "image": "4eme/proportionnalite/1dd56f12ebdeccfed3b6f629be5b6988c01c7d97.png",
       "choix": [
         "20,40 €",
         "40,80 €",
@@ -221,7 +221,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur ce graphique, la représentation indique-t-elle une proportionnalité ?",
-      "image": "proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
+      "image": "4eme/proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
       "choix": [
         "Non, les points ne sont pas alignés",
         "Oui, les points sont alignés avec l'origine O",
@@ -237,7 +237,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Ce graphique montre-t-il une situation de proportionnalité ?",
-      "image": "proportionnalite/4b207310ccc1f972eecb253491e0a5c9f87ce964.png",
+      "image": "4eme/proportionnalite/4b207310ccc1f972eecb253491e0a5c9f87ce964.png",
       "choix": [
         "Oui, les points sont alignés",
         "Non, la droite ne passe pas par l'origine O",
@@ -269,7 +269,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Une classe a 30 élèves. 60% pratiquent un sport. Combien de sportifs ?",
-      "image": "proportionnalite/29646465f45114bd3b8a99694902cb2ffb4d72ba.png",
+      "image": "4eme/proportionnalite/29646465f45114bd3b8a99694902cb2ffb4d72ba.png",
       "choix": [
         "6",
         "12",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Calcule 30% de 60 avec la méthode : Q$\\times$t$\\div$100.",
-      "image": "proportionnalite/e2bf17bb12a175cf35287850f95e57a24d80d3ad.png",
+      "image": "4eme/proportionnalite/e2bf17bb12a175cf35287850f95e57a24d80d3ad.png",
       "choix": [
         "60$\\div$30=2",
         "60$\\times$30$\\div$100=18",
@@ -445,7 +445,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Dans un tableau de proportionnalité, 120 élèves sur 500 étudient l'allemand. Quel pourcentage cela représente-t-il ?",
-      "image": "proportionnalite/028cdf24488c9447d7b0c66653dd7e9d526189bd.png",
+      "image": "4eme/proportionnalite/028cdf24488c9447d7b0c66653dd7e9d526189bd.png",
       "choix": [
         "12%",
         "20%",
@@ -653,7 +653,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "La recette de gâteau est proportionnelle. Pour 200 g de farine on utilise 80 g de sucre. Pour 350 g de farine, combien de grammes de sucre ?",
-      "image": "proportionnalite/58fef8a46ca2272af699a06b6690f0d6a3430078.png",
+      "image": "4eme/proportionnalite/58fef8a46ca2272af699a06b6690f0d6a3430078.png",
       "choix": [
         "120 g",
         "130 g",
@@ -669,7 +669,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Tableau de change euro/dollar avec k=1,08. Combien de dollars pour 5 € ?",
-      "image": "proportionnalite/d286aa440ecba920227244a4ecccd33f1ac503a1.png",
+      "image": "4eme/proportionnalite/d286aa440ecba920227244a4ecccd33f1ac503a1.png",
       "choix": [
         "4,63$",
         "5,08$",
@@ -733,7 +733,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur le graphique proportionnel, lis la valeur de y pour x=2,5. La droite passe par (1,2).",
-      "image": "proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
+      "image": "4eme/proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
       "choix": [
         "3",
         "4,5",
@@ -749,7 +749,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur le graphique, quel est le coefficient de proportionnalité si la droite passe par (1,2) et (3,6) ?",
-      "image": "proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
+      "image": "4eme/proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
       "choix": [
         "1",
         "2",
@@ -877,7 +877,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "En utilisant la méthode du tableau, que représente 120 élèves sur 500 ?",
-      "image": "proportionnalite/028cdf24488c9447d7b0c66653dd7e9d526189bd.png",
+      "image": "4eme/proportionnalite/028cdf24488c9447d7b0c66653dd7e9d526189bd.png",
       "choix": [
         "20%",
         "22%",

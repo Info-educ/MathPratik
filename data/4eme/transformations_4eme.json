@@ -45,7 +45,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, (d) est l'axe de symétrie. Que représente H sur le segment [AA'] ?",
-      "image": "transformations/58752cfbd1b94d6f4fab4497cfd8bb0d08b01a62.png",
+      "image": "4eme/transformations/58752cfbd1b94d6f4fab4497cfd8bb0d08b01a62.png",
       "choix": [
         "Un point quelconque sur (d)",
         "Le pied de la perpendiculaire : H est le milieu de [AA'] et (d) ⊥ [AA']",
@@ -61,7 +61,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, les codages verts sur les côtés du triangle indiquent :",
-      "image": "transformations/c9ba02b79a5e236bfcf6993efad0b4bda2f62fe4.png",
+      "image": "4eme/transformations/c9ba02b79a5e236bfcf6993efad0b4bda2f62fe4.png",
       "choix": [
         "Les côtés du triangle symétrique sont plus longs",
         "Les côtés portant le même codage sont égaux : la symétrie conserve les longueurs",
@@ -157,7 +157,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Pour construire le symétrique A' de A par rapport à (d), quelle est la méthode correcte ?",
-      "image": "transformations/ee42d0ffedb4ef0bb7c3e617135fec01fee7c9c0.png",
+      "image": "4eme/transformations/ee42d0ffedb4ef0bb7c3e617135fec01fee7c9c0.png",
       "choix": [
         "Tracer une droite parallèle à (d) par A",
         "Tracer la perpendiculaire à (d) par A, nommer H son pied, puis reporter A' tel que HA' = AH de l'autre côté",
@@ -173,7 +173,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure de correction, quelles paires de longueurs sont codées comme égales ?",
-      "image": "transformations/c9ba02b79a5e236bfcf6993efad0b4bda2f62fe4.png",
+      "image": "4eme/transformations/c9ba02b79a5e236bfcf6993efad0b4bda2f62fe4.png",
       "choix": [
         "AB = BC et A'B' = B'C'",
         "AB = A'B' (2 traits) et BC = B'C' (1 trait)",
@@ -205,7 +205,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, O est le centre de symétrie. Les codages sur AO et OA' indiquent :",
-      "image": "transformations/100343fbe61e8947cbeead75b6364585d0485d95.png",
+      "image": "4eme/transformations/100343fbe61e8947cbeead75b6364585d0485d95.png",
       "choix": [
         "AO > OA'",
         "AO = OA' : O est le milieu de [AA']",
@@ -253,7 +253,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure, les codages rouges sur AO/OA', BO/OB', CO/OC' du triangle et son symétrique montrent :",
-      "image": "transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
+      "image": "4eme/transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
       "choix": [
         "Que les sommets sont confondus",
         "Que O est le milieu de chaque segment : AO=OA', BO=OB', CO=OC'",
@@ -269,7 +269,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les codages verts sur les côtés du triangle et de son image par symétrie centrale montrent :",
-      "image": "transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
+      "image": "4eme/transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
       "choix": [
         "Que les triangles ont des côtés différents",
         "Que AB=A'B' et BC=B'C' : la symétrie centrale conserve les longueurs",
@@ -317,7 +317,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Pour construire A' symétrique de A par rapport à O (symétrie centrale), quelle est la méthode ?",
-      "image": "transformations/6802991fb32f9bd36b73de6cd48f8434a1556221.png",
+      "image": "4eme/transformations/6802991fb32f9bd36b73de6cd48f8434a1556221.png",
       "choix": [
         "Tracer la perpendiculaire à [AO]",
         "Tracer le segment [AO], le prolonger jusqu'à A' tel que OA' = OA de l'autre côté",
@@ -365,7 +365,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure de translation, les codages (1 trait) sur AA', BB' et CC' indiquent :",
-      "image": "transformations/d17a28dde4e5b054fdfb965c15ce8b72eada9e82.png",
+      "image": "4eme/transformations/d17a28dde4e5b054fdfb965c15ce8b72eada9e82.png",
       "choix": [
         "AA' > BB'",
         "AA' = BB' : tous les déplacements ont la même longueur",
@@ -381,7 +381,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les flèches AA', BB', CC' dans une translation de triangle sont :",
-      "image": "transformations/8a632f2ec101a4ba12d3ac75bda7a32e57451875.png",
+      "image": "4eme/transformations/8a632f2ec101a4ba12d3ac75bda7a32e57451875.png",
       "choix": [
         "De longueurs différentes",
         "Parallèles entre elles, de même sens et de même longueur",
@@ -397,7 +397,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les codages verts sur les côtés du triangle et de son image par translation indiquent :",
-      "image": "transformations/8a632f2ec101a4ba12d3ac75bda7a32e57451875.png",
+      "image": "4eme/transformations/8a632f2ec101a4ba12d3ac75bda7a32e57451875.png",
       "choix": [
         "Les triangles ont des côtés différents",
         "AB=A'B' et BC=B'C' : la translation conserve les longueurs",
@@ -445,7 +445,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Pour construire B' image de B par translation de vecteur AA', quelle est la méthode ?",
-      "image": "transformations/9331c6b7599f416b8028dd465917b36c8633360a.png",
+      "image": "4eme/transformations/9331c6b7599f416b8028dd465917b36c8633360a.png",
       "choix": [
         "Depuis B, tracer un segment perpendiculaire à AA'",
         "Depuis B, tracer un segment parallèle à AA', même sens, même longueur → B'",
@@ -477,7 +477,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cette figure, identifie chaque transformation à sa représentation.",
-      "image": "transformations/a6a4dfb7a5fa7ac3c64215e63fab639037f48589.png",
+      "image": "4eme/transformations/a6a4dfb7a5fa7ac3c64215e63fab639037f48589.png",
       "choix": [
         "Sym. axiale = flèches, Sym. centrale = axe, Translation = point O",
         "Sym. axiale = axe (d), Sym. centrale = point O (rouge), Translation = flèche orange",
@@ -653,7 +653,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Pour construire le symétrique du quadrilatère ABCD par rapport à (d), quelle propriété doivent vérifier les codages des côtés ?",
-      "image": "transformations/0b02cd3f00d47508a1fd8ab9bf05ae2e8d88d755.png",
+      "image": "4eme/transformations/0b02cd3f00d47508a1fd8ab9bf05ae2e8d88d755.png",
       "choix": [
         "AB = BC et A'B' = B'C'",
         "Les côtés de même rang ont le même codage : AB=A'B', BC=B'C', etc.",
@@ -669,7 +669,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure de correction du quadrilatère, quelles sont les 4 paires de longueurs égales ?",
-      "image": "transformations/4a6ff58b679cc3ba5f0e2ba209ac9eaf33f80566.png",
+      "image": "4eme/transformations/4a6ff58b679cc3ba5f0e2ba209ac9eaf33f80566.png",
       "choix": [
         "AB=BC, BC=CD, CD=DA, DA=AB",
         "AB=A'B' (1 trait), BC=B'C' (2 traits), CD=C'D' (3 traits), DA=D'A' (4 traits)",
@@ -1037,7 +1037,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure de correction de la translation, quels éléments sont codés et que signifient-ils ?",
-      "image": "transformations/8a632f2ec101a4ba12d3ac75bda7a32e57451875.png",
+      "image": "4eme/transformations/8a632f2ec101a4ba12d3ac75bda7a32e57451875.png",
       "choix": [
         "Les angles droits seulement",
         "Flèches rouges (codage 1 trait) : AA'=BB'=CC' (même déplacement). Codages verts : AB=A'B' et BC=B'C'",
@@ -1053,7 +1053,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "La flèche AA' donne le vecteur de translation. Comment justifie-t-on que BB' est parallèle à AA' ?",
-      "image": "transformations/9331c6b7599f416b8028dd465917b36c8633360a.png",
+      "image": "4eme/transformations/9331c6b7599f416b8028dd465917b36c8633360a.png",
       "choix": [
         "Car B est sur la droite (AA')",
         "Car depuis B, on trace un segment de même direction, même sens, même longueur que AA'",
@@ -1069,7 +1069,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la correction de la symétrie centrale du triangle, les segments [AO], [BO], [CO] et leurs prolongements montrent :",
-      "image": "transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
+      "image": "4eme/transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
       "choix": [
         "Que O est le barycentre du triangle",
         "Que O est le milieu de chaque segment [PP'] : AO=OA', BO=OB', CO=OC'",
@@ -1101,7 +1101,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans la figure comparant les 3 transformations, comment reconnaît-on visuellement la symétrie axiale ?",
-      "image": "transformations/a6a4dfb7a5fa7ac3c64215e63fab639037f48589.png",
+      "image": "4eme/transformations/a6a4dfb7a5fa7ac3c64215e63fab639037f48589.png",
       "choix": [
         "Par la présence d'une flèche",
         "Par la présence d'un point O rouge",
@@ -1133,7 +1133,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur la figure de correction de la symétrie axiale du triangle, pourquoi les triangles$\\widehat{ABC}$et A'B'C' sont-ils superposables ?",
-      "image": "transformations/c9ba02b79a5e236bfcf6993efad0b4bda2f62fe4.png",
+      "image": "4eme/transformations/c9ba02b79a5e236bfcf6993efad0b4bda2f62fe4.png",
       "choix": [
         "Car leurs périmètres sont égaux seulement",
         "Car AB=A'B' (2 traits), BC=B'C' (1 trait) et l'angle droit en B est conservé en B' → deux côtés et l'angle compris sont égaux",
@@ -1149,7 +1149,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Preuve que les triangles$\\widehat{ABC}$et A'B'C' (par symétrie centrale) ont le même périmètre. Quel raisonnement est correct ?",
-      "image": "transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
+      "image": "4eme/transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
       "choix": [
         "Ils ont le même centre de gravité",
         "AB=A'B', BC=B'C' et AC=A'C' (conservation des longueurs) → Périmètre = AB+BC+CA = A'B'+B'C'+C'A'",

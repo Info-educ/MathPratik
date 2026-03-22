@@ -13,7 +13,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel est ce solide ?",
-      "image": "solides/d9273aa7a37c973894ab614b96e406176146bd65.png",
+      "image": "4eme/solides/d9273aa7a37c973894ab614b96e406176146bd65.png",
       "choix": [
         "Cube",
         "Prisme",
@@ -29,7 +29,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel est ce solide ?",
-      "image": "solides/bfed30b869a13ca2386648d73e42a52570715c47.png",
+      "image": "4eme/solides/bfed30b869a13ca2386648d73e42a52570715c47.png",
       "choix": [
         "Pavé droit",
         "Prisme",
@@ -45,7 +45,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel est ce solide ?",
-      "image": "solides/a7af667a1275301891fb6d33812fb6daf0be758e.png",
+      "image": "4eme/solides/a7af667a1275301891fb6d33812fb6daf0be758e.png",
       "choix": [
         "Cône",
         "Prisme",
@@ -61,7 +61,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel est ce solide ?",
-      "image": "solides/4434d31fbc7696979c807f970b02a54e8628e92d.png",
+      "image": "4eme/solides/4434d31fbc7696979c807f970b02a54e8628e92d.png",
       "choix": [
         "Cylindre",
         "Sphère",
@@ -77,7 +77,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel est ce solide ?",
-      "image": "solides/422c3a34fbbd127323df669f50a30f07721e5e52.png",
+      "image": "4eme/solides/422c3a34fbbd127323df669f50a30f07721e5e52.png",
       "choix": [
         "Cercle",
         "Cylindre",
@@ -93,7 +93,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel est ce solide ?",
-      "image": "solides/dbc8fd53fed54ea1796d312338069d785b04c67e.png",
+      "image": "4eme/solides/dbc8fd53fed54ea1796d312338069d785b04c67e.png",
       "choix": [
         "Prisme",
         "Cône",
@@ -109,7 +109,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel est ce solide ?",
-      "image": "solides/ac94b4157dff5c256d4af30ad0910f2d7c28ca7c.png",
+      "image": "4eme/solides/ac94b4157dff5c256d4af30ad0910f2d7c28ca7c.png",
       "choix": [
         "Pyramide",
         "Pavé droit",
@@ -125,7 +125,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "D'après le tableau, quelle est la différence principale entre un cube et un pavé droit ?",
-      "image": "solides/689dab358366d3d97b05233a891b7026bff2e287.png",
+      "image": "4eme/solides/689dab358366d3d97b05233a891b7026bff2e287.png",
       "choix": [
         "Le cube a 8 sommets, le pavé 6",
         "Le cube a toutes ses faces carrées et égales ; le pavé a des faces rectangulaires pas forcément égales",
@@ -221,7 +221,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quelles sont les coordonnées de E dans ce pavé (D à l'origine) ?",
-      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "image": "4eme/solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
       "choix": [
         "(0;0;3)",
         "(2;3;3)",
@@ -237,7 +237,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quel point a les coordonnées (0;3;3) dans ce pavé ?",
-      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "image": "4eme/solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
       "choix": [
         "F",
         "H",
@@ -285,7 +285,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans un pavé ABCDEFGH (D à l'origine), le sommet F a les coordonnées (l;L;h). Quelles sont les coordonnées de A si le pavé a pour dimensions l=4, L=3, h=3 ?",
-      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "image": "4eme/solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
       "choix": [
         "A(4;3;3)",
         "A(4;0;0)",
@@ -621,7 +621,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans ce pavé 4$\\times$3$\\times$3, D est à l'origine. Quelles sont les coordonnées de C ?",
-      "image": "solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
+      "image": "4eme/solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
       "choix": [
         "C(4;3;0)",
         "C(0;0;3)",
@@ -653,7 +653,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Dans ce pavé 4$\\times$3$\\times$3, D est à l'origine et F est le sommet opposé. Quelles sont les coordonnées du milieu de [DF] ?",
-      "image": "solides/f6ae5bdbbd03d49047ba6323d9489a32ecdeebc3.png",
+      "image": "4eme/solides/f6ae5bdbbd03d49047ba6323d9489a32ecdeebc3.png",
       "choix": [
         "(4;3;3)",
         "(2;1,5;1,5)",
@@ -669,7 +669,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Dans ce pavé 4$\\times$3$\\times$3, D(0;0;0) et F(4;3;3). Que vaut$D$A^{2}+$D$C^{2}+$D$H^{2} ?",
-      "image": "solides/f6ae5bdbbd03d49047ba6323d9489a32ecdeebc3.png",
+      "image": "4eme/solides/f6ae5bdbbd03d49047ba6323d9489a32ecdeebc3.png",
       "choix": [
         "10",
         "29",
@@ -733,7 +733,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Dans ce pavé 3$\\times$4$\\times$2 cm, quelle est la longueur de la diagonale DF ?",
-      "image": "solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
+      "image": "4eme/solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
       "choix": [
         "$\\sqrt{9}$= 3 cm",
         "$\\sqrt{29}\\approx$5,39 cm",
@@ -749,7 +749,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Dans ce pavé 3$\\times$4$\\times$2 cm, quelle est la longueur de la diagonale de la base DB ?",
-      "image": "solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
+      "image": "4eme/solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
       "choix": [
         "3 cm",
         "4 cm",
@@ -813,7 +813,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Volume du cylindre : r = 3 cm, h = 5 cm. Quelle est la valeur approchée au$\\mathrm{cm}^3$?",
-      "image": "solides/a7af667a1275301891fb6d33812fb6daf0be758e.png",
+      "image": "4eme/solides/a7af667a1275301891fb6d33812fb6daf0be758e.png",
       "choix": [
         "47$\\mathrm{cm}^3$",
         "94$\\mathrm{cm}^3$",
@@ -829,7 +829,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Volume du cône : r = 4 cm, h = 6 cm. Quelle est la valeur approchée au$\\mathrm{cm}^3$?",
-      "image": "solides/4434d31fbc7696979c807f970b02a54e8628e92d.png",
+      "image": "4eme/solides/4434d31fbc7696979c807f970b02a54e8628e92d.png",
       "choix": [
         "50$\\mathrm{cm}^3$",
         "100$\\mathrm{cm}^3$",
@@ -845,7 +845,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Volume de la sphère de rayon R = 5 cm. Valeur approchée ?",
-      "image": "solides/422c3a34fbbd127323df669f50a30f07721e5e52.png",
+      "image": "4eme/solides/422c3a34fbbd127323df669f50a30f07721e5e52.png",
       "choix": [
         "314$\\mathrm{cm}^3$",
         "392$\\mathrm{cm}^3$",
@@ -909,7 +909,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quelle est l'aire totale d'un pavé de dimensions 3$\\times$5$\\times$4 cm ?",
-      "image": "solides/d9273aa7a37c973894ab614b96e406176146bd65.png",
+      "image": "4eme/solides/d9273aa7a37c973894ab614b96e406176146bd65.png",
       "choix": [
         "60$\\mathrm{cm}^2$",
         "94$\\mathrm{cm}^2$",
@@ -925,7 +925,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "La face colorée ABFE de ce pavé (l=3, h=2) est de quelle forme et quelle aire ?",
-      "image": "solides/9b751ebcb828020dcc75e6dfa3ca16d1cab0a963.png",
+      "image": "4eme/solides/9b751ebcb828020dcc75e6dfa3ca16d1cab0a963.png",
       "choix": [
         "Carré, aire = 9$\\mathrm{cm}^2$",
         "Rectangle, aire = 6$\\mathrm{cm}^2$",
@@ -1133,7 +1133,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Dans ce pavé 3$\\times$4$\\times$2 cm, quelle est la distance entre A(3;0;0) et G(0;4;2) ?",
-      "image": "solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
+      "image": "4eme/solides/e4f9e7b1c2eb1e33d19920a2c4fcfdd4e0f9884e.png",
       "choix": [
         "$\\sqrt{9}$= 3 cm",
         "$\\sqrt{25}$= 5 cm",
@@ -1277,7 +1277,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "On coupe un pavé par le plan passant par A, F et les milieux de [DH] et [BC]. Quelle est la section obtenue ?",
-      "image": "solides/9b751ebcb828020dcc75e6dfa3ca16d1cab0a963.png",
+      "image": "4eme/solides/9b751ebcb828020dcc75e6dfa3ca16d1cab0a963.png",
       "choix": [
         "Un triangle",
         "Un carré",

@@ -31,7 +31,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Un athlète réalise 5 sauts. Calcule la moyenne de ses performances (en m).",
-      "image": "stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
+      "image": "4eme/stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
       "choix": [
         "7,722 m",
         "7,818 m",
@@ -48,7 +48,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Voici les températures d'une semaine. Calcule la température moyenne (arrondie au dixième).",
-      "image": "stats/a226896c9833e16ce7825d753c60f4f764818fc9.png",
+      "image": "4eme/stats/a226896c9833e16ce7825d753c60f4f764818fc9.png",
       "choix": [
         "12,5 °C",
         "13,6 °C",
@@ -150,7 +150,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Lis cette série ordonnée à effectif impair. Quelle est la médiane ?",
-      "image": "stats/dd5afb1d0c1e0ce43c14e0f6bdb45b50191af1ac.png",
+      "image": "4eme/stats/dd5afb1d0c1e0ce43c14e0f6bdb45b50191af1ac.png",
       "choix": [
         "10",
         "12",
@@ -167,7 +167,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Lis cette série ordonnée à effectif pair. Calcule la médiane.",
-      "image": "stats/098528fd27358f8a7aa9e4aba6b4d8b027a05922.png",
+      "image": "4eme/stats/098528fd27358f8a7aa9e4aba6b4d8b027a05922.png",
       "choix": [
         "11",
         "11,5",
@@ -235,7 +235,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Lis la série et calcule l'étendue.",
-      "image": "stats/0dd4ca2bc592b60a35c98e280a2c0dab66827110.png",
+      "image": "4eme/stats/0dd4ca2bc592b60a35c98e280a2c0dab66827110.png",
       "choix": [
         "3",
         "5",
@@ -252,7 +252,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Pour cette série de données, calcule l'étendue.",
-      "image": "stats/fc3da7c5bef74daa288ccde5a0fd8b7fb7b82cc9.png",
+      "image": "4eme/stats/fc3da7c5bef74daa288ccde5a0fd8b7fb7b82cc9.png",
       "choix": [
         "6",
         "7",
@@ -286,7 +286,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur ce diagramme en bâtons, quel est l'effectif correspondant à la note 10 ?",
-      "image": "stats/e046eb00e9cb2d8a7cfe9fa69463b421c04c1417.png",
+      "image": "4eme/stats/e046eb00e9cb2d8a7cfe9fa69463b421c04c1417.png",
       "choix": [
         "5",
         "6",
@@ -303,7 +303,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur ce diagramme en bâtons des tailles de saumons, quelle taille a l'effectif le plus élevé ?",
-      "image": "stats/a279a88573ab202b3d2fefbf19cfd4a0cdeee16e.png",
+      "image": "4eme/stats/a279a88573ab202b3d2fefbf19cfd4a0cdeee16e.png",
       "choix": [
         "52 cm",
         "54 cm",
@@ -320,7 +320,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cet histogramme des tailles de saumons, quelle classe a l'effectif le plus grand ?",
-      "image": "stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
+      "image": "4eme/stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
       "choix": [
         "[50;54[",
         "[54;58[",
@@ -337,7 +337,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur ce diagramme circulaire, quel embranchement représente plus de la moitié des espèces ?",
-      "image": "stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
+      "image": "4eme/stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
       "choix": [
         "Chordés (5%)",
         "Arthropodes (57%)",
@@ -354,7 +354,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur ce diagramme en barres, quelles sont les deux activités sportives les plus pratiquées ?",
-      "image": "stats/298d91220f3f629091074c70299d0e907b228f9a.png",
+      "image": "4eme/stats/298d91220f3f629091074c70299d0e907b228f9a.png",
       "choix": [
         "Football et Natation",
         "Basketball et Tennis",
@@ -371,7 +371,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Voici la distribution du nombre d'enfants par famille. Calcule la moyenne pondérée (arrondie au dixième).",
-      "image": "stats/6e17caa5a70094045d5e0845deced0615730368c.png",
+      "image": "4eme/stats/6e17caa5a70094045d5e0845deced0615730368c.png",
       "choix": [
         "1,5",
         "1,8",
@@ -728,7 +728,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Complète ce tableau (effectifs cumulés) puis calcule la moyenne (arrondie au dixième).",
-      "image": "stats/da355d36fa9aa7d21079b8fb8286c0dd6b621e9a.png",
+      "image": "4eme/stats/da355d36fa9aa7d21079b8fb8286c0dd6b621e9a.png",
       "choix": [
         "10,8",
         "11,1",
@@ -745,7 +745,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans ce tableau statistique (effectif total = 26), quelle est la médiane ?",
-      "image": "stats/da355d36fa9aa7d21079b8fb8286c0dd6b621e9a.png",
+      "image": "4eme/stats/da355d36fa9aa7d21079b8fb8286c0dd6b621e9a.png",
       "choix": [
         "10",
         "11",
@@ -762,7 +762,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Sur ce diagramme en bâtons des tailles de saumons, calcule l'effectif total.",
-      "image": "stats/a279a88573ab202b3d2fefbf19cfd4a0cdeee16e.png",
+      "image": "4eme/stats/a279a88573ab202b3d2fefbf19cfd4a0cdeee16e.png",
       "choix": [
         "240",
         "270",
@@ -779,7 +779,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Sur cet histogramme, quelle est la classe modale (la plus fréquente) et quel est l'effectif total ?",
-      "image": "stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
+      "image": "4eme/stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
       "choix": [
         "[50;54[ — 270",
         "[54;58[ — 270",
@@ -796,7 +796,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Voici les données des tailles de saumons par classes (effectif total = 270). Calcule l'angle du secteur correspondant à la classe [54;58[ dans un diagramme circulaire (arrondi au dixième).",
-      "image": "stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
+      "image": "4eme/stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
       "choix": [
         "120,$5°$",
         "138,$2°$",
@@ -813,7 +813,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Sur ce diagramme circulaire des espèces animales, calcule l'angle correspondant aux Arthropodes (57%). Ce secteur est-il supérieur à un demi-disque ?",
-      "image": "stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
+      "image": "4eme/stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
       "choix": [
         "175,$2°$— Non",
         "205,$2°$— Oui",
@@ -830,7 +830,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "À partir du tableau des espèces, quel est l'angle en degrés pour les Chordés (5%) ?",
-      "image": "stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
+      "image": "4eme/stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
       "choix": [
         "$12°$",
         "$15°$",
@@ -847,7 +847,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "À partir du tableau des espèces, quel est l'angle en degrés pour les Mollusques (6%) ?",
-      "image": "stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
+      "image": "4eme/stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
       "choix": [
         "18,$0°$",
         "21,$6°$",
@@ -864,7 +864,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "À partir du tableau des espèces, quel est l'angle en degrés pour la catégorie Autres (32%) ?",
-      "image": "stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
+      "image": "4eme/stats/970741ed15f85d96d6ce9851469948976d3bc5b2.png",
       "choix": [
         "108,$0°$",
         "115,$2°$",
@@ -881,7 +881,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Calcule la moyenne pondérée du nombre d'enfants par famille (arrondie au dixième).",
-      "image": "stats/6e17caa5a70094045d5e0845deced0615730368c.png",
+      "image": "4eme/stats/6e17caa5a70094045d5e0845deced0615730368c.png",
       "choix": [
         "1,5",
         "1,8",
@@ -898,7 +898,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Un athlète réalise 5 sauts. Quelle est la médiane de ses performances ?",
-      "image": "stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
+      "image": "4eme/stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
       "choix": [
         "7,72 m",
         "7,85 m",
@@ -915,7 +915,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Un athlète réalise 5 sauts (données du tableau). Quelle est l'étendue de ses performances ?",
-      "image": "stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
+      "image": "4eme/stats/d8cbb4b0f14d60770297156b230b894f601e8957.png",
       "choix": [
         "0,24 m",
         "0,34 m",
@@ -1017,7 +1017,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cet histogramme à 4 classes (effectif total = 40), dans quelle classe se trouve la médiane ?",
-      "image": "stats/d139a05947e4ade9a3a58b0927ed51a9b942d5d3.png",
+      "image": "4eme/stats/d139a05947e4ade9a3a58b0927ed51a9b942d5d3.png",
       "choix": [
         "[0;5[",
         "[5;10[",
@@ -1034,7 +1034,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Cet histogramme représente des notes. Quel est l'effectif total ?",
-      "image": "stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
+      "image": "4eme/stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
       "choix": [
         "35",
         "38",
@@ -1051,7 +1051,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Cet histogramme représente des notes (effectif total = 40). Quelle est la note moyenne estimée (arrondie au dixième) ?",
-      "image": "stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
+      "image": "4eme/stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
       "choix": [
         "10,5",
         "11,2",
@@ -1153,7 +1153,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "D'après le diagramme en barres des sports, quel est l'angle du secteur Football (35%) dans un diagramme circulaire ?",
-      "image": "stats/298d91220f3f629091074c70299d0e907b228f9a.png",
+      "image": "4eme/stats/298d91220f3f629091074c70299d0e907b228f9a.png",
       "choix": [
         "$108°$",
         "$126°$",
@@ -1204,7 +1204,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "À partir du tableau des tailles de saumons par classes, quelle est la proportion de saumons mesurant moins de 58 cm ?",
-      "image": "stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
+      "image": "4eme/stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
       "choix": [
         "50%",
         "55%",
@@ -1391,7 +1391,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Le tableau de classes de tailles de saumons est donné. En prenant la valeur centrale de chaque classe comme valeur représentative, calcule une estimation de la taille moyenne (arrondie au dixième).",
-      "image": "stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
+      "image": "4eme/stats/9339cb1f6249b02b5e54a16110bb610f4c915c42.png",
       "choix": [
         "55,4 cm",
         "57,7 cm",
@@ -1493,7 +1493,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur cet histogramme de notes (effectif total = 40), dans quelle classe se trouve la médiane ?",
-      "image": "stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
+      "image": "4eme/stats/4cc159853f789d6e842feb10c0ef08b509f880bd.png",
       "choix": [
         "[0;4]",
         "[5;8]",
@@ -1510,7 +1510,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "À partir du diagramme circulaire des espèces, quel est l'angle total si on additionne les 4 secteurs (Chordés 5%, Arthropodes 57%, Mollusques 6%, Autres 32%) ?",
-      "image": "stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
+      "image": "4eme/stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
       "choix": [
         "$340°$",
         "$350°$",
