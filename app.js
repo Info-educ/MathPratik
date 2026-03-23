@@ -1108,16 +1108,8 @@ function prettifyExpr(expr) {
 function calcUpdateDisplay() {
   const screen = document.getElementById('calc-screen');
   const exprEl = document.getElementById('calc-expr');
-  // Écran principal : résultat numérique après =, expression lisible sinon
-  if (screen) {
-    screen.value = _calc.justEq
-      ? (_calc.display || '0')
-      : (prettifyExpr(_calc.expr) || '0');
-  }
-  // Petite ligne au-dessus : expression interne (debug discret) — vide après =
-  if (exprEl) {
-    exprEl.textContent = '';
-  }
+  if (screen) screen.value = _calc.display || '0';
+  if (exprEl) exprEl.textContent = prettifyExpr(_calc.expr) || '';
 }
 
 function calcAction(key) {
@@ -1129,19 +1121,13 @@ function calcAction(key) {
     calcUpdateDisplay(); return;
   }
   if (key === 'CE') {
-    if (_calc.justEq) {
-      _calc.expr = ''; _calc.display = '0'; _calc.justEq = false;
-    } else {
-      // Supprimer le dernier token logique
-      const e = _calc.expr;
-      if      (e.endsWith('Math.sqrt(')) _calc.expr = e.slice(0, -10);
-      else if (e.endsWith(')**'))        _calc.expr = e.slice(0, -3);  // xⁿ en attente
-      else if (e.endsWith(')**2'))       _calc.expr = e.slice(0, -4);  // x²
-      else if (e.match(/\(\d+\)\*\*\d+$/)) {
-        // supprimer l'exposant complet (ex: (5)**3 → vide)
-        _calc.expr = e.replace(/\([^()]+\)\*\*[\d.]+$/, '');
-      }
-      else _calc.expr = e.slice(0, -1);
+    // Supprimer dernier caractère de l'expression affichée
+    if (_calc.justEq) { _calc.expr = ''; _calc.display = '0'; _calc.justEq = false; }
+    else {
+      // Supprimer aussi "Math.sqrt(" ou "Math.pow(" si on est à la fin d'une fonction
+      if (_calc.expr.endsWith('Math.sqrt(')) _calc.expr = _calc.expr.slice(0, -10);
+      else if (_calc.expr.endsWith(',')) _calc.expr = _calc.expr.slice(0, -1);
+      else _calc.expr = _calc.expr.slice(0, -1);
       _calc.display = _calc.expr || '0';
     }
     calcUpdateDisplay(); return;

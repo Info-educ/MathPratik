@@ -3,6 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ── THÈME : exécuté immédiatement pour éviter le flash ── -->
+  <script>
+    (function () {
+      var STORAGE_KEY = 'mathpratik_theme';
+      var saved = localStorage.getItem(STORAGE_KEY);
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+
+      window._themeKey = STORAGE_KEY;
+
+      window.toggleDarkMode = function () {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        localStorage.setItem(STORAGE_KEY, next);
+        document.documentElement.classList.add('theme-transitioning');
+        setTimeout(function () { document.documentElement.classList.remove('theme-transitioning'); }, 350);
+        document.documentElement.setAttribute('data-theme', next);
+        /* Met à jour tous les boutons thème présents dans la page */
+        document.querySelectorAll('.btn-theme-toggle').forEach(function (btn) {
+          btn.textContent = next === 'dark' ? '☀️' : '🌙';
+        });
+      };
+
+      /* Sync icône dès que le DOM est prêt */
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.btn-theme-toggle').forEach(function (btn) {
+          btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        });
+      });
+
+      /* Suivre le système si pas de préférence sauvegardée */
+      if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+          if (!localStorage.getItem(STORAGE_KEY)) {
+            var t = e.matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', t);
+            document.querySelectorAll('.btn-theme-toggle').forEach(function (btn) {
+              btn.textContent = t === 'dark' ? '☀️' : '🌙';
+            });
+          }
+        });
+      }
+    })();
+  </script>
   <meta name="description" content="MathPratik – Entraînement aux mathématiques cycle 3 et 4 – Mode Examen" />
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)" />
@@ -26,30 +72,29 @@
       --safe-bottom: env(safe-area-inset-bottom, 0px);
     }
 
-    /* ── LIGHT ── */
-    @media (prefers-color-scheme: light) {
-      :root {
-        --bg:         #f4f3ef;
-        --raised:     #ffffff;
-        --subtle:     #eae9e4;
-        --hover:      #f0efe9;
-        --bd:         rgba(0,0,0,0.08);
-        --bd-med:     rgba(0,0,0,0.15);
-        --tx:         #18181b;
-        --tx2:        #52525b;
-        --tx3:        #a1a1aa;
-        --ac:         #4f46e5;
-        --ac-bg:      #eef2ff;
-        --ok:         #059669;
-        --ok-bg:      #ecfdf5;
-        --err:        #dc2626;
-        --err-bg:     #fef2f2;
-        --shadow:     0 1px 4px rgba(0,0,0,0.07), 0 4px 14px rgba(0,0,0,0.05);
-        --nav-bg:     rgba(244,243,239,0.93);
-      }
+    /* ── LIGHT (défaut système ou forcé) ── */
+    :root,
+    html[data-theme="light"] {
+      --bg:         #f4f3ef;
+      --raised:     #ffffff;
+      --subtle:     #eae9e4;
+      --hover:      #f0efe9;
+      --bd:         rgba(0,0,0,0.08);
+      --bd-med:     rgba(0,0,0,0.15);
+      --tx:         #18181b;
+      --tx2:        #52525b;
+      --tx3:        #a1a1aa;
+      --ac:         #4f46e5;
+      --ac-bg:      #eef2ff;
+      --ok:         #059669;
+      --ok-bg:      #ecfdf5;
+      --err:        #dc2626;
+      --err-bg:     #fef2f2;
+      --shadow:     0 1px 4px rgba(0,0,0,0.07), 0 4px 14px rgba(0,0,0,0.05);
+      --nav-bg:     rgba(244,243,239,0.93);
     }
 
-    /* ── DARK ── */
+    /* ── DARK (préférence système ou forcé) ── */
     @media (prefers-color-scheme: dark) {
       :root {
         --bg:         #0e0f11;
@@ -70,6 +115,25 @@
         --shadow:     0 1px 4px rgba(0,0,0,0.35), 0 4px 18px rgba(0,0,0,0.28);
         --nav-bg:     rgba(14,15,17,0.95);
       }
+    }
+    html[data-theme="dark"] {
+      --bg:         #0e0f11;
+      --raised:     #16181c;
+      --subtle:     #1e2126;
+      --hover:      #22262d;
+      --bd:         rgba(255,255,255,0.07);
+      --bd-med:     rgba(255,255,255,0.13);
+      --tx:         #f0eff0;
+      --tx2:        #9596a1;
+      --tx3:        #4e4e58;
+      --ac:         #818cf8;
+      --ac-bg:      #1a1b38;
+      --ok:         #34d399;
+      --ok-bg:      #032018;
+      --err:        #f87171;
+      --err-bg:     #280e0e;
+      --shadow:     0 1px 4px rgba(0,0,0,0.35), 0 4px 18px rgba(0,0,0,0.28);
+      --nav-bg:     rgba(14,15,17,0.95);
     }
 
     /* ═══════════════════════════════════════════════════
@@ -133,6 +197,12 @@
     .btn-icon:active { transform:scale(0.9); }
     .btn-back { display:none; }
     .btn-back.visible { display:flex; }
+    /* Transition douce au changement de thème */
+    html.theme-transitioning,
+    html.theme-transitioning * {
+      transition: background-color 0.3s ease, color 0.3s ease,
+                  border-color 0.3s ease, box-shadow 0.3s ease !important;
+    }
 
     /* ═══════════════════════════════════════════════════
        ACCUEIL
@@ -328,27 +398,27 @@
 
     /* ── Calculatrice intégrée ── */
     .calc-wrap {
-      margin:12px 0 4px; background:var(--bg2);
+      margin:12px 0 4px; background:var(--raised);
       border-radius:var(--r-md); padding:12px;
-      border:1px solid var(--brd);
+      border:1px solid var(--bd);
     }
     .calc-header { font-size:0.75rem; font-weight:600; color:var(--tx3); margin-bottom:6px; }
     .calc-screen-wrap {
-      background:var(--bg3,#0f172a); border-radius:6px;
-      border:1px solid var(--brd); padding:6px 10px;
+      background:#0f172a; border-radius:6px;
+      border:1px solid var(--bd-med); padding:6px 10px;
       margin-bottom:8px; min-height:52px;
       display:flex; flex-direction:column; align-items:flex-end; justify-content:flex-end;
     }
     .calc-expr {
-      font-size:0.72rem; font-family:monospace; color:var(--tx3);
+      font-size:0.72rem; font-family:monospace; color:#64748b;
       min-height:14px; word-break:break-all; text-align:right;
-      margin-bottom:2px; opacity:.7;
+      margin-bottom:2px;
     }
     .calc-screen {
       width:100%; box-sizing:border-box;
-      background:transparent; color:var(--acc,#4f46e5);
+      background:transparent; color:#818cf8;
       border:none; outline:none;
-      font-size:1.25rem; font-family:monospace;
+      font-size:1.4rem; font-family:monospace;
       text-align:right; padding:0;
     }
     .calc-grid {
@@ -356,15 +426,15 @@
     }
     .calc-btn {
       padding:9px 4px; border-radius:6px; font-size:0.88rem;
-      font-weight:600; border:1px solid var(--brd);
-      background:var(--bg); color:var(--tx1);
+      font-weight:600; border:1px solid var(--bd);
+      background:var(--subtle); color:var(--tx);
       cursor:pointer; transition:background .12s, transform .08s;
       -webkit-tap-highlight-color:transparent;
     }
-    .calc-btn:active { background:var(--acc,#4f46e5); color:#fff; transform:scale(.95); }
-    .calc-op  { background:color-mix(in srgb,var(--acc,#4f46e5) 12%,transparent); color:var(--acc,#4f46e5); }
-    .calc-fn  { background:var(--bg2); color:var(--tx2); font-size:0.78rem; }
-    .calc-eq  { background:var(--acc,#4f46e5); color:#fff; }
+    .calc-btn:active { background:var(--ac); color:#fff; transform:scale(.95); }
+    .calc-op  { background:var(--ac-bg); color:var(--ac); }
+    .calc-fn  { background:var(--hover); color:var(--tx2); font-size:0.78rem; }
+    .calc-eq  { background:var(--ac); color:#fff; border-color:var(--ac); }
     .calc-zero{ grid-column:span 2; }
 
     /* Table HTML dans les énoncés */
@@ -374,10 +444,10 @@
     }
     #q-text th, #q-text td,
     .question-text th, .question-text td {
-      border:1px solid var(--brd); padding:5px 10px; text-align:center;
+      border:1px solid var(--bd); padding:5px 10px; text-align:center;
     }
     #q-text th, .question-text th {
-      background:var(--bg2); font-weight:700; color:var(--tx1);
+      background:var(--subtle); font-weight:700; color:var(--tx);
     }
     #q-image-wrap img { display:block; margin:8px auto 0; max-width:100%; border-radius:8px; }
 
@@ -553,7 +623,15 @@
       background:var(--tx); color:var(--bg);
     }
     .btn-launch.disabled {
-      background:var(--subtle); color:var(--tx3); cursor:not-allowed;
+      background: color-mix(in srgb, var(--ac) 12%, var(--raised));
+      color: var(--ac);
+      cursor: not-allowed;
+      border: 2px dashed color-mix(in srgb, var(--ac) 55%, transparent);
+      animation: pulseHint 2.4s ease-in-out infinite;
+    }
+    @keyframes pulseHint {
+      0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--ac) 30%, transparent); }
+      50%       { box-shadow: 0 0 0 6px color-mix(in srgb, var(--ac) 0%, transparent); }
     }
     .btn-launch:not(.disabled):active { transform:scale(0.98); }
 
@@ -665,7 +743,7 @@
       align-items: center;
       justify-content: center;
       gap: 1px;
-      background: var(--bg2);
+      background: var(--subtle);
       border: 2.5px solid var(--bd);
       border-radius: 14px;
       padding: 12px 4px 10px;
@@ -834,7 +912,7 @@
       white-space: nowrap;
     }
     .proportion-table td {
-      background: var(--bg2);
+      background: var(--subtle);
       border: 1px solid var(--bd);
       padding: 12px 14px;
       text-align: center;
@@ -890,7 +968,7 @@
        NOTION 35 — PROGRAMME DE CALCUL
     ══════════════════════════════════════════════════════ */
     .programme-wrap {
-      background: var(--bg2);
+      background: var(--subtle);
       border: 2px solid var(--bd);
       border-radius: 16px;
       padding: 16px 14px;
@@ -1167,6 +1245,12 @@
       .reader-level-badge.niv2 { background: #0c1a3a; color: #60a5fa; }
       .reader-level-badge.niv3 { background: #271a00; color: #fbbf24; }
     }
+    html[data-theme="dark"] .reader-level-badge.niv1 { background: #032018; color: #34d399; }
+    html[data-theme="dark"] .reader-level-badge.niv2 { background: #0c1a3a; color: #60a5fa; }
+    html[data-theme="dark"] .reader-level-badge.niv3 { background: #271a00; color: #fbbf24; }
+    html[data-theme="light"] .reader-level-badge.niv1 { background: #ecfdf5; color: #059669; }
+    html[data-theme="light"] .reader-level-badge.niv2 { background: #eff6ff; color: #2563eb; }
+    html[data-theme="light"] .reader-level-badge.niv3 { background: #fef3c7; color: #b45309; }
     .reader-calc-badge {
       margin-left: auto; font-size: 0.7rem; color: var(--tx3);
       background: var(--subtle); padding: 3px 8px; border-radius: 6px;
@@ -1193,6 +1277,8 @@
     @media (prefers-color-scheme: dark) {
       .reader-choice.is-answer { background: #032018; color: #34d399; border-color: #065f46; }
     }
+    html[data-theme="dark"] .reader-choice.is-answer { background: #032018; color: #34d399; border-color: #065f46; }
+    html[data-theme="light"] .reader-choice.is-answer { border-color: #059669; background: #ecfdf5; color: #065f46; }
     .reader-choice-letter {
       width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0;
       background: var(--subtle); color: var(--tx3);
@@ -1206,6 +1292,8 @@
     @media (prefers-color-scheme: dark) {
       .reader-choice.is-answer .reader-choice-letter { background: #065f46; }
     }
+    html[data-theme="dark"] .reader-choice.is-answer .reader-choice-letter { background: #065f46; }
+    html[data-theme="light"] .reader-choice.is-answer .reader-choice-letter { background: #059669; }
     .reader-explication {
       background: var(--ac-bg); border: 1.5px solid rgba(79,70,229,0.2);
       border-radius: var(--r-sm); padding: 14px 16px;
@@ -1280,7 +1368,10 @@
     <div class="top-bar">
       <button class="btn-icon btn-back" id="btn-back" onclick="goBack()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <button class="btn-icon" id="btn-teacher" onclick="openTeacherLogin()" title="Module enseignant" aria-label="Module enseignant" style="font-size:1.1rem;">👩‍🏫</button>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <button class="btn-icon btn-theme-toggle" id="btn-theme" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">☀️</button>
+        <button class="btn-icon" id="btn-teacher" onclick="openTeacherLogin()" title="Module enseignant" aria-label="Module enseignant" style="font-size:1.1rem;">👩‍🏫</button>
+      </div>
     </div>
 
     <div class="hero">
@@ -1298,7 +1389,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showHome()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
     <div class="notions-header">
       <div class="nv-chip" id="notions-badge">5ème</div>
@@ -1313,7 +1404,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showHome()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
 
     <!-- Niveau et mode -->
@@ -1332,7 +1423,7 @@
     <!-- Bouton lancer -->
     <div class="launch-bar">
       <button class="btn-launch disabled" id="btn-launch" onclick="launchQuiz()">
-        Choisir au moins 1 thème
+        ☝️ Choisir au moins 1 thème ci-dessus
       </button>
     </div>
   </div>
@@ -1342,7 +1433,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showSelect(State.currentNiveau)">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
     <div class="exam-fail-screen">
       <div class="fail-icon">❌</div>
@@ -1402,7 +1493,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showNotions(currentNiveau)">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
     <div class="results-wrap">
       <div class="result-emoji" id="result-emoji">🎉</div>
@@ -1475,7 +1566,7 @@
     <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
       <button class="btn-icon btn-back visible" onclick="closeTeacherModule()" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
       <div class="logo" style="color:#e0e7ff;">Module <em style="color:#818cf8;">Enseignant</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
 
     <div class="teacher-banner">
