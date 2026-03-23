@@ -332,18 +332,6 @@ function renderSelectAutomatismes() {
   const grid = document.getElementById('themes-grid');
   grid.innerHTML = '';
 
-  // Boutons tout sélectionner / désélectionner
-  grid.insertAdjacentHTML('beforeend', `
-    <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;">
-      <button onclick="selectAllAutomatismes()" style="flex:1;padding:8px 12px;background:var(--ac);color:#fff;border:none;border-radius:8px;font-size:0.82rem;font-weight:600;cursor:pointer;min-width:140px;">
-        ✅ Tout sélectionner
-      </button>
-      <button onclick="deselectAllAutomatismes()" style="flex:1;padding:8px 12px;background:var(--surface2,#f3f4f6);color:var(--tx);border:none;border-radius:8px;font-size:0.82rem;font-weight:600;cursor:pointer;min-width:140px;">
-        ☐ Tout désélectionner
-      </button>
-    </div>
-  `);
-
   DB.automatismesNotions.forEach(notion => {
     const key       = notion.id;
     const isChecked = State.selectedThemes.includes(key);
@@ -373,22 +361,6 @@ function toggleThemeAutomatismes(key) {
   else State.selectedThemes.splice(idx, 1);
   const card = document.querySelector(`.theme-check[data-key="${CSS.escape(key)}"]`);
   if (card) card.classList.toggle('checked', State.selectedThemes.includes(key));
-  updateLaunchBtnAutomatismes();
-}
-
-function selectAllAutomatismes() {
-  State.selectedThemes = DB.automatismesNotions.map(n => n.id);
-  document.querySelectorAll('#themes-grid .theme-check').forEach(card => {
-    card.classList.add('checked');
-  });
-  updateLaunchBtnAutomatismes();
-}
-
-function deselectAllAutomatismes() {
-  State.selectedThemes = [];
-  document.querySelectorAll('#themes-grid .theme-check').forEach(card => {
-    card.classList.remove('checked');
-  });
   updateLaunchBtnAutomatismes();
 }
 
