@@ -92,18 +92,86 @@ Identifier dans le document :
 
 ## Étape 2 — Extraire les images du docx
 
-Extraire **toutes** les images dans le dossier `images/[niveau]/[notion]/` :
+> 🖼️ **RÈGLE ABSOLUE — ROGNAGES WORD**  
+> Word permet de rogner les images sans les modifier physiquement : l'image originale reste entière dans `word/media/`, et le rognage est stocké comme métadonnée XML (`srcRect`). Un simple `unzip` extrait donc les images **non rognées**, ce qui est incorrect.  
+> **Il est obligatoire d'appliquer les rognages définis dans le XML du docx avant de livrer les images.**
+
+### 2a — Extraire les images brutes
 
 ```bash
+mkdir -p /tmp/docx_unpack
+unzip -o /mnt/user-data/uploads/NOM_DU_FICHIER.docx -d /tmp/docx_unpack/
 mkdir -p /home/claude/MathPratik-main/images/[niveau]/[notion]
-unzip -j /mnt/user-data/uploads/NOM_DU_FICHIER.docx "word/media/*" \
-  -d /home/claude/MathPratik-main/images/[niveau]/[notion]/
 ```
 
-> **Important :** Les noms de fichiers restent tels quels (hash SHA1). Ils sont référencés dans le JSON via `"image": "[niveau]/[notion]/nom_du_fichier.png"`.  
-> Exemple pour une notion 4ème : `"image": "4eme/probabilites/abc123.png"`
+### 2b — Appliquer les rognages (OBLIGATOIRE)
 
-Règle absolue : **chaque figure, schéma, tableau ou diagramme du document doit apparaître tel quel dans la question correspondante, sans modification ni recréation.**
+Exécuter ce script Python **à chaque import** pour appliquer les rognages Word :
+
+```python
+import xml.etree.ElementTree as ET
+from PIL import Image
+import os
+
+# 1. Mapping rId -> nom de fichier image
+rels_tree = ET.parse('/tmp/docx_unpack/word/_rels/document.xml.rels')
+rid_to_file = {}
+for rel in rels_tree.getroot():
+    if 'image' in rel.get('Type', ''):
+        rid_to_file[rel.get('Id')] = rel.get('Target').replace('media/', '')
+
+# 2. Extraire les paramètres de rognage depuis document.xml
+doc_tree = ET.parse('/tmp/docx_unpack/word/document.xml')
+doc_root = doc_tree.getroot()
+
+crops = []
+for drawing in doc_root.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}drawing'):
+    for pic_el in drawing.iter('{http://schemas.openxmlformats.org/drawingml/2006/picture}pic'):
+        blip = pic_el.find('.//{http://schemas.openxmlformats.org/drawingml/2006/main}blip')
+        rId = blip.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed') if blip is not None else None
+        filename = rid_to_file.get(rId)
+
+        srcRect = pic_el.find('.//{http://schemas.openxmlformats.org/drawingml/2006/main}srcRect')
+        crop = {'l': 0, 't': 0, 'r': 0, 'b': 0}
+        if srcRect is not None:
+            for attr in ['l', 't', 'r', 'b']:
+                crop[attr] = int(srcRect.get(attr, '0'))  # en 1/100 000 de la taille totale
+
+        crops.append((filename, crop))
+
+# 3. Appliquer le rognage et sauvegarder
+output_dir = '/home/claude/MathPratik-main/images/[niveau]/[notion]'
+input_dir  = '/tmp/docx_unpack/word/media'
+
+for filename, crop in crops:
+    if not filename:
+        continue
+    img = Image.open(os.path.join(input_dir, filename))
+    w, h = img.size
+
+    left   = int(w * crop['l'] / 100000)
+    top    = int(h * crop['t'] / 100000)
+    right  = w - int(w * crop['r'] / 100000)
+    bottom = h - int(h * crop['b'] / 100000)
+
+    has_crop = any(v != 0 for v in crop.values())
+    if has_crop:
+        img = img.crop((left, top, right, bottom))
+        print(f"✓ Rogné {filename}: {w}x{h} -> {img.size}")
+    else:
+        print(f"= Inchangé {filename}: {w}x{h}")
+
+    img.save(os.path.join(output_dir, filename), 'PNG')
+
+print("Toutes les images traitées.")
+```
+
+> **Pourquoi c'est nécessaire :** Les valeurs `srcRect` du XML (`l`, `t`, `r`, `b`) sont exprimées en **1/100 000 de la dimension totale** de l'image. Par exemple, `b: 49061` sur une image de 222 px de haut signifie qu'environ 109 px du bas sont masqués — soit presque la moitié de l'image. Sans ce traitement, les élèves verront des images avec de grandes zones vides inutiles (voire du contenu parasite).
+
+> **Important :** Les noms de fichiers restent tels quels (`image1.png`, `image2.png`…). Ils sont référencés dans le JSON via `"image": "[niveau]/[notion]/image1.png"`.  
+> Exemple : `"image": "4eme/probabilites/image1.png"`
+
+Règle absolue : **chaque figure, schéma, tableau ou diagramme du document doit apparaître rogné exactement comme dans le document Word, sans modification ni recréation.**
 
 ---
 
@@ -761,7 +829,7 @@ Avant de packager le zip à livrer :
 - [ ] **Aucune question en double** — ni énoncé identique, ni valeurs numériques identiques
 - [ ] **Aucune question ne trahit la réponse d'une autre** dans le même fichier
 - [ ] **Tous les noms de points, variables et figures sont cohérents** entre l'énoncé, l'image et les choix
-- [ ] `images/[niveau]/[notion]/` — toutes les images du docx extraites
+- [ ] `images/[niveau]/[notion]/` — toutes les images du docx extraites **et rognées** (script Étape 2b exécuté)
 - [ ] `data/index.json` — nouvelle entrée ajoutée
 - [ ] Vérification Python (Étape 6) — tous les contrôles passent
 - [ ] Syntax check JS : `node --check js/app.js`
@@ -781,7 +849,7 @@ Avant de packager le zip à livrer :
 ```
 1. Utilisateur envoie : exercices_pythagore_4eme.docx
 2. Claude lit le docx avec pandoc
-3. Claude extrait les images → images/4eme/pythagore/
+3. Claude extrait les images → décompresse le docx dans `/tmp/docx_unpack/`, applique les rognages Word via le script Python (Étape 2b), sauvegarde les images rognées dans `images/4eme/pythagore/`
 4. Claude intègre toutes les questions du docx (converties en QCM)
    puis compte les questions manquantes par niveau pour atteindre 90
    (30 niv1 + 30 niv2 + 30 niv3) et génère les questions manquantes
