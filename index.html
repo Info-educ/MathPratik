@@ -26,30 +26,29 @@
       --safe-bottom: env(safe-area-inset-bottom, 0px);
     }
 
-    /* ── LIGHT ── */
-    @media (prefers-color-scheme: light) {
-      :root {
-        --bg:         #f4f3ef;
-        --raised:     #ffffff;
-        --subtle:     #eae9e4;
-        --hover:      #f0efe9;
-        --bd:         rgba(0,0,0,0.08);
-        --bd-med:     rgba(0,0,0,0.15);
-        --tx:         #18181b;
-        --tx2:        #52525b;
-        --tx3:        #a1a1aa;
-        --ac:         #4f46e5;
-        --ac-bg:      #eef2ff;
-        --ok:         #059669;
-        --ok-bg:      #ecfdf5;
-        --err:        #dc2626;
-        --err-bg:     #fef2f2;
-        --shadow:     0 1px 4px rgba(0,0,0,0.07), 0 4px 14px rgba(0,0,0,0.05);
-        --nav-bg:     rgba(244,243,239,0.93);
-      }
+    /* ── LIGHT (défaut système ou forcé) ── */
+    :root,
+    html[data-theme="light"] {
+      --bg:         #f4f3ef;
+      --raised:     #ffffff;
+      --subtle:     #eae9e4;
+      --hover:      #f0efe9;
+      --bd:         rgba(0,0,0,0.08);
+      --bd-med:     rgba(0,0,0,0.15);
+      --tx:         #18181b;
+      --tx2:        #52525b;
+      --tx3:        #a1a1aa;
+      --ac:         #4f46e5;
+      --ac-bg:      #eef2ff;
+      --ok:         #059669;
+      --ok-bg:      #ecfdf5;
+      --err:        #dc2626;
+      --err-bg:     #fef2f2;
+      --shadow:     0 1px 4px rgba(0,0,0,0.07), 0 4px 14px rgba(0,0,0,0.05);
+      --nav-bg:     rgba(244,243,239,0.93);
     }
 
-    /* ── DARK ── */
+    /* ── DARK (préférence système ou forcé) ── */
     @media (prefers-color-scheme: dark) {
       :root {
         --bg:         #0e0f11;
@@ -70,6 +69,25 @@
         --shadow:     0 1px 4px rgba(0,0,0,0.35), 0 4px 18px rgba(0,0,0,0.28);
         --nav-bg:     rgba(14,15,17,0.95);
       }
+    }
+    html[data-theme="dark"] {
+      --bg:         #0e0f11;
+      --raised:     #16181c;
+      --subtle:     #1e2126;
+      --hover:      #22262d;
+      --bd:         rgba(255,255,255,0.07);
+      --bd-med:     rgba(255,255,255,0.13);
+      --tx:         #f0eff0;
+      --tx2:        #9596a1;
+      --tx3:        #4e4e58;
+      --ac:         #818cf8;
+      --ac-bg:      #1a1b38;
+      --ok:         #34d399;
+      --ok-bg:      #032018;
+      --err:        #f87171;
+      --err-bg:     #280e0e;
+      --shadow:     0 1px 4px rgba(0,0,0,0.35), 0 4px 18px rgba(0,0,0,0.28);
+      --nav-bg:     rgba(14,15,17,0.95);
     }
 
     /* ═══════════════════════════════════════════════════
@@ -133,6 +151,12 @@
     .btn-icon:active { transform:scale(0.9); }
     .btn-back { display:none; }
     .btn-back.visible { display:flex; }
+    /* Transition douce au changement de thème */
+    html.theme-transitioning,
+    html.theme-transitioning * {
+      transition: background-color 0.3s ease, color 0.3s ease,
+                  border-color 0.3s ease, box-shadow 0.3s ease !important;
+    }
 
     /* ═══════════════════════════════════════════════════
        ACCUEIL
@@ -1167,6 +1191,12 @@
       .reader-level-badge.niv2 { background: #0c1a3a; color: #60a5fa; }
       .reader-level-badge.niv3 { background: #271a00; color: #fbbf24; }
     }
+    html[data-theme="dark"] .reader-level-badge.niv1 { background: #032018; color: #34d399; }
+    html[data-theme="dark"] .reader-level-badge.niv2 { background: #0c1a3a; color: #60a5fa; }
+    html[data-theme="dark"] .reader-level-badge.niv3 { background: #271a00; color: #fbbf24; }
+    html[data-theme="light"] .reader-level-badge.niv1 { background: #ecfdf5; color: #059669; }
+    html[data-theme="light"] .reader-level-badge.niv2 { background: #eff6ff; color: #2563eb; }
+    html[data-theme="light"] .reader-level-badge.niv3 { background: #fef3c7; color: #b45309; }
     .reader-calc-badge {
       margin-left: auto; font-size: 0.7rem; color: var(--tx3);
       background: var(--subtle); padding: 3px 8px; border-radius: 6px;
@@ -1193,6 +1223,8 @@
     @media (prefers-color-scheme: dark) {
       .reader-choice.is-answer { background: #032018; color: #34d399; border-color: #065f46; }
     }
+    html[data-theme="dark"] .reader-choice.is-answer { background: #032018; color: #34d399; border-color: #065f46; }
+    html[data-theme="light"] .reader-choice.is-answer { border-color: #059669; background: #ecfdf5; color: #065f46; }
     .reader-choice-letter {
       width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0;
       background: var(--subtle); color: var(--tx3);
@@ -1206,6 +1238,8 @@
     @media (prefers-color-scheme: dark) {
       .reader-choice.is-answer .reader-choice-letter { background: #065f46; }
     }
+    html[data-theme="dark"] .reader-choice.is-answer .reader-choice-letter { background: #065f46; }
+    html[data-theme="light"] .reader-choice.is-answer .reader-choice-letter { background: #059669; }
     .reader-explication {
       background: var(--ac-bg); border: 1.5px solid rgba(79,70,229,0.2);
       border-radius: var(--r-sm); padding: 14px 16px;
@@ -1280,7 +1314,10 @@
     <div class="top-bar">
       <button class="btn-icon btn-back" id="btn-back" onclick="goBack()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <button class="btn-icon" id="btn-teacher" onclick="openTeacherLogin()" title="Module enseignant" aria-label="Module enseignant" style="font-size:1.1rem;">👩‍🏫</button>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <button class="btn-icon btn-theme-toggle" id="btn-theme" onclick="toggleTheme()" title="Changer le thème" aria-label="Basculer mode sombre / clair">☀️</button>
+        <button class="btn-icon" id="btn-teacher" onclick="openTeacherLogin()" title="Module enseignant" aria-label="Module enseignant" style="font-size:1.1rem;">👩‍🏫</button>
+      </div>
     </div>
 
     <div class="hero">
@@ -1524,5 +1561,65 @@
 
 </div>
 
+  <script>
+    /* ── TOGGLE THÈME CLAIR / SOMBRE ── */
+    (function () {
+      var STORAGE_KEY = 'mathpratik_theme';
+
+      /* Détecter la préférence système */
+      function systemDark() {
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+
+      /* Appliquer le thème sans animation (au chargement) */
+      function applyTheme(theme, animate) {
+        if (animate) {
+          document.documentElement.classList.add('theme-transitioning');
+          setTimeout(function () {
+            document.documentElement.classList.remove('theme-transitioning');
+          }, 350);
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+        updateBtn(theme);
+      }
+
+      /* Mettre à jour l'icône et le titre du bouton */
+      function updateBtn(theme) {
+        var btn = document.getElementById('btn-theme');
+        if (!btn) return;
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('title', 'Passer en mode clair');
+          btn.setAttribute('aria-label', 'Passer en mode clair');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('title', 'Passer en mode sombre');
+          btn.setAttribute('aria-label', 'Passer en mode sombre');
+        }
+      }
+
+      /* Basculer le thème */
+      window.toggleTheme = function () {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        localStorage.setItem(STORAGE_KEY, next);
+        applyTheme(next, true);
+      };
+
+      /* Initialisation : lire le localStorage, sinon suivre le système */
+      var saved = localStorage.getItem(STORAGE_KEY);
+      var initial = saved || (systemDark() ? 'dark' : 'light');
+      applyTheme(initial, false);
+
+      /* Écouter les changements de préférence système (si pas de préférence sauvegardée) */
+      if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+          if (!localStorage.getItem(STORAGE_KEY)) {
+            applyTheme(e.matches ? 'dark' : 'light', true);
+          }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
