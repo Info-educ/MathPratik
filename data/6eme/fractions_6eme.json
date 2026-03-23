@@ -1,0 +1,1451 @@
+{
+  "niveau": "6eme",
+  "thematique": {
+    "id": "fractions_6eme",
+    "label": "Les Fractions",
+    "icon": "½",
+    "color": "#c2410c"
+  },
+  "questions": [
+    {
+      "id": "fr6_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans la fraction $\\dfrac{3}{5}$, comment s'appelle le nombre $3$ ?",
+      "image": null,
+      "choix": [
+        "Le dénominateur",
+        "Le numérateur",
+        "Le quotient",
+        "L'entier"
+      ],
+      "reponse": "Le numérateur",
+      "explication": "Dans $\\dfrac{a}{b}$, $a$ est le numérateur (au-dessus de la barre) et $b$ est le dénominateur (en-dessous). Dans $\\dfrac{3}{5}$, le numérateur est $3$."
+    },
+    {
+      "id": "fr6_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans la fraction $\\dfrac{3}{5}$, comment s'appelle le nombre $5$ ?",
+      "image": null,
+      "choix": [
+        "Le numérateur",
+        "Le quotient",
+        "Le dénominateur",
+        "L'entier"
+      ],
+      "reponse": "Le dénominateur",
+      "explication": "Le nombre sous la barre de fraction est le dénominateur. Dans $\\dfrac{3}{5}$, le dénominateur est $5$."
+    },
+    {
+      "id": "fr6_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle définition correspond le mieux à une fraction ?",
+      "image": null,
+      "choix": [
+        "Un nombre toujours compris entre $0$ et $1$",
+        "Une écriture $\\dfrac{a}{b}$ où $a$ et $b$ sont des entiers et $b \\neq 0$, représentant le quotient de $a$ par $b$",
+        "Un nombre qui s'écrit toujours avec une virgule",
+        "Un nombre entier divisé par $10$"
+      ],
+      "reponse": "Une écriture $\\dfrac{a}{b}$ où $a$ et $b$ sont des entiers et $b \\neq 0$, représentant le quotient de $a$ par $b$",
+      "explication": "Une fraction est une écriture $\\dfrac{a}{b}$ où $a$ (numérateur) et $b$ (dénominateur) sont des entiers et $b \\neq 0$. Elle représente le quotient de $a$ par $b$. Elle peut être inférieure, égale ou supérieure à $1$."
+    },
+    {
+      "id": "fr6_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $21 \\times \\dfrac{4}{21}$ ?",
+      "image": null,
+      "choix": [
+        "$21$",
+        "$\\dfrac{1}{21}$",
+        "$4$",
+        "$84$"
+      ],
+      "reponse": "$4$",
+      "explication": "Par définition du quotient : $b \\times \\dfrac{a}{b} = a$. Donc $21 \\times \\dfrac{4}{21} = 4$."
+    },
+    {
+      "id": "fr6_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces écritures est une fraction (numérateur et dénominateur entiers) ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2{,}5}{4}$",
+        "$\\dfrac{8}{31{,}2}$",
+        "$\\dfrac{4{,}1}{2{,}3}$",
+        "$\\dfrac{2}{5}$"
+      ],
+      "reponse": "$\\dfrac{2}{5}$",
+      "explication": "Seule $\\dfrac{2}{5}$ est une fraction : son numérateur ($2$) et son dénominateur ($5$) sont des entiers. Les autres écritures ont des décimaux au numérateur ou au dénominateur."
+    },
+    {
+      "id": "fr6_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La fraction $\\dfrac{7}{9}$ est comparée à $1$. Que peut-on dire ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{7}{9} > 1$ car $7 > 0$",
+        "$\\dfrac{7}{9} = 1$ car les deux sont positifs",
+        "$\\dfrac{7}{9} < 1$ car $7 < 9$",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{7}{9} < 1$ car $7 < 9$",
+      "explication": "Si le numérateur est inférieur au dénominateur, la fraction est inférieure à $1$. Ici $7 < 9$, donc $\\dfrac{7}{9} < 1$."
+    },
+    {
+      "id": "fr6_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi $\\dfrac{5}{9}$ et $\\dfrac{8}{9}$, laquelle est la plus grande ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{9}$",
+        "$\\dfrac{8}{9}$",
+        "Elles sont égales",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{8}{9}$",
+      "explication": "Même dénominateur : on compare les numérateurs. $8 > 5$, donc $\\dfrac{8}{9} > \\dfrac{5}{9}$."
+    },
+    {
+      "id": "fr6_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $\\dfrac{3}{11}$ et $\\dfrac{7}{11}$. Quelle inégalité est correcte ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{11} > \\dfrac{7}{11}$",
+        "$\\dfrac{3}{11} = \\dfrac{7}{11}$",
+        "$\\dfrac{3}{11} < \\dfrac{7}{11}$",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{3}{11} < \\dfrac{7}{11}$",
+      "explication": "Même dénominateur, on compare les numérateurs : $3 < 7$, donc $\\dfrac{3}{11} < \\dfrac{7}{11}$."
+    },
+    {
+      "id": "fr6_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la règle pour comparer deux fractions ayant le même dénominateur ?",
+      "image": null,
+      "choix": [
+        "La plus grande est celle dont le dénominateur est le plus petit",
+        "La plus grande est celle dont le numérateur est le plus grand",
+        "Elles sont toujours égales si le dénominateur est identique",
+        "On compare en soustrayant les dénominateurs"
+      ],
+      "reponse": "La plus grande est celle dont le numérateur est le plus grand",
+      "explication": "Quand deux fractions ont le même dénominateur, la plus grande est celle dont le numérateur est le plus grand : $\\dfrac{a}{c} > \\dfrac{b}{c}$ si et seulement si $a > b$."
+    },
+    {
+      "id": "fr6_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi $\\dfrac{7}{5}$ et $\\dfrac{7}{9}$, laquelle est la plus grande ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{7}{5}$",
+        "$\\dfrac{7}{9}$",
+        "Elles sont égales",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{7}{5}$",
+      "explication": "Même numérateur : la plus grande est celle dont le dénominateur est le plus petit. $5 < 9$, donc $\\dfrac{7}{5} > \\dfrac{7}{9}$."
+    },
+    {
+      "id": "fr6_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la règle pour comparer deux fractions ayant le même numérateur ?",
+      "image": null,
+      "choix": [
+        "La plus grande est celle dont le dénominateur est le plus grand",
+        "La plus grande est celle dont le dénominateur est le plus petit",
+        "Elles sont toujours égales",
+        "On compare en additionnant les numérateurs"
+      ],
+      "reponse": "La plus grande est celle dont le dénominateur est le plus petit",
+      "explication": "Quand deux fractions ont le même numérateur, la plus grande est celle dont le dénominateur est le plus petit : partager un gâteau en $3$ parts égales donne de plus grandes parts qu'en le couper en $7$."
+    },
+    {
+      "id": "fr6_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que donne $\\dfrac{6}{8}$ simplifié par $2$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{12}{16}$",
+        "$\\dfrac{6}{4}$",
+        "$\\dfrac{3}{8}$"
+      ],
+      "reponse": "$\\dfrac{3}{4}$",
+      "explication": "$\\dfrac{6}{8} = \\dfrac{6 \\div 2}{8 \\div 2} = \\dfrac{3}{4}$. On divise le numérateur et le dénominateur par le même nombre."
+    },
+    {
+      "id": "fr6_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Simplifie la fraction $\\dfrac{15}{20}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{4}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{15}{4}$",
+        "$\\dfrac{1}{4}$"
+      ],
+      "reponse": "$\\dfrac{3}{4}$",
+      "explication": "$\\dfrac{15}{20} = \\dfrac{15 \\div 5}{20 \\div 5} = \\dfrac{3}{4}$."
+    },
+    {
+      "id": "fr6_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Simplifie la fraction $\\dfrac{21}{14}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{7}{2}$",
+        "$\\dfrac{3}{2}$",
+        "$\\dfrac{21}{2}$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "reponse": "$\\dfrac{3}{2}$",
+      "explication": "$\\dfrac{21}{14} = \\dfrac{21 \\div 7}{14 \\div 7} = \\dfrac{3}{2}$."
+    },
+    {
+      "id": "fr6_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces fractions est déjà irréductible (sous forme simplifiée) ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{6}{9}$",
+        "$\\dfrac{4}{10}$",
+        "$\\dfrac{3}{7}$",
+        "$\\dfrac{8}{12}$"
+      ],
+      "reponse": "$\\dfrac{3}{7}$",
+      "explication": "$3$ et $7$ n'ont pas de diviseur commun autre que $1$ : $\\dfrac{3}{7}$ est irréductible. Les autres : $\\dfrac{6}{9} = \\dfrac{2}{3}$, $\\dfrac{4}{10} = \\dfrac{2}{5}$, $\\dfrac{8}{12} = \\dfrac{2}{3}$."
+    },
+    {
+      "id": "fr6_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que signifie simplifier une fraction ?",
+      "image": null,
+      "choix": [
+        "Additionner le numérateur et le dénominateur",
+        "Trouver une fraction égale avec un numérateur et un dénominateur plus petits, en divisant les deux par un même entier",
+        "Multiplier la fraction par un entier",
+        "Écrire la fraction avec un numérateur plus grand"
+      ],
+      "reponse": "Trouver une fraction égale avec un numérateur et un dénominateur plus petits, en divisant les deux par un même entier",
+      "explication": "Simplifier une fraction, c'est diviser son numérateur et son dénominateur par un même entier non nul, pour obtenir une fraction égale mais avec des nombres plus petits. Ex. : $\\dfrac{12}{18} = \\dfrac{12 \\div 6}{18 \\div 6} = \\dfrac{2}{3}$."
+    },
+    {
+      "id": "fr6_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Simplifie la fraction $\\dfrac{10}{15}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{5}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{5}{3}$",
+        "$\\dfrac{2}{5}$"
+      ],
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$\\dfrac{10}{15} = \\dfrac{10 \\div 5}{15 \\div 5} = \\dfrac{2}{3}$."
+    },
+    {
+      "id": "fr6_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $\\dfrac{4}{25} + \\dfrac{12}{25}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{16}{50}$",
+        "$\\dfrac{16}{25}$",
+        "$\\dfrac{8}{25}$",
+        "$\\dfrac{4}{25}$"
+      ],
+      "reponse": "$\\dfrac{16}{25}$",
+      "explication": "Même dénominateur : on additionne les numérateurs. $\\dfrac{4}{25} + \\dfrac{12}{25} = \\dfrac{4+12}{25} = \\dfrac{16}{25}$."
+    },
+    {
+      "id": "fr6_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $\\dfrac{3}{7} + \\dfrac{2}{7} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{14}$",
+        "$\\dfrac{5}{7}$",
+        "$\\dfrac{6}{7}$",
+        "$\\dfrac{1}{7}$"
+      ],
+      "reponse": "$\\dfrac{5}{7}$",
+      "explication": "$\\dfrac{3}{7} + \\dfrac{2}{7} = \\dfrac{3+2}{7} = \\dfrac{5}{7}$."
+    },
+    {
+      "id": "fr6_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $\\dfrac{8}{13} - \\dfrac{3}{13} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{26}$",
+        "$\\dfrac{5}{0}$",
+        "$\\dfrac{5}{13}$",
+        "$\\dfrac{11}{13}$"
+      ],
+      "reponse": "$\\dfrac{5}{13}$",
+      "explication": "$\\dfrac{8}{13} - \\dfrac{3}{13} = \\dfrac{8-3}{13} = \\dfrac{5}{13}$."
+    },
+    {
+      "id": "fr6_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $\\dfrac{9}{11} - \\dfrac{5}{11}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{4}{0}$",
+        "$\\dfrac{4}{22}$",
+        "$\\dfrac{4}{11}$",
+        "$\\dfrac{14}{11}$"
+      ],
+      "reponse": "$\\dfrac{4}{11}$",
+      "explication": "$\\dfrac{9}{11} - \\dfrac{5}{11} = \\dfrac{9-5}{11} = \\dfrac{4}{11}$. On garde le dénominateur et on soustrait les numérateurs."
+    },
+    {
+      "id": "fr6_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie si possible : $\\dfrac{5}{9} + \\dfrac{1}{9} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{6}{18}$",
+        "$\\dfrac{6}{9}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{4}{9}$"
+      ],
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$\\dfrac{5}{9} + \\dfrac{1}{9} = \\dfrac{6}{9}$. On simplifie par $3$ : $\\dfrac{6 \\div 3}{9 \\div 3} = \\dfrac{2}{3}$."
+    },
+    {
+      "id": "fr6_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la règle pour additionner deux fractions ayant le même dénominateur ?",
+      "image": null,
+      "choix": [
+        "On additionne les numérateurs et les dénominateurs",
+        "On conserve le dénominateur commun et on additionne les numérateurs",
+        "On multiplie les numérateurs et on additionne les dénominateurs",
+        "On divise les numérateurs"
+      ],
+      "reponse": "On conserve le dénominateur commun et on additionne les numérateurs",
+      "explication": "$\\dfrac{a}{c} + \\dfrac{b}{c} = \\dfrac{a+b}{c}$. On conserve le dénominateur commun et on additionne uniquement les numérateurs."
+    },
+    {
+      "id": "fr6_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie si possible : $\\dfrac{7}{10} - \\dfrac{3}{10} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{4}{10}$",
+        "$\\dfrac{2}{5}$",
+        "$\\dfrac{4}{0}$",
+        "$\\dfrac{1}{5}$"
+      ],
+      "reponse": "$\\dfrac{2}{5}$",
+      "explication": "$\\dfrac{7}{10} - \\dfrac{3}{10} = \\dfrac{4}{10} = \\dfrac{4 \\div 2}{10 \\div 2} = \\dfrac{2}{5}$."
+    },
+    {
+      "id": "fr6_n1_031",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La fraction $\\dfrac{12}{5}$ est comparée à $1$. Que peut-on dire ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{12}{5} < 1$",
+        "$\\dfrac{12}{5} = 1$",
+        "$\\dfrac{12}{5} > 1$",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{12}{5} > 1$",
+      "explication": "Le numérateur ($12$) est supérieur au dénominateur ($5$), donc $\\dfrac{12}{5} > 1$."
+    },
+    {
+      "id": "fr6_n1_034",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Simplifie la fraction $\\dfrac{18}{24}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{9}{12}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{6}{8}$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "reponse": "$\\dfrac{3}{4}$",
+      "explication": "$\\dfrac{18}{24} = \\dfrac{18 \\div 6}{24 \\div 6} = \\dfrac{3}{4}$. On peut aussi simplifier en deux étapes : par $2$ puis par $3$."
+    },
+    {
+      "id": "fr6_n1_035",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi $\\dfrac{5}{8}$ et $\\dfrac{5}{12}$, laquelle est la plus petite ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{8}$",
+        "$\\dfrac{5}{12}$",
+        "Elles sont égales",
+        "Impossible à comparer"
+      ],
+      "reponse": "$\\dfrac{5}{12}$",
+      "explication": "Même numérateur : plus grand dénominateur = plus petite fraction. $12 > 8$, donc $\\dfrac{5}{12} < \\dfrac{5}{8}$."
+    },
+    {
+      "id": "fr6_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Vrai ou Faux : multiplier le numérateur et le dénominateur d'une fraction par un même nombre change sa valeur.",
+      "image": null,
+      "choix": [
+        "Vrai, la fraction augmente",
+        "Faux : cela ne change pas la valeur de la fraction",
+        "Vrai, la fraction diminue",
+        "Cela dépend du nombre utilisé"
+      ],
+      "reponse": "Faux : cela ne change pas la valeur de la fraction",
+      "explication": "Faux. Multiplier (ou diviser) le numérateur et le dénominateur par un même entier non nul ne change pas la valeur. Exemple : $\\dfrac{2}{3} = \\dfrac{4}{6} = \\dfrac{6}{9}$."
+    },
+    {
+      "id": "fr6_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $\\dfrac{4}{9} + \\dfrac{5}{9}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{9}{9} = 1$",
+        "$\\dfrac{9}{18}$",
+        "$\\dfrac{9}{81}$",
+        "$\\dfrac{1}{9}$"
+      ],
+      "reponse": "$\\dfrac{9}{9} = 1$",
+      "explication": "$\\dfrac{4}{9} + \\dfrac{5}{9} = \\dfrac{4+5}{9} = \\dfrac{9}{9} = 1$."
+    },
+    {
+      "id": "fr6_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Place les fractions $\\dfrac{1}{4}$, $\\dfrac{3}{4}$ et $\\dfrac{2}{4}$ dans l'ordre croissant.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{4} < \\dfrac{2}{4} < \\dfrac{1}{4}$",
+        "$\\dfrac{1}{4} < \\dfrac{2}{4} < \\dfrac{3}{4}$",
+        "$\\dfrac{2}{4} < \\dfrac{1}{4} < \\dfrac{3}{4}$",
+        "$\\dfrac{1}{4} = \\dfrac{2}{4} = \\dfrac{3}{4}$"
+      ],
+      "reponse": "$\\dfrac{1}{4} < \\dfrac{2}{4} < \\dfrac{3}{4}$",
+      "explication": "Même dénominateur : on compare les numérateurs. $1 < 2 < 3$, donc $\\dfrac{1}{4} < \\dfrac{2}{4} < \\dfrac{3}{4}$."
+    },
+    {
+      "id": "fr6_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces fractions est égale à $\\dfrac{3}{4}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{6}{9}$",
+        "$\\dfrac{9}{12}$",
+        "$\\dfrac{6}{8}$",
+        "Les propositions B et C"
+      ],
+      "reponse": "Les propositions B et C",
+      "explication": "$\\dfrac{6}{8} = \\dfrac{6 \\div 2}{8 \\div 2} = \\dfrac{3}{4}$ ✓. $\\dfrac{9}{12} = \\dfrac{9 \\div 3}{12 \\div 3} = \\dfrac{3}{4}$ ✓. $\\dfrac{6}{9} = \\dfrac{2}{3} \\neq \\dfrac{3}{4}$. Les propositions B et C sont toutes les deux égales à $\\dfrac{3}{4}$."
+    },
+    {
+      "id": "fr6_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi $\\dfrac{3}{4}$, $\\dfrac{6}{8}$ et $\\dfrac{15}{20}$, lesquelles sont égales ?",
+      "image": null,
+      "choix": [
+        "Seules $\\dfrac{3}{4}$ et $\\dfrac{6}{8}$ sont égales",
+        "Seules $\\dfrac{6}{8}$ et $\\dfrac{15}{20}$ sont égales",
+        "Les trois fractions sont égales entre elles",
+        "Aucune n'est égale aux autres"
+      ],
+      "reponse": "Les trois fractions sont égales entre elles",
+      "explication": "$\\dfrac{6}{8} = \\dfrac{3}{4}$ (÷2). $\\dfrac{15}{20} = \\dfrac{3}{4}$ (÷5). Les trois fractions sont égales : elles représentent toutes la même quantité."
+    },
+    {
+      "id": "fr6_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Complète : $\\dfrac{2}{5} = \\dfrac{?}{15}$. Quelle est la valeur du numérateur manquant ?",
+      "image": null,
+      "choix": [
+        "$3$",
+        "$4$",
+        "$6$",
+        "$10$"
+      ],
+      "reponse": "$6$",
+      "explication": "$\\dfrac{2}{5} = \\dfrac{2 \\times 3}{5 \\times 3} = \\dfrac{6}{15}$. On a multiplié le dénominateur par $3$ ($5 \\times 3 = 15$), donc on multiplie aussi le numérateur par $3$."
+    },
+    {
+      "id": "fr6_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour comparer $\\dfrac{3}{4}$ et $\\dfrac{5}{8}$, quel est le meilleur dénominateur commun ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$8$",
+        "$12$",
+        "$32$"
+      ],
+      "reponse": "$8$",
+      "explication": "$8$ est un multiple commun de $4$ et $8$ (le plus simple). On convertit : $\\dfrac{3}{4} = \\dfrac{6}{8}$. On compare $\\dfrac{6}{8}$ et $\\dfrac{5}{8}$ : $6 > 5$ donc $\\dfrac{3}{4} > \\dfrac{5}{8}$."
+    },
+    {
+      "id": "fr6_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $\\dfrac{2}{5}$ et $\\dfrac{3}{7}$ en mettant au même dénominateur. Quelle inégalité est correcte ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2}{5} > \\dfrac{3}{7}$",
+        "$\\dfrac{2}{5} = \\dfrac{3}{7}$",
+        "$\\dfrac{2}{5} < \\dfrac{3}{7}$",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{2}{5} < \\dfrac{3}{7}$",
+      "explication": "$\\dfrac{2}{5} = \\dfrac{14}{35}$ et $\\dfrac{3}{7} = \\dfrac{15}{35}$. $14 < 15$ donc $\\dfrac{2}{5} < \\dfrac{3}{7}$."
+    },
+    {
+      "id": "fr6_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Complète : $\\dfrac{3}{4} = \\dfrac{?}{20}$. Quelle est la valeur du numérateur manquant ?",
+      "image": null,
+      "choix": [
+        "$5$",
+        "$12$",
+        "$15$",
+        "$20$"
+      ],
+      "reponse": "$15$",
+      "explication": "$\\dfrac{3}{4} = \\dfrac{3 \\times 5}{4 \\times 5} = \\dfrac{15}{20}$. ($4 \\times 5 = 20$.)"
+    },
+    {
+      "id": "fr6_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $\\dfrac{5}{6}$ et $\\dfrac{7}{9}$ (mettre au dénominateur commun $18$). Quelle inégalité est correcte ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{6} < \\dfrac{7}{9}$",
+        "$\\dfrac{5}{6} = \\dfrac{7}{9}$",
+        "$\\dfrac{5}{6} > \\dfrac{7}{9}$",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{5}{6} > \\dfrac{7}{9}$",
+      "explication": "$\\dfrac{5}{6} = \\dfrac{15}{18}$ et $\\dfrac{7}{9} = \\dfrac{14}{18}$. $15 > 14$ donc $\\dfrac{5}{6} > \\dfrac{7}{9}$."
+    },
+    {
+      "id": "fr6_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment comparer deux fractions ayant des numérateurs et dénominateurs différents ?",
+      "image": null,
+      "choix": [
+        "On compare directement les numérateurs sans s'occuper des dénominateurs",
+        "On cherche un dénominateur commun, on convertit chaque fraction, puis on compare les numérateurs",
+        "On additionne les numérateurs et les dénominateurs de chaque fraction",
+        "On compare toujours les dénominateurs en premier"
+      ],
+      "reponse": "On cherche un dénominateur commun, on convertit chaque fraction, puis on compare les numérateurs",
+      "explication": "Pour comparer des fractions à dénominateurs différents, on cherche un dénominateur commun (souvent le PPCM), on exprime chaque fraction avec ce dénominateur, puis on compare les numérateurs."
+    },
+    {
+      "id": "fr6_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Simplifie la fraction $\\dfrac{36}{48}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{6}{8}$",
+        "$\\dfrac{9}{12}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{12}{16}$"
+      ],
+      "reponse": "$\\dfrac{3}{4}$",
+      "explication": "$\\dfrac{36}{48} = \\dfrac{36 \\div 12}{48 \\div 12} = \\dfrac{3}{4}$."
+    },
+    {
+      "id": "fr6_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $\\dfrac{3}{8} + \\dfrac{5}{8}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{8}{16}$",
+        "$\\dfrac{8}{8} = 1$",
+        "$\\dfrac{8}{64}$",
+        "$\\dfrac{15}{64}$"
+      ],
+      "reponse": "$\\dfrac{8}{8} = 1$",
+      "explication": "$\\dfrac{3}{8} + \\dfrac{5}{8} = \\dfrac{3+5}{8} = \\dfrac{8}{8} = 1$."
+    },
+    {
+      "id": "fr6_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $\\dfrac{7}{12} + \\dfrac{5}{12} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{12}{24}$",
+        "$\\dfrac{12}{12} = 1$",
+        "$\\dfrac{2}{12}$",
+        "$\\dfrac{12}{144}$"
+      ],
+      "reponse": "$\\dfrac{12}{12} = 1$",
+      "explication": "$\\dfrac{7}{12} + \\dfrac{5}{12} = \\dfrac{12}{12} = 1$."
+    },
+    {
+      "id": "fr6_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Lucas mange $\\dfrac{3}{8}$ d'une pizza et Marie en mange $\\dfrac{2}{8}$. Quelle fraction reste-t-il ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{8}$",
+        "$\\dfrac{2}{8}$",
+        "$\\dfrac{3}{8}$",
+        "$\\dfrac{5}{8}$"
+      ],
+      "reponse": "$\\dfrac{3}{8}$",
+      "explication": "Mangée : $\\dfrac{3}{8} + \\dfrac{2}{8} = \\dfrac{5}{8}$. Restant : $1 - \\dfrac{5}{8} = \\dfrac{8}{8} - \\dfrac{5}{8} = \\dfrac{3}{8}$."
+    },
+    {
+      "id": "fr6_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie : $\\dfrac{5}{6} - \\dfrac{1}{6} - \\dfrac{2}{6} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2}{6}$",
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{8}{6}$",
+        "$\\dfrac{3}{6}$"
+      ],
+      "reponse": "$\\dfrac{1}{3}$",
+      "explication": "$\\dfrac{5}{6} - \\dfrac{1}{6} - \\dfrac{2}{6} = \\dfrac{5-1-2}{6} = \\dfrac{2}{6} = \\dfrac{1}{3}$."
+    },
+    {
+      "id": "fr6_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle est la plus grande : $\\dfrac{3}{5}$ ou $\\dfrac{2}{3}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{2}{3}$",
+        "Elles sont égales",
+        "Impossible à déterminer"
+      ],
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$\\dfrac{3}{5} = \\dfrac{9}{15}$ et $\\dfrac{2}{3} = \\dfrac{10}{15}$. $10 > 9$ donc $\\dfrac{2}{3} > \\dfrac{3}{5}$."
+    },
+    {
+      "id": "fr6_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre décroissant : $\\dfrac{3}{4}$, $\\dfrac{5}{6}$, $\\dfrac{7}{12}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{4} > \\dfrac{5}{6} > \\dfrac{7}{12}$",
+        "$\\dfrac{5}{6} > \\dfrac{3}{4} > \\dfrac{7}{12}$",
+        "$\\dfrac{7}{12} > \\dfrac{3}{4} > \\dfrac{5}{6}$",
+        "$\\dfrac{5}{6} > \\dfrac{7}{12} > \\dfrac{3}{4}$"
+      ],
+      "reponse": "$\\dfrac{5}{6} > \\dfrac{3}{4} > \\dfrac{7}{12}$",
+      "explication": "Dénominateur commun $12$ : $\\dfrac{3}{4} = \\dfrac{9}{12}$, $\\dfrac{5}{6} = \\dfrac{10}{12}$, $\\dfrac{7}{12}$. Ordre décroissant : $\\dfrac{10}{12} > \\dfrac{9}{12} > \\dfrac{7}{12}$, soit $\\dfrac{5}{6} > \\dfrac{3}{4} > \\dfrac{7}{12}$."
+    },
+    {
+      "id": "fr6_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $\\dfrac{1}{3} + \\dfrac{1}{3} + \\dfrac{1}{3} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{9}$",
+        "$\\dfrac{3}{9}$",
+        "$1$",
+        "$\\dfrac{3}{1}$"
+      ],
+      "reponse": "$1$",
+      "explication": "$\\dfrac{1}{3} + \\dfrac{1}{3} + \\dfrac{1}{3} = \\dfrac{3}{3} = 1$."
+    },
+    {
+      "id": "fr6_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $1 - \\dfrac{3}{7}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{7}$",
+        "$\\dfrac{4}{7}$",
+        "$\\dfrac{7}{3}$",
+        "Impossible"
+      ],
+      "reponse": "$\\dfrac{4}{7}$",
+      "explication": "$1 = \\dfrac{7}{7}$. Donc $1 - \\dfrac{3}{7} = \\dfrac{7}{7} - \\dfrac{3}{7} = \\dfrac{4}{7}$."
+    },
+    {
+      "id": "fr6_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $1 - \\dfrac{5}{9} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{9}$",
+        "$\\dfrac{4}{9}$",
+        "$\\dfrac{4}{0}$",
+        "$\\dfrac{14}{9}$"
+      ],
+      "reponse": "$\\dfrac{4}{9}$",
+      "explication": "$1 - \\dfrac{5}{9} = \\dfrac{9}{9} - \\dfrac{5}{9} = \\dfrac{4}{9}$."
+    },
+    {
+      "id": "fr6_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans une classe, $\\dfrac{2}{7}$ des élèves sont absents. Quelle fraction des élèves est présente ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2}{7}$",
+        "$\\dfrac{3}{7}$",
+        "$\\dfrac{5}{7}$",
+        "$\\dfrac{9}{7}$"
+      ],
+      "reponse": "$\\dfrac{5}{7}$",
+      "explication": "$1 - \\dfrac{2}{7} = \\dfrac{7}{7} - \\dfrac{2}{7} = \\dfrac{5}{7}$ des élèves sont présents."
+    },
+    {
+      "id": "fr6_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $\\dfrac{4}{11} + \\dfrac{3}{11} + \\dfrac{2}{11} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{9}{33}$",
+        "$\\dfrac{9}{11}$",
+        "$\\dfrac{24}{11}$",
+        "$1$"
+      ],
+      "reponse": "$\\dfrac{9}{11}$",
+      "explication": "$\\dfrac{4}{11} + \\dfrac{3}{11} + \\dfrac{2}{11} = \\dfrac{4+3+2}{11} = \\dfrac{9}{11}$."
+    },
+    {
+      "id": "fr6_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On veut écrire $\\dfrac{4}{5}$ avec le dénominateur $20$. Quel est le numérateur ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$5$",
+        "$16$",
+        "$20$"
+      ],
+      "reponse": "$16$",
+      "explication": "$\\dfrac{4}{5} = \\dfrac{4 \\times 4}{5 \\times 4} = \\dfrac{16}{20}$. ($5 \\times 4 = 20$.)"
+    },
+    {
+      "id": "fr6_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un gâteau est partagé en $12$ parts. Clara mange $3$ parts, Hugo en mange $4$. Quelle fraction du gâteau reste-t-il ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{12}$",
+        "$\\dfrac{7}{12}$",
+        "$\\dfrac{4}{12}$",
+        "$\\dfrac{3}{12}$"
+      ],
+      "reponse": "$\\dfrac{5}{12}$",
+      "explication": "Mangé : $\\dfrac{3}{12} + \\dfrac{4}{12} = \\dfrac{7}{12}$. Restant : $\\dfrac{12}{12} - \\dfrac{7}{12} = \\dfrac{5}{12}$."
+    },
+    {
+      "id": "fr6_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Complète : $\\dfrac{5}{6} = \\dfrac{?}{30}$. Quelle est la valeur du numérateur manquant ?",
+      "image": null,
+      "choix": [
+        "$5$",
+        "$20$",
+        "$25$",
+        "$30$"
+      ],
+      "reponse": "$25$",
+      "explication": "$\\dfrac{5}{6} = \\dfrac{5 \\times 5}{6 \\times 5} = \\dfrac{25}{30}$. ($6 \\times 5 = 30$.)"
+    },
+    {
+      "id": "fr6_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $\\dfrac{7}{4}$ et $\\dfrac{9}{5}$. Quelle inégalité est correcte ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{7}{4} < \\dfrac{9}{5}$",
+        "$\\dfrac{7}{4} = \\dfrac{9}{5}$",
+        "$\\dfrac{7}{4} > \\dfrac{9}{5}$",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "$\\dfrac{7}{4} < \\dfrac{9}{5}$",
+      "explication": "$\\dfrac{7}{4} = \\dfrac{35}{20}$ et $\\dfrac{9}{5} = \\dfrac{36}{20}$. $35 < 36$ donc $\\dfrac{7}{4} < \\dfrac{9}{5}$."
+    },
+    {
+      "id": "fr6_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pourquoi ne peut-on pas directement additionner $\\dfrac{1}{3}$ et $\\dfrac{1}{4}$ avec la règle du même dénominateur ?",
+      "image": null,
+      "choix": [
+        "Parce que les numérateurs sont différents",
+        "Parce que les dénominateurs sont différents ($3 \\neq 4$), il faut d'abord les mettre au même dénominateur",
+        "Parce que la somme serait supérieure à $1$",
+        "Parce que les fractions sont toutes les deux inférieures à $1$"
+      ],
+      "reponse": "Parce que les dénominateurs sont différents ($3 \\neq 4$), il faut d'abord les mettre au même dénominateur",
+      "explication": "La règle $\\dfrac{a}{c} + \\dfrac{b}{c} = \\dfrac{a+b}{c}$ ne fonctionne que si les dénominateurs sont identiques. Ici $3 \\neq 4$, donc il faut d'abord obtenir un dénominateur commun (ex. $12$) : $\\dfrac{1}{3} = \\dfrac{4}{12}$ et $\\dfrac{1}{4} = \\dfrac{3}{12}$, donc $\\dfrac{1}{3} + \\dfrac{1}{4} = \\dfrac{7}{12}$."
+    },
+    {
+      "id": "fr6_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Simplifie la fraction $\\dfrac{45}{60}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{9}{12}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{15}{20}$",
+        "$\\dfrac{5}{6}$"
+      ],
+      "reponse": "$\\dfrac{3}{4}$",
+      "explication": "$\\dfrac{45}{60} = \\dfrac{45 \\div 15}{60 \\div 15} = \\dfrac{3}{4}$."
+    },
+    {
+      "id": "fr6_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $1 + \\dfrac{2}{5}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{7}{5}$",
+        "$\\dfrac{2}{5}$",
+        "$\\dfrac{3}{10}$"
+      ],
+      "reponse": "$\\dfrac{7}{5}$",
+      "explication": "$1 + \\dfrac{2}{5} = \\dfrac{5}{5} + \\dfrac{2}{5} = \\dfrac{7}{5}$."
+    },
+    {
+      "id": "fr6_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $\\dfrac{3}{8} + \\dfrac{8}{8} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{11}{16}$",
+        "$\\dfrac{11}{8}$",
+        "$\\dfrac{24}{8}$",
+        "$1$"
+      ],
+      "reponse": "$\\dfrac{11}{8}$",
+      "explication": "$\\dfrac{3}{8} + \\dfrac{8}{8} = \\dfrac{3+8}{8} = \\dfrac{11}{8}$."
+    },
+    {
+      "id": "fr6_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Vrai ou Faux : $\\dfrac{2}{6} = \\dfrac{1}{3}$. Quelle proposition est correcte ?",
+      "image": null,
+      "choix": [
+        "Faux, $\\dfrac{2}{6} \\neq \\dfrac{1}{3}$",
+        "Vrai : $\\dfrac{2}{6} = \\dfrac{2 \\div 2}{6 \\div 2} = \\dfrac{1}{3}$",
+        "Faux, on ne peut pas simplifier de cette façon",
+        "Vrai, mais seulement si $2 < 6$"
+      ],
+      "reponse": "Vrai : $\\dfrac{2}{6} = \\dfrac{2 \\div 2}{6 \\div 2} = \\dfrac{1}{3}$",
+      "explication": "Vrai. $\\dfrac{2}{6} = \\dfrac{2 \\div 2}{6 \\div 2} = \\dfrac{1}{3}$. On peut simplifier en divisant les deux par $2$."
+    },
+    {
+      "id": "fr6_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie : $\\dfrac{13}{5} - \\dfrac{8}{5} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{5}$",
+        "$1$",
+        "$\\dfrac{21}{5}$",
+        "$\\dfrac{5}{10}$"
+      ],
+      "reponse": "$1$",
+      "explication": "$\\dfrac{13}{5} - \\dfrac{8}{5} = \\dfrac{5}{5} = 1$."
+    },
+    {
+      "id": "fr6_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre croissant : $\\dfrac{5}{6}$, $\\dfrac{3}{4}$, $\\dfrac{7}{8}$, $\\dfrac{2}{3}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2}{3} < \\dfrac{5}{6} < \\dfrac{3}{4} < \\dfrac{7}{8}$",
+        "$\\dfrac{2}{3} < \\dfrac{3}{4} < \\dfrac{5}{6} < \\dfrac{7}{8}$",
+        "$\\dfrac{3}{4} < \\dfrac{2}{3} < \\dfrac{5}{6} < \\dfrac{7}{8}$",
+        "$\\dfrac{7}{8} < \\dfrac{5}{6} < \\dfrac{3}{4} < \\dfrac{2}{3}$"
+      ],
+      "reponse": "$\\dfrac{2}{3} < \\dfrac{3}{4} < \\dfrac{5}{6} < \\dfrac{7}{8}$",
+      "explication": "Dénominateur commun $24$ : $\\dfrac{2}{3} = \\dfrac{16}{24}$, $\\dfrac{3}{4} = \\dfrac{18}{24}$, $\\dfrac{5}{6} = \\dfrac{20}{24}$, $\\dfrac{7}{8} = \\dfrac{21}{24}$. Ordre croissant : $16 < 18 < 20 < 21$, donc $\\dfrac{2}{3} < \\dfrac{3}{4} < \\dfrac{5}{6} < \\dfrac{7}{8}$."
+    },
+    {
+      "id": "fr6_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $\\dfrac{3}{4} + 1 - \\dfrac{5}{4}$ ?",
+      "image": null,
+      "choix": [
+        "$0$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{3}{4}$",
+        "$-\\dfrac{1}{4}$"
+      ],
+      "reponse": "$\\dfrac{1}{2}$",
+      "explication": "$\\dfrac{3}{4} + 1 = \\dfrac{3}{4} + \\dfrac{4}{4} = \\dfrac{7}{4}$. Puis $\\dfrac{7}{4} - \\dfrac{5}{4} = \\dfrac{2}{4} = \\dfrac{1}{2}$."
+    },
+    {
+      "id": "fr6_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie : $\\dfrac{9}{12} + \\dfrac{3}{12} - \\dfrac{4}{12} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{8}{12}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{16}{12}$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$\\dfrac{9+3-4}{12} = \\dfrac{8}{12} = \\dfrac{8 \\div 4}{12 \\div 4} = \\dfrac{2}{3}$."
+    },
+    {
+      "id": "fr6_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un récipient contient $\\dfrac{7}{10}$ de litre. On verse $\\dfrac{3}{10}$ litre de plus puis on boit $\\dfrac{8}{10}$ litre. Que reste-t-il ?",
+      "image": null,
+      "choix": [
+        "$0$",
+        "$\\dfrac{1}{10}$ litre",
+        "$\\dfrac{2}{10} = \\dfrac{1}{5}$ litre",
+        "$\\dfrac{3}{10}$ litre"
+      ],
+      "reponse": "$\\dfrac{2}{10} = \\dfrac{1}{5}$ litre",
+      "explication": "$\\dfrac{7}{10} + \\dfrac{3}{10} = \\dfrac{10}{10} = 1$ litre. Puis $1 - \\dfrac{8}{10} = \\dfrac{2}{10} = \\dfrac{1}{5}$ litre."
+    },
+    {
+      "id": "fr6_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle fraction est comprise entre $\\dfrac{1}{2}$ et $\\dfrac{3}{4}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{5}{8}$",
+        "$\\dfrac{7}{8}$",
+        "$\\dfrac{1}{8}$"
+      ],
+      "reponse": "$\\dfrac{5}{8}$",
+      "explication": "$\\dfrac{1}{2} = \\dfrac{4}{8}$ et $\\dfrac{3}{4} = \\dfrac{6}{8}$. Seule $\\dfrac{5}{8}$ est entre $\\dfrac{4}{8}$ et $\\dfrac{6}{8}$."
+    },
+    {
+      "id": "fr6_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Complète : $\\dfrac{7}{9} = \\dfrac{?}{63}$. Quelle est la valeur du numérateur manquant ?",
+      "image": null,
+      "choix": [
+        "$7$",
+        "$21$",
+        "$49$",
+        "$63$"
+      ],
+      "reponse": "$49$",
+      "explication": "$\\dfrac{7}{9} = \\dfrac{7 \\times 7}{9 \\times 7} = \\dfrac{49}{63}$. ($9 \\times 7 = 63$.)"
+    },
+    {
+      "id": "fr6_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux fractions ont pour somme $1$. L'une est $\\dfrac{3}{7}$. Quelle est l'autre ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{7}$",
+        "$\\dfrac{4}{7}$",
+        "$\\dfrac{7}{3}$",
+        "$\\dfrac{7}{7}$"
+      ],
+      "reponse": "$\\dfrac{4}{7}$",
+      "explication": "$1 - \\dfrac{3}{7} = \\dfrac{7}{7} - \\dfrac{3}{7} = \\dfrac{4}{7}$. Vérification : $\\dfrac{3}{7} + \\dfrac{4}{7} = \\dfrac{7}{7} = 1$. ✓"
+    },
+    {
+      "id": "fr6_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces affirmations est vraie ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{5} > \\dfrac{4}{5}$",
+        "$\\dfrac{7}{3} < 1$",
+        "$\\dfrac{5}{7} = \\dfrac{10}{13}$",
+        "$\\dfrac{12}{8}$ peut se simplifier en $\\dfrac{3}{2}$"
+      ],
+      "reponse": "$\\dfrac{12}{8}$ peut se simplifier en $\\dfrac{3}{2}$",
+      "explication": "$\\dfrac{12}{8} = \\dfrac{12 \\div 4}{8 \\div 4} = \\dfrac{3}{2}$ ✓. Les autres sont fausses : $\\dfrac{3}{5} < \\dfrac{4}{5}$ ; $\\dfrac{7}{3} > 1$ car $7 > 3$ ; $\\dfrac{5}{7} \\neq \\dfrac{10}{13}$ (car $\\dfrac{10}{14} = \\dfrac{5}{7}$, pas $\\dfrac{10}{13}$)."
+    },
+    {
+      "id": "fr6_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie : $\\dfrac{5}{6} + \\dfrac{1}{6} + \\dfrac{2}{6} - \\dfrac{3}{6} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{6}$",
+        "$\\dfrac{5}{24}$",
+        "$1$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "reponse": "$\\dfrac{5}{6}$",
+      "explication": "$\\dfrac{5+1+2-3}{6} = \\dfrac{5}{6}$. La fraction est déjà irréductible ($5$ et $6$ n'ont pas de diviseur commun)."
+    },
+    {
+      "id": "fr6_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un sondage, $\\dfrac{2}{5}$ des élèves préfèrent les maths, $\\dfrac{1}{5}$ préfère le français. Quelle fraction préfère « autre chose » et est-ce plus ou moins de la moitié ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{5}$, c'est plus de la moitié",
+        "$\\dfrac{2}{5}$, c'est moins de la moitié",
+        "$\\dfrac{1}{5}$, c'est moins de la moitié",
+        "$\\dfrac{4}{5}$, c'est plus de la moitié"
+      ],
+      "reponse": "$\\dfrac{2}{5}$, c'est moins de la moitié",
+      "explication": "Maths + français : $\\dfrac{2}{5} + \\dfrac{1}{5} = \\dfrac{3}{5}$. Autre chose : $1 - \\dfrac{3}{5} = \\dfrac{2}{5}$. La moitié vaut $\\dfrac{1}{2} = \\dfrac{2{,}5}{5}$. Comme $\\dfrac{2}{5} < \\dfrac{2{,}5}{5}$, c'est moins de la moitié."
+    },
+    {
+      "id": "fr6_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que vaut $\\dfrac{2}{3} + \\dfrac{2}{3} + \\dfrac{2}{3}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{6}{9} = \\dfrac{2}{3}$",
+        "$\\dfrac{6}{3} = 2$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{8}{3}$"
+      ],
+      "reponse": "$\\dfrac{6}{3} = 2$",
+      "explication": "$3 \\times \\dfrac{2}{3} = \\dfrac{6}{3} = 2$."
+    },
+    {
+      "id": "fr6_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie : $\\dfrac{16}{20} - \\dfrac{4}{20} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{12}{20}$",
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{4}{5}$",
+        "$\\dfrac{12}{0}$"
+      ],
+      "reponse": "$\\dfrac{3}{5}$",
+      "explication": "$\\dfrac{16}{20} - \\dfrac{4}{20} = \\dfrac{12}{20} = \\dfrac{12 \\div 4}{20 \\div 4} = \\dfrac{3}{5}$."
+    },
+    {
+      "id": "fr6_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Paul dit que $\\dfrac{5}{6} > \\dfrac{4}{5}$ parce que $6 > 5$. A-t-il raison, et son raisonnement est-il correct ?",
+      "image": null,
+      "choix": [
+        "Oui, et son raisonnement est correct",
+        "Oui, mais son raisonnement est faux (il faut mettre au même dénominateur)",
+        "Non, $\\dfrac{4}{5} > \\dfrac{5}{6}$",
+        "On ne peut pas le déterminer"
+      ],
+      "reponse": "Oui, mais son raisonnement est faux (il faut mettre au même dénominateur)",
+      "explication": "$\\dfrac{5}{6} = \\dfrac{25}{30}$ et $\\dfrac{4}{5} = \\dfrac{24}{30}$. $25 > 24$ donc $\\dfrac{5}{6} > \\dfrac{4}{5}$ ✓. Paul a raison par chance, mais son raisonnement est faux : avec même numérateur, c'est le plus petit dénominateur qui donne la plus grande fraction — mais ici les numérateurs sont différents."
+    },
+    {
+      "id": "fr6_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle est la fraction irréductible égale à $\\dfrac{24}{36}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{12}{18}$",
+        "$\\dfrac{6}{9}$",
+        "$\\dfrac{2}{3}$",
+        "$\\dfrac{8}{12}$"
+      ],
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$\\dfrac{24}{36} = \\dfrac{24 \\div 12}{36 \\div 12} = \\dfrac{2}{3}$. C'est la seule forme irréductible car $2$ et $3$ n'ont pas de diviseur commun autre que $1$."
+    },
+    {
+      "id": "fr6_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule : $\\dfrac{1}{2} + \\dfrac{1}{2} + \\dfrac{1}{2} - \\dfrac{1}{2} =$",
+      "image": null,
+      "choix": [
+        "$0$",
+        "$\\dfrac{1}{2}$",
+        "$1$",
+        "$2$"
+      ],
+      "reponse": "$1$",
+      "explication": "$\\dfrac{1+1+1-1}{2} = \\dfrac{2}{2} = 1$."
+    },
+    {
+      "id": "fr6_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la valeur de $k$ si $\\dfrac{3}{5} = \\dfrac{k}{35}$ ?",
+      "image": null,
+      "choix": [
+        "$7$",
+        "$15$",
+        "$21$",
+        "$25$"
+      ],
+      "reponse": "$21$",
+      "explication": "$\\dfrac{3}{5} = \\dfrac{3 \\times 7}{5 \\times 7} = \\dfrac{21}{35}$. Donc $k = 21$."
+    },
+    {
+      "id": "fr6_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Une tarte est partagée en $8$ parts. Alice mange $\\dfrac{1}{4}$ de la tarte. Combien de parts cela représente-t-il ?",
+      "image": null,
+      "choix": [
+        "$1$ part",
+        "$2$ parts",
+        "$3$ parts",
+        "$4$ parts"
+      ],
+      "reponse": "$2$ parts",
+      "explication": "$\\dfrac{1}{4} = \\dfrac{1 \\times 2}{4 \\times 2} = \\dfrac{2}{8}$. Alice mange $2$ parts sur $8$."
+    },
+    {
+      "id": "fr6_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule et simplifie : $\\dfrac{7}{8} - \\dfrac{3}{8} + \\dfrac{2}{8} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{6}{8}$",
+        "$\\dfrac{3}{4}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{12}{8}$"
+      ],
+      "reponse": "$\\dfrac{3}{4}$",
+      "explication": "$\\dfrac{7-3+2}{8} = \\dfrac{6}{8} = \\dfrac{6 \\div 2}{8 \\div 2} = \\dfrac{3}{4}$."
+    },
+    {
+      "id": "fr6_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces inégalités est fausse ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{8} < \\dfrac{5}{8}$",
+        "$\\dfrac{5}{9} > \\dfrac{4}{9}$",
+        "$\\dfrac{7}{3} > 1$",
+        "$\\dfrac{4}{5} > \\dfrac{5}{4}$"
+      ],
+      "reponse": "$\\dfrac{4}{5} > \\dfrac{5}{4}$",
+      "explication": "$\\dfrac{4}{5} = 0{,}8$ et $\\dfrac{5}{4} = 1{,}25$. Donc $\\dfrac{4}{5} < \\dfrac{5}{4}$ : l'inégalité est fausse. Les trois autres sont vraies."
+    },
+    {
+      "id": "fr6_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux fractions différentes ont pour somme $1$ et l'une est le double de l'autre. Quelles sont ces fractions ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{2}$ et $\\dfrac{1}{2}$",
+        "$\\dfrac{1}{3}$ et $\\dfrac{2}{3}$",
+        "$\\dfrac{1}{4}$ et $\\dfrac{3}{4}$",
+        "$\\dfrac{2}{5}$ et $\\dfrac{3}{5}$"
+      ],
+      "reponse": "$\\dfrac{1}{3}$ et $\\dfrac{2}{3}$",
+      "explication": "Soit $x$ et $2x$. $x + 2x = 1 \\Rightarrow 3x = 1 \\Rightarrow x = \\dfrac{1}{3}$. Les fractions sont $\\dfrac{1}{3}$ et $\\dfrac{2}{3}$. Vérif : $\\dfrac{1}{3} + \\dfrac{2}{3} = 1$ ✓ et $\\dfrac{2}{3} = 2 \\times \\dfrac{1}{3}$ ✓."
+    },
+    {
+      "id": "fr6_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Complète : $\\dfrac{7}{9} = \\dfrac{?}{27}$. Quelle est la valeur du numérateur manquant ?",
+      "image": null,
+      "choix": [
+        "$7$",
+        "$14$",
+        "$21$",
+        "$27$"
+      ],
+      "reponse": "$21$",
+      "explication": "[Question générée] $\\dfrac{7}{9} = \\dfrac{7 \\times 3}{9 \\times 3} = \\dfrac{21}{27}$. ($9 \\times 3 = 27$.)"
+    },
+    {
+      "id": "fr6_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Quelle fraction est comprise entre $\\dfrac{3}{4}$ et $\\dfrac{7}{8}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{5}{6}$",
+        "$\\dfrac{7}{6}$",
+        "$\\dfrac{1}{4}$"
+      ],
+      "reponse": "$\\dfrac{5}{6}$",
+      "explication": "[Question générée] Dénominateur commun $24$ : $\\dfrac{3}{4} = \\dfrac{18}{24}$, $\\dfrac{5}{6} = \\dfrac{20}{24}$, $\\dfrac{7}{8} = \\dfrac{21}{24}$. On a $18 < 20 < 21$, donc $\\dfrac{3}{4} < \\dfrac{5}{6} < \\dfrac{7}{8}$."
+    },
+    {
+      "id": "fr6_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Simplifie la fraction $\\dfrac{84}{120}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{14}{20}$",
+        "$\\dfrac{7}{10}$",
+        "$\\dfrac{21}{30}$",
+        "$\\dfrac{42}{60}$"
+      ],
+      "reponse": "$\\dfrac{7}{10}$",
+      "explication": "[Question générée] $\\dfrac{84}{120} = \\dfrac{84 \\div 12}{120 \\div 12} = \\dfrac{7}{10}$. ($\\text{pgcd}(84, 120) = 12$.)"
+    },
+    {
+      "id": "fr6_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Calcule et simplifie : $\\dfrac{11}{15} + \\dfrac{4}{15} - \\dfrac{6}{15} =$",
+      "image": null,
+      "choix": [
+        "$\\dfrac{9}{15}$",
+        "$\\dfrac{3}{5}$",
+        "$\\dfrac{1}{3}$",
+        "$\\dfrac{9}{45}$"
+      ],
+      "reponse": "$\\dfrac{3}{5}$",
+      "explication": "[Question générée] $\\dfrac{11+4-6}{15} = \\dfrac{9}{15} = \\dfrac{9 \\div 3}{15 \\div 3} = \\dfrac{3}{5}$."
+    },
+    {
+      "id": "fr6_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Trois fractions ont pour somme $1$ : $\\dfrac{1}{4}$, $\\dfrac{3}{8}$ et une troisième. Quelle est la troisième fraction ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{3}{8}$",
+        "$\\dfrac{5}{8}$",
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{3}{4}$"
+      ],
+      "reponse": "$\\dfrac{3}{8}$",
+      "explication": "[Question générée] $\\dfrac{1}{4} + \\dfrac{3}{8} = \\dfrac{2}{8} + \\dfrac{3}{8} = \\dfrac{5}{8}$. La troisième : $1 - \\dfrac{5}{8} = \\dfrac{3}{8}$."
+    },
+    {
+      "id": "fr6_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Laquelle est la fraction irréductible égale à $\\dfrac{48}{60}$ ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{24}{30}$",
+        "$\\dfrac{12}{15}$",
+        "$\\dfrac{4}{5}$",
+        "$\\dfrac{8}{10}$"
+      ],
+      "reponse": "$\\dfrac{4}{5}$",
+      "explication": "[Question générée] $\\dfrac{48}{60} = \\dfrac{48 \\div 12}{60 \\div 12} = \\dfrac{4}{5}$. $\\text{pgcd}(48, 60) = 12$. C'est la forme irréductible."
+    },
+    {
+      "id": "fr6_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Quelle est la valeur de $k$ si $\\dfrac{4}{7} = \\dfrac{k}{49}$ ?",
+      "image": null,
+      "choix": [
+        "$7$",
+        "$14$",
+        "$28$",
+        "$49$"
+      ],
+      "reponse": "$28$",
+      "explication": "[Question générée] $\\dfrac{4}{7} = \\dfrac{4 \\times 7}{7 \\times 7} = \\dfrac{28}{49}$. Donc $k = 28$."
+    },
+    {
+      "id": "fr6_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un pot contient $\\dfrac{5}{8}$ de litre de confiture. On utilise $\\dfrac{3}{8}$ de litre. Quelle fraction reste-t-il, et est-ce plus ou moins d'un quart de litre ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{2}{8} = \\dfrac{1}{4}$ litre, c'est exactement un quart",
+        "$\\dfrac{8}{8} = 1$ litre, c'est plus d'un quart",
+        "$\\dfrac{1}{8}$ litre, c'est moins d'un quart",
+        "$\\dfrac{3}{8}$ litre, c'est plus d'un quart"
+      ],
+      "reponse": "$\\dfrac{2}{8} = \\dfrac{1}{4}$ litre, c'est exactement un quart",
+      "explication": "[Question générée] $\\dfrac{5}{8} - \\dfrac{3}{8} = \\dfrac{2}{8} = \\dfrac{1}{4}$ litre. C'est exactement un quart de litre."
+    },
+    {
+      "id": "fr6_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Range dans l'ordre décroissant : $\\dfrac{2}{3}$, $\\dfrac{3}{5}$, $\\dfrac{7}{15}$, $\\dfrac{4}{5}$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{3}{5} > \\dfrac{7}{15}$",
+        "$\\dfrac{2}{3} > \\dfrac{4}{5} > \\dfrac{7}{15} > \\dfrac{3}{5}$",
+        "$\\dfrac{4}{5} > \\dfrac{3}{5} > \\dfrac{2}{3} > \\dfrac{7}{15}$",
+        "$\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{7}{15} > \\dfrac{3}{5}$"
+      ],
+      "reponse": "$\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{3}{5} > \\dfrac{7}{15}$",
+      "explication": "[Question générée] Dénominateur commun $15$ : $\\dfrac{2}{3} = \\dfrac{10}{15}$, $\\dfrac{3}{5} = \\dfrac{9}{15}$, $\\dfrac{7}{15}$, $\\dfrac{4}{5} = \\dfrac{12}{15}$. Ordre décroissant : $12 > 10 > 9 > 7$, soit $\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{3}{5} > \\dfrac{7}{15}$."
+    },
+    {
+      "id": "fr6_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Deux fractions ont pour somme $\\dfrac{11}{12}$ et leur différence est $\\dfrac{1}{12}$. Quelles sont ces deux fractions ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{5}{12}$ et $\\dfrac{6}{12}$",
+        "$\\dfrac{4}{12}$ et $\\dfrac{7}{12}$",
+        "$\\dfrac{3}{12}$ et $\\dfrac{8}{12}$",
+        "$\\dfrac{2}{12}$ et $\\dfrac{9}{12}$"
+      ],
+      "reponse": "$\\dfrac{5}{12}$ et $\\dfrac{6}{12}$",
+      "explication": "[Question générée] Soit $a + b = \\dfrac{11}{12}$ et $a - b = \\dfrac{1}{12}$ (en supposant $a > b$). En additionnant : $2a = \\dfrac{12}{12} = 1$, donc $a = \\dfrac{1}{2} = \\dfrac{6}{12}$. Puis $b = \\dfrac{11}{12} - \\dfrac{6}{12} = \\dfrac{5}{12}$. Vérif : $\\dfrac{6}{12} - \\dfrac{5}{12} = \\dfrac{1}{12}$ ✓."
+    }
+  ]
+}

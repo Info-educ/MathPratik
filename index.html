@@ -959,6 +959,298 @@
       color: var(--ac);
       font-size: 1.1rem;
     }
+
+    /* ═══════════════════════════════════════════════════
+       MODULE ENSEIGNANT — OVERLAY LOGIN
+    ═══════════════════════════════════════════════════ */
+    .teacher-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 200;
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      align-items: center; justify-content: center;
+      padding: 20px;
+    }
+    .teacher-overlay.open { display: flex; animation: fadeIn .2s ease; }
+    @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+
+    .teacher-login-card {
+      background: var(--raised);
+      border: 1px solid var(--bd-med);
+      border-radius: var(--r-xl);
+      padding: 32px 28px 28px;
+      width: 100%; max-width: 360px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+      animation: popIn .25s cubic-bezier(0.34,1.56,0.64,1);
+    }
+    @keyframes popIn { from{opacity:0;transform:scale(0.88)} to{opacity:1;transform:scale(1)} }
+
+    .tl-icon { font-size: 2.4rem; text-align: center; margin-bottom: 8px; }
+    .tl-title {
+      font-family: var(--font-serif); font-size: 1.4rem; font-style: italic;
+      text-align: center; margin-bottom: 4px; color: var(--tx);
+    }
+    .tl-sub { font-size: 0.82rem; color: var(--tx2); text-align: center; margin-bottom: 24px; }
+
+    .tl-pin-row {
+      display: flex; gap: 10px; justify-content: center; margin-bottom: 20px;
+    }
+    .tl-pin-digit {
+      width: 52px; height: 62px;
+      border: 2px solid var(--bd-med); border-radius: var(--r-sm);
+      background: var(--subtle);
+      font-size: 1.6rem; font-weight: 700; text-align: center;
+      color: var(--tx); font-family: var(--font-sans);
+      transition: border-color .15s;
+      cursor: default; user-select: none;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .tl-pin-digit.filled { border-color: var(--ac); background: var(--ac-bg); }
+    .tl-pin-digit.error  { border-color: var(--err); background: var(--err-bg); animation: shake .3s; }
+    @keyframes shake {
+      0%,100%{transform:translateX(0)} 25%{transform:translateX(-5px)} 75%{transform:translateX(5px)}
+    }
+
+    .tl-numpad {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+      margin-bottom: 16px;
+    }
+    .tl-key {
+      height: 52px; border: 1.5px solid var(--bd-med);
+      border-radius: var(--r-sm); background: var(--raised);
+      font-size: 1.1rem; font-weight: 600; color: var(--tx);
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: background .12s, transform .1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .tl-key:active { background: var(--hover); transform: scale(0.94); }
+    .tl-key.del { font-size: 1rem; color: var(--tx2); }
+    .tl-key.enter {
+      background: var(--tx); color: var(--bg);
+      grid-column: span 3; height: 48px;
+      border-color: var(--tx);
+    }
+    .tl-key.enter:active { opacity: 0.8; }
+
+    .tl-cancel-btn {
+      width: 100%; padding: 10px;
+      border: none; background: transparent; cursor: pointer;
+      font-size: 0.82rem; color: var(--tx3);
+      font-family: var(--font-sans);
+    }
+    .tl-error-msg {
+      text-align: center; font-size: 0.8rem; color: var(--err);
+      margin-top: -12px; margin-bottom: 10px; min-height: 18px;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       MODULE ENSEIGNANT — ÉCRAN PRINCIPAL
+    ═══════════════════════════════════════════════════ */
+    #screen-teacher { padding-bottom: calc(80px + var(--safe-bottom)); }
+
+    .teacher-banner {
+      background: linear-gradient(135deg, #1e1b4b 0%, #312e81 60%, #4338ca 100%);
+      padding: 24px 20px 20px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .teacher-banner-icon { font-size: 2rem; }
+    .teacher-banner-text h2 {
+      font-family: var(--font-serif); font-size: 1.25rem; font-style: italic;
+      color: #e0e7ff; margin-bottom: 2px;
+    }
+    .teacher-banner-text p { font-size: 0.78rem; color: #a5b4fc; }
+
+    .teacher-filters {
+      padding: 16px 20px 8px;
+      display: flex; gap: 8px; overflow-x: auto;
+      scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    }
+    .teacher-filters::-webkit-scrollbar { display: none; }
+    .tf-chip {
+      flex-shrink: 0; padding: 7px 16px;
+      border: 1.5px solid var(--bd-med); border-radius: 100px;
+      font-size: 0.78rem; font-weight: 600; color: var(--tx2);
+      background: var(--raised); cursor: pointer;
+      transition: all .15s; white-space: nowrap;
+    }
+    .tf-chip.active {
+      border-color: var(--ac); color: var(--ac); background: var(--ac-bg);
+    }
+
+    .teacher-notion-list {
+      padding: 8px 20px 16px;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .tn-card {
+      background: var(--raised); border: 1.5px solid var(--bd-med);
+      border-radius: var(--r-md); padding: 14px 16px;
+      display: flex; align-items: center; gap: 12px;
+      cursor: pointer; transition: border-color .15s, background .15s;
+      position: relative; overflow: hidden;
+    }
+    .tn-card::before {
+      content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+      width: 4px; background: var(--notion-color, var(--ac));
+      border-radius: var(--r-md) 0 0 var(--r-md);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .tn-card:hover { border-color: var(--notion-color, var(--ac)); background: var(--hover); }
+    }
+    .tn-card:active { transform: scale(0.99); }
+    .tn-icon { font-size: 1.4rem; flex-shrink: 0; }
+    .tn-info { flex: 1; min-width: 0; }
+    .tn-info .name { font-size: 0.9rem; font-weight: 600; color: var(--tx); }
+    .tn-info .meta { font-size: 0.72rem; color: var(--tx2); margin-top: 2px; }
+    .tn-arrow { color: var(--tx3); font-size: 0.9rem; }
+
+    /* ═══════════════════════════════════════════════════
+       MODULE ENSEIGNANT — LECTEUR DE QUESTIONS
+    ═══════════════════════════════════════════════════ */
+    #screen-teacher-reader { padding-bottom: calc(80px + var(--safe-bottom)); }
+
+    .reader-top-bar {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--nav-bg); backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--bd);
+      padding: calc(var(--safe-top) + 14px) 20px 14px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .reader-notion-title {
+      flex: 1; font-size: 0.88rem; font-weight: 600; color: var(--tx);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+
+    .reader-nav-bar {
+      position: sticky; bottom: calc(var(--safe-bottom) + 0px); z-index: 50;
+      background: var(--nav-bg); backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid var(--bd);
+      padding: 12px 20px calc(12px + var(--safe-bottom));
+      display: flex; align-items: center; gap: 12px;
+    }
+    .rnav-btn {
+      height: 44px; padding: 0 20px;
+      border: 1.5px solid var(--bd-med); border-radius: var(--r-sm);
+      background: var(--raised); color: var(--tx2);
+      font-family: var(--font-sans); font-size: 0.85rem; font-weight: 600;
+      cursor: pointer; transition: all .15s; flex-shrink: 0;
+    }
+    .rnav-btn:disabled { opacity: .35; cursor: default; }
+    .rnav-btn:not(:disabled):active { background: var(--hover); transform: scale(0.97); }
+    .rnav-progress {
+      flex: 1; text-align: center;
+      font-size: 0.78rem; color: var(--tx3); font-weight: 600;
+    }
+    .rnav-progress strong { color: var(--tx); font-size: 0.95rem; }
+
+    .reader-content { padding: 20px 20px 16px; }
+
+    .reader-q-header {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+    }
+    .reader-q-num {
+      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--tx3);
+    }
+    .reader-level-badge {
+      padding: 3px 10px; border-radius: 100px;
+      font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .reader-level-badge.niv1 { background: #ecfdf5; color: #059669; }
+    .reader-level-badge.niv2 { background: #eff6ff; color: #2563eb; }
+    .reader-level-badge.niv3 { background: #fef3c7; color: #b45309; }
+    @media (prefers-color-scheme: dark) {
+      .reader-level-badge.niv1 { background: #032018; color: #34d399; }
+      .reader-level-badge.niv2 { background: #0c1a3a; color: #60a5fa; }
+      .reader-level-badge.niv3 { background: #271a00; color: #fbbf24; }
+    }
+    .reader-calc-badge {
+      margin-left: auto; font-size: 0.7rem; color: var(--tx3);
+      background: var(--subtle); padding: 3px 8px; border-radius: 6px;
+    }
+
+    .reader-enonce {
+      font-size: 0.95rem; line-height: 1.6; color: var(--tx);
+      margin-bottom: 16px;
+    }
+    .reader-image {
+      width: 100%; max-width: 340px; border-radius: var(--r-sm);
+      border: 1px solid var(--bd); margin-bottom: 16px; display: block;
+    }
+    .reader-choices { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+    .reader-choice {
+      padding: 12px 14px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--raised);
+      font-size: 0.88rem; color: var(--tx); line-height: 1.4;
+      display: flex; gap: 10px; align-items: flex-start;
+    }
+    .reader-choice.is-answer {
+      border-color: #059669; background: #ecfdf5; color: #065f46;
+    }
+    @media (prefers-color-scheme: dark) {
+      .reader-choice.is-answer { background: #032018; color: #34d399; border-color: #065f46; }
+    }
+    .reader-choice-letter {
+      width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0;
+      background: var(--subtle); color: var(--tx3);
+      font-size: 0.7rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      border: 1.5px solid var(--bd-med);
+    }
+    .reader-choice.is-answer .reader-choice-letter {
+      background: #059669; color: #fff; border-color: #059669;
+    }
+    @media (prefers-color-scheme: dark) {
+      .reader-choice.is-answer .reader-choice-letter { background: #065f46; }
+    }
+    .reader-explication {
+      background: var(--ac-bg); border: 1.5px solid rgba(79,70,229,0.2);
+      border-radius: var(--r-sm); padding: 14px 16px;
+      font-size: 0.84rem; line-height: 1.55; color: var(--tx2);
+    }
+    .reader-explication strong {
+      display: block; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--ac); margin-bottom: 6px;
+    }
+    .reader-id-badge {
+      font-size: 0.68rem; color: var(--tx3); margin-top: 12px;
+      font-family: monospace;
+    }
+
+    .reader-jump-row {
+      display: flex; align-items: center; gap: 8px; margin-top: 8px;
+    }
+    .reader-jump-label { font-size: 0.78rem; color: var(--tx3); }
+    .reader-jump-input {
+      width: 60px; height: 34px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--subtle);
+      text-align: center; font-size: 0.88rem; font-weight: 600; color: var(--tx);
+      font-family: var(--font-sans);
+    }
+    .reader-jump-btn {
+      height: 34px; padding: 0 14px;
+      border: 1.5px solid var(--bd-med); border-radius: var(--r-sm);
+      background: var(--raised); color: var(--tx2);
+      font-family: var(--font-sans); font-size: 0.8rem; font-weight: 600;
+      cursor: pointer;
+    }
+    .reader-jump-btn:active { background: var(--hover); }
+
+    /* Level filter tabs in reader */
+    .reader-level-tabs {
+      display: flex; gap: 6px; padding: 0 20px 12px;
+    }
+    .rlt-tab {
+      flex: 1; padding: 8px 4px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--raised);
+      font-size: 0.75rem; font-weight: 700; color: var(--tx3);
+      cursor: pointer; text-align: center; transition: all .15s;
+    }
+    .rlt-tab.active { border-color: var(--ac); color: var(--ac); background: var(--ac-bg); }
+
   </style>
 
   <!-- KaTeX — rendu mathématique (angles, fractions, racines…) v0.16.9 — version fixée pour maintien 5 ans -->
@@ -988,7 +1280,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back" id="btn-back" onclick="goBack()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon" id="btn-teacher" onclick="openTeacherLogin()" title="Module enseignant" aria-label="Module enseignant" style="font-size:1.1rem;">👩‍🏫</button>
     </div>
 
     <div class="hero">
@@ -1139,6 +1431,94 @@
         <div class="res-det-title">Détail des réponses</div>
         <div id="result-list"></div>
       </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════ MODULE ENSEIGNANT — LOGIN ════ -->
+  <div id="teacher-login-overlay" class="teacher-overlay" onclick="teacherOverlayClose(event)">
+    <div class="teacher-login-card" onclick="event.stopPropagation()">
+      <div class="tl-icon">🔐</div>
+      <div class="tl-title">Module Enseignant</div>
+      <div class="tl-sub">Saisir le code d'accès</div>
+
+      <div class="tl-pin-row">
+        <div class="tl-pin-digit" id="pin-d0">·</div>
+        <div class="tl-pin-digit" id="pin-d1">·</div>
+        <div class="tl-pin-digit" id="pin-d2">·</div>
+        <div class="tl-pin-digit" id="pin-d3">·</div>
+      </div>
+
+      <div class="tl-error-msg" id="pin-error"></div>
+
+      <div class="tl-numpad">
+        <button class="tl-key" onclick="pinKey('1')">1</button>
+        <button class="tl-key" onclick="pinKey('2')">2</button>
+        <button class="tl-key" onclick="pinKey('3')">3</button>
+        <button class="tl-key" onclick="pinKey('4')">4</button>
+        <button class="tl-key" onclick="pinKey('5')">5</button>
+        <button class="tl-key" onclick="pinKey('6')">6</button>
+        <button class="tl-key" onclick="pinKey('7')">7</button>
+        <button class="tl-key" onclick="pinKey('8')">8</button>
+        <button class="tl-key" onclick="pinKey('9')">9</button>
+        <button class="tl-key del" onclick="pinKey('del')">⌫</button>
+        <button class="tl-key" onclick="pinKey('0')">0</button>
+        <button class="tl-key" onclick="pinKey('ok')">✓</button>
+      </div>
+
+      <button class="tl-cancel-btn" onclick="closeTeacherLogin()">Annuler</button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ MODULE ENSEIGNANT — ÉCRAN LISTE ════ -->
+  <div id="screen-teacher" class="screen">
+    <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
+      <button class="btn-icon btn-back visible" onclick="closeTeacherModule()" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
+      <div class="logo" style="color:#e0e7ff;">Module <em style="color:#818cf8;">Enseignant</em></div>
+      <div style="width:36px;"></div>
+    </div>
+
+    <div class="teacher-banner">
+      <div class="teacher-banner-icon">👩‍🏫</div>
+      <div class="teacher-banner-text">
+        <h2>Révision des questions</h2>
+        <p id="teacher-stats-line">Chargement…</p>
+      </div>
+    </div>
+
+    <div class="teacher-filters" id="teacher-filters">
+      <!-- JS : chips de niveau -->
+    </div>
+
+    <div class="teacher-notion-list" id="teacher-notion-list">
+      <!-- JS : cartes de notions -->
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ MODULE ENSEIGNANT — LECTEUR ════ -->
+  <div id="screen-teacher-reader" class="screen">
+    <div class="reader-top-bar">
+      <button class="btn-icon btn-back visible" onclick="showTeacherModule()" style="flex-shrink:0;">←</button>
+      <div class="reader-notion-title" id="reader-notion-title">—</div>
+    </div>
+
+    <div class="reader-level-tabs" id="reader-level-tabs">
+      <button class="rlt-tab active" data-lvl="all" onclick="readerSetLevel('all')">Toutes</button>
+      <button class="rlt-tab" data-lvl="1" onclick="readerSetLevel(1)">★ Niv.1</button>
+      <button class="rlt-tab" data-lvl="2" onclick="readerSetLevel(2)">★★ Niv.2</button>
+      <button class="rlt-tab" data-lvl="3" onclick="readerSetLevel(3)">★★★ Niv.3</button>
+    </div>
+
+    <div class="reader-content" id="reader-content">
+      <!-- JS : question courante -->
+    </div>
+
+    <div class="reader-nav-bar">
+      <button class="rnav-btn" id="rnav-prev" onclick="readerGo(-1)">← Préc.</button>
+      <div class="rnav-progress" id="rnav-progress">
+        <strong id="rnav-cur">1</strong> / <span id="rnav-total">90</span>
+      </div>
+      <button class="rnav-btn" id="rnav-next" onclick="readerGo(1)">Suiv. →</button>
     </div>
   </div>
 

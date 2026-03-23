@@ -2,1050 +2,1450 @@
   "niveau": "5eme",
   "thematique": {
     "id": "nombres_relatifs_5eme",
-    "label": "Nombres relatifs",
+    "label": "Nombres Relatifs",
     "icon": "±",
     "color": "#0c4a6e"
   },
   "questions": [
     {
-      "id": "rel5_n1_001",
+      "id": "nr5_n1_001",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Quel est le signe du nombre $(-8)$ ?",
-      "image": null,
-      "choix": ["$+$", "$-$", "Il n'a pas de signe", "$0$"],
-      "reponse": "$-$",
-      "explication": "Le signe d'un nombre relatif est le symbole qui le précède. $(-8)$ est précédé du signe $-$, donc son signe est $-$. C'est un nombre négatif."
-    },
-    {
-      "id": "rel5_n1_002",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle est la distance à zéro de $(+3{,}5)$ ?",
-      "image": null,
-      "choix": ["$-3{,}5$", "$0$", "$3{,}5$", "$+3{,}5$"],
-      "reponse": "$3{,}5$",
-      "explication": "La distance à zéro (ou valeur absolue) d'un nombre relatif est toujours un nombre positif. La distance à zéro de $(+3{,}5)$ est $3{,}5$. On écrit $|+3{,}5| = 3{,}5$."
-    },
-    {
-      "id": "rel5_n1_003",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Lequel de ces nombres est négatif ?",
-      "image": null,
-      "choix": ["$(+6)$", "$(-2)$", "$0$", "$(+0{,}5)$"],
-      "reponse": "$(-2)$",
-      "explication": "$(-2)$ est précédé du signe $-$, donc c'est un nombre négatif. $(+6)$ et $(+0{,}5)$ sont positifs. $0$ n'est ni positif ni négatif."
-    },
-    {
-      "id": "rel5_n1_004",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La distance à zéro de $(-9)$ est :",
-      "image": null,
-      "choix": ["$-9$", "$0$", "$9$", "$+9$"],
-      "reponse": "$9$",
-      "explication": "La distance à zéro est toujours un nombre positif. Pour $(-9)$, on enlève le signe négatif : la distance à zéro est $9$. On écrit $|-9| = 9$."
-    },
-    {
-      "id": "rel5_n1_005",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Le nombre $0$ est :",
-      "image": null,
-      "choix": ["Positif uniquement", "Négatif uniquement", "Ni positif, ni négatif", "Sans signe, donc inconnu"],
-      "reponse": "Ni positif, ni négatif",
-      "explication": "Par définition, $0$ est le seul nombre qui n'est ni positif, ni négatif. Sa distance à zéro est $0$. Il est l'origine de la droite graduée."
-    },
-    {
-      "id": "rel5_n1_006",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "D'après la droite graduée ci-dessous, quelle est l'abscisse du point A ?",
-      "image": "5eme/nombres_relatifs/d39445376e6f672feddd4f5e3f697ed938f63d76.png",
-      "choix": ["$-3$", "$0$", "$+3$", "$+5$"],
-      "reponse": "$+3$",
-      "explication": "Sur la droite graduée, le point A est situé à 3 unités à droite de 0, son abscisse est donc $+3$."
-    },
-    {
-      "id": "rel5_n1_007",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la droite graduée, quel point a pour abscisse $(-5)$ ?",
-      "image": "5eme/nombres_relatifs/d39445376e6f672feddd4f5e3f697ed938f63d76.png",
-      "choix": ["A", "C", "E", "O"],
-      "reponse": "E",
-      "explication": "Le point d'abscisse $(-5)$ se trouve à 5 unités à gauche de 0 sur la droite graduée. C'est le point E."
-    },
-    {
-      "id": "rel5_n1_008",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quel point se trouve entre C et A sur la droite graduée ?",
-      "image": "5eme/nombres_relatifs/d39445376e6f672feddd4f5e3f697ed938f63d76.png",
-      "choix": ["B", "E", "O", "C"],
-      "reponse": "O",
-      "explication": "L'origine O se trouve au milieu entre les nombres négatifs et positifs. Entre C (à gauche) et A (à droite), se trouve O dont l'abscisse est $0$."
-    },
-    {
-      "id": "rel5_n1_009",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Lequel est le plus grand nombre ?",
-      "image": null,
-      "choix": ["$(-8)$", "$(-3)$", "Les deux sont égaux", "Impossible à comparer"],
-      "reponse": "$(-3)$",
-      "explication": "Entre deux nombres négatifs, c'est celui dont la distance à zéro est la plus petite qui est le plus grand. $|-3| = 3 < |-8| = 8$, donc $(-3) > (-8)$."
-    },
-    {
-      "id": "rel5_n1_010",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Range dans l'ordre croissant : $(-4)$ ; $(+1)$ ; $(-7)$ ; $(+3)$ ; $0$",
+      "enonce_html": "Calcule $(+7) + (+3)$.",
       "image": null,
       "choix": [
-        "$(-7) < (-4) < 0 < (+1) < (+3)$",
-        "$(+3) < (+1) < 0 < (-4) < (-7)$",
-        "$0 < (-4) < (-7) < (+1) < (+3)$",
-        "$(-4) < (-7) < 0 < (+1) < (+3)$"
+        "$+10$",
+        "$-10$",
+        "$+4$",
+        "$-4$"
       ],
-      "reponse": "$(-7) < (-4) < 0 < (+1) < (+3)$",
-      "explication": "Pour ranger en ordre croissant : d'abord les négatifs (du plus éloigné de 0 au moins éloigné), puis 0, puis les positifs (du moins grand au plus grand). Donc : $(-7) < (-4) < 0 < (+1) < (+3)$."
+      "reponse": "$+10$",
+      "explication": "$(+7)+(+3) = +10$. Même signe positif : on additionne les valeurs absolues."
     },
     {
-      "id": "rel5_n1_011",
+      "id": "nr5_n1_002",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Est-il vrai que $(-0{,}5) > (-0{,}1)$ ?",
+      "enonce_html": "Calcule $(-8) + (-4)$.",
       "image": null,
-      "choix": ["Vrai", "Faux", "Dépend du contexte", "Impossible à déterminer"],
-      "reponse": "Faux",
-      "explication": "$(-0{,}5)$ et $(-0{,}1)$ sont tous deux négatifs. $|-0{,}5| = 0{,}5 > |-0{,}1| = 0{,}1$, donc $(-0{,}5) < (-0{,}1)$. L'affirmation est fausse."
-    },
-    {
-      "id": "rel5_n1_012",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quel est l'opposé de $(+5)$ ?",
-      "image": null,
-      "choix": ["$(+5)$", "$(-5)$", "$0$", "$\\dfrac{1}{5}$"],
-      "reponse": "$(-5)$",
-      "explication": "L'opposé d'un nombre relatif s'obtient en changeant son signe. L'opposé de $(+5)$ est $(-5)$. On a $(+5) + (-5) = 0$."
-    },
-    {
-      "id": "rel5_n1_013",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelles sont les coordonnées du point A dans le repère ci-dessous ?",
-      "image": "5eme/nombres_relatifs/7588bb094ee416bb3a91e7f21916a971c73390fd.png",
-      "choix": ["$(2 ; 3)$", "$(3 ; 2)$", "$(-3 ; 2)$", "$(3 ; -2)$"],
-      "reponse": "$(3 ; 2)$",
-      "explication": "Dans un repère, les coordonnées s'écrivent (abscisse ; ordonnée). Le point A est à 3 unités à droite de l'axe des ordonnées (abscisse $= +3$) et à 2 unités au-dessus de l'axe des abscisses (ordonnée $= +2$). Ses coordonnées sont $(3 ; 2)$."
-    },
-    {
-      "id": "rel5_n1_014",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le repère, quel point a pour coordonnées $(-2 ; 3)$ ?",
-      "image": "5eme/nombres_relatifs/7588bb094ee416bb3a91e7f21916a971c73390fd.png",
-      "choix": ["A", "B", "C", "D"],
-      "reponse": "B",
-      "explication": "Le point de coordonnées $(-2 ; 3)$ a une abscisse de $-2$ (à gauche de l'axe des ordonnées) et une ordonnée de $+3$ (au-dessus de l'axe des abscisses). C'est le point B."
-    },
-    {
-      "id": "rel5_n1_015",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un point est dans le 3ème quadrant (abscisse $-$ et ordonnée $-$). Lequel est-ce dans le repère ?",
-      "image": "5eme/nombres_relatifs/7588bb094ee416bb3a91e7f21916a971c73390fd.png",
-      "choix": ["A", "B", "C", "D"],
-      "reponse": "C",
-      "explication": "Le 3ème quadrant correspond aux points d'abscisse négative et d'ordonnée négative. Dans le repère, c'est le point C, situé en bas à gauche."
-    },
-    {
-      "id": "rel5_n1_016",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la droite des comparaisons, lequel de ces couples est bien ordonné dans l'ordre croissant ?",
-      "image": "5eme/nombres_relatifs/83301c21ee349b94e38fa322ee4daaead166f40c.png",
       "choix": [
-        "$(-3) > (+5)$",
-        "$(+2) < (+4)$",
-        "$(-5) > (-3)$",
-        "$0 < (-1)$"
+        "$-12$",
+        "$+12$",
+        "$-4$",
+        "$+4$"
       ],
-      "reponse": "$(+2) < (+4)$",
-      "explication": "Entre deux nombres positifs, le plus grand est celui dont la distance à zéro est la plus grande. Donc $(+2) < (+4)$ est correct. Les autres propositions sont fausses."
+      "reponse": "$-12$",
+      "explication": "$(-8)+(-4) = -12$. Même signe négatif : on additionne les valeurs absolues et on garde le signe négatif."
     },
     {
-      "id": "rel5_n1_017",
+      "id": "nr5_n1_003",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(+3) + (+5)$ ?",
+      "enonce_html": "Calcule $(-3) + (+7)$.",
       "image": null,
-      "choix": ["$-8$", "$+2$", "$-2$", "$+8$"],
-      "reponse": "$+8$",
-      "explication": "Pour additionner deux nombres de même signe, on additionne les distances à zéro et on garde le signe commun. $(+3) + (+5) = +(3+5) = +8$."
-    },
-    {
-      "id": "rel5_n1_018",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(-4) + (-6)$ ?",
-      "image": null,
-      "choix": ["$+10$", "$-10$", "$+2$", "$-2$"],
-      "reponse": "$-10$",
-      "explication": "Pour additionner deux nombres négatifs, on additionne leurs distances à zéro et on garde le signe $-$. $(-4) + (-6) = -(4+6) = -10$."
-    },
-    {
-      "id": "rel5_n1_019",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(+7) + (-3)$ ?",
-      "image": null,
-      "choix": ["$+10$", "$-10$", "$+4$", "$-4$"],
+      "choix": [
+        "$-10$",
+        "$+10$",
+        "$-4$",
+        "$+4$"
+      ],
       "reponse": "$+4$",
-      "explication": "Pour additionner deux nombres de signes contraires, on soustrait la plus petite distance à zéro de la plus grande, et on garde le signe du nombre dont la distance à zéro est la plus grande. $(+7) + (-3) = +(7-3) = +4$."
+      "explication": "$(-3)+(+7) = +4$. Signes différents : $7-3=4$, signe de celui qui a la plus grande valeur absolue : $+$."
     },
     {
-      "id": "rel5_n1_020",
+      "id": "nr5_n1_004",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(-5) + (+2)$ ?",
+      "enonce_html": "Calcule $(+2) + (-8)$.",
       "image": null,
-      "choix": ["$+7$", "$-7$", "$+3$", "$-3$"],
-      "reponse": "$-3$",
-      "explication": "$(-5) + (+2)$ : les deux nombres sont de signes contraires. $|-5| = 5 > |+2| = 2$, donc le résultat est négatif. $(-5) + (+2) = -(5-2) = -3$."
-    },
-    {
-      "id": "rel5_n1_021",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(+5) + (-5)$ ?",
-      "image": null,
-      "choix": ["$+10$", "$-10$", "$+5$", "$0$"],
-      "reponse": "$0$",
-      "explication": "$(+5)$ et $(-5)$ sont des opposés. La somme de deux opposés est toujours $0$. $(+5) + (-5) = 0$."
-    },
-    {
-      "id": "rel5_n1_022",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(-3) + (+8)$ ?",
-      "image": null,
-      "choix": ["$+11$", "$-11$", "$+5$", "$-5$"],
-      "reponse": "$+5$",
-      "explication": "$(-3) + (+8)$ : signes contraires, $|+8| = 8 > |-3| = 3$, le résultat est positif. $(-3) + (+8) = +(8-3) = +5$."
-    },
-    {
-      "id": "rel5_n1_023",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(+5) - (-3)$ ?",
-      "image": null,
-      "choix": ["$+2$", "$-8$", "$+8$", "$-2$"],
-      "reponse": "$+8$",
-      "explication": "Soustraire, c'est ajouter l'opposé. $(+5) - (-3) = (+5) + (+3) = +8$."
-    },
-    {
-      "id": "rel5_n1_024",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(-4) - (+6)$ ?",
-      "image": null,
-      "choix": ["$+10$", "$-10$", "$+2$", "$-2$"],
-      "reponse": "$-10$",
-      "explication": "$(-4) - (+6) = (-4) + (-6) = -(4+6) = -10$. Soustraire $+6$, c'est ajouter $-6$."
-    },
-    {
-      "id": "rel5_n1_025",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(+2) - (+9)$ ?",
-      "image": null,
-      "choix": ["$+11$", "$-11$", "$+7$", "$-7$"],
-      "reponse": "$-7$",
-      "explication": "$(+2) - (+9) = (+2) + (-9)$. Signes contraires, $|-9| > |+2|$, résultat négatif : $-(9-2) = -7$."
-    },
-    {
-      "id": "rel5_n1_026",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(-3) - (-5)$ ?",
-      "image": null,
-      "choix": ["$-8$", "$+8$", "$+2$", "$-2$"],
-      "reponse": "$+2$",
-      "explication": "$(-3) - (-5) = (-3) + (+5)$. Signes contraires, $|+5| > |-3|$, résultat positif : $+(5-3) = +2$."
-    },
-    {
-      "id": "rel5_n1_027",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Que vaut $(-7) - (-7)$ ?",
-      "image": null,
-      "choix": ["$-14$", "$+14$", "$0$", "$-7$"],
-      "reponse": "$0$",
-      "explication": "$(-7) - (-7) = (-7) + (+7) = 0$. On additionne deux opposés, la somme est $0$."
-    },
-    {
-      "id": "rel5_n1_028",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "L'écriture simplifiée de $(+4) + (-3) + (-1) + (+2)$ est :",
-      "image": null,
-      "choix": ["$+4 - 3 - 1 + 2$", "$4 + 3 + 1 + 2$", "$(+4) + (-3) + (-1) + (+2)$", "$4 + (-3)$"],
-      "reponse": "$+4 - 3 - 1 + 2$",
-      "explication": "Pour simplifier l'écriture d'une somme de nombres relatifs : on supprime les parenthèses et les signes $+$ devant les parenthèses. $(+4) + (-3) + (-1) + (+2)$ devient $+4 - 3 - 1 + 2$."
-    },
-    {
-      "id": "rel5_n1_029",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule : $8 - 3 + 5 - 7$",
-      "image": null,
-      "choix": ["$-3$", "$+3$", "$-7$", "$+7$"],
-      "reponse": "$+3$",
-      "explication": "$8 - 3 + 5 - 7 = (8 + 5) - (3 + 7) = 13 - 10 = 3$. On regroupe les termes positifs et les termes négatifs."
-    },
-    {
-      "id": "rel5_n1_030",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La valeur de $-2 + 5 - 8 + 1$ est :",
-      "image": null,
-      "choix": ["$-4$", "$+4$", "$-16$", "$+16$"],
-      "reponse": "$-4$",
-      "explication": "$-2 + 5 - 8 + 1$. Termes positifs : $5 + 1 = 6$. Termes négatifs : $2 + 8 = 10$. Résultat : $6 - 10 = -4$."
-    },
-    {
-      "id": "rel5_n2_001",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un sous-marin est à $-80$ m. Il monte de $35$ m. À quelle profondeur se trouve-t-il maintenant ?",
-      "image": null,
-      "choix": ["$-115$ m", "$-45$ m", "$+45$ m", "$+115$ m"],
-      "reponse": "$-45$ m",
-      "explication": "Le sous-marin part de $-80$ m et monte de $35$ m : $(-80) + (+35) = -45$ m. Signes contraires, $|-80| > |+35|$, résultat négatif : $-(80-35) = -45$ m."
-    },
-    {
-      "id": "rel5_n2_002",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Le solde d'un compte est de $-120$ €. On retire $30$ €. Quel est le nouveau solde ?",
-      "image": null,
-      "choix": ["$-90$ €", "$-150$ €", "$+150$ €", "$+90$ €"],
-      "reponse": "$-150$ €",
-      "explication": "Le solde passe de $-120$ € après un retrait de $30$ € : $(-120) + (-30) = -(120+30) = -150$ €. Deux nombres négatifs, on additionne les distances à zéro."
-    },
-    {
-      "id": "rel5_n2_003",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "L'écart entre $+8$ °C et $-2$ °C est de :",
-      "image": null,
-      "choix": ["$6$ °C", "$8$ °C", "$10$ °C", "$16$ °C"],
-      "reponse": "$10$ °C",
-      "explication": "L'écart se calcule par soustraction : $(+8) - (-2) = (+8) + (+2) = +10$ °C."
-    },
-    {
-      "id": "rel5_n2_004",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule l'expression $A = (+8) - (-3) + (-5)$ :",
-      "image": null,
-      "choix": ["$6$", "$0$", "$16$", "$-16$"],
-      "reponse": "$6$",
-      "explication": "$A = (+8) - (-3) + (-5) = (+8) + (+3) + (-5) = +11 + (-5) = +6$."
-    },
-    {
-      "id": "rel5_n2_005",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule $B = (-5) - (+4) + (+3)$ :",
-      "image": null,
-      "choix": ["$-6$", "$+6$", "$-12$", "$+12$"],
+      "choix": [
+        "$+6$",
+        "$-6$",
+        "$+10$",
+        "$-10$"
+      ],
       "reponse": "$-6$",
-      "explication": "$B = (-5) - (+4) + (+3) = (-5) + (-4) + (+3) = -9 + 3 = -6$."
+      "explication": "$(+2)+(-8) = -6$. Signes différents : $8-2=6$, signe de $-8$ (plus grande valeur absolue) : $-$."
     },
     {
-      "id": "rel5_n2_006",
-      "niveau": 2,
+      "id": "nr5_n1_005",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Calcule $C = (+1{,}5) - (+4)$ :",
+      "enonce_html": "Calcule $(+3) - (-8)$.",
       "image": null,
-      "choix": ["$+5{,}5$", "$-5{,}5$", "$-2{,}5$", "$+2{,}5$"],
-      "reponse": "$-2{,}5$",
-      "explication": "$C = (+1{,}5) - (+4) = (+1{,}5) + (-4) = -(4-1{,}5) = -2{,}5$."
-    },
-    {
-      "id": "rel5_n2_007",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Simplifie puis calcule : $M = (+6) + (-7) + (-3{,}5) + (+9{,}2)$",
-      "image": null,
-      "choix": ["$+4{,}7$", "$-4{,}7$", "$+5{,}3$", "$-5{,}3$"],
-      "reponse": "$+4{,}7$",
-      "explication": "$M = 6 - 7 - 3{,}5 + 9{,}2$. Termes positifs : $6 + 9{,}2 = 15{,}2$. Termes négatifs : $7 + 3{,}5 = 10{,}5$. $M = 15{,}2 - 10{,}5 = +4{,}7$."
-    },
-    {
-      "id": "rel5_n2_008",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Simplifie puis calcule : $N = (-2) + (+5) + (-8) + (+1)$",
-      "image": null,
-      "choix": ["$-4$", "$+4$", "$-6$", "$+16$"],
-      "reponse": "$-4$",
-      "explication": "$N = -2 + 5 - 8 + 1$. Positifs : $5 + 1 = 6$. Négatifs : $2 + 8 = 10$. $N = 6 - 10 = -4$."
-    },
-    {
-      "id": "rel5_n2_009",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Simplifie puis calcule : $P = (+4) + (-4) + (+3) + (-3)$",
-      "image": null,
-      "choix": ["$0$", "$14$", "$-14$", "$+4$"],
-      "reponse": "$0$",
-      "explication": "$P = (+4) + (-4) + (+3) + (-3) = 0 + 0 = 0$. Chaque paire de nombres opposés s'annule."
-    },
-    {
-      "id": "rel5_n2_010",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On relève des températures sur une semaine : lundi $+3$°C, mardi $-2$°C, mercredi $-4$°C, jeudi $+1$°C, vendredi $+5$°C. Quelle est la somme de ces températures ?",
-      "image": null,
-      "choix": ["$+3$ °C", "$-3$ °C", "$+15$ °C", "$-15$ °C"],
-      "reponse": "$+3$ °C",
-      "explication": "$3 - 2 - 4 + 1 + 5$. Positifs : $3 + 1 + 5 = 9$. Négatifs : $2 + 4 = 6$. Somme : $9 - 6 = +3$ °C."
-    },
-    {
-      "id": "rel5_n2_011",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La température minimale d'une ville est $-7$°C et la maximale est $+5$°C. Quel est l'écart entre ces deux températures ?",
-      "image": null,
-      "choix": ["$2$ °C", "$7$ °C", "$12$ °C", "$35$ °C"],
-      "reponse": "$12$ °C",
-      "explication": "L'écart = température max $-$ température min $= (+5) - (-7) = (+5) + (+7) = +12$ °C."
-    },
-    {
-      "id": "rel5_n2_012",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le repère ci-dessous, les points A$(+2 ; +5)$ et B$(-4 ; +5)$ ont-ils la même ordonnée ? Que peut-on en déduire ?",
-      "image": "5eme/nombres_relatifs/05827a223e2695c1a2bbd364c6ed0a5c770b85c7.png",
       "choix": [
-        "Non, leurs ordonnées sont différentes",
-        "Oui, ils sont sur une droite horizontale",
-        "Oui, ils sont sur une droite verticale",
-        "Oui, ils sont en symétrie par rapport à O"
+        "$-5$",
+        "$+5$",
+        "$-11$",
+        "$+11$"
       ],
-      "reponse": "Oui, ils sont sur une droite horizontale",
-      "explication": "A$(+2 ; +5)$ et B$(-4 ; +5)$ ont tous deux l'ordonnée $+5$. Deux points de même ordonnée sont sur une droite horizontale parallèle à l'axe des abscisses."
-    },
-    {
-      "id": "rel5_n2_013",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le repère, quelle est la distance entre A$(+2 ; +5)$ et B$(-4 ; +5)$ (en nombre de carreaux) ?",
-      "image": "5eme/nombres_relatifs/05827a223e2695c1a2bbd364c6ed0a5c770b85c7.png",
-      "choix": ["$2$", "$4$", "$6$", "$10$"],
-      "reponse": "$6$",
-      "explication": "A et B ont la même ordonnée, donc la distance est la différence des abscisses : $|+2 - (-4)| = |2 + 4| = 6$ carreaux."
-    },
-    {
-      "id": "rel5_n2_014",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelles sont les coordonnées du milieu M du segment $[AB]$ avec A$(+2 ; +5)$ et B$(-4 ; +5)$ ?",
-      "image": "5eme/nombres_relatifs/05827a223e2695c1a2bbd364c6ed0a5c770b85c7.png",
-      "choix": ["$(-1 ; +5)$", "$(+1 ; +5)$", "$(-1 ; 0)$", "$(0 ; +5)$"],
-      "reponse": "$(-1 ; +5)$",
-      "explication": "Le milieu M a pour abscisse $\\dfrac{(+2) + (-4)}{2} = \\dfrac{-2}{2} = -1$ et pour ordonnée $\\dfrac{5+5}{2} = 5$. Donc $M(-1 ; +5)$."
-    },
-    {
-      "id": "rel5_n2_015",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule : $I = (+8) - (-3)$",
-      "image": null,
-      "choix": ["$+5$", "$-5$", "$+11$", "$-11$"],
       "reponse": "$+11$",
-      "explication": "$I = (+8) - (-3) = (+8) + (+3) = +11$. Soustraire $(-3)$, c'est ajouter son opposé, $(+3)$."
+      "explication": "$(+3)-(-8) = (+3)+(+8) = +11$. Soustraire un nombre négatif revient à ajouter son opposé."
     },
     {
-      "id": "rel5_n2_016",
-      "niveau": 2,
+      "id": "nr5_n1_006",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Calcule : $J = (-5) - (+4)$",
+      "enonce_html": "Calcule $(-4) - (+6)$.",
       "image": null,
-      "choix": ["$-1$", "$+1$", "$-9$", "$+9$"],
-      "reponse": "$-9$",
-      "explication": "$J = (-5) - (+4) = (-5) + (-4) = -(5+4) = -9$."
+      "choix": [
+        "$+2$",
+        "$-2$",
+        "$+10$",
+        "$-10$"
+      ],
+      "reponse": "$-10$",
+      "explication": "$(-4)-(+6) = (-4)+(-6) = -10$. Soustraire un nombre positif revient à ajouter son opposé négatif."
     },
     {
-      "id": "rel5_n2_017",
-      "niveau": 2,
+      "id": "nr5_n1_007",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Calcule : $L = (-6) - (-6)$",
+      "enonce_html": "Calcule $(-5) + (+3)$.",
       "image": null,
-      "choix": ["$-12$", "$+12$", "$0$", "$-6$"],
-      "reponse": "$0$",
-      "explication": "$L = (-6) - (-6) = (-6) + (+6) = 0$. On additionne deux opposés."
-    },
-    {
-      "id": "rel5_n2_018",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un plongeur descend de $-15$ m à $-42$ m. De combien de mètres a-t-il descendu ?",
-      "image": null,
-      "choix": ["$27$ m", "$-27$ m", "$57$ m", "$-57$ m"],
-      "reponse": "$27$ m",
-      "explication": "Distance parcourue $= (-42) - (-15) = (-42) + (+15) = -(42-15) = -27$ m. La valeur absolue est $27$ m. Il a descendu de $27$ m."
-    },
-    {
-      "id": "rel5_n2_019",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Si $x = -6$ et $y = +4$, quelle est la valeur de $x + y$ ?",
-      "image": null,
-      "choix": ["$-10$", "$+10$", "$-2$", "$+2$"],
+      "choix": [
+        "$-8$",
+        "$+8$",
+        "$-2$",
+        "$+2$"
+      ],
       "reponse": "$-2$",
-      "explication": "$x + y = (-6) + (+4) = -(6-4) = -2$. Signes contraires, on prend la valeur absolue de la différence avec le signe du nombre ayant la plus grande distance à zéro."
+      "explication": "$(-5)+(+3) = -2$. Signes différents : $5-3=2$, signe de $-5$ (plus grande valeur absolue) : $-$."
     },
     {
-      "id": "rel5_n2_020",
-      "niveau": 2,
+      "id": "nr5_n1_008",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Si $x = -6$ et $y = +4$, quelle est la valeur de $x + y - x$ ?",
-      "image": null,
-      "choix": ["$-6$", "$0$", "$+4$", "$-2$"],
-      "reponse": "$+4$",
-      "explication": "$x + y - x = y = +4$. En effet $x - x = 0$, donc l'expression se réduit à $y = +4$."
-    },
-    {
-      "id": "rel5_n2_021",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un thermomètre indique $-12$°C le matin et $+3$°C l'après-midi. Quelle est la variation de température ?",
-      "image": null,
-      "choix": ["$-15$ °C", "$+15$ °C", "$-9$ °C", "$+9$ °C"],
-      "reponse": "$+15$ °C",
-      "explication": "Variation $= (+3) - (-12) = (+3) + (+12) = +15$ °C. La température a augmenté de $15$ °C."
-    },
-    {
-      "id": "rel5_n2_022",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Parmi ces affirmations, laquelle est vraie ?",
+      "enonce_html": "Calcule $(+9) - (-1)$.",
       "image": null,
       "choix": [
-        "La somme de deux nombres positifs peut être négative",
-        "La somme de deux nombres négatifs est toujours négative",
-        "La somme de deux nombres de signes contraires est toujours positive",
-        "La soustraction donne toujours un résultat négatif"
+        "$+8$",
+        "$-8$",
+        "$+10$",
+        "$-10$"
       ],
-      "reponse": "La somme de deux nombres négatifs est toujours négative",
-      "explication": "Deux nombres négatifs ont chacun le signe $-$. Leur somme a également le signe $-$ : elle est négative. Les autres affirmations sont fausses."
+      "reponse": "$+10$",
+      "explication": "$(+9)-(-1) = (+9)+(+1) = +10$."
     },
     {
-      "id": "rel5_n2_023",
-      "niveau": 2,
+      "id": "nr5_n1_009",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Dans le repère, le point M a pour abscisse $-2$ et pour ordonnée $+3$. Son symétrique par rapport à l'origine O a pour coordonnées :",
-      "image": null,
-      "choix": ["$(-2 ; -3)$", "$(+2 ; -3)$", "$(-2 ; +3)$", "$(+2 ; +3)$"],
-      "reponse": "$(+2 ; -3)$",
-      "explication": "Le symétrique d'un point par rapport à l'origine O s'obtient en changeant les signes des deux coordonnées. Le symétrique de $M(-2 ; +3)$ est le point $M'(+2 ; -3)$."
-    },
-    {
-      "id": "rel5_n2_024",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Lequel de ces enchaînements est correct ?",
+      "enonce_html": "Calcule $(-6) - (-4)$.",
       "image": null,
       "choix": [
-        "$5 - (-3) = 5 - 3 = 2$",
-        "$5 - (-3) = 5 + 3 = 8$",
-        "$5 - (-3) = -5 + 3 = -2$",
-        "$5 - (-3) = -5 - 3 = -8$"
+        "$-10$",
+        "$+10$",
+        "$-2$",
+        "$+2$"
       ],
-      "reponse": "$5 - (-3) = 5 + 3 = 8$",
-      "explication": "Soustraire un nombre négatif, c'est ajouter son opposé. $5 - (-3) = 5 + (+3) = 8$. On transforme la soustraction de $(-3)$ en addition de $(+3)$."
-    },
-    {
-      "id": "rel5_n2_025",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Si $a = -5$, quelle est la valeur de $-a$ ?",
-      "image": null,
-      "choix": ["$-5$", "$0$", "$+5$", "$+10$"],
-      "reponse": "$+5$",
-      "explication": "$-a$ signifie l'opposé de $a$. Si $a = -5$, alors $-a = -(-5) = +5$. L'opposé d'un nombre négatif est positif."
-    },
-    {
-      "id": "rel5_n2_026",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quel est le plus grand des nombres suivants ? $(-1{,}9)$ ; $(+1{,}1)$ ; $(-2)$ ; $(+0{,}5)$",
-      "image": null,
-      "choix": ["$(-1{,}9)$", "$(-2)$", "$(+0{,}5)$", "$(+1{,}1)$"],
-      "reponse": "$(+1{,}1)$",
-      "explication": "Les nombres positifs sont tous supérieurs aux nombres négatifs. Parmi les positifs, $(+1{,}1) > (+0{,}5)$. Donc $(+1{,}1)$ est le plus grand."
-    },
-    {
-      "id": "rel5_n2_027",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Une falaise mesure $+120$ m et une grotte sous-marine est à $-78$ m. Quelle est la distance entre le sommet de la falaise et le fond de la grotte ?",
-      "image": null,
-      "choix": ["$42$ m", "$78$ m", "$120$ m", "$198$ m"],
-      "reponse": "$198$ m",
-      "explication": "Distance $= (+120) - (-78) = (+120) + (+78) = +198$ m."
-    },
-    {
-      "id": "rel5_n2_028",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Alice commence le mois avec $-80$ €. Elle reçoit $+1\\ 200$ €. Quel est son solde après ce versement ?",
-      "image": null,
-      "choix": ["$-1\\ 280$ €", "$+1\\ 120$ €", "$+1\\ 280$ €", "$-1\\ 120$ €"],
-      "reponse": "$+1\\ 120$ €",
-      "explication": "$(-80) + (+1\\ 200) = +(1\\ 200 - 80) = +1\\ 120$ €."
-    },
-    {
-      "id": "rel5_n2_029",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Alice ($-80$ €) reçoit $+1\\ 200$ €, paye $-650$ € de loyer et $-95$ € de courses. Quel est son solde ?",
-      "image": null,
-      "choix": ["$+375$ €", "$+475$ €", "$-375$ €", "$+1\\ 825$ €"],
-      "reponse": "$+375$ €",
-      "explication": "$-80 + 1\\ 200 - 650 - 95 = 1\\ 200 - (80 + 650 + 95) = 1\\ 200 - 825 = +375$ €."
-    },
-    {
-      "id": "rel5_n2_030",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un personnage sur une droite graduée part de $0$, avance de $+5$, recule de $8$, avance de $+3$, recule de $2$, avance de $+6$. Quelle est sa position finale ?",
-      "image": "5eme/nombres_relatifs/68ab72042b084395434d984a1b5837000c385eb2.png",
-      "choix": ["$+4$", "$-4$", "$+2$", "$-2$"],
-      "reponse": "$+4$",
-      "explication": "$0 + 5 - 8 + 3 - 2 + 6$. Positifs : $5 + 3 + 6 = 14$. Négatifs : $8 + 2 = 10$. Position : $14 - 10 = +4$."
-    },
-    {
-      "id": "rel5_n3_001",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule : $(-3{,}5) + (+2) - (-1{,}5) - (+4)$",
-      "image": null,
-      "choix": ["$-4$", "$+4$", "$-2$", "$+2$"],
-      "reponse": "$-4$",
-      "explication": "$(-3{,}5) + (+2) - (-1{,}5) - (+4) = -3{,}5 + 2 + 1{,}5 - 4$. Positifs : $2 + 1{,}5 = 3{,}5$. Négatifs : $3{,}5 + 4 = 7{,}5$. Résultat : $3{,}5 - 7{,}5 = -4$."
-    },
-    {
-      "id": "rel5_n3_002",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quel est l'entier relatif $n$ tel que $n - (-3) = +1$ ?",
-      "image": null,
-      "choix": ["$+4$", "$-2$", "$+2$", "$-4$"],
       "reponse": "$-2$",
-      "explication": "$n - (-3) = +1 \\Leftrightarrow n + 3 = 1 \\Leftrightarrow n = 1 - 3 = -2$. Vérification : $(-2) - (-3) = (-2) + (+3) = +1$ ✓."
+      "explication": "$(-6)-(-4) = (-6)+(+4) = -2$."
     },
     {
-      "id": "rel5_n3_003",
-      "niveau": 3,
+      "id": "nr5_n1_010",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Calcule : $Q = (+5) + (-3) - (+7) + (-2) - (-4)$",
-      "image": null,
-      "choix": ["$-3$", "$+3$", "$-1$", "$+1$"],
-      "reponse": "$-3$",
-      "explication": "$Q = 5 - 3 - 7 - 2 + 4$. Positifs : $5 + 4 = 9$. Négatifs : $3 + 7 + 2 = 12$. $Q = 9 - 12 = -3$."
-    },
-    {
-      "id": "rel5_n3_004",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule : $R = (-8) - (-3) + (+2) - (+6) + (+1)$",
-      "image": null,
-      "choix": ["$-8$", "$+8$", "$-4$", "$+4$"],
-      "reponse": "$-8$",
-      "explication": "$R = -8 + 3 + 2 - 6 + 1$. Positifs : $3 + 2 + 1 = 6$. Négatifs : $8 + 6 = 14$. $R = 6 - 14 = -8$."
-    },
-    {
-      "id": "rel5_n3_005",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule : $S = -4 + 7 - (-3) - 5 + (-1)$",
-      "image": null,
-      "choix": ["$0$", "$+2$", "$-2$", "$+4$"],
-      "reponse": "$0$",
-      "explication": "$S = -4 + 7 + 3 - 5 - 1$. Positifs : $7 + 3 = 10$. Négatifs : $4 + 5 + 1 = 10$. $S = 10 - 10 = 0$."
-    },
-    {
-      "id": "rel5_n3_006",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Trouve l'entier relatif $n$ tel que $n + (-3) = +5$ :",
-      "image": null,
-      "choix": ["$n = +2$", "$n = -2$", "$n = +8$", "$n = -8$"],
-      "reponse": "$n = +8$",
-      "explication": "$n + (-3) = +5 \\Leftrightarrow n - 3 = 5 \\Leftrightarrow n = 5 + 3 = +8$. Vérification : $(+8) + (-3) = +5$ ✓."
-    },
-    {
-      "id": "rel5_n3_007",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Trouve l'entier relatif $n$ tel que $n - (+7) = -2$ :",
-      "image": null,
-      "choix": ["$n = -9$", "$n = +9$", "$n = +5$", "$n = -5$"],
-      "reponse": "$n = +5$",
-      "explication": "$n - (+7) = -2 \\Leftrightarrow n - 7 = -2 \\Leftrightarrow n = -2 + 7 = +5$. Vérification : $(+5) - (+7) = -2$ ✓."
-    },
-    {
-      "id": "rel5_n3_008",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Trouve l'entier relatif $n$ tel que $(+4) + n = -1$ :",
-      "image": null,
-      "choix": ["$n = +5$", "$n = -5$", "$n = +3$", "$n = -3$"],
-      "reponse": "$n = -5$",
-      "explication": "$(+4) + n = -1 \\Leftrightarrow n = -1 - 4 = -5$. Vérification : $(+4) + (-5) = -1$ ✓."
-    },
-    {
-      "id": "rel5_n3_009",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Vrai ou faux : l'opposé de $(a - b)$ est $(b - a)$ ?",
+      "enonce_html": "Calcule $6 - 7 - 3{,}5 + 9{,}2$.",
       "image": null,
       "choix": [
-        "Vrai, car $-(a-b) = b-a$",
-        "Faux, l'opposé de $(a-b)$ est $(-a-b)$",
-        "Faux, l'opposé de $(a-b)$ est $(a+b)$",
-        "Impossible à déterminer sans connaître $a$ et $b$"
+        "$4{,}7$",
+        "$-4{,}7$",
+        "$25{,}7$",
+        "$-0{,}7$"
       ],
-      "reponse": "Vrai, car $-(a-b) = b-a$",
-      "explication": "$-(a-b) = -a + b = b - a$. Donc l'opposé de $(a-b)$ est bien $(b-a)$. Exemple : l'opposé de $(3-5) = -2$ est $(5-3) = 2$. ✓"
+      "reponse": "$4{,}7$",
+      "explication": "Positifs : $6 + 9{,}2 = 15{,}2$. Négatifs : $7 + 3{,}5 = 10{,}5$. Résultat : $15{,}2 - 10{,}5 = 4{,}7$."
     },
     {
-      "id": "rel5_n3_010",
-      "niveau": 3,
+      "id": "nr5_n1_011",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Calcule : $-10 + 3 - (-2) + 5$",
-      "image": null,
-      "choix": ["$0$", "$-20$", "$+20$", "$-4$"],
-      "reponse": "$0$",
-      "explication": "$-10 + 3 + 2 + 5$. Positifs : $3 + 2 + 5 = 10$. Négatifs : $10$. Résultat : $10 - 10 = 0$."
-    },
-    {
-      "id": "rel5_n3_011",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calcule : $(-7) - (-4) + (+3)$",
-      "image": null,
-      "choix": ["$-8$", "$+8$", "$0$", "$-14$"],
-      "reponse": "$0$",
-      "explication": "$(-7) - (-4) + (+3) = -7 + 4 + 3$. Positifs : $4 + 3 = 7$. Négatifs : $7$. Résultat : $7 - 7 = 0$."
-    },
-    {
-      "id": "rel5_n3_012",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Voici les températures de 5 villes en janvier : Oslo $-12$°C, Paris $+3$°C, Madrid $+8$°C, Moscou $-24$°C, Tunis $+15$°C. Quel est l'écart entre Oslo et Moscou ?",
-      "image": null,
-      "choix": ["$-12$ °C", "$+12$ °C", "$-36$ °C", "$+36$ °C"],
-      "reponse": "$+12$ °C",
-      "explication": "Écart entre Oslo et Moscou $= (-12) - (-24) = (-12) + (+24) = +12$ °C. Oslo est plus chaud que Moscou de $12$ °C."
-    },
-    {
-      "id": "rel5_n3_013",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le repère, A$(+3 ; -2)$ est symétrique de quel point par rapport à l'axe des ordonnées ?",
-      "image": "5eme/nombres_relatifs/42543a55df186a7659065c6ae3243b9ece1ab496.png",
-      "choix": ["$(-3 ; +2)$", "$(-3 ; -2)$", "$(+3 ; +2)$", "$(0 ; -2)$"],
-      "reponse": "$(-3 ; -2)$",
-      "explication": "La symétrie par rapport à l'axe des ordonnées change le signe de l'abscisse et conserve l'ordonnée. Le symétrique de $(+3 ; -2)$ est $(-3 ; -2)$."
-    },
-    {
-      "id": "rel5_n3_014",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le repère, B$(-1 ; +4)$ est symétrique de quel point par rapport à l'origine O ?",
-      "image": "5eme/nombres_relatifs/42543a55df186a7659065c6ae3243b9ece1ab496.png",
-      "choix": ["$(-1 ; -4)$", "$(+1 ; -4)$", "$(+1 ; +4)$", "$(-1 ; +4)$"],
-      "reponse": "$(+1 ; -4)$",
-      "explication": "La symétrie par rapport à O change les signes des deux coordonnées. Le symétrique de $B(-1 ; +4)$ par rapport à O est le point $(+1 ; -4)$."
-    },
-    {
-      "id": "rel5_n3_015",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Parmi ces affirmations, laquelle est VRAIE ?",
+      "enonce_html": "Calcule $(-2) \\times (-5)$.",
       "image": null,
       "choix": [
-        "La somme de deux nombres négatifs peut être positive",
-        "La soustraction de deux nombres négatifs est toujours positive",
-        "Si $a > b$, alors $-a < -b$",
-        "La distance à zéro d'une somme est toujours égale à la somme des distances à zéro"
+        "$-10$",
+        "$+10$",
+        "$-3$",
+        "$+3$"
       ],
-      "reponse": "Si $a > b$, alors $-a < -b$",
-      "explication": "Si $a > b$, en multipliant par $-1$ (ce qui inverse l'inégalité), on obtient $-a < -b$. Par exemple : $5 > 3$ donc $-5 < -3$. Les autres propositions sont fausses."
+      "reponse": "$+10$",
+      "explication": "$(-2) \\times (-5) = +10$. Le produit de deux négatifs est positif."
     },
     {
-      "id": "rel5_n3_016",
-      "niveau": 3,
+      "id": "nr5_n1_012",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Alice a un solde de $-80$ €. Elle reçoit $+1200$ €, paye $-650$ €, $-95$ €, $-30$ €, et reçoit $+45$ €. Quel est son solde final ?",
-      "image": null,
-      "choix": ["$+390$ €", "$-390$ €", "$+275$ €", "$+190$ €"],
-      "reponse": "$+390$ €",
-      "explication": "$-80 + 1200 - 650 - 95 - 30 + 45$. Positifs : $1200 + 45 = 1245$. Négatifs : $80 + 650 + 95 + 30 = 855$. $1245 - 855 = +390$ €."
-    },
-    {
-      "id": "rel5_n3_017",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un oiseau se pose à mi-hauteur d'une falaise de $+120$ m. Quelle est son altitude ?",
-      "image": null,
-      "choix": ["$+30$ m", "$+60$ m", "$+90$ m", "$+240$ m"],
-      "reponse": "$+60$ m",
-      "explication": "La mi-hauteur de la falaise de $+120$ m est à $\\dfrac{+120}{2} = +60$ m au-dessus du niveau de la mer."
-    },
-    {
-      "id": "rel5_n3_018",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un plongeur part du niveau $0$ et descend de $45$ m. Puis il remonte de $18$ m. À quelle altitude se trouve-t-il ?",
-      "image": null,
-      "choix": ["$-63$ m", "$-27$ m", "$+27$ m", "$-45$ m"],
-      "reponse": "$-27$ m",
-      "explication": "$0 - 45 + 18 = -27$ m. Le plongeur se trouve à $27$ m sous la surface."
-    },
-    {
-      "id": "rel5_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Parmi ces températures de 5 villes : Oslo $-12$°C, Paris $+3$°C, Madrid $+8$°C, Moscou $-24$°C, Tunis $+15$°C. Quel est l'écart entre la ville la plus chaude et la plus froide ?",
-      "image": null,
-      "choix": ["$+27$ °C", "$+39$ °C", "$-39$ °C", "$+12$ °C"],
-      "reponse": "$+39$ °C",
-      "explication": "La plus chaude est Tunis ($+15$°C) et la plus froide est Moscou ($-24$°C). Écart $= (+15) - (-24) = (+15) + (+24) = +39$ °C."
-    },
-    {
-      "id": "rel5_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle est la valeur de $n$ telle que $n - (-6) = 0$ ?",
-      "image": null,
-      "choix": ["$n = +6$", "$n = -6$", "$n = 0$", "$n = +12$"],
-      "reponse": "$n = -6$",
-      "explication": "$n - (-6) = 0 \\Leftrightarrow n + 6 = 0 \\Leftrightarrow n = -6$. Vérification : $(-6) - (-6) = (-6) + (+6) = 0$ ✓. [Question générée]"
-    },
-    {
-      "id": "rel5_n3_021",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On calcule $(-3{,}5) + (+2{,}5) - (-1) + (-4)$. Quel est le résultat ?",
-      "image": null,
-      "choix": ["$-4$", "$+4$", "$-10$", "$0$"],
-      "reponse": "$-4$",
-      "explication": "$-3{,}5 + 2{,}5 + 1 - 4$. Positifs : $2{,}5 + 1 = 3{,}5$. Négatifs : $3{,}5 + 4 = 7{,}5$. Résultat : $3{,}5 - 7{,}5 = -4$. [Question générée]"
-    },
-    {
-      "id": "rel5_n3_022",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un jeu, un joueur marque $+12$ points, en perd $-8$, en gagne $+5$, en perd $-15$ et en gagne $+3$. Quel est son score final ?",
-      "image": null,
-      "choix": ["$-3$", "$+3$", "$+43$", "$-43$"],
-      "reponse": "$-3$",
-      "explication": "$12 - 8 + 5 - 15 + 3$. Positifs : $12 + 5 + 3 = 20$. Négatifs : $8 + 15 = 23$. Score : $20 - 23 = -3$. [Question générée]"
-    },
-    {
-      "id": "rel5_n3_023",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Parmi ces quatre enchaînements, lequel est FAUX ?",
+      "enonce_html": "Calcule $(-3) \\times (+4)$.",
       "image": null,
       "choix": [
-        "$(-4) - (-4) = 0$",
-        "$(+3) - (+3) = 0$",
-        "$(-5) + (+5) = 0$",
-        "$(+6) - (+6) = +12$"
+        "$+12$",
+        "$-12$",
+        "$+1$",
+        "$-1$"
       ],
-      "reponse": "$(+6) - (+6) = +12$",
-      "explication": "$(+6) - (+6) = (+6) + (-6) = 0$, pas $+12$. Les trois autres propositions sont correctes car chaque opération donne 0 (opposés ou nombres identiques soustraits). [Question générée]"
+      "reponse": "$-12$",
+      "explication": "$(-3) \\times (+4) = -12$. Signes différents : résultat négatif."
     },
     {
-      "id": "rel5_n3_024",
-      "niveau": 3,
+      "id": "nr5_n1_013",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Un compte bancaire commence à $+250$ €. Après 5 opérations ($-80$, $+120$, $-200$, $-50$, $+30$), quel est le solde final ?",
+      "enonce_html": "Calcule $(+6) \\times (-7)$.",
       "image": null,
-      "choix": ["$+70$ €", "$-70$ €", "$+730$ €", "$+270$ €"],
-      "reponse": "$+70$ €",
-      "explication": "$250 - 80 + 120 - 200 - 50 + 30$. Positifs : $250 + 120 + 30 = 400$. Négatifs : $80 + 200 + 50 = 330$. Solde : $400 - 330 = +70$ €. [Question générée]"
+      "choix": [
+        "$+42$",
+        "$-42$",
+        "$-1$",
+        "$+13$"
+      ],
+      "reponse": "$-42$",
+      "explication": "$(+6) \\times (-7) = -42$. Signes différents : résultat négatif."
     },
     {
-      "id": "rel5_n3_025",
-      "niveau": 3,
+      "id": "nr5_n1_014",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Dans un repère, C$(-3 ; -3)$ est symétrique de quel point par rapport à l'axe des abscisses ?",
+      "enonce_html": "Calcule $(-8) \\times (-2)$.",
       "image": null,
-      "choix": ["$(+3 ; +3)$", "$(-3 ; +3)$", "$(+3 ; -3)$", "$(0 ; -3)$"],
-      "reponse": "$(-3 ; +3)$",
-      "explication": "La symétrie par rapport à l'axe des abscisses change le signe de l'ordonnée et conserve l'abscisse. Le symétrique de $C(-3 ; -3)$ est $(-3 ; +3)$. [Question générée]"
+      "choix": [
+        "$-16$",
+        "$+16$",
+        "$-10$",
+        "$+10$"
+      ],
+      "reponse": "$+16$",
+      "explication": "$(-8) \\times (-2) = +16$. Le produit de deux négatifs est positif."
     },
     {
-      "id": "rel5_n3_026",
-      "niveau": 3,
+      "id": "nr5_n1_015",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Quelle est la valeur de $(-3) + (-4) - (-5) + (-1) - (+2)$ ?",
+      "enonce_html": "Calcule $(-15) \\div (+3)$.",
       "image": null,
-      "choix": ["$-5$", "$+5$", "$-15$", "$-7$"],
+      "choix": [
+        "$+5$",
+        "$-5$",
+        "$+18$",
+        "$-12$"
+      ],
       "reponse": "$-5$",
-      "explication": "$-3 - 4 + 5 - 1 - 2$. Positifs : $5$. Négatifs : $3 + 4 + 1 + 2 = 10$. Résultat : $5 - 10 = -5$. [Question générée]"
+      "explication": "$(-15) \\div (+3) = -5$. Signes différents : résultat négatif."
     },
     {
-      "id": "rel5_n3_027",
-      "niveau": 3,
+      "id": "nr5_n1_016",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Parmi ces affirmations sur les nombres relatifs, laquelle est VRAIE pour tous les entiers relatifs $a$ et $b$ ?",
+      "enonce_html": "Calcule $(+24) \\div (-4)$.",
       "image": null,
       "choix": [
-        "$a - b = b - a$",
-        "$a + b = b + a$",
-        "$a - b > 0$ toujours",
-        "$|a + b| = |a| + |b|$ toujours"
+        "$+6$",
+        "$-6$",
+        "$+28$",
+        "$-20$"
       ],
-      "reponse": "$a + b = b + a$",
-      "explication": "L'addition est commutative : $a + b = b + a$ est toujours vrai. Les autres affirmations sont fausses en général. Par exemple $3 - 5 = -2 \\neq 5 - 3 = 2$. [Question générée]"
+      "reponse": "$-6$",
+      "explication": "$(+24) \\div (-4) = -6$. Signes différents : résultat négatif."
     },
     {
-      "id": "rel5_n3_028",
-      "niveau": 3,
+      "id": "nr5_n1_017",
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Une montgolfière est à $+800$ m d'altitude. Elle descend de $350$ m, puis remonte de $120$ m, puis descend encore de $85$ m. À quelle altitude se trouve-t-elle ?",
-      "image": null,
-      "choix": ["$+485$ m", "$+515$ m", "$+1355$ m", "$+570$ m"],
-      "reponse": "$+485$ m",
-      "explication": "$800 - 350 + 120 - 85 = 800 + 120 - 350 - 85 = 920 - 435 = 485$ m. [Question générée]"
-    },
-    {
-      "id": "rel5_n3_029",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un électron a une charge de $-1$ et un proton une charge de $+1$. Un atome contient $8$ protons et $10$ électrons. Quelle est la charge totale de l'atome ?",
-      "image": null,
-      "choix": ["$-2$", "$+2$", "$0$", "$-18$"],
-      "reponse": "$-2$",
-      "explication": "Charge $= 8 \\times (+1) + 10 \\times (-1) = (+8) + (-10) = -(10-8) = -2$. L'atome a une charge de $-2$ (c'est un anion). [Question générée]"
-    },
-    {
-      "id": "rel5_n3_030",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On cherche $n$ entier relatif tel que $(-3) + n - (+4) = n - (-7)$. Quelle affirmation est vraie ?",
+      "enonce_html": "Calcule $(-18) \\div (-6)$.",
       "image": null,
       "choix": [
-        "L'équation a une solution unique $n = +5$",
-        "L'équation a une solution unique $n = -5$",
-        "L'équation est impossible",
-        "L'équation a une infinité de solutions"
+        "$-3$",
+        "$+3$",
+        "$-12$",
+        "$+12$"
       ],
-      "reponse": "L'équation est impossible",
-      "explication": "Simplifions : $-3 + n - 4 = n + 7$, soit $n - 7 = n + 7$. En soustrayant $n$ des deux membres : $-7 = 7$, ce qui est faux. L'équation est impossible. [Question générée]"
+      "reponse": "$+3$",
+      "explication": "$(-18) \\div (-6) = +3$. Même signe (négatif) : résultat positif."
+    },
+    {
+      "id": "nr5_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(+36) \\div (-9)$.",
+      "image": null,
+      "choix": [
+        "$+4$",
+        "$-4$",
+        "$+27$",
+        "$-27$"
+      ],
+      "reponse": "$-4$",
+      "explication": "$(+36) \\div (-9) = -4$. Signes différents : résultat négatif."
+    },
+    {
+      "id": "nr5_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-7) \\times 0$.",
+      "image": null,
+      "choix": [
+        "$-7$",
+        "$+7$",
+        "$0$",
+        "$1$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(-7) \\times 0 = 0$. Tout nombre multiplié par 0 donne 0."
+    },
+    {
+      "id": "nr5_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-5) \\times (-1)$.",
+      "image": null,
+      "choix": [
+        "$-5$",
+        "$+5$",
+        "$-6$",
+        "$+6$"
+      ],
+      "reponse": "$+5$",
+      "explication": "$(-5) \\times (-1) = +5$. C'est l'opposé de $-5$. Multiplier par $-1$ donne l'opposé."
+    },
+    {
+      "id": "nr5_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La température est $-3°C$ le matin. Elle baisse encore de $4°C$. Quelle est la nouvelle température ?",
+      "image": null,
+      "choix": [
+        "$-7°C$",
+        "$+7°C$",
+        "$-1°C$",
+        "$+1°C$"
+      ],
+      "reponse": "$-7°C$",
+      "explication": "$(-3)+(-4) = -7°C$."
+    },
+    {
+      "id": "nr5_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un plongeur est à $-8$ m. Il remonte de $3$ m. À quelle profondeur est-il ?",
+      "image": null,
+      "choix": [
+        "$-5$ m",
+        "$+5$ m",
+        "$-11$ m",
+        "$+11$ m"
+      ],
+      "reponse": "$-5$ m",
+      "explication": "$(-8)+(+3) = -5$ m."
+    },
+    {
+      "id": "nr5_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un compte bancaire est à $+50$ €. On retire $75$ €. Quel est le solde ?",
+      "image": null,
+      "choix": [
+        "$+125$ €",
+        "$-25$ €",
+        "$+25$ €",
+        "$-125$ €"
+      ],
+      "reponse": "$-25$ €",
+      "explication": "$(+50)+(-75) = -25$ €."
+    },
+    {
+      "id": "nr5_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La température baisse de $2°C$ par heure. Quelle est la variation après $5$ heures ?",
+      "image": null,
+      "choix": [
+        "$+10°C$",
+        "$-10°C$",
+        "$-3°C$",
+        "$+3°C$"
+      ],
+      "reponse": "$-10°C$",
+      "explication": "$(-2) \\times 5 = -10°C$. La variation totale est $-10°C$."
+    },
+    {
+      "id": "nr5_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un sous-marin descend à $-3$ m/min. Quelle est sa profondeur après $6$ min ?",
+      "image": null,
+      "choix": [
+        "$-3$ m",
+        "$-18$ m",
+        "$+18$ m",
+        "$-9$ m"
+      ],
+      "reponse": "$-18$ m",
+      "explication": "$(-3) \\times 6 = -18$ m."
+    },
+    {
+      "id": "nr5_n1_036",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la distance à zéro de $-7$ ?",
+      "image": null,
+      "choix": [
+        "$-7$",
+        "$7$",
+        "$0$",
+        "$14$"
+      ],
+      "reponse": "$7$",
+      "explication": "La valeur absolue (distance à 0) de $-7$ est $7$. La distance est toujours positive."
+    },
+    {
+      "id": "nr5_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(+4) \\times (-3) = ?$",
+      "image": null,
+      "choix": [
+        "$12$",
+        "$-12$",
+        "$7$",
+        "$-7$"
+      ],
+      "reponse": "$-12$",
+      "explication": "Signes contraires → résultat négatif. $4 \\times 3 = 12$, donc $-12$."
+    },
+    {
+      "id": "nr5_n1_038",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(-20) \\div (-4) = ?$",
+      "image": null,
+      "choix": [
+        "$-5$",
+        "$5$",
+        "$80$",
+        "$-80$"
+      ],
+      "reponse": "$5$",
+      "explication": "Même signe (négatif) → résultat positif. $20 \\div 4 = 5$."
+    },
+    {
+      "id": "nr5_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le signe de $(-1)^{100}$ ?",
+      "image": null,
+      "choix": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Indéfini"
+      ],
+      "reponse": "Positif",
+      "explication": "$(-1)^{100} = +1$. L'exposant $100$ est pair → résultat positif."
+    },
+    {
+      "id": "nr5_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$a \\times (-1) = ?$",
+      "image": null,
+      "choix": [
+        "$a$",
+        "$-a$",
+        "$0$",
+        "$1$"
+      ],
+      "reponse": "$-a$",
+      "explication": "Multiplier par $-1$ donne l'opposé : $a \\times (-1) = -a$."
+    },
+    {
+      "id": "nr5_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-7{,}5) + (+3{,}2)$.",
+      "image": null,
+      "choix": [
+        "$-4{,}3$",
+        "$+4{,}3$",
+        "$-10{,}7$",
+        "$+10{,}7$"
+      ],
+      "reponse": "$-4{,}3$",
+      "explication": "Signes différents : $7{,}5 - 3{,}2 = 4{,}3$, signe de $-7{,}5$ : résultat $-4{,}3$."
+    },
+    {
+      "id": "nr5_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(+12) - (-5) + (-8) - (+3)$.",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$-6$",
+        "$28$",
+        "$-28$"
+      ],
+      "reponse": "$6$",
+      "explication": "Positifs : $12+5=17$. Négatifs : $8+3=11$. $17-11=6$."
+    },
+    {
+      "id": "nr5_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-4{,}8) - (-2{,}3)$.",
+      "image": null,
+      "choix": [
+        "$-7{,}1$",
+        "$-2{,}5$",
+        "$+2{,}5$",
+        "$+7{,}1$"
+      ],
+      "reponse": "$-2{,}5$",
+      "explication": "$(-4{,}8)-(-2{,}3) = (-4{,}8)+(+2{,}3) = -2{,}5$."
+    },
+    {
+      "id": "nr5_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $-5 + 8{,}2 - 4{,}7 + 1$.",
+      "image": null,
+      "choix": [
+        "$-0{,}5$",
+        "$+0{,}5$",
+        "$-1{,}5$",
+        "$+1{,}5$"
+      ],
+      "reponse": "$-0{,}5$",
+      "explication": "Positifs : $8{,}2+1=9{,}2$. Négatifs : $5+4{,}7=9{,}7$. $9{,}2-9{,}7=-0{,}5$."
+    },
+    {
+      "id": "nr5_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-100) + (+37) + (+63)$.",
+      "image": null,
+      "choix": [
+        "$0$",
+        "$-100$",
+        "$+100$",
+        "$+200$"
+      ],
+      "reponse": "$0$",
+      "explication": "$37+63=100$, donc $(-100)+(+100)=0$."
+    },
+    {
+      "id": "nr5_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $-8 - (-3) + (-7) + (+12)$.",
+      "image": null,
+      "choix": [
+        "$0$",
+        "$-4$",
+        "$+4$",
+        "$-30$"
+      ],
+      "reponse": "$0$",
+      "explication": "Positifs : $3+12=15$. Négatifs : $8+7=15$. $15-15=0$."
+    },
+    {
+      "id": "nr5_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $\\left(+\\dfrac{3}{4}\\right) + \\left(-\\dfrac{1}{2}\\right)$.",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{4}$",
+        "$-\\dfrac{1}{4}$",
+        "$\\dfrac{5}{4}$",
+        "$-\\dfrac{5}{4}$"
+      ],
+      "reponse": "$\\dfrac{1}{4}$",
+      "explication": "$\\dfrac{3}{4} - \\dfrac{1}{2} = \\dfrac{3}{4} - \\dfrac{2}{4} = \\dfrac{1}{4}$."
+    },
+    {
+      "id": "nr5_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-1{,}5) \\times (-4)$.",
+      "image": null,
+      "choix": [
+        "$-6$",
+        "$+6$",
+        "$-2{,}5$",
+        "$+2{,}5$"
+      ],
+      "reponse": "$+6$",
+      "explication": "$(-1{,}5) \\times (-4) = +6$. Même signe négatif → résultat positif."
+    },
+    {
+      "id": "nr5_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-7{,}2) \\div (+0{,}9)$.",
+      "image": null,
+      "choix": [
+        "$+8$",
+        "$-8$",
+        "$+6{,}3$",
+        "$-6{,}3$"
+      ],
+      "reponse": "$-8$",
+      "explication": "$(-7{,}2) \\div (+0{,}9) = -8$. Signes différents → résultat négatif."
+    },
+    {
+      "id": "nr5_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-2)^2$.",
+      "image": null,
+      "choix": [
+        "$-4$",
+        "$+4$",
+        "$-2$",
+        "$+2$"
+      ],
+      "reponse": "$+4$",
+      "explication": "$(-2)^2 = (-2) \\times (-2) = +4$. Exposant pair → résultat positif."
+    },
+    {
+      "id": "nr5_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-2)^3$.",
+      "image": null,
+      "choix": [
+        "$-8$",
+        "$+8$",
+        "$-6$",
+        "$+6$"
+      ],
+      "reponse": "$-8$",
+      "explication": "$(-2)^3 = (-2)\\times(-2)\\times(-2) = -8$. Exposant impair → résultat négatif."
+    },
+    {
+      "id": "nr5_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-3)^2 \\times (-2)$.",
+      "image": null,
+      "choix": [
+        "$+18$",
+        "$-18$",
+        "$+6$",
+        "$-6$"
+      ],
+      "reponse": "$-18$",
+      "explication": "$(-3)^2 = 9$. Puis $9 \\times (-2) = -18$."
+    },
+    {
+      "id": "nr5_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-2) \\times (-3) \\times (-4)$.",
+      "image": null,
+      "choix": [
+        "$+24$",
+        "$-24$",
+        "$+9$",
+        "$-9$"
+      ],
+      "reponse": "$-24$",
+      "explication": "$(-2)\\times(-3)=+6$. $6\\times(-4)=-24$. Nombre impair de facteurs négatifs → résultat négatif."
+    },
+    {
+      "id": "nr5_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-5)^2 \\div (-5)$.",
+      "image": null,
+      "choix": [
+        "$+5$",
+        "$-5$",
+        "$+25$",
+        "$-25$"
+      ],
+      "reponse": "$-5$",
+      "explication": "$(-5)^2 = 25$. $25 \\div (-5) = -5$."
+    },
+    {
+      "id": "nr5_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(+2{,}5) \\times (-4) \\times (-1)$.",
+      "image": null,
+      "choix": [
+        "$-10$",
+        "$+10$",
+        "$+6{,}5$",
+        "$-6{,}5$"
+      ],
+      "reponse": "$+10$",
+      "explication": "$(-4)\\times(-1)=+4$. $2{,}5 \\times 4 = 10$. Résultat positif (2 facteurs négatifs)."
+    },
+    {
+      "id": "nr5_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Applique le programme PC6 au nombre $2$ : multiplier par $(-5)$, puis prendre l'opposé.",
+      "image": "5eme/nombres_relatifs/image6.png",
+      "choix": [
+        "$-10$",
+        "$+10$",
+        "$-3$",
+        "$+3$"
+      ],
+      "reponse": "$+10$",
+      "explication": "$n=2$ : $2 \\times (-5) = -10$, opposé de $-10$ = $+10$."
+    },
+    {
+      "id": "nr5_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Avec le programme PC7, applique au nombre $8$ : diviser par $(-2)$, puis multiplier par $(-6)$.",
+      "image": "5eme/nombres_relatifs/image7.png",
+      "choix": [
+        "$-24$",
+        "$+24$",
+        "$-1$",
+        "$+1$"
+      ],
+      "reponse": "$+24$",
+      "explication": "$n=8$ : $8 \\div (-2) = -4$, $(-4) \\times (-6) = +24$."
+    },
+    {
+      "id": "nr5_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Avec le programme PC7, quel nombre de départ donne le résultat $-12$ ?",
+      "image": "5eme/nombres_relatifs/image7.png",
+      "choix": [
+        "$n = 4$",
+        "$n = -4$",
+        "$n = 6$",
+        "$n = -6$"
+      ],
+      "reponse": "$n = -4$",
+      "explication": "$n \\div (-2) \\times (-6) = 3n = -12 \\Rightarrow n = -4$."
+    },
+    {
+      "id": "nr5_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La température est $-5°C$. Elle baisse de $3°C$/h pendant $4$ heures. Quelle est la température finale ?",
+      "image": null,
+      "choix": [
+        "$-8°C$",
+        "$-17°C$",
+        "$+7°C$",
+        "$-2°C$"
+      ],
+      "reponse": "$-17°C$",
+      "explication": "$(-5) + 4 \\times (-3) = -5-12 = -17°C$."
+    },
+    {
+      "id": "nr5_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compte à $-120$ €. $3$ dépôts de $40$ € et $2$ retraits de $25$ €. Solde final ?",
+      "image": null,
+      "choix": [
+        "$-50$ €",
+        "$-160$ €",
+        "$+50$ €",
+        "$-70$ €"
+      ],
+      "reponse": "$-50$ €",
+      "explication": "$(-120) + 3 \\times 40 + 2 \\times (-25) = -120 + 120 - 50 = -50$ €."
+    },
+    {
+      "id": "nr5_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un plongeur est à $-15$ m. Il descend de $2{,}5$ m puis remonte de $8$ m. Quelle est sa profondeur finale ?",
+      "image": null,
+      "choix": [
+        "$-9{,}5$ m",
+        "$-5{,}5$ m",
+        "$+9{,}5$ m",
+        "$-25{,}5$ m"
+      ],
+      "reponse": "$-9{,}5$ m",
+      "explication": "$(-15) + (-2{,}5) + 8 = -9{,}5$ m."
+    },
+    {
+      "id": "nr5_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Une action vaut $20$ €. Elle perd $1{,}50$ €/jour pendant $5$ jours. Quelle est sa valeur finale ?",
+      "image": null,
+      "choix": [
+        "$12{,}5$ €",
+        "$27{,}5$ €",
+        "$-12{,}5$ €",
+        "$15$ €"
+      ],
+      "reponse": "$12{,}5$ €",
+      "explication": "$20 + 5 \\times (-1{,}5) = 20 - 7{,}5 = 12{,}5$ €."
+    },
+    {
+      "id": "nr5_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Applique le programme PC8 au nombre $1$ : soustraire $(-5)$, puis soustraire $(-3)$.",
+      "image": "5eme/nombres_relatifs/image8.png",
+      "choix": [
+        "$-7$",
+        "$+7$",
+        "$+9$",
+        "$-9$"
+      ],
+      "reponse": "$+9$",
+      "explication": "$n=1$ : $1-(-5)=1+5=6$, puis $6-(-3)=6+3=9$."
+    },
+    {
+      "id": "nr5_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour le programme PC9, quel nombre de départ donne le résultat $0$ ? (PC9 : soustraire $4$, multiplier par $3$, ajouter $6$, diviser par $4$)",
+      "image": "5eme/nombres_relatifs/image9.png",
+      "choix": [
+        "$n = 0$",
+        "$n = 2$",
+        "$n = 4$",
+        "$n = -2$"
+      ],
+      "reponse": "$n = 2$",
+      "explication": "$(n-4) \\times 3 + 6 = 0 \\Rightarrow 3n-12+6=0 \\Rightarrow 3n=6 \\Rightarrow n=2$."
+    },
+    {
+      "id": "nr5_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le programme PC10 donne $-4$. Quel était le nombre de départ ? (PC10 : multiplier par $(-2)$, puis ajouter $8$)",
+      "image": "5eme/nombres_relatifs/image10.png",
+      "choix": [
+        "$n = 2$",
+        "$n = 6$",
+        "$n = -6$",
+        "$n = -2$"
+      ],
+      "reponse": "$n = 6$",
+      "explication": "$n \\times (-2) + 8 = -4 \\Rightarrow -2n = -12 \\Rightarrow n = 6$."
+    },
+    {
+      "id": "nr5_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-3{,}5) + (+1{,}2)$.",
+      "image": null,
+      "choix": [
+        "$-2{,}3$",
+        "$+2{,}3$",
+        "$-4{,}7$",
+        "$+4{,}7$"
+      ],
+      "reponse": "$-2{,}3$",
+      "explication": "Signes différents : $3{,}5-1{,}2=2{,}3$. Signe du plus grand ($-3{,}5$) : résultat $-2{,}3$."
+    },
+    {
+      "id": "nr5_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(+0{,}5) - (+1{,}5) + (-2)$.",
+      "image": null,
+      "choix": [
+        "$-3$",
+        "$+3$",
+        "$-1$",
+        "$+1$"
+      ],
+      "reponse": "$-3$",
+      "explication": "$0{,}5 - 1{,}5 - 2 = 0{,}5 - 3{,}5 = -3$."
+    },
+    {
+      "id": "nr5_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-1)^{100}$.",
+      "image": null,
+      "choix": [
+        "$-1$",
+        "$1$",
+        "$-100$",
+        "$100$"
+      ],
+      "reponse": "$1$",
+      "explication": "$(-1)^{100} = 1$. L'exposant $100$ est pair → résultat positif."
+    },
+    {
+      "id": "nr5_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-3{,}6) \\div (-0{,}6)$.",
+      "image": null,
+      "choix": [
+        "$-6$",
+        "$+6$",
+        "$-3$",
+        "$+3$"
+      ],
+      "reponse": "$+6$",
+      "explication": "$(-3{,}6) \\div (-0{,}6) = +6$. Même signe → résultat positif."
+    },
+    {
+      "id": "nr5_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Avec le programme PC6, quel résultat obtient-on avec le nombre $-3$ ? (multiplier par $(-5)$ puis prendre l'opposé)",
+      "image": "5eme/nombres_relatifs/image6.png",
+      "choix": [
+        "$-15$",
+        "$+15$",
+        "$+3$",
+        "$-3$"
+      ],
+      "reponse": "$-15$",
+      "explication": "$n=-3$ : $(-3)\\times(-5)=+15$, opposé de $+15$ = $-15$."
+    },
+    {
+      "id": "nr5_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $-3 + 2\\times(-4) - (-6) \\div 3$.",
+      "image": null,
+      "choix": [
+        "$-9$",
+        "$-7$",
+        "$+9$",
+        "$+7$"
+      ],
+      "reponse": "$-9$",
+      "explication": "Priorité : $2\\times(-4)=-8$ et $(-6)\\div 3=-2$. Résultat : $-3-8-(-2) = -3-8+2 = -9$."
+    },
+    {
+      "id": "nr5_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $5\\times(-2) + (-3)\\times(-4) - 8\\div(-4)$.",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$-4$",
+        "$14$",
+        "$-14$"
+      ],
+      "reponse": "$4$",
+      "explication": "$5\\times(-2)=-10$, $(-3)\\times(-4)=+12$, $8\\div(-4)=-2$. Résultat : $-10+12-(-2)=-10+12+2=4$."
+    },
+    {
+      "id": "nr5_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-2)^4 - (-3)^2$.",
+      "image": null,
+      "choix": [
+        "$7$",
+        "$-7$",
+        "$25$",
+        "$-25$"
+      ],
+      "reponse": "$7$",
+      "explication": "$(-2)^4=16$, $(-3)^2=9$. $16-9=7$."
+    },
+    {
+      "id": "nr5_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $-4^2 + (-4)^2$.",
+      "image": null,
+      "choix": [
+        "$32$",
+        "$0$",
+        "$-32$",
+        "$16$"
+      ],
+      "reponse": "$0$",
+      "explication": "$-4^2 = -(4^2) = -16$. $(-4)^2 = 16$. $-16+16=0$. Attention : $-4^2 \\neq (-4)^2$."
+    },
+    {
+      "id": "nr5_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-3+5)\\times(-4)$.",
+      "image": null,
+      "choix": [
+        "$-8$",
+        "$+8$",
+        "$-32$",
+        "$+32$"
+      ],
+      "reponse": "$-8$",
+      "explication": "Parenthèses d'abord : $-3+5=2$. Puis : $2\\times(-4)=-8$."
+    },
+    {
+      "id": "nr5_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $[(-5)+3]\\times[(-2)-4]$.",
+      "image": null,
+      "choix": [
+        "$-12$",
+        "$+12$",
+        "$-24$",
+        "$+24$"
+      ],
+      "reponse": "$+12$",
+      "explication": "$(-5)+3=-2$ et $(-2)-4=-6$. $(-2)\\times(-6)=+12$."
+    },
+    {
+      "id": "nr5_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-3)\\times[(+2)+(-5)+(+4)\\times(-1)]$.",
+      "image": null,
+      "choix": [
+        "$21$",
+        "$-21$",
+        "$9$",
+        "$-9$"
+      ],
+      "reponse": "$21$",
+      "explication": "Crochet : $(+4)\\times(-1)=-4$. $2-5-4=-7$. $(-3)\\times(-7)=21$."
+    },
+    {
+      "id": "nr5_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $[(-2)^2-(-3)^2]\\times(-1)$.",
+      "image": null,
+      "choix": [
+        "$-5$",
+        "$+5$",
+        "$-13$",
+        "$+13$"
+      ],
+      "reponse": "$+5$",
+      "explication": "$(-2)^2=4$, $(-3)^2=9$. $(4-9)\\times(-1)=(-5)\\times(-1)=+5$."
+    },
+    {
+      "id": "nr5_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Calcule $(-2{,}5+7{,}5)\\times(8-3)\\div(-5)$.",
+      "image": null,
+      "choix": [
+        "$-5$",
+        "$+5$",
+        "$-25$",
+        "$+25$"
+      ],
+      "reponse": "$-5$",
+      "explication": "$-2{,}5+7{,}5=5$. $8-3=5$. $5\\times 5=25$. $25\\div(-5)=-5$."
+    },
+    {
+      "id": "nr5_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Applique le programme PC11 au nombre $-4$ : multiplier par $(-1{,}5)$, puis ajouter $4{,}5$.",
+      "image": "5eme/nombres_relatifs/image11.png",
+      "choix": [
+        "$4{,}5$",
+        "$10{,}5$",
+        "$-10{,}5$",
+        "$-4{,}5$"
+      ],
+      "reponse": "$10{,}5$",
+      "explication": "$(-4)\\times(-1{,}5)=6$. $6+4{,}5=10{,}5$."
+    },
+    {
+      "id": "nr5_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Avec le programme PC12, quel est le résultat pour $x = 5$ ? (Multiplier par $(-3)$, puis ajouter $2x$)",
+      "image": "5eme/nombres_relatifs/image12.png",
+      "choix": [
+        "$-5$",
+        "$+5$",
+        "$-25$",
+        "$+25$"
+      ],
+      "reponse": "$-5$",
+      "explication": "$x=5$ : $5\\times(-3)=-15$, puis $-15+10=-5$. En général : $-3x+2x=-x$."
+    },
+    {
+      "id": "nr5_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le programme PC13 donne $0$. Quelle est l'équation correspondante si le programme est : multiplier par $(-4)$ puis soustraire $8$ ?",
+      "image": "5eme/nombres_relatifs/image13.png",
+      "choix": [
+        "$4x - 8 = 0$",
+        "$-4x - 8 = 0$",
+        "$-4x + 8 = 0$",
+        "$4x + 8 = 0$"
+      ],
+      "reponse": "$-4x - 8 = 0$",
+      "explication": "Le programme applique : $x \\times (-4) - 8 = 0$, soit $-4x - 8 = 0$. Solution : $x = -2$."
+    },
+    {
+      "id": "nr5_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La température d'une chambre froide baisse de $2°C$/h. À partir de $+15°C$, après combien d'heures atteint-on $-5°C$ ?",
+      "image": null,
+      "choix": [
+        "$5$ heures",
+        "$10$ heures",
+        "$15$ heures",
+        "$20$ heures"
+      ],
+      "reponse": "$10$ heures",
+      "explication": "$15 + (-2) \\times n = -5 \\Rightarrow -2n = -20 \\Rightarrow n = 10$ heures."
+    },
+    {
+      "id": "nr5_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compte à $-250$ €. $3$ dépôts de $80$ € et $5$ retraits de $30$ €. Quel est le solde ?",
+      "image": null,
+      "choix": [
+        "$-160$ €",
+        "$-100$ €",
+        "$+160$ €",
+        "$-40$ €"
+      ],
+      "reponse": "$-160$ €",
+      "explication": "$(-250) + 3 \\times 80 + 5 \\times (-30) = -250 + 240 - 150 = -160$ €."
+    },
+    {
+      "id": "nr5_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si $a = -2$ et $b = 3$, calcule $a^3 - 2ab + b^2$.",
+      "image": null,
+      "choix": [
+        "$13$",
+        "$-13$",
+        "$3$",
+        "$-3$"
+      ],
+      "reponse": "$13$",
+      "explication": "$(-2)^3 = -8$. $2 \\times (-2) \\times 3 = -12$. $3^2=9$. $-8 - (-12) + 9 = -8+12+9 = 13$."
+    },
+    {
+      "id": "nr5_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Une fusée est à $-50$ m. Elle monte à $30$ m/min. Après combien de minutes complètes dépasse-t-elle $0$ m ?",
+      "image": null,
+      "choix": [
+        "$1$ min",
+        "$2$ min",
+        "$3$ min",
+        "$4$ min"
+      ],
+      "reponse": "$2$ min",
+      "explication": "$(-50)+30t > 0 \\Rightarrow t > \\dfrac{50}{30} \\approx 1{,}67$ min. Elle dépasse $0$ après $2$ minutes complètes."
+    },
+    {
+      "id": "nr5_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Applique le programme PC15 au nombre $-1$ : multiplier par $(-2)$, mettre au carré, soustraire $4$.",
+      "image": "5eme/nombres_relatifs/image15.png",
+      "choix": [
+        "$-4$",
+        "$0$",
+        "$4$",
+        "$8$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(-1)\\times(-2)=2$, $2^2=4$, $4-4=0$."
+    },
+    {
+      "id": "nr5_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Exercice 84 — Un sous-marin part du niveau de la mer ($0$ m). Il descend à $-5$ m/min pendant $8$ min, puis remonte à $+3$ m/min pendant $6$ min. À quelle profondeur est-il ?",
+      "image": null,
+      "choix": [
+        "$-22$ m",
+        "$-58$ m",
+        "$+22$ m",
+        "$-40$ m"
+      ],
+      "reponse": "$-22$ m",
+      "explication": "Descente : $8 \\times (-5) = -40$ m. Remontée : $6 \\times (+3) = +18$ m. Position finale : $-40 + 18 = -22$ m."
+    },
+    {
+      "id": "nr5_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Exercice 84 (suite) — Le sous-marin est à $-22$ m. Combien de minutes supplémentaires de remontée à $+3$ m/min lui faut-il pour atteindre $0$ m ?",
+      "image": null,
+      "choix": [
+        "$6$ min",
+        "$\\dfrac{22}{3}$ min soit environ $7{,}3$ min",
+        "$22$ min",
+        "$11$ min"
+      ],
+      "reponse": "$\\dfrac{22}{3}$ min soit environ $7{,}3$ min",
+      "explication": "$-22 + 3t = 0 \\Rightarrow t = \\dfrac{22}{3} \\approx 7{,}3$ min."
+    },
+    {
+      "id": "nr5_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Exercice 85 — Un compte bancaire commence à $-350$ €. On effectue $4$ dépôts de $120$ € et $3$ retraits de $75$ €. Quel est le solde final ?",
+      "image": null,
+      "choix": [
+        "$-95$ €",
+        "$+95$ €",
+        "$-130$ €",
+        "$+255$ €"
+      ],
+      "reponse": "$-95$ €",
+      "explication": "$(-350) + 4 \\times 120 + 3 \\times (-75) = -350 + 480 - 225 = -95$ €. [Question générée — Exercice 85]"
+    },
+    {
+      "id": "nr5_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Exercice 85 (suite) — Depuis le solde de $-95$ €, combien de dépôts de $40$ € faut-il pour atteindre un solde positif ?",
+      "image": null,
+      "choix": [
+        "$2$ dépôts",
+        "$3$ dépôts",
+        "$4$ dépôts",
+        "$5$ dépôts"
+      ],
+      "reponse": "$3$ dépôts",
+      "explication": "$-95 + n \\times 40 > 0 \\Rightarrow 40n > 95 \\Rightarrow n > 2{,}375$. Il faut donc $3$ dépôts. [Question générée — Exercice 85 suite]"
+    },
+    {
+      "id": "nr5_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces affirmations, laquelle est fausse ?",
+      "image": null,
+      "choix": [
+        "$(-a)^2 = a^2$",
+        "$-(a^2) = (-a)^2$",
+        "$(-1)^{50} = 1$",
+        "$(-a) \\times (-b) = ab$"
+      ],
+      "reponse": "$-(a^2) = (-a)^2$",
+      "explication": "$-(a^2) = -a^2$ est négatif (si $a\\neq0$), alors que $(-a)^2 = a^2$ est positif. Donc $-(a^2) \\neq (-a)^2$. [Question générée]"
+    },
+    {
+      "id": "nr5_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si $x = -3$, que vaut $x^2 - 2x + 1$ ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$16$",
+        "$-4$",
+        "$-16$"
+      ],
+      "reponse": "$16$",
+      "explication": "$(-3)^2 - 2\\times(-3) + 1 = 9 + 6 + 1 = 16$. [Question générée]"
+    },
+    {
+      "id": "nr5_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un nageur plonge à $-3$ m/min pendant $4$ min, puis remonte à $+1{,}5$ m/min pendant $6$ min. Quelle est sa profondeur totale après $10$ min ?",
+      "image": null,
+      "choix": [
+        "$-3$ m",
+        "$+3$ m",
+        "$-12$ m",
+        "$+12$ m"
+      ],
+      "reponse": "$-3$ m",
+      "explication": "$4 \\times (-3) = -12$ m. $6 \\times 1{,}5 = +9$ m. Position finale : $-12 + 9 = -3$ m. [Question générée — remplace ex.80]"
+    },
+    {
+      "id": "nr5_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Applique le programme PC14 au nombre $2$ : soustraire $8$, multiplier par $(-2)$, ajouter $6$, diviser par $4$.",
+      "image": "5eme/nombres_relatifs/image14.png",
+      "choix": [
+        "$3$",
+        "$4{,}5$",
+        "$-4{,}5$",
+        "$9$"
+      ],
+      "reponse": "$4{,}5$",
+      "explication": "$n=2$ : $2-8=-6$, $(-6)\\times(-2)=12$, $12+6=18$, $18\\div4=4{,}5$. [Question générée]"
+    },
+    {
+      "id": "nr5_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Simplifie l'expression $-3x + 2x$ obtenue à la fin du programme PC12.",
+      "image": "5eme/nombres_relatifs/image12.png",
+      "choix": [
+        "$-5x$",
+        "$-x$",
+        "$x$",
+        "$5x$"
+      ],
+      "reponse": "$-x$",
+      "explication": "$-3x + 2x = (-3+2)x = -x$. Le résultat est l'opposé du nombre de départ. [Question générée]"
+    },
+    {
+      "id": "nr5_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour le programme PC11 ($n \\times (-1{,}5) + 4{,}5$), quel nombre de départ donne le résultat $0$ ?",
+      "image": "5eme/nombres_relatifs/image11.png",
+      "choix": [
+        "$n = 0$",
+        "$n = 3$",
+        "$n = -3$",
+        "$n = 4{,}5$"
+      ],
+      "reponse": "$n = 3$",
+      "explication": "$n \\times (-1{,}5) + 4{,}5 = 0 \\Rightarrow -1{,}5n = -4{,}5 \\Rightarrow n = 3$. [Question générée]"
+    },
+    {
+      "id": "nr5_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si $a = -4$ et $b = -2$, que vaut $\\dfrac{a^2 - b^2}{a - b}$ ?",
+      "image": null,
+      "choix": [
+        "$-6$",
+        "$6$",
+        "$-2$",
+        "$2$"
+      ],
+      "reponse": "$-6$",
+      "explication": "$a^2=16$, $b^2=4$, $a-b=(-4)-(-2)=-2$. $\\dfrac{16-4}{-2}=\\dfrac{12}{-2}=-6$. [Question générée]"
+    },
+    {
+      "id": "nr5_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Une température varie de $-2{,}5°C$ par heure. En partant de $8°C$, après combien d'heures entières est-on en dessous de $-5°C$ ?",
+      "image": null,
+      "choix": [
+        "$4$ h",
+        "$5$ h",
+        "$6$ h",
+        "$7$ h"
+      ],
+      "reponse": "$6$ h",
+      "explication": "$8 + (-2{,}5)t < -5 \\Rightarrow -2{,}5t < -13 \\Rightarrow t > 5{,}2$. Donc après $6$ heures entières. [Question générée]"
+    },
+    {
+      "id": "nr5_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces affirmations est toujours vraie pour tout nombre relatif $a$ ?",
+      "image": null,
+      "choix": [
+        "$(-a) + a > 0$",
+        "$(-a) + a = 0$",
+        "$(-a) \\times a > 0$",
+        "$(-a) - a = 0$"
+      ],
+      "reponse": "$(-a) + a = 0$",
+      "explication": "$(-a) + a = 0$ est toujours vrai : un nombre et son opposé ont une somme nulle. [Question générée]"
     }
   ]
 }

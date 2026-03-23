@@ -93,9 +93,9 @@
       "niveau": "4eme"
     },
     {
-      "id": "angles_alternes_internes_5eme",
-      "fichier": "data/5eme/angles_alternes_internes_5eme.json",
-      "niveau": "5eme"
+      "id":      "angles_5eme",
+      "fichier": "data/5eme/angles_5eme.json",
+      "niveau":  "5eme"
     },
     {
       "id": "enchainement_operations_5eme",
@@ -161,6 +161,26 @@
       "id":      "prisme_cylindre_5eme",
       "fichier": "data/5eme/prisme_cylindre_5eme.json",
       "niveau":  "5eme"
+    },
+    {
+      "id":      "aires_perimetres_6eme",
+      "fichier": "data/6eme/aires_perimetres_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "droites_6eme",
+      "fichier": "data/6eme/droites_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "durees_6eme",
+      "fichier": "data/6eme/durees_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "fractions_6eme",
+      "fichier": "data/6eme/fractions_6eme.json",
+      "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
