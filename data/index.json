@@ -161,6 +161,11 @@
       "id":      "prisme_cylindre_5eme",
       "fichier": "data/5eme/prisme_cylindre_5eme.json",
       "niveau":  "5eme"
+    },
+    {
+      "id":      "aires_perimetres_6eme",
+      "fichier": "data/6eme/aires_perimetres_6eme.json",
+      "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
