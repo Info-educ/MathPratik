@@ -1113,50 +1113,46 @@ function calcAction(key) {
   }
   if (key === '=') {
     try {
-      const safe = _calc.expr.replace(/[^0-9+\-*/.()Math.sqrtpow ]/g, '');
-      const computed = Function('"use strict"; return (' + _calc.expr + ')')();
+      // Auto-fermer les parenthèses ouvertes manquantes
+      let expr = _calc.expr;
+      const open  = (expr.match(/\(/g) || []).length;
+      const close = (expr.match(/\)/g) || []).length;
+      if (open > close) expr += ')'.repeat(open - close);
+      const computed = Function('return (' + expr + ')')();
       const result = isFinite(computed) ? parseFloat(computed.toFixed(10)).toString() : 'Erreur';
       _calc.display = result;
-      _calc.expr = result;
-      _calc.justEq = true;
+      _calc.expr    = result;
+      _calc.justEq  = true;
     } catch { _calc.display = 'Erreur'; _calc.expr = ''; _calc.justEq = false; }
     calcUpdateDisplay(); return;
   }
   if (key === 'sqrt') {
     if (_calc.justEq) _calc.expr = '';
-    _calc.expr += 'Math.sqrt(';
+    _calc.expr   += 'Math.sqrt(';
     _calc.display = _calc.expr;
-    _calc.justEq = false;
+    _calc.justEq  = false;
     calcUpdateDisplay(); return;
   }
   if (key === 'sq') {
-    if (_calc.justEq) {
-      _calc.expr = 'Math.pow(' + _calc.expr + ',2)';
-    } else if (_calc.expr) {
-      _calc.expr = 'Math.pow(' + _calc.expr + ',2)';
-    }
+    const base    = _calc.expr || '0';
+    _calc.expr    = '(' + base + ')**2';
     _calc.display = _calc.expr;
-    _calc.justEq = false;
+    _calc.justEq  = false;
     calcUpdateDisplay(); return;
   }
   if (key === 'pow') {
-    // xⁿ : enveloppe l'expression courante dans Math.pow(expr, et attend l'exposant
-    if (_calc.justEq) {
-      _calc.expr = 'Math.pow(' + _calc.expr + ',';
-    } else if (_calc.expr) {
-      _calc.expr = 'Math.pow(' + _calc.expr + ',';
-    } else {
-      _calc.expr = 'Math.pow(';
-    }
+    // xⁿ : enveloppe la base courante avec ** et attend l'exposant
+    const base    = _calc.expr || '0';
+    _calc.expr    = '(' + base + ')**';
     _calc.display = _calc.expr;
-    _calc.justEq = false;
+    _calc.justEq  = false;
     calcUpdateDisplay(); return;
   }
 
   const ops = ['+', '-', '*', '/'];
   if (_calc.justEq && !ops.includes(key) && key !== ')') _calc.expr = '';
-  _calc.justEq = false;
-  _calc.expr += key;
+  _calc.justEq  = false;
+  _calc.expr   += key;
   _calc.display = _calc.expr;
   calcUpdateDisplay();
 }
