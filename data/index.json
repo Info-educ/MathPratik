@@ -93,9 +93,9 @@
       "niveau": "4eme"
     },
     {
-      "id": "angles_alternes_internes_5eme",
-      "fichier": "data/5eme/angles_alternes_internes_5eme.json",
-      "niveau": "5eme"
+      "id":      "angles_alternes_5eme",
+      "fichier": "data/5eme/angles_alternes_5eme.json",
+      "niveau":  "5eme"
     },
     {
       "id": "enchainement_operations_5eme",
