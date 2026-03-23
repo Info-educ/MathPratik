@@ -307,7 +307,7 @@ function updateLaunchBtn() {
 
   if (n === 0) {
     btn.className   = 'btn-launch disabled';
-    btn.textContent = 'Choisir au moins 1 thème';
+    btn.textContent = '☝️ Choisir au moins 1 thème ci-dessus';
   } else {
     btn.className   = 'btn-launch ready';
     btn.textContent = `🏆 Lancer l'examen · 15 questions`;
@@ -401,7 +401,7 @@ function updateLaunchBtnAutomatismes() {
 
   if (n === 0) {
     btn.className   = 'btn-launch disabled';
-    btn.textContent = 'Choisir au moins 1 notion';
+    btn.textContent = '☝️ Choisir au moins 1 notion ci-dessus';
     btn.onclick     = null;
   } else {
     btn.className   = 'btn-launch ready';
