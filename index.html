@@ -3,6 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ── THÈME : exécuté immédiatement pour éviter le flash ── -->
+  <script>
+    (function () {
+      var STORAGE_KEY = 'mathpratik_theme';
+      var saved = localStorage.getItem(STORAGE_KEY);
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+
+      window._themeKey = STORAGE_KEY;
+
+      window.toggleTheme = function () {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        localStorage.setItem(STORAGE_KEY, next);
+        document.documentElement.classList.add('theme-transitioning');
+        setTimeout(function () { document.documentElement.classList.remove('theme-transitioning'); }, 350);
+        document.documentElement.setAttribute('data-theme', next);
+        var btn = document.getElementById('btn-theme');
+        if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
+      };
+
+      /* Sync icône dès que le DOM est prêt */
+      document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.getElementById('btn-theme');
+        if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+      });
+
+      /* Suivre le système si pas de préférence sauvegardée */
+      if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+          if (!localStorage.getItem(STORAGE_KEY)) {
+            var t = e.matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', t);
+            var btn = document.getElementById('btn-theme');
+            if (btn) btn.textContent = t === 'dark' ? '☀️' : '🌙';
+          }
+        });
+      }
+    })();
+  </script>
   <meta name="description" content="MathPratik – Entraînement aux mathématiques cycle 3 et 4 – Mode Examen" />
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)" />
@@ -1561,65 +1603,5 @@
 
 </div>
 
-  <script>
-    /* ── TOGGLE THÈME CLAIR / SOMBRE ── */
-    (function () {
-      var STORAGE_KEY = 'mathpratik_theme';
-
-      /* Détecter la préférence système */
-      function systemDark() {
-        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      }
-
-      /* Appliquer le thème sans animation (au chargement) */
-      function applyTheme(theme, animate) {
-        if (animate) {
-          document.documentElement.classList.add('theme-transitioning');
-          setTimeout(function () {
-            document.documentElement.classList.remove('theme-transitioning');
-          }, 350);
-        }
-        document.documentElement.setAttribute('data-theme', theme);
-        updateBtn(theme);
-      }
-
-      /* Mettre à jour l'icône et le titre du bouton */
-      function updateBtn(theme) {
-        var btn = document.getElementById('btn-theme');
-        if (!btn) return;
-        if (theme === 'dark') {
-          btn.textContent = '☀️';
-          btn.setAttribute('title', 'Passer en mode clair');
-          btn.setAttribute('aria-label', 'Passer en mode clair');
-        } else {
-          btn.textContent = '🌙';
-          btn.setAttribute('title', 'Passer en mode sombre');
-          btn.setAttribute('aria-label', 'Passer en mode sombre');
-        }
-      }
-
-      /* Basculer le thème */
-      window.toggleTheme = function () {
-        var current = document.documentElement.getAttribute('data-theme');
-        var next = current === 'dark' ? 'light' : 'dark';
-        localStorage.setItem(STORAGE_KEY, next);
-        applyTheme(next, true);
-      };
-
-      /* Initialisation : lire le localStorage, sinon suivre le système */
-      var saved = localStorage.getItem(STORAGE_KEY);
-      var initial = saved || (systemDark() ? 'dark' : 'light');
-      applyTheme(initial, false);
-
-      /* Écouter les changements de préférence système (si pas de préférence sauvegardée) */
-      if (window.matchMedia) {
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
-          if (!localStorage.getItem(STORAGE_KEY)) {
-            applyTheme(e.matches ? 'dark' : 'light', true);
-          }
-        });
-      }
-    })();
-  </script>
 </body>
 </html>
