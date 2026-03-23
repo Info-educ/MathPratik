@@ -171,6 +171,16 @@
       "id":      "droites_6eme",
       "fichier": "data/6eme/droites_6eme.json",
       "niveau":  "6eme"
+    },
+    {
+      "id":      "durees_6eme",
+      "fichier": "data/6eme/durees_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "fractions_6eme",
+      "fichier": "data/6eme/fractions_6eme.json",
+      "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
