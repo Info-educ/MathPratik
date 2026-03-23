@@ -93,8 +93,8 @@
       "niveau": "4eme"
     },
     {
-      "id":      "angles_alternes_5eme",
-      "fichier": "data/5eme/angles_alternes_5eme.json",
+      "id":      "angles_5eme",
+      "fichier": "data/5eme/angles_5eme.json",
       "niveau":  "5eme"
     },
     {
