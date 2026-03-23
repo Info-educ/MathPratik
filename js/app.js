@@ -1052,13 +1052,13 @@ function buildCalculatrice() {
     <div class="calc-grid">
       <button class="calc-btn calc-fn" onclick="calcAction('C')">C</button>
       <button class="calc-btn calc-fn" onclick="calcAction('CE')">⌫</button>
-      <button class="calc-btn calc-fn" onclick="calcAction('%')">%</button>
-      <button class="calc-btn calc-op" onclick="calcAction('/')">÷</button>
+      <button class="calc-btn calc-fn" onclick="calcAction('(')"> ( </button>
+      <button class="calc-btn calc-fn" onclick="calcAction(')')"> ) </button>
 
       <button class="calc-btn calc-fn" onclick="calcAction('sqrt')">√</button>
       <button class="calc-btn calc-fn" onclick="calcAction('sq')">x²</button>
-      <button class="calc-btn calc-fn" onclick="calcAction('(')"> ( </button>
-      <button class="calc-btn calc-fn" onclick="calcAction(')')">) </button>
+      <button class="calc-btn calc-fn" onclick="calcAction('pow')">xⁿ</button>
+      <button class="calc-btn calc-op" onclick="calcAction('+')">+</button>
 
       <button class="calc-btn" onclick="calcAction('7')">7</button>
       <button class="calc-btn" onclick="calcAction('8')">8</button>
@@ -1073,7 +1073,7 @@ function buildCalculatrice() {
       <button class="calc-btn" onclick="calcAction('1')">1</button>
       <button class="calc-btn" onclick="calcAction('2')">2</button>
       <button class="calc-btn" onclick="calcAction('3')">3</button>
-      <button class="calc-btn calc-op" onclick="calcAction('+')">+</button>
+      <button class="calc-btn calc-op" onclick="calcAction('/')">÷</button>
 
       <button class="calc-btn calc-zero" onclick="calcAction('0')">0</button>
       <button class="calc-btn" onclick="calcAction('.')">.</button>
@@ -1103,8 +1103,9 @@ function calcAction(key) {
     // Supprimer dernier caractère de l'expression affichée
     if (_calc.justEq) { _calc.expr = ''; _calc.display = '0'; _calc.justEq = false; }
     else {
-      // Supprimer aussi "sqrt(" si on est à la fin d'une fonction
+      // Supprimer aussi "Math.sqrt(" ou "Math.pow(" si on est à la fin d'une fonction
       if (_calc.expr.endsWith('Math.sqrt(')) _calc.expr = _calc.expr.slice(0, -10);
+      else if (_calc.expr.endsWith(',')) _calc.expr = _calc.expr.slice(0, -1);
       else _calc.expr = _calc.expr.slice(0, -1);
       _calc.display = _calc.expr || '0';
     }
@@ -1133,6 +1134,19 @@ function calcAction(key) {
       _calc.expr = 'Math.pow(' + _calc.expr + ',2)';
     } else if (_calc.expr) {
       _calc.expr = 'Math.pow(' + _calc.expr + ',2)';
+    }
+    _calc.display = _calc.expr;
+    _calc.justEq = false;
+    calcUpdateDisplay(); return;
+  }
+  if (key === 'pow') {
+    // xⁿ : enveloppe l'expression courante dans Math.pow(expr, et attend l'exposant
+    if (_calc.justEq) {
+      _calc.expr = 'Math.pow(' + _calc.expr + ',';
+    } else if (_calc.expr) {
+      _calc.expr = 'Math.pow(' + _calc.expr + ',';
+    } else {
+      _calc.expr = 'Math.pow(';
     }
     _calc.display = _calc.expr;
     _calc.justEq = false;
