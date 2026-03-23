@@ -535,7 +535,7 @@
       "image": "5eme/proportionnalite/1f94bbda21706ffafd620735df01518b8f1e2ca5.png",
       "choix": ["$200 \\text{ g}$", "$240 \\text{ g}$", "$267 \\text{ g}$", "$300 \\text{ g}$"],
       "reponse": "$267 \\text{ g}$",
-      "explication": "$\\dfrac{400}{6} \\times 4 = \\dfrac{1600}{6} \\approx 266{,}7 \\text{ g}$. [Question générée]"
+      "explication": "$\\dfrac{400}{6} \\times 4 = \\dfrac{1600}{6} \\approx 266{,}7 \\text{ g}$."
     },
     {
       "id": "prop5_n2_019",
@@ -630,44 +630,44 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Calcule $15\\%$ de $200$ €. [Question générée]",
+      "enonce_html": "Calcule $15\\%$ de $200$ €.",
       "image": null,
       "choix": ["$15$ €", "$20$ €", "$30$ €", "$150$ €"],
       "reponse": "$30$ €",
-      "explication": "[Question générée] $200 \\times \\dfrac{15}{100} = 200 \\times 0{,}15 = 30$ €."
+      "explication": "$200 \\times \\dfrac{15}{100} = 200 \\times 0{,}15 = 30$ €."
     },
     {
       "id": "prop5_n2_028",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Un article coûte $60$ €. Une remise de $10\\%$ est appliquée. Quel est le prix final ? [Question générée]",
+      "enonce_html": "Un article coûte $60$ €. Une remise de $10\\%$ est appliquée. Quel est le prix final ?",
       "image": null,
       "choix": ["$40$ €", "$50$ €", "$54$ €", "$56$ €"],
       "reponse": "$54$ €",
-      "explication": "[Question générée] Remise : $60 \\times 0{,}10 = 6$ €. Prix final : $60 - 6 = 54$ €."
+      "explication": "Remise : $60 \\times 0{,}10 = 6$ €. Prix final : $60 - 6 = 54$ €."
     },
     {
       "id": "prop5_n2_029",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "$1{,}75 \\text{ h}$ correspond à combien d'heures et de minutes ? [Question générée]",
+      "enonce_html": "$1{,}75 \\text{ h}$ correspond à combien d'heures et de minutes ?",
       "image": null,
       "choix": ["$1 \\text{ h } 7 \\text{ min}$", "$1 \\text{ h } 45 \\text{ min}$", "$1 \\text{ h } 75 \\text{ min}$", "$1 \\text{ h } 50 \\text{ min}$"],
       "reponse": "$1 \\text{ h } 45 \\text{ min}$",
-      "explication": "[Question générée] $0{,}75 \\text{ h} = 0{,}75 \\times 60 = 45 \\text{ min}$. Donc $1{,}75 \\text{ h} = 1 \\text{ h } 45 \\text{ min}$."
+      "explication": "$0{,}75 \\text{ h} = 0{,}75 \\times 60 = 45 \\text{ min}$. Donc $1{,}75 \\text{ h} = 1 \\text{ h } 45 \\text{ min}$."
     },
     {
       "id": "prop5_n2_030",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "Un géographe dessine une carte à l'échelle $\\dfrac{1}{50 000}$. Une forêt rectangulaire mesure $3 \\text{ km}$ de longueur. Quelle est sa longueur sur la carte ? [Question générée]",
+      "enonce_html": "Un géographe dessine une carte à l'échelle $\\dfrac{1}{50 000}$. Une forêt rectangulaire mesure $3 \\text{ km}$ de longueur. Quelle est sa longueur sur la carte ?",
       "image": null,
       "choix": ["$3 \\text{ cm}$", "$6 \\text{ cm}$", "$15 \\text{ cm}$", "$60 \\text{ cm}$"],
       "reponse": "$6 \\text{ cm}$",
-      "explication": "[Question générée] $3 \\text{ km} = 300 000 \\text{ cm}$. Longueur sur carte : $\\dfrac{300 000}{50 000} = 6 \\text{ cm}$."
+      "explication": "$3 \\text{ km} = 300 000 \\text{ cm}$. Longueur sur carte : $\\dfrac{300 000}{50 000} = 6 \\text{ cm}$."
     },
 
     {
@@ -855,7 +855,7 @@
       "image": null,
       "choix": ["$8$ min", "$10{,}67$ min", "$10$ min", "$12$ min"],
       "reponse": "$10{,}67$ min",
-      "explication": "Débit A $= 5$ L/min, débit B $= 6{,}25$ L/min. Débit total $= 11{,}25$ L/min. Durée $= \\dfrac{120}{11{,}25} \\approx 10{,}67$ min. [Question générée]"
+      "explication": "Débit A $= 5$ L/min, débit B $= 6{,}25$ L/min. Débit total $= 11{,}25$ L/min. Durée $= \\dfrac{120}{11{,}25} \\approx 10{,}67$ min."
     },
     {
       "id": "prop5_n3_018",
@@ -943,7 +943,7 @@
       "image": null,
       "choix": ["$2 \\text{ h } 45 \\text{ min}$", "$3 \\text{ h}$", "$3 \\text{ h } 25 \\text{ min}$", "$3 \\text{ h } 30 \\text{ min}$"],
       "reponse": "$3 \\text{ h } 25 \\text{ min}$",
-      "explication": "Natation : $\\dfrac{1{,}5}{2} = 0{,}75 \\text{ h}$. Vélo : $\\dfrac{40}{32} = 1{,}25 \\text{ h}$. Course : $\\dfrac{10}{10} = 1 \\text{ h}$. Total : $0{,}75 + 1{,}25 + 1 = 3 \\text{ h}$. Attention au calcul exact : $0{,}75 + 1{,}25 + 1 = 3 \\text{ h}$... ce qui donne $3 \\text{ h}$ exactement. [Question générée — vérifier les données]"
+      "explication": "Natation : $\\dfrac{1{,}5}{2} = 0{,}75 \\text{ h}$. Vélo : $\\dfrac{40}{32} = 1{,}25 \\text{ h}$. Course : $\\dfrac{10}{10} = 1 \\text{ h}$. Total : $0{,}75 + 1{,}25 + 1 = 3 \\text{ h}$. Attention au calcul exact : $0{,}75 + 1{,}25 + 1 = 3 \\text{ h}$... ce qui donne $3 \\text{ h}$ exactement."
     },
     {
       "id": "prop5_n3_026",
@@ -954,51 +954,51 @@
       "image": null,
       "choix": ["$82{,}50$ €", "$88$ €", "$90$ €", "$99$ €"],
       "reponse": "$88$ €",
-      "explication": "Après $-25\\%$, le prix est $75\\%$ du prix initial. $P_0 \\times 0{,}75 = 66$, donc $P_0 = \\dfrac{66}{0{,}75} = 88$ €. [Question générée]"
+      "explication": "Après $-25\\%$, le prix est $75\\%$ du prix initial. $P_0 \\times 0{,}75 = 66$, donc $P_0 = \\dfrac{66}{0{,}75} = 88$ €."
     },
     {
       "id": "prop5_n3_027",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "Un plan à l'échelle $\\dfrac{1}{100 000}$ représente une forêt rectangulaire de $3 \\text{ km} \\times 1{,}5 \\text{ km}$. Quelles sont les dimensions sur la carte ? [Question générée]",
+      "enonce_html": "Un plan à l'échelle $\\dfrac{1}{100 000}$ représente une forêt rectangulaire de $3 \\text{ km} \\times 1{,}5 \\text{ km}$. Quelles sont les dimensions sur la carte ?",
       "image": null,
       "choix": ["$1{,}5 \\text{ cm} \\times 0{,}75 \\text{ cm}$", "$3 \\text{ cm} \\times 1{,}5 \\text{ cm}$", "$6 \\text{ cm} \\times 3 \\text{ cm}$", "$30 \\text{ cm} \\times 15 \\text{ cm}$"],
       "reponse": "$3 \\text{ cm} \\times 1{,}5 \\text{ cm}$",
-      "explication": "[Question générée] $3 \\text{ km} = 300 000 \\text{ cm}$. Sur carte : $\\dfrac{300 000}{100 000} = 3 \\text{ cm}$. De même, $1{,}5 \\text{ km} = 150 000 \\text{ cm} \\to \\dfrac{150 000}{100 000} = 1{,}5 \\text{ cm}$."
+      "explication": "$3 \\text{ km} = 300 000 \\text{ cm}$. Sur carte : $\\dfrac{300 000}{100 000} = 3 \\text{ cm}$. De même, $1{,}5 \\text{ km} = 150 000 \\text{ cm} \\to \\dfrac{150 000}{100 000} = 1{,}5 \\text{ cm}$."
     },
     {
       "id": "prop5_n3_028",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "Un article augmente de $20\\%$. Puis il baisse de $20\\%$. Quel est le pourcentage d'évolution globale ? [Question générée]",
+      "enonce_html": "Un article augmente de $20\\%$. Puis il baisse de $20\\%$. Quel est le pourcentage d'évolution globale ?",
       "image": null,
       "choix": ["$0\\%$", "$-1\\%$", "$-4\\%$", "$+4\\%$"],
       "reponse": "$-4\\%$",
-      "explication": "[Question générée] Coefficient global : $1{,}2 \\times 0{,}8 = 0{,}96$. Le prix final est $96\\%$ du prix initial, soit une baisse de $4\\%$."
+      "explication": "Coefficient global : $1{,}2 \\times 0{,}8 = 0{,}96$. Le prix final est $96\\%$ du prix initial, soit une baisse de $4\\%$."
     },
     {
       "id": "prop5_n3_029",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "Deux grandeurs $x$ et $y$ : $y = 3x + 2$. Cette relation est-elle une proportionnalité ? [Question générée]",
+      "enonce_html": "Deux grandeurs $x$ et $y$ : $y = 3x + 2$. Cette relation est-elle une proportionnalité ? ",
       "image": null,
       "choix": ["Oui, le coefficient est $3$", "Non, car il y a un terme constant $+2$", "Oui, le coefficient est $5$", "Non, car $y$ dépend de $x$"],
       "reponse": "Non, car il y a un terme constant $+2$",
-      "explication": "[Question générée] Pour une proportionnalité, la relation doit être $y = k \\times x$ avec passage par l'origine. Ici $y = 3x + 2$ : quand $x = 0$, $y = 2 \\neq 0$. Le graphe ne passe pas par l'origine, donc ce n'est PAS une proportionnalité."
+      "explication": "  Pour une proportionnalité, la relation doit être $y = k \\times x$ avec passage par l'origine. Ici $y = 3x + 2$ : quand $x = 0$, $y = 2 \\neq 0$. Le graphe ne passe pas par l'origine, donc ce n'est PAS une proportionnalité."
     },
     {
       "id": "prop5_n3_030",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "Un sac à $54$ € est soldé à $-25\\%$. Quel est son prix soldé ? [Question générée]",
+      "enonce_html": "Un sac à $54$ € est soldé à $-25\\%$. Quel est son prix soldé ?  ",
       "image": null,
       "choix": ["$29$ €", "$40{,}50$ €", "$45$ €", "$52$ €"],
       "reponse": "$40{,}50$ €",
-      "explication": "[Question générée] Remise : $54 \\times 0{,}25 = 13{,}50$ €. Prix soldé : $54 - 13{,}50 = 40{,}50$ €."
+      "explication": "  Remise : $54 \\times 0{,}25 = 13{,}50$ €. Prix soldé : $54 - 13{,}50 = 40{,}50$ €."
     }
 
   ]
