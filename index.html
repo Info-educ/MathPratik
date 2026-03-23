@@ -623,7 +623,15 @@
       background:var(--tx); color:var(--bg);
     }
     .btn-launch.disabled {
-      background:var(--subtle); color:var(--tx3); cursor:not-allowed;
+      background: color-mix(in srgb, var(--ac) 12%, var(--raised));
+      color: var(--ac);
+      cursor: not-allowed;
+      border: 2px dashed color-mix(in srgb, var(--ac) 55%, transparent);
+      animation: pulseHint 2.4s ease-in-out infinite;
+    }
+    @keyframes pulseHint {
+      0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--ac) 30%, transparent); }
+      50%       { box-shadow: 0 0 0 6px color-mix(in srgb, var(--ac) 0%, transparent); }
     }
     .btn-launch:not(.disabled):active { transform:scale(0.98); }
 
@@ -1415,7 +1423,7 @@
     <!-- Bouton lancer -->
     <div class="launch-bar">
       <button class="btn-launch disabled" id="btn-launch" onclick="launchQuiz()">
-        Choisir au moins 1 thème
+        ☝️ Choisir au moins 1 thème ci-dessus
       </button>
     </div>
   </div>
