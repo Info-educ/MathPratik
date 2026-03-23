@@ -1084,11 +1084,40 @@ function buildCalculatrice() {
 
 const _calc = { expr: '', justEq: false };
 
+// Convertit les chiffres 0-9 en exposants Unicode ⁰¹²³…
+const _supMap = {'0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹','-':'⁻'};
+function toSup(s) { return String(s).split('').map(c => _supMap[c] || c).join(''); }
+
+// Transforme l'expression interne en affichage lisible
+// (2)**3  →  2³     Math.sqrt(25)  →  √25     (3)**-2  →  3⁻²
+function prettifyExpr(expr) {
+  if (!expr) return '';
+  let s = expr;
+  // Math.sqrt(x)  →  √x (fermée ou en cours)
+  s = s.replace(/Math\.sqrt\(([^)]*)\)/g, (_, i) => '√' + (i ? i : ''));
+  s = s.replace(/Math\.sqrt\(([^)]*)$/g,  (_, i) => '√' + (i ? i : ''));
+  // (base)**exp  →  base exposant Unicode (exposant complet)
+  s = s.replace(/\(([^()]+)\)\*\*(-?[\d.]+)/g, (_, base, exp) => base + toSup(exp));
+  // (base)**  en cours de saisie → base^
+  s = s.replace(/\(([^()]+)\)\*\*$/g, (_, base) => base + '^');
+  // Supprimer parenthèses autour d'un nombre simple isolé : (25) → 25
+  s = s.replace(/\((\d+(?:\.\d+)?)\)(?!\*\*)/g, '$1');
+  return s;
+}
+
 function calcUpdateDisplay() {
   const screen = document.getElementById('calc-screen');
   const exprEl = document.getElementById('calc-expr');
-  if (screen) screen.value = _calc.display || '0';
-  if (exprEl) exprEl.textContent = _calc.expr || '';
+  // Écran principal : résultat numérique après =, expression lisible sinon
+  if (screen) {
+    screen.value = _calc.justEq
+      ? (_calc.display || '0')
+      : (prettifyExpr(_calc.expr) || '0');
+  }
+  // Petite ligne au-dessus : expression interne (debug discret) — vide après =
+  if (exprEl) {
+    exprEl.textContent = '';
+  }
 }
 
 function calcAction(key) {
@@ -1100,13 +1129,19 @@ function calcAction(key) {
     calcUpdateDisplay(); return;
   }
   if (key === 'CE') {
-    // Supprimer dernier caractère de l'expression affichée
-    if (_calc.justEq) { _calc.expr = ''; _calc.display = '0'; _calc.justEq = false; }
-    else {
-      // Supprimer aussi "Math.sqrt(" ou "Math.pow(" si on est à la fin d'une fonction
-      if (_calc.expr.endsWith('Math.sqrt(')) _calc.expr = _calc.expr.slice(0, -10);
-      else if (_calc.expr.endsWith(',')) _calc.expr = _calc.expr.slice(0, -1);
-      else _calc.expr = _calc.expr.slice(0, -1);
+    if (_calc.justEq) {
+      _calc.expr = ''; _calc.display = '0'; _calc.justEq = false;
+    } else {
+      // Supprimer le dernier token logique
+      const e = _calc.expr;
+      if      (e.endsWith('Math.sqrt(')) _calc.expr = e.slice(0, -10);
+      else if (e.endsWith(')**'))        _calc.expr = e.slice(0, -3);  // xⁿ en attente
+      else if (e.endsWith(')**2'))       _calc.expr = e.slice(0, -4);  // x²
+      else if (e.match(/\(\d+\)\*\*\d+$/)) {
+        // supprimer l'exposant complet (ex: (5)**3 → vide)
+        _calc.expr = e.replace(/\([^()]+\)\*\*[\d.]+$/, '');
+      }
+      else _calc.expr = e.slice(0, -1);
       _calc.display = _calc.expr || '0';
     }
     calcUpdateDisplay(); return;
