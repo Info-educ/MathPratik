@@ -15,21 +15,24 @@
 
       window._themeKey = STORAGE_KEY;
 
-      window.toggleTheme = function () {
+      window.toggleDarkMode = function () {
         var current = document.documentElement.getAttribute('data-theme');
         var next = current === 'dark' ? 'light' : 'dark';
         localStorage.setItem(STORAGE_KEY, next);
         document.documentElement.classList.add('theme-transitioning');
         setTimeout(function () { document.documentElement.classList.remove('theme-transitioning'); }, 350);
         document.documentElement.setAttribute('data-theme', next);
-        var btn = document.getElementById('btn-theme');
-        if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
+        /* Met à jour tous les boutons thème présents dans la page */
+        document.querySelectorAll('.btn-theme-toggle').forEach(function (btn) {
+          btn.textContent = next === 'dark' ? '☀️' : '🌙';
+        });
       };
 
       /* Sync icône dès que le DOM est prêt */
       document.addEventListener('DOMContentLoaded', function () {
-        var btn = document.getElementById('btn-theme');
-        if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        document.querySelectorAll('.btn-theme-toggle').forEach(function (btn) {
+          btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        });
       });
 
       /* Suivre le système si pas de préférence sauvegardée */
@@ -38,8 +41,9 @@
           if (!localStorage.getItem(STORAGE_KEY)) {
             var t = e.matches ? 'dark' : 'light';
             document.documentElement.setAttribute('data-theme', t);
-            var btn = document.getElementById('btn-theme');
-            if (btn) btn.textContent = t === 'dark' ? '☀️' : '🌙';
+            document.querySelectorAll('.btn-theme-toggle').forEach(function (btn) {
+              btn.textContent = t === 'dark' ? '☀️' : '🌙';
+            });
           }
         });
       }
@@ -1357,7 +1361,7 @@
       <button class="btn-icon btn-back" id="btn-back" onclick="goBack()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
       <div style="display:flex;align-items:center;gap:6px;">
-        <button class="btn-icon btn-theme-toggle" id="btn-theme" onclick="toggleTheme()" title="Changer le thème" aria-label="Basculer mode sombre / clair">☀️</button>
+        <button class="btn-icon btn-theme-toggle" id="btn-theme" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">☀️</button>
         <button class="btn-icon" id="btn-teacher" onclick="openTeacherLogin()" title="Module enseignant" aria-label="Module enseignant" style="font-size:1.1rem;">👩‍🏫</button>
       </div>
     </div>
@@ -1377,7 +1381,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showHome()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
     <div class="notions-header">
       <div class="nv-chip" id="notions-badge">5ème</div>
@@ -1392,7 +1396,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showHome()">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
 
     <!-- Niveau et mode -->
@@ -1421,7 +1425,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showSelect(State.currentNiveau)">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
     <div class="exam-fail-screen">
       <div class="fail-icon">❌</div>
@@ -1481,7 +1485,7 @@
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showNotions(currentNiveau)">←</button>
       <div class="logo">Math<em>Pratik</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
     <div class="results-wrap">
       <div class="result-emoji" id="result-emoji">🎉</div>
@@ -1554,7 +1558,7 @@
     <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
       <button class="btn-icon btn-back visible" onclick="closeTeacherModule()" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
       <div class="logo" style="color:#e0e7ff;">Module <em style="color:#818cf8;">Enseignant</em></div>
-      <div style="width:36px;"></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
 
     <div class="teacher-banner">
