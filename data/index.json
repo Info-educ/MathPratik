@@ -166,6 +166,11 @@
       "id":      "aires_perimetres_6eme",
       "fichier": "data/6eme/aires_perimetres_6eme.json",
       "niveau":  "6eme"
+    },
+    {
+      "id":      "droites_6eme",
+      "fichier": "data/6eme/droites_6eme.json",
+      "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
