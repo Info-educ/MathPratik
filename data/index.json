@@ -191,6 +191,16 @@
       "id":      "polygones_6eme",
       "fichier": "data/6eme/polygones_6eme.json",
       "niveau":  "6eme"
+    },
+    {
+      "id":      "quatre_operations_6eme",
+      "fichier": "data/6eme/quatre_operations_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "nombres_decimaux_6eme",
+      "fichier": "data/6eme/nombres_decimaux_6eme.json",
+      "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
