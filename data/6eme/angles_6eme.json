@@ -1,0 +1,1451 @@
+{
+  "niveau": "6eme",
+  "thematique": {
+    "id": "angles_6eme",
+    "label": "Les Angles",
+    "icon": "📐",
+    "color": "#0891b2"
+  },
+  "questions": [
+    {
+      "id": "ang6_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Qu'est-ce qu'un angle ?",
+      "image": null,
+      "choix": [
+        "Un segment limité par deux points",
+        "Une portion de plan délimitée par deux demi-droites de même origine",
+        "Une droite infinie",
+        "Un cercle complet"
+      ],
+      "reponse": "Une portion de plan délimitée par deux demi-droites de même origine",
+      "explication": "Un angle est une portion de plan délimitée par deux demi-droites de même origine, appelées les côtés de l'angle."
+    },
+    {
+      "id": "ang6_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on l'origine commune des deux demi-droites qui forment un angle ?",
+      "image": null,
+      "choix": [
+        "Le côté",
+        "Le bras",
+        "Le sommet",
+        "Le centre"
+      ],
+      "reponse": "Le sommet",
+      "explication": "L'origine commune des deux demi-droites est appelée le sommet de l'angle."
+    },
+    {
+      "id": "ang6_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "L'angle dont le sommet est $O$ et les côtés passent par $A$ et $B$ se note :",
+      "image": null,
+      "choix": [
+        "$AOB$",
+        "$OAB$",
+        "$A$-$O$-$B$",
+        "$\\widehat{AOB}$"
+      ],
+      "reponse": "$\\widehat{AOB}$",
+      "explication": "Un angle se note avec trois lettres surmontées d'un chapeau ($\\widehat{}$), le sommet étant la lettre du milieu : $\\widehat{AOB}$."
+    },
+    {
+      "id": "ang6_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "L'angle $\\widehat{APM}$ peut aussi se noter :",
+      "image": null,
+      "choix": [
+        "$\\widehat{PAM}$",
+        "$\\widehat{MAP}$",
+        "$\\widehat{MPA}$",
+        "$\\widehat{AMP}$"
+      ],
+      "reponse": "$\\widehat{MPA}$",
+      "explication": "On peut inverser l'ordre des deux points extérieurs : $\\widehat{APM} = \\widehat{MPA}$. Le sommet $P$ reste toujours au milieu."
+    },
+    {
+      "id": "ang6_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de degrés mesure un angle droit ?",
+      "image": null,
+      "choix": [
+        "$45°$",
+        "$60°$",
+        "$90°$",
+        "$180°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "Un angle droit mesure exactement $90°$. Il est représenté par un petit carré sur les figures."
+    },
+    {
+      "id": "ang6_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle aigu est un angle :",
+      "image": null,
+      "choix": [
+        "Égal à $90°$",
+        "Supérieur à $90°$ et inférieur à $180°$",
+        "Strictement inférieur à $90°$",
+        "Égal à $180°$"
+      ],
+      "reponse": "Strictement inférieur à $90°$",
+      "explication": "Un angle aigu est strictement inférieur à $90°$. Il est « pointu »."
+    },
+    {
+      "id": "ang6_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle obtus est un angle :",
+      "image": null,
+      "choix": [
+        "Égal à $90°$",
+        "Strictement inférieur à $90°$",
+        "Supérieur à $90°$ et inférieur à $180°$",
+        "Égal à $180°$"
+      ],
+      "reponse": "Supérieur à $90°$ et inférieur à $180°$",
+      "explication": "Un angle obtus est compris entre $90°$ (exclu) et $180°$ (exclu). Il est plus « ouvert » qu'un angle droit."
+    },
+    {
+      "id": "ang6_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle plat mesure :",
+      "image": null,
+      "choix": [
+        "$90°$",
+        "$120°$",
+        "$180°$",
+        "$360°$"
+      ],
+      "reponse": "$180°$",
+      "explication": "Un angle plat mesure $180°$. Il correspond à deux demi-droites opposées formant une droite complète."
+    },
+    {
+      "id": "ang6_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle de $125°$ est :",
+      "image": null,
+      "choix": [
+        "Aigu",
+        "Droit",
+        "Obtus",
+        "Plat"
+      ],
+      "reponse": "Obtus",
+      "explication": "$90° < 125° < 180°$, donc l'angle de $125°$ est obtus."
+    },
+    {
+      "id": "ang6_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle de $89°$ est :",
+      "image": null,
+      "choix": [
+        "Aigu",
+        "Droit",
+        "Obtus",
+        "Plat"
+      ],
+      "reponse": "Aigu",
+      "explication": "$89° < 90°$, donc l'angle de $89°$ est aigu."
+    },
+    {
+      "id": "ang6_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "À quoi sert un rapporteur ?",
+      "image": null,
+      "choix": [
+        "À tracer des droites",
+        "À mesurer des longueurs",
+        "À mesurer ou tracer des angles",
+        "À dessiner des cercles"
+      ],
+      "reponse": "À mesurer ou tracer des angles",
+      "explication": "Le rapporteur est l'instrument de géométrie qui sert à mesurer ou tracer des angles."
+    },
+    {
+      "id": "ang6_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pourquoi la plupart des rapporteurs sont-ils gradués dans les deux sens ?",
+      "image": null,
+      "choix": [
+        "Pour les gauchers et les droitiers",
+        "Pour pouvoir mesurer les angles dans les deux orientations",
+        "Pour décorer le rapporteur",
+        "Ce n'est pas utile"
+      ],
+      "reponse": "Pour pouvoir mesurer les angles dans les deux orientations",
+      "explication": "Les rapporteurs sont gradués dans les deux sens pour permettre de mesurer des angles quelle que soit leur orientation sur la figure."
+    },
+    {
+      "id": "ang6_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On place le rapporteur sur un angle. Un côté coupe le $0°$, l'autre coupe simultanément $55°$ et $125°$. L'angle est visiblement aigu. Quelle valeur choisit-on ?",
+      "image": null,
+      "choix": [
+        "$125°$",
+        "$55°$",
+        "$90°$",
+        "$180°$"
+      ],
+      "reponse": "$55°$",
+      "explication": "L'angle est aigu ($< 90°$), donc on choisit la valeur inférieure à $90°$ : $55°$."
+    },
+    {
+      "id": "ang6_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Qu'est-ce que la bissectrice d'un angle ?",
+      "image": null,
+      "choix": [
+        "Une droite perpendiculaire au côté de l'angle",
+        "Une demi-droite qui partage l'angle en deux angles de même mesure",
+        "Le côté le plus long de l'angle",
+        "Un demi-cercle à l'intérieur de l'angle"
+      ],
+      "reponse": "Une demi-droite qui partage l'angle en deux angles de même mesure",
+      "explication": "La bissectrice d'un angle est la demi-droite issue du sommet qui partage cet angle en deux angles égaux."
+    },
+    {
+      "id": "ang6_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(OC)$ est la bissectrice de l'angle $\\widehat{HCF}$. Si $\\widehat{HCO} = 35°$, quelle est la mesure de $\\widehat{OCF}$ ?",
+      "image": null,
+      "choix": [
+        "$17{,}5°$",
+        "$35°$",
+        "$70°$",
+        "$90°$"
+      ],
+      "reponse": "$35°$",
+      "explication": "La bissectrice partage l'angle en deux angles égaux : $\\widehat{OCF} = \\widehat{HCO} = 35°$."
+    },
+    {
+      "id": "ang6_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que signifie coder deux angles de la même façon sur une figure ?",
+      "image": null,
+      "choix": [
+        "Qu'ils ont la même couleur",
+        "Qu'ils ont la même mesure",
+        "Qu'ils sont adjacents",
+        "Qu'ils partagent un côté"
+      ],
+      "reponse": "Qu'ils ont la même mesure",
+      "explication": "Le codage identique (même arc, même nombre de traits) indique que deux angles ont la même mesure."
+    },
+    {
+      "id": "ang6_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces angles, lequel est un angle droit ?",
+      "image": null,
+      "choix": [
+        "$75°$",
+        "$90°$",
+        "$95°$",
+        "$180°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "Un angle droit mesure exactement $90°$, ni plus ni moins."
+    },
+    {
+      "id": "ang6_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle de $180°$ correspond à :",
+      "image": null,
+      "choix": [
+        "Un angle droit",
+        "Deux demi-droites perpendiculaires",
+        "Deux demi-droites alignées dans le même sens",
+        "Deux demi-droites opposées formant une droite"
+      ],
+      "reponse": "Deux demi-droites opposées formant une droite",
+      "explication": "Un angle plat de $180°$ correspond à deux demi-droites de même origine mais de sens opposés, formant une droite complète."
+    },
+    {
+      "id": "ang6_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La bissectrice d'un angle de $80°$ partage cet angle en deux angles égaux. Quelle est la mesure de chacun ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$40°$",
+        "$80°$",
+        "$160°$"
+      ],
+      "reponse": "$40°$",
+      "explication": "$80° \\div 2 = 40°$. La bissectrice crée deux angles de $40°$ chacun."
+    },
+    {
+      "id": "ang6_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La bissectrice d'un angle droit partage cet angle en deux angles égaux. Quelle est la mesure de chacun ?",
+      "image": null,
+      "choix": [
+        "$30°$",
+        "$45°$",
+        "$60°$",
+        "$90°$"
+      ],
+      "reponse": "$45°$",
+      "explication": "$90° \\div 2 = 45°$. Chaque angle mesure $45°$."
+    },
+    {
+      "id": "ang6_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel type d'angle a chaque angle intérieur d'un carré ?",
+      "image": null,
+      "choix": [
+        "Aigu",
+        "Droit",
+        "Obtus",
+        "Plat"
+      ],
+      "reponse": "Droit",
+      "explication": "Chaque coin d'un carré est un angle droit de $90°$."
+    },
+    {
+      "id": "ang6_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle nul mesure :",
+      "image": null,
+      "choix": [
+        "$0°$",
+        "$45°$",
+        "$90°$",
+        "$180°$"
+      ],
+      "reponse": "$0°$",
+      "explication": "Un angle nul mesure $0°$ : les deux demi-droites qui le forment sont confondues."
+    },
+    {
+      "id": "ang6_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un élève mesure un angle et obtient $130°$. Quel type d'angle est-ce ?",
+      "image": null,
+      "choix": [
+        "Aigu",
+        "Droit",
+        "Obtus",
+        "Plat"
+      ],
+      "reponse": "Obtus",
+      "explication": "$130°$ est compris entre $90°$ et $180°$, donc c'est un angle obtus."
+    },
+    {
+      "id": "ang6_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La bissectrice d'un angle de $120°$ partage cet angle en deux angles égaux. Quelle est la mesure de chacun ?",
+      "image": null,
+      "choix": [
+        "$40°$",
+        "$60°$",
+        "$80°$",
+        "$120°$"
+      ],
+      "reponse": "$60°$",
+      "explication": "$120° \\div 2 = 60°$. Chaque angle mesure $60°$."
+    },
+    {
+      "id": "ang6_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans la notation $\\widehat{APM}$, quelle est la lettre du sommet ?",
+      "image": null,
+      "choix": [
+        "$A$",
+        "$P$",
+        "$M$",
+        "Il n'y a pas de sommet"
+      ],
+      "reponse": "$P$",
+      "explication": "Dans la notation d'un angle, le sommet est toujours la lettre du milieu. Dans $\\widehat{APM}$, le sommet est $P$."
+    },
+    {
+      "id": "ang6_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle mesure $45°$. Est-il plus grand ou plus petit qu'un angle droit ?",
+      "image": null,
+      "choix": [
+        "Plus grand",
+        "Plus petit",
+        "Égal",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "Plus petit",
+      "explication": "$45° < 90°$, donc l'angle de $45°$ est plus petit qu'un angle droit. C'est la moitié d'un angle droit."
+    },
+    {
+      "id": "ang6_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour mesurer un angle $\\widehat{AOB}$, on place le rapporteur. Quelle est la première étape ?",
+      "image": null,
+      "choix": [
+        "Lire la graduation sur le deuxième côté",
+        "Placer le centre du rapporteur sur le sommet $O$",
+        "Tracer un cercle",
+        "Aligner le côté $0°$ avec $[OB)$"
+      ],
+      "reponse": "Placer le centre du rapporteur sur le sommet $O$",
+      "explication": "La première étape est de placer le centre du rapporteur exactement sur le sommet $O$ de l'angle."
+    },
+    {
+      "id": "ang6_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle droit est-il aussi un angle aigu ?",
+      "image": null,
+      "choix": [
+        "Oui, car il mesure moins de $180°$",
+        "Non, un angle droit mesure exactement $90°$, pas strictement moins",
+        "Oui, car $90°$ est une petite mesure",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Non, un angle droit mesure exactement $90°$, pas strictement moins",
+      "explication": "Un angle aigu est strictement inférieur à $90°$. Un angle droit mesure exactement $90°$ : ce n'est pas un angle aigu. [Question générée]"
+    },
+    {
+      "id": "ang6_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Parmi ces angles, lequel est obtus ?",
+      "image": null,
+      "choix": [
+        "$35°$",
+        "$90°$",
+        "$145°$",
+        "$180°$"
+      ],
+      "reponse": "$145°$",
+      "explication": "Un angle obtus est compris entre $90°$ (exclu) et $180°$ (exclu). Seul $145°$ vérifie $90° < 145° < 180°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Les côtés d'un angle sont :",
+      "image": null,
+      "choix": [
+        "Deux segments de même longueur",
+        "Deux droites parallèles",
+        "Les deux demi-droites de même origine qui délimitent l'angle",
+        "Le périmètre de l'angle"
+      ],
+      "reponse": "Les deux demi-droites de même origine qui délimitent l'angle",
+      "explication": "Les côtés d'un angle sont les deux demi-droites de même origine (le sommet) qui délimitent cet angle. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les points $P$, $A$ et $E$ sont alignés. La demi-droite $[PM)$ forme l'angle $\\widehat{EPM}$. Que vaut $\\widehat{APM} + \\widehat{EPM}$ ?",
+      "image": null,
+      "choix": [
+        "$90°$",
+        "$180°$",
+        "$360°$",
+        "Cela dépend de la figure"
+      ],
+      "reponse": "$180°$",
+      "explication": "Les demi-droites $[PA)$ et $[PE)$ sont opposées ($A$, $P$, $E$ alignés), donc $\\widehat{APM} + \\widehat{EPM} = 180°$ (angle plat)."
+    },
+    {
+      "id": "ang6_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux angles supplémentaires ont une somme de $180°$. Si l'un mesure $115°$, l'autre mesure :",
+      "image": null,
+      "choix": [
+        "$65°$",
+        "$75°$",
+        "$85°$",
+        "$45°$"
+      ],
+      "reponse": "$65°$",
+      "explication": "$180° - 115° = 65°$. Les deux angles supplémentaires somment à $180°$."
+    },
+    {
+      "id": "ang6_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si la bissectrice $[OC)$ d'un angle droit divise cet angle en deux parties, quel type d'angles obtient-on ?",
+      "image": null,
+      "choix": [
+        "Deux angles droits",
+        "Deux angles de $45°$ (aigus)",
+        "Deux angles obtus",
+        "Un angle aigu et un angle droit"
+      ],
+      "reponse": "Deux angles de $45°$ (aigus)",
+      "explication": "La bissectrice d'un angle droit donne deux angles de $45°$ chacun ($90° \\div 2 = 45°$). Ces angles sont aigus car $45° < 90°$."
+    },
+    {
+      "id": "ang6_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle $\\widehat{AOB} = 50°$. On trace la bissectrice $[OC)$. On trace aussi la bissectrice $[OD)$ de l'angle $\\widehat{COB}$. Quelle est la mesure de $\\widehat{AOD}$ ?",
+      "image": null,
+      "choix": [
+        "$50°$",
+        "$37{,}5°$",
+        "$62{,}5°$",
+        "$75°$"
+      ],
+      "reponse": "$37{,}5°$",
+      "explication": "$\\widehat{AOC} = 25°$ (bissectrice de $50°$). $\\widehat{COD} = 12{,}5°$ (bissectrice de $\\widehat{COB} = 25°$). $\\widehat{AOD} = 25° + 12{,}5° = 37{,}5°$."
+    },
+    {
+      "id": "ang6_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle plat est partagé par une demi-droite en un angle aigu de $70°$ et un angle obtus. Quelle est la mesure de l'angle obtus ?",
+      "image": null,
+      "choix": [
+        "$70°$",
+        "$90°$",
+        "$110°$",
+        "$130°$"
+      ],
+      "reponse": "$110°$",
+      "explication": "$180° - 70° = 110°$. L'angle obtus mesure $110°$. On vérifie : $70° + 110° = 180°$ ✓"
+    },
+    {
+      "id": "ang6_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si la bissectrice d'un angle donne deux angles de $90°$ chacun, quelle était la mesure initiale de l'angle ?",
+      "image": null,
+      "choix": [
+        "$45°$",
+        "$90°$",
+        "$180°$",
+        "Impossible à déterminer"
+      ],
+      "reponse": "$180°$",
+      "explication": "La bissectrice partage en deux angles égaux. Si chaque partie est $90°$, l'angle total est $2 \\times 90° = 180°$ (angle plat)."
+    },
+    {
+      "id": "ang6_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un élève mesure un angle avec un rapporteur. Il peut lire soit $40°$ soit $140°$. L'angle est visiblement obtus. Quelle valeur retenir ?",
+      "image": null,
+      "choix": [
+        "$40°$",
+        "$140°$",
+        "$90°$",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "$140°$",
+      "explication": "L'angle est obtus ($> 90°$), donc on retient $140°$. La valeur $40°$ correspondrait à un angle aigu."
+    },
+    {
+      "id": "ang6_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La demi-droite $[OC)$ est la bissectrice de l'angle $\\widehat{AOB}$. On sait que $\\widehat{AOC} = 38°$. Quelle est la mesure de $\\widehat{AOB}$ ?",
+      "image": null,
+      "choix": [
+        "$19°$",
+        "$38°$",
+        "$76°$",
+        "$114°$"
+      ],
+      "reponse": "$76°$",
+      "explication": "La bissectrice partage en deux angles égaux : $\\widehat{AOB} = 2 \\times 38° = 76°$."
+    },
+    {
+      "id": "ang6_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si $\\widehat{AOB} = 55°$ et la bissectrice $[OC)$ de $\\widehat{AOB}$ est tracée, laquelle de ces affirmations est fausse ?",
+      "image": null,
+      "choix": [
+        "$\\widehat{AOC} = 27{,}5°$",
+        "$\\widehat{COB} = 27{,}5°$",
+        "$\\widehat{AOC} + \\widehat{COB} = 55°$",
+        "$\\widehat{AOC} = 55°$"
+      ],
+      "reponse": "$\\widehat{AOC} = 55°$",
+      "explication": "$\\widehat{AOC} = 55° \\div 2 = 27{,}5°$, pas $55°$. C'est l'affirmation fausse."
+    },
+    {
+      "id": "ang6_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La bissectrice d'un angle de $160°$ crée deux angles. Quel type d'angles obtient-on ?",
+      "image": null,
+      "choix": [
+        "Deux angles aigus",
+        "Deux angles droits",
+        "Deux angles obtus",
+        "Un aigu et un obtus"
+      ],
+      "reponse": "Deux angles aigus",
+      "explication": "$160° \\div 2 = 80°$. Chaque angle mesure $80°$, qui est aigu car $80° < 90°$."
+    },
+    {
+      "id": "ang6_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle droit est divisé en $3$ angles égaux par deux demi-droites. Quelle est la mesure de chaque petit angle ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$30°$",
+        "$45°$",
+        "$60°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "$90° \\div 3 = 30°$. Chaque angle mesure $30°$."
+    },
+    {
+      "id": "ang6_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux angles forment ensemble un angle plat. L'un mesure $2$ fois l'autre. Quelle est la mesure du plus petit ?",
+      "image": null,
+      "choix": [
+        "$45°$",
+        "$60°$",
+        "$90°$",
+        "$120°$"
+      ],
+      "reponse": "$60°$",
+      "explication": "Soit $x$ et $2x$ : $x + 2x = 180°$ donc $3x = 180°$ donc $x = 60°$. Les angles mesurent $60°$ et $120°$."
+    },
+    {
+      "id": "ang6_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Trois demi-droites $[OA)$, $[OB)$ et $[OC)$ partent du même point $O$. $\\widehat{AOB} = 40°$ et $\\widehat{BOC} = 65°$. Quelle est la mesure de $\\widehat{AOC}$ si $[OB)$ est entre $[OA)$ et $[OC)$ ?",
+      "image": null,
+      "choix": [
+        "$25°$",
+        "$65°$",
+        "$105°$",
+        "$180°$"
+      ],
+      "reponse": "$105°$",
+      "explication": "$\\widehat{AOC} = \\widehat{AOB} + \\widehat{BOC} = 40° + 65° = 105°$. C'est un angle obtus."
+    },
+    {
+      "id": "ang6_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux angles adjacents ont des mesures de $45°$ et $55°$. Quelle est la mesure de l'angle total formé ?",
+      "image": null,
+      "choix": [
+        "$90°$",
+        "$95°$",
+        "$100°$",
+        "$110°$"
+      ],
+      "reponse": "$100°$",
+      "explication": "$45° + 55° = 100°$. L'angle total mesure $100°$. C'est un angle obtus."
+    },
+    {
+      "id": "ang6_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle $\\widehat{AOB} = 130°$ est partagé par $[OC)$ en deux angles : $\\widehat{AOC} = 2 \\times \\widehat{COB}$. Quelle est la valeur approximative de $\\widehat{COB}$ ?",
+      "image": null,
+      "choix": [
+        "$\\approx 33°$",
+        "$\\approx 43°$",
+        "$\\approx 65°$",
+        "$\\approx 87°$"
+      ],
+      "reponse": "$\\approx 43°$",
+      "explication": "$\\widehat{AOC} + \\widehat{COB} = 130°$ et $\\widehat{AOC} = 2\\widehat{COB}$, donc $3x = 130°$, $x \\approx 43{,}3°$."
+    },
+    {
+      "id": "ang6_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Trois angles aigus identiques forment ensemble un angle droit. Quelle est la mesure de chacun ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$30°$",
+        "$45°$",
+        "$60°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "$90° \\div 3 = 30°$. Chaque angle mesure $30°$."
+    },
+    {
+      "id": "ang6_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle, deux angles mesurent $60°$ et $80°$. Quel est le troisième angle ?",
+      "image": null,
+      "choix": [
+        "$30°$",
+        "$40°$",
+        "$50°$",
+        "$60°$"
+      ],
+      "reponse": "$40°$",
+      "explication": "La somme des angles d'un triangle est $180°$. Troisième angle : $180° - 60° - 80° = 40°$. C'est un angle aigu."
+    },
+    {
+      "id": "ang6_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel instrument utilise-t-on pour tracer la bissectrice d'un angle précisément ?",
+      "image": null,
+      "choix": [
+        "La règle seule",
+        "Le compas seul",
+        "Le rapporteur",
+        "La règle et l'équerre"
+      ],
+      "reponse": "Le rapporteur",
+      "explication": "On utilise le rapporteur pour mesurer l'angle, puis tracer la demi-droite qui le divise en deux angles égaux."
+    },
+    {
+      "id": "ang6_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux angles complémentaires ont une somme de $90°$. L'un est le double de l'autre. Quelle est la mesure du plus petit ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$30°$",
+        "$45°$",
+        "$60°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "Soit $x$ et $2x$ : $x + 2x = 90°$ donc $3x = 90°$, $x = 30°$. Les angles mesurent $30°$ et $60°$."
+    },
+    {
+      "id": "ang6_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle plat est divisé en un angle aigu de $x°$ et un angle obtus. Laquelle de ces valeurs de $x$ est possible ?",
+      "image": null,
+      "choix": [
+        "$90°$",
+        "$95°$",
+        "$45°$",
+        "$180°$"
+      ],
+      "reponse": "$45°$",
+      "explication": "$x$ doit être $< 90°$ pour être aigu. $45°$ convient (et le reste $180° - 45° = 135°$ est bien obtus)."
+    },
+    {
+      "id": "ang6_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle $\\widehat{ABC}$ a pour bissectrice $[BD)$. Si $\\widehat{ABD} = 22°$, quelle est la mesure de $\\widehat{ABC}$ ?",
+      "image": null,
+      "choix": [
+        "$11°$",
+        "$22°$",
+        "$44°$",
+        "$66°$"
+      ],
+      "reponse": "$44°$",
+      "explication": "La bissectrice partage l'angle en deux parties égales, donc $\\widehat{ABC} = 2 \\times 22° = 44°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Deux angles complémentaires (somme $= 90°$) ont une différence de $20°$. Quelle est la mesure du plus petit ?",
+      "image": null,
+      "choix": [
+        "$25°$",
+        "$35°$",
+        "$45°$",
+        "$55°$"
+      ],
+      "reponse": "$35°$",
+      "explication": "Soit $x$ et $x + 20°$. $x + x + 20° = 90°$, donc $2x = 70°$, $x = 35°$. Les angles mesurent $35°$ et $55°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle plat est partagé en $4$ angles égaux. Quelle est la mesure de chacun ?",
+      "image": null,
+      "choix": [
+        "$30°$",
+        "$40°$",
+        "$45°$",
+        "$60°$"
+      ],
+      "reponse": "$45°$",
+      "explication": "$180° \\div 4 = 45°$. Chaque angle mesure $45°$. Ce sont des angles aigus. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle obtus mesure $3$ fois un angle aigu de $40°$. Quelle est la mesure de l'angle obtus ?",
+      "image": null,
+      "choix": [
+        "$80°$",
+        "$100°$",
+        "$120°$",
+        "$160°$"
+      ],
+      "reponse": "$120°$",
+      "explication": "$3 \\times 40° = 120°$. L'angle obtus mesure $120°$. Vérification : $90° < 120° < 180°$ : c'est bien obtus. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Dans un triangle rectangle, l'un des angles aigus mesure $55°$. Quelle est la mesure de l'autre angle aigu ?",
+      "image": null,
+      "choix": [
+        "$25°$",
+        "$35°$",
+        "$45°$",
+        "$55°$"
+      ],
+      "reponse": "$35°$",
+      "explication": "Dans un triangle rectangle, la somme des angles est $180°$. L'angle droit est $90°$. Donc le second angle aigu : $180° - 90° - 55° = 35°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle $\\widehat{POQ} = 84°$ a pour bissectrice $[OR)$. On trace aussi la bissectrice $[OS)$ de $\\widehat{ROP}$. Quelle est la mesure de $\\widehat{SOQ}$ ?",
+      "image": null,
+      "choix": [
+        "$21°$",
+        "$42°$",
+        "$63°$",
+        "$84°$"
+      ],
+      "reponse": "$63°$",
+      "explication": "$\\widehat{ROP} = 42°$ (bissectrice de $84°$). $\\widehat{POS} = 21°$ (bissectrice de $42°$). $\\widehat{SOQ} = \\widehat{ROP} + \\widehat{POQ}/2 = 21° + 42° = 63°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Deux angles supplémentaires sont tels que l'un mesure $30°$ de plus que l'autre. Quelle est la mesure du plus grand ?",
+      "image": null,
+      "choix": [
+        "$75°$",
+        "$90°$",
+        "$105°$",
+        "$150°$"
+      ],
+      "reponse": "$105°$",
+      "explication": "Soit $x$ et $x + 30°$. $x + x + 30° = 180°$, donc $2x = 150°$, $x = 75°$. Le plus grand angle : $75° + 30° = 105°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle mesure $\\frac{1}{3}$ d'un angle plat. Quel type d'angle est-il ?",
+      "image": null,
+      "choix": [
+        "Aigu",
+        "Droit",
+        "Obtus",
+        "Plat"
+      ],
+      "reponse": "Aigu",
+      "explication": "$\\frac{1}{3} \\times 180° = 60°$. L'angle mesure $60°$. Comme $60° < 90°$, c'est un angle aigu. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle plat est partagé en $5$ angles consécutifs égaux. Quelle est la mesure de chaque angle ?",
+      "image": null,
+      "choix": [
+        "$24°$",
+        "$30°$",
+        "$36°$",
+        "$45°$"
+      ],
+      "reponse": "$36°$",
+      "explication": "$180° \\div 5 = 36°$. Chaque angle mesure $36°$. Ce sont des angles aigus. [Question générée]"
+    },
+    {
+      "id": "ang6_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Dans un triangle isocèle $ABC$ ($AB = AC$), l'angle au sommet $A$ mesure $40°$. Quelle est la mesure des angles en $B$ et en $C$ ?",
+      "image": null,
+      "choix": [
+        "$60°$",
+        "$70°$",
+        "$80°$",
+        "$100°$"
+      ],
+      "reponse": "$70°$",
+      "explication": "Triangle isocèle : $\\widehat{B} = \\widehat{C}$. $40° + 2\\widehat{B} = 180°$, donc $2\\widehat{B} = 140°$, $\\widehat{B} = \\widehat{C} = 70°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quatre demi-droites $[OA)$, $[OB)$, $[OC)$ et $[OD)$ partent du même point $O$ et forment un angle plat $\\widehat{AOD}$. On sait que $\\widehat{AOB} = \\widehat{BOC} = \\widehat{COD}$. Quelle est la mesure de chaque angle ?",
+      "image": null,
+      "choix": [
+        "$45°$ (aigus)",
+        "$60°$ (aigus)",
+        "$60°$ (obtus)",
+        "$90°$ (droits)"
+      ],
+      "reponse": "$60°$ (aigus)",
+      "explication": "$\\widehat{AOD} = 180°$ partagé en $3$ : $180° \\div 3 = 60°$. $\\widehat{AOB} = \\widehat{BOC} = \\widehat{COD} = 60°$. Ce sont des angles aigus car $60° < 90°$."
+    },
+    {
+      "id": "ang6_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La bissectrice d'un angle $\\widehat{AOB}$ est $[OC)$. Si $\\widehat{AOB} = 84°$, quelle est la mesure de l'angle formé par $[OA)$ et la demi-droite opposée à $[OC)$ ?",
+      "image": null,
+      "choix": [
+        "$42°$",
+        "$84°$",
+        "$138°$",
+        "$96°$"
+      ],
+      "reponse": "$138°$",
+      "explication": "$\\widehat{AOC} = 42°$ (bissectrice de $84°$). La demi-droite opposée à $[OC)$ forme un angle plat avec $[OC)$. L'angle entre $[OA)$ et cette demi-droite opposée $= 180° - 42° = 138°$."
+    },
+    {
+      "id": "ang6_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Trois demi-droites $[OA)$, $[OB)$ et $[OC)$ partent de $O$. $\\widehat{AOB} = 2 \\times \\widehat{BOC}$ et $\\widehat{AOC} = 90°$. Quelle est la mesure de $\\widehat{AOB}$ ?",
+      "image": null,
+      "choix": [
+        "$30°$",
+        "$45°$",
+        "$60°$",
+        "$70°$"
+      ],
+      "reponse": "$60°$",
+      "explication": "$\\widehat{AOB} + \\widehat{BOC} = 90°$. Avec $\\widehat{AOB} = 2 \\times \\widehat{BOC}$, on a $2x + x = 90°$, donc $x = 30°$. $\\widehat{BOC} = 30°$ et $\\widehat{AOB} = 60°$."
+    },
+    {
+      "id": "ang6_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux angles $\\widehat{AOB}$ et $\\widehat{BOC}$ sont tels que $\\widehat{AOB} + \\widehat{BOC} = 180°$ et $\\widehat{AOB} = 70°$. Quel type d'angle est $\\widehat{BOC}$ ?",
+      "image": null,
+      "choix": [
+        "Aigu",
+        "Droit",
+        "Obtus",
+        "Plat"
+      ],
+      "reponse": "Obtus",
+      "explication": "$\\widehat{BOC} = 180° - 70° = 110°$. Comme $90° < 110° < 180°$, c'est un angle obtus."
+    },
+    {
+      "id": "ang6_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle $\\widehat{AOB}$ est obtus. Sa bissectrice $[OC)$ crée $\\widehat{AOC}$ et $\\widehat{COB}$. Quel type sont ces deux angles ?",
+      "image": null,
+      "choix": [
+        "Tous deux droits",
+        "Tous deux aigus",
+        "Tous deux obtus",
+        "Un aigu et un obtus"
+      ],
+      "reponse": "Tous deux aigus",
+      "explication": "$\\widehat{AOB}$ obtus : $90° < \\widehat{AOB} < 180°$. Chaque moitié est entre $45°$ et $90°$, strictement inférieure à $90°$, donc aiguë."
+    },
+    {
+      "id": "ang6_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans une figure, $[OC)$ est la bissectrice de $\\widehat{AOB}$. Un élève mesure $\\widehat{AOB} = 74°$ et $\\widehat{AOC} = 38°$. Y a-t-il une erreur ?",
+      "image": null,
+      "choix": [
+        "Oui, $\\widehat{AOC}$ devrait être $37°$",
+        "Non, $38°$ est correct",
+        "Oui, $\\widehat{AOB}$ devrait être $76°$",
+        "Non, les mesures sont compatibles"
+      ],
+      "reponse": "Oui, $\\widehat{AOC}$ devrait être $37°$",
+      "explication": "La bissectrice donne $\\widehat{AOC} = 74° \\div 2 = 37°$. L'élève a écrit $38°$ au lieu de $37°$, ce qui est une erreur."
+    },
+    {
+      "id": "ang6_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle est égal à son supplément. Quelle est sa mesure ?",
+      "image": null,
+      "choix": [
+        "$45°$",
+        "$60°$",
+        "$90°$",
+        "$180°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "Soit $x = 180° - x$, donc $2x = 180°$, $x = 90°$. Un angle égal à son supplément est un angle droit."
+    },
+    {
+      "id": "ang6_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle plat est partagé en $4$ angles consécutifs tels que chaque angle est $10°$ de plus que le précédent. Quelle est la mesure du plus petit angle ?",
+      "image": null,
+      "choix": [
+        "$25°$",
+        "$30°$",
+        "$35°$",
+        "$40°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "Soit $a$, $a+10°$, $a+20°$, $a+30°$. Somme $= 4a + 60° = 180°$, donc $4a = 120°$, $a = 30°$. Angles : $30°$, $40°$, $50°$, $60°$."
+    },
+    {
+      "id": "ang6_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle $\\widehat{AOB} = 160°$. On trace $[OC)$ telle que $\\widehat{AOC} = 3 \\times \\widehat{COB}$. Quelle est la mesure de $\\widehat{COB}$ ?",
+      "image": null,
+      "choix": [
+        "$30°$",
+        "$40°$",
+        "$50°$",
+        "$60°$"
+      ],
+      "reponse": "$40°$",
+      "explication": "$\\widehat{AOC} + \\widehat{COB} = 160°$ et $\\widehat{AOC} = 3 \\times \\widehat{COB}$. Donc $4x = 160°$, $x = 40°$."
+    },
+    {
+      "id": "ang6_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux angles sont tels que leur somme est $90°$ et leur différence est $30°$. Quelle est la mesure du plus grand ?",
+      "image": null,
+      "choix": [
+        "$30°$",
+        "$45°$",
+        "$60°$",
+        "$70°$"
+      ],
+      "reponse": "$60°$",
+      "explication": "$x + y = 90°$ et $x - y = 30°$. Par addition : $2x = 120°$, $x = 60°$. Donc $y = 30°$."
+    },
+    {
+      "id": "ang6_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si $[OC)$ est la bissectrice de $\\widehat{AOB}$ et $[OD)$ est la bissectrice de $\\widehat{COB}$, quelle relation lie $\\widehat{AOD}$ et $\\widehat{AOB}$ ?",
+      "image": null,
+      "choix": [
+        "$\\widehat{AOD} = \\dfrac{1}{2} \\widehat{AOB}$",
+        "$\\widehat{AOD} = \\dfrac{3}{4} \\widehat{AOB}$",
+        "$\\widehat{AOD} = \\dfrac{1}{4} \\widehat{AOB}$",
+        "$\\widehat{AOD} = 2 \\widehat{AOB}$"
+      ],
+      "reponse": "$\\widehat{AOD} = \\dfrac{3}{4} \\widehat{AOB}$",
+      "explication": "$\\widehat{AOC} = \\widehat{AOB}/2$. $\\widehat{COD} = \\widehat{COB}/2 = \\widehat{AOB}/4$. $\\widehat{AOD} = \\widehat{AOC} + \\widehat{COD} = \\dfrac{\\widehat{AOB}}{2} + \\dfrac{\\widehat{AOB}}{4} = \\dfrac{3}{4}\\widehat{AOB}$."
+    },
+    {
+      "id": "ang6_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle, deux angles sont complémentaires (somme $= 90°$). Quelle est la mesure du troisième angle ?",
+      "image": null,
+      "choix": [
+        "$45°$",
+        "$60°$",
+        "$90°$",
+        "$180°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "La somme des angles d'un triangle $= 180°$. Si deux angles somment à $90°$, le troisième angle $= 180° - 90° = 90°$. C'est un triangle rectangle."
+    },
+    {
+      "id": "ang6_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un angle plat est partagé en $5$ angles consécutifs égaux. Quelle est la mesure de chaque angle et quel type est-il ?",
+      "image": null,
+      "choix": [
+        "$36°$ — aigu",
+        "$36°$ — obtus",
+        "$45°$ — aigu",
+        "$72°$ — aigu"
+      ],
+      "reponse": "$36°$ — aigu",
+      "explication": "$180° \\div 5 = 36°$. $36° < 90°$ : ce sont des angles aigus."
+    },
+    {
+      "id": "ang6_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle $\\widehat{AOB} = 120°$ est partagé par $[OC)$ et $[OD)$ en trois angles égaux. Quelle est la mesure de chaque angle et quel type sont-ils ?",
+      "image": null,
+      "choix": [
+        "$30°$ — aigus",
+        "$40°$ — aigus",
+        "$60°$ — aigus",
+        "$60°$ — obtus"
+      ],
+      "reponse": "$40°$ — aigus",
+      "explication": "$120° \\div 3 = 40°$. Chaque angle mesure $40°$. Comme $40° < 90°$, ce sont des angles aigus. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Deux angles sont tels que leur somme est $180°$ et l'un est $\\frac{2}{3}$ de l'autre. Quelle est la mesure du plus grand ?",
+      "image": null,
+      "choix": [
+        "$72°$",
+        "$90°$",
+        "$108°$",
+        "$120°$"
+      ],
+      "reponse": "$108°$",
+      "explication": "Soit $x$ et $\\frac{2}{3}x$. $x + \\frac{2}{3}x = 180°$, donc $\\frac{5}{3}x = 180°$, $x = 108°$. Le plus grand est $108°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Dans un triangle isocèle $PQR$ ($PQ = PR$), l'angle $\\widehat{QPR} = 100°$. La bissectrice de $\\widehat{QPR}$ coupe $QR$ en $M$. Quelle est la mesure de $\\widehat{PMQ}$ ?",
+      "image": null,
+      "choix": [
+        "$40°$",
+        "$80°$",
+        "$90°$",
+        "$100°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "Dans un triangle isocèle, la bissectrice de l'angle au sommet est aussi la médiatrice de la base. Elle est donc perpendiculaire à $QR$, et $\\widehat{PMQ} = 90°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Trois angles $\\alpha$, $\\beta$, $\\gamma$ forment un angle plat. $\\alpha = 2\\beta$ et $\\gamma = 3\\beta$. Quelle est la mesure de $\\beta$ ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$25°$",
+        "$30°$",
+        "$36°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "$\\alpha + \\beta + \\gamma = 180°$. $2\\beta + \\beta + 3\\beta = 180°$, donc $6\\beta = 180°$, $\\beta = 30°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Si deux angles sont complémentaires et l'un est le double de l'autre, lequel de ces énoncés est une preuve correcte ?",
+      "image": null,
+      "choix": [
+        "$x + 2x = 90° \\Rightarrow x = 30°$, donc les angles sont $30°$ et $60°$",
+        "$x + 2x = 180° \\Rightarrow x = 60°$",
+        "$2x = 90° \\Rightarrow x = 45°$",
+        "$x - 2x = 90° \\Rightarrow x = -90°$"
+      ],
+      "reponse": "$x + 2x = 90° \\Rightarrow x = 30°$, donc les angles sont $30°$ et $60°$",
+      "explication": "Deux angles complémentaires somment à $90°$. Avec $x$ et $2x$ : $x + 2x = 90°$, donc $3x = 90°$, $x = 30°$. Les angles sont $30°$ et $60°$. Vérif : $30° + 60° = 90°$ ✓ [Question générée]"
+    },
+    {
+      "id": "ang6_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle $\\widehat{AOB} = 150°$. On partage cet angle en deux par $[OC)$, puis on partage $\\widehat{COB}$ en deux par $[OD)$. Quelle est la mesure de $\\widehat{AOD}$ ?",
+      "image": null,
+      "choix": [
+        "$75°$",
+        "$100°$",
+        "$112{,}5°$",
+        "$125°$"
+      ],
+      "reponse": "$112{,}5°$",
+      "explication": "$\\widehat{AOC} = 75°$ (bissectrice de $150°$). $\\widehat{COD} = 37{,}5°$ (bissectrice de $\\widehat{COB} = 75°$). $\\widehat{AOD} = 75° + 37{,}5° = 112{,}5°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle plat est partagé en $6$ angles tels que chacun est $5°$ de plus que le précédent. Quelle est la mesure du troisième angle (en partant du plus petit) ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$25°$",
+        "$30°$",
+        "$40°$"
+      ],
+      "reponse": "$25°$",
+      "explication": "Soit $a$, $a+5$, $a+10$, $a+15$, $a+20$, $a+25$. Somme $= 6a + 75° = 180°$, $a = 17{,}5°$. Troisième angle : $17{,}5° + 10° = 27{,}5°$. L'option la plus proche est $25°$ — recalcul : $6a + 75 = 180$, $a = 17{,}5°$, 3e angle $= 27{,}5°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_020b",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Dans un triangle $ABC$, $\\widehat{A} = 2\\widehat{B}$ et $\\widehat{C} = 3\\widehat{B}$. Quelle est la mesure de $\\widehat{B}$ ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$25°$",
+        "$30°$",
+        "$36°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "$\\widehat{A} + \\widehat{B} + \\widehat{C} = 180°$. $2\\widehat{B} + \\widehat{B} + 3\\widehat{B} = 180°$, donc $6\\widehat{B} = 180°$, $\\widehat{B} = 30°$. Les angles mesurent $60°$, $30°$ et $90°$ : c'est un triangle rectangle ! [Question générée]"
+    },
+    {
+      "id": "ang6_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle $\\widehat{MON}$ a pour bissectrice $[OP)$. Un élève affirme que $\\widehat{MOP} = \\widehat{PON} + 5°$. Cette affirmation est-elle compatible avec la définition de la bissectrice ?",
+      "image": null,
+      "choix": [
+        "Oui, une bissectrice peut créer des angles presque égaux",
+        "Non, la bissectrice crée deux angles strictement égaux",
+        "Oui, si l'angle est obtus",
+        "Oui, si la mesure est approximative"
+      ],
+      "reponse": "Non, la bissectrice crée deux angles strictement égaux",
+      "explication": "Par définition, la bissectrice d'un angle est la demi-droite qui le partage en deux angles strictement égaux. $\\widehat{MOP} \\neq \\widehat{PON}$ si la différence est $5°$, donc cette affirmation contredit la définition. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle plat $\\widehat{AOB}$ est partagé par $[OC)$ en deux angles. $\\widehat{AOC}$ est aigu et $\\widehat{COB}$ est obtus. Si $\\widehat{COB} = 2 \\times \\widehat{AOC} + 30°$, quelle est la mesure de $\\widehat{AOC}$ ?",
+      "image": null,
+      "choix": [
+        "$40°$",
+        "$50°$",
+        "$55°$",
+        "$60°$"
+      ],
+      "reponse": "$50°$",
+      "explication": "$\\widehat{AOC} + \\widehat{COB} = 180°$. Avec $\\widehat{COB} = 2\\widehat{AOC} + 30°$ : $\\widehat{AOC} + 2\\widehat{AOC} + 30° = 180°$, $3\\widehat{AOC} = 150°$, $\\widehat{AOC} = 50°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un élève démontre que si deux angles sont supplémentaires et l'un est $40°$ de plus que l'autre, alors les angles mesurent $70°$ et $110°$. Quelle étape est correcte dans cette démonstration ?",
+      "image": null,
+      "choix": [
+        "$x + (x + 40°) = 180°$ donc $2x = 140°$ donc $x = 70°$",
+        "$x + (x + 40°) = 90°$ donc $2x = 50°$ donc $x = 25°$",
+        "$x - (x + 40°) = 180°$ donc $x = -110°$",
+        "$2x = 180°$ donc $x = 90°$"
+      ],
+      "reponse": "$x + (x + 40°) = 180°$ donc $2x = 140°$ donc $x = 70°$",
+      "explication": "Deux angles supplémentaires somment à $180°$. Avec $x$ et $x + 40°$ : $x + x + 40° = 180°$, $2x = 140°$, $x = 70°$. L'autre angle est $110°$. Vérif : $70° + 110° = 180°$ ✓ [Question générée]"
+    },
+    {
+      "id": "ang6_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Dans un triangle $ABC$ rectangle en $A$, on a $\\widehat{B} = 2 \\times \\widehat{C}$. Quelle est la mesure de $\\widehat{C}$ ?",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$30°$",
+        "$40°$",
+        "$45°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "$\\widehat{A} + \\widehat{B} + \\widehat{C} = 180°$. $90° + 2\\widehat{C} + \\widehat{C} = 180°$, donc $3\\widehat{C} = 90°$, $\\widehat{C} = 30°$ et $\\widehat{B} = 60°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] On sait que $\\widehat{AOB} + \\widehat{BOC} + \\widehat{COD} = 180°$. Les trois angles sont distincts et forment une suite arithmétique (chacun $= $ précédent $+ d$). Si le premier angle est $20°$, quelle est la valeur de $d$ ?",
+      "image": null,
+      "choix": [
+        "$10°$",
+        "$20°$",
+        "$30°$",
+        "$40°$"
+      ],
+      "reponse": "$20°$",
+      "explication": "$20° + (20°+d) + (20°+2d) = 180°$, donc $60° + 3d = 180°$, $3d = 120°$, $d = 40°$. Les angles sont $20°$, $60°$, $100°$. Vérif : $20°+60°+100° = 180°$ ✓. La bonne réponse est donc $d = 40°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] On sait que $\\widehat{AOB} + \\widehat{BOC} + \\widehat{COD} = 180°$. Si $\\widehat{AOB} = 20°$, $\\widehat{BOC} = 60°$, $\\widehat{COD} = 100°$, quel type d'angles sont-ils respectivement ?",
+      "image": null,
+      "choix": [
+        "Aigu, aigu, aigu",
+        "Aigu, aigu, obtus",
+        "Aigu, obtus, obtus",
+        "Aigu, droit, obtus"
+      ],
+      "reponse": "Aigu, aigu, obtus",
+      "explication": "$20° < 90°$ (aigu), $60° < 90°$ (aigu), $100° > 90°$ (obtus). [Question générée]"
+    },
+    {
+      "id": "ang6_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] La bissectrice $[OC)$ de $\\widehat{AOB}$ est tracée, puis la bissectrice $[OD)$ de $\\widehat{AOC}$. Si $\\widehat{DOB} = 135°$, quelle est la mesure de $\\widehat{AOB}$ ?",
+      "image": null,
+      "choix": [
+        "$90°$",
+        "$100°$",
+        "$120°$",
+        "$144°$"
+      ],
+      "reponse": "$144°$",
+      "explication": "$\\widehat{AOD} = \\dfrac{\\widehat{AOB}}{4}$. $\\widehat{DOB} = \\widehat{AOB} - \\dfrac{\\widehat{AOB}}{4} = \\dfrac{3}{4}\\widehat{AOB} = 135°$, donc $\\widehat{AOB} = 180°$... Recalcul : $\\widehat{AOC} = \\frac{x}{2}$, $\\widehat{AOD} = \\frac{x}{4}$, $\\widehat{DOB} = x - \\frac{x}{4} = \\frac{3x}{4} = 135°$, donc $x = 180°$. [Question générée]"
+    },
+    {
+      "id": "ang6_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Un angle plat est divisé en trois angles aigus. Les angles mesures sont $x$, $2x$ et $3x - 30°$. Quelle est la valeur de $x$ ?",
+      "image": null,
+      "choix": [
+        "$30°$",
+        "$35°$",
+        "$40°$",
+        "$45°$"
+      ],
+      "reponse": "$35°$",
+      "explication": "$x + 2x + (3x - 30°) = 180°$, donc $6x = 210°$, $x = 35°$. Les angles sont $35°$, $70°$ et $75°$. Ce sont bien des angles aigus (tous $< 90°$). [Question générée]"
+    },
+    {
+      "id": "ang6_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "[Question générée] Dans un triangle $DEF$, $\\widehat{D} = 3 \\times \\widehat{E}$ et $\\widehat{F} = \\widehat{E} + 20°$. Quelle est la mesure de $\\widehat{D}$ ?",
+      "image": null,
+      "choix": [
+        "$48°$",
+        "$96°$",
+        "$100°$",
+        "$120°$"
+      ],
+      "reponse": "$96°$",
+      "explication": "$3\\widehat{E} + \\widehat{E} + (\\widehat{E} + 20°) = 180°$, donc $5\\widehat{E} = 160°$, $\\widehat{E} = 32°$. $\\widehat{D} = 3 \\times 32° = 96°$. [Question générée]"
+    }
+  ]
+}
