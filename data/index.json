@@ -198,6 +198,16 @@
       "niveau":  "6eme"
     },
     {
+      "id":      "nombres_entiers_6eme",
+      "fichier": "data/6eme/nombres_entiers_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "pave_droit_6eme",
+      "fichier": "data/6eme/pave_droit_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
       "id":      "nombres_decimaux_6eme",
       "fichier": "data/6eme/nombres_decimaux_6eme.json",
       "niveau":  "6eme"
