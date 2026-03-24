@@ -174,6 +174,13 @@ function showSelect(niveau) {
     return;
   }
 
+  // 3ème : afficher les notions ET le module Brevet
+  if (nv === '3eme') {
+    renderSelect3eme();
+    showScreen('screen-notions');
+    return;
+  }
+
   renderSelect(nv);
   showScreen('screen-select');
 }
@@ -184,6 +191,9 @@ function quitQuiz() {
   if (State.currentNiveau === 'automatismes') {
     renderSelectAutomatismes();
     showScreen('screen-select');
+  } else if (State.currentNiveau === '3eme') {
+    renderSelect3eme();
+    showScreen('screen-notions');
   } else {
     showSelect(State.currentNiveau);
   }
@@ -203,6 +213,21 @@ function renderHome() {
     if (key === 'automatismes') {
       const nb = (DB.automatismesNotions || []).length;
       if (nb === 0) return;
+      grid.insertAdjacentHTML('beforeend', `
+        <div class="niveau-card" style="--nc:${meta.couleur}" onclick="showSelect('${key}')">
+          <div class="nv-info" style="padding-left:4px;">
+            <h2>${escapeHtml(meta.label)}</h2>
+          </div>
+          <div class="nv-right">
+            <span class="nv-arrow">›</span>
+          </div>
+        </div>
+      `);
+      return;
+    }
+
+    // Cas spécial : 3ème — toujours affichée (module Brevet disponible même sans notions JSON)
+    if (key === '3eme') {
       grid.insertAdjacentHTML('beforeend', `
         <div class="niveau-card" style="--nc:${meta.couleur}" onclick="showSelect('${key}')">
           <div class="nv-info" style="padding-left:4px;">
@@ -238,6 +263,103 @@ function renderHome() {
         Ajoutez des fichiers JSON dans <code>data/</code><br/>
         et déclarez-les dans <code>data/index.json</code>.
       </div>`;
+  }
+}
+
+// ══════════════════════════════════════════════════════
+//  RENDU — 3ème (notions + module Brevet)
+// ══════════════════════════════════════════════════════
+function renderSelect3eme() {
+  const meta    = DB.niveaux['3eme'] || { label: '3ème', emoji: '🟥', couleur: '#dc2626' };
+  const notions = DB.questions['3eme'] || {};
+
+  State.currentNiveau = '3eme';
+  currentNiveau       = '3eme';
+
+  document.getElementById('notions-badge').textContent = `${meta.emoji || ''} ${meta.label}`;
+  document.getElementById('notions-title').innerHTML   = `Notions <em>3ème</em>`;
+  document.getElementById('notions-sub').textContent   = 'Choisir une notion ou accéder au Brevet';
+
+  const list = document.getElementById('notions-list');
+  list.innerHTML = '';
+
+  // Carte spéciale Brevet en tête
+  list.insertAdjacentHTML('beforeend', `
+    <div class="notion-card"
+         style="--notion-color:#dc2626;background:linear-gradient(135deg,color-mix(in srgb,#dc2626 8%,var(--raised)),var(--raised));border-color:color-mix(in srgb,#dc2626 25%,var(--bd));"
+         onclick="showBrevetModule()">
+      <div class="notion-icon-wrap" style="background:color-mix(in srgb,#dc2626 18%,transparent);">
+        🎓
+      </div>
+      <div class="notion-info">
+        <h3 style="color:#dc2626;font-size:1rem;">Brevet des collèges</h3>
+        <div class="notion-meta">
+          <span>Annales officielles &amp; Automatismes</span>
+        </div>
+      </div>
+      <span style="color:#dc2626;font-size:1.2rem;opacity:.7;">›</span>
+    </div>
+  `);
+
+  // Notions 3ème disponibles
+  Object.entries(notions).forEach(([key, notion]) => {
+    const card = document.createElement('div');
+    card.className = 'notion-card';
+    card.style.cssText = '--notion-color:' + notion.color;
+    card.innerHTML = `
+      <div class="notion-icon-wrap">${notion.icon || '📐'}</div>
+      <div class="notion-info">
+        <h3>${escapeHtml(notion.label)}</h3>
+        <div class="notion-meta"><span>${notion.questions.length} questions</span></div>
+      </div>
+      <span style="color:var(--notion-color);font-size:1.2rem;opacity:.7;">›</span>
+    `;
+    card.addEventListener('click', () => {
+      State.selectedThemes = [key];
+      launchQuizDirect(key);
+    });
+    list.appendChild(card);
+  });
+
+  if (Object.keys(notions).length === 0) {
+    list.insertAdjacentHTML('beforeend', `
+      <p style="color:var(--tx3);font-size:0.85rem;padding:16px 0;text-align:center;">
+        Aucune notion 3ème disponible pour l'instant.<br/>
+        <em>Le module Brevet est déjà accessible ci-dessus.</em>
+      </p>`);
+  }
+}
+
+function launchQuizDirect(themeKey) {
+  State.selectedThemes = [themeKey];
+  renderSelect('3eme');
+  // Auto-select the theme and launch
+  State.selectedThemes = [themeKey];
+  launchQuiz();
+}
+
+function showBrevetModule() {
+  // Réinitialiser sur l'onglet Annales par défaut
+  showBrevetTab('annales');
+  showScreen('screen-brevet');
+}
+
+function showBrevetTab(tab) {
+  const paneAnnales      = document.getElementById('brevet-pane-annales');
+  const paneAutomatismes = document.getElementById('brevet-pane-automatismes');
+  const tabAnnales       = document.getElementById('brevet-tab-annales');
+  const tabAutomatismes  = document.getElementById('brevet-tab-automatismes');
+
+  if (tab === 'annales') {
+    paneAnnales.style.display      = 'block';
+    paneAutomatismes.style.display = 'none';
+    tabAnnales.classList.add('active');
+    tabAutomatismes.classList.remove('active');
+  } else {
+    paneAnnales.style.display      = 'none';
+    paneAutomatismes.style.display = 'block';
+    tabAnnales.classList.remove('active');
+    tabAutomatismes.classList.add('active');
   }
 }
 
