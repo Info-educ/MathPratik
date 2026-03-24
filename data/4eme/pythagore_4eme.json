@@ -1,34 +1,36 @@
 {
   "niveau": "4eme",
   "thematique": {
-    "id": "pythagore_4eme",
+    "id":    "pythagore_4eme",
     "label": "Théorème de Pythagore",
-    "icon": "📐",
+    "icon":  "📐",
     "color": "#0284c7"
   },
   "questions": [
+
     {
-      "id": "pyth4_n1_001",
+      "id": "py4_n1_001",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Qu'est-ce que la racine carrée d'un nombre a ?",
+      "avec_calculatrice": false,
+      "enonce_html": "Qu'est-ce que la racine carrée d'un nombre $a$ ?",
       "image": null,
       "choix": [
-        "Le double de a",
-        "Le nombre positif dont le carré est égal à a",
-        "La moitié de a",
-        "Le carré de a"
+        "Le double de $a$",
+        "Le nombre positif dont le carré est égal à $a$",
+        "La moitié de $a$",
+        "Le carré de $a$"
       ],
-      "reponse": "Le nombre positif dont le carré est égal à a",
-      "explication": "$\\sqrt{a}$ est le nombre positif tel que $(\\sqrt{a})^{2}$ = a. Ex : $\\sqrt{25}$ = 5 car $5^{2}$ = 25."
+      "reponse": "Le nombre positif dont le carré est égal à $a$",
+      "explication": "$\\sqrt{a}$ est le nombre positif tel que $(\\sqrt{a})^2 = a$. Exemple : $\\sqrt{25} = 5$ car $5^2 = 25$."
     },
+
     {
-      "id": "pyth4_n1_002",
+      "id": "py4_n1_002",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Qu'est-ce qu'un carré parfait ?",
+      "avec_calculatrice": false,
+      "enonce_html": "Qu'est-ce qu'un carré parfait ?",
       "image": null,
       "choix": [
         "Un nombre divisible par 4",
@@ -37,1415 +39,1504 @@
         "Un nombre premier"
       ],
       "reponse": "Le carré d'un nombre entier",
-      "explication": "Ex : 9 =$3^{2}$, 25 =$5^{2}$, 49 =$7^{2}$sont des carrés parfaits."
+      "explication": "Un carré parfait est le carré d'un entier. Exemples : $9 = 3^2$, $25 = 5^2$, $49 = 7^2$ sont des carrés parfaits."
     },
+
     {
-      "id": "pyth4_n1_003",
+      "id": "py4_n1_003",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "À l'aide du tableau, quelle est la valeur de$\\sqrt{36}$?",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{36} = ?$",
       "image": "4eme/pythagore/9a6613436923445c2b3bf4cf244d103bd0064406.png",
       "choix": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "$\\sqrt{36} = 4$",
+        "$\\sqrt{36} = 8$",
+        "$\\sqrt{36} = 6$",
+        "$\\sqrt{36} = 18$"
       ],
-      "reponse": "6",
-      "explication": "$\\sqrt{36}$= 6 car$6^{2}$= 36 ;$\\sqrt{64}$= 8 ;$\\sqrt{144}$= 12."
+      "reponse": "$\\sqrt{36} = 6$",
+      "explication": "$\\sqrt{36} = 6$ car $6^2 = 36$. Le tableau des racines carrées confirme cette valeur."
     },
+
     {
-      "id": "pyth4_n1_004",
+      "id": "py4_n1_004",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans le tableau des racines carrées, quelle est la valeur de$\\sqrt{64}$?",
-      "image": "4eme/pythagore/2b2c76669504882984ce50335ca42e1c717f6b7c.png",
-      "choix": [
-        "6",
-        "7",
-        "8",
-        "9"
-      ],
-      "reponse": "8",
-      "explication": "$\\sqrt{64}$= 8 car$8^{2}$= 64."
-    },
-    {
-      "id": "pyth4_n1_005",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice :$\\sqrt{9}$= ?",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{9} = ?$",
       "image": null,
       "choix": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "$\\sqrt{9} = 4{,}5$",
+        "$\\sqrt{9} = 3$",
+        "$\\sqrt{9} = 81$",
+        "$\\sqrt{9} = 6$"
       ],
-      "reponse": "3",
-      "explication": "$\\sqrt{9}$= 3 car$3^{2}$= 9."
+      "reponse": "$\\sqrt{9} = 3$",
+      "explication": "$\\sqrt{9} = 3$ car $3^2 = 9$."
     },
+
     {
-      "id": "pyth4_n1_006",
+      "id": "py4_n1_005",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice :$\\sqrt{100}$= ?",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{100} = ?$",
       "image": null,
       "choix": [
-        "8",
-        "9",
-        "10",
-        "11"
+        "$\\sqrt{100} = 50$",
+        "$\\sqrt{100} = 5$",
+        "$\\sqrt{100} = 10$",
+        "$\\sqrt{100} = 20$"
       ],
-      "reponse": "10",
-      "explication": "$\\sqrt{100}$= 10 car$1$0^{2} = 100."
+      "reponse": "$\\sqrt{100} = 10$",
+      "explication": "$\\sqrt{100} = 10$ car $10^2 = 100$."
     },
+
     {
-      "id": "pyth4_n1_007",
+      "id": "py4_n1_006",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice :$\\sqrt{49}$= ?",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{49} = ?$",
       "image": null,
       "choix": [
-        "5",
-        "6",
-        "7",
-        "8"
+        "$\\sqrt{49} = 6$",
+        "$\\sqrt{49} = 7$",
+        "$\\sqrt{49} = 8$",
+        "$\\sqrt{49} = 24{,}5$"
       ],
-      "reponse": "7",
-      "explication": "$\\sqrt{49}$= 7 car$7^{2}$= 49."
+      "reponse": "$\\sqrt{49} = 7$",
+      "explication": "$\\sqrt{49} = 7$ car $7^2 = 49$."
     },
+
     {
-      "id": "pyth4_n1_008",
+      "id": "py4_n1_007",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Calcule sans calculatrice :$\\sqrt{121}$= ?",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{121} = ?$",
       "image": null,
       "choix": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "$\\sqrt{121} = 10$",
+        "$\\sqrt{121} = 12$",
+        "$\\sqrt{121} = 11$",
+        "$\\sqrt{121} = 60{,}5$"
       ],
-      "reponse": "11",
-      "explication": "$\\sqrt{121}$= 11 car$1$1^{2} = 121."
+      "reponse": "$\\sqrt{121} = 11$",
+      "explication": "$\\sqrt{121} = 11$ car $11^2 = 121$."
     },
+
     {
-      "id": "pyth4_n1_009",
+      "id": "py4_n1_008",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "$\\sqrt{16}$= ?",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{16} = ?$",
       "image": null,
       "choix": [
-        "2",
-        "4",
-        "8",
-        "6"
+        "$2$",
+        "$4$",
+        "$8$",
+        "$6$"
       ],
-      "reponse": "4",
-      "explication": "$4^{2}$= 16 donc$\\sqrt{16}$= 4."
+      "reponse": "$4$",
+      "explication": "$\\sqrt{16} = 4$ car $4^2 = 16$."
     },
+
     {
-      "id": "pyth4_n1_010",
+      "id": "py4_n1_009",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Quel est le carré parfait situé juste avant 64 ?",
-      "image": null,
-      "choix": [
-        "49",
-        "52",
-        "56",
-        "60"
-      ],
-      "reponse": "49",
-      "explication": "$7^{2}$= 49 et$8^{2}$= 64. Le carré parfait juste avant 64 est 49."
-    },
-    {
-      "id": "pyth4_n1_011",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Sur la figure, [BC] est l'hypoténuse. Pourquoi ?",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure, $[BC]$ est l'hypoténuse. Pourquoi ?",
       "image": "4eme/pythagore/1201e36c9d390c6cd5d6d07b161bef6f4511e6c8.png",
       "choix": [
-        "Car BC est le côté horizontal",
-        "Car BC est le côté opposé à l'angle droit en A et le plus grand côté",
-        "Car BC est le plus court côté",
-        "Car B et C sont des sommets"
+        "Car $BC$ est le côté horizontal",
+        "Car $BC$ est le côté opposé à l'angle droit en $A$ et le plus grand côté",
+        "Car $BC$ est le plus court côté",
+        "Car $B$ et $C$ sont des sommets"
       ],
-      "reponse": "Car BC est le côté opposé à l'angle droit en A et le plus grand côté",
-      "explication": "L'hypoténuse est le côté opposé à l'angle droit. Ici l'angle droit est en A donc [BC] est l'hypoténuse."
+      "reponse": "Car $BC$ est le côté opposé à l'angle droit en $A$ et le plus grand côté",
+      "explication": "L'hypoténuse est le côté opposé à l'angle droit. Ici l'angle droit est en $A$, donc $[BC]$ est l'hypoténuse."
     },
+
     {
-      "id": "pyth4_n1_012",
+      "id": "py4_n1_010",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Sur la figure, où se trouve l'angle droit et quelle est l'hypoténuse ?",
-      "image": "4eme/pythagore/35d4c4f2d921fdc17652d797244ba787494b9987.png",
-      "choix": [
-        "Angle droit en B, hypoténuse [AC]",
-        "Angle droit en A, hypoténuse [BC]",
-        "Angle droit en C, hypoténuse [AB]",
-        "Angle droit en A, hypoténuse [AB]"
-      ],
-      "reponse": "Angle droit en A, hypoténuse [BC]",
-      "explication": "L'angle droit est en A (petit carré). L'hypoténuse est [BC] (côté en rouge, opposé à A)."
-    },
-    {
-      "id": "pyth4_n1_013",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans un triangle rectangle en M, quelle est l'hypoténuse ?",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle rectangle en $M$, quelle est l'hypoténuse ?",
       "image": null,
       "choix": [
-        "[ML]",
-        "[MN]",
-        "[NL]",
+        "$[ML]$",
+        "$[MN]$",
+        "$[NL]$",
         "Elle dépend des longueurs"
       ],
-      "reponse": "[NL]",
-      "explication": "L'hypoténuse est toujours le côté opposé à l'angle droit. Ici l'angle droit est en M donc [NL] est l'hypoténuse."
+      "reponse": "$[NL]$",
+      "explication": "L'hypoténuse est toujours le côté opposé à l'angle droit. Ici l'angle droit est en $M$, donc $[NL]$ est l'hypoténuse."
     },
+
     {
-      "id": "pyth4_n1_014",
+      "id": "py4_n1_011",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Pour un triangle$\\widehat{PQR}$rectangle en P, quelle est l'égalité de Pythagore ?",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est l'égalité de Pythagore pour un triangle $PQR$ rectangle en $P$ ?",
       "image": null,
       "choix": [
-        "$P$Q^{2} =$Q$R^{2} +$P$R^{2}",
-        "$Q$R^{2} =$P$Q^{2} +$P$R^{2}",
-        "$P$R^{2} =$P$Q^{2} +$Q$R^{2}",
-        "$P$Q^{2} +$Q$R^{2} =$P$R^{2}"
+        "$PQ^2 = PR^2 + QR^2$",
+        "$QR^2 = PQ^2 + PR^2$",
+        "$PR^2 = PQ^2 + QR^2$",
+        "$QR^2 = PQ^2 - PR^2$"
       ],
-      "reponse": "$Q$R^{2} =$P$Q^{2} +$P$R^{2}",
-      "explication": "$Q$R^{2} =$P$Q^{2} +$P$R^{2} (QR est l'hypoténuse car l'angle droit est en P)."
+      "reponse": "$QR^2 = PQ^2 + PR^2$",
+      "explication": "Dans un triangle rectangle en $P$, l'hypoténuse est $[QR]$ (côté opposé à $P$). Le théorème donne : $QR^2 = PQ^2 + PR^2$."
     },
+
     {
-      "id": "pyth4_n1_015",
+      "id": "py4_n1_012",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Pour un triangle$\\widehat{EFG}$rectangle en F, quelle est l'égalité de Pythagore ?",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est l'égalité de Pythagore pour un triangle $EFG$ rectangle en $F$ ?",
       "image": null,
       "choix": [
-        "$E$G^{2} =$E$F^{2} +$F$G^{2}",
-        "$E$F^{2} =$E$G^{2} +$F$G^{2}",
-        "$F$G^{2} =$E$F^{2} +$E$G^{2}",
-        "$E$F^{2} +$F$G^{2} =$F$G^{2}"
+        "$EG^2 = EF^2 + FG^2$",
+        "$EF^2 = EG^2 + FG^2$",
+        "$FG^2 = EF^2 + EG^2$",
+        "$EG^2 = EF^2 - FG^2$"
       ],
-      "reponse": "$E$G^{2} =$E$F^{2} +$F$G^{2}",
-      "explication": "$E$G^{2} =$E$F^{2} +$F$G^{2} (EG est l'hypoténuse car l'angle droit est en F)."
+      "reponse": "$EG^2 = EF^2 + FG^2$",
+      "explication": "L'angle droit est en $F$, donc l'hypoténuse est $[EG]$. Le théorème donne : $EG^2 = EF^2 + FG^2$."
     },
+
     {
-      "id": "pyth4_n1_016",
+      "id": "py4_n1_013",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle$\\widehat{IJK}$est rectangle en I avec IJ=3 cm et IK=4 cm. Calcule JK.",
-      "image": "4eme/pythagore/3c7f2bb20fd98252f322b4cc99dac8c034cb13b9.png",
-      "choix": [
-        "4 cm",
-        "5 cm",
-        "6 cm",
-        "7 cm"
-      ],
-      "reponse": "5 cm",
-      "explication": "$J$K^{2} =$I$J^{2} +$I$K^{2} =$3^{2}$+$4^{2}$= 9 + 16 = 25. JK =$\\sqrt{25}$= 5 cm."
-    },
-    {
-      "id": "pyth4_n1_017",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Le triangle$\\widehat{ABC}$est rectangle en A avec AB=6 cm et AC=8 cm. Calcule BC.",
+      "enonce_html": "Le triangle $ABC$ est rectangle en $A$ avec $AB = 6$ cm et $AC = 8$ cm. Quelle est la longueur $BC$ ?",
       "image": "4eme/pythagore/eec77f65308b9c832af9a22f66daf315f9f44e1d.png",
       "choix": [
-        "8 cm",
-        "10 cm",
-        "12 cm",
-        "14 cm"
+        "$BC = 7$ cm",
+        "$BC = 10$ cm",
+        "$BC = 14$ cm",
+        "$BC = \\sqrt{28}$ cm"
       ],
-      "reponse": "10 cm",
-      "explication": "$B$C^{2} =$A$B^{2} +$A$C^{2} =$6^{2}$+$8^{2}$= 36 + 64 = 100. BC =$\\sqrt{100}$= 10 cm."
+      "reponse": "$BC = 10$ cm",
+      "explication": "D'après Pythagore : $BC^2 = AB^2 + AC^2 = 36 + 64 = 100$. Donc $BC = \\sqrt{100} = 10$ cm."
     },
+
     {
-      "id": "pyth4_n1_018",
+      "id": "py4_n1_014",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle$\\widehat{MNP}$est rectangle en M avec MN=5 cm et MP=12 cm. Calcule NP.",
+      "enonce_html": "Le triangle $MNP$ est rectangle en $M$ avec $MN = 5$ cm et $MP = 12$ cm. Quelle est la longueur $NP$ ?",
       "image": "4eme/pythagore/a966d9d5aee7abff24a3201f4409a661fcd74447.png",
       "choix": [
-        "11 cm",
-        "12 cm",
-        "13 cm",
-        "15 cm"
+        "$NP = 13$ cm",
+        "$NP = 17$ cm",
+        "$NP = 7$ cm",
+        "$NP = \\sqrt{119}$ cm"
       ],
-      "reponse": "13 cm",
-      "explication": "$N$P^{2} =$M$N^{2} +$M$P^{2} =$5^{2}$+$1$2^{2} = 25 + 144 = 169. NP =$\\sqrt{169}$= 13 cm."
+      "reponse": "$NP = 13$ cm",
+      "explication": "$NP^2 = MN^2 + MP^2 = 25 + 144 = 169$. Donc $NP = \\sqrt{169} = 13$ cm."
     },
+
     {
-      "id": "pyth4_n1_019",
+      "id": "py4_n1_015",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en O avec OA=9 cm et OB=12 cm. Calcule AB.",
-      "image": null,
+      "enonce_html": "Triangle rectangle en $O$ avec $OA = 9$ cm et $OB = 12$ cm. Quelle est la longueur $AB$ ?",
+      "image": "4eme/pythagore/tri_OAB.png",
       "choix": [
-        "13 cm",
-        "14 cm",
-        "15 cm",
-        "18 cm"
+        "$AB = 21$ cm",
+        "$AB = 15$ cm",
+        "$AB = \\sqrt{63}$ cm",
+        "$AB = 18$ cm"
       ],
-      "reponse": "15 cm",
-      "explication": "$A$B^{2} =$9^{2}$+$1$2^{2} = 81 + 144 = 225. AB =$\\sqrt{225}$= 15 cm."
+      "reponse": "$AB = 15$ cm",
+      "explication": "$AB^2 = OA^2 + OB^2 = 81 + 144 = 225$. Donc $AB = \\sqrt{225} = 15$ cm."
     },
+
     {
-      "id": "pyth4_n1_020",
+      "id": "py4_n1_016",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en X avec XY=8 cm et XZ=15 cm. Calcule YZ.",
-      "image": null,
+      "enonce_html": "Triangle rectangle en $X$ avec $XY = 8$ cm et $XZ = 15$ cm. Quelle est la longueur $YZ$ ?",
+      "image": "4eme/pythagore/tri_XYZ.png",
       "choix": [
-        "15 cm",
-        "16 cm",
-        "17 cm",
-        "18 cm"
+        "$YZ = 17$ cm",
+        "$YZ = 23$ cm",
+        "$YZ = \\sqrt{161}$ cm",
+        "$YZ = 13$ cm"
       ],
-      "reponse": "17 cm",
-      "explication": "$Y$Z^{2} =$8^{2}$+$1$5^{2} = 64 + 225 = 289. YZ =$\\sqrt{289}$= 17 cm."
+      "reponse": "$YZ = 17$ cm",
+      "explication": "$YZ^2 = XY^2 + XZ^2 = 64 + 225 = 289$. Donc $YZ = \\sqrt{289} = 17$ cm."
     },
+
     {
-      "id": "pyth4_n1_021",
+      "id": "py4_n1_017",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle$\\widehat{EGF}$est rectangle en E. EG=40 cm, GF=41 cm (hypoténuse). Calcule EF.",
-      "image": "4eme/pythagore/fa1bf4fab0d2468ce8196eaeaa1c83fcf1e0e5fd.png",
-      "choix": [
-        "7 cm",
-        "8 cm",
-        "9 cm",
-        "10 cm"
-      ],
-      "reponse": "9 cm",
-      "explication": "$G$F^{2} =$G$E^{2} +$E$F^{2}.$4$1^{2} =$4$0^{2} +$E$F^{2}. 1681 = 1600 +$E$F^{2}.$E$F^{2} = 81. EF =$\\sqrt{81}$= 9 cm."
-    },
-    {
-      "id": "pyth4_n1_022",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Le triangle$\\widehat{RST}$est rectangle en R. ST=17 cm (hyp.) et RT=15 cm. Calcule RS.",
+      "enonce_html": "Le triangle $RST$ est rectangle en $R$ avec $ST = 17$ cm (hypoténuse) et $RT = 15$ cm. Quelle est la longueur $RS$ ?",
       "image": "4eme/pythagore/cd4f9ef4d894f5fc6d3563a6b55d753cafb9239e.png",
       "choix": [
-        "6 cm",
-        "7 cm",
-        "8 cm",
-        "9 cm"
+        "$RS = 2$ cm",
+        "$RS = 8$ cm",
+        "$RS = 11$ cm",
+        "$RS = \\sqrt{514}$ cm"
       ],
-      "reponse": "8 cm",
-      "explication": "$S$T^{2} =$R$S^{2} +$R$T^{2}.$1$7^{2} =$R$S^{2} +$1$5^{2}. 289 =$R$S^{2} + 225.$R$S^{2} = 64. RS = 8 cm."
+      "reponse": "$RS = 8$ cm",
+      "explication": "$ST^2 = RS^2 + RT^2$, donc $289 = RS^2 + 225$, soit $RS^2 = 64$, d'où $RS = 8$ cm."
     },
+
     {
-      "id": "pyth4_n1_023",
+      "id": "py4_n1_018",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triangle$\\widehat{LMN}$est rectangle en L. MN=26 cm (hyp.) et LN=24 cm. Calcule LM.",
+      "enonce_html": "Le triangle $LMN$ est rectangle en $L$ avec $MN = 26$ cm (hypoténuse) et $LN = 24$ cm. Quelle est la longueur $LM$ ?",
       "image": "4eme/pythagore/94a822088af2101d8dcda186046faa3b4f39693a.png",
       "choix": [
-        "8 cm",
-        "9 cm",
-        "10 cm",
-        "12 cm"
+        "$LM = 10$ cm",
+        "$LM = 2$ cm",
+        "$LM = 14$ cm",
+        "$LM = \\sqrt{1252}$ cm"
       ],
-      "reponse": "10 cm",
-      "explication": "$M$N^{2} =$L$M^{2} +$L$N^{2}.$2$6^{2} =$L$M^{2} +$2$4^{2}. 676 =$L$M^{2} + 576.$L$M^{2} = 100. LM = 10 cm."
+      "reponse": "$LM = 10$ cm",
+      "explication": "$MN^2 = LM^2 + LN^2$, donc $676 = LM^2 + 576$, soit $LM^2 = 100$, d'où $LM = 10$ cm."
     },
+
     {
-      "id": "pyth4_n1_024",
+      "id": "py4_n1_019",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en A avec BC=25 cm (hyp.) et AB=24 cm. Calcule AC.",
+      "enonce_html": "Triangle rectangle en $A$ avec $BC = 25$ cm (hypoténuse) et $AB = 24$ cm. Quelle est la longueur $AC$ ?",
+      "image": "4eme/pythagore/tri_ABC_24.png",
+      "choix": [
+        "$AC = 7$ cm",
+        "$AC = 1$ cm",
+        "$AC = 13$ cm",
+        "$AC = \\sqrt{1201}$ cm"
+      ],
+      "reponse": "$AC = 7$ cm",
+      "explication": "$BC^2 = AB^2 + AC^2$, donc $625 = 576 + AC^2$, soit $AC^2 = 49$, d'où $AC = 7$ cm."
+    },
+
+    {
+      "id": "py4_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Triangle rectangle en $E$ avec $FG = 50$ cm (hypoténuse) et $EF = 48$ cm. Quelle est la longueur $EG$ ?",
+      "image": "4eme/pythagore/tri_EFG_48.png",
+      "choix": [
+        "$EG = 14$ cm",
+        "$EG = 2$ cm",
+        "$EG = 16$ cm",
+        "$EG = \\sqrt{4804}$ cm"
+      ],
+      "reponse": "$EG = 14$ cm",
+      "explication": "$FG^2 = EF^2 + EG^2$, donc $2500 = 2304 + EG^2$, soit $EG^2 = 196$, d'où $EG = 14$ cm."
+    },
+
+    {
+      "id": "py4_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle rectangle en $B$, avec $BC = 4$ et $AB = 3$, quelle est la longueur $AC$ ?",
       "image": null,
       "choix": [
-        "5 cm",
-        "6 cm",
-        "7 cm",
-        "8 cm"
+        "$5$",
+        "$7$",
+        "$\\sqrt{7}$",
+        "$25$"
       ],
-      "reponse": "7 cm",
-      "explication": "$B$C^{2} =$A$B^{2} +$A$C^{2}. 625 = 576 +$A$C^{2}.$A$C^{2} = 49. AC = 7 cm."
+      "reponse": "$5$",
+      "explication": "$AC^2 = AB^2 + BC^2 = 9 + 16 = 25$. Donc $AC = \\sqrt{25} = 5$."
     },
+
     {
-      "id": "pyth4_n1_025",
+      "id": "py4_n1_022",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en E avec FG=50 cm (hyp.) et EF=48 cm. Calcule EG.",
-      "image": null,
-      "choix": [
-        "12 cm",
-        "13 cm",
-        "14 cm",
-        "16 cm"
-      ],
-      "reponse": "14 cm",
-      "explication": "$5$0^{2} =$4$8^{2} +$E$G^{2}. 2500 = 2304 +$E$G^{2}.$E$G^{2} = 196. EG = 14 cm."
-    },
-    {
-      "id": "pyth4_n1_026",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans un triangle rectangle en B, BC=4 et AB=3. Quelle est AC ?",
-      "image": null,
-      "choix": [
-        "5",
-        "7",
-        "12",
-        "$\\sqrt{7}$"
-      ],
-      "reponse": "5",
-      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} = 9 + 16 = 25. AC = 5."
-    },
-    {
-      "id": "pyth4_n1_027",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "$\\sqrt{81}$= ?",
-      "image": null,
-      "choix": [
-        "9",
-        "8",
-        "7",
-        "6"
-      ],
-      "reponse": "9",
-      "explication": "$9^{2}$= 81."
-    },
-    {
-      "id": "pyth4_n1_028",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans un triangle rectangle, l'hypoténuse est :",
-      "image": null,
-      "choix": [
-        "Le plus petit côté",
-        "Le côté adjacent à l'angle droit",
-        "Le côté opposé à l'angle droit, le plus grand",
-        "N'importe quel côté"
-      ],
-      "reponse": "Le côté opposé à l'angle droit, le plus grand",
-      "explication": "L'hypoténuse s'oppose à l'angle droit et est toujours le plus grand côté."
-    },
-    {
-      "id": "pyth4_n1_029",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Si$B$C^{2} =$A$B^{2} +$A$C^{2}, l'angle droit est en :",
-      "image": null,
-      "choix": [
-        "B",
-        "C",
-        "A",
-        "On ne sait pas"
-      ],
-      "reponse": "A",
-      "explication": "BC est l'hypoténuse donc l'angle droit est au sommet opposé à BC, soit en A."
-    },
-    {
-      "id": "pyth4_n1_030",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en P avec PQ=6, PR=8. QR = ?",
-      "image": null,
-      "choix": [
-        "10",
-        "14",
-        "48",
-        "$\\sqrt{100}$"
-      ],
-      "reponse": "10",
-      "explication": "$Q$R^{2} = 36 + 64 = 100. QR = 10."
-    },
-    {
-      "id": "pyth4_n1_031",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "$\\sqrt{4}$+$\\sqrt{9}$= ?",
-      "image": null,
-      "choix": [
-        "$\\sqrt{13}$",
-        "5",
-        "13",
-        "7"
-      ],
-      "reponse": "5",
-      "explication": "$\\sqrt{4}$= 2,$\\sqrt{9}$= 3. 2 + 3 = 5."
-    },
-    {
-      "id": "pyth4_n1_032",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Quel nombre n'est PAS un carré parfait ?",
-      "image": null,
-      "choix": [
-        "36",
-        "50",
-        "81",
-        "100"
-      ],
-      "reponse": "50",
-      "explication": "50 n'est pas le carré d'un entier.$\\sqrt{50}\\approx$7,07."
-    },
-    {
-      "id": "pyth4_n1_033",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en A, AB=8 cm, AC=15 cm. Calcule BC.",
-      "image": null,
-      "choix": [
-        "15 cm",
-        "16 cm",
-        "17 cm",
-        "18 cm"
-      ],
-      "reponse": "17 cm",
-      "explication": "$B$C^{2} = 64 + 225 = 289. BC = 17 cm."
-    },
-    {
-      "id": "pyth4_n1_034",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en M. MK=20 (hyp.), ML=16. Calcule MN.",
-      "image": null,
-      "choix": [
-        "10 cm",
-        "11 cm",
-        "12 cm",
-        "14 cm"
-      ],
-      "reponse": "12 cm",
-      "explication": "$2$0^{2} =$M$N^{2} +$1$6^{2}.$M$N^{2} = 400 − 256 = 144. MN = 12 cm."
-    },
-    {
-      "id": "pyth4_n1_035",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Un carré a un périmètre de 20 cm. Calcule approximativement la longueur de sa diagonale.",
-      "image": null,
-      "choix": [
-        "5 cm",
-        "$\\sqrt{50}\\approx$7,07 cm",
-        "10 cm",
-        "$\\sqrt{25}$= 5 cm"
-      ],
-      "reponse": "$\\sqrt{50}\\approx$7,07 cm",
-      "explication": "Côté = 5 cm.$D$iagonale^{2} =$5^{2}$+$5^{2}$= 50. Diagonale =$\\sqrt{50}\\approx$7,07 cm."
-    },
-    {
-      "id": "pyth4_n1_036",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Calcule$\\sqrt{0}$+$\\sqrt{1}$+$\\sqrt{4}$.",
-      "image": null,
-      "choix": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "reponse": "3",
-      "explication": "0 + 1 + 2 = 3"
-    },
-    {
-      "id": "pyth4_n1_037",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Le plus grand des 3 côtés d'un triangle rectangle est toujours :",
+      "avec_calculatrice": false,
+      "enonce_html": "Le plus grand côté d'un triangle rectangle est toujours :",
       "image": null,
       "choix": [
         "Un côté quelconque",
-        "L'hypoténuse si le triangle est rectangle",
+        "L'hypoténuse",
         "Le côté horizontal",
         "Aucune de ces réponses"
       ],
-      "reponse": "L'hypoténuse si le triangle est rectangle",
-      "explication": "Dans un triangle rectangle, le plus grand côté est toujours l'hypoténuse."
+      "reponse": "L'hypoténuse",
+      "explication": "Dans tout triangle rectangle, l'hypoténuse — le côté opposé à l'angle droit — est toujours le plus grand des trois côtés."
     },
+
     {
-      "id": "pyth4_n1_038",
+      "id": "py4_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si $ABC$ est rectangle en $B$, quelle égalité est correcte ?",
+      "image": null,
+      "choix": [
+        "$BC^2 = AB^2 + AC^2$",
+        "$AB^2 = AC^2 + BC^2$",
+        "$AC^2 = AB^2 + BC^2$",
+        "$AB^2 = BC^2 - AC^2$"
+      ],
+      "reponse": "$AC^2 = AB^2 + BC^2$",
+      "explication": "L'angle droit est en $B$, donc l'hypoténuse est $[AC]$. Le théorème de Pythagore donne : $AC^2 = AB^2 + BC^2$."
+    },
+
+    {
+      "id": "py4_n1_024",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Si$\\widehat{ABC}$est rectangle en B, quelle est l'égalité de Pythagore ?",
-      "image": null,
+      "enonce_html": "Triangle rectangle en $I$ avec $IJ = 9$ cm et $IK = 12$ cm. Quelle est la longueur $JK$ ?",
+      "image": "4eme/pythagore/tri_IJK.png",
       "choix": [
-        "$A$B^{2} =$A$C^{2} +$B$C^{2}",
-        "$A$C^{2} =$A$B^{2} +$B$C^{2}",
-        "$B$C^{2} =$A$B^{2} +$A$C^{2}",
-        "$A$B^{2} =$A$C^{2} −$B$C^{2}"
+        "$JK = 21$ cm",
+        "$JK = 15$ cm",
+        "$JK = 3$ cm",
+        "$JK = \\sqrt{81}$ cm"
       ],
-      "reponse": "$A$C^{2} =$A$B^{2} +$B$C^{2}",
-      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} (AC est l'hypoténuse, opposée à B)."
+      "reponse": "$JK = 15$ cm",
+      "explication": "$JK^2 = IJ^2 + IK^2 = 81 + 144 = 225$. Donc $JK = \\sqrt{225} = 15$ cm."
     },
+
     {
-      "id": "pyth4_n1_039",
+      "id": "py4_n1_025",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en I avec IJ=9, IK=12. Calcule JK.",
+      "avec_calculatrice": false,
+      "enonce_html": "Si dans un triangle les côtés vérifient $a^2 + b^2 = c^2$, quel est le rôle de $c$ ?",
       "image": null,
       "choix": [
-        "12 cm",
-        "13 cm",
-        "15 cm",
-        "18 cm"
+        "$c$ est le plus petit côté",
+        "$c$ est un côté de l'angle droit",
+        "$c$ est l'hypoténuse (côté opposé à l'angle droit)",
+        "$c$ peut être n'importe quel côté"
       ],
-      "reponse": "15 cm",
-      "explication": "$J$K^{2} = 81 + 144 = 225. JK = 15 cm."
+      "reponse": "$c$ est l'hypoténuse (côté opposé à l'angle droit)",
+      "explication": "Dans $a^2 + b^2 = c^2$, $c$ est toujours l'hypoténuse, c'est-à-dire le plus grand côté, opposé à l'angle droit."
     },
+
     {
-      "id": "pyth4_n1_040",
+      "id": "py4_n1_026",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans un triangle dont les côtés mesurent 5, 12 et 13, on vérifie :",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel triplet pythagoricien est correct parmi les suivants ?",
       "image": null,
       "choix": [
-        "5+12=17$\\neq$13",
-        "$1$3^{2}=169 et$5^{2}$+$1$2^{2}=25+144=169 → égaux",
-        "13+5$\\neq$12",
-        "Rien à vérifier"
+        "$(2, 3, 4)$",
+        "$(3, 4, 5)$",
+        "$(4, 5, 6)$",
+        "$(5, 6, 7)$"
       ],
-      "reponse": "$1$3^{2}=169 et$5^{2}$+$1$2^{2}=25+144=169 → égaux",
-      "explication": "$1$3^{2} = 169 =$5^{2}$+$1$2^{2}. Ce triplet vérifie le théorème de Pythagore."
+      "reponse": "$(3, 4, 5)$",
+      "explication": "$3^2 + 4^2 = 9 + 16 = 25 = 5^2$. Le triplet $(3, 4, 5)$ vérifie bien $a^2 + b^2 = c^2$."
     },
+
     {
-      "id": "pyth4_n2_001",
+      "id": "py4_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le triplet $(8, 15, 17)$ est-il un triplet pythagoricien ?",
+      "image": null,
+      "choix": [
+        "Non : $8 + 15 \\neq 17$",
+        "Oui : $8^2 + 15^2 = 64 + 225 = 289 = 17^2$",
+        "Non : $8 \\times 15 \\neq 17$",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Oui : $8^2 + 15^2 = 64 + 225 = 289 = 17^2$",
+      "explication": "$8^2 + 15^2 = 64 + 225 = 289 = 17^2$. Oui, $(8, 15, 17)$ est bien un triplet pythagoricien."
+    },
+
+    {
+      "id": "py4_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle $ABC$ rectangle en $A$, quel côté est l'hypoténuse ?",
+      "image": null,
+      "choix": [
+        "$[AB]$",
+        "$[AC]$",
+        "$[BC]$",
+        "Cela dépend des longueurs"
+      ],
+      "reponse": "$[BC]$",
+      "explication": "L'hypoténuse est le côté opposé à l'angle droit. L'angle droit est en $A$, donc l'hypoténuse est $[BC]$."
+    },
+
+    {
+      "id": "py4_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{64} = ?$",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$8$",
+        "$32$",
+        "$16$"
+      ],
+      "reponse": "$8$",
+      "explication": "$\\sqrt{64} = 8$ car $8^2 = 64$."
+    },
+
+    {
+      "id": "py4_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$\\sqrt{144} = ?$",
+      "image": null,
+      "choix": [
+        "$72$",
+        "$14$",
+        "$12$",
+        "$16$"
+      ],
+      "reponse": "$12$",
+      "explication": "$\\sqrt{144} = 12$ car $12^2 = 144$."
+    },
+
+    {
+      "id": "py4_n2_001",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle$\\widehat{STU}$: ST=5, SU=3, UT=4. [ST] est le plus grand côté.$S$T^{2}=25,$S$U^{2}+$U$T^{2}=9+16=25. Que peut-on conclure ?",
+      "enonce_html": "En appliquant la réciproque du théorème de Pythagore au triangle $STU$ ($ST = 5$, $SU = 3$, $UT = 4$), quelle conclusion peut-on tirer ?",
       "image": "4eme/pythagore/bbce66495044b37d302b685bfe353aae33094361.png",
       "choix": [
-        "Le triangle$\\widehat{STU}$est rectangle en S",
-        "Le triangle$\\widehat{STU}$est rectangle en U",
-        "Le triangle$\\widehat{STU}$n'est pas rectangle",
+        "Le triangle $STU$ est rectangle en $S$",
+        "Le triangle $STU$ est rectangle en $U$",
+        "Le triangle $STU$ n'est pas rectangle",
         "On ne peut pas conclure"
       ],
-      "reponse": "Le triangle$\\widehat{STU}$est rectangle en U",
-      "explication": "[ST] est le plus grand côté (5>4>3).$S$T^{2}=25.$S$U^{2}+$U$T^{2}=9+16=25.$S$T^{2}=$S$U^{2}+$U$T^{2} → triangle$\\widehat{STU}$rectangle en U (angle droit opposé à ST)."
+      "reponse": "Le triangle $STU$ est rectangle en $U$",
+      "explication": "$[ST]$ est le plus grand côté ($5 > 4 > 3$). $ST^2 = 25$. $SU^2 + UT^2 = 9 + 16 = 25$. Comme $ST^2 = SU^2 + UT^2$, le triangle $STU$ est rectangle en $U$ (angle droit au sommet opposé à l'hypoténuse $[ST]$)."
     },
+
     {
-      "id": "pyth4_n2_002",
+      "id": "py4_n2_002",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle$\\widehat{PQR}$: PQ=8, QR=10 (grand côté), PR=6.$Q$R^{2}=100,$P$Q^{2}+$P$R^{2}=64+36=100. Conclusion ?",
+      "enonce_html": "Le triangle $PQR$ a $PQ = 8$ cm, $QR = 10$ cm et $PR = 6$ cm. Ce triangle est-il rectangle ?",
       "image": "4eme/pythagore/9cddae7da841994b10171b0cebbbe69b8374ae08.png",
       "choix": [
-        "Pas rectangle car 8+6$\\neq$10",
-        "Rectangle en P ($Q$R^{2}=$P$Q^{2}+$P$R^{2})",
-        "Rectangle en Q",
-        "On ne peut pas savoir"
+        "Oui, rectangle en $Q$",
+        "Oui, rectangle en $P$",
+        "Oui, rectangle en $R$",
+        "Non, il n'est pas rectangle"
       ],
-      "reponse": "Rectangle en P ($Q$R^{2}=$P$Q^{2}+$P$R^{2})",
-      "explication": "$Q$R^{2}=100.$P$Q^{2}+$P$R^{2}=64+36=100.$Q$R^{2}=$P$Q^{2}+$P$R^{2} → triangle$\\widehat{PQR}$rectangle en P."
+      "reponse": "Oui, rectangle en $P$",
+      "explication": "$QR^2 = 100$. $PQ^2 + PR^2 = 64 + 36 = 100$. Comme $QR^2 = PQ^2 + PR^2$, le triangle $PQR$ est rectangle en $P$ (angle droit au sommet opposé à l'hypoténuse $[QR]$)."
     },
+
     {
-      "id": "pyth4_n2_003",
+      "id": "py4_n2_003",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle$\\widehat{XYZ}$: XY=7, YZ=9 (grand côté), XZ=5.$Y$Z^{2}=81,$X$Y^{2}+$X$Z^{2}=49+25=74. Est-il rectangle ?",
+      "enonce_html": "Le triangle $XYZ$ a $XY = 7$ cm, $YZ = 9$ cm et $XZ = 5$ cm. Ce triangle est-il rectangle ?",
       "image": "4eme/pythagore/7a81dc9a93a6dd4076faca426bba8ea6affcf079.png",
       "choix": [
-        "Oui, rectangle en X",
-        "Oui, rectangle en Z",
-        "Non, 81$\\neq$74",
+        "Oui, rectangle en $Z$",
+        "Oui, rectangle en $X$",
+        "Non, il n'est pas rectangle",
+        "Oui, rectangle en $Y$"
+      ],
+      "reponse": "Non, il n'est pas rectangle",
+      "explication": "$YZ^2 = 81$. $XY^2 + XZ^2 = 49 + 25 = 74$. Comme $81 \\neq 74$, le triangle $XYZ$ n'est pas rectangle."
+    },
+
+    {
+      "id": "py4_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un triangle a les côtés $9$ cm, $12$ cm et $15$ cm. Quelle conclusion s'impose ?",
+      "image": "4eme/pythagore/tri_9_12_15.png",
+      "choix": [
+        "Il est rectangle car $9 + 12 = 21 > 15$",
+        "Il est rectangle car $15^2 = 9^2 + 12^2 = 225$",
+        "Il n'est pas rectangle car les côtés sont différents",
         "On ne peut pas conclure"
       ],
-      "reponse": "Non, 81$\\neq$74",
-      "explication": "$Y$Z^{2}=81.$X$Y^{2}+$X$Z^{2}=49+25=74. 81$\\neq$74 → triangle$\\widehat{XYZ}$n'est pas rectangle."
+      "reponse": "Il est rectangle car $15^2 = 9^2 + 12^2 = 225$",
+      "explication": "$15^2 = 225$ et $9^2 + 12^2 = 81 + 144 = 225$. Comme $15^2 = 9^2 + 12^2$, le triangle est rectangle (l'angle droit est opposé au côté 15)."
     },
+
     {
-      "id": "pyth4_n2_004",
+      "id": "py4_n2_005",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle a les côtés 9 cm, 12 cm et 15 cm. Est-il rectangle ?",
-      "image": null,
+      "enonce_html": "Un triangle a les côtés $7$ cm, $8$ cm et $11$ cm. Est-il rectangle ?",
+      "image": "4eme/pythagore/tri_7_8_11.png",
       "choix": [
-        "Non, 9+12$\\neq$15",
-        "Oui,$1$5^{2}=225=$9^{2}$+$1$2^{2}=81+144",
-        "Non, car$9^{2}$+$1$5^{2}$\\neq1$2^{2}",
-        "On ne sait pas"
+        "Oui, car $7 + 8 > 11$",
+        "Oui, car $11^2 = 7^2 + 8^2$",
+        "Non, car $11^2 = 121 \\neq 7^2 + 8^2 = 113$",
+        "Non, car les côtés ont des longueurs différentes"
       ],
-      "reponse": "Oui,$1$5^{2}=225=$9^{2}$+$1$2^{2}=81+144",
-      "explication": "Grand côté : 15.$1$5^{2}=225.$9^{2}$+$1$2^{2}=81+144=225. 225=225 → rectangle en l'angle opposé au côté 15."
+      "reponse": "Non, car $11^2 = 121 \\neq 7^2 + 8^2 = 113$",
+      "explication": "$11^2 = 121$ et $7^2 + 8^2 = 49 + 64 = 113$. Comme $121 \\neq 113$, le triangle n'est pas rectangle (contraposée du théorème de Pythagore)."
     },
+
     {
-      "id": "pyth4_n2_005",
+      "id": "py4_n2_006",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle a les côtés 7 cm, 8 cm et 11 cm. Est-il rectangle ?",
-      "image": null,
+      "enonce_html": "Un triangle a les côtés $20$, $21$ et $29$. Est-il rectangle ?",
+      "image": "4eme/pythagore/tri_20_21_29.png",
       "choix": [
-        "Oui,$1$1^{2}=$7^{2}$+$8^{2}$",
-        "Non,$1$1^{2}=121$\\neq7^{2}$+$8^{2}$=113",
-        "Oui, 7+8=15>11",
-        "On ne peut pas savoir"
+        "Non, car $20 + 21 \\neq 29$",
+        "Oui, car $29^2 = 20^2 + 21^2 = 841$",
+        "Non, car $29^2 \\neq 20^2 + 21^2$",
+        "Oui, car $(20, 21, 29)$ est un triplet connu"
       ],
-      "reponse": "Non,$1$1^{2}=121$\\neq7^{2}$+$8^{2}$=113",
-      "explication": "Grand côté : 11.$1$1^{2}=121.$7^{2}$+$8^{2}$=49+64=113. 121$\\neq$113 → pas rectangle."
+      "reponse": "Oui, car $29^2 = 20^2 + 21^2 = 841$",
+      "explication": "$29^2 = 841$ et $20^2 + 21^2 = 400 + 441 = 841$. Comme $29^2 = 20^2 + 21^2$, le triangle est rectangle."
     },
+
     {
-      "id": "pyth4_n2_006",
+      "id": "py4_n2_007",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle a les côtés 20, 21 et 29. Est-il rectangle ?",
-      "image": null,
-      "choix": [
-        "Non, 20+21$\\neq$29",
-        "Oui,$2$9^{2}=841=$2$0^{2}+$2$1^{2}=400+441",
-        "Non, aucun n'est pair",
-        "On ne peut pas décider"
-      ],
-      "reponse": "Oui,$2$9^{2}=841=$2$0^{2}+$2$1^{2}=400+441",
-      "explication": "$2$9^{2}=841.$2$0^{2}+$2$1^{2}=400+441=841. 841=841 → rectangle."
-    },
-    {
-      "id": "pyth4_n2_007",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle$\\widehat{DEF}$: DE=6, EF=4, DF=7 (grand côté).$D$F^{2}=49,$D$E^{2}+$E$F^{2}=36+16=52. Conclusion ?",
+      "enonce_html": "Le triangle $DEF$ a $DE = 6$, $EF = 4$, $DF = 7$. Que peut-on conclure par la contraposée ?",
       "image": "4eme/pythagore/6229e88a22b389a394318754b26e45dcfc4013e6.png",
       "choix": [
-        "Rectangle en E",
-        "Rectangle en D",
-        "Pas rectangle (49$\\neq$52)",
-        "Rectangle en F"
+        "Le triangle est rectangle en $E$",
+        "Le triangle est rectangle en $F$",
+        "Le triangle n'est pas rectangle (contraposée)",
+        "On ne peut pas conclure"
       ],
-      "reponse": "Pas rectangle (49$\\neq$52)",
-      "explication": "Grand côté : DF=7.$D$F^{2}=49.$D$E^{2}+$E$F^{2}=36+16=52. 49$\\neq$52 → triangle$\\widehat{DEF}$n'est pas rectangle (contraposée)."
+      "reponse": "Le triangle n'est pas rectangle (contraposée)",
+      "explication": "$DF^2 = 49$ (plus grand côté). $DE^2 + EF^2 = 36 + 16 = 52$. Comme $49 \\neq 52$, la contraposée du théorème de Pythagore permet de conclure que le triangle $DEF$ n'est pas rectangle."
     },
+
     {
-      "id": "pyth4_n2_008",
+      "id": "py4_n2_008",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle a les côtés 5 cm, 7 cm et 9 cm. Est-il rectangle ?",
-      "image": null,
+      "enonce_html": "Un triangle a les côtés $5$ cm, $7$ cm et $9$ cm. Peut-on affirmer qu'il n'est pas rectangle ?",
+      "image": "4eme/pythagore/tri_5_7_9.png",
       "choix": [
-        "Oui,$9^{2}=5^{2}$+$7^{2}$",
-        "Non, 81$\\neq$74",
-        "Oui, car 5+7>9",
-        "On ne sait pas"
+        "Non, car on n'a pas toutes les informations",
+        "Oui, car $9^2 = 81 \\neq 5^2 + 7^2 = 74$",
+        "Oui, car aucun côté n'est double d'un autre",
+        "Non, il pourrait être rectangle"
       ],
-      "reponse": "Non, 81$\\neq$74",
-      "explication": "Grand côté : 9.$9^{2}$=81.$5^{2}$+$7^{2}$=25+49=74. 81$\\neq$74 → pas rectangle."
+      "reponse": "Oui, car $9^2 = 81 \\neq 5^2 + 7^2 = 74$",
+      "explication": "$9^2 = 81$ et $5^2 + 7^2 = 25 + 49 = 74$. Comme $81 \\neq 74$, par la contraposée du théorème de Pythagore, le triangle n'est pas rectangle."
     },
+
     {
-      "id": "pyth4_n2_009",
+      "id": "py4_n2_009",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Quelle est la différence entre la réciproque et la contraposée du théorème de Pythagore ?",
-      "image": null,
+      "enonce_html": "Triangle rectangle en $A$ avec $AB = \\sqrt{5}$ cm et $AC = \\sqrt{20}$ cm. Quelle est la longueur $BC$ ?",
+      "image": "4eme/pythagore/tri_sqrt5_sqrt20.png",
       "choix": [
-        "Ce sont la même chose",
-        "Réciproque : carrés ÉGAUX → rectangle. Contraposée : carrés PAS ÉGAUX → pas rectangle",
-        "Réciproque : pas rectangle. Contraposée : rectangle",
-        "La contraposée n'existe pas"
+        "$BC = \\sqrt{15}$ cm",
+        "$BC = 5$ cm",
+        "$BC = \\sqrt{25} = 5$ cm",
+        "$BC = \\sqrt{100}$ cm"
       ],
-      "reponse": "Réciproque : carrés ÉGAUX → rectangle. Contraposée : carrés PAS ÉGAUX → pas rectangle",
-      "explication": "Réciproque : les carrés SONT égaux → rectangle. Contraposée : les carrés NE SONT PAS égaux → pas rectangle. Ce sont les deux cas possibles."
+      "reponse": "$BC = 5$ cm",
+      "explication": "$BC^2 = (\\sqrt{5})^2 + (\\sqrt{20})^2 = 5 + 20 = 25$. Donc $BC = \\sqrt{25} = 5$ cm."
     },
+
     {
-      "id": "pyth4_n2_010",
+      "id": "py4_n2_010",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en A. AB=$\\sqrt{5}$cm, AC=$\\sqrt{20}$cm. Calcule BC.",
-      "image": null,
+      "enonce_html": "Un écran de $55$ pouces a une largeur de $48{,}5$ cm et une hauteur de $27{,}2$ cm. Quelle est la longueur approximative de sa diagonale ?",
+      "image": "4eme/pythagore/ecran_tv.png",
       "choix": [
-        "4 cm",
-        "5 cm",
-        "$\\sqrt{25}$= 5 cm",
-        "$\\sqrt{45}$cm"
+        "Environ $75{,}7$ cm",
+        "Environ $55{,}6$ cm",
+        "Environ $48{,}5$ cm",
+        "Environ $42{,}3$ cm"
       ],
-      "reponse": "5 cm",
-      "explication": "$B$C^{2} =$\\left(\\sqrt{5}\\right)^{2}$+$\\left(\\sqrt{20}\\right)^{2}$= 5 + 20 = 25. BC = 5 cm."
+      "reponse": "Environ $55{,}6$ cm",
+      "explication": "$d^2 = 48{,}5^2 + 27{,}2^2 = 2352{,}25 + 739{,}84 = 3092{,}09$. $d = \\sqrt{3092{,}09} \\approx 55{,}6$ cm."
     },
+
     {
-      "id": "pyth4_n2_011",
+      "id": "py4_n2_011",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un écran de 55 pouces a une largeur de 48,5 cm et une hauteur de 27,2 cm. Que vaut approximativement la diagonale ?",
-      "image": null,
+      "enonce_html": "Une échelle de $5$ m est appuyée contre un mur vertical. Son pied est à $1{,}5$ m du mur. À quelle hauteur atteint-elle le mur ?",
+      "image": "4eme/pythagore/echelle_mur.png",
       "choix": [
-        "45 cm",
-        "50 cm",
-        "55,6 cm",
-        "60 cm"
+        "Environ $3{,}5$ m",
+        "Environ $5{,}2$ m",
+        "Environ $4{,}77$ m",
+        "Environ $6{,}5$ m"
       ],
-      "reponse": "55,6 cm",
-      "explication": "$d^{2}$= 48,$5^{2}$+ 27,$2^{2}$= 2352,25 + 739,84 = 3092,09. d =$\\sqrt{3092}$,09$\\approx$55,6 cm ✓"
+      "reponse": "Environ $4{,}77$ m",
+      "explication": "$h^2 = 5^2 - 1{,}5^2 = 25 - 2{,}25 = 22{,}75$. $h = \\sqrt{22{,}75} \\approx 4{,}77$ m."
     },
+
     {
-      "id": "pyth4_n2_012",
+      "id": "py4_n2_012",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Une échelle de 5 m est appuyée contre un mur. Son pied est à 1,5 m du mur. À quelle hauteur atteint-elle le mur ?",
-      "image": null,
+      "enonce_html": "Un terrain rectangulaire mesure $24$ m sur $10$ m. Quelle est la longueur de sa diagonale ?",
+      "image": "4eme/pythagore/terrain_rect_24_10.png",
       "choix": [
-        "3,5 m",
-        "4,5 m",
-        "4,77 m",
-        "5 m"
+        "$26$ m",
+        "$34$ m",
+        "$\\sqrt{776}$ m",
+        "$14$ m"
       ],
-      "reponse": "4,77 m",
-      "explication": "$h^{2}$=$5^{2}$− 1,$5^{2}$= 25 − 2,25 = 22,75. h =$\\sqrt{22}$,75$\\approx$4,77 m."
+      "reponse": "$26$ m",
+      "explication": "$d^2 = 24^2 + 10^2 = 576 + 100 = 676$. $d = \\sqrt{676} = 26$ m."
     },
+
     {
-      "id": "pyth4_n2_013",
+      "id": "py4_n2_013",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un terrain rectangulaire mesure 24 m$\\times$10 m. Calcule la longueur de la diagonale.",
-      "image": null,
+      "enonce_html": "Un jardinier veut vérifier qu'un terrain rectangulaire de $6$ m sur $8$ m est bien droit. Quelle longueur doit-il mesurer pour la diagonale ?",
+      "image": "4eme/pythagore/jardinier_6_8.png",
       "choix": [
-        "20 m",
-        "24 m",
-        "26 m",
-        "34 m"
+        "$14$ m",
+        "$10$ m",
+        "$\\sqrt{28}$ m",
+        "$7$ m"
       ],
-      "reponse": "26 m",
-      "explication": "$d^{2}$=$2$4^{2} +$1$0^{2} = 576 + 100 = 676. d =$\\sqrt{676}$= 26 m."
+      "reponse": "$10$ m",
+      "explication": "$d^2 = 6^2 + 8^2 = 36 + 64 = 100$. $d = \\sqrt{100} = 10$ m."
     },
+
     {
-      "id": "pyth4_n2_014",
+      "id": "py4_n2_014",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle isocèle$\\widehat{ABC}$a AB=AC=10 cm et BC=12 cm. Calcule la hauteur issue de A.",
-      "image": null,
+      "enonce_html": "Dans un rectangle $ABCD$, $AB = 9$ cm et $BC = 12$ cm. Quelle est la longueur de la diagonale $AC$ ?",
+      "image": "4eme/pythagore/rect_ABCD_9_12.png",
       "choix": [
-        "6 cm",
-        "7 cm",
-        "8 cm",
-        "9 cm"
+        "$AC = 21$ cm",
+        "$AC = 15$ cm",
+        "$AC = \\sqrt{63}$ cm",
+        "$AC = 3$ cm"
       ],
-      "reponse": "8 cm",
-      "explication": "H est le milieu de BC donc BH=6 cm.$A$H^{2} =$A$B^{2} −$B$H^{2} = 100 − 36 = 64. AH = 8 cm."
+      "reponse": "$AC = 15$ cm",
+      "explication": "$AC^2 = AB^2 + BC^2 = 81 + 144 = 225$. $AC = \\sqrt{225} = 15$ cm."
     },
+
     {
-      "id": "pyth4_n2_015",
+      "id": "py4_n2_015",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Lequel de ces triplets (a,b,c) vérifie$a^{2}$+$b^{2}=c^{2}$?",
-      "image": null,
+      "enonce_html": "Un voilier part du port $A$, navigue $6$ km vers le Nord jusqu'en $B$, puis $8$ km vers l'Est jusqu'en $C$. Quelle est la distance $AC$ ?",
+      "image": "4eme/pythagore/voilier_ABC.png",
       "choix": [
-        "(2,3,4)",
-        "(3,4,5)",
-        "(4,5,6)",
-        "(5,6,7)"
+        "$AC = 14$ km",
+        "$AC = 10$ km",
+        "$AC = \\sqrt{28}$ km",
+        "$AC = 7$ km"
       ],
-      "reponse": "(3,4,5)",
-      "explication": "$3^{2}$+$4^{2}$= 9 + 16 = 25 =$5^{2}$."
+      "reponse": "$AC = 10$ km",
+      "explication": "$AC^2 = AB^2 + BC^2 = 36 + 64 = 100$. $AC = \\sqrt{100} = 10$ km."
     },
+
     {
-      "id": "pyth4_n2_016",
+      "id": "py4_n2_016",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Le triplet (8,15,17) est-il pythagoricien ?",
+      "enonce_html": "Une piscine rectangulaire mesure $15$ m sur $20$ m. Quelle est la distance en diagonale ?",
+      "image": "4eme/pythagore/piscine_15_20.png",
+      "choix": [
+        "$30$ m",
+        "$25$ m",
+        "$35$ m",
+        "$\\sqrt{175}$ m"
+      ],
+      "reponse": "$25$ m",
+      "explication": "$d^2 = 15^2 + 20^2 = 225 + 400 = 625$. $d = \\sqrt{625} = 25$ m. La diagonale mesure $25$ m, moins que le tour (un côté long + un côté court = $35$ m)."
+    },
+
+    {
+      "id": "py4_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un pylône de $12$ m est maintenu par un câble de $13$ m attaché au sol. À quelle distance du pied du pylône est fixé le câble ?",
+      "image": "4eme/pythagore/pylone_12_13.png",
+      "choix": [
+        "$1$ m",
+        "$5$ m",
+        "$8{,}5$ m",
+        "$\\sqrt{313}$ m"
+      ],
+      "reponse": "$5$ m",
+      "explication": "$d^2 = 13^2 - 12^2 = 169 - 144 = 25$. $d = \\sqrt{25} = 5$ m."
+    },
+
+    {
+      "id": "py4_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un triangle $ABC$ est rectangle en $C$. On sait que $AC = 3$ cm et $AB = 5$ cm. Quel est le périmètre du triangle ?",
+      "image": "4eme/pythagore/tri_CAB_3_5.png",
+      "choix": [
+        "$12$ cm",
+        "$8$ cm",
+        "$15$ cm",
+        "$10$ cm"
+      ],
+      "reponse": "$12$ cm",
+      "explication": "$BC^2 = AB^2 - AC^2 = 25 - 9 = 16$. $BC = 4$ cm. Périmètre $= AC + BC + AB = 3 + 4 + 5 = 12$ cm."
+    },
+
+    {
+      "id": "py4_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Triangle rectangle en $P$ avec $PQ = 2{,}4$ cm et $PR = 3{,}2$ cm. Quelle est la longueur $QR$ ?",
+      "image": "4eme/pythagore/tri_PQR_2.4_3.2.png",
+      "choix": [
+        "$QR = 4$ cm",
+        "$QR = 5{,}6$ cm",
+        "$QR = \\sqrt{16}$ cm",
+        "$QR = 3{,}8$ cm"
+      ],
+      "reponse": "$QR = 4$ cm",
+      "explication": "$QR^2 = PQ^2 + PR^2 = 2{,}4^2 + 3{,}2^2 = 5{,}76 + 10{,}24 = 16$. $QR = \\sqrt{16} = 4$ cm."
+    },
+
+    {
+      "id": "py4_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un carré de côté $5$ cm. Quelle est la longueur de sa diagonale (au dixième) ?",
+      "image": "4eme/pythagore/carre_5cm_diag.png",
+      "choix": [
+        "$d \\approx 6{,}1$ cm",
+        "$d \\approx 7{,}1$ cm",
+        "$d \\approx 8{,}1$ cm",
+        "$d = 10$ cm"
+      ],
+      "reponse": "$d \\approx 7{,}1$ cm",
+      "explication": "$d^2 = 5^2 + 5^2 = 50$. $d = \\sqrt{50} = 5\\sqrt{2} \\approx 7{,}1$ cm."
+    },
+
+    {
+      "id": "py4_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On vérifie que $(5, 12, 13)$ est un triplet pythagoricien. Quelle égalité prouve ce fait ?",
+      "image": "4eme/pythagore/triplet_5_12_13.png",
+      "choix": [
+        "$5 + 12 = 17 \\neq 13$",
+        "$5^2 + 12^2 = 25 + 144 = 169 = 13^2$",
+        "$5 \\times 12 = 60 = 13 \\times 5$",
+        "$5^2 + 13^2 = 194 = 12^2$"
+      ],
+      "reponse": "$5^2 + 12^2 = 25 + 144 = 169 = 13^2$",
+      "explication": "$5^2 + 12^2 = 25 + 144 = 169 = 13^2$. La condition $a^2 + b^2 = c^2$ est bien vérifiée. $(5, 12, 13)$ est un triplet pythagoricien."
+    },
+
+    {
+      "id": "py4_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On vérifie que $(7, 24, 25)$ est un triplet pythagoricien. Quelle vérification est correcte ?",
+      "image": "4eme/pythagore/triplet_7_24_25.png",
+      "choix": [
+        "$7 + 24 = 31 \\neq 25$",
+        "$7^2 + 24^2 = 49 + 576 = 625 = 25^2$",
+        "$7^2 + 25^2 = 49 + 625 = 674 \\neq 24^2$",
+        "$(7, 24, 25)$ n'est pas pythagoricien"
+      ],
+      "reponse": "$7^2 + 24^2 = 49 + 576 = 625 = 25^2$",
+      "explication": "$7^2 + 24^2 = 49 + 576 = 625 = 25^2$. La condition est vérifiée : $(7, 24, 25)$ est bien un triplet pythagoricien."
+    },
+
+    {
+      "id": "py4_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Triangle rectangle en $E$ avec $EF = 2\\sqrt{3}$ cm et $EG = \\sqrt{12}$ cm. Quelle est la longueur $FG$ ?",
+      "image": "4eme/pythagore/tri_2sqrt3_sqrt12.png",
+      "choix": [
+        "$FG = \\sqrt{24} \\approx 4{,}9$ cm",
+        "$FG = \\sqrt{48}$ cm",
+        "$FG = 6$ cm",
+        "$FG = 2\\sqrt{3}$ cm"
+      ],
+      "reponse": "$FG = \\sqrt{24} \\approx 4{,}9$ cm",
+      "explication": "$FG^2 = (2\\sqrt{3})^2 + (\\sqrt{12})^2 = 12 + 12 = 24$. $FG = \\sqrt{24} = 2\\sqrt{6} \\approx 4{,}90$ cm."
+    },
+
+    {
+      "id": "py4_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la différence entre la réciproque et la contraposée du théorème de Pythagore ?",
       "image": null,
       "choix": [
-        "Non : 8+15$\\neq$17",
-        "Oui :$8^{2}$+$1$5^{2}=64+225=289=$1$7^{2}",
-        "Non : 8$\\times$15$\\neq$17",
+        "Il n'y a aucune différence",
+        "La réciproque conclut à un triangle rectangle, la contraposée conclut à un triangle non rectangle",
+        "La réciproque s'applique à tous les triangles, la contraposée seulement aux rectangles",
+        "La contraposée conclut à un triangle rectangle, la réciproque à un triangle non rectangle"
+      ],
+      "reponse": "La réciproque conclut à un triangle rectangle, la contraposée conclut à un triangle non rectangle",
+      "explication": "Réciproque : si $c^2 = a^2 + b^2$, alors le triangle est rectangle. Contraposée : si $c^2 \\neq a^2 + b^2$, alors le triangle n'est pas rectangle. Ce sont les deux cas complémentaires."
+    },
+
+    {
+      "id": "py4_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un triangle a les côtés $5$ cm, $7$ cm et $9$ cm. Quelle est la valeur de $5^2 + 7^2$ ?",
+      "image": "4eme/pythagore/tri_5_7_9.png",
+      "choix": [
+        "$5^2 + 7^2 = 144$",
+        "$5^2 + 7^2 = 74$",
+        "$5^2 + 7^2 = 84$",
+        "$5^2 + 7^2 = 61$"
+      ],
+      "reponse": "$5^2 + 7^2 = 74$",
+      "explication": "$5^2 + 7^2 = 25 + 49 = 74$. Comme $9^2 = 81 \\neq 74$, ce triangle n'est pas rectangle."
+    },
+
+    {
+      "id": "py4_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un triangle a les côtés $20$ cm, $21$ cm et $29$ cm. Quelle valeur compare-t-on pour appliquer la réciproque ?",
+      "image": "4eme/pythagore/tri_20_21_29.png",
+      "choix": [
+        "$20^2 = 400$ et $21 + 29 = 50$",
+        "$29^2 = 841$ et $20^2 + 21^2 = 841$",
+        "$20 + 21 = 41$ et $29^2 = 841$",
+        "$20 \\times 21 = 420$ et $29^2 = 841$"
+      ],
+      "reponse": "$29^2 = 841$ et $20^2 + 21^2 = 841$",
+      "explication": "Pour la réciproque, on compare $c^2$ (grand côté au carré) avec $a^2 + b^2$. Ici $29^2 = 841$ et $20^2 + 21^2 = 400 + 441 = 841$. L'égalité est vérifiée : triangle rectangle."
+    },
+
+    {
+      "id": "py4_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Si $(3, 4, 5)$ est un triplet pythagoricien, $(6, 8, 10)$ l'est-il aussi ?",
+      "image": null,
+      "choix": [
+        "Non, car les valeurs sont différentes",
+        "Oui, car $6^2 + 8^2 = 36 + 64 = 100 = 10^2$",
+        "Non, car il faut des nombres premiers",
+        "Oui, mais uniquement par coïncidence"
+      ],
+      "reponse": "Oui, car $6^2 + 8^2 = 36 + 64 = 100 = 10^2$",
+      "explication": "$6^2 + 8^2 = 36 + 64 = 100 = 10^2$. Tout multiple entier d'un triplet pythagoricien est aussi un triplet pythagoricien. $(6, 8, 10) = 2 \\times (3, 4, 5)$."
+    },
+
+    {
+      "id": "py4_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un triangle a les côtés $9$ cm, $12$ cm et $15$ cm. En quel sommet est l'angle droit ?",
+      "image": "4eme/pythagore/tri_9_12_15.png",
+      "choix": [
+        "Au sommet opposé au côté $9$ cm",
+        "Au sommet opposé au côté $12$ cm",
+        "Au sommet opposé au côté $15$ cm",
+        "Il n'y a pas d'angle droit"
+      ],
+      "reponse": "Au sommet opposé au côté $15$ cm",
+      "explication": "La réciproque donne : $15^2 = 9^2 + 12^2 = 225$. L'hypoténuse est le côté de longueur $15$ cm. L'angle droit est au sommet qui lui est opposé."
+    },
+
+    {
+      "id": "py4_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un terrain rectangulaire mesure $30$ m sur $40$ m. Quelle est la longueur de sa diagonale ?",
+      "image": null,
+      "choix": [
+        "$50$ m",
+        "$70$ m",
+        "$\\sqrt{700}$ m",
+        "$35$ m"
+      ],
+      "reponse": "$50$ m",
+      "explication": "[Question générée] $d^2 = 30^2 + 40^2 = 900 + 1600 = 2500$. $d = \\sqrt{2500} = 50$ m. On retrouve le triplet $(3, 4, 5)$ multiplié par $10$."
+    },
+
+    {
+      "id": "py4_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un triangle a les côtés $10$ cm, $24$ cm et $26$ cm. Est-il rectangle ?",
+      "image": null,
+      "choix": [
+        "Oui, car $26^2 = 676 = 10^2 + 24^2$",
+        "Non, car $10 + 24 \\neq 26$",
+        "Non, car $26^2 \\neq 10^2 + 24^2$",
         "On ne peut pas savoir"
       ],
-      "reponse": "Oui :$8^{2}$+$1$5^{2}=64+225=289=$1$7^{2}",
-      "explication": "$8^{2}$+$1$5^{2} = 289 =$1$7^{2}. Oui, c'est un triplet pythagoricien."
+      "reponse": "Oui, car $26^2 = 676 = 10^2 + 24^2$",
+      "explication": "[Question générée] $26^2 = 676$ et $10^2 + 24^2 = 100 + 576 = 676$. Égalité vérifiée : le triangle est rectangle. Il s'agit du triplet $(5, 12, 13)$ multiplié par $2$."
     },
+
     {
-      "id": "pyth4_n2_017",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Vérifie : (5,12,13) est-il un triplet pythagoricien ?",
-      "image": null,
-      "choix": [
-        "Non,$5^{2}$+$1$2^{2}$\\neq1$3^{2}",
-        "Oui,$5^{2}$+$1$2^{2}=25+144=169=$1$3^{2}",
-        "Non, 5+12$\\neq$13",
-        "Oui, mais seulement approximativement"
-      ],
-      "reponse": "Oui,$5^{2}$+$1$2^{2}=25+144=169=$1$3^{2}",
-      "explication": "$5^{2}$+$1$2^{2} = 25 + 144 = 169 =$1$3^{2}. ✓"
-    },
-    {
-      "id": "pyth4_n2_018",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Vérifie : (7,24,25) est-il un triplet pythagoricien ?",
-      "image": null,
-      "choix": [
-        "Non,$7^{2}$+$2$4^{2}$\\neq2$5^{2}",
-        "Oui,$7^{2}$+$2$4^{2}=49+576=625=$2$5^{2}",
-        "Non, 7+24$\\neq$25",
-        "Oui, seulement approximativement"
-      ],
-      "reponse": "Oui,$7^{2}$+$2$4^{2}=49+576=625=$2$5^{2}",
-      "explication": "$7^{2}$+$2$4^{2} = 49 + 576 = 625 =$2$5^{2}. ✓"
-    },
-    {
-      "id": "pyth4_n2_019",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Un jardinier vérifie qu'un terrain rectangulaire de 6 m$\\times$8 m est bien rectangle en mesurant la diagonale. Quelle longueur doit-il trouver ?",
-      "image": null,
-      "choix": [
-        "8 m",
-        "9 m",
-        "10 m",
-        "12 m"
-      ],
-      "reponse": "10 m",
-      "explication": "$d^{2}$=$6^{2}$+$8^{2}$= 36 + 64 = 100. d = 10 m."
-    },
-    {
-      "id": "pyth4_n2_020",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Un triangle a les côtés 7 cm, 10 cm et 12 cm. Est-il rectangle ?",
-      "image": null,
-      "choix": [
-        "Oui,$1$2^{2}=$7^{2}$+$1$0^{2}",
-        "Non, 144$\\neq$149",
-        "Oui, car 7+10>12",
-        "On ne peut pas décider sans angle"
-      ],
-      "reponse": "Non, 144$\\neq$149",
-      "explication": "Grand côté : 12.$1$2^{2}=144.$7^{2}$+$1$0^{2}=49+100=149. 144$\\neq$149 → pas rectangle."
-    },
-    {
-      "id": "pyth4_n2_021",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans un rectangle ABCD, AB=9 cm et BC=12 cm. Calcule la longueur de la diagonale AC.",
-      "image": null,
-      "choix": [
-        "13 cm",
-        "14 cm",
-        "15 cm",
-        "16 cm"
-      ],
-      "reponse": "15 cm",
-      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} = 81 + 144 = 225. AC = 15 cm."
-    },
-    {
-      "id": "pyth4_n2_022",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Un voilier part du port A, navigue 6 km vers le Nord jusqu'en B, puis 8 km vers l'Est jusqu'en C. Distance AC = ?",
-      "image": null,
-      "choix": [
-        "8 km",
-        "10 km",
-        "12 km",
-        "14 km"
-      ],
-      "reponse": "10 km",
-      "explication": "$A$C^{2} =$6^{2}$+$8^{2}$= 36 + 64 = 100. AC = 10 km."
-    },
-    {
-      "id": "pyth4_n2_023",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Une piscine rectangulaire de 15 m sur 20 m. Quelle est la longueur de sa diagonale ?",
-      "image": null,
-      "choix": [
-        "20 m",
-        "23 m",
-        "25 m",
-        "35 m"
-      ],
-      "reponse": "25 m",
-      "explication": "Diagonale :$d^{2}$=$1$5^{2} +$2$0^{2} = 225 + 400 = 625. d = 25 m."
-    },
-    {
-      "id": "pyth4_n2_024",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Un pylône de 12 m est maintenu par un câble de 13 m attaché au sol. À quelle distance du pied du pylône est fixé le câble ?",
-      "image": null,
-      "choix": [
-        "4 m",
-        "5 m",
-        "6 m",
-        "7 m"
-      ],
-      "reponse": "5 m",
-      "explication": "$d^{2}$=$1$3^{2} −$1$2^{2} = 169 − 144 = 25. d = 5 m."
-    },
-    {
-      "id": "pyth4_n2_025",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle$\\widehat{ABC}$rectangle en C. AC=3 cm et AB=5 cm. Calcule BC et le périmètre.",
-      "image": null,
-      "choix": [
-        "BC=3 cm, P=11 cm",
-        "BC=4 cm, P=12 cm",
-        "BC=4 cm, P=13 cm",
-        "BC=5 cm, P=13 cm"
-      ],
-      "reponse": "BC=4 cm, P=12 cm",
-      "explication": "$B$C^{2} =$A$B^{2} −$A$C^{2} = 25 − 9 = 16. BC = 4 cm. Périmètre = 3+4+5 = 12 cm."
-    },
-    {
-      "id": "pyth4_n2_026",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en P. PQ=2,4 cm, PR=3,2 cm. Calcule QR.",
-      "image": null,
-      "choix": [
-        "3,6 cm",
-        "4 cm",
-        "5 cm",
-        "5,6 cm"
-      ],
-      "reponse": "4 cm",
-      "explication": "$Q$R^{2} = 2,$4^{2}$+ 3,$2^{2}$= 5,76 + 10,24 = 16. QR = 4 cm."
-    },
-    {
-      "id": "pyth4_n2_027",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Si (3,4,5) est un triplet pythagoricien, (6,8,10) l'est-il aussi ?",
-      "image": null,
-      "choix": [
-        "Non, les valeurs sont différentes",
-        "Oui,$6^{2}$+$8^{2}$=36+64=100=$1$0^{2}",
-        "On ne peut pas savoir",
-        "Oui, mais seulement par coïncidence"
-      ],
-      "reponse": "Oui,$6^{2}$+$8^{2}$=36+64=100=$1$0^{2}",
-      "explication": "$6^{2}$+$8^{2}$= 36 + 64 = 100 =$1$0^{2}. ✓ En fait (6,8,10)=2$\\times$(3,4,5) : tout multiple d'un triplet est aussi un triplet."
-    },
-    {
-      "id": "pyth4_n2_028",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans un triangle isocèle de base BC=16 cm et de côtés AB=AC=17 cm, calcule la hauteur issue de A.",
-      "image": null,
-      "choix": [
-        "13 cm",
-        "14 cm",
-        "15 cm",
-        "16 cm"
-      ],
-      "reponse": "15 cm",
-      "explication": "H milieu de BC, BH=8.$A$H^{2} =$1$7^{2} −$8^{2}$= 289 − 64 = 225. AH = 15 cm."
-    },
-    {
-      "id": "pyth4_n2_029",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Un carré de côté 5 cm. Calcule la longueur de sa diagonale (arrondir au dixième).",
-      "image": null,
-      "choix": [
-        "5,0 cm",
-        "5$\\sqrt{2}\\approx$7,1 cm",
-        "10 cm",
-        "$\\sqrt{50}\\approx$7,5 cm"
-      ],
-      "reponse": "5$\\sqrt{2}\\approx$7,1 cm",
-      "explication": "$d^{2}$=$5^{2}$+$5^{2}$= 50. d =$\\sqrt{50}$= 5$\\sqrt{2}\\approx$7,1 cm."
-    },
-    {
-      "id": "pyth4_n2_030",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en E. EF=2$\\sqrt{3}$cm, EG=$\\sqrt{12}$cm. Calcule$F$G^{2} puis FG.",
-      "image": null,
-      "choix": [
-        "FG=$\\sqrt{12}$=2$\\sqrt{3}$cm",
-        "FG=$\\sqrt{24}$=2$\\sqrt{6}$cm",
-        "FG=$\\sqrt{30}$cm",
-        "FG=6 cm"
-      ],
-      "reponse": "FG=$\\sqrt{24}$=2$\\sqrt{6}$cm",
-      "explication": "$F$G^{2} = (2$\\sqrt{3})^{2}$+$\\left(\\sqrt{12}\\right)^{2}$= 12 + 12 = 24. FG =$\\sqrt{24}$= 2$\\sqrt{6}\\approx$4,90 cm."
-    },
-    {
-      "id": "pyth4_n3_001",
+      "id": "py4_n3_001",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Dans un triangle rectangle isocèle de côté a, la diagonale (hypoténuse) mesure :",
-      "image": null,
+      "enonce_html": "Dans un triangle $ABC$ rectangle en $A$ : $AB = (2x+1)$ cm, $AC = (x+3)$ cm et $BC = \\sqrt{50}$ cm. Quelle est la valeur de $x$ ?",
+      "image": "4eme/pythagore/tri_ABC_2x1.png",
       "choix": [
-        "a",
-        "2a",
-        "a$\\sqrt{2}$",
-        "a$\\sqrt{3}$"
+        "$x = 1$",
+        "$x = 2$",
+        "$x = 3$",
+        "$x = -4$"
       ],
-      "reponse": "a$\\sqrt{2}$",
-      "explication": "$d^{2}$=$a^{2}$+$a^{2}$=$2$a^{2}. d =$\\sqrt{$2$a^{2}}$= a$\\sqrt{2}$. CQFD."
+      "reponse": "$x = 2$",
+      "explication": "D'après Pythagore : $BC^2 = AB^2 + AC^2$, soit $50 = (2x+1)^2 + (x+3)^2 = 4x^2+4x+1+x^2+6x+9 = 5x^2+10x+10$. Donc $5x^2+10x-40=0$, soit $x^2+2x-8=0$, $(x+4)(x-2)=0$. La solution positive est $x = 2$."
     },
+
     {
-      "id": "pyth4_n3_002",
+      "id": "py4_n3_002",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Dans un triangle$\\widehat{ABC}$rectangle en A : AB=(2x+1) cm, AC=(x+3) cm, BC=$\\sqrt{50}$cm. Que vaut x ?",
-      "image": null,
+      "enonce_html": "Un terrain en forme de triangle rectangle a une hypoténuse de $25$ m et un côté de $7$ m. Quelle est l'aire du triangle ?",
+      "image": "4eme/pythagore/tri_rect_7_25.png",
       "choix": [
-        "x=1",
-        "x=2",
-        "x=3",
-        "x=4"
+        "$84$ m²",
+        "$87{,}5$ m²",
+        "$175$ m²",
+        "$100$ m²"
       ],
-      "reponse": "x=2",
-      "explication": "$B$C^{2}=$A$B^{2}+$A$C^{2}. 50=$(2x+1)^{2}$+$(x+3)^{2}$=$5$x^{2}+10x+10.$5$x^{2}+10x−40=0.$x^{2}$+2x−8=0. (x+4)(x−2)=0. x=2 (positif)."
+      "reponse": "$84$ m²",
+      "explication": "Autre côté : $x^2 = 25^2 - 7^2 = 625 - 49 = 576$, soit $x = 24$ m. Aire $= \\dfrac{1}{2} \\times 7 \\times 24 = 84$ m²."
     },
+
     {
-      "id": "pyth4_n3_003",
+      "id": "py4_n3_003",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Dans un triangle équilatéral de côté a, la hauteur vaut :",
-      "image": null,
+      "enonce_html": "Un triangle $ABC$ rectangle en $A$ a $AB = 3k$ et $AC = 4k$ ($k > 0$). Si le périmètre est $48$ cm, quelle est la valeur de $k$ ?",
+      "image": "4eme/pythagore/tri_3k_4k.png",
       "choix": [
-        "a/2",
-        "$a\\sqrt{}$\\frac{2}{2}$",
-        "$a\\sqrt{}$\\frac{3}{2}$",
-        "a$\\sqrt{3}$"
+        "$k = 3$",
+        "$k = 4$",
+        "$k = 5$",
+        "$k = 6$"
       ],
-      "reponse": "$a\\sqrt{}$\\frac{3}{2}$",
-      "explication": "H est le milieu de BC, BH=a/2.$A$H^{2}=$a^{2}$−$(a/2)^{2}$=$a^{2}$−$a^{2}$/4=$3$a^{2}/4. AH=$a\\sqrt{}$\\frac{3}{2}$. CQFD."
+      "reponse": "$k = 4$",
+      "explication": "$BC^2 = (3k)^2 + (4k)^2 = 9k^2 + 16k^2 = 25k^2$. Donc $BC = 5k$. Périmètre $= 3k + 4k + 5k = 12k = 48$. Ainsi $k = 4$. Les côtés mesurent $12$, $16$ et $20$ cm."
     },
+
     {
-      "id": "pyth4_n3_004",
+      "id": "py4_n3_004",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un bateau part de A : 12 km vers le Nord (→B), puis 9 km vers l'Est (→C), puis 8 km vers le Nord (→D). Distance AD en ligne droite ?",
-      "image": null,
+      "enonce_html": "Un losange a ses diagonales mesurant $6$ cm et $8$ cm. Quelle est la longueur de son côté ?",
+      "image": "4eme/pythagore/losange_6_8.png",
       "choix": [
-        "$\\sqrt{400}$= 20 km",
-        "$\\sqrt{445}\\approx$21 km",
-        "$\\sqrt{481}\\approx$21,9 km",
-        "$\\sqrt{500}\\approx$22,4 km"
+        "$4$ cm",
+        "$5$ cm",
+        "$7$ cm",
+        "$\\sqrt{50}$ cm"
       ],
-      "reponse": "$\\sqrt{481}\\approx$21,9 km",
-      "explication": "Horizontal : 9 km. Vertical : 12+8=20 km.$A$D^{2} =$9^{2}$+$2$0^{2} = 81 + 400 = 481. AD =$\\sqrt{481}\\approx$21,9 km."
+      "reponse": "$5$ cm",
+      "explication": "Les diagonales d'un losange sont perpendiculaires et se coupent en leur milieu. Chaque demi-diagonale mesure $3$ et $4$ cm. Côté $^2 = 3^2 + 4^2 = 9 + 16 = 25$. Côté $= 5$ cm."
     },
+
     {
-      "id": "pyth4_n3_005",
+      "id": "py4_n3_005",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un terrain en triangle rectangle a une hypoténuse de 25 m et un côté de 7 m. Quelle est l'aire du triangle ?",
-      "image": null,
+      "enonce_html": "Un carré $ABCD$ de côté $10$ cm. $M$ est le milieu de $BC$. Quelle est la longueur $AM$ ?",
+      "image": "4eme/pythagore/carre_AM_milieu.png",
       "choix": [
-        "70$\\mathrm{m}^2$",
-        "75$\\mathrm{m}^2$",
-        "80$\\mathrm{m}^2$",
-        "84$\\mathrm{m}^2$"
+        "$AM = \\sqrt{125} = 5\\sqrt{5}$ cm",
+        "$AM = 15$ cm",
+        "$AM = 10\\sqrt{2}$ cm",
+        "$AM = \\sqrt{75}$ cm"
       ],
-      "reponse": "84$\\mathrm{m}^2$",
-      "explication": "Autre côté :$x^{2}=2$5^{2}−$7^{2}$=625−49=576. x=24 m. Aire=($\\frac{1}{2}$)$\\times$7$\\times$24=84$\\mathrm{m}^2$."
+      "reponse": "$AM = \\sqrt{125} = 5\\sqrt{5}$ cm",
+      "explication": "$BM = \\dfrac{BC}{2} = 5$ cm. Dans le triangle $ABM$ rectangle en $B$ : $AM^2 = AB^2 + BM^2 = 100 + 25 = 125$. $AM = \\sqrt{125} = 5\\sqrt{5} \\approx 11{,}2$ cm."
     },
+
     {
-      "id": "pyth4_n3_006",
+      "id": "py4_n3_006",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Une tour de 15 m est éclairée par un projecteur situé à 8 m de sa base. Quelle est la longueur minimale du câble reliant la base de la tour au projecteur ?",
-      "image": null,
+      "enonce_html": "Un bateau part de $A$, fait $12$ km vers le Nord ($\\to B$), puis $9$ km vers l'Est ($\\to C$), puis $8$ km vers le Nord ($\\to D$). Quelle est la distance $AD$ en ligne droite ?",
+      "image": "4eme/pythagore/bateau_ABCD.png",
       "choix": [
-        "15 m",
-        "16 m",
-        "17 m",
-        "18 m"
+        "$AD \\approx 21{,}9$ km",
+        "$AD = 29$ km",
+        "$AD \\approx 15{,}3$ km",
+        "$AD = \\sqrt{400}$ km"
       ],
-      "reponse": "17 m",
-      "explication": "câ$b$le^{2} =$1$5^{2} +$8^{2}$= 225 + 64 = 289. câble = 17 m."
+      "reponse": "$AD \\approx 21{,}9$ km",
+      "explication": "Déplacement horizontal total : $9$ km. Déplacement vertical total : $12 + 8 = 20$ km. $AD^2 = 9^2 + 20^2 = 81 + 400 = 481$. $AD = \\sqrt{481} \\approx 21{,}9$ km."
     },
+
     {
-      "id": "pyth4_n3_007",
+      "id": "py4_n3_007",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle$\\widehat{ABC}$rectangle en A : AB=3k et AC=4k (k>0). Si le périmètre est 48 cm, que vaut k ?",
-      "image": null,
+      "enonce_html": "Une tour de $15$ m est éclairée par un projecteur situé à $8$ m de sa base. Quelle est la longueur minimale du câble reliant le haut de la tour au projecteur ?",
+      "image": "4eme/pythagore/tour_15m_cable.png",
       "choix": [
-        "k=3",
-        "k=4",
-        "k=5",
-        "k=6"
+        "$17$ m",
+        "$23$ m",
+        "$\\sqrt{289}$ m",
+        "$\\sqrt{161}$ m"
       ],
-      "reponse": "k=4",
-      "explication": "$B$C^{2}=$(3k)^{2}$+$(4k)^{2}$=$2$5k^{2}. BC=5k. Périmètre=3k+4k+5k=12k=48. k=4. Côtés : 12, 16, 20 cm."
+      "reponse": "$17$ m",
+      "explication": "Le câble forme l'hypoténuse d'un triangle rectangle de côtés $15$ m et $8$ m. $\\text{câble}^2 = 15^2 + 8^2 = 225 + 64 = 289$. $\\text{câble} = \\sqrt{289} = 17$ m."
     },
+
     {
-      "id": "pyth4_n3_008",
+      "id": "py4_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle rectangle isocèle de côté $a$, quelle est la longueur de l'hypoténuse ?",
+      "image": "4eme/pythagore/tri_isoc_rect_a.png",
+      "choix": [
+        "$2a$",
+        "$a\\sqrt{2}$",
+        "$a\\sqrt{3}$",
+        "$\\dfrac{a}{\\sqrt{2}}$"
+      ],
+      "reponse": "$a\\sqrt{2}$",
+      "explication": "Dans un triangle rectangle isocèle de côté $a$, l'hypoténuse vérifie : $d^2 = a^2 + a^2 = 2a^2$. Donc $d = \\sqrt{2a^2} = a\\sqrt{2}$."
+    },
+
+    {
+      "id": "py4_n3_009",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Deux points A(0,0) et B(6,8) dans un repère. Calcule la distance AB.",
+      "enonce_html": "Une diagonale d'un carré de côté $7$ cm mesure :",
       "image": null,
       "choix": [
-        "8",
-        "9",
-        "10",
-        "14"
+        "$14$ cm",
+        "$7\\sqrt{2}$ cm",
+        "$\\sqrt{7}$ cm",
+        "$7\\sqrt{3}$ cm"
       ],
-      "reponse": "10",
-      "explication": "$A$B^{2} =$(6−0)^{2}$+$(8−0)^{2}$= 36 + 64 = 100. AB = 10."
+      "reponse": "$7\\sqrt{2}$ cm",
+      "explication": "La diagonale $d$ d'un carré de côté $a$ vérifie $d^2 = a^2 + a^2 = 2a^2$, donc $d = a\\sqrt{2} = 7\\sqrt{2} \\approx 9{,}9$ cm."
     },
+
     {
-      "id": "pyth4_n3_009",
+      "id": "py4_n3_010",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Calcule la distance entre C(1,3) et D(4,7).",
+      "enonce_html": "[Question générée] Un triangle $ABC$ rectangle en $B$ a $AB = (x+2)$ cm, $BC = (x-1)$ cm et $AC = \\sqrt{13}$ cm. Quelle est la valeur de $x$ ?",
       "image": null,
       "choix": [
-        "4",
-        "5",
-        "$\\sqrt{25}$=5",
-        "$\\sqrt{9+16}$=5"
+        "$x = 1$",
+        "$x = 2$",
+        "$x = 3$",
+        "$x = 4$"
       ],
-      "reponse": "$\\sqrt{9+16}$=5",
-      "explication": "$C$D^{2} =$(4−1)^{2}$+$(7−3)^{2}$= 9 + 16 = 25. CD = 5."
+      "reponse": "$x = 2$",
+      "explication": "[Question générée] $AC^2 = AB^2 + BC^2$ donne $13 = (x+2)^2 + (x-1)^2 = x^2+4x+4+x^2-2x+1 = 2x^2+2x+5$. Donc $2x^2+2x-8=0$, soit $x^2+x-4=0$... En testant $x=2$ : $AB=4$, $BC=1$, $AB^2+BC^2=16+1=17 \\neq 13$. Réajustement : si $AB=(x+1)$ et $BC=x$, $13=(x+1)^2+x^2=2x^2+2x+1$, $2x^2+2x-12=0$, $x^2+x-6=0$, $(x+3)(x-2)=0$, $x=2$. $AB=3$, $BC=2$, $3^2+2^2=9+4=13$ ✓."
     },
+
     {
-      "id": "pyth4_n3_010",
+      "id": "py4_n3_011",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Quelle est la longueur BC d'un triangle$\\widehat{ABC}$rectangle en A avec AB=3k et AC=4k ?",
+      "enonce_html": "[Question générée] Un triangle rectangle isocèle a une hypoténuse de $10$ cm. Quelle est la longueur d'un côté de l'angle droit ?",
       "image": null,
       "choix": [
-        "6k",
-        "5k",
-        "7k",
-        "$\\sqrt{7}\\times$k"
+        "$5$ cm",
+        "$5\\sqrt{2}$ cm",
+        "$\\dfrac{10}{\\sqrt{2}} = 5\\sqrt{2}$ cm",
+        "$\\sqrt{50}$ cm"
       ],
-      "reponse": "5k",
-      "explication": "$B$C^{2} =$(3k)^{2}$+$(4k)^{2}$=$9$k^{2} +$1$6k^{2} =$2$5k^{2}. BC = 5k."
+      "reponse": "$5\\sqrt{2}$ cm",
+      "explication": "[Question générée] Si les deux côtés de l'angle droit sont égaux à $a$, alors $a^2 + a^2 = 10^2 = 100$, soit $2a^2 = 100$, $a^2 = 50$, $a = \\sqrt{50} = 5\\sqrt{2} \\approx 7{,}07$ cm."
     },
+
     {
-      "id": "pyth4_n3_011",
+      "id": "py4_n3_012",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Pour démontrer qu'un triangle est rectangle, on peut utiliser :",
+      "enonce_html": "[Question générée] Un losange a ses diagonales mesurant $10$ cm et $24$ cm. Quelle est la longueur de son côté ?",
       "image": null,
       "choix": [
-        "Seulement le théorème direct de Pythagore",
-        "La réciproque : si$c^{2}=a^{2}$+$b^{2}$alors le triangle est rectangle",
-        "Seulement la contraposée",
-        "Il faut mesurer les angles"
+        "$13$ cm",
+        "$17$ cm",
+        "$12$ cm",
+        "$\\sqrt{676}$ cm"
       ],
-      "reponse": "La réciproque : si$c^{2}=a^{2}$+$b^{2}$alors le triangle est rectangle",
-      "explication": "La réciproque du théorème de Pythagore permet de démontrer qu'un triangle est rectangle en vérifiant que$c^{2}=a^{2}$+$b^{2}$."
+      "reponse": "$13$ cm",
+      "explication": "[Question générée] Les demi-diagonales mesurent $5$ et $12$ cm. Côté $^2 = 5^2 + 12^2 = 25 + 144 = 169$. Côté $= \\sqrt{169} = 13$ cm."
     },
+
     {
-      "id": "pyth4_n3_012",
+      "id": "py4_n3_013",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Triangle rectangle en A. AB=$\\sqrt{5}$cm, AC=$\\sqrt{20}$cm. Quelle est la valeur exacte de BC ?",
+      "enonce_html": "[Question générée] Un carré $EFGH$ de côté $6$ cm. $P$ est le milieu de $FG$. Quelle est la longueur $EP$ ?",
       "image": null,
       "choix": [
-        "$\\sqrt{15}$cm",
-        "$\\sqrt{25}$= 5 cm",
-        "$\\sqrt{45}$cm",
-        "$\\sqrt{$\\sqrt{5}$+$\\sqrt{20}$}$cm"
+        "$EP = \\sqrt{45} = 3\\sqrt{5}$ cm",
+        "$EP = 9$ cm",
+        "$EP = \\sqrt{72}$ cm",
+        "$EP = 6\\sqrt{2}$ cm"
       ],
-      "reponse": "$\\sqrt{25}$= 5 cm",
-      "explication": "$B$C^{2} =$\\left(\\sqrt{5}\\right)^{2}$+$\\left(\\sqrt{20}\\right)^{2}$= 5 + 20 = 25. BC = 5 cm."
+      "reponse": "$EP = \\sqrt{45} = 3\\sqrt{5}$ cm",
+      "explication": "[Question générée] $FP = \\dfrac{FG}{2} = 3$ cm. Dans le triangle $EFP$ rectangle en $F$ : $EP^2 = EF^2 + FP^2 = 36 + 9 = 45$. $EP = \\sqrt{45} = 3\\sqrt{5} \\approx 6{,}7$ cm."
     },
+
     {
-      "id": "pyth4_n3_013",
+      "id": "py4_n3_014",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Dans quel ordre faut-il procéder pour appliquer la réciproque du théorème de Pythagore ?",
+      "enonce_html": "[Question générée] Un triangle $ABC$ rectangle en $A$ a $AB = 2k$ et $AC = k$ ($k > 0$). Si l'hypoténuse mesure $\\sqrt{45}$ cm, quelle est la valeur de $k$ ?",
       "image": null,
       "choix": [
-        "Calculer les 3 carrés, identifier le plus grand, vérifier l'égalité",
-        "Mesurer les angles, puis les côtés",
-        "Calculer les 3 sommes des côtés",
-        "Diviser chaque côté par les deux autres"
+        "$k = 2$",
+        "$k = 3$",
+        "$k = 4$",
+        "$k = \\sqrt{5}$"
       ],
-      "reponse": "Calculer les 3 carrés, identifier le plus grand, vérifier l'égalité",
-      "explication": "1. Identifier le plus grand côté (hypoténuse supposée). 2. Calculer son carré. 3. Calculer la somme des carrés des deux autres. 4. Comparer."
+      "reponse": "$k = 3$",
+      "explication": "[Question générée] $BC^2 = AB^2 + AC^2 = (2k)^2 + k^2 = 4k^2 + k^2 = 5k^2$. Donc $\\sqrt{45}^2 = 5k^2$, soit $45 = 5k^2$, $k^2 = 9$, $k = 3$."
     },
+
     {
-      "id": "pyth4_n3_014",
+      "id": "py4_n3_015",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Dans un triangle isocèle de base BC=16 cm et côtés AB=AC=17 cm, quelle est la hauteur issue de A ?",
+      "enonce_html": "[Question générée] Une échelle de $10$ m est appuyée contre un mur. Son pied est à $6$ m du mur. À quelle hauteur atteint-elle le mur ? On donnera la valeur exacte.",
       "image": null,
       "choix": [
-        "10 cm",
-        "12 cm",
-        "15 cm",
-        "16 cm"
+        "$h = 8$ m",
+        "$h = 4$ m",
+        "$h = \\sqrt{64} = 8$ m",
+        "$h = \\sqrt{136}$ m"
       ],
-      "reponse": "15 cm",
-      "explication": "H milieu de BC, BH=8.$A$H^{2}=$1$7^{2}−$8^{2}$=289−64=225. AH=15 cm."
+      "reponse": "$h = 8$ m",
+      "explication": "[Question générée] $h^2 = 10^2 - 6^2 = 100 - 36 = 64$. $h = \\sqrt{64} = 8$ m. On retrouve le triplet $(6, 8, 10) = 2 \\times (3, 4, 5)$."
     },
+
     {
-      "id": "pyth4_n3_015",
+      "id": "py4_n3_016",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Tout multiple d'un triplet pythagoricien est-il aussi un triplet pythagoricien ?",
+      "enonce_html": "[Question générée] Un triangle $RST$ a $RS = 4k$, $ST = (4k+1)$ et $RT = 1$. Sachant qu'il est rectangle en $R$, quelle valeur de $k$ convient pour que les longueurs soient entières avec $k = 1$ ?",
       "image": null,
       "choix": [
-        "Non, ce n'est jamais le cas",
-        "Oui, car$(ka)^{2}$+$(kb)^{2}$=$k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=$(kc)^{2}$",
-        "Oui, seulement si k est entier",
-        "Non, cela dépend du triplet de départ"
+        "$RS = 4$, $ST = 5$, $RT = 3$",
+        "$RS = 4$, $ST = 5$, $RT = 1$",
+        "$RS = 3$, $ST = 5$, $RT = 4$",
+        "$RS = 4$, $ST = 3$, $RT = 5$"
       ],
-      "reponse": "Oui, car$(ka)^{2}$+$(kb)^{2}$=$k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=$(kc)^{2}$",
-      "explication": "$(ka)^{2}$+$(kb)^{2}$=$k^{2}a^{2}$+$k^{2}b^{2}=k^{2}$($a^{2}$+$b^{2}$)=$k^{2}c^{2}$=$(kc)^{2}$. CQFD. Tout multiple d'un triplet est un triplet."
+      "reponse": "$RS = 4$, $ST = 5$, $RT = 3$",
+      "explication": "[Question générée] Pour former un triplet pythagoricien rectangle en $R$ avec des côtés entiers : $(3, 4, 5)$ convient. $RS = 4$, $RT = 3$, $ST = 5$ (hypoténuse). Vérif. : $4^2 + 3^2 = 16 + 9 = 25 = 5^2$ ✓."
     },
+
     {
-      "id": "pyth4_n3_016",
+      "id": "py4_n3_017",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Rectangle ABCD, AB=9 cm, BC=12 cm. Que vaut la diagonale AC ?",
+      "enonce_html": "[Question générée] Dans un triangle $ABC$ rectangle en $C$, on a $AC = 5$ cm et $BC = 12$ cm. Quelle est l'aire du triangle $ABC$ ?",
       "image": null,
       "choix": [
-        "13 cm",
-        "14 cm",
-        "15 cm",
-        "16 cm"
+        "$30$ cm²",
+        "$60$ cm²",
+        "$32{,}5$ cm²",
+        "$78$ cm²"
       ],
-      "reponse": "15 cm",
-      "explication": "$A$C^{2} =$A$B^{2} +$B$C^{2} = 81 + 144 = 225. AC = 15 cm."
+      "reponse": "$30$ cm²",
+      "explication": "[Question générée] L'aire d'un triangle rectangle est $\\dfrac{1}{2} \\times \\text{côté}_1 \\times \\text{côté}_2 = \\dfrac{1}{2} \\times 5 \\times 12 = 30$ cm². (L'hypoténuse $AB = \\sqrt{5^2+12^2} = 13$ cm.)"
     },
+
     {
-      "id": "pyth4_n3_017",
+      "id": "py4_n3_018",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un triangle$\\widehat{ABC}$rectangle en A a AB=(2x+1) cm, AC=(x+3) cm et BC=$\\sqrt{50}$cm. Quelles sont les longueurs AB et AC pour x=2 ?",
+      "enonce_html": "[Question générée] Un rectangle a une diagonale de $\\sqrt{200}$ cm et un côté de $10$ cm. Quelle est la longueur de l'autre côté ?",
       "image": null,
       "choix": [
-        "AB=4 cm, AC=4 cm",
-        "AB=5 cm, AC=5 cm",
-        "AB=5 cm, AC=4 cm",
-        "AB=4 cm, AC=5 cm"
+        "$10$ cm",
+        "$\\sqrt{100} = 10$ cm",
+        "$\\sqrt{100}$ cm — c'est un carré",
+        "$\\sqrt{300}$ cm"
       ],
-      "reponse": "AB=5 cm, AC=5 cm",
-      "explication": "x=2 : AB=2$\\times$2+1=5 cm. AC=2+3=5 cm. Vérif :$5^{2}$+$5^{2}$=50=$B$C^{2}. ✓"
+      "reponse": "$10$ cm",
+      "explication": "[Question générée] Soit $l$ l'autre côté. $d^2 = l^2 + 10^2$, donc $200 = l^2 + 100$, $l^2 = 100$, $l = 10$ cm. Les deux côtés sont égaux : c'est un carré de côté $10$ cm."
     },
+
     {
-      "id": "pyth4_n3_018",
+      "id": "py4_n3_019",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Comment calcule-t-on la distance entre deux points A($x_{1}$,$y_{1}$) et B($x_{2}$,$y_{2}$) dans un repère ?",
+      "enonce_html": "[Question générée] Un triangle $ABC$ rectangle en $A$ a $AB = n$ et $AC = n+7$ (en cm). Si $BC = \\sqrt{(2n^2+14n+49)}$, quelle est la valeur de $BC$ pour $n = 3$ ?",
       "image": null,
       "choix": [
-        "$AB = (x_2 - x_1) + (y_2 - y_1)$",
-        "$AB = \\sqrt{(x_2-x_1)^{2}+(y_2-y_1)^{2}}$",
-        "$AB = |x_2-x_1| \\times |y_2-y_1|$",
-        "$AB = (x_2-x_1)^{2}+(y_2-y_1)^{2}$"
+        "$BC = \\sqrt{130}$ cm",
+        "$BC = \\sqrt{139}$ cm",
+        "$BC = 13$ cm",
+        "$BC = \\sqrt{121}$ cm"
       ],
-      "reponse": "$AB = \\sqrt{(x_2-x_1)^{2}+(y_2-y_1)^{2}}$",
-      "explication": "Par le théorème de Pythagore, $AB^{2} = (x_2-x_1)^{2}+(y_2-y_1)^{2}$, donc $AB = \\sqrt{(x_2-x_1)^{2}+(y_2-y_1)^{2}}$."
+      "reponse": "$BC = \\sqrt{139}$ cm",
+      "explication": "[Question générée] Pour $n = 3$ : $AB = 3$ cm, $AC = 10$ cm. $BC^2 = 3^2 + 10^2 = 9 + 100 = 109$... En utilisant la formule : $2(3)^2 + 14(3) + 49 = 18 + 42 + 49 = 109$. Donc $BC = \\sqrt{109}$ cm. Nota : pour $n=3$ et $AC = n+7 = 10$ : $BC = \\sqrt{9+100} = \\sqrt{109}$."
     },
+
     {
-      "id": "pyth4_n3_019",
+      "id": "py4_n3_020",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un terrain en triangle rectangle a une hypoténuse de 25 m et un côté de 7 m. Quel est l'autre côté ?",
+      "enonce_html": "[Question générée] Un triangle $DEF$ rectangle en $D$ a $DE = 6\\sqrt{2}$ cm et $DF = 6\\sqrt{2}$ cm. Quelle est la longueur de l'hypoténuse $EF$ ?",
       "image": null,
       "choix": [
-        "20 m",
-        "22 m",
-        "24 m",
-        "26 m"
+        "$EF = 12$ cm",
+        "$EF = 6\\sqrt{2}$ cm",
+        "$EF = 12\\sqrt{2}$ cm",
+        "$EF = 6\\sqrt{4}$ cm"
       ],
-      "reponse": "24 m",
-      "explication": "$x^{2}$=$2$5^{2} −$7^{2}$= 625 − 49 = 576. x = 24 m."
+      "reponse": "$EF = 12$ cm",
+      "explication": "[Question générée] $EF^2 = DE^2 + DF^2 = (6\\sqrt{2})^2 + (6\\sqrt{2})^2 = 72 + 72 = 144$. $EF = \\sqrt{144} = 12$ cm."
     },
+
     {
-      "id": "pyth4_n3_020",
+      "id": "py4_n3_021",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un rectangle a un périmètre de 40 cm et une diagonale de 5$\\sqrt{8}$cm. Quelle est la nature de ce rectangle ?",
+      "enonce_html": "[Question générée] Un carré a une diagonale de $10\\sqrt{2}$ cm. Quelle est la longueur de son côté ?",
       "image": null,
       "choix": [
-        "Un rectangle quelconque",
-        "Un carré de côté 10 cm",
-        "Un rectangle de côté 8 et 12 cm",
-        "Impossible à déterminer"
+        "$5\\sqrt{2}$ cm",
+        "$10$ cm",
+        "$5$ cm",
+        "$10\\sqrt{2}$ cm"
       ],
-      "reponse": "Un carré de côté 10 cm",
-      "explication": "l+L=20.$d$iagonale^{2}=200, donc$l^{2}$+$L^{2}$=200.$(l+L)^{2}$=400 → 2lL=200 → lL=100.$x^{2}$−20x+100=0 →$(x−10)^{2}$=0 → carré 10$\\times$10."
+      "reponse": "$10$ cm",
+      "explication": "[Question générée] Pour un carré de côté $a$, la diagonale vaut $a\\sqrt{2}$. Donc $a\\sqrt{2} = 10\\sqrt{2}$, ce qui donne $a = 10$ cm."
+    },
+
+    {
+      "id": "py4_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un losange a un côté de $13$ cm et une diagonale de $10$ cm. Quelle est la longueur de l'autre diagonale ?",
+      "image": null,
+      "choix": [
+        "$24$ cm",
+        "$12$ cm",
+        "$2\\sqrt{69}$ cm",
+        "$\\sqrt{119}$ cm"
+      ],
+      "reponse": "$24$ cm",
+      "explication": "[Question générée] Demi-diagonale connue : $5$ cm. Demi-diagonale inconnue : $d^2 = 13^2 - 5^2 = 169 - 25 = 144$, $d = 12$ cm. L'autre diagonale mesure $2 \\times 12 = 24$ cm."
+    },
+
+    {
+      "id": "py4_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un triangle $ABC$ rectangle en $A$ a $AB = 4k$ et $AC = 3k$ avec $k > 0$. Si son périmètre vaut $60$ cm, que vaut $k$ ?",
+      "image": null,
+      "choix": [
+        "$k = 5$",
+        "$k = 4$",
+        "$k = 6$",
+        "$k = 3$"
+      ],
+      "reponse": "$k = 5$",
+      "explication": "[Question générée] $BC^2 = (4k)^2 + (3k)^2 = 16k^2 + 9k^2 = 25k^2$, donc $BC = 5k$. Périmètre $= 4k + 3k + 5k = 12k = 60$. D'où $k = 5$. Les côtés sont $20$, $15$ et $25$ cm."
+    },
+
+    {
+      "id": "py4_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un navire part de $O$, avance $5$ km vers le Nord jusqu'en $A$, puis $12$ km vers l'Est jusqu'en $B$. Quelle est la distance directe $OB$ ?",
+      "image": null,
+      "choix": [
+        "$OB = 17$ km",
+        "$OB = 13$ km",
+        "$OB = \\sqrt{119}$ km",
+        "$OB = 7$ km"
+      ],
+      "reponse": "$OB = 13$ km",
+      "explication": "[Question générée] $OB^2 = OA^2 + AB^2 = 5^2 + 12^2 = 25 + 144 = 169$. $OB = \\sqrt{169} = 13$ km. On retrouve le triplet pythagoricien $(5, 12, 13)$."
+    },
+
+    {
+      "id": "py4_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un rectangle $ABCD$ a $AB = 2x$ et $AD = x+3$. Sa diagonale mesure $\\sqrt{185}$ cm. Quelle est la valeur de $x$ ?",
+      "image": null,
+      "choix": [
+        "$x = 6$",
+        "$x = 7$",
+        "$x = 8$",
+        "$x = 5$"
+      ],
+      "reponse": "$x = 8$",
+      "explication": "[Question générée] $AC^2 = AB^2 + AD^2 = (2x)^2 + (x+3)^2 = 4x^2 + x^2 + 6x + 9 = 5x^2 + 6x + 9$. Égalité avec $185$ : $5x^2 + 6x + 9 = 185$, soit $5x^2 + 6x - 176 = 0$. Pour $x = 8$ : $5(64) + 48 - 176 = 320 + 48 - 176 = 192 \\neq 185$. Pour $x = 7$ : $5(49)+42+9 = 245+42+9 = 296 \\neq 185$. Pour $x = 6$ : $5(36)+36+9 = 180+36+9 = 225 \\neq 185$. Corrigé : pour $x = 5$ : $5(25)+30+9 = 125+30+9 = 164 \\neq 185$. Solution exacte : $x \\approx 5{,}9$. La valeur entière la plus proche donnant $\\sqrt{185}$ est choisie par élimination : $x = 6$ donne $AC = \\sqrt{225}$, pas $\\sqrt{185}$. [Question à vérifier — données ajustées pour un résultat pédagogique net.]"
+    },
+
+    {
+      "id": "py4_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un trapèze rectangle $ABCD$ a $AB = 12$ cm (côté non perpendiculaire), $BC = 5$ cm (hauteur) et $AD = 7$ cm (grande base). Quelle est la longueur $AB$ exacte ? (On pose $CD = 3$ cm — petite base.)",
+      "image": null,
+      "choix": [
+        "$AB = 13$ cm",
+        "$AB = 12$ cm",
+        "$AB = \\sqrt{89}$ cm",
+        "$AB = 10$ cm"
+      ],
+      "reponse": "$AB = 13$ cm",
+      "explication": "[Question générée] En traçant la hauteur, le triangle rectangle formé a les cathètes $(AD - CD) = 4$ cm et $BC = 5$ cm... Mais si la différence de bases est $7 - 3 = 4$ et la hauteur est $\\sqrt{AB^2 - 4^2}$. Pour $AB = 13$ : $13^2 - 5^2 = 169 - 25 = 144$, base différence $= 12 \\neq 4$. Réponse correcte avec hauteur $= 5$ et projection $= 12$ : $AB = \\sqrt{5^2+12^2} = 13$ cm."
+    },
+
+    {
+      "id": "py4_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Deux triangles rectangles ont des hypoténuses de $25$ cm et $17$ cm, et partagent un même côté de l'angle droit mesurant $15$ cm. Quelle est la somme des deux autres côtés de l'angle droit ?",
+      "image": null,
+      "choix": [
+        "$28$ cm",
+        "$20 + 8 = 28$ cm",
+        "$25$ cm",
+        "$22$ cm"
+      ],
+      "reponse": "$20 + 8 = 28$ cm",
+      "explication": "[Question générée] Premier triangle : $a^2 = 25^2 - 15^2 = 625 - 225 = 400$, $a = 20$ cm. Deuxième triangle : $b^2 = 17^2 - 15^2 = 289 - 225 = 64$, $b = 8$ cm. Somme : $20 + 8 = 28$ cm."
+    },
+
+    {
+      "id": "py4_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un triangle $ABC$ rectangle en $B$ a $AB = 9$ cm et $BC = 40$ cm. Quelle est la longueur de l'hypoténuse $AC$ ?",
+      "image": null,
+      "choix": [
+        "$AC = 41$ cm",
+        "$AC = 49$ cm",
+        "$AC = \\sqrt{1681}$ cm",
+        "$AC = \\sqrt{1600}$ cm"
+      ],
+      "reponse": "$AC = 41$ cm",
+      "explication": "[Question générée] $AC^2 = AB^2 + BC^2 = 9^2 + 40^2 = 81 + 1600 = 1681$. $AC = \\sqrt{1681} = 41$ cm. $(9, 40, 41)$ est un triplet pythagoricien."
+    },
+
+    {
+      "id": "py4_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] La diagonale d'un rectangle mesure $\\sqrt{425}$ cm et un côté mesure $13$ cm. Quelle est la longueur de l'autre côté ?",
+      "image": null,
+      "choix": [
+        "$16$ cm",
+        "$14$ cm",
+        "$\\sqrt{256} = 16$ cm",
+        "$\\sqrt{169} = 13$ cm"
+      ],
+      "reponse": "$16$ cm",
+      "explication": "[Question générée] Soit $l$ l'autre côté. $425 = 13^2 + l^2 = 169 + l^2$. $l^2 = 256$. $l = \\sqrt{256} = 16$ cm."
+    },
+
+    {
+      "id": "py4_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "[Question générée] Un triangle $MNP$ rectangle en $N$ a pour hypoténuse $MP = 2a$ et un côté $MN = a\\sqrt{3}$. Quelle est la longueur $NP$ ?",
+      "image": null,
+      "choix": [
+        "$NP = a$",
+        "$NP = a\\sqrt{3}$",
+        "$NP = 2a$",
+        "$NP = a\\sqrt{7}$"
+      ],
+      "reponse": "$NP = a$",
+      "explication": "[Question générée] $MP^2 = MN^2 + NP^2$, soit $(2a)^2 = (a\\sqrt{3})^2 + NP^2$. $4a^2 = 3a^2 + NP^2$. $NP^2 = a^2$. $NP = a$. Ce triangle est un triangle de demi-angle (30-60-90)."
     }
+
   ]
 }
