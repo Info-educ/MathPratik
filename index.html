@@ -686,6 +686,35 @@
     .fail-q { font-size:0.82rem; color:var(--tx3); margin-bottom:32px; font-style:italic; }
     .fail-actions { display:flex; flex-direction:column; gap:10px; max-width:280px; margin:0 auto; }
 
+    /* ═══════════════════════════════════════════════════
+       MODULE BREVET 3ème
+    ═══════════════════════════════════════════════════ */
+    .brevet-tab {
+      flex: 1; padding: 14px 8px;
+      border: none; background: var(--raised);
+      font-family: var(--font-sans); font-size: 0.84rem; font-weight: 600;
+      color: var(--tx2); cursor: pointer;
+      transition: background .18s, color .18s;
+      border-right: 1px solid var(--bd-med);
+    }
+    .brevet-tab:last-child { border-right: none; }
+    .brevet-tab.active {
+      background: color-mix(in srgb, #dc2626 10%, var(--raised));
+      color: #dc2626; font-weight: 700;
+      box-shadow: inset 0 -3px 0 #dc2626;
+    }
+    .brevet-tab:first-child.active {
+      background: color-mix(in srgb, #dc2626 10%, var(--raised));
+      color: #dc2626;
+      box-shadow: inset 0 -3px 0 #dc2626;
+    }
+    #brevet-tab-automatismes.active {
+      background: color-mix(in srgb, #7c3aed 10%, var(--raised));
+      color: #7c3aed;
+      box-shadow: inset 0 -3px 0 #7c3aed;
+    }
+    .brevet-pane { animation: slideUp 0.25s var(--ease) both; }
+
     /* UTILS */
     .hidden { display:none !important; }
     ::-webkit-scrollbar { width:3px; }
@@ -1526,7 +1555,7 @@
   </div>
 
 
-  <!-- ══════════════════════════════ MODULE ENSEIGNANT — LOGIN ════ -->
+  <!-- ══════════════════════════════════ BREVET 3ème ════ -->\n  <div id=\"screen-brevet\" class=\"screen\">\n    <div class=\"top-bar\">\n      <button class=\"btn-icon btn-back visible\" onclick=\"showSelect('3eme')\">←</button>\n      <div class=\"logo\">Math<em>Pratik</em></div>\n      <button class=\"btn-icon btn-theme-toggle\" onclick=\"toggleDarkMode()\" title=\"Changer le thème\" aria-label=\"Basculer mode sombre / clair\">🌙</button>\n    </div>\n\n    <!-- Header -->\n    <div class=\"notions-header\">\n      <div class=\"nv-chip\" style=\"background:color-mix(in srgb,#dc2626 12%,var(--raised));color:#dc2626;border-color:color-mix(in srgb,#dc2626 30%,transparent);\">🟥 3ème · Brevet</div>\n      <h2>Préparation au <em>Brevet</em></h2>\n      <p>Annales officielles et automatismes brevet</p>\n    </div>\n\n    <!-- Onglets -->\n    <div style=\"display:flex;gap:0;margin:0 20px 20px;border-radius:var(--r-md);overflow:hidden;border:1.5px solid var(--bd-med);\">\n      <button id=\"brevet-tab-annales\" class=\"brevet-tab active\" onclick=\"showBrevetTab('annales')\">\n        📄 Annales\n      </button>\n      <button id=\"brevet-tab-automatismes\" class=\"brevet-tab\" onclick=\"showBrevetTab('automatismes')\">\n        ⚡ Automatismes\n      </button>\n    </div>\n\n    <!-- Contenu onglet Annales -->\n    <div id=\"brevet-pane-annales\" class=\"brevet-pane\">\n      <div style=\"padding:0 20px 28px;\">\n        <div style=\"background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);\">\n          <div style=\"background:linear-gradient(135deg,#7c0a02,#dc2626);padding:24px 20px 20px;\">\n            <div style=\"font-size:2rem;margin-bottom:8px;\">📄</div>\n            <div style=\"font-family:var(--font-serif);font-style:italic;font-size:1.25rem;color:#fff;margin-bottom:4px;\">Annales du Brevet</div>\n            <div style=\"font-size:0.78rem;color:rgba(255,255,255,0.75);\">APMEP — Association des Professeurs de Mathématiques</div>\n          </div>\n          <div style=\"padding:20px;\">\n            <p style=\"font-size:0.88rem;color:var(--tx2);line-height:1.6;margin-bottom:16px;\">Retrouve toutes les annales officielles du Brevet des collèges en mathématiques, classées par session et par académie.</p>\n            <div style=\"display:flex;flex-direction:column;gap:8px;\">\n              <div style=\"display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);\">\n                <span style=\"color:#dc2626;font-size:1rem;\">✓</span> Sujets sessions précédentes\n              </div>\n              <div style=\"display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);\">\n                <span style=\"color:#dc2626;font-size:1rem;\">✓</span> Éléments de correction\n              </div>\n              <div style=\"display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);\">\n                <span style=\"color:#dc2626;font-size:1rem;\">✓</span> Classement par académie et session\n              </div>\n            </div>\n            <a href=\"https://www.apmep.fr/Annales-du-Brevet-des-colleges\" target=\"_blank\" rel=\"noopener noreferrer\"\n               style=\"display:flex;align-items:center;justify-content:center;gap:10px;margin-top:20px;\n                      background:#dc2626;color:#fff;text-decoration:none;\n                      padding:15px 20px;border-radius:var(--r-md);font-weight:700;\n                      font-family:var(--font-sans);font-size:0.94rem;\n                      transition:opacity .2s;\">\n              Accéder aux annales APMEP\n              <span style=\"font-size:1rem;\">↗</span>\n            </a>\n            <p style=\"font-size:0.72rem;color:var(--tx3);text-align:center;margin-top:10px;\">Lien vers apmep.fr · S'ouvre dans un nouvel onglet</p>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <!-- Contenu onglet Automatismes -->\n    <div id=\"brevet-pane-automatismes\" class=\"brevet-pane\" style=\"display:none;\">\n      <div style=\"padding:0 20px 28px;\">\n        <div style=\"background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);\">\n          <div style=\"background:linear-gradient(135deg,#1e1b4b,#7c3aed);padding:24px 20px 20px;\">\n            <div style=\"font-size:2rem;margin-bottom:8px;\">⚡</div>\n            <div style=\"font-family:var(--font-serif);font-style:italic;font-size:1.25rem;color:#fff;margin-bottom:4px;\">Automatismes Brevet</div>\n            <div style=\"font-size:0.78rem;color:rgba(255,255,255,0.75);\">MathsMentales · Entraînement brevet 2025</div>\n          </div>\n          <div style=\"padding:20px;\">\n            <p style=\"font-size:0.88rem;color:var(--tx2);line-height:1.6;margin-bottom:16px;\">Entraîne-toi sur les automatismes attendus au Brevet : calcul mental, priorités, fractions, relatifs, puissances…</p>\n            <div style=\"display:flex;flex-direction:column;gap:8px;\">\n              <div style=\"display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);\">\n                <span style=\"color:#7c3aed;font-size:1rem;\">✓</span> Exercices chronométrés\n              </div>\n              <div style=\"display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);\">\n                <span style=\"color:#7c3aed;font-size:1rem;\">✓</span> Progression par compétences\n              </div>\n              <div style=\"display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);\">\n                <span style=\"color:#7c3aed;font-size:1rem;\">✓</span> Spécial préparation Brevet 2025\n              </div>\n            </div>\n            <a href=\"https://mathsmentales.net/brevet-2025.html\" target=\"_blank\" rel=\"noopener noreferrer\"\n               style=\"display:flex;align-items:center;justify-content:center;gap:10px;margin-top:20px;\n                      background:#7c3aed;color:#fff;text-decoration:none;\n                      padding:15px 20px;border-radius:var(--r-md);font-weight:700;\n                      font-family:var(--font-sans);font-size:0.94rem;\n                      transition:opacity .2s;\">\n              Accéder aux automatismes\n              <span style=\"font-size:1rem;\">↗</span>\n            </a>\n            <p style=\"font-size:0.72rem;color:var(--tx3);text-align:center;margin-top:10px;\">Lien vers mathsmentales.net · S'ouvre dans un nouvel onglet</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- ══════════════════════════════ MODULE ENSEIGNANT — LOGIN ════ -->
   <div id="teacher-login-overlay" class="teacher-overlay" onclick="teacherOverlayClose(event)">
     <div class="teacher-login-card" onclick="event.stopPropagation()">
       <div class="tl-icon">🔐</div>
