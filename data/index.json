@@ -211,6 +211,16 @@
       "id":      "nombres_decimaux_6eme",
       "fichier": "data/6eme/nombres_decimaux_6eme.json",
       "niveau":  "6eme"
+    },
+    {
+    "id":      "proportionnalite_6eme",
+    "fichier": "data/6eme/proportionnalite_6eme.json",
+    "niveau":  "6eme"
+    },
+    {
+    "id":      "symetrie_6eme",
+    "fichier": "data/6eme/symetrie_6eme.json",
+    "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
