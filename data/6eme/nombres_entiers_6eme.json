@@ -1,0 +1,1131 @@
+{
+  "niveau": "6eme",
+  "thematique": {
+    "id":    "nombres_entiers_6eme",
+    "label": "Nombres entiers",
+    "icon":  "🔢",
+    "color": "#065f46"
+  },
+  "questions": [
+    {
+      "id": "ent6_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien existe-t-il de chiffres différents ?",
+      "image": null,
+      "choix": ["$8$", "$9$", "$10$", "$11$"],
+      "reponse": "$10$",
+      "explication": "Les dix chiffres sont : $0, 1, 2, 3, 4, 5, 6, 7, 8$ et $9$."
+    },
+    {
+      "id": "ent6_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quels chiffres composent le nombre $8\\,852$ ?",
+      "image": null,
+      "choix": ["$8, 8, 5, 2$", "$8, 5, 2$", "$8, 5, 2, 0$", "$8, 2, 5$"],
+      "reponse": "$8, 8, 5, 2$",
+      "explication": "Le nombre $8\\,852$ s'écrit avec les chiffres $8$, $8$, $5$ et $2$ (le $8$ apparaît deux fois)."
+    },
+    {
+      "id": "ent6_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la différence entre un chiffre et un nombre ?",
+      "image": null,
+      "choix": [
+        "Un chiffre et un nombre, c'est la même chose",
+        "Un chiffre est l'un des $10$ symboles de $0$ à $9$ ; un nombre peut être composé de plusieurs chiffres",
+        "Un nombre est toujours plus grand qu'un chiffre",
+        "Un chiffre ne peut pas être supérieur à $9$, un nombre si"
+      ],
+      "reponse": "Un chiffre est l'un des $10$ symboles de $0$ à $9$ ; un nombre peut être composé de plusieurs chiffres",
+      "explication": "Un chiffre est l'un des $10$ symboles de $0$ à $9$. Un nombre peut être composé de plusieurs chiffres. Ex : $347$ est un nombre composé des chiffres $3$, $4$ et $7$."
+    },
+    {
+      "id": "ent6_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de chiffres compose le nombre $53\\,001$ ?",
+      "image": null,
+      "choix": ["$3$", "$4$", "$5$", "$6$"],
+      "reponse": "$5$",
+      "explication": "$53\\,001$ a $5$ chiffres : $5$, $3$, $0$, $0$, $1$."
+    },
+    {
+      "id": "ent6_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le chiffre des unités du nombre $3\\,250\\,369$ ?",
+      "image": null,
+      "choix": ["$3$", "$6$", "$9$", "$0$"],
+      "reponse": "$9$",
+      "explication": "Le chiffre des unités est le chiffre le plus à droite : ici $9$."
+    },
+    {
+      "id": "ent6_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le nombre $4\\,726$, quel est le chiffre des centaines ?",
+      "image": null,
+      "choix": ["$4$", "$7$", "$2$", "$6$"],
+      "reponse": "$7$",
+      "explication": "$4\\,726$ : $6$ = unités, $2$ = dizaines, $7$ = centaines, $4$ = milliers. Le chiffre des centaines est $7$."
+    },
+    {
+      "id": "ent6_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le nombre $83\\,504$, quel est le chiffre des dizaines de milliers ?",
+      "image": null,
+      "choix": ["$8$", "$3$", "$5$", "$0$"],
+      "reponse": "$8$",
+      "explication": "$83\\,504$ : de droite à gauche : $4$ = unités, $0$ = dizaines, $5$ = centaines, $3$ = milliers, $8$ = dizaines de milliers."
+    },
+    {
+      "id": "ent6_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le nombre $5\\,963$, quel est le rang du chiffre $5$ ?",
+      "image": null,
+      "choix": ["Unités", "Dizaines", "Centaines", "Milliers"],
+      "reponse": "Milliers",
+      "explication": "$5\\,963$ : $3$ = unités, $6$ = dizaines, $9$ = centaines, $5$ = milliers."
+    },
+    {
+      "id": "ent6_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans $312\\,500$, quel est le chiffre des unités de mille ?",
+      "image": null,
+      "choix": ["$1$", "$2$", "$3$", "$5$"],
+      "reponse": "$2$",
+      "explication": "$312\\,500$ : de droite à gauche : $0$ = unités, $0$ = dizaines, $5$ = centaines, $2$ = milliers (unités de mille)."
+    },
+    {
+      "id": "ent6_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans $180\\,250$, quel est le chiffre des dizaines de mille ?",
+      "image": null,
+      "choix": ["$1$", "$8$", "$0$", "$2$"],
+      "reponse": "$8$",
+      "explication": "$180\\,250$ : de droite à gauche : $0$ = unités, $5$ = dizaines, $2$ = centaines, $0$ = milliers, $8$ = dizaines de mille, $1$ = centaines de mille."
+    },
+    {
+      "id": "ent6_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment écrit-on $5\\,180$ en toutes lettres (nouvelles règles orthographiques) ?",
+      "image": null,
+      "choix": [
+        "cinq mille cent quatre-vingts",
+        "cinq-mille-cent-quatre-vingts",
+        "cinq mille cent quatre-vingt",
+        "cinq-mille-cent-quatre-vingt"
+      ],
+      "reponse": "cinq-mille-cent-quatre-vingts",
+      "explication": "Selon les nouvelles règles, on place des traits d'union entre chaque mot. « Vingt » prend un « s » car non suivi d'un autre mot."
+    },
+    {
+      "id": "ent6_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment écrit-on $895$ en toutes lettres ?",
+      "image": null,
+      "choix": [
+        "huit-cents-quatre-vingt-quinze",
+        "huit-cent-quatre-vingt-quinze",
+        "huit-cent-quatre-vingts-quinze",
+        "huit-cents-quatre-vingts-quinze"
+      ],
+      "reponse": "huit-cent-quatre-vingt-quinze",
+      "explication": "« Cent » ne prend pas de « s » car suivi de « quatre-vingt-quinze ». « Vingt » non plus car suivi de « quinze »."
+    },
+    {
+      "id": "ent6_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment écrit-on $864$ en toutes lettres ?",
+      "image": null,
+      "choix": [
+        "huit-cent-soixante-quatre",
+        "huit-cents-soixante-quatre",
+        "huit-cent-soixante-quatorze",
+        "huit-cent-soixante-et-quatre"
+      ],
+      "reponse": "huit-cent-soixante-quatre",
+      "explication": "huit-cent-soixante-quatre. « Cent » sans « s » car suivi d'un autre mot."
+    },
+    {
+      "id": "ent6_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment écrit-on $3\\,000\\,500$ en toutes lettres ?",
+      "image": null,
+      "choix": [
+        "trois-millions-cinq-cent",
+        "trois-millions-cinq-cents",
+        "trois-million-cinq-cents",
+        "trois-millions-cinq-centièmes"
+      ],
+      "reponse": "trois-millions-cinq-cents",
+      "explication": "trois-millions-cinq-cents. « Cent » prend un « s » car non suivi d'un autre mot. « Million » prend un « s » au pluriel."
+    },
+    {
+      "id": "ent6_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre correspond à : deux-mille-trois-cent-cinquante ?",
+      "image": null,
+      "choix": ["$2\\,305$", "$2\\,350$", "$2\\,035$", "$2\\,300\\,050$"],
+      "reponse": "$2\\,350$",
+      "explication": "deux-mille = $2\\,000$, trois-cent-cinquante = $350$. Total : $2\\,350$."
+    },
+    {
+      "id": "ent6_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la décomposition correcte de $3\\,250\\,369$ ?",
+      "image": null,
+      "choix": [
+        "$3\\,000\\,000 + 250\\,000 + 369$",
+        "$3\\,000\\,000 + 200\\,000 + 50\\,000 + 300 + 60 + 9$",
+        "$3\\,000\\,000 + 250 + 369$",
+        "$32 + 50 + 369$"
+      ],
+      "reponse": "$3\\,000\\,000 + 200\\,000 + 50\\,000 + 300 + 60 + 9$",
+      "explication": "$3\\,250\\,369 = 3\\,000\\,000 + 200\\,000 + 50\\,000 + 300 + 60 + 9$."
+    },
+    {
+      "id": "ent6_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la décomposition correcte de $592$ ?",
+      "image": null,
+      "choix": ["$500 + 92$", "$500 + 90 + 2$", "$59 + 2$", "$5 + 9 + 2$"],
+      "reponse": "$500 + 90 + 2$",
+      "explication": "$592 = 500 + 90 + 2$ ($5$ centaines, $9$ dizaines, $2$ unités)."
+    },
+    {
+      "id": "ent6_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la décomposition correcte de $100\\,200$ ?",
+      "image": null,
+      "choix": [
+        "$100\\,000 + 20$",
+        "$100\\,000 + 200$",
+        "$10\\,000 + 200$",
+        "$100\\,000 + 2\\,000$"
+      ],
+      "reponse": "$100\\,000 + 200$",
+      "explication": "$100\\,200 = 100\\,000 + 200$."
+    },
+    {
+      "id": "ent6_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre est égal à $50\\,000 + 3\\,000 + 1$ ?",
+      "image": null,
+      "choix": ["$5\\,301$", "$53\\,001$", "$50\\,301$", "$530\\,001$"],
+      "reponse": "$53\\,001$",
+      "explication": "$50\\,000 + 3\\,000 + 1 = 53\\,001$."
+    },
+    {
+      "id": "ent6_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre est égal à $1\\,000\\,000 + 200$ ?",
+      "image": null,
+      "choix": ["$1\\,000\\,200$", "$1\\,200$", "$1\\,000\\,002$", "$1\\,002\\,000$"],
+      "reponse": "$1\\,000\\,200$",
+      "explication": "$1\\,000\\,000 + 200 = 1\\,000\\,200$."
+    },
+    {
+      "id": "ent6_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Lequel de ces nombres est le plus grand ?",
+      "image": null,
+      "choix": ["$356$", "$3\\,560$", "$35\\,600$", "$3\\,560\\,000$"],
+      "reponse": "$3\\,560\\,000$",
+      "explication": "Le plus grand nombre est celui qui a le plus de chiffres. $3\\,560\\,000$ en a $7$, c'est le plus grand."
+    },
+    {
+      "id": "ent6_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $1\\,526$ et $999$.",
+      "image": null,
+      "choix": ["$1\\,526 < 999$", "$1\\,526 = 999$", "$1\\,526 > 999$", "Impossible à comparer"],
+      "reponse": "$1\\,526 > 999$",
+      "explication": "$1\\,526$ a $4$ chiffres, $999$ en a $3$. Un nombre à $4$ chiffres est toujours plus grand qu'un nombre à $3$ chiffres."
+    },
+    {
+      "id": "ent6_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $146\\,826$ et $147\\,325$.",
+      "image": null,
+      "choix": [
+        "$146\\,826 > 147\\,325$",
+        "$146\\,826 = 147\\,325$",
+        "$146\\,826 < 147\\,325$",
+        "Impossible à comparer"
+      ],
+      "reponse": "$146\\,826 < 147\\,325$",
+      "explication": "Les deux nombres ont $6$ chiffres. On compare de gauche à droite : $1=1$, $4=4$, $6 < 7$. Donc $146\\,826 < 147\\,325$."
+    },
+    {
+      "id": "ent6_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre croissant : $1\\,546$ ; $1\\,456$ ; $1\\,654$.",
+      "image": null,
+      "choix": [
+        "$1\\,456 < 1\\,546 < 1\\,654$",
+        "$1\\,546 < 1\\,456 < 1\\,654$",
+        "$1\\,654 < 1\\,546 < 1\\,456$",
+        "$1\\,456 < 1\\,654 < 1\\,546$"
+      ],
+      "reponse": "$1\\,456 < 1\\,546 < 1\\,654$",
+      "explication": "On compare les centaines : $4 < 5 < 6$. Donc $1\\,456 < 1\\,546 < 1\\,654$."
+    },
+    {
+      "id": "ent6_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre décroissant : $234\\,566$ ; $324\\,566$ ; $243\\,566$.",
+      "image": null,
+      "choix": [
+        "$324\\,566 > 243\\,566 > 234\\,566$",
+        "$234\\,566 > 324\\,566 > 243\\,566$",
+        "$324\\,566 > 234\\,566 > 243\\,566$",
+        "$243\\,566 > 324\\,566 > 234\\,566$"
+      ],
+      "reponse": "$324\\,566 > 243\\,566 > 234\\,566$",
+      "explication": "On compare les centaines de mille : $3 > 2$. Puis $243 > 234$. Donc $324\\,566 > 243\\,566 > 234\\,566$."
+    },
+    {
+      "id": "ent6_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Qu'est-ce qu'une demi-droite graduée ?",
+      "image": null,
+      "choix": [
+        "Une droite sans origine",
+        "Une demi-droite sur laquelle on a reporté régulièrement une longueur unité à partir de l'origine",
+        "Un segment de longueur fixe",
+        "Une droite ayant deux origines"
+      ],
+      "reponse": "Une demi-droite sur laquelle on a reporté régulièrement une longueur unité à partir de l'origine",
+      "explication": "Une demi-droite graduée est une demi-droite sur laquelle on a reporté régulièrement, à partir de l'origine, une longueur unité choisie."
+    },
+    {
+      "id": "ent6_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on le nombre qui repère un point sur une demi-droite graduée ?",
+      "image": null,
+      "choix": ["Sa position", "Son rang", "Son abscisse", "Son chiffre"],
+      "reponse": "Son abscisse",
+      "explication": "Chaque point est repéré par un nombre appelé son abscisse."
+    },
+    {
+      "id": "ent6_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite graduée d'unité $1$ carreau, le point A a pour abscisse $5$. À combien de carreaux de l'origine se trouve-t-il ?",
+      "image": null,
+      "choix": ["$1$ carreau", "$5$ carreaux", "$10$ carreaux", "$15$ carreaux"],
+      "reponse": "$5$ carreaux",
+      "explication": "L'abscisse $5$ signifie que le point A est à $5$ unités, donc $5$ carreaux de l'origine."
+    },
+    {
+      "id": "ent6_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite graduée d'unité $2$ carreaux, le point B est à $6$ carreaux de l'origine. Quelle est son abscisse ?",
+      "image": null,
+      "choix": ["$2$", "$3$", "$6$", "$12$"],
+      "reponse": "$3$",
+      "explication": "$6$ carreaux $\\div$ $2$ carreaux par unité $= 3$. L'abscisse de B est $3$."
+    },
+    {
+      "id": "ent6_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite graduée, le point C a pour abscisse $0$. Où se trouve-t-il ?",
+      "image": null,
+      "choix": [
+        "À $1$ unité de l'origine",
+        "À l'origine",
+        "À une position inconnue",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "À l'origine",
+      "explication": "L'abscisse $0$ correspond à l'origine de la demi-droite."
+    },
+    {
+      "id": "ent6_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le nombre $352\\,000\\,124$, quel est le chiffre des dizaines de millions ?",
+      "image": null,
+      "choix": ["$3$", "$5$", "$2$", "$0$"],
+      "reponse": "$5$",
+      "explication": "$352\\,000\\,124$ : de droite à gauche : $4=$ unités, $2=$ dizaines, $1=$ centaines, $0=$ milliers, $0=$ dizaines de mille, $0=$ centaines de mille, $2=$ millions, $5=$ dizaines de millions, $3=$ centaines de millions."
+    },
+    {
+      "id": "ent6_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la décomposition de $352\\,000\\,124$ ?",
+      "image": null,
+      "choix": [
+        "$352\\,000\\,000 + 100 + 24$",
+        "$300\\,000\\,000 + 50\\,000\\,000 + 2\\,000\\,000 + 100 + 20 + 4$",
+        "$352\\,000 + 124$",
+        "$3 + 5 + 2 + 1 + 2 + 4$"
+      ],
+      "reponse": "$300\\,000\\,000 + 50\\,000\\,000 + 2\\,000\\,000 + 100 + 20 + 4$",
+      "explication": "$352\\,000\\,124 = 300\\,000\\,000 + 50\\,000\\,000 + 2\\,000\\,000 + 100 + 20 + 4$."
+    },
+    {
+      "id": "ent6_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre est égal à $3\\,000\\,000\\,000 + 5$ ?",
+      "image": null,
+      "choix": ["$3\\,000\\,005$", "$3\\,005\\,000$", "$3\\,000\\,000\\,005$", "$3\\,000\\,000\\,500$"],
+      "reponse": "$3\\,000\\,000\\,005$",
+      "explication": "$3\\,000\\,000\\,000 + 5 = 3\\,000\\,000\\,005$ (trois milliards cinq)."
+    },
+    {
+      "id": "ent6_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre croissant : $3\\,492$ ; $3\\,454$ ; $3\\,510$ ; $3\\,498$.",
+      "image": null,
+      "choix": [
+        "$3\\,454 < 3\\,492 < 3\\,498 < 3\\,510$",
+        "$3\\,454 < 3\\,498 < 3\\,492 < 3\\,510$",
+        "$3\\,510 < 3\\,498 < 3\\,492 < 3\\,454$",
+        "$3\\,492 < 3\\,454 < 3\\,498 < 3\\,510$"
+      ],
+      "reponse": "$3\\,454 < 3\\,492 < 3\\,498 < 3\\,510$",
+      "explication": "On compare chiffre par chiffre : $3\\,454 < 3\\,492 < 3\\,498 < 3\\,510$."
+    },
+    {
+      "id": "ent6_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment écrit-on $3\\,924\\,560$ en toutes lettres ?",
+      "image": null,
+      "choix": [
+        "trois-millions-neuf-cent-vingt-quatre-mille-cinq-cent-soixante",
+        "trois-millions-neuf-cents-vingt-quatre-mille-cinq-cent-soixante",
+        "trois-million-neuf-cent-vingt-quatre-mille-cinq-cent-soixante",
+        "trois-millions-neuf-cent-vingt-quatre-milles-cinq-cent-soixante"
+      ],
+      "reponse": "trois-millions-neuf-cent-vingt-quatre-mille-cinq-cent-soixante",
+      "explication": "trois-millions-neuf-cent-vingt-quatre-mille-cinq-cent-soixante. « Million » prend un « s » au pluriel."
+    },
+    {
+      "id": "ent6_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le chiffre des centaines de millions dans $180\\,250\\,468\\,121$ ?",
+      "image": null,
+      "choix": ["$1$", "$8$", "$0$", "$4$"],
+      "reponse": "$1$",
+      "explication": "$180\\,250\\,468\\,121$ : le chiffre des centaines de millions est en $9^{\\text{e}}$ position depuis la droite. Ici c'est $1$."
+    },
+    {
+      "id": "ent6_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre correspond à $14\\,000\\,000\\,000 + 220\\,000 + 10$ ?",
+      "image": null,
+      "choix": ["$14\\,000\\,220\\,100$", "$14\\,220\\,010$", "$14\\,000\\,220\\,010$", "$140\\,220\\,010$"],
+      "reponse": "$14\\,000\\,220\\,010$",
+      "explication": "$14\\,000\\,000\\,000 + 220\\,000 + 10 = 14\\,000\\,220\\,010$."
+    },
+    {
+      "id": "ent6_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment écrit-on $35\\,250\\,140\\,280$ en toutes lettres ?",
+      "image": null,
+      "choix": [
+        "trente-cinq-milliards-deux-cent-cinquante-millions-cent-quarante-mille-deux-cent-quatre-vingts",
+        "trente-cinq-milliards-deux-cents-cinquante-millions-cent-quarante-mille-deux-cent-quatre-vingts",
+        "trente-cinq-milliard-deux-cent-cinquante-millions-cent-quarante-mille-deux-cents-quatre-vingts",
+        "trente-cinq-milliards-deux-cent-cinquante-millions-cent-quarante-mille-deux-cent-quatre-vingt"
+      ],
+      "reponse": "trente-cinq-milliards-deux-cent-cinquante-millions-cent-quarante-mille-deux-cent-quatre-vingts",
+      "explication": "trente-cinq-milliards-deux-cent-cinquante-millions-cent-quarante-mille-deux-cent-quatre-vingts. « Vingt » prend un « s » car non suivi d'un autre mot."
+    },
+    {
+      "id": "ent6_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $1\\,586\\,423$ et $1\\,596\\,423$.",
+      "image": null,
+      "choix": [
+        "$1\\,586\\,423 > 1\\,596\\,423$",
+        "$1\\,586\\,423 = 1\\,596\\,423$",
+        "$1\\,586\\,423 < 1\\,596\\,423$",
+        "Impossible à comparer"
+      ],
+      "reponse": "$1\\,586\\,423 < 1\\,596\\,423$",
+      "explication": "Mêmes chiffres jusqu'aux dizaines de mille : $8 < 9$. Donc $1\\,586\\,423 < 1\\,596\\,423$."
+    },
+    {
+      "id": "ent6_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Lequel de ces nombres s'écrit « deux-cent-cinquante-mille-huit-cent-quatre-vingt-un » ?",
+      "image": null,
+      "choix": ["$250\\,871$", "$250\\,881$", "$205\\,881$", "$250\\,811$"],
+      "reponse": "$250\\,881$",
+      "explication": "deux-cent-cinquante-mille $= 250\\,000$, huit-cent-quatre-vingt-un $= 881$. Total $= 250\\,881$."
+    },
+    {
+      "id": "ent6_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la décomposition de $14\\,000\\,220\\,010$ ?",
+      "image": null,
+      "choix": [
+        "$10\\,000\\,000\\,000 + 4\\,000\\,000\\,000 + 200\\,000 + 20\\,000 + 10$",
+        "$14\\,000\\,000\\,000 + 220\\,010$",
+        "$14\\,000\\,000 + 220\\,000 + 10$",
+        "$10\\,000\\,000\\,000 + 4\\,220\\,010$"
+      ],
+      "reponse": "$10\\,000\\,000\\,000 + 4\\,000\\,000\\,000 + 200\\,000 + 20\\,000 + 10$",
+      "explication": "$14\\,000\\,220\\,010 = 10\\,000\\,000\\,000 + 4\\,000\\,000\\,000 + 200\\,000 + 20\\,000 + 10$."
+    },
+    {
+      "id": "ent6_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre décroissant : $256\\,897$ ; $256\\,798$ ; $256\\,987$.",
+      "image": null,
+      "choix": [
+        "$256\\,987 > 256\\,897 > 256\\,798$",
+        "$256\\,798 > 256\\,897 > 256\\,987$",
+        "$256\\,897 > 256\\,987 > 256\\,798$",
+        "$256\\,987 > 256\\,798 > 256\\,897$"
+      ],
+      "reponse": "$256\\,987 > 256\\,897 > 256\\,798$",
+      "explication": "Mêmes chiffres jusqu'aux centaines. Dizaines : $9 > 8 > 7$. Ordre décroissant : $256\\,987 > 256\\,897 > 256\\,798$."
+    },
+    {
+      "id": "ent6_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite graduée, l'unité est $5$ carreaux. Le point M est à $15$ carreaux de l'origine. Quelle est son abscisse ?",
+      "image": null,
+      "choix": ["$5$", "$3$", "$15$", "$75$"],
+      "reponse": "$3$",
+      "explication": "$15 \\div 5 = 3$. L'abscisse du point M est $3$."
+    },
+    {
+      "id": "ent6_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus grand nombre parmi : $12\\,549\\,023$ ; $12\\,594\\,023$ ; $12\\,549\\,032$ ?",
+      "image": null,
+      "choix": ["$12\\,549\\,023$", "$12\\,549\\,032$", "$12\\,594\\,023$", "Ils sont égaux"],
+      "reponse": "$12\\,594\\,023$",
+      "explication": "On compare chiffre par chiffre. Aux dizaines de mille : $4 < 9$. Donc $12\\,594\\,023$ est le plus grand."
+    },
+    {
+      "id": "ent6_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Trouve le nombre mystère : il a $7$ chiffres, le chiffre des millions est $4$, le chiffre des centaines est $3$, tous les autres chiffres sont $0$.",
+      "image": null,
+      "choix": ["$4\\,003\\,000$", "$4\\,000\\,300$", "$4\\,000\\,030$", "$4\\,300\\,000$"],
+      "reponse": "$4\\,000\\,300$",
+      "explication": "$4$ millions $= 4\\,000\\,000$, $3$ centaines $= 300$. Nombre : $4\\,000\\,300$."
+    },
+    {
+      "id": "ent6_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces affirmations est FAUSSE ?",
+      "image": null,
+      "choix": [
+        "$3\\,560 > 356$",
+        "« Cent » prend toujours un « s » au pluriel",
+        "$999 < 1\\,000$",
+        "Le chiffre des unités est le chiffre le plus à droite"
+      ],
+      "reponse": "« Cent » prend toujours un « s » au pluriel",
+      "explication": "« Cent » ne prend un « s » que quand il n'est pas suivi d'un autre mot. Exemple : $200$ = deux-cents, mais $201$ = deux-cent-un."
+    },
+    {
+      "id": "ent6_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre est formé de : $5$ centaines de millions, $2$ millions, $4$ dizaines de mille et $7$ unités ?",
+      "image": null,
+      "choix": ["$502\\,040\\,007$", "$520\\,040\\,007$", "$502\\,400\\,007$", "$5\\,002\\,040\\,007$"],
+      "reponse": "$502\\,040\\,007$",
+      "explication": "$5 \\times 100\\,000\\,000 + 2 \\times 1\\,000\\,000 + 4 \\times 10\\,000 + 7 = 502\\,040\\,007$."
+    },
+    {
+      "id": "ent6_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de nombres entiers y a-t-il entre $999$ et $1\\,001$ (non compris) ?",
+      "image": null,
+      "choix": ["$0$", "$1$", "$2$", "$3$"],
+      "reponse": "$1$",
+      "explication": "Il y a un seul entier entre $999$ et $1\\,001$ : c'est $1\\,000$."
+    },
+    {
+      "id": "ent6_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre vient juste après $999\\,999$ ?",
+      "image": null,
+      "choix": ["$999\\,998$", "$1\\,000\\,000$", "$9\\,999\\,990$", "$10\\,000\\,000$"],
+      "reponse": "$1\\,000\\,000$",
+      "explication": "Le nombre qui vient après $999\\,999$ est $1\\,000\\,000$ (un million)."
+    },
+    {
+      "id": "ent6_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment écrit-on $1\\,480$ en toutes lettres ?",
+      "image": null,
+      "choix": [
+        "mille-quatre-cent-quatre-vingts",
+        "mille-quatre-cents-quatre-vingts",
+        "mille-quatre-cent-quatre-vingt",
+        "un-mille-quatre-cent-quatre-vingts"
+      ],
+      "reponse": "mille-quatre-cent-quatre-vingts",
+      "explication": "mille-quatre-cent-quatre-vingts. « Vingt » prend un « s » car non suivi d'un autre mot."
+    },
+    {
+      "id": "ent6_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre est égal à $300\\,000 + 60 + 9$ ?",
+      "image": null,
+      "choix": ["$300\\,069$", "$300\\,609$", "$306\\,900$", "$300\\,960$"],
+      "reponse": "$300\\,069$",
+      "explication": "$300\\,000 + 60 + 9 = 300\\,069$."
+    },
+    {
+      "id": "ent6_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare $564\\,598$ et $564\\,589$.",
+      "image": null,
+      "choix": [
+        "$564\\,598 < 564\\,589$",
+        "$564\\,598 = 564\\,589$",
+        "$564\\,598 > 564\\,589$",
+        "Impossible à comparer"
+      ],
+      "reponse": "$564\\,598 > 564\\,589$",
+      "explication": "Mêmes chiffres jusqu'aux dizaines. Dizaines : $9 > 8$. Donc $564\\,598 > 564\\,589$."
+    },
+    {
+      "id": "ent6_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre correspond à « cent-vingt-mille-quatorze » ?",
+      "image": null,
+      "choix": ["$120\\,014$", "$120\\,140$", "$120\\,400$", "$102\\,014$"],
+      "reponse": "$120\\,014$",
+      "explication": "cent-vingt-mille $= 120\\,000$, quatorze $= 14$. Total $= 120\\,014$."
+    },
+    {
+      "id": "ent6_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre croissant : $256\\,897$ ; $256\\,798$ ; $256\\,879$.",
+      "image": null,
+      "choix": [
+        "$256\\,798 < 256\\,879 < 256\\,897$",
+        "$256\\,897 < 256\\,879 < 256\\,798$",
+        "$256\\,798 < 256\\,897 < 256\\,879$",
+        "$256\\,879 < 256\\,798 < 256\\,897$"
+      ],
+      "reponse": "$256\\,798 < 256\\,879 < 256\\,897$",
+      "explication": "Mêmes chiffres jusqu'aux centaines. Dizaines : $7 < 7$, même. Unités : $9 > 7$... En fait dixièmes de mille : $7 < 8 < 8$, puis $98 > 79 > 97$... On compare : $256\\,798 < 256\\,879 < 256\\,897$."
+    },
+    {
+      "id": "ent6_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite d'unité $3$, le point P a pour abscisse $7$. À combien d'unités de l'origine se trouve-t-il ?",
+      "image": null,
+      "choix": ["$3$ unités", "$7$ unités", "$21$ unités", "$10$ unités"],
+      "reponse": "$7$ unités",
+      "explication": "L'abscisse $7$ signifie que le point est à $7$ unités de l'origine, soit $7 \\times 3 = 21$ carreaux si l'unité vaut $3$ carreaux."
+    },
+    {
+      "id": "ent6_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel chiffre des milliers dans $3\\,454$ ?",
+      "image": null,
+      "choix": ["$3$", "$4$", "$5$", "$2$"],
+      "reponse": "$3$",
+      "explication": "$3\\,454$ : $4 =$ unités, $5 =$ dizaines, $4 =$ centaines, $3 =$ milliers."
+    },
+    {
+      "id": "ent6_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le chiffre des centaines dans $180\\,250\\,468\\,121$ ?",
+      "image": null,
+      "choix": ["$4$", "$1$", "$8$", "$2$"],
+      "reponse": "$1$",
+      "explication": "$180\\,250\\,468\\,121$ : le chiffre des centaines est en $3^{\\text{e}}$ position depuis la droite. Ici c'est $1$."
+    },
+    {
+      "id": "ent6_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite graduée d'unité $2$ carreaux, où placer le point d'abscisse $5$ ?",
+      "image": null,
+      "choix": ["À $2$ carreaux de l'origine", "À $5$ carreaux de l'origine", "À $7$ carreaux de l'origine", "À $10$ carreaux de l'origine"],
+      "reponse": "À $10$ carreaux de l'origine",
+      "explication": "Abscisse $5 \\times 2$ carreaux par unité $= 10$ carreaux."
+    },
+    {
+      "id": "ent6_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus grand parmi $1\\,230\\,445$ et $123\\,445$ ?",
+      "image": null,
+      "choix": ["$123\\,445$", "$1\\,230\\,445$", "Ils sont égaux", "Impossible à dire"],
+      "reponse": "$1\\,230\\,445$",
+      "explication": "$1\\,230\\,445$ a $7$ chiffres, $123\\,445$ en a $6$. Donc $1\\,230\\,445$ est le plus grand."
+    },
+    {
+      "id": "ent6_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel nombre correspond à « cent-vingt-mille-quatre-cent-vingt » ?",
+      "image": null,
+      "choix": ["$120\\,420$", "$120\\,400$", "$124\\,020$", "$100\\,420$"],
+      "reponse": "$120\\,420$",
+      "explication": "cent-vingt-mille $= 120\\,000$, quatre-cent-vingt $= 420$. Total $= 120\\,420$."
+    },
+    {
+      "id": "ent6_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus petit nombre entier à $9$ chiffres ?",
+      "image": null,
+      "choix": ["$999\\,999\\,999$", "$100\\,000\\,000$", "$10\\,000\\,000$", "$1\\,000\\,000\\,000$"],
+      "reponse": "$100\\,000\\,000$",
+      "explication": "Le plus petit nombre à $9$ chiffres est $100\\,000\\,000$ ($1$ suivi de huit zéros)."
+    },
+    {
+      "id": "ent6_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de chiffres a le nombre qui suit $9\\,999\\,999\\,999$ ?",
+      "image": null,
+      "choix": ["$9$", "$10$", "$11$", "$12$"],
+      "reponse": "$11$",
+      "explication": "$9\\,999\\,999\\,999 + 1 = 10\\,000\\,000\\,000$ (dix milliards). Il a $11$ chiffres."
+    },
+    {
+      "id": "ent6_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un nombre entier a $8$ chiffres. Son chiffre des dizaines de millions est $5$, son chiffre des unités de mille est $3$, tous les autres sont $0$. Quel est ce nombre ?",
+      "image": null,
+      "choix": ["$50\\,003\\,000$", "$50\\,030\\,000$", "$5\\,000\\,300$", "$5\\,300\\,000$"],
+      "reponse": "$50\\,003\\,000$",
+      "explication": "$5$ dizaines de millions $= 50\\,000\\,000$, $3$ unités de mille $= 3\\,000$. Nombre $= 50\\,003\\,000$."
+    },
+    {
+      "id": "ent6_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Lequel de ces nombres est le plus proche de $500\\,000$ ?",
+      "image": null,
+      "choix": ["$499\\,001$", "$498\\,999$", "$500\\,999$", "$501\\,000$"],
+      "reponse": "$499\\,001$",
+      "explication": "$500\\,000 - 499\\,001 = 999$. $500\\,999 - 500\\,000 = 999$. $501\\,000 - 500\\,000 = 1\\,000$. $500\\,000 - 498\\,999 = 1\\,001$. Les plus proches sont $499\\,001$ et $500\\,999$ (à $999$). La réponse attendue est $499\\,001$."
+    },
+    {
+      "id": "ent6_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus grand nombre à $6$ chiffres que l'on peut écrire avec les chiffres $3, 0, 7, 1, 5, 9$ (chacun utilisé une seule fois) ?",
+      "image": null,
+      "choix": ["$975\\,310$", "$975\\,301$", "$973\\,510$", "$753\\,910$"],
+      "reponse": "$975\\,310$",
+      "explication": "Pour obtenir le plus grand nombre, on place les chiffres dans l'ordre décroissant : $9, 7, 5, 3, 1, 0$ → $975\\,310$."
+    },
+    {
+      "id": "ent6_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment s'écrit « million » au pluriel dans une écriture en lettres ?",
+      "image": null,
+      "choix": [
+        "« million » reste invariable",
+        "« millions » prend un « s » car c'est un nom",
+        "« million » ne prend de « s » que si suivi d'un autre mot",
+        "« millions » prend un « s » mais « milliards » est invariable"
+      ],
+      "reponse": "« millions » prend un « s » car c'est un nom",
+      "explication": "« Million » et « milliard » sont des noms communs et prennent un « s » au pluriel. Ex : $3\\,000\\,000$ = trois-millions."
+    },
+    {
+      "id": "ent6_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de nombres entiers y a-t-il entre $100$ et $1\\,000$ (non compris) ?",
+      "image": null,
+      "choix": ["$898$", "$899$", "$900$", "$901$"],
+      "reponse": "$899$",
+      "explication": "Les entiers entre $100$ et $1\\,000$ exclus sont $101, 102, \\ldots, 999$. Soit $999 - 101 + 1 = 899$ nombres."
+    },
+    {
+      "id": "ent6_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le chiffre des centaines de milliards dans $352\\,000\\,124\\,000$ ?",
+      "image": null,
+      "choix": ["$3$", "$5$", "$2$", "$0$"],
+      "reponse": "$3$",
+      "explication": "$352\\,000\\,124\\,000$ : les centaines de milliards correspondent à la $12^{\\text{e}}$ position depuis la droite. Ici c'est $3$."
+    },
+    {
+      "id": "ent6_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus petit entier à $5$ chiffres strictement supérieur à $99\\,999$ ?",
+      "image": null,
+      "choix": ["$99\\,999$", "$100\\,000$", "$100\\,001$", "$99\\,999 + 1$"],
+      "reponse": "$100\\,000$",
+      "explication": "$99\\,999 + 1 = 100\\,000$. C'est le plus petit entier à $6$ chiffres et strictement supérieur à $99\\,999$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite d'unité $4$ carreaux, le point A est à $20$ carreaux et le point B à $36$ carreaux. Quel point est le plus à droite ?",
+      "image": null,
+      "choix": ["A (abscisse $5$)", "B (abscisse $9$)", "Ils sont à la même position", "Impossible à déterminer"],
+      "reponse": "B (abscisse $9$)",
+      "explication": "A : $20 \\div 4 = 5$, abscisse $5$. B : $36 \\div 4 = 9$, abscisse $9$. B est plus à droite car $9 > 5$."
+    },
+    {
+      "id": "ent6_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le nombre formé de $5 \\times 1\\,000\\,000 + 3 \\times 10\\,000 + 7 \\times 100 + 2 \\times 1$ ?",
+      "image": null,
+      "choix": ["$5\\,030\\,702$", "$5\\,300\\,702$", "$5\\,030\\,072$", "$5\\,003\\,702$"],
+      "reponse": "$5\\,030\\,702$",
+      "explication": "$5\\,000\\,000 + 30\\,000 + 700 + 2 = 5\\,030\\,702$."
+    },
+    {
+      "id": "ent6_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une demi-droite graduée d'unité $10$ carreaux, le point P a pour abscisse $15$. À combien de carreaux de l'origine se trouve-t-il ?",
+      "image": null,
+      "choix": ["$10$", "$15$", "$150$", "$5$"],
+      "reponse": "$150$",
+      "explication": "Unité $= 10$ carreaux. Abscisse $15 \\to 15 \\times 10 = 150$ carreaux."
+    },
+    {
+      "id": "ent6_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces nombres, lequel s'écrit « quatre-vingt-mille-deux » ?",
+      "image": null,
+      "choix": ["$80\\,200$", "$80\\,002$", "$800\\,002$", "$8\\,002$"],
+      "reponse": "$80\\,002$",
+      "explication": "quatre-vingt-mille $= 80\\,000$, deux $= 2$. Total $= 80\\,002$."
+    },
+    {
+      "id": "ent6_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien y a-t-il de nombres entiers entre $10\\,000$ et $100\\,000$ (non compris) ?",
+      "image": null,
+      "choix": ["$89\\,998$", "$89\\,999$", "$90\\,000$", "$90\\,001$"],
+      "reponse": "$89\\,999$",
+      "explication": "De $10\\,001$ à $99\\,999$ : $99\\,999 - 10\\,001 + 1 = 89\\,999$ nombres."
+    },
+    {
+      "id": "ent6_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le seul nombre entier vérifiant à la fois : il a $4$ chiffres, son chiffre des milliers est $2$, son chiffre des centaines est le double du chiffre des milliers, et ses deux derniers chiffres sont $0$ ?",
+      "image": null,
+      "choix": ["$2\\,200$", "$2\\,400$", "$2\\,040$", "$2\\,020$"],
+      "reponse": "$2\\,400$",
+      "explication": "Chiffre des milliers $= 2$. Chiffre des centaines $= 2 \\times 2 = 4$. Deux derniers chiffres $= 0$. Réponse : $2\\,400$."
+    },
+    {
+      "id": "ent6_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Compare et range dans l'ordre décroissant : $1\\,000\\,200$ ; $100\\,200$ ; $1\\,002\\,000$ ; $1\\,000\\,020$.",
+      "image": null,
+      "choix": [
+        "$1\\,002\\,000 > 1\\,000\\,200 > 1\\,000\\,020 > 100\\,200$",
+        "$1\\,000\\,200 > 1\\,002\\,000 > 100\\,200 > 1\\,000\\,020$",
+        "$1\\,002\\,000 > 1\\,000\\,020 > 1\\,000\\,200 > 100\\,200$",
+        "$100\\,200 > 1\\,000\\,020 > 1\\,000\\,200 > 1\\,002\\,000$"
+      ],
+      "reponse": "$1\\,002\\,000 > 1\\,000\\,200 > 1\\,000\\,020 > 100\\,200$",
+      "explication": "$1\\,002\\,000$ est le plus grand ($1$ million, $2$ milliers). Puis $1\\,000\\,200$, $1\\,000\\,020$, et $100\\,200$ (seulement $6$ chiffres)."
+    },
+    {
+      "id": "ent6_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Écris en chiffres : deux-milliards-cinq-cent-millions-quarante-mille-sept.",
+      "image": null,
+      "choix": ["$2\\,500\\,040\\,007$", "$2\\,500\\,400\\,007$", "$2\\,500\\,004\\,007$", "$25\\,000\\,040\\,007$"],
+      "reponse": "$2\\,500\\,040\\,007$",
+      "explication": "deux-milliards $= 2\\,000\\,000\\,000$, cinq-cent-millions $= 500\\,000\\,000$, quarante-mille $= 40\\,000$, sept $= 7$. Total $= 2\\,500\\,040\\,007$."
+    },
+    {
+      "id": "ent6_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans $1\\,280\\,995\\,090$, quel est le chiffre des dizaines de millions ?",
+      "image": null,
+      "choix": ["$1$", "$2$", "$8$", "$0$"],
+      "reponse": "$8$",
+      "explication": "$1\\,280\\,995\\,090$ : de droite à gauche, la $8^{\\text{e}}$ position (dizaines de millions) contient $8$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On place les chiffres $0, 0, 0, 9, 9, 9$ pour former le plus grand nombre à $3$ chiffres différents. Quel est ce nombre ?",
+      "image": null,
+      "choix": ["$999$", "$990$", "$909$", "$099$"],
+      "reponse": "$990$",
+      "explication": "Les chiffres disponibles sont $9$, $9$ et $0$ (un zéro ne peut pas être en tête). Le plus grand nombre possible est $990$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un nombre a $7$ chiffres : le chiffre des millions est $3$, le chiffre des dizaines est $7$, tous les autres chiffres sont $1$. Quel est ce nombre ?",
+      "image": null,
+      "choix": ["$3\\,111\\,711$", "$3\\,111\\,171$", "$3\\,111\\,117$", "$3\\,711\\,111$"],
+      "reponse": "$3\\,111\\,171$",
+      "explication": "Millions : $3$, centaines de mille : $1$, dizaines de mille : $1$, milliers : $1$, centaines : $1$, dizaines : $7$, unités : $1$. Nombre : $3\\,111\\,171$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de nombres entiers à $4$ chiffres dont le chiffre des milliers est $3$ et la somme des chiffres est $10$ peut-on former ?",
+      "image": null,
+      "choix": ["$12$", "$15$", "$18$", "$21$"],
+      "reponse": "$18$",
+      "explication": "Le chiffre des milliers est $3$, donc les $3$ autres chiffres $(a, b, c)$ vérifient $a + b + c = 7$ avec $0 \\leq a, b, c \\leq 9$. Le nombre de solutions est $C(7+2, 2) - \\text{cas interdits} = 36 - 18 = 18$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le rang du chiffre $5$ dans le nombre $5\\,030\\,702$ ?",
+      "image": null,
+      "choix": ["Unités", "Centaines de mille", "Millions", "Dizaines de millions"],
+      "reponse": "Millions",
+      "explication": "$5\\,030\\,702$ : de droite à gauche : $2 =$ unités, $0 =$ dizaines, $7 =$ centaines, $0 =$ milliers, $3 =$ dizaines de mille, $0 =$ centaines de mille, $5 =$ millions. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Range dans l'ordre croissant : $12\\,549\\,023$ et $12\\,549\\,032$. Quel chiffre permet de les distinguer ?",
+      "image": null,
+      "choix": [
+        "Le chiffre des dizaines ($2 < 3$) : donc $12\\,549\\,023 < 12\\,549\\,032$",
+        "Le chiffre des unités ($3 > 2$) : donc $12\\,549\\,032 < 12\\,549\\,023$",
+        "Le chiffre des milliers ($0 = 0$) : ils sont égaux",
+        "On ne peut pas les comparer"
+      ],
+      "reponse": "Le chiffre des dizaines ($2 < 3$) : donc $12\\,549\\,023 < 12\\,549\\,032$",
+      "explication": "Les deux nombres ont $8$ chiffres, identiques jusqu'aux dizaines : $2 < 3$. Donc $12\\,549\\,023 < 12\\,549\\,032$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un nombre à $6$ chiffres a le chiffre des unités $= 8$, des dizaines $= 0$, des centaines $= 5$, des milliers $= 2$, des dizaines de mille $= 0$, des centaines de mille $= 1$. Quel est ce nombre ?",
+      "image": null,
+      "choix": ["$102\\,508$", "$120\\,508$", "$100\\,258$", "$102\\,850$"],
+      "reponse": "$102\\,508$",
+      "explication": "De gauche à droite : $1$ (centaines de mille), $0$ (dizaines de mille), $2$ (milliers), $5$ (centaines), $0$ (dizaines), $8$ (unités) $= 102\\,508$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien vaut $\\underbrace{99...9}_{10 \\text{ chiffres}} + 1$ ?",
+      "image": null,
+      "choix": ["$10\\,000\\,000\\,000$ (11 chiffres)", "$9\\,999\\,999\\,999$ (10 chiffres)", "$100\\,000\\,000\\,000$ (12 chiffres)", "$1\\,000\\,000\\,000$ (10 chiffres)"],
+      "reponse": "$10\\,000\\,000\\,000$ (11 chiffres)",
+      "explication": "$9\\,999\\,999\\,999 + 1 = 10\\,000\\,000\\,000$ (dix milliards). Ce nombre a $11$ chiffres. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quel est le plus petit nombre entier dont la somme des chiffres est $10$ ?",
+      "image": null,
+      "choix": ["$19$", "$28$", "$37$", "$10$"],
+      "reponse": "$19$",
+      "explication": "Le plus petit entier dont la somme des chiffres est $10$ est $19$ ($1 + 9 = 10$). [Question générée]"
+    },
+    {
+      "id": "ent6_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Écris en chiffres le nombre : un-milliard-deux-cent-quatre-vingts-millions-neuf-cent-quatre-vingt-quinze-mille-quatre-vingt-dix.",
+      "image": null,
+      "choix": ["$1\\,280\\,995\\,090$", "$1\\,280\\,995\\,900$", "$1\\,280\\,099\\,090$", "$1\\,208\\,995\\,090$"],
+      "reponse": "$1\\,280\\,995\\,090$",
+      "explication": "$1\\,000\\,000\\,000 + 280\\,000\\,000 + 995\\,000 + 90 = 1\\,280\\,995\\,090$."
+    },
+    {
+      "id": "ent6_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On décompose $180\\,250\\,468\\,121$. Quel terme de la décomposition correspond aux milliards ?",
+      "image": null,
+      "choix": ["$100\\,000\\,000\\,000$", "$80\\,000\\,000\\,000$", "$180\\,000\\,000\\,000$", "$1\\,000\\,000\\,000$"],
+      "reponse": "$80\\,000\\,000\\,000$",
+      "explication": "$180\\,250\\,468\\,121 = 100\\,000\\,000\\,000 + 80\\,000\\,000\\,000 + ...$. Le terme des milliards est $80\\,000\\,000\\,000$. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de nombres entiers à $5$ chiffres commencent par $4$ et se terminent par $0$ ?",
+      "image": null,
+      "choix": ["$100$", "$900$", "$1\\,000$", "$9\\,000$"],
+      "reponse": "$1\\,000$",
+      "explication": "Le premier chiffre est $4$, le dernier est $0$. Les $3$ chiffres du milieu peuvent valoir $0$ à $9$ chacun : $10 \\times 10 \\times 10 = 1\\,000$ nombres. [Question générée]"
+    },
+    {
+      "id": "ent6_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un nombre est décomposé ainsi : $3 \\times 10^7 + 5 \\times 10^4 + 2 \\times 10^2$. Quel est ce nombre ?",
+      "image": null,
+      "choix": ["$30\\,050\\,200$", "$3\\,050\\,200$", "$300\\,050\\,020$", "$30\\,005\\,200$"],
+      "reponse": "$30\\,050\\,200$",
+      "explication": "$3 \\times 10^7 = 30\\,000\\,000$ ; $5 \\times 10^4 = 50\\,000$ ; $2 \\times 10^2 = 200$. Total $= 30\\,050\\,200$. [Question générée]"
+    }
+  ]
+}

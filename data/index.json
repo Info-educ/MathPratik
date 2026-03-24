@@ -33,8 +33,8 @@
       "niveau": "4eme"
     },
     {
-      "id": "relatifs_4eme",
-      "fichier": "data/4eme/relatifs_4eme.json",
+      "id": "nombres_relatifs_4eme",
+      "fichier": "data/4eme/nombres_relatifs_4eme.json",
       "niveau": "4eme"
     },
     {
@@ -181,6 +181,51 @@
       "id":      "fractions_6eme",
       "fichier": "data/6eme/fractions_6eme.json",
       "niveau":  "6eme"
+    },
+    {
+      "id":      "angles_6eme",
+      "fichier": "data/6eme/angles_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "polygones_6eme",
+      "fichier": "data/6eme/polygones_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "quatre_operations_6eme",
+      "fichier": "data/6eme/quatre_operations_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "nombres_entiers_6eme",
+      "fichier": "data/6eme/nombres_entiers_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "pave_droit_6eme",
+      "fichier": "data/6eme/pave_droit_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "nombres_decimaux_6eme",
+      "fichier": "data/6eme/nombres_decimaux_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+    "id":      "proportionnalite_6eme",
+    "fichier": "data/6eme/proportionnalite_6eme.json",
+    "niveau":  "6eme"
+    },
+    {
+    "id":      "symetrie_6eme",
+    "fichier": "data/6eme/symetrie_6eme.json",
+    "niveau":  "6eme"
+    },
+    {
+    "id":      "cercle_6eme",
+    "fichier": "data/6eme/cercle_6eme.json",
+    "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
