@@ -221,6 +221,11 @@
     "id":      "symetrie_6eme",
     "fichier": "data/6eme/symetrie_6eme.json",
     "niveau":  "6eme"
+    },
+    {
+    "id":      "cercle_6eme",
+    "fichier": "data/6eme/cercle_6eme.json",
+    "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
