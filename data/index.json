@@ -181,6 +181,16 @@
       "id":      "fractions_6eme",
       "fichier": "data/6eme/fractions_6eme.json",
       "niveau":  "6eme"
+    },
+    {
+      "id":      "angles_6eme",
+      "fichier": "data/6eme/angles_6eme.json",
+      "niveau":  "6eme"
+    },
+    {
+      "id":      "polygones_6eme",
+      "fichier": "data/6eme/polygones_6eme.json",
+      "niveau":  "6eme"
     }
   ],
   "automatismes_notions": [
