@@ -874,7 +874,7 @@
       "image": "4eme/nombres_relatifs/image15.png",
       "choix": ["Non, le résultat est toujours positif ou nul", "Oui, si $n$ est négatif", "Oui, si $-1 < n < 1$", "Oui, pour tout $n \\neq 0$"],
       "reponse": "Oui, si $-1 < n < 1$",
-      "explication": "PC15 : $n\\times(-2)$, puis carré, puis soustraire $4$. Résultat $=(−2n)^2−4=4n^2−4$. Ce résultat est négatif quand $4n^2<4$, soit $-1<n<1$."
+      "explication": "PC15 : $n\\times(-2)$, puis carré, puis soustraire $4$. Résultat $=(−2n)^2−4=4n^2−4$. Ce résultat est négatif quand $4n^2<4$, soit $-1 < n < 1$."
     },
     {
       "id": "nr4_n3_020",
