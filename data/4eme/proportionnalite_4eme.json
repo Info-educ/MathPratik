@@ -872,22 +872,6 @@
       "explication": "15% de 240=36, 15% de 80=12. Somme=48. Cela est égal à 15% de 320=48 ✓ Proportionnalité."
     },
     {
-      "id": "prop4_n2_015",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "En utilisant la méthode du tableau, que représente 120 élèves sur 500 ?",
-      "image": "4eme/proportionnalite/028cdf24488c9447d7b0c66653dd7e9d526189bd.png",
-      "choix": [
-        "20%",
-        "22%",
-        "24%",
-        "26%"
-      ],
-      "reponse": "24%",
-      "explication": "120$\\times$100$\\div$500=24%."
-    },
-    {
       "id": "prop4_n2_016",
       "niveau": 2,
       "type": "qcm",
@@ -1068,7 +1052,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Un tableau : masse 3→6→9→12 kg, prix avec k=4,50 €/kg. Quel est le prix de 15 kg ?",
+      "enonce": "Le prix des pommes de terre au kg est 4,50 €/kg. Quel est le prix de 15 kg ?",
       "image": null,
       "choix": [
         "60 €",
@@ -1164,7 +1148,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Grandeurs proportionnelles : si (3,x) est dans le tableau et (5,15) aussi, trouve x.",
+      "enonce": "Grandeurs proportionnelles : si première ligne (3,x) dans le tableau et deuxième ligne (5,15) aussi, trouve x.",
       "image": null,
       "choix": [
         "6",
@@ -1206,22 +1190,6 @@
       ],
       "reponse": "15%",
       "explication": "Augmentation : 1800. Taux : 1800$\\times$100$\\div$12000=15%."
-    },
-    {
-      "id": "prop4_n3_006",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Un article augmente de 20% puis baisse de 20%. Par rapport au prix initial P, le prix final est :",
-      "image": null,
-      "choix": [
-        "P (prix initial)",
-        "P$\\times$0,96 (−4%)",
-        "P$\\times$1,04 (+4%)",
-        "P$\\times$0,98 (−2%)"
-      ],
-      "reponse": "P$\\times$0,96 (−4%)",
-      "explication": "P$\\times$1,2$\\times$0,8=P$\\times$0,96. Non, on n'est pas revenu au prix initial ! Le prix final est 96% du prix initial."
     },
     {
       "id": "prop4_n3_007",
@@ -1430,22 +1398,6 @@
       ],
       "reponse": "1+t/100",
       "explication": "n+t% de n = n+n$\\times$t/100 = n$\\times$(1+t/100). Facteur multiplicateur = 1+t/100. CQFD."
-    },
-    {
-      "id": "prop4_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans une recette pour 6 personnes : 300 g farine, 150 g beurre, 200 g sucre. Pour 9 personnes, quelle quantité de farine et quel % de farine en plus ?",
-      "image": null,
-      "choix": [
-        "400 g, +30%",
-        "420 g, +40%",
-        "450 g, +50%",
-        "480 g, +60%"
-      ],
-      "reponse": "450 g, +50%",
-      "explication": "Coefficient :$\\frac{9}{6}$=1,5. Farine : 300$\\times$1,5=450 g (+50%). Beurre : 225 g. Sucre : 300 g."
     }
   ]
 }
