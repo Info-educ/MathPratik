@@ -592,8 +592,8 @@
       "image": null,
       "choix": [
         "Une courbe",
-        "Une droite qui ne passe pas par O",
-        "Une droite passant par O",
+        "Une droite qui ne passe pas par O, l'origine du repère",
+        "Une droite passant par O, l'origine du repère",
         "Un nuage de points"
       ],
       "reponse": "Une droite passant par O",
