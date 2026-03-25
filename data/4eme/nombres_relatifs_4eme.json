@@ -588,7 +588,7 @@
       "image": "4eme/nombres_relatifs/image10.png",
       "choix": ["$-6$", "$+6$", "$-4$", "$+4$"],
       "reponse": "$+6$",
-      "explication": "PC10 : multiplier par $(-2)$ puis ajouter $8$. Équation : $n\\times(-2)+8=-4 \\Rightarrow -2n=-12 \\Rightarrow n=6$."
+      "explication": "PC10 : On fait le programme à l'envers en partant du résultat : $-4 - (+8) = -12$ puis $-12 \div (-2) = 6$"
     },
     {
       "id": "nr4_n2_024",
@@ -610,7 +610,7 @@
       "image": "4eme/nombres_relatifs/image3.png",
       "choix": ["$0$", "$6$", "$-6$", "$3$"],
       "reponse": "$6$",
-      "explication": "PC3 : $(n+(-6))\\div(-2)=0 \\Rightarrow n-6=0 \\Rightarrow n=6$."
+      "explication": "PC3 : $0 \times (-2) = 0$ puis $0 - (-6) = 6$"
     },
     {
       "id": "nr4_n2_026",
@@ -819,7 +819,7 @@
       "image": "4eme/nombres_relatifs/image9.png",
       "choix": ["$n=0$", "$n=2$", "$n=-2$", "$n=4$"],
       "reponse": "$n=2$",
-      "explication": "PC9 : $((n-4)\\times 3+6)\\div 4=0 \\Rightarrow (n-4)\\times 3+6=0 \\Rightarrow 3n-12+6=0 \\Rightarrow 3n=6 \\Rightarrow n=2$."
+      "explication": "PC9 : $0 + (-6) = -6$ puis $(-6) \div 3 = -2$ puis $-2 - (-4) = 2$"
     },
     {
       "id": "nr4_n3_015",
@@ -940,7 +940,7 @@
       "image": "4eme/nombres_relatifs/image1.png",
       "choix": ["$n=1$", "$n=2$", "$n=-2$", "$n=3$"],
       "reponse": "$n=2$",
-      "explication": "PC1 : $n\\times(-2)+5=1 \\Rightarrow -2n=-4 \\Rightarrow n=2$. Vérification : $2\\times(-2)+5=-4+5=1$ ✓."
+      "explication": "PC1 : $1 - 5 = -4$ puis $-4 \div (-2) = 2$"
     },
     {
       "id": "nr4_n3_026",
