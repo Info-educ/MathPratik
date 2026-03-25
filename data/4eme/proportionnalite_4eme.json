@@ -11,7 +11,7 @@
       "id": "prop4_n1_001",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Qu'est-ce qu'un tableau de proportionnalité ?",
       "image": null,
       "choix": [
@@ -27,7 +27,7 @@
       "id": "prop4_n1_002",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Dans ce tableau, quel est le coefficient de proportionnalité ?",
       "image": "4eme/proportionnalite/15095c01a927be267a09aceb10d432f96d7d0618.png",
       "choix": [
@@ -43,7 +43,7 @@
       "id": "prop4_n1_003",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Vérifie que le tableau est bien un tableau de proportionnalité. Que valent tous les quotients ligne 2$\\div$ligne 1 ?",
       "image": "4eme/proportionnalite/15095c01a927be267a09aceb10d432f96d7d0618.png",
       "choix": [
@@ -59,7 +59,7 @@
       "id": "prop4_n1_004",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Comment reconnaît-on qu'un tableau est de proportionnalité ?",
       "image": null,
       "choix": [
@@ -75,7 +75,7 @@
       "id": "prop4_n1_005",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un tableau de proportionnalité a le coefficient k=3. Si la valeur de la ligne 1 est 7, quelle est la valeur de la ligne 2 ?",
       "image": null,
       "choix": [
@@ -91,7 +91,7 @@
       "id": "prop4_n1_006",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un tableau de proportionnalité a le coefficient k=0,5. Si la valeur de la ligne 1 est 14, quelle est la valeur de la ligne 2 ?",
       "image": null,
       "choix": [
@@ -107,7 +107,7 @@
       "id": "prop4_n1_007",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Dans un tableau de proportionnalité, la ligne 1 contient les valeurs 2, 4, 6, 10. Le coefficient est 3. Quelle est la valeur manquante pour 4 ?",
       "image": "4eme/proportionnalite/5231f18bbcbda2cf2c49f6e7b93098c37e54c97d.png",
       "choix": [
@@ -123,7 +123,7 @@
       "id": "prop4_n1_008",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un tableau de proportionnalité de vitesse (km/h) et temps (min). Pour 30 km/h, on obtient 20 min. Pour 10 km/h, quelle valeur en minutes ?",
       "image": "4eme/proportionnalite/e25e117211a47b7baea51d99df7fdee3840b269b.png",
       "choix": [
@@ -139,7 +139,7 @@
       "id": "prop4_n1_009",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Sur le schéma du produit en croix, si a=3, b=6, c=5, quelle est la valeur de « ? » ?",
       "image": "4eme/proportionnalite/941f3e0ce488e0f831597c647587b2b98615f439.png",
       "choix": [
@@ -171,7 +171,7 @@
       "id": "prop4_n1_011",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Produit en croix :$\\frac{4}{6}$= ?/9. Trouve ?.",
       "image": null,
       "choix": [
@@ -187,7 +187,7 @@
       "id": "prop4_n1_012",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Produit en croix :$\\frac{3}{5}$= 12/?. Trouve ?.",
       "image": null,
       "choix": [
@@ -203,7 +203,7 @@
       "id": "prop4_n1_013",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Produit en croix : ?/8 =$\\frac{3}{4}$. Trouve ?.",
       "image": null,
       "choix": [
@@ -219,7 +219,7 @@
       "id": "prop4_n1_014",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Sur ce graphique, la représentation indique-t-elle une proportionnalité ?",
       "image": "4eme/proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
       "choix": [
@@ -235,7 +235,7 @@
       "id": "prop4_n1_015",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Ce graphique montre-t-il une situation de proportionnalité ?",
       "image": "4eme/proportionnalite/4b207310ccc1f972eecb253491e0a5c9f87ce964.png",
       "choix": [
@@ -251,7 +251,7 @@
       "id": "prop4_n1_016",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Quelle est la condition sur le graphique pour que deux grandeurs soient proportionnelles ?",
       "image": null,
       "choix": [
@@ -267,7 +267,7 @@
       "id": "prop4_n1_017",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Une classe a 30 élèves. 60% pratiquent un sport. Combien de sportifs ?",
       "image": "4eme/proportionnalite/29646465f45114bd3b8a99694902cb2ffb4d72ba.png",
       "choix": [
@@ -283,7 +283,7 @@
       "id": "prop4_n1_018",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Calcule 30% de 60 avec la méthode : Q$\\times$t$\\div$100.",
       "image": "4eme/proportionnalite/e2bf17bb12a175cf35287850f95e57a24d80d3ad.png",
       "choix": [
@@ -299,7 +299,7 @@
       "id": "prop4_n1_019",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Calcule 20% de 150.",
       "image": null,
       "choix": [
@@ -315,7 +315,7 @@
       "id": "prop4_n1_020",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Calcule 50% de 84.",
       "image": null,
       "choix": [
@@ -331,7 +331,7 @@
       "id": "prop4_n1_021",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Calcule 10% de 370.",
       "image": null,
       "choix": [
@@ -347,7 +347,7 @@
       "id": "prop4_n1_022",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Calcule 25% de 200.",
       "image": null,
       "choix": [
@@ -363,7 +363,7 @@
       "id": "prop4_n1_023",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Calcule 75% de 120.",
       "image": null,
       "choix": [
@@ -427,7 +427,7 @@
       "id": "prop4_n1_027",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Calcule 12% de 8 L.",
       "image": null,
       "choix": [
@@ -491,7 +491,7 @@
       "id": "prop4_n1_031",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Sur 200 élèves, 50 prennent le bus. Quel pourcentage ?",
       "image": null,
       "choix": [
@@ -507,7 +507,7 @@
       "id": "prop4_n1_032",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "60% de 50 = ?",
       "image": null,
       "choix": [
@@ -523,7 +523,7 @@
       "id": "prop4_n1_033",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Le coefficient de proportionnalité de 5→20 est :",
       "image": null,
       "choix": [
@@ -539,7 +539,7 @@
       "id": "prop4_n1_034",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Pour calculer 30% d'une quantité, on multiplie par :",
       "image": null,
       "choix": [
@@ -555,7 +555,7 @@
       "id": "prop4_n1_035",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "12 sur 48 en pourcentage :",
       "image": null,
       "choix": [
@@ -571,7 +571,7 @@
       "id": "prop4_n1_036",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Si$\\frac{3}{4}$= ?/12 (produit en croix), ? =",
       "image": null,
       "choix": [
@@ -587,7 +587,7 @@
       "id": "prop4_n1_037",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Deux grandeurs proportionnelles → leur représentation graphique est :",
       "image": null,
       "choix": [
@@ -619,7 +619,7 @@
       "id": "prop4_n1_039",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un article à 50 € avec −30% de réduction. Nouveau prix :",
       "image": null,
       "choix": [
@@ -635,7 +635,7 @@
       "id": "prop4_n1_040",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Quelle est la différence entre 'appliquer 20%' et 'déterminer un pourcentage' ?",
       "image": null,
       "choix": [
@@ -683,7 +683,7 @@
       "id": "prop4_n2_003",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un conducteur parcourt 90 km en 1h. Combien parcourt-il en 2h30 ?",
       "image": null,
       "choix": [
@@ -699,7 +699,7 @@
       "id": "prop4_n2_004",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Tableau de proportionnalité : ligne 1 = {4, 7, x} et ligne 2 = {12, 21, 36}. Trouve x.",
       "image": null,
       "choix": [
@@ -715,7 +715,7 @@
       "id": "prop4_n2_005",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un gâteau nécessite 300 g de farine pour 6 personnes. Quelle quantité pour 10 personnes ?",
       "image": null,
       "choix": [
@@ -731,7 +731,7 @@
       "id": "prop4_n2_006",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Sur le graphique proportionnel, lis la valeur de y pour x=2,5. La droite passe par (1,2).",
       "image": "4eme/proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
       "choix": [
@@ -747,7 +747,7 @@
       "id": "prop4_n2_007",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Sur le graphique, quel est le coefficient de proportionnalité si la droite passe par (1,2) et (3,6) ?",
       "image": "4eme/proportionnalite/3e9a6b5457532ffd9aeb7f5b8b5acb87658d0118.png",
       "choix": [
@@ -763,7 +763,7 @@
       "id": "prop4_n2_008",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un graphique passe par (0,0), (2,5) et (4,10). Est-ce une situation de proportionnalité ?",
       "image": null,
       "choix": [
@@ -811,7 +811,7 @@
       "id": "prop4_n2_011",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un marchand propose −30% sur des chaussures à 50 €. Gabriel a 20 €. A-t-il assez ?",
       "image": null,
       "choix": [
@@ -843,7 +843,7 @@
       "id": "prop4_n2_013",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Lors d'un sondage, 28% des 250 personnes partent en mer. Combien ?",
       "image": null,
       "choix": [
@@ -859,7 +859,7 @@
       "id": "prop4_n2_014",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "15% de 240 + 15% de 80 = ?",
       "image": null,
       "choix": [
@@ -891,7 +891,7 @@
       "id": "prop4_n2_016",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Dans une classe de 32 élèves, 8 ont eu$\\frac{15}{20}$ou plus. Quel pourcentage ?",
       "image": null,
       "choix": [
@@ -907,7 +907,7 @@
       "id": "prop4_n2_017",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un coureur fait 42 km en 4h. Quelle proportion représente la 1re heure (10,5 km) ?",
       "image": null,
       "choix": [
@@ -923,7 +923,7 @@
       "id": "prop4_n2_018",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Une ville a 15 000 habitants. Sa population a augmenté de 450 habitants. Quel est le pourcentage d'augmentation ?",
       "image": null,
       "choix": [
@@ -955,7 +955,7 @@
       "id": "prop4_n2_020",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un magasin vend 3 chemises pour 45 €. Marie en achète 7. Combien paie-t-elle ?",
       "image": null,
       "choix": [
@@ -987,7 +987,7 @@
       "id": "prop4_n2_022",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Diminution de 20% d'un prix de 75 €. Nouveau prix ?",
       "image": null,
       "choix": [
@@ -1019,7 +1019,7 @@
       "id": "prop4_n2_024",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un robinet laisse passer 12 L en 3 min. Combien en 7 min ?",
       "image": null,
       "choix": [
@@ -1035,7 +1035,7 @@
       "id": "prop4_n2_025",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un vélo coûtait 350 €. Il est soldé à 280 €. Quel est le pourcentage de réduction ?",
       "image": null,
       "choix": [
@@ -1051,7 +1051,7 @@
       "id": "prop4_n2_026",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "30% d'une somme = 48 €. Quelle est la somme totale ?",
       "image": null,
       "choix": [
@@ -1083,7 +1083,7 @@
       "id": "prop4_n2_028",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Convertis$\\frac{3}{5}$en pourcentage.",
       "image": null,
       "choix": [
@@ -1099,7 +1099,7 @@
       "id": "prop4_n2_029",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Convertis$\\frac{7}{25}$en pourcentage.",
       "image": null,
       "choix": [
@@ -1115,7 +1115,7 @@
       "id": "prop4_n2_030",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Appliquer un taux de t% revient à multiplier par :",
       "image": null,
       "choix": [
@@ -1131,7 +1131,7 @@
       "id": "prop4_n3_001",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Prouve que si$\\frac{a}{b}$=$\\frac{c}{d}$, alors ad = bc. Cette propriété s'appelle :",
       "image": null,
       "choix": [
@@ -1147,7 +1147,7 @@
       "id": "prop4_n3_002",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un tableau a les valeurs (ligne 1 : 2, 5) et (ligne 2 : 7, 17,5). Le tableau est-il proportionnel ? Quel est le coefficient ?",
       "image": null,
       "choix": [
@@ -1163,7 +1163,7 @@
       "id": "prop4_n3_003",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Grandeurs proportionnelles : si (3,x) est dans le tableau et (5,15) aussi, trouve x.",
       "image": null,
       "choix": [
@@ -1179,7 +1179,7 @@
       "id": "prop4_n3_004",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Une voiture consomme 6 L aux 100 km. Quelle quantité faut-il pour 450 km ?",
       "image": null,
       "choix": [
@@ -1211,7 +1211,7 @@
       "id": "prop4_n3_006",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un article augmente de 20% puis baisse de 20%. Par rapport au prix initial P, le prix final est :",
       "image": null,
       "choix": [
@@ -1227,7 +1227,7 @@
       "id": "prop4_n3_007",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Après une réduction de 25%, le prix est 60 €. Quel était le prix initial ?",
       "image": null,
       "choix": [
@@ -1259,7 +1259,7 @@
       "id": "prop4_n3_009",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "TVA de 20% sur un article HT à 85 €. Prix TTC ?",
       "image": null,
       "choix": [
@@ -1307,7 +1307,7 @@
       "id": "prop4_n3_012",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un train roule à 180 km/h. Un TGV va 1,5 fois plus vite. En 2h30, quelle distance parcourt le TGV ?",
       "image": null,
       "choix": [
@@ -1323,7 +1323,7 @@
       "id": "prop4_n3_013",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Augmenter de 10% puis augmenter encore de 10%. Le taux global d'augmentation est :",
       "image": null,
       "choix": [
@@ -1339,7 +1339,7 @@
       "id": "prop4_n3_014",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un magasin vend des stylos par lots : 4 stylos pour 6 €. Marie veut dépenser au plus 20 €. Combien de stylos peut-elle acheter au maximum (en lots entiers) ?",
       "image": null,
       "choix": [
@@ -1371,7 +1371,7 @@
       "id": "prop4_n3_016",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Un article vaut 80 € après remise de 20%. Quel était le prix initial ?",
       "image": null,
       "choix": [
@@ -1387,7 +1387,7 @@
       "id": "prop4_n3_017",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Si$\\frac{5}{8}$des élèves sont des filles et qu'il y a 200 élèves, combien sont des garçons ?",
       "image": null,
       "choix": [
@@ -1419,7 +1419,7 @@
       "id": "prop4_n3_019",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Passer d'un nombre n à n augmenté de t% revient à multiplier n par :",
       "image": null,
       "choix": [
@@ -1435,7 +1435,7 @@
       "id": "prop4_n3_020",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Dans une recette pour 6 personnes : 300 g farine, 150 g beurre, 200 g sucre. Pour 9 personnes, quelle quantité de farine et quel % de farine en plus ?",
       "image": null,
       "choix": [
