@@ -596,8 +596,8 @@
         "Une droite passant par O, l'origine du repère",
         "Un nuage de points"
       ],
-      "reponse": "Une droite passant par O",
-      "explication": "Points alignés passant par l'origine."
+      "reponse": "Une droite passant par O, l'origine du repère",
+      "explication": "Points alignés passant par l'origine du repère."
     },
     {
       "id": "prop4_n1_038",
