@@ -1334,6 +1334,166 @@
       ],
       "reponse": "A''(11,6)",
       "explication": "1) Sym. centrale : A'(2$\\times$5−1, 2$\\times$4−3) = A'(9,5). 2) Translation (2,1) : A''(9+2, 5+1) = A''(11,6)."
+    },
+    {
+      "id": "trf4_n2_031",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du point $N$ par la translation qui transforme $F$ en $G$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "$O$",
+        "$P$",
+        "$M$",
+        "$R$"
+      ],
+      "reponse": "$O$",
+      "explication": "La translation qui transforme $F$ en $G$ applique le vecteur $\\overrightarrow{FG}$ à tous les points. En déplaçant $N$ du même vecteur, on obtient $O$. En effet $\\overrightarrow{NO} = \\overrightarrow{FG}$ dans le pavage."
+    },
+    {
+      "id": "trf4_n2_032",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du point $P$ par la symétrie de centre $J$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "$D$",
+        "$E$",
+        "$I$",
+        "$F$"
+      ],
+      "reponse": "$D$",
+      "explication": "Dans une symétrie centrale de centre $J$, le point $J$ est le milieu du segment $[PP']$ où $P'$ est l'image de $P$. En comptant les pas dans le réseau, $J$ est bien le milieu de $[PD]$, donc l'image de $P$ est $D$."
+    },
+    {
+      "id": "trf4_n2_033",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. La droite $(FN)$ est un axe de symétrie. Parmi les affirmations suivantes, laquelle est vraie ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Le point $J$ est son propre image par la symétrie d'axe $(FN)$",
+        "Le point $I$ est l'image de $K$ par la symétrie d'axe $(FN)$",
+        "Le point $E$ est l'image de $D$ par la symétrie d'axe $(FN)$",
+        "Le point $M$ est l'image de $O$ par la symétrie d'axe $(FN)$"
+      ],
+      "reponse": "Le point $J$ est son propre image par la symétrie d'axe $(FN)$",
+      "explication": "Un point est son propre image par une symétrie axiale si et seulement s'il est situé sur l'axe. Le point $J$ est bien sur la droite $(FN)$ : $\\overrightarrow{FJ} = \\dfrac{1}{2}\\overrightarrow{FN}$, donc $F$, $J$ et $N$ sont alignés. $J$ est donc invariant par la symétrie d'axe $(FN)$."
+    },
+    {
+      "id": "trf4_n2_034",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $MNI$ par la translation qui transforme $E$ en $G$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $OPK$",
+        "Triangle $NPK$",
+        "Triangle $OPJ$",
+        "Triangle $NRO$"
+      ],
+      "reponse": "Triangle $OPK$",
+      "explication": "On applique le vecteur $\\overrightarrow{EG}$ à chaque sommet : $M \\to O$, $N \\to P$, $I \\to K$. L'image du triangle $MNI$ est donc le triangle $OPK$."
+    },
+    {
+      "id": "trf4_n2_035",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $BEF$ par la symétrie de centre $J$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $RON$",
+        "Triangle $QNO$",
+        "Triangle $SON$",
+        "Triangle $RNP$"
+      ],
+      "reponse": "Triangle $RON$",
+      "explication": "Pour chaque sommet, $J$ est le milieu du segment formé avec son image : $B \\to R$, $E \\to O$, $F \\to N$. L'image du triangle $BEF$ est donc le triangle $RON$."
+    },
+    {
+      "id": "trf4_n2_036",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $FCG$ par la translation qui transforme $L$ en $S$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $NJO$",
+        "Triangle $NOR$",
+        "Triangle $MNO$",
+        "Triangle $IJO$"
+      ],
+      "reponse": "Triangle $NJO$",
+      "explication": "On applique le vecteur $\\overrightarrow{LS}$ à chaque sommet : $F \\to N$, $C \\to J$, $G \\to O$. L'image du triangle $FCG$ est donc le triangle $NJO$."
+    },
+    {
+      "id": "trf4_n2_037",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $DIE$ par la symétrie d'axe $(EN)$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $FJE$",
+        "Triangle $FJN$",
+        "Triangle $GKE$",
+        "Triangle $FKN$"
+      ],
+      "reponse": "Triangle $FJE$",
+      "explication": "Par la symétrie d'axe $(EN)$ : $D \\to F$, $I \\to J$, $E \\to E$ (car $E$ est sur l'axe, il est donc invariant). L'image du triangle $DIE$ est le triangle $FJE$."
+    },
+    {
+      "id": "trf4_n2_038",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $KOP$ par la translation qui transforme $G$ en $A$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $DHI$",
+        "Triangle $DEH$",
+        "Triangle $EHI$",
+        "Triangle $DEM$"
+      ],
+      "reponse": "Triangle $DHI$",
+      "explication": "On applique le vecteur $\\overrightarrow{GA}$ à chaque sommet : $K \\to D$, $O \\to H$, $P \\to I$. L'image du triangle $KOP$ est donc le triangle $DHI$."
+    },
+    {
+      "id": "trf4_n2_039",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du quadrilatère $FGKJ$ par la translation qui transforme $L$ en $O$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Quadrilatère $IJNM$",
+        "Quadrilatère $IJNO$",
+        "Quadrilatère $HJNM$",
+        "Quadrilatère $IJON$"
+      ],
+      "reponse": "Quadrilatère $IJNM$",
+      "explication": "On applique le vecteur $\\overrightarrow{LO}$ à chaque sommet : $F \\to I$, $G \\to J$, $K \\to N$, $J \\to M$. L'image du quadrilatère $FGKJ$ est donc le quadrilatère $IJNM$."
+    },
+    {
+      "id": "trf4_n2_040",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du quadrilatère $BFJE$ par la translation qui transforme $J$ en $N$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Quadrilatère $EJNI$",
+        "Quadrilatère $FJNI$",
+        "Quadrilatère $ENIR$",
+        "Quadrilatère $ENOJ$"
+      ],
+      "reponse": "Quadrilatère $EJNI$",
+      "explication": "On applique le vecteur $\\overrightarrow{JN}$ à chaque sommet : $B \\to E$, $F \\to J$, $J \\to N$, $E \\to I$. L'image du quadrilatère $BFJE$ est donc le quadrilatère $EJNI$."
     }
   ]
 }
