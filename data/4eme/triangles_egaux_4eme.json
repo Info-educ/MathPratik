@@ -28,7 +28,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle ABC,$\\widehat{ABC}$=$50°$et$\\widehat{BAC}$=$35°$. Que vaut$\\widehat{ACB}$?",
+      "enonce": "Dans le triangle ABC, $\\widehat{ABC}$=$50°$ et $\\widehat{BAC}$=$35°$. Que vaut $\\widehat{ACB}$?",
       "image": "4eme/triangles/7230290a10e2fb630c96f25da76977bc077fa2a5.png",
       "choix": [
         "$80°$",
