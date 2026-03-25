@@ -1145,7 +1145,7 @@
       ],
       "reponse": "$7\\sqrt{2}$ cm",
       "explication": "La diagonale $d$ d'un carré de côté $a$ vérifie $d^2 = a^2 + a^2 = 2a^2$, donc $d = a\\sqrt{2} = 7\\sqrt{2} \\approx 9{,}9$ cm."
-    },
+    }
 
   ]
 }
