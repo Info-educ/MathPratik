@@ -588,7 +588,7 @@
       "image": "4eme/nombres_relatifs/image10.png",
       "choix": ["$-6$", "$+6$", "$-4$", "$+4$"],
       "reponse": "$+6$",
-      "explication": "PC10 : On fait le programme à l'envers en partant du résultat : $-4 - (+8) = -12$ puis $-12 \div (-2) = 6$."
+      "explication": "PC10 : On fait le programme à l'envers en partant du résultat : $-4 - (+8) = -12$ puis $-12 \\div (-2) = 6$."
     },
     {
       "id": "nr4_n2_024",
@@ -819,7 +819,7 @@
       "image": "4eme/nombres_relatifs/image9.png",
       "choix": ["$n=0$", "$n=2$", "$n=-2$", "$n=4$"],
       "reponse": "$n=2$",
-      "explication": "PC9 : $0 + (-6) = -6$ puis $(-6) \div 3 = -2$ puis $-2 - (-4) = 2$"
+      "explication": "PC9 : $0 + (-6) = -6$ puis $(-6) \\div 3 = -2$ puis $-2 - (-4) = 2$"
     },
     {
       "id": "nr4_n3_015",
@@ -940,7 +940,7 @@
       "image": "4eme/nombres_relatifs/image1.png",
       "choix": ["$n=1$", "$n=2$", "$n=-2$", "$n=3$"],
       "reponse": "$n=2$",
-      "explication": "PC1 : $1 - 5 = -4$ puis $-4 \div (-2) = 2$"
+      "explication": "PC1 : $1 - 5 = -4$ puis $-4 \\div (-2) = 2$"
     },
     {
       "id": "nr4_n3_026",
