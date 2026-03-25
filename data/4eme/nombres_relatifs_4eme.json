@@ -588,7 +588,7 @@
       "image": "4eme/nombres_relatifs/image10.png",
       "choix": ["$-6$", "$+6$", "$-4$", "$+4$"],
       "reponse": "$+6$",
-      "explication": "PC10 : On fait le programme à l'envers en partant du résultat : $-4 - (+8) = -12$ puis $-12 \div (-2) = 6$"
+      "explication": "PC10 : On fait le programme à l'envers en partant du résultat : $-4 - (+8) = -12$ puis $-12 \div (-2) = 6$."
     },
     {
       "id": "nr4_n2_024",
