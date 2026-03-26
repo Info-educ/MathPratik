@@ -970,7 +970,7 @@
       "enonce_html": "Si $a = 2$ et $n = 3$, compare $a^n$ et $n^a$.",
       "image": null,
       "choix": ["$a^n > n^a$", "$a^n < n^a$", "$a^n = n^a$", "On ne peut pas comparer"],
-      "reponse": "$a^n = n^a$",
+      "reponse": "$a^n < n^a$",
       "explication": "$a^n = 2^3 = 8$ et $n^a = 3^2 = 9$... Attention : $2^3=8$ et $3^2=9$, donc $a^n < n^a$. [Question générée]"
     },
     {
