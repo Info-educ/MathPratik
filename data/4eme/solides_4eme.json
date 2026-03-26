@@ -1084,13 +1084,13 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un pavé a l=3, L=5 et une aire totale S=94$\\mathrm{cm}^2$. Quelle est la hauteur h ?",
-      "image": null,
+      "enonce_html": "Dans le pavé droit ci-contre, quelles sont les coordonnées du point $K$ ?",
+      "image": "4eme/solides/reperage_img1_image1.png",
       "choix": [
-        "2 cm",
-        "3 cm",
-        "4 cm",
-        "5 cm"
+        "$(3\\,;\\,1\\,;\\,0)$",
+        "$(2\\,;\\,2\\,;\\,0)$",
+        "$(3\\,;\\,0\\,;\\,1)$",
+        "$(2\\,;\\,1\\,;\\,0)$"
       ],
       "reponse": "4 cm",
       "explication": "S = 2(lL+lh+Lh) = 2(15+3h+5h) = 30+16h = 94 → 16h = 64 → h = 4 cm."
