@@ -277,7 +277,7 @@
         "$\\frac{5}{12}$"
       ],
       "reponse": "$\\frac{7}{12}$",
-      "explication": "Dénominateur commun = 12.$\\frac{3}{4}$=$\\frac{9}{12}$et$\\frac{1}{6}$=$\\frac{2}{12}$. Donc$\\frac{9}{12}$−$\\frac{2}{12}$=$\\frac{7}{12}$."
+      "explication": "$\\widehat{LCD}$= 12.$\\frac{3}{4}$=$\\frac{9}{12}$et$\\frac{1}{6}$=$\\frac{2}{12}$. Donc$\\frac{9}{12}$−$\\frac{2}{12}$=$\\frac{7}{12}$."
     },
     {
       "id": "f4_n1_018",
@@ -287,12 +287,12 @@
       "enonce": "Comment met-on$\\frac{2}{3}$et$\\frac{5}{4}$au même dénominateur ?",
       "image": null,
       "choix": [
-        "Le Dénominateur commun de 3 et 4 est 12 :$\\frac{2}{3}$=$\\frac{8}{12}$et$\\frac{5}{4}$=$\\frac{15}{12}$",
-        "Le Dénominateur commun de 3 et 4 est 7 :$\\frac{2}{3}$=$\\frac{6}{7}$et$\\frac{5}{4}$=$\\frac{7}{7}$",
-        "Le Dénominateur commun de 3 et 4 est 12 :$\\frac{2}{3}$=$\\frac{6}{12}$et$\\frac{5}{4}$=$\\frac{10}{12}$",
+        "Le LCD de 3 et 4 est 12 :$\\frac{2}{3}$=$\\frac{8}{12}$et$\\frac{5}{4}$=$\\frac{15}{12}$",
+        "Le LCD de 3 et 4 est 7 :$\\frac{2}{3}$=$\\frac{6}{7}$et$\\frac{5}{4}$=$\\frac{7}{7}$",
+        "Le LCD de 3 et 4 est 12 :$\\frac{2}{3}$=$\\frac{6}{12}$et$\\frac{5}{4}$=$\\frac{10}{12}$",
         "On additionne les dénominateurs :$\\frac{2}{7}$et$\\frac{5}{7}$"
       ],
-      "reponse": "Le Dénominateur commun de 3 et 4 est 12 :$\\frac{2}{3}$=$\\frac{8}{12}$et$\\frac{5}{4}$=$\\frac{15}{12}$",
+      "reponse": "Le LCD de 3 et 4 est 12 :$\\frac{2}{3}$=$\\frac{8}{12}$et$\\frac{5}{4}$=$\\frac{15}{12}$",
       "explication": "Le plus petit commun multiple de 3 et 4 est 12.$\\frac{2}{3}$=$\\frac{8}{12}$($\\times$4) et$\\frac{5}{4}$=$\\frac{15}{12}$($\\times$3)."
     },
     {
@@ -485,7 +485,7 @@
         "$\\frac{5}{20}$"
       ],
       "reponse": "$\\frac{23}{20}$",
-      "explication": "Dénominateur commun = 20.$\\frac{2}{5}$=$\\frac{8}{20}$et$\\frac{3}{4}$=$\\frac{15}{20}$. Donc$\\frac{8}{20}$+$\\frac{15}{20}$=$\\frac{23}{20}$."
+      "explication": "$\\widehat{LCD}$= 20.$\\frac{2}{5}$=$\\frac{8}{20}$et$\\frac{3}{4}$=$\\frac{15}{20}$. Donc$\\frac{8}{20}$+$\\frac{15}{20}$=$\\frac{23}{20}$."
     },
     {
       "id": "f4_n1_031",
@@ -501,7 +501,7 @@
         "$\\frac{3}{18}$"
       ],
       "reponse": "$\\frac{11}{18}$",
-      "explication": "Dénominateur commun = 18.$\\frac{5}{6}$=$\\frac{15}{18}$et$\\frac{2}{9}$=$\\frac{4}{18}$. Donc$\\frac{15}{18}$−$\\frac{4}{18}$=$\\frac{11}{18}$."
+      "explication": "$\\widehat{LCD}$= 18.$\\frac{5}{6}$=$\\frac{15}{18}$et$\\frac{2}{9}$=$\\frac{4}{18}$. Donc$\\frac{15}{18}$−$\\frac{4}{18}$=$\\frac{11}{18}$."
     },
     {
       "id": "f4_n1_032",
@@ -556,7 +556,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule :$\\frac{5}{3}$+ $\\frac{2}{-4}$ = ?",
+      "enonce": "Calcule :$\\frac{5}{3}$+ 2/(−4) = ?",
       "image": null,
       "choix": [
         "$\\frac{7}{6}$",
@@ -565,7 +565,7 @@
         "−$\\frac{7}{6}$"
       ],
       "reponse": "$\\frac{7}{6}$",
-      "explication": "Dénominateur commun = 12.$\\frac{5}{3}$=$\\frac{20}{12}$et $\\frac{2}{-4}$ = −$\\frac{6}{12}$. Donc$\\frac{20}{12}$+ (−$\\frac{6}{12}$) =$\\frac{14}{12}$=$\\frac{7}{6}$."
+      "explication": "$\\widehat{LCD}$= 12.$\\frac{5}{3}$=$\\frac{20}{12}$et 2/(−4) = −$\\frac{6}{12}$. Donc$\\frac{20}{12}$+ (−$\\frac{6}{12}$) =$\\frac{14}{12}$=$\\frac{7}{6}$."
     },
     {
       "id": "f4_n1_036",
@@ -588,7 +588,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Calcule : −$\\frac{7}{9}$− $\\frac{5}{-3}$ = ?",
+      "enonce": "Calcule : −$\\frac{7}{9}$− 5/(−3) = ?",
       "image": null,
       "choix": [
         "$\\frac{8}{9}$",
@@ -597,7 +597,7 @@
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{8}{9}$",
-      "explication": "$\\frac{5}{-3}$ = −$\\frac{5}{3}$= −$\\frac{15}{9}$. −$\\frac{7}{9}$− (−$\\frac{15}{9}$) = $\\frac{-7+15}{9}$ =$\\frac{8}{9}$."
+      "explication": "5/(−3) = −$\\frac{5}{3}$= −$\\frac{15}{9}$. −$\\frac{7}{9}$− (−$\\frac{15}{9}$) = (−7+15)/9 =$\\frac{8}{9}$."
     },
     {
       "id": "f4_n1_038",
@@ -645,14 +645,14 @@
         "$\\frac{4}{8}$"
       ],
       "reponse": "$\\frac{5}{8}$",
-      "explication": "Dénominateur commun = 8.$\\frac{1}{4}$=$\\frac{2}{8}$. Donc$\\frac{2}{8}$+$\\frac{3}{8}$=$\\frac{5}{8}$."
+      "explication": "$\\widehat{LCD}$= 8.$\\frac{1}{4}$=$\\frac{2}{8}$. Donc$\\frac{2}{8}$+$\\frac{3}{8}$=$\\frac{5}{8}$."
     },
     {
       "id": "f4_n2_001",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Trouve x tel que $\\frac{x}{7}$ =$\\frac{12}{21}$.",
+      "enonce": "Trouve x tel que x/7 =$\\frac{12}{21}$.",
       "image": null,
       "choix": [
         "x = 4",
@@ -677,14 +677,14 @@
         "600 g"
       ],
       "reponse": "525 g",
-      "explication": "Produits en croix :$\\frac{300}{4}$= $\\frac{x}{7}$ → 4x = 2100 → x = 525 g."
+      "explication": "Produits en croix :$\\frac{300}{4}$= x/7 → 4x = 2100 → x = 525 g."
     },
     {
       "id": "f4_n2_003",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Les fractions $\\frac{3x-1}{10}$ et$\\frac{5}{2}$sont-elles égales pour x = 9 ?",
+      "enonce": "Les fractions (3x−1)/10 et$\\frac{5}{2}$sont-elles égales pour x = 9 ?",
       "image": null,
       "choix": [
         "Non, car (3$\\times$9−1)$\\times$2 = 52$\\neq$10$\\times$5 = 50",
@@ -709,7 +709,7 @@
         "$\\frac{15}{12}$"
       ],
       "reponse": "$\\frac{5}{4}$",
-      "explication": "Dénominateur commun = 12.$\\frac{9}{12}$+$\\frac{10}{12}$−$\\frac{4}{12}$=$\\frac{15}{12}$=$\\frac{5}{4}$."
+      "explication": "$\\widehat{LCD}$= 12.$\\frac{9}{12}$+$\\frac{10}{12}$−$\\frac{4}{12}$=$\\frac{15}{12}$=$\\frac{5}{4}$."
     },
     {
       "id": "f4_n2_005",
@@ -725,7 +725,7 @@
         "$\\frac{3}{13}$"
       ],
       "reponse": "$\\frac{5}{12}$",
-      "explication": "Dénominateur commun = 12. −$\\frac{8}{12}$+$\\frac{15}{12}$−$\\frac{2}{12}$=$\\frac{5}{12}$."
+      "explication": "$\\widehat{LCD}$= 12. −$\\frac{8}{12}$+$\\frac{15}{12}$−$\\frac{2}{12}$=$\\frac{5}{12}$."
     },
     {
       "id": "f4_n2_006",
@@ -741,7 +741,7 @@
         "−$\\frac{3}{20}$"
       ],
       "reponse": "$\\frac{3}{20}$",
-      "explication": "Dénominateur commun = 20.$\\frac{14}{20}$−$\\frac{15}{20}$+$\\frac{4}{20}$=$\\frac{3}{20}$."
+      "explication": "$\\widehat{LCD}$= 20.$\\frac{14}{20}$−$\\frac{15}{20}$+$\\frac{4}{20}$=$\\frac{3}{20}$."
     },
     {
       "id": "f4_n2_007",
@@ -854,6 +854,22 @@
       ],
       "reponse": "$\\frac{1}{2}$",
       "explication": "$\\left(\\frac{3}{4}\\right)^{2}$=$\\frac{9}{16}$. ($\\frac{9}{16}$)$\\times$($\\frac{8}{9}$) =$\\frac{72}{144}$=$\\frac{1}{2}$."
+    },
+    {
+      "id": "f4_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule :$\\left(−\\frac{\\frac{2}{3}}\\right)^{3}$= ?",
+      "image": null,
+      "choix": [
+        "−$\\frac{8}{27}$",
+        "$\\frac{8}{27}$",
+        "−$\\frac{6}{9}$",
+        "−$\\frac{2}{9}$"
+      ],
+      "reponse": "−$\\frac{8}{27}$",
+      "explication": "$(−2)^{3}$/$3^{3}$= −$\\frac{8}{27}$. Le cube d'un nombre négatif est négatif."
     },
     {
       "id": "f4_n2_015",
@@ -1093,7 +1109,7 @@
         "$\\frac{1}{2}$"
       ],
       "reponse": "1",
-      "explication": "Dénominateur commun = 6.$\\frac{3}{6}$+$\\frac{2}{6}$+$\\frac{1}{6}$=$\\frac{6}{6}$= 1."
+      "explication": "$\\widehat{LCD}$= 6.$\\frac{3}{6}$+$\\frac{2}{6}$+$\\frac{1}{6}$=$\\frac{6}{6}$= 1."
     },
     {
       "id": "f4_n2_030",
@@ -1221,7 +1237,23 @@
         "$\\frac{1}{2}$"
       ],
       "reponse": "1",
-      "explication": "$\\left(\\frac{2}{3}\\right)^{2}$−$\\left(\\frac{1}{2}\\right)^{2}$=$\\frac{4}{9}$−$\\frac{1}{4}$.Dénominateur commun = 36 :$\\frac{16}{36}$−$\\frac{9}{36}$=$\\frac{7}{36}$. Puis$\\frac{7}{36} \\div \\frac{7}{36}$= 1."
+      "explication": "$\\left(\\frac{2}{3}\\right)^{2}$−$\\left(\\frac{1}{2}\\right)^{2}$=$\\frac{4}{9}$−$\\frac{1}{4}$.$\\widehat{LCD}$= 36 :$\\frac{16}{36}$−$\\frac{9}{36}$=$\\frac{7}{36}$. Puis$\\frac{7}{36} \\div \\frac{7}{36}$= 1."
+    },
+    {
+      "id": "f4_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Résous : x/(x+1) =$\\frac{3}{4}$(produits en croix).",
+      "image": null,
+      "choix": [
+        "x = 3",
+        "x = 4",
+        "x = 1",
+        "x = 7"
+      ],
+      "reponse": "x = 3",
+      "explication": "4x = 3(x+1) → 4x = 3x + 3 → x = 3."
     },
     {
       "id": "f4_n3_009",
@@ -1238,6 +1270,38 @@
       ],
       "reponse": "$\\frac{1}{5}$",
       "explication": "$\\frac{1}{2} \\times \\frac{2}{3}\\times\\frac{3}{4} \\times \\frac{4}{5}$=$\\frac{24}{120}$=$\\frac{1}{5}$. (Les termes se simplifient en cascade.)"
+    },
+    {
+      "id": "f4_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Trois robinets remplissent un bassin en 2h, 3h et 6h respectivement. Quelle fraction remplissent-ils ensemble en 1h ?",
+      "image": null,
+      "choix": [
+        "Le bassin entier (fraction = 1)",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{5}{6}$"
+      ],
+      "reponse": "Le bassin entier (fraction = 1)",
+      "explication": "$\\frac{1}{2}$+$\\frac{1}{3}$+$\\frac{1}{6}$=$\\frac{3}{6}$+$\\frac{2}{6}$+$\\frac{1}{6}$=$\\frac{6}{6}$= 1. Ils remplissent le bassin entièrement en 1h."
+    },
+    {
+      "id": "f4_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un produit vaut$\\frac{3}{5}$d'un autre. Leur somme est 4. Quel est le plus grand des deux ?",
+      "image": null,
+      "choix": [
+        "$\\frac{5}{2}$",
+        "$\\frac{3}{2}$",
+        "4",
+        "2"
+      ],
+      "reponse": "$\\frac{5}{2}$",
+      "explication": "Soit x le plus grand. x + 3x/5 = 4 → 8x/5 = 4 → x =$\\frac{5}{2}$. L'autre vaut$\\frac{3}{2}$."
     },
     {
       "id": "f4_n3_012",
@@ -1304,6 +1368,22 @@
       "explication": "1 +$\\frac{1}{2}$+$\\frac{1}{4}$+$\\frac{1}{8}$+$\\frac{1}{16}$=$\\frac{16}{16}$+$\\frac{8}{16}$+$\\frac{4}{16}$+$\\frac{2}{16}$+$\\frac{1}{16}$=$\\frac{31}{16}$."
     },
     {
+      "id": "f4_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un cycliste fait un aller-retour : 20 km/h à l'aller, 30 km/h au retour. Quelle est sa vitesse moyenne ?",
+      "image": null,
+      "choix": [
+        "24 km/h",
+        "25 km/h",
+        "50 km/h",
+        "26 km/h"
+      ],
+      "reponse": "24 km/h",
+      "explication": "Pour une distance d : temps total = d/20 + d/30 = 5d/60 = d/12. Vitesse moyenne = 2d$\\div$(d/12) = 24 km/h. Ce n'est pas la moyenne arithmétique !"
+    },
+    {
       "id": "f4_n3_017",
       "niveau": 3,
       "type": "qcm",
@@ -1318,6 +1398,54 @@
       ],
       "reponse": "$\\frac{1}{4}$",
       "explication": "1 −$\\frac{1}{2}$=$\\frac{1}{2}$. 1 −$\\frac{1}{3}$=$\\frac{2}{3}$. 1 −$\\frac{1}{4}$=$\\frac{3}{4}$.$\\frac{1}{2} \\times \\frac{1}{2}\\times\\frac{2}{3} \\times \\frac{3}{4}$=$\\frac{6}{48}$=$\\frac{1}{8}$... Correction :$\\frac{1}{2} \\times \\frac{2}{3}\\times\\frac{3}{4}$=$\\frac{6}{24}$=$\\frac{1}{4}$."
+    },
+    {
+      "id": "f4_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "En utilisant 1/(n(n+1)) = 1/n − 1/(n+1), calcule : 1/(1$\\times$2) + 1/(2$\\times$3) + 1/(3$\\times$4) = ?",
+      "image": null,
+      "choix": [
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{11}{12}$",
+        "1"
+      ],
+      "reponse": "$\\frac{3}{4}$",
+      "explication": "(1 −$\\frac{1}{2}$) + ($\\frac{1}{2}$−$\\frac{1}{3}$) + ($\\frac{1}{3}$−$\\frac{1}{4}$) = 1 −$\\frac{1}{4}$=$\\frac{3}{4}$. Les termes se télescopent."
+    },
+    {
+      "id": "f4_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Que prouve l'égalité (n+1)/n − 1 = 1/n pour tout n$\\neq$0 ?",
+      "image": null,
+      "choix": [
+        "Que (n+1)/n −$\\frac{n}{n}$= 1/n, en soustrayant$\\frac{n}{n}$de (n+1)/n",
+        "Que n et n+1 sont toujours premiers entre eux",
+        "Que 1/n est toujours un entier",
+        "Que n+1 = n pour tout n"
+      ],
+      "reponse": "Que (n+1)/n −$\\frac{n}{n}$= 1/n, en soustrayant$\\frac{n}{n}$de (n+1)/n",
+      "explication": "(n+1)/n − 1 = (n+1)/n −$\\frac{n}{n}$= (n+1−n)/n = 1/n. C'est une identité algébrique avec les fractions."
+    },
+    {
+      "id": "f4_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Calcule et simplifie : ($\\frac{3}{4}$)x −$\\frac{1}{2}$=$\\frac{5}{8}$. Quelle est la valeur de 2x − 1 ?",
+      "image": null,
+      "choix": [
+        "2",
+        "$\\frac{3}{2}$",
+        "1",
+        "$\\frac{5}{2}$"
+      ],
+      "reponse": "2",
+      "explication": "x =$\\frac{3}{2}$(cf. question précédente). 2x − 1 = 2$\\times$($\\frac{3}{2}$) − 1 = 3 − 1 = 2."
     }
   ]
 }

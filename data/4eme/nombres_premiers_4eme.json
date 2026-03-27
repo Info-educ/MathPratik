@@ -109,7 +109,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "D'après le tableau des critères de divisibilité, 276 est divisible par :",
-      "image": null,
+      "image": "4eme/premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
       "choix": [
         "2 seulement",
         "2 et 3",
@@ -125,7 +125,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "765 est-il divisible par 9 ?",
-      "image": null,
+      "image": "4eme/premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
       "choix": [
         "Non, car 765 est impair",
         "Oui, car 7+6+5=18=9$\\times$2",
@@ -253,7 +253,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Sur le crible d'Ératosthène, combien y a-t-il de nombres premiers entre 2 et 50 ?",
-      "image": null,
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "10",
         "13",
@@ -269,7 +269,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quels sont les nombres premiers entre 10 et 30 ?",
-      "image": null,
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "11, 13, 17, 19, 23, 29",
         "11, 13, 15, 17, 19, 23",
@@ -541,7 +541,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans la simplification de$\\frac{120}{84}$, quels facteurs ont été supprimés ?",
-      "image": null,
+      "image": "4eme/premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
       "choix": [
         "2 et 3",
         "$2^{2}$et 3",
@@ -557,7 +557,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Simplifie$\\frac{36}{48}$. Quel est le résultat ?",
-      "image": null,
+      "image": "4eme/premiers/4b7050c13d8482f769e124888fa641af7eebb7dc.png",
       "choix": [
         "$\\frac{2}{3}$",
         "$\\frac{3}{4}$",
@@ -653,7 +653,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "2 376 est-il divisible par 4 ? par 9 ?",
-      "image": null,
+      "image": "4eme/premiers/efe7b0c689a4924ec0bcaf231dab7fb0aae56ca7.png",
       "choix": [
         "Divisible par 4 seulement",
         "Divisible par 9 seulement",
@@ -701,7 +701,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Les multiples de 7 entre 14 et 49 (14,21,28,35,42,49) sont-ils premiers ?",
-      "image": null,
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "Oui, ils sont tous premiers",
         "Seulement 49 est premier",
@@ -717,7 +717,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Combien de nombres premiers entre 2 et 20 ?",
-      "image": null,
+      "image": "4eme/premiers/1183f43cedc2e5ff78b7badac155ae1444e82a2b.png",
       "choix": [
         "6",
         "7",
@@ -742,6 +742,22 @@
       ],
       "reponse": "53 et 59",
       "explication": "51=3$\\times$17 (non). 53 : premier ✓. 57=3$\\times$19 (non). 59 : premier ✓."
+    },
+    {
+      "id": "prem4_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le principe du crible d'Ératosthène ?",
+      "image": null,
+      "choix": [
+        "On liste tous les multiples de 2",
+        "On part de 2, on barre ses multiples, puis les multiples du premier non barré, etc.",
+        "On divise tous les nombres par les premiers",
+        "On additionne les chiffres de chaque nombre"
+      ],
+      "reponse": "On part de 2, on barre ses multiples, puis les multiples du premier non barré, etc.",
+      "explication": "On part de 2, on barre ses multiples. Au prochain non barré (3), on barre ses multiples. Etc. Les non-barrés sont les premiers."
     },
     {
       "id": "prem4_n2_008",
@@ -877,7 +893,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Simplifie$\\frac{120}{84}$avec les facteurs premiers. Quel est le résultat ?",
-      "image": null,
+      "image": "4eme/premiers/e2ca488e326024838a5a2117c8699bdb6f825dd1.png",
       "choix": [
         "$\\frac{5}{3}$",
         "$\\frac{8}{7}$",
@@ -893,7 +909,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Simplifie$\\frac{60}{84}$.",
-      "image": null,
+      "image": "4eme/premiers/76ac89e055fa410c194035c66f7f21b5d259ac6a.png",
       "choix": [
         "$\\frac{3}{5}$",
         "$\\frac{4}{7}$",
@@ -928,11 +944,11 @@
       "image": null,
       "choix": [
         "Non,$\\div$3 possible",
-        "Oui, car le plus grand diviseur commun de 15 et 22 est 1",
+        "Oui, PGCD(15,22)=1",
         "Non,$\\div$2 possible",
         "Non,$\\div$5 possible"
       ],
-      "reponse": "Oui, car le plus grand diviseur commun de 15 et 22 est 1",
+      "reponse": "Oui, PGCD(15,22)=1",
       "explication": "15=3$\\times$5, 22=2$\\times$11. Aucun facteur commun → irréductible ✓."
     },
     {
@@ -1109,7 +1125,7 @@
         "3 et 4 : non. 4 et 6 : non."
       ],
       "reponse": "3 et 4 : oui. 4 et 6 : non (PGCD=2).",
-      "explication": " 4 et 3 → premiers entre eux car le seul diviseur commun est 1. 4 et 6 ont deux diviseurs (2 et 1) → pas premiers entre eux."
+      "explication": "Div(3)∩Div(4)={1} → premiers entre eux. Div(4)∩Div(6)={1,2} → PGCD=2$\\neq$1 → pas premiers entre eux."
     },
     {
       "id": "prem4_n3_001",
@@ -1176,6 +1192,22 @@
       "explication": "Soit d le plus petit diviseur de n supérieur à 1. Si d n'était pas premier, d aurait un diviseur d' avec 1<d'<d, qui diviserait aussi n : contradiction. Donc d est premier."
     },
     {
+      "id": "prem4_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Si p premier divise ab (p|ab), alors (lemme d'Euclide) :",
+      "image": null,
+      "choix": [
+        "p|a et p|b obligatoirement",
+        "p|a ou p|b (au moins un)",
+        "p|a seulement",
+        "p|b seulement"
+      ],
+      "reponse": "p|a ou p|b (au moins un)",
+      "explication": "Lemme d'Euclide : si un premier divise un produit, il divise l'un des facteurs."
+    },
+    {
       "id": "prem4_n3_006",
       "niveau": 3,
       "type": "qcm",
@@ -1224,6 +1256,22 @@
       "explication": "2310=2$\\times$3$\\times$5$\\times$7$\\times$11, 2730=2$\\times$3$\\times$5$\\times$7$\\times$13. PGCD=210.$\\frac{2310}{2730}=\\frac{11}{13}$."
     },
     {
+      "id": "prem4_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi (n+1)/n est-elle irréductible pour tout n$\\geq$1 ?",
+      "image": null,
+      "choix": [
+        "Car n+1 et n sont tous les deux premiers",
+        "Car si d|n et d|(n+1), alors d|(n+1-n)=1, donc d=1 → PGCD=1",
+        "Car n+1 est toujours impair",
+        "Car la fraction est supérieure à 1"
+      ],
+      "reponse": "Car si d|n et d|(n+1), alors d|(n+1-n)=1, donc d=1 → PGCD=1",
+      "explication": "Soit d|n et d|(n+1). Alors d|(n+1−n)=1 → d=1. PGCD=1 → irréductible. CQFD."
+    },
+    {
       "id": "prem4_n3_010",
       "niveau": 3,
       "type": "qcm",
@@ -1254,6 +1302,22 @@
       ],
       "reponse": "360",
       "explication": "360 :$\\div$2 (finit par 0) ✓,$\\div$5 (finit par 0) ✓,$\\div$3 (3+6+0=9) ✓."
+    },
+    {
+      "id": "prem4_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien de diviseurs possède$2^{2}\\times$3$\\times5^{2}$?",
+      "image": null,
+      "choix": [
+        "12",
+        "15",
+        "18",
+        "24"
+      ],
+      "reponse": "18",
+      "explication": "(2+1)$\\times$(1+1)$\\times$(2+1)=3$\\times$2$\\times$3=18 diviseurs."
     },
     {
       "id": "prem4_n3_013",
@@ -1304,6 +1368,22 @@
       "explication": "Tout nombre premier >2 est impair."
     },
     {
+      "id": "prem4_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "$2^{5}$−1=31. Est-ce un nombre de Mersenne premier ?",
+      "image": null,
+      "choix": [
+        "Non, car 31 est impair",
+        "Non, car 3+1=4 est multiple de 2",
+        "Oui, 31 est premier (aucun diviseur jusqu'à$\\sqrt{31}\\approx$5,6)",
+        "Non, car 31$\\div$7 est entier"
+      ],
+      "reponse": "Oui, 31 est premier (aucun diviseur jusqu'à$\\sqrt{31}\\approx$5,6)",
+      "explication": "31 impair, 3+1=4 (pas$\\div$3), ne finit pas par$\\frac{0}{5}$, 31$\\div$7$\\approx$4,4.$\\sqrt{31}\\approx$5,6 → testé jusqu'à 5. 31 est premier ✓."
+    },
+    {
       "id": "prem4_n3_017",
       "niveau": 3,
       "type": "qcm",
@@ -1350,6 +1430,22 @@
       ],
       "reponse": "p=30",
       "explication": "$n^{2}$=30p doit être un carré parfait. 30p=2$\\times$3$\\times$5$\\times$p. Pour avoir des exposants pairs : p=2$\\times$3$\\times$5=30.$n^{2}$=900 → n=30."
+    },
+    {
+      "id": "prem4_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pourquoi existe-t-il une infinité de nombres premiers ? (Raisonnement d'Euclide)",
+      "image": null,
+      "choix": [
+        "Car on peut toujours décomposer un nombre en facteurs premiers",
+        "Si on suppose une liste finie de premiers$p_{1}$,...,pₙ, le nombre N=$p_{1}$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
+        "Car la suite des premiers est croissante",
+        "Car tout nombre impair est premier"
+      ],
+      "reponse": "Si on suppose une liste finie de premiers$p_{1}$,...,pₙ, le nombre N=$p_{1}$\\times$...$\\times$pₙ+1 n'est divisible par aucun pᵢ → contradiction",
+      "explication": "Suppose$p_{1}$,...,pₙ tous les premiers. Pose N=$p_{1}$\\times$...$\\times$pₙ+1. N n'est divisible par aucun pᵢ (reste 1). Donc N est premier ou a un facteur premier hors de la liste → contradiction. Il y a une infinité de premiers. CQFD."
     }
   ]
 }
