@@ -77,7 +77,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Quelles sont les deux conditions que doit vérifier (d) pour être la médiatrice de [AA'] ?",
-      "image": null,
+      "image": "4eme/transformations/58752cfbd1b94d6f4fab4497cfd8bb0d08b01a62.png",
       "choix": [
         "(d) est parallèle à [AA'] et H est le milieu de [AA']",
         "(d) est perpendiculaire à [AA'] et H est le milieu de [AA']",
@@ -288,11 +288,11 @@
       "image": null,
       "choix": [
         "Sym. axiale : on tourne autour d'un point. Sym. centrale : on plie le long d'une droite",
-        "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de$180°$autour d'un POINT (centre)",
+        "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de $180°$ autour d'un POINT (centre)",
         "Elles sont identiques",
         "Sym. axiale agrandit la figure, sym. centrale la réduit"
       ],
-      "reponse": "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de$180°$autour d'un POINT (centre)",
+      "reponse": "Sym. axiale : on plie le long d'une DROITE (axe). Sym. centrale : on tourne de $180°$ autour d'un POINT (centre)",
       "explication": "Sym. axiale : pliage le long d'une droite → reflet dans un miroir. Sym. centrale : demi-tour ($180°$) autour d'un point → figure retournée tête en bas."
     },
     {
@@ -337,10 +337,10 @@
       "choix": [
         "Un retournement le long d'une droite",
         "Un demi-tour autour d'un point",
-        "Un glissement sans rotation, défini par une direction, un sens et une longueur",
+        "Un glissement, défini par une direction, un sens et une longueur",
         "Un agrandissement depuis un centre"
       ],
-      "reponse": "Un glissement sans rotation, défini par une direction, un sens et une longueur",
+      "reponse": "Un glissement, défini par une direction, un sens et une longueur",
       "explication": "La translation fait glisser une figure sans la tourner. Elle est définie par une direction, un sens et une longueur (le vecteur de translation)."
     },
     {
@@ -472,22 +472,6 @@
       "explication": "Les droites (BB'), (CC')... sont toutes parallèles à (AA'). C'est la direction de la translation."
     },
     {
-      "id": "trf4_n1_030",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Sur cette figure, identifie chaque transformation à sa représentation.",
-      "image": "4eme/transformations/a6a4dfb7a5fa7ac3c64215e63fab639037f48589.png",
-      "choix": [
-        "Sym. axiale = flèches, Sym. centrale = axe, Translation = point O",
-        "Sym. axiale = axe (d), Sym. centrale = point O (rouge), Translation = flèche orange",
-        "Les trois sont des translations",
-        "Les trois sont des symétries centrales"
-      ],
-      "reponse": "Sym. axiale = axe (d), Sym. centrale = point O (rouge), Translation = flèche orange",
-      "explication": "À gauche : sym. axiale (axe bleu). Au centre : sym. centrale (point O rouge). À droite : translation (flèche orange)."
-    },
-    {
       "id": "trf4_n1_031",
       "niveau": 1,
       "type": "qcm",
@@ -544,11 +528,11 @@
       "image": null,
       "choix": [
         "Identiques et dans le même sens",
-        "Superposables mais retournées (comme un reflet)",
+        "Superposables",
         "De tailles différentes",
         "Jamais superposables"
       ],
-      "reponse": "Superposables mais retournées (comme un reflet)",
+      "reponse": "Superposables",
       "explication": "La figure et son image sont superposables (même forme, même taille) mais retournées comme dans un miroir."
     },
     {
@@ -620,7 +604,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Si l'angle en A dans un triangle vaut$60°$, quelle est la mesure de l'angle en A' après une translation ?",
+      "enonce": "Si l'angle en A dans un triangle vaut $60°$, quelle est la mesure de l'angle en A' après une translation ?",
       "image": null,
       "choix": [
         "$30°$",
@@ -629,7 +613,7 @@
         "$120°$"
       ],
       "reponse": "$60°$",
-      "explication": "La translation conserve les mesures d'angles. L'angle en A' vaut aussi$60°$."
+      "explication": "La translation conserve les mesures d'angles. L'angle en A' vaut aussi $60°$."
     },
     {
       "id": "trf4_n1_040",
@@ -648,27 +632,11 @@
       "explication": "La translation fait glisser la figure sans la retourner ni la faire tourner. La figure garde son orientation."
     },
     {
-      "id": "trf4_n2_001",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Pour construire le symétrique du quadrilatère ABCD par rapport à (d), quelle propriété doivent vérifier les codages des côtés ?",
-      "image": "4eme/transformations/0b02cd3f00d47508a1fd8ab9bf05ae2e8d88d755.png",
-      "choix": [
-        "AB = BC et A'B' = B'C'",
-        "Les côtés de même rang ont le même codage : AB=A'B', BC=B'C', etc.",
-        "Tous les côtés sont égaux",
-        "Les côtés du quadrilatère image sont perpendiculaires à l'axe"
-      ],
-      "reponse": "Les côtés de même rang ont le même codage : AB=A'B', BC=B'C', etc.",
-      "explication": "Pour chaque sommet : tracer la perp. à (d), nommer le pied H, reporter la distance. Codages : côtés de même rang ont le même codage (1,2,3,4 traits)."
-    },
-    {
       "id": "trf4_n2_002",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur la figure de correction du quadrilatère, quelles sont les 4 paires de longueurs égales ?",
+      "enonce": "Sur l'image du quadrilatère ABCD obtenu par symétrie axiale, quelles sont les 4 paires de longueurs égales ?",
       "image": "4eme/transformations/4a6ff58b679cc3ba5f0e2ba209ac9eaf33f80566.png",
       "choix": [
         "AB=BC, BC=CD, CD=DA, DA=AB",
@@ -719,7 +687,7 @@
       "enonce": "Parmi ces figures, lesquelles ont au moins un axe de symétrie ?",
       "image": null,
       "choix": [
-        "Le triangle scalène et le parallélogramme",
+        "Le triangle et le parallélogramme",
         "Le carré, le rectangle et le cercle",
         "Seulement le carré",
         "Toutes les figures ont un axe de symétrie"
@@ -769,7 +737,7 @@
       "choix": [
         "Parce que ses côtés sont égaux",
         "Parce que O est le milieu de [AC] et de [BD] : A et C sont symétriques par rapport à O, et B et D aussi",
-        "Parce que tous ses angles valent$90°$",
+        "Parce que tous ses angles valent $90°$",
         "Parce que ses diagonales sont perpendiculaires"
       ],
       "reponse": "Parce que O est le milieu de [AC] et de [BD] : A et C sont symétriques par rapport à O, et B et D aussi",
@@ -860,7 +828,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un angle de$73°$est conservé par translation. L'image de cet angle mesure :",
+      "enonce": "Un angle de $73°$ est conservé par translation. L'image de cet angle mesure :",
       "image": null,
       "choix": [
         "$17°$",
@@ -869,7 +837,7 @@
         "$146°$"
       ],
       "reponse": "$73°$",
-      "explication": "x =$73°$(conservation des angles par translation)."
+      "explication": "x =$73°$ (conservation des angles par translation)."
     },
     {
       "id": "trf4_n2_015",
@@ -921,7 +889,7 @@
     },
     {
       "id": "trf4_n2_018",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Un point M(3 ; 4) est translaté selon le vecteur de coordonnées (5 ; -2). Quelles sont les coordonnées de M' ?",
@@ -934,22 +902,6 @@
       ],
       "reponse": "M'(8;2)",
       "explication": "M' = (3+5 ; 4+(-2)) = (8 ; 2)."
-    },
-    {
-      "id": "trf4_n2_019",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Pourquoi une symétrie axiale 'retourne' une figure contrairement à une translation ?",
-      "image": null,
-      "choix": [
-        "Parce que la translation déplace plus loin",
-        "Parce que la translation fait glisser sans changer l'orientation ; la symétrie axiale change le sens de lecture ($\\widehat{ABC}$horaire → A'B'C' anti-horaire)",
-        "Parce que la symétrie axiale agrandit",
-        "Il n'y a pas de différence"
-      ],
-      "reponse": "Parce que la translation fait glisser sans changer l'orientation ; la symétrie axiale change le sens de lecture ($\\widehat{ABC}$horaire → A'B'C' anti-horaire)",
-      "explication": "La translation fait glisser sans changer l'orientation. La symétrie axiale retourne la figure : si on lit$\\widehat{ABC}$dans le sens horaire sur la figure originale, on lit A'B'C' dans le sens anti-horaire sur l'image (comme dans un miroir)."
     },
     {
       "id": "trf4_n2_020",
@@ -988,7 +940,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle équilatéral$\\widehat{ABC}$est translaté. Le triangle image A'B'C' est-il aussi équilatéral ?",
+      "enonce": "Un triangle équilatéral ABC est translaté. Le triangle image A'B'C' est-il aussi équilatéral ?",
       "image": null,
       "choix": [
         "Non, il devient isocèle",
@@ -1032,22 +984,6 @@
       "explication": "La symétrie centrale conserve les longueurs et les angles : F1 et F2 ont mêmes côtés et mêmes angles."
     },
     {
-      "id": "trf4_n2_025",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Sur la figure de correction de la translation, quels éléments sont codés et que signifient-ils ?",
-      "image": "4eme/transformations/8a632f2ec101a4ba12d3ac75bda7a32e57451875.png",
-      "choix": [
-        "Les angles droits seulement",
-        "Flèches rouges (codage 1 trait) : AA'=BB'=CC' (même déplacement). Codages verts : AB=A'B' et BC=B'C'",
-        "Seulement les côtés égaux",
-        "Seulement les flèches parallèles"
-      ],
-      "reponse": "Flèches rouges (codage 1 trait) : AA'=BB'=CC' (même déplacement). Codages verts : AB=A'B' et BC=B'C'",
-      "explication": "Flèches rouges (codage 1 trait) : AA'=BB'=CC' (même déplacement). Codages verts : AB=A'B' (2 traits), BC=B'C' (1 trait). La translation conserve les longueurs."
-    },
-    {
       "id": "trf4_n2_026",
       "niveau": 2,
       "type": "qcm",
@@ -1072,11 +1008,11 @@
       "image": "4eme/transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
       "choix": [
         "Que O est le barycentre du triangle",
-        "Que O est le milieu de chaque segment [PP'] : AO=OA', BO=OB', CO=OC'",
+        "Que O est le milieu de chaque segment: AO=OA', BO=OB', CO=OC'",
         "Que les médianes sont tracées",
         "Que les hauteurs sont tracées"
       ],
-      "reponse": "Que O est le milieu de chaque segment [PP'] : AO=OA', BO=OB', CO=OC'",
+      "reponse": "Que O est le milieu de chaque segment: AO=OA', BO=OB', CO=OC'",
       "explication": "Les codages rouges (1 trait sur AO/OA', 2 traits sur BO/OB', 3 traits sur CO/OC') montrent que O est le milieu de chaque segment : AO=OA', BO=OB', CO=OC'."
     },
     {
@@ -1094,22 +1030,6 @@
       ],
       "reponse": "4",
       "explication": "Un carré a 4 axes de symétrie : les 2 médiatrices des côtés et les 2 diagonales."
-    },
-    {
-      "id": "trf4_n2_029",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Dans la figure comparant les 3 transformations, comment reconnaît-on visuellement la symétrie axiale ?",
-      "image": "4eme/transformations/a6a4dfb7a5fa7ac3c64215e63fab639037f48589.png",
-      "choix": [
-        "Par la présence d'une flèche",
-        "Par la présence d'un point O rouge",
-        "Par la présence d'une droite (axe bleu) ; la figure est retournée comme dans un miroir",
-        "Par l'absence de tout marquage"
-      ],
-      "reponse": "Par la présence d'une droite (axe bleu) ; la figure est retournée comme dans un miroir",
-      "explication": "Sym. axiale : présence d'une droite (axe bleu), la figure est retournée comme dans un miroir. Sym. centrale : présence d'un point O rouge. Translation : présence d'une flèche."
     },
     {
       "id": "trf4_n2_030",
@@ -1132,7 +1052,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur la figure de correction de la symétrie axiale du triangle, pourquoi les triangles$\\widehat{ABC}$et A'B'C' sont-ils superposables ?",
+      "enonce": "Sur la figure de correction de la symétrie axiale du triangle, pourquoi les triangles ABC et A'B'C' sont-ils superposables ?",
       "image": "4eme/transformations/c9ba02b79a5e236bfcf6993efad0b4bda2f62fe4.png",
       "choix": [
         "Car leurs périmètres sont égaux seulement",
@@ -1141,14 +1061,14 @@
         "Car ils ont le même nombre de sommets"
       ],
       "reponse": "Car AB=A'B' (2 traits), BC=B'C' (1 trait) et l'angle droit en B est conservé en B' → deux côtés et l'angle compris sont égaux",
-      "explication": "AB=A'B' (2 traits), BC=B'C' (1 trait). L'angle droit en B est conservé en B'. Deux côtés et l'angle compris sont égaux → triangles superposables (congruents). CQFD."
+      "explication": "AB=A'B' (2 traits), BC=B'C' (1 trait). L'angle droit en B est conservé en B'. Deux côtés et l'angle compris sont égaux → triangles superposables (congruents)."
     },
     {
       "id": "trf4_n3_002",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Preuve que les triangles$\\widehat{ABC}$et A'B'C' (par symétrie centrale) ont le même périmètre. Quel raisonnement est correct ?",
+      "enonce": "Preuve que les triangles ABC et A'B'C' (par symétrie centrale) ont le même périmètre. Quel raisonnement est correct ?",
       "image": "4eme/transformations/b29c4b69e925abcc8f7ec135e96d5fea838f49c5.png",
       "choix": [
         "Ils ont le même centre de gravité",
@@ -1157,23 +1077,7 @@
         "Leurs hauteurs sont égales"
       ],
       "reponse": "AB=A'B', BC=B'C' et AC=A'C' (conservation des longueurs) → Périmètre = AB+BC+CA = A'B'+B'C'+C'A'",
-      "explication": "AB=A'B' (2 traits verts), BC=B'C' (1 trait vert), AC=A'C' (conservation des longueurs). Périmètre = AB+BC+CA = A'B'+B'C'+C'A'. CQFD."
-    },
-    {
-      "id": "trf4_n3_003",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "ABCD est un parallélogramme. Comment prouver que A et C sont symétriques par rapport au milieu O des diagonales ?",
-      "image": null,
-      "choix": [
-        "Car les côtés AB et CD sont parallèles",
-        "Car O est l'intersection des diagonales → par définition, O est le milieu de [AC] → AO=OC → A et C sont symétriques par rapport à O",
-        "Car les angles sont égaux",
-        "Car les diagonales sont égales"
-      ],
-      "reponse": "Car O est l'intersection des diagonales → par définition, O est le milieu de [AC] → AO=OC → A et C sont symétriques par rapport à O",
-      "explication": "O est l'intersection des diagonales d'un parallélogramme. Par définition, O est le milieu de [AC] et de [BD]. Donc AO=OC : A et C sont symétriques par rapport à O. CQFD."
+      "explication": "AB=A'B' (2 traits verts), BC=B'C' (1 trait vert), AC=A'C' (conservation des longueurs). Périmètre = AB+BC+CA = A'B'+B'C'+C'A'."
     },
     {
       "id": "trf4_n3_004",
@@ -1205,14 +1109,14 @@
         "Un trapèze"
       ],
       "reponse": "Un parallélogramme (les diagonales se coupent en leur milieu)",
-      "explication": "O milieu de [AC] → A et C symétriques / O. O milieu de [BD] → B et D symétriques / O. Les diagonales se coupent en leur milieu → ABCD est un parallélogramme. CQFD."
+      "explication": "O milieu de [AC] → A et C symétriques / O. O milieu de [BD] → B et D symétriques / O. Les diagonales se coupent en leur milieu → ABCD est un parallélogramme."
     },
     {
       "id": "trf4_n3_006",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle$\\widehat{ABC}$a AB=5, BC=7, CA=6. Après une symétrie axiale puis une translation, quelles sont les longueurs A''B'', B''C'', C''A'' ?",
+      "enonce": "Soit un triangle ABC tel que AB=5, BC=7, CA=6. Après une symétrie axiale puis une translation, quelles sont les longueurs A''B'', B''C'', C''A'' ?",
       "image": null,
       "choix": [
         "5, 7, 6 (inchangées)",
@@ -1225,7 +1129,7 @@
     },
     {
       "id": "trf4_n3_007",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Soit la translation de vecteur AA'. Comment montrer que BB' = AA' ?",
@@ -1237,11 +1141,11 @@
         "Car ABBA' est un carré"
       ],
       "reponse": "Par translation, B → B' avec le même déplacement que A → A' : le vecteur BB' est identique au vecteur AA' → même direction, même sens, même longueur",
-      "explication": "Par translation, B → B' avec le même déplacement que A → A'. Donc le vecteur BB' est identique au vecteur AA' : même direction, même sens, même longueur. BB' ∥ AA' et BB' = AA'. CQFD."
+      "explication": "Par translation, B → B' avec le même déplacement que A → A'. Donc le vecteur BB' est identique au vecteur AA' : même direction, même sens, même longueur. BB' ∥ AA' et BB' = AA'."
     },
     {
       "id": "trf4_n3_008",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Une figure F a un axe de symétrie (d). Quelle transformation appliquée à F donne une figure identique à F ?",
@@ -1269,7 +1173,7 @@
         "Le milieu de OM"
       ],
       "reponse": "M lui-même",
-      "explication": "M → M' (sym. par O). M' → M'' (sym. par O à nouveau). sym(sym(M,O),O) = M. On retrouve M : la symétrie centrale est une involution."
+      "explication": "M → M' (sym. par O). M' → M'' (sym. par O à nouveau). sym(sym(M,O),O) = M."
     },
     {
       "id": "trf4_n3_010",
@@ -1320,22 +1224,6 @@
       "explication": "C(2,6) + vecteur (3,−1) → C'(2+3, 6−1) = C'(5,5)."
     },
     {
-      "id": "trf4_n3_013",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Si A(2,5) a pour symétrique A'(8,5) par rapport à un axe vertical x=k, quelle est la valeur de k ?",
-      "image": null,
-      "choix": [
-        "k=4",
-        "k=5",
-        "k=6",
-        "k=3"
-      ],
-      "reponse": "k=5",
-      "explication": "k = (x_A + x_A')/2 = (2+8)/2 = 5. L'axe est x=5."
-    },
-    {
       "id": "trf4_n3_014",
       "niveau": 3,
       "type": "qcm",
@@ -1369,19 +1257,19 @@
     },
     {
       "id": "trf4_n3_016",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Pourquoi l'image d'un triangle rectangle par symétrie centrale est-elle aussi un triangle rectangle ?",
       "image": null,
       "choix": [
         "Car la symétrie centrale conserve les aires",
-        "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut$90°$, l'angle en B' vaut aussi$90°$",
+        "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut $90°$, l'angle en B' vaut aussi $90°$",
         "Car les côtés restent parallèles",
         "Car les deux triangles ont le même centre de gravité"
       ],
-      "reponse": "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut$90°$, l'angle en B' vaut aussi$90°$",
-      "explication": "La symétrie centrale conserve les mesures d'angles. Si le triangle$\\widehat{ABC}$a un angle droit en B ($90°$), l'angle en B' dans le triangle A'B'C' vaut aussi$90°$. L'image est rectangle. CQFD."
+      "reponse": "Car la symétrie centrale conserve les mesures d'angles : si l'angle en B vaut $90°$, l'angle en B' vaut aussi $90°$",
+      "explication": "La symétrie centrale conserve les mesures d'angles. Si le triangle ABC a un angle droit en B ($90°$), l'angle en B' dans le triangle A'B'C' vaut aussi $90°$. L'image est rectangle."
     },
     {
       "id": "trf4_n3_017",
@@ -1408,12 +1296,12 @@
       "image": null,
       "choix": [
         "La figure est agrandie",
-        "La figure est tournée de$90°$",
-        "On revient à la figure initiale (identité) : A → A' → A",
+        "La figure est tournée de $90°$",
+        "On revient à la figure initiale : A → A' → A",
         "La figure est déplacée parallèlement à (d)"
       ],
-      "reponse": "On revient à la figure initiale (identité) : A → A' → A",
-      "explication": "Soit A → A' par sym. axiale de (d). Puis A' → A'' par la même symétrie. Comme (d) est la médiatrice de [AA'], A''=A. La double symétrie redonne l'identité. CQFD."
+      "reponse": "On revient à la figure initiale : A → A' → A",
+      "explication": "Soit A → A' par sym. axiale de (d). Puis A' → A'' par la même symétrie. Comme (d) est la médiatrice de [AA'], A''=A. La double symétrie redonne l'identité."
     },
     {
       "id": "trf4_n3_019",
@@ -1446,6 +1334,166 @@
       ],
       "reponse": "A''(11,6)",
       "explication": "1) Sym. centrale : A'(2$\\times$5−1, 2$\\times$4−3) = A'(9,5). 2) Translation (2,1) : A''(9+2, 5+1) = A''(11,6)."
+    },
+    {
+      "id": "trf4_n2_031",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du point $N$ par la translation qui transforme $F$ en $G$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "$O$",
+        "$P$",
+        "$M$",
+        "$R$"
+      ],
+      "reponse": "$O$",
+      "explication": "La translation qui transforme $F$ en $G$ applique le vecteur $\\overrightarrow{FG}$ à tous les points. En déplaçant $N$ du même vecteur, on obtient $O$. En effet $\\overrightarrow{NO} = \\overrightarrow{FG}$ dans le pavage."
+    },
+    {
+      "id": "trf4_n2_032",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du point $P$ par la symétrie de centre $J$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "$D$",
+        "$E$",
+        "$I$",
+        "$F$"
+      ],
+      "reponse": "$D$",
+      "explication": "Dans une symétrie centrale de centre $J$, le point $J$ est le milieu du segment $[PP']$ où $P'$ est l'image de $P$. En comptant les pas dans le réseau, $J$ est bien le milieu de $[PD]$, donc l'image de $P$ est $D$."
+    },
+    {
+      "id": "trf4_n2_033",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. La droite $(FN)$ est un axe de symétrie. Parmi les affirmations suivantes, laquelle est vraie ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Le point $J$ est son propre image par la symétrie d'axe $(FN)$",
+        "Le point $I$ est l'image de $K$ par la symétrie d'axe $(FN)$",
+        "Le point $E$ est l'image de $D$ par la symétrie d'axe $(FN)$",
+        "Le point $M$ est l'image de $O$ par la symétrie d'axe $(FN)$"
+      ],
+      "reponse": "Le point $J$ est son propre image par la symétrie d'axe $(FN)$",
+      "explication": "Un point est son propre image par une symétrie axiale si et seulement s'il est situé sur l'axe. Le point $J$ est bien sur la droite $(FN)$ : $\\overrightarrow{FJ} = \\dfrac{1}{2}\\overrightarrow{FN}$, donc $F$, $J$ et $N$ sont alignés. $J$ est donc invariant par la symétrie d'axe $(FN)$."
+    },
+    {
+      "id": "trf4_n2_034",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $MNI$ par la translation qui transforme $E$ en $G$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $OPK$",
+        "Triangle $NPK$",
+        "Triangle $OPJ$",
+        "Triangle $NRO$"
+      ],
+      "reponse": "Triangle $OPK$",
+      "explication": "On applique le vecteur $\\overrightarrow{EG}$ à chaque sommet : $M \\to O$, $N \\to P$, $I \\to K$. L'image du triangle $MNI$ est donc le triangle $OPK$."
+    },
+    {
+      "id": "trf4_n2_035",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $BEF$ par la symétrie de centre $J$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $RON$",
+        "Triangle $QNO$",
+        "Triangle $SON$",
+        "Triangle $RNP$"
+      ],
+      "reponse": "Triangle $RON$",
+      "explication": "Pour chaque sommet, $J$ est le milieu du segment formé avec son image : $B \\to R$, $E \\to O$, $F \\to N$. L'image du triangle $BEF$ est donc le triangle $RON$."
+    },
+    {
+      "id": "trf4_n2_036",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $FCG$ par la translation qui transforme $L$ en $S$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $NJO$",
+        "Triangle $NOR$",
+        "Triangle $MNO$",
+        "Triangle $IJO$"
+      ],
+      "reponse": "Triangle $NJO$",
+      "explication": "On applique le vecteur $\\overrightarrow{LS}$ à chaque sommet : $F \\to N$, $C \\to J$, $G \\to O$. L'image du triangle $FCG$ est donc le triangle $NJO$."
+    },
+    {
+      "id": "trf4_n2_037",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $DIE$ par la symétrie d'axe $(EN)$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $FJE$",
+        "Triangle $FJN$",
+        "Triangle $GKE$",
+        "Triangle $FKN$"
+      ],
+      "reponse": "Triangle $FJE$",
+      "explication": "Par la symétrie d'axe $(EN)$ : $D \\to F$, $I \\to J$, $E \\to E$ (car $E$ est sur l'axe, il est donc invariant). L'image du triangle $DIE$ est le triangle $FJE$."
+    },
+    {
+      "id": "trf4_n2_038",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du triangle $KOP$ par la translation qui transforme $G$ en $A$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Triangle $DHI$",
+        "Triangle $DEH$",
+        "Triangle $EHI$",
+        "Triangle $DEM$"
+      ],
+      "reponse": "Triangle $DHI$",
+      "explication": "On applique le vecteur $\\overrightarrow{GA}$ à chaque sommet : $K \\to D$, $O \\to H$, $P \\to I$. L'image du triangle $KOP$ est donc le triangle $DHI$."
+    },
+    {
+      "id": "trf4_n2_039",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du quadrilatère $FGKJ$ par la translation qui transforme $L$ en $O$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Quadrilatère $IJNM$",
+        "Quadrilatère $IJNO$",
+        "Quadrilatère $HJNM$",
+        "Quadrilatère $IJON$"
+      ],
+      "reponse": "Quadrilatère $IJNM$",
+      "explication": "On applique le vecteur $\\overrightarrow{LO}$ à chaque sommet : $F \\to I$, $G \\to J$, $K \\to N$, $J \\to M$. L'image du quadrilatère $FGKJ$ est donc le quadrilatère $IJNM$."
+    },
+    {
+      "id": "trf4_n2_040",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, les points sont les sommets d'un pavage de triangles équilatéraux. Quelle est l'image du quadrilatère $BFJE$ par la translation qui transforme $J$ en $N$ ?",
+      "image": "4eme/transformations/transformations_figure.png",
+      "choix": [
+        "Quadrilatère $EJNI$",
+        "Quadrilatère $FJNI$",
+        "Quadrilatère $ENIR$",
+        "Quadrilatère $ENOJ$"
+      ],
+      "reponse": "Quadrilatère $EJNI$",
+      "explication": "On applique le vecteur $\\overrightarrow{JN}$ à chaque sommet : $B \\to E$, $F \\to J$, $J \\to N$, $E \\to I$. L'image du quadrilatère $BFJE$ est donc le quadrilatère $EJNI$."
     }
   ]
 }

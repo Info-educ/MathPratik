@@ -16,7 +16,7 @@
       "image": null,
       "choix": ["$-10$", "$+10$", "$+4$", "$-4$"],
       "reponse": "$+10$",
-      "explication": "Deux nombres positifs : on additionne les valeurs absolues et on garde le signe positif. $(+7)+(+3)=+10$."
+      "explication": "Deux nombres positifs : on additionne les distances à zéro et on garde le signe positif. $(+7)+(+3)=+10$."
     },
     {
       "id": "nr4_n1_002",
@@ -27,7 +27,7 @@
       "image": null,
       "choix": ["$-12$", "$+12$", "$-4$", "$+4$"],
       "reponse": "$-12$",
-      "explication": "Deux nombres négatifs : on additionne les valeurs absolues et on garde le signe négatif. $(-8)+(-4)=-12$."
+      "explication": "Deux nombres négatifs : on additionne les distances à zéro et on garde le signe négatif. $(-8)+(-4)=-12$."
     },
     {
       "id": "nr4_n1_003",
@@ -38,7 +38,7 @@
       "image": null,
       "choix": ["$-4$", "$+4$", "$-10$", "$+10$"],
       "reponse": "$+4$",
-      "explication": "Signes contraires : on soustrait les valeurs absolues ($7-3=4$) et on garde le signe du plus grand ($+7$). Résultat : $+4$."
+      "explication": "Signes contraires : on soustrait les distances à zéro ($7-3=4$) et on garde le signe du plus grand ($+7$). Résultat : $+4$."
     },
     {
       "id": "nr4_n1_004",
@@ -49,7 +49,7 @@
       "image": null,
       "choix": ["$+6$", "$-6$", "$+10$", "$-10$"],
       "reponse": "$-6$",
-      "explication": "Signes contraires : on soustrait ($8-2=6$) et on garde le signe de $-8$ (le plus grand en valeur absolue). Résultat : $-6$."
+      "explication": "Signes contraires : on soustrait ($8-2=6$) et on garde le signe de $-8$ (le plus grand en distance à zéro). Résultat : $-6$."
     },
     {
       "id": "nr4_n1_005",
@@ -71,7 +71,7 @@
       "image": null,
       "choix": ["$+2$", "$-2$", "$+10$", "$-10$"],
       "reponse": "$-10$",
-      "explication": "On transforme : $(-4)-(+6)=(-4)+(-6)=-10$. Les deux nombres sont négatifs, on additionne leurs valeurs absolues."
+      "explication": "On transforme : $(-4)-(+6)=(-4)+(-6)=-10$. Les deux nombres sont négatifs, on additionne leurs distances à zéro."
     },
     {
       "id": "nr4_n1_007",
@@ -133,11 +133,11 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Quelle est la valeur absolue de $-7$ ?",
+      "enonce_html": "Quelle est la distance à zéro de $-7$ ?",
       "image": null,
       "choix": ["$-7$", "$7$", "$0$", "$14$"],
       "reponse": "$7$",
-      "explication": "La valeur absolue (distance à zéro) est toujours positive : $|-7|=7$."
+      "explication": "La distance à zéro (distance à zéro) est toujours positive : $|-7|=7$."
     },
     {
       "id": "nr4_n1_013",
@@ -313,7 +313,7 @@
       "image": null,
       "choix": ["$-10$", "$+10$", "$-2$", "$+2$"],
       "reponse": "$-2$",
-      "explication": "$(-6)-(-4)=(-6)+(+4)=-2$. Signes contraires, on soustrait et on garde le signe du plus grand en valeur absolue."
+      "explication": "$(-6)-(-4)=(-6)+(+4)=-2$. Signes contraires, on soustrait et on garde le signe du plus grand en distance à zéro."
     },
     {
       "id": "nr4_n1_029",
@@ -324,7 +324,7 @@
       "image": null,
       "choix": ["$+2$", "$-2$", "$+8$", "$-8$"],
       "reponse": "$-2$",
-      "explication": "Signes contraires : $5-3=2$, on garde le signe de $-5$ (plus grand en valeur absolue). Résultat : $-2$."
+      "explication": "Signes contraires : $5-3=2$, on garde le signe de $-5$ (plus grand en distance à zéro). Résultat : $-2$."
     },
     {
       "id": "nr4_n1_030",
@@ -489,7 +489,7 @@
       "image": "4eme/nombres_relatifs/image5.png",
       "choix": ["Oui, toujours", "Non, jamais", "Oui, si $n$ est négatif", "Oui, si $-1 < n < 1$"],
       "reponse": "Oui, si $-1 < n < 1$",
-      "explication": "PC5 : carré puis soustraire $9$. Résultat $= n^2 - 9$. Ce résultat est négatif quand $n^2 < 9$, c'est-à-dire quand $-3 < n < 3$. Parmi les choix, $-1<n<1$ est la seule réponse correcte proposée (sous-ensemble de $]-3;3[$)."
+      "explication": "PC5 : carré puis soustraire $9$. Résultat $= n^2 - 9$. Ce résultat est négatif quand $n^2 < 9$, c'est-à-dire quand $-3 < n < 3$."
     },
     {
       "id": "nr4_n2_015",
@@ -588,7 +588,7 @@
       "image": "4eme/nombres_relatifs/image10.png",
       "choix": ["$-6$", "$+6$", "$-4$", "$+4$"],
       "reponse": "$+6$",
-      "explication": "PC10 : multiplier par $(-2)$ puis ajouter $8$. Équation : $n\\times(-2)+8=-4 \\Rightarrow -2n=-12 \\Rightarrow n=6$."
+      "explication": "PC10 : On fait le programme à l'envers en partant du résultat : $-4 - (+8) = -12$ puis $-12 \\div (-2) = 6$."
     },
     {
       "id": "nr4_n2_024",
@@ -610,7 +610,7 @@
       "image": "4eme/nombres_relatifs/image3.png",
       "choix": ["$0$", "$6$", "$-6$", "$3$"],
       "reponse": "$6$",
-      "explication": "PC3 : $(n+(-6))\\div(-2)=0 \\Rightarrow n-6=0 \\Rightarrow n=6$."
+      "explication": "PC3 : $0 \times (-2) = 0$ puis $0 - (-6) = 6$"
     },
     {
       "id": "nr4_n2_026",
@@ -819,7 +819,7 @@
       "image": "4eme/nombres_relatifs/image9.png",
       "choix": ["$n=0$", "$n=2$", "$n=-2$", "$n=4$"],
       "reponse": "$n=2$",
-      "explication": "PC9 : $((n-4)\\times 3+6)\\div 4=0 \\Rightarrow (n-4)\\times 3+6=0 \\Rightarrow 3n-12+6=0 \\Rightarrow 3n=6 \\Rightarrow n=2$."
+      "explication": "PC9 : $0 + (-6) = -6$ puis $(-6) \\div 3 = -2$ puis $-2 - (-4) = 2$"
     },
     {
       "id": "nr4_n3_015",
@@ -874,7 +874,7 @@
       "image": "4eme/nombres_relatifs/image15.png",
       "choix": ["Non, le résultat est toujours positif ou nul", "Oui, si $n$ est négatif", "Oui, si $-1 < n < 1$", "Oui, pour tout $n \\neq 0$"],
       "reponse": "Oui, si $-1 < n < 1$",
-      "explication": "PC15 : $n\\times(-2)$, puis carré, puis soustraire $4$. Résultat $=(−2n)^2−4=4n^2−4$. Ce résultat est négatif quand $4n^2<4$, soit $n^2<1$, soit $-1<n<1$."
+      "explication": "PC15 : $n\\times(-2)$, puis carré, puis soustraire $4$. Résultat $=(−2n)^2−4=4n^2−4$. Ce résultat est négatif quand $4n^2<4$, soit $-1 < n < 1$."
     },
     {
       "id": "nr4_n3_020",
@@ -940,7 +940,7 @@
       "image": "4eme/nombres_relatifs/image1.png",
       "choix": ["$n=1$", "$n=2$", "$n=-2$", "$n=3$"],
       "reponse": "$n=2$",
-      "explication": "PC1 : $n\\times(-2)+5=1 \\Rightarrow -2n=-4 \\Rightarrow n=2$. Vérification : $2\\times(-2)+5=-4+5=1$ ✓."
+      "explication": "PC1 : $1 - 5 = -4$ puis $-4 \\div (-2) = 2$"
     },
     {
       "id": "nr4_n3_026",
