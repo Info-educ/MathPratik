@@ -452,7 +452,7 @@
         "Un disque",
         "Un triangle"
       ],
-      "reponse": "Un disque (cercle)",
+      "reponse": "Un disque",
       "explication": "La section d'un cylindre par un plan perpendiculaire à son axe est un disque de même rayon r que les bases."
     },
     {
