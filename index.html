@@ -1480,9 +1480,9 @@
       <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
     <div class="exam-fail-screen">
-      <div class="fail-icon">❌</div>
-      <div class="fail-title">Recommencer !</div>
-      <div class="fail-sub">Une erreur en mode Examen remet tout à zéro.</div>
+      <div class="fail-icon" id="fail-icon">❌</div>
+      <div class="fail-title" id="fail-title">Recommencer !</div>
+      <div class="fail-sub" id="fail-sub">Une erreur en mode Examen remet tout à zéro.</div>
       <div class="fail-q" id="fail-question-preview"></div>
       <div class="fail-actions">
         <button class="btn-primary" style="background:var(--err);color:white;" onclick="retryExam()">
