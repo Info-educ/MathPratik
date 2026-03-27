@@ -1409,9 +1409,23 @@ function checkPin() {
 
 // ── ÉCRAN LISTE DES NOTIONS ──────────────────────────
 
-function showTeacherModule() {
+async function showTeacherModule() {
   showScreen('screen-teacher');
   renderTeacherFilters();
+
+  // Charger les automatismes non encore chargés (chargement à la demande côté élève,
+  // mais l'enseignant a besoin de tous les fichiers pour la liste complète)
+  const autNotions = DB.automatismesNotions || [];
+  const autDB = DB.questions['automatismes'] || {};
+  const toLoad = autNotions.filter(n => !autDB[n.id]);
+  if (toLoad.length > 0) {
+    const container = document.getElementById('teacher-notion-list');
+    if (container) container.innerHTML = '<p style="text-align:center;color:var(--tx3);padding:32px 20px;font-size:0.88rem;">⚡ Chargement des automatismes…</p>';
+    await Promise.all(
+      toLoad.map(n => chargerFichierThematique({ fichier: n.fichier, niveau: 'automatismes' }))
+    );
+  }
+
   renderTeacherNotionList();
 }
 
@@ -1446,13 +1460,14 @@ function renderTeacherNotionList() {
   const statsLine = document.getElementById('teacher-stats-line');
 
   const fichiers = (window._indexData && window._indexData.fichiers) || [];
+  const autNotions = (window._indexData && window._indexData.automatismes_notions) || [];
   const allNotions = [];
 
+  // Notions classiques (6ème, 5ème, 4ème, 3ème)
   fichiers.forEach(f => {
     if (Teacher.filterNiveau !== 'all' && f.niveau !== Teacher.filterNiveau) return;
     const niveauData = DB.questions[f.niveau];
     if (!niveauData) return;
-    // themeId = f.id (ex: pythagore_4eme)
     const data = niveauData[f.id];
     if (!data) return;
     allNotions.push({
@@ -1465,6 +1480,24 @@ function renderTeacherNotionList() {
       questions: data.questions || [],
     });
   });
+
+  // Automatismes
+  if (Teacher.filterNiveau === 'all' || Teacher.filterNiveau === 'automatismes') {
+    const autDB = DB.questions['automatismes'] || {};
+    autNotions.forEach(n => {
+      const data = autDB[n.id];
+      if (!data) return;
+      allNotions.push({
+        id:        n.id,
+        fichier:   n.fichier,
+        niveau:    'automatismes',
+        label:     data.label,
+        icon:      data.icon,
+        color:     data.color || n.color || '#7c3aed',
+        questions: data.questions || [],
+      });
+    });
+  }
 
   const totalQ = allNotions.reduce((s, n) => s + n.questions.length, 0);
   statsLine.textContent = `${allNotions.length} notion${allNotions.length > 1 ? 's' : ''} · ${totalQ} questions`;
@@ -1510,8 +1543,17 @@ function renderTeacherNotionList() {
 // ── LECTEUR DE QUESTIONS ─────────────────────────────
 
 function openTeacherReader(notionId) {
+  // Chercher dans les fichiers classiques
   const fichiers = (window._indexData && window._indexData.fichiers) || [];
-  const f = fichiers.find(x => x.id === notionId);
+  let f = fichiers.find(x => x.id === notionId);
+
+  // Si pas trouvé, chercher dans les automatismes
+  if (!f) {
+    const autNotions = (window._indexData && window._indexData.automatismes_notions) || [];
+    const aut = autNotions.find(x => x.id === notionId);
+    if (aut) f = { id: aut.id, fichier: aut.fichier, niveau: 'automatismes' };
+  }
+
   if (!f) return;
   const niveauData = DB.questions[f.niveau];
   if (!niveauData) return;
