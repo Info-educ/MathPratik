@@ -151,6 +151,21 @@
     }
 
     /* ═══════════════════════════════════════════════════
+       PROTECTION CONTENU — copie, sélection, screenshot
+    ═══════════════════════════════════════════════════ */
+    *, *::before, *::after {
+      -webkit-user-select: none !important;
+      -moz-user-select: none !important;
+      -ms-user-select: none !important;
+      user-select: none !important;
+    }
+    img {
+      -webkit-user-drag: none;
+      user-drag: none;
+      pointer-events: none;
+    }
+
+    /* ═══════════════════════════════════════════════════
        ANIMATIONS
     ═══════════════════════════════════════════════════ */
     @keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
@@ -1711,6 +1726,43 @@
   </div>
 
 </div>
+
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   PROTECTION CONTENU — MathPratik
+   Bloque : copie, couper, clic droit, glisser-déposer, screenshots clavier
+═══════════════════════════════════════════════════════════════ */
+(function() {
+  // Clic droit désactivé
+  document.addEventListener('contextmenu', function(e) { e.preventDefault(); }, true);
+
+  // Copier / Couper désactivés
+  document.addEventListener('copy',  function(e) { e.preventDefault(); }, true);
+  document.addEventListener('cut',   function(e) { e.preventDefault(); }, true);
+
+  // Glisser-déposer (images) désactivé
+  document.addEventListener('dragstart', function(e) { e.preventDefault(); }, true);
+
+  // Raccourcis clavier bloqués :
+  // Ctrl/Cmd + C, X, A, S, P, Shift+S, Shift+3, Shift+4
+  // PrintScreen (key = 'PrintScreen')
+  document.addEventListener('keydown', function(e) {
+    var k = e.key ? e.key.toLowerCase() : '';
+    var ctrl = e.ctrlKey || e.metaKey;
+
+    // PrintScreen
+    if (e.key === 'PrintScreen') { e.preventDefault(); return; }
+
+    // Ctrl/Cmd combos : C (copy), X (cut), A (select all), S (save/screenshot macOS), P (print)
+    if (ctrl && ['c','x','a','s','p'].includes(k)) { e.preventDefault(); return; }
+
+    // Ctrl/Cmd + Shift + S (screenshot Windows Snipping)
+    // Ctrl/Cmd + Shift + 3 / 4 (macOS screenshots)
+    if (ctrl && e.shiftKey && ['s','3','4'].includes(k)) { e.preventDefault(); return; }
+  }, true);
+})();
+</script>
 
 </body>
 </html>
