@@ -28,7 +28,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle ABC, $\\widehat{ABC}$=$50°$ et $\\widehat{BAC}$=$35°$. Que vaut $\\widehat{ACB}$?",
+      "enonce": "Dans le triangle ABC,$\\widehat{ABC}$=$50°$et$\\widehat{BAC}$=$35°$. Que vaut$\\widehat{ACB}$?",
       "image": "4eme/triangles/7230290a10e2fb630c96f25da76977bc077fa2a5.png",
       "choix": [
         "$80°$",
@@ -76,7 +76,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle a deux angles égaux à $55°$. Le troisième angle mesure :",
+      "enonce": "Un triangle a deux angles égaux à$55°$. Le troisième angle mesure :",
       "image": null,
       "choix": [
         "$55°$",
@@ -92,7 +92,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle a les angles $30°$,$90°$et x°. Quelle est la valeur de x ?",
+      "enonce": "Un triangle a les angles$30°$,$90°$et x°. Quelle est la valeur de x ?",
       "image": null,
       "choix": [
         "$30°$",
@@ -112,12 +112,28 @@
       "image": null,
       "choix": [
         "Oui",
-        "Non, car $90°$+$90°=180°$et il resterait $0°$pour le 3e",
+        "Non, car$90°$+$90°=180°$et il resterait$0°$pour le 3e",
         "Oui si c'est un triangle rectangle",
         "Oui si c'est un triangle isocèle"
       ],
-      "reponse": "Non, car $90°$+$90°=180°$et il resterait $0°$pour le 3e",
+      "reponse": "Non, car$90°$+$90°=180°$et il resterait$0°$pour le 3e",
       "explication": "$90°$+$90°=180°$, il ne resterait rien pour le 3e angle : impossible."
+    },
+    {
+      "id": "tri4_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un triangle ABC a A = 2$\\times$B et C = 3$\\times$B. L'angle B mesure :",
+      "image": null,
+      "choix": [
+        "$20°$",
+        "$25°$",
+        "$30°$",
+        "$36°$"
+      ],
+      "reponse": "$30°$",
+      "explication": "2B + B + 3B = 6B =$180°$→ B =$30°$. Donc A =$60°$, C =$90°$."
     },
     {
       "id": "tri4_n1_009",
@@ -133,7 +149,7 @@
         "Ce sont des arêtes cachées"
       ],
       "reponse": "Les trois côtés sont égaux (même codage = même longueur)",
-      "explication": "Le codage identique (1 tiret rouge) sur chaque côté signifie AB = BC = CA."
+      "explication": "Le codage identique (1 tick rouge) sur chaque côté signifie AB = BC = CA."
     },
     {
       "id": "tri4_n1_010",
@@ -149,23 +165,39 @@
         "$120°$"
       ],
       "reponse": "$60°$",
-      "explication": "Dans un triangle équilatéral, chaque angle mesure $60°$($180°\\div$3)."
+      "explication": "Dans un triangle équilatéral, chaque angle mesure$60°$($180°\\div$3)."
     },
     {
       "id": "tri4_n1_011",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Pourquoi les angles d'un triangle équilatéral mesurent-ils tous $60°$?",
+      "enonce": "Pourquoi les angles d'un triangle équilatéral mesurent-ils tous$60°$?",
       "image": null,
       "choix": [
         "C'est une convention",
-        "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est $180°$ donc chacun = $60°$",
+        "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est$180°$donc chacun =$60°$",
         "Un triangle equilatéral est toujours rectangle",
-        "La somme fait $270°$ pour un équilatéral"
+        "La somme fait$270°$pour un équilatéral"
       ],
-      "reponse": "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est $180°$ donc chacun = $60°$",
-      "explication": "Dans un triangle équilatéral : AB=BC=CA → angles égaux →$180°\\div$3 = $60°$ chacun."
+      "reponse": "Les 3 côtés sont égaux donc les 3 angles sont égaux, leur somme est$180°$donc chacun =$60°$",
+      "explication": "Dans un triangle équilatéral : AB=BC=CA → angles égaux →$180°\\div$3 =$60°$chacun."
+    },
+    {
+      "id": "tri4_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Dans le triangle équilatéral XYZ, quelle est la valeur de X + Z ?",
+      "image": "4eme/triangles/ef8527aabcda8743fb10467aa57a91910e31be9c.png",
+      "choix": [
+        "$60°$",
+        "$90°$",
+        "$120°$",
+        "$180°$"
+      ],
+      "reponse": "$120°$",
+      "explication": "Chaque angle vaut$60°$. X + Z =$60°$+$60°$=$120°$."
     },
     {
       "id": "tri4_n1_013",
@@ -181,7 +213,7 @@
         "Les trois côtés sont égaux"
       ],
       "reponse": "FD = FE : les deux côtés issus de F sont égaux",
-      "explication": "Le double tiret sur FD et FE indique FD = FE. F est le sommet principal."
+      "explication": "Le double tick sur FD et FE indique FD = FE. F est le sommet principal."
     },
     {
       "id": "tri4_n1_014",
@@ -208,11 +240,11 @@
       "image": "4eme/triangles/23064b88dddf029b6d9dc94e8d32f521b73fc22e.png",
       "choix": [
         "Les angles sont droits",
-        "Les angles $\\widehat{FDE}$ et $\\widehat{FED}$ ont la même mesure",
+        "Les angles$\\widehat{FDE}$et$\\widehat{FED}$ont la même mesure",
         "Les angles sont au sommet",
         "Les angles mesurent$90°$"
       ],
-      "reponse": "Les angles $\\widehat{FDE}$ et $\\widehat{FED}$ ont la même mesure",
+      "reponse": "Les angles$\\widehat{FDE}$et$\\widehat{FED}$ont la même mesure",
       "explication": "Même codage (arc orange) sur D et E →$\\widehat{FDE}$=$\\widehat{FED}$."
     },
     {
@@ -252,7 +284,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Dans le triangle isocèle ABC,$\\widehat{BAC}$=$44°$. Que valent $\\widehat{ABC}$ et$\\widehat{ACB}$?",
+      "enonce": "Dans le triangle isocèle ABC (AB = AC),$\\widehat{BAC}$=$44°$. Que valent $\\widehat{ABC}$ et$\\widehat{ACB}$?",
       "image": "4eme/triangles/879a75bd46649b17e2bdf20dd07dfe703c3f9492.png",
       "choix": [
         "$44°$chacun",
@@ -287,8 +319,8 @@
       "enonce": "Deux droites parallèles coupées par une sécante forment des angles alternes-internes qui sont :",
       "image": null,
       "choix": [
-        "Supplémentaires",
-        "Complémentaires",
+        "Supplémentaires (somme$180°$)",
+        "Complémentaires (somme$90°$)",
         "Égaux",
         "Différents"
       ],
@@ -326,6 +358,22 @@
       ],
       "reponse": "(AB) et (CD) sont parallèles",
       "explication": "Les angles alternes-internes sont égaux (41,$97°$= 41,$97°$). Donc d'après la réciproque, (AB) // (CD)."
+    },
+    {
+      "id": "tri4_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Sur la figure des alternes-internes, que représente le même codage d'arc sur les deux angles ?",
+      "image": "4eme/triangles/3814efbb25e40accacddf3bf45ea8238811e0a72.png",
+      "choix": [
+        "Les angles sont droits",
+        "Les angles sont supplémentaires",
+        "Les angles sont égaux (même mesure)",
+        "Les angles sont adjacents"
+      ],
+      "reponse": "Les angles sont égaux (même mesure)",
+      "explication": "Le codage identique (même arc) indique des angles de même mesure."
     },
     {
       "id": "tri4_n1_024",
@@ -393,7 +441,7 @@
     },
     {
       "id": "tri4_n1_028",
-      "niveau": 2,
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "$\\widehat{BAC}$= 3x,$\\widehat{ABC}$= 2x,$\\widehat{ACB}$= x. Quelle est la valeur de x ?",
@@ -412,7 +460,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle rectangle a un angle de $30°$. Quel est le 3e angle ?",
+      "enonce": "Un triangle rectangle a un angle de$30°$. Quel est le 3e angle ?",
       "image": null,
       "choix": [
         "$30°$",
@@ -425,10 +473,10 @@
     },
     {
       "id": "tri4_n1_030",
-      "niveau": 2,
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle a $\\widehat{BAC}$=2$\\times\\widehat{ABC}$ et $\\widehat{ACB}$=$\\widehat{ABC}$+$20°$. L'$\\widehat{ABC}$ mesure :",
+      "enonce": "Un triangle a$\\widehat{BAC}$= 2$\\times\\widehat{ABC}$et$\\widehat{ACB}$=$\\widehat{ABC}$+$20°$. L'$\\widehat{ABC}$mesure :",
       "image": null,
       "choix": [
         "$30°$",
@@ -437,14 +485,14 @@
         "$50°$"
       ],
       "reponse": "$40°$",
-      "explication": "2x + x + x +$20°$=$180°$→ 4x =$160°$→ x =$40°$. $\\widehat{BAC}$=$80°$, $\\widehat{ACB}$ = $60°$."
+      "explication": "2x + x + x +$20°$=$180°$→ 4x =$160°$→ x =$40°$.$\\widehat{BAC}$=$80°$,$\\widehat{ACB}$=$60°$."
     },
     {
       "id": "tri4_n1_031",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Les droites (d1) et (d2) sont coupées par (d3). Si les alternes-internes mesurent $75°$ chacun, alors :",
+      "enonce": "Les droites (d1) et (d2) sont coupées par (d3). Si les alternes-internes mesurent$75°$chacun, alors :",
       "image": null,
       "choix": [
         "(d1) et (d2) sont perpendiculaires",
@@ -476,7 +524,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Un triangle isocèle a un angle au sommet de $80°$. Les angles de base mesurent :",
+      "enonce": "Un triangle isocèle a un angle au sommet de$80°$. Les angles de base mesurent :",
       "image": null,
       "choix": [
         "$80°$chacun",
