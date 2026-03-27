@@ -1189,7 +1189,7 @@
         "Les triangles ne sont pas égaux dans un parallélogramme"
       ],
       "reponse":          "CCC",
-      "explication":      "$AB = CD$, $BC = DA$ (côtés opposés du parallélogramme), $AC = CA$ (diagonale commune). CCC → $\\widehat{ABC}$ \\cong $\\widehat{CDA}$."
+      "explication":      "$AB = CD$, $BC = DA$ (côtés opposés du parallélogramme), $AC = CA$ (diagonale commune). CCC → $\\widehat{ABC} \\cong \\widehat{CDA}$."
     },
     {
       "id":               "te4_n3_015",
