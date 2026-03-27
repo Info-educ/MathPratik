@@ -1693,3 +1693,65 @@ function readerJump() {
   }
 }
 
+// ══════════════════════════════════════════════════════
+//  PROTECTION ANTI-TRICHE — Arrière-plan mobile
+//  Si l'élève quitte l'appli pendant une session quiz
+//  (autre app, écran d'accueil, notification…),
+//  la session est immédiatement remise à zéro.
+// ══════════════════════════════════════════════════════
+(function () {
+  function isQuizActive() {
+    // La session est active si l'écran quiz est visible ET qu'il reste des questions
+    const quizScreen = document.getElementById('screen-quiz');
+    if (!quizScreen) return false;
+    if (!quizScreen.classList.contains('active')) return false;
+    // Ne pas sanctionner si la session est déjà terminée (dernière question répondue)
+    if (State.currentQIndex >= (State.quizQuestions.length - 1) && State.answered) return false;
+    return true;
+  }
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden && isQuizActive()) {
+      // Mettre à jour le titre/sous-titre de l'écran d'échec
+      const iconEl  = document.getElementById('fail-icon');
+      const titleEl = document.getElementById('fail-title');
+      const subEl   = document.getElementById('fail-sub');
+      if (iconEl)  iconEl.textContent  = '📵';
+      if (titleEl) titleEl.textContent = 'Session annulée !';
+      if (subEl)   subEl.textContent   = 'Tu as quitté l\'appli pendant la session. Tout repart à zéro.';
+
+      const previewEl = document.getElementById('fail-question-preview');
+      if (previewEl) {
+        const q = State.quizQuestions[State.currentQIndex];
+        const texte = q
+          ? (q.enonce
+              ? q.enonce.substring(0, 80)
+              : (q.enonce_html
+                  ? q.enonce_html.replace(/<[^>]*>/g, '').substring(0, 80)
+                  : '—'))
+          : '—';
+        setMathText(previewEl, `Session interrompue à la question ${State.currentQIndex + 1} : ${texte}…`);
+      }
+
+      // Réinitialiser l'état de session
+      State.answered       = false;
+      State.currentQIndex  = 0;
+      State.sessionCorrect = 0;
+      State.sessionResults = [];
+
+      showScreen('screen-exam-fail');
+    }
+
+    // Quand l'élève revient dans l'appli, remettre les textes par défaut
+    // pour ne pas perturber un futur échec classique
+    if (!document.hidden) {
+      const iconEl  = document.getElementById('fail-icon');
+      const titleEl = document.getElementById('fail-title');
+      const subEl   = document.getElementById('fail-sub');
+      if (iconEl  && iconEl.textContent  === '📵') iconEl.textContent  = '❌';
+      if (titleEl && titleEl.textContent === 'Session annulée !') titleEl.textContent = 'Recommencer !';
+      if (subEl   && subEl.textContent.startsWith('Tu as quitté')) subEl.textContent = 'Une erreur en mode Examen remet tout à zéro.';
+    }
+  });
+})();
+
