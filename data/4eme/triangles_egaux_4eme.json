@@ -1180,7 +1180,7 @@
       "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "$ABCD$ est un parallélogramme. Quel critère prouve que $ABC$ et $CDA$ sont égaux ?",
+      "enonce_html":      "$ABCD$ est un parallélogramme. Quel critère prouve que $\\widehat{ACB}$ et $\\widehat{CDA}$ sont égaux ?",
       "image":            null,
       "choix":            [
         "CAC",
