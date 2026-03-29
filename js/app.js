@@ -1937,10 +1937,24 @@ function dmShowIdentity() {
     document.getElementById('dm-start-btn').disabled = false;
   }
 
-  // Vider les champs
-  ['dm-prenom','dm-nom','dm-classe'].forEach(id => {
-    document.getElementById(id).value = '';
-  });
+  // Vider prénom et nom, pré-remplir et verrouiller la classe
+  document.getElementById('dm-prenom').value = '';
+  document.getElementById('dm-nom').value = '';
+
+  const classeInput = document.getElementById('dm-classe');
+  if (d.className) {
+    classeInput.value    = d.className;
+    classeInput.readOnly = true;
+    classeInput.style.opacity    = '0.65';
+    classeInput.style.cursor     = 'not-allowed';
+    classeInput.style.background = 'var(--subtle)';
+  } else {
+    classeInput.value    = '';
+    classeInput.readOnly = false;
+    classeInput.style.opacity    = '';
+    classeInput.style.cursor     = '';
+    classeInput.style.background = '';
+  }
 
   showScreen('screen-dm-identity');
 }
@@ -2413,8 +2427,15 @@ function dmResultsRender(idx, devoirs, allResults) {
   }
 
   const scores = results.map(r => {
+    // Essayer d'abord le champ pourcentage directement
+    const pctStr = (r.pourcentage || '').replace('%', '').trim();
+    const pctDirect = parseFloat(pctStr);
+    if (!isNaN(pctDirect) && pctDirect > 0) return Math.round(pctDirect);
+    // Fallback : calculer depuis score "X/Y"
     const parts = (r.score || '0/0').split('/');
-    return parts[1] > 0 ? Math.round(parts[0] / parts[1] * 100) : 0;
+    const num = parseFloat(parts[0]);
+    const den = parseFloat(parts[1]);
+    return (den > 0 && !isNaN(num) && !isNaN(den)) ? Math.round(num / den * 100) : 0;
   });
   const avg = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
   statsRow.innerHTML = [
