@@ -319,13 +319,13 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Sur cet histogramme des tailles de saumons, quelle classe a l'effectif le plus grand ?",
+      "enonce": "Sur cet histogramme des tailles de saumons, quelle taille a l'effectif le plus grand ?",
       "image": "4eme/stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
       "choix": [
-        "[50;54[",
-        "[54;58[",
-        "[58;62[",
-        "[62;66["
+        "50",
+        "54",
+        "58",
+        "62"
       ],
       "reponse": "[54;58[",
       "explication": "La classe [54;58[ avec effectif 116 a le rectangle le plus haut."
@@ -361,8 +361,8 @@
         "Natation et Tennis",
         "Football et Basketball"
       ],
-      "reponse": "Football et Natation",
-      "explication": "Football (35%) et Natation (18%) sont les deux plus pratiquées selon le diagramme."
+      "reponse": "Football et Basketball",
+      "explication": "Football (35%) et Basketball (21%) sont les deux plus pratiquées selon le diagramme."
     },
     {
       "id": "s4_n1_022",
@@ -659,7 +659,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "La somme des angles d'un diagramme circulaire est$360°$. Si une catégorie représente 25%, quel est son angle ?",
+      "enonce": "La somme des angles d'un diagramme circulaire est $360°$. Si une catégorie représente 25%, quel est son angle ?",
       "image": null,
       "choix": [
         "$25°$",
@@ -727,7 +727,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Complète ce tableau (effectifs cumulés) puis calcule la moyenne (arrondie au dixième).",
+      "enonce": "Calcule la moyenne (arrondie au dixième).",
       "image": "4eme/stats/da355d36fa9aa7d21079b8fb8286c0dd6b621e9a.png",
       "choix": [
         "10,8",
@@ -778,16 +778,16 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Sur cet histogramme, quelle est la classe modale (la plus fréquente) et quel est l'effectif total ?",
+      "enonce": "Sur cet histogramme, quelle est la taille la plus fréquente et quel est l'effectif total ?",
       "image": "4eme/stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
       "choix": [
-        "[50;54[ — 270",
-        "[54;58[ — 270",
-        "[58;62[ — 270",
-        "[54;58[ — 250"
+        "50 — 270",
+        "54 — 270",
+        "58 — 250",
+        "54 — 250"
       ],
-      "reponse": "[54;58[ — 270",
-      "explication": "Classe modale : [54;58[ avec effectif 116. Total : 46+116+82+10+6+10 = 270."
+      "reponse": "54 — 270",
+      "explication": "Taille : 54 avec effectif 116. Total : 46+116+82+10+6+10 = 270."
     },
     {
       "id": "s4_n2_004",
@@ -812,7 +812,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce": "Sur ce diagramme circulaire des espèces animales, calcule l'angle correspondant aux Arthropodes (57%). Ce secteur est-il supérieur à un demi-disque ?",
+      "enonce": "Sur ce aire des espèces animales, calcule l'angle correspondant aux Arthropodes (57%). Ce secteur est-il supérieur à un demi-disque ?",
       "image": "4eme/stats/0abed5621a2d848108ac269cc60d92ff2878c44f.png",
       "choix": [
         "175,$2°$— Non",
@@ -1506,7 +1506,7 @@
     {
       "id": "s4_n3_007",
       "module": "statistiques",
-      "niveau": 3,
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "À partir du diagramme circulaire des espèces, quel est l'angle total si on additionne les 4 secteurs (Chordés 5%, Arthropodes 57%, Mollusques 6%, Autres 32%) ?",
@@ -1676,7 +1676,7 @@
     {
       "id": "s4_n3_016",
       "module": "statistiques",
-      "niveau": 3,
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans un histogramme où les classes ont la même amplitude, à quoi correspond la hauteur de chaque rectangle ?",
@@ -1693,7 +1693,7 @@
     {
       "id": "s4_n3_017",
       "module": "statistiques",
-      "niveau": 3,
+      "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce": "Salaires de 5 employés : 1800, 2200, 1950, 3500, 2100. Quelle est la moyenne ?",
@@ -1710,7 +1710,7 @@
     {
       "id": "s4_n3_017b",
       "module": "statistiques",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Salaires de 5 employés (ordonnés) : 1800, 1950, 2100, 2200, 3500. Quel indicateur représente le mieux le 'salaire typique' ?",
@@ -1727,7 +1727,7 @@
     {
       "id": "s4_n3_018",
       "module": "statistiques",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Classe A : moyenne 13, étendue 8. Classe B : moyenne 13, étendue 4. Laquelle est la plus homogène ?",
@@ -1740,40 +1740,6 @@
       ],
       "reponse": "Classe B car étendue plus faible",
       "explication": "Classe B : même moyenne mais étendue plus faible → les notes sont plus regroupées → plus homogène."
-    },
-    {
-      "id": "s4_n3_019",
-      "module": "statistiques",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Une série de 10 valeurs a une médiane de 8. On ajoute la valeur 100. Que se passe-t-il pour la médiane ?",
-      "image": null,
-      "choix": [
-        "Elle reste 8",
-        "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$8)",
-        "Elle devient 100",
-        "Elle devient (8+100)/2 = 54"
-      ],
-      "reponse": "Elle devient la 6e valeur de la nouvelle série ordonnée ($\\geq$8)",
-      "explication": "Avec 11 valeurs, médiane = 6e valeur. La valeur 100 est au-dessus → la nouvelle médiane est la 6e valeur de la série ordonnée, qui est$\\geq$8."
-    },
-    {
-      "id": "s4_n3_020",
-      "module": "statistiques",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Une série a 20 valeurs, moyenne 15, médiane 13, étendue 22. La plus petite valeur est 4. Que vaut la plus grande ? Que peut-on déduire sur la distribution ?",
-      "image": null,
-      "choix": [
-        "26 — distribution symétrique",
-        "26 — distribution asymétrique vers le haut (moyenne > médiane)",
-        "22 — distribution symétrique",
-        "22 — distribution asymétrique"
-      ],
-      "reponse": "26 — distribution asymétrique vers le haut (moyenne > médiane)",
-      "explication": "Plus grande = 4 + 22 = 26. Moyenne (15) > médiane (13) → distribution asymétrique vers le haut : quelques grandes valeurs tirent la moyenne."
     }
   ]
 }

@@ -1180,7 +1180,7 @@ function buildCalculatrice() {
       <button class="calc-btn calc-fn" onclick="calcAction('sqrt')">√</button>
       <button class="calc-btn calc-fn" onclick="calcAction('sq')">x²</button>
       <button class="calc-btn calc-fn" onclick="calcAction('pow')">xⁿ</button>
-      <button class="calc-btn calc-op" onclick="calcAction('+')">+</button>
+      <button class="calc-btn calc-op" onclick="calcAction('/')">÷</button>
 
       <button class="calc-btn" onclick="calcAction('7')">7</button>
       <button class="calc-btn" onclick="calcAction('8')">8</button>
@@ -1195,7 +1195,7 @@ function buildCalculatrice() {
       <button class="calc-btn" onclick="calcAction('1')">1</button>
       <button class="calc-btn" onclick="calcAction('2')">2</button>
       <button class="calc-btn" onclick="calcAction('3')">3</button>
-      <button class="calc-btn calc-op" onclick="calcAction('/')">÷</button>
+      <button class="calc-btn calc-op" onclick="calcAction('+')">+</button>
 
       <button class="calc-btn calc-zero" onclick="calcAction('0')">0</button>
       <button class="calc-btn" onclick="calcAction('.')">.</button>
@@ -1219,9 +1219,14 @@ function prettifyExpr(expr) {
   s = s.replace(/Math\.sqrt\(([^)]*)\)/g, (_, i) => '√' + (i ? i : ''));
   s = s.replace(/Math\.sqrt\(([^)]*)$/g,  (_, i) => '√' + (i ? i : ''));
   // (base)**exp  →  base exposant Unicode (exposant complet)
-  s = s.replace(/\(([^()]+)\)\*\*(-?[\d.]+)/g, (_, base, exp) => base + toSup(exp));
+  // Boucle pour gérer les exposants chaînés
+  let prev;
+  do {
+    prev = s;
+    s = s.replace(/\(([^()]*)\)\*\*(-?[\d.]+)/g, (_, base, exp) => base + toSup(exp));
+  } while (s !== prev);
   // (base)**  en cours de saisie → base^
-  s = s.replace(/\(([^()]+)\)\*\*$/g, (_, base) => base + '^');
+  s = s.replace(/\(([^()]*)\)\*\*$/g, (_, base) => base + '^');
   // Supprimer parenthèses autour d'un nombre simple isolé : (25) → 25
   s = s.replace(/\((\d+(?:\.\d+)?)\)(?!\*\*)/g, '$1');
   return s;

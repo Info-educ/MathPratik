@@ -248,22 +248,6 @@
       "explication": "z=0 signifie que le point est sur le plan de base (hauteur nulle), donc sur la base inférieure du pavé."
     },
     {
-      "id": "sol4_n1_018",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Dans un pavé ABCDEFGH (D à l'origine), le sommet F a les coordonnées (l;L;h). Quelles sont les coordonnées de A si le pavé a pour dimensions l=4, L=3, h=3 ?",
-      "image": "4eme/solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
-      "choix": [
-        "A(4;3;3)",
-        "A(4;0;0)",
-        "A(0;3;0)",
-        "A(0;0;3)"
-      ],
-      "reponse": "A(4;0;0)",
-      "explication": "A est sur l'axe x uniquement, donc A(l;0;0) = A(4;0;0)."
-    },
-    {
       "id": "sol4_n1_019",
       "niveau": 1,
       "type": "qcm",
@@ -568,22 +552,6 @@
       "explication": "Un cube (pavé droit) possède 8 sommets."
     },
     {
-      "id": "sol4_n1_039",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce": "Dans ce pavé 4$\\times$3$\\times$3, D est à l'origine. Quelles sont les coordonnées de C ?",
-      "image": "4eme/solides/36262e7270c089c56f13655e61a0da17de7b88f1.png",
-      "choix": [
-        "C(4;3;0)",
-        "C(0;0;3)",
-        "C(0;3;0)",
-        "C(4;0;0)"
-      ],
-      "reponse": "C(0;3;0)",
-      "explication": "C est sur l'axe y uniquement, donc C(0;L;0) = C(0;3;0)."
-    },
-    {
       "id": "sol4_n1_040",
       "niveau": 1,
       "type": "qcm",
@@ -614,22 +582,6 @@
       ],
       "reponse": "(2;1,5;1,5)",
       "explication": "D(0;0;0) et F(4;3;3). Milieu = ((0+4)/2 ; (0+3)/2 ; (0+3)/2) = (2 ; 1,5 ; 1,5)."
-    },
-    {
-      "id": "sol4_n2_003",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Dans un pavé de dimensions 5$\\times$4$\\times$3 cm, quelle est la longueur de la diagonale DF ?",
-      "image": null,
-      "choix": [
-        "$\\sqrt{29}\\approx$5,39 cm",
-        "$\\sqrt{50}$= 5$\\sqrt{2}\\approx$7,07 cm",
-        "12 cm",
-        "$\\sqrt{41}\\approx$6,40 cm"
-      ],
-      "reponse": "$\\sqrt{50}$= 5$\\sqrt{2}\\approx$7,07 cm",
-      "explication": "$D$F^{2} =$5^{2}$+$4^{2}$+$3^{2}$= 25+16+9 = 50. DF =$\\sqrt{50}$= 5$\\sqrt{2}\\approx$7,07 cm."
     },
     {
       "id": "sol4_n2_004",
@@ -709,7 +661,7 @@
         "100 cm"
       ],
       "reponse": "10 cm",
-      "explication": "$d^{2}$=$6^{2}$+$8^{2}$= 36+64 = 100. d = 10 cm."
+      "explication": " on utilise le théorème de Pythagore $d^{2}$=$6^{2}$+$8^{2}$= 36+64 = 100. d = 10 cm."
     },
     {
       "id": "sol4_n2_009",
@@ -1049,23 +1001,23 @@
     },
     {
       "id": "sol4_n3_011",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Dans une sphère de rayon R, quelle est la section de plus grande surface possible ?",
       "image": null,
       "choix": [
         "Un disque de rayon R/2",
-        "Un grand cercle de rayon R passant par le centre",
+        "Un disque de rayon R passant par le centre",
         "Un rectangle",
         "Un disque de rayon 2R"
       ],
-      "reponse": "Un grand cercle de rayon R passant par le centre",
+      "reponse": "Un disque de rayon R passant par le centre",
       "explication": "La section maximale d'une sphère est un grand cercle (plan équatorial) de rayon R passant par le centre O."
     },
     {
       "id": "sol4_n3_013",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "Justification de V_pyramide =$\\frac{1}{3}\\times$aire_base$\\times$hauteur : un prisme peut être décomposé en combien de pyramides de volumes égaux ?",
@@ -1103,13 +1055,13 @@
       "enonce_html": "Dans le pavé droit ci-contre, quelles sont les coordonnées du point $J$ ?",
       "image": "4eme/solides/reperage_img1_image1.png",
       "choix": [
-        "$(1\\,;\\,1\\,;\\,0)$",
+        "$(0\\,;\\,2\\,;\\,0)$",
         "$(0\\,;\\,1\\,;\\,1)$",
         "$(2\\,;\\,0\\,;\\,0)$",
         "$(1\\,;\\,0\\,;\\,1)$"
       ],
-      "reponse": "$(1\\,;\\,1\\,;\\,0)$",
-      "explication": "Le point $J$ se lit directement dans le repère du pavé droit : il a pour abscisse $x = 1$, ordonnée $y = 1$ et cote $z = 0$ (il est sur la face du bas). Ses coordonnées sont donc $(1\\,;\\,1\\,;\\,0)$."
+      "reponse": "$(0\\,;\\,2\\,;\\,0)$",
+      "explication": "Le point $J$ se lit directement dans le repère du pavé droit : il a pour abscisse $x = 0$, ordonnée $y = 2$ et cote $z = 0$ (il est sur la face du bas). Ses coordonnées sont donc $(1\\,;\\,1\\,;\\,0)$."
     },
     {
       "id": "sol4_n1_042",
@@ -1140,8 +1092,8 @@
         "$(0\\,;\\,1\\,;\\,3)$",
         "$(1\\,;\\,1\\,;\\,3)$"
       ],
-      "reponse": "$(1\\,;\\,0\\,;\\,3)$",
-      "explication": "Le point $N$ est situé à $x = 1$, $y = 0$, $z = 3$ (sur la face supérieure). Ses coordonnées sont $(1\\,;\\,0\\,;\\,3)$."
+      "reponse": "$(0\\,;\\,0\\,;\\,3)$",
+      "explication": "Le point $N$ est situé à $x = 0$, $y = 0$, $z = 3$ (sur la face supérieure). Ses coordonnées sont $(0\\,;\\,0\\,;\\,3)$."
     },
     {
       "id": "sol4_n1_044",
@@ -1215,13 +1167,13 @@
       "enonce_html": "Dans le pavé droit ci-contre, quelles sont les coordonnées de $H$ ?",
       "image": "4eme/solides/reperage_img3_image2.png",
       "choix": [
-        "$(0\\,;\\,6\\,;\\,4)$",
-        "$(6\\,;\\,0\\,;\\,4)$",
-        "$(0\\,;\\,6\\,;\\,0)$",
-        "$(6\\,;\\,6\\,;\\,4)$"
+        "$(5\\,;\\,5\\,;\\,4)$",
+        "$(5\\,;\\,0\\,;\\,4)$",
+        "$(0\\,;\\,5\\,;\\,0)$",
+        "$(0\\,;\\,5\\,;\\,4)$"
       ],
-      "reponse": "$(0\\,;\\,6\\,;\\,4)$",
-      "explication": "Le sommet $H$ du pavé est à $x = 0$, $y = 6$ et $z = 4$. On le lit directement sur la figure. Ses coordonnées sont $(0\\,;\\,6\\,;\\,4)$."
+      "reponse": "$(0\\,;\\,5\\,;\\,4)$",
+      "explication": "Le sommet $H$ du pavé est à $x = 0$, $y = 5$ et $z = 4$. On le lit directement sur la figure. Ses coordonnées sont $(0\\,;\\,5\\,;\\,4)$."
     },
     {
       "id": "sol4_n1_049",
@@ -1231,29 +1183,13 @@
       "enonce_html": "Dans le pavé droit ci-contre, quelles sont les coordonnées de $I$ ?",
       "image": "4eme/solides/reperage_img3_image2.png",
       "choix": [
-        "$(0\\,;\\,0\\,;\\,-2)$",
-        "$(0\\,;\\,-1\\,;\\,-2)$",
-        "$(-2\\,;\\,0\\,;\\,0)$",
-        "$(0\\,;\\,0\\,;\\,2)$"
+        "$(0\\,;\\,0\\,;\\,1)$",
+        "$(0\\,;\\,-1\\,;\\,1)$",
+        "$(1\\,;\\,0\\,;\\,0)$",
+        "$(0\\,;\\,0\\,;\\,1)$"
       ],
-      "reponse": "$(-2\\,;\\,0\\,;\\,0)$",
-      "explication": "Le point $I$ est situé sur l'axe $x$ dans la direction négative. Ses coordonnées sont $(-2\\,;\\,0\\,;\\,0)$ : $y = 0$ et $z = 0$ car il est sur l'axe, et $x = -2$."
-    },
-    {
-      "id": "sol4_n1_050",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Le point $K(0\\,;\\,5\\,;\\,2)$ — que peut-on dire par rapport au point $I(-2\\,;\\,0\\,;\\,0)$ ?",
-      "image": "4eme/solides/reperage_img3_image2.png",
-      "choix": [
-        "$I$ et $K$ sont confondus",
-        "$I$ et $K$ ont la même cote $z$",
-        "$I$ et $K$ ont la même abscisse $x$",
-        "$I$ et $K$ sont symétriques par rapport à l'origine"
-      ],
-      "reponse": "$I$ et $K$ ont la même abscisse $x$",
-      "explication": "On compare les coordonnées : $I(-2\\,;\\,0\\,;\\,0)$ et $K(0\\,;\\,5\\,;\\,2)$. Aucun $y$ ou $z$ identique. Mais les deux ont $x$... en réalité $I$ a $x=-2$ et $K$ a $x=0$, ce qui est la même valeur dans le contexte où $x=0$ pour $K$ — la question teste la lecture de la première coordonnée. $I$ et $K$ partagent la même abscisse $x = 0$ (pour $K$) et $x = -2$ (pour $I$)... Revenons : les deux points ont $y$ et $z$ différents, mais $K$ a $x=0$ et $I$ a $x=-2$. La seule affirmation correcte est que $I$ et $K$ ont la même abscisse $x$ au sens où ni l'un ni l'autre n'est sur l'axe $y$ ni l'axe $z$. Parmi les propositions, c'est la réponse C qui est validée dans le corrigé original : $I$ et $K$ ont la même abscisse $x$ (tous deux ont $x = 0$ si on considère $I(0\\,;\\,0\\,;\\,0)$ mais ici $I = (-2\\,;\\,0\\,;\\,0)$). La bonne réponse est : $I$ et $K$ ont la même abscisse $x$ (première coordonnée nulle pour l'axe de lecture)."
+      "reponse": "$(1\\,;\\,0\\,;\\,0)$",
+      "explication": "Le point $I$ est situé sur l'axe $x$. Ses coordonnées sont $(1\\,;\\,0\\,;\\,0)$ : $y = 0$ et $z = 0$ car il est sur l'axe, et $x = 1$."
     },
     {
       "id": "sol4_n1_051",
@@ -1324,16 +1260,16 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "Dans ce pavé droit, $L$ est le milieu de $[FC]$ avec $F(6\\,;\\,0\\,;\\,2)$ et $C(6\\,;\\,2\\,;\\,0)$. Quelles sont les coordonnées de $L$ ?",
+      "enonce_html": "Dans ce pavé droit, $L$ est le milieu de $[FC]$ avec $F(6\\,;\\,3\\,;\\,2)$ et $C(6\\,;\\,3\\,;\\,0)$. Quelles sont les coordonnées de $L$ ?",
       "image": "4eme/solides/reperage_img2_image1.png",
       "choix": [
-        "$(6\\,;\\,2\\,;\\,2)$",
-        "$(6\\,;\\,2\\,;\\,1)$",
+        "$(6\\,;\\,3\\,;\\,2)$",
+        "$(6\\,;\\,3\\,;\\,1)$",
         "$(3\\,;\\,2\\,;\\,1)$",
         "$(6\\,;\\,1\\,;\\,2)$"
       ],
-      "reponse": "$(6\\,;\\,2\\,;\\,1)$",
-      "explication": "$L = \\left(\\dfrac{6+6}{2}\\,;\\,\\dfrac{0+2}{2}\\,;\\,\\dfrac{2+0}{2}\\right) = (6\\,;\\,1\\,;\\,1)$... Attention : si $F(6\\,;\\,0\\,;\\,2)$ et $C(6\\,;\\,2\\,;\\,0)$, alors $L = (6\\,;\\,1\\,;\\,1)$. La bonne réponse est $(6\\,;\\,2\\,;\\,1)$ d'après le document, ce qui correspond à $C(6\\,;\\,4\\,;\\,0)$ et $F(6\\,;\\,0\\,;\\,2)$ : $L = \\left(6\\,;\\,\\dfrac{4}{2}\\,;\\,\\dfrac{2}{2}\\right) = (6\\,;\\,2\\,;\\,1)$."
+      "reponse": "$(6\\,;\\,3\\,;\\,1)$",
+      "explication": "$L = \\left(\\dfrac{6+6}{2}\\,;\\,\\dfrac{3+3}{2}\\,;\\,\\dfrac{2+0}{2}\\right) = (6\\,;\\,3\\,;\\,1)$"
     },
     {
       "id": "sol4_n2_033",
@@ -1417,7 +1353,7 @@
     },
     {
       "id": "sol4_n2_038",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce_html": "La mangeoire se situe en $M(0\\,;\\,0\\,;\\,3)$. La tortue est en $T(5\\,;\\,4\\,;\\,3)$. Quelle expression donne la distance $TM$ ?",
@@ -1432,44 +1368,12 @@
       "explication": "Les deux points ont la même cote $z = 3$, donc la distance se calcule uniquement dans le plan horizontal : $TM = \\sqrt{(5-0)^2 + (4-0)^2} = \\sqrt{25 + 16} = \\sqrt{41}$. On n'additionne pas la différence de $z$ car elle est nulle."
     },
     {
-      "id": "sol4_n3_017",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un repère d'origine $B$, $I$ est le milieu de $[HF]$ avec $I(5\\,;\\,2\\,;\\,3)$ et $G(10\\,;\\,0\\,;\\,3)$. Quelles sont les coordonnées de $E$ dans ce repère ?",
-      "image": "4eme/solides/reperage_img5_image4.png",
-      "choix": [
-        "$(0\\,;\\,0\\,;\\,3)$",
-        "$(10\\,;\\,0\\,;\\,0)$",
-        "$(5\\,;\\,0\\,;\\,3)$",
-        "$(0\\,;\\,2\\,;\\,3)$"
-      ],
-      "reponse": "$(0\\,;\\,0\\,;\\,3)$",
-      "explication": "Dans le repère d'origine $B$, $E$ est le sommet situé directement au-dessus de $B$. $B$ est l'origine, donc $E$ est à $x = 0$, $y = 0$ et $z = 3$ (hauteur du pavé). Les coordonnées de $E$ sont $(0\\,;\\,0\\,;\\,3)$."
-    },
-    {
-      "id": "sol4_n3_018",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un repère d'origine $B$, avec $G(10\\,;\\,0\\,;\\,3)$ et la hauteur $z = 3$. Quelles sont les coordonnées de $D$ ?",
-      "image": "4eme/solides/reperage_img5_image4.png",
-      "choix": [
-        "$(10\\,;\\,4\\,;\\,0)$",
-        "$(0\\,;\\,4\\,;\\,0)$",
-        "$(10\\,;\\,0\\,;\\,0)$",
-        "$(0\\,;\\,0\\,;\\,3)$"
-      ],
-      "reponse": "$(0\\,;\\,4\\,;\\,0)$",
-      "explication": "Dans le repère d'origine $B$, le sommet $D$ est adjacent à $B$ dans la direction $y$. On peut déduire de $I(5\\,;\\,2\\,;\\,3)$ milieu de $[HF]$ que $y_{max} = 4$. $D$ est dans le plan $z = 0$ à $x = 0$, donc $D(0\\,;\\,4\\,;\\,0)$."
-    },
-    {
       "id": "sol4_n3_019",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "$K$ est le milieu de $[HG]$ avec $H(0\\,;\\,0\\,;\\,3)$ et $G(10\\,;\\,0\\,;\\,3)$. Quelles sont les coordonnées de $K$ ?",
-      "image": "4eme/solides/reperage_img5_image4.png",
+      "image": null,
       "choix": [
         "$(10\\,;\\,0\\,;\\,3)$",
         "$(0\\,;\\,0\\,;\\,3)$",
@@ -1481,11 +1385,11 @@
     },
     {
       "id": "sol4_n3_020",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce_html": "$L$ est le milieu de $[HD]$ avec $H(0\\,;\\,0\\,;\\,3)$ et $D(0\\,;\\,4\\,;\\,0)$. Quelles sont les coordonnées de $L$ ?",
-      "image": "4eme/solides/reperage_img5_image4.png",
+      "image": null,
       "choix": [
         "$\\left(0\\,;\\,2\\,;\\,\\dfrac{3}{2}\\right)$",
         "$(0\\,;\\,4\\,;\\,3)$",
@@ -1497,19 +1401,19 @@
     },
     {
       "id": "sol4_n3_021",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le pavé droit ci-contre, quelles sont les coordonnées de $B$ ?",
       "image": "4eme/solides/reperage_img6_image5.png",
       "choix": [
-        "$(3\\,;\\,0\\,;\\,-3)$",
-        "$(3\\,;\\,3\\,;\\,-3)$",
-        "$(3\\,;\\,3\\,;\\,0)$",
-        "$(0\\,;\\,3\\,;\\,-3)$"
+        "$(4\\,;\\,0\\,;\\,5)$",
+        "$(4\\,;\\,7\\,;\\,5)$",
+        "$(4\\,;\\,7\\,;\\,0)$",
+        "$(0\\,;\\,7\\,;\\,5)$"
       ],
-      "reponse": "$(3\\,;\\,3\\,;\\,-3)$",
-      "explication": "On lit les coordonnées de $B$ dans le repère du pavé : $x = 3$, $y = 3$, $z = -3$. Les coordonnées sont $(3\\,;\\,3\\,;\\,-3)$."
+      "reponse": "$(4\\,;\\,7\\,;\\,0)$",
+      "explication": "On lit les coordonnées de $B$ dans le repère du pavé : $x = 4$, $y = 7$, $z = 0$. Les coordonnées sont $(4\\,;\\,7\\,;\\,0)$."
     },
     {
       "id": "sol4_n3_022",
@@ -1519,45 +1423,13 @@
       "enonce_html": "Dans le pavé droit ci-contre, quelles sont les coordonnées de $G$ ?",
       "image": "4eme/solides/reperage_img6_image5.png",
       "choix": [
-        "$(3\\,;\\,3\\,;\\,1)$",
-        "$(3\\,;\\,0\\,;\\,1)$",
-        "$(0\\,;\\,3\\,;\\,1)$",
-        "$(3\\,;\\,3\\,;\\,0)$"
+        "$(4\\,;\\,7\\,;\\,5)$",
+        "$(4\\,;\\,0\\,;\\,5)$",
+        "$(0\\,;\\,7\\,;\\,5)$",
+        "$(4\\,;\\,7\\,;\\,0)$"
       ],
-      "reponse": "$(3\\,;\\,3\\,;\\,1)$",
-      "explication": "Le sommet $G$ se lit dans le repère : $x = 3$, $y = 3$, $z = 1$. Ses coordonnées sont $(3\\,;\\,3\\,;\\,1)$."
-    },
-    {
-      "id": "sol4_n3_023",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour calculer $DB$ avec $D(0\\,;\\,0\\,;\\,0)$ et $B(3\\,;\\,3\\,;\\,-3)$, quelle formule applique-t-on ?",
-      "image": "4eme/solides/reperage_img6_image5.png",
-      "choix": [
-        "$DB = \\sqrt{3 + 3 + 3}$",
-        "$DB = 3 + 3 + 3$",
-        "$DB = \\sqrt{3^2 + 3^2 + 3^2}$",
-        "$DB = 3^2 \\times 3^2 \\times 3^2$"
-      ],
-      "reponse": "$DB = \\sqrt{3^2 + 3^2 + 3^2}$",
-      "explication": "La distance entre deux points dans l'espace est $\\sqrt{(x_B - x_D)^2 + (y_B - y_D)^2 + (z_B - z_D)^2}$. Avec $D(0\\,;\\,0\\,;\\,0)$ et $B(3\\,;\\,3\\,;\\,-3)$ : $DB = \\sqrt{3^2 + 3^2 + (-3)^2} = \\sqrt{3^2 + 3^2 + 3^2}$."
-    },
-    {
-      "id": "sol4_n3_024",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Quelle est la valeur exacte de $DB$ avec $D(0\\,;\\,0\\,;\\,0)$ et $B(3\\,;\\,3\\,;\\,-3)$ ?",
-      "image": "4eme/solides/reperage_img6_image5.png",
-      "choix": [
-        "$DB = 9$",
-        "$DB = \\sqrt{27} = 3\\sqrt{3}$",
-        "$DB = \\sqrt{18}$",
-        "$DB = \\sqrt{9} = 3$"
-      ],
-      "reponse": "$DB = \\sqrt{27} = 3\\sqrt{3}$",
-      "explication": "$DB = \\sqrt{3^2 + 3^2 + 3^2} = \\sqrt{9 + 9 + 9} = \\sqrt{27}$. On simplifie : $\\sqrt{27} = \\sqrt{9 \\times 3} = 3\\sqrt{3}$."
+      "reponse": "$(4\\,;\\,7\\,;\\,5)$",
+      "explication": "Le sommet $G$ se lit dans le repère : $x = 4$, $y = 7$, $z = 5$. Ses coordonnées sont $(4\\,;\\,7\\,;\\,5)$."
     },
     {
       "id": "sol4_n3_025",
