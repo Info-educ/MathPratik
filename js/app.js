@@ -2427,11 +2427,25 @@ function dmResultsRender(idx, devoirs, allResults) {
   }
 
   // Calcul des scores bruts (num/den) pour chaque élève
+  // Cas 1 : score = "2/5" (format texte attendu)
+  // Cas 2 : score = "0.4" ou "0,4" (Google Sheets a interprété 2/5 comme division)
+  // → dans le cas 2, on utilise totalQ du devoir pour retrouver num
   const rawScores = results.map(r => {
-    const parts = (r.score || '0/0').split('/');
-    const num = parseFloat(parts[0]);
-    const den = parseFloat(parts[1]);
-    return { num: isNaN(num) ? 0 : num, den: isNaN(den) ? 0 : den };
+    const s = String(r.score || '').replace(',', '.');
+    if (s.includes('/')) {
+      const parts = s.split('/');
+      const num = parseFloat(parts[0]);
+      const den = parseFloat(parts[1]);
+      return { num: isNaN(num) ? 0 : num, den: isNaN(den) ? 0 : den, fromFraction: true };
+    }
+    // Google Sheets a converti en décimal — on reconstitue num à partir du ratio
+    const ratio = parseFloat(s);
+    if (!isNaN(ratio)) {
+      const tq = devoir.totalQ || 0;
+      const num = tq > 0 ? Math.round(ratio * tq) : 0;
+      return { num, den: tq, fromFraction: false };
+    }
+    return { num: 0, den: 0, fromFraction: false };
   });
 
   // Total de questions du DM (den majoritaire parmi les résultats)
