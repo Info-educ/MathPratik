@@ -1772,7 +1772,7 @@ function readerJump() {
 
 
 // ══════════════════════════════════════════════════════
-//  MODULE DEVOIR MAISON (DM)
+//  MODULE DEVOIRS TEMPS-LIBRE (DM)
 // ══════════════════════════════════════════════════════
 
 // ── CONFIG ────────────────────────────────────────────
@@ -1784,7 +1784,7 @@ const DM_STORE_KEY = 'mathpratik_devoirs_cache';
 
 // État DM
 const DM = {
-  current: null,      // devoir en cours (côté élève)
+  current: null,      // devoir temps-libre en cours (côté élève)
   student: null,      // { prenom, nom, classe }
   startTime: null,    // timestamp début
   results: [],        // tableau des résultats par question
@@ -1907,7 +1907,7 @@ async function dmAccessByCode() {
 
   errEl.textContent = 'Code introuvable. Vérifie auprès de ton enseignant·e.';
   btn.disabled = false;
-  btn.textContent = 'Accéder au devoir →';
+  btn.textContent = 'Accéder au devoir temps-libre →';
 }
 
 // ── IDENTIFICATION ÉLÈVE ──────────────────────────────
@@ -1915,7 +1915,7 @@ async function dmAccessByCode() {
 function dmShowIdentity() {
   const d = DM.current;
   if (!d) return;
-  document.getElementById('dm-identity-title').textContent = d.name || 'Devoir maison';
+  document.getElementById('dm-identity-title').textContent = d.name || 'Devoir temps-libre';
   document.getElementById('dm-identity-sub').textContent =
     `Classe : ${d.className || '—'} · ${d.totalQ || '?'} questions`;
 
@@ -2014,7 +2014,7 @@ async function dmStartQuiz() {
   const banner = document.getElementById('exam-banner');
   banner.classList.add('hidden');
 
-  document.getElementById('quiz-notion-name').textContent = d.name || 'Devoir maison';
+  document.getElementById('quiz-notion-name').textContent = d.name || 'Devoir temps-libre';
   document.getElementById('q-total').textContent = pool.length;
 
   // Remplacer le bouton "quitter" par un comportement neutre en mode DM
@@ -2149,7 +2149,7 @@ window.handleAnswer = function (chosen, question) {
   // Remplacer le texte "→ Recommencer" par "Suivant →" (ou "Terminer")
   const btnNext = document.getElementById('btn-next');
   const isLast  = State.currentQIndex >= State.quizQuestions.length - 1;
-  btnNext.textContent = isLast ? 'Terminer le devoir →' : 'Suivant →';
+  btnNext.textContent = isLast ? 'Terminer le devoir temps-libre →' : 'Suivant →';
 };
 
 // ── CRÉATION DEVOIR (enseignant) ──────────────────────
@@ -2378,7 +2378,7 @@ async function dmShowResults() {
   window._dmAllResults = allResults;
 
   const select = document.getElementById('dm-results-select');
-  select.innerHTML = '<option value="">— Choisir un devoir —</option>';
+  select.innerHTML = '<option value="">— Choisir un devoir temps-libre —</option>';
   devoirs.forEach((d, i) => {
     const opt = document.createElement('option');
     opt.value = i;
@@ -2392,9 +2392,9 @@ async function dmShowResults() {
     select.value = devoirs.length - 1;
     dmResultsRender(devoirs.length - 1, devoirs, allResults);
   } else {
-    document.getElementById('dm-results-dm-name').textContent = 'Aucun devoir créé';
+    document.getElementById('dm-results-dm-name').textContent = 'Aucun devoir temps-libre créé';
     document.getElementById('dm-results-table-container').innerHTML =
-      '<div class="dm-no-results">Aucun devoir créé pour l\'instant.</div>';
+      '<div class="dm-no-results">Aucun devoir temps-libre créé pour l\'instant.</div>';
   }
 }
 
@@ -2422,7 +2422,7 @@ function dmResultsRender(idx, devoirs, allResults) {
   if (results.length === 0) {
     statsRow.innerHTML = '';
     document.getElementById('dm-results-table-container').innerHTML =
-      '<div class="dm-no-results">Aucun élève n\'a encore rendu ce devoir.</div>';
+      '<div class="dm-no-results">Aucun élève n\'a encore rendu ce devoir temps-libre.</div>';
     return;
   }
 
@@ -2504,7 +2504,7 @@ function dmExportCSV() {
   const idx     = select.value;
   const devoirs = window._dmDevoirs || dmLoadDevoirs();
   const devoir  = devoirs[idx];
-  if (!devoir) { alert('Sélectionne un devoir d\'abord.'); return; }
+  if (!devoir) { alert('Sélectionne un devoir temps-libre d\'abord.'); return; }
 
   let allResults = window._dmAllResults || [];
   if (!allResults.length) {
