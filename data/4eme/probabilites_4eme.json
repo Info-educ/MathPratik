@@ -348,15 +348,15 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Le tableau montre les fréquences de FACE selon le nombre de lancers. Que se passe-t-il quand on lance beaucoup de fois ?",
-      "image": "4eme/probabilites/07f11a76bb16f5653143834af4891270da0885ae.png",
+      "enonce": "Que se passe-t-il quand on lance beaucoup de fois une pièce de monnaie ?",
+      "image": null,
       "choix": [
-        "La fréquence s'éloigne de 0,5",
-        "La fréquence se rapproche de 0,5",
-        "La fréquence reste exactement 0",
-        "La fréquence dépasse 1"
+        "La fréquence de FACE s'éloigne de 0,5",
+        "La fréquence de FACE se rapproche de 0,5",
+        "La fréquence de FACE reste exactement 0",
+        "La fréquence de FACE dépasse 1"
       ],
-      "reponse": "La fréquence se rapproche de 0,5",
+      "reponse": "La fréquence de FACE se rapproche de 0,5",
       "explication": "Plus on répète l'expérience, plus la fréquence se rapproche de la probabilité (ici 0,5). C'est la loi des grands nombres."
     },
     {
@@ -553,7 +553,7 @@
     },
     {
       "id": "p4_n1_035",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce": "On a P(A) =$\\frac{1}{3}$et P(B) =$\\frac{1}{2}$. A et B sont incompatibles. P(A ou B) = ?",
@@ -668,7 +668,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Avec le dé truqué (P(2)=0,10 ; P(4)=0,10 ; P(6)=0,05), calcule P(B) = P(nombre pair).",
+      "enonce": "Calcule P(B) = P(nombre pair).",
       "image": "4eme/probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
       "choix": [
         "0,20",
@@ -684,7 +684,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce": "Avec le dé truqué (P(3)=0,40 ; P(4)=0,10), calcule P(obtenir 3 ou 4).",
+      "enonce": "Calcule P(obtenir 3 ou 4).",
       "image": "4eme/probabilites/546a3e336abc8cee8548bcd3d2593faba3454fa0.png",
       "choix": [
         "0,30",
@@ -1158,22 +1158,6 @@
       ],
       "reponse": "Non incompatibles, P(A ou B) =$\\frac{2}{3}$",
       "explication": "A = {2,4,6}, B = {3,6} : ils ont 6 en commun → pas incompatibles. P(A ou B) = P(A) + P(B) − P(A et B) =$\\frac{3}{6}$+$\\frac{2}{6}$−$\\frac{1}{6}$=$\\frac{4}{6}$=$\\frac{2}{3}$."
-    },
-    {
-      "id": "p4_n3_003",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce": "Urne : 3 rouges, 2 vertes, 4 bleues. On tire deux boules AVEC remise. Quelle est P(obtenir 2 bleues) ?",
-      "image": null,
-      "choix": [
-        "$\\frac{4}{9}$",
-        "$\\frac{8}{9}$",
-        "$\\frac{16}{81}$",
-        "$\\frac{8}{81}$"
-      ],
-      "reponse": "$\\frac{16}{81}$",
-      "explication": "P(bleue) =$\\frac{4}{9}$. Avec remise, les tirages sont indépendants : P(2 bleues) =$\\frac{4}{9} \\times \\frac{4}{9}$=$\\frac{16}{81}$."
     },
     {
       "id": "p4_n3_004",
