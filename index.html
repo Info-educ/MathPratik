@@ -1385,7 +1385,7 @@
 
   
     /* ═══════════════════════════════════════════════════
-       DEVOIR MAISON — MODULE ENSEIGNANT (création)
+       DEVOIRS TEMPS-LIBRE — MODULE ENSEIGNANT (création)
     ═══════════════════════════════════════════════════ */
     .dm-section-title {
       font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
@@ -1471,7 +1471,7 @@
     .dm-generate-btn:not(:disabled):active { transform: scale(0.98); }
 
     /* ═══════════════════════════════════════════════════
-       DEVOIR MAISON — RÉSULTAT (code + lien)
+       DEVOIRS TEMPS-LIBRE — RÉSULTAT (code + lien)
     ═══════════════════════════════════════════════════ */
     .dm-result-card {
       background: var(--raised); border: 1.5px solid var(--bd-med);
@@ -1508,7 +1508,7 @@
     .dm-summary-val { font-weight: 600; color: var(--tx); text-align: right; max-width: 65%; }
 
     /* ═══════════════════════════════════════════════════
-       DEVOIR MAISON — CÔTÉ ÉLÈVE (accès + identification)
+       DEVOIRS TEMPS-LIBRE — CÔTÉ ÉLÈVE (accès + identification)
     ═══════════════════════════════════════════════════ */
     .dm-student-hero {
       padding: 32px 20px 24px; text-align: center;
@@ -1541,7 +1541,7 @@
     }
 
     /* ═══════════════════════════════════════════════════
-       DEVOIR MAISON — SOUMISSION / CONFIRMATION
+       DEVOIRS TEMPS-LIBRE — SOUMISSION / CONFIRMATION
     ═══════════════════════════════════════════════════ */
     .dm-submit-screen { padding: 48px 24px; text-align: center; }
     .dm-submit-icon { font-size: 3.5rem; margin-bottom: 16px; animation: pop .5s var(--ease); }
@@ -1565,7 +1565,7 @@
     }
 
     /* ═══════════════════════════════════════════════════
-       DEVOIR MAISON — TABLEAU RÉSULTATS (module enseignant)
+       DEVOIRS TEMPS-LIBRE — TABLEAU RÉSULTATS (module enseignant)
     ═══════════════════════════════════════════════════ */
     .dm-results-table-wrap { overflow-x: auto; }
     .dm-results-table {
@@ -2302,12 +2302,12 @@
     <div class="section-label">Choisir un niveau</div>
     <div class="niveau-grid" id="niveau-grid"><!-- JS --></div>
 
-    <!-- Bouton Devoir Maison élève -->
-    <div class="section-label" style="margin-top:8px;">Devoir maison</div>
+    <!-- Bouton Devoirs temps-libre élève -->
+    <div class="section-label" style="margin-top:8px;">Devoirs temps-libre</div>
     <div style="padding:0 20px 20px;">
       <div class="niveau-card" style="--nc:#7c3aed" onclick="dmCheckUrlAndGo()">
         <div class="nv-info" style="padding-left:4px;">
-          <h2>📝 Devoir Maison</h2>
+          <h2>📝 Devoirs temps-libre</h2>
           <p style="font-size:0.78rem;color:var(--tx3);margin-top:3px;">Accéder au devoir de ton enseignant·e</p>
         </div>
         <div class="nv-right">
@@ -2512,7 +2512,7 @@
     <div style="padding:12px 20px 0;display:flex;gap:10px;flex-wrap:wrap;">
       <button onclick="showScreen('screen-dm-create');dmInitCreate()"
         style="flex:1;min-width:140px;padding:12px 16px;border-radius:var(--r-sm);border:1.5px solid rgba(129,140,248,0.4);background:rgba(129,140,248,0.1);color:#818cf8;font-family:var(--font-sans);font-size:0.85rem;font-weight:700;cursor:pointer;text-align:left;">
-        ➕ Créer un devoir maison
+        ➕ Créer un devoir temps-libre
       </button>
       <button onclick="dmShowResults()"
         style="flex:1;min-width:140px;padding:12px 16px;border-radius:var(--r-sm);border:1.5px solid rgba(129,140,248,0.4);background:rgba(129,140,248,0.1);color:#818cf8;font-family:var(--font-sans);font-size:0.85rem;font-weight:700;cursor:pointer;text-align:left;">
@@ -2556,7 +2556,7 @@
     </div>
   </div>
 
-  <!-- ══════════════════════════════ DEVOIR MAISON — ACCÈS ÉLÈVE ════ -->
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — ACCÈS ÉLÈVE ════ -->
   <div id="screen-dm-access" class="screen">
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showHome()">←</button>
@@ -2565,7 +2565,7 @@
     </div>
     <div class="dm-student-hero">
       <div class="dm-icon">📝</div>
-      <h2>Devoir maison</h2>
+      <h2>Devoir temps-libre</h2>
       <p>Saisis le code donné par ton enseignant·e</p>
     </div>
     <div style="padding: 0 20px 28px;">
@@ -2587,7 +2587,7 @@
     </div>
   </div>
 
-  <!-- ══════════════════════════════ DEVOIR MAISON — IDENTIFICATION ÉLÈVE ════ -->
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — IDENTIFICATION ÉLÈVE ════ -->
   <div id="screen-dm-identity" class="screen">
     <div class="top-bar">
       <button class="btn-icon btn-back visible" onclick="showScreen('screen-dm-access')">←</button>
@@ -2596,7 +2596,7 @@
     </div>
     <div class="dm-student-hero">
       <div class="dm-icon">🧑‍🎓</div>
-      <h2 id="dm-identity-title">Devoir maison</h2>
+      <h2 id="dm-identity-title">Devoir temps-libre</h2>
       <p id="dm-identity-sub">Renseigne tes informations avant de commencer</p>
     </div>
     <div style="padding: 0 20px 28px;">
@@ -2622,14 +2622,14 @@
     </div>
   </div>
 
-  <!-- ══════════════════════════════ DEVOIR MAISON — CONFIRMATION ENVOI ════ -->
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — CONFIRMATION ENVOI ════ -->
   <div id="screen-dm-submitted" class="screen">
     <div class="top-bar">
       <div class="logo">Math<em>Pratik</em></div>
     </div>
     <div class="dm-submit-screen">
       <div class="dm-submit-icon" id="dm-submit-icon">✅</div>
-      <div class="dm-submit-title" id="dm-submit-title">Devoir envoyé !</div>
+      <div class="dm-submit-title" id="dm-submit-title">Devoir temps-libre envoyé !</div>
       <div class="dm-submit-score" id="dm-submit-score">—</div>
       <div class="dm-submit-sub" id="dm-submit-sub">Ton résultat a été transmis à ton enseignant·e.</div>
       <div class="dm-submit-sending hidden" id="dm-submit-sending">
@@ -2642,16 +2642,16 @@
     </div>
   </div>
 
-  <!-- ══════════════════════════════ DEVOIR MAISON — CRÉATION (enseignant) ════ -->
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — CRÉATION (enseignant) ════ -->
   <div id="screen-dm-create" class="screen">
     <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
       <button class="btn-icon btn-back visible" onclick="showTeacherModule()" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
-      <div class="logo" style="color:#e0e7ff;">Créer un <em style="color:#818cf8;">devoir</em></div>
+      <div class="logo" style="color:#e0e7ff;">Créer un <em style="color:#818cf8;">devoir temps-libre</em></div>
     </div>
     <div style="padding: 20px 20px 100px;">
 
       <div class="dm-field-group">
-        <label class="dm-label" for="dm-name">Nom du devoir</label>
+        <label class="dm-label" for="dm-name">Nom du devoir temps-libre</label>
         <input class="dm-input" id="dm-name" type="text" placeholder="ex : DM Pythagore – 4ème B" oninput="dmCheckForm()">
       </div>
 
@@ -2695,16 +2695,16 @@
       </div>
 
       <button class="dm-generate-btn" id="dm-gen-btn" onclick="dmGenerate()" disabled>
-        Générer le devoir →
+        Générer le devoir temps-libre →
       </button>
     </div>
   </div>
 
-  <!-- ══════════════════════════════ DEVOIR MAISON — CODE GÉNÉRÉ ════ -->
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — CODE GÉNÉRÉ ════ -->
   <div id="screen-dm-generated" class="screen">
     <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
       <button class="btn-icon btn-back visible" onclick="showScreen('screen-dm-create')" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
-      <div class="logo" style="color:#e0e7ff;">Devoir <em style="color:#818cf8;">généré</em></div>
+      <div class="logo" style="color:#e0e7ff;">Devoir temps-libre <em style="color:#818cf8;">généré</em></div>
     </div>
     <div style="padding: 20px;">
       <div class="dm-result-card" style="margin-bottom:16px;">
@@ -2723,7 +2723,7 @@
       </div>
 
       <div style="margin-top:16px;padding:14px;background:var(--subtle);border-radius:var(--r-sm);font-size:0.82rem;color:var(--tx2);line-height:1.6;">
-        📊 Les résultats des élèves apparaîtront dans <strong>Google Sheets</strong> dès qu'ils soumettront leur devoir. Pour y accéder, rendez-vous dans <em>Voir les résultats</em> ci-dessous.
+        📊 Les résultats des élèves apparaîtront dans <strong>Google Sheets</strong> dès qu'ils soumettront leur devoir temps-libre. Pour y accéder, rendez-vous dans <em>Voir les résultats</em> ci-dessous.
       </div>
 
       <button class="dm-generate-btn" onclick="dmShowResults()" style="margin-top:16px;background:var(--ok);">
@@ -2735,7 +2735,7 @@
     </div>
   </div>
 
-  <!-- ══════════════════════════════ DEVOIR MAISON — RÉSULTATS ENSEIGNANT ════ -->
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — RÉSULTATS ENSEIGNANT ════ -->
   <div id="screen-dm-results" class="screen">
     <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
       <button class="btn-icon btn-back visible" onclick="showTeacherModule()" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
@@ -2744,17 +2744,17 @@
     <div style="padding:20px 20px 100px;">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;gap:12px;flex-wrap:wrap;">
         <div>
-          <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--tx3);margin-bottom:2px;">Devoir sélectionné</div>
+          <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--tx3);margin-bottom:2px;">Devoir temps-libre sélectionné</div>
           <div id="dm-results-dm-name" style="font-size:0.95rem;font-weight:700;color:var(--tx);">—</div>
         </div>
         <button class="dm-export-btn" onclick="dmExportCSV()">⬇ Exporter CSV</button>
       </div>
 
-      <!-- Sélecteur de devoir -->
+      <!-- Sélecteur de devoir temps-libre -->
       <div class="dm-field-group">
-        <label class="dm-label" for="dm-results-select">Changer de devoir</label>
+        <label class="dm-label" for="dm-results-select">Changer de devoir temps-libre</label>
         <select class="dm-input" id="dm-results-select" onchange="dmResultsSelectDM(this.value)" style="cursor:pointer;">
-          <option value="">— Choisir un devoir —</option>
+          <option value="">— Choisir un devoir temps-libre —</option>
         </select>
       </div>
 
@@ -2764,7 +2764,7 @@
       <!-- Tableau -->
       <div class="dm-results-table-wrap">
         <div id="dm-results-table-container">
-          <div class="dm-no-results">Aucun résultat pour l'instant.<br>Les élèves apparaîtront ici dès qu'ils auront soumis leur devoir.</div>
+          <div class="dm-no-results">Aucun résultat pour l'instant.<br>Les élèves apparaîtront ici dès qu'ils auront soumis leur devoir temps-libre.</div>
         </div>
       </div>
     </div>
