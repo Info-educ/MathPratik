@@ -1180,7 +1180,7 @@ function buildCalculatrice() {
       <button class="calc-btn calc-fn" onclick="calcAction('sqrt')">√</button>
       <button class="calc-btn calc-fn" onclick="calcAction('sq')">x²</button>
       <button class="calc-btn calc-fn" onclick="calcAction('pow')">xⁿ</button>
-      <button class="calc-btn calc-op" onclick="calcAction('+')">+</button>
+      <button class="calc-btn calc-op" onclick="calcAction('/')">÷</button>
 
       <button class="calc-btn" onclick="calcAction('7')">7</button>
       <button class="calc-btn" onclick="calcAction('8')">8</button>
@@ -1195,7 +1195,7 @@ function buildCalculatrice() {
       <button class="calc-btn" onclick="calcAction('1')">1</button>
       <button class="calc-btn" onclick="calcAction('2')">2</button>
       <button class="calc-btn" onclick="calcAction('3')">3</button>
-      <button class="calc-btn calc-op" onclick="calcAction('/')">÷</button>
+      <button class="calc-btn calc-op" onclick="calcAction('+')">+</button>
 
       <button class="calc-btn calc-zero" onclick="calcAction('0')">0</button>
       <button class="calc-btn" onclick="calcAction('.')">.</button>
