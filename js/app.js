@@ -1777,7 +1777,7 @@ function readerJump() {
 
 // ── CONFIG ────────────────────────────────────────────
 // URL du Google Apps Script (webhook). Remplacer par l'URL réelle après déploiement.
-const DM_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxwMlawwtwPfMBETa4wNUHnYbA_u1KUl-iNidePH6IPz8Z488Mr7FTATBkBNkhpw8DdDg/exec';
+const DM_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbzWwg3hzar_UiPh2LKbBMj8u4euhXqXr0P04n8fQN0rbxJDml0CNm-HPRIrqzVmiVnFPA/exec';
 
 // Cache localStorage (ne sert qu'au lien direct — le code passe par Google Sheets)
 const DM_STORE_KEY = 'mathpratik_devoirs_cache';
