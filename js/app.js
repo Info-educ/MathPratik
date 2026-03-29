@@ -1350,10 +1350,20 @@ function openTeacherLogin() {
   renderPinDisplay();
   document.getElementById('pin-error').textContent = '';
   document.getElementById('teacher-login-overlay').classList.add('open');
+  document.addEventListener('keydown', _pinKeyHandler);
+}
+
+function _pinKeyHandler(e) {
+  if (!document.getElementById('teacher-login-overlay').classList.contains('open')) return;
+  if (e.key >= '0' && e.key <= '9') { pinKey(e.key); }
+  else if (e.key === 'Backspace') { pinKey('del'); }
+  else if (e.key === 'Enter') { pinKey('ok'); }
+  else if (e.key === 'Escape') { closeTeacherLogin(); }
 }
 
 function closeTeacherLogin() {
   document.getElementById('teacher-login-overlay').classList.remove('open');
+  document.removeEventListener('keydown', _pinKeyHandler);
 }
 
 function teacherOverlayClose(e) {
@@ -1759,4 +1769,727 @@ function readerJump() {
     }
   });
 })();
+
+
+// ══════════════════════════════════════════════════════
+//  MODULE DEVOIR MAISON (DM)
+// ══════════════════════════════════════════════════════
+
+// ── CONFIG ────────────────────────────────────────────
+// URL du Google Apps Script (webhook). Remplacer par l'URL réelle après déploiement.
+const DM_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxwMlawwtwPfMBETa4wNUHnYbA_u1KUl-iNidePH6IPz8Z488Mr7FTATBkBNkhpw8DdDg/exec';
+
+// Cache localStorage (ne sert qu'au lien direct — le code passe par Google Sheets)
+const DM_STORE_KEY = 'mathpratik_devoirs_cache';
+
+// État DM
+const DM = {
+  current: null,      // devoir en cours (côté élève)
+  student: null,      // { prenom, nom, classe }
+  startTime: null,    // timestamp début
+  results: [],        // tableau des résultats par question
+};
+
+// ── UTILITAIRES ───────────────────────────────────────
+
+function dmGenerateCode() {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let code = 'DM-';
+  for (let i = 0; i < 4; i++) code += chars[Math.floor(Math.random() * chars.length)];
+  return code;
+}
+
+function dmEncode(obj) {
+  try { return btoa(unescape(encodeURIComponent(JSON.stringify(obj)))); }
+  catch (e) { return ''; }
+}
+
+function dmDecode(str) {
+  try { return JSON.parse(decodeURIComponent(escape(atob(str)))); }
+  catch (e) { return null; }
+}
+
+function dmSaveDevoirs(devoirs) {
+  // Cache local uniquement — la source de vérité est Google Sheets
+  localStorage.setItem(DM_STORE_KEY, JSON.stringify(devoirs));
+}
+
+function dmLoadDevoirs() {
+  try { return JSON.parse(localStorage.getItem(DM_STORE_KEY) || '[]'); }
+  catch (e) { return []; }
+}
+
+function dmFormatDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'long', year: 'numeric' });
+}
+
+// ── ACCUEIL : DÉTECTION URL ───────────────────────────
+
+function dmCheckUrlAndGo() {
+  const params = new URLSearchParams(window.location.search);
+  const dmParam = params.get('dm');
+  if (dmParam) {
+    const devoir = dmDecode(dmParam);
+    if (devoir && devoir.code) {
+      DM.current = devoir;
+      dmShowIdentity();
+      return;
+    }
+  }
+  showScreen('screen-dm-access');
+}
+
+// Appelé au démarrage si ?dm= présent dans l'URL
+function dmAutoDetect() {
+  const params = new URLSearchParams(window.location.search);
+  const dmParam = params.get('dm');
+  if (!dmParam) return;
+  const devoir = dmDecode(dmParam);
+  if (devoir && devoir.code) {
+    DM.current = devoir;
+    // Attendre que les données soient chargées puis naviguer
+    const tryGo = () => {
+      if (Object.keys(DB.questions).length > 0 || DB.automatismesNotions.length > 0) {
+        dmShowIdentity();
+      } else {
+        setTimeout(tryGo, 200);
+      }
+    };
+    setTimeout(tryGo, 500);
+  }
+}
+
+// ── ACCÈS PAR CODE ─────────────────────────────────────
+
+function dmCodeInput(input) {
+  let val = input.value.toUpperCase().replace(/[^A-Z0-9-]/g, '');
+  input.value = val;
+  document.getElementById('dm-code-err').textContent = '';
+  document.getElementById('dm-access-btn').disabled = val.length < 3;
+}
+
+async function dmAccessByCode() {
+  const code = document.getElementById('dm-code-input').value.trim().toUpperCase();
+  const btn  = document.getElementById('dm-access-btn');
+  const errEl = document.getElementById('dm-code-err');
+  errEl.textContent = '';
+  btn.disabled = true;
+  btn.textContent = 'Recherche…';
+
+  try {
+    // 1. Chercher dans Google Sheets (source de vérité)
+    const res = await fetch(`${DM_WEBHOOK_URL}?action=get_devoir&code=${encodeURIComponent(code)}`);
+    const data = await res.json();
+    if (data && data.devoir) {
+      DM.current = data.devoir;
+      // Mettre en cache local
+      const cache = dmLoadDevoirs();
+      const exists = cache.find(d => d.code === code);
+      if (!exists) { cache.push(data.devoir); dmSaveDevoirs(cache); }
+      dmShowIdentity();
+      return;
+    }
+  } catch (e) {
+    // Pas de réseau ou erreur → essayer le cache local
+    console.warn('Sheets inaccessible, fallback cache:', e);
+  }
+
+  // 2. Fallback : cache localStorage (pour lien direct déjà ouvert)
+  const devoirs = dmLoadDevoirs();
+  const devoir = devoirs.find(d => d.code === code);
+  if (devoir) {
+    DM.current = devoir;
+    dmShowIdentity();
+    return;
+  }
+
+  errEl.textContent = 'Code introuvable. Vérifie auprès de ton enseignant·e.';
+  btn.disabled = false;
+  btn.textContent = 'Accéder au devoir →';
+}
+
+// ── IDENTIFICATION ÉLÈVE ──────────────────────────────
+
+function dmShowIdentity() {
+  const d = DM.current;
+  if (!d) return;
+  document.getElementById('dm-identity-title').textContent = d.name || 'Devoir maison';
+  document.getElementById('dm-identity-sub').textContent =
+    `Classe : ${d.className || '—'} · ${d.totalQ || '?'} questions`;
+
+  // Vérifier date limite
+  const warn = document.getElementById('dm-deadline-warn');
+  if (d.deadline) {
+    const now = new Date();
+    const limit = new Date(d.deadline + 'T23:59:59');
+    if (now > limit) {
+      warn.textContent = `⚠️ La date limite était le ${dmFormatDate(d.deadline)}. Le devoir est expiré.`;
+      warn.classList.remove('hidden');
+      document.getElementById('dm-start-btn').disabled = true;
+    } else {
+      warn.classList.add('hidden');
+      document.getElementById('dm-start-btn').disabled = false;
+    }
+  } else {
+    warn.classList.add('hidden');
+    document.getElementById('dm-start-btn').disabled = false;
+  }
+
+  // Vider les champs
+  ['dm-prenom','dm-nom','dm-classe'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+
+  showScreen('screen-dm-identity');
+}
+
+async function dmStartQuiz() {
+  const prenom = document.getElementById('dm-prenom').value.trim();
+  const nom    = document.getElementById('dm-nom').value.trim();
+  const classe = document.getElementById('dm-classe').value.trim();
+
+  if (!prenom || !nom || !classe) {
+    alert('Merci de remplir tous les champs.');
+    return;
+  }
+
+  DM.student = { prenom, nom, classe };
+  DM.startTime = Date.now();
+  DM.results = [];
+
+  const d = DM.current;
+
+  // Charger les fichiers nécessaires
+  showScreen('screen-loading');
+  try {
+    const toLoad = [];
+    (d.notions || []).forEach(n => {
+      const niveau = n.niveau;
+      const id = n.id;
+      if (!DB.questions[niveau]) DB.questions[niveau] = {};
+      if (!DB.questions[niveau][id]) {
+        toLoad.push(chargerFichierThematique({ fichier: n.fichier, niveau }));
+      }
+    });
+    if (toLoad.length) await Promise.all(toLoad);
+  } catch (err) {
+    afficherErreurChargement(err.message);
+    return;
+  }
+
+  // Construire le pool selon la config du DM
+  const pool = dmBuildPool(d);
+  if (pool.length === 0) {
+    alert('Impossible de charger les questions. Contacte ton enseignant·e.');
+    showHome();
+    return;
+  }
+
+  State.quizQuestions  = pool;
+  State.currentQIndex  = 0;
+  State.sessionCorrect = 0;
+  State.sessionTotal   = 0;
+  State.answered       = false;
+  State.sessionResults = [];
+  State.currentNiveau  = d.notions[0]?.niveau || 'dm';
+  currentNiveau        = State.currentNiveau;
+
+  // Masquer la bannière examen (le DM a son propre mode)
+  const banner = document.getElementById('exam-banner');
+  banner.classList.add('hidden');
+
+  document.getElementById('quiz-notion-name').textContent = d.name || 'Devoir maison';
+  document.getElementById('q-total').textContent = pool.length;
+
+  // Remplacer le bouton "quitter" par un comportement neutre en mode DM
+  State._dmMode = true;
+
+  showScreen('screen-quiz');
+  renderQuestion();
+}
+
+function dmBuildPool(d) {
+  const lv1 = d.lv1 || 0, lv2 = d.lv2 || 0, lv3 = d.lv3 || 0;
+  let pool1 = [], pool2 = [], pool3 = [];
+
+  (d.notions || []).forEach(n => {
+    const data = (DB.questions[n.niveau] || {})[n.id];
+    if (!data) return;
+    data.questions.forEach(q => {
+      const lv = q.niveau || q.difficulte || 1;
+      if (lv === 1) pool1.push(q);
+      else if (lv === 2) pool2.push(q);
+      else pool3.push(q);
+    });
+  });
+
+  shuffle(pool1); shuffle(pool2); shuffle(pool3);
+  return [
+    ...pool1.slice(0, lv1),
+    ...pool2.slice(0, lv2),
+    ...pool3.slice(0, lv3),
+  ];
+}
+
+// ── SOUMISSION RÉSULTATS ──────────────────────────────
+
+async function dmSubmitResults() {
+  const d = DM.current;
+  const s = DM.student;
+  const duree = Math.round((Date.now() - DM.startTime) / 1000); // secondes
+  const score  = State.sessionCorrect;
+  const total  = State.quizQuestions.length;
+  const pct    = total > 0 ? Math.round(score / total * 100) : 0;
+
+  const payload = {
+    timestamp:    new Date().toISOString(),
+    dm_code:      d.code,
+    dm_name:      d.name || '',
+    dm_class:     d.className || '',
+    prenom:       s.prenom,
+    nom:          s.nom,
+    classe:       s.classe,
+    score:        `${score}/${total}`,
+    pourcentage:  `${pct}%`,
+    duree_sec:    duree,
+    detail:       State.sessionResults.map((ok, i) => (ok ? '✓' : '✗')).join(''),
+    notions:      (d.notions || []).map(n => n.label).join(', '),
+  };
+
+  // Afficher l'écran de confirmation immédiatement
+  showScreen('screen-dm-submitted');
+  document.getElementById('dm-submit-score').textContent = `${score} / ${total}`;
+  document.getElementById('dm-submit-title').textContent =
+    pct === 100 ? '🏆 Parfait !' : pct >= 70 ? '✅ Bien joué !' : pct >= 50 ? '💪 Pas mal !' : '📚 À retravailler';
+  document.getElementById('dm-submit-sub').textContent =
+    `Ton score : ${score}/${total} (${pct}%) — transmis à ${d.className || 'ton enseignant·e'}.`;
+  document.getElementById('dm-submit-icon').textContent = pct === 100 ? '🏆' : pct >= 70 ? '🎉' : '📝';
+
+  // Envoi au webhook
+  // Note : mode 'no-cors' exige application/x-www-form-urlencoded (pas JSON).
+  // Le Apps Script reçoit les données via e.parameter (et e.postData.contents pour le JSON brut).
+  if (DM_WEBHOOK_URL && DM_WEBHOOK_URL !== 'REMPLACER_PAR_URL_APPS_SCRIPT') {
+    document.getElementById('dm-submit-sending').classList.remove('hidden');
+    try {
+      // Encoder en form-urlencoded pour compatibilité no-cors
+      const formBody = Object.entries(payload)
+        .map(([k, v]) => encodeURIComponent(k) + '=' + encodeURIComponent(String(v)))
+        .join('&');
+      await fetch(DM_WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formBody,
+      });
+    } catch (e) {
+      console.warn('DM webhook error:', e);
+    }
+    document.getElementById('dm-submit-sending').classList.add('hidden');
+  }
+
+  // Aussi sauvegarder en localStorage pour la vue enseignant locale
+  dmSaveResultLocally(payload);
+
+  State._dmMode = false;
+}
+
+function dmSaveResultLocally(payload) {
+  const key = 'mathpratik_dm_results';
+  let results = [];
+  try { results = JSON.parse(localStorage.getItem(key) || '[]'); } catch (e) {}
+  results.push(payload);
+  localStorage.setItem(key, JSON.stringify(results));
+}
+
+// ── INTÉGRATION DANS nextQuestion ────────────────────
+// Surcharge : en mode DM, pas de "retour à zéro" sur erreur, on continue
+const _origNextQuestion = nextQuestion;
+window.nextQuestion = function () {
+  if (!State._dmMode) { _origNextQuestion(); return; }
+
+  const fb = document.getElementById('feedback-box');
+  // En mode DM : même si erreur, on passe à la suivante
+  if (State.currentQIndex >= State.quizQuestions.length - 1) {
+    dmSubmitResults();
+    return;
+  }
+  State.currentQIndex += 1;
+  renderQuestion();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+// En mode DM, le bouton "quitter" (←) retourne à l'accueil sans warning
+const _origQuitQuiz = quitQuiz;
+window.quitQuiz = function () {
+  if (State._dmMode) { showHome(); return; }
+  _origQuitQuiz();
+};
+
+// En mode DM, nextQuestion texte = "Suivant →" même après erreur
+const _origHandleAnswer = handleAnswer;
+window.handleAnswer = function (chosen, question) {
+  _origHandleAnswer(chosen, question);
+  if (!State._dmMode) return;
+  // Remplacer le texte "→ Recommencer" par "Suivant →" (ou "Terminer")
+  const btnNext = document.getElementById('btn-next');
+  const isLast  = State.currentQIndex >= State.quizQuestions.length - 1;
+  btnNext.textContent = isLast ? 'Terminer le devoir →' : 'Suivant →';
+};
+
+// ── CRÉATION DEVOIR (enseignant) ──────────────────────
+
+function dmInitCreate() {
+  // Pré-remplir la date limite à J+7
+  const d = new Date();
+  d.setDate(d.getDate() + 7);
+  document.getElementById('dm-deadline').value = d.toISOString().split('T')[0];
+
+  // Construire la liste de notions
+  dmBuildNotionPick();
+  dmCheckForm();
+}
+
+function dmBuildNotionPick() {
+  const container = document.getElementById('dm-notion-pick');
+  container.innerHTML = '';
+
+  const fichiers = (window._indexData && window._indexData.fichiers) || [];
+  const autNotions = (window._indexData && window._indexData.automatismes_notions) || [];
+
+  const all = [];
+
+  // Notions classiques
+  fichiers.forEach(f => {
+    const data = (DB.questions[f.niveau] || {})[f.id];
+    if (!data) return;
+    all.push({
+      id: f.id, niveau: f.niveau, fichier: f.fichier,
+      label: data.label, icon: data.icon, color: data.color || '#6b7280',
+      niveauLabel: (DB.niveaux[f.niveau] || {}).label || f.niveau,
+    });
+  });
+
+  // Automatismes
+  const autDB = DB.questions['automatismes'] || {};
+  autNotions.forEach(n => {
+    const data = autDB[n.id];
+    const label = data ? data.label : n.label;
+    const icon  = data ? data.icon  : n.icon;
+    all.push({
+      id: n.id, niveau: 'automatismes', fichier: n.fichier,
+      label, icon, color: n.color || '#7c3aed',
+      niveauLabel: 'Automatismes',
+    });
+  });
+
+  // Grouper par niveau
+  const grouped = {};
+  all.forEach(n => {
+    if (!grouped[n.niveauLabel]) grouped[n.niveauLabel] = [];
+    grouped[n.niveauLabel].push(n);
+  });
+
+  Object.entries(grouped).forEach(([niveauLabel, notions]) => {
+    const header = document.createElement('div');
+    header.style.cssText = 'font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--tx3);padding:6px 4px 2px;';
+    header.textContent = niveauLabel;
+    container.appendChild(header);
+
+    notions.forEach(n => {
+      const item = document.createElement('div');
+      item.className = 'dm-np-item';
+      item.style.setProperty('--item-color', n.color);
+      item.dataset.id     = n.id;
+      item.dataset.niveau = n.niveau;
+      item.dataset.fichier= n.fichier;
+      item.dataset.label  = n.label;
+      item.dataset.color  = n.color;
+      item.innerHTML = `
+        <div class="dm-np-cb"></div>
+        <span class="dm-np-icon">${n.icon || '📐'}</span>
+        <span class="dm-np-label">${escapeHtml(n.label)}</span>
+        <span class="dm-np-badge">${n.niveauLabel}</span>
+      `;
+      item.addEventListener('click', () => {
+        item.classList.toggle('selected');
+        dmCheckForm();
+      });
+      container.appendChild(item);
+    });
+  });
+}
+
+function dmUpdateLevel(lv, val) {
+  document.getElementById(`dm-lv${lv}-val`).textContent = val;
+  const total = +document.getElementById('dm-lv1').value
+              + +document.getElementById('dm-lv2').value
+              + +document.getElementById('dm-lv3').value;
+  document.getElementById('dm-total-q').textContent = total;
+  dmCheckForm();
+}
+
+function dmCheckForm() {
+  const name     = (document.getElementById('dm-name').value || '').trim();
+  const className= (document.getElementById('dm-class-name').value || '').trim();
+  const selected = document.querySelectorAll('#dm-notion-pick .dm-np-item.selected');
+  const total    = +document.getElementById('dm-lv1').value
+                 + +document.getElementById('dm-lv2').value
+                 + +document.getElementById('dm-lv3').value;
+
+  document.getElementById('dm-notions-count').textContent =
+    selected.length ? `— ${selected.length} sélectionnée${selected.length > 1 ? 's' : ''}` : '';
+
+  const ok = name && className && selected.length > 0 && total > 0;
+  document.getElementById('dm-gen-btn').disabled = !ok;
+}
+
+// ── PUSH DEVOIR VERS GOOGLE SHEETS ───────────────────
+async function dmPushDevoirToSheets(devoir) {
+  if (!DM_WEBHOOK_URL || DM_WEBHOOK_URL === 'REMPLACER_PAR_URL_APPS_SCRIPT') return;
+  try {
+    const formBody = 'action=save_devoir&devoir=' + encodeURIComponent(JSON.stringify(devoir));
+    await fetch(DM_WEBHOOK_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: formBody,
+    });
+  } catch (e) {
+    console.warn('dmPushDevoirToSheets error:', e);
+  }
+}
+
+function dmGenerate() {
+  const name      = document.getElementById('dm-name').value.trim();
+  const className = document.getElementById('dm-class-name').value.trim();
+  const deadline  = document.getElementById('dm-deadline').value;
+  const lv1       = +document.getElementById('dm-lv1').value;
+  const lv2       = +document.getElementById('dm-lv2').value;
+  const lv3       = +document.getElementById('dm-lv3').value;
+
+  const notions = [];
+  document.querySelectorAll('#dm-notion-pick .dm-np-item.selected').forEach(item => {
+    notions.push({
+      id:      item.dataset.id,
+      niveau:  item.dataset.niveau,
+      fichier: item.dataset.fichier,
+      label:   item.dataset.label,
+      color:   item.dataset.color,
+    });
+  });
+
+  const code   = dmGenerateCode();
+  const devoir = { code, name, className, deadline, notions, lv1, lv2, lv3, totalQ: lv1+lv2+lv3, createdAt: new Date().toISOString() };
+
+  // Sauvegarder en cache local
+  const devoirs = dmLoadDevoirs();
+  devoirs.push(devoir);
+  dmSaveDevoirs(devoirs);
+
+  // Envoyer au Google Sheets (source de vérité multi-postes)
+  dmPushDevoirToSheets(devoir);
+
+  // Afficher l'écran de résultat
+  document.getElementById('dm-generated-code').textContent = code;
+
+  const summary = document.getElementById('dm-gen-summary');
+  summary.innerHTML = [
+    { label: 'Nom', val: name },
+    { label: 'Classe', val: className },
+    { label: 'Date limite', val: dmFormatDate(deadline) },
+    { label: 'Notions', val: notions.map(n => n.label).join(', ') },
+    { label: 'Questions', val: `${lv1+lv2+lv3} (★×${lv1} ★★×${lv2} ★★★×${lv3})` },
+  ].map(r => `
+    <div class="dm-summary-row">
+      <span class="dm-summary-label">${r.label}</span>
+      <span class="dm-summary-val">${escapeHtml(String(r.val))}</span>
+    </div>`).join('');
+
+  // Stocker le devoir courant pour copier le lien
+  window._lastGeneratedDevoir = devoir;
+
+  showScreen('screen-dm-generated');
+}
+
+function dmCopyCode() {
+  const code = document.getElementById('dm-generated-code').textContent;
+  navigator.clipboard.writeText(code).then(() => {
+    const btn = document.getElementById('dm-copy-code-btn');
+    btn.textContent = '✓ Code copié !';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋 Copier le code'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+function dmCopyLink() {
+  const devoir = window._lastGeneratedDevoir;
+  if (!devoir) return;
+  const encoded = dmEncode(devoir);
+  const url = `${window.location.origin}${window.location.pathname}?dm=${encoded}`;
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.getElementById('dm-copy-link-btn');
+    btn.textContent = '✓ Lien copié !';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '🔗 Copier le lien direct'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── RÉSULTATS ENSEIGNANT ──────────────────────────────
+
+async function dmShowResults() {
+  showScreen('screen-dm-results');
+  document.getElementById('dm-results-dm-name').textContent = 'Chargement…';
+  document.getElementById('dm-stats-row').innerHTML = '';
+  document.getElementById('dm-results-table-container').innerHTML = '';
+
+  // Charger devoirs + résultats depuis Google Sheets
+  let devoirs = [];
+  let allResults = [];
+  try {
+    const res = await fetch(`${DM_WEBHOOK_URL}?action=get_all`);
+    const data = await res.json();
+    devoirs    = data.devoirs    || [];
+    allResults = data.resultats  || [];
+    // Mettre à jour le cache local
+    dmSaveDevoirs(devoirs);
+    localStorage.setItem('mathpratik_dm_results', JSON.stringify(allResults));
+  } catch (e) {
+    console.warn('Sheets inaccessible, fallback cache local');
+    devoirs    = dmLoadDevoirs();
+    try { allResults = JSON.parse(localStorage.getItem('mathpratik_dm_results') || '[]'); } catch(_) {}
+  }
+
+  window._dmAllResults = allResults;
+
+  const select = document.getElementById('dm-results-select');
+  select.innerHTML = '<option value="">— Choisir un devoir —</option>';
+  devoirs.forEach((d, i) => {
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = `${d.code} · ${d.name} · ${d.className}`;
+    select.appendChild(opt);
+  });
+
+  window._dmDevoirs = devoirs;
+
+  if (devoirs.length > 0) {
+    select.value = devoirs.length - 1;
+    dmResultsRender(devoirs.length - 1, devoirs, allResults);
+  } else {
+    document.getElementById('dm-results-dm-name').textContent = 'Aucun devoir créé';
+    document.getElementById('dm-results-table-container').innerHTML =
+      '<div class="dm-no-results">Aucun devoir créé pour l\'instant.</div>';
+  }
+}
+
+// Appelé depuis le <select> dans le HTML
+function dmResultsSelectDM(idx) {
+  const devoirs    = window._dmDevoirs    || dmLoadDevoirs();
+  let   allResults = window._dmAllResults || [];
+  if (!allResults.length) {
+    try { allResults = JSON.parse(localStorage.getItem('mathpratik_dm_results') || '[]'); } catch(_) {}
+  }
+  dmResultsRender(idx, devoirs, allResults);
+}
+
+function dmResultsRender(idx, devoirs, allResults) {
+  const devoir = devoirs[idx];
+  if (!devoir) return;
+
+  document.getElementById('dm-results-dm-name').textContent =
+    `${devoir.code} · ${devoir.name} · ${devoir.className}`;
+
+  const results = allResults.filter(r => r.dm_code === devoir.code);
+
+  // Stats
+  const statsRow = document.getElementById('dm-stats-row');
+  if (results.length === 0) {
+    statsRow.innerHTML = '';
+    document.getElementById('dm-results-table-container').innerHTML =
+      '<div class="dm-no-results">Aucun élève n\'a encore rendu ce devoir.</div>';
+    return;
+  }
+
+  const scores = results.map(r => {
+    const parts = (r.score || '0/0').split('/');
+    return parts[1] > 0 ? Math.round(parts[0] / parts[1] * 100) : 0;
+  });
+  const avg = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+  statsRow.innerHTML = [
+    { label: 'Élèves', val: results.length, color: 'var(--ac)' },
+    { label: 'Moyenne', val: `${avg}%`, color: avg >= 70 ? 'var(--ok)' : avg >= 50 ? '#b45309' : 'var(--err)' },
+    { label: 'Meilleur', val: `${Math.max(...scores)}%`, color: 'var(--ok)' },
+  ].map(s => `
+    <div style="flex:1;min-width:80px;background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-sm);padding:12px;text-align:center;">
+      <div style="font-size:1.35rem;font-weight:800;color:${s.color};">${s.val}</div>
+      <div style="font-size:0.72rem;color:var(--tx3);margin-top:2px;">${s.label}</div>
+    </div>`).join('');
+
+  // Tableau
+  const rows = results.map(r => {
+    const pct  = parseInt(r.pourcentage) || 0;
+    const cls  = pct >= 70 ? 'high' : pct >= 50 ? 'mid' : 'low';
+    const mins = Math.floor((r.duree_sec || 0) / 60);
+    const secs = (r.duree_sec || 0) % 60;
+    return `<tr>
+      <td>${escapeHtml(r.prenom)} ${escapeHtml(r.nom)}</td>
+      <td>${escapeHtml(r.classe || '—')}</td>
+      <td><span class="dm-score-pill ${cls}">${r.score}</span></td>
+      <td>${r.pourcentage}</td>
+      <td>${mins}m${String(secs).padStart(2,'0')}s</td>
+      <td style="font-size:0.78rem;color:var(--tx3);">${new Date(r.timestamp).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('dm-results-table-container').innerHTML = `
+    <div class="dm-results-table-wrap">
+      <table class="dm-results-table">
+        <thead><tr>
+          <th>Élève</th><th>Classe</th><th>Score</th><th>%</th><th>Durée</th><th>Date</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+function dmExportCSV() {
+  const select  = document.getElementById('dm-results-select');
+  const idx     = select.value;
+  const devoirs = window._dmDevoirs || dmLoadDevoirs();
+  const devoir  = devoirs[idx];
+  if (!devoir) { alert('Sélectionne un devoir d\'abord.'); return; }
+
+  let allResults = window._dmAllResults || [];
+  if (!allResults.length) {
+    try { allResults = JSON.parse(localStorage.getItem('mathpratik_dm_results') || '[]'); } catch(_) {}
+  }
+  const results = allResults.filter(r => r.dm_code === devoir.code);
+
+  if (results.length === 0) { alert('Aucun résultat à exporter.'); return; }
+
+  const headers = ['Prénom','Nom','Classe','Score','Pourcentage','Durée (s)','Date','Détail'];
+  const rows = results.map(r => [
+    r.prenom, r.nom, r.classe, r.score, r.pourcentage,
+    r.duree_sec, new Date(r.timestamp).toLocaleString('fr-FR'), r.detail
+  ].map(v => `"${String(v || '').replace(/"/g,'""')}"`));
+
+  const csv = [headers.join(';'), ...rows.map(r => r.join(';'))].join('\n');
+  const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  a.download = `DM_${devoir.code}_${devoir.className.replace(/\s/g,'_')}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ── INIT AUTO-DETECT AU DÉMARRAGE ────────────────────
+// Injecté après loadAllData via hook
+const _origLoadAllData = loadAllData;
+window.loadAllData = async function () {
+  await _origLoadAllData();
+  dmAutoDetect();
+};
 
