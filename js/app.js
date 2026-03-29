@@ -2066,7 +2066,7 @@ async function dmSubmitResults() {
     nom:          s.nom,
     classe:       s.classe,
     score:        `${score}/${total}`,
-    pourcentage:  `${pct}%`,
+    pourcentage:  `${pct}`,
     duree_sec:    duree,
     detail:       State.sessionResults.map((ok, i) => (ok ? '✓' : '✗')).join(''),
     notions:      (d.notions || []).map(n => n.label).join(', '),
@@ -2450,7 +2450,7 @@ function dmResultsRender(idx, devoirs, allResults) {
 
   // Tableau
   const rows = results.map(r => {
-    const pct  = parseInt(r.pourcentage) || 0;
+    const pct  = parseInt(String(r.pourcentage).replace('%','')) || 0;
     const cls  = pct >= 70 ? 'high' : pct >= 50 ? 'mid' : 'low';
     const mins = Math.floor((r.duree_sec || 0) / 60);
     const secs = (r.duree_sec || 0) % 60;
@@ -2458,7 +2458,7 @@ function dmResultsRender(idx, devoirs, allResults) {
       <td>${escapeHtml(r.prenom)} ${escapeHtml(r.nom)}</td>
       <td>${escapeHtml(r.classe || '—')}</td>
       <td><span class="dm-score-pill ${cls}">${r.score}</span></td>
-      <td>${r.pourcentage}</td>
+      <td>${r.pourcentage ? (String(r.pourcentage).includes('%') ? r.pourcentage : r.pourcentage + '%') : '—'}</td>
       <td>${mins}m${String(secs).padStart(2,'0')}s</td>
       <td style="font-size:0.78rem;color:var(--tx3);">${new Date(r.timestamp).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}</td>
     </tr>`;
