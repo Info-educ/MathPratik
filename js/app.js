@@ -1777,7 +1777,7 @@ function readerJump() {
 
 // ── CONFIG ────────────────────────────────────────────
 // URL du Google Apps Script (webhook). Remplacer par l'URL réelle après déploiement.
-const DM_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxyl_pw3x3UZCbytVQ5hFV6pROyNF71-PoKMlgYeIUBzMuEZg_KIPr02Zj7XVr0Cvg6aA/exec';
+const DM_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxwMlawwtwPfMBETa4wNUHnYbA_u1KUl-iNidePH6IPz8Z488Mr7FTATBkBNkhpw8DdDg/exec';
 
 // Cache localStorage (ne sert qu'au lien direct — le code passe par Google Sheets)
 const DM_STORE_KEY = 'mathpratik_devoirs_cache';
@@ -2426,39 +2426,50 @@ function dmResultsRender(idx, devoirs, allResults) {
     return;
   }
 
-  const scores = results.map(r => {
-    // Essayer d'abord le champ pourcentage directement
-    const pctStr = (r.pourcentage || '').replace('%', '').trim();
-    const pctDirect = parseFloat(pctStr);
-    if (!isNaN(pctDirect) && pctDirect > 0) return Math.round(pctDirect);
-    // Fallback : calculer depuis score "X/Y"
+  // Calcul des scores bruts (num/den) pour chaque élève
+  const rawScores = results.map(r => {
     const parts = (r.score || '0/0').split('/');
     const num = parseFloat(parts[0]);
     const den = parseFloat(parts[1]);
-    return (den > 0 && !isNaN(num) && !isNaN(den)) ? Math.round(num / den * 100) : 0;
+    return { num: isNaN(num) ? 0 : num, den: isNaN(den) ? 0 : den };
   });
-  const avg = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+
+  // Total de questions du DM (den majoritaire parmi les résultats)
+  const totalQ = devoir.totalQ || (rawScores.find(s => s.den > 0) || {}).den || 0;
+
+  // Moyenne sur totalQ (ex : 7,3/10)
+  const avgNum = rawScores.reduce((acc, s) => acc + s.num, 0) / rawScores.length;
+  const avgSur = totalQ > 0 ? `${(avgNum).toFixed(1).replace('.',',')} / ${totalQ}` : `${Math.round(avgNum)}`;
+
+  // Couleur basée sur le ratio
+  const avgRatio = totalQ > 0 ? avgNum / totalQ : 0;
+  const avgColor = avgRatio >= 0.7 ? 'var(--ok)' : avgRatio >= 0.5 ? '#b45309' : 'var(--err)';
+
+  // Meilleur score brut
+  const bestNum = Math.max(...rawScores.map(s => s.num));
+  const bestSur = totalQ > 0 ? `${bestNum} / ${totalQ}` : `${bestNum}`;
+
   statsRow.innerHTML = [
-    { label: 'Élèves', val: results.length, color: 'var(--ac)' },
-    { label: 'Moyenne', val: `${avg}%`, color: avg >= 70 ? 'var(--ok)' : avg >= 50 ? '#b45309' : 'var(--err)' },
-    { label: 'Meilleur', val: `${Math.max(...scores)}%`, color: 'var(--ok)' },
+    { label: 'Élèves',  val: results.length, color: 'var(--ac)' },
+    { label: `Moyenne / ${totalQ || '?'}`, val: avgSur, color: avgColor },
+    { label: `Meilleur / ${totalQ || '?'}`, val: bestSur, color: 'var(--ok)' },
   ].map(s => `
     <div style="flex:1;min-width:80px;background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-sm);padding:12px;text-align:center;">
-      <div style="font-size:1.35rem;font-weight:800;color:${s.color};">${s.val}</div>
+      <div style="font-size:1.2rem;font-weight:800;color:${s.color};">${s.val}</div>
       <div style="font-size:0.72rem;color:var(--tx3);margin-top:2px;">${s.label}</div>
     </div>`).join('');
 
-  // Tableau
-  const rows = results.map(r => {
-    const pct  = parseInt(String(r.pourcentage).replace('%','')) || 0;
-    const cls  = pct >= 70 ? 'high' : pct >= 50 ? 'mid' : 'low';
-    const mins = Math.floor((r.duree_sec || 0) / 60);
-    const secs = (r.duree_sec || 0) % 60;
+  // Tableau — sans colonne %
+  const rows = results.map((r, i) => {
+    const { num, den } = rawScores[i];
+    const ratio = den > 0 ? num / den : 0;
+    const cls   = ratio >= 0.7 ? 'high' : ratio >= 0.5 ? 'mid' : 'low';
+    const mins  = Math.floor((r.duree_sec || 0) / 60);
+    const secs  = (r.duree_sec || 0) % 60;
     return `<tr>
       <td>${escapeHtml(r.prenom)} ${escapeHtml(r.nom)}</td>
       <td>${escapeHtml(r.classe || '—')}</td>
       <td><span class="dm-score-pill ${cls}">${r.score}</span></td>
-      <td>${r.pourcentage ? (String(r.pourcentage).includes('%') ? r.pourcentage : r.pourcentage + '%') : '—'}</td>
       <td>${mins}m${String(secs).padStart(2,'0')}s</td>
       <td style="font-size:0.78rem;color:var(--tx3);">${new Date(r.timestamp).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}</td>
     </tr>`;
@@ -2468,7 +2479,7 @@ function dmResultsRender(idx, devoirs, allResults) {
     <div class="dm-results-table-wrap">
       <table class="dm-results-table">
         <thead><tr>
-          <th>Élève</th><th>Classe</th><th>Score</th><th>%</th><th>Durée</th><th>Date</th>
+          <th>Élève</th><th>Classe</th><th>Score</th><th>Durée</th><th>Date</th>
         </tr></thead>
         <tbody>${rows}</tbody>
       </table>
