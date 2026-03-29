@@ -1383,6 +1383,881 @@
     }
     .rlt-tab.active { border-color: var(--ac); color: var(--ac); background: var(--ac-bg); }
 
+  
+    /* ═══════════════════════════════════════════════════
+       DEVOIRS TEMPS-LIBRE — MODULE ENSEIGNANT (création)
+    ═══════════════════════════════════════════════════ */
+    .dm-section-title {
+      font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.12em; color: var(--tx3); margin-bottom: 10px;
+    }
+    .dm-field-group { margin-bottom: 20px; }
+    .dm-label {
+      display: block; font-size: 0.82rem; font-weight: 600;
+      color: var(--tx2); margin-bottom: 6px;
+    }
+    .dm-input {
+      width: 100%; padding: 12px 14px;
+      border: 1.5px solid var(--bd-med); border-radius: var(--r-sm);
+      background: var(--raised); color: var(--tx);
+      font-family: var(--font-sans); font-size: 0.92rem;
+      transition: border-color .15s;
+    }
+    .dm-input:focus { outline: none; border-color: var(--ac); }
+    .dm-input[type="date"] { cursor: pointer; }
+
+    /* Sélecteur de notions pour le DM */
+    .dm-notion-pick {
+      display: flex; flex-direction: column; gap: 6px;
+      max-height: 280px; overflow-y: auto;
+      border: 1.5px solid var(--bd-med); border-radius: var(--r-sm);
+      padding: 8px;
+    }
+    .dm-notion-pick::-webkit-scrollbar { width: 3px; }
+    .dm-notion-pick::-webkit-scrollbar-thumb { background: var(--bd-med); border-radius: 3px; }
+
+    .dm-np-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 12px; border-radius: 8px;
+      border: 1.5px solid transparent; cursor: pointer;
+      transition: background .15s, border-color .15s;
+      position: relative;
+    }
+    .dm-np-item::before {
+      content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+      width: 3px; background: var(--item-color, var(--ac));
+      border-radius: 8px 0 0 8px;
+    }
+    .dm-np-item.selected {
+      border-color: var(--item-color, var(--ac));
+      background: color-mix(in srgb, var(--item-color, var(--ac)) 7%, var(--raised));
+    }
+    .dm-np-cb {
+      width: 18px; height: 18px; border-radius: 4px; flex-shrink: 0;
+      border: 2px solid var(--bd-med); background: var(--subtle);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7rem; color: white; font-weight: 700;
+      transition: background .12s, border-color .12s;
+    }
+    .dm-np-item.selected .dm-np-cb {
+      background: var(--item-color, var(--ac));
+      border-color: var(--item-color, var(--ac));
+    }
+    .dm-np-item.selected .dm-np-cb::after { content: '✓'; }
+    .dm-np-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .dm-np-label { font-size: 0.85rem; font-weight: 600; color: var(--tx); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .dm-np-badge { font-size: 0.68rem; color: var(--tx3); background: var(--subtle); padding: 2px 7px; border-radius: 10px; flex-shrink: 0; }
+
+    /* Curseurs niveaux */
+    .dm-levels-row { display: flex; flex-direction: column; gap: 12px; }
+    .dm-level-row { display: flex; align-items: center; gap: 12px; }
+    .dm-level-label { font-size: 0.82rem; font-weight: 600; color: var(--tx2); min-width: 80px; }
+    .dm-level-slider { flex: 1; accent-color: var(--ac); }
+    .dm-level-val {
+      min-width: 28px; text-align: center;
+      font-size: 0.88rem; font-weight: 700; color: var(--ac);
+      background: var(--ac-bg); border-radius: 6px; padding: 2px 6px;
+    }
+
+    /* Bouton générer */
+    .dm-generate-btn {
+      width: 100%; padding: 16px; border: none; border-radius: var(--r-md);
+      background: var(--ac); color: #fff;
+      font-family: var(--font-sans); font-size: 1rem; font-weight: 700;
+      cursor: pointer; transition: opacity .2s, transform .15s;
+      margin-top: 8px;
+    }
+    .dm-generate-btn:disabled { opacity: .45; cursor: not-allowed; }
+    .dm-generate-btn:not(:disabled):active { transform: scale(0.98); }
+
+    /* ═══════════════════════════════════════════════════
+       DEVOIRS TEMPS-LIBRE — RÉSULTAT (code + lien)
+    ═══════════════════════════════════════════════════ */
+    .dm-result-card {
+      background: var(--raised); border: 1.5px solid var(--bd-med);
+      border-radius: var(--r-lg); padding: 24px 20px;
+      box-shadow: var(--shadow);
+    }
+    .dm-code-display {
+      text-align: center; margin-bottom: 20px;
+    }
+    .dm-code-big {
+      font-family: var(--font-sans); font-size: 2.8rem; font-weight: 900;
+      letter-spacing: 0.12em; color: var(--ac);
+      background: var(--ac-bg); border: 2px solid var(--ac);
+      border-radius: var(--r-md); padding: 14px 24px;
+      display: inline-block; margin-bottom: 8px;
+    }
+    .dm-code-hint { font-size: 0.78rem; color: var(--tx3); }
+    .dm-copy-btn {
+      width: 100%; padding: 13px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--raised);
+      font-family: var(--font-sans); font-size: 0.88rem; font-weight: 600;
+      color: var(--tx2); cursor: pointer; transition: all .15s;
+      margin-bottom: 10px;
+    }
+    .dm-copy-btn:active { background: var(--hover); }
+    .dm-copy-btn.copied { border-color: var(--ok); color: var(--ok); background: var(--ok-bg); }
+    .dm-summary-row {
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.82rem; padding: 8px 0;
+      border-bottom: 1px solid var(--bd);
+    }
+    .dm-summary-row:last-child { border-bottom: none; }
+    .dm-summary-label { color: var(--tx3); }
+    .dm-summary-val { font-weight: 600; color: var(--tx); text-align: right; max-width: 65%; }
+
+    /* ═══════════════════════════════════════════════════
+       DEVOIRS TEMPS-LIBRE — CÔTÉ ÉLÈVE (accès + identification)
+    ═══════════════════════════════════════════════════ */
+    .dm-student-hero {
+      padding: 32px 20px 24px; text-align: center;
+    }
+    .dm-student-hero .dm-icon { font-size: 3rem; margin-bottom: 12px; }
+    .dm-student-hero h2 {
+      font-family: var(--font-serif); font-style: italic;
+      font-size: 1.7rem; font-weight: 400; color: var(--tx);
+      margin-bottom: 6px; letter-spacing: -0.01em;
+    }
+    .dm-student-hero p { font-size: 0.88rem; color: var(--tx2); }
+
+    .dm-code-input-wrap { position: relative; }
+    .dm-code-input {
+      width: 100%; padding: 16px 48px 16px 16px;
+      border: 2px solid var(--bd-med); border-radius: var(--r-md);
+      background: var(--raised); color: var(--tx);
+      font-family: var(--font-sans); font-size: 1.5rem;
+      font-weight: 800; letter-spacing: 0.1em; text-align: center;
+      text-transform: uppercase; transition: border-color .15s;
+    }
+    .dm-code-input:focus { outline: none; border-color: var(--ac); }
+    .dm-code-input::placeholder { font-size: 0.9rem; font-weight: 400; letter-spacing: 0; color: var(--tx3); }
+    .dm-code-err { font-size: 0.82rem; color: var(--err); margin-top: 6px; min-height: 20px; text-align: center; }
+
+    .dm-rgpd-notice {
+      font-size: 0.75rem; color: var(--tx3); line-height: 1.55;
+      background: var(--subtle); border-radius: var(--r-sm);
+      padding: 10px 14px; margin-top: 16px;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       DEVOIRS TEMPS-LIBRE — SOUMISSION / CONFIRMATION
+    ═══════════════════════════════════════════════════ */
+    .dm-submit-screen { padding: 48px 24px; text-align: center; }
+    .dm-submit-icon { font-size: 3.5rem; margin-bottom: 16px; animation: pop .5s var(--ease); }
+    .dm-submit-title {
+      font-family: var(--font-serif); font-style: italic; font-size: 1.7rem;
+      font-weight: 400; color: var(--tx); margin-bottom: 8px;
+    }
+    .dm-submit-sub { color: var(--tx2); font-size: 0.9rem; margin-bottom: 24px; line-height: 1.6; }
+    .dm-submit-score {
+      font-size: 3rem; font-weight: 900; color: var(--ac);
+      font-family: var(--font-serif); margin-bottom: 8px;
+    }
+    .dm-submit-sending {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      font-size: 0.85rem; color: var(--tx3); margin-top: 16px;
+    }
+    .dm-spinner {
+      width: 18px; height: 18px; border: 2px solid var(--bd-med);
+      border-top-color: var(--ac); border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       DEVOIRS TEMPS-LIBRE — TABLEAU RÉSULTATS (module enseignant)
+    ═══════════════════════════════════════════════════ */
+    .dm-results-table-wrap { overflow-x: auto; }
+    .dm-results-table {
+      width: 100%; border-collapse: collapse;
+      font-size: 0.82rem;
+    }
+    .dm-results-table th {
+      background: var(--subtle); color: var(--tx2);
+      font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em;
+      padding: 8px 12px; text-align: left; border-bottom: 2px solid var(--bd);
+      white-space: nowrap;
+    }
+    .dm-results-table td {
+      padding: 10px 12px; border-bottom: 1px solid var(--bd);
+      color: var(--tx); vertical-align: middle;
+    }
+    .dm-results-table tr:last-child td { border-bottom: none; }
+    .dm-results-table tr:hover td { background: var(--hover); }
+    .dm-score-pill {
+      padding: 3px 10px; border-radius: 100px;
+      font-weight: 700; font-size: 0.78rem;
+    }
+    .dm-score-pill.high { background: var(--ok-bg); color: var(--ok); }
+    .dm-score-pill.mid  { background: #fef9c3; color: #92400e; }
+    .dm-score-pill.low  { background: var(--err-bg); color: var(--err); }
+    .dm-no-results {
+      text-align: center; color: var(--tx3);
+      font-size: 0.88rem; padding: 32px 20px; line-height: 1.6;
+    }
+    .dm-export-btn {
+      padding: 10px 18px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--raised);
+      font-family: var(--font-sans); font-size: 0.82rem; font-weight: 600;
+      color: var(--tx2); cursor: pointer; transition: all .15s;
+    }
+    .dm-export-btn:active { background: var(--hover); }
+
+    /* UTILS */
+    .hidden { display:none !important; }
+    ::-webkit-scrollbar { width:3px; }
+    ::-webkit-scrollbar-track { background:transparent; }
+    ::-webkit-scrollbar-thumb { background:var(--bd-med); border-radius:3px; }
+
+    /* ══════════════════════════════════════════════════════
+       NOTION 8 — DIVISEURS MULTI-SÉLECTION
+    ══════════════════════════════════════════════════════ */
+    .divmulti-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      width: 100%;
+      padding-bottom: 4px;
+    }
+
+    /* Nombre affiché en grand */
+    .divmulti-nombre {
+      font-size: 3.2rem;
+      font-weight: 900;
+      color: var(--ac);
+      background: var(--ac-bg);
+      border: 3px solid var(--ac);
+      border-radius: 20px;
+      padding: 10px 40px;
+      letter-spacing: -2px;
+      line-height: 1;
+      box-shadow: 0 4px 16px rgba(0,0,0,.10);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Instruction */
+    .divmulti-hint {
+      font-size: 0.82rem;
+      color: var(--tx3);
+      text-align: center;
+    }
+    .divmulti-hint strong { color: var(--tx2); }
+
+    /* Grille de cases à cocher */
+    .divmulti-grille {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      width: 100%;
+      max-width: 320px;
+    }
+
+    /* Bouton diviseur */
+    .divmulti-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1px;
+      background: var(--subtle);
+      border: 2.5px solid var(--bd);
+      border-radius: 14px;
+      padding: 12px 4px 10px;
+      cursor: pointer;
+      transition: border-color .13s, background .13s, transform .1s, box-shadow .13s;
+      position: relative;
+      user-select: none;
+    }
+    .divmulti-btn:active { transform: scale(.92); }
+
+    /* Checkbox visuelle en haut à droite */
+    .divmulti-btn::before {
+      content: '';
+      position: absolute;
+      top: 5px; right: 5px;
+      width: 13px; height: 13px;
+      border: 2px solid var(--bd);
+      border-radius: 4px;
+      background: var(--bg);
+      transition: background .13s, border-color .13s;
+    }
+    .divmulti-btn.selected::before {
+      background: var(--ac);
+      border-color: var(--ac);
+      content: '✓';
+      font-size: 9px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .divmulti-btn.selected {
+      border-color: var(--ac);
+      background: var(--ac-bg);
+      box-shadow: 0 0 0 3px rgba(79,70,229,.15);
+    }
+
+    .divmulti-op {
+      font-size: 0.9rem;
+      color: var(--tx3);
+      font-weight: 600;
+      line-height: 1;
+    }
+    .divmulti-num {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--tx);
+      line-height: 1;
+    }
+
+    /* États après validation */
+    .divmulti-btn.div-ok {
+      background: var(--ok-bg) !important;
+      border-color: var(--ok) !important;
+      box-shadow: 0 0 0 2px var(--ok) !important;
+    }
+    .divmulti-btn.div-ok .divmulti-op,
+    .divmulti-btn.div-ok .divmulti-num { color: var(--ok) !important; }
+    .divmulti-btn.div-ok::before {
+      content: '✓' !important;
+      background: var(--ok) !important;
+      border-color: var(--ok) !important;
+      font-size: 9px; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    .divmulti-btn.div-manque {
+      background: #fef9c3 !important;
+      border-color: #ca8a04 !important;
+      border-style: dashed !important;
+    }
+    .divmulti-btn.div-manque .divmulti-op,
+    .divmulti-btn.div-manque .divmulti-num { color: #92400e !important; }
+    .divmulti-btn.div-manque::before {
+      content: '○' !important;
+      background: #fef3c7 !important;
+      border-color: #ca8a04 !important;
+      font-size: 9px; color: #92400e;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    .divmulti-btn.div-wrong {
+      background: var(--err-bg) !important;
+      border-color: var(--err) !important;
+    }
+    .divmulti-btn.div-wrong .divmulti-op,
+    .divmulti-btn.div-wrong .divmulti-num { color: var(--err) !important; }
+    .divmulti-btn.div-wrong::before {
+      content: '✗' !important;
+      background: var(--err) !important;
+      border-color: var(--err) !important;
+      font-size: 9px; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    .divmulti-btn.div-neutre {
+      opacity: .45;
+    }
+
+    /* Bouton valider */
+    .divmulti-valider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--ac);
+      color: #fff;
+      border: none;
+      border-radius: 14px;
+      padding: 14px 0;
+      width: 100%;
+      max-width: 320px;
+      font-size: 0.97rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity .15s, transform .1s;
+      box-shadow: 0 3px 10px rgba(79,70,229,.25);
+    }
+    .divmulti-valider:active { transform: scale(.97); opacity: .9; }
+    .divmulti-valider span { font-size: 1.1rem; }
+
+    /* Légende post-validation */
+    .divmulti-legend {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    .leg-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 9px;
+      border-radius: 20px;
+    }
+    .leg-ok     { background: var(--ok-bg);  color: var(--ok);  border: 1px solid var(--ok); }
+    .leg-manque { background: #fef9c3;        color: #92400e;    border: 1px solid #ca8a04; }
+    .leg-wrong  { background: var(--err-bg); color: var(--err); border: 1px solid var(--err); }
+
+    /* ══════════════════════════════════════════════════════
+       NOTION 22 — TABLEAU DE PROPORTIONNALITÉ
+    ══════════════════════════════════════════════════════ */
+    .proportion-wrap {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+    .proportion-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 1px 6px rgba(0,0,0,.10);
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+    .proportion-table th {
+      background: var(--ac);
+      color: #fff;
+      font-weight: 700;
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+    .proportion-table td {
+      background: var(--subtle);
+      border: 1px solid var(--bd);
+      padding: 12px 14px;
+      text-align: center;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--tx);
+    }
+    .proportion-table tr:nth-child(2) td { background: var(--bg); }
+    .case-inconnue {
+      background: var(--ac) !important;
+      color: #fff !important;
+      font-size: 1.4rem !important;
+      font-weight: 800 !important;
+      border-color: var(--ac) !important;
+      animation: pulse-cell .8s ease infinite alternate;
+    }
+    @keyframes pulse-cell {
+      from { opacity: .8; }
+      to   { opacity: 1; box-shadow: inset 0 0 0 2px rgba(255,255,255,.4); }
+    }
+    .case-resolue-ok {
+      background: var(--ok-bg) !important;
+      color: var(--ok) !important;
+      border-color: var(--ok) !important;
+      animation: none !important;
+    }
+    .case-resolue-ko {
+      background: var(--err-bg) !important;
+      color: var(--err) !important;
+      border-color: var(--err) !important;
+      animation: none !important;
+    }
+    .proportion-coeff {
+      font-size: 0.82rem;
+      color: var(--tx2);
+      background: var(--ac-bg);
+      border: 1px solid var(--bd);
+      border-radius: 8px;
+      padding: 6px 12px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .proportion-coeff strong { color: var(--ac); font-weight: 800; }
+    .proportion-qlabel {
+      font-size: 0.85rem;
+      color: var(--tx3);
+      text-align: center;
+      margin-bottom: 4px;
+      font-style: italic;
+    }
+
+    /* ══════════════════════════════════════════════════════
+       NOTION 35 — PROGRAMME DE CALCUL
+    ══════════════════════════════════════════════════════ */
+    .programme-wrap {
+      background: var(--subtle);
+      border: 2px solid var(--bd);
+      border-radius: 16px;
+      padding: 16px 14px;
+      margin-bottom: 14px;
+      width: 100%;
+    }
+    .programme-title {
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--ac);
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .programme-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-bottom: 14px;
+    }
+    .prog-box {
+      border-radius: 10px;
+      padding: 8px 11px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-align: center;
+      white-space: pre-line;
+      line-height: 1.2;
+    }
+    .prog-box--start {
+      background: #e0f2fe;
+      color: #0369a1;
+      border: 2px solid #7dd3fc;
+    }
+    .prog-box--step {
+      background: var(--ac);
+      color: #fff;
+      border: 2px solid var(--ac);
+      min-width: 44px;
+      font-size: 1rem;
+    }
+    .prog-box--end {
+      background: #f0fdf4;
+      color: #15803d;
+      border: 2px solid #86efac;
+    }
+    .prog-arrow {
+      font-size: 1.2rem;
+      color: var(--tx3);
+      font-weight: 700;
+      padding: 0 2px;
+    }
+    .programme-n-label {
+      text-align: center;
+      font-size: 0.92rem;
+      color: var(--tx2);
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 8px 12px;
+      border: 1px solid var(--bd);
+    }
+    .programme-n-label strong {
+      color: var(--ac);
+      font-size: 1.1rem;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       MODULE ENSEIGNANT — OVERLAY LOGIN
+    ═══════════════════════════════════════════════════ */
+    .teacher-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 200;
+      background: rgba(0,0,0,0.55);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      align-items: center; justify-content: center;
+      padding: 20px;
+    }
+    .teacher-overlay.open { display: flex; animation: fadeIn .2s ease; }
+    @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+
+    .teacher-login-card {
+      background: var(--raised);
+      border: 1px solid var(--bd-med);
+      border-radius: var(--r-xl);
+      padding: 32px 28px 28px;
+      width: 100%; max-width: 360px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+      animation: popIn .25s cubic-bezier(0.34,1.56,0.64,1);
+    }
+    @keyframes popIn { from{opacity:0;transform:scale(0.88)} to{opacity:1;transform:scale(1)} }
+
+    .tl-icon { font-size: 2.4rem; text-align: center; margin-bottom: 8px; }
+    .tl-title {
+      font-family: var(--font-serif); font-size: 1.4rem; font-style: italic;
+      text-align: center; margin-bottom: 4px; color: var(--tx);
+    }
+    .tl-sub { font-size: 0.82rem; color: var(--tx2); text-align: center; margin-bottom: 24px; }
+
+    .tl-pin-row {
+      display: flex; gap: 10px; justify-content: center; margin-bottom: 20px;
+    }
+    .tl-pin-digit {
+      width: 52px; height: 62px;
+      border: 2px solid var(--bd-med); border-radius: var(--r-sm);
+      background: var(--subtle);
+      font-size: 1.6rem; font-weight: 700; text-align: center;
+      color: var(--tx); font-family: var(--font-sans);
+      transition: border-color .15s;
+      cursor: default; user-select: none;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .tl-pin-digit.filled { border-color: var(--ac); background: var(--ac-bg); }
+    .tl-pin-digit.error  { border-color: var(--err); background: var(--err-bg); animation: shake .3s; }
+    @keyframes shake {
+      0%,100%{transform:translateX(0)} 25%{transform:translateX(-5px)} 75%{transform:translateX(5px)}
+    }
+
+    .tl-numpad {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+      margin-bottom: 16px;
+    }
+    .tl-key {
+      height: 52px; border: 1.5px solid var(--bd-med);
+      border-radius: var(--r-sm); background: var(--raised);
+      font-size: 1.1rem; font-weight: 600; color: var(--tx);
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: background .12s, transform .1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .tl-key:active { background: var(--hover); transform: scale(0.94); }
+    .tl-key.del { font-size: 1rem; color: var(--tx2); }
+    .tl-key.enter {
+      background: var(--tx); color: var(--bg);
+      grid-column: span 3; height: 48px;
+      border-color: var(--tx);
+    }
+    .tl-key.enter:active { opacity: 0.8; }
+
+    .tl-cancel-btn {
+      width: 100%; padding: 10px;
+      border: none; background: transparent; cursor: pointer;
+      font-size: 0.82rem; color: var(--tx3);
+      font-family: var(--font-sans);
+    }
+    .tl-error-msg {
+      text-align: center; font-size: 0.8rem; color: var(--err);
+      margin-top: -12px; margin-bottom: 10px; min-height: 18px;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       MODULE ENSEIGNANT — ÉCRAN PRINCIPAL
+    ═══════════════════════════════════════════════════ */
+    #screen-teacher { padding-bottom: calc(80px + var(--safe-bottom)); }
+
+    .teacher-banner {
+      background: linear-gradient(135deg, #1e1b4b 0%, #312e81 60%, #4338ca 100%);
+      padding: 24px 20px 20px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .teacher-banner-icon { font-size: 2rem; }
+    .teacher-banner-text h2 {
+      font-family: var(--font-serif); font-size: 1.25rem; font-style: italic;
+      color: #e0e7ff; margin-bottom: 2px;
+    }
+    .teacher-banner-text p { font-size: 0.78rem; color: #a5b4fc; }
+
+    .teacher-filters {
+      padding: 16px 20px 8px;
+      display: flex; gap: 8px; overflow-x: auto;
+      scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    }
+    .teacher-filters::-webkit-scrollbar { display: none; }
+    .tf-chip {
+      flex-shrink: 0; padding: 7px 16px;
+      border: 1.5px solid var(--bd-med); border-radius: 100px;
+      font-size: 0.78rem; font-weight: 600; color: var(--tx2);
+      background: var(--raised); cursor: pointer;
+      transition: all .15s; white-space: nowrap;
+    }
+    .tf-chip.active {
+      border-color: var(--ac); color: var(--ac); background: var(--ac-bg);
+    }
+
+    .teacher-notion-list {
+      padding: 8px 20px 16px;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .tn-card {
+      background: var(--raised); border: 1.5px solid var(--bd-med);
+      border-radius: var(--r-md); padding: 14px 16px;
+      display: flex; align-items: center; gap: 12px;
+      cursor: pointer; transition: border-color .15s, background .15s;
+      position: relative; overflow: hidden;
+    }
+    .tn-card::before {
+      content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+      width: 4px; background: var(--notion-color, var(--ac));
+      border-radius: var(--r-md) 0 0 var(--r-md);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .tn-card:hover { border-color: var(--notion-color, var(--ac)); background: var(--hover); }
+    }
+    .tn-card:active { transform: scale(0.99); }
+    .tn-icon { font-size: 1.4rem; flex-shrink: 0; }
+    .tn-info { flex: 1; min-width: 0; }
+    .tn-info .name { font-size: 0.9rem; font-weight: 600; color: var(--tx); }
+    .tn-info .meta { font-size: 0.72rem; color: var(--tx2); margin-top: 2px; }
+    .tn-arrow { color: var(--tx3); font-size: 0.9rem; }
+
+    /* ═══════════════════════════════════════════════════
+       MODULE ENSEIGNANT — LECTEUR DE QUESTIONS
+    ═══════════════════════════════════════════════════ */
+    #screen-teacher-reader { padding-bottom: calc(80px + var(--safe-bottom)); }
+
+    .reader-top-bar {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--nav-bg); backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--bd);
+      padding: calc(var(--safe-top) + 14px) 20px 14px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .reader-notion-title {
+      flex: 1; font-size: 0.88rem; font-weight: 600; color: var(--tx);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+
+    .reader-nav-bar {
+      position: sticky; bottom: calc(var(--safe-bottom) + 0px); z-index: 50;
+      background: var(--nav-bg); backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid var(--bd);
+      padding: 12px 20px calc(12px + var(--safe-bottom));
+      display: flex; align-items: center; gap: 12px;
+    }
+    .rnav-btn {
+      height: 44px; padding: 0 20px;
+      border: 1.5px solid var(--bd-med); border-radius: var(--r-sm);
+      background: var(--raised); color: var(--tx2);
+      font-family: var(--font-sans); font-size: 0.85rem; font-weight: 600;
+      cursor: pointer; transition: all .15s; flex-shrink: 0;
+    }
+    .rnav-btn:disabled { opacity: .35; cursor: default; }
+    .rnav-btn:not(:disabled):active { background: var(--hover); transform: scale(0.97); }
+    .rnav-progress {
+      flex: 1; text-align: center;
+      font-size: 0.78rem; color: var(--tx3); font-weight: 600;
+    }
+    .rnav-progress strong { color: var(--tx); font-size: 0.95rem; }
+
+    .reader-content { padding: 20px 20px 16px; }
+
+    .reader-q-header {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+    }
+    .reader-q-num {
+      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--tx3);
+    }
+    .reader-level-badge {
+      padding: 3px 10px; border-radius: 100px;
+      font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .reader-level-badge.niv1 { background: #ecfdf5; color: #059669; }
+    .reader-level-badge.niv2 { background: #eff6ff; color: #2563eb; }
+    .reader-level-badge.niv3 { background: #fef3c7; color: #b45309; }
+    @media (prefers-color-scheme: dark) {
+      .reader-level-badge.niv1 { background: #032018; color: #34d399; }
+      .reader-level-badge.niv2 { background: #0c1a3a; color: #60a5fa; }
+      .reader-level-badge.niv3 { background: #271a00; color: #fbbf24; }
+    }
+    html[data-theme="dark"] .reader-level-badge.niv1 { background: #032018; color: #34d399; }
+    html[data-theme="dark"] .reader-level-badge.niv2 { background: #0c1a3a; color: #60a5fa; }
+    html[data-theme="dark"] .reader-level-badge.niv3 { background: #271a00; color: #fbbf24; }
+    html[data-theme="light"] .reader-level-badge.niv1 { background: #ecfdf5; color: #059669; }
+    html[data-theme="light"] .reader-level-badge.niv2 { background: #eff6ff; color: #2563eb; }
+    html[data-theme="light"] .reader-level-badge.niv3 { background: #fef3c7; color: #b45309; }
+    .reader-calc-badge {
+      margin-left: auto; font-size: 0.7rem; color: var(--tx3);
+      background: var(--subtle); padding: 3px 8px; border-radius: 6px;
+    }
+
+    .reader-enonce {
+      font-size: 0.95rem; line-height: 1.6; color: var(--tx);
+      margin-bottom: 16px;
+    }
+    .reader-image {
+      width: 100%; max-width: 340px; border-radius: var(--r-sm);
+      border: 1px solid var(--bd); margin-bottom: 16px; display: block;
+    }
+    .reader-choices { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+    .reader-choice {
+      padding: 12px 14px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--raised);
+      font-size: 0.88rem; color: var(--tx); line-height: 1.4;
+      display: flex; gap: 10px; align-items: flex-start;
+    }
+    .reader-choice.is-answer {
+      border-color: #059669; background: #ecfdf5; color: #065f46;
+    }
+    @media (prefers-color-scheme: dark) {
+      .reader-choice.is-answer { background: #032018; color: #34d399; border-color: #065f46; }
+    }
+    html[data-theme="dark"] .reader-choice.is-answer { background: #032018; color: #34d399; border-color: #065f46; }
+    html[data-theme="light"] .reader-choice.is-answer { border-color: #059669; background: #ecfdf5; color: #065f46; }
+    .reader-choice-letter {
+      width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0;
+      background: var(--subtle); color: var(--tx3);
+      font-size: 0.7rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      border: 1.5px solid var(--bd-med);
+    }
+    .reader-choice.is-answer .reader-choice-letter {
+      background: #059669; color: #fff; border-color: #059669;
+    }
+    @media (prefers-color-scheme: dark) {
+      .reader-choice.is-answer .reader-choice-letter { background: #065f46; }
+    }
+    html[data-theme="dark"] .reader-choice.is-answer .reader-choice-letter { background: #065f46; }
+    html[data-theme="light"] .reader-choice.is-answer .reader-choice-letter { background: #059669; }
+    .reader-explication {
+      background: var(--ac-bg); border: 1.5px solid rgba(79,70,229,0.2);
+      border-radius: var(--r-sm); padding: 14px 16px;
+      font-size: 0.84rem; line-height: 1.55; color: var(--tx2);
+    }
+    .reader-explication strong {
+      display: block; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--ac); margin-bottom: 6px;
+    }
+    .reader-id-badge {
+      font-size: 0.68rem; color: var(--tx3); margin-top: 12px;
+      font-family: monospace;
+    }
+
+    .reader-jump-row {
+      display: flex; align-items: center; gap: 8px; margin-top: 8px;
+    }
+    .reader-jump-label { font-size: 0.78rem; color: var(--tx3); }
+    .reader-jump-input {
+      width: 60px; height: 34px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--subtle);
+      text-align: center; font-size: 0.88rem; font-weight: 600; color: var(--tx);
+      font-family: var(--font-sans);
+    }
+    .reader-jump-btn {
+      height: 34px; padding: 0 14px;
+      border: 1.5px solid var(--bd-med); border-radius: var(--r-sm);
+      background: var(--raised); color: var(--tx2);
+      font-family: var(--font-sans); font-size: 0.8rem; font-weight: 600;
+      cursor: pointer;
+    }
+    .reader-jump-btn:active { background: var(--hover); }
+
+    /* Level filter tabs in reader */
+    .reader-level-tabs {
+      display: flex; gap: 6px; padding: 0 20px 12px;
+    }
+    .rlt-tab {
+      flex: 1; padding: 8px 4px; border-radius: var(--r-sm);
+      border: 1.5px solid var(--bd-med); background: var(--raised);
+      font-size: 0.75rem; font-weight: 700; color: var(--tx3);
+      cursor: pointer; text-align: center; transition: all .15s;
+    }
+    .rlt-tab.active { border-color: var(--ac); color: var(--ac); background: var(--ac-bg); }
+
+  
+  
   </style>
 
   <!-- KaTeX — rendu mathématique (angles, fractions, racines…) v0.16.9 — version fixée pour maintien 5 ans -->
@@ -1426,6 +2301,20 @@
 
     <div class="section-label">Choisir un niveau</div>
     <div class="niveau-grid" id="niveau-grid"><!-- JS --></div>
+
+    <!-- Bouton Devoirs temps-libre élève -->
+    <div class="section-label" style="margin-top:8px;">Devoirs temps-libre</div>
+    <div style="padding:0 20px 20px;">
+      <div class="niveau-card" style="--nc:#fde047" onclick="dmCheckUrlAndGo()">
+        <div class="nv-info" style="padding-left:4px;">
+          <h2>📝 Devoirs temps-libre</h2>
+          <p style="font-size:0.78rem;color:var(--tx3);margin-top:3px;">Accéder au devoir de ton enseignant·e</p>
+        </div>
+        <div class="nv-right">
+          <span class="nv-arrow">›</span>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- ═══════════════════════════════════ NOTIONS ════ -->
@@ -1569,76 +2458,6 @@
     </div>
   </div>
 
-
-  <!-- ══════════════════════════════════ BREVET 3ème ════ -->
-  <div id="screen-brevet" class="screen">
-    <div class="top-bar">
-      <button class="btn-icon btn-back visible" onclick="showSelect('3eme')">←</button>
-      <div class="logo">Math<em>Pratik</em></div>
-      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
-    </div>
-
-    <div class="notions-header">
-      <div class="nv-chip" style="background:color-mix(in srgb,#dc2626 12%,var(--raised));color:#dc2626;border-color:color-mix(in srgb,#dc2626 30%,transparent);">🟥 3ème · Brevet</div>
-      <h2>Préparation au <em>Brevet</em></h2>
-      <p>Annales officielles et automatismes brevet</p>
-    </div>
-
-    <div style="display:flex;gap:0;margin:0 20px 20px;border-radius:var(--r-md);overflow:hidden;border:1.5px solid var(--bd-med);">
-      <button id="brevet-tab-annales" class="brevet-tab active" onclick="showBrevetTab('annales')">📄 Annales</button>
-      <button id="brevet-tab-automatismes" class="brevet-tab" onclick="showBrevetTab('automatismes')">⚡ Automatismes</button>
-    </div>
-
-    <div id="brevet-pane-annales" class="brevet-pane">
-      <div style="padding:0 20px 28px;">
-        <div style="background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);">
-          <div style="background:linear-gradient(135deg,#7c0a02,#dc2626);padding:24px 20px 20px;">
-            <div style="font-size:2rem;margin-bottom:8px;">📄</div>
-            <div style="font-family:var(--font-serif);font-style:italic;font-size:1.25rem;color:#fff;margin-bottom:4px;">Annales du Brevet</div>
-            <div style="font-size:0.78rem;color:rgba(255,255,255,0.75);">APMEP — Association des Professeurs de Mathématiques</div>
-          </div>
-          <div style="padding:20px;">
-            <p style="font-size:0.88rem;color:var(--tx2);line-height:1.6;margin-bottom:16px;">Retrouve toutes les annales officielles du Brevet des collèges en mathématiques, classées par session et par académie.</p>
-            <div style="display:flex;flex-direction:column;gap:8px;">
-              <div style="display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);"><span style="color:#dc2626;">✓</span> Sujets sessions précédentes</div>
-              <div style="display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);"><span style="color:#dc2626;">✓</span> Éléments de correction</div>
-              <div style="display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);"><span style="color:#dc2626;">✓</span> Classement par académie et session</div>
-            </div>
-            <a href="https://www.apmep.fr/Annales-du-Brevet-des-colleges" target="_blank" rel="noopener noreferrer"
-               style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:20px;background:#dc2626;color:#fff;text-decoration:none;padding:15px 20px;border-radius:var(--r-md);font-weight:700;font-family:var(--font-sans);font-size:0.94rem;">
-              Accéder aux annales APMEP <span>↗</span>
-            </a>
-            <p style="font-size:0.72rem;color:var(--tx3);text-align:center;margin-top:10px;">Lien vers apmep.fr · S'ouvre dans un nouvel onglet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="brevet-pane-automatismes" class="brevet-pane" style="display:none;">
-      <div style="padding:0 20px 28px;">
-        <div style="background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);">
-          <div style="background:linear-gradient(135deg,#1e1b4b,#7c3aed);padding:24px 20px 20px;">
-            <div style="font-size:2rem;margin-bottom:8px;">⚡</div>
-            <div style="font-family:var(--font-serif);font-style:italic;font-size:1.25rem;color:#fff;margin-bottom:4px;">Automatismes Brevet</div>
-            <div style="font-size:0.78rem;color:rgba(255,255,255,0.75);">MathsMentales · Entraînement brevet 2025</div>
-          </div>
-          <div style="padding:20px;">
-            <p style="font-size:0.88rem;color:var(--tx2);line-height:1.6;margin-bottom:16px;">Entraîne-toi sur les automatismes attendus au Brevet : calcul mental, priorités, fractions, relatifs, puissances…</p>
-            <div style="display:flex;flex-direction:column;gap:8px;">
-              <div style="display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);"><span style="color:#7c3aed;">✓</span> Exercices chronométrés</div>
-              <div style="display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);"><span style="color:#7c3aed;">✓</span> Progression par compétences</div>
-              <div style="display:flex;align-items:center;gap:10px;font-size:0.82rem;color:var(--tx2);"><span style="color:#7c3aed;">✓</span> Spécial préparation Brevet 2025</div>
-            </div>
-            <a href="https://mathsmentales.net/brevet-2025.html" target="_blank" rel="noopener noreferrer"
-               style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:20px;background:#7c3aed;color:#fff;text-decoration:none;padding:15px 20px;border-radius:var(--r-md);font-weight:700;font-family:var(--font-sans);font-size:0.94rem;">
-              Accéder aux automatismes <span>↗</span>
-            </a>
-            <p style="font-size:0.72rem;color:var(--tx3);text-align:center;margin-top:10px;">Lien vers mathsmentales.net · S'ouvre dans un nouvel onglet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div id="teacher-login-overlay" class="teacher-overlay" onclick="teacherOverlayClose(event)">
     <div class="teacher-login-card" onclick="event.stopPropagation()">
       <div class="tl-icon">🔐</div>
@@ -1689,6 +2508,18 @@
       </div>
     </div>
 
+    <!-- Actions module enseignant -->
+    <div style="padding:12px 20px 0;display:flex;gap:10px;flex-wrap:wrap;">
+      <button onclick="showScreen('screen-dm-create');dmInitCreate()"
+        style="flex:1;min-width:140px;padding:12px 16px;border-radius:var(--r-sm);border:1.5px solid rgba(129,140,248,0.4);background:rgba(129,140,248,0.1);color:#818cf8;font-family:var(--font-sans);font-size:0.85rem;font-weight:700;cursor:pointer;text-align:left;">
+        ➕ Créer un devoir temps-libre
+      </button>
+      <button onclick="dmShowResults()"
+        style="flex:1;min-width:140px;padding:12px 16px;border-radius:var(--r-sm);border:1.5px solid rgba(129,140,248,0.4);background:rgba(129,140,248,0.1);color:#818cf8;font-family:var(--font-sans);font-size:0.85rem;font-weight:700;cursor:pointer;text-align:left;">
+        📊 Voir les résultats
+      </button>
+    </div>
+
     <div class="teacher-filters" id="teacher-filters">
       <!-- JS : chips de niveau -->
     </div>
@@ -1725,8 +2556,221 @@
     </div>
   </div>
 
-</div>
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — ACCÈS ÉLÈVE ════ -->
+  <div id="screen-dm-access" class="screen">
+    <div class="top-bar">
+      <button class="btn-icon btn-back visible" onclick="showHome()">←</button>
+      <div class="logo">Math<em>Pratik</em></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()">🌙</button>
+    </div>
+    <div class="dm-student-hero">
+      <div class="dm-icon">📝</div>
+      <h2>Devoir temps-libre</h2>
+      <p>Saisis le code donné par ton enseignant·e</p>
+    </div>
+    <div style="padding: 0 20px 28px;">
+      <div class="dm-field-group">
+        <label class="dm-label">Code du devoir</label>
+        <div class="dm-code-input-wrap">
+          <input class="dm-code-input" id="dm-code-input" type="text"
+            maxlength="8" placeholder="ex : DM-4F2A"
+            oninput="dmCodeInput(this)" autocomplete="off" autocorrect="off" spellcheck="false">
+        </div>
+        <div class="dm-code-err" id="dm-code-err"></div>
+      </div>
+      <button class="dm-generate-btn" id="dm-access-btn" onclick="dmAccessByCode()" disabled>
+        Accéder au devoir →
+      </button>
+      <div class="dm-rgpd-notice">
+        🔒 Tes données (prénom, nom, score) seront transmises uniquement à ton enseignant·e via Google Sheets. Elles ne sont pas utilisées à d'autres fins.
+      </div>
+    </div>
+  </div>
 
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — IDENTIFICATION ÉLÈVE ════ -->
+  <div id="screen-dm-identity" class="screen">
+    <div class="top-bar">
+      <button class="btn-icon btn-back visible" onclick="showScreen('screen-dm-access')">←</button>
+      <div class="logo">Math<em>Pratik</em></div>
+      <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()">🌙</button>
+    </div>
+    <div class="dm-student-hero">
+      <div class="dm-icon">🧑‍🎓</div>
+      <h2 id="dm-identity-title">Devoir temps-libre</h2>
+      <p id="dm-identity-sub">Renseigne tes informations avant de commencer</p>
+    </div>
+    <div style="padding: 0 20px 28px;">
+      <div class="dm-field-group">
+        <label class="dm-label" for="dm-prenom">Prénom</label>
+        <input class="dm-input" id="dm-prenom" type="text" placeholder="Ton prénom" autocomplete="given-name">
+      </div>
+      <div class="dm-field-group">
+        <label class="dm-label" for="dm-nom">Nom</label>
+        <input class="dm-input" id="dm-nom" type="text" placeholder="Ton nom de famille" autocomplete="family-name">
+      </div>
+      <div class="dm-field-group">
+        <label class="dm-label" for="dm-classe">Classe</label>
+        <input class="dm-input" id="dm-classe" type="text" placeholder="ex : 4ème B" autocomplete="off">
+      </div>
+      <div id="dm-deadline-warn" class="hidden" style="background:var(--err-bg);border:1.5px solid var(--err);border-radius:var(--r-sm);padding:12px 14px;font-size:0.83rem;color:var(--err);margin-bottom:16px;"></div>
+      <button class="dm-generate-btn" id="dm-start-btn" onclick="dmStartQuiz()">
+        Commencer le devoir →
+      </button>
+      <div class="dm-rgpd-notice">
+        🔒 Tes données (prénom, nom, classe, score) seront transmises uniquement à ton enseignant·e. Une seule tentative est autorisée.
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — CONFIRMATION ENVOI ════ -->
+  <div id="screen-dm-submitted" class="screen">
+    <div class="top-bar">
+      <div class="logo">Math<em>Pratik</em></div>
+    </div>
+    <div class="dm-submit-screen">
+      <div class="dm-submit-icon" id="dm-submit-icon">✅</div>
+      <div class="dm-submit-title" id="dm-submit-title">Devoir temps-libre envoyé !</div>
+      <div class="dm-submit-score" id="dm-submit-score">—</div>
+      <div class="dm-submit-sub" id="dm-submit-sub">Ton résultat a été transmis à ton enseignant·e.</div>
+      <div class="dm-submit-sending hidden" id="dm-submit-sending">
+        <div class="dm-spinner"></div>
+        <span>Envoi en cours…</span>
+      </div>
+      <button class="btn-secondary" style="margin-top:24px;max-width:280px;width:100%;" onclick="showHome()">
+        🏠 Retour à l'accueil
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — CRÉATION (enseignant) ════ -->
+  <div id="screen-dm-create" class="screen">
+    <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
+      <button class="btn-icon btn-back visible" onclick="showTeacherModule()" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
+      <div class="logo" style="color:#e0e7ff;">Créer un <em style="color:#818cf8;">devoir temps-libre</em></div>
+    </div>
+    <div style="padding: 20px 20px 100px;">
+
+      <div class="dm-field-group">
+        <label class="dm-label" for="dm-name">Nom du devoir temps-libre</label>
+        <input class="dm-input" id="dm-name" type="text" placeholder="ex : DM Pythagore – 4ème B" oninput="dmCheckForm()">
+      </div>
+
+      <div class="dm-field-group">
+        <label class="dm-label" for="dm-class-name">Classe ciblée</label>
+        <input class="dm-input" id="dm-class-name" type="text" placeholder="ex : 4ème B" oninput="dmCheckForm()">
+      </div>
+
+      <div class="dm-field-group">
+        <label class="dm-label" for="dm-deadline">Date limite de rendu</label>
+        <input class="dm-input" id="dm-deadline" type="date" oninput="dmCheckForm()">
+      </div>
+
+      <div class="dm-field-group">
+        <label class="dm-label">Notions à réviser <span id="dm-notions-count" style="color:var(--ac);font-style:italic;"></span></label>
+        <div class="dm-notion-pick" id="dm-notion-pick"><!-- JS --></div>
+      </div>
+
+      <div class="dm-field-group">
+        <label class="dm-label">Nombre de questions par niveau</label>
+        <div class="dm-levels-row">
+          <div class="dm-level-row">
+            <span class="dm-level-label">★ Niveau 1</span>
+            <input type="range" class="dm-level-slider" id="dm-lv1" min="0" max="20" value="5" oninput="dmUpdateLevel(1,this.value)">
+            <span class="dm-level-val" id="dm-lv1-val">5</span>
+          </div>
+          <div class="dm-level-row">
+            <span class="dm-level-label">★★ Niveau 2</span>
+            <input type="range" class="dm-level-slider" id="dm-lv2" min="0" max="20" value="5" oninput="dmUpdateLevel(2,this.value)">
+            <span class="dm-level-val" id="dm-lv2-val">5</span>
+          </div>
+          <div class="dm-level-row">
+            <span class="dm-level-label">★★★ Niveau 3</span>
+            <input type="range" class="dm-level-slider" id="dm-lv3" min="0" max="10" value="2" oninput="dmUpdateLevel(3,this.value)">
+            <span class="dm-level-val" id="dm-lv3-val">2</span>
+          </div>
+        </div>
+        <div style="margin-top:8px;font-size:0.8rem;color:var(--tx3);">
+          Total : <strong id="dm-total-q" style="color:var(--ac);">12</strong> questions
+        </div>
+      </div>
+
+      <button class="dm-generate-btn" id="dm-gen-btn" onclick="dmGenerate()" disabled>
+        Générer le devoir temps-libre →
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — CODE GÉNÉRÉ ════ -->
+  <div id="screen-dm-generated" class="screen">
+    <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
+      <button class="btn-icon btn-back visible" onclick="showScreen('screen-dm-create')" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
+      <div class="logo" style="color:#e0e7ff;">Devoir temps-libre <em style="color:#818cf8;">généré</em></div>
+    </div>
+    <div style="padding: 20px;">
+      <div class="dm-result-card" style="margin-bottom:16px;">
+        <div class="dm-code-display">
+          <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--tx3);margin-bottom:10px;">Code à donner aux élèves</div>
+          <div class="dm-code-big" id="dm-generated-code">DM-XXXX</div>
+          <div class="dm-code-hint">Code valable jusqu'à la date limite</div>
+        </div>
+        <button class="dm-copy-btn" id="dm-copy-code-btn" onclick="dmCopyCode()">📋 Copier le code</button>
+        <button class="dm-copy-btn" id="dm-copy-link-btn" onclick="dmCopyLink()">🔗 Copier le lien direct</button>
+      </div>
+
+      <div class="dm-result-card">
+        <div class="dm-section-title" style="margin-bottom:14px;">Récapitulatif</div>
+        <div id="dm-gen-summary"><!-- JS --></div>
+      </div>
+
+      <div style="margin-top:16px;padding:14px;background:var(--subtle);border-radius:var(--r-sm);font-size:0.82rem;color:var(--tx2);line-height:1.6;">
+        📊 Les résultats des élèves apparaîtront dans <strong>Google Sheets</strong> dès qu'ils soumettront leur devoir temps-libre. Pour y accéder, rendez-vous dans <em>Voir les résultats</em> ci-dessous.
+      </div>
+
+      <button class="dm-generate-btn" onclick="dmShowResults()" style="margin-top:16px;background:var(--ok);">
+        📊 Voir les résultats
+      </button>
+      <button class="btn-secondary" style="width:100%;margin-top:10px;padding:14px;" onclick="showTeacherModule()">
+        ← Retour au module enseignant
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ DEVOIRS TEMPS-LIBRE — RÉSULTATS ENSEIGNANT ════ -->
+  <div id="screen-dm-results" class="screen">
+    <div class="top-bar" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
+      <button class="btn-icon btn-back visible" onclick="showTeacherModule()" style="border-color:rgba(255,255,255,0.2);color:#e0e7ff;background:rgba(255,255,255,0.08);">←</button>
+      <div class="logo" style="color:#e0e7ff;">Résultats <em style="color:#818cf8;">élèves</em></div>
+    </div>
+    <div style="padding:20px 20px 100px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;gap:12px;flex-wrap:wrap;">
+        <div>
+          <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--tx3);margin-bottom:2px;">Devoir temps-libre sélectionné</div>
+          <div id="dm-results-dm-name" style="font-size:0.95rem;font-weight:700;color:var(--tx);">—</div>
+        </div>
+        <button class="dm-export-btn" onclick="dmExportCSV()">⬇ Exporter CSV</button>
+      </div>
+
+      <!-- Sélecteur de devoir temps-libre -->
+      <div class="dm-field-group">
+        <label class="dm-label" for="dm-results-select">Changer de devoir temps-libre</label>
+        <select class="dm-input" id="dm-results-select" onchange="dmResultsSelectDM(this.value)" style="cursor:pointer;">
+          <option value="">— Choisir un devoir temps-libre —</option>
+        </select>
+      </div>
+
+      <!-- Stats rapides -->
+      <div style="display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;" id="dm-stats-row"><!-- JS --></div>
+
+      <!-- Tableau -->
+      <div class="dm-results-table-wrap">
+        <div id="dm-results-table-container">
+          <div class="dm-no-results">Aucun résultat pour l'instant.<br>Les élèves apparaîtront ici dès qu'ils auront soumis leur devoir temps-libre.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 <script>
 /* ═══════════════════════════════════════════════════════════════
