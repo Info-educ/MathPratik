@@ -777,7 +777,7 @@
       "module": "statistiques",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce": "Sur cet histogramme, quelle est la taille la plus fréquente et quel est l'effectif total ?",
       "image": "4eme/stats/0361589f8af4435fe08d9ca825d1f65e6b3f7af0.png",
       "choix": [
