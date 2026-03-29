@@ -355,7 +355,7 @@
     },
     {
       "id":               "te4_n1_027",
-      "niveau":           1,
+      "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Dans un triangle $ABC$, $\\widehat{BAC} = 3x$, $\\widehat{ABC} = 2x$, $\\widehat{ACB} = x$. Quelle est la valeur de $x$ ?",
@@ -377,7 +377,7 @@
     },
     {
       "id":               "te4_n1_029",
-      "niveau":           1,
+      "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Dans un triangle $ABC$, $\\widehat{BAC} = 2 \\times \\widehat{ABC}$ et $\\widehat{ACB} = \\widehat{ABC} + 20°$. Quelle est la valeur de $\\widehat{ABC}$ ?",
@@ -453,7 +453,7 @@
     },
     {
       "id":               "te4_n1_035",
-      "niveau":           1,
+      "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Dans un triangle $ABC$, $\\widehat{ABC} = \\widehat{BAC} + 30°$ et $\\widehat{ACB} = \\widehat{BAC} - 10°$. Quelle est la valeur approchée de $\\widehat{BAC}$ ?",
@@ -518,7 +518,7 @@
     },
     {
       "id":               "te4_n1_040",
-      "niveau":           1,
+      "niveau":           2,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Dans un triangle isocèle, si l'angle au sommet mesure $x°$, quelle formule donne la mesure de chaque angle de base ?",
@@ -769,7 +769,7 @@
     },
     {
       "id":               "te4_n2_016",
-      "niveau":           2,
+      "niveau":           1,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Un triangle a les côtés $3$ cm, $5$ cm et $7$ cm. Un autre triangle a aussi les côtés $3$ cm, $5$ cm et $7$ cm. Peut-on conclure ?",
@@ -785,7 +785,7 @@
     },
     {
       "id":               "te4_n2_017",
-      "niveau":           2,
+      "niveau":           1,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Dans le triangle isocèle $ABC$ avec $AB = AC = 8$ cm et $\\widehat{BAC} = 50°$. Quelle est la valeur de $\\widehat{ABC}$ ?",
@@ -823,7 +823,7 @@
     },
     {
       "id":               "te4_n2_020",
-      "niveau":           2,
+      "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Un losange $ABCD$ est coupé par sa diagonale $AC$. Quel critère prouve que les triangles $ABC$ et $ACD$ sont égaux ?",
@@ -834,7 +834,7 @@
     },
     {
       "id":               "te4_n2_021",
-      "niveau":           2,
+      "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Triangle isocèle $ABC$ en $A$ ($AB = AC = 6$ cm, $BC = 4$ cm). $H$ est le milieu de $BC$. Quel critère prouve que $ABH$ et $ACH$ sont égaux ?",
@@ -958,7 +958,7 @@
     },
     {
       "id":               "te4_n2_030",
-      "niveau":           2,
+      "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "$ABCD$ est un rectangle. Quel critère prouve que les triangles $ABC$ et $CDA$ sont égaux ?",
@@ -974,7 +974,7 @@
     },
     {
       "id":               "te4_n3_001",
-      "niveau":           3,
+      "niveau":           2,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Sur la figure CAC, quelle justification prouve que $ABC$ et $A'B'C'$ sont égaux ?",
@@ -990,7 +990,7 @@
     },
     {
       "id":               "te4_n3_002",
-      "niveau":           3,
+      "niveau":           2,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Sur la figure, les triangles $ABC$ et $DEF$ ont un codage identique sur leurs côtés. Quelle conclusion peut-on tirer ?",
@@ -1006,7 +1006,7 @@
     },
     {
       "id":               "te4_n3_003",
-      "niveau":           3,
+      "niveau":           2,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "$\\widehat{BAC} = \\widehat{B'A'C'} = 70°$, $\\widehat{ABC} = \\widehat{A'B'C'} = 50°$, $BC = B'C' = 8$ cm. Quel critère prouve que $ABC$ et $A'B'C'$ sont égaux ?",
@@ -1193,7 +1193,7 @@
     },
     {
       "id":               "te4_n3_015",
-      "niveau":           3,
+      "niveau":           1,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "$ABC$ isocèle en $A$ avec $\\widehat{BAC} = 20°$. Quelles sont les mesures de $\\widehat{ABC}$ et $\\widehat{ACB}$ ?",
@@ -1209,7 +1209,7 @@
     },
     {
       "id":               "te4_n3_016",
-      "niveau":           3,
+      "niveau":           2,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "Deux triangles équilatéraux ont le même côté $a$. Quel critère justifie qu'ils sont toujours égaux ?",
@@ -1228,7 +1228,7 @@
       "niveau":           3,
       "type":             "qcm",
       "avec_calculatrice": false,
-      "enonce_html":      "Triangle isocèle $ABC$ en $A$ ($AB = AC = 6$ cm, $BC = 4$ cm). $H$ est le milieu de $BC$. Quel critère prouve que $ABH \\cong ACH$ ? Que peut-on dire de la médiane $AH$ ?",
+      "enonce_html":      "Triangle isocèle $ABC$ en $A$ ($AB = AC = 6$ cm, $BC = 4$ cm). $H$ est le milieu de $BC$. Quel critère prouve que ABH et ACH sont égaux ? Que peut-on dire de la médiane $AH$ ?",
       "image":            null,
       "choix":            [
         "ACA — car $\\widehat{ABH} = \\widehat{ACH}$",
@@ -1237,7 +1237,7 @@
         "Les triangles ne sont pas égaux"
       ],
       "reponse":          "CCC — $AB = AC$, $BH = HC$, $AH = AH$",
-      "explication":      "$AB = AC = 6$ cm, $BH = HC = 2$ cm ($H$ milieu de $BC$), $AH = AH$ (côté commun). CCC → $ABH \\cong ACH$. La médiane est aussi la hauteur et la médiatrice de $BC$."
+      "explication":      "$AB = AC = 6$ cm, $BH = HC = 2$ cm ($H$ milieu de $BC$), $AH = AH$ (côté commun). CCC → ABH et ACH sont égaux. La médiane est aussi la hauteur et la médiatrice de $BC$."
     },
     {
       "id":               "te4_n3_018",
@@ -1257,7 +1257,7 @@
     },
     {
       "id":               "te4_n3_019",
-      "niveau":           3,
+      "niveau":           2,
       "type":             "qcm",
       "avec_calculatrice": false,
       "enonce_html":      "$ABC$ et $A'B'C'$ : $\\widehat{BAC} = \\widehat{B'A'C'} = 55°$, $\\widehat{BCA} = \\widehat{B'C'A'} = 75°$, $BC = B'C' = 9$ cm. Les triangles sont-ils égaux et par quel critère ?",
@@ -1270,22 +1270,6 @@
       ],
       "reponse":          "Oui — ACA",
       "explication":      "$\\widehat{BAC} = \\widehat{B'A'C'} = 55°$, $\\widehat{BCA} = \\widehat{B'C'A'} = 75°$, $BC = B'C' = 9$ cm. $\\widehat{ABC} = \\widehat{A'B'C'} = 180° - 55° - 75° = 50°$. $BC$ est le côté compris entre les angles $B$ et $C$ → Critère ACA → triangles égaux."
-    },
-    {
-      "id":               "te4_n3_020",
-      "niveau":           3,
-      "type":             "qcm",
-      "avec_calculatrice": false,
-      "enonce_html":      "Triangle $ABC$ : $\\widehat{BAC} = x + 10°$, $\\widehat{ABC} = 2x - 5°$, $\\widehat{BCA} = x + 15°$. Quelle est la valeur de $x$ et quel est le type du triangle ?",
-      "image":            null,
-      "choix":            [
-        "$x = 40°$, triangle scalène",
-        "$x = 32°$, triangle scalène",
-        "$x = 30°$, triangle rectangle",
-        "$x = 36°$, triangle équilatéral"
-      ],
-      "reponse":          "$x = 40°$, triangle scalène",
-      "explication":      "$(x + 10°) + (2x - 5°) + (x + 15°) = 4x + 20° = 180°$ → $4x = 160°$ → $x = 40°$. $\\widehat{BAC} = 50°$, $\\widehat{ABC} = 75°$, $\\widehat{BCA} = 55°$. Aucun angle ne se répète → triangle scalène."
     }
   ]
 }
