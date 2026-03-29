@@ -952,7 +952,7 @@ function afficherFeedback(isCorrect, question) {
   } else {
     fb.className = 'feedback-box wrong';
     document.getElementById('feedback-icon').textContent  = '✗';
-    document.getElementById('feedback-title').textContent = '✗ Erreur — Retour à zéro !';
+    document.getElementById('feedback-title').textContent = State._dmMode ? '✗ Mauvaise réponse' : '✗ Erreur — Retour à zéro !';
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
@@ -1008,7 +1008,7 @@ function handleAnswer(chosen, question) {
   } else {
     fb.className = 'feedback-box wrong';
     document.getElementById('feedback-icon').textContent  = '✗';
-    document.getElementById('feedback-title').textContent = '✗ Erreur — Retour à zéro !';
+    document.getElementById('feedback-title').textContent = State._dmMode ? '✗ Mauvaise réponse' : '✗ Erreur — Retour à zéro !';
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
