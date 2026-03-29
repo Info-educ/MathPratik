@@ -2777,33 +2777,23 @@
       <div class="logo" style="color:#fff;">🎓 Brevet <em style="color:#fca5a5;">des collèges</em></div>
       <button class="btn-icon btn-theme-toggle" onclick="toggleDarkMode()" title="Changer le thème" aria-label="Basculer mode sombre / clair">🌙</button>
     </div>
-
-    <!-- Onglets -->
     <div style="display:flex;">
-      <button id="brevet-tab-annales" class="brevet-tab active"
-        onclick="showBrevetTab('annales')">📄 Annales</button>
-      <button id="brevet-tab-automatismes" class="brevet-tab"
-        onclick="showBrevetTab('automatismes')">⚡ Automatismes</button>
+      <button id="brevet-tab-annales" class="brevet-tab active" onclick="showBrevetTab('annales')">📄 Annales</button>
+      <button id="brevet-tab-automatismes" class="brevet-tab" onclick="showBrevetTab('automatismes')">⚡ Automatismes</button>
     </div>
-
-    <!-- Pane Annales -->
-    <div id="brevet-pane-annales" style="padding:20px 20px 100px;">
+    <div id="brevet-pane-annales" class="brevet-pane" style="padding:20px 20px 100px;">
       <div style="text-align:center;padding:40px 20px;color:var(--tx3);">
         <div style="font-size:3rem;margin-bottom:16px;">📄</div>
         <div style="font-size:1rem;font-weight:700;color:var(--tx);margin-bottom:8px;">Annales du Brevet</div>
         <div style="font-size:0.85rem;line-height:1.5;">Ce module sera disponible prochainement.<br>Les annales officielles seront intégrées ici.</div>
       </div>
     </div>
-
-    <!-- Pane Automatismes -->
-    <div id="brevet-pane-automatismes" style="padding:20px 20px 100px;display:none;">
+    <div id="brevet-pane-automatismes" class="brevet-pane" style="padding:20px 20px 100px;display:none;">
       <div style="text-align:center;padding:40px 20px;color:var(--tx3);">
         <div style="font-size:3rem;margin-bottom:16px;">⚡</div>
         <div style="font-size:1rem;font-weight:700;color:var(--tx);margin-bottom:8px;">Automatismes Brevet</div>
         <div style="font-size:0.85rem;line-height:1.5;">Retrouve ici les automatismes adaptés<br>à la préparation du Brevet.</div>
-        <button class="btn-primary" style="margin-top:24px;" onclick="showHome()">
-          Accéder aux automatismes →
-        </button>
+        <button class="btn-primary" style="margin-top:24px;" onclick="showHome()">Accéder aux automatismes →</button>
       </div>
     </div>
   </div>
