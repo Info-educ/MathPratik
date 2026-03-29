@@ -2439,37 +2439,36 @@ function dmResultsRender(idx, devoirs, allResults) {
 
   // Moyenne sur totalQ (ex : 7,3/10)
   const avgNum = rawScores.reduce((acc, s) => acc + s.num, 0) / rawScores.length;
-  const avgSur = totalQ > 0 ? `${(avgNum).toFixed(1).replace('.',',')} / ${totalQ}` : `${Math.round(avgNum)}`;
+  const avgSur = totalQ > 0 ? `${(avgNum).toFixed(1).replace('.',',')} / ${totalQ}` : `${(avgNum).toFixed(1).replace('.',',')}`;
 
   // Couleur basée sur le ratio
   const avgRatio = totalQ > 0 ? avgNum / totalQ : 0;
   const avgColor = avgRatio >= 0.7 ? 'var(--ok)' : avgRatio >= 0.5 ? '#b45309' : 'var(--err)';
 
-  // Meilleur score brut
-  const bestNum = Math.max(...rawScores.map(s => s.num));
-  const bestSur = totalQ > 0 ? `${bestNum} / ${totalQ}` : `${bestNum}`;
+  // Afficher uniquement la moyenne de classe
+  statsRow.innerHTML = `
+    <div style="background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-sm);padding:14px 24px;text-align:center;">
+      <div style="font-size:1.35rem;font-weight:800;color:${avgColor};">${avgSur}</div>
+      <div style="font-size:0.75rem;color:var(--tx3);margin-top:3px;">Moyenne de la classe</div>
+    </div>`;
 
-  statsRow.innerHTML = [
-    { label: 'Élèves',  val: results.length, color: 'var(--ac)' },
-    { label: `Moyenne / ${totalQ || '?'}`, val: avgSur, color: avgColor },
-    { label: `Meilleur / ${totalQ || '?'}`, val: bestSur, color: 'var(--ok)' },
-  ].map(s => `
-    <div style="flex:1;min-width:80px;background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-sm);padding:12px;text-align:center;">
-      <div style="font-size:1.2rem;font-weight:800;color:${s.color};">${s.val}</div>
-      <div style="font-size:0.72rem;color:var(--tx3);margin-top:2px;">${s.label}</div>
-    </div>`).join('');
-
-  // Tableau — sans colonne %
+  // Tableau — questions réussies / ratées / note
   const rows = results.map((r, i) => {
     const { num, den } = rawScores[i];
-    const ratio = den > 0 ? num / den : 0;
-    const cls   = ratio >= 0.7 ? 'high' : ratio >= 0.5 ? 'mid' : 'low';
+    const dmTotal = totalQ > 0 ? totalQ : den;
+    const reussies = num;
+    const ratees   = dmTotal > 0 ? dmTotal - num : den - num;
+    const ratio    = dmTotal > 0 ? num / dmTotal : (den > 0 ? num / den : 0);
+    const clsNote  = ratio >= 0.7 ? 'high' : ratio >= 0.5 ? 'mid' : 'low';
+    const noteStr  = dmTotal > 0 ? `${num} / ${dmTotal}` : r.score;
     const mins  = Math.floor((r.duree_sec || 0) / 60);
     const secs  = (r.duree_sec || 0) % 60;
     return `<tr>
       <td>${escapeHtml(r.prenom)} ${escapeHtml(r.nom)}</td>
       <td>${escapeHtml(r.classe || '—')}</td>
-      <td><span class="dm-score-pill ${cls}">${r.score}</span></td>
+      <td style="color:var(--ok);font-weight:700;">✅ ${reussies}</td>
+      <td style="color:var(--err);font-weight:700;">❌ ${ratees}</td>
+      <td><span class="dm-score-pill ${clsNote}">${noteStr}</span></td>
       <td>${mins}m${String(secs).padStart(2,'0')}s</td>
       <td style="font-size:0.78rem;color:var(--tx3);">${new Date(r.timestamp).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}</td>
     </tr>`;
@@ -2479,7 +2478,7 @@ function dmResultsRender(idx, devoirs, allResults) {
     <div class="dm-results-table-wrap">
       <table class="dm-results-table">
         <thead><tr>
-          <th>Élève</th><th>Classe</th><th>Score</th><th>Durée</th><th>Date</th>
+          <th>Élève</th><th>Classe</th><th>✅ Réussies</th><th>❌ Ratées</th><th>Note</th><th>Durée</th><th>Date</th>
         </tr></thead>
         <tbody>${rows}</tbody>
       </table>
