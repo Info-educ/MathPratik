@@ -1219,9 +1219,14 @@ function prettifyExpr(expr) {
   s = s.replace(/Math\.sqrt\(([^)]*)\)/g, (_, i) => '√' + (i ? i : ''));
   s = s.replace(/Math\.sqrt\(([^)]*)$/g,  (_, i) => '√' + (i ? i : ''));
   // (base)**exp  →  base exposant Unicode (exposant complet)
-  s = s.replace(/\(([^()]+)\)\*\*(-?[\d.]+)/g, (_, base, exp) => base + toSup(exp));
+  // Boucle pour gérer les exposants chaînés
+  let prev;
+  do {
+    prev = s;
+    s = s.replace(/\(([^()]*)\)\*\*(-?[\d.]+)/g, (_, base, exp) => base + toSup(exp));
+  } while (s !== prev);
   // (base)**  en cours de saisie → base^
-  s = s.replace(/\(([^()]+)\)\*\*$/g, (_, base) => base + '^');
+  s = s.replace(/\(([^()]*)\)\*\*$/g, (_, base) => base + '^');
   // Supprimer parenthèses autour d'un nombre simple isolé : (25) → 25
   s = s.replace(/\((\d+(?:\.\d+)?)\)(?!\*\*)/g, '$1');
   return s;
