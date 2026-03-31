@@ -866,28 +866,6 @@
       "explication": "Toute fraction décimale représente bien un nombre décimal. En revanche, un nombre décimal peut s'écrire autrement qu'en fraction décimale (ex : $\\dfrac{6}{4} = 1{,}5$). Un entier est aussi un nombre décimal (partie décimale nulle)."
     },
     {
-      "id": "dec6_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Décompose $12\\,345{,}678$ avec des puissances de $10$. Quel terme correspond au chiffre $6$ ?",
-      "image": null,
-      "choix": ["$6 \\times 10$", "$6 \\times 10^{-1}$", "$6 \\times 10^{-2}$", "$6 \\times 0{,}001$"],
-      "reponse": "$6 \\times 10^{-1}$",
-      "explication": "Le $6$ occupe le rang des dixièmes. $1$ dixième $= \\dfrac{1}{10} = 10^{-1}$. Donc le $6$ vaut $6 \\times 10^{-1} = 0{,}6$."
-    },
-    {
-      "id": "dec6_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Trouve deux nombres décimaux dont la somme est $1$, l'un ayant $2$ chiffres après la virgule et l'autre $1$ chiffre. Laquelle de ces paires convient ?",
-      "image": null,
-      "choix": ["$0{,}75$ et $0{,}25$", "$0{,}35$ et $0{,}7$", "$0{,}5$ et $0{,}5$", "$0{,}4$ et $0{,}6$"],
-      "reponse": "$0{,}35$ et $0{,}7$",
-      "explication": "$0{,}35 + 0{,}7 = 1$ ✓. $0{,}35$ a $2$ décimales, $0{,}7$ en a $1$. La paire $0{,}75$ et $0{,}25$ : les deux ont $2$ décimales. $0{,}5 + 0{,}5$ : les deux ont $1$ décimale."
-    },
-    {
       "id": "dec6_n3_021",
       "niveau": 3,
       "type": "qcm",
@@ -930,17 +908,6 @@
       "choix": ["Oui, c'est correct", "Non, il faut $23{,}47 < 23{,}47 < 23{,}48$", "Non, l'encadrement au centième est $23{,}4 < 23{,}47 < 23{,}5$", "Non, on ne peut pas encadrer $23{,}47$ au centième"],
       "reponse": "Oui, c'est correct",
       "explication": "$23{,}46 < 23{,}47 < 23{,}48$ : ce sont bien deux valeurs à $2$ décimales consécutives encadrant $23{,}47$. C'est l'encadrement au centième. [Question générée]"
-    },
-    {
-      "id": "dec6_n3_025",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un élève écrit : « Le successeur de $0{,}9$ dans les décimaux à $1$ chiffre est $1{,}0$. » A-t-il raison ?",
-      "image": null,
-      "choix": ["Oui, car $0{,}9 + 0{,}1 = 1{,}0$", "Non, le successeur est $0{,}91$", "Non, le successeur est $0{,}99$", "Non, $0{,}9$ n'a pas de successeur"],
-      "reponse": "Oui, car $0{,}9 + 0{,}1 = 1{,}0$",
-      "explication": "Parmi les décimaux à $1$ chiffre après la virgule, le nombre qui suit $0{,}9$ est $0{,}9 + 0{,}1 = 1{,}0$. [Question générée]"
     },
     {
       "id": "dec6_n3_026",
