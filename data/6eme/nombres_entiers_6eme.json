@@ -724,7 +724,7 @@
       "enonce_html": "Sur une demi-droite d'unité $3$, le point P a pour abscisse $7$. À combien d'unités de l'origine se trouve-t-il ?",
       "image": null,
       "choix": ["$3$ unités", "$7$ unités", "$21$ unités", "$10$ unités"],
-      "reponse": "$7$ unités",
+      "reponse": "$21$ unités",
       "explication": "L'abscisse $7$ signifie que le point est à $7$ unités de l'origine, soit $7 \\times 3 = 21$ carreaux si l'unité vaut $3$ carreaux."
     },
     {
@@ -880,7 +880,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Quel est le plus petit entier à $5$ chiffres strictement supérieur à $99\\,999$ ?",
+      "enonce_html": "Quel est le plus petit entier à $6$ chiffres strictement supérieur à $99\\,999$ ?",
       "image": null,
       "choix": ["$99\\,999$", "$100\\,000$", "$100\\,001$", "$99\\,999 + 1$"],
       "reponse": "$100\\,000$",
@@ -995,7 +995,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "On place les chiffres $0, 0, 0, 9, 9, 9$ pour former le plus grand nombre à $3$ chiffres différents. Quel est ce nombre ?",
+      "enonce_html": "On place les chiffres $0 et 9$ pour former le plus grand nombre à $3$ chiffres différents. Quel est ce nombre ?",
       "image": null,
       "choix": ["$999$", "$990$", "$909$", "$099$"],
       "reponse": "$990$",
@@ -1095,17 +1095,6 @@
       "explication": "$1\\,000\\,000\\,000 + 280\\,000\\,000 + 995\\,000 + 90 = 1\\,280\\,995\\,090$."
     },
     {
-      "id": "ent6_n3_028",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On décompose $180\\,250\\,468\\,121$. Quel terme de la décomposition correspond aux milliards ?",
-      "image": null,
-      "choix": ["$100\\,000\\,000\\,000$", "$80\\,000\\,000\\,000$", "$180\\,000\\,000\\,000$", "$1\\,000\\,000\\,000$"],
-      "reponse": "$80\\,000\\,000\\,000$",
-      "explication": "$180\\,250\\,468\\,121 = 100\\,000\\,000\\,000 + 80\\,000\\,000\\,000 + ...$. Le terme des milliards est $80\\,000\\,000\\,000$. [Question générée]"
-    },
-    {
       "id": "ent6_n3_029",
       "niveau": 3,
       "type": "qcm",
@@ -1115,17 +1104,6 @@
       "choix": ["$100$", "$900$", "$1\\,000$", "$9\\,000$"],
       "reponse": "$1\\,000$",
       "explication": "Le premier chiffre est $4$, le dernier est $0$. Les $3$ chiffres du milieu peuvent valoir $0$ à $9$ chacun : $10 \\times 10 \\times 10 = 1\\,000$ nombres. [Question générée]"
-    },
-    {
-      "id": "ent6_n3_030",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un nombre est décomposé ainsi : $3 \\times 10^7 + 5 \\times 10^4 + 2 \\times 10^2$. Quel est ce nombre ?",
-      "image": null,
-      "choix": ["$30\\,050\\,200$", "$3\\,050\\,200$", "$300\\,050\\,020$", "$30\\,005\\,200$"],
-      "reponse": "$30\\,050\\,200$",
-      "explication": "$3 \\times 10^7 = 30\\,000\\,000$ ; $5 \\times 10^4 = 50\\,000$ ; $2 \\times 10^2 = 200$. Total $= 30\\,050\\,200$. [Question générée]"
     }
   ]
 }
