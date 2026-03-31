@@ -200,22 +200,6 @@
       "explication": "$ON = 3$ cm $< r = 5$ cm, donc N est à l'intérieur du cercle."
     },
     {
-      "id": "c6_n1_013",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la figure, trois points M, N et P sont représentés autour d'un cercle de centre O. Lequel est sur le cercle ?",
-      "image": "6eme/cercle/343ba2b8b7b00964c580d5be4e32ff2053247636.png",
-      "choix": [
-        "N",
-        "P",
-        "M",
-        "Aucun"
-      ],
-      "reponse": "M",
-      "explication": "Le point M est sur le cercle car il est exactement à la distance du rayon du centre O. N est à l'intérieur et P à l'extérieur."
-    },
-    {
       "id": "c6_n1_014",
       "niveau": 1,
       "type": "qcm",
@@ -664,22 +648,6 @@
       "explication": "Deux cercles ayant même centre et même rayon sont exactement le même cercle (confondus). Il faut au moins l'un de ces deux éléments différent pour avoir deux cercles distincts."
     },
     {
-      "id": "c6_n2_012",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la figure, $[OH]$ est perpendiculaire à $[AB]$ et H est le milieu de $[AB]$. Que peut-on dire de $[OH]$ ?",
-      "image": "6eme/cercle/54d6f5ac2570169a0ef4cb787e9d02327d726839.png",
-      "choix": [
-        "$[OH]$ est un rayon",
-        "$[OH]$ est une corde",
-        "$[OH]$ est la médiatrice de $[AB]$",
-        "$[OH]$ est un arc"
-      ],
-      "reponse": "$[OH]$ est la médiatrice de $[AB]$",
-      "explication": "$[OH]$ est perpendiculaire à $[AB]$ en son milieu H : c'est donc la médiatrice du segment $[AB]$."
-    },
-    {
       "id": "c6_n2_013",
       "niveau": 2,
       "type": "qcm",
@@ -717,7 +685,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un cercle de centre O et de rayon $5$ cm. Un point M est à $5$ cm de O, N à $3$ cm de O, P à $7$ cm de O. Lequel est à l'extérieur du cercle ?",
-      "image": "6eme/cercle/343ba2b8b7b00964c580d5be4e32ff2053247636.png",
+      "image": null,
       "choix": [
         "M",
         "N",
@@ -726,22 +694,6 @@
       ],
       "reponse": "P",
       "explication": "$OM = 5 = r$ (sur le cercle), $ON = 3 < r$ (intérieur), $OP = 7 > r$ (extérieur). Donc P est à l'extérieur."
-    },
-    {
-      "id": "c6_n2_016",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour trouver le centre d'un cercle passant par trois points A, B, C, on trace :",
-      "image": "6eme/cercle/832760711c8d962155fc6676a7f79e5f1acaaa1e.png",
-      "choix": [
-        "Les bissectrices des angles A, B, C",
-        "Les médianes du triangle ABC",
-        "Les médiatrices des côtés du triangle ABC",
-        "Les hauteurs du triangle ABC"
-      ],
-      "reponse": "Les médiatrices des côtés du triangle ABC",
-      "explication": "Les médiatrices de $[AB]$ et de $[BC]$ se coupent au centre O, car O est équidistant de A, B et C (tous sur le cercle)."
     },
     {
       "id": "c6_n2_017",
@@ -824,22 +776,6 @@
       "explication": "$OA = OB = r$ (deux rayons), donc le triangle OAB est isocèle en O (deux côtés égaux issus du même sommet)."
     },
     {
-      "id": "c6_n2_022",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La médiatrice d'une corde d'un cercle :",
-      "image": "6eme/cercle/2fc6edda34696a274cddbcf4c19784b001056c65.png",
-      "choix": [
-        "Est parallèle au diamètre",
-        "Passe toujours par le centre du cercle",
-        "Est perpendiculaire au diamètre",
-        "Est une corde"
-      ],
-      "reponse": "Passe toujours par le centre du cercle",
-      "explication": "La médiatrice d'une corde $[AB]$ est l'ensemble des points équidistants de A et B. Comme le centre O vérifie $OA = OB$ (rayons), O est sur la médiatrice de $[AB]$."
-    },
-    {
       "id": "c6_n2_023",
       "niveau": 2,
       "type": "qcm",
@@ -888,22 +824,6 @@
       "explication": "$OA = r$ (rayon). Si $AB = 2 \\times OA = 2r = d$, alors $[AB]$ a la longueur du diamètre. Comme ses extrémités sont sur le cercle, c'est bien un diamètre."
     },
     {
-      "id": "c6_n2_026",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un cercle de centre O, la droite passant par O et perpendiculaire à une corde $[MN]$ passe par :",
-      "image": null,
-      "choix": [
-        "Un point quelconque de $[MN]$",
-        "Le milieu de $[MN]$",
-        "Un point parallèle à $[MN]$",
-        "Une corde"
-      ],
-      "reponse": "Le milieu de $[MN]$",
-      "explication": "Propriété fondamentale : toute perpendiculaire menée du centre à une corde passe par le milieu de cette corde."
-    },
-    {
       "id": "c6_n2_027",
       "niveau": 2,
       "type": "qcm",
@@ -928,11 +848,10 @@
       "image": null,
       "choix": [
         "À l'intérieur des 3 cercles",
-        "Sur le cercle de rayon 5 cm, à l'extérieur du cercle de rayon 2 cm et à l'intérieur du cercle de rayon 8 cm",
-        "À l'extérieur des 3 cercles",
+        "Sur le cercle de rayon 5 cm",
         "Sur le cercle de rayon 2 cm"
       ],
-      "reponse": "Sur le cercle de rayon 5 cm, à l'extérieur du cercle de rayon 2 cm et à l'intérieur du cercle de rayon 8 cm",
+      "reponse": "Sur le cercle de rayon 5 cm",
       "explication": "$OM = 5$ cm. $5 = r_2 = 5$ cm → M est sur le 2ème cercle. $5 > r_1 = 2$ → M est à l'extérieur du 1er. $5 < r_3 = 8$ → M est à l'intérieur du 3ème."
     },
     {
@@ -1112,28 +1031,12 @@
       "explication": "$OA = OC = r$ donc OAC est isocèle en O. $OB = OC = r$ donc OBC est isocèle en O. Les deux triangles sont isocèles car les trois points A, B, C sont sur le cercle."
     },
     {
-      "id": "c6_n3_010",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On cherche le centre d'un cercle passant par trois points A, B, C. On trace les médiatrices de $[AB]$ et $[BC]$. Où se situent-elles par rapport au centre O ?",
-      "image": "6eme/cercle/832760711c8d962155fc6676a7f79e5f1acaaa1e.png",
-      "choix": [
-        "Elles passent toutes les deux par O et se croisent en O",
-        "Elles sont parallèles et ne se croisent pas",
-        "L'une passe par O, l'autre non",
-        "Elles se croisent en un point quelconque du cercle"
-      ],
-      "reponse": "Elles passent toutes les deux par O et se croisent en O",
-      "explication": "O est équidistant de A et B (rayons), donc O est sur la médiatrice de $[AB]$. O est équidistant de B et C, donc O est sur la médiatrice de $[BC]$. Les deux médiatrices se croisent en O."
-    },
-    {
       "id": "c6_n3_011",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un cercle de centre O et de rayon $5$ cm. Une corde $[CD]$ ne passe pas par O. Sa longueur est-elle supérieure, égale ou inférieure au diamètre ?",
-      "image": "6eme/cercle/54d6f5ac2570169a0ef4cb787e9d02327d726839.png",
+      "image": null,
       "choix": [
         "Supérieure au diamètre ($> 10$ cm)",
         "Égale au diamètre ($= 10$ cm)",
@@ -1149,7 +1052,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Deux cercles de centres $O_1$ et $O_2$ et de même rayon $r = 5$ cm se coupent en deux points A et B. Laquelle de ces affirmations est VRAIE ?",
-      "image": "6eme/cercle/2fc6edda34696a274cddbcf4c19784b001056c65.png",
+      "image": null,
       "choix": [
         "$O_1A = O_1B = O_2A = O_2B = 5$ cm",
         "$[AB]$ est un diamètre du premier cercle",
@@ -1165,7 +1068,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un diamètre est une corde particulière. Pourquoi dit-on que tout diamètre est une corde, mais toute corde n'est pas un diamètre ?",
-      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "image": null,
       "choix": [
         "Parce que le diamètre est plus court que les cordes",
         "Parce que le diamètre a ses deux extrémités sur le cercle ET passe par le centre, alors que certaines cordes ne passent pas par le centre",
@@ -1174,22 +1077,6 @@
       ],
       "reponse": "Parce que le diamètre a ses deux extrémités sur le cercle ET passe par le centre, alors que certaines cordes ne passent pas par le centre",
       "explication": "Un diamètre satisfait la définition d'une corde (deux extrémités sur le cercle) + il passe par O. Une corde quelconque vérifie seulement la première condition, pas forcément la seconde."
-    },
-    {
-      "id": "c6_n3_014",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Deux cercles de centres $O_1$ et $O_2$ de même rayon se coupent en A et B. Peut-on affirmer que $[O_1O_2]$ est la médiatrice de $[AB]$ ?",
-      "image": "6eme/cercle/2fc6edda34696a274cddbcf4c19784b001056c65.png",
-      "choix": [
-        "Non, $[O_1O_2]$ est une corde",
-        "Oui, car $O_1A = O_1B$ et $O_2A = O_2B$, donc $O_1$ et $O_2$ sont sur la médiatrice de $[AB]$",
-        "Non, la médiatrice ne passe pas par les centres",
-        "Oui, mais seulement si les cercles ont des rayons différents"
-      ],
-      "reponse": "Oui, car $O_1A = O_1B$ et $O_2A = O_2B$, donc $O_1$ et $O_2$ sont sur la médiatrice de $[AB]$",
-      "explication": "La médiatrice de $[AB]$ contient tous les points équidistants de A et B. $O_1A = O_1B = r$ donc $O_1$ est sur la médiatrice. $O_2A = O_2B = r$ donc $O_2$ aussi. La droite $(O_1O_2)$ est donc la médiatrice de $[AB]$."
     },
     {
       "id": "c6_n3_015",
@@ -1304,22 +1191,6 @@
       "explication": "La corde la plus longue est le diamètre : $d = 2r = 2 \\times 6 = 12$ cm. Aucune corde ne peut être plus longue que le diamètre. [Question générée]"
     },
     {
-      "id": "c6_n3_022",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On a un cercle de centre O et de rayon $r$, et une corde $[AB]$ perpendiculaire à un rayon $[OC]$ avec C sur $[AB]$. Si $OC = 3$ cm et $r = 5$ cm, quelle est la longueur $CA$ (demi-corde) ?",
-      "image": null,
-      "choix": [
-        "$\\sqrt{16} = 4$ cm",
-        "$\\sqrt{34}$ cm",
-        "$2$ cm",
-        "$8$ cm"
-      ],
-      "reponse": "$\\sqrt{16} = 4$ cm",
-      "explication": "Le triangle OCA est rectangle en C (car $[OH] \\perp [AB]$). D'après le théorème de Pythagore : $CA^{2} = OA^{2} - OC^{2} = 5^{2} - 3^{2} = 25 - 9 = 16$, donc $CA = \\sqrt{16} = 4$ cm. [Question générée — notion avancée préfigurant Pythagore]"
-    },
-    {
       "id": "c6_n3_023",
       "niveau": 3,
       "type": "qcm",
@@ -1357,7 +1228,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans un cercle de centre O et de rayon $r$, le point H est le milieu d'une corde $[AB]$. Quelle relation existe entre $[OH]$ et $[AB]$ ?",
-      "image": "6eme/cercle/54d6f5ac2570169a0ef4cb787e9d02327d726839.png",
+      "image": null,
       "choix": [
         "$[OH]$ est parallèle à $[AB]$",
         "$[OH]$ est perpendiculaire à $[AB]$",
