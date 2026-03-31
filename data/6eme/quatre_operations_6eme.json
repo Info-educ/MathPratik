@@ -437,17 +437,6 @@
       "explication": "$11 \\times 11 = 11 \\times 10 + 11 = 110 + 11 = 121$."
     },
     {
-      "id": "op6_n2_010",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quel est le résultat de $12{,}6 \\div 0{,}6$ ?",
-      "image": null,
-      "choix": ["$21$", "$2{,}1$", "$210$", "$0{,}21$"],
-      "reponse": "$21$",
-      "explication": "$12{,}6 \\div 0{,}6 = 126 \\div 6 = 21$. On multiplie les deux termes par $10$ pour supprimer la virgule."
-    },
-    {
       "id": "op6_n2_011",
       "niveau": 2,
       "type": "qcm",
@@ -558,17 +547,6 @@
       "explication": "$200 \\div 10 = 20$. Diviser par $10$ revient à déplacer la virgule d'un rang vers la gauche."
     },
     {
-      "id": "op6_n2_021",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un marchand achète $36$ kg de pommes à $1{,}45$ € le kg. Il revend tout à $2{,}10$ € le kg. Quel bénéfice réalise-t-il ?",
-      "image": null,
-      "choix": ["$23{,}40$ €", "$22{,}40$ €", "$24{,}40$ €", "$21{,}40$ €"],
-      "reponse": "$23{,}40$ €",
-      "explication": "Achat : $36 \\times 1{,}45 = 52{,}20$ €. Vente : $36 \\times 2{,}10 = 75{,}60$ €. Bénéfice : $75{,}60 - 52{,}20 = 23{,}40$ €."
-    },
-    {
       "id": "op6_n2_022",
       "niveau": 2,
       "type": "qcm",
@@ -603,7 +581,7 @@
     },
     {
       "id": "op6_n2_025",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Encadre $345 \\div 7$ entre deux entiers consécutifs. Lesquels sont-ils ?",
@@ -723,17 +701,6 @@
       "explication": "$2{,}5 + 3{,}75 + 1{,}25 = 2{,}5 + 5 = 7{,}5$ (car $3{,}75 + 1{,}25 = 5$). Astuce : regrouper $3{,}75$ et $1{,}25$ d'abord."
     },
     {
-      "id": "op6_n3_006",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un libraire reçoit $45$ colis de $12$ livres. Il vend $0{,}45$ fois le total en une semaine. Combien de livres a-t-il vendus ?",
-      "image": null,
-      "choix": ["$243$", "$234$", "$342$", "$324$"],
-      "reponse": "$243$",
-      "explication": "Total de livres : $45 \\times 12 = 540$. Livres vendus : $540 \\times 0{,}45 = 243$."
-    },
-    {
       "id": "op6_n3_007",
       "niveau": 3,
       "type": "qcm",
@@ -789,39 +756,6 @@
       "explication": "$1{,}44 \\div 0{,}12 = 144 \\div 12 = 12$. On multiplie les deux termes par $100$."
     },
     {
-      "id": "op6_n3_012",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle division a pour résultat un nombre strictement supérieur à $10$ ?",
-      "image": null,
-      "choix": ["$3{,}6 \\div 0{,}3$", "$4{,}8 \\div 0{,}6$", "$2{,}5 \\div 0{,}4$", "$7{,}2 \\div 0{,}9$"],
-      "reponse": "$3{,}6 \\div 0{,}3$",
-      "explication": "$3{,}6 \\div 0{,}3 = 12 > 10$ ; $4{,}8 \\div 0{,}6 = 8$ ; $2{,}5 \\div 0{,}4 = 6{,}25$ ; $7{,}2 \\div 0{,}9 = 8$."
-    },
-    {
-      "id": "op6_n3_013",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un cycliste parcourt $97{,}5$ km en $3$ h $15$ min. Rappel : $3$ h $15$ min $= 3{,}25$ h. Quelle est sa vitesse moyenne ?",
-      "image": null,
-      "choix": ["$30$ km/h", "$31$ km/h", "$32$ km/h", "$29$ km/h"],
-      "reponse": "$30$ km/h",
-      "explication": "$v = \\dfrac{97{,}5}{3{,}25} = 30$ km/h. On divise la distance par la durée en heures."
-    },
-    {
-      "id": "op6_n3_014",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un réservoir de $235{,}2$ litres est rempli par un robinet débitant $2{,}4$ litres par minute. En combien de minutes le réservoir sera-t-il plein ?",
-      "image": null,
-      "choix": ["$98$ min", "$90$ min", "$95$ min", "$100$ min"],
-      "reponse": "$98$ min",
-      "explication": "$235{,}2 \\div 2{,}4 = 98$ minutes. C'est-à-dire $1$ heure $38$ minutes."
-    },
-    {
       "id": "op6_n3_015",
       "niveau": 3,
       "type": "qcm",
@@ -842,17 +776,6 @@
       "choix": ["$200{,}5 - 99{,}9$", "$50 \\times 2{,}1$", "$315 \\div 3$", "$12 \\times 9$"],
       "reponse": "$200{,}5 - 99{,}9$",
       "explication": "$200{,}5 - 99{,}9 = 100{,}6$ qui est entre $100$ et $105$. Les autres : $50 \\times 2{,}1 = 105$ (non inclus) ; $315 \\div 3 = 105$ ; $12 \\times 9 = 108$."
-    },
-    {
-      "id": "op6_n3_017",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Une boutique vend des stylos $2{,}40$ € l'unité. Elle vend en moyenne $24$ stylos par jour. Elle achète $37{,}5$ fois plus de stylos qu'elle n'en vend par jour. Quel est son coût d'achat sur $5$ jours ?",
-      "image": null,
-      "choix": ["$10\\,800$ €", "$1\\,080$ €", "$108$ €", "$10\\,008$ €"],
-      "reponse": "$10\\,800$ €",
-      "explication": "Achat/jour : $24 \\times 37{,}5 = 900$ stylos. Coût/jour : $900 \\times 2{,}40 = 2\\,160$ €. Sur $5$ jours : $2\\,160 \\times 5 = 10\\,800$ €. [Question générée]"
     },
     {
       "id": "op6_n3_018",
@@ -877,17 +800,6 @@
       "explication": "$420 \\div 6 = 70$. On calcule $42 \\div 6 = 7$, donc $420 \\div 6 = 70$. [Question générée]"
     },
     {
-      "id": "op6_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Dans une classe de $32$ élèves, $\\dfrac{3}{4}$ ont réussi un contrôle. Parmi les élèves ayant réussi, $\\dfrac{2}{3}$ ont eu plus de $15$. Combien d'élèves ont eu plus de $15$ ?",
-      "image": null,
-      "choix": ["$16$", "$24$", "$8$", "$12$"],
-      "reponse": "$16$",
-      "explication": "Réussi : $32 \\times \\dfrac{3}{4} = 24$ élèves. Plus de $15$ : $24 \\times \\dfrac{2}{3} = 16$ élèves. [Question générée]"
-    },
-    {
       "id": "op6_n3_021",
       "niveau": 3,
       "type": "qcm",
@@ -897,17 +809,6 @@
       "choix": ["$55$", "$50$", "$45$", "$60$"],
       "reponse": "$55$",
       "explication": "On peut regrouper : $(1+10)+(2+9)+(3+8)+(4+7)+(5+6) = 5 \\times 11 = 55$. [Question générée]"
-    },
-    {
-      "id": "op6_n3_022",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Le résultat de $999 \\times 999$ est le plus proche de :",
-      "image": null,
-      "choix": ["$1\\,000\\,000$", "$900\\,000$", "$998\\,001$", "$999\\,000$"],
-      "reponse": "$1\\,000\\,000$",
-      "explication": "$999 \\times 999 = (1\\,000 - 1)^2 = 1\\,000\\,000 - 2\\,000 + 1 = 998\\,001$. Le résultat exact est $998\\,001$, mais la valeur la plus proche parmi les choix est $1\\,000\\,000$. [Question générée]"
     },
     {
       "id": "op6_n3_023",
