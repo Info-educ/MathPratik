@@ -588,7 +588,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Conversion longueur] $0{,}045$ km = ... m ?",
+      "enonce_html": "$0{,}045$ km = ... m ?",
       "image": null,
       "choix": [
         "$4{,}5$ m",
@@ -604,7 +604,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Conversion longueur] $3\\,600$ mm = ... m ?",
+      "enonce_html": "$3\\,600$ mm = ... m ?",
       "image": null,
       "choix": [
         "$36$ m",
@@ -620,7 +620,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Conversion longueur] $1{,}25$ dm = ... mm ?",
+      "enonce_html": "$1{,}25$ dm = ... mm ?",
       "image": null,
       "choix": [
         "$12{,}5$ mm",
@@ -636,7 +636,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Conversion aire] $0{,}5$ m² = ... cm² ?",
+      "enonce_html": "$0{,}5$ m² = ... cm² ?",
       "image": null,
       "choix": [
         "$50$ cm²",
@@ -652,7 +652,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Conversion aire] $25\\,000$ mm² = ... cm² ?",
+      "enonce_html": "$25\\,000$ mm² = ... cm² ?",
       "image": null,
       "choix": [
         "$250$ cm²",
@@ -797,7 +797,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Une figure est composée d'un carré $4 \\times 4$ cm accolé à un rectangle $4 \\times 3$ cm. L'aire totale est :",
-      "image": "6eme/aires_perimetres/45823ffc2824f70c98a7a2866c7c1bd8e0bae14d.png",
+      "image": null,
       "choix": [
         "$16$ cm²",
         "$28$ cm²",
@@ -953,7 +953,7 @@
     },
     {
       "id": "ap6_n2_030",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "On peint un mur rectangulaire de $4$ m × $3$ m. Une fenêtre de $1{,}2$ m × $0{,}8$ m y est percée. Quelle surface va-t-on peindre ?",
@@ -1140,7 +1140,7 @@
         "$24$ cm",
         "$26$ cm"
       ],
-      "reponse": "$24$ cm",
+      "reponse": "$22$ cm",
       "explication": "En accolant les deux carrés, on perd deux côtés communs. Périmètre total : $4 \\times 3 + 4 \\times 4 - 2 \\times 3 = 12 + 16 - 4 = 24$ cm (si les côtés de même taille sont juxtaposés). Vérification : le contour de la figure en L a $8$ segments."
     },
     {
@@ -1174,22 +1174,6 @@
       ],
       "reponse": "$153{,}86$ m²",
       "explication": "$A = \\pi \\times r^2 = 3{,}14 \\times 7^2 = 3{,}14 \\times 49 = 153{,}86$ m²."
-    },
-    {
-      "id": "ap6_n3_014",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La diagonale d'un carré mesure $d$. Parmi ces expressions, laquelle donne l'aire du carré ?",
-      "image": null,
-      "choix": [
-        "$d^2$",
-        "$\\dfrac{d^2}{2}$",
-        "$\\dfrac{d^2}{4}$",
-        "$2d^2$"
-      ],
-      "reponse": "$\\dfrac{d^2}{2}$",
-      "explication": "Le carré est formé de $2$ triangles isocèles de base $d$ et hauteur $\\dfrac{d}{2}$, soit une aire de $2 \\times \\dfrac{d \\times d/2}{2} = \\dfrac{d^2}{2}$. Exemple : $d = 10$ cm → $A = 50$ cm²."
     },
     {
       "id": "ap6_n3_015",
@@ -1240,54 +1224,6 @@
       "explication": "Aire totale = $6 \\times 4 + 3 \\times 2 = 24 + 6 = 30$ m²."
     },
     {
-      "id": "ap6_n3_018",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Une pièce en L est composée de deux rectangles : $6$ m × $4$ m et $3$ m × $2$ m. Quel est le périmètre de la pièce ?",
-      "image": "6eme/aires_perimetres/3e07553b922ea9a364fbcfc2a313a70c68f91a91.png",
-      "choix": [
-        "$20$ m",
-        "$26$ m",
-        "$30$ m",
-        "$22$ m"
-      ],
-      "reponse": "$26$ m",
-      "explication": "En traçant le contour de la pièce en L, on additionne les 6 côtés du périmètre : $6 + 4 + 3 + 2 + 3 + 2 + \\ldots$ Le périmètre total est $26$ m."
-    },
-    {
-      "id": "ap6_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un agriculteur dispose de $80$ m de clôture pour délimiter un enclos rectangulaire. Quelles dimensions donnent la plus grande aire ?",
-      "image": null,
-      "choix": [
-        "$30$ m × $10$ m",
-        "$25$ m × $15$ m",
-        "$20$ m × $20$ m",
-        "$35$ m × $5$ m"
-      ],
-      "reponse": "$20$ m × $20$ m",
-      "explication": "Avec $80$ m de clôture : $2(L+l)=80$, soit $L+l=40$. Les aires sont : $30 \\times 10=300$ m², $25 \\times 15=375$ m², $20 \\times 20=400$ m², $35 \\times 5=175$ m². Le carré donne la plus grande aire."
-    },
-    {
-      "id": "ap6_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pourquoi ne peut-on pas calculer l'aire d'une figure uniquement à partir de son périmètre ? Quelle affirmation est correcte ?",
-      "image": null,
-      "choix": [
-        "Deux figures de même périmètre ont toujours la même aire",
-        "Une figure de grand périmètre a toujours une grande aire",
-        "Deux figures de même périmètre peuvent avoir des aires différentes",
-        "L'aire est toujours la moitié du périmètre"
-      ],
-      "reponse": "Deux figures de même périmètre peuvent avoir des aires différentes",
-      "explication": "Par exemple, un rectangle $1 \\times 9$ et un rectangle $3 \\times 7$ ont tous les deux un périmètre de $20$ cm, mais leurs aires sont $9$ cm² et $21$ cm², très différentes."
-    },
-    {
       "id": "ap6_n3_021",
       "niveau": 3,
       "type": "qcm",
@@ -1302,38 +1238,6 @@
       ],
       "reponse": "$48$ cm²",
       "explication": "$P = 2(L+l) = 32$, donc $L+l = 16$. Avec $L = 3l$ : $3l+l=16$, soit $l=4$ cm et $L=12$ cm. Aire : $12 \\times 4 = 48$ cm²."
-    },
-    {
-      "id": "ap6_n3_022",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un disque a une aire de $78{,}5$ cm² ($\\pi \\approx 3{,}14$). Quel est son rayon ?",
-      "image": null,
-      "choix": [
-        "$3$ cm",
-        "$4$ cm",
-        "$5$ cm",
-        "$25$ cm"
-      ],
-      "reponse": "$5$ cm",
-      "explication": "$A = \\pi \\times r^2$, donc $r^2 = \\dfrac{78{,}5}{3{,}14} = 25$, soit $r = \\sqrt{25} = 5$ cm."
-    },
-    {
-      "id": "ap6_n3_023",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un carré a un côté de $c$ cm. On augmente son côté de $2$ cm. De combien l'aire augmente-t-elle (en fonction de $c$) ?",
-      "image": null,
-      "choix": [
-        "$4$ cm²",
-        "$4c + 4$ cm²",
-        "$2c + 4$ cm²",
-        "$c^2 + 4$ cm²"
-      ],
-      "reponse": "$4c + 4$ cm²",
-      "explication": "Nouvelle aire : $(c+2)^2 = c^2 + 4c + 4$. Aire initiale : $c^2$. Augmentation : $4c + 4$ cm²."
     },
     {
       "id": "ap6_n3_024",
@@ -1398,22 +1302,6 @@
       ],
       "reponse": "Elle ne change pas",
       "explication": "Nouvelle aire : $(3L) \\times \\dfrac{l}{3} = L \\times l$. L'aire reste identique. On a multiplié par $3$ et divisé par $3$."
-    },
-    {
-      "id": "ap6_n3_028",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un demi-disque de rayon $6$ cm est accolé à un rectangle de $12$ cm × $4$ cm. Quelle est l'aire totale de la figure ($\\pi \\approx 3{,}14$) ?",
-      "image": null,
-      "choix": [
-        "$48$ cm²",
-        "$56{,}52$ cm²",
-        "$104{,}52$ cm²",
-        "$120$ cm²"
-      ],
-      "reponse": "$104{,}52$ cm²",
-      "explication": "Aire du demi-disque : $\\dfrac{\\pi \\times 6^2}{2} = \\dfrac{3{,}14 \\times 36}{2} = \\dfrac{113{,}04}{2} = 56{,}52$ cm². Aire du rectangle : $12 \\times 4 = 48$ cm². Total : $56{,}52 + 48 = 104{,}52$ cm²."
     },
     {
       "id": "ap6_n3_029",
