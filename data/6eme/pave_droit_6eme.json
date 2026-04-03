@@ -1341,7 +1341,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Cette pyramide à base pentagonale (5 côtés) a combien de faces en tout ?",
-      "image": "6eme/pave_droit/image7.png",
+      "image": null",
       "choix": [
         "5 faces",
         "6 faces",
