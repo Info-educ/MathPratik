@@ -1046,18 +1046,18 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] $(d_1) \\parallel (d_2)$, distance $6$ cm. $(d_3)$ est perpendiculaire à $(d_1)$ et passe par $A$ sur $(d_1)$. Quelle est la distance du point $A$ à la droite $(d_2)$ ?",
+      "enonce_html": "$(d_1) \\parallel (d_2)$, distance $6$ cm. $(d_3)$ est perpendiculaire à $(d_1)$ et passe par $A$ sur $(d_1)$. Quelle est la distance du point $A$ à la droite $(d_2)$ ?",
       "image": null,
       "choix": ["$3$ cm", "$6$ cm", "$12$ cm", "Cela dépend de $A$"],
       "reponse": "$6$ cm",
-      "explication": "[Question générée] La distance entre deux droites parallèles est constante : $6$ cm. Tout point de $(d_1)$ est à $6$ cm de $(d_2)$, quelle que soit sa position."
+      "explication": "La distance entre deux droites parallèles est constante : $6$ cm. Tout point de $(d_1)$ est à $6$ cm de $(d_2)$, quelle que soit sa position."
     },
     {
       "id": "dr6_n3_018",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] $(d_1) \\parallel (d_2)$ et $(d_2) \\parallel (d_3)$. Quelle est la relation entre $(d_1)$ et $(d_3)$ ?",
+      "enonce_html": "$(d_1) \\parallel (d_2)$ et $(d_2) \\parallel (d_3)$. Quelle est la relation entre $(d_1)$ et $(d_3)$ ?",
       "image": null,
       "choix": [
         "$(d_1) \\perp (d_3)$",
@@ -1066,25 +1066,25 @@
         "On ne peut pas conclure"
       ],
       "reponse": "$(d_1) \\parallel (d_3)$",
-      "explication": "[Question générée] La relation de parallélisme est transitive. Si $(d_1) \\parallel (d_2)$ et $(d_2) \\parallel (d_3)$, alors $(d_1) \\parallel (d_3)$."
+      "explication": "La relation de parallélisme est transitive. Si $(d_1) \\parallel (d_2)$ et $(d_2) \\parallel (d_3)$, alors $(d_1) \\parallel (d_3)$."
     },
     {
       "id": "dr6_n3_019",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Quatre droites parallèles sont espacées régulièrement de $3$ cm. Quelle est la distance entre la $1$ère et la $4$ème droite ?",
+      "enonce_html": "Quatre droites parallèles sont espacées régulièrement de $3$ cm. Quelle est la distance entre la $1$ère et la $4$ème droite ?",
       "image": null,
       "choix": ["$3$ cm", "$6$ cm", "$9$ cm", "$12$ cm"],
       "reponse": "$9$ cm",
-      "explication": "[Question générée] Entre $4$ droites parallèles équidistantes de $3$ cm, il y a $3$ espaces. Distance $= 3 \\times 3 = 9$ cm."
+      "explication": "Entre $4$ droites parallèles équidistantes de $3$ cm, il y a $3$ espaces. Distance $= 3 \\times 3 = 9$ cm."
     },
     {
       "id": "dr6_n3_020",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] $(d) \\perp (d')$ et $(d'') \\perp (d')$. Un élève affirme que $(d) \\parallel (d'')$. Est-il correct, et quelle propriété justifie sa réponse ?",
+      "enonce_html": "$(d) \\perp (d')$ et $(d'') \\perp (d')$. Un élève affirme que $(d) \\parallel (d'')$. Est-il correct, et quelle propriété justifie sa réponse ?",
       "image": null,
       "choix": [
         "Non, $(d) \\perp (d'')$ car la perpendicularité se transmet",
@@ -1093,14 +1093,14 @@
         "Oui, mais seulement si $(d)$ et $(d'')$ ont la même longueur"
       ],
       "reponse": "Oui : deux droites perpendiculaires à une même droite sont parallèles",
-      "explication": "[Question générée] $(d) \\perp (d')$ et $(d'') \\perp (d')$ : $(d)$ et $(d'')$ sont toutes deux perpendiculaires à $(d')$. Par la propriété, deux droites perpendiculaires à une même droite sont parallèles. Donc $(d) \\parallel (d'')$."
+      "explication": "$(d) \\perp (d')$ et $(d'') \\perp (d')$ : $(d)$ et $(d'')$ sont toutes deux perpendiculaires à $(d')$. Par la propriété, deux droites perpendiculaires à une même droite sont parallèles. Donc $(d) \\parallel (d'')$."
     },
     {
       "id": "dr6_n3_021",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un quadrilatère $ABCD$, $(AB) \\perp (BC)$ et $(AD) \\perp (BC)$. Quelle conclusion peut-on tirer ?",
+      "enonce_html": "Dans un quadrilatère $ABCD$, $(AB) \\perp (BC)$ et $(AD) \\perp (BC)$. Quelle conclusion peut-on tirer ?",
       "image": null,
       "choix": [
         "$(AB) \\perp (AD)$",
@@ -1109,36 +1109,36 @@
         "On ne peut pas conclure"
       ],
       "reponse": "$(AB) \\parallel (AD)$",
-      "explication": "[Question générée] $(AB) \\perp (BC)$ et $(AD) \\perp (BC)$ : deux droites perpendiculaires à $(BC)$ sont parallèles entre elles. Donc $(AB) \\parallel (AD)$."
+      "explication": "$(AB) \\perp (BC)$ et $(AD) \\perp (BC)$ : deux droites perpendiculaires à $(BC)$ sont parallèles entre elles. Donc $(AB) \\parallel (AD)$."
     },
     {
       "id": "dr6_n3_022",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Une droite sécante $(t)$ coupe deux droites parallèles $(d_1)$ et $(d_2)$. Elle forme un angle de $90°$ avec $(d_1)$. Combien d'angles droits forme-t-elle au total aux deux intersections ?",
+      "enonce_html": "Une droite sécante $(t)$ coupe deux droites parallèles $(d_1)$ et $(d_2)$. Elle forme un angle de $90°$ avec $(d_1)$. Combien d'angles droits forme-t-elle au total aux deux intersections ?",
       "image": null,
       "choix": ["$2$", "$4$", "$6$", "$8$"],
       "reponse": "$8$",
-      "explication": "[Question générée] $(t) \\perp (d_1)$ et $(d_1) \\parallel (d_2)$ → $(t) \\perp (d_2)$. Chaque intersection forme $4$ angles droits. Total : $4 + 4 = 8$ angles droits."
+      "explication": "$(t) \\perp (d_1)$ et $(d_1) \\parallel (d_2)$ → $(t) \\perp (d_2)$. Chaque intersection forme $4$ angles droits. Total : $4 + 4 = 8$ angles droits."
     },
     {
       "id": "dr6_n3_023",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] $(d_1) \\parallel (d_2)$, distance $10$ cm. $(d_3)$ est parallèle à $(d_1)$ et se trouve à $4$ cm de $(d_1)$ (entre les deux). Quelle est la distance de $(d_3)$ à $(d_2)$ ?",
+      "enonce_html": "$(d_1) \\parallel (d_2)$, distance $10$ cm. $(d_3)$ est parallèle à $(d_1)$ et se trouve à $4$ cm de $(d_1)$ (entre les deux). Quelle est la distance de $(d_3)$ à $(d_2)$ ?",
       "image": null,
       "choix": ["$4$ cm", "$6$ cm", "$10$ cm", "$14$ cm"],
       "reponse": "$6$ cm",
-      "explication": "[Question générée] $(d_3)$ est à $4$ cm de $(d_1)$ et entre les deux droites. La distance de $(d_3)$ à $(d_2)$ est $10 - 4 = 6$ cm."
+      "explication": "$(d_3)$ est à $4$ cm de $(d_1)$ et entre les deux droites. La distance de $(d_3)$ à $(d_2)$ est $10 - 4 = 6$ cm."
     },
     {
       "id": "dr6_n3_024",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans le carré $EFGH$, quelles droites sont à la fois parallèles et perpendiculaires à $(EF)$ ?",
+      "enonce_html": "Dans le carré $EFGH$, quelles droites sont à la fois parallèles et perpendiculaires à $(EF)$ ?",
       "image": null,
       "choix": [
         "$(GH)$ est parallèle à $(EF)$ ; $(FG)$ et $(EH)$ sont perpendiculaires à $(EF)$",
@@ -1147,14 +1147,14 @@
         "Aucune droite du carré n'est perpendiculaire à $(EF)$"
       ],
       "reponse": "$(GH)$ est parallèle à $(EF)$ ; $(FG)$ et $(EH)$ sont perpendiculaires à $(EF)$",
-      "explication": "[Question générée] Dans un carré, les côtés opposés sont parallèles : $(GH) \\parallel (EF)$. Les côtés adjacents sont perpendiculaires : $(FG) \\perp (EF)$ et $(EH) \\perp (EF)$."
+      "explication": "Dans un carré, les côtés opposés sont parallèles : $(GH) \\parallel (EF)$. Les côtés adjacents sont perpendiculaires : $(FG) \\perp (EF)$ et $(EH) \\perp (EF)$."
     },
     {
       "id": "dr6_n3_025",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On trace depuis trois points $P_1$, $P_2$, $P_3$ (différents) sur une droite $(d)$, les perpendiculaires à $(d)$. Ces trois perpendiculaires sont-elles parallèles entre elles ?",
+      "enonce_html": "On trace depuis trois points $P_1$, $P_2$, $P_3$ (différents) sur une droite $(d)$, les perpendiculaires à $(d)$. Ces trois perpendiculaires sont-elles parallèles entre elles ?",
       "image": null,
       "choix": [
         "Non, elles se croisent en un seul point",
@@ -1163,14 +1163,14 @@
         "Non, elles divergent à partir de $(d)$"
       ],
       "reponse": "Oui, elles sont toutes parallèles entre elles",
-      "explication": "[Question générée] Les trois perpendiculaires sont toutes perpendiculaires à $(d)$. Par la propriété, deux droites perpendiculaires à une même droite sont parallèles. Donc les trois perpendiculaires sont parallèles entre elles."
+      "explication": "Les trois perpendiculaires sont toutes perpendiculaires à $(d)$. Par la propriété, deux droites perpendiculaires à une même droite sont parallèles. Donc les trois perpendiculaires sont parallèles entre elles."
     },
     {
       "id": "dr6_n3_026",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] $(d_1) \\perp (d_2)$, $(d_2) \\perp (d_3)$, $(d_3) \\perp (d_4)$. Quelle est la relation entre $(d_1)$ et $(d_4)$ ?",
+      "enonce_html": "$(d_1) \\perp (d_2)$, $(d_2) \\perp (d_3)$, $(d_3) \\perp (d_4)$. Quelle est la relation entre $(d_1)$ et $(d_4)$ ?",
       "image": null,
       "choix": [
         "$(d_1) \\parallel (d_4)$",
@@ -1179,14 +1179,14 @@
         "On ne peut pas conclure"
       ],
       "reponse": "$(d_1) \\perp (d_4)$",
-      "explication": "[Question générée] $(d_1) \\perp (d_2)$ et $(d_2) \\perp (d_3)$ → $(d_1) \\parallel (d_3)$. $(d_3) \\perp (d_4)$ et $(d_1) \\parallel (d_3)$ → $(d_1) \\perp (d_4)$."
+      "explication": "$(d_1) \\perp (d_2)$ et $(d_2) \\perp (d_3)$ → $(d_1) \\parallel (d_3)$. $(d_3) \\perp (d_4)$ et $(d_1) \\parallel (d_3)$ → $(d_1) \\perp (d_4)$."
     },
     {
       "id": "dr6_n3_027",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un point $A$ est à $5$ cm d'une droite $(d)$. On trace depuis $A$ le segment perpendiculaire $[AH]$ et un segment oblique $[AB]$ avec $B$ sur $(d)$ et $AB = 8$ cm. Quelle est la longueur $[HB]$ ?",
+      "enonce_html": "Un point $A$ est à $5$ cm d'une droite $(d)$. On trace depuis $A$ le segment perpendiculaire $[AH]$ et un segment oblique $[AB]$ avec $B$ sur $(d)$ et $AB = 8$ cm. Quelle est la longueur $[HB]$ ?",
       "image": null,
       "choix": [
         "$3$ cm",
@@ -1195,36 +1195,36 @@
         "Impossible à calculer"
       ],
       "reponse": "$\\sqrt{39}$ cm",
-      "explication": "[Question générée] Dans le triangle rectangle $AHB$ : $AH = 5$ cm (perpendiculaire), $AB = 8$ cm (hypoténuse). Par Pythagore : $AB^2 = AH^2 + HB^2$, donc $64 = 25 + HB^2$, soit $HB^2 = 39$ et $HB = \\sqrt{39}$ cm."
+      "explication": "Dans le triangle rectangle $AHB$ : $AH = 5$ cm (perpendiculaire), $AB = 8$ cm (hypoténuse). Par Pythagore : $AB^2 = AH^2 + HB^2$, donc $64 = 25 + HB^2$, soit $HB^2 = 39$ et $HB = \\sqrt{39}$ cm."
     },
     {
       "id": "dr6_n3_028",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] La droite $(t)$ coupe $(d_1)$ avec un angle de $40°$. $(d_1) \\parallel (d_2)$. Quel est l'angle formé par $(t)$ avec $(d_2)$ (angle aigu) ?",
+      "enonce_html": "La droite $(t)$ coupe $(d_1)$ avec un angle de $40°$. $(d_1) \\parallel (d_2)$. Quel est l'angle formé par $(t)$ avec $(d_2)$ (angle aigu) ?",
       "image": null,
       "choix": ["$50°$", "$40°$", "$90°$", "$140°$"],
       "reponse": "$40°$",
-      "explication": "[Question générée] Une droite sécante coupant deux droites parallèles forme des angles égaux (angles alternes-internes ou correspondants). L'angle aigu avec $(d_2)$ est donc aussi $40°$."
+      "explication": "Une droite sécante coupant deux droites parallèles forme des angles égaux (angles alternes-internes ou correspondants). L'angle aigu avec $(d_2)$ est donc aussi $40°$."
     },
     {
       "id": "dr6_n3_029",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Six droites parallèles sont espacées de $1{,}5$ cm chacune. Quelle est la distance entre la $1$ère et la $6$ème droite ?",
+      "enonce_html": "Six droites parallèles sont espacées de $1{,}5$ cm chacune. Quelle est la distance entre la $1$ère et la $6$ème droite ?",
       "image": null,
       "choix": ["$6$ cm", "$7{,}5$ cm", "$9$ cm", "$10{,}5$ cm"],
       "reponse": "$7{,}5$ cm",
-      "explication": "[Question générée] Entre $6$ droites parallèles, il y a $5$ espaces de $1{,}5$ cm. Distance $= 5 \\times 1{,}5 = 7{,}5$ cm."
+      "explication": "Entre $6$ droites parallèles, il y a $5$ espaces de $1{,}5$ cm. Distance $= 5 \\times 1{,}5 = 7{,}5$ cm."
     },
     {
       "id": "dr6_n3_030",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un élève affirme : « Deux droites sécantes ont toujours exactement deux points communs. » Cette affirmation est-elle correcte ?",
+      "enonce_html": "Un élève affirme : « Deux droites sécantes ont toujours exactement deux points communs. » Cette affirmation est-elle correcte ?",
       "image": null,
       "choix": [
         "Oui, deux droites sécantes ont toujours deux points communs",
@@ -1233,7 +1233,7 @@
         "Cela dépend de l'angle entre les droites"
       ],
       "reponse": "Non, deux droites sécantes ont exactement un seul point commun",
-      "explication": "[Question générée] Deux droites sécantes (distinctes et non parallèles) ont exactement un point commun : leur point d'intersection. Deux points communs impliqueraient que les droites sont confondues."
+      "explication": "Deux droites sécantes (distinctes et non parallèles) ont exactement un point commun : leur point d'intersection. Deux points communs impliqueraient que les droites sont confondues."
     }
 
   ]
