@@ -444,7 +444,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle droit est-il aussi un angle aigu ?",
+      "enonce_html": "Un angle droit est-il aussi un angle aigu ?",
       "image": null,
       "choix": [
         "Oui, car il mesure moins de $180°$",
@@ -460,7 +460,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Parmi ces angles, lequel est obtus ?",
+      "enonce_html": "Parmi ces angles, lequel est obtus ?",
       "image": null,
       "choix": [
         "$35°$",
@@ -476,7 +476,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Les côtés d'un angle sont :",
+      "enonce_html": "Les côtés d'un angle sont :",
       "image": null,
       "choix": [
         "Deux segments de même longueur",
@@ -812,7 +812,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle $\\widehat{ABC}$ a pour bissectrice $[BD)$. Si $\\widehat{ABD} = 22°$, quelle est la mesure de $\\widehat{ABC}$ ?",
+      "enonce_html": "Un angle $\\widehat{ABC}$ a pour bissectrice $[BD)$. Si $\\widehat{ABD} = 22°$, quelle est la mesure de $\\widehat{ABC}$ ?",
       "image": null,
       "choix": [
         "$11°$",
@@ -828,7 +828,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Deux angles complémentaires (somme $= 90°$) ont une différence de $20°$. Quelle est la mesure du plus petit ?",
+      "enonce_html": "Deux angles complémentaires (somme $= 90°$) ont une différence de $20°$. Quelle est la mesure du plus petit ?",
       "image": null,
       "choix": [
         "$25°$",
@@ -844,7 +844,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle plat est partagé en $4$ angles égaux. Quelle est la mesure de chacun ?",
+      "enonce_html": "Un angle plat est partagé en $4$ angles égaux. Quelle est la mesure de chacun ?",
       "image": null,
       "choix": [
         "$30°$",
@@ -860,7 +860,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle obtus mesure $3$ fois un angle aigu de $40°$. Quelle est la mesure de l'angle obtus ?",
+      "enonce_html": "Un angle obtus mesure $3$ fois un angle aigu de $40°$. Quelle est la mesure de l'angle obtus ?",
       "image": null,
       "choix": [
         "$80°$",
@@ -876,7 +876,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle rectangle, l'un des angles aigus mesure $55°$. Quelle est la mesure de l'autre angle aigu ?",
+      "enonce_html": "Dans un triangle rectangle, l'un des angles aigus mesure $55°$. Quelle est la mesure de l'autre angle aigu ?",
       "image": null,
       "choix": [
         "$25°$",
@@ -892,7 +892,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle $\\widehat{POQ} = 84°$ a pour bissectrice $[OR)$. On trace aussi la bissectrice $[OS)$ de $\\widehat{ROP}$. Quelle est la mesure de $\\widehat{SOQ}$ ?",
+      "enonce_html": "Un angle $\\widehat{POQ} = 84°$ a pour bissectrice $[OR)$. On trace aussi la bissectrice $[OS)$ de $\\widehat{ROP}$. Quelle est la mesure de $\\widehat{SOQ}$ ?",
       "image": null,
       "choix": [
         "$21°$",
@@ -908,7 +908,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Deux angles supplémentaires sont tels que l'un mesure $30°$ de plus que l'autre. Quelle est la mesure du plus grand ?",
+      "enonce_html": "Deux angles supplémentaires sont tels que l'un mesure $30°$ de plus que l'autre. Quelle est la mesure du plus grand ?",
       "image": null,
       "choix": [
         "$75°$",
@@ -924,7 +924,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle mesure $\\frac{1}{3}$ d'un angle plat. Quel type d'angle est-il ?",
+      "enonce_html": "Un angle mesure $\\frac{1}{3}$ d'un angle plat. Quel type d'angle est-il ?",
       "image": null,
       "choix": [
         "Aigu",
@@ -940,7 +940,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle plat est partagé en $5$ angles consécutifs égaux. Quelle est la mesure de chaque angle ?",
+      "enonce_html": "Un angle plat est partagé en $5$ angles consécutifs égaux. Quelle est la mesure de chaque angle ?",
       "image": null,
       "choix": [
         "$24°$",
@@ -956,7 +956,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle isocèle $ABC$ ($AB = AC$), l'angle au sommet $A$ mesure $40°$. Quelle est la mesure des angles en $B$ et en $C$ ?",
+      "enonce_html": "Dans un triangle isocèle $ABC$ ($AB = AC$), l'angle au sommet $A$ mesure $40°$. Quelle est la mesure des angles en $B$ et en $C$ ?",
       "image": null,
       "choix": [
         "$60°$",
@@ -1180,7 +1180,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle $\\widehat{AOB} = 120°$ est partagé par $[OC)$ et $[OD)$ en trois angles égaux. Quelle est la mesure de chaque angle et quel type sont-ils ?",
+      "enonce_html": "Un angle $\\widehat{AOB} = 120°$ est partagé par $[OC)$ et $[OD)$ en trois angles égaux. Quelle est la mesure de chaque angle et quel type sont-ils ?",
       "image": null,
       "choix": [
         "$30°$ — aigus",
@@ -1196,7 +1196,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Deux angles sont tels que leur somme est $180°$ et l'un est $\\frac{2}{3}$ de l'autre. Quelle est la mesure du plus grand ?",
+      "enonce_html": "Deux angles sont tels que leur somme est $180°$ et l'un est $\\frac{2}{3}$ de l'autre. Quelle est la mesure du plus grand ?",
       "image": null,
       "choix": [
         "$72°$",
@@ -1212,7 +1212,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle isocèle $PQR$ ($PQ = PR$), l'angle $\\widehat{QPR} = 100°$. La bissectrice de $\\widehat{QPR}$ coupe $QR$ en $M$. Quelle est la mesure de $\\widehat{PMQ}$ ?",
+      "enonce_html": "Dans un triangle isocèle $PQR$ ($PQ = PR$), l'angle $\\widehat{QPR} = 100°$. La bissectrice de $\\widehat{QPR}$ coupe $QR$ en $M$. Quelle est la mesure de $\\widehat{PMQ}$ ?",
       "image": null,
       "choix": [
         "$40°$",
@@ -1228,7 +1228,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Trois angles $\\alpha$, $\\beta$, $\\gamma$ forment un angle plat. $\\alpha = 2\\beta$ et $\\gamma = 3\\beta$. Quelle est la mesure de $\\beta$ ?",
+      "enonce_html": "Trois angles $\\alpha$, $\\beta$, $\\gamma$ forment un angle plat. $\\alpha = 2\\beta$ et $\\gamma = 3\\beta$. Quelle est la mesure de $\\beta$ ?",
       "image": null,
       "choix": [
         "$20°$",
@@ -1244,7 +1244,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Si deux angles sont complémentaires et l'un est le double de l'autre, lequel de ces énoncés est une preuve correcte ?",
+      "enonce_html": "Si deux angles sont complémentaires et l'un est le double de l'autre, lequel de ces énoncés est une preuve correcte ?",
       "image": null,
       "choix": [
         "$x + 2x = 90° \\Rightarrow x = 30°$, donc les angles sont $30°$ et $60°$",
@@ -1260,7 +1260,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle $\\widehat{AOB} = 150°$. On partage cet angle en deux par $[OC)$, puis on partage $\\widehat{COB}$ en deux par $[OD)$. Quelle est la mesure de $\\widehat{AOD}$ ?",
+      "enonce_html": "Un angle $\\widehat{AOB} = 150°$. On partage cet angle en deux par $[OC)$, puis on partage $\\widehat{COB}$ en deux par $[OD)$. Quelle est la mesure de $\\widehat{AOD}$ ?",
       "image": null,
       "choix": [
         "$75°$",
@@ -1276,7 +1276,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle plat est partagé en $6$ angles tels que chacun est $5°$ de plus que le précédent. Quelle est la mesure du troisième angle (en partant du plus petit) ?",
+      "enonce_html": "Un angle plat est partagé en $6$ angles tels que chacun est $5°$ de plus que le précédent. Quelle est la mesure du troisième angle (en partant du plus petit) ?",
       "image": null,
       "choix": [
         "$20°$",
@@ -1292,7 +1292,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle $ABC$, $\\widehat{A} = 2\\widehat{B}$ et $\\widehat{C} = 3\\widehat{B}$. Quelle est la mesure de $\\widehat{B}$ ?",
+      "enonce_html": "Dans un triangle $ABC$, $\\widehat{A} = 2\\widehat{B}$ et $\\widehat{C} = 3\\widehat{B}$. Quelle est la mesure de $\\widehat{B}$ ?",
       "image": null,
       "choix": [
         "$20°$",
@@ -1308,7 +1308,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle $\\widehat{MON}$ a pour bissectrice $[OP)$. Un élève affirme que $\\widehat{MOP} = \\widehat{PON} + 5°$. Cette affirmation est-elle compatible avec la définition de la bissectrice ?",
+      "enonce_html": "Un angle $\\widehat{MON}$ a pour bissectrice $[OP)$. Un élève affirme que $\\widehat{MOP} = \\widehat{PON} + 5°$. Cette affirmation est-elle compatible avec la définition de la bissectrice ?",
       "image": null,
       "choix": [
         "Oui, une bissectrice peut créer des angles presque égaux",
@@ -1324,7 +1324,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle plat $\\widehat{AOB}$ est partagé par $[OC)$ en deux angles. $\\widehat{AOC}$ est aigu et $\\widehat{COB}$ est obtus. Si $\\widehat{COB} = 2 \\times \\widehat{AOC} + 30°$, quelle est la mesure de $\\widehat{AOC}$ ?",
+      "enonce_html": "Un angle plat $\\widehat{AOB}$ est partagé par $[OC)$ en deux angles. $\\widehat{AOC}$ est aigu et $\\widehat{COB}$ est obtus. Si $\\widehat{COB} = 2 \\times \\widehat{AOC} + 30°$, quelle est la mesure de $\\widehat{AOC}$ ?",
       "image": null,
       "choix": [
         "$40°$",
@@ -1340,7 +1340,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un élève démontre que si deux angles sont supplémentaires et l'un est $40°$ de plus que l'autre, alors les angles mesurent $70°$ et $110°$. Quelle étape est correcte dans cette démonstration ?",
+      "enonce_html": "Un élève démontre que si deux angles sont supplémentaires et l'un est $40°$ de plus que l'autre, alors les angles mesurent $70°$ et $110°$. Quelle étape est correcte dans cette démonstration ?",
       "image": null,
       "choix": [
         "$x + (x + 40°) = 180°$ donc $2x = 140°$ donc $x = 70°$",
@@ -1356,7 +1356,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle $ABC$ rectangle en $A$, on a $\\widehat{B} = 2 \\times \\widehat{C}$. Quelle est la mesure de $\\widehat{C}$ ?",
+      "enonce_html": "Dans un triangle $ABC$ rectangle en $A$, on a $\\widehat{B} = 2 \\times \\widehat{C}$. Quelle est la mesure de $\\widehat{C}$ ?",
       "image": null,
       "choix": [
         "$20°$",
@@ -1372,7 +1372,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On sait que $\\widehat{AOB} + \\widehat{BOC} + \\widehat{COD} = 180°$. Les trois angles sont distincts et forment une suite arithmétique (chacun $= $ précédent $+ d$). Si le premier angle est $20°$, quelle est la valeur de $d$ ?",
+      "enonce_html": "On sait que $\\widehat{AOB} + \\widehat{BOC} + \\widehat{COD} = 180°$. Les trois angles sont distincts et forment une suite arithmétique (chacun $= $ précédent $+ d$). Si le premier angle est $20°$, quelle est la valeur de $d$ ?",
       "image": null,
       "choix": [
         "$10°$",
@@ -1388,7 +1388,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On sait que $\\widehat{AOB} + \\widehat{BOC} + \\widehat{COD} = 180°$. Si $\\widehat{AOB} = 20°$, $\\widehat{BOC} = 60°$, $\\widehat{COD} = 100°$, quel type d'angles sont-ils respectivement ?",
+      "enonce_html": "On sait que $\\widehat{AOB} + \\widehat{BOC} + \\widehat{COD} = 180°$. Si $\\widehat{AOB} = 20°$, $\\widehat{BOC} = 60°$, $\\widehat{COD} = 100°$, quel type d'angles sont-ils respectivement ?",
       "image": null,
       "choix": [
         "Aigu, aigu, aigu",
@@ -1404,7 +1404,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] La bissectrice $[OC)$ de $\\widehat{AOB}$ est tracée, puis la bissectrice $[OD)$ de $\\widehat{AOC}$. Si $\\widehat{DOB} = 135°$, quelle est la mesure de $\\widehat{AOB}$ ?",
+      "enonce_html": "La bissectrice $[OC)$ de $\\widehat{AOB}$ est tracée, puis la bissectrice $[OD)$ de $\\widehat{AOC}$. Si $\\widehat{DOB} = 135°$, quelle est la mesure de $\\widehat{AOB}$ ?",
       "image": null,
       "choix": [
         "$90°$",
@@ -1420,7 +1420,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un angle plat est divisé en trois angles aigus. Les angles mesures sont $x$, $2x$ et $3x - 30°$. Quelle est la valeur de $x$ ?",
+      "enonce_html": "Un angle plat est divisé en trois angles aigus. Les angles mesures sont $x$, $2x$ et $3x - 30°$. Quelle est la valeur de $x$ ?",
       "image": null,
       "choix": [
         "$30°$",
@@ -1436,7 +1436,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle $DEF$, $\\widehat{D} = 3 \\times \\widehat{E}$ et $\\widehat{F} = \\widehat{E} + 20°$. Quelle est la mesure de $\\widehat{D}$ ?",
+      "enonce_html": "Dans un triangle $DEF$, $\\widehat{D} = 3 \\times \\widehat{E}$ et $\\widehat{F} = \\widehat{E} + 20°$. Quelle est la mesure de $\\widehat{D}$ ?",
       "image": null,
       "choix": [
         "$48°$",
