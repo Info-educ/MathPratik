@@ -892,110 +892,110 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un segment $[AB]$ mesure $12$ cm. Si le milieu $M$ de $[AB]$ est sur l'axe de symétrie $(d)$, quelle est la distance $AM$ ?",
+      "enonce_html": "Un segment $[AB]$ mesure $12$ cm. Si le milieu $M$ de $[AB]$ est sur l'axe de symétrie $(d)$, quelle est la distance $AM$ ?",
       "image": null,
       "choix": ["$3$ cm", "$6$ cm", "$12$ cm", "$24$ cm"],
       "reponse": "$6$ cm",
-      "explication": "[Question générée] $AM = AB \\div 2 = 12 \\div 2 = 6$ cm (M est le milieu de $[AB]$)."
+      "explication": "$AM = AB \\div 2 = 12 \\div 2 = 6$ cm (M est le milieu de $[AB]$)."
     },
     {
       "id": "sym6_n3_022",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un pentagone régulier possède combien d'axes de symétrie ?",
+      "enonce_html": "Un pentagone régulier possède combien d'axes de symétrie ?",
       "image": null,
       "choix": ["$3$", "$4$", "$5$", "$10$"],
       "reponse": "$5$",
-      "explication": "[Question générée] Un polygone régulier à $n$ côtés possède $n$ axes de symétrie. Un pentagone régulier en possède $5$."
+      "explication": "Un polygone régulier à $n$ côtés possède $n$ axes de symétrie. Un pentagone régulier en possède $5$."
     },
     {
       "id": "sym6_n3_023",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Si l'aire d'un triangle $ABC$ est $24$ cm² et son symétrique $A'B'C'$ a une aire de $x$ cm², quelle équation permet de trouver $x$ ?",
+      "enonce_html": "Si l'aire d'un triangle $ABC$ est $24$ cm² et son symétrique $A'B'C'$ a une aire de $x$ cm², quelle équation permet de trouver $x$ ?",
       "image": null,
       "choix": ["$x = 24 \\div 2 = 12$ cm²", "$x = 24 \\times 2 = 48$ cm²", "$x = 24$ cm² (conservation des aires)", "$x$ est impossible à trouver"],
       "reponse": "$x = 24$ cm² (conservation des aires)",
-      "explication": "[Question générée] La symétrie axiale conserve les aires. Donc $x = 24$ cm²."
+      "explication": "La symétrie axiale conserve les aires. Donc $x = 24$ cm²."
     },
     {
       "id": "sym6_n3_024",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un rectangle a une longueur de $10$ cm et une largeur de $6$ cm. Quelle est la longueur du rectangle symétrique ?",
+      "enonce_html": "Un rectangle a une longueur de $10$ cm et une largeur de $6$ cm. Quelle est la longueur du rectangle symétrique ?",
       "image": null,
       "choix": ["$5$ cm", "$6$ cm", "$8$ cm", "$10$ cm"],
       "reponse": "$10$ cm",
-      "explication": "[Question générée] La symétrie conserve toutes les longueurs : le symétrique du rectangle a les mêmes dimensions, soit $10$ cm de longueur."
+      "explication": "La symétrie conserve toutes les longueurs : le symétrique du rectangle a les mêmes dimensions, soit $10$ cm de longueur."
     },
     {
       "id": "sym6_n3_025",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans la construction du symétrique d'un point $M$, on trouve $H$ pied de la perpendiculaire avec $MH = 5$ cm. Quelle est la distance $HM'$ ?",
+      "enonce_html": "Dans la construction du symétrique d'un point $M$, on trouve $H$ pied de la perpendiculaire avec $MH = 5$ cm. Quelle est la distance $HM'$ ?",
       "image": null,
       "choix": ["$2{,}5$ cm", "$5$ cm", "$10$ cm", "$25$ cm"],
       "reponse": "$5$ cm",
-      "explication": "[Question générée] Par définition, $HM = HM'$. Donc $HM' = 5$ cm."
+      "explication": "Par définition, $HM = HM'$. Donc $HM' = 5$ cm."
     },
     {
       "id": "sym6_n3_026",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle $ABC$ est tel que $A$ est sur l'axe $(d)$ et $B$, $C$ sont symétriques par rapport à $(d)$. Que peut-on dire de $AB$ et $AC$ ?",
+      "enonce_html": "Un triangle $ABC$ est tel que $A$ est sur l'axe $(d)$ et $B$, $C$ sont symétriques par rapport à $(d)$. Que peut-on dire de $AB$ et $AC$ ?",
       "image": null,
       "choix": ["$AB > AC$", "$AB < AC$", "$AB = AC$", "Aucun lien entre $AB$ et $AC$"],
       "reponse": "$AB = AC$",
-      "explication": "[Question générée] Si $B$ et $C$ sont symétriques par rapport à $(d)$ et $A$ est sur $(d)$, alors $A$ est équidistant de $B$ et $C$, donc $AB = AC$."
+      "explication": "Si $B$ et $C$ sont symétriques par rapport à $(d)$ et $A$ est sur $(d)$, alors $A$ est équidistant de $B$ et $C$, donc $AB = AC$."
     },
     {
       "id": "sym6_n3_027",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Une figure possède $2$ axes de symétrie perpendiculaires. Quelle figure cela pourrait-il être ?",
+      "enonce_html": "Une figure possède $2$ axes de symétrie perpendiculaires. Quelle figure cela pourrait-il être ?",
       "image": null,
       "choix": ["Un triangle isocèle", "Un cercle", "Un rectangle non carré", "Un triangle équilatéral"],
       "reponse": "Un rectangle non carré",
-      "explication": "[Question générée] Un rectangle non carré possède exactement $2$ axes de symétrie perpendiculaires entre eux (les médiatrices de ses côtés)."
+      "explication": "Un rectangle non carré possède exactement $2$ axes de symétrie perpendiculaires entre eux (les médiatrices de ses côtés)."
     },
     {
       "id": "sym6_n3_028",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Le symétrique d'un triangle isocèle $ABC$ (isocèle en $A$, $AB=AC$) par rapport à la médiatrice de $[BC]$ est :",
+      "enonce_html": "Le symétrique d'un triangle isocèle $ABC$ (isocèle en $A$, $AB=AC$) par rapport à la médiatrice de $[BC]$ est :",
       "image": null,
       "choix": ["Un triangle quelconque différent", "Le même triangle $ABC$ (il coïncide avec lui-même)", "Un triangle équilatéral", "Un triangle rectangle"],
       "reponse": "Le même triangle $ABC$ (il coïncide avec lui-même)",
-      "explication": "[Question générée] La médiatrice de $[BC]$ est l'axe de symétrie du triangle isocèle en $A$ : le triangle est son propre symétrique."
+      "explication": "La médiatrice de $[BC]$ est l'axe de symétrie du triangle isocèle en $A$ : le triangle est son propre symétrique."
     },
     {
       "id": "sym6_n3_029",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Si deux droites $(d_1)$ et $(d_2)$ sont parallèles et symétriques par rapport à $(d)$, que peut-on dire de leur distance à $(d)$ ?",
+      "enonce_html": "Si deux droites $(d_1)$ et $(d_2)$ sont parallèles et symétriques par rapport à $(d)$, que peut-on dire de leur distance à $(d)$ ?",
       "image": null,
       "choix": ["$(d_1)$ est plus proche de $(d)$ que $(d_2)$", "$(d_1)$ et $(d_2)$ sont à la même distance de $(d)$", "$(d_2)$ est deux fois plus éloignée que $(d_1)$", "On ne peut pas comparer"],
       "reponse": "$(d_1)$ et $(d_2)$ sont à la même distance de $(d)$",
-      "explication": "[Question générée] Tout point et son symétrique sont équidistants de l'axe. Donc les deux droites symétriques sont à la même distance de $(d)$."
+      "explication": "Tout point et son symétrique sont équidistants de l'axe. Donc les deux droites symétriques sont à la même distance de $(d)$."
     },
     {
       "id": "sym6_n3_030",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Si un triangle $DEF$ est symétrique de $ABC$ par rapport à $(d)$, et que le périmètre de $ABC$ est $30$ cm, quel est le périmètre de $DEF$ ?",
+      "enonce_html": "Si un triangle $DEF$ est symétrique de $ABC$ par rapport à $(d)$, et que le périmètre de $ABC$ est $30$ cm, quel est le périmètre de $DEF$ ?",
       "image": null,
       "choix": ["$15$ cm", "$20$ cm", "$30$ cm", "$60$ cm"],
       "reponse": "$30$ cm",
-      "explication": "[Question générée] La symétrie axiale conserve toutes les longueurs, donc le périmètre est conservé : périmètre de $DEF = 30$ cm."
+      "explication": "La symétrie axiale conserve toutes les longueurs, donc le périmètre est conservé : périmètre de $DEF = 30$ cm."
     }
   ]
 }
