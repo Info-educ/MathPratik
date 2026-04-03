@@ -1292,7 +1292,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un rectangle a un périmètre de $32$ cm. Sa longueur est $3$ fois sa largeur. Quelle est son aire ?",
+      "enonce_html": "Un rectangle a un périmètre de $32$ cm. Sa longueur est $3$ fois sa largeur. Quelle est son aire ?",
       "image": null,
       "choix": [
         "$36$ cm²",
@@ -1301,14 +1301,14 @@
         "$96$ cm²"
       ],
       "reponse": "$48$ cm²",
-      "explication": "[Question générée] $P = 2(L+l) = 32$, donc $L+l = 16$. Avec $L = 3l$ : $3l+l=16$, soit $l=4$ cm et $L=12$ cm. Aire : $12 \\times 4 = 48$ cm²."
+      "explication": "$P = 2(L+l) = 32$, donc $L+l = 16$. Avec $L = 3l$ : $3l+l=16$, soit $l=4$ cm et $L=12$ cm. Aire : $12 \\times 4 = 48$ cm²."
     },
     {
       "id": "ap6_n3_022",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un disque a une aire de $78{,}5$ cm² ($\\pi \\approx 3{,}14$). Quel est son rayon ?",
+      "enonce_html": "Un disque a une aire de $78{,}5$ cm² ($\\pi \\approx 3{,}14$). Quel est son rayon ?",
       "image": null,
       "choix": [
         "$3$ cm",
@@ -1317,14 +1317,14 @@
         "$25$ cm"
       ],
       "reponse": "$5$ cm",
-      "explication": "[Question générée] $A = \\pi \\times r^2$, donc $r^2 = \\dfrac{78{,}5}{3{,}14} = 25$, soit $r = \\sqrt{25} = 5$ cm."
+      "explication": "$A = \\pi \\times r^2$, donc $r^2 = \\dfrac{78{,}5}{3{,}14} = 25$, soit $r = \\sqrt{25} = 5$ cm."
     },
     {
       "id": "ap6_n3_023",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un carré a un côté de $c$ cm. On augmente son côté de $2$ cm. De combien l'aire augmente-t-elle (en fonction de $c$) ?",
+      "enonce_html": "Un carré a un côté de $c$ cm. On augmente son côté de $2$ cm. De combien l'aire augmente-t-elle (en fonction de $c$) ?",
       "image": null,
       "choix": [
         "$4$ cm²",
@@ -1333,14 +1333,14 @@
         "$c^2 + 4$ cm²"
       ],
       "reponse": "$4c + 4$ cm²",
-      "explication": "[Question générée] Nouvelle aire : $(c+2)^2 = c^2 + 4c + 4$. Aire initiale : $c^2$. Augmentation : $4c + 4$ cm²."
+      "explication": "Nouvelle aire : $(c+2)^2 = c^2 + 4c + 4$. Aire initiale : $c^2$. Augmentation : $4c + 4$ cm²."
     },
     {
       "id": "ap6_n3_024",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Une pelouse rectangulaire de $12$ m × $8$ m est entourée d'une allée de $0{,}5$ m de large. Quelle est l'aire de l'allée ?",
+      "enonce_html": "Une pelouse rectangulaire de $12$ m × $8$ m est entourée d'une allée de $0{,}5$ m de large. Quelle est l'aire de l'allée ?",
       "image": null,
       "choix": [
         "$20$ m²",
@@ -1349,14 +1349,14 @@
         "$21$ m²"
       ],
       "reponse": "$21$ m²",
-      "explication": "[Question générée] Grande zone : $(12+1) \\times (8+1) = 13 \\times 9 = 117$ m². Pelouse : $12 \\times 8 = 96$ m². Allée : $117 - 96 = 21$ m²."
+      "explication": "Grande zone : $(12+1) \\times (8+1) = 13 \\times 9 = 117$ m². Pelouse : $12 \\times 8 = 96$ m². Allée : $117 - 96 = 21$ m²."
     },
     {
       "id": "ap6_n3_025",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On quadruple le côté d'un carré. Par combien est multipliée son aire ?",
+      "enonce_html": "On quadruple le côté d'un carré. Par combien est multipliée son aire ?",
       "image": null,
       "choix": [
         "$4$",
@@ -1365,14 +1365,14 @@
         "$16$"
       ],
       "reponse": "$16$",
-      "explication": "[Question générée] Si $c' = 4c$, alors $A' = (4c)^2 = 16c^2 = 16 \\times A$. L'aire est multipliée par $4^2 = 16$."
+      "explication": "Si $c' = 4c$, alors $A' = (4c)^2 = 16c^2 = 16 \\times A$. L'aire est multipliée par $4^2 = 16$."
     },
     {
       "id": "ap6_n3_026",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un terrain triangulaire a une base de $30$ m et une hauteur de $14$ m. Quelle est son aire en m² ?",
+      "enonce_html": "Un terrain triangulaire a une base de $30$ m et une hauteur de $14$ m. Quelle est son aire en m² ?",
       "image": null,
       "choix": [
         "$420$ m²",
@@ -1381,14 +1381,14 @@
         "$44$ m²"
       ],
       "reponse": "$210$ m²",
-      "explication": "[Question générée] $A = \\dfrac{b \\times h}{2} = \\dfrac{30 \\times 14}{2} = \\dfrac{420}{2} = 210$ m²."
+      "explication": "$A = \\dfrac{b \\times h}{2} = \\dfrac{30 \\times 14}{2} = \\dfrac{420}{2} = 210$ m²."
     },
     {
       "id": "ap6_n3_027",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un rectangle mesure $L$ cm × $l$ cm. Si on multiplie la longueur par $3$ et divise la largeur par $3$, que se passe-t-il pour l'aire ?",
+      "enonce_html": "Un rectangle mesure $L$ cm × $l$ cm. Si on multiplie la longueur par $3$ et divise la largeur par $3$, que se passe-t-il pour l'aire ?",
       "image": null,
       "choix": [
         "Elle est multipliée par $3$",
@@ -1397,14 +1397,14 @@
         "Elle est multipliée par $9$"
       ],
       "reponse": "Elle ne change pas",
-      "explication": "[Question générée] Nouvelle aire : $(3L) \\times \\dfrac{l}{3} = L \\times l$. L'aire reste identique. On a multiplié par $3$ et divisé par $3$."
+      "explication": "Nouvelle aire : $(3L) \\times \\dfrac{l}{3} = L \\times l$. L'aire reste identique. On a multiplié par $3$ et divisé par $3$."
     },
     {
       "id": "ap6_n3_028",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un demi-disque de rayon $6$ cm est accolé à un rectangle de $12$ cm × $4$ cm. Quelle est l'aire totale de la figure ($\\pi \\approx 3{,}14$) ?",
+      "enonce_html": "Un demi-disque de rayon $6$ cm est accolé à un rectangle de $12$ cm × $4$ cm. Quelle est l'aire totale de la figure ($\\pi \\approx 3{,}14$) ?",
       "image": null,
       "choix": [
         "$48$ cm²",
@@ -1413,14 +1413,14 @@
         "$120$ cm²"
       ],
       "reponse": "$104{,}52$ cm²",
-      "explication": "[Question générée] Aire du demi-disque : $\\dfrac{\\pi \\times 6^2}{2} = \\dfrac{3{,}14 \\times 36}{2} = \\dfrac{113{,}04}{2} = 56{,}52$ cm². Aire du rectangle : $12 \\times 4 = 48$ cm². Total : $56{,}52 + 48 = 104{,}52$ cm²."
+      "explication": "Aire du demi-disque : $\\dfrac{\\pi \\times 6^2}{2} = \\dfrac{3{,}14 \\times 36}{2} = \\dfrac{113{,}04}{2} = 56{,}52$ cm². Aire du rectangle : $12 \\times 4 = 48$ cm². Total : $56{,}52 + 48 = 104{,}52$ cm²."
     },
     {
       "id": "ap6_n3_029",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un carrelage rectangulaire de $60$ cm × $40$ cm doit recouvrir un mur de $3$ m × $2$ m. Combien de carreaux faut-il au minimum ?",
+      "enonce_html": "Un carrelage rectangulaire de $60$ cm × $40$ cm doit recouvrir un mur de $3$ m × $2$ m. Combien de carreaux faut-il au minimum ?",
       "image": null,
       "choix": [
         "$15$",
@@ -1429,14 +1429,14 @@
         "$100$"
       ],
       "reponse": "$25$",
-      "explication": "[Question générée] Aire du mur : $300 \\times 200 = 60\\,000$ cm². Aire d'un carreau : $60 \\times 40 = 2\\,400$ cm². Nombre : $60\\,000 \\div 2\\,400 = 25$ carreaux."
+      "explication": "Aire du mur : $300 \\times 200 = 60\\,000$ cm². Aire d'un carreau : $60 \\times 40 = 2\\,400$ cm². Nombre : $60\\,000 \\div 2\\,400 = 25$ carreaux."
     },
     {
       "id": "ap6_n3_030",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Parmi ces affirmations sur l'aire et le périmètre, laquelle est vraie ?",
+      "enonce_html": "Parmi ces affirmations sur l'aire et le périmètre, laquelle est vraie ?",
       "image": null,
       "choix": [
         "Si l'aire d'une figure augmente, son périmètre augmente forcément",
@@ -1445,7 +1445,7 @@
         "Un carré a toujours une plus grande aire qu'un rectangle de même périmètre"
       ],
       "reponse": "Une figure peut avoir une grande aire et un petit périmètre",
-      "explication": "[Question générée] C'est une propriété importante : un disque de rayon $10$ cm a une aire de $314$ cm² et un périmètre de $62{,}8$ cm. Un rectangle $1 \\times 1000$ cm a une aire de $1000$ cm² mais un périmètre de $2002$ cm. Les deux mesures sont indépendantes."
+      "explication": "C'est une propriété importante : un disque de rayon $10$ cm a une aire de $314$ cm² et un périmètre de $62{,}8$ cm. Un rectangle $1 \\times 1000$ cm a une aire de $1000$ cm² mais un périmètre de $2002$ cm. Les deux mesures sont indépendantes."
     }
   ]
 }
