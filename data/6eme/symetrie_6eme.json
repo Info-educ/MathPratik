@@ -45,7 +45,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Sur la figure, $(d)$ est la médiatrice du segment $[AA']$. Que peut-on dire du point $I$ ?",
+      "enonce_html": "Sur la figure, $(d)$ est la médiatrice du segment $[AA']$. Que peut-on affirmer ?",
       "image": "6eme/symetrie/ece2bc03178e54d2cd9c256a71b87ad4a8ff882c.png",
       "choix": ["$I$ est le milieu de $[AA']$ seulement", "$(d)$ est perpendiculaire à $[AA']$ seulement", "$I$ est le milieu de $[AA']$ et $(d) \\perp [AA']$", "$I$ est un point quelconque"],
       "reponse": "$I$ est le milieu de $[AA']$ et $(d) \\perp [AA']$",
@@ -243,7 +243,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Le triangle isocèle $ABC$ est symétrique par rapport à l'axe $(d)$ sur la figure. Que peut-on dire de ce triangle ?",
+      "enonce_html": "Le triangle $ABC$ est isocèle et (d) est la médiatrice de [BC] sur la figure. Que peut-on dire de ce triangle ?",
       "image": "6eme/symetrie/a8a2bb1be6220390505576ea9d7549e58851aa3f.png",
       "choix": ["Il n'est pas symétrique par rapport à $(d)$", "Il est symétrique par rapport à $(d)$", "$(d)$ est une médiane mais pas un axe", "On ne peut pas savoir"],
       "reponse": "Il est symétrique par rapport à $(d)$",
@@ -266,7 +266,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Combien d'axes de symétrie possède un rectangle (non carré) ?",
-      "image": "6eme/symetrie/eebc3ce197f319106c736b86c374d8c1f4266951.png",
+      "image": null,
       "choix": ["$1$", "$2$", "$4$", "$8$"],
       "reponse": "$2$",
       "explication": "Un rectangle (non carré) possède exactement $2$ axes de symétrie : les deux médiatrices des côtés opposés."
@@ -382,17 +382,6 @@
       "explication": "$(d)$ est la médiatrice de $[BC]$, donc $(d) \\perp [BC]$. Comme $AM$ est sur $(d)$, $[AM] \\perp [BC]$."
     },
     {
-      "id": "sym6_n2_005",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans la figure du triangle isocèle, si $BM = 8$ cm et $AM = 6$ cm (triangle $ABM$ rectangle en $M$), calcule $AB$.",
-      "image": "6eme/symetrie/a8a2bb1be6220390505576ea9d7549e58851aa3f.png",
-      "choix": ["$7$ cm", "$8$ cm", "$10$ cm", "$14$ cm"],
-      "reponse": "$10$ cm",
-      "explication": "Triangle rectangle $ABM$ : $AB^2 = AM^2 + BM^2 = 36 + 64 = 100$. $AB = 10$ cm."
-    },
-    {
       "id": "sym6_n2_006",
       "niveau": 2,
       "type": "qcm",
@@ -453,7 +442,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Le triangle isocèle (non équilatéral) possède combien d'axes de symétrie ?",
-      "image": "6eme/symetrie/a8a2bb1be6220390505576ea9d7549e58851aa3f.png",
+      "image": null,
       "choix": ["$0$", "$1$", "$2$", "$3$"],
       "reponse": "$1$",
       "explication": "Un triangle isocèle (non équilatéral) possède exactement $1$ axe de symétrie : la médiatrice de la base."
@@ -553,8 +542,8 @@
       "avec_calculatrice": false,
       "enonce_html": "Si $A'$ est le symétrique de $A$, quel est le symétrique de $A'$ ?",
       "image": null,
-      "choix": ["$A''$", "Un autre point", "$A$ lui-même", "Le milieu de $AA'$"],
-      "reponse": "$A$ lui-même",
+      "choix": ["$A''$", "Un autre point", "$A$", "Le milieu de $AA'$"],
+      "reponse": "$A$",
       "explication": "La symétrie est une involution : le symétrique de $A'$ est $A$."
     },
     {
@@ -646,17 +635,6 @@
       "explication": "La symétrie conserve les angles et les longueurs : le symétrique d'un rectangle est un rectangle."
     },
     {
-      "id": "sym6_n2_029",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la figure du rectangle $ABCD$ avec ses deux axes $(d_1)$ et $(d_2)$, que représente $(d_1)$ ?",
-      "image": "6eme/symetrie/eebc3ce197f319106c736b86c374d8c1f4266951.png",
-      "choix": ["La diagonale du rectangle", "La médiatrice de $[AB]$ et $[CD]$", "La médiatrice de $[AD]$ et $[BC]$", "Un côté du rectangle"],
-      "reponse": "La médiatrice de $[AB]$ et $[CD]$",
-      "explication": "$(d_1)$ est la médiatrice de $[AB]$ et $[CD]$ (axe horizontal). $(d_2)$ est la médiatrice de $[AD]$ et $[BC]$ (axe vertical)."
-    },
-    {
       "id": "sym6_n2_030",
       "niveau": 2,
       "type": "qcm",
@@ -710,17 +688,6 @@
       "choix": ["$12$ cm", "$15$ cm", "$18$ cm", "$21$ cm"],
       "reponse": "$18$ cm",
       "explication": "Point proche du 1er cercle : $9-3=6$ cm de $(d)$. Point éloigné du 2e : $9+3=12$ cm de $(d)$. Distance totale $= 6+12 = 18$ cm."
-    },
-    {
-      "id": "sym6_n3_005",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la figure, le triangle isocèle est symétrique par rapport à $(d)$. Si $AB = AC = 10$ cm et $BC = 12$ cm, quelle est la distance $AM$ (hauteur issue de $A$) ?",
-      "image": "6eme/symetrie/a8a2bb1be6220390505576ea9d7549e58851aa3f.png",
-      "choix": ["$6$ cm", "$8$ cm", "$10$ cm", "$4$ cm"],
-      "reponse": "$8$ cm",
-      "explication": "$BM = 6$ cm ($M$ milieu de $BC=12$). $AM^2 = AB^2-BM^2 = 100-36=64$. $AM=8$ cm."
     },
     {
       "id": "sym6_n3_006",
@@ -833,17 +800,6 @@
       "explication": "Si $A$ est sur l'axe $(d)$, alors $A' = A$. $(d)$ est axe de symétrie du triangle → $AB = AC$ (car $B' = C$ et $C' = B$) → triangle isocèle en $A$."
     },
     {
-      "id": "sym6_n3_016",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Si $(d_1)$ est perpendiculaire à l'axe $(d)$, quelle est la nature de $(d_2)$, son symétrique par rapport à $(d)$ ?",
-      "image": "6eme/symetrie/c20dbe509add69cd6c701060eb071b7a6b33256b.png",
-      "choix": ["$(d_2)$ est parallèle à $(d)$", "$(d_2)$ est perpendiculaire à $(d)$, donc $(d_2) = (d_1)$", "$(d_2)$ fait un angle de $45°$ avec $(d)$", "$(d_2)$ coïncide avec $(d)$"],
-      "reponse": "$(d_2)$ est perpendiculaire à $(d)$, donc $(d_2) = (d_1)$",
-      "explication": "Si $(d_1) \\perp (d)$, son symétrique $(d_2)$ fait le même angle avec $(d)$ : $(d_2) \\perp (d)$. En fait $(d_2) = (d_1)$ dans ce cas."
-    },
-    {
       "id": "sym6_n3_017",
       "niveau": 3,
       "type": "qcm",
@@ -916,8 +872,8 @@
       "avec_calculatrice": false,
       "enonce_html": "Si l'aire d'un triangle $ABC$ est $24$ cm² et son symétrique $A'B'C'$ a une aire de $x$ cm², quelle équation permet de trouver $x$ ?",
       "image": null,
-      "choix": ["$x = 24 \\div 2 = 12$ cm²", "$x = 24 \\times 2 = 48$ cm²", "$x = 24$ cm² (conservation des aires)", "$x$ est impossible à trouver"],
-      "reponse": "$x = 24$ cm² (conservation des aires)",
+      "choix": ["$x = 24 \\div 2 = 12$ cm²", "$x = 24 \\times 2 = 48$ cm²", "$x = 24$ cm²", "$x$ est impossible à trouver"],
+      "reponse": "$x = 24$ cm²",
       "explication": "La symétrie axiale conserve les aires. Donc $x = 24$ cm²."
     },
     {
@@ -971,8 +927,8 @@
       "avec_calculatrice": false,
       "enonce_html": "Le symétrique d'un triangle isocèle $ABC$ (isocèle en $A$, $AB=AC$) par rapport à la médiatrice de $[BC]$ est :",
       "image": null,
-      "choix": ["Un triangle quelconque différent", "Le même triangle $ABC$ (il coïncide avec lui-même)", "Un triangle équilatéral", "Un triangle rectangle"],
-      "reponse": "Le même triangle $ABC$ (il coïncide avec lui-même)",
+      "choix": ["Un triangle quelconque différent", "Le même triangle $ABC$", "Un triangle équilatéral", "Un triangle rectangle"],
+      "reponse": "Le même triangle $ABC$",
       "explication": "La médiatrice de $[BC]$ est l'axe de symétrie du triangle isocèle en $A$ : le triangle est son propre symétrique."
     },
     {
