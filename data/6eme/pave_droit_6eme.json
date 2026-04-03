@@ -1014,6 +1014,614 @@
       ],
       "reponse": "$1$ pot",
       "explication": "Aire totale $= 2(5 \\times 3 + 5 \\times 4 + 3 \\times 4) = 2(15 + 20 + 12) = 94$ cm². Deux couches $= 188$ cm². Un pot couvre $500$ cm² → $1$ pot suffit. [Question générée]"
+    },
+    {
+      "id": "pav6_n1_031",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur ce cube, qu'est-ce qu'un sommet ?",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "Une face plane du solide",
+        "Une arête du solide",
+        "Un point de rencontre entre plusieurs arêtes",
+        "Le centre du solide"
+      ],
+      "reponse": "Un point de rencontre entre plusieurs arêtes",
+      "explication": "Un sommet est un point où se rejoignent au moins trois arêtes. Un cube possède 8 sommets."
+    },
+    {
+      "id": "pav6_n1_032",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur ce pavé droit, comment appelle-t-on la ligne d'intersection entre deux faces ?",
+      "image": "6eme/pave_droit/image3.png",
+      "choix": [
+        "Un sommet",
+        "Une face",
+        "Un volume",
+        "Une arête"
+      ],
+      "reponse": "Une arête",
+      "explication": "L'intersection entre deux faces d'un solide s'appelle une arête. Un pavé droit possède 12 arêtes."
+    },
+    {
+      "id": "pav6_n1_033",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur ce pavé droit, qu'est-ce qu'une face ?",
+      "image": "6eme/pave_droit/image3.png",
+      "choix": [
+        "Un polygone qui borde le solide",
+        "Un point du solide",
+        "Une arête du solide",
+        "Le volume du solide"
+      ],
+      "reponse": "Un polygone qui borde le solide",
+      "explication": "Une face est une surface plane (polygone) qui délimite le solide. Un pavé droit a 6 faces rectangulaires."
+    },
+    {
+      "id": "pav6_n1_034",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de faces possède ce cube ?",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "4 faces",
+        "5 faces",
+        "6 faces",
+        "8 faces"
+      ],
+      "reponse": "6 faces",
+      "explication": "Un cube possède 6 faces, toutes carrées et de même dimension."
+    },
+    {
+      "id": "pav6_n1_035",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de sommets possède ce cube ?",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "4 sommets",
+        "6 sommets",
+        "8 sommets",
+        "12 sommets"
+      ],
+      "reponse": "8 sommets",
+      "explication": "Un cube possède 8 sommets (les angles). Un pavé droit aussi."
+    },
+    {
+      "id": "pav6_n1_036",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien d'arêtes possède ce cube ?",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "6 arêtes",
+        "8 arêtes",
+        "10 arêtes",
+        "12 arêtes"
+      ],
+      "reponse": "12 arêtes",
+      "explication": "Un cube possède 12 arêtes, toutes de même longueur. Un pavé droit aussi possède 12 arêtes."
+    },
+    {
+      "id": "pav6_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on ce type de solide ?",
+      "image": "6eme/pave_droit/image4.png",
+      "choix": [
+        "Une pyramide",
+        "Un prisme droit",
+        "Un cône",
+        "Une boule"
+      ],
+      "reponse": "Un prisme droit",
+      "explication": "Ce solide est un prisme droit à base triangulaire : deux bases triangulaires identiques et parallèles, reliées par des faces rectangulaires."
+    },
+    {
+      "id": "pav6_n1_038",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on ce type de solide ?",
+      "image": "6eme/pave_droit/image5.png",
+      "choix": [
+        "Un prisme droit",
+        "Un cylindre",
+        "Une pyramide",
+        "Un pavé droit"
+      ],
+      "reponse": "Une pyramide",
+      "explication": "Ce solide est une pyramide à base carrée : une base carrée et 4 faces triangulaires qui convergent vers un sommet unique."
+    },
+    {
+      "id": "pav6_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Que représente le volume d'un solide ?",
+      "image": null,
+      "choix": [
+        "Le périmètre du solide",
+        "L'espace occupé par le solide",
+        "La surface du solide",
+        "La hauteur du solide"
+      ],
+      "reponse": "L'espace occupé par le solide",
+      "explication": "Le volume mesure l'espace intérieur occupé par le solide en trois dimensions."
+    },
+    {
+      "id": "pav6_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est l'unité de volume ?",
+      "image": null,
+      "choix": [
+        "Le centimètre ($\\text{cm}$)",
+        "Le mètre carré ($\\text{m}^{2}$)",
+        "Le centimètre cube ($\\text{cm}^{3}$)",
+        "Le gramme ($\\text{g}$)"
+      ],
+      "reponse": "Le centimètre cube ($\\text{cm}^{3}$)",
+      "explication": "L'unité de volume est le centimètre cube ($\\text{cm}^{3}$) ou le mètre cube ($\\text{m}^{3}$). Le cm mesuure une longueur, le m² une aire."
+    },
+    {
+      "id": "pav6_n1_041",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Qu'est-ce que $1\\,\\text{cm}^{3}$ ?",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "Le volume d'un cube d'arête $10$ cm",
+        "Le volume d'un carré d'arête $1$ cm",
+        "Le volume d'un cube d'arête $1$ cm",
+        "La surface d'un cube"
+      ],
+      "reponse": "Le volume d'un cube d'arête $1$ cm",
+      "explication": "$1\\,\\text{cm}^{3}$ est le volume d'un cube dont toutes les arêtes mesurent $1$ cm. On calcule : $1 \\times 1 \\times 1 = 1\\,\\text{cm}^{3}$."
+    },
+    {
+      "id": "pav6_n1_042",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de faces possède ce pavé droit ?",
+      "image": "6eme/pave_droit/image3.png",
+      "choix": [
+        "4 faces",
+        "6 faces",
+        "8 faces",
+        "5 faces"
+      ],
+      "reponse": "6 faces",
+      "explication": "Un pavé droit possède 6 faces rectangulaires. Elles forment 3 paires de faces opposées identiques."
+    },
+    {
+      "id": "pav6_n1_043",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Toutes les arêtes de ce cube sont…",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "De longueurs différentes",
+        "Parallèles entre elles",
+        "De même longueur",
+        "Perpendiculaires entre elles toutes"
+      ],
+      "reponse": "De même longueur",
+      "explication": "C'est la propriété fondamentale du cube : ses 12 arêtes ont toutes la même longueur."
+    },
+    {
+      "id": "pav6_n1_044",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on ce solide dont les bases sont des triangles ?",
+      "image": "6eme/pave_droit/image4.png",
+      "choix": [
+        "Prisme à base carrée",
+        "Prisme à base hexagonale",
+        "Prisme à base triangulaire",
+        "Pyramide triangulaire"
+      ],
+      "reponse": "Prisme à base triangulaire",
+      "explication": "Un prisme à base triangulaire a deux bases triangulaires et trois faces rectangulaires latérales."
+    },
+    {
+      "id": "pav6_n1_045",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Cette pyramide à base carrée possède combien de faces triangulaires ?",
+      "image": "6eme/pave_droit/image5.png",
+      "choix": [
+        "2 faces triangulaires",
+        "3 faces triangulaires",
+        "4 faces triangulaires",
+        "5 faces triangulaires"
+      ],
+      "reponse": "4 faces triangulaires",
+      "explication": "Une pyramide à base carrée possède 4 faces triangulaires (une par côté de la base carrée) et 1 base carrée, soit 5 faces en tout."
+    },
+    {
+      "id": "pav6_n1_046",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces deux solides (cylindre et boule), lequel n'a pas d'arête ?",
+      "image": "6eme/pave_droit/image6.png",
+      "choix": [
+        "Le cylindre",
+        "La boule (sphère)",
+        "Les deux n'ont pas d'arête",
+        "Les deux ont des arêtes"
+      ],
+      "reponse": "La boule (sphère)",
+      "explication": "La boule (sphère) n'a ni arête ni sommet : c'est une surface courbe fermée. Le cylindre possède 2 arêtes circulaires (les cercles de jonction entre les bases et la surface latérale)."
+    },
+    {
+      "id": "pav6_n1_047",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un assemblage de cubes identiques peut servir à…",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "Mesurer une longueur",
+        "Comparer des volumes",
+        "Calculer un périmètre",
+        "Mesurer une surface"
+      ],
+      "reponse": "Comparer des volumes",
+      "explication": "En utilisant des cubes-unités identiques, on peut mesurer et comparer les volumes de différents solides en comptant le nombre de cubes nécessaires pour les remplir."
+    },
+    {
+      "id": "pav6_n1_048",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un solide A est composé de 24 cubes et un solide B de 18 cubes identiques. Lequel a le plus grand volume ?",
+      "image": null,
+      "choix": [
+        "Le solide B",
+        "Les deux ont le même volume",
+        "Le solide A",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Le solide A",
+      "explication": "Avec des cubes identiques, plus on en a, plus le volume est grand. $24 > 18$ donc le solide A a le plus grand volume."
+    },
+    {
+      "id": "pav6_n1_049",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les faces de ce cube sont toutes des…",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "Rectangles",
+        "Triangles",
+        "Carrés",
+        "Cercles"
+      ],
+      "reponse": "Carrés",
+      "explication": "Les 6 faces d'un cube sont toutes des carrés identiques. C'est ce qui distingue le cube du pavé droit dont les faces sont des rectangles."
+    },
+    {
+      "id": "pav6_n2_031",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Ce prisme à base rectangulaire (pavé droit) possède combien d'arêtes ?",
+      "image": "6eme/pave_droit/image3.png",
+      "choix": [
+        "8 arêtes",
+        "10 arêtes",
+        "12 arêtes",
+        "6 arêtes"
+      ],
+      "reponse": "12 arêtes",
+      "explication": "Un pavé droit possède 12 arêtes : 4 de longueur $L$, 4 de longueur $l$ et 4 de hauteur $h$."
+    },
+    {
+      "id": "pav6_n2_032",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Cette pyramide à base pentagonale (5 côtés) a combien de faces en tout ?",
+      "image": "6eme/pave_droit/image7.png",
+      "choix": [
+        "5 faces",
+        "6 faces",
+        "7 faces",
+        "10 faces"
+      ],
+      "reponse": "6 faces",
+      "explication": "Une pyramide à base pentagonale a 1 base pentagonale + 5 faces triangulaires = 6 faces au total."
+    },
+    {
+      "id": "pav6_n2_033",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Ce prisme à base triangulaire a combien de sommets ?",
+      "image": "6eme/pave_droit/image4.png",
+      "choix": [
+        "3 sommets",
+        "4 sommets",
+        "5 sommets",
+        "6 sommets"
+      ],
+      "reponse": "6 sommets",
+      "explication": "Un prisme à base triangulaire a 2 bases triangulaires, chacune avec 3 sommets, soit $2 \\times 3 = 6$ sommets."
+    },
+    {
+      "id": "pav6_n2_034",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans une représentation 2D d'un solide, les arêtes cachées sont tracées…",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "En trait plein",
+        "En rouge",
+        "En pointillés",
+        "Elles ne sont pas tracées"
+      ],
+      "reponse": "En pointillés",
+      "explication": "Par convention, les arêtes que l'on ne voit pas (cachées par le solide) sont tracées en pointillés dans les représentations en perspective cavalière."
+    },
+    {
+      "id": "pav6_n2_035",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si ce cube a une arête de $3$ cm, quel est son volume ?",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "$9\\,\\text{cm}^{3}$",
+        "$18\\,\\text{cm}^{3}$",
+        "$27\\,\\text{cm}^{3}$",
+        "$54\\,\\text{cm}^{3}$"
+      ],
+      "reponse": "$27\\,\\text{cm}^{3}$",
+      "explication": "Volume d'un cube : $V = a^{3} = 3^{3} = 27\\,\\text{cm}^{3}$."
+    },
+    {
+      "id": "pav6_n2_036",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de faces rectangulaires possède ce prisme à base triangulaire ?",
+      "image": "6eme/pave_droit/image4.png",
+      "choix": [
+        "2 faces rectangulaires",
+        "3 faces rectangulaires",
+        "4 faces rectangulaires",
+        "5 faces rectangulaires"
+      ],
+      "reponse": "3 faces rectangulaires",
+      "explication": "Un prisme à base triangulaire a 3 faces latérales rectangulaires (une par côté du triangle) et 2 bases triangulaires."
+    },
+    {
+      "id": "pav6_n2_037",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Cette pyramide à base carrée et ce cube ont-ils le même nombre de sommets ?",
+      "image": "6eme/pave_droit/image8.png",
+      "choix": [
+        "Oui, tous les deux ont 8 sommets",
+        "Non : la pyramide a 5 sommets, le cube en a 8",
+        "Non : la pyramide a 4 sommets, le cube en a 6",
+        "Oui, tous les deux ont 4 sommets"
+      ],
+      "reponse": "Non : la pyramide a 5 sommets, le cube en a 8",
+      "explication": "La pyramide à base carrée a 4 sommets à la base + 1 sommet principal = 5 sommets. Le cube a 8 sommets."
+    },
+    {
+      "id": "pav6_n2_038",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien d'arêtes possède cette pyramide à base carrée ?",
+      "image": "6eme/pave_droit/image5.png",
+      "choix": [
+        "4 arêtes",
+        "6 arêtes",
+        "8 arêtes",
+        "12 arêtes"
+      ],
+      "reponse": "8 arêtes",
+      "explication": "Une pyramide à base carrée a 4 arêtes de la base + 4 arêtes latérales = 8 arêtes."
+    },
+    {
+      "id": "pav6_n2_039",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la différence entre ce cube et un pavé droit ?",
+      "image": "6eme/pave_droit/image9.png",
+      "choix": [
+        "Le cube a plus de faces que le pavé droit",
+        "Dans un cube toutes les arêtes sont égales, pas forcément dans un pavé droit",
+        "Le pavé droit n'a pas de sommet",
+        "Le cube n'a pas d'arêtes"
+      ],
+      "reponse": "Dans un cube toutes les arêtes sont égales, pas forcément dans un pavé droit",
+      "explication": "Un cube est un pavé droit particulier dans lequel les 12 arêtes sont toutes de même longueur. Dans un pavé droit quelconque, on a 3 groupes de 4 arêtes de longueurs différentes."
+    },
+    {
+      "id": "pav6_n2_040",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un prisme droit : ses faces latérales sont…",
+      "image": "6eme/pave_droit/image4.png",
+      "choix": [
+        "Des triangles",
+        "Des pentagones",
+        "Des rectangles",
+        "Des hexagones"
+      ],
+      "reponse": "Des rectangles",
+      "explication": "Dans un prisme droit, les faces latérales sont toujours des rectangles, quelle que soit la forme des bases."
+    },
+    {
+      "id": "pav6_n2_041",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On empile des cubes d'arête $1$ cm pour remplir un pavé de $3$ cm $\\times$ $2$ cm $\\times$ $4$ cm. Combien de cubes faut-il ?",
+      "image": "6eme/pave_droit/image9.png",
+      "choix": [
+        "9 cubes",
+        "18 cubes",
+        "24 cubes",
+        "36 cubes"
+      ],
+      "reponse": "24 cubes",
+      "explication": "Le volume du pavé est $V = 3 \\times 2 \\times 4 = 24\\,\\text{cm}^{3}$. Chaque cube unité occupe $1\\,\\text{cm}^{3}$, donc il faut 24 cubes."
+    },
+    {
+      "id": "pav6_n2_042",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces affirmations, laquelle est vraie pour une pyramide ?",
+      "image": "6eme/pave_droit/image5.png",
+      "choix": [
+        "Elle a deux bases identiques",
+        "Ses faces latérales sont toujours des carrés",
+        "Elle possède un seul sommet principal (apex)",
+        "Elle n'a pas de face"
+      ],
+      "reponse": "Elle possède un seul sommet principal (apex)",
+      "explication": "Une pyramide est définie par sa base polygonale et un apex unique (sommet principal) vers lequel convergent toutes les faces triangulaires latérales."
+    },
+    {
+      "id": "pav6_n2_043",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de faces possède cette pyramide à base triangulaire ?",
+      "image": "6eme/pave_droit/image10.png",
+      "choix": [
+        "3 faces",
+        "4 faces",
+        "5 faces",
+        "6 faces"
+      ],
+      "reponse": "4 faces",
+      "explication": "Une pyramide à base triangulaire (tétraèdre) a 1 base triangulaire + 3 faces triangulaires latérales = 4 faces."
+    },
+    {
+      "id": "pav6_n2_044",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux assemblages de cubes identiques ont respectivement 12 et 15 cubes. Lequel a le plus grand volume et de combien ?",
+      "image": null,
+      "choix": [
+        "Le premier, de 3 cubes",
+        "Le second, de 2 cubes",
+        "Le second, de 3 cubes",
+        "Les deux ont le même volume"
+      ],
+      "reponse": "Le second, de 3 cubes",
+      "explication": "$15 > 12$ donc le second a le plus grand volume. La différence est $15 - 12 = 3$ cubes."
+    },
+    {
+      "id": "pav6_n2_045",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Ce prisme à base hexagonale (6 côtés) a combien de faces en tout ?",
+      "image": "6eme/pave_droit/image11.png",
+      "choix": [
+        "6 faces",
+        "7 faces",
+        "8 faces",
+        "12 faces"
+      ],
+      "reponse": "8 faces",
+      "explication": "Un prisme à base hexagonale a 2 bases hexagonales + 6 faces rectangulaires latérales = 8 faces."
+    },
+    {
+      "id": "pav6_n2_046",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est l'affirmation correcte à propos de ce cône ?",
+      "image": "6eme/pave_droit/image12.png",
+      "choix": [
+        "Il a des arêtes droites",
+        "Sa base est un polygone",
+        "Il a une base circulaire",
+        "Il a plusieurs sommets"
+      ],
+      "reponse": "Il a une base circulaire",
+      "explication": "Un cône a une base circulaire et un sommet (apex). Sa surface latérale est courbée. Il n'a ni arête droite ni face polygonale."
+    },
+    {
+      "id": "pav6_n2_047",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Ce cylindre possède-t-il des arêtes ?",
+      "image": "6eme/pave_droit/image13.png",
+      "choix": [
+        "Oui, 2 arêtes circulaires",
+        "Oui, 4 arêtes droites",
+        "Non, il n'a pas d'arête",
+        "Oui, 1 seule arête"
+      ],
+      "reponse": "Non, il n'a pas d'arête",
+      "explication": "Un cylindre droit n'a pas d'arête au sens strict du terme. Les cercles de jonction entre les bases et la surface latérale sont des courbes, pas des arêtes droites."
+    },
+    {
+      "id": "pav6_n2_048",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si on double la longueur de l'arête de ce cube, son volume est multiplié par…",
+      "image": "6eme/pave_droit/image2.png",
+      "choix": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "reponse": "8",
+      "explication": "Si l'arête passe de $a$ à $2a$, le volume passe de $a^{3}$ à $(2a)^{3} = 8a^{3}$. Le volume est multiplié par $2^{3} = 8$."
+    },
+    {
+      "id": "pav6_n2_049",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien d'arêtes possède ce prisme à base hexagonale ?",
+      "image": "6eme/pave_droit/image11.png",
+      "choix": [
+        "5 arêtes",
+        "10 arêtes",
+        "18 arêtes",
+        "12 arêtes"
+      ],
+      "reponse": "18 arêtes",
+      "explication": "Un prisme à base hexagonale a 6 arêtes par base (×2 = 12) + 6 arêtes latérales = 18 arêtes."
     }
   ]
 }
