@@ -21,7 +21,7 @@ const DB = {
 const State = {
   currentNiveau:   null,
   selectedThemes:  [],
-  selectedMode:    'examen',   // 'examen' | 'entrainement'
+  selectedMode:    'entrainement',   // 'examen' | 'entrainement'
   quizQuestions:   [],
   currentQIndex:   0,
   sessionCorrect:  0,
