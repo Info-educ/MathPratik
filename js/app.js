@@ -36,7 +36,7 @@ const State = {
     pool3:       [],   // questions niv3
     idx1: 0, idx2: 0, idx3: 0,  // curseur dans chaque pool
     ok1:  0, ok2:  0, ok3:  0,  // bonnes réponses validées par niveau
-    target1: 8, target2: 7, target3: 1,  // objectifs
+    target1: 8, target2: 6, target3: 1,  // objectifs
     currentLevel: 1,   // niveau actuel affiché (1, 2 ou 3)
     history: [],       // { q, isCorrect } pour l'écran résultats
   },
