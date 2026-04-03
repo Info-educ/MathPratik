@@ -428,7 +428,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Comment s'appelle un polygone à $4$ côtés ?",
+      "enonce_html": "Comment s'appelle un polygone à $4$ côtés ?",
       "image": null,
       "choix": [
         "Triangle",
@@ -444,7 +444,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un losange a un périmètre de $24$ cm. Quelle est la longueur d'un côté ?",
+      "enonce_html": "Un losange a un périmètre de $24$ cm. Quelle est la longueur d'un côté ?",
       "image": null,
       "choix": [
         "$4$ cm",
@@ -460,7 +460,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Parmi ces affirmations, laquelle est vraie pour un rectangle ?",
+      "enonce_html": "Parmi ces affirmations, laquelle est vraie pour un rectangle ?",
       "image": null,
       "choix": [
         "Ses quatre côtés sont égaux",
@@ -476,7 +476,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle isocèle en $L$ a $JL = LK = 9$ cm et $JK = 7$ cm. Quel est son périmètre ?",
+      "enonce_html": "Un triangle isocèle en $L$ a $JL = LK = 9$ cm et $JK = 7$ cm. Quel est son périmètre ?",
       "image": null,
       "choix": [
         "$16$ cm",
@@ -860,7 +860,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle équilatéral a le même périmètre qu'un carré de côté $6$ cm. Quelle est la longueur d'un côté du triangle ?",
+      "enonce_html": "Un triangle équilatéral a le même périmètre qu'un carré de côté $6$ cm. Quelle est la longueur d'un côté du triangle ?",
       "image": null,
       "choix": [
         "$6$ cm",
@@ -876,7 +876,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Calcule l'angle intérieur d'un pentagone régulier. (Formule : $(n-2) \\times 180° \\div n$)",
+      "enonce_html": "Calcule l'angle intérieur d'un pentagone régulier. (Formule : $(n-2) \\times 180° \\div n$)",
       "image": null,
       "choix": [
         "$90°$",
@@ -892,7 +892,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Triangle isocèle : deux côtés de $9$ cm, troisième côté $5$ cm. Quel est son périmètre ?",
+      "enonce_html": "Triangle isocèle : deux côtés de $9$ cm, troisième côté $5$ cm. Quel est son périmètre ?",
       "image": null,
       "choix": [
         "$18$ cm",
@@ -908,7 +908,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On coupe ce carré en traçant la diagonale. Les deux triangles obtenus sont-ils isocèles ?",
+      "enonce_html": "On coupe ce carré en traçant la diagonale. Les deux triangles obtenus sont-ils isocèles ?",
       "image": "6eme/polygones/9d3b6e9f6c96bf51b947d9c8bca5f0392c6ef92d.png",
       "choix": [
         "Non",
@@ -924,7 +924,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle isocèle en $M$ a des angles en $N$ et $O$ de $65°$ chacun. Quelle est la mesure de l'angle en $M$ ?",
+      "enonce_html": "Un triangle isocèle en $M$ a des angles en $N$ et $O$ de $65°$ chacun. Quelle est la mesure de l'angle en $M$ ?",
       "image": null,
       "choix": [
         "$50°$",
@@ -940,7 +940,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un rectangle a une largeur de $5$ cm et un périmètre de $34$ cm. Quelle est sa longueur ?",
+      "enonce_html": "Un rectangle a une largeur de $5$ cm et un périmètre de $34$ cm. Quelle est sa longueur ?",
       "image": null,
       "choix": [
         "$7$ cm",
@@ -956,7 +956,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle équilatéral et un rectangle ont le même périmètre de $36$ cm. Quelle est la longueur d'un côté du triangle ?",
+      "enonce_html": "Un triangle équilatéral et un rectangle ont le même périmètre de $36$ cm. Quelle est la longueur d'un côté du triangle ?",
       "image": null,
       "choix": [
         "$8$ cm",
@@ -1228,7 +1228,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Prouve qu'un triangle équilatéral ne peut pas être rectangle. Laquelle de ces explications est correcte ?",
+      "enonce_html": "Prouve qu'un triangle équilatéral ne peut pas être rectangle. Laquelle de ces explications est correcte ?",
       "image": null,
       "choix": [
         "Un triangle équilatéral a des angles de $60°$ et un rectangle en a un de $90°$ : $60° \\neq 90°$, impossible",
@@ -1244,7 +1244,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle isocèle en $M$ a un angle au sommet $\\widehat{M} = 120°$. Les angles à la base sont-ils aigus ou obtus ?",
+      "enonce_html": "Un triangle isocèle en $M$ a un angle au sommet $\\widehat{M} = 120°$. Les angles à la base sont-ils aigus ou obtus ?",
       "image": null,
       "choix": [
         "Aigus, car $(180° - 120°) \\div 2 = 30°$",
@@ -1260,7 +1260,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un quadrilatère a des côtés $5$, $7$, $5$, $7$ cm et quatre angles droits. Quel est son périmètre et quelle est cette figure ?",
+      "enonce_html": "Un quadrilatère a des côtés $5$, $7$, $5$, $7$ cm et quatre angles droits. Quel est son périmètre et quelle est cette figure ?",
       "image": null,
       "choix": [
         "$20$ cm — losange",
@@ -1276,7 +1276,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle équilatéral a le même périmètre qu'un rectangle $8 \\times 4$ cm. Quelle est la longueur d'un côté du triangle ?",
+      "enonce_html": "Un triangle équilatéral a le même périmètre qu'un rectangle $8 \\times 4$ cm. Quelle est la longueur d'un côté du triangle ?",
       "image": null,
       "choix": [
         "$6$ cm",
@@ -1292,7 +1292,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Calcule la somme des angles intérieurs d'un hexagone ($n = 6$).",
+      "enonce_html": "Calcule la somme des angles intérieurs d'un hexagone ($n = 6$).",
       "image": null,
       "choix": [
         "$540°$",
@@ -1308,7 +1308,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un polygone régulier a des angles intérieurs de $108°$. Combien de côtés a-t-il ?",
+      "enonce_html": "Un polygone régulier a des angles intérieurs de $108°$. Combien de côtés a-t-il ?",
       "image": null,
       "choix": [
         "$4$",
@@ -1324,7 +1324,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un grand triangle équilatéral de côté $3$ fois le petit côté se décompose en combien de petits triangles ?",
+      "enonce_html": "Un grand triangle équilatéral de côté $3$ fois le petit côté se décompose en combien de petits triangles ?",
       "image": null,
       "choix": [
         "$4$",
@@ -1340,7 +1340,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un losange a des diagonales de $8$ cm et $6$ cm (demi-diagonales $4$ et $3$, côté $= 5$ cm). Quel est son périmètre ?",
+      "enonce_html": "Un losange a des diagonales de $8$ cm et $6$ cm (demi-diagonales $4$ et $3$, côté $= 5$ cm). Quel est son périmètre ?",
       "image": null,
       "choix": [
         "$14$ cm",
@@ -1356,7 +1356,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle isocèle $ABC$ ($AB = AC$), la médiane issue de $A$ est-elle aussi une hauteur ?",
+      "enonce_html": "Dans un triangle isocèle $ABC$ ($AB = AC$), la médiane issue de $A$ est-elle aussi une hauteur ?",
       "image": null,
       "choix": [
         "Non, jamais",
@@ -1372,7 +1372,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle $PQR$ a $PQ = 3$ cm, $QR = 4$ cm, $PR = 5$ cm. Quel type est-il ? (Indice : $3^2 + 4^2 = 5^2$ ?)",
+      "enonce_html": "Un triangle $PQR$ a $PQ = 3$ cm, $QR = 4$ cm, $PR = 5$ cm. Quel type est-il ? (Indice : $3^2 + 4^2 = 5^2$ ?)",
       "image": null,
       "choix": [
         "Isocèle",
@@ -1388,7 +1388,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Quelle configuration de triangle est à la fois rectangle et isocèle ?",
+      "enonce_html": "Quelle configuration de triangle est à la fois rectangle et isocèle ?",
       "image": null,
       "choix": [
         "Angles $60°$, $60°$, $60°$",
@@ -1404,7 +1404,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un pentagone régulier a un périmètre de $35$ cm. Quelle est la somme de ses angles intérieurs ?",
+      "enonce_html": "Un pentagone régulier a un périmètre de $35$ cm. Quelle est la somme de ses angles intérieurs ?",
       "image": null,
       "choix": [
         "$360°$",
@@ -1420,7 +1420,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un carré a une diagonale de $10\\sqrt{2}$ cm. Quelle est la longueur de son côté ?",
+      "enonce_html": "Un carré a une diagonale de $10\\sqrt{2}$ cm. Quelle est la longueur de son côté ?",
       "image": null,
       "choix": [
         "$5$ cm",
@@ -1436,7 +1436,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On assemble $4$ triangles équilatéraux de côté $3$ cm pour former un grand triangle équilatéral. Quel est le périmètre du grand triangle ?",
+      "enonce_html": "On assemble $4$ triangles équilatéraux de côté $3$ cm pour former un grand triangle équilatéral. Quel est le périmètre du grand triangle ?",
       "image": null,
       "choix": [
         "$12$ cm",
