@@ -1292,7 +1292,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un train part à $6\\text{h}55$ et arrive à $10\\text{h}20$. Un autre train part à $7\\text{h}10$ et arrive à $10\\text{h}25$. Lequel a le trajet le plus court, et de combien ?",
+      "enonce_html": "Un train part à $6\\text{h}55$ et arrive à $10\\text{h}20$. Un autre train part à $7\\text{h}10$ et arrive à $10\\text{h}25$. Lequel a le trajet le plus court, et de combien ?",
       "image": null,
       "choix": [
         "Le premier, de $10$ min",
@@ -1301,14 +1301,14 @@
         "Le premier, de $5$ min"
       ],
       "reponse": "Ils ont la même durée",
-      "explication": "[Question générée] Train 1 : de $6\\text{h}55$ à $10\\text{h}20 = 3\\text{h}25$. Train 2 : de $7\\text{h}10$ à $10\\text{h}25 = 3\\text{h}15$. Non : $7\\text{h}10$ à $10\\text{h}25$ : $3\\text{h}15$. Le second est plus court de $10$ min. (Durée 1 : $3\\text{h}25$, durée 2 : $3\\text{h}15$.)"
+      "explication": "Train 1 : de $6\\text{h}55$ à $10\\text{h}20 = 3\\text{h}25$. Train 2 : de $7\\text{h}10$ à $10\\text{h}25 = 3\\text{h}15$. Non : $7\\text{h}10$ à $10\\text{h}25$ : $3\\text{h}15$. Le second est plus court de $10$ min. (Durée 1 : $3\\text{h}25$, durée 2 : $3\\text{h}15$.)"
     },
     {
       "id": "du6_n3_022",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Convertis : $1\\text{h}30\\text{min}45\\text{s}$ en secondes.",
+      "enonce_html": "Convertis : $1\\text{h}30\\text{min}45\\text{s}$ en secondes.",
       "image": null,
       "choix": [
         "$5\\,385$ s",
@@ -1317,14 +1317,14 @@
         "$5\\,545$ s"
       ],
       "reponse": "$5\\,445$ s",
-      "explication": "[Question générée] $1\\text{h} = 3\\,600\\text{s}$. $30\\text{min} = 1\\,800\\text{s}$. $45\\text{s}$. Total $= 3\\,600 + 1\\,800 + 45 = 5\\,445$ secondes."
+      "explication": "$1\\text{h} = 3\\,600\\text{s}$. $30\\text{min} = 1\\,800\\text{s}$. $45\\text{s}$. Total $= 3\\,600 + 1\\,800 + 45 = 5\\,445$ secondes."
     },
     {
       "id": "du6_n3_023",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un ouvrier travaille $7\\text{h}45\\text{min}$ par jour pendant $6$ jours. Quelle est la durée totale travaillée ?",
+      "enonce_html": "Un ouvrier travaille $7\\text{h}45\\text{min}$ par jour pendant $6$ jours. Quelle est la durée totale travaillée ?",
       "image": null,
       "choix": [
         "$45\\text{h}30\\text{min}$",
@@ -1333,14 +1333,14 @@
         "$47\\text{h}00\\text{min}$"
       ],
       "reponse": "$46\\text{h}30\\text{min}$",
-      "explication": "[Question générée] $7\\text{h}45\\text{min} \\times 6 = 42\\text{h} + 6 \\times 45\\text{min} = 42\\text{h} + 270\\text{min} = 42\\text{h} + 4\\text{h}30\\text{min} = 46\\text{h}30\\text{min}$."
+      "explication": "$7\\text{h}45\\text{min} \\times 6 = 42\\text{h} + 6 \\times 45\\text{min} = 42\\text{h} + 270\\text{min} = 42\\text{h} + 4\\text{h}30\\text{min} = 46\\text{h}30\\text{min}$."
     },
     {
       "id": "du6_n3_024",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Il est $14\\text{h}25$. Dans combien de minutes sera-t-il $15\\text{h}10$ ?",
+      "enonce_html": "Il est $14\\text{h}25$. Dans combien de minutes sera-t-il $15\\text{h}10$ ?",
       "image": null,
       "choix": [
         "$40$ min",
@@ -1349,14 +1349,14 @@
         "$55$ min"
       ],
       "reponse": "$45$ min",
-      "explication": "[Question générée] De $14\\text{h}25$ à $15\\text{h}10$ : de $14\\text{h}25$ à $15\\text{h}00$ : $35\\text{min}$. De $15\\text{h}00$ à $15\\text{h}10$ : $10\\text{min}$. Total $= 45$ minutes."
+      "explication": "De $14\\text{h}25$ à $15\\text{h}10$ : de $14\\text{h}25$ à $15\\text{h}00$ : $35\\text{min}$. De $15\\text{h}00$ à $15\\text{h}10$ : $10\\text{min}$. Total $= 45$ minutes."
     },
     {
       "id": "du6_n3_025",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Convertis $0{,}4$ heure en minutes.",
+      "enonce_html": "Convertis $0{,}4$ heure en minutes.",
       "image": null,
       "choix": [
         "$20$ min",
@@ -1365,14 +1365,14 @@
         "$40$ min"
       ],
       "reponse": "$24$ min",
-      "explication": "[Question générée] $0{,}4\\text{ h} = 0{,}4 \\times 60 = 24$ minutes."
+      "explication": "$0{,}4\\text{ h} = 0{,}4 \\times 60 = 24$ minutes."
     },
     {
       "id": "du6_n3_026",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un film commence à $21\\text{h}45$ et se termine à $0\\text{h}05$ (le lendemain). Quelle est sa durée ?",
+      "enonce_html": "Un film commence à $21\\text{h}45$ et se termine à $0\\text{h}05$ (le lendemain). Quelle est sa durée ?",
       "image": null,
       "choix": [
         "$2\\text{h}10\\text{min}$",
@@ -1381,14 +1381,14 @@
         "$2\\text{h}25\\text{min}$"
       ],
       "reponse": "$2\\text{h}20\\text{min}$",
-      "explication": "[Question générée] De $21\\text{h}45$ à $22\\text{h}00$ : $15\\text{min}$. De $22\\text{h}00$ à $0\\text{h}00$ : $2\\text{h}$. De $0\\text{h}00$ à $0\\text{h}05$ : $5\\text{min}$. Total $= 2\\text{h}20\\text{min}$."
+      "explication": "De $21\\text{h}45$ à $22\\text{h}00$ : $15\\text{min}$. De $22\\text{h}00$ à $0\\text{h}00$ : $2\\text{h}$. De $0\\text{h}00$ à $0\\text{h}05$ : $5\\text{min}$. Total $= 2\\text{h}20\\text{min}$."
     },
     {
       "id": "du6_n3_027",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Deux amis se retrouvent. L'un met $1\\text{h}12\\text{min}$ pour venir, l'autre $48\\text{min}$. Quelle est la différence de temps de trajet ?",
+      "enonce_html": "Deux amis se retrouvent. L'un met $1\\text{h}12\\text{min}$ pour venir, l'autre $48\\text{min}$. Quelle est la différence de temps de trajet ?",
       "image": null,
       "choix": [
         "$14$ min",
@@ -1397,14 +1397,14 @@
         "$34$ min"
       ],
       "reponse": "$24$ min",
-      "explication": "[Question générée] $1\\text{h}12\\text{min} - 48\\text{min} = 72\\text{min} - 48\\text{min} = 24$ minutes."
+      "explication": "$1\\text{h}12\\text{min} - 48\\text{min} = 72\\text{min} - 48\\text{min} = 24$ minutes."
     },
     {
       "id": "du6_n3_028",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Je dois effectuer $3$ tâches de $25\\text{min}$, $40\\text{min}$ et $1\\text{h}05\\text{min}$. Si je commence à $9\\text{h}00$, à quelle heure ai-je tout terminé ?",
+      "enonce_html": "Je dois effectuer $3$ tâches de $25\\text{min}$, $40\\text{min}$ et $1\\text{h}05\\text{min}$. Si je commence à $9\\text{h}00$, à quelle heure ai-je tout terminé ?",
       "image": null,
       "choix": [
         "$11\\text{h}00$",
@@ -1413,14 +1413,14 @@
         "$11\\text{h}15$"
       ],
       "reponse": "$11\\text{h}10$",
-      "explication": "[Question générée] Total : $25 + 40 + 65 = 130\\text{min} = 2\\text{h}10\\text{min}$. $9\\text{h}00 + 2\\text{h}10 = 11\\text{h}10$."
+      "explication": "Total : $25 + 40 + 65 = 130\\text{min} = 2\\text{h}10\\text{min}$. $9\\text{h}00 + 2\\text{h}10 = 11\\text{h}10$."
     },
     {
       "id": "du6_n3_029",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Convertis $10\\,980$ secondes en heures et minutes.",
+      "enonce_html": "Convertis $10\\,980$ secondes en heures et minutes.",
       "image": null,
       "choix": [
         "$3\\text{h}00\\text{min}$",
@@ -1429,14 +1429,14 @@
         "$3\\text{h}30\\text{min}$"
       ],
       "reponse": "$3\\text{h}03\\text{min}$",
-      "explication": "[Question générée] $10\\,980 \\div 60 = 183$ minutes. $183 = 3 \\times 60 + 3$. Donc $3\\text{h}03\\text{min}$."
+      "explication": "$10\\,980 \\div 60 = 183$ minutes. $183 = 3 \\times 60 + 3$. Donc $3\\text{h}03\\text{min}$."
     },
     {
       "id": "du6_n3_030",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un marathon dure $4\\text{h}02\\text{min}35\\text{s}$ pour le premier coureur et $4\\text{h}10\\text{min}20\\text{s}$ pour le second. De combien de secondes le premier est-il plus rapide ?",
+      "enonce_html": "Un marathon dure $4\\text{h}02\\text{min}35\\text{s}$ pour le premier coureur et $4\\text{h}10\\text{min}20\\text{s}$ pour le second. De combien de secondes le premier est-il plus rapide ?",
       "image": null,
       "choix": [
         "$445$ s",
@@ -1445,7 +1445,7 @@
         "$485$ s"
       ],
       "reponse": "$465$ s",
-      "explication": "[Question générée] Différence $= 4\\text{h}10\\text{min}20\\text{s} - 4\\text{h}02\\text{min}35\\text{s} = 7\\text{min}45\\text{s} = 7 \\times 60 + 45 = 420 + 45 = 465$ secondes."
+      "explication": "Différence $= 4\\text{h}10\\text{min}20\\text{s} - 4\\text{h}02\\text{min}35\\text{s} = 7\\text{min}45\\text{s} = 7 \\times 60 + 45 = 420 + 45 = 465$ secondes."
     }
   ]
 }
