@@ -1292,7 +1292,7 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Complète : $\\dfrac{7}{9} = \\dfrac{?}{27}$. Quelle est la valeur du numérateur manquant ?",
+      "enonce_html": "Complète : $\\dfrac{7}{9} = \\dfrac{?}{27}$. Quelle est la valeur du numérateur manquant ?",
       "image": null,
       "choix": [
         "$7$",
@@ -1301,14 +1301,14 @@
         "$27$"
       ],
       "reponse": "$21$",
-      "explication": "[Question générée] $\\dfrac{7}{9} = \\dfrac{7 \\times 3}{9 \\times 3} = \\dfrac{21}{27}$. ($9 \\times 3 = 27$.)"
+      "explication": "$\\dfrac{7}{9} = \\dfrac{7 \\times 3}{9 \\times 3} = \\dfrac{21}{27}$. ($9 \\times 3 = 27$.)"
     },
     {
       "id": "fr6_n3_022",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Quelle fraction est comprise entre $\\dfrac{3}{4}$ et $\\dfrac{7}{8}$ ?",
+      "enonce_html": "Quelle fraction est comprise entre $\\dfrac{3}{4}$ et $\\dfrac{7}{8}$ ?",
       "image": null,
       "choix": [
         "$\\dfrac{1}{2}$",
@@ -1317,14 +1317,14 @@
         "$\\dfrac{1}{4}$"
       ],
       "reponse": "$\\dfrac{5}{6}$",
-      "explication": "[Question générée] Dénominateur commun $24$ : $\\dfrac{3}{4} = \\dfrac{18}{24}$, $\\dfrac{5}{6} = \\dfrac{20}{24}$, $\\dfrac{7}{8} = \\dfrac{21}{24}$. On a $18 < 20 < 21$, donc $\\dfrac{3}{4} < \\dfrac{5}{6} < \\dfrac{7}{8}$."
+      "explication": "Dénominateur commun $24$ : $\\dfrac{3}{4} = \\dfrac{18}{24}$, $\\dfrac{5}{6} = \\dfrac{20}{24}$, $\\dfrac{7}{8} = \\dfrac{21}{24}$. On a $18 < 20 < 21$, donc $\\dfrac{3}{4} < \\dfrac{5}{6} < \\dfrac{7}{8}$."
     },
     {
       "id": "fr6_n3_023",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Simplifie la fraction $\\dfrac{84}{120}$.",
+      "enonce_html": "Simplifie la fraction $\\dfrac{84}{120}$.",
       "image": null,
       "choix": [
         "$\\dfrac{14}{20}$",
@@ -1333,14 +1333,14 @@
         "$\\dfrac{42}{60}$"
       ],
       "reponse": "$\\dfrac{7}{10}$",
-      "explication": "[Question générée] $\\dfrac{84}{120} = \\dfrac{84 \\div 12}{120 \\div 12} = \\dfrac{7}{10}$. ($\\text{pgcd}(84, 120) = 12$.)"
+      "explication": "$\\dfrac{84}{120} = \\dfrac{84 \\div 12}{120 \\div 12} = \\dfrac{7}{10}$. ($\\text{pgcd}(84, 120) = 12$.)"
     },
     {
       "id": "fr6_n3_024",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Calcule et simplifie : $\\dfrac{11}{15} + \\dfrac{4}{15} - \\dfrac{6}{15} =$",
+      "enonce_html": "Calcule et simplifie : $\\dfrac{11}{15} + \\dfrac{4}{15} - \\dfrac{6}{15} =$",
       "image": null,
       "choix": [
         "$\\dfrac{9}{15}$",
@@ -1349,14 +1349,14 @@
         "$\\dfrac{9}{45}$"
       ],
       "reponse": "$\\dfrac{3}{5}$",
-      "explication": "[Question générée] $\\dfrac{11+4-6}{15} = \\dfrac{9}{15} = \\dfrac{9 \\div 3}{15 \\div 3} = \\dfrac{3}{5}$."
+      "explication": "$\\dfrac{11+4-6}{15} = \\dfrac{9}{15} = \\dfrac{9 \\div 3}{15 \\div 3} = \\dfrac{3}{5}$."
     },
     {
       "id": "fr6_n3_025",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Trois fractions ont pour somme $1$ : $\\dfrac{1}{4}$, $\\dfrac{3}{8}$ et une troisième. Quelle est la troisième fraction ?",
+      "enonce_html": "Trois fractions ont pour somme $1$ : $\\dfrac{1}{4}$, $\\dfrac{3}{8}$ et une troisième. Quelle est la troisième fraction ?",
       "image": null,
       "choix": [
         "$\\dfrac{3}{8}$",
@@ -1365,14 +1365,14 @@
         "$\\dfrac{3}{4}$"
       ],
       "reponse": "$\\dfrac{3}{8}$",
-      "explication": "[Question générée] $\\dfrac{1}{4} + \\dfrac{3}{8} = \\dfrac{2}{8} + \\dfrac{3}{8} = \\dfrac{5}{8}$. La troisième : $1 - \\dfrac{5}{8} = \\dfrac{3}{8}$."
+      "explication": "$\\dfrac{1}{4} + \\dfrac{3}{8} = \\dfrac{2}{8} + \\dfrac{3}{8} = \\dfrac{5}{8}$. La troisième : $1 - \\dfrac{5}{8} = \\dfrac{3}{8}$."
     },
     {
       "id": "fr6_n3_026",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Laquelle est la fraction irréductible égale à $\\dfrac{48}{60}$ ?",
+      "enonce_html": "Laquelle est la fraction irréductible égale à $\\dfrac{48}{60}$ ?",
       "image": null,
       "choix": [
         "$\\dfrac{24}{30}$",
@@ -1381,14 +1381,14 @@
         "$\\dfrac{8}{10}$"
       ],
       "reponse": "$\\dfrac{4}{5}$",
-      "explication": "[Question générée] $\\dfrac{48}{60} = \\dfrac{48 \\div 12}{60 \\div 12} = \\dfrac{4}{5}$. $\\text{pgcd}(48, 60) = 12$. C'est la forme irréductible."
+      "explication": "$\\dfrac{48}{60} = \\dfrac{48 \\div 12}{60 \\div 12} = \\dfrac{4}{5}$. $\\text{pgcd}(48, 60) = 12$. C'est la forme irréductible."
     },
     {
       "id": "fr6_n3_027",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Quelle est la valeur de $k$ si $\\dfrac{4}{7} = \\dfrac{k}{49}$ ?",
+      "enonce_html": "Quelle est la valeur de $k$ si $\\dfrac{4}{7} = \\dfrac{k}{49}$ ?",
       "image": null,
       "choix": [
         "$7$",
@@ -1397,14 +1397,14 @@
         "$49$"
       ],
       "reponse": "$28$",
-      "explication": "[Question générée] $\\dfrac{4}{7} = \\dfrac{4 \\times 7}{7 \\times 7} = \\dfrac{28}{49}$. Donc $k = 28$."
+      "explication": "$\\dfrac{4}{7} = \\dfrac{4 \\times 7}{7 \\times 7} = \\dfrac{28}{49}$. Donc $k = 28$."
     },
     {
       "id": "fr6_n3_028",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un pot contient $\\dfrac{5}{8}$ de litre de confiture. On utilise $\\dfrac{3}{8}$ de litre. Quelle fraction reste-t-il, et est-ce plus ou moins d'un quart de litre ?",
+      "enonce_html": "Un pot contient $\\dfrac{5}{8}$ de litre de confiture. On utilise $\\dfrac{3}{8}$ de litre. Quelle fraction reste-t-il, et est-ce plus ou moins d'un quart de litre ?",
       "image": null,
       "choix": [
         "$\\dfrac{2}{8} = \\dfrac{1}{4}$ litre, c'est exactement un quart",
@@ -1413,14 +1413,14 @@
         "$\\dfrac{3}{8}$ litre, c'est plus d'un quart"
       ],
       "reponse": "$\\dfrac{2}{8} = \\dfrac{1}{4}$ litre, c'est exactement un quart",
-      "explication": "[Question générée] $\\dfrac{5}{8} - \\dfrac{3}{8} = \\dfrac{2}{8} = \\dfrac{1}{4}$ litre. C'est exactement un quart de litre."
+      "explication": "$\\dfrac{5}{8} - \\dfrac{3}{8} = \\dfrac{2}{8} = \\dfrac{1}{4}$ litre. C'est exactement un quart de litre."
     },
     {
       "id": "fr6_n3_029",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Range dans l'ordre décroissant : $\\dfrac{2}{3}$, $\\dfrac{3}{5}$, $\\dfrac{7}{15}$, $\\dfrac{4}{5}$.",
+      "enonce_html": "Range dans l'ordre décroissant : $\\dfrac{2}{3}$, $\\dfrac{3}{5}$, $\\dfrac{7}{15}$, $\\dfrac{4}{5}$.",
       "image": null,
       "choix": [
         "$\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{3}{5} > \\dfrac{7}{15}$",
@@ -1429,14 +1429,14 @@
         "$\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{7}{15} > \\dfrac{3}{5}$"
       ],
       "reponse": "$\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{3}{5} > \\dfrac{7}{15}$",
-      "explication": "[Question générée] Dénominateur commun $15$ : $\\dfrac{2}{3} = \\dfrac{10}{15}$, $\\dfrac{3}{5} = \\dfrac{9}{15}$, $\\dfrac{7}{15}$, $\\dfrac{4}{5} = \\dfrac{12}{15}$. Ordre décroissant : $12 > 10 > 9 > 7$, soit $\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{3}{5} > \\dfrac{7}{15}$."
+      "explication": "Dénominateur commun $15$ : $\\dfrac{2}{3} = \\dfrac{10}{15}$, $\\dfrac{3}{5} = \\dfrac{9}{15}$, $\\dfrac{7}{15}$, $\\dfrac{4}{5} = \\dfrac{12}{15}$. Ordre décroissant : $12 > 10 > 9 > 7$, soit $\\dfrac{4}{5} > \\dfrac{2}{3} > \\dfrac{3}{5} > \\dfrac{7}{15}$."
     },
     {
       "id": "fr6_n3_030",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Deux fractions ont pour somme $\\dfrac{11}{12}$ et leur différence est $\\dfrac{1}{12}$. Quelles sont ces deux fractions ?",
+      "enonce_html": "Deux fractions ont pour somme $\\dfrac{11}{12}$ et leur différence est $\\dfrac{1}{12}$. Quelles sont ces deux fractions ?",
       "image": null,
       "choix": [
         "$\\dfrac{5}{12}$ et $\\dfrac{6}{12}$",
@@ -1445,7 +1445,7 @@
         "$\\dfrac{2}{12}$ et $\\dfrac{9}{12}$"
       ],
       "reponse": "$\\dfrac{5}{12}$ et $\\dfrac{6}{12}$",
-      "explication": "[Question générée] Soit $a + b = \\dfrac{11}{12}$ et $a - b = \\dfrac{1}{12}$ (en supposant $a > b$). En additionnant : $2a = \\dfrac{12}{12} = 1$, donc $a = \\dfrac{1}{2} = \\dfrac{6}{12}$. Puis $b = \\dfrac{11}{12} - \\dfrac{6}{12} = \\dfrac{5}{12}$. Vérif : $\\dfrac{6}{12} - \\dfrac{5}{12} = \\dfrac{1}{12}$ ✓."
+      "explication": "Soit $a + b = \\dfrac{11}{12}$ et $a - b = \\dfrac{1}{12}$ (en supposant $a > b$). En additionnant : $2a = \\dfrac{12}{12} = 1$, donc $a = \\dfrac{1}{2} = \\dfrac{6}{12}$. Puis $b = \\dfrac{11}{12} - \\dfrac{6}{12} = \\dfrac{5}{12}$. Vérif : $\\dfrac{6}{12} - \\dfrac{5}{12} = \\dfrac{1}{12}$ ✓."
     }
   ]
 }
