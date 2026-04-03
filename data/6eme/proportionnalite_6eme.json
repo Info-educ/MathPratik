@@ -896,7 +896,7 @@
       "image": null,
       "choix": ["$18$ €", "$19$ €", "$20$ €", "$21$ €"],
       "reponse": "$20$ €",
-      "explication": "[Question générée] Coefficient $= \\dfrac{7{,}50}{3} = 2{,}5$ €/cahier. $8 \\times 2{,}5 = 20$ €."
+      "explication": "Coefficient $= \\dfrac{7{,}50}{3} = 2{,}5$ €/cahier. $8 \\times 2{,}5 = 20$ €."
     },
     {
       "id": "prop6_n3_022",
@@ -907,7 +907,7 @@
       "image": null,
       "choix": ["$6$ min", "$7$ min", "$8$ min", "$10$ min"],
       "reponse": "$8$ min",
-      "explication": "[Question générée] Débit $= \\dfrac{30}{5} = 6$ L/min. Temps $= 48 \\div 6 = 8$ min."
+      "explication": "Débit $= \\dfrac{30}{5} = 6$ L/min. Temps $= 48 \\div 6 = 8$ min."
     },
     {
       "id": "prop6_n3_023",
@@ -918,7 +918,7 @@
       "image": null,
       "choix": ["$240$ g", "$250$ g", "$270$ g", "$300$ g"],
       "reponse": "$270$ g",
-      "explication": "[Question générée] Coefficient $= \\dfrac{6}{4} = 1{,}5$. Sucre $= 180 \\times 1{,}5 = 270$ g."
+      "explication": "Coefficient $= \\dfrac{6}{4} = 1{,}5$. Sucre $= 180 \\times 1{,}5 = 270$ g."
     },
     {
       "id": "prop6_n3_024",
@@ -929,7 +929,7 @@
       "image": null,
       "choix": ["$85$ €", "$88$ €", "$90$ €", "$95$ €"],
       "reponse": "$90$ €",
-      "explication": "[Question générée] $72 = \\text{prix} \\times 0{,}8$. Prix $= 72 \\div 0{,}8 = 90$ €."
+      "explication": "$72 = \\text{prix} \\times 0{,}8$. Prix $= 72 \\div 0{,}8 = 90$ €."
     },
     {
       "id": "prop6_n3_025",
@@ -940,7 +940,7 @@
       "image": null,
       "choix": ["$35\\%$", "$37{,}5\\%$", "$40\\%$", "$42{,}5\\%$"],
       "reponse": "$37{,}5\\%$",
-      "explication": "[Question générée] $\\dfrac{45}{120} = 0{,}375 = 37{,}5\\%$."
+      "explication": "$\\dfrac{45}{120} = 0{,}375 = 37{,}5\\%$."
     },
     {
       "id": "prop6_n3_026",
@@ -951,7 +951,7 @@
       "image": null,
       "choix": ["$3$ h $30$", "$3$ h $45$", "$4$ h", "$4$ h $30$"],
       "reponse": "$4$ h",
-      "explication": "[Question générée] Vitesse $= 450 \\div 3 = 150$ km/h. Temps $= 600 \\div 150 = 4$ h."
+      "explication": "Vitesse $= 450 \\div 3 = 150$ km/h. Temps $= 600 \\div 150 = 4$ h."
     },
     {
       "id": "prop6_n3_027",
@@ -962,7 +962,7 @@
       "image": null,
       "choix": ["$c + 2$", "$c \\times 2$", "$c \\div 2$", "$c^2$"],
       "reponse": "$c \\times 2$",
-      "explication": "[Question générée] Dans une proportionnalité, quand on multiplie une grandeur par $2$, l'autre est aussi multipliée par $2$."
+      "explication": "Dans une proportionnalité, quand on multiplie une grandeur par $2$, l'autre est aussi multipliée par $2$."
     },
     {
       "id": "prop6_n3_028",
@@ -973,7 +973,7 @@
       "image": null,
       "choix": ["$30$ €", "$35$ €", "$40$ €", "$45$ €"],
       "reponse": "$40$ €",
-      "explication": "[Question générée] Essence nécessaire $= \\dfrac{8 \\times 250}{100} = 20$ L. Coût $= 20 \\times 2 = 40$ €."
+      "explication": "Essence nécessaire $= \\dfrac{8 \\times 250}{100} = 20$ L. Coût $= 20 \\times 2 = 40$ €."
     },
     {
       "id": "prop6_n3_029",
@@ -984,7 +984,7 @@
       "image": null,
       "choix": ["$60$", "$80$", "$90$", "$100$"],
       "reponse": "$90$",
-      "explication": "[Question générée] Vélo : $1200 \\times 0{,}30 = 360$ personnes. Usage quotidien : $360 \\times 0{,}25 = 90$ personnes."
+      "explication": "Vélo : $1200 \\times 0{,}30 = 360$ personnes. Usage quotidien : $360 \\times 0{,}25 = 90$ personnes."
     },
     {
       "id": "prop6_n3_030",
@@ -995,7 +995,7 @@
       "image": null,
       "choix": ["$r = q + 3$", "$r = 3q$", "$r = q^3$", "$r = q \\div 3$"],
       "reponse": "$r = 3q$",
-      "explication": "[Question générée] Dans une proportionnalité de coefficient $k$ : $q = pk$ et $r = 3pk = 3q$."
+      "explication": "Dans une proportionnalité de coefficient $k$ : $q = pk$ et $r = 3pk = 3q$."
     }
   ]
 }
