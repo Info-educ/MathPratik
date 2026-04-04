@@ -981,7 +981,7 @@
         "Il n'y a aucune différence"
       ],
       "reponse": "Le cube vérifie $L = l = h$ (toutes les arêtes égales), le pavé droit peut avoir $L$, $l$, $h$ différents",
-      "explication": "Un cube est un cas particulier de pavé droit où $L = l = h$. Un pavé droit quelconque a trois dimensions qui peuvent être toutes différentes. [Question générée]"
+      "explication": "Un cube est un cas particulier de pavé droit où $L = l = h$. Un pavé droit quelconque a trois dimensions qui peuvent être toutes différentes."
     },
     {
       "id": "pav6_n3_024",
@@ -997,7 +997,7 @@
         "$9$ cm²"
       ],
       "reponse": "$12$ cm²",
-      "explication": "Les trois paires de faces ont des aires : $L \\times l = 24$ cm², $L \\times h = 18$ cm², $l \\times h = 4 \\times 3 = 12$ cm². La plus petite est $12$ cm². [Question générée]"
+      "explication": "Les trois paires de faces ont des aires : $L \\times l = 24$ cm², $L \\times h = 18$ cm², $l \\times h = 4 \\times 3 = 12$ cm². La plus petite est $12$ cm²."
     },
     {
       "id": "pav6_n3_029",
@@ -1013,7 +1013,7 @@
         "$4$ pots"
       ],
       "reponse": "$1$ pot",
-      "explication": "Aire totale $= 2(5 \\times 3 + 5 \\times 4 + 3 \\times 4) = 2(15 + 20 + 12) = 94$ cm². Deux couches $= 188$ cm². Un pot couvre $500$ cm² → $1$ pot suffit. [Question générée]"
+      "explication": "Aire totale $= 2(5 \\times 3 + 5 \\times 4 + 3 \\times 4) = 2(15 + 20 + 12) = 94$ cm². Deux couches $= 188$ cm². Un pot couvre $500$ cm² → $1$ pot suffit."
     },
     {
       "id": "pav6_n1_031",
