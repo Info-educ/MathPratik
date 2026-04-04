@@ -95,7 +95,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un segment $[CD]$ mesure $13$ cm. Son milieu est $M$. Quelle est la longueur $[MD]$ ?",
-      "image": "6eme/droites/fig_segment_milieu.png",
+      "image": null,
       "choix": ["$5$ cm", "$6$ cm", "$6{,}5$ cm", "$7$ cm"],
       "reponse": "$6{,}5$ cm",
       "explication": "$MD = CD \\div 2 = 13 \\div 2 = 6{,}5$ cm. Le milieu partage le segment en deux parties égales."
@@ -121,7 +121,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Quelle affirmation décrit correctement la différence entre une droite, une demi-droite et un segment ?",
+      "enonce_html": "Quelle affirmation est vraie ?",
       "image": null,
       "choix": [
         "Ils sont tous les trois illimités des deux côtés",
@@ -149,7 +149,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "La distance d'un point à une droite correspond à :",
-      "image": "6eme/droites/fig_distance_droite.png",
+      "image": null,
       "choix": [
         "N'importe quelle longueur entre le point et la droite",
         "La longueur la plus longue",
@@ -158,22 +158,6 @@
       ],
       "reponse": "Le chemin le plus court, mesuré perpendiculairement",
       "explication": "La distance d'un point à une droite est la longueur du segment perpendiculaire abaissé du point sur la droite. C'est le plus court chemin entre le point et la droite."
-    },
-    {
-      "id": "dr6_n1_012",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$[AH]$ est perpendiculaire à la droite $(d)$ et $[AB]$ est oblique (avec $H$ et $B$ sur $(d)$). Pourquoi $AH < AB$ ?",
-      "image": null,
-      "choix": [
-        "$AH$ est horizontal",
-        "La perpendiculaire est toujours le chemin le plus court",
-        "$AH$ et $AB$ sont égaux",
-        "On ne peut pas comparer"
-      ],
-      "reponse": "La perpendiculaire est toujours le chemin le plus court",
-      "explication": "La perpendiculaire $[AH]$ donne le chemin le plus court du point $A$ à la droite $(d)$. Tout segment oblique $[AB]$ avec $B$ sur $(d)$ est plus long : $AH < AB$."
     },
     {
       "id": "dr6_n1_013",
@@ -193,8 +177,8 @@
       "avec_calculatrice": false,
       "enonce_html": "Si un point appartient à une droite, sa distance à cette droite est :",
       "image": null,
-      "choix": ["$1$ cm", "Infinie", "Nulle ($0$)", "Impossible à calculer"],
-      "reponse": "Nulle ($0$)",
+      "choix": ["$1$ cm", "Infinie", "Nulle", "Impossible à calculer"],
+      "reponse": "Nulle",
       "explication": "Un point qui appartient à une droite est sur cette droite : sa distance à la droite est $0$. La distance est nulle."
     },
     {
@@ -293,17 +277,6 @@
       ],
       "reponse": "Le point qui appartient à $[AB]$ et qui est à égale distance des deux extrémités",
       "explication": "Le milieu $M$ d'un segment $[AB]$ est le point de $[AB]$ tel que $AM = MB$. Il est à égale distance des deux extrémités."
-    },
-    {
-      "id": "dr6_n1_022",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Deux droites parallèles sont distantes de $4$ cm. Quelle est la distance d'un point de l'une à l'autre ?",
-      "image": null,
-      "choix": ["$2$ cm", "$8$ cm", "$4$ cm", "Cela dépend du point"],
-      "reponse": "$4$ cm",
-      "explication": "La distance entre deux droites parallèles est constante : elle est la même quel que soit le point choisi. Ici, cette distance est $4$ cm."
     },
     {
       "id": "dr6_n1_023",
@@ -521,7 +494,7 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "$[AH]$ est perpendiculaire à la droite $(d)$ avec $H$ sur $(d)$, et $[AB]$ est oblique avec $B$ sur $(d)$. Quel segment représente la distance du point $A$ à la droite $(d)$ ?",
+      "enonce_html": "Quelle est la distance entre le point A et la droite (d)?",
       "image": "6eme/droites/fig_AHB.png",
       "choix": [
         "$[AB]$, car il relie $A$ à $(d)$",
@@ -630,28 +603,6 @@
       "explication": "$1$ m = $100$ cm, donc $350$ cm $= 350 \\div 100 = 3{,}5$ m."
     },
     {
-      "id": "dr6_n2_016",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$[AH] = 5$ cm ($H$ pied de la perpendiculaire de $A$ sur $(d)$) et $[AB] = 7$ cm ($B$ sur $(d)$, oblique). Que peut-on dire ?",
-      "image": null,
-      "choix": ["$AB < AH$", "$AB = AH$", "$AH < AB$", "On ne peut pas comparer"],
-      "reponse": "$AH < AB$",
-      "explication": "$AH = 5$ cm $< AB = 7$ cm. La perpendiculaire est toujours le plus court chemin du point $A$ à la droite $(d)$. Tout segment oblique est plus long."
-    },
-    {
-      "id": "dr6_n2_017",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(d) \\parallel (d')$, distance = $8$ cm. Quelle est la longueur du segment perpendiculaire reliant un point $P$ de $(d)$ à $(d')$ ?",
-      "image": null,
-      "choix": ["$4$ cm", "$16$ cm", "$8$ cm", "Cela dépend de $P$"],
-      "reponse": "$8$ cm",
-      "explication": "Le segment perpendiculaire mesure exactement la distance entre les deux droites parallèles. Cette distance est $8$ cm, quelle que soit la position de $P$ sur $(d)$."
-    },
-    {
       "id": "dr6_n2_018",
       "niveau": 2,
       "type": "qcm",
@@ -668,22 +619,11 @@
       "explication": "Faux. Par définition, deux droites parallèles distinctes n'ont aucun point commun. Si elles avaient un point commun, elles seraient sécantes (ou confondues)."
     },
     {
-      "id": "dr6_n2_019",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(d_1)$ est horizontale, $(d_2)$ et $(d_3)$ sont verticales (toutes deux perpendiculaires à $(d_1)$). Combien de paires de droites perpendiculaires y a-t-il ?",
-      "image": null,
-      "choix": ["$1$ paire", "$2$ paires", "$3$ paires", "$0$ paire"],
-      "reponse": "$2$ paires",
-      "explication": "$(d_1) \\perp (d_2)$ et $(d_1) \\perp (d_3)$ : ce sont $2$ paires perpendiculaires. $(d_2) \\parallel (d_3)$ (non perpendiculaires entre elles). Total : $2$ paires."
-    },
-    {
       "id": "dr6_n2_020",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "$[MN] = 15$ cm et $T$ est le milieu de $[MN]$. Quelle est la longueur $MT$ ?",
+      "enonce_html": "MN = 15 cm et $T$ est le milieu de $[MN]$. Quelle est la longueur $MT$ ?",
       "image": null,
       "choix": ["$5$ cm", "$7{,}5$ cm", "$15$ cm", "$30$ cm"],
       "reponse": "$7{,}5$ cm",
@@ -711,7 +651,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "$(d) \\parallel (d')$, le point $P$ est sur $(d)$. Comment trouver la distance entre $(d)$ et $(d')$ ?",
-      "image": "6eme/droites/fig_distance_para.png",
+      "image": null",
       "choix": [
         "On mesure n'importe quelle longueur entre les deux droites",
         "On trace la perpendiculaire à $(d)$ passant par $P$ ; elle coupe $(d')$ en $H$ ; $PH$ est la distance",
@@ -752,22 +692,6 @@
       ],
       "reponse": "Deux droites parallèles peuvent se couper en deux points",
       "explication": "Des droites parallèles ne se coupent jamais (aucun point commun). Les trois autres affirmations sont vraies."
-    },
-    {
-      "id": "dr6_n2_025",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pourquoi la distance du point $A$ à la droite $(d)$ correspond-elle au segment perpendiculaire $[AH]$ et non à un segment oblique $[AB]$ ?",
-      "image": null,
-      "choix": [
-        "Parce que $[AH]$ est plus long que $[AB]$",
-        "Parce que $[AH]$ est le plus court chemin du point $A$ à $(d)$",
-        "Parce que $H$ et $B$ sont confondus",
-        "Parce que $[AB]$ n'atteint pas la droite $(d)$"
-      ],
-      "reponse": "Parce que $[AH]$ est le plus court chemin du point $A$ à $(d)$",
-      "explication": "Le segment perpendiculaire $[AH]$ est le chemin le plus court du point $A$ à la droite $(d)$. Tout segment oblique $[AB]$ avec $B$ sur $(d)$ est plus long : $AH < AB$."
     },
     {
       "id": "dr6_n2_026",
@@ -961,17 +885,6 @@
       "explication": "Entre $3$ droites parallèles, il y a $2$ espaces de $4$ cm chacun. Distance $= 4 + 4 = 8$ cm."
     },
     {
-      "id": "dr6_n3_011",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La droite $(d) \\parallel (d')$. Une droite sécante $(t)$ coupe $(d)$ avec un angle de $60°$. Quel est l'angle formé par $(t)$ avec $(d')$ ?",
-      "image": null,
-      "choix": ["$30°$", "$90°$", "$60°$", "$120°$"],
-      "reponse": "$60°$",
-      "explication": "Une droite sécante coupant deux droites parallèles forme des angles égaux (angles correspondants ou alternes-internes). L'angle avec $(d')$ est donc aussi $60°$."
-    },
-    {
       "id": "dr6_n3_012",
       "niveau": 3,
       "type": "qcm",
@@ -1036,7 +949,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "On trace le quadrilatère $ABCD$ tel que $[AB] \\perp [BC]$, $[BC] \\perp [CD]$, $AB = CD = 5$ cm et $BC = 8$ cm. Quelle figure obtient-on ?",
-      "image": "6eme/droites/fig_rectangle_construit.png",
+      "image": null,
       "choix": ["Un losange", "Un carré", "Un rectangle", "Un parallélogramme quelconque"],
       "reponse": "Un rectangle",
       "explication": "$[AB] \\perp [BC]$ et $[CD] \\perp [BC]$, donc $[AB] \\parallel [CD]$ (propriété). De plus $AB = CD = 5$ cm et les angles en $B$ et $C$ sont droits. La figure est un rectangle."
@@ -1112,17 +1025,6 @@
       "explication": "$(AB) \\perp (BC)$ et $(AD) \\perp (BC)$ : deux droites perpendiculaires à $(BC)$ sont parallèles entre elles. Donc $(AB) \\parallel (AD)$."
     },
     {
-      "id": "dr6_n3_022",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Une droite sécante $(t)$ coupe deux droites parallèles $(d_1)$ et $(d_2)$. Elle forme un angle de $90°$ avec $(d_1)$. Combien d'angles droits forme-t-elle au total aux deux intersections ?",
-      "image": null,
-      "choix": ["$2$", "$4$", "$6$", "$8$"],
-      "reponse": "$8$",
-      "explication": "$(t) \\perp (d_1)$ et $(d_1) \\parallel (d_2)$ → $(t) \\perp (d_2)$. Chaque intersection forme $4$ angles droits. Total : $4 + 4 = 8$ angles droits."
-    },
-    {
       "id": "dr6_n3_023",
       "niveau": 3,
       "type": "qcm",
@@ -1180,33 +1082,6 @@
       ],
       "reponse": "$(d_1) \\perp (d_4)$",
       "explication": "$(d_1) \\perp (d_2)$ et $(d_2) \\perp (d_3)$ → $(d_1) \\parallel (d_3)$. $(d_3) \\perp (d_4)$ et $(d_1) \\parallel (d_3)$ → $(d_1) \\perp (d_4)$."
-    },
-    {
-      "id": "dr6_n3_027",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un point $A$ est à $5$ cm d'une droite $(d)$. On trace depuis $A$ le segment perpendiculaire $[AH]$ et un segment oblique $[AB]$ avec $B$ sur $(d)$ et $AB = 8$ cm. Quelle est la longueur $[HB]$ ?",
-      "image": null,
-      "choix": [
-        "$3$ cm",
-        "$\\sqrt{39}$ cm",
-        "$13$ cm",
-        "Impossible à calculer"
-      ],
-      "reponse": "$\\sqrt{39}$ cm",
-      "explication": "Dans le triangle rectangle $AHB$ : $AH = 5$ cm (perpendiculaire), $AB = 8$ cm (hypoténuse). Par Pythagore : $AB^2 = AH^2 + HB^2$, donc $64 = 25 + HB^2$, soit $HB^2 = 39$ et $HB = \\sqrt{39}$ cm."
-    },
-    {
-      "id": "dr6_n3_028",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La droite $(t)$ coupe $(d_1)$ avec un angle de $40°$. $(d_1) \\parallel (d_2)$. Quel est l'angle formé par $(t)$ avec $(d_2)$ (angle aigu) ?",
-      "image": null,
-      "choix": ["$50°$", "$40°$", "$90°$", "$140°$"],
-      "reponse": "$40°$",
-      "explication": "Une droite sécante coupant deux droites parallèles forme des angles égaux (angles alternes-internes ou correspondants). L'angle aigu avec $(d_2)$ est donc aussi $40°$."
     },
     {
       "id": "dr6_n3_029",
