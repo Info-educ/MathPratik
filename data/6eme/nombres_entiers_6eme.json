@@ -884,7 +884,7 @@
       "image": null,
       "choix": ["$99\\,999$", "$100\\,000$", "$100\\,001$", "$99\\,999 + 1$"],
       "reponse": "$100\\,000$",
-      "explication": "$99\\,999 + 1 = 100\\,000$. C'est le plus petit entier à $6$ chiffres et strictement supérieur à $99\\,999$. [Question générée]"
+      "explication": "$99\\,999 + 1 = 100\\,000$. C'est le plus petit entier à $6$ chiffres et strictement supérieur à $99\\,999$."
     },
     {
       "id": "ent6_n3_010",
@@ -988,7 +988,7 @@
       "image": null,
       "choix": ["$1$", "$2$", "$8$", "$0$"],
       "reponse": "$8$",
-      "explication": "$1\\,280\\,995\\,090$ : de droite à gauche, la $8^{\\text{e}}$ position (dizaines de millions) contient $8$. [Question générée]"
+      "explication": "$1\\,280\\,995\\,090$ : de droite à gauche, la $8^{\\text{e}}$ position (dizaines de millions) contient $8$."
     },
     {
       "id": "ent6_n3_019",
@@ -999,7 +999,7 @@
       "image": null,
       "choix": ["$999$", "$990$", "$909$", "$099$"],
       "reponse": "$990$",
-      "explication": "Les chiffres disponibles sont $9$, $9$ et $0$ (un zéro ne peut pas être en tête). Le plus grand nombre possible est $990$. [Question générée]"
+      "explication": "Les chiffres disponibles sont $9$, $9$ et $0$ (un zéro ne peut pas être en tête). Le plus grand nombre possible est $990$."
     },
     {
       "id": "ent6_n3_020",
@@ -1010,7 +1010,7 @@
       "image": null,
       "choix": ["$3\\,111\\,711$", "$3\\,111\\,171$", "$3\\,111\\,117$", "$3\\,711\\,111$"],
       "reponse": "$3\\,111\\,171$",
-      "explication": "Millions : $3$, centaines de mille : $1$, dizaines de mille : $1$, milliers : $1$, centaines : $1$, dizaines : $7$, unités : $1$. Nombre : $3\\,111\\,171$. [Question générée]"
+      "explication": "Millions : $3$, centaines de mille : $1$, dizaines de mille : $1$, milliers : $1$, centaines : $1$, dizaines : $7$, unités : $1$. Nombre : $3\\,111\\,171$."
     },
     {
       "id": "ent6_n3_021",
@@ -1021,7 +1021,7 @@
       "image": null,
       "choix": ["$12$", "$15$", "$18$", "$21$"],
       "reponse": "$18$",
-      "explication": "Le chiffre des milliers est $3$, donc les $3$ autres chiffres $(a, b, c)$ vérifient $a + b + c = 7$ avec $0 \\leq a, b, c \\leq 9$. Le nombre de solutions est $C(7+2, 2) - \\text{cas interdits} = 36 - 18 = 18$. [Question générée]"
+      "explication": "Le chiffre des milliers est $3$, donc les $3$ autres chiffres $(a, b, c)$ vérifient $a + b + c = 7$ avec $0 \\leq a, b, c \\leq 9$. Le nombre de solutions est $C(7+2, 2) - \\text{cas interdits} = 36 - 18 = 18$."
     },
     {
       "id": "ent6_n3_022",
@@ -1032,7 +1032,7 @@
       "image": null,
       "choix": ["Unités", "Centaines de mille", "Millions", "Dizaines de millions"],
       "reponse": "Millions",
-      "explication": "$5\\,030\\,702$ : de droite à gauche : $2 =$ unités, $0 =$ dizaines, $7 =$ centaines, $0 =$ milliers, $3 =$ dizaines de mille, $0 =$ centaines de mille, $5 =$ millions. [Question générée]"
+      "explication": "$5\\,030\\,702$ : de droite à gauche : $2 =$ unités, $0 =$ dizaines, $7 =$ centaines, $0 =$ milliers, $3 =$ dizaines de mille, $0 =$ centaines de mille, $5 =$ millions."
     },
     {
       "id": "ent6_n3_023",
@@ -1048,7 +1048,7 @@
         "On ne peut pas les comparer"
       ],
       "reponse": "Le chiffre des dizaines ($2 < 3$) : donc $12\\,549\\,023 < 12\\,549\\,032$",
-      "explication": "Les deux nombres ont $8$ chiffres, identiques jusqu'aux dizaines : $2 < 3$. Donc $12\\,549\\,023 < 12\\,549\\,032$. [Question générée]"
+      "explication": "Les deux nombres ont $8$ chiffres, identiques jusqu'aux dizaines : $2 < 3$. Donc $12\\,549\\,023 < 12\\,549\\,032$."
     },
     {
       "id": "ent6_n3_024",
@@ -1059,7 +1059,7 @@
       "image": null,
       "choix": ["$102\\,508$", "$120\\,508$", "$100\\,258$", "$102\\,850$"],
       "reponse": "$102\\,508$",
-      "explication": "De gauche à droite : $1$ (centaines de mille), $0$ (dizaines de mille), $2$ (milliers), $5$ (centaines), $0$ (dizaines), $8$ (unités) $= 102\\,508$. [Question générée]"
+      "explication": "De gauche à droite : $1$ (centaines de mille), $0$ (dizaines de mille), $2$ (milliers), $5$ (centaines), $0$ (dizaines), $8$ (unités) $= 102\\,508$."
     },
     {
       "id": "ent6_n3_025",
@@ -1070,7 +1070,7 @@
       "image": null,
       "choix": ["$10\\,000\\,000\\,000$ (11 chiffres)", "$9\\,999\\,999\\,999$ (10 chiffres)", "$100\\,000\\,000\\,000$ (12 chiffres)", "$1\\,000\\,000\\,000$ (10 chiffres)"],
       "reponse": "$10\\,000\\,000\\,000$ (11 chiffres)",
-      "explication": "$9\\,999\\,999\\,999 + 1 = 10\\,000\\,000\\,000$ (dix milliards). Ce nombre a $11$ chiffres. [Question générée]"
+      "explication": "$9\\,999\\,999\\,999 + 1 = 10\\,000\\,000\\,000$ (dix milliards). Ce nombre a $11$ chiffres."
     },
     {
       "id": "ent6_n3_026",
@@ -1081,7 +1081,7 @@
       "image": null,
       "choix": ["$19$", "$28$", "$37$", "$10$"],
       "reponse": "$19$",
-      "explication": "Le plus petit entier dont la somme des chiffres est $10$ est $19$ ($1 + 9 = 10$). [Question générée]"
+      "explication": "Le plus petit entier dont la somme des chiffres est $10$ est $19$ ($1 + 9 = 10$)."
     },
     {
       "id": "ent6_n3_027",
@@ -1103,7 +1103,7 @@
       "image": null,
       "choix": ["$100$", "$900$", "$1\\,000$", "$9\\,000$"],
       "reponse": "$1\\,000$",
-      "explication": "Le premier chiffre est $4$, le dernier est $0$. Les $3$ chiffres du milieu peuvent valoir $0$ à $9$ chacun : $10 \\times 10 \\times 10 = 1\\,000$ nombres. [Question générée]"
+      "explication": "Le premier chiffre est $4$, le dernier est $0$. Les $3$ chiffres du milieu peuvent valoir $0$ à $9$ chacun : $10 \\times 10 \\times 10 = 1\\,000$ nombres."
     }
   ]
 }
