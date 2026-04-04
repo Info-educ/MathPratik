@@ -797,7 +797,7 @@
       "image": null,
       "choix": ["$70$", "$60$", "$80$", "$72$"],
       "reponse": "$70$",
-      "explication": "$420 \\div 6 = 70$. On calcule $42 \\div 6 = 7$, donc $420 \\div 6 = 70$. [Question générée]"
+      "explication": "$420 \\div 6 = 70$. On calcule $42 \\div 6 = 7$, donc $420 \\div 6 = 70$."
     },
     {
       "id": "op6_n3_021",
@@ -808,7 +808,7 @@
       "image": null,
       "choix": ["$55$", "$50$", "$45$", "$60$"],
       "reponse": "$55$",
-      "explication": "On peut regrouper : $(1+10)+(2+9)+(3+8)+(4+7)+(5+6) = 5 \\times 11 = 55$. [Question générée]"
+      "explication": "On peut regrouper : $(1+10)+(2+9)+(3+8)+(4+7)+(5+6) = 5 \\times 11 = 55$."
     },
     {
       "id": "op6_n3_023",
@@ -819,7 +819,7 @@
       "image": null,
       "choix": ["$937{,}50$ €", "$1\\,687{,}50$ €", "$750$ €", "$1\\,537{,}50$ €"],
       "reponse": "$937{,}50$ €",
-      "explication": "Coût total : $450 \\times 3{,}75 = 1\\,687{,}50$ €. Après subvention : $1\\,687{,}50 - 750 = 937{,}50$ €. [Question générée]"
+      "explication": "Coût total : $450 \\times 3{,}75 = 1\\,687{,}50$ €. Après subvention : $1\\,687{,}50 - 750 = 937{,}50$ €."
     },
     {
       "id": "op6_n3_024",
@@ -830,7 +830,7 @@
       "image": null,
       "choix": ["$18$ cm", "$12$ cm", "$6$ cm", "$24$ cm"],
       "reponse": "$18$ cm",
-      "explication": "Si la largeur est $l$, la longueur est $3l$. Périmètre : $2 \\times (l + 3l) = 8l = 48$, donc $l = 6$ cm et longueur $= 3 \\times 6 = 18$ cm. [Question générée]"
+      "explication": "Si la largeur est $l$, la longueur est $3l$. Périmètre : $2 \\times (l + 3l) = 8l = 48$, donc $l = 6$ cm et longueur $= 3 \\times 6 = 18$ cm."
     },
     {
       "id": "op6_n3_025",
@@ -841,7 +841,7 @@
       "image": null,
       "choix": ["$769$ km", "$769{,}2$ km", "$750$ km", "$800$ km"],
       "reponse": "$769{,}2$ km",
-      "explication": "$50 \\div 6{,}5 \\times 100 = 769{,}2...$ km. On divise la quantité d'essence par la consommation aux $100$ km, puis on multiplie par $100$. [Question générée]"
+      "explication": "$50 \\div 6{,}5 \\times 100 = 769{,}2...$ km. On divise la quantité d'essence par la consommation aux $100$ km, puis on multiplie par $100$."
     },
     {
       "id": "op6_n3_026",
@@ -852,7 +852,7 @@
       "image": null,
       "choix": ["$12 \\times 12$", "$10 \\times 14$", "$11 \\times 13$", "$9 \\times 15$"],
       "reponse": "$12 \\times 12$",
-      "explication": "$12 \\times 12 = 144$ ; $10 \\times 14 = 140$ ; $11 \\times 13 = 143$ ; $9 \\times 15 = 135$. Le plus grand est $144$. [Question générée]"
+      "explication": "$12 \\times 12 = 144$ ; $10 \\times 14 = 140$ ; $11 \\times 13 = 143$ ; $9 \\times 15 = 135$. Le plus grand est $144$."
     },
     {
       "id": "op6_n3_027",
@@ -863,7 +863,7 @@
       "image": null,
       "choix": ["$6$", "$5$", "$4$", "$3$"],
       "reponse": "$6$",
-      "explication": "$1\\,000 = 7 \\times 142 + 6$ car $7 \\times 142 = 994$ et $1\\,000 - 994 = 6$. Le reste est $6$. [Question générée]"
+      "explication": "$1\\,000 = 7 \\times 142 + 6$ car $7 \\times 142 = 994$ et $1\\,000 - 994 = 6$. Le reste est $6$."
     },
     {
       "id": "op6_n3_028",
@@ -874,7 +874,7 @@
       "image": null,
       "choix": ["$13{,}50$ €", "$14{,}10$ €", "$12{,}50$ €", "$15{,}60$ €"],
       "reponse": "$13{,}50$ €",
-      "explication": "Part des $3$ : $3 \\times 18{,}90 = 56{,}70$ €. Reste : $124{,}80 - 56{,}70 = 68{,}10$ €. Part de chacun des $5$ : $68{,}10 \\div 5 = 13{,}62$ €. Mais la réponse la plus proche est $13{,}50$ € (arrondi). [Question générée]"
+      "explication": "Part des $3$ : $3 \\times 18{,}90 = 56{,}70$ €. Reste : $124{,}80 - 56{,}70 = 68{,}10$ €. Part de chacun des $5$ : $68{,}10 \\div 5 = 13{,}62$ €. Mais la réponse la plus proche est $13{,}50$ € (arrondi)."
     },
     {
       "id": "op6_n3_029",
@@ -885,7 +885,7 @@
       "image": null,
       "choix": ["$(10 + 5) \\times 2 = 30$", "$10 + 5 \\times 2 = 30$", "$(10 - 5) \\times 2 = 20$", "$10 \\times 5 - 2 = 40$"],
       "reponse": "$(10 + 5) \\times 2 = 30$",
-      "explication": "$(10 + 5) \\times 2 = 15 \\times 2 = 30$ ✓. $10 + 5 \\times 2 = 10 + 10 = 20$ (priorité à ×) ; $(10-5) \\times 2 = 10$ ; $10 \\times 5 - 2 = 48$. [Question générée]"
+      "explication": "$(10 + 5) \\times 2 = 15 \\times 2 = 30$ ✓. $10 + 5 \\times 2 = 10 + 10 = 20$ (priorité à ×) ; $(10-5) \\times 2 = 10$ ; $10 \\times 5 - 2 = 48$."
     },
     {
       "id": "op6_n3_030",
@@ -896,7 +896,7 @@
       "image": null,
       "choix": ["$93$", "$94$", "$90$", "$100$"],
       "reponse": "$93$",
-      "explication": "Total d'œufs : $250 \\times 4{,}5 = 1\\,125$. Boîtes complètes : $1\\,125 \\div 12 = 93$ reste $9$. Il peut constituer $93$ boîtes complètes. [Question générée]"
+      "explication": "Total d'œufs : $250 \\times 4{,}5 = 1\\,125$. Boîtes complètes : $1\\,125 \\div 12 = 93$ reste $9$. Il peut constituer $93$ boîtes complètes."
     }
   ]
 }

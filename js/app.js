@@ -21,13 +21,25 @@ const DB = {
 const State = {
   currentNiveau:   null,
   selectedThemes:  [],
-  selectedMode:    'examen',
+  selectedMode:    'entrainement',   // 'examen' | 'entrainement'
   quizQuestions:   [],
   currentQIndex:   0,
   sessionCorrect:  0,
   sessionTotal:    0,
   answered:        false,
   sessionResults:  [], // true/false par question dans l'ordre
+
+  // ── Mode entraînement adaptatif ──────────────────────
+  train: {
+    pool1:       [],   // questions niv1 disponibles (shuffled, circular)
+    pool2:       [],   // questions niv2
+    pool3:       [],   // questions niv3
+    idx1: 0, idx2: 0, idx3: 0,  // curseur dans chaque pool
+    ok1:  0, ok2:  0, ok3:  0,  // bonnes réponses validées par niveau
+    target1: 8, target2: 6, target3: 1,  // objectifs
+    currentLevel: 1,   // niveau actuel affiché (1, 2 ou 3)
+    history: [],       // { q, isCorrect } pour l'écran résultats
+  },
 };
 
 let currentNiveau = null;
@@ -420,6 +432,20 @@ function toggleTheme(key) {
   updateLaunchBtn();
 }
 
+// ── Sélection du mode ─────────────────────────────────
+function selectMode(mode) {
+  State.selectedMode = mode;
+
+  const btnExamen      = document.getElementById('mode-btn-examen');
+  const btnEntrainement = document.getElementById('mode-btn-entrainement');
+
+  if (btnExamen) {
+    btnExamen.className      = 'mode-btn' + (mode === 'examen' ? ' active-examen' : '');
+    btnEntrainement.className = 'mode-btn' + (mode === 'entrainement' ? ' active-entrainement' : '');
+  }
+  updateLaunchBtn();
+}
+
 function updateLaunchBtn() {
   const n   = State.selectedThemes.length;
   const btn = document.getElementById('btn-launch');
@@ -432,7 +458,8 @@ function updateLaunchBtn() {
     btn.textContent = '☝️ Choisir au moins 1 thème ci-dessus';
   } else {
     btn.className   = 'btn-launch ready';
-    btn.textContent = `🏆 Lancer l'examen · 15 questions`;
+    const modeLabel = State.selectedMode === 'entrainement' ? '💡 Mode Entraînement · 15 questions' : '🏆 Mode Examen · 15 questions';
+    btn.textContent = modeLabel;
   }
 }
 
@@ -499,7 +526,7 @@ function updateLaunchBtnAutomatismes() {
     btn.onclick     = null;
   } else {
     btn.className   = 'btn-launch ready';
-    btn.textContent = `🏆 Lancer l'examen · 15 questions`;
+    btn.textContent = State.selectedMode === 'entrainement' ? '💡 Mode Entraînement · 15 questions' : '🏆 Mode Examen · 15 questions';
     btn.onclick     = launchAutomatismes;
   }
 }
@@ -532,8 +559,16 @@ async function launchAutomatismes() {
   State.answered       = false;
   State.sessionResults = [];
 
-  const banner = document.getElementById('exam-banner');
-  banner.classList.remove('hidden');
+  const examBanner  = document.getElementById('exam-banner');
+  const trainBanner = document.getElementById('train-banner');
+
+  if (State.selectedMode === 'entrainement') {
+    examBanner.classList.add('hidden');
+    trainBanner.classList.remove('hidden');
+  } else {
+    examBanner.classList.remove('hidden');
+    trainBanner.classList.add('hidden');
+  }
 
   const n = State.selectedThemes.length;
   document.getElementById('quiz-notion-name').textContent =
@@ -585,6 +620,12 @@ function buildQuestionPool() {
 function launchQuiz() {
   if (State.selectedThemes.length === 0) return;
 
+  if (State.selectedMode === 'entrainement') {
+    launchTraining();
+    return;
+  }
+
+  // ── Mode Examen ──────────────────────────────────────
   State.quizQuestions  = buildQuestionPool();
   State.currentQIndex  = 0;
   State.sessionCorrect = 0;
@@ -592,8 +633,10 @@ function launchQuiz() {
   State.answered       = false;
   State.sessionResults = [];
 
-  const banner = document.getElementById('exam-banner');
-  banner.classList.remove('hidden');
+  const examBanner  = document.getElementById('exam-banner');
+  const trainBanner = document.getElementById('train-banner');
+  examBanner.classList.remove('hidden');
+  trainBanner.classList.add('hidden');
 
   const notion = State.selectedThemes.length === 1
     ? ((DB.questions[State.currentNiveau] || {})[State.selectedThemes[0]] || {}).label || '—'
@@ -603,6 +646,331 @@ function launchQuiz() {
 
   showScreen('screen-quiz');
   renderQuestion();
+}
+
+// ══════════════════════════════════════════════════════
+//  MODE ENTRAÎNEMENT ADAPTATIF
+// ══════════════════════════════════════════════════════
+
+function launchTraining() {
+  // Construire les pools par niveau depuis tous les thèmes sélectionnés
+  const niveau = State.currentNiveau;
+  const themes = State.selectedThemes;
+  let p1 = [], p2 = [], p3 = [];
+
+  themes.forEach(themeKey => {
+    const notion = (DB.questions[niveau] || {})[themeKey];
+    if (!notion) return;
+    notion.questions.forEach(q => {
+      const d = q.difficulte || q.niveau || 1;
+      if (d === 1)      p1.push(q);
+      else if (d === 2) p2.push(q);
+      else              p3.push(q);
+    });
+  });
+
+  shuffle(p1); shuffle(p2); shuffle(p3);
+
+  // Réinitialiser l'état entraînement
+  const tr = State.train;
+  tr.pool1 = p1; tr.pool2 = p2; tr.pool3 = p3;
+  tr.idx1 = 0; tr.idx2 = 0; tr.idx3 = 0;
+  tr.ok1 = 0; tr.ok2 = 0; tr.ok3 = 0;
+  tr.currentLevel = 1;
+  tr.history = [];
+
+  State.sessionCorrect = 0;
+  State.sessionTotal   = 0;
+  State.answered       = false;
+  State.quizQuestions  = []; // non utilisé en entraînement mais réinitialisé
+  State.currentQIndex  = 0;
+
+  // Bannières
+  document.getElementById('exam-banner').classList.add('hidden');
+  document.getElementById('train-banner').classList.remove('hidden');
+
+  // Libellé
+  const notion = State.selectedThemes.length === 1
+    ? ((DB.questions[State.currentNiveau] || {})[State.selectedThemes[0]] || {}).label || '—'
+    : `${State.selectedThemes.length} thèmes`;
+  document.getElementById('quiz-notion-name').textContent = notion;
+
+  // Mettre à jour le compteur d'objectifs
+  trainUpdateProgress();
+
+  showScreen('screen-quiz');
+  renderTrainingQuestion();
+}
+
+/**
+ * Retourne la prochaine question du niveau courant (pool circulaire).
+ * Recycle le pool si épuisé.
+ */
+function trainNextQuestion() {
+  const tr = State.train;
+
+  // Déterminer le niveau courant
+  if (tr.ok1 < tr.target1) {
+    tr.currentLevel = 1;
+  } else if (tr.ok2 < tr.target2) {
+    tr.currentLevel = 2;
+  } else {
+    tr.currentLevel = 3;
+  }
+
+  let pool, idxKey;
+  if (tr.currentLevel === 1) { pool = tr.pool1; idxKey = 'idx1'; }
+  else if (tr.currentLevel === 2) { pool = tr.pool2; idxKey = 'idx2'; }
+  else { pool = tr.pool3; idxKey = 'idx3'; }
+
+  if (!pool || pool.length === 0) return null;
+
+  // Circulaire : on reboucle si on a tout parcouru
+  if (tr[idxKey] >= pool.length) {
+    shuffle(pool);
+    tr[idxKey] = 0;
+  }
+
+  const q = pool[tr[idxKey]];
+  tr[idxKey]++;
+  return q;
+}
+
+/** Met à jour l'indicateur de progression en haut (q-total / q-num) */
+function trainUpdateProgress() {
+  const tr = State.train;
+  const total  = tr.target1 + tr.target2 + tr.target3;      // 16
+  const done   = tr.ok1 + tr.ok2 + tr.ok3;
+  document.getElementById('q-total').textContent = total;
+  document.getElementById('q-num').textContent   = done + 1; // prochaine à valider
+}
+
+function renderTrainingQuestion() {
+  const q = trainNextQuestion();
+  if (!q) {
+    // Aucune question disponible pour ce niveau → fin de session
+    showTrainingResults();
+    return;
+  }
+
+  // Stocker la question courante pour la réponse
+  State._trainCurrentQ = q;
+  State.answered = false;
+
+  const tr = State.train;
+  const total = tr.target1 + tr.target2 + tr.target3;
+  const done  = tr.ok1 + tr.ok2 + tr.ok3;
+
+  // Barre de progression (basée sur les bonnes réponses validées)
+  document.getElementById('quiz-progress').style.width = (done / total * 100) + '%';
+  document.getElementById('q-num').textContent  = done + 1;
+  document.getElementById('q-total').textContent = total;
+  document.getElementById('quiz-score-live').textContent = `${State.sessionCorrect}/${State.sessionTotal}`;
+
+  // Tag avec niveau actuel
+  const niveauEmoji = ['', '★', '★★', '★★★'][tr.currentLevel] || '';
+  document.getElementById('q-tag').textContent =
+    `${q._icon || '📐'} ${q._theme || ''} · ${niveauEmoji}`;
+
+  // Énoncé
+  const qtextEl = document.getElementById('q-text');
+  if (q.enonce_html) {
+    qtextEl.innerHTML = q.enonce_html;
+    renderMath(qtextEl);
+  } else {
+    setMathText(qtextEl, q.enonce);
+  }
+
+  // Image + calculatrice
+  const imgWrap = document.getElementById('q-image-wrap');
+  if (imgWrap) {
+    let imgHtml = '';
+    if (q.image) {
+      imgHtml += `<img src="images/${escapeHtml(q.image)}" alt="Illustration" loading="lazy" style="max-width:100%;border-radius:8px;margin-top:12px;" />`;
+    }
+    if (q.avec_calculatrice) imgHtml += buildCalculatrice();
+    imgWrap.innerHTML = imgHtml;
+    imgWrap.style.display = imgHtml ? 'block' : 'none';
+  }
+
+  // Reset feedback
+  const fb = document.getElementById('feedback-box');
+  fb.className = 'feedback-box';
+  document.getElementById('btn-next').classList.remove('visible');
+
+  // Choix
+  const list = document.getElementById('choices-list');
+  list.innerHTML = '';
+  const choixMelanges = shuffle([...q.choix]);
+  const letters = ['A', 'B', 'C', 'D'];
+  choixMelanges.forEach((choix, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'choice-btn';
+    btn.dataset.val = choix;
+    const letterSpan = document.createElement('span');
+    letterSpan.className = 'choice-letter';
+    letterSpan.textContent = letters[i];
+    const textSpan = document.createElement('span');
+    textSpan.textContent = choix;
+    btn.appendChild(letterSpan);
+    btn.appendChild(textSpan);
+    renderMath(textSpan);
+    btn.addEventListener('click', () => handleTrainingAnswer(choix, q));
+    list.appendChild(btn);
+  });
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function handleTrainingAnswer(chosen, question) {
+  if (State.answered) return;
+  State.answered = true;
+  State.sessionTotal += 1;
+
+  const isCorrect = chosen === question.reponse;
+  if (isCorrect) {
+    State.sessionCorrect += 1;
+    // Incrémenter le bon compteur
+    const tr = State.train;
+    if (tr.currentLevel === 1 && tr.ok1 < tr.target1)       tr.ok1++;
+    else if (tr.currentLevel === 2 && tr.ok2 < tr.target2)   tr.ok2++;
+    else if (tr.currentLevel === 3 && tr.ok3 < tr.target3)   tr.ok3++;
+  }
+
+  State.train.history.push({ q: question, isCorrect });
+
+  // Coloriser les boutons
+  document.querySelectorAll('.choice-btn').forEach(btn => {
+    btn.disabled = true;
+    const val = btn.dataset.val;
+    if (val === question.reponse)          btn.classList.add('correct');
+    else if (val === chosen && !isCorrect) btn.classList.add('wrong');
+    else                                   btn.classList.add('missed');
+  });
+
+  // Feedback
+  const fb = document.getElementById('feedback-box');
+  const feedbackText = document.getElementById('feedback-text');
+
+  if (isCorrect) {
+    fb.className = 'feedback-box correct';
+    document.getElementById('feedback-icon').textContent  = '✓';
+    document.getElementById('feedback-title').textContent = 'Bonne réponse !';
+    feedbackText.innerHTML = '';
+    setMathText(feedbackText, question.explication || '');
+  } else {
+    fb.className = 'feedback-box wrong';
+    document.getElementById('feedback-icon').textContent  = '✗';
+    document.getElementById('feedback-title').textContent = '✗ Mauvaise réponse';
+    document.querySelector('.question-card').classList.add('shake');
+    setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
+
+    // Bonne réponse mise en évidence + explication
+    feedbackText.innerHTML = '';
+    const repText = Array.isArray(question.reponse) ? question.reponse.join(', ') : question.reponse;
+    const correctDiv = document.createElement('div');
+    correctDiv.className = 'feedback-correct-answer';
+    correctDiv.textContent = '✅ Bonne réponse : ' + repText;
+    renderMath(correctDiv);
+    feedbackText.appendChild(correctDiv);
+    const explDiv = document.createElement('div');
+    explDiv.style.marginTop = '8px';
+    setMathText(explDiv, question.explication || '');
+    feedbackText.appendChild(explDiv);
+  }
+
+  document.getElementById('quiz-score-live').textContent = `${State.sessionCorrect}/${State.sessionTotal}`;
+
+  const tr = State.train;
+  const done  = tr.ok1 + tr.ok2 + tr.ok3;
+  const total = tr.target1 + tr.target2 + tr.target3;
+  document.getElementById('quiz-progress').style.width = (done / total * 100) + '%';
+  document.getElementById('q-num').textContent = Math.min(done + 1, total);
+
+  const btnNext = document.getElementById('btn-next');
+  btnNext.classList.add('visible');
+  const isFinished = (done >= total);
+  btnNext.textContent = isFinished ? 'Voir les résultats →' : 'Suivant →';
+}
+
+function showTrainingResults() {
+  const tr = State.train;
+  const score = State.sessionCorrect;
+  const total = State.sessionTotal;
+  const pct   = total > 0 ? Math.round(score / total * 100) : 0;
+
+  // Émoji et message selon efficacité (ratio bonnes / tentées)
+  let emoji, title, sub;
+  if (pct === 100)    { emoji = '🏆'; title = 'Entraînement parfait !'; sub = 'Toutes les réponses correctes du premier coup !'; }
+  else if (pct >= 75) { emoji = '🎉'; title = 'Très bien !';            sub = 'Tu maîtrises bien ce contenu !'; }
+  else if (pct >= 50) { emoji = '💪'; title = 'Bon entraînement !';     sub = 'Continue, tu progresses !'; }
+  else                { emoji = '📚'; title = 'À retravailler…';        sub = 'Relis ta leçon puis recommence !'; }
+
+  document.getElementById('result-emoji').textContent     = emoji;
+  document.getElementById('result-title').textContent     = title;
+  document.getElementById('result-subtitle').textContent  = sub;
+  document.getElementById('result-score-num').textContent = `${score}/${total}`;
+
+  const circ   = 270.2;
+  const offset = circ - (pct / 100) * circ;
+  const circle = document.getElementById('score-circle');
+  circle.style.strokeDashoffset = circ;
+  setTimeout(() => { circle.style.strokeDashoffset = offset; }, 100);
+
+  // Liste détaillée à partir de l'historique
+  const list = document.getElementById('result-list');
+  list.innerHTML = '';
+
+  // Ajouter un récap de progression
+  const recap = document.createElement('div');
+  recap.style.cssText = 'background:var(--raised);border:1px solid var(--bd);border-radius:var(--r-sm);padding:14px 16px;margin-bottom:16px;font-size:0.85rem;';
+  recap.innerHTML = `
+    <div style="font-weight:700;margin-bottom:8px;color:var(--tx);">Progression par niveau</div>
+    <div style="display:flex;flex-direction:column;gap:6px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="color:var(--ok);font-weight:700;">★</span>
+        <span style="color:var(--tx2);">Niveau 1 :</span>
+        <span style="font-weight:700;color:var(--ok);">${tr.ok1}/${tr.target1} validées</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="color:var(--ok);font-weight:700;">★★</span>
+        <span style="color:var(--tx2);">Niveau 2 :</span>
+        <span style="font-weight:700;color:var(--ok);">${tr.ok2}/${tr.target2} validées</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="color:var(--ok);font-weight:700;">★★★</span>
+        <span style="color:var(--tx2);">Niveau 3 :</span>
+        <span style="font-weight:700;color:var(--ok);">${tr.ok3}/${tr.target3} validée</span>
+      </div>
+    </div>`;
+  list.appendChild(recap);
+
+  tr.history.forEach((entry, i) => {
+    const { q, isCorrect } = entry;
+    const item = document.createElement('div');
+    item.className = 'result-item';
+    const dot = document.createElement('div');
+    dot.className = `result-dot ${isCorrect ? 'ok' : 'ko'}`;
+    dot.textContent = isCorrect ? '✓' : '✗';
+    const textDiv = document.createElement('div');
+    textDiv.className = 'result-item-text';
+    const strong = document.createElement('strong');
+    const enonceRaw = q.enonce ? q.enonce : (q.enonce_html ? q.enonce_html.replace(/<[^>]*>/g, '') : '—');
+    strong.textContent = `Q${i + 1} : ${enonceRaw.substring(0, 65)}${enonceRaw.length > 65 ? '…' : ''}`;
+    renderMath(strong);
+    const repLine = document.createElement('span');
+    const repText = Array.isArray(q.reponse) ? q.reponse.join(', ') : q.reponse;
+    repLine.textContent = 'Bonne réponse : ' + repText;
+    renderMath(repLine);
+    textDiv.appendChild(strong);
+    textDiv.appendChild(document.createElement('br'));
+    textDiv.appendChild(repLine);
+    item.appendChild(dot);
+    item.appendChild(textDiv);
+    list.appendChild(item);
+  });
+
+  showScreen('screen-results');
 }
 
 function retryQuiz() { launchQuiz(); }
@@ -945,6 +1313,8 @@ function renderProgrammeCalcul(q, container) {
 // ══════════════════════════════════════════════════════
 function afficherFeedback(isCorrect, question) {
   const fb = document.getElementById('feedback-box');
+  const isTraining = (State.selectedMode === 'entrainement') && !State._dmMode;
+
   if (isCorrect) {
     fb.className = 'feedback-box correct';
     document.getElementById('feedback-icon').textContent  = '✓';
@@ -952,18 +1322,39 @@ function afficherFeedback(isCorrect, question) {
   } else {
     fb.className = 'feedback-box wrong';
     document.getElementById('feedback-icon').textContent  = '✗';
-    document.getElementById('feedback-title').textContent = State._dmMode ? '✗ Mauvaise réponse' : '✗ Erreur — Retour à zéro !';
+    document.getElementById('feedback-title').textContent = State._dmMode
+      ? '✗ Mauvaise réponse'
+      : (isTraining ? '✗ Mauvaise réponse' : '✗ Erreur — Retour à zéro !');
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
-  setMathText(document.getElementById('feedback-text'), question.explication || '');
+
+  const feedbackText = document.getElementById('feedback-text');
+  if (!isCorrect && isTraining) {
+    // En entraînement : afficher d'abord la bonne réponse, puis l'explication
+    const repText = Array.isArray(question.reponse) ? question.reponse.join(', ') : question.reponse;
+    feedbackText.innerHTML = '';
+    const correctDiv = document.createElement('div');
+    correctDiv.className = 'feedback-correct-answer';
+    correctDiv.textContent = '✅ Bonne réponse : ' + repText;
+    renderMath(correctDiv);
+    feedbackText.appendChild(correctDiv);
+    const explDiv = document.createElement('div');
+    explDiv.style.marginTop = '8px';
+    setMathText(explDiv, question.explication || '');
+    feedbackText.appendChild(explDiv);
+  } else {
+    feedbackText.innerHTML = '';
+    setMathText(feedbackText, question.explication || '');
+  }
+
   document.getElementById('quiz-score-live').textContent =
     `${State.sessionCorrect}/${State.sessionTotal}`;
 
   const btnNext = document.getElementById('btn-next');
   btnNext.classList.add('visible');
   const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
-  if (!isCorrect) {
+  if (!isCorrect && !isTraining && !State._dmMode) {
     btnNext.textContent = '→ Recommencer';
   } else if (isLast) {
     btnNext.textContent = 'Voir les résultats →';
@@ -1019,7 +1410,7 @@ function handleAnswer(chosen, question) {
   btnNext.classList.add('visible');
   const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
 
-  if (!isCorrect) {
+  if (!isCorrect && !State._dmMode) {
     btnNext.textContent = '→ Recommencer';
   } else if (isLast) {
     btnNext.textContent = 'Voir les résultats →';
@@ -1032,10 +1423,23 @@ function handleAnswer(chosen, question) {
 //  NAVIGATION QUIZ
 // ══════════════════════════════════════════════════════
 function nextQuestion() {
+  // ── Mode entraînement adaptatif ──────────────────────
+  if (State.selectedMode === 'entrainement' && !State._dmMode) {
+    const tr = State.train;
+    const done  = tr.ok1 + tr.ok2 + tr.ok3;
+    const total = tr.target1 + tr.target2 + tr.target3;
+    if (done >= total) {
+      showTrainingResults();
+      return;
+    }
+    renderTrainingQuestion();
+    return;
+  }
+
+  // ── Mode examen (comportement original) ──────────────
   const fb = document.getElementById('feedback-box');
   if (fb.classList.contains('wrong')) {
     const q = State.quizQuestions[State.currentQIndex];
-    // Compatibilité : certaines questions utilisent enonce_html sans enonce
     const enonceTexte = q.enonce
       ? q.enonce.substring(0, 80)
       : (q.enonce_html

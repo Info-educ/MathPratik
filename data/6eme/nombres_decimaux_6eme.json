@@ -874,7 +874,7 @@
       "image": null,
       "choix": ["$0{,}1235$", "$0{,}1234$", "$0{,}1236$", "$0{,}1240$"],
       "reponse": "$0{,}1235$",
-      "explication": "$0{,}1234 < 0{,}1235 < 0{,}1236$ ✓. [Question générée]"
+      "explication": "$0{,}1234 < 0{,}1235 < 0{,}1236$ ✓."
     },
     {
       "id": "dec6_n3_022",
@@ -885,7 +885,7 @@
       "image": null,
       "choix": ["$\\dfrac{125}{1000}$", "$\\dfrac{125}{100}$", "$\\dfrac{12}{10}$", "$\\dfrac{1{,}25}{10}$"],
       "reponse": "$\\dfrac{125}{1000}$",
-      "explication": "$0{,}125 = \\dfrac{125}{1000}$ car il y a $3$ chiffres après la virgule. [Question générée]"
+      "explication": "$0{,}125 = \\dfrac{125}{1000}$ car il y a $3$ chiffres après la virgule."
     },
     {
       "id": "dec6_n3_023",
@@ -896,7 +896,7 @@
       "image": null,
       "choix": ["$9$", "$10$", "$8$", "$11$"],
       "reponse": "$9$",
-      "explication": "$0{,}1$ ; $0{,}2$ ; $0{,}3$ ; $0{,}4$ ; $0{,}5$ ; $0{,}6$ ; $0{,}7$ ; $0{,}8$ ; $0{,}9$ → $9$ nombres. [Question générée]"
+      "explication": "$0{,}1$ ; $0{,}2$ ; $0{,}3$ ; $0{,}4$ ; $0{,}5$ ; $0{,}6$ ; $0{,}7$ ; $0{,}8$ ; $0{,}9$ → $9$ nombres."
     },
     {
       "id": "dec6_n3_024",
@@ -907,7 +907,7 @@
       "image": null,
       "choix": ["Oui, c'est correct", "Non, il faut $23{,}47 < 23{,}47 < 23{,}48$", "Non, l'encadrement au centième est $23{,}4 < 23{,}47 < 23{,}5$", "Non, on ne peut pas encadrer $23{,}47$ au centième"],
       "reponse": "Oui, c'est correct",
-      "explication": "$23{,}46 < 23{,}47 < 23{,}48$ : ce sont bien deux valeurs à $2$ décimales consécutives encadrant $23{,}47$. C'est l'encadrement au centième. [Question générée]"
+      "explication": "$23{,}46 < 23{,}47 < 23{,}48$ : ce sont bien deux valeurs à $2$ décimales consécutives encadrant $23{,}47$. C'est l'encadrement au centième."
     },
     {
       "id": "dec6_n3_026",
@@ -918,7 +918,7 @@
       "image": null,
       "choix": ["$3{,}1 < \\pi < 3{,}2$", "$3 < \\pi < 4$", "$3{,}14 < \\pi < 3{,}15$", "$3{,}141 < \\pi < 3{,}142$"],
       "reponse": "$3{,}1 < \\pi < 3{,}2$",
-      "explication": "Encadrement au dixième : $3{,}1 < 3{,}14159... < 3{,}2$. [Question générée]"
+      "explication": "Encadrement au dixième : $3{,}1 < 3{,}14159... < 3{,}2$."
     },
     {
       "id": "dec6_n3_027",
@@ -929,7 +929,7 @@
       "image": null,
       "choix": ["$\\dfrac{1}{3}$", "$\\dfrac{1}{7}$", "$\\dfrac{3}{4}$", "$\\dfrac{1}{9}$"],
       "reponse": "$\\dfrac{3}{4}$",
-      "explication": "$\\dfrac{3}{4} = 0{,}75$ (exactement $2$ décimales). Les autres fractions produisent des développements décimaux infinis. [Question générée]"
+      "explication": "$\\dfrac{3}{4} = 0{,}75$ (exactement $2$ décimales). Les autres fractions produisent des développements décimaux infinis."
     },
     {
       "id": "dec6_n3_028",
@@ -940,7 +940,7 @@
       "image": null,
       "choix": ["$6$", "$7$", "$8$", "$5$"],
       "reponse": "$8$",
-      "explication": "Dans $12\\,345{,}678$ : après la virgule, $6$ = dixièmes, $7$ = centièmes, $8$ = millièmes. [Question générée]"
+      "explication": "Dans $12\\,345{,}678$ : après la virgule, $6$ = dixièmes, $7$ = centièmes, $8$ = millièmes."
     },
     {
       "id": "dec6_n3_029",
@@ -951,7 +951,7 @@
       "image": null,
       "choix": ["$0{,}357$", "$0{,}537$", "$0{,}375$", "$0{,}753$"],
       "reponse": "$0{,}357$",
-      "explication": "$\\dfrac{5}{100} = 0{,}05$ ; $\\dfrac{3}{10} = 0{,}3$ ; $\\dfrac{7}{1000} = 0{,}007$. Somme : $0{,}05 + 0{,}3 + 0{,}007 = 0{,}357$. [Question générée]"
+      "explication": "$\\dfrac{5}{100} = 0{,}05$ ; $\\dfrac{3}{10} = 0{,}3$ ; $\\dfrac{7}{1000} = 0{,}007$. Somme : $0{,}05 + 0{,}3 + 0{,}007 = 0{,}357$."
     },
     {
       "id": "dec6_n3_030",
@@ -962,7 +962,7 @@
       "image": null,
       "choix": ["$0{,}5$", "$0{,}25$", "$0{,}75$", "$0{,}4$"],
       "reponse": "$0{,}5$",
-      "explication": "$x = 0{,}375 + 0{,}125 = 0{,}5$. On ajoute $0{,}125$ des deux côtés. [Question générée]"
+      "explication": "$x = 0{,}375 + 0{,}125 = 0{,}5$. On ajoute $0{,}125$ des deux côtés."
     }
   ]
 }
