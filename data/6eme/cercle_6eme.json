@@ -1092,7 +1092,7 @@
         "$r^{2}$"
       ],
       "reponse": "$4r$",
-      "explication": "Si le nouveau rayon est $2r$, alors le nouveau diamètre est $2 \\times 2r = 4r$. [Question générée]"
+      "explication": "Si le nouveau rayon est $2r$, alors le nouveau diamètre est $2 \\times 2r = 4r$."
     },
     {
       "id": "c6_n3_016",
@@ -1108,7 +1108,7 @@
         "$16$ cm"
       ],
       "reponse": "$4$ cm",
-      "explication": "M est le milieu de $[OA]$, donc $OM = OA \\div 2 = r \\div 2 = 8 \\div 2 = 4$ cm. [Question générée]"
+      "explication": "M est le milieu de $[OA]$, donc $OM = OA \\div 2 = r \\div 2 = 8 \\div 2 = 4$ cm."
     },
     {
       "id": "c6_n3_017",
@@ -1124,7 +1124,7 @@
         "Les cordes ont toutes la même longueur"
       ],
       "reponse": "Tous les points du cercle sont à égale distance du centre (le rayon)",
-      "explication": "La définition même du cercle : c'est l'ensemble des points situés à la même distance $r$ (le rayon) d'un point fixe O (le centre). [Question générée]"
+      "explication": "La définition même du cercle : c'est l'ensemble des points situés à la même distance $r$ (le rayon) d'un point fixe O (le centre)."
     },
     {
       "id": "c6_n3_018",
@@ -1140,7 +1140,7 @@
         "On ne peut rien déduire"
       ],
       "reponse": "$AB = CD$",
-      "explication": "Propriété : dans un cercle, deux cordes également éloignées du centre ont la même longueur. Donc $AB = CD$. [Question générée]"
+      "explication": "Propriété : dans un cercle, deux cordes également éloignées du centre ont la même longueur. Donc $AB = CD$."
     },
     {
       "id": "c6_n3_019",
@@ -1156,7 +1156,7 @@
         "O' est extérieur au cercle"
       ],
       "reponse": "O' est le centre du cercle, donc $O' = O$",
-      "explication": "O est sur la médiatrice de $[AB]$ (car $OA = OB$) et sur la médiatrice de $[AC]$ (car $OA = OC$). Ces deux médiatrices se croisent en O, donc $O' = O$. [Question générée]"
+      "explication": "O est sur la médiatrice de $[AB]$ (car $OA = OB$) et sur la médiatrice de $[AC]$ (car $OA = OC$). Ces deux médiatrices se croisent en O, donc $O' = O$."
     },
     {
       "id": "c6_n3_020",
@@ -1172,7 +1172,7 @@
         "Non, car C est sur le cercle"
       ],
       "reponse": "Non, car on ne sait pas si $AC = r$ aussi",
-      "explication": "On sait que $OA = OC = r$ (triangle isocèle), mais pour qu'il soit équilatéral il faudrait aussi $AC = r$. Or $AC$ est une corde dont la longueur dépend de la position de C sur le cercle, et n'est pas nécessairement égale à $r$. [Question générée]"
+      "explication": "On sait que $OA = OC = r$ (triangle isocèle), mais pour qu'il soit équilatéral il faudrait aussi $AC = r$. Or $AC$ est une corde dont la longueur dépend de la position de C sur le cercle, et n'est pas nécessairement égale à $r$."
     },
     {
       "id": "c6_n3_021",
@@ -1188,7 +1188,7 @@
         "$18$ cm"
       ],
       "reponse": "$12$ cm",
-      "explication": "La corde la plus longue est le diamètre : $d = 2r = 2 \\times 6 = 12$ cm. Aucune corde ne peut être plus longue que le diamètre. [Question générée]"
+      "explication": "La corde la plus longue est le diamètre : $d = 2r = 2 \\times 6 = 12$ cm. Aucune corde ne peut être plus longue que le diamètre."
     },
     {
       "id": "c6_n3_023",
@@ -1204,7 +1204,7 @@
         "Une infinité"
       ],
       "reponse": "0",
-      "explication": "Pour être sur le petit cercle, un point doit être à $3$ cm de O. Pour être sur le grand cercle, il doit être à $7$ cm de O. Ces deux conditions sont incompatibles ($3 \\neq 7$), donc aucun point ne peut être sur les deux cercles en même temps. [Question générée]"
+      "explication": "Pour être sur le petit cercle, un point doit être à $3$ cm de O. Pour être sur le grand cercle, il doit être à $7$ cm de O. Ces deux conditions sont incompatibles ($3 \\neq 7$), donc aucun point ne peut être sur les deux cercles en même temps."
     },
     {
       "id": "c6_n3_024",
@@ -1220,7 +1220,7 @@
         "P est le centre du cercle"
       ],
       "reponse": "P est à l'extérieur du cercle",
-      "explication": "Par définition du cercle : un point est sur le cercle si $OP = r$, à l'intérieur si $OP < r$, et à l'extérieur si $OP > r$. Ici $OP > r$ donc P est à l'extérieur. [Question générée]"
+      "explication": "Par définition du cercle : un point est sur le cercle si $OP = r$, à l'intérieur si $OP < r$, et à l'extérieur si $OP > r$. Ici $OP > r$ donc P est à l'extérieur."
     },
     {
       "id": "c6_n3_025",
@@ -1236,7 +1236,7 @@
         "$[OH]$ est un arc de cercle"
       ],
       "reponse": "$[OH]$ est perpendiculaire à $[AB]$",
-      "explication": "Propriété fondamentale : si H est le milieu d'une corde $[AB]$ et O le centre, alors $[OH]$ est perpendiculaire à $[AB]$. (Et réciproquement, toute perpendiculaire du centre à une corde passe par son milieu.) [Question générée]"
+      "explication": "Propriété fondamentale : si H est le milieu d'une corde $[AB]$ et O le centre, alors $[OH]$ est perpendiculaire à $[AB]$. (Et réciproquement, toute perpendiculaire du centre à une corde passe par son milieu.)"
     },
     {
       "id": "c6_n3_026",
@@ -1252,7 +1252,7 @@
         "$16$ cm"
       ],
       "reponse": "$12$ cm",
-      "explication": "A, B et C sont tous sur le cercle, donc $OA = OB = OC = r = 4$ cm. La somme vaut $4 + 4 + 4 = 12$ cm. [Question générée]"
+      "explication": "A, B et C sont tous sur le cercle, donc $OA = OB = OC = r = 4$ cm. La somme vaut $4 + 4 + 4 = 12$ cm."
     },
     {
       "id": "c6_n3_027",
@@ -1268,7 +1268,7 @@
         "Non, seulement les rayons sont égaux"
       ],
       "reponse": "Non, deux cordes peuvent avoir des longueurs différentes",
-      "explication": "Deux cordes d'un même cercle peuvent avoir des longueurs différentes (sauf si elles sont à égale distance du centre). Ce qui est constant, c'est la distance de chaque point au centre (le rayon), pas la longueur des cordes. [Question générée]"
+      "explication": "Deux cordes d'un même cercle peuvent avoir des longueurs différentes (sauf si elles sont à égale distance du centre). Ce qui est constant, c'est la distance de chaque point au centre (le rayon), pas la longueur des cordes."
     },
     {
       "id": "c6_n3_028",
@@ -1284,7 +1284,7 @@
         "$d' = r' + 2$"
       ],
       "reponse": "$d' = 2r'$",
-      "explication": "La relation $d = 2r$ est une propriété du cercle, toujours vraie. Même si on double le rayon, on a $d' = 2r'$. Ici $r' = 2r$ et $d' = 2 \\times 2r = 4r = 2r'$. [Question générée]"
+      "explication": "La relation $d = 2r$ est une propriété du cercle, toujours vraie. Même si on double le rayon, on a $d' = 2r'$. Ici $r' = 2r$ et $d' = 2 \\times 2r = 4r = 2r'$."
     },
     {
       "id": "c6_n3_029",
@@ -1300,7 +1300,7 @@
         "Un cercle est une corde de longueur maximale"
       ],
       "reponse": "Un cercle est l'ensemble des points situés exactement à distance $r$ du centre O",
-      "explication": "La définition précise : le cercle est l'ensemble des points à distance EXACTEMENT égale à $r$ du centre O. Les points à distance inférieure forment le disque (intérieur). [Question générée]"
+      "explication": "La définition précise : le cercle est l'ensemble des points à distance EXACTEMENT égale à $r$ du centre O. Les points à distance inférieure forment le disque (intérieur)."
     },
     {
       "id": "c6_n3_030",
@@ -1316,7 +1316,7 @@
         "On ne peut pas déterminer la nature de $[AB]$"
       ],
       "reponse": "Un diamètre, car $AB = 2r = 2 \\times 5 = 10$ cm",
-      "explication": "Le diamètre a pour longueur $d = 2r = 2 \\times 5 = 10$ cm. Comme $AB = 10 = d$, le segment $[AB]$ est forcément un diamètre (la seule corde de longueur maximale passe par le centre). [Question générée]"
+      "explication": "Le diamètre a pour longueur $d = 2r = 2 \\times 5 = 10$ cm. Comme $AB = 10 = d$, le segment $[AB]$ est forcément un diamètre (la seule corde de longueur maximale passe par le centre)."
     }
   ]
 }
