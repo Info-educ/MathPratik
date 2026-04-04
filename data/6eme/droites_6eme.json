@@ -651,7 +651,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "$(d) \\parallel (d')$, le point $P$ est sur $(d)$. Comment trouver la distance entre $(d)$ et $(d')$ ?",
-      "image": null",
+      "image": null,
       "choix": [
         "On mesure n'importe quelle longueur entre les deux droites",
         "On trace la perpendiculaire à $(d)$ passant par $P$ ; elle coupe $(d')$ en $H$ ; $PH$ est la distance",
