@@ -11,7 +11,7 @@
       "id": "fr6_n1_001",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans la fraction $\\dfrac{3}{5}$, comment s'appelle le nombre $3$ ?",
       "image": null,
       "choix": [
@@ -27,7 +27,7 @@
       "id": "fr6_n1_002",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans la fraction $\\dfrac{3}{5}$, comment s'appelle le nombre $5$ ?",
       "image": null,
       "choix": [
@@ -43,7 +43,7 @@
       "id": "fr6_n1_003",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle définition correspond le mieux à une fraction ?",
       "image": null,
       "choix": [
@@ -59,7 +59,7 @@
       "id": "fr6_n1_004",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $21 \\times \\dfrac{4}{21}$ ?",
       "image": null,
       "choix": [
@@ -75,7 +75,7 @@
       "id": "fr6_n1_005",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces écritures est une fraction (numérateur et dénominateur entiers) ?",
       "image": null,
       "choix": [
@@ -91,7 +91,7 @@
       "id": "fr6_n1_010",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La fraction $\\dfrac{7}{9}$ est comparée à $1$. Que peut-on dire ?",
       "image": null,
       "choix": [
@@ -107,7 +107,7 @@
       "id": "fr6_n1_011",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi $\\dfrac{5}{9}$ et $\\dfrac{8}{9}$, laquelle est la plus grande ?",
       "image": null,
       "choix": [
@@ -123,7 +123,7 @@
       "id": "fr6_n1_012",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Compare $\\dfrac{3}{11}$ et $\\dfrac{7}{11}$. Quelle inégalité est correcte ?",
       "image": null,
       "choix": [
@@ -139,7 +139,7 @@
       "id": "fr6_n1_013",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la règle pour comparer deux fractions ayant le même dénominateur ?",
       "image": null,
       "choix": [
@@ -155,7 +155,7 @@
       "id": "fr6_n1_014",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi $\\dfrac{7}{5}$ et $\\dfrac{7}{9}$, laquelle est la plus grande ?",
       "image": null,
       "choix": [
@@ -171,7 +171,7 @@
       "id": "fr6_n1_016",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la règle pour comparer deux fractions ayant le même numérateur ?",
       "image": null,
       "choix": [
@@ -187,7 +187,7 @@
       "id": "fr6_n1_017",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que donne $\\dfrac{6}{8}$ simplifié par $2$ ?",
       "image": null,
       "choix": [
@@ -203,7 +203,7 @@
       "id": "fr6_n1_018",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifie la fraction $\\dfrac{15}{20}$.",
       "image": null,
       "choix": [
@@ -219,7 +219,7 @@
       "id": "fr6_n1_019",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifie la fraction $\\dfrac{21}{14}$.",
       "image": null,
       "choix": [
@@ -235,7 +235,7 @@
       "id": "fr6_n1_020",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces fractions est déjà irréductible (sous forme simplifiée) ?",
       "image": null,
       "choix": [
@@ -251,7 +251,7 @@
       "id": "fr6_n1_021",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que signifie simplifier une fraction ?",
       "image": null,
       "choix": [
@@ -267,7 +267,7 @@
       "id": "fr6_n1_022",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifie la fraction $\\dfrac{10}{15}$.",
       "image": null,
       "choix": [
@@ -283,7 +283,7 @@
       "id": "fr6_n1_024",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $\\dfrac{4}{25} + \\dfrac{12}{25}$ ?",
       "image": null,
       "choix": [
@@ -299,7 +299,7 @@
       "id": "fr6_n1_025",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $\\dfrac{3}{7} + \\dfrac{2}{7} =$",
       "image": null,
       "choix": [
@@ -315,7 +315,7 @@
       "id": "fr6_n1_026",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $\\dfrac{8}{13} - \\dfrac{3}{13} =$",
       "image": null,
       "choix": [
@@ -331,7 +331,7 @@
       "id": "fr6_n1_027",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $\\dfrac{9}{11} - \\dfrac{5}{11}$ ?",
       "image": null,
       "choix": [
@@ -347,7 +347,7 @@
       "id": "fr6_n1_028",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie si possible : $\\dfrac{5}{9} + \\dfrac{1}{9} =$",
       "image": null,
       "choix": [
@@ -363,7 +363,7 @@
       "id": "fr6_n1_029",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la règle pour additionner deux fractions ayant le même dénominateur ?",
       "image": null,
       "choix": [
@@ -379,7 +379,7 @@
       "id": "fr6_n1_030",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie si possible : $\\dfrac{7}{10} - \\dfrac{3}{10} =$",
       "image": null,
       "choix": [
@@ -395,7 +395,7 @@
       "id": "fr6_n1_031",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La fraction $\\dfrac{12}{5}$ est comparée à $1$. Que peut-on dire ?",
       "image": null,
       "choix": [
@@ -411,7 +411,7 @@
       "id": "fr6_n1_034",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifie la fraction $\\dfrac{18}{24}$.",
       "image": null,
       "choix": [
@@ -427,7 +427,7 @@
       "id": "fr6_n1_035",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi $\\dfrac{5}{8}$ et $\\dfrac{5}{12}$, laquelle est la plus petite ?",
       "image": null,
       "choix": [
@@ -443,7 +443,7 @@
       "id": "fr6_n1_037",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Vrai ou Faux : multiplier le numérateur et le dénominateur d'une fraction par un même nombre change sa valeur.",
       "image": null,
       "choix": [
@@ -459,7 +459,7 @@
       "id": "fr6_n1_039",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $\\dfrac{4}{9} + \\dfrac{5}{9}$ ?",
       "image": null,
       "choix": [
@@ -475,7 +475,7 @@
       "id": "fr6_n1_040",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Place les fractions $\\dfrac{1}{4}$, $\\dfrac{3}{4}$ et $\\dfrac{2}{4}$ dans l'ordre croissant.",
       "image": null,
       "choix": [
@@ -491,7 +491,7 @@
       "id": "fr6_n2_001",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces fractions est égale à $\\dfrac{3}{4}$ ?",
       "image": null,
       "choix": [
@@ -507,7 +507,7 @@
       "id": "fr6_n2_002",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi $\\dfrac{3}{4}$, $\\dfrac{6}{8}$ et $\\dfrac{15}{20}$, lesquelles sont égales ?",
       "image": null,
       "choix": [
@@ -523,7 +523,7 @@
       "id": "fr6_n2_003",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Complète : $\\dfrac{2}{5} = \\dfrac{?}{15}$. Quelle est la valeur du numérateur manquant ?",
       "image": null,
       "choix": [
@@ -539,7 +539,7 @@
       "id": "fr6_n2_004",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour comparer $\\dfrac{3}{4}$ et $\\dfrac{5}{8}$, quel est le meilleur dénominateur commun ?",
       "image": null,
       "choix": [
@@ -555,7 +555,7 @@
       "id": "fr6_n2_005",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Compare $\\dfrac{2}{5}$ et $\\dfrac{3}{7}$ en mettant au même dénominateur. Quelle inégalité est correcte ?",
       "image": null,
       "choix": [
@@ -571,7 +571,7 @@
       "id": "fr6_n2_006",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Complète : $\\dfrac{3}{4} = \\dfrac{?}{20}$. Quelle est la valeur du numérateur manquant ?",
       "image": null,
       "choix": [
@@ -587,7 +587,7 @@
       "id": "fr6_n2_007",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Compare $\\dfrac{5}{6}$ et $\\dfrac{7}{9}$ (mettre au dénominateur commun $18$). Quelle inégalité est correcte ?",
       "image": null,
       "choix": [
@@ -603,7 +603,7 @@
       "id": "fr6_n2_008",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Comment comparer deux fractions ayant des numérateurs et dénominateurs différents ?",
       "image": null,
       "choix": [
@@ -619,7 +619,7 @@
       "id": "fr6_n2_009",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifie la fraction $\\dfrac{36}{48}$.",
       "image": null,
       "choix": [
@@ -635,23 +635,23 @@
       "id": "fr6_n2_010",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $\\dfrac{3}{8} + \\dfrac{5}{8}$ ?",
       "image": null,
       "choix": [
         "$\\dfrac{8}{16}$",
-        "$\\dfrac{8}{8} = 1$",
+        "$1$",
         "$\\dfrac{8}{64}$",
         "$\\dfrac{15}{64}$"
       ],
-      "reponse": "$\\dfrac{8}{8} = 1$",
+      "reponse": "$1$",
       "explication": "$\\dfrac{3}{8} + \\dfrac{5}{8} = \\dfrac{3+5}{8} = \\dfrac{8}{8} = 1$."
     },
     {
       "id": "fr6_n2_011",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $\\dfrac{7}{12} + \\dfrac{5}{12} =$",
       "image": null,
       "choix": [
@@ -667,7 +667,7 @@
       "id": "fr6_n2_012",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Lucas mange $\\dfrac{3}{8}$ d'une pizza et Marie en mange $\\dfrac{2}{8}$. Quelle fraction reste-t-il ?",
       "image": null,
       "choix": [
@@ -683,7 +683,7 @@
       "id": "fr6_n2_013",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie : $\\dfrac{5}{6} - \\dfrac{1}{6} - \\dfrac{2}{6} =$",
       "image": null,
       "choix": [
@@ -697,9 +697,9 @@
     },
     {
       "id": "fr6_n2_014",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle est la plus grande : $\\dfrac{3}{5}$ ou $\\dfrac{2}{3}$ ?",
       "image": null,
       "choix": [
@@ -715,7 +715,7 @@
       "id": "fr6_n2_015",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Range dans l'ordre décroissant : $\\dfrac{3}{4}$, $\\dfrac{5}{6}$, $\\dfrac{7}{12}$.",
       "image": null,
       "choix": [
@@ -731,7 +731,7 @@
       "id": "fr6_n2_016",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $\\dfrac{1}{3} + \\dfrac{1}{3} + \\dfrac{1}{3} =$",
       "image": null,
       "choix": [
@@ -745,9 +745,9 @@
     },
     {
       "id": "fr6_n2_017",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $1 - \\dfrac{3}{7}$ ?",
       "image": null,
       "choix": [
@@ -761,9 +761,9 @@
     },
     {
       "id": "fr6_n2_018",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $1 - \\dfrac{5}{9} =$",
       "image": null,
       "choix": [
@@ -779,7 +779,7 @@
       "id": "fr6_n2_019",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans une classe, $\\dfrac{2}{7}$ des élèves sont absents. Quelle fraction des élèves est présente ?",
       "image": null,
       "choix": [
@@ -795,7 +795,7 @@
       "id": "fr6_n2_020",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $\\dfrac{4}{11} + \\dfrac{3}{11} + \\dfrac{2}{11} =$",
       "image": null,
       "choix": [
@@ -811,7 +811,7 @@
       "id": "fr6_n2_021",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "On veut écrire $\\dfrac{4}{5}$ avec le dénominateur $20$. Quel est le numérateur ?",
       "image": null,
       "choix": [
@@ -827,7 +827,7 @@
       "id": "fr6_n2_022",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un gâteau est partagé en $12$ parts. Clara mange $3$ parts, Hugo en mange $4$. Quelle fraction du gâteau reste-t-il ?",
       "image": null,
       "choix": [
@@ -843,7 +843,7 @@
       "id": "fr6_n2_023",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Complète : $\\dfrac{5}{6} = \\dfrac{?}{30}$. Quelle est la valeur du numérateur manquant ?",
       "image": null,
       "choix": [
@@ -857,9 +857,9 @@
     },
     {
       "id": "fr6_n2_024",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Compare $\\dfrac{7}{4}$ et $\\dfrac{9}{5}$. Quelle inégalité est correcte ?",
       "image": null,
       "choix": [
@@ -875,7 +875,7 @@
       "id": "fr6_n2_025",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pourquoi ne peut-on pas directement additionner $\\dfrac{1}{3}$ et $\\dfrac{1}{4}$ avec la règle du même dénominateur ?",
       "image": null,
       "choix": [
@@ -891,7 +891,7 @@
       "id": "fr6_n2_026",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifie la fraction $\\dfrac{45}{60}$.",
       "image": null,
       "choix": [
@@ -905,9 +905,9 @@
     },
     {
       "id": "fr6_n2_027",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $1 + \\dfrac{2}{5}$ ?",
       "image": null,
       "choix": [
@@ -923,7 +923,7 @@
       "id": "fr6_n2_028",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $\\dfrac{3}{8} + \\dfrac{8}{8} =$",
       "image": null,
       "choix": [
@@ -939,7 +939,7 @@
       "id": "fr6_n2_029",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Vrai ou Faux : $\\dfrac{2}{6} = \\dfrac{1}{3}$. Quelle proposition est correcte ?",
       "image": null,
       "choix": [
@@ -955,7 +955,7 @@
       "id": "fr6_n2_030",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie : $\\dfrac{13}{5} - \\dfrac{8}{5} =$",
       "image": null,
       "choix": [
@@ -971,7 +971,7 @@
       "id": "fr6_n3_001",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Range dans l'ordre croissant : $\\dfrac{5}{6}$, $\\dfrac{3}{4}$, $\\dfrac{7}{8}$, $\\dfrac{2}{3}$.",
       "image": null,
       "choix": [
@@ -987,7 +987,7 @@
       "id": "fr6_n3_002",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $\\dfrac{3}{4} + 1 - \\dfrac{5}{4}$ ?",
       "image": null,
       "choix": [
@@ -1003,7 +1003,7 @@
       "id": "fr6_n3_003",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie : $\\dfrac{9}{12} + \\dfrac{3}{12} - \\dfrac{4}{12} =$",
       "image": null,
       "choix": [
@@ -1019,7 +1019,7 @@
       "id": "fr6_n3_004",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un récipient contient $\\dfrac{7}{10}$ de litre. On verse $\\dfrac{3}{10}$ litre de plus puis on boit $\\dfrac{8}{10}$ litre. Que reste-t-il ?",
       "image": null,
       "choix": [
@@ -1035,7 +1035,7 @@
       "id": "fr6_n3_005",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle fraction est comprise entre $\\dfrac{1}{2}$ et $\\dfrac{3}{4}$ ?",
       "image": null,
       "choix": [
@@ -1051,7 +1051,7 @@
       "id": "fr6_n3_006",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Complète : $\\dfrac{7}{9} = \\dfrac{?}{63}$. Quelle est la valeur du numérateur manquant ?",
       "image": null,
       "choix": [
@@ -1067,7 +1067,7 @@
       "id": "fr6_n3_007",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Deux fractions ont pour somme $1$. L'une est $\\dfrac{3}{7}$. Quelle est l'autre ?",
       "image": null,
       "choix": [
@@ -1083,7 +1083,7 @@
       "id": "fr6_n3_008",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces affirmations est vraie ?",
       "image": null,
       "choix": [
@@ -1099,7 +1099,7 @@
       "id": "fr6_n3_009",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie : $\\dfrac{5}{6} + \\dfrac{1}{6} + \\dfrac{2}{6} - \\dfrac{3}{6} =$",
       "image": null,
       "choix": [
@@ -1115,7 +1115,7 @@
       "id": "fr6_n3_010",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un sondage, $\\dfrac{2}{5}$ des élèves préfèrent les maths, $\\dfrac{1}{5}$ préfère le français. Quelle fraction préfère « autre chose » et est-ce plus ou moins de la moitié ?",
       "image": null,
       "choix": [
@@ -1131,7 +1131,7 @@
       "id": "fr6_n3_011",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Que vaut $\\dfrac{2}{3} + \\dfrac{2}{3} + \\dfrac{2}{3}$ ?",
       "image": null,
       "choix": [
@@ -1147,7 +1147,7 @@
       "id": "fr6_n3_012",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie : $\\dfrac{16}{20} - \\dfrac{4}{20} =$",
       "image": null,
       "choix": [
@@ -1163,7 +1163,7 @@
       "id": "fr6_n3_013",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Paul dit que $\\dfrac{5}{6} > \\dfrac{4}{5}$ parce que $6 > 5$. A-t-il raison, et son raisonnement est-il correct ?",
       "image": null,
       "choix": [
@@ -1179,7 +1179,7 @@
       "id": "fr6_n3_014",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle est la fraction irréductible égale à $\\dfrac{24}{36}$ ?",
       "image": null,
       "choix": [
@@ -1195,7 +1195,7 @@
       "id": "fr6_n3_015",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule : $\\dfrac{1}{2} + \\dfrac{1}{2} + \\dfrac{1}{2} - \\dfrac{1}{2} =$",
       "image": null,
       "choix": [
@@ -1211,7 +1211,7 @@
       "id": "fr6_n3_016",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la valeur de $k$ si $\\dfrac{3}{5} = \\dfrac{k}{35}$ ?",
       "image": null,
       "choix": [
@@ -1227,7 +1227,7 @@
       "id": "fr6_n3_017",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Une tarte est partagée en $8$ parts. Alice mange $\\dfrac{1}{4}$ de la tarte. Combien de parts cela représente-t-il ?",
       "image": null,
       "choix": [
@@ -1243,7 +1243,7 @@
       "id": "fr6_n3_018",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie : $\\dfrac{7}{8} - \\dfrac{3}{8} + \\dfrac{2}{8} =$",
       "image": null,
       "choix": [
@@ -1259,7 +1259,7 @@
       "id": "fr6_n3_019",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces inégalités est fausse ?",
       "image": null,
       "choix": [
@@ -1275,7 +1275,7 @@
       "id": "fr6_n3_020",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Deux fractions différentes ont pour somme $1$ et l'une est le double de l'autre. Quelles sont ces fractions ?",
       "image": null,
       "choix": [
@@ -1291,7 +1291,7 @@
       "id": "fr6_n3_021",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Complète : $\\dfrac{7}{9} = \\dfrac{?}{27}$. Quelle est la valeur du numérateur manquant ?",
       "image": null,
       "choix": [
@@ -1307,7 +1307,7 @@
       "id": "fr6_n3_022",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle fraction est comprise entre $\\dfrac{3}{4}$ et $\\dfrac{7}{8}$ ?",
       "image": null,
       "choix": [
@@ -1323,7 +1323,7 @@
       "id": "fr6_n3_023",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifie la fraction $\\dfrac{84}{120}$.",
       "image": null,
       "choix": [
@@ -1339,7 +1339,7 @@
       "id": "fr6_n3_024",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calcule et simplifie : $\\dfrac{11}{15} + \\dfrac{4}{15} - \\dfrac{6}{15} =$",
       "image": null,
       "choix": [
@@ -1355,7 +1355,7 @@
       "id": "fr6_n3_025",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Trois fractions ont pour somme $1$ : $\\dfrac{1}{4}$, $\\dfrac{3}{8}$ et une troisième. Quelle est la troisième fraction ?",
       "image": null,
       "choix": [
@@ -1371,7 +1371,7 @@
       "id": "fr6_n3_026",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle est la fraction irréductible égale à $\\dfrac{48}{60}$ ?",
       "image": null,
       "choix": [
@@ -1387,7 +1387,7 @@
       "id": "fr6_n3_027",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la valeur de $k$ si $\\dfrac{4}{7} = \\dfrac{k}{49}$ ?",
       "image": null,
       "choix": [
@@ -1403,7 +1403,7 @@
       "id": "fr6_n3_028",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un pot contient $\\dfrac{5}{8}$ de litre de confiture. On utilise $\\dfrac{3}{8}$ de litre. Quelle fraction reste-t-il, et est-ce plus ou moins d'un quart de litre ?",
       "image": null,
       "choix": [
@@ -1419,7 +1419,7 @@
       "id": "fr6_n3_029",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Range dans l'ordre décroissant : $\\dfrac{2}{3}$, $\\dfrac{3}{5}$, $\\dfrac{7}{15}$, $\\dfrac{4}{5}$.",
       "image": null,
       "choix": [
@@ -1435,7 +1435,7 @@
       "id": "fr6_n3_030",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Deux fractions ont pour somme $\\dfrac{11}{12}$ et leur différence est $\\dfrac{1}{12}$. Quelles sont ces deux fractions ?",
       "image": null,
       "choix": [
