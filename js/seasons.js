@@ -40,8 +40,15 @@
 
   /* Cartes visibles dans le DOM */
   function _cards(){
-    return Array.from(document.querySelectorAll('.niveau-card,.theme-check,.notion-card'))
-      .filter(function(c){ return c.offsetWidth>0; });
+    /* Chercher dans l'écran actif (.screen.active) en priorité,
+       sinon dans tout le DOM */
+    var inActive = Array.from(
+      document.querySelectorAll('.screen.active .niveau-card, .screen.active .theme-check, .screen.active .notion-card')
+    );
+    if(inActive.length) return inActive;
+    return Array.from(
+      document.querySelectorAll('.niveau-card,.theme-check,.notion-card')
+    );
   }
 
   /* Fond de page */
@@ -1645,6 +1652,7 @@ function initNovembre(){
     var m=new Date().getMonth();
     if(m===_month) return;
     _month=m;
+    _runRetries=0;
     _stopAll();
     var body=document.body;
     _MONTHS.forEach(function(mn){body.classList.remove('season-'+mn);});
@@ -1653,29 +1661,41 @@ function initNovembre(){
     setTimeout(_runCards,150);
   }
 
+  var _runRetries=0;
   function _runCards(){
     var cards=_cards();
-    if(!cards.length){setTimeout(_runCards,200);return;}
+    if(!cards.length){
+      _runRetries++;
+      if(_runRetries<50) setTimeout(_runCards,200); /* retry jusqu'à 10s */
+      return;
+    }
+    _runRetries=0;
     _INITS[_month]();
   }
 
   var _cObs=new MutationObserver(function(mutations){
     var found=false;
     mutations.forEach(function(m){
+      /* Nouvelles cartes ajoutées */
       m.addedNodes.forEach(function(n){
         if(n.nodeType!==1)return;
-        if((n.matches&&n.matches('.niveau-card,.theme-check,.notion-card'))||
+        if((n.matches&&n.matches('.niveau-card,.theme-check,.notion-card,.screen'))||
            (n.querySelector&&n.querySelector('.niveau-card,.theme-check,.notion-card')))
           found=true;
       });
+      /* Écran qui devient actif (class change sur .screen) */
+      if(m.type==='attributes' && m.target.classList &&
+         m.target.classList.contains('screen') &&
+         m.target.classList.contains('active'))
+        found=true;
     });
-    if(found) setTimeout(_runCards,100);
+    if(found) setTimeout(_runCards,120);
   });
 
   var _tObs=new MutationObserver(function(){_month=-1;_apply();});
 
   function _init(){
-    _cObs.observe(document.body,{childList:true,subtree:true});
+    _cObs.observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['class']});
     _tObs.observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
     _apply();
   }
