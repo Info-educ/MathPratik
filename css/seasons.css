@@ -49,10 +49,10 @@ body.season-mars {
 }
 body.season-avril {
   background:
-    radial-gradient(ellipse at 60% 5%,  rgba(255,255,255,0.7)  0%, transparent 35%),
-    radial-gradient(ellipse at 20% 20%, rgba(186,230,252,0.5)  0%, transparent 40%),
-    radial-gradient(ellipse at 80% 30%, rgba(203,213,225,0.45) 0%, transparent 45%),
-    linear-gradient(165deg, #f1f5f9 0%, #e2e8f0 25%, #cbd5e1 60%, #94a3b8 100%);
+    radial-gradient(ellipse at 80% 8%,  rgba(254,240,138,0.45) 0%, transparent 35%),
+    radial-gradient(ellipse at 20% 12%, rgba(255,255,255,0.7)  0%, transparent 40%),
+    radial-gradient(ellipse at 50% 95%, rgba(187,247,208,0.35) 0%, transparent 50%),
+    linear-gradient(165deg, #f0fdf4 0%, #ecfdf5 30%, #d1fae5 60%, #bbf7d0 100%);
 }
 body.season-mai {
   background:
