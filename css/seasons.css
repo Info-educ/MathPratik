@@ -31,84 +31,84 @@ body.season-janvier {
     radial-gradient(ellipse at 30% 10%, rgba(255,255,255,0.95) 0%, transparent 40%),
     radial-gradient(ellipse at 70% 5%,  rgba(219,234,254,0.7)  0%, transparent 45%),
     radial-gradient(ellipse at 15% 60%, rgba(186,230,252,0.4)  0%, transparent 40%),
-    linear-gradient(150deg, #f0f9ff 0%, #e0f2fe 30%, #eff6ff 65%, #f8faff 100%);
+    linear-gradient(150deg, #f0f9ff 0%, #e0f2fe 30%, #eff6ff 65%, #f8faff 100%) !important;
 }
 body.season-fevrier {
   background:
     radial-gradient(ellipse at 20% 5%,  rgba(253,242,248,0.9)  0%, transparent 45%),
     radial-gradient(ellipse at 80% 10%, rgba(252,231,243,0.7)  0%, transparent 40%),
     radial-gradient(ellipse at 50% 90%, rgba(251,207,232,0.35) 0%, transparent 50%),
-    linear-gradient(160deg, #fff1f2 0%, #fdf2f8 35%, #fce7f3 70%, #fff1f2 100%);
+    linear-gradient(160deg, #fff1f2 0%, #fdf2f8 35%, #fce7f3 70%, #fff1f2 100%) !important;
 }
 body.season-mars {
   background:
     radial-gradient(ellipse at 20% 0%, rgba(187,247,208,0.55) 0%, transparent 55%),
     radial-gradient(ellipse at 80% 10%, rgba(254,240,138,0.3) 0%, transparent 45%),
     radial-gradient(ellipse at 50% 100%, rgba(134,239,172,0.4) 0%, transparent 50%),
-    linear-gradient(170deg, #f0fdf4 0%, #fefce8 40%, #f0fdf4 100%);
+    linear-gradient(170deg, #f0fdf4 0%, #fefce8 40%, #f0fdf4 100%) !important;
 }
 body.season-avril {
   background:
     radial-gradient(ellipse at 80% 8%,  rgba(254,240,138,0.45) 0%, transparent 35%),
     radial-gradient(ellipse at 20% 12%, rgba(255,255,255,0.7)  0%, transparent 40%),
     radial-gradient(ellipse at 50% 95%, rgba(187,247,208,0.35) 0%, transparent 50%),
-    linear-gradient(165deg, #f0fdf4 0%, #ecfdf5 30%, #d1fae5 60%, #bbf7d0 100%);
+    linear-gradient(165deg, #f0fdf4 0%, #ecfdf5 30%, #d1fae5 60%, #bbf7d0 100%) !important;
 }
 body.season-mai {
   background:
     radial-gradient(ellipse at 25% 5%,  rgba(253,242,248,0.9)  0%, transparent 45%),
     radial-gradient(ellipse at 75% 8%,  rgba(251,207,232,0.6)  0%, transparent 40%),
     radial-gradient(ellipse at 50% 95%, rgba(254,226,226,0.4)  0%, transparent 50%),
-    linear-gradient(160deg, #fff1f2 0%, #fdf2f8 30%, #fce7f3 65%, #fff0f6 100%);
+    linear-gradient(160deg, #fff1f2 0%, #fdf2f8 30%, #fce7f3 65%, #fff0f6 100%) !important;
 }
 body.season-juin {
   background:
     radial-gradient(ellipse at 70% 6%,  rgba(254,240,138,0.55) 0%, transparent 40%),
     radial-gradient(ellipse at 20% 15%, rgba(255,255,255,0.7)  0%, transparent 35%),
     radial-gradient(ellipse at 50% 85%, rgba(186,230,253,0.4)  0%, transparent 50%),
-    linear-gradient(168deg, #f0f9ff 0%, #e0f2fe 25%, #bae6fd 60%, #7dd3fc 100%);
+    linear-gradient(168deg, #f0f9ff 0%, #e0f2fe 25%, #bae6fd 60%, #7dd3fc 100%) !important;
 }
 body.season-juillet {
   background:
     radial-gradient(ellipse at 80% 5%,  rgba(253,186,116,0.6)  0%, transparent 45%),
     radial-gradient(ellipse at 20% 10%, rgba(254,215,170,0.45) 0%, transparent 40%),
     radial-gradient(ellipse at 50% 90%, rgba(251,146,60,0.25)  0%, transparent 50%),
-    linear-gradient(165deg, #fff7ed 0%, #ffedd5 30%, #fed7aa 65%, #fdba74 100%);
+    linear-gradient(165deg, #fff7ed 0%, #ffedd5 30%, #fed7aa 65%, #fdba74 100%) !important;
 }
 body.season-aout {
   background:
     radial-gradient(ellipse at 85% 8%, rgba(254,240,138,0.7) 0%, rgba(253,224,71,0.15) 35%, transparent 55%),
     radial-gradient(ellipse at 15% 15%, rgba(255,255,255,0.6) 0%, transparent 30%),
     radial-gradient(ellipse at 50% 100%, rgba(186,230,253,0.5) 0%, transparent 50%),
-    linear-gradient(175deg, #e0f2fe 0%, #bae6fd 30%, #7dd3fc 70%, #38bdf8 100%);
+    linear-gradient(175deg, #e0f2fe 0%, #bae6fd 30%, #7dd3fc 70%, #38bdf8 100%) !important;
 }
 body.season-septembre {
   background:
     radial-gradient(ellipse at 25% 8%,  rgba(254,240,138,0.6)  0%, transparent 45%),
     radial-gradient(ellipse at 75% 12%, rgba(253,186,116,0.45) 0%, transparent 40%),
     radial-gradient(ellipse at 50% 90%, rgba(180,83,9,0.15)    0%, transparent 50%),
-    linear-gradient(160deg, #fffbeb 0%, #fef3c7 30%, #fde68a 60%, #fcd34d 100%);
+    linear-gradient(160deg, #fffbeb 0%, #fef3c7 30%, #fde68a 60%, #fcd34d 100%) !important;
 }
 body.season-octobre {
   background:
     radial-gradient(ellipse at 20% 5%,  rgba(251,146,60,0.5)   0%, transparent 45%),
     radial-gradient(ellipse at 75% 10%, rgba(234,88,12,0.35)   0%, transparent 40%),
     radial-gradient(ellipse at 50% 85%, rgba(120,53,15,0.3)    0%, transparent 50%),
-    linear-gradient(155deg, #fff7ed 0%, #ffedd5 25%, #fed7aa 55%, #fb923c 100%);
+    linear-gradient(155deg, #fff7ed 0%, #ffedd5 25%, #fed7aa 55%, #fb923c 100%) !important;
 }
 body.season-novembre {
   background:
     radial-gradient(ellipse at 30% 15%, rgba(209,213,219,0.7)  0%, transparent 45%),
     radial-gradient(ellipse at 70% 5%,  rgba(156,163,175,0.5)  0%, transparent 40%),
     radial-gradient(ellipse at 50% 90%, rgba(101,163,13,0.15)  0%, transparent 50%),
-    linear-gradient(160deg, #f9fafb 0%, #f3f4f6 25%, #e5e7eb 55%, #d1fae5 100%);
+    linear-gradient(160deg, #f9fafb 0%, #f3f4f6 25%, #e5e7eb 55%, #d1fae5 100%) !important;
 }
 body.season-decembre {
   background:
     radial-gradient(ellipse at 20% 20%, rgba(219,234,254,0.6) 0%, transparent 45%),
     radial-gradient(ellipse at 75% 5%,  rgba(255,255,255,0.8) 0%, transparent 35%),
     radial-gradient(ellipse at 50% 90%, rgba(186,230,253,0.4) 0%, transparent 50%),
-    linear-gradient(160deg, #f8faff 0%, #eff6ff 35%, #dbeafe 70%, #e0f2fe 100%);
+    linear-gradient(160deg, #f8faff 0%, #eff6ff 35%, #dbeafe 70%, #e0f2fe 100%) !important;
 }
 
 
@@ -116,18 +116,18 @@ body.season-decembre {
    FONDS DE PAGE — MODE SOMBRE
 ════════════════════════════════════════════════════ */
 
-html[data-theme="dark"] body.season-janvier  { background: linear-gradient(150deg,#040c1a 0%,#071828 40%,#040c1a 100%); }
-html[data-theme="dark"] body.season-fevrier  { background: linear-gradient(160deg,#1a0614 0%,#2d0a24 40%,#1a0614 100%); }
-html[data-theme="dark"] body.season-mars     { background: linear-gradient(170deg,#060e06 0%,#0a180a 40%,#060e06 100%); }
-html[data-theme="dark"] body.season-avril    { background: linear-gradient(165deg,#080e14 0%,#0f1824 40%,#080e14 100%); }
-html[data-theme="dark"] body.season-mai      { background: linear-gradient(160deg,#1a0a12 0%,#2d1020 40%,#1a0a12 100%); }
-html[data-theme="dark"] body.season-juin     { background: linear-gradient(168deg,#0a1628 0%,#0f2240 40%,#0a1628 100%); }
-html[data-theme="dark"] body.season-juillet  { background: linear-gradient(165deg,#1c0e00 0%,#2d1800 40%,#1c0e00 100%); }
-html[data-theme="dark"] body.season-aout     { background: linear-gradient(175deg,#001824 0%,#002d40 40%,#001824 100%); }
-html[data-theme="dark"] body.season-septembre{ background: linear-gradient(160deg,#1a1000 0%,#2d1e00 40%,#1a1000 100%); }
-html[data-theme="dark"] body.season-octobre  { background: linear-gradient(155deg,#1c0800 0%,#2d1200 40%,#1c0800 100%); }
-html[data-theme="dark"] body.season-novembre { background: linear-gradient(160deg,#080f08 0%,#0f1a0f 40%,#080808 100%); }
-html[data-theme="dark"] body.season-decembre { background: linear-gradient(160deg,#030814 0%,#071228 40%,#030814 100%); }
+html[data-theme="dark"] body.season-janvier  { background: linear-gradient(150deg,#040c1a 0%,#071828 40%,#040c1a 100%) !important; }
+html[data-theme="dark"] body.season-fevrier  { background: linear-gradient(160deg,#1a0614 0%,#2d0a24 40%,#1a0614 100%) !important; }
+html[data-theme="dark"] body.season-mars     { background: linear-gradient(170deg,#060e06 0%,#0a180a 40%,#060e06 100%) !important; }
+html[data-theme="dark"] body.season-avril    { background: linear-gradient(165deg,#080e14 0%,#0f1824 40%,#080e14 100%) !important; }
+html[data-theme="dark"] body.season-mai      { background: linear-gradient(160deg,#1a0a12 0%,#2d1020 40%,#1a0a12 100%) !important; }
+html[data-theme="dark"] body.season-juin     { background: linear-gradient(168deg,#0a1628 0%,#0f2240 40%,#0a1628 100%) !important; }
+html[data-theme="dark"] body.season-juillet  { background: linear-gradient(165deg,#1c0e00 0%,#2d1800 40%,#1c0e00 100%) !important; }
+html[data-theme="dark"] body.season-aout     { background: linear-gradient(175deg,#001824 0%,#002d40 40%,#001824 100%) !important; }
+html[data-theme="dark"] body.season-septembre{ background: linear-gradient(160deg,#1a1000 0%,#2d1e00 40%,#1a1000 100%) !important; }
+html[data-theme="dark"] body.season-octobre  { background: linear-gradient(155deg,#1c0800 0%,#2d1200 40%,#1c0800 100%) !important; }
+html[data-theme="dark"] body.season-novembre { background: linear-gradient(160deg,#080f08 0%,#0f1a0f 40%,#080808 100%) !important; }
+html[data-theme="dark"] body.season-decembre { background: linear-gradient(160deg,#030814 0%,#071228 40%,#030814 100%) !important; }
 
 
 /* ════════════════════════════════════════════════════
