@@ -1,41 +1,91 @@
 /* ══════════════════════════════════════════════════════════════
-   seasons.js — Effets saisonniers MathPratik v1.0
+   seasons.js — Effets saisonniers MathPratik v2.0
    
-   Autonome, sans dépendance. Se greffe via MutationObserver.
+   Approche : injection dynamique d'un <canvas> dans chaque carte
+   détectée via MutationObserver. Aucun ID fixe requis.
+   
+   Cartes ciblées : .niveau-card · .theme-check · .notion-card
    Pour désactiver : retirer <script src="js/seasons.js"> dans index.html
-   et <link href="css/seasons.css"> dans index.html.
 ══════════════════════════════════════════════════════════════ */
 
 (function () {
   'use strict';
 
-  function _$(id) { return document.getElementById(id); }
+  /* ─── Variables globales internes ─── */
+  var _af  = [];   /* requestAnimationFrame IDs */
+  var _cl  = [];   /* fonctions stop des boucles canvas */
+  var _month = new Date().getMonth();
+  var _cardCanvases = new WeakMap(); /* carte → canvas injecté */
 
-  var _animFrames  = [];
-  var _canvasLoops = [];
-  var _currentMonth = -1;
+  /* ─── Utilitaires ─── */
+  function _bgLayer() {
+    var l = document.getElementById('mp-season-bg');
+    if (!l) {
+      l = document.createElement('div');
+      l.id = 'mp-season-bg';
+      l.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;';
+      document.body.insertBefore(l, document.body.firstChild);
+    }
+    return l;
+  }
 
   function _stopAll() {
-    _animFrames.forEach(function(id){ cancelAnimationFrame(id); });
-    _animFrames = [];
-    _canvasLoops.forEach(function(fn){ fn(); });
-    _canvasLoops = [];
+    _af.forEach(function(id){ cancelAnimationFrame(id); }); _af = [];
+    _cl.forEach(function(fn){ fn(); }); _cl = [];
+    /* Vider les canvas injectés */
+    document.querySelectorAll('.mp-season-canvas').forEach(function(cv){
+      cv.getContext('2d').clearRect(0,0,cv.width,cv.height);
+      cv.remove();
+    });
+    _cardCanvases = new WeakMap();
   }
 
-  function _ensureBgLayer() {
-    var layer = document.getElementById('mp-season-bg');
-    if (!layer) {
-      layer = document.createElement('div');
-      layer.id = 'mp-season-bg';
-      layer.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;';
-      document.body.insertBefore(layer, document.body.firstChild);
-    }
-    return layer;
+  /* Créer ou récupérer le canvas d'une carte */
+  function _getCanvas(card) {
+    if (_cardCanvases.has(card)) return _cardCanvases.get(card);
+    var cv = document.createElement('canvas');
+    cv.className = 'mp-season-canvas';
+    cv.style.cssText = [
+      'position:absolute',
+      'inset:0',
+      'pointer-events:none',
+      'z-index:2',
+      'border-radius:inherit',
+      'width:100%',
+      'height:100%',
+    ].join(';');
+    /* S'assurer que la carte a position:relative */
+    var pos = getComputedStyle(card).position;
+    if (pos === 'static') card.style.position = 'relative';
+    /* overflow:hidden pour que les effets ne débordent pas */
+    card.style.overflow = 'hidden';
+    card.insertBefore(cv, card.firstChild);
+    _cardCanvases.set(card, cv);
+    return cv;
   }
 
-/* ─────────────────────────────────────────────────────
-   FONCTIONS UTILITAIRES + DESSIN (auto-générées)
-───────────────────────────────────────────────────── */
+  /* Dimensionner un canvas à la taille de sa carte */
+  function _fitCanvas(cv, card) {
+    cv.width  = card.offsetWidth  || card.getBoundingClientRect().width  || 280;
+    cv.height = card.offsetHeight || card.getBoundingClientRect().height || 88;
+  }
+
+  /* Toutes les cartes visibles dans le DOM */
+  function _getCards() {
+    return Array.from(
+      document.querySelectorAll('.niveau-card, .theme-check, .notion-card')
+    ).filter(function(c) { return c.offsetWidth > 0; });
+  }
+
+  /* [{card, canvas}] pour toutes les cartes — utilisé par chaque initXxx */
+  function _getCardCanvases() {
+    return _getCards().map(function(card) {
+      var cv = _getCanvas(card);
+      _fitCanvas(cv, card);
+      return { card: card, canvas: cv };
+    });
+  }
+
 function rand(min, max) { return min + Math.random() * (max - min); }
 
 /* Convertit un hex (#rrggbb) en rgba(r,g,b,a) — robuste tous navigateurs */
@@ -293,19 +343,8 @@ function buildMarsScene(cardW, cardH) {
 }
 
 function initMars() {
-  const cardDefs = [
-    { cvId:'cv1', cardId:'card1' },
-    { cvId:'cv2', cardId:'card2' },
-    { cvId:'cv3', cardId:'card3' },
-  ];
-
-  /* Vider les SVG overlays (non utilisés pour Mars v3) */
-  ['svg1','svg2','svg3'].forEach(id => { _$(id).innerHTML=''; _$(id).style.height='0px'; });
-
-  cardDefs.forEach(({ cvId, cardId }) => {
-    const canvas = _$(cvId);
-    const card   = _$(cardId);
-    fitCanvas(canvas, card);
+  _getCardCanvases().forEach(({ card, canvas }) => {
+    _fitCanvas(canvas, card);
 
     const W = canvas.width;
     const H = canvas.height;
@@ -315,7 +354,7 @@ function initMars() {
     const scene   = buildMarsScene(W, GRASS_H);
     let startTime = null;
     let running   = true;
-    _canvasLoops.push(() => { running = false; });
+    window._cl.push(() => { running = false; });
 
     function progress(delay, duration, elapsed) {
       return Math.max(0, Math.min(1, (elapsed - delay) / duration));
@@ -365,9 +404,9 @@ function initMars() {
         drawFlower(ctx, f.x, baseY, f.stemH, f.type, p, t);
       });
 
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -430,11 +469,8 @@ function buildWaveSVG(cardW, sunX, sunColor, waveDelay) {
 }
 
 function initAout() {
-  const configs = [
-    { svgId:'svg1', cardId:'card1', sunX:230, sunColor:'#fbbf24', delay:0 },
-    { svgId:'svg2', cardId:'card2', sunX:245, sunColor:'#fcd34d', delay:0.5 },
-    { svgId:'svg3', cardId:'card3', sunX:238, sunColor:'#fde68a', delay:1 },
-  ];
+  const _aoutColors = ['#fbbf24','#fcd34d','#fde68a'];
+  const _aoutDelays = [0, 0.5, 1];
 
   /* Keyframes vague */
   if (!document.getElementById('wave-keyframes')) {
@@ -449,11 +485,20 @@ function initAout() {
     document.head.appendChild(s);
   }
 
-  configs.forEach(({ svgId, cardId, sunX, sunColor, delay }) => {
-    const card = _$(cardId);
+  _getCardCanvases().forEach(({ card, canvas: _ignore }, ci) => {
+    const sunColor = _aoutColors[ci % 3];
+    const delay    = _aoutDelays[ci % 3];
     const w    = card.offsetWidth || 280;
-    _$(svgId).innerHTML = buildWaveSVG(w, sunX, sunColor, delay);
-    _$(svgId).style.height = '38px';
+    /* Injecter la vague SVG directement dans la carte */
+    var waveDiv = card.querySelector('.mp-wave-svg');
+    if (!waveDiv) {
+      waveDiv = document.createElement('div');
+      waveDiv.className = 'mp-wave-svg';
+      waveDiv.style.cssText = 'position:absolute;bottom:0;left:0;right:0;height:38px;pointer-events:none;z-index:3;overflow:hidden;';
+      card.appendChild(waveDiv);
+    }
+    var sunX = card.offsetWidth - 28;
+    waveDiv.innerHTML = buildWaveSVG(card.offsetWidth || 280, sunX, sunColor, delay);
   });
 }
 
@@ -523,16 +568,8 @@ function drawFractalFlake(ctx, x, y, r, depth, angle, opacity) {
 }
 
 function initDecembre() {
-  const canvases = [
-    { id:'cv1', cardId:'card1' },
-    { id:'cv2', cardId:'card2' },
-    { id:'cv3', cardId:'card3' },
-  ];
-
-  canvases.forEach(({ id, cardId }) => {
-    const canvas = _$(id);
-    const card   = _$(cardId);
-    fitCanvas(canvas, card);
+  _getCardCanvases().forEach(({ card, canvas }) => {
+    _fitCanvas(canvas, card);
 
     const ctx    = canvas.getContext('2d');
     const W      = canvas.width;
@@ -555,7 +592,7 @@ function initDecembre() {
 
     let t = 0;
     let running = true;
-    _canvasLoops.push(() => { running = false; });
+    window._cl.push(() => { running = false; });
 
     /* Accumulation neige bas */
     const pileH = Array.from({length: Math.ceil(W/3)+1}, () => rand(3, 8));
@@ -608,9 +645,9 @@ function initDecembre() {
         ctx.restore();
       }
 
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -647,12 +684,10 @@ function drawFrostBranch(ctx, x, y, length, angle, depth, t) {
 }
 
 function initJanvier() {
-  ['svg1','svg2','svg3'].forEach(id => { _$(id).innerHTML=''; _$(id).style.height='0'; });
+  ['svg1','svg2','svg3'].forEach(id => { document.getElementById(id).innerHTML=''; document.getElementById(id).style.height='0'; });
 
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId, cardId]) => {
-    const canvas = _$(cvId);
-    const card   = _$(cardId);
-    fitCanvas(canvas, card);
+  _getCardCanvases().forEach(({card, canvas})=>{
+    _fitCanvas(canvas, card);
     const W = canvas.width, H = canvas.height;
     const ctx = canvas.getContext('2d');
 
@@ -674,7 +709,7 @@ function initJanvier() {
     ];
 
     let t = 0, running = true;
-    _canvasLoops.push(() => { running = false; });
+    window._cl.push(() => { running = false; });
 
     function loop() {
       if (!running) return;
@@ -718,9 +753,9 @@ function initJanvier() {
       ctx.lineTo(W,H); ctx.closePath();
       ctx.fillStyle= isDark() ? 'rgba(147,197,253,0.35)' : 'rgba(239,246,255,0.88)'; ctx.fill();
 
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -747,7 +782,7 @@ function drawHeart(ctx, cx, cy, size, color, alpha) {
 }
 
 function initFevrier() {
-  ['svg1','svg2','svg3'].forEach(id => { _$(id).innerHTML=''; _$(id).style.height='0'; });
+  ['svg1','svg2','svg3'].forEach(id => { document.getElementById(id).innerHTML=''; document.getElementById(id).style.height='0'; });
 
   const heartPalettes = [
     ['#f43f5e','#fb7185','#fda4af','#fecdd3'],
@@ -755,10 +790,8 @@ function initFevrier() {
     ['#e11d48','#f43f5e','#fb7185','#ff8fab'],
   ];
 
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId], ci) => {
-    const canvas = _$(cvId);
-    const card   = _$(cardId);
-    fitCanvas(canvas, card);
+  _getCardCanvases().forEach(({card, canvas}, ci)=>{
+    _fitCanvas(canvas, card);
     const W = canvas.width, H = canvas.height;
     const ctx = canvas.getContext('2d');
     const palette = heartPalettes[ci];
@@ -780,7 +813,7 @@ function initFevrier() {
     }));
 
     let t = 0, running = true;
-    _canvasLoops.push(() => { running = false; });
+    window._cl.push(() => { running = false; });
 
     function loop() {
       if (!running) return;
@@ -825,9 +858,9 @@ function initFevrier() {
         drawHeart(ctx, sx, sy, sp*3, palette[i%palette.length], 0.25);
       }
 
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -836,12 +869,10 @@ function initFevrier() {
    Gouttes qui glissent, traces, impact, fusion
 ══════════════════════════════════════════════════ */
 function initAvril() {
-  ['svg1','svg2','svg3'].forEach(id => { _$(id).innerHTML=''; _$(id).style.height='0'; });
+  ['svg1','svg2','svg3'].forEach(id => { document.getElementById(id).innerHTML=''; document.getElementById(id).style.height='0'; });
 
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId]) => {
-    const canvas = _$(cvId);
-    const card   = _$(cardId);
-    fitCanvas(canvas, card);
+  _getCardCanvases().forEach(({card, canvas})=>{
+    _fitCanvas(canvas, card);
     const W = canvas.width, H = canvas.height;
     const ctx = canvas.getContext('2d');
 
@@ -865,7 +896,7 @@ function initAvril() {
     }
 
     let t = 0, running = true;
-    _canvasLoops.push(() => { running = false; });
+    window._cl.push(() => { running = false; });
 
     /* Fond légèrement teinté — effet vitre */
     function drawGlassOverlay() {
@@ -958,9 +989,9 @@ function initAvril() {
         }
       });
 
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -1310,11 +1341,10 @@ function drawMuguet(ctx, x, baseY, h, delay_s, t, elapsed) {
 
 
 function initMai() {
-  ['svg1','svg2','svg3'].forEach(id=>{_$(id).innerHTML='';_$(id).style.height='0';});
+  ['svg1','svg2','svg3'].forEach(id=>{document.getElementById(id).innerHTML='';document.getElementById(id).style.height='0';});
 
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId], ci)=>{
-    const canvas=_$(cvId), card=_$(cardId);
-    fitCanvas(canvas,card);
+  _getCardCanvases().forEach(({card, canvas}, ci)=>{
+    _fitCanvas(canvas, card);
     const W=canvas.width, H=canvas.height, ctx=canvas.getContext('2d');
 
     /* ── Papillons : 3 par carte ── */
@@ -1351,7 +1381,7 @@ function initMai() {
     }));
 
     let t=0, startTime=null, running=true;
-    _canvasLoops.push(()=>{ running=false; });
+    window._cl.push(()=>{ running=false; });
 
     function loop(ts) {
       if(!running) return;
@@ -1406,9 +1436,9 @@ function initMai() {
         ctx.restore();
       });
 
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -1416,10 +1446,9 @@ function initMai() {
    EFFET JUIN — Lucioles + reflet lumineux
 ══════════════════════════════════════════════════ */
 function initJuin() {
-  ['svg1','svg2','svg3'].forEach(id=>{_$(id).innerHTML='';_$(id).style.height='0';});
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId],ci)=>{
-    const canvas=_$(cvId),card=_$(cardId);
-    fitCanvas(canvas,card);
+  ['svg1','svg2','svg3'].forEach(id=>{document.getElementById(id).innerHTML='';document.getElementById(id).style.height='0';});
+  _getCardCanvases().forEach(({card, canvas}, ci)=>{
+    _fitCanvas(canvas, card);
     const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
     /* Lucioles sur la carte */
     const flies=Array.from({length:8},(_,i)=>({
@@ -1430,7 +1459,7 @@ function initJuin() {
     }));
     /* Reflet lumineux qui balaie */
     let shimmerX=-W*0.3, shimmerDir=1;
-    let t=0,running=true; _canvasLoops.push(()=>{running=false;});
+    let t=0,running=true; window._cl.push(()=>{running=false;});
     function loop(){
       if(!running)return; t+=0.016;
       ctx.clearRect(0,0,W,H);
@@ -1461,9 +1490,9 @@ function initJuin() {
         ctx.fillStyle=f.color; ctx.globalAlpha=Math.min(alpha*2,1); ctx.fill();
         ctx.globalAlpha=1;
       });
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -1471,14 +1500,13 @@ function initJuin() {
    EFFET JUILLET — Vagues de chaleur + soleil fort
 ══════════════════════════════════════════════════ */
 function initJuillet() {
-  ['svg1','svg2','svg3'].forEach(id=>{_$(id).innerHTML='';_$(id).style.height='0';});
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId],ci)=>{
-    const canvas=_$(cvId),card=_$(cardId);
-    fitCanvas(canvas,card);
+  ['svg1','svg2','svg3'].forEach(id=>{document.getElementById(id).innerHTML='';document.getElementById(id).style.height='0';});
+  _getCardCanvases().forEach(({card, canvas}, ci)=>{
+    _fitCanvas(canvas, card);
     const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
     /* Soleil dans coin supérieur droit */
     const sunX=W-18,sunY=14,sunR=10;
-    let t=0,running=true; _canvasLoops.push(()=>{running=false;});
+    let t=0,running=true; window._cl.push(()=>{running=false;});
     function loop(){
       if(!running)return; t+=0.016;
       ctx.clearRect(0,0,W,H);
@@ -1528,9 +1556,9 @@ function initJuillet() {
       sg.addColorStop(1,'rgba(251,146,60,0.85)');
       ctx.beginPath(); ctx.arc(sunX,sunY,sunR*pulse,0,Math.PI*2);
       ctx.fillStyle=sg; ctx.fill();
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -1666,7 +1694,7 @@ function drawStar(ctx, x, y, r, angle, alpha) {
 }
 
 function initSeptembre() {
-  ['svg1','svg2','svg3'].forEach(id=>{_$(id).innerHTML='';_$(id).style.height='0';});
+  ['svg1','svg2','svg3'].forEach(id=>{document.getElementById(id).innerHTML='';document.getElementById(id).style.height='0';});
 
   /* Palette de cahiers par carte */
   const coverColors = [
@@ -1675,9 +1703,8 @@ function initSeptembre() {
     ['#6366f1','#f97316','#10b981','#f43f5e'],
   ];
 
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId],ci)=>{
-    const canvas=_$(cvId),card=_$(cardId);
-    fitCanvas(canvas,card);
+  _getCardCanvases().forEach(({card, canvas}, ci)=>{
+    _fitCanvas(canvas, card);
     const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
     const colors=coverColors[ci];
 
@@ -1710,7 +1737,7 @@ function initSeptembre() {
        vy:rand(-0.04,0.04),vx:rand(-0.03,0.03),phase:rand(0,Math.PI*2),amp:rand(2,5),rotSpd:0.015},
     ];
 
-    let t=0,running=true; _canvasLoops.push(()=>{running=false;});
+    let t=0,running=true; window._cl.push(()=>{running=false;});
     function loop(){
       if(!running)return; t+=0.016;
       ctx.clearRect(0,0,W,H);
@@ -1728,9 +1755,9 @@ function initSeptembre() {
         }
         ctx.globalAlpha=1;
       });
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -1791,11 +1818,10 @@ function drawPumpkin(ctx,cx,cy,size){
   ctx.restore();
 }
 function initOctobre(){
-  ['svg1','svg2','svg3'].forEach(id=>{_$(id).innerHTML='';_$(id).style.height='0';});
+  ['svg1','svg2','svg3'].forEach(id=>{document.getElementById(id).innerHTML='';document.getElementById(id).style.height='0';});
   const leafCols=['#ea580c','#dc2626','#d97706','#b45309','#c2410c'];
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId],ci)=>{
-    const canvas=_$(cvId),card=_$(cardId);
-    fitCanvas(canvas,card);
+  _getCardCanvases().forEach(({card, canvas}, ci)=>{
+    _fitCanvas(canvas, card);
     const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
     /* Feuilles qui tourbillonnent */
     const leaves=Array.from({length:16},()=>({
@@ -1810,7 +1836,7 @@ function initOctobre(){
       {x: W - 28, y: H - 20, size: 18 + ci * 2},
       {x: 22,     y: H - 14, size: 11},
     ];
-    let t=0,running=true; _canvasLoops.push(()=>{running=false;});
+    let t=0,running=true; window._cl.push(()=>{running=false;});
     function loop(){
       if(!running)return; t+=0.016;
       ctx.clearRect(0,0,W,H);
@@ -1832,9 +1858,9 @@ function initOctobre(){
         drawPumpkin(ctx, p.x, p.y, p.size);
       });
       ctx.shadowBlur=0;
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
@@ -1982,10 +2008,9 @@ function drawSquirrel(ctx, x, y, size, flip) {
 }
 
 function initNovembre(){
-  ['svg1','svg2','svg3'].forEach(id=>{_$(id).innerHTML='';_$(id).style.height='0';});
-  [['cv1','card1'],['cv2','card2'],['cv3','card3']].forEach(([cvId,cardId],ci)=>{
-    const canvas=_$(cvId),card=_$(cardId);
-    fitCanvas(canvas,card);
+  ['svg1','svg2','svg3'].forEach(id=>{document.getElementById(id).innerHTML='';document.getElementById(id).style.height='0';});
+  _getCardCanvases().forEach(({card, canvas}, ci)=>{
+    _fitCanvas(canvas, card);
     const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
 
     /* Arbres en silhouette — positionnés aux bords */
@@ -2021,7 +2046,7 @@ function initNovembre(){
     }));
 
     let t=0, running=true;
-    _canvasLoops.push(()=>{ running=false; });
+    window._cl.push(()=>{ running=false; });
 
     function loop(){
       if(!running) return; t+=0.013;
@@ -2076,16 +2101,20 @@ function initNovembre(){
       const sqBob = Math.abs(Math.sin(t*4))*2.5;
       drawSquirrel(ctx, squirrel.x, squirrel.y - sqBob, squirrel.size, sqFlip);
 
-      _animFrames.push(requestAnimationFrame(loop));
+      window._af.push(requestAnimationFrame(loop));
     }
-    _animFrames.push(requestAnimationFrame(loop));
+    window._af.push(requestAnimationFrame(loop));
   });
 }
 
-/* ─────────────────────────────────────────────────────
-   FONDS DE PAGE PAR MOIS
-───────────────────────────────────────────────────── */
-  function _bgJanvier(layer) {
+  /* ─── renderBackground adapté ─── */
+  function renderBackground(season) {
+  const layer = _bgLayer();
+  layer.innerHTML = '';
+  
+
+  /* ── JANVIER : particules de glace en fond ── */
+  if (season === 'janvier') {
     const canvas = document.createElement('canvas');
     canvas.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;';
     layer.appendChild(canvas);
@@ -2100,7 +2129,7 @@ function initNovembre(){
       drift: (Math.random()-0.5)*0.006, opacity: 0.2+Math.random()*0.4,
     }));
     let bgRunning = true;
-    _canvasLoops.push(() => { bgRunning = false; });
+    window._cl.push(() => { bgRunning = false; });
     (function bgLoop() {
       if (!bgRunning) return;
       const W = canvas.width, H = canvas.height;
@@ -2113,11 +2142,12 @@ function initNovembre(){
         ctx.fillStyle = `rgba(219,234,254,${f.opacity})`;
         ctx.fill();
       });
-      _animFrames.push(requestAnimationFrame(bgLoop));
+      window._af.push(requestAnimationFrame(bgLoop));
     })();
   }
 
-  function _bgFevrier(layer) {
+  /* ── FÉVRIER : petits cœurs flottants en fond ── */
+  if (season === 'fevrier') {
     let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
     const heartColors = ['rgba(251,182,206,0.4)','rgba(249,168,212,0.35)','rgba(252,165,165,0.3)','rgba(253,164,175,0.35)'];
     for (let i = 0; i < 18; i++) {
@@ -2134,36 +2164,8 @@ function initNovembre(){
     layer.innerHTML = svg;
   }
 
-  function _bgMars(layer) {
-    /* Quelques particules de pollen qui flottent */
-    let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
-    for (let i = 0; i < 22; i++) {
-      const x = rand(5, 95), y = rand(10, 90);
-      const size = rand(3, 7);
-      const dur = rand(6, 14), delay = rand(0, 8);
-      const dx = rand(-80, 80), dy = rand(-120, -40);
-      svg += `<circle cx="${x}%" cy="${y}%" r="${size}" 
-        fill="#fde68a" opacity="0.5"
-        style="--dx:${dx}px;--dy:${dy}px;
-               animation: pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-    }
-    /* Petits pétales qui volent */
-    for (let i = 0; i < 14; i++) {
-      const x = rand(5,95), y = rand(20,80);
-      const dur = rand(8,16), delay = rand(0,10);
-      const dx = rand(60,160), dy = rand(40,120);
-      const rot = rand(0,360);
-      svg += `<ellipse cx="${x}%" cy="${y}%" rx="5" ry="3"
-        fill="#f9a8d4" opacity="0.45"
-        transform="rotate(${rot} 0 0)"
-        style="--dx:${dx}px;--dy:${dy}px;
-               animation: pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-    }
-    svg += `</svg>`;
-    layer.innerHTML = svg;
-  }
-
-  function _bgAvril(layer) {
+  /* ── AVRIL : nuages animés + légère pluie de fond ── */
+  if (season === 'avril') {
     layer.innerHTML = `
     <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -2198,7 +2200,8 @@ function initNovembre(){
     }
   }
 
-  function _bgMai(layer) {
+  /* ── MAI : pétales en fond ── */
+  if (season === 'mai') {
     /* Fond : quelques papillons légers qui dérivent en arrière-plan */
     let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
     /* Taches lumineuses douces */
@@ -2216,7 +2219,8 @@ function initNovembre(){
     layer.innerHTML=svg;
   }
 
-  function _bgJuin(layer) {
+  /* ── JUIN : lueurs dorées et lucioles fond ── */
+  if (season === 'juin') {
     const canvas=document.createElement('canvas');
     canvas.style.cssText='position:absolute;inset:0;width:100%;height:100%;';
     layer.appendChild(canvas);
@@ -2229,7 +2233,7 @@ function initNovembre(){
       phase:rand(0,Math.PI*2),freq:rand(0.8,2.2),
       size:rand(1.2,2.8),color:Math.random()<0.6?'#fde047':'#bbf7d0',
     }));
-    let bgR=true; _canvasLoops.push(()=>{bgR=false;});
+    let bgR=true; window._cl.push(()=>{bgR=false;});
     let bt=0;
     (function bl(){
       if(!bgR)return; bt+=0.016;
@@ -2251,11 +2255,12 @@ function initNovembre(){
         ctx.fillStyle=f.color; ctx.globalAlpha=alpha*1.5; ctx.fill();
         ctx.globalAlpha=1;
       });
-      _animFrames.push(requestAnimationFrame(bl));
+      window._af.push(requestAnimationFrame(bl));
     })();
   }
 
-  function _bgJuillet(layer) {
+  /* ── JUILLET : soleil fort + halo de chaleur fond ── */
+  if (season === 'juillet') {
     layer.innerHTML=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
       <circle cx="82%" cy="8%" r="110" fill="rgba(251,146,60,0.12)"/>
       <circle cx="82%" cy="8%" r="75"  fill="rgba(253,186,116,0.18)"/>
@@ -2274,7 +2279,98 @@ function initNovembre(){
     </svg>`;
   }
 
-  function _bgAout(layer) {
+  /* ── SEPTEMBRE : feuilles fond ── */
+  if (season === 'septembre') {
+    let svg=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
+    /* Petites étoiles dorées et bulles colorées — ambiance rentrée */
+    const rentrColors=['rgba(59,130,246,0.2)','rgba(239,68,68,0.18)','rgba(34,197,94,0.18)','rgba(168,85,247,0.18)','rgba(234,179,8,0.25)'];
+    for(let i=0;i<20;i++){
+      const x=rand(3,95),y=rand(5,90),r=rand(12,35);
+      const col=rentrColors[i%rentrColors.length];
+      const dur=rand(8,16),delay=rand(0,10),dx=rand(-30,30),dy=rand(-40,40);
+      svg+=`<circle cx="${x}%" cy="${y}%" r="${r}" fill="${col}"
+        style="--dx:${dx}px;--dy:${dy}px;animation:pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
+    }
+    svg+=`</svg>`; layer.innerHTML=svg;
+  }
+
+  /* ── OCTOBRE : brouillard orangé fond ── */
+  if (season === 'octobre') {
+    layer.innerHTML=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+      <defs><filter id="blur4"><feGaussianBlur stdDeviation="12"/></filter></defs>
+      <ellipse cx="15%" cy="25%" rx="180" ry="120" fill="rgba(251,146,60,0.18)" filter="url(#blur4)"/>
+      <ellipse cx="80%" cy="15%" rx="150" ry="100" fill="rgba(234,88,12,0.15)"  filter="url(#blur4)"/>
+      <ellipse cx="50%" cy="80%" rx="200" ry="80"  fill="rgba(120,53,15,0.12)"  filter="url(#blur4)"/>
+      ${Array.from({length:15},(_,i)=>{
+        const x=rand(2,95),y=rand(10,80),s=rand(10,20),rot=rand(0,360);
+        const col=['rgba(234,88,12,0.35)','rgba(251,146,60,0.4)','rgba(180,83,9,0.3)'][i%3];
+        const dur=rand(10,18),delay=rand(0,10),dx=rand(20,80),dy=rand(60,140);
+        return `<ellipse cx="${x}%" cy="${y}%" rx="${s}" ry="${s*0.6}" fill="${col}"
+          transform="rotate(${rot})" style="--dx:${dx}px;--dy:${dy}px;
+          animation:pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
+      }).join('')}
+    </svg>`;
+  }
+
+  /* ── NOVEMBRE : brume de forêt fond ── */
+  if (season === 'novembre') {
+    const canvas=document.createElement('canvas');
+    canvas.style.cssText='position:absolute;inset:0;width:100%;height:100%;';
+    layer.appendChild(canvas);
+    const fitBg=()=>{canvas.width=layer.offsetWidth;canvas.height=layer.offsetHeight;};
+    fitBg(); window.addEventListener('resize',fitBg);
+    const ctx=canvas.getContext('2d');
+    const mists=Array.from({length:6},(_,i)=>({
+      y:60+i*7, speed:0.008+i*0.003, phase:i*Math.PI/3, alpha:0.06+i*0.015,
+    }));
+    let bgR=true; window._cl.push(()=>{bgR=false;});
+    let bt=0;
+    (function bl(){
+      if(!bgR)return; bt+=0.01;
+      const W=canvas.width,H=canvas.height;
+      ctx.clearRect(0,0,W,H);
+      mists.forEach(m=>{
+        const y=(m.y/100)*H+Math.sin(bt*m.speed*10+m.phase)*8;
+        const g=ctx.createLinearGradient(0,y-30,0,y+30);
+        g.addColorStop(0,'rgba(209,213,219,0)');
+        g.addColorStop(0.5,`rgba(209,213,219,${m.alpha})`);
+        g.addColorStop(1,'rgba(209,213,219,0)');
+        ctx.fillStyle=g; ctx.fillRect(0,y-30,W,60);
+      });
+      window._af.push(requestAnimationFrame(bl));
+    })();
+  }
+
+  if (season === 'mars') {
+    /* Quelques particules de pollen qui flottent */
+    let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
+    for (let i = 0; i < 22; i++) {
+      const x = rand(5, 95), y = rand(10, 90);
+      const size = rand(3, 7);
+      const dur = rand(6, 14), delay = rand(0, 8);
+      const dx = rand(-80, 80), dy = rand(-120, -40);
+      svg += `<circle cx="${x}%" cy="${y}%" r="${size}" 
+        fill="#fde68a" opacity="0.5"
+        style="--dx:${dx}px;--dy:${dy}px;
+               animation: pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
+    }
+    /* Petits pétales qui volent */
+    for (let i = 0; i < 14; i++) {
+      const x = rand(5,95), y = rand(20,80);
+      const dur = rand(8,16), delay = rand(0,10);
+      const dx = rand(60,160), dy = rand(40,120);
+      const rot = rand(0,360);
+      svg += `<ellipse cx="${x}%" cy="${y}%" rx="5" ry="3"
+        fill="#f9a8d4" opacity="0.45"
+        transform="rotate(${rot} 0 0)"
+        style="--dx:${dx}px;--dy:${dy}px;
+               animation: pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
+    }
+    svg += `</svg>`;
+    layer.innerHTML = svg;
+  }
+
+  if (season === 'aout') {
     /* Grand soleil + nuages + reflets */
     layer.innerHTML = `
     <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -2315,66 +2411,7 @@ function initNovembre(){
     </svg>`;
   }
 
-  function _bgSeptembre(layer) {
-    let svg=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
-    /* Petites étoiles dorées et bulles colorées — ambiance rentrée */
-    const rentrColors=['rgba(59,130,246,0.2)','rgba(239,68,68,0.18)','rgba(34,197,94,0.18)','rgba(168,85,247,0.18)','rgba(234,179,8,0.25)'];
-    for(let i=0;i<20;i++){
-      const x=rand(3,95),y=rand(5,90),r=rand(12,35);
-      const col=rentrColors[i%rentrColors.length];
-      const dur=rand(8,16),delay=rand(0,10),dx=rand(-30,30),dy=rand(-40,40);
-      svg+=`<circle cx="${x}%" cy="${y}%" r="${r}" fill="${col}"
-        style="--dx:${dx}px;--dy:${dy}px;animation:pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-    }
-    svg+=`</svg>`; layer.innerHTML=svg;
-  }
-
-  function _bgOctobre(layer) {
-    layer.innerHTML=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <defs><filter id="blur4"><feGaussianBlur stdDeviation="12"/></filter></defs>
-      <ellipse cx="15%" cy="25%" rx="180" ry="120" fill="rgba(251,146,60,0.18)" filter="url(#blur4)"/>
-      <ellipse cx="80%" cy="15%" rx="150" ry="100" fill="rgba(234,88,12,0.15)"  filter="url(#blur4)"/>
-      <ellipse cx="50%" cy="80%" rx="200" ry="80"  fill="rgba(120,53,15,0.12)"  filter="url(#blur4)"/>
-      ${Array.from({length:15},(_,i)=>{
-        const x=rand(2,95),y=rand(10,80),s=rand(10,20),rot=rand(0,360);
-        const col=['rgba(234,88,12,0.35)','rgba(251,146,60,0.4)','rgba(180,83,9,0.3)'][i%3];
-        const dur=rand(10,18),delay=rand(0,10),dx=rand(20,80),dy=rand(60,140);
-        return `<ellipse cx="${x}%" cy="${y}%" rx="${s}" ry="${s*0.6}" fill="${col}"
-          transform="rotate(${rot})" style="--dx:${dx}px;--dy:${dy}px;
-          animation:pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-      }).join('')}
-    </svg>`;
-  }
-
-  function _bgNovembre(layer) {
-    const canvas=document.createElement('canvas');
-    canvas.style.cssText='position:absolute;inset:0;width:100%;height:100%;';
-    layer.appendChild(canvas);
-    const fitBg=()=>{canvas.width=layer.offsetWidth;canvas.height=layer.offsetHeight;};
-    fitBg(); window.addEventListener('resize',fitBg);
-    const ctx=canvas.getContext('2d');
-    const mists=Array.from({length:6},(_,i)=>({
-      y:60+i*7, speed:0.008+i*0.003, phase:i*Math.PI/3, alpha:0.06+i*0.015,
-    }));
-    let bgR=true; _canvasLoops.push(()=>{bgR=false;});
-    let bt=0;
-    (function bl(){
-      if(!bgR)return; bt+=0.01;
-      const W=canvas.width,H=canvas.height;
-      ctx.clearRect(0,0,W,H);
-      mists.forEach(m=>{
-        const y=(m.y/100)*H+Math.sin(bt*m.speed*10+m.phase)*8;
-        const g=ctx.createLinearGradient(0,y-30,0,y+30);
-        g.addColorStop(0,'rgba(209,213,219,0)');
-        g.addColorStop(0.5,`rgba(209,213,219,${m.alpha})`);
-        g.addColorStop(1,'rgba(209,213,219,0)');
-        ctx.fillStyle=g; ctx.fillRect(0,y-30,W,60);
-      });
-      _animFrames.push(requestAnimationFrame(bl));
-    })();
-  }
-
-  function _bgDecembre(layer) {
+  if (season === 'decembre') {
     /* Flocons de fond qui tombent lentement */
     let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
     for (let i = 0; i < 30; i++) {
@@ -2393,21 +2430,16 @@ function initNovembre(){
     svg += `</svg>`;
     layer.innerHTML = svg;
   }
+}
 
+  /* ─── Fonction d'effet par mois ─── */
+  /* Chaque initXxx() est maintenant appelé avec une liste de cartes réelles */
+  /* On adapte via _runEffect qui injecte les canvas et appelle l'init */
 
-
-/* ─────────────────────────────────────────────────────
-   ORCHESTRATION
-───────────────────────────────────────────────────── */
-  var _INITS = [
-    initJanvier, initFevrier, initMars, initAvril,
-    initMai, initJuin, initJuillet, initAout,
+  var _INIT_FNS = [
+    initJanvier, initFevrier, initMars,    initAvril,
+    initMai,     initJuin,    initJuillet, initAout,
     initSeptembre, initOctobre, initNovembre, initDecembre
-  ];
-  var _BG_FNS = [
-    _bgJanvier, _bgFevrier, _bgMars, _bgAvril,
-    _bgMai, _bgJuin, _bgJuillet, _bgAout,
-    _bgSeptembre, _bgOctobre, _bgNovembre, _bgDecembre
   ];
   var _BG_CLASSES = [
     'season-janvier','season-fevrier','season-mars','season-avril',
@@ -2415,31 +2447,105 @@ function initNovembre(){
     'season-septembre','season-octobre','season-novembre','season-decembre'
   ];
 
-  function _applyMonth() {
-    var month = new Date().getMonth();
-    if (month === _currentMonth) return;
-    _currentMonth = month;
+  /* ─── Appliquer l'effet du mois ─── */
+  function _apply() {
     _stopAll();
+
     /* Fond de page */
     var body = document.body;
-    _BG_CLASSES.forEach(function(cl){ body.classList.remove(cl); });
-    body.classList.add(_BG_CLASSES[month]);
-    var layer = _ensureBgLayer();
+    _BG_CLASSES.forEach(function(c){ body.classList.remove(c); });
+    body.classList.add(_BG_CLASSES[_month]);
+    var layer = _bgLayer();
     layer.innerHTML = '';
-    _BG_FNS[month](layer);
-    /* Effets cartes */
-    setTimeout(function() { _INITS[month](); }, 100);
+    renderBackground(_BG_CLASSES[_month].replace('season-',''));
+
+    /* Effets sur cartes */
+    setTimeout(_runOnCards, 120);
   }
 
-  /* Re-décorer si le thème change */
-  var _themeObs = new MutationObserver(function() {
-    _stopAll();
-    var month = new Date().getMonth();
-    _BG_FNS[month](_ensureBgLayer());
-    setTimeout(function() { _INITS[month](); }, 100);
-  });
+  function _runOnCards() {
+    var cards = document.querySelectorAll('.niveau-card,.theme-check,.notion-card');
+    if (cards.length === 0) return;
+    _INIT_FNS[_month]();
+  }
 
-  /* Détecter nouvelles cartes */
+  /* ─── Patch des fonctions initXxx pour travailler sur les vraies cartes ───
+     Les initXxx() de la démo utilisaient des IDs fixes cv1/cv2/cv3.
+     Ici on les remplace par une version qui itère sur toutes les cartes DOM. */
+
+  /* Wrapper générique : prend la fonction canvas d'origine et l'applique
+     à chaque carte trouvée dans le DOM */
+  function _wrapInit(origInit) {
+    return function() {
+      var cards = Array.from(
+        document.querySelectorAll('.niveau-card,.theme-check,.notion-card')
+      ).slice(0, 6); /* max 6 pour les performances */
+
+      if (cards.length === 0) return;
+
+      /* Ré-exposer temporairement cv1/cv2/cv3 et card1/card2/card3
+         comme des proxies vers les vraies cartes */
+      var savedIds = {};
+      cards.forEach(function(card, i) {
+        var cvId   = 'cv'   + (i+1);
+        var cardId = 'card' + (i+1);
+        var svgId  = 'svg'  + (i+1);
+
+        /* Créer le canvas */
+        var cv = _getCanvas(card);
+        _fitCanvas(cv, card);
+        cv.id = cvId;
+
+        /* Masquer le svg overlay s'il existait */
+        var svgEl = document.getElementById(svgId);
+        if (!svgEl) {
+          svgEl = document.createElement('div');
+          svgEl.id = svgId;
+          svgEl.style.display = 'none';
+          card.appendChild(svgEl);
+        }
+        svgEl.innerHTML = '';
+        svgEl.style.height = '0';
+
+        card.id = cardId;
+        savedIds[cvId]   = cvId;
+        savedIds[cardId] = cardId;
+      });
+
+      /* Appeler l'init originale */
+      origInit();
+
+      /* Nettoyer les IDs temporaires */
+      cards.forEach(function(card, i) {
+        var cv = _cardCanvases.get(card);
+        if (cv) cv.removeAttribute('id');
+        card.removeAttribute('id');
+      });
+    };
+  }
+
+  /* Surcharger les initXxx avec les wrappers */
+  initJanvier   = _wrapInit(initJanvier);
+  initFevrier   = _wrapInit(initFevrier);
+  initMars      = _wrapInit(initMars);
+  initAvril     = _wrapInit(initAvril);
+  initMai       = _wrapInit(initMai);
+  initJuin      = _wrapInit(initJuin);
+  initJuillet   = _wrapInit(initJuillet);
+  initAout      = _wrapInit(initAout);
+  initSeptembre = _wrapInit(initSeptembre);
+  initOctobre   = _wrapInit(initOctobre);
+  initNovembre  = _wrapInit(initNovembre);
+  initDecembre  = _wrapInit(initDecembre);
+
+  /* Mettre à jour _INIT_FNS après surcharge */
+  _INIT_FNS = [
+    initJanvier, initFevrier, initMars,    initAvril,
+    initMai,     initJuin,    initJuillet, initAout,
+    initSeptembre, initOctobre, initNovembre, initDecembre
+  ];
+
+  /* ─── MutationObserver : nouvelles cartes ─── */
   var _cardObs = new MutationObserver(function(mutations) {
     var hasNew = false;
     mutations.forEach(function(m) {
@@ -2450,14 +2556,38 @@ function initNovembre(){
             (node.querySelector && node.querySelector(sel))) hasNew = true;
       });
     });
-    if (hasNew) setTimeout(function(){ _INITS[new Date().getMonth()](); }, 80);
+    if (hasNew) setTimeout(_runOnCards, 80);
   });
 
+  /* ─── Observer le thème dark/light ─── */
+  var _themeObs = new MutationObserver(function() {
+    _apply();
+  });
+
+  /* ─── Init ─── */
   function _init() {
-    _themeObs.observe(document.documentElement, {attributes:true, attributeFilter:['data-theme']});
     _cardObs.observe(document.body, {childList:true, subtree:true});
-    _applyMonth();
+    _themeObs.observe(document.documentElement, {
+      attributes:true, attributeFilter:['data-theme']
+    });
+    _apply();
   }
+
+  /* Exposer les helpers nécessaires aux initXxx (définies hors IIFE) */
+  window._mp = {
+    af:              _af,
+    cl:              _cl,
+    getCardCanvases: _getCardCanvases,
+    fitCanvas:       _fitCanvas,
+    stopAll:         _stopAll,
+    isDark:          isDark,
+    ensureBgLayer:   _ensureBgLayer,
+  };
+  /* Alias globaux pour que les initXxx puissent les appeler directement */
+  window._getCardCanvases = _getCardCanvases;
+  window._fitCanvas       = _fitCanvas;
+  window._af              = _af;
+  window._cl              = _cl;
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', _init);
