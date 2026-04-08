@@ -4,7 +4,7 @@
     "id": "aut_32",
     "label": "Convertir des durées",
     "icon": "⏱️",
-    "color": "#7c2d12"
+    "color": "#b45309"
   },
   "questions": [
     {
@@ -12,16 +12,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "367 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $2\\,\\mathrm{h} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "5h 57min",
-        "6h 7min",
-        "6h 17min",
-        "5h 47min"
+        "$120\\,\\mathrm{min}$",
+        "$12\\,\\mathrm{min}$",
+        "$200\\,\\mathrm{min}$",
+        "$20\\,\\mathrm{min}$"
       ],
-      "reponse": "6h 7min",
-      "explication": "367$\\div$60=6 reste 7",
+      "reponse": "$120\\,\\mathrm{min}$",
+      "explication": "$1\\,\\mathrm{h} = 60\\,\\mathrm{min}$. $2 \\times 60 = 120\\,\\mathrm{min}$.",
       "image": null
     },
     {
@@ -29,16 +29,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "4h 25min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $180\\,\\mathrm{min} = \\ldots\\,\\mathrm{h}$",
       "choix": [
-        "245",
-        "255",
-        "265",
-        "275"
+        "$3\\,\\mathrm{h}$",
+        "$1{,}8\\,\\mathrm{h}$",
+        "$18\\,\\mathrm{h}$",
+        "$30\\,\\mathrm{h}$"
       ],
-      "reponse": "265",
-      "explication": "4$\\times$60+25=265",
+      "reponse": "$3\\,\\mathrm{h}$",
+      "explication": "$180 \\div 60 = 3\\,\\mathrm{h}$.",
       "image": null
     },
     {
@@ -46,16 +46,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "145 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $1\\,\\mathrm{h}\\,30\\,\\mathrm{min} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "2h 15min",
-        "2h 25min",
-        "2h 35min",
-        "2h 45min"
+        "$90\\,\\mathrm{min}$",
+        "$130\\,\\mathrm{min}$",
+        "$60\\,\\mathrm{min}$",
+        "$45\\,\\mathrm{min}$"
       ],
-      "reponse": "2h 25min",
-      "explication": "145$\\div$60=2 reste 25",
+      "reponse": "$90\\,\\mathrm{min}$",
+      "explication": "$60 + 30 = 90\\,\\mathrm{min}$.",
       "image": null
     },
     {
@@ -63,16 +63,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "2h 38min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $150\\,\\mathrm{s} = \\ldots\\,\\mathrm{min}\\,\\ldots\\,\\mathrm{s}$",
       "choix": [
-        "148",
-        "158",
-        "168",
-        "178"
+        "$2\\,\\mathrm{min}\\,30\\,\\mathrm{s}$",
+        "$1\\,\\mathrm{min}\\,50\\,\\mathrm{s}$",
+        "$3\\,\\mathrm{min}\\,30\\,\\mathrm{s}$",
+        "$2\\,\\mathrm{min}\\,50\\,\\mathrm{s}$"
       ],
-      "reponse": "158",
-      "explication": "2$\\times$60+38=158",
+      "reponse": "$2\\,\\mathrm{min}\\,30\\,\\mathrm{s}$",
+      "explication": "$150 \\div 60 = 2$ reste $30$. Donc $2\\,\\mathrm{min}\\,30\\,\\mathrm{s}$.",
       "image": null
     },
     {
@@ -80,16 +80,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "90 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $3\\,\\mathrm{h}\\,15\\,\\mathrm{min} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "1h 20min",
-        "1h 30min",
-        "1h 40min",
-        "1h 50min"
+        "$195\\,\\mathrm{min}$",
+        "$315\\,\\mathrm{min}$",
+        "$180\\,\\mathrm{min}$",
+        "$215\\,\\mathrm{min}$"
       ],
-      "reponse": "1h 30min",
-      "explication": "90$\\div$60=1 reste 30",
+      "reponse": "$195\\,\\mathrm{min}$",
+      "explication": "$3 \\times 60 + 15 = 180 + 15 = 195\\,\\mathrm{min}$.",
       "image": null
     },
     {
@@ -97,16 +97,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "5h 10min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $240\\,\\mathrm{min} = \\ldots\\,\\mathrm{h}$",
       "choix": [
-        "290",
-        "300",
-        "310",
-        "320"
+        "$4\\,\\mathrm{h}$",
+        "$2{,}4\\,\\mathrm{h}$",
+        "$24\\,\\mathrm{h}$",
+        "$40\\,\\mathrm{h}$"
       ],
-      "reponse": "310",
-      "explication": "5$\\times$60+10=310",
+      "reponse": "$4\\,\\mathrm{h}$",
+      "explication": "$240 \\div 60 = 4\\,\\mathrm{h}$.",
       "image": null
     },
     {
@@ -114,16 +114,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "250 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $5\\,\\mathrm{min} = \\ldots\\,\\mathrm{s}$",
       "choix": [
-        "4h 0min",
-        "4h 10min",
-        "4h 20min",
-        "4h 30min"
+        "$300\\,\\mathrm{s}$",
+        "$50\\,\\mathrm{s}$",
+        "$500\\,\\mathrm{s}$",
+        "$60\\,\\mathrm{s}$"
       ],
-      "reponse": "4h 10min",
-      "explication": "250$\\div$60=4 reste 10",
+      "reponse": "$300\\,\\mathrm{s}$",
+      "explication": "$5 \\times 60 = 300\\,\\mathrm{s}$.",
       "image": null
     },
     {
@@ -131,16 +131,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "3h 45min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $2\\,\\mathrm{j} = \\ldots\\,\\mathrm{h}$",
       "choix": [
-        "205",
-        "215",
-        "225",
-        "235"
+        "$48\\,\\mathrm{h}$",
+        "$24\\,\\mathrm{h}$",
+        "$96\\,\\mathrm{h}$",
+        "$72\\,\\mathrm{h}$"
       ],
-      "reponse": "225",
-      "explication": "3$\\times$60+45=225",
+      "reponse": "$48\\,\\mathrm{h}$",
+      "explication": "$2 \\times 24 = 48\\,\\mathrm{h}$.",
       "image": null
     },
     {
@@ -148,16 +148,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "480 min = ? h",
+      "chrono": 25,
+      "enonce": "Convertis : $1\\,\\mathrm{h}\\,45\\,\\mathrm{min} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "6 h",
-        "7 h",
-        "8 h",
-        "9 h"
+        "$105\\,\\mathrm{min}$",
+        "$145\\,\\mathrm{min}$",
+        "$75\\,\\mathrm{min}$",
+        "$90\\,\\mathrm{min}$"
       ],
-      "reponse": "8 h",
-      "explication": "480$\\div$60=8",
+      "reponse": "$105\\,\\mathrm{min}$",
+      "explication": "$60 + 45 = 105\\,\\mathrm{min}$.",
       "image": null
     },
     {
@@ -165,101 +165,101 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "6h 5min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $120\\,\\mathrm{s} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "355",
-        "360",
-        "365",
-        "370"
+        "$2\\,\\mathrm{min}$",
+        "$20\\,\\mathrm{min}$",
+        "$12\\,\\mathrm{min}$",
+        "$1{,}2\\,\\mathrm{min}$"
       ],
-      "reponse": "365",
-      "explication": "6$\\times$60+5=365",
+      "reponse": "$2\\,\\mathrm{min}$",
+      "explication": "$120 \\div 60 = 2\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "75 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $2\\,\\mathrm{h}\\,20\\,\\mathrm{min} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "1h 5min",
-        "1h 10min",
-        "1h 15min",
-        "1h 20min"
+        "$140\\,\\mathrm{min}$",
+        "$220\\,\\mathrm{min}$",
+        "$120\\,\\mathrm{min}$",
+        "$200\\,\\mathrm{min}$"
       ],
-      "reponse": "1h 15min",
-      "explication": "75$\\div$60=1 reste 15",
+      "reponse": "$140\\,\\mathrm{min}$",
+      "explication": "$2 \\times 60 + 20 = 140\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "1h 30min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $250\\,\\mathrm{min} = \\ldots\\,\\mathrm{h}\\,\\ldots\\,\\mathrm{min}$",
       "choix": [
-        "80",
-        "90",
-        "100",
-        "110"
+        "$4\\,\\mathrm{h}\\,10\\,\\mathrm{min}$",
+        "$4\\,\\mathrm{h}\\,25\\,\\mathrm{min}$",
+        "$3\\,\\mathrm{h}\\,50\\,\\mathrm{min}$",
+        "$2\\,\\mathrm{h}\\,50\\,\\mathrm{min}$"
       ],
-      "reponse": "90",
-      "explication": "60+30=90",
+      "reponse": "$4\\,\\mathrm{h}\\,10\\,\\mathrm{min}$",
+      "explication": "$250 \\div 60 = 4$ reste $10$. Donc $4\\,\\mathrm{h}\\,10\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "195 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : Un film commence à $14\\,\\mathrm{h}\\,25$ et dure $1\\,\\mathrm{h}\\,50\\,\\mathrm{min}$. Heure de fin :",
       "choix": [
-        "3h 5min",
-        "3h 15min",
-        "3h 25min",
-        "3h 35min"
+        "$16\\,\\mathrm{h}\\,15$",
+        "$16\\,\\mathrm{h}\\,00$",
+        "$16\\,\\mathrm{h}\\,30$",
+        "$15\\,\\mathrm{h}\\,75$"
       ],
-      "reponse": "3h 15min",
-      "explication": "195$\\div$60=3 reste 15",
+      "reponse": "$16\\,\\mathrm{h}\\,15$",
+      "explication": "$14\\,\\mathrm{h}\\,25 + 1\\,\\mathrm{h}\\,50\\,\\mathrm{min} = 16\\,\\mathrm{h}\\,15$.",
       "image": null
     },
     {
       "id": "aut_32_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "7h 20min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $1\\,\\mathrm{semaine} = \\ldots\\,\\mathrm{h}$",
       "choix": [
-        "420",
-        "430",
-        "440",
-        "450"
+        "$168\\,\\mathrm{h}$",
+        "$24\\,\\mathrm{h}$",
+        "$72\\,\\mathrm{h}$",
+        "$120\\,\\mathrm{h}$"
       ],
-      "reponse": "440",
-      "explication": "7$\\times$60+20=440",
+      "reponse": "$168\\,\\mathrm{h}$",
+      "explication": "$7 \\times 24 = 168\\,\\mathrm{h}$.",
       "image": null
     },
     {
       "id": "aut_32_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "330 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $0{,}5\\,\\mathrm{h} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "5h 20min",
-        "5h 30min",
-        "5h 40min",
-        "5h 50min"
+        "$30\\,\\mathrm{min}$",
+        "$5\\,\\mathrm{min}$",
+        "$50\\,\\mathrm{min}$",
+        "$45\\,\\mathrm{min}$"
       ],
-      "reponse": "5h 30min",
-      "explication": "330$\\div$60=5 reste 30",
+      "reponse": "$30\\,\\mathrm{min}$",
+      "explication": "$0{,}5 \\times 60 = 30\\,\\mathrm{min}$.",
       "image": null
     },
     {
@@ -267,16 +267,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "8h 55min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $3\\,\\mathrm{h}\\,30\\,\\mathrm{min} + 1\\,\\mathrm{h}\\,45\\,\\mathrm{min} = $",
       "choix": [
-        "525",
-        "535",
-        "545",
-        "555"
+        "$5\\,\\mathrm{h}\\,15\\,\\mathrm{min}$",
+        "$4\\,\\mathrm{h}\\,75\\,\\mathrm{min}$",
+        "$4\\,\\mathrm{h}\\,15\\,\\mathrm{min}$",
+        "$5\\,\\mathrm{h}\\,00$"
       ],
-      "reponse": "535",
-      "explication": "8$\\times$60+55=535",
+      "reponse": "$5\\,\\mathrm{h}\\,15\\,\\mathrm{min}$",
+      "explication": "$3\\,\\mathrm{h}\\,30 + 1\\,\\mathrm{h}\\,45 = 4\\,\\mathrm{h}\\,75 = 5\\,\\mathrm{h}\\,15$ (convertir $75\\,\\mathrm{min} = 1\\,\\mathrm{h}\\,15\\,\\mathrm{min}$).",
       "image": null
     },
     {
@@ -284,16 +284,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "125 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $90\\,\\mathrm{min} = \\ldots\\,\\mathrm{h}$ (écriture décimale)",
       "choix": [
-        "2h 0min",
-        "2h 5min",
-        "2h 10min",
-        "2h 15min"
+        "$1{,}5\\,\\mathrm{h}$",
+        "$9\\,\\mathrm{h}$",
+        "$0{,}9\\,\\mathrm{h}$",
+        "$1{,}9\\,\\mathrm{h}$"
       ],
-      "reponse": "2h 5min",
-      "explication": "125$\\div$60=2 reste 5",
+      "reponse": "$1{,}5\\,\\mathrm{h}$",
+      "explication": "$90 \\div 60 = 1{,}5\\,\\mathrm{h}$.",
       "image": null
     },
     {
@@ -301,16 +301,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "2h 15min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : Durée entre $8\\,\\mathrm{h}\\,45$ et $11\\,\\mathrm{h}\\,20$ :",
       "choix": [
-        "125",
-        "135",
-        "145",
-        "155"
+        "$2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$",
+        "$2\\,\\mathrm{h}\\,25\\,\\mathrm{min}$",
+        "$3\\,\\mathrm{h}\\,35\\,\\mathrm{min}$",
+        "$3\\,\\mathrm{h}\\,25\\,\\mathrm{min}$"
       ],
-      "reponse": "135",
-      "explication": "2$\\times$60+15=135",
+      "reponse": "$2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$",
+      "explication": "$11\\,\\mathrm{h}\\,20 - 8\\,\\mathrm{h}\\,45 = 2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$ (passer par $9\\,\\mathrm{h}\\,00$ : $15\\,\\mathrm{min} + 2\\,\\mathrm{h}\\,20\\,\\mathrm{min} = 2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$).",
       "image": null
     },
     {
@@ -318,16 +318,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "400 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $1\\,\\mathrm{h}\\,1/3 = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "6h 30min",
-        "6h 40min",
-        "6h 50min",
-        "7h 0min"
+        "$80\\,\\mathrm{min}$",
+        "$20\\,\\mathrm{min}$",
+        "$40\\,\\mathrm{min}$",
+        "$60\\,\\mathrm{min}$"
       ],
-      "reponse": "6h 40min",
-      "explication": "400$\\div$60=6 reste 40",
+      "reponse": "$80\\,\\mathrm{min}$",
+      "explication": "$1\\,\\mathrm{h} = 60\\,\\mathrm{min}$. $1/3$ de heure $= 20\\,\\mathrm{min}$. Total $= 80\\,\\mathrm{min}$.",
       "image": null
     },
     {
@@ -335,186 +335,186 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "10 h = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $10800\\,\\mathrm{s} = \\ldots\\,\\mathrm{h}$",
       "choix": [
-        "550",
-        "580",
-        "600",
-        "620"
+        "$3\\,\\mathrm{h}$",
+        "$30\\,\\mathrm{h}$",
+        "$1{,}8\\,\\mathrm{h}$",
+        "$180\\,\\mathrm{h}$"
       ],
-      "reponse": "600",
-      "explication": "10$\\times$60=600",
+      "reponse": "$3\\,\\mathrm{h}$",
+      "explication": "$10800 \\div 60 = 180\\,\\mathrm{min}$. $180 \\div 60 = 3\\,\\mathrm{h}$.",
       "image": null
     },
     {
       "id": "aut_32_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "3 600 s = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : Un train part à $7\\,\\mathrm{h}\\,52$ et arrive à $10\\,\\mathrm{h}\\,38$. Durée du trajet :",
       "choix": [
-        "50",
-        "60",
-        "70",
-        "80"
+        "$2\\,\\mathrm{h}\\,46\\,\\mathrm{min}$",
+        "$2\\,\\mathrm{h}\\,56\\,\\mathrm{min}$",
+        "$3\\,\\mathrm{h}\\,46\\,\\mathrm{min}$",
+        "$2\\,\\mathrm{h}\\,26\\,\\mathrm{min}$"
       ],
-      "reponse": "60",
-      "explication": "3600$\\div$60=60",
+      "reponse": "$2\\,\\mathrm{h}\\,46\\,\\mathrm{min}$",
+      "explication": "$10\\,\\mathrm{h}\\,38 - 7\\,\\mathrm{h}\\,52 = 2\\,\\mathrm{h}\\,46\\,\\mathrm{min}$ (passer par $8\\,\\mathrm{h}\\,00$ : $8\\,\\mathrm{min} + 2\\,\\mathrm{h}\\,38\\,\\mathrm{min}$).",
       "image": null
     },
     {
       "id": "aut_32_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "90 s = ?",
+      "chrono": 25,
+      "enonce": "Convertis : $4\\,\\mathrm{h}\\,25\\,\\mathrm{min} - 1\\,\\mathrm{h}\\,50\\,\\mathrm{min} = $",
       "choix": [
-        "0min 50s",
-        "1min 20s",
-        "1min 30s",
-        "1min 40s"
+        "$2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$",
+        "$2\\,\\mathrm{h}\\,25\\,\\mathrm{min}$",
+        "$3\\,\\mathrm{h}\\,25\\,\\mathrm{min}$",
+        "$3\\,\\mathrm{h}\\,35\\,\\mathrm{min}$"
       ],
-      "reponse": "1min 30s",
-      "explication": "90$\\div$60=1 reste 30",
+      "reponse": "$2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$",
+      "explication": "$4\\,\\mathrm{h}\\,25 - 1\\,\\mathrm{h}\\,50 = 3\\,\\mathrm{h}\\,85 - 1\\,\\mathrm{h}\\,50 = 2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "2min 45s = ? s",
+      "chrono": 25,
+      "enonce": "Convertis : $1\\,\\mathrm{j}\\,5\\,\\mathrm{h}\\,30\\,\\mathrm{min} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "145",
-        "155",
-        "165",
-        "175"
+        "$1\\,770\\,\\mathrm{min}$",
+        "$1\\,530\\,\\mathrm{min}$",
+        "$2\\,010\\,\\mathrm{min}$",
+        "$3\\,930\\,\\mathrm{min}$"
       ],
-      "reponse": "165",
-      "explication": "2$\\times$60+45=165",
+      "reponse": "$1\\,770\\,\\mathrm{min}$",
+      "explication": "$24\\,\\mathrm{h} + 5\\,\\mathrm{h}\\,30\\,\\mathrm{min} = 29\\,\\mathrm{h}\\,30\\,\\mathrm{min}$. $29 \\times 60 + 30 = 1770\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "150 s = ?",
+      "chrono": 25,
+      "enonce": "Convertis : $0{,}75\\,\\mathrm{h} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "2min 20s",
-        "2min 30s",
-        "2min 40s",
-        "2min 50s"
+        "$45\\,\\mathrm{min}$",
+        "$75\\,\\mathrm{min}$",
+        "$15\\,\\mathrm{min}$",
+        "$30\\,\\mathrm{min}$"
       ],
-      "reponse": "2min 30s",
-      "explication": "150$\\div$60=2 reste 30",
+      "reponse": "$45\\,\\mathrm{min}$",
+      "explication": "$0{,}75 \\times 60 = 45\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "4min 10s = ? s",
+      "chrono": 25,
+      "enonce": "Convertis : $3\\,\\mathrm{h}\\,40\\,\\mathrm{min} \\times 3 = $",
       "choix": [
-        "240",
-        "250",
-        "260",
-        "270"
+        "$11\\,\\mathrm{h}$",
+        "$9\\,\\mathrm{h}\\,20\\,\\mathrm{min}$",
+        "$9\\,\\mathrm{h}\\,12\\,\\mathrm{min}$",
+        "$12\\,\\mathrm{h}\\,40\\,\\mathrm{min}$"
       ],
-      "reponse": "250",
-      "explication": "4$\\times$60+10=250",
+      "reponse": "$11\\,\\mathrm{h}$",
+      "explication": "$3 \\times 3\\,\\mathrm{h}\\,40\\,\\mathrm{min} = 9\\,\\mathrm{h}\\,120\\,\\mathrm{min} = 9\\,\\mathrm{h} + 2\\,\\mathrm{h} = 11\\,\\mathrm{h}$.",
       "image": null
     },
     {
       "id": "aut_32_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "1h 12min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $\\dfrac{1}{4}\\,\\mathrm{h} = \\ldots\\,\\mathrm{min}$",
       "choix": [
-        "60",
-        "66",
-        "72",
-        "80"
+        "$15\\,\\mathrm{min}$",
+        "$25\\,\\mathrm{min}$",
+        "$4\\,\\mathrm{min}$",
+        "$30\\,\\mathrm{min}$"
       ],
-      "reponse": "72",
-      "explication": "60+12=72",
+      "reponse": "$15\\,\\mathrm{min}$",
+      "explication": "$\\dfrac{1}{4} \\times 60 = 15\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "1h 47min = ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $2\\,520\\,\\mathrm{s} = \\ldots\\,\\mathrm{h}\\,\\ldots\\,\\mathrm{min}$",
       "choix": [
-        "97",
-        "100",
-        "107",
-        "115"
+        "$0\\,\\mathrm{h}\\,42\\,\\mathrm{min}$",
+        "$42\\,\\mathrm{h}\\,0\\,\\mathrm{min}$",
+        "$1\\,\\mathrm{h}\\,12\\,\\mathrm{min}$",
+        "$2\\,\\mathrm{h}\\,52\\,\\mathrm{min}$"
       ],
-      "reponse": "107",
-      "explication": "60+47=107",
+      "reponse": "$0\\,\\mathrm{h}\\,42\\,\\mathrm{min}$",
+      "explication": "$2520 \\div 60 = 42\\,\\mathrm{min}$. C'est moins d'une heure : $0\\,\\mathrm{h}\\,42\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "245 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : Durée entre $23\\,\\mathrm{h}\\,15$ et $2\\,\\mathrm{h}\\,45$ (le lendemain) :",
       "choix": [
-        "3h 55min",
-        "4h 5min",
-        "4h 15min",
-        "4h 25min"
+        "$3\\,\\mathrm{h}\\,30\\,\\mathrm{min}$",
+        "$2\\,\\mathrm{h}\\,30\\,\\mathrm{min}$",
+        "$3\\,\\mathrm{h}\\,00$",
+        "$21\\,\\mathrm{h}\\,30\\,\\mathrm{min}$"
       ],
-      "reponse": "4h 5min",
-      "explication": "245$\\div$60=4 reste 5",
+      "reponse": "$3\\,\\mathrm{h}\\,30\\,\\mathrm{min}$",
+      "explication": "$23\\,\\mathrm{h}\\,15$ à $24\\,\\mathrm{h}\\,00$ : $45\\,\\mathrm{min}$. Puis $0\\,\\mathrm{h}\\,00$ à $2\\,\\mathrm{h}\\,45$ : $2\\,\\mathrm{h}\\,45\\,\\mathrm{min}$. Total : $3\\,\\mathrm{h}\\,30\\,\\mathrm{min}$.",
       "image": null
     },
     {
       "id": "aut_32_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "95 min = ? h ? min",
+      "chrono": 25,
+      "enonce": "Convertis : $1\\,\\mathrm{h} = \\ldots\\,\\%$ d'une journée (au centième près)",
       "choix": [
-        "1h 25min",
-        "1h 30min",
-        "1h 35min",
-        "1h 45min"
+        "$4{,}17\\,\\%$",
+        "$10\\,\\%$",
+        "$0{,}417\\,\\%$",
+        "$100\\,\\%$"
       ],
-      "reponse": "1h 35min",
-      "explication": "95$\\div$60=1 reste 35",
+      "reponse": "$4{,}17\\,\\%$",
+      "explication": "$\\dfrac{1}{24} \\times 100 \\approx 4{,}17\\,\\%$.",
       "image": null
     },
     {
       "id": "aut_32_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "2h30min + 1h45min = ?",
+      "chrono": 25,
+      "enonce": "Convertis : $3\\,\\mathrm{h}\\,27\\,\\mathrm{min} + 1\\,\\mathrm{h}\\,43\\,\\mathrm{min} + 0\\,\\mathrm{h}\\,50\\,\\mathrm{min} = $",
       "choix": [
-        "4h 0min",
-        "4h 15min",
-        "4h 20min",
-        "4h 30min"
+        "$6\\,\\mathrm{h}\\,00$",
+        "$5\\,\\mathrm{h}\\,100\\,\\mathrm{min}$",
+        "$5\\,\\mathrm{h}\\,60\\,\\mathrm{min}$",
+        "$6\\,\\mathrm{h}\\,20\\,\\mathrm{min}$"
       ],
-      "reponse": "4h 15min",
-      "explication": "3h75min=4h15min",
+      "reponse": "$6\\,\\mathrm{h}\\,00$",
+      "explication": "$3\\,\\mathrm{h}\\,27 + 1\\,\\mathrm{h}\\,43 + 0\\,\\mathrm{h}\\,50 = 4\\,\\mathrm{h}\\,120 = 6\\,\\mathrm{h}\\,00$.",
       "image": null
     }
   ]

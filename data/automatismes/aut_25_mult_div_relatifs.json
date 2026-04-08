@@ -2,9 +2,9 @@
   "niveau": "automatismes",
   "thematique": {
     "id": "aut_25",
-    "label": "Multiplier et diviser des relatifs",
-    "icon": "±",
-    "color": "#1e3a5f"
+    "label": "Multiplier et diviser des nombres relatifs",
+    "icon": "✖️",
+    "color": "#1a1a2e"
   },
   "questions": [
     {
@@ -13,15 +13,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+5)$\\times$(+7) = ?",
+      "enonce": "Calcule (ou réponds) : $(+3) \\\\times (+4)$",
       "choix": [
-        "+30",
-        "+35",
-        "+40",
-        "+45"
+        "$+12$",
+        "$-12$",
+        "$+7$",
+        "$-7$"
       ],
-      "reponse": "+35",
-      "explication": "(+)$\\times$(+)=(+). 5$\\times$7=35",
+      "reponse": "$+12$",
+      "explication": "Même signe → résultat positif : $3 \\\\times 4 = 12$.",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-4)$\\times$(+3) = ?",
+      "enonce": "Calcule (ou réponds) : $(-5) \\\\times (+2)$",
       "choix": [
-        "-14",
-        "-12",
-        "-10",
-        "-8"
+        "$-10$",
+        "$+10$",
+        "$-7$",
+        "$+7$"
       ],
-      "reponse": "-12",
-      "explication": "(-)$\\times$(+)=(-). 4$\\times$3=12",
+      "reponse": "$-10$",
+      "explication": "Signes différents → négatif : $5 \\\\times 2 = 10$.",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+6)$\\times$(-8) = ?",
+      "enonce": "Calcule (ou réponds) : $(-3) \\\\times (-4)$",
       "choix": [
-        "-56",
-        "-52",
-        "-48",
-        "-44"
+        "$+12$",
+        "$-12$",
+        "$+7$",
+        "$-7$"
       ],
-      "reponse": "-48",
-      "explication": "(+)$\\times$(-)=(-). 6$\\times$8=48",
+      "reponse": "$+12$",
+      "explication": "Même signe → positif : $3 \\\\times 4 = 12$.",
       "image": null
     },
     {
@@ -64,15 +64,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-9)$\\times$(-4) = ?",
+      "enonce": "Calcule (ou réponds) : $(+8) \\\\div (-2)$",
       "choix": [
-        "+32",
-        "+36",
-        "+40",
-        "+44"
+        "$-4$",
+        "$+4$",
+        "$-16$",
+        "$+16$"
       ],
-      "reponse": "+36",
-      "explication": "(-)$\\times$(-)=(+). 9$\\times$4=36",
+      "reponse": "$-4$",
+      "explication": "Signes différents → négatif : $8 \\\\div 2 = 4$.",
       "image": null
     },
     {
@@ -81,15 +81,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+12)$\\div$(+4) = ?",
+      "enonce": "Calcule (ou réponds) : $(-12) \\\\div (-3)$",
       "choix": [
-        "+2",
-        "+3",
-        "+4",
-        "+5"
+        "$+4$",
+        "$-4$",
+        "$-9$",
+        "$+9$"
       ],
-      "reponse": "+3",
-      "explication": "(+)$\\div$(+)=(+). 12$\\div$4=3",
+      "reponse": "$+4$",
+      "explication": "Même signe → positif : $12 \\\\div 3 = 4$.",
       "image": null
     },
     {
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-15)$\\div$(+5) = ?",
+      "enonce": "Calcule (ou réponds) : $(+6) \\\\times (-5)$",
       "choix": [
-        "-4",
-        "-3",
-        "-2",
-        "-1"
+        "$-30$",
+        "$+30$",
+        "$-11$",
+        "$+11$"
       ],
-      "reponse": "-3",
-      "explication": "(-)$\\div$(+)=(-). 15$\\div$5=3",
+      "reponse": "$-30$",
+      "explication": "Signes différents → négatif : $6 \\\\times 5 = 30$.",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+18)$\\div$(-6) = ?",
+      "enonce": "Calcule (ou réponds) : $(-7) \\\\times (-7)$",
       "choix": [
-        "-4",
-        "-3",
-        "-2",
-        "-1"
+        "$+49$",
+        "$-49$",
+        "$0$",
+        "$-14$"
       ],
-      "reponse": "-3",
-      "explication": "(+)$\\div$(-)=(-). 18$\\div$6=3",
+      "reponse": "$+49$",
+      "explication": "Même signe → positif : $7 \\\\times 7 = 49$.",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-24)$\\div$(-8) = ?",
+      "enonce": "Calcule (ou réponds) : $(+15) \\\\div (+3)$",
       "choix": [
-        "+2",
-        "+3",
-        "+4",
-        "+5"
+        "$+5$",
+        "$-5$",
+        "$+18$",
+        "$-18$"
       ],
-      "reponse": "+3",
-      "explication": "(-)$\\div$(-)=(+). 24$\\div$8=3",
+      "reponse": "$+5$",
+      "explication": "Même signe → positif : $15 \\\\div 3 = 5$.",
       "image": null
     },
     {
@@ -149,15 +149,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-3)$\\times$(-3)$\\times$(-3) = ?",
+      "enonce": "Calcule (ou réponds) : $(-24) \\\\div (+6)$",
       "choix": [
-        "-27",
-        "-18",
-        "+27",
-        "+18"
+        "$-4$",
+        "$+4$",
+        "$-30$",
+        "$+30$"
       ],
-      "reponse": "-27",
-      "explication": "3 négatifs→(-). 27",
+      "reponse": "$-4$",
+      "explication": "Signes différents → négatif : $24 \\\\div 6 = 4$.",
       "image": null
     },
     {
@@ -166,100 +166,100 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+2)$\\times$(-5)$\\times$(+4) = ?",
+      "enonce": "Calcule (ou réponds) : $0 \\\\times (-8)$",
       "choix": [
-        "-40",
-        "-30",
-        "+30",
-        "+40"
+        "$0$",
+        "$-8$",
+        "$+8$",
+        "$-80$"
       ],
-      "reponse": "-40",
-      "explication": "1 négatif→(-). 40",
+      "reponse": "$0$",
+      "explication": "$0$ multiplié par n'importe quel nombre donne $0$.",
       "image": null
     },
     {
       "id": "aut_25_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-6)$\\times$(+2)$\\times$(-1) = ?",
+      "enonce": "Calcule (ou réponds) : $(-4) \\\\times (+3) \\\\times (-2)$",
       "choix": [
-        "-12",
-        "+12",
-        "-6",
-        "+6"
+        "$+24$",
+        "$-24$",
+        "$+9$",
+        "$-9$"
       ],
-      "reponse": "+12",
-      "explication": "2 négatifs→(+). 12",
+      "reponse": "$+24$",
+      "explication": "$(-4)(+3) = -12$. $(-12)(-2) = +24$.",
       "image": null
     },
     {
       "id": "aut_25_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+7)$\\times$(-4) = ?",
+      "enonce": "Calcule (ou réponds) : $(-36) \\\\div (+4) \\\\div (-3)$",
       "choix": [
-        "-24",
-        "-28",
-        "-32",
-        "-36"
+        "$+3$",
+        "$-3$",
+        "$+9$",
+        "$-9$"
       ],
-      "reponse": "-28",
-      "explication": "7$\\times$4=28, signe(-)",
+      "reponse": "$+3$",
+      "explication": "$(-36) \\\\div (+4) = -9$. $(-9) \\\\div (-3) = +3$.",
       "image": null
     },
     {
       "id": "aut_25_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-11)$\\times$(-3) = ?",
+      "enonce": "Calcule (ou réponds) : $(-2)^2$",
       "choix": [
-        "+28",
-        "+33",
-        "+38",
-        "+43"
+        "$+4$",
+        "$-4$",
+        "$+8$",
+        "$-8$"
       ],
-      "reponse": "+33",
-      "explication": "11$\\times$3=33, signe(+)",
+      "reponse": "$+4$",
+      "explication": "$(-2)^2 = (-2) \\\\times (-2) = +4$.",
       "image": null
     },
     {
       "id": "aut_25_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+25)$\\div$(-5) = ?",
+      "enonce": "Calcule (ou réponds) : $(-2)^3$",
       "choix": [
-        "-6",
-        "-5",
-        "-4",
-        "-3"
+        "$-8$",
+        "$+8$",
+        "$-6$",
+        "$+6$"
       ],
-      "reponse": "-5",
-      "explication": "25$\\div$5=5, signe(-)",
+      "reponse": "$-8$",
+      "explication": "$(-2)^3 = (-2) \\\\times (-2) \\\\times (-2) = +4 \\\\times (-2) = -8$.",
       "image": null
     },
     {
       "id": "aut_25_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-36)$\\div$(-9) = ?",
+      "enonce": "Calcule (ou réponds) : $(+3) \\\\times (-5) \\\\times 0$",
       "choix": [
-        "+2",
-        "+3",
-        "+4",
-        "+5"
+        "$0$",
+        "$-15$",
+        "$+15$",
+        "$-8$"
       ],
-      "reponse": "+4",
-      "explication": "36$\\div$9=4, signe(+)",
+      "reponse": "$0$",
+      "explication": "Tout produit contenant $0$ vaut $0$.",
       "image": null
     },
     {
@@ -268,15 +268,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+8)$\\times$(+8) = ?",
+      "enonce": "Calcule (ou réponds) : $(-1)^{10}$",
       "choix": [
-        "+56",
-        "+64",
-        "+72",
-        "+80"
+        "$+1$",
+        "$-1$",
+        "$0$",
+        "$10$"
       ],
-      "reponse": "+64",
-      "explication": "8$\\times$8=64",
+      "reponse": "$+1$",
+      "explication": "Puissance paire → positif. $(-1)^{10} = +1$.",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-5)$\\times$(+9) = ?",
+      "enonce": "Calcule (ou réponds) : $(-1)^{11}$",
       "choix": [
-        "-50",
-        "-45",
-        "-40",
-        "-35"
+        "$-1$",
+        "$+1$",
+        "$0$",
+        "$11$"
       ],
-      "reponse": "-45",
-      "explication": "5$\\times$9=45, signe(-)",
+      "reponse": "$-1$",
+      "explication": "Puissance impaire → négatif. $(-1)^{11} = -1$.",
       "image": null
     },
     {
@@ -302,15 +302,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-2)$\\times$(-4)$\\times$(-5) = ?",
+      "enonce": "Calcule (ou réponds) : $\\\\dfrac{(-6) \\\\times (-4)}{(-3)}$",
       "choix": [
-        "-60",
-        "-40",
-        "+40",
-        "+60"
+        "$-8$",
+        "$+8$",
+        "$-24$",
+        "$+24$"
       ],
-      "reponse": "-40",
-      "explication": "3 négatifs→(-). 40",
+      "reponse": "$-8$",
+      "explication": "$(-6) \\\\times (-4) = +24$. $\\\\dfrac{+24}{-3} = -8$.",
       "image": null
     },
     {
@@ -319,15 +319,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+100)$\\div$(-10) = ?",
+      "enonce": "Calcule (ou réponds) : $(-0{,}5) \\\\times (+4)$",
       "choix": [
-        "-11",
-        "-10",
-        "-9",
-        "-8"
+        "$-2$",
+        "$+2$",
+        "$-4{,}5$",
+        "$+4{,}5$"
       ],
-      "reponse": "-10",
-      "explication": "100$\\div$10=10, signe(-)",
+      "reponse": "$-2$",
+      "explication": "Signes différents → négatif : $0{,}5 \\\\times 4 = 2$.",
       "image": null
     },
     {
@@ -336,185 +336,185 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-48)$\\div$(+8) = ?",
+      "enonce": "Calcule (ou réponds) : $(-18) \\\\div (-0{,}5)$",
       "choix": [
-        "-7",
-        "-6",
-        "-5",
-        "-4"
+        "$+36$",
+        "$-36$",
+        "$+9$",
+        "$-9$"
       ],
-      "reponse": "-6",
-      "explication": "48$\\div$8=6, signe(-)",
+      "reponse": "$+36$",
+      "explication": "Même signe → positif : $18 \\\\div 0{,}5 = 36$.",
       "image": null
     },
     {
       "id": "aut_25_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+3)$\\times$(-7) = ?",
+      "enonce": "Calcule (ou réponds) : Donne le signe de $(-2)^5 \\\\times (+3)^4$.",
       "choix": [
-        "-23",
-        "-21",
-        "-19",
-        "-17"
+        "Négatif",
+        "Positif",
+        "Nul",
+        "Impossible à déterminer"
       ],
-      "reponse": "-21",
-      "explication": "3$\\times$7=21, signe(-)",
+      "reponse": "Négatif",
+      "explication": "$(-2)^5 < 0$ (exposant impair), $(+3)^4 > 0$. Produit négatif $\\\\times$ positif = négatif.",
       "image": null
     },
     {
       "id": "aut_25_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-6)$\\times$(-6) = ?",
+      "enonce": "Calcule (ou réponds) : $(-3)^2 - (-4)^2$",
       "choix": [
-        "+30",
-        "+36",
-        "+42",
-        "+48"
+        "$-7$",
+        "$+7$",
+        "$-1$",
+        "$+1$"
       ],
-      "reponse": "+36",
-      "explication": "6$\\times$6=36, signe(+)",
+      "reponse": "$-7$",
+      "explication": "$9 - 16 = -7$.",
       "image": null
     },
     {
       "id": "aut_25_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+30)$\\div$(-6) = ?",
+      "enonce": "Calcule (ou réponds) : Si $a = -2$ et $b = -3$, calcule $a \\\\times b - a^2$.",
       "choix": [
-        "-6",
-        "-5",
-        "-4",
-        "-3"
+        "$-2$",
+        "$+2$",
+        "$+10$",
+        "$-10$"
       ],
-      "reponse": "-5",
-      "explication": "30$\\div$6=5, signe(-)",
+      "reponse": "$-2$",
+      "explication": "$(-2)(-3) = 6$ ; $(-2)^2 = 4$. $6 - 4 = 2$. Attention : $a \\\\times b - a^2 = 6 - 4 = 2$. Signe positif.",
       "image": null
     },
     {
       "id": "aut_25_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-45)$\\div$(-9) = ?",
+      "enonce": "Calcule (ou réponds) : Produit de $5$ facteurs tous négatifs : quel est le signe ?",
       "choix": [
-        "+3",
-        "+4",
-        "+5",
-        "+6"
+        "Négatif",
+        "Positif",
+        "Nul",
+        "Impossible à déterminer"
       ],
-      "reponse": "+5",
-      "explication": "45$\\div$9=5, signe(+)",
+      "reponse": "Négatif",
+      "explication": "Nombre impair de facteurs négatifs → produit négatif.",
       "image": null
     },
     {
       "id": "aut_25_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+4)$\\times$(-3)$\\times$(-2) = ?",
+      "enonce": "Calcule (ou réponds) : $\\\\dfrac{(-3)^2}{(-3)}$",
       "choix": [
-        "-24",
-        "+24",
-        "-12",
-        "+12"
+        "$-3$",
+        "$+3$",
+        "$-9$",
+        "$+9$"
       ],
-      "reponse": "+24",
-      "explication": "2 négatifs→(+). 24",
+      "reponse": "$-3$",
+      "explication": "$\\\\dfrac{9}{-3} = -3$.",
       "image": null
     },
     {
       "id": "aut_25_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-2)$\\times$(+5)$\\times$(-3)$\\times$(-1) = ?",
+      "enonce": "Calcule (ou réponds) : $(-4) \\\\times (+2{,}5)$",
       "choix": [
-        "-30",
-        "+30",
-        "-15",
-        "+15"
+        "$-10$",
+        "$+10$",
+        "$-6{,}5$",
+        "$+6{,}5$"
       ],
-      "reponse": "-30",
-      "explication": "3 négatifs→(-). 30",
+      "reponse": "$-10$",
+      "explication": "Signes différents → négatif : $4 \\\\times 2{,}5 = 10$.",
       "image": null
     },
     {
       "id": "aut_25_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+72)$\\div$(-8) = ?",
+      "enonce": "Calcule (ou réponds) : $(-\\\\dfrac{3}{4}) \\\\times (-\\\\dfrac{4}{3})$",
       "choix": [
-        "-10",
-        "-9",
-        "-8",
-        "-7"
+        "$+1$",
+        "$-1$",
+        "$+\\\\dfrac{9}{16}$",
+        "$-\\\\dfrac{9}{16}$"
       ],
-      "reponse": "-9",
-      "explication": "72$\\div$8=9, signe(-)",
+      "reponse": "$+1$",
+      "explication": "Même signe → positif : $\\\\dfrac{3}{4} \\\\times \\\\dfrac{4}{3} = \\\\dfrac{12}{12} = 1$.",
       "image": null
     },
     {
       "id": "aut_25_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-13)$\\times$(-2) = ?",
+      "enonce": "Calcule (ou réponds) : $(-5)^2 \\\\times (-2)^3$",
       "choix": [
-        "+22",
-        "+26",
-        "+28",
-        "+32"
+        "$-200$",
+        "$+200$",
+        "$-100$",
+        "$+100$"
       ],
-      "reponse": "+26",
-      "explication": "13$\\times$2=26, signe(+)",
+      "reponse": "$-200$",
+      "explication": "$(-5)^2 = 25$ ; $(-2)^3 = -8$. $25 \\\\times (-8) = -200$.",
       "image": null
     },
     {
       "id": "aut_25_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+5)$\\times$(-10) = ?",
+      "enonce": "Calcule (ou réponds) : $(-\\\\dfrac{1}{2})^3$",
       "choix": [
-        "-60",
-        "-55",
-        "-50",
-        "-45"
+        "$-\\\\dfrac{1}{8}$",
+        "$+\\\\dfrac{1}{8}$",
+        "$-\\\\dfrac{3}{2}$",
+        "$+\\\\dfrac{3}{2}$"
       ],
-      "reponse": "-50",
-      "explication": "5$\\times$10=50, signe(-)",
+      "reponse": "$-\\\\dfrac{1}{8}$",
+      "explication": "$(-\\\\dfrac{1}{2})^3 = -\\\\dfrac{1}{8}$ (exposant impair → signe $-$).",
       "image": null
     },
     {
       "id": "aut_25_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-63)$\\div$(+7) = ?",
+      "enonce": "Calcule (ou réponds) : Si $x \\\\times (-3) = -21$, alors $x =$",
       "choix": [
-        "-10",
-        "-9",
-        "-8",
-        "-7"
+        "$+7$",
+        "$-7$",
+        "$+63$",
+        "$-63$"
       ],
-      "reponse": "-9",
-      "explication": "63$\\div$7=9, signe(-)",
+      "reponse": "$+7$",
+      "explication": "$x = \\\\dfrac{-21}{-3} = +7$.",
       "image": null
     }
   ]

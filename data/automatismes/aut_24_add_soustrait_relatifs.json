@@ -2,7 +2,7 @@
   "niveau": "automatismes",
   "thematique": {
     "id": "aut_24",
-    "label": "Additionner et soustraire des relatifs",
+    "label": "Additionner et soustraire des nombres relatifs",
     "icon": "±",
     "color": "#0c4a6e"
   },
@@ -13,15 +13,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+5) + (+4) = ?",
+      "enonce": "Calcule : $(+5) + (+3)$",
       "choix": [
-        "7",
-        "8",
-        "+9",
-        "+10"
+        "$+8$",
+        "$+6$",
+        "$+7$",
+        "$-8$"
       ],
-      "reponse": "+9",
-      "explication": "(+5)+(+4)=+9",
+      "reponse": "$+8$",
+      "explication": "$5 + 3 = 8$, signe $+$.",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-3) + (-7) = ?",
+      "enonce": "Calcule : $(-4) + (-3)$",
       "choix": [
-        "-8",
-        "-9",
-        "-10",
-        "-11"
+        "$-7$",
+        "$+7$",
+        "$-1$",
+        "$-6$"
       ],
-      "reponse": "-10",
-      "explication": "(-3)+(-7)=-10",
+      "reponse": "$-7$",
+      "explication": "Même signe : $4 + 3 = 7$, signe $-$.",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+6) + (-8) = ?",
+      "enonce": "Calcule : $(+6) + (-4)$",
       "choix": [
-        "-2",
-        "-1",
-        "+1",
-        "+2"
+        "$+2$",
+        "$-2$",
+        "$+10$",
+        "$-10$"
       ],
-      "reponse": "-2",
-      "explication": "+6-8=-2",
+      "reponse": "$+2$",
+      "explication": "Signes différents : $6 - 4 = 2$, signe du plus grand en valeur absolue ($+$).",
       "image": null
     },
     {
@@ -64,15 +64,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+11) + (-7) = ?",
+      "enonce": "Calcule : $(-5) + (+8)$",
       "choix": [
-        "+3",
-        "+4",
-        "+5",
-        "+6"
+        "$+3$",
+        "$-3$",
+        "$+13$",
+        "$-13$"
       ],
-      "reponse": "+4",
-      "explication": "+11-7=+4",
+      "reponse": "$+3$",
+      "explication": "Signes différents : $8 - 5 = 3$, signe $+$.",
       "image": null
     },
     {
@@ -81,15 +81,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-3) + (+1) = ?",
+      "enonce": "Calcule : $(+3) - (+7)$",
       "choix": [
-        "-4",
-        "-3",
-        "-2",
-        "-1"
+        "$-4$",
+        "$+4$",
+        "$+10$",
+        "$-10$"
       ],
-      "reponse": "-2",
-      "explication": "-3+1=-2",
+      "reponse": "$-4$",
+      "explication": "Soustraire revient à ajouter l'opposé : $(+3) + (-7) = -4$.",
       "image": null
     },
     {
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+2) - (-5) = ?",
+      "enonce": "Calcule : $(+5) - (-2)$",
       "choix": [
-        "5",
-        "6",
-        "+7",
-        "+8"
+        "$+7$",
+        "$+3$",
+        "$-7$",
+        "$-3$"
       ],
-      "reponse": "+7",
-      "explication": "+2+5=+7",
+      "reponse": "$+7$",
+      "explication": "$(+5) + (+2) = +7$.",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+4) - (+9) = ?",
+      "enonce": "Calcule : $(-6) - (+4)$",
       "choix": [
-        "-7",
-        "-6",
-        "-5",
-        "-4"
+        "$-10$",
+        "$+10$",
+        "$-2$",
+        "$+2$"
       ],
-      "reponse": "-5",
-      "explication": "+4-9=-5",
+      "reponse": "$-10$",
+      "explication": "$(-6) + (-4) = -10$.",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-8) - (-2) = ?",
+      "enonce": "Calcule : $(-3) - (-5)$",
       "choix": [
-        "-10",
-        "-8",
-        "-6",
-        "-5"
+        "$+2$",
+        "$-2$",
+        "$-8$",
+        "$+8$"
       ],
-      "reponse": "-6",
-      "explication": "-8+2=-6",
+      "reponse": "$+2$",
+      "explication": "$(-3) + (+5) = +2$.",
       "image": null
     },
     {
@@ -149,15 +149,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-5) + (-9) = ?",
+      "enonce": "Calcule : $0 + (-7)$",
       "choix": [
-        "-14",
-        "-13",
-        "-12",
-        "-11"
+        "$-7$",
+        "$+7$",
+        "$0$",
+        "$7$"
       ],
-      "reponse": "-14",
-      "explication": "-5-9=-14",
+      "reponse": "$-7$",
+      "explication": "$0 + (-7) = -7$.",
       "image": null
     },
     {
@@ -166,100 +166,100 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+14) + (-6) = ?",
+      "enonce": "Calcule : $(+4) + (-4)$",
       "choix": [
-        "+6",
-        "+7",
-        "+8",
-        "+9"
+        "$0$",
+        "$+8$",
+        "$-8$",
+        "$+4$"
       ],
-      "reponse": "+8",
-      "explication": "+14-6=+8",
+      "reponse": "$0$",
+      "explication": "Nombres opposés : $(+4) + (-4) = 0$.",
       "image": null
     },
     {
       "id": "aut_24_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-7) + (+7) = ?",
+      "enonce": "Calcule : $(-12) + (+5)$",
       "choix": [
-        "-1",
-        "0",
-        "+1",
-        "+2"
+        "$-7$",
+        "$+7$",
+        "$-17$",
+        "$+17$"
       ],
-      "reponse": "0",
-      "explication": "-7+7=0",
+      "reponse": "$-7$",
+      "explication": "$12 - 5 = 7$, signe $-$.",
       "image": null
     },
     {
       "id": "aut_24_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+3) - (+10) = ?",
+      "enonce": "Calcule : $(+8) - (+13)$",
       "choix": [
-        "-8",
-        "-7",
-        "-6",
-        "-5"
+        "$-5$",
+        "$+5$",
+        "$+21$",
+        "$-21$"
       ],
-      "reponse": "-7",
-      "explication": "+3-10=-7",
+      "reponse": "$-5$",
+      "explication": "$(+8) + (-13) = -5$.",
       "image": null
     },
     {
       "id": "aut_24_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-12) - (-4) = ?",
+      "enonce": "Calcule : $(-7) + (-8)$",
       "choix": [
-        "-16",
-        "-12",
-        "-8",
-        "-6"
+        "$-15$",
+        "$+15$",
+        "$-1$",
+        "$+1$"
       ],
-      "reponse": "-8",
-      "explication": "-12+4=-8",
+      "reponse": "$-15$",
+      "explication": "$7 + 8 = 15$, signe $-$.",
       "image": null
     },
     {
       "id": "aut_24_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+8) - (-3) = ?",
+      "enonce": "Calcule : $(+9) + (-15)$",
       "choix": [
-        "+9",
-        "+10",
-        "+11",
-        "+12"
+        "$-6$",
+        "$+6$",
+        "$+24$",
+        "$-24$"
       ],
-      "reponse": "+11",
-      "explication": "+8+3=+11",
+      "reponse": "$-6$",
+      "explication": "$15 - 9 = 6$, signe $-$.",
       "image": null
     },
     {
       "id": "aut_24_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-15) + (+9) = ?",
+      "enonce": "Calcule : $(-4) - (-4)$",
       "choix": [
-        "-8",
-        "-7",
-        "-6",
-        "-5"
+        "$0$",
+        "$-8$",
+        "$+8$",
+        "$-4$"
       ],
-      "reponse": "-6",
-      "explication": "-15+9=-6",
+      "reponse": "$0$",
+      "explication": "$(-4) + (+4) = 0$.",
       "image": null
     },
     {
@@ -268,15 +268,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+20) + (-35) = ?",
+      "enonce": "Calcule : $(+3) - (+10)$",
       "choix": [
-        "-20",
-        "-15",
-        "-10",
-        "-5"
+        "$-7$",
+        "$+7$",
+        "$+13$",
+        "$-13$"
       ],
-      "reponse": "-15",
-      "explication": "+20-35=-15",
+      "reponse": "$-7$",
+      "explication": "$(+3) + (-10) = -7$.",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-6) - (+6) = ?",
+      "enonce": "Calcule : $(-2) + (+2)$",
       "choix": [
-        "-14",
-        "-13",
-        "-12",
-        "-11"
+        "$0$",
+        "$-4$",
+        "$+4$",
+        "$-2$"
       ],
-      "reponse": "-12",
-      "explication": "-6-6=-12",
+      "reponse": "$0$",
+      "explication": "Nombres opposés : somme nulle.",
       "image": null
     },
     {
@@ -302,15 +302,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+0) + (-11) = ?",
+      "enonce": "Calcule : $(+15) - (+8) + (-3)$",
       "choix": [
-        "-13",
-        "-12",
-        "-11",
-        "-10"
+        "$+4$",
+        "$-4$",
+        "$+10$",
+        "$+20$"
       ],
-      "reponse": "-11",
-      "explication": "0+(-11)=-11",
+      "reponse": "$+4$",
+      "explication": "$15 - 8 - 3 = 4$.",
       "image": null
     },
     {
@@ -319,15 +319,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-4) - (-4) = ?",
+      "enonce": "Calcule : $(-6) - (-9)$",
       "choix": [
-        "+4",
-        "-4",
-        "0",
-        "+8"
+        "$+3$",
+        "$-3$",
+        "$-15$",
+        "$+15$"
       ],
-      "reponse": "0",
-      "explication": "-4+4=0",
+      "reponse": "$+3$",
+      "explication": "$(-6) + (+9) = +3$.",
       "image": null
     },
     {
@@ -336,185 +336,185 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+7) + (-13) = ?",
+      "enonce": "Calcule : $(+20) + (-35)$",
       "choix": [
-        "-8",
-        "-7",
-        "-6",
-        "-5"
+        "$-15$",
+        "$+15$",
+        "$-55$",
+        "$+55$"
       ],
-      "reponse": "-6",
-      "explication": "+7-13=-6",
+      "reponse": "$-15$",
+      "explication": "$35 - 20 = 15$, signe $-$.",
       "image": null
     },
     {
       "id": "aut_24_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-9) - (+5) = ?",
+      "enonce": "Calcule : $(-5{,}3) + (+2{,}7)$",
       "choix": [
-        "-16",
-        "-15",
-        "-14",
-        "-13"
+        "$-2{,}6$",
+        "$+2{,}6$",
+        "$-8$",
+        "$+8$"
       ],
-      "reponse": "-14",
-      "explication": "-9-5=-14",
+      "reponse": "$-2{,}6$",
+      "explication": "$5{,}3 - 2{,}7 = 2{,}6$, signe $-$.",
       "image": null
     },
     {
       "id": "aut_24_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+25) - (+18) = ?",
+      "enonce": "Calcule : $(+\\\\dfrac{1}{2}) + (-\\\\dfrac{3}{4})$",
       "choix": [
-        "+5",
-        "+6",
-        "+7",
-        "+8"
+        "$-\\\\dfrac{1}{4}$",
+        "$+\\\\dfrac{1}{4}$",
+        "$+\\\\dfrac{5}{4}$",
+        "$-\\\\dfrac{5}{4}$"
       ],
-      "reponse": "+7",
-      "explication": "+25-18=+7",
+      "reponse": "$-\\\\dfrac{1}{4}$",
+      "explication": "$\\\\dfrac{2}{4} - \\\\dfrac{3}{4} = -\\\\dfrac{1}{4}$.",
       "image": null
     },
     {
       "id": "aut_24_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-3)+(-3)+(-3) = ?",
+      "enonce": "Calcule : $(-8) + (+3) - (-5) + (-2)$",
       "choix": [
-        "-7",
-        "-8",
-        "-9",
-        "-10"
+        "$-2$",
+        "$+2$",
+        "$-18$",
+        "$+18$"
       ],
-      "reponse": "-9",
-      "explication": "-3$\\times$3=-9",
+      "reponse": "$-2$",
+      "explication": "$-8 + 3 + 5 - 2 = -2$.",
       "image": null
     },
     {
       "id": "aut_24_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+10)-(+4)-(+3) = ?",
+      "enonce": "Calcule : Si $a = -3$ et $b = +7$, calcule $a + b$.",
       "choix": [
-        "+1",
-        "+2",
-        "+3",
-        "+4"
+        "$+4$",
+        "$-4$",
+        "$+10$",
+        "$-10$"
       ],
-      "reponse": "+3",
-      "explication": "10-4-3=3",
+      "reponse": "$+4$",
+      "explication": "$-3 + 7 = +4$.",
       "image": null
     },
     {
       "id": "aut_24_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-8)+(+5)+(-2) = ?",
+      "enonce": "Calcule : Si $a = -5$ et $b = -2$, calcule $a - b$.",
       "choix": [
-        "-7",
-        "-6",
-        "-5",
-        "-4"
+        "$-3$",
+        "$+3$",
+        "$-7$",
+        "$+7$"
       ],
-      "reponse": "-5",
-      "explication": "-8+5-2=-5",
+      "reponse": "$-3$",
+      "explication": "$(-5) - (-2) = (-5) + (+2) = -3$.",
       "image": null
     },
     {
       "id": "aut_24_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+6)-(-2)+(-5) = ?",
+      "enonce": "Calcule : Quelle est la somme algébrique : $+3 - 8 + 5 - 1 + 6$ ?",
       "choix": [
-        "+1",
-        "+2",
-        "+3",
-        "+4"
+        "$+5$",
+        "$-5$",
+        "$+3$",
+        "$-3$"
       ],
-      "reponse": "+3",
-      "explication": "6+2-5=3",
+      "reponse": "$+5$",
+      "explication": "$(3+5+6) - (8+1) = 14 - 9 = 5$.",
       "image": null
     },
     {
       "id": "aut_24_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-1)+(+3)-(+7) = ?",
+      "enonce": "Calcule : $(-\\\\dfrac{2}{3}) - (+\\\\dfrac{1}{3})$",
       "choix": [
-        "-7",
-        "-6",
-        "-5",
-        "-4"
+        "$-1$",
+        "$+1$",
+        "$-\\\\dfrac{1}{3}$",
+        "$+\\\\dfrac{1}{3}$"
       ],
-      "reponse": "-5",
-      "explication": "-1+3-7=-5",
+      "reponse": "$-1$",
+      "explication": "$-\\\\dfrac{2}{3} - \\\\dfrac{1}{3} = -\\\\dfrac{3}{3} = -1$.",
       "image": null
     },
     {
       "id": "aut_24_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+4)+(-9)-(-4) = ?",
+      "enonce": "Calcule : La température passe de $-3\\,°C$ à $+8\\,°C$. Variation :",
       "choix": [
-        "-3",
-        "-2",
-        "-1",
-        "0"
+        "$+11\\,°C$",
+        "$-11\\,°C$",
+        "$+5\\,°C$",
+        "$-5\\,°C$"
       ],
-      "reponse": "-1",
-      "explication": "4-9+4=-1",
+      "reponse": "$+11\\,°C$",
+      "explication": "$8 - (-3) = 8 + 3 = 11\\,°C$.",
       "image": null
     },
     {
       "id": "aut_24_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-5)-(-8)+(-3) = ?",
+      "enonce": "Calcule : $(-4{,}5) + (-2{,}5) - (-3)$",
       "choix": [
-        "-2",
-        "-1",
-        "0",
-        "+1"
+        "$-4$",
+        "$+4$",
+        "$-10$",
+        "$+10$"
       ],
-      "reponse": "0",
-      "explication": "-5+8-3=0",
+      "reponse": "$-4$",
+      "explication": "$-4{,}5 - 2{,}5 + 3 = -7 + 3 = -4$.",
       "image": null
     },
     {
       "id": "aut_24_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(+2)-(+7)+(-4) = ?",
+      "enonce": "Calcule : Si $x + (-5) = -3$, alors $x =$",
       "choix": [
-        "-11",
-        "-10",
-        "-9",
-        "-8"
+        "$+2$",
+        "$-2$",
+        "$+8$",
+        "$-8$"
       ],
-      "reponse": "-9",
-      "explication": "2-7-4=-9",
+      "reponse": "$+2$",
+      "explication": "$x = -3 - (-5) = -3 + 5 = +2$.",
       "image": null
     }
   ]

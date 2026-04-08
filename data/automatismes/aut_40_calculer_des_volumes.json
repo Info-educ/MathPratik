@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_40",
+    "label": "Calculer des volumes",
+    "icon": "📦",
+    "color": "#b45309"
+  },
+  "questions": [
+    {
+      "id": "aut_40_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube $ABCDEFGH$ d'arête $a = 3\\,\\mathrm{cm}$.",
+      "choix": [
+        "$9\\,\\mathrm{cm}^3$",
+        "$18\\,\\mathrm{cm}^3$",
+        "$27\\,\\mathrm{cm}^3$",
+        "$36\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$27\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 3^3 = 3 \\times 3 \\times 3 = 27\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du pavé droit $ABCDEFGH$ de longueur $L = 4\\,\\mathrm{cm}$, largeur $\\ell = 3\\,\\mathrm{cm}$ et hauteur $h = 2\\,\\mathrm{cm}$.",
+      "choix": [
+        "$18\\,\\mathrm{cm}^3$",
+        "$20\\,\\mathrm{cm}^3$",
+        "$24\\,\\mathrm{cm}^3$",
+        "$30\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$24\\,\\mathrm{cm}^3$",
+      "explication": "Volume du pavé droit : $\\mathcal{V} = L \\times \\ell \\times h = 4 \\times 3 \\times 2 = 24\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cylindre de révolution de rayon $r = 2\\,\\mathrm{cm}$ et de hauteur $h = 5\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$10\\pi\\,\\mathrm{cm}^3$",
+        "$15\\pi\\,\\mathrm{cm}^3$",
+        "$20\\pi\\,\\mathrm{cm}^3$",
+        "$25\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$20\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cylindre : $\\mathcal{V} = \\pi r^2 \\times h = \\pi \\times 2^2 \\times 5 = \\pi \\times 4 \\times 5 = 20\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "La base d'une pyramide a une aire $\\mathcal{A}_{\\text{base}} = 6\\,\\mathrm{cm}^2$ et sa hauteur est $h = 4\\,\\mathrm{cm}$. Calcule son volume.",
+      "choix": [
+        "$6\\,\\mathrm{cm}^3$",
+        "$8\\,\\mathrm{cm}^3$",
+        "$10\\,\\mathrm{cm}^3$",
+        "$24\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$8\\,\\mathrm{cm}^3$",
+      "explication": "Volume de la pyramide : $\\mathcal{V} = \\dfrac{\\mathcal{A}_{\\text{base}} \\times h}{3} = \\dfrac{6 \\times 4}{3} = \\dfrac{24}{3} = 8\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube $ABCDEFGH$ d'arête $a = 5\\,\\mathrm{m}$.",
+      "choix": [
+        "$75\\,\\mathrm{m}^3$",
+        "$100\\,\\mathrm{m}^3$",
+        "$125\\,\\mathrm{m}^3$",
+        "$150\\,\\mathrm{m}^3$"
+      ],
+      "reponse": "$125\\,\\mathrm{m}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 5^3 = 125\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du pavé droit de longueur $L = 10\\,\\mathrm{cm}$, largeur $\\ell = 5\\,\\mathrm{cm}$ et hauteur $h = 3\\,\\mathrm{cm}$.",
+      "choix": [
+        "$130\\,\\mathrm{cm}^3$",
+        "$140\\,\\mathrm{cm}^3$",
+        "$150\\,\\mathrm{cm}^3$",
+        "$160\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$150\\,\\mathrm{cm}^3$",
+      "explication": "Volume du pavé droit : $\\mathcal{V} = L \\times \\ell \\times h = 10 \\times 5 \\times 3 = 150\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cylindre de rayon $r = 3\\,\\mathrm{cm}$ et de hauteur $h = 4\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$24\\pi\\,\\mathrm{cm}^3$",
+        "$27\\pi\\,\\mathrm{cm}^3$",
+        "$36\\pi\\,\\mathrm{cm}^3$",
+        "$48\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$36\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cylindre : $\\mathcal{V} = \\pi r^2 \\times h = \\pi \\times 3^2 \\times 4 = \\pi \\times 9 \\times 4 = 36\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "La base d'une pyramide a une aire $\\mathcal{A}_{\\text{base}} = 9\\,\\mathrm{cm}^2$ et sa hauteur est $h = 6\\,\\mathrm{cm}$. Calcule son volume.",
+      "choix": [
+        "$12\\,\\mathrm{cm}^3$",
+        "$15\\,\\mathrm{cm}^3$",
+        "$18\\,\\mathrm{cm}^3$",
+        "$54\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$18\\,\\mathrm{cm}^3$",
+      "explication": "Volume de la pyramide : $\\mathcal{V} = \\dfrac{\\mathcal{A}_{\\text{base}} \\times h}{3} = \\dfrac{9 \\times 6}{3} = \\dfrac{54}{3} = 18\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube d'arête $a = 10\\,\\mathrm{cm}$.",
+      "choix": [
+        "$100\\,\\mathrm{cm}^3$",
+        "$500\\,\\mathrm{cm}^3$",
+        "$1\\,000\\,\\mathrm{cm}^3$",
+        "$10\\,000\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$1\\,000\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 10^3 = 1\\,000\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du pavé droit de longueur $L = 8\\,\\mathrm{cm}$, largeur $\\ell = 6\\,\\mathrm{cm}$ et hauteur $h = 5\\,\\mathrm{cm}$.",
+      "choix": [
+        "$200\\,\\mathrm{cm}^3$",
+        "$220\\,\\mathrm{cm}^3$",
+        "$240\\,\\mathrm{cm}^3$",
+        "$260\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$240\\,\\mathrm{cm}^3$",
+      "explication": "Volume du pavé droit : $\\mathcal{V} = L \\times \\ell \\times h = 8 \\times 6 \\times 5 = 240\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cylindre de rayon $r = 5\\,\\mathrm{cm}$ et de hauteur $h = 2\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$25\\pi\\,\\mathrm{cm}^3$",
+        "$40\\pi\\,\\mathrm{cm}^3$",
+        "$50\\pi\\,\\mathrm{cm}^3$",
+        "$60\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$50\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cylindre : $\\mathcal{V} = \\pi r^2 \\times h = \\pi \\times 5^2 \\times 2 = \\pi \\times 25 \\times 2 = 50\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_12",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "La base d'une pyramide a une aire $\\mathcal{A}_{\\text{base}} = 12\\,\\mathrm{cm}^2$ et sa hauteur est $h = 5\\,\\mathrm{cm}$. Calcule son volume.",
+      "choix": [
+        "$18\\,\\mathrm{cm}^3$",
+        "$20\\,\\mathrm{cm}^3$",
+        "$22\\,\\mathrm{cm}^3$",
+        "$60\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$20\\,\\mathrm{cm}^3$",
+      "explication": "Volume de la pyramide : $\\mathcal{V} = \\dfrac{\\mathcal{A}_{\\text{base}} \\times h}{3} = \\dfrac{12 \\times 5}{3} = \\dfrac{60}{3} = 20\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube d'arête $a = 4\\,\\mathrm{m}$.",
+      "choix": [
+        "$48\\,\\mathrm{m}^3$",
+        "$56\\,\\mathrm{m}^3$",
+        "$64\\,\\mathrm{m}^3$",
+        "$72\\,\\mathrm{m}^3$"
+      ],
+      "reponse": "$64\\,\\mathrm{m}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 4^3 = 4 \\times 4 \\times 4 = 64\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du pavé droit de longueur $L = 20\\,\\mathrm{cm}$, largeur $\\ell = 10\\,\\mathrm{cm}$ et hauteur $h = 4\\,\\mathrm{cm}$.",
+      "choix": [
+        "$700\\,\\mathrm{cm}^3$",
+        "$750\\,\\mathrm{cm}^3$",
+        "$800\\,\\mathrm{cm}^3$",
+        "$900\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$800\\,\\mathrm{cm}^3$",
+      "explication": "Volume du pavé droit : $\\mathcal{V} = L \\times \\ell \\times h = 20 \\times 10 \\times 4 = 800\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cylindre de rayon $r = 1\\,\\mathrm{m}$ et de hauteur $h = 10\\,\\mathrm{m}$. (Valeur exacte.)",
+      "choix": [
+        "$5\\pi\\,\\mathrm{m}^3$",
+        "$8\\pi\\,\\mathrm{m}^3$",
+        "$10\\pi\\,\\mathrm{m}^3$",
+        "$20\\pi\\,\\mathrm{m}^3$"
+      ],
+      "reponse": "$10\\pi\\,\\mathrm{m}^3$",
+      "explication": "Volume du cylindre : $\\mathcal{V} = \\pi r^2 \\times h = \\pi \\times 1^2 \\times 10 = 10\\pi\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "Calcule le volume du cône de révolution de rayon $r = 3\\,\\mathrm{cm}$ et de hauteur $h = 4\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$10\\pi\\,\\mathrm{cm}^3$",
+        "$12\\pi\\,\\mathrm{cm}^3$",
+        "$15\\pi\\,\\mathrm{cm}^3$",
+        "$36\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$12\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cône : $\\mathcal{V} = \\dfrac{\\pi r^2 \\times h}{3} = \\dfrac{\\pi \\times 3^2 \\times 4}{3} = \\dfrac{\\pi \\times 9 \\times 4}{3} = \\dfrac{36\\pi}{3} = 12\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube d'arête $a = 2\\,\\mathrm{m}$.",
+      "choix": [
+        "$4\\,\\mathrm{m}^3$",
+        "$6\\,\\mathrm{m}^3$",
+        "$8\\,\\mathrm{m}^3$",
+        "$12\\,\\mathrm{m}^3$"
+      ],
+      "reponse": "$8\\,\\mathrm{m}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 2^3 = 8\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du pavé droit de longueur $L = 7\\,\\mathrm{cm}$, largeur $\\ell = 3\\,\\mathrm{cm}$ et hauteur $h = 3\\,\\mathrm{cm}$.",
+      "choix": [
+        "$55\\,\\mathrm{cm}^3$",
+        "$60\\,\\mathrm{cm}^3$",
+        "$63\\,\\mathrm{cm}^3$",
+        "$70\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$63\\,\\mathrm{cm}^3$",
+      "explication": "Volume du pavé droit : $\\mathcal{V} = L \\times \\ell \\times h = 7 \\times 3 \\times 3 = 63\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cylindre de rayon $r = 4\\,\\mathrm{cm}$ et de hauteur $h = 3\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$36\\pi\\,\\mathrm{cm}^3$",
+        "$40\\pi\\,\\mathrm{cm}^3$",
+        "$48\\pi\\,\\mathrm{cm}^3$",
+        "$60\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$48\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cylindre : $\\mathcal{V} = \\pi r^2 \\times h = \\pi \\times 4^2 \\times 3 = \\pi \\times 16 \\times 3 = 48\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "Calcule le volume de la boule de rayon $r = 3\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$27\\pi\\,\\mathrm{cm}^3$",
+        "$32\\pi\\,\\mathrm{cm}^3$",
+        "$36\\pi\\,\\mathrm{cm}^3$",
+        "$45\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$36\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume de la boule : $\\mathcal{V} = \\dfrac{4\\pi r^3}{3} = \\dfrac{4 \\times \\pi \\times 3^3}{3} = \\dfrac{4 \\times \\pi \\times 27}{3} = \\dfrac{108\\pi}{3} = 36\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube $ABCDEFGH$ d'arête $a = 6\\,\\mathrm{cm}$.",
+      "choix": [
+        "$180\\,\\mathrm{cm}^3$",
+        "$200\\,\\mathrm{cm}^3$",
+        "$216\\,\\mathrm{cm}^3$",
+        "$240\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$216\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 6^3 = 216\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du pavé droit de longueur $L = 15\\,\\mathrm{cm}$, largeur $\\ell = 10\\,\\mathrm{cm}$ et hauteur $h = 8\\,\\mathrm{cm}$.",
+      "choix": [
+        "$1\\,000\\,\\mathrm{cm}^3$",
+        "$1\\,100\\,\\mathrm{cm}^3$",
+        "$1\\,200\\,\\mathrm{cm}^3$",
+        "$1\\,300\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$1\\,200\\,\\mathrm{cm}^3$",
+      "explication": "Volume du pavé droit : $\\mathcal{V} = L \\times \\ell \\times h = 15 \\times 10 \\times 8 = 1\\,200\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cylindre de rayon $r = 2\\,\\mathrm{m}$ et de hauteur $h = 7\\,\\mathrm{m}$. (Valeur exacte.)",
+      "choix": [
+        "$24\\pi\\,\\mathrm{m}^3$",
+        "$26\\pi\\,\\mathrm{m}^3$",
+        "$28\\pi\\,\\mathrm{m}^3$",
+        "$30\\pi\\,\\mathrm{m}^3$"
+      ],
+      "reponse": "$28\\pi\\,\\mathrm{m}^3$",
+      "explication": "Volume du cylindre : $\\mathcal{V} = \\pi r^2 \\times h = \\pi \\times 2^2 \\times 7 = \\pi \\times 4 \\times 7 = 28\\pi\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "La base d'une pyramide a une aire $\\mathcal{A}_{\\text{base}} = 20\\,\\mathrm{cm}^2$ et sa hauteur est $h = 9\\,\\mathrm{cm}$. Calcule son volume.",
+      "choix": [
+        "$50\\,\\mathrm{cm}^3$",
+        "$55\\,\\mathrm{cm}^3$",
+        "$60\\,\\mathrm{cm}^3$",
+        "$180\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$60\\,\\mathrm{cm}^3$",
+      "explication": "Volume de la pyramide : $\\mathcal{V} = \\dfrac{\\mathcal{A}_{\\text{base}} \\times h}{3} = \\dfrac{20 \\times 9}{3} = \\dfrac{180}{3} = 60\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube $ABCDEFGH$ d'arête $a = 7\\,\\mathrm{cm}$.",
+      "choix": [
+        "$307\\,\\mathrm{cm}^3$",
+        "$333\\,\\mathrm{cm}^3$",
+        "$343\\,\\mathrm{cm}^3$",
+        "$350\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$343\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 7^3 = 7 \\times 7 \\times 7 = 343\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du pavé droit de longueur $L = 12\\,\\mathrm{cm}$, largeur $\\ell = 5\\,\\mathrm{cm}$ et hauteur $h = 2\\,\\mathrm{cm}$.",
+      "choix": [
+        "$100\\,\\mathrm{cm}^3$",
+        "$110\\,\\mathrm{cm}^3$",
+        "$120\\,\\mathrm{cm}^3$",
+        "$130\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$120\\,\\mathrm{cm}^3$",
+      "explication": "Volume du pavé droit : $\\mathcal{V} = L \\times \\ell \\times h = 12 \\times 5 \\times 2 = 120\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "Calcule le volume du cône de révolution de rayon $r = 6\\,\\mathrm{cm}$ et de hauteur $h = 7\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$72\\pi\\,\\mathrm{cm}^3$",
+        "$78\\pi\\,\\mathrm{cm}^3$",
+        "$84\\pi\\,\\mathrm{cm}^3$",
+        "$90\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$84\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cône : $\\mathcal{V} = \\dfrac{\\pi r^2 \\times h}{3} = \\dfrac{\\pi \\times 6^2 \\times 7}{3} = \\dfrac{\\pi \\times 36 \\times 7}{3} = \\dfrac{252\\pi}{3} = 84\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 30,
+      "enonce": "Calcule le volume de la boule de rayon $r = 1\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$\\dfrac{2\\pi}{3}\\,\\mathrm{cm}^3$",
+        "$\\dfrac{4\\pi}{3}\\,\\mathrm{cm}^3$",
+        "$\\dfrac{4\\pi}{3}\\,\\mathrm{cm}^3$",
+        "$2\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$\\dfrac{4\\pi}{3}\\,\\mathrm{cm}^3$",
+      "explication": "Volume de la boule : $\\mathcal{V} = \\dfrac{4\\pi r^3}{3} = \\dfrac{4 \\times \\pi \\times 1^3}{3} = \\dfrac{4\\pi}{3}\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cube $ABCDEFGH$ d'arête $a = 9\\,\\mathrm{m}$.",
+      "choix": [
+        "$648\\,\\mathrm{m}^3$",
+        "$700\\,\\mathrm{m}^3$",
+        "$729\\,\\mathrm{m}^3$",
+        "$810\\,\\mathrm{m}^3$"
+      ],
+      "reponse": "$729\\,\\mathrm{m}^3$",
+      "explication": "Volume du cube : $\\mathcal{V} = a^3 = 9^3 = 9 \\times 9 \\times 9 = 729\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_40_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule le volume du cylindre de rayon $r = 10\\,\\mathrm{cm}$ et de hauteur $h = 5\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$250\\pi\\,\\mathrm{cm}^3$",
+        "$400\\pi\\,\\mathrm{cm}^3$",
+        "$500\\pi\\,\\mathrm{cm}^3$",
+        "$600\\pi\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$500\\pi\\,\\mathrm{cm}^3$",
+      "explication": "Volume du cylindre : $\\mathcal{V} = \\pi r^2 \\times h = \\pi \\times 10^2 \\times 5 = \\pi \\times 100 \\times 5 = 500\\pi\\,\\mathrm{cm}^3$.",
+      "image": null
+    }
+  ]
+}

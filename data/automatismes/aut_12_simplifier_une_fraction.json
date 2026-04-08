@@ -3,8 +3,8 @@
   "thematique": {
     "id": "aut_12",
     "label": "Simplifier une fraction",
-    "icon": "➗",
-    "color": "#92400e"
+    "icon": "✂️",
+    "color": "#7c3aed"
   },
   "questions": [
     {
@@ -13,15 +13,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{6}{9}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{6}{8}$ au maximum.",
       "choix": [
-        "$\\frac{1}{3}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{2}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{6}{8}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(6,9)=3 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(6;8) = 2$ : $\\\\dfrac{6 \\\\div 2}{8 \\\\div 2} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{10}{15}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{10}{15}$ au maximum.",
       "choix": [
-        "$\\frac{2}{3}$",
-        "$\\frac{1}{3}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{2}{5}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{10}{15}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(10,15)=5 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(10;15) = 5$ : $\\\\dfrac{10 \\\\div 5}{15 \\\\div 5} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{8}{12}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{4}{6}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{4}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{4}{6}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(8,12)=4 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(4;6) = 2$ : $\\\\dfrac{4 \\\\div 2}{6 \\\\div 2} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
@@ -64,15 +64,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{14}{21}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{9}{12}$ au maximum.",
       "choix": [
-        "$\\frac{1}{3}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{7}$",
-        "$\\frac{2}{7}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{9}{12}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(14,21)=7 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(9;12) = 3$ : $\\\\dfrac{9 \\\\div 3}{12 \\\\div 3} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
@@ -81,15 +81,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{15}{25}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{15}{20}$ au maximum.",
       "choix": [
-        "$\\frac{1}{5}$",
-        "$\\frac{2}{5}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{4}{5}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{15}{20}$"
       ],
-      "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(15,25)=5 →$\\frac{3}{5}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(15;20) = 5$ : $\\\\dfrac{15 \\\\div 5}{20 \\\\div 5} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{12}{18}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{8}{12}$ au maximum.",
       "choix": [
-        "$\\frac{1}{3}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{1}{2}$",
-        "$\\frac{3}{4}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{8}{12}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(12,18)=6 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(8;12) = 4$ : $\\\\dfrac{8 \\\\div 4}{12 \\\\div 4} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{20}{30}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{6}{9}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{6}{9}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(20,30)=10 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(6;9) = 3$ : $\\\\dfrac{6 \\\\div 3}{9 \\\\div 3} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{24}{36}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{12}{16}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{12}{16}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(24,36)=12 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(12;16) = 4$ : $\\\\dfrac{12 \\\\div 4}{16 \\\\div 4} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
@@ -149,15 +149,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{16}{24}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{10}{25}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{2}{5}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{2}{6}$",
+        "$\\\\dfrac{10}{25}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(16,24)=8 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{2}{5}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(10;25) = 5$ : $\\\\dfrac{10 \\\\div 5}{25 \\\\div 5} = \\\\dfrac{2}{5}$.",
       "image": null
     },
     {
@@ -166,100 +166,100 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{9}{27}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{14}{21}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{1}{3}$",
-        "$\\frac{1}{4}$",
-        "$\\frac{2}{3}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{14}{21}$"
       ],
-      "reponse": "$\\frac{1}{3}$",
-      "explication": "PGCD(9,27)=9 →$\\frac{1}{3}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(14;21) = 7$ : $\\\\dfrac{14 \\\\div 7}{21 \\\\div 7} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
       "id": "aut_12_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{18}{24}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{6}{10}$ au maximum.",
       "choix": [
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{2}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{4}{5}$",
+        "$\\\\dfrac{3}{6}$",
+        "$\\\\dfrac{6}{10}$"
       ],
-      "reponse": "$\\frac{3}{4}$",
-      "explication": "PGCD(18,24)=6 →$\\frac{3}{4}$",
+      "reponse": "$\\\\dfrac{3}{5}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(6;10) = 2$ : $\\\\dfrac{6 \\\\div 2}{10 \\\\div 2} = \\\\dfrac{3}{5}$.",
       "image": null
     },
     {
       "id": "aut_12_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{25}{100}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{8}{20}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{1}{4}$",
-        "$\\frac{1}{5}$",
-        "$\\frac{2}{5}$"
+        "$\\\\dfrac{2}{5}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{2}{6}$",
+        "$\\\\dfrac{8}{20}$"
       ],
-      "reponse": "$\\frac{1}{4}$",
-      "explication": "PGCD(25,100)=25 →$\\frac{1}{4}$",
+      "reponse": "$\\\\dfrac{2}{5}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(8;20) = 4$ : $\\\\dfrac{8 \\\\div 4}{20 \\\\div 4} = \\\\dfrac{2}{5}$.",
       "image": null
     },
     {
       "id": "aut_12_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{30}{45}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{15}{25}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{2}{5}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{4}{5}$",
+        "$\\\\dfrac{3}{6}$",
+        "$\\\\dfrac{15}{25}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(30,45)=15 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{3}{5}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(15;25) = 5$ : $\\\\dfrac{15 \\\\div 5}{25 \\\\div 5} = \\\\dfrac{3}{5}$.",
       "image": null
     },
     {
       "id": "aut_12_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{21}{28}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{12}{18}$ au maximum.",
       "choix": [
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{2}$",
-        "$\\frac{3}{7}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{12}{18}$"
       ],
-      "reponse": "$\\frac{3}{4}$",
-      "explication": "PGCD(21,28)=7 →$\\frac{3}{4}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(12;18) = 6$ : $\\\\dfrac{12 \\\\div 6}{18 \\\\div 6} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
       "id": "aut_12_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{35}{49}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{20}{30}$ au maximum.",
       "choix": [
-        "$\\frac{4}{7}$",
-        "$\\frac{5}{7}$",
-        "$\\frac{6}{7}$",
-        "$\\frac{3}{7}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{20}{30}$"
       ],
-      "reponse": "$\\frac{5}{7}$",
-      "explication": "PGCD(35,49)=7 →$\\frac{5}{7}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(20;30) = 10$ : $\\\\dfrac{20 \\\\div 10}{30 \\\\div 10} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
@@ -268,15 +268,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{12}{32}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{18}{24}$ au maximum.",
       "choix": [
-        "$\\frac{1}{3}$",
-        "$\\frac{3}{8}$",
-        "$\\frac{1}{4}$",
-        "$\\frac{1}{2}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{18}{24}$"
       ],
-      "reponse": "$\\frac{3}{8}$",
-      "explication": "PGCD(12,32)=4 →$\\frac{3}{8}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(18;24) = 6$ : $\\\\dfrac{18 \\\\div 6}{24 \\\\div 6} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{6}{42}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{16}{24}$ au maximum.",
       "choix": [
-        "$\\frac{1}{5}$",
-        "$\\frac{1}{6}$",
-        "$\\frac{1}{7}$",
-        "$\\frac{1}{8}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{16}{24}$"
       ],
-      "reponse": "$\\frac{1}{7}$",
-      "explication": "PGCD(6,42)=6 →$\\frac{1}{7}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(16;24) = 8$ : $\\\\dfrac{16 \\\\div 8}{24 \\\\div 8} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
@@ -302,15 +302,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{22}{33}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{21}{28}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{21}{28}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(22,33)=11 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(21;28) = 7$ : $\\\\dfrac{21 \\\\div 7}{28 \\\\div 7} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
@@ -319,15 +319,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{40}{60}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{25}{35}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{5}{7}$",
+        "$\\\\dfrac{6}{7}$",
+        "$\\\\dfrac{5}{8}$",
+        "$\\\\dfrac{25}{35}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(40,60)=20 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{5}{7}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(25;35) = 5$ : $\\\\dfrac{25 \\\\div 5}{35 \\\\div 5} = \\\\dfrac{5}{7}$.",
       "image": null
     },
     {
@@ -336,185 +336,185 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{56}{98}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{12}{20}$ au maximum.",
       "choix": [
-        "$\\frac{4}{7}$",
-        "$\\frac{5}{7}$",
-        "$\\frac{6}{7}$",
-        "$\\frac{4}{9}$"
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{4}{5}$",
+        "$\\\\dfrac{3}{6}$",
+        "$\\\\dfrac{12}{20}$"
       ],
-      "reponse": "$\\frac{4}{7}$",
-      "explication": "PGCD(56,98)=14 →$\\frac{4}{7}$",
+      "reponse": "$\\\\dfrac{3}{5}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(12;20) = 4$ : $\\\\dfrac{12 \\\\div 4}{20 \\\\div 4} = \\\\dfrac{3}{5}$.",
       "image": null
     },
     {
       "id": "aut_12_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{36}{60}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{30}{45}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{4}{5}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{30}{45}$"
       ],
-      "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(36,60)=12 →$\\frac{3}{5}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(30;45) = 15$ : $\\\\dfrac{30 \\\\div 15}{45 \\\\div 15} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
       "id": "aut_12_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{27}{45}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{24}{36}$ au maximum.",
       "choix": [
-        "$\\frac{2}{5}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{2}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{24}{36}$"
       ],
-      "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(27,45)=9 →$\\frac{3}{5}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(24;36) = 12$ : $\\\\dfrac{24 \\\\div 12}{36 \\\\div 12} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
       "id": "aut_12_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{48}{72}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{35}{49}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{5}{7}$",
+        "$\\\\dfrac{6}{7}$",
+        "$\\\\dfrac{5}{8}$",
+        "$\\\\dfrac{35}{49}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(48,72)=24 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{5}{7}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(35;49) = 7$ : $\\\\dfrac{35 \\\\div 7}{49 \\\\div 7} = \\\\dfrac{5}{7}$.",
       "image": null
     },
     {
       "id": "aut_12_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{15}{35}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{18}{30}$ au maximum.",
       "choix": [
-        "$\\frac{2}{5}$",
-        "$\\frac{3}{7}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{2}{7}$"
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{4}{5}$",
+        "$\\\\dfrac{3}{6}$",
+        "$\\\\dfrac{18}{30}$"
       ],
-      "reponse": "$\\frac{3}{7}$",
-      "explication": "PGCD(15,35)=5 →$\\frac{3}{7}$",
+      "reponse": "$\\\\dfrac{3}{5}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(18;30) = 6$ : $\\\\dfrac{18 \\\\div 6}{30 \\\\div 6} = \\\\dfrac{3}{5}$.",
       "image": null
     },
     {
       "id": "aut_12_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{24}{32}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{42}{63}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{4}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{42}{63}$"
       ],
-      "reponse": "$\\frac{3}{4}$",
-      "explication": "PGCD(24,32)=8 →$\\frac{3}{4}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(42;63) = 21$ : $\\\\dfrac{42 \\\\div 21}{63 \\\\div 21} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
       "id": "aut_12_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{45}{75}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{48}{60}$ au maximum.",
       "choix": [
-        "$\\frac{2}{5}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{4}{5}$"
+        "$\\\\dfrac{4}{5}$",
+        "$\\\\dfrac{5}{5}$",
+        "$\\\\dfrac{4}{6}$",
+        "$\\\\dfrac{48}{60}$"
       ],
-      "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(45,75)=15 →$\\frac{3}{5}$",
+      "reponse": "$\\\\dfrac{4}{5}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(48;60) = 12$ : $\\\\dfrac{48 \\\\div 12}{60 \\\\div 12} = \\\\dfrac{4}{5}$.",
       "image": null
     },
     {
       "id": "aut_12_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{60}{100}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{36}{48}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{36}{48}$"
       ],
-      "reponse": "$\\frac{3}{5}$",
-      "explication": "PGCD(60,100)=20 →$\\frac{3}{5}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(36;48) = 12$ : $\\\\dfrac{36 \\\\div 12}{48 \\\\div 12} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
       "id": "aut_12_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{28}{42}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{28}{42}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{2}{5}$",
-        "$\\frac{3}{7}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{28}{42}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(28,42)=14 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(28;42) = 14$ : $\\\\dfrac{28 \\\\div 14}{42 \\\\div 14} = \\\\dfrac{2}{3}$.",
       "image": null
     },
     {
       "id": "aut_12_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{54}{81}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{45}{60}$ au maximum.",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{3}{4}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{3}{4}$",
+        "$\\\\dfrac{4}{4}$",
+        "$\\\\dfrac{3}{5}$",
+        "$\\\\dfrac{45}{60}$"
       ],
-      "reponse": "$\\frac{2}{3}$",
-      "explication": "PGCD(54,81)=27 →$\\frac{2}{3}$",
+      "reponse": "$\\\\dfrac{3}{4}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(45;60) = 15$ : $\\\\dfrac{45 \\\\div 15}{60 \\\\div 15} = \\\\dfrac{3}{4}$.",
       "image": null
     },
     {
       "id": "aut_12_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Simplifie$\\frac{36}{84}$",
+      "enonce": "Simplifie la fraction $\\\\dfrac{50}{75}$ au maximum.",
       "choix": [
-        "$\\frac{2}{5}$",
-        "$\\frac{3}{7}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{1}{3}$"
+        "$\\\\dfrac{2}{3}$",
+        "$\\\\dfrac{3}{3}$",
+        "$\\\\dfrac{2}{4}$",
+        "$\\\\dfrac{50}{75}$"
       ],
-      "reponse": "$\\frac{3}{7}$",
-      "explication": "PGCD(36,84)=12 →$\\frac{3}{7}$",
+      "reponse": "$\\\\dfrac{2}{3}$",
+      "explication": "On divise le numérateur et le dénominateur par $\\\\text{PGCD}(50;75) = 25$ : $\\\\dfrac{50 \\\\div 25}{75 \\\\div 25} = \\\\dfrac{2}{3}$.",
       "image": null
     }
   ]

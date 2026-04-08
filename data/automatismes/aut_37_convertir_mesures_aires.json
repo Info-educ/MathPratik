@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_37",
+    "label": "Convertir des mesures d'aires",
+    "icon": "🔲",
+    "color": "#64748b"
+  },
+  "questions": [
+    {
+      "id": "aut_37_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$5\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{dm}^2$",
+      "choix": [
+        "$500\\,\\mathrm{dm}^2$",
+        "$$450$$",
+        "$$550$$",
+        "$$50$$"
+      ],
+      "reponse": "$500\\,\\mathrm{dm}^2$",
+      "explication": "$\\mathrm{m}^2 \\rightarrow \\mathrm{dm}^2$ : $\\times 100$. $5 \\times 100 = 500\\,\\mathrm{dm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3{,}2\\,\\mathrm{dm}^2 = \\ldots\\,\\mathrm{cm}^2$",
+      "choix": [
+        "$320\\,\\mathrm{cm}^2$",
+        "$$32$$",
+        "$$3\\,200$$",
+        "$$3{,}2$$"
+      ],
+      "reponse": "$320\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathrm{dm}^2 \\rightarrow \\mathrm{cm}^2$ : $\\times 100$. $3{,}2 \\times 100 = 320\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$800\\,\\mathrm{cm}^2 = \\ldots\\,\\mathrm{dm}^2$",
+      "choix": [
+        "$8\\,\\mathrm{dm}^2$",
+        "$$80$$",
+        "$$0{,}8$$",
+        "$$80\\,000$$"
+      ],
+      "reponse": "$8\\,\\mathrm{dm}^2$",
+      "explication": "$\\mathrm{cm}^2 \\rightarrow \\mathrm{dm}^2$ : $\\div 100$. $800 \\div 100 = 8\\,\\mathrm{dm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}4\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{cm}^2$",
+      "choix": [
+        "$4\\,000\\,\\mathrm{cm}^2$",
+        "$$40$$",
+        "$$400$$",
+        "$$40\\,000$$"
+      ],
+      "reponse": "$4\\,000\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathrm{m}^2 \\rightarrow \\mathrm{cm}^2$ : $\\times 10\\,000$. $0{,}4 \\times 10\\,000 = 4\\,000\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$25\\,\\mathrm{mm}^2 = \\ldots\\,\\mathrm{cm}^2$",
+      "choix": [
+        "$0{,}25\\,\\mathrm{cm}^2$",
+        "$$2{,}5$$",
+        "$$250$$",
+        "$$2\\,500$$"
+      ],
+      "reponse": "$0{,}25\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathrm{mm}^2 \\rightarrow \\mathrm{cm}^2$ : $\\div 100$. $25 \\div 100 = 0{,}25\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1{,}5\\,\\mathrm{km}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$1\\,500\\,000\\,\\mathrm{m}^2$",
+        "$$1\\,500$$",
+        "$$15\\,000$$",
+        "$$150\\,000$$"
+      ],
+      "reponse": "$1\\,500\\,000\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{km}^2 \\rightarrow \\mathrm{m}^2$ : $\\times 1\\,000\\,000$. $1{,}5 \\times 1\\,000\\,000 = 1\\,500\\,000\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$4\\,\\mathrm{hm}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$40\\,000\\,\\mathrm{m}^2$",
+        "$$400$$",
+        "$$4\\,000$$",
+        "$$400\\,000$$"
+      ],
+      "reponse": "$40\\,000\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{hm}^2 \\rightarrow \\mathrm{m}^2$ : $\\times 10\\,000$. $4 \\times 10\\,000 = 40\\,000\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$600\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{dam}^2$",
+      "choix": [
+        "$6\\,\\mathrm{dam}^2$",
+        "$$60$$",
+        "$$0{,}6$$",
+        "$$6\\,000$$"
+      ],
+      "reponse": "$6\\,\\mathrm{dam}^2$",
+      "explication": "$\\mathrm{m}^2 \\rightarrow \\mathrm{dam}^2$ : $\\div 100$. $600 \\div 100 = 6\\,\\mathrm{dam}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}05\\,\\mathrm{dam}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$5\\,\\mathrm{m}^2$",
+        "$$0{,}5$$",
+        "$$50$$",
+        "$$500$$"
+      ],
+      "reponse": "$5\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{dam}^2 \\rightarrow \\mathrm{m}^2$ : $\\times 100$. $0{,}05 \\times 100 = 5\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3{,}6\\,\\mathrm{dm}^2 = \\ldots\\,\\mathrm{mm}^2$",
+      "choix": [
+        "$36\\,000\\,\\mathrm{mm}^2$",
+        "$$360$$",
+        "$$3\\,600$$",
+        "$$360\\,000$$"
+      ],
+      "reponse": "$36\\,000\\,\\mathrm{mm}^2$",
+      "explication": "$\\mathrm{dm}^2 \\rightarrow \\mathrm{cm}^2 \\rightarrow \\mathrm{mm}^2$ : $\\times 100 \\times 100 = \\times 10\\,000$. $3{,}6 \\times 10\\,000 = 36\\,000\\,\\mathrm{mm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1\\,200\\,\\mathrm{dm}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$12\\,\\mathrm{m}^2$",
+        "$$1{,}2$$",
+        "$$120$$",
+        "$$1\\,200$$"
+      ],
+      "reponse": "$12\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{dm}^2 \\rightarrow \\mathrm{m}^2$ : $\\div 100$. $1\\,200 \\div 100 = 12\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_12",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$2\\,\\mathrm{ha} = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$20\\,000\\,\\mathrm{m}^2$",
+        "$$2\\,000$$",
+        "$$200\\,000$$",
+        "$$200$$"
+      ],
+      "reponse": "$20\\,000\\,\\mathrm{m}^2$",
+      "explication": "$1\\,\\mathrm{ha} = 1\\,\\mathrm{hm}^2 = 10\\,000\\,\\mathrm{m}^2$. $2 \\times 10\\,000 = 20\\,000\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$5\\,000\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{ha}$",
+      "choix": [
+        "$0{,}5\\,\\mathrm{ha}$",
+        "$$5$$",
+        "$$50$$",
+        "$$0{,}05$$"
+      ],
+      "reponse": "$0{,}5\\,\\mathrm{ha}$",
+      "explication": "$\\mathrm{m}^2 \\rightarrow \\mathrm{ha}$ : $\\div 10\\,000$. $5\\,000 \\div 10\\,000 = 0{,}5\\,\\mathrm{ha}$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}3\\,\\mathrm{km}^2 = \\ldots\\,\\mathrm{hm}^2$",
+      "choix": [
+        "$30\\,\\mathrm{hm}^2$",
+        "$$3$$",
+        "$$300$$",
+        "$$3\\,000$$"
+      ],
+      "reponse": "$30\\,\\mathrm{hm}^2$",
+      "explication": "$\\mathrm{km}^2 \\rightarrow \\mathrm{hm}^2$ : $\\times 100$. $0{,}3 \\times 100 = 30\\,\\mathrm{hm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$45\\,\\mathrm{cm}^2 = \\ldots\\,\\mathrm{mm}^2$",
+      "choix": [
+        "$4\\,500\\,\\mathrm{mm}^2$",
+        "$$45$$",
+        "$$450$$",
+        "$$45\\,000$$"
+      ],
+      "reponse": "$4\\,500\\,\\mathrm{mm}^2$",
+      "explication": "$\\mathrm{cm}^2 \\rightarrow \\mathrm{mm}^2$ : $\\times 100$. $45 \\times 100 = 4\\,500\\,\\mathrm{mm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$7\\,200\\,\\mathrm{mm}^2 = \\ldots\\,\\mathrm{cm}^2$",
+      "choix": [
+        "$72\\,\\mathrm{cm}^2$",
+        "$$720$$",
+        "$$7{,}2$$",
+        "$$7\\,200$$"
+      ],
+      "reponse": "$72\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathrm{mm}^2 \\rightarrow \\mathrm{cm}^2$ : $\\div 100$. $7\\,200 \\div 100 = 72\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$4{,}8\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{dm}^2$",
+      "choix": [
+        "$480\\,\\mathrm{dm}^2$",
+        "$$48$$",
+        "$$4\\,800$$",
+        "$$0{,}48$$"
+      ],
+      "reponse": "$480\\,\\mathrm{dm}^2$",
+      "explication": "$\\mathrm{m}^2 \\rightarrow \\mathrm{dm}^2$ : $\\times 100$. $4{,}8 \\times 100 = 480\\,\\mathrm{dm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}025\\,\\mathrm{km}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$25\\,000\\,\\mathrm{m}^2$",
+        "$$2\\,500$$",
+        "$$250\\,000$$",
+        "$$250$$"
+      ],
+      "reponse": "$25\\,000\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{km}^2 \\rightarrow \\mathrm{m}^2$ : $\\times 1\\,000\\,000$. $0{,}025 \\times 1\\,000\\,000 = 25\\,000\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$350\\,\\mathrm{dm}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$3{,}5\\,\\mathrm{m}^2$",
+        "$$35$$",
+        "$$0{,}35$$",
+        "$$3\\,500$$"
+      ],
+      "reponse": "$3{,}5\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{dm}^2 \\rightarrow \\mathrm{m}^2$ : $\\div 100$. $350 \\div 100 = 3{,}5\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$6\\,\\mathrm{cm}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$0{,}0006\\,\\mathrm{m}^2$",
+        "$$0{,}06$$",
+        "$$0{,}006$$",
+        "$$0{,}00006$$"
+      ],
+      "reponse": "$0{,}0006\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{cm}^2 \\rightarrow \\mathrm{m}^2$ : $\\div 10\\,000$. $6 \\div 10\\,000 = 0{,}0006\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}8\\,\\mathrm{dam}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$80\\,\\mathrm{m}^2$",
+        "$$8$$",
+        "$$800$$",
+        "$$0{,}08$$"
+      ],
+      "reponse": "$80\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{dam}^2 \\rightarrow \\mathrm{m}^2$ : $\\times 100$. $0{,}8 \\times 100 = 80\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1\\,500\\,\\mathrm{cm}^2 = \\ldots\\,\\mathrm{dm}^2$",
+      "choix": [
+        "$15\\,\\mathrm{dm}^2$",
+        "$$150$$",
+        "$$1{,}5$$",
+        "$$15\\,000$$"
+      ],
+      "reponse": "$15\\,\\mathrm{dm}^2$",
+      "explication": "$\\mathrm{cm}^2 \\rightarrow \\mathrm{dm}^2$ : $\\div 100$. $1\\,500 \\div 100 = 15\\,\\mathrm{dm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3\\,\\mathrm{dm}^2 = \\ldots\\,\\mathrm{cm}^2$",
+      "choix": [
+        "$300\\,\\mathrm{cm}^2$",
+        "$$30$$",
+        "$$3\\,000$$",
+        "$$0{,}3$$"
+      ],
+      "reponse": "$300\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathrm{dm}^2 \\rightarrow \\mathrm{cm}^2$ : $\\times 100$. $3 \\times 100 = 300\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$200\\,\\mathrm{mm}^2 = \\ldots\\,\\mathrm{cm}^2$",
+      "choix": [
+        "$2\\,\\mathrm{cm}^2$",
+        "$$20$$",
+        "$$0{,}2$$",
+        "$$2\\,000$$"
+      ],
+      "reponse": "$2\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathrm{mm}^2 \\rightarrow \\mathrm{cm}^2$ : $\\div 100$. $200 \\div 100 = 2\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$12\\,\\mathrm{ha} = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$120\\,000\\,\\mathrm{m}^2$",
+        "$$12\\,000$$",
+        "$$1\\,200\\,000$$",
+        "$$1\\,200$$"
+      ],
+      "reponse": "$120\\,000\\,\\mathrm{m}^2$",
+      "explication": "$1\\,\\mathrm{ha} = 10\\,000\\,\\mathrm{m}^2$. $12 \\times 10\\,000 = 120\\,000\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}4\\,\\mathrm{hm}^2 = \\ldots\\,\\mathrm{m}^2$",
+      "choix": [
+        "$4\\,000\\,\\mathrm{m}^2$",
+        "$$400$$",
+        "$$40\\,000$$",
+        "$$40$$"
+      ],
+      "reponse": "$4\\,000\\,\\mathrm{m}^2$",
+      "explication": "$\\mathrm{hm}^2 \\rightarrow \\mathrm{m}^2$ : $\\times 10\\,000$. $0{,}4 \\times 10\\,000 = 4\\,000\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$900\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{dam}^2$",
+      "choix": [
+        "$9\\,\\mathrm{dam}^2$",
+        "$$90$$",
+        "$$0{,}9$$",
+        "$$9\\,000$$"
+      ],
+      "reponse": "$9\\,\\mathrm{dam}^2$",
+      "explication": "$\\mathrm{m}^2 \\rightarrow \\mathrm{dam}^2$ : $\\div 100$. $900 \\div 100 = 9\\,\\mathrm{dam}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1{,}2\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{mm}^2$",
+      "choix": [
+        "$1\\,200\\,000\\,\\mathrm{mm}^2$",
+        "$$120\\,000$$",
+        "$$12\\,000\\,000$$",
+        "$$12\\,000$$"
+      ],
+      "reponse": "$1\\,200\\,000\\,\\mathrm{mm}^2$",
+      "explication": "$1\\,\\mathrm{m}^2 = 1\\,000\\,000\\,\\mathrm{mm}^2$. $1{,}2 \\times 1\\,000\\,000 = 1\\,200\\,000\\,\\mathrm{mm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$50\\,000\\,\\mathrm{m}^2 = \\ldots\\,\\mathrm{km}^2$",
+      "choix": [
+        "$0{,}05\\,\\mathrm{km}^2$",
+        "$$0{,}5$$",
+        "$$0{,}005$$",
+        "$$5$$"
+      ],
+      "reponse": "$0{,}05\\,\\mathrm{km}^2$",
+      "explication": "$\\mathrm{m}^2 \\rightarrow \\mathrm{km}^2$ : $\\div 1\\,000\\,000$. $50\\,000 \\div 1\\,000\\,000 = 0{,}05\\,\\mathrm{km}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_37_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$2{,}5\\,\\mathrm{dm}^2 = \\ldots\\,\\mathrm{cm}^2$",
+      "choix": [
+        "$250\\,\\mathrm{cm}^2$",
+        "$$25$$",
+        "$$2\\,500$$",
+        "$$0{,}25$$"
+      ],
+      "reponse": "$250\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathrm{dm}^2 \\rightarrow \\mathrm{cm}^2$ : $\\times 100$. $2{,}5 \\times 100 = 250\\,\\mathrm{cm}^2$.",
+      "image": null
+    }
+  ]
+}
