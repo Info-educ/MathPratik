@@ -31,7 +31,7 @@
     card.style.overflow='hidden';
     var cv=document.createElement('canvas');
     cv.className='mp-cv';
-    cv.style.cssText='position:absolute;inset:0;pointer-events:none;z-index:2;border-radius:inherit;';
+    cv.style.cssText='position:absolute;inset:0;pointer-events:none;z-index:0;border-radius:inherit;';
     cv.width=card.offsetWidth||280; cv.height=card.offsetHeight||88;
     card.insertBefore(cv,card.firstChild);
     _wcMap.set(card,cv);
