@@ -3,7 +3,7 @@
   "thematique": {
     "id": "aut_09",
     "label": "Lister les diviseurs d'un nombre",
-    "icon": "📊",
+    "icon": "🔢",
     "color": "#0f766e"
   },
   "questions": [
@@ -13,15 +13,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Combien de diviseurs a 12 ?",
+      "enonce": "Donne la liste complète des diviseurs de $12$.",
       "choix": [
-        "3",
-        "4",
-        "6",
-        "8"
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 12$",
+        "$1 ; 2 ; 4 ; 6 ; 12$",
+        "$1 ; 2 ; 3 ; 6 ; 12$",
+        "$2 ; 3 ; 4 ; 6$"
       ],
-      "reponse": "6",
-      "explication": "Div(12): 1,2,3,4,6,12 → 6",
+      "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 12$",
+      "explication": "Les diviseurs de $12$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 12$. On vérifie par paires : $1 \\times 12 = 12$, $2 \\times 6 = 12$, $3 \\times 4 = 12$.",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Lequel est un diviseur de 18 ?",
+      "enonce": "Donne la liste complète des diviseurs de $18$.",
       "choix": [
-        "4",
-        "7",
-        "9",
-        "8"
+        "$1 ; 2 ; 3 ; 6 ; 9 ; 18$",
+        "$1 ; 2 ; 6 ; 9 ; 18$",
+        "$1 ; 3 ; 6 ; 9 ; 18$",
+        "$2 ; 3 ; 6 ; 9$"
       ],
-      "reponse": "9",
-      "explication": "Div(18): 1,2,3,6,9,18",
+      "reponse": "$1 ; 2 ; 3 ; 6 ; 9 ; 18$",
+      "explication": "Les diviseurs de $18$ sont : $1 ; 2 ; 3 ; 6 ; 9 ; 18$. Paires : $1 \\times 18$, $2 \\times 9$, $3 \\times 6$.",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Combien de diviseurs a 24 ?",
+      "enonce": "Donne la liste complète des diviseurs de $24$.",
       "choix": [
-        "4",
-        "6",
-        "8",
-        "10"
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24$",
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 12 ; 24$",
+        "$1 ; 2 ; 4 ; 6 ; 8 ; 12 ; 24$",
+        "$2 ; 3 ; 4 ; 6 ; 8 ; 12$"
       ],
-      "reponse": "8",
-      "explication": "Div(24): 1,2,3,4,6,8,12,24 → 8",
+      "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24$",
+      "explication": "Les diviseurs de $24$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24$. Paires : $1 \\times 24$, $2 \\times 12$, $3 \\times 8$, $4 \\times 6$.",
       "image": null
     },
     {
@@ -64,15 +64,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Lequel est un diviseur de 30 ?",
+      "enonce": "Donne la liste complète des diviseurs de $30$.",
       "choix": [
-        "4",
-        "7",
-        "9",
-        "15"
+        "$1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 15 ; 30$",
+        "$1 ; 2 ; 3 ; 5 ; 10 ; 15 ; 30$",
+        "$1 ; 2 ; 5 ; 6 ; 10 ; 15 ; 30$",
+        "$2 ; 3 ; 5 ; 6 ; 10 ; 15$"
       ],
-      "reponse": "15",
-      "explication": "Div(30): 1,2,3,5,6,10,15,30",
+      "reponse": "$1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 15 ; 30$",
+      "explication": "Les diviseurs de $30$ sont : $1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 15 ; 30$. Paires : $1 \\times 30$, $2 \\times 15$, $3 \\times 10$, $5 \\times 6$.",
       "image": null
     },
     {
@@ -81,15 +81,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Combien de diviseurs a 36 ?",
+      "enonce": "Donne la liste complète des diviseurs de $36$.",
       "choix": [
-        "6",
-        "7",
-        "9",
-        "11"
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18 ; 36$",
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 12 ; 18 ; 36$",
+        "$1 ; 2 ; 4 ; 6 ; 9 ; 12 ; 18 ; 36$",
+        "$2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18$"
       ],
-      "reponse": "9",
-      "explication": "Div(36): 9 diviseurs",
+      "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18 ; 36$",
+      "explication": "Les diviseurs de $36$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18 ; 36$. Paires : $1 \\times 36$, $2 \\times 18$, $3 \\times 12$, $4 \\times 9$, $6 \\times 6$.",
       "image": null
     },
     {
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Lequel est un diviseur de 48 ?",
+      "enonce": "Donne la liste complète des diviseurs de $48$.",
       "choix": [
-        "7",
-        "16",
-        "9",
-        "11"
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48$",
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24 ; 48$",
+        "$1 ; 2 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48$",
+        "$2 ; 3 ; 4 ; 6 ; 8 ; 16 ; 24$"
       ],
-      "reponse": "16",
-      "explication": "Div(48) inclut 16",
+      "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48$",
+      "explication": "Les diviseurs de $48$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48$. Paires : $1 \\times 48$, $2 \\times 24$, $3 \\times 16$, $4 \\times 12$, $6 \\times 8$.",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Combien de diviseurs a 50 ?",
+      "enonce": "Donne la liste complète des diviseurs de $50$.",
       "choix": [
-        "3",
-        "4",
-        "6",
-        "8"
+        "$1 ; 2 ; 5 ; 10 ; 25 ; 50$",
+        "$1 ; 2 ; 5 ; 25 ; 50$",
+        "$1 ; 5 ; 10 ; 25 ; 50$",
+        "$2 ; 5 ; 10 ; 25$"
       ],
-      "reponse": "6",
-      "explication": "Div(50): 1,2,5,10,25,50 → 6",
+      "reponse": "$1 ; 2 ; 5 ; 10 ; 25 ; 50$",
+      "explication": "Les diviseurs de $50$ sont : $1 ; 2 ; 5 ; 10 ; 25 ; 50$. Paires : $1 \\times 50$, $2 \\times 25$, $5 \\times 10$.",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Lequel est un diviseur de 60 ?",
+      "enonce": "Donne la liste complète des diviseurs de $60$.",
       "choix": [
-        "7",
-        "8",
-        "20",
-        "11"
+        "$1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$",
+        "$1 ; 2 ; 3 ; 4 ; 5 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$",
+        "$1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$",
+        "$2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30$"
       ],
-      "reponse": "20",
-      "explication": "60$\\div$20=3",
+      "reponse": "$1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$",
+      "explication": "Les diviseurs de $60$ sont : $1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$. Paires : $1 \\times 60$, $2 \\times 30$, $3 \\times 20$, $4 \\times 15$, $5 \\times 12$, $6 \\times 10$.",
       "image": null
     },
     {
@@ -149,15 +149,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Combien de diviseurs a 72 ?",
+      "enonce": "Donne la liste complète des diviseurs de $72$.",
       "choix": [
-        "8",
-        "10",
-        "12",
-        "14"
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36 ; 72$",
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 18 ; 24 ; 36 ; 72$",
+        "$1 ; 2 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36 ; 72$",
+        "$2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36$"
       ],
-      "reponse": "12",
-      "explication": "Div(72): 12 diviseurs",
+      "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36 ; 72$",
+      "explication": "Les diviseurs de $72$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36 ; 72$. Paires : $1 \\times 72$, $2 \\times 36$, $3 \\times 24$, $4 \\times 18$, $6 \\times 12$, $8 \\times 9$.",
       "image": null
     },
     {
@@ -166,100 +166,100 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Lequel est un diviseur de 100 ?",
+      "enonce": "Donne la liste complète des diviseurs de $100$.",
       "choix": [
-        "3",
-        "7",
-        "25",
-        "11"
+        "$1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100$",
+        "$1 ; 2 ; 4 ; 5 ; 10 ; 25 ; 50 ; 100$",
+        "$1 ; 2 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100$",
+        "$2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50$"
       ],
-      "reponse": "25",
-      "explication": "100$\\div$25=4",
+      "reponse": "$1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100$",
+      "explication": "Les diviseurs de $100$ sont : $1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100$. Paires : $1 \\times 100$, $2 \\times 50$, $4 \\times 25$, $5 \\times 20$, $10 \\times 10$.",
       "image": null
     },
     {
       "id": "aut_09_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 15 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $15$.",
       "choix": [
-        "2",
-        "3",
-        "4",
-        "6"
+        "$1 ; 3 ; 5 ; 15$",
+        "$1 ; 5 ; 15$",
+        "$3 ; 5 ; 15$",
+        "$1 ; 3 ; 15$"
       ],
-      "reponse": "4",
-      "explication": "Div(15): 1,3,5,15 → 4",
+      "reponse": "$1 ; 3 ; 5 ; 15$",
+      "explication": "Les diviseurs de $15$ sont : $1 ; 3 ; 5 ; 15$. Paires : $1 \\times 15$, $3 \\times 5$.",
       "image": null
     },
     {
       "id": "aut_09_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 20 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $20$.",
       "choix": [
-        "3",
-        "6",
-        "8",
-        "4"
+        "$1 ; 2 ; 4 ; 5 ; 10 ; 20$",
+        "$1 ; 2 ; 5 ; 10 ; 20$",
+        "$1 ; 4 ; 5 ; 10 ; 20$",
+        "$2 ; 4 ; 5 ; 10$"
       ],
-      "reponse": "4",
-      "explication": "20$\\div$4=5",
+      "reponse": "$1 ; 2 ; 4 ; 5 ; 10 ; 20$",
+      "explication": "Les diviseurs de $20$ sont : $1 ; 2 ; 4 ; 5 ; 10 ; 20$. Paires : $1 \\times 20$, $2 \\times 10$, $4 \\times 5$.",
       "image": null
     },
     {
       "id": "aut_09_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 28 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $28$.",
       "choix": [
-        "3",
-        "4",
-        "6",
-        "8"
+        "$1 ; 2 ; 4 ; 7 ; 14 ; 28$",
+        "$1 ; 2 ; 7 ; 14 ; 28$",
+        "$1 ; 4 ; 7 ; 14 ; 28$",
+        "$2 ; 4 ; 7 ; 14$"
       ],
-      "reponse": "6",
-      "explication": "Div(28): 1,2,4,7,14,28 → 6",
+      "reponse": "$1 ; 2 ; 4 ; 7 ; 14 ; 28$",
+      "explication": "Les diviseurs de $28$ sont : $1 ; 2 ; 4 ; 7 ; 14 ; 28$. Paires : $1 \\times 28$, $2 \\times 14$, $4 \\times 7$.",
       "image": null
     },
     {
       "id": "aut_09_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 32 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $32$.",
       "choix": [
-        "3",
-        "6",
-        "9",
-        "16"
+        "$1 ; 2 ; 4 ; 8 ; 16 ; 32$",
+        "$1 ; 2 ; 4 ; 16 ; 32$",
+        "$1 ; 4 ; 8 ; 16 ; 32$",
+        "$2 ; 4 ; 8 ; 16$"
       ],
-      "reponse": "16",
-      "explication": "32$\\div$16=2",
+      "reponse": "$1 ; 2 ; 4 ; 8 ; 16 ; 32$",
+      "explication": "Les diviseurs de $32$ sont : $1 ; 2 ; 4 ; 8 ; 16 ; 32$. Paires : $1 \\times 32$, $2 \\times 16$, $4 \\times 8$.",
       "image": null
     },
     {
       "id": "aut_09_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 40 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $40$.",
       "choix": [
-        "4",
-        "6",
-        "8",
-        "10"
+        "$1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 20 ; 40$",
+        "$1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 40$",
+        "$1 ; 2 ; 5 ; 8 ; 10 ; 20 ; 40$",
+        "$2 ; 4 ; 5 ; 8 ; 10 ; 20$"
       ],
-      "reponse": "8",
-      "explication": "Div(40): 8 diviseurs",
+      "reponse": "$1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 20 ; 40$",
+      "explication": "Les diviseurs de $40$ sont : $1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 20 ; 40$. Paires : $1 \\times 40$, $2 \\times 20$, $4 \\times 10$, $5 \\times 8$.",
       "image": null
     },
     {
@@ -267,16 +267,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 45 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $45$.",
       "choix": [
-        "4",
-        "6",
-        "15",
-        "10"
+        "$1 ; 3 ; 5 ; 9 ; 15 ; 45$",
+        "$1 ; 3 ; 5 ; 15 ; 45$",
+        "$1 ; 5 ; 9 ; 15 ; 45$",
+        "$3 ; 5 ; 9 ; 15$"
       ],
-      "reponse": "15",
-      "explication": "45$\\div$15=3",
+      "reponse": "$1 ; 3 ; 5 ; 9 ; 15 ; 45$",
+      "explication": "Les diviseurs de $45$ sont : $1 ; 3 ; 5 ; 9 ; 15 ; 45$. Paires : $1 \\times 45$, $3 \\times 15$, $5 \\times 9$.",
       "image": null
     },
     {
@@ -284,16 +284,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 56 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $56$.",
       "choix": [
-        "4",
-        "6",
-        "8",
-        "10"
+        "$1 ; 2 ; 4 ; 7 ; 8 ; 14 ; 28 ; 56$",
+        "$1 ; 2 ; 4 ; 7 ; 14 ; 28 ; 56$",
+        "$1 ; 2 ; 7 ; 8 ; 14 ; 28 ; 56$",
+        "$2 ; 4 ; 7 ; 8 ; 14 ; 28$"
       ],
-      "reponse": "8",
-      "explication": "Div(56): 8 diviseurs",
+      "reponse": "$1 ; 2 ; 4 ; 7 ; 8 ; 14 ; 28 ; 56$",
+      "explication": "Les diviseurs de $56$ sont : $1 ; 2 ; 4 ; 7 ; 8 ; 14 ; 28 ; 56$. Paires : $1 \\times 56$, $2 \\times 28$, $4 \\times 14$, $7 \\times 8$.",
       "image": null
     },
     {
@@ -301,16 +301,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 64 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $64$.",
       "choix": [
-        "3",
-        "6",
-        "9",
-        "32"
+        "$1 ; 2 ; 4 ; 8 ; 16 ; 32 ; 64$",
+        "$1 ; 2 ; 4 ; 8 ; 16 ; 64$",
+        "$1 ; 4 ; 8 ; 16 ; 32 ; 64$",
+        "$2 ; 4 ; 8 ; 16 ; 32$"
       ],
-      "reponse": "32",
-      "explication": "64$\\div$32=2",
+      "reponse": "$1 ; 2 ; 4 ; 8 ; 16 ; 32 ; 64$",
+      "explication": "Les diviseurs de $64$ sont : $1 ; 2 ; 4 ; 8 ; 16 ; 32 ; 64$. Paires : $1 \\times 64$, $2 \\times 32$, $4 \\times 16$, $8 \\times 8$.",
       "image": null
     },
     {
@@ -318,16 +318,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 80 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $80$.",
       "choix": [
-        "6",
-        "8",
-        "10",
-        "12"
+        "$1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40 ; 80$",
+        "$1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 20 ; 40 ; 80$",
+        "$1 ; 2 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40 ; 80$",
+        "$2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40$"
       ],
-      "reponse": "10",
-      "explication": "Div(80): 10 diviseurs",
+      "reponse": "$1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40 ; 80$",
+      "explication": "Les diviseurs de $80$ sont : $1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40 ; 80$. Paires : $1 \\times 80$, $2 \\times 40$, $4 \\times 20$, $5 \\times 16$, $8 \\times 10$.",
       "image": null
     },
     {
@@ -335,186 +335,186 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 90 ?",
+      "chrono": 25,
+      "enonce": "Donne la liste complète des diviseurs de $90$.",
       "choix": [
-        "7",
-        "11",
-        "45",
-        "13"
+        "$1 ; 2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45 ; 90$",
+        "$1 ; 2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 30 ; 45 ; 90$",
+        "$1 ; 2 ; 3 ; 5 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45 ; 90$",
+        "$2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45$"
       ],
-      "reponse": "45",
-      "explication": "90$\\div$45=2",
+      "reponse": "$1 ; 2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45 ; 90$",
+      "explication": "Les diviseurs de $90$ sont : $1 ; 2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45 ; 90$. Paires : $1 \\times 90$, $2 \\times 45$, $3 \\times 30$, $5 \\times 18$, $6 \\times 15$, $9 \\times 10$.",
       "image": null
     },
     {
       "id": "aut_09_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 16 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $16$.",
       "choix": [
-        "3",
-        "4",
-        "5",
-        "6"
+        "$1 ; 2 ; 4 ; 8 ; 16$",
+        "$1 ; 2 ; 4 ; 16$",
+        "$1 ; 4 ; 8 ; 16$",
+        "$2 ; 4 ; 8$"
       ],
-      "reponse": "5",
-      "explication": "Div(16): 1,2,4,8,16 → 5",
+      "reponse": "$1 ; 2 ; 4 ; 8 ; 16$",
+      "explication": "Les diviseurs de $16$ sont : $1 ; 2 ; 4 ; 8 ; 16$. Paires : $1 \\times 16$, $2 \\times 8$, $4 \\times 4$.",
       "image": null
     },
     {
       "id": "aut_09_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 21 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $21$.",
       "choix": [
-        "4",
-        "7",
-        "9",
-        "11"
+        "$1 ; 3 ; 7 ; 21$",
+        "$1 ; 7 ; 21$",
+        "$3 ; 7 ; 21$",
+        "$1 ; 3 ; 21$"
       ],
-      "reponse": "7",
-      "explication": "21$\\div$7=3",
+      "reponse": "$1 ; 3 ; 7 ; 21$",
+      "explication": "Les diviseurs de $21$ sont : $1 ; 3 ; 7 ; 21$. Paires : $1 \\times 21$, $3 \\times 7$.",
       "image": null
     },
     {
       "id": "aut_09_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 25 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $25$.",
       "choix": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "$1 ; 5 ; 25$",
+        "$1 ; 25$",
+        "$5 ; 25$",
+        "$1 ; 5 ; 10 ; 25$"
       ],
-      "reponse": "3",
-      "explication": "Div(25): 1,5,25 → 3",
+      "reponse": "$1 ; 5 ; 25$",
+      "explication": "Les diviseurs de $25$ sont : $1 ; 5 ; 25$. Paires : $1 \\times 25$, $5 \\times 5$.",
       "image": null
     },
     {
       "id": "aut_09_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 35 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $35$.",
       "choix": [
-        "3",
-        "4",
-        "7",
-        "9"
+        "$1 ; 5 ; 7 ; 35$",
+        "$1 ; 7 ; 35$",
+        "$5 ; 7 ; 35$",
+        "$1 ; 5 ; 35$"
       ],
-      "reponse": "7",
-      "explication": "35$\\div$7=5",
+      "reponse": "$1 ; 5 ; 7 ; 35$",
+      "explication": "Les diviseurs de $35$ sont : $1 ; 5 ; 7 ; 35$. Paires : $1 \\times 35$, $5 \\times 7$.",
       "image": null
     },
     {
       "id": "aut_09_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 42 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $42$.",
       "choix": [
-        "4",
-        "9",
-        "14",
-        "11"
+        "$1 ; 2 ; 3 ; 6 ; 7 ; 14 ; 21 ; 42$",
+        "$1 ; 2 ; 3 ; 7 ; 14 ; 21 ; 42$",
+        "$1 ; 2 ; 6 ; 7 ; 14 ; 21 ; 42$",
+        "$2 ; 3 ; 6 ; 7 ; 14 ; 21$"
       ],
-      "reponse": "14",
-      "explication": "42$\\div$14=3",
+      "reponse": "$1 ; 2 ; 3 ; 6 ; 7 ; 14 ; 21 ; 42$",
+      "explication": "Les diviseurs de $42$ sont : $1 ; 2 ; 3 ; 6 ; 7 ; 14 ; 21 ; 42$. Paires : $1 \\times 42$, $2 \\times 21$, $3 \\times 14$, $6 \\times 7$.",
       "image": null
     },
     {
       "id": "aut_09_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 44 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $44$.",
       "choix": [
-        "3",
-        "6",
-        "11",
-        "9"
+        "$1 ; 2 ; 4 ; 11 ; 22 ; 44$",
+        "$1 ; 2 ; 11 ; 22 ; 44$",
+        "$1 ; 4 ; 11 ; 22 ; 44$",
+        "$2 ; 4 ; 11 ; 22$"
       ],
-      "reponse": "11",
-      "explication": "44$\\div$11=4",
+      "reponse": "$1 ; 2 ; 4 ; 11 ; 22 ; 44$",
+      "explication": "Les diviseurs de $44$ sont : $1 ; 2 ; 4 ; 11 ; 22 ; 44$. Paires : $1 \\times 44$, $2 \\times 22$, $4 \\times 11$.",
       "image": null
     },
     {
       "id": "aut_09_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 54 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $54$.",
       "choix": [
-        "4",
-        "8",
-        "18",
-        "10"
+        "$1 ; 2 ; 3 ; 6 ; 9 ; 18 ; 27 ; 54$",
+        "$1 ; 2 ; 3 ; 6 ; 9 ; 27 ; 54$",
+        "$1 ; 2 ; 6 ; 9 ; 18 ; 27 ; 54$",
+        "$2 ; 3 ; 6 ; 9 ; 18 ; 27$"
       ],
-      "reponse": "18",
-      "explication": "54$\\div$18=3",
+      "reponse": "$1 ; 2 ; 3 ; 6 ; 9 ; 18 ; 27 ; 54$",
+      "explication": "Les diviseurs de $54$ sont : $1 ; 2 ; 3 ; 6 ; 9 ; 18 ; 27 ; 54$. Paires : $1 \\times 54$, $2 \\times 27$, $3 \\times 18$, $6 \\times 9$.",
       "image": null
     },
     {
       "id": "aut_09_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 66 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $66$.",
       "choix": [
-        "4",
-        "9",
-        "22",
-        "16"
+        "$1 ; 2 ; 3 ; 6 ; 11 ; 22 ; 33 ; 66$",
+        "$1 ; 2 ; 3 ; 11 ; 22 ; 33 ; 66$",
+        "$1 ; 2 ; 6 ; 11 ; 22 ; 33 ; 66$",
+        "$2 ; 3 ; 6 ; 11 ; 22 ; 33$"
       ],
-      "reponse": "22",
-      "explication": "66$\\div$22=3",
+      "reponse": "$1 ; 2 ; 3 ; 6 ; 11 ; 22 ; 33 ; 66$",
+      "explication": "Les diviseurs de $66$ sont : $1 ; 2 ; 3 ; 6 ; 11 ; 22 ; 33 ; 66$. Paires : $1 \\times 66$, $2 \\times 33$, $3 \\times 22$, $6 \\times 11$.",
       "image": null
     },
     {
       "id": "aut_09_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Lequel est un diviseur de 70 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $70$.",
       "choix": [
-        "3",
-        "9",
-        "35",
-        "4"
+        "$1 ; 2 ; 5 ; 7 ; 10 ; 14 ; 35 ; 70$",
+        "$1 ; 2 ; 5 ; 7 ; 14 ; 35 ; 70$",
+        "$1 ; 5 ; 7 ; 10 ; 14 ; 35 ; 70$",
+        "$2 ; 5 ; 7 ; 10 ; 14 ; 35$"
       ],
-      "reponse": "35",
-      "explication": "70$\\div$35=2",
+      "reponse": "$1 ; 2 ; 5 ; 7 ; 10 ; 14 ; 35 ; 70$",
+      "explication": "Les diviseurs de $70$ sont : $1 ; 2 ; 5 ; 7 ; 10 ; 14 ; 35 ; 70$. Paires : $1 \\times 70$, $2 \\times 35$, $5 \\times 14$, $7 \\times 10$.",
       "image": null
     },
     {
       "id": "aut_09_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Combien de diviseurs a 84 ?",
+      "chrono": 30,
+      "enonce": "Donne la liste complète des diviseurs de $84$.",
       "choix": [
-        "8",
-        "10",
-        "12",
-        "6"
+        "$1 ; 2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42 ; 84$",
+        "$1 ; 2 ; 3 ; 4 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42 ; 84$",
+        "$1 ; 2 ; 3 ; 6 ; 7 ; 14 ; 21 ; 28 ; 42 ; 84$",
+        "$2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42$"
       ],
-      "reponse": "12",
-      "explication": "Div(84): 12 diviseurs",
+      "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42 ; 84$",
+      "explication": "Les diviseurs de $84$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42 ; 84$. Paires : $1 \\times 84$, $2 \\times 42$, $3 \\times 28$, $4 \\times 21$, $6 \\times 14$, $7 \\times 12$.",
       "image": null
     }
   ]

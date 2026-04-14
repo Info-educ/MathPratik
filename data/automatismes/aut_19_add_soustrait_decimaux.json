@@ -2,9 +2,9 @@
   "niveau": "automatismes",
   "thematique": {
     "id": "aut_19",
-    "label": "Additionner et soustraire des décimaux",
+    "label": "Additionner et soustraire des nombres décimaux",
     "icon": "➕",
-    "color": "#064e3b"
+    "color": "#0284c7"
   },
   "questions": [
     {
@@ -13,15 +13,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3,4 + 2,5 = ?",
+      "enonce": "Calcule : $3{,}2 + 4{,}5$",
       "choix": [
-        "5,7",
-        "5,8",
-        "5,9",
-        "6,0"
+        "$7{,}7$",
+        "$7{,}6$",
+        "$7{,}8$",
+        "$8{,}7$"
       ],
-      "reponse": "5,9",
-      "explication": "3,4+2,5=5,9",
+      "reponse": "$7{,}7$",
+      "explication": "$3{,}2 + 4{,}5 = 7{,}7$ (on aligne les virgules).",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7,8 - 4,3 = ?",
+      "enonce": "Calcule : $6{,}8 - 2{,}3$",
       "choix": [
-        "3,4",
-        "3,5",
-        "3,6",
-        "3,7"
+        "$4{,}5$",
+        "$4{,}4$",
+        "$4{,}6$",
+        "$5{,}5$"
       ],
-      "reponse": "3,5",
-      "explication": "7,8-4,3=3,5",
+      "reponse": "$4{,}5$",
+      "explication": "$6{,}8 - 2{,}3 = 4{,}5$.",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5,67 + 2,45 = ?",
+      "enonce": "Calcule : $1{,}5 + 2{,}7$",
       "choix": [
-        "7,12",
-        "7,92",
-        "8,12",
-        "8,22"
+        "$4{,}2$",
+        "$3{,}12$",
+        "$4{,}3$",
+        "$3{,}2$"
       ],
-      "reponse": "8,12",
-      "explication": "5,67+2,45=8,12",
+      "reponse": "$4{,}2$",
+      "explication": "$1{,}5 + 2{,}7 = 4{,}2$.",
       "image": null
     },
     {
@@ -64,15 +64,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "11,34 - 5,21 = ?",
+      "enonce": "Calcule : $5{,}4 - 1{,}8$",
       "choix": [
-        "5,13",
-        "6,13",
-        "6,23",
-        "7,13"
+        "$3{,}6$",
+        "$3{,}5$",
+        "$3{,}7$",
+        "$4{,}6$"
       ],
-      "reponse": "6,13",
-      "explication": "11,34-5,21=6,13",
+      "reponse": "$3{,}6$",
+      "explication": "$5{,}4 - 1{,}8 = 3{,}6$ (on effectue la retenue).",
       "image": null
     },
     {
@@ -81,15 +81,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6,9 + 3,7 = ?",
+      "enonce": "Calcule : $0{,}6 + 0{,}7$",
       "choix": [
-        "10,4",
-        "10,5",
-        "10,6",
-        "10,7"
+        "$1{,}3$",
+        "$1{,}2$",
+        "$1{,}4$",
+        "$0{,}13$"
       ],
-      "reponse": "10,6",
-      "explication": "6,9+3,7=10,6",
+      "reponse": "$1{,}3$",
+      "explication": "$0{,}6 + 0{,}7 = 1{,}3$ (retenue en unités).",
       "image": null
     },
     {
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "15,2 - 8,6 = ?",
+      "enonce": "Calcule : $8{,}0 - 3{,}5$",
       "choix": [
-        "6,4",
-        "6,5",
-        "6,6",
-        "6,7"
+        "$4{,}5$",
+        "$4{,}4$",
+        "$4{,}6$",
+        "$5{,}5$"
       ],
-      "reponse": "6,6",
-      "explication": "15,2-8,6=6,6",
+      "reponse": "$4{,}5$",
+      "explication": "$8{,}0 - 3{,}5 = 4{,}5$.",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4,25 + 3,75 = ?",
+      "enonce": "Calcule : $2{,}35 + 1{,}4$",
       "choix": [
-        "7,90",
-        "8,00",
-        "8,10",
-        "8,25"
+        "$3{,}75$",
+        "$3{,}35$",
+        "$3{,}7$",
+        "$3{,}95$"
       ],
-      "reponse": "8,00",
-      "explication": "4,25+3,75=8,00",
+      "reponse": "$3{,}75$",
+      "explication": "$2{,}35 + 1{,}40 = 3{,}75$ (on complète avec des zéros).",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9,4 - 3,8 = ?",
+      "enonce": "Calcule : $7{,}0 - 4{,}6$",
       "choix": [
-        "5,4",
-        "5,5",
-        "5,6",
-        "5,7"
+        "$2{,}4$",
+        "$2{,}3$",
+        "$2{,}5$",
+        "$3{,}4$"
       ],
-      "reponse": "5,6",
-      "explication": "9,4-3,8=5,6",
+      "reponse": "$2{,}4$",
+      "explication": "$7{,}0 - 4{,}6 = 2{,}4$.",
       "image": null
     },
     {
@@ -149,15 +149,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2,63 + 1,49 = ?",
+      "enonce": "Calcule : $0{,}38 + 0{,}25$",
       "choix": [
-        "4,02",
-        "4,12",
-        "4,22",
-        "4,32"
+        "$0{,}63$",
+        "$0{,}53$",
+        "$0{,}73$",
+        "$0{,}613$"
       ],
-      "reponse": "4,12",
-      "explication": "2,63+1,49=4,12",
+      "reponse": "$0{,}63$",
+      "explication": "$0{,}38 + 0{,}25 = 0{,}63$.",
       "image": null
     },
     {
@@ -166,100 +166,100 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "12,05 - 4,3 = ?",
+      "enonce": "Calcule : $5{,}1 - 0{,}8$",
       "choix": [
-        "7,55",
-        "7,65",
-        "7,75",
-        "7,85"
+        "$4{,}3$",
+        "$4{,}2$",
+        "$4{,}4$",
+        "$5{,}3$"
       ],
-      "reponse": "7,75",
-      "explication": "12,05-4,30=7,75",
+      "reponse": "$4{,}3$",
+      "explication": "$5{,}1 - 0{,}8 = 4{,}3$.",
       "image": null
     },
     {
       "id": "aut_19_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "8,7 + 1,56 = ?",
+      "enonce": "Calcule : $12{,}8 + 5{,}63$",
       "choix": [
-        "10,16",
-        "10,26",
-        "10,36",
-        "10,46"
+        "$18{,}43$",
+        "$18{,}3$",
+        "$17{,}43$",
+        "$18{,}53$"
       ],
-      "reponse": "10,26",
-      "explication": "8,7+1,56=10,26",
+      "reponse": "$18{,}43$",
+      "explication": "$12{,}80 + 5{,}63 = 18{,}43$.",
       "image": null
     },
     {
       "id": "aut_19_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "20,0 - 7,45 = ?",
+      "enonce": "Calcule : $9{,}4 - 3{,}75$",
       "choix": [
-        "12,45",
-        "12,55",
-        "12,65",
-        "13,55"
+        "$5{,}65$",
+        "$5{,}75$",
+        "$6{,}65$",
+        "$5{,}55$"
       ],
-      "reponse": "12,55",
-      "explication": "20,00-7,45=12,55",
+      "reponse": "$5{,}65$",
+      "explication": "$9{,}40 - 3{,}75 = 5{,}65$.",
       "image": null
     },
     {
       "id": "aut_19_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3,08 + 4,92 = ?",
+      "enonce": "Calcule : $0{,}4 + 0{,}08 + 0{,}005$",
       "choix": [
-        "7,90",
-        "8,00",
-        "8,10",
-        "8,20"
+        "$0{,}485$",
+        "$0{,}48$",
+        "$0{,}49$",
+        "$4{,}85$"
       ],
-      "reponse": "8,00",
-      "explication": "3,08+4,92=8,00",
+      "reponse": "$0{,}485$",
+      "explication": "$0{,}4 + 0{,}08 + 0{,}005 = 0{,}485$.",
       "image": null
     },
     {
       "id": "aut_19_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6,5 - 2,75 = ?",
+      "enonce": "Calcule : $10 - 3{,}7$",
       "choix": [
-        "3,55",
-        "3,65",
-        "3,75",
-        "3,85"
+        "$6{,}3$",
+        "$6{,}2$",
+        "$6{,}4$",
+        "$7{,}3$"
       ],
-      "reponse": "3,75",
-      "explication": "6,50-2,75=3,75",
+      "reponse": "$6{,}3$",
+      "explication": "$10{,}0 - 3{,}7 = 6{,}3$.",
       "image": null
     },
     {
       "id": "aut_19_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "14,3 + 5,9 = ?",
+      "enonce": "Calcule : $0{,}75 + 0{,}25$",
       "choix": [
-        "19,2",
-        "20,2",
-        "21,2",
-        "20,1"
+        "$1$",
+        "$0{,}9$",
+        "$1{,}1$",
+        "$0{,}5$"
       ],
-      "reponse": "20,2",
-      "explication": "14,3+5,9=20,2",
+      "reponse": "$1$",
+      "explication": "$0{,}75 + 0{,}25 = 1{,}00 = 1$.",
       "image": null
     },
     {
@@ -268,15 +268,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "30,0 - 12,6 = ?",
+      "enonce": "Calcule : $3{,}006 + 0{,}994$",
       "choix": [
-        "17,2",
-        "17,3",
-        "17,4",
-        "17,5"
+        "$4$",
+        "$3{,}9$",
+        "$4{,}1$",
+        "$3{,}99$"
       ],
-      "reponse": "17,4",
-      "explication": "30,0-12,6=17,4",
+      "reponse": "$4$",
+      "explication": "$3{,}006 + 0{,}994 = 4{,}000 = 4$.",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7,24 + 2,38 = ?",
+      "enonce": "Calcule : $15{,}2 - 8{,}45$",
       "choix": [
-        "9,52",
-        "9,62",
-        "9,72",
-        "9,82"
+        "$6{,}75$",
+        "$6{,}85$",
+        "$7{,}75$",
+        "$6{,}65$"
       ],
-      "reponse": "9,62",
-      "explication": "7,24+2,38=9,62",
+      "reponse": "$6{,}75$",
+      "explication": "$15{,}20 - 8{,}45 = 6{,}75$.",
       "image": null
     },
     {
@@ -302,15 +302,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "18,5 - 9,75 = ?",
+      "enonce": "Calcule : $2{,}7 + 8{,}35 + 0{,}05$",
       "choix": [
-        "8,55",
-        "8,65",
-        "8,75",
-        "9,75"
+        "$11{,}10$",
+        "$11{,}00$",
+        "$11{,}20$",
+        "$10{,}10$"
       ],
-      "reponse": "8,75",
-      "explication": "18,50-9,75=8,75",
+      "reponse": "$11{,}10$",
+      "explication": "$2{,}70 + 8{,}35 + 0{,}05 = 11{,}10$.",
       "image": null
     },
     {
@@ -319,15 +319,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1,6 + 4,87 = ?",
+      "enonce": "Calcule : $100 - 0{,}1$",
       "choix": [
-        "6,37",
-        "6,47",
-        "6,57",
-        "6,67"
+        "$99{,}9$",
+        "$99{,}8$",
+        "$100{,}1$",
+        "$99{,}0$"
       ],
-      "reponse": "6,47",
-      "explication": "1,6+4,87=6,47",
+      "reponse": "$99{,}9$",
+      "explication": "$100{,}0 - 0{,}1 = 99{,}9$.",
       "image": null
     },
     {
@@ -336,185 +336,185 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "25,0 - 8,4 = ?",
+      "enonce": "Calcule : $4{,}08 - 1{,}9$",
       "choix": [
-        "16,4",
-        "16,5",
-        "16,6",
-        "16,7"
+        "$2{,}18$",
+        "$2{,}08$",
+        "$2{,}28$",
+        "$3{,}18$"
       ],
-      "reponse": "16,6",
-      "explication": "25,0-8,4=16,6",
+      "reponse": "$2{,}18$",
+      "explication": "$4{,}08 - 1{,}90 = 2{,}18$.",
       "image": null
     },
     {
       "id": "aut_19_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9,05 + 0,95 = ?",
+      "enonce": "Calcule : $48{,}07 + 3{,}93$",
       "choix": [
-        "9,80",
-        "9,90",
-        "10,00",
-        "10,10"
+        "$52$",
+        "$52{,}1$",
+        "$51{,}9$",
+        "$51$"
       ],
-      "reponse": "10,00",
-      "explication": "9,05+0,95=10,00",
+      "reponse": "$52$",
+      "explication": "$48{,}07 + 3{,}93 = 52{,}00 = 52$.",
       "image": null
     },
     {
       "id": "aut_19_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "13,7 - 6,85 = ?",
+      "enonce": "Calcule : $20 - 13{,}47$",
       "choix": [
-        "6,55",
-        "6,65",
-        "6,75",
-        "6,85"
+        "$6{,}53$",
+        "$6{,}43$",
+        "$6{,}63$",
+        "$7{,}53$"
       ],
-      "reponse": "6,85",
-      "explication": "13,70-6,85=6,85",
+      "reponse": "$6{,}53$",
+      "explication": "$20{,}00 - 13{,}47 = 6{,}53$.",
       "image": null
     },
     {
       "id": "aut_19_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4,55 + 5,45 = ?",
+      "enonce": "Calcule : $0{,}999 + 0{,}001$",
       "choix": [
-        "9,90",
-        "10,00",
-        "10,10",
-        "10,20"
+        "$1$",
+        "$0{,}9991$",
+        "$1{,}001$",
+        "$0{,}99$"
       ],
-      "reponse": "10,00",
-      "explication": "4,55+5,45=10,00",
+      "reponse": "$1$",
+      "explication": "$0{,}999 + 0{,}001 = 1{,}000 = 1$.",
       "image": null
     },
     {
       "id": "aut_19_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "50,0 - 23,7 = ?",
+      "enonce": "Calcule : $7{,}5 + 2{,}05 + 0{,}45$",
       "choix": [
-        "26,3",
-        "26,4",
-        "27,3",
-        "26,5"
+        "$10$",
+        "$9{,}9$",
+        "$10{,}1$",
+        "$10{,}5$"
       ],
-      "reponse": "26,3",
-      "explication": "50,0-23,7=26,3",
+      "reponse": "$10$",
+      "explication": "$7{,}50 + 2{,}05 + 0{,}45 = 10{,}00 = 10$.",
       "image": null
     },
     {
       "id": "aut_19_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6,38 + 1,74 = ?",
+      "enonce": "Calcule : $50{,}3 - 27{,}85$",
       "choix": [
-        "7,92",
-        "8,02",
-        "8,12",
-        "8,22"
+        "$22{,}45$",
+        "$22{,}35$",
+        "$22{,}55$",
+        "$23{,}45$"
       ],
-      "reponse": "8,12",
-      "explication": "6,38+1,74=8,12",
+      "reponse": "$22{,}45$",
+      "explication": "$50{,}30 - 27{,}85 = 22{,}45$.",
       "image": null
     },
     {
       "id": "aut_19_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9,0 - 3,56 = ?",
+      "enonce": "Calcule : $0{,}1 + 0{,}01 + 0{,}001$",
       "choix": [
-        "5,34",
-        "5,44",
-        "5,54",
-        "5,64"
+        "$0{,}111$",
+        "$0{,}101$",
+        "$0{,}11$",
+        "$0{,}1001$"
       ],
-      "reponse": "5,44",
-      "explication": "9,00-3,56=5,44",
+      "reponse": "$0{,}111$",
+      "explication": "$0{,}1 + 0{,}01 + 0{,}001 = 0{,}111$.",
       "image": null
     },
     {
       "id": "aut_19_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2,5 + 7,75 = ?",
+      "enonce": "Calcule : $8{,}02 - 5{,}009$",
       "choix": [
-        "10,05",
-        "10,15",
-        "10,25",
-        "10,35"
+        "$3{,}011$",
+        "$3{,}011$",
+        "$2{,}011$",
+        "$3{,}111$"
       ],
-      "reponse": "10,25",
-      "explication": "2,5+7,75=10,25",
+      "reponse": "$3{,}011$",
+      "explication": "$8{,}020 - 5{,}009 = 3{,}011$.",
       "image": null
     },
     {
       "id": "aut_19_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "16,4 - 8,15 = ?",
+      "enonce": "Calcule : $6{,}3 + 0{,}07 + 0{,}003$",
       "choix": [
-        "8,15",
-        "8,25",
-        "8,35",
-        "8,45"
+        "$6{,}373$",
+        "$6{,}37$",
+        "$6{,}303$",
+        "$6{,}473$"
       ],
-      "reponse": "8,25",
-      "explication": "16,40-8,15=8,25",
+      "reponse": "$6{,}373$",
+      "explication": "$6{,}300 + 0{,}070 + 0{,}003 = 6{,}373$.",
       "image": null
     },
     {
       "id": "aut_19_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "10,1 + 0,93 = ?",
+      "enonce": "Calcule : $30 - 14{,}27$",
       "choix": [
-        "10,93",
-        "11,03",
-        "11,13",
-        "11,23"
+        "$15{,}73$",
+        "$15{,}63$",
+        "$15{,}83$",
+        "$16{,}73$"
       ],
-      "reponse": "11,03",
-      "explication": "10,1+0,93=11,03",
+      "reponse": "$15{,}73$",
+      "explication": "$30{,}00 - 14{,}27 = 15{,}73$.",
       "image": null
     },
     {
       "id": "aut_19_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "100,0 - 45,6 = ?",
+      "enonce": "Calcule : $9{,}99 + 0{,}01$",
       "choix": [
-        "54,4",
-        "54,5",
-        "54,6",
-        "55,4"
+        "$10$",
+        "$9{,}991$",
+        "$10{,}01$",
+        "$9{,}9$"
       ],
-      "reponse": "54,4",
-      "explication": "100,0-45,6=54,4",
+      "reponse": "$10$",
+      "explication": "$9{,}99 + 0{,}01 = 10{,}00 = 10$.",
       "image": null
     }
   ]

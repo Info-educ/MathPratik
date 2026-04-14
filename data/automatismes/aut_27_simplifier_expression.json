@@ -2,9 +2,9 @@
   "niveau": "automatismes",
   "thematique": {
     "id": "aut_27",
-    "label": "Simplifier une expression littérale",
-    "icon": "✏️",
-    "color": "#4a1942"
+    "label": "Simplifier l'écriture d'une expression littérale",
+    "icon": "🔡",
+    "color": "#1a1a2e"
   },
   "questions": [
     {
@@ -13,15 +13,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4$\\times$a = ?",
+      "enonce": "Simplifie l'écriture : $3 \\times a$",
       "choix": [
-        "a4",
-        "4+a",
-        "4a",
-        "a/4"
+        "$3a$",
+        "$a^3$",
+        "$a+3$",
+        "$a \\times 3$"
       ],
-      "reponse": "4a",
-      "explication": "On supprime$\\times$. 4a",
+      "reponse": "$3a$",
+      "explication": "On supprime le signe $\\times$ entre un nombre et une lettre : $3 \\times a = 3a$.",
       "image": null
     },
     {
@@ -30,15 +30,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6$\\times\\pi$= ?",
+      "enonce": "Simplifie l'écriture : $b \\times 5$",
       "choix": [
-        "6+$\\pi$",
-        "$\\pi$+6",
-        "6$\\pi$",
-        "6/$\\pi$"
+        "$5b$",
+        "$b^5$",
+        "$b+5$",
+        "$5+b$"
       ],
-      "reponse": "6$\\pi$",
-      "explication": "6$\\times\\pi$=6$\\pi$",
+      "reponse": "$5b$",
+      "explication": "On place le nombre devant la lettre : $b \\times 5 = 5b$.",
       "image": null
     },
     {
@@ -47,15 +47,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "x$\\times$y = ?",
+      "enonce": "Simplifie l'écriture : $1 \\times x$",
       "choix": [
-        "x+y",
-        "$\\frac{x}{y}$",
-        "xy",
-        "x-y"
+        "$x$",
+        "$1x$",
+        "$x^1$",
+        "$x+1$"
       ],
-      "reponse": "xy",
-      "explication": "x$\\times$y=xy",
+      "reponse": "$x$",
+      "explication": "$1 \\times x = x$ (le coefficient $1$ est omis).",
       "image": null
     },
     {
@@ -64,15 +64,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "a$\\times$3$\\times$b = ?",
+      "enonce": "Simplifie l'écriture : $a \\times a$",
       "choix": [
-        "a+3+b",
-        "3ab",
-        "ab3",
-        "3+ab"
+        "$a^2$",
+        "$2a$",
+        "$a \\times 2$",
+        "$a+a$"
       ],
-      "reponse": "3ab",
-      "explication": "Nombre d'abord: 3ab",
+      "reponse": "$a^2$",
+      "explication": "$a \\times a = a^2$.",
       "image": null
     },
     {
@@ -81,15 +81,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(1 + a)$\\times$3 = ?",
+      "enonce": "Simplifie l'écriture : $a \\times b$",
       "choix": [
-        "3+a",
-        "3a",
-        "3(1+a)",
-        "1+3a"
+        "$ab$",
+        "$a+b$",
+        "$a^b$",
+        "$b^a$"
       ],
-      "reponse": "3(1+a)",
-      "explication": "Garder parenthèses: 3(1+a)",
+      "reponse": "$ab$",
+      "explication": "On supprime le $\\times$ entre deux lettres : $a \\times b = ab$.",
       "image": null
     },
     {
@@ -98,15 +98,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "y$\\times$(1 - y) = ?",
+      "enonce": "Simplifie l'écriture : $2 \\times a \\times b$",
       "choix": [
-        "y(1-y)",
-        "y-$y^{2}$",
-        "y-y",
-        "1-$y^{2}$"
+        "$2ab$",
+        "$a^2b$",
+        "$ab^2$",
+        "$2a+2b$"
       ],
-      "reponse": "y(1-y)",
-      "explication": "y$\\times$(1-y)=y(1-y)",
+      "reponse": "$2ab$",
+      "explication": "$2 \\times a \\times b = 2ab$.",
       "image": null
     },
     {
@@ -115,15 +115,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "$\\pi\\times$r$\\times$r = ?",
+      "enonce": "Simplifie l'écriture : $(-1) \\times x$",
       "choix": [
-        "$\\pi$r+r",
-        "$\\pi$r",
-        "$\\pi r^{2}$",
-        "2$\\pi$r"
+        "$-x$",
+        "$-1x$",
+        "$x-1$",
+        "$x+1$"
       ],
-      "reponse": "$\\pi r^{2}$",
-      "explication": "r$\\times$r=$r^{2}$. Donc$\\pi r^{2}$",
+      "reponse": "$-x$",
+      "explication": "$(-1) \\times x = -x$.",
       "image": null
     },
     {
@@ -132,15 +132,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "a$\\times$a$\\times$a$\\times$4 = ?",
+      "enonce": "Simplifie l'écriture : $a \\times a \\times a$",
       "choix": [
-        "3a$\\times$4",
-        "$4$a^{2}",
-        "$4$a^{3}",
-        "$a^{3}\\times$4"
+        "$a^3$",
+        "$3a$",
+        "$a \\times 3$",
+        "$3+a$"
       ],
-      "reponse": "$4$a^{3}",
-      "explication": "$a^{3}\\times$4=$4$a^{3}",
+      "reponse": "$a^3$",
+      "explication": "$a \\times a \\times a = a^3$.",
       "image": null
     },
     {
@@ -149,15 +149,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "4 - 1x = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{a}{3}$",
       "choix": [
-        "4x",
-        "4-x",
-        "4+x",
-        "x-4"
+        "$\\dfrac{a}{3}$",
+        "$3a$",
+        "$a-3$",
+        "$3+a$"
       ],
-      "reponse": "4-x",
-      "explication": "1x=x. Donc 4-x",
+      "reponse": "$\\dfrac{a}{3}$",
+      "explication": "La fraction $\\dfrac{a}{3}$ est déjà la notation simplifiée de $a \\div 3$.",
       "image": null
     },
     {
@@ -166,100 +166,100 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "m$\\times$m = ?",
+      "enonce": "Simplifie l'écriture : $4 \\times x \\times x$",
       "choix": [
-        "2m",
-        "m2",
-        "$\\mathrm{m}^2$",
-        "mm"
+        "$4x^2$",
+        "$4x$",
+        "$x^4$",
+        "$4+x^2$"
       ],
-      "reponse": "$\\mathrm{m}^2$",
-      "explication": "m$\\times$m=$\\mathrm{m}^2$",
+      "reponse": "$4x^2$",
+      "explication": "$4 \\times x \\times x = 4x^2$.",
       "image": null
     },
     {
       "id": "aut_27_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5t + 3t = ?",
+      "enonce": "Simplifie l'écriture : $(-3) \\times a \\times b$",
       "choix": [
-        "$8$t^{2}",
-        "8+t",
-        "8t",
-        "15t"
+        "$-3ab$",
+        "$3ab$",
+        "$-3a+b$",
+        "$3a-b$"
       ],
-      "reponse": "8t",
-      "explication": "5t+3t=8t",
+      "reponse": "$-3ab$",
+      "explication": "$(-3) \\times a \\times b = -3ab$.",
       "image": null
     },
     {
       "id": "aut_27_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "b$\\times$1 = ?",
+      "enonce": "Simplifie l'écriture : $a \\times b \\times a$",
       "choix": [
-        "1+b",
-        "b1",
-        "b",
-        "0"
+        "$a^2b$",
+        "$ab^2$",
+        "$2ab$",
+        "$a^2+b$"
       ],
-      "reponse": "b",
-      "explication": "b$\\times$1=b",
+      "reponse": "$a^2b$",
+      "explication": "$a \\times b \\times a = a^2 b$.",
       "image": null
     },
     {
       "id": "aut_27_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(2 + x)$\\times$4 = ?",
+      "enonce": "Simplifie l'écriture : $x \\times x \\times y \\times y$",
       "choix": [
-        "4+x",
-        "4(2+x)",
-        "2+4x",
-        "8+x"
+        "$x^2y^2$",
+        "$2xy$",
+        "$(xy)^2$",
+        "$x^2+y^2$"
       ],
-      "reponse": "4(2+x)",
-      "explication": "4$\\times$(2+x)=4(2+x)",
+      "reponse": "$x^2y^2$",
+      "explication": "$x^2y^2$ (on groupe les puissances).",
       "image": null
     },
     {
       "id": "aut_27_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "n$\\times$n$\\times$n = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{2 \\times a}{b}$",
       "choix": [
-        "n3",
-        "3n",
-        "$n^{2}$",
-        "$n^{3}$"
+        "$\\dfrac{2a}{b}$",
+        "$2a-b$",
+        "$2 \\times \\dfrac{a}{b}$",
+        "$\\dfrac{a}{2b}$"
       ],
-      "reponse": "$n^{3}$",
-      "explication": "$n^{3}$",
+      "reponse": "$\\dfrac{2a}{b}$",
+      "explication": "$\\dfrac{2 \\times a}{b} = \\dfrac{2a}{b}$.",
       "image": null
     },
     {
       "id": "aut_27_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "7$\\times$a$\\times$b$\\times$2 = ?",
+      "enonce": "Simplifie l'écriture : $5 \\times (a + b)$",
       "choix": [
-        "9ab",
-        "14ab",
-        "7ab2",
-        "14+ab"
+        "$5(a+b)$",
+        "$5a + b$",
+        "$5a \\times 5b$",
+        "$5ab$"
       ],
-      "reponse": "14ab",
-      "explication": "7$\\times$2=14. Donc 14ab",
+      "reponse": "$5(a+b)$",
+      "explication": "On garde les parenthèses : $5 \\times (a+b) = 5(a+b)$.",
       "image": null
     },
     {
@@ -268,15 +268,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "c$\\times$(c - 1) = ?",
+      "enonce": "Simplifie l'écriture : $a \\times b \\times b \\times c$",
       "choix": [
-        "c-1",
-        "c(c-1)",
-        "$c^{2}$-1",
-        "c+c-1"
+        "$ab^2c$",
+        "$a^2bc$",
+        "$abc^2$",
+        "$ab^2+c$"
       ],
-      "reponse": "c(c-1)",
-      "explication": "c$\\times$(c-1)=c(c-1)",
+      "reponse": "$ab^2c$",
+      "explication": "$a \\times b^2 \\times c = ab^2c$.",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "3$\\times$x$\\times$x = ?",
+      "enonce": "Simplifie l'écriture : $(-2) \\times x \\times (-y)$",
       "choix": [
-        "6x",
-        "$3$x^{2}",
-        "9x",
-        "3x+x"
+        "$2xy$",
+        "$-2xy$",
+        "$2x-y$",
+        "$-2x+y$"
       ],
-      "reponse": "$3$x^{2}",
-      "explication": "3$\\timesx^{2}=3$x^{2}",
+      "reponse": "$2xy$",
+      "explication": "$(-2) \\times x \\times (-y) = 2xy$ (deux signes $-$ → positif).",
       "image": null
     },
     {
@@ -302,15 +302,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "1$\\times$p + 2$\\times$q = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{a \\times b}{c}$",
       "choix": [
-        "p+2q",
-        "pq",
-        "p+q",
-        "3pq"
+        "$\\dfrac{ab}{c}$",
+        "$ab-c$",
+        "$\\dfrac{a}{bc}$",
+        "$a \\times \\dfrac{b}{c}$"
       ],
-      "reponse": "p+2q",
-      "explication": "1$\\times$p=p. Donc p+2q",
+      "reponse": "$\\dfrac{ab}{c}$",
+      "explication": "$\\dfrac{a \\times b}{c} = \\dfrac{ab}{c}$.",
       "image": null
     },
     {
@@ -319,15 +319,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(a+b)$\\times$(a-b) = ?",
+      "enonce": "Simplifie l'écriture : $3 \\times a^2$",
       "choix": [
-        "(a+b)(a-b)",
-        "$a^{2}$+$b^{2}$",
-        "$a^{2}$-$b^{2}$",
-        "2ab"
+        "$3a^2$",
+        "$9a^2$",
+        "$(3a)^2$",
+        "$6a$"
       ],
-      "reponse": "(a+b)(a-b)",
-      "explication": "On ne développe pas ici",
+      "reponse": "$3a^2$",
+      "explication": "$3 \\times a^2 = 3a^2$ (on ne touche pas l'exposant).",
       "image": null
     },
     {
@@ -336,185 +336,185 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "2$\\times$r$\\times\\pi$= ?",
+      "enonce": "Simplifie l'écriture : $(-1) \\times (-a)$",
       "choix": [
-        "2r+$\\pi$",
-        "2$\\pi$r",
-        "r$\\pi$2",
-        "$\\pi r^{2}$"
+        "$a$",
+        "$-a$",
+        "$1$",
+        "$-1$"
       ],
-      "reponse": "2$\\pi$r",
-      "explication": "2$\\pi$r",
+      "reponse": "$a$",
+      "explication": "$(-1) \\times (-a) = a$.",
       "image": null
     },
     {
       "id": "aut_27_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "k$\\times$k$\\times$k$\\times$k = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{x \\times x}{2 \\times x}$ (simplifier)",
       "choix": [
-        "4k",
-        "k4",
-        "$k^{3}$",
-        "$k^{4}$"
+        "$\\dfrac{x}{2}$",
+        "$x^2$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{x^2}{2}$"
       ],
-      "reponse": "$k^{4}$",
-      "explication": "$k^{4}$",
+      "reponse": "$\\dfrac{x}{2}$",
+      "explication": "$\\dfrac{x^2}{2x} = \\dfrac{x}{2}$.",
       "image": null
     },
     {
       "id": "aut_27_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "0$\\times$z + 5 = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{3a \\times 2b}{6}$",
       "choix": [
-        "0",
-        "z+5",
-        "5z",
-        "5"
+        "$ab$",
+        "$\\dfrac{6ab}{6}$",
+        "$ab+6$",
+        "$6ab$"
       ],
-      "reponse": "5",
-      "explication": "0$\\times$z=0. 0+5=5",
+      "reponse": "$ab$",
+      "explication": "$\\dfrac{3a \\times 2b}{6} = \\dfrac{6ab}{6} = ab$.",
       "image": null
     },
     {
       "id": "aut_27_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "6$\\times$a$\\times$a = ?",
+      "enonce": "Simplifie l'écriture : $(-a) \\times (-a)$",
       "choix": [
-        "$6$a^{2}",
-        "12a",
-        "6a+a",
-        "36a"
+        "$a^2$",
+        "$-a^2$",
+        "$2a$",
+        "$-2a$"
       ],
-      "reponse": "$6$a^{2}",
-      "explication": "$6$a^{2}",
+      "reponse": "$a^2$",
+      "explication": "$(-a)^2 = a^2$ (carré → positif).",
       "image": null
     },
     {
       "id": "aut_27_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "x$\\times$1$\\times$y = ?",
+      "enonce": "Simplifie l'écriture : $(-a) \\times (-a) \\times (-a)$",
       "choix": [
-        "x+y",
-        "1xy",
-        "xy",
-        "x$\\times$y"
+        "$-a^3$",
+        "$a^3$",
+        "$-3a$",
+        "$3a$"
       ],
-      "reponse": "xy",
-      "explication": "xy",
+      "reponse": "$-a^3$",
+      "explication": "$(-a)^3 = -a^3$ (cube → négatif).",
       "image": null
     },
     {
       "id": "aut_27_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(4 + t)$\\times$5 = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{4a^2}{2a}$ (simplifier)",
       "choix": [
-        "5+t",
-        "5(4+t)",
-        "20+t",
-        "5t+4"
+        "$2a$",
+        "$\\dfrac{4a}{2}$",
+        "$4a$",
+        "$2$"
       ],
-      "reponse": "5(4+t)",
-      "explication": "5$\\times$(4+t)=5(4+t)",
+      "reponse": "$2a$",
+      "explication": "$\\dfrac{4a^2}{2a} = 2a$.",
       "image": null
     },
     {
       "id": "aut_27_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "m$\\times$m + 3$\\times$m = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{(a+b)^2}{a+b}$ (simplifier, $a \\neq -b$)",
       "choix": [
-        "$\\mathrm{m}^2$+3m",
-        "4m",
-        "m(m+3)",
-        "$\\mathrm{m}^3$"
+        "$a+b$",
+        "$a^2+b^2$",
+        "$1$",
+        "$\\dfrac{1}{a+b}$"
       ],
-      "reponse": "$\\mathrm{m}^2$+3m",
-      "explication": "$\\mathrm{m}^2$+3m",
+      "reponse": "$a+b$",
+      "explication": "$\\dfrac{(a+b)^2}{a+b} = a+b$.",
       "image": null
     },
     {
       "id": "aut_27_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "9$\\times$b$\\times$b$\\times$b = ?",
+      "enonce": "Simplifie l'écriture : $(-2a)^2$",
       "choix": [
-        "27b",
-        "$9$b^{2}",
-        "$9$b^{3}",
-        "b9"
+        "$4a^2$",
+        "$-4a^2$",
+        "$-2a^2$",
+        "$4a$"
       ],
-      "reponse": "$9$b^{3}",
-      "explication": "$9$b^{3}",
+      "reponse": "$4a^2$",
+      "explication": "$(-2a)^2 = (-2)^2 \\times a^2 = 4a^2$.",
       "image": null
     },
     {
       "id": "aut_27_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(1 + 2x)$\\times$3 = ?",
+      "enonce": "Simplifie l'écriture : $(-3x)^3$",
       "choix": [
-        "3+6x",
-        "3(1+2x)",
-        "3+2x",
-        "6x"
+        "$-27x^3$",
+        "$27x^3$",
+        "$-9x^3$",
+        "$9x^3$"
       ],
-      "reponse": "3(1+2x)",
-      "explication": "3(1+2x)",
+      "reponse": "$-27x^3$",
+      "explication": "$(-3x)^3 = (-3)^3 \\times x^3 = -27x^3$.",
       "image": null
     },
     {
       "id": "aut_27_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "(-1)$\\times$x = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{6a^2b}{3ab}$",
       "choix": [
-        "x",
-        "-x",
-        "1-x",
-        "x-1"
+        "$2a$",
+        "$2b$",
+        "$2$",
+        "$2ab$"
       ],
-      "reponse": "-x",
-      "explication": "(-1)$\\times$x=-x",
+      "reponse": "$2a$",
+      "explication": "$\\dfrac{6a^2b}{3ab} = 2a$.",
       "image": null
     },
     {
       "id": "aut_27_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "5t - 3t = ?",
+      "enonce": "Simplifie l'écriture : $\\dfrac{a \\times a}{a+a}$ (simplifier, $a \\neq 0$)",
       "choix": [
-        "2t",
-        "8t",
-        "15t",
-        "$t^{2}$"
+        "$\\dfrac{a}{2}$",
+        "$\\dfrac{a^2}{2a}$",
+        "$1$",
+        "$\\dfrac{1}{2}$"
       ],
-      "reponse": "2t",
-      "explication": "5t-3t=2t",
+      "reponse": "$\\dfrac{a}{2}$",
+      "explication": "$a + a = 2a$. $\\dfrac{a^2}{2a} = \\dfrac{a}{2}$.",
       "image": null
     }
   ]

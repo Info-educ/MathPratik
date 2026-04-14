@@ -2,1239 +2,520 @@
   "niveau": "automatismes",
   "thematique": {
     "id": "aut_22",
-    "label": "Tableau de proportionnalité",
+    "label": "Compléter un tableau de proportionnalité",
     "icon": "📊",
-    "color": "#134e4a"
+    "color": "#059669"
   },
   "questions": [
     {
       "id": "aut_22_01",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 3→6. G2: 9→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Un stylo coûte $2\\,\\mathrm{€}$. Complète : $3$ stylos coûtent…",
       "choix": [
-        "15",
-        "18",
-        "21",
-        "12"
+        "$6\\,\\mathrm{€}$",
+        "$4\\,\\mathrm{€}$",
+        "$5\\,\\mathrm{€}$",
+        "$8\\,\\mathrm{€}$"
       ],
-      "reponse": "18",
-      "explication": "$\\times$2 : 9$\\times$2=18",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "3",
-          "9"
-        ],
-        "valeurs": [
-          [
-            "3",
-            "9"
-          ],
-          [
-            "6",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$6\\,\\mathrm{€}$",
+      "explication": "$3 \\times 2 = 6\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_02",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 4→12. G2: 5→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1\\,\\mathrm{kg}$ de farine coûte $1{,}5\\,\\mathrm{€}$. Prix de $4\\,\\mathrm{kg}$ :",
       "choix": [
-        "12",
-        "15",
-        "20",
-        "25"
+        "$6\\,\\mathrm{€}$",
+        "$4{,}5\\,\\mathrm{€}$",
+        "$5\\,\\mathrm{€}$",
+        "$7\\,\\mathrm{€}$"
       ],
-      "reponse": "15",
-      "explication": "$\\times$3 : 5$\\times$3=15",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "4",
-          "5"
-        ],
-        "valeurs": [
-          [
-            "4",
-            "5"
-          ],
-          [
-            "12",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$6\\,\\mathrm{€}$",
+      "explication": "$4 \\times 1{,}5 = 6\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_03",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 25→50. G2: 6→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Si $2$ cahiers coûtent $3\\,\\mathrm{€}$, combien coûtent $6$ cahiers ?",
       "choix": [
-        "8",
-        "10",
-        "12",
-        "14"
+        "$9\\,\\mathrm{€}$",
+        "$6\\,\\mathrm{€}$",
+        "$12\\,\\mathrm{€}$",
+        "$8\\,\\mathrm{€}$"
       ],
-      "reponse": "12",
-      "explication": "$\\times$2 : 6$\\times$2=12",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "25",
-          "6"
-        ],
-        "valeurs": [
-          [
-            "25",
-            "6"
-          ],
-          [
-            "50",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$9\\,\\mathrm{€}$",
+      "explication": "Coefficient : $\\times 3$. $3 \\times 3 = 9\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_04",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 9→12. G2: 3→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Une voiture roule à $80\\,\\mathrm{km/h}$. Distance en $3\\,\\mathrm{h}$ :",
       "choix": [
-        "3",
-        "4",
-        "5",
-        "6"
+        "$240\\,\\mathrm{km}$",
+        "$80\\,\\mathrm{km}$",
+        "$160\\,\\mathrm{km}$",
+        "$300\\,\\mathrm{km}$"
       ],
-      "reponse": "4",
-      "explication": "$\\times$($\\frac{4}{3}$) : 3$\\times\\frac{4}{3}$=4",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "9",
-          "3"
-        ],
-        "valeurs": [
-          [
-            "9",
-            "3"
-          ],
-          [
-            "12",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$240\\,\\mathrm{km}$",
+      "explication": "$3 \\times 80 = 240\\,\\mathrm{km}$.",
+      "image": null
     },
     {
       "id": "aut_22_05",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "Coeff=3. G1: 1→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$5$ pommes pèsent $1\\,\\mathrm{kg}$. Poids de $20$ pommes :",
       "choix": [
-        "1",
-        "2",
-        "3",
-        "4"
+        "$4\\,\\mathrm{kg}$",
+        "$1\\,\\mathrm{kg}$",
+        "$2\\,\\mathrm{kg}$",
+        "$5\\,\\mathrm{kg}$"
       ],
-      "reponse": "3",
-      "explication": "1$\\times$3=3",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "1"
-        ],
-        "valeurs": [
-          [
-            "1"
-          ],
-          [
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          0
-        ],
-        "coeff": "3",
-        "note": "coefficient de proportionnalité : ×3"
-      }
+      "reponse": "$4\\,\\mathrm{kg}$",
+      "explication": "$20 \\div 5 = 4$. Donc $4 \\times 1 = 4\\,\\mathrm{kg}$.",
+      "image": null
     },
     {
       "id": "aut_22_06",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 18→30. G2: 3→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Si $4$ places coûtent $48\\,\\mathrm{€}$, combien coûte $1$ place ?",
       "choix": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "$12\\,\\mathrm{€}$",
+        "$10\\,\\mathrm{€}$",
+        "$14\\,\\mathrm{€}$",
+        "$16\\,\\mathrm{€}$"
       ],
-      "reponse": "5",
-      "explication": "3$\\times$30$\\div$18=5",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "18",
-          "3"
-        ],
-        "valeurs": [
-          [
-            "18",
-            "3"
-          ],
-          [
-            "30",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$12\\,\\mathrm{€}$",
+      "explication": "$48 \\div 4 = 12\\,\\mathrm{€}$ par place.",
+      "image": null
     },
     {
       "id": "aut_22_07",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 7→28. G2: 1→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3$ mètres de tissu coûtent $15\\,\\mathrm{€}$. Prix de $7$ mètres :",
       "choix": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "$35\\,\\mathrm{€}$",
+        "$30\\,\\mathrm{€}$",
+        "$40\\,\\mathrm{€}$",
+        "$25\\,\\mathrm{€}$"
       ],
-      "reponse": "4",
-      "explication": "$\\times$4 : 1$\\times$4=4",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "7",
-          "1"
-        ],
-        "valeurs": [
-          [
-            "7",
-            "1"
-          ],
-          [
-            "28",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$35\\,\\mathrm{€}$",
+      "explication": "Prix au mètre : $15 \\div 3 = 5\\,\\mathrm{€}$. $7 \\times 5 = 35\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_08",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 5→9. G2: 20→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Une recette pour $6$ personnes nécessite $300\\,\\mathrm{g}$ de farine. Pour $2$ personnes :",
       "choix": [
-        "30",
-        "36",
-        "45",
-        "54"
+        "$100\\,\\mathrm{g}$",
+        "$50\\,\\mathrm{g}$",
+        "$150\\,\\mathrm{g}$",
+        "$200\\,\\mathrm{g}$"
       ],
-      "reponse": "36",
-      "explication": "20$\\times$9$\\div$5=36",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "5",
-          "20"
-        ],
-        "valeurs": [
-          [
-            "5",
-            "20"
-          ],
-          [
-            "9",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$100\\,\\mathrm{g}$",
+      "explication": "$300 \\div 6 = 50\\,\\mathrm{g}$ par personne. $2 \\times 50 = 100\\,\\mathrm{g}$.",
+      "image": null
     },
     {
       "id": "aut_22_09",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 10→30. G2: 12→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$10$ crayons coûtent $6\\,\\mathrm{€}$. Prix de $15$ crayons :",
       "choix": [
-        "24",
-        "36",
-        "40",
-        "48"
+        "$9\\,\\mathrm{€}$",
+        "$6\\,\\mathrm{€}$",
+        "$8\\,\\mathrm{€}$",
+        "$12\\,\\mathrm{€}$"
       ],
-      "reponse": "36",
-      "explication": "$\\times$3 : 12$\\times$3=36",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "10",
-          "12"
-        ],
-        "valeurs": [
-          [
-            "10",
-            "12"
-          ],
-          [
-            "30",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$9\\,\\mathrm{€}$",
+      "explication": "Prix unitaire : $6 \\div 10 = 0{,}6\\,\\mathrm{€}$. $15 \\times 0{,}6 = 9\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_10",
       "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 2→8. G2: 16→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1\\,\\mathrm{L}$ d'essence coûte $2\\,\\mathrm{€}$. Prix de $35\\,\\mathrm{L}$ :",
       "choix": [
-        "48",
-        "56",
-        "64",
-        "72"
+        "$70\\,\\mathrm{€}$",
+        "$35\\,\\mathrm{€}$",
+        "$60\\,\\mathrm{€}$",
+        "$80\\,\\mathrm{€}$"
       ],
-      "reponse": "64",
-      "explication": "$\\times$4 : 16$\\times$4=64",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "2",
-          "16"
-        ],
-        "valeurs": [
-          [
-            "2",
-            "16"
-          ],
-          [
-            "8",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$70\\,\\mathrm{€}$",
+      "explication": "$35 \\times 2 = 70\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_11",
-      "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 12→36. G2: 5→?",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$4$ articles coûtent $26\\,\\mathrm{€}$. Prix de $10$ articles :",
       "choix": [
-        "12",
-        "15",
-        "18",
-        "20"
+        "$65\\,\\mathrm{€}$",
+        "$60\\,\\mathrm{€}$",
+        "$70\\,\\mathrm{€}$",
+        "$52\\,\\mathrm{€}$"
       ],
-      "reponse": "15",
-      "explication": "$\\times$3 : 5$\\times$3=15",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "12",
-          "5"
-        ],
-        "valeurs": [
-          [
-            "12",
-            "5"
-          ],
-          [
-            "36",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$65\\,\\mathrm{€}$",
+      "explication": "Prix unitaire : $26 \\div 4 = 6{,}5\\,\\mathrm{€}$. $10 \\times 6{,}5 = 65\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_12",
-      "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 21→33. G2: 7→?",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$6\\,\\mathrm{cm}$ sur la carte = $30\\,\\mathrm{km}$ réels. $9\\,\\mathrm{cm}$ = ?",
       "choix": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "$45\\,\\mathrm{km}$",
+        "$36\\,\\mathrm{km}$",
+        "$54\\,\\mathrm{km}$",
+        "$40\\,\\mathrm{km}$"
       ],
-      "reponse": "11",
-      "explication": "$\\times$($\\frac{11}{7}$) : 7$\\times\\frac{11}{7}$=11",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "21",
-          "7"
-        ],
-        "valeurs": [
-          [
-            "21",
-            "7"
-          ],
-          [
-            "33",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$45\\,\\mathrm{km}$",
+      "explication": "Échelle : $1\\,\\mathrm{cm} = 5\\,\\mathrm{km}$. $9 \\times 5 = 45\\,\\mathrm{km}$.",
+      "image": null
     },
     {
       "id": "aut_22_13",
-      "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 8→10. G2: 40→?",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$5$ ouvriers font un travail en $8\\,\\mathrm{h}$. Durée totale de travail pour $4$ ouvriers (même rythme, situation proportionnelle) :",
       "choix": [
-        "45",
-        "50",
-        "55",
-        "60"
+        "$10\\,\\mathrm{h}$",
+        "$6{,}4\\,\\mathrm{h}$",
+        "$12\\,\\mathrm{h}$",
+        "$8\\,\\mathrm{h}$"
       ],
-      "reponse": "50",
-      "explication": "$\\times$($\\frac{5}{4}$) : 40$\\times\\frac{5}{4}$=50",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "8",
-          "40"
-        ],
-        "valeurs": [
-          [
-            "8",
-            "40"
-          ],
-          [
-            "10",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$10\\,\\mathrm{h}$",
+      "explication": "Total de travail : $5 \\times 8 = 40\\,\\mathrm{h}$. Pour $4$ ouvriers : $40 \\div 4 = 10\\,\\mathrm{h}$.",
+      "image": null
     },
     {
       "id": "aut_22_14",
-      "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 36→6. G2: 5→?",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$100\\,\\mathrm{g}$ de chocolat = $520\\,\\mathrm{kcal}$. Calories dans $150\\,\\mathrm{g}$ :",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{5}{6}$",
-        "$\\frac{5}{3}$",
-        "1"
+        "$780\\,\\mathrm{kcal}$",
+        "$620\\,\\mathrm{kcal}$",
+        "$700\\,\\mathrm{kcal}$",
+        "$820\\,\\mathrm{kcal}$"
       ],
-      "reponse": "$\\frac{5}{6}$",
-      "explication": "$\\div$6 : 5$\\div$6=$\\frac{5}{6}$",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "36",
-          "5"
-        ],
-        "valeurs": [
-          [
-            "36",
-            "5"
-          ],
-          [
-            "6",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$780\\,\\mathrm{kcal}$",
+      "explication": "Par gramme : $520 \\div 100 = 5{,}2\\,\\mathrm{kcal}$. $150 \\times 5{,}2 = 780\\,\\mathrm{kcal}$.",
+      "image": null
     },
     {
       "id": "aut_22_15",
-      "niveau": 1,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 6→18. G2: 9→?",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Une voiture consomme $6\\,\\mathrm{L}$ aux $100\\,\\mathrm{km}$. Consommation sur $250\\,\\mathrm{km}$ :",
       "choix": [
-        "21",
-        "27",
-        "33",
-        "36"
+        "$15\\,\\mathrm{L}$",
+        "$12\\,\\mathrm{L}$",
+        "$18\\,\\mathrm{L}$",
+        "$20\\,\\mathrm{L}$"
       ],
-      "reponse": "27",
-      "explication": "$\\times$3 : 9$\\times$3=27",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "6",
-          "9"
-        ],
-        "valeurs": [
-          [
-            "6",
-            "9"
-          ],
-          [
-            "18",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$15\\,\\mathrm{L}$",
+      "explication": "$250 \\div 100 \\times 6 = 2{,}5 \\times 6 = 15\\,\\mathrm{L}$.",
+      "image": null
     },
     {
       "id": "aut_22_16",
       "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G2: 4→6. G1: 32→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3\\,\\mathrm{kg}$ de pommes coûtent $4{,}5\\,\\mathrm{€}$. Combien de kg pour $9\\,\\mathrm{€}$ ?",
       "choix": [
-        "40",
-        "42",
-        "48",
-        "54"
+        "$6\\,\\mathrm{kg}$",
+        "$4\\,\\mathrm{kg}$",
+        "$5\\,\\mathrm{kg}$",
+        "$7\\,\\mathrm{kg}$"
       ],
-      "reponse": "48",
-      "explication": "coeff=1,5. 32$\\times$1,5=48",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "32",
-          "4"
-        ],
-        "valeurs": [
-          [
-            "?",
-            "4"
-          ],
-          [
-            "32",
-            "6"
-          ]
-        ],
-        "case_manquante": [
-          0,
-          0
-        ]
-      }
+      "reponse": "$6\\,\\mathrm{kg}$",
+      "explication": "Prix au kg : $4{,}5 \\div 3 = 1{,}5\\,\\mathrm{€}$. $9 \\div 1{,}5 = 6\\,\\mathrm{kg}$.",
+      "image": null
     },
     {
       "id": "aut_22_17",
       "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 2→3. G2: 18→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "En $2\\,\\mathrm{h}$, une machine produit $80$ pièces. Production en $5\\,\\mathrm{h}$ :",
       "choix": [
-        "24",
-        "27",
-        "30",
-        "33"
+        "$200$",
+        "$160$",
+        "$240$",
+        "$180$"
       ],
-      "reponse": "27",
-      "explication": "$\\times$($\\frac{3}{2}$) : 18$\\times\\frac{3}{2}$=27",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "2",
-          "18"
-        ],
-        "valeurs": [
-          [
-            "2",
-            "18"
-          ],
-          [
-            "3",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$200$",
+      "explication": "Par heure : $80 \\div 2 = 40$. $5 \\times 40 = 200$ pièces.",
+      "image": null
     },
     {
       "id": "aut_22_18",
       "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G2: 7→9. G1: 35→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$12$ élèves, ratio filles/garçons = $1/2$. Nombre de filles :",
       "choix": [
-        "40",
-        "45",
-        "50",
-        "55"
+        "$4$",
+        "$3$",
+        "$6$",
+        "$8$"
       ],
-      "reponse": "45",
-      "explication": "$\\times$($\\frac{9}{7}$) : 35$\\times\\frac{9}{7}$=45",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "35",
-          "7"
-        ],
-        "valeurs": [
-          [
-            "?",
-            "7"
-          ],
-          [
-            "35",
-            "9"
-          ]
-        ],
-        "case_manquante": [
-          0,
-          0
-        ]
-      }
+      "reponse": "$4$",
+      "explication": "$1$ fille pour $2$ garçons → $1$ sur $3$. $12 \\div 3 = 4$ filles.",
+      "image": null
     },
     {
       "id": "aut_22_19",
       "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G2: 18→30. G1: 3→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$8$ pizzas pour $24$ personnes. Pizzas pour $15$ personnes :",
       "choix": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "$5$",
+        "$4$",
+        "$6$",
+        "$7$"
       ],
-      "reponse": "5",
-      "explication": "3$\\times$30$\\div$18=5",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "3",
-          "18"
-        ],
-        "valeurs": [
-          [
-            "?",
-            "18"
-          ],
-          [
-            "3",
-            "30"
-          ]
-        ],
-        "case_manquante": [
-          0,
-          0
-        ]
-      }
+      "reponse": "$5$",
+      "explication": "Par personne : $8 \\div 24 = \\dfrac{1}{3}$. $15 \\times \\dfrac{1}{3} = 5$ pizzas.",
+      "image": null
     },
     {
       "id": "aut_22_20",
       "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 1→4. G2: 20→?",
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Tableau : $x = 4 \\rightarrow y = 10$ ; $x = 6 \\rightarrow y = ?$ (proportionnel)",
       "choix": [
-        "80",
-        "85",
-        "90",
-        "100"
+        "$y = 15$",
+        "$y = 12$",
+        "$y = 14$",
+        "$y = 16$"
       ],
-      "reponse": "80",
-      "explication": "$\\times$4 : 20$\\times$4=80",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "1",
-          "20"
-        ],
-        "valeurs": [
-          [
-            "1",
-            "20"
-          ],
-          [
-            "4",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$y = 15$",
+      "explication": "Coeff : $y/x = 10/4 = 2{,}5$. $6 \\times 2{,}5 = 15$.",
+      "image": null
     },
     {
       "id": "aut_22_21",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G2: 3→12. G1: 4→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$40\\,\\mathrm{km}$ correspondent à $2\\,\\mathrm{cm}$ sur la carte. Quelle est l'échelle ?",
       "choix": [
-        "12",
-        "14",
-        "16",
-        "18"
+        "$1:2\\,000\\,000$",
+        "$1:200\\,000$",
+        "$1:20\\,000\\,000$",
+        "$1:400\\,000$"
       ],
-      "reponse": "16",
-      "explication": "coeff=4. 4$\\times$4=16",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "4",
-          "3"
-        ],
-        "valeurs": [
-          [
-            "?",
-            "3"
-          ],
-          [
-            "4",
-            "12"
-          ]
-        ],
-        "case_manquante": [
-          0,
-          0
-        ]
-      }
+      "reponse": "$1:2\\,000\\,000$",
+      "explication": "$40\\,\\mathrm{km} = 4\\,000\\,000\\,\\mathrm{cm}$. $4\\,000\\,000 \\div 2 = 2\\,000\\,000$. Échelle : $1:2\\,000\\,000$.",
+      "image": null
     },
     {
       "id": "aut_22_22",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G2: 12→15. G1: 4→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Tableau : $x = 3, 5, 8$ ; $y = 7{,}5, ?, ?$ (proportionnel)",
       "choix": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "$y = 12{,}5$ pour $x=5$ et $y = 20$ pour $x=8$",
+        "$y = 10 ; y = 16$",
+        "$y = 12 ; y = 20$",
+        "$y = 12{,}5 ; y = 18$"
       ],
-      "reponse": "5",
-      "explication": "$\\times$($\\frac{5}{4}$) : 4$\\times\\frac{5}{4}$=5",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "4",
-          "12"
-        ],
-        "valeurs": [
-          [
-            "?",
-            "12"
-          ],
-          [
-            "4",
-            "15"
-          ]
-        ],
-        "case_manquante": [
-          0,
-          0
-        ]
-      }
+      "reponse": "$y = 12{,}5$ pour $x=5$ et $y = 20$ pour $x=8$",
+      "explication": "Coeff : $7{,}5 \\div 3 = 2{,}5$. $5 \\times 2{,}5 = 12{,}5$ ; $8 \\times 2{,}5 = 20$.",
+      "image": null
     },
     {
       "id": "aut_22_23",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 7→9. G2: 28→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Si $y = 3x - 1$, est-ce une situation de proportionnalité ?",
       "choix": [
-        "32",
-        "36",
-        "40",
-        "44"
+        "Non",
+        "Oui",
+        "Oui, si $x > 0$",
+        "Cela dépend de $x$"
       ],
-      "reponse": "36",
-      "explication": "$\\times$($\\frac{9}{7}$) : 28$\\times\\frac{9}{7}$=36",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "7",
-          "28"
-        ],
-        "valeurs": [
-          [
-            "7",
-            "28"
-          ],
-          [
-            "9",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "Non",
+      "explication": "Une situation de proportionnalité a la forme $y = kx$ (sans terme constant). $y = 3x - 1$ n'est pas de cette forme.",
+      "image": null
     },
     {
       "id": "aut_22_24",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G2: 8→48. G1: 6→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$5\\,\\mathrm{L}$ d'huile pour $12$ personnes. Quantité pour $20$ personnes :",
       "choix": [
-        "36",
-        "40",
-        "42",
-        "48"
+        "$\\dfrac{25}{3} \\approx 8{,}33\\,\\mathrm{L}$",
+        "$8\\,\\mathrm{L}$",
+        "$10\\,\\mathrm{L}$",
+        "$7{,}5\\,\\mathrm{L}$"
       ],
-      "reponse": "36",
-      "explication": "coeff=6. 6$\\times$6=36",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "6",
-          "8"
-        ],
-        "valeurs": [
-          [
-            "?",
-            "8"
-          ],
-          [
-            "6",
-            "48"
-          ]
-        ],
-        "case_manquante": [
-          0,
-          0
-        ]
-      }
+      "reponse": "$\\dfrac{25}{3} \\approx 8{,}33\\,\\mathrm{L}$",
+      "explication": "Par personne : $5 \\div 12 = \\dfrac{5}{12}\\,\\mathrm{L}$. $20 \\times \\dfrac{5}{12} = \\dfrac{100}{12} = \\dfrac{25}{3} \\approx 8{,}33\\,\\mathrm{L}$.",
+      "image": null
     },
     {
       "id": "aut_22_25",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 9→3. G2: 36→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Tableau : $x = 2, 5, 8$ ; $y = 6, 15, 24$. Vérifier la proportionnalité et donner $y$ pour $x=11$.",
       "choix": [
-        "10",
-        "11",
-        "12",
-        "13"
+        "$y = 33$",
+        "$y = 30$",
+        "$y = 36$",
+        "$y = 31$"
       ],
-      "reponse": "12",
-      "explication": "$\\div$3 : 36$\\div$3=12",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "9",
-          "36"
-        ],
-        "valeurs": [
-          [
-            "9",
-            "36"
-          ],
-          [
-            "3",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$y = 33$",
+      "explication": "Coeff : $6 \\div 2 = 15 \\div 5 = 24 \\div 8 = 3$. Oui, proportionnel. $11 \\times 3 = 33$.",
+      "image": null
     },
     {
       "id": "aut_22_26",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G2: 4→12. G1: 5→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3\\,\\mathrm{kg}$ de cerises coûtent $10{,}50\\,\\mathrm{€}$. Prix de $7\\,\\mathrm{kg}$ :",
       "choix": [
-        "12",
-        "14",
-        "15",
-        "16"
+        "$24{,}50\\,\\mathrm{€}$",
+        "$21\\,\\mathrm{€}$",
+        "$28\\,\\mathrm{€}$",
+        "$24\\,\\mathrm{€}$"
       ],
-      "reponse": "15",
-      "explication": "$\\times$3 : 5$\\times$3=15",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "5",
-          "4"
-        ],
-        "valeurs": [
-          [
-            "?",
-            "4"
-          ],
-          [
-            "5",
-            "12"
-          ]
-        ],
-        "case_manquante": [
-          0,
-          0
-        ]
-      }
+      "reponse": "$24{,}50\\,\\mathrm{€}$",
+      "explication": "Par kg : $10{,}50 \\div 3 = 3{,}50\\,\\mathrm{€}$. $7 \\times 3{,}50 = 24{,}50\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_27",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 12→13. G2: 24→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Un coureur court $10\\,\\mathrm{km}$ en $50\\,\\mathrm{min}$. Durée pour $15\\,\\mathrm{km}$ :",
       "choix": [
-        "25",
-        "26",
-        "27",
-        "28"
+        "$75\\,\\mathrm{min}$",
+        "$60\\,\\mathrm{min}$",
+        "$70\\,\\mathrm{min}$",
+        "$80\\,\\mathrm{min}$"
       ],
-      "reponse": "26",
-      "explication": "$\\times$($\\frac{13}{12}$) : 24$\\times\\frac{13}{12}$=26",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "12",
-          "24"
-        ],
-        "valeurs": [
-          [
-            "12",
-            "24"
-          ],
-          [
-            "13",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$75\\,\\mathrm{min}$",
+      "explication": "Par km : $50 \\div 10 = 5\\,\\mathrm{min}$. $15 \\times 5 = 75\\,\\mathrm{min}$.",
+      "image": null
     },
     {
       "id": "aut_22_28",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 1→6. G2: 8→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$2$ articles à $3{,}80\\,\\mathrm{€}$ et $3$ articles à $5{,}20\\,\\mathrm{€}$. Total :",
       "choix": [
-        "42",
-        "48",
-        "54",
-        "60"
+        "$23{,}20\\,\\mathrm{€}$",
+        "$22\\,\\mathrm{€}$",
+        "$24\\,\\mathrm{€}$",
+        "$23\\,\\mathrm{€}$"
       ],
-      "reponse": "48",
-      "explication": "$\\times$6 : 8$\\times$6=48",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "1",
-          "8"
-        ],
-        "valeurs": [
-          [
-            "1",
-            "8"
-          ],
-          [
-            "6",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$23{,}20\\,\\mathrm{€}$",
+      "explication": "$2 \\times 3{,}80 + 3 \\times 5{,}20 = 7{,}60 + 15{,}60 = 23{,}20\\,\\mathrm{€}$.",
+      "image": null
     },
     {
       "id": "aut_22_29",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 2→3. G2: 27→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Tableau proportionnel : pour $x = 7$, $y = 42$. Valeur de $k$ (coefficient) :",
       "choix": [
-        "36",
-        "40",
-        "40,5",
-        "41"
+        "$k = 6$",
+        "$k = 5$",
+        "$k = 7$",
+        "$k = 8$"
       ],
-      "reponse": "40,5",
-      "explication": "$\\times$($\\frac{3}{2}$) : 27$\\times\\frac{3}{2}$=40,5",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "2",
-          "27"
-        ],
-        "valeurs": [
-          [
-            "2",
-            "27"
-          ],
-          [
-            "3",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$k = 6$",
+      "explication": "$k = y \\div x = 42 \\div 7 = 6$.",
+      "image": null
     },
     {
       "id": "aut_22_30",
-      "niveau": 2,
-      "type": "tableau_proportionnalite",
-      "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "G1: 4→5. G2: 20→?",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$x$ et $y$ proportionnels : $x = 0{,}5 \\rightarrow y = 3$. Valeur de $y$ pour $x = 1{,}5$ :",
       "choix": [
-        "22",
-        "24",
-        "25",
-        "28"
+        "$y = 9$",
+        "$y = 6$",
+        "$y = 7{,}5$",
+        "$y = 12$"
       ],
-      "reponse": "25",
-      "explication": "$\\times$($\\frac{5}{4}$) : 20$\\times\\frac{5}{4}$=25",
-      "image": null,
-      "tableau": {
-        "lignes": [
-          "Grandeur 1",
-          "Grandeur 2"
-        ],
-        "colonnes": [
-          "4",
-          "20"
-        ],
-        "valeurs": [
-          [
-            "4",
-            "20"
-          ],
-          [
-            "5",
-            "?"
-          ]
-        ],
-        "case_manquante": [
-          1,
-          1
-        ]
-      }
+      "reponse": "$y = 9$",
+      "explication": "Coeff : $k = 3 \\div 0{,}5 = 6$. $y = 1{,}5 \\times 6 = 9$.",
+      "image": null
     }
   ]
 }

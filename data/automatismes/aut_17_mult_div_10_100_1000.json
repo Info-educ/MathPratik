@@ -2,9 +2,9 @@
   "niveau": "automatismes",
   "thematique": {
     "id": "aut_17",
-    "label": "Multiplier/diviser par 10, 100, 1 000",
-    "icon": "🔄",
-    "color": "#047857"
+    "label": "Multiplier et diviser par 10, 100 ou 1 000",
+    "icon": "✖️",
+    "color": "#0891b2"
   },
   "questions": [
     {
@@ -12,16 +12,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "3,67$\\times$10 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $3{,}67 \\times 10$",
       "choix": [
-        "3,670",
-        "36,7",
-        "367",
-        "0,367"
+        "$36{,}7$",
+        "$367$",
+        "$0{,}367$",
+        "$3{,}67$"
       ],
-      "reponse": "36,7",
-      "explication": "virgule +1 rang : 36,7",
+      "reponse": "$36{,}7$",
+      "explication": "$\\times 10$ : virgule décale d'un rang vers la droite. $3{,}67 \\rightarrow 36{,}7$.",
       "image": null
     },
     {
@@ -29,16 +29,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,245$\\times$100 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}245 \\times 100$",
       "choix": [
-        "0,0245",
-        "2,45",
-        "24,5",
-        "245"
+        "$24{,}5$",
+        "$2{,}45$",
+        "$245$",
+        "$0{,}0245$"
       ],
-      "reponse": "24,5",
-      "explication": "virgule +2 rangs : 24,5",
+      "reponse": "$24{,}5$",
+      "explication": "$\\times 100$ : virgule décale de 2 rangs vers la droite. $0{,}245 \\rightarrow 24{,}5$.",
       "image": null
     },
     {
@@ -46,16 +46,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,038$\\times$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}038 \\times 1\\,000$",
       "choix": [
-        "0,38",
-        "3,8",
-        "38",
-        "380"
+        "$38$",
+        "$3{,}8$",
+        "$380$",
+        "$0{,}38$"
       ],
-      "reponse": "38",
-      "explication": "virgule +3 rangs : 38",
+      "reponse": "$38$",
+      "explication": "$\\times 1\\,000$ : virgule décale de 3 rangs vers la droite. $0{,}038 \\rightarrow 38$.",
       "image": null
     },
     {
@@ -63,16 +63,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "42,1$\\div$10 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $42{,}1 \\div 10$",
       "choix": [
-        "0,421",
-        "4,21",
-        "42,1",
-        "421"
+        "$4{,}21$",
+        "$421$",
+        "$0{,}421$",
+        "$42{,}10$"
       ],
-      "reponse": "4,21",
-      "explication": "virgule -1 rang : 4,21",
+      "reponse": "$4{,}21$",
+      "explication": "$\\div 10$ : virgule décale d'un rang vers la gauche. $42{,}1 \\rightarrow 4{,}21$.",
       "image": null
     },
     {
@@ -80,16 +80,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "7,5$\\div$100 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $7{,}5 \\div 100$",
       "choix": [
-        "0,0075",
-        "0,075",
-        "0,75",
-        "7,5"
+        "$0{,}075$",
+        "$0{,}75$",
+        "$75$",
+        "$0{,}0075$"
       ],
-      "reponse": "0,075",
-      "explication": "virgule -2 rangs : 0,075",
+      "reponse": "$0{,}075$",
+      "explication": "$\\div 100$ : virgule décale de 2 rangs vers la gauche. $7{,}5 \\rightarrow 0{,}075$.",
       "image": null
     },
     {
@@ -97,16 +97,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "85$\\div$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $85 \\div 1\\,000$",
       "choix": [
-        "0,0085",
-        "0,085",
-        "0,85",
-        "8,5"
+        "$0{,}085$",
+        "$0{,}85$",
+        "$8{,}5$",
+        "$0{,}0085$"
       ],
-      "reponse": "0,085",
-      "explication": "virgule -3 rangs : 0,085",
+      "reponse": "$0{,}085$",
+      "explication": "$\\div 1\\,000$ : virgule décale de 3 rangs vers la gauche. $85 \\rightarrow 0{,}085$.",
       "image": null
     },
     {
@@ -114,16 +114,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "1,508$\\times$10 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $1{,}508 \\times 10$",
       "choix": [
-        "0,1508",
-        "15,08",
-        "150,8",
-        "1 508"
+        "$15{,}08$",
+        "$150{,}8$",
+        "$0{,}1508$",
+        "$15{,}8$"
       ],
-      "reponse": "15,08",
-      "explication": "1,508$\\times$10=15,08",
+      "reponse": "$15{,}08$",
+      "explication": "$\\times 10$ : virgule décale d'un rang vers la droite. $1{,}508 \\rightarrow 15{,}08$.",
       "image": null
     },
     {
@@ -131,16 +131,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,072$\\times$100 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}072 \\times 100$",
       "choix": [
-        "0,72",
-        "7,2",
-        "72",
-        "720"
+        "$7{,}2$",
+        "$72$",
+        "$0{,}72$",
+        "$720$"
       ],
-      "reponse": "7,2",
-      "explication": "0,072$\\times$100=7,2",
+      "reponse": "$7{,}2$",
+      "explication": "$\\times 100$ : virgule décale de 2 rangs vers la droite. $0{,}072 \\rightarrow 7{,}2$.",
       "image": null
     },
     {
@@ -148,16 +148,16 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,9$\\times$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $5{,}04 \\div 10$",
       "choix": [
-        "9",
-        "90",
-        "900",
-        "9 000"
+        "$0{,}504$",
+        "$50{,}4$",
+        "$0{,}0504$",
+        "$504$"
       ],
-      "reponse": "900",
-      "explication": "0,9$\\times$1000=900",
+      "reponse": "$0{,}504$",
+      "explication": "$\\div 10$ : virgule décale d'un rang vers la gauche. $5{,}04 \\rightarrow 0{,}504$.",
       "image": null
     },
     {
@@ -165,101 +165,101 @@
       "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "136,4$\\div$10 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}3 \\times 1\\,000$",
       "choix": [
-        "1,364",
-        "13,64",
-        "136,4",
-        "1364"
+        "$300$",
+        "$30$",
+        "$3\\,000$",
+        "$3$"
       ],
-      "reponse": "13,64",
-      "explication": "136,4$\\div$10=13,64",
+      "reponse": "$300$",
+      "explication": "$\\times 1\\,000$ : virgule décale de 3 rangs vers la droite. $0{,}3 \\rightarrow 300$.",
       "image": null
     },
     {
       "id": "aut_17_11",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "5,2$\\div$100 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $4{,}56 \\times 10$",
       "choix": [
-        "0,0052",
-        "0,052",
-        "0,52",
-        "52"
+        "$45{,}6$",
+        "$456$",
+        "$0{,}456$",
+        "$4{,}56$"
       ],
-      "reponse": "0,052",
-      "explication": "5,2$\\div$100=0,052",
+      "reponse": "$45{,}6$",
+      "explication": "$\\times 10$ : $4{,}56 \\rightarrow 45{,}6$.",
       "image": null
     },
     {
       "id": "aut_17_12",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "4 300$\\div$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}007 \\times 100$",
       "choix": [
-        "0,43",
-        "4,3",
-        "43",
-        "430"
+        "$0{,}7$",
+        "$7$",
+        "$0{,}07$",
+        "$70$"
       ],
-      "reponse": "4,3",
-      "explication": "4300$\\div$1000=4,3",
+      "reponse": "$0{,}7$",
+      "explication": "$\\times 100$ : $0{,}007 \\rightarrow 0{,}7$.",
       "image": null
     },
     {
       "id": "aut_17_13",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,006$\\times$10 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $12 \\div 1\\,000$",
       "choix": [
-        "0,0006",
-        "0,06",
-        "0,6",
-        "6"
+        "$0{,}012$",
+        "$0{,}12$",
+        "$1{,}2$",
+        "$0{,}0012$"
       ],
-      "reponse": "0,06",
-      "explication": "0,006$\\times$10=0,06",
+      "reponse": "$0{,}012$",
+      "explication": "$\\div 1\\,000$ : $12 \\rightarrow 0{,}012$.",
       "image": null
     },
     {
       "id": "aut_17_14",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,0014$\\times$100 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}45 \\times 100$",
       "choix": [
-        "0,014",
-        "0,14",
-        "1,4",
-        "14"
+        "$45$",
+        "$4{,}5$",
+        "$450$",
+        "$0{,}045$"
       ],
-      "reponse": "0,14",
-      "explication": "0,0014$\\times$100=0,14",
+      "reponse": "$45$",
+      "explication": "$\\times 100$ : $0{,}45 \\rightarrow 45$.",
       "image": null
     },
     {
       "id": "aut_17_15",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "1,57$\\times$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $8{,}3 \\div 100$",
       "choix": [
-        "15,7",
-        "157",
-        "1 570",
-        "15 700"
+        "$0{,}083$",
+        "$83$",
+        "$0{,}83$",
+        "$0{,}0083$"
       ],
-      "reponse": "1 570",
-      "explication": "1,57$\\times$1000=1570",
+      "reponse": "$0{,}083$",
+      "explication": "$\\div 100$ : $8{,}3 \\rightarrow 0{,}083$.",
       "image": null
     },
     {
@@ -267,16 +267,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,8$\\div$10 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}0016 \\times 1\\,000$",
       "choix": [
-        "0,008",
-        "0,08",
-        "0,8",
-        "8"
+        "$1{,}6$",
+        "$16$",
+        "$0{,}16$",
+        "$160$"
       ],
-      "reponse": "0,08",
-      "explication": "0,8$\\div$10=0,08",
+      "reponse": "$1{,}6$",
+      "explication": "$\\times 1\\,000$ : $0{,}0016 \\rightarrow 1{,}6$.",
       "image": null
     },
     {
@@ -284,16 +284,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,03$\\div$100 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $25{,}3 \\div 10$",
       "choix": [
-        "0,0003",
-        "0,003",
-        "0,03",
-        "0,3"
+        "$2{,}53$",
+        "$253$",
+        "$0{,}253$",
+        "$25{,}3$"
       ],
-      "reponse": "0,0003",
-      "explication": "0,03$\\div$100=0,0003",
+      "reponse": "$2{,}53$",
+      "explication": "$\\div 10$ : $25{,}3 \\rightarrow 2{,}53$.",
       "image": null
     },
     {
@@ -301,16 +301,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "52$\\div$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}9 \\times 1\\,000$",
       "choix": [
-        "0,0052",
-        "0,052",
-        "0,52",
-        "5,2"
+        "$900$",
+        "$90$",
+        "$9\\,000$",
+        "$9$"
       ],
-      "reponse": "0,052",
-      "explication": "52$\\div$1000=0,052",
+      "reponse": "$900$",
+      "explication": "$\\times 1\\,000$ : $0{,}9 \\rightarrow 900$.",
       "image": null
     },
     {
@@ -318,16 +318,16 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "74$\\times$0,1 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $360 \\div 1\\,000$",
       "choix": [
-        "0,74",
-        "7,4",
-        "74",
-        "740"
+        "$0{,}36$",
+        "$3{,}6$",
+        "$36$",
+        "$0{,}036$"
       ],
-      "reponse": "7,4",
-      "explication": "$\\times$0,1=$\\div$10 → 7,4",
+      "reponse": "$0{,}36$",
+      "explication": "$\\div 1\\,000$ : $360 \\rightarrow 0{,}36$.",
       "image": null
     },
     {
@@ -335,186 +335,186 @@
       "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "630$\\times$0,01 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}034 \\times 10$",
       "choix": [
-        "0,63",
-        "6,3",
-        "63",
-        "630"
+        "$0{,}34$",
+        "$3{,}4$",
+        "$0{,}0034$",
+        "$34$"
       ],
-      "reponse": "6,3",
-      "explication": "$\\times$0,01=$\\div$100 → 6,3",
+      "reponse": "$0{,}34$",
+      "explication": "$\\times 10$ : $0{,}034 \\rightarrow 0{,}34$.",
       "image": null
     },
     {
       "id": "aut_17_21",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "5 200$\\times$0,001 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $15{,}4 \\times 100$",
       "choix": [
-        "0,52",
-        "5,2",
-        "52",
-        "520"
+        "$1\\,540$",
+        "$154$",
+        "$15\\,400$",
+        "$1{,}54$"
       ],
-      "reponse": "5,2",
-      "explication": "$\\times$0,001=$\\div$1000 → 5,2",
+      "reponse": "$1\\,540$",
+      "explication": "$\\times 100$ : $15{,}4 \\rightarrow 1\\,540$.",
       "image": null
     },
     {
       "id": "aut_17_22",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,45$\\times$0,1 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}0083 \\times 1\\,000$",
       "choix": [
-        "0,0045",
-        "0,045",
-        "0,45",
-        "4,5"
+        "$8{,}3$",
+        "$83$",
+        "$0{,}83$",
+        "$0{,}083$"
       ],
-      "reponse": "0,045",
-      "explication": "0,45$\\div$10=0,045",
+      "reponse": "$8{,}3$",
+      "explication": "$\\times 1\\,000$ : $0{,}0083 \\rightarrow 8{,}3$.",
       "image": null
     },
     {
       "id": "aut_17_23",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "2,8$\\times$0,01 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $47 \\div 100$",
       "choix": [
-        "0,0028",
-        "0,028",
-        "0,28",
-        "2,8"
+        "$0{,}47$",
+        "$4{,}7$",
+        "$0{,}047$",
+        "$470$"
       ],
-      "reponse": "0,028",
-      "explication": "2,8$\\div$100=0,028",
+      "reponse": "$0{,}47$",
+      "explication": "$\\div 100$ : $47 \\rightarrow 0{,}47$.",
       "image": null
     },
     {
       "id": "aut_17_24",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "16$\\times$0,001 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}56 \\times 1\\,000$",
       "choix": [
-        "0,0016",
-        "0,016",
-        "0,16",
-        "1,6"
+        "$560$",
+        "$56$",
+        "$5\\,600$",
+        "$5{,}6$"
       ],
-      "reponse": "0,016",
-      "explication": "16$\\div$1000=0,016",
+      "reponse": "$560$",
+      "explication": "$\\times 1\\,000$ : $0{,}56 \\rightarrow 560$.",
       "image": null
     },
     {
       "id": "aut_17_25",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "9 360$\\times$0,01 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $3\\,700 \\div 1\\,000$",
       "choix": [
-        "0,936",
-        "9,36",
-        "93,6",
-        "936"
+        "$3{,}7$",
+        "$37$",
+        "$0{,}37$",
+        "$370$"
       ],
-      "reponse": "93,6",
-      "explication": "9360$\\div$100=93,6",
+      "reponse": "$3{,}7$",
+      "explication": "$\\div 1\\,000$ : $3\\,700 \\rightarrow 3{,}7$.",
       "image": null
     },
     {
       "id": "aut_17_26",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,07$\\times$10 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $2{,}08 \\times 10$",
       "choix": [
-        "0,007",
-        "0,7",
-        "7",
-        "70"
+        "$20{,}8$",
+        "$208$",
+        "$0{,}208$",
+        "$20{,}08$"
       ],
-      "reponse": "0,7",
-      "explication": "0,07$\\times$10=0,7",
+      "reponse": "$20{,}8$",
+      "explication": "$\\times 10$ : $2{,}08 \\rightarrow 20{,}8$.",
       "image": null
     },
     {
       "id": "aut_17_27",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "2,004$\\times$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}0074 \\times 100$",
       "choix": [
-        "20,04",
-        "200,4",
-        "2 004",
-        "20 040"
+        "$0{,}74$",
+        "$7{,}4$",
+        "$0{,}074$",
+        "$74$"
       ],
-      "reponse": "2 004",
-      "explication": "2,004$\\times$1000=2004",
+      "reponse": "$0{,}74$",
+      "explication": "$\\times 100$ : $0{,}0074 \\rightarrow 0{,}74$.",
       "image": null
     },
     {
       "id": "aut_17_28",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "30 500$\\div$1 000 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $6{,}5 \\div 1\\,000$",
       "choix": [
-        "0,305",
-        "3,05",
-        "30,5",
-        "305"
+        "$0{,}0065$",
+        "$0{,}065$",
+        "$0{,}65$",
+        "$0{,}00065$"
       ],
-      "reponse": "30,5",
-      "explication": "30500$\\div$1000=30,5",
+      "reponse": "$0{,}0065$",
+      "explication": "$\\div 1\\,000$ : $6{,}5 \\rightarrow 0{,}0065$.",
       "image": null
     },
     {
       "id": "aut_17_29",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "0,003$\\times$100 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $85{,}2 \\div 10$",
       "choix": [
-        "0,03",
-        "0,3",
-        "3",
-        "30"
+        "$8{,}52$",
+        "$852$",
+        "$0{,}852$",
+        "$85{,}2$"
       ],
-      "reponse": "0,3",
-      "explication": "0,003$\\times$100=0,3",
+      "reponse": "$8{,}52$",
+      "explication": "$\\div 10$ : $85{,}2 \\rightarrow 8{,}52$.",
       "image": null
     },
     {
       "id": "aut_17_30",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
-      "chrono": 20,
-      "enonce": "125$\\times$0,01 = ?",
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}001 \\times 1\\,000$",
       "choix": [
-        "0,125",
-        "1,25",
-        "12,5",
-        "1250"
+        "$1$",
+        "$10$",
+        "$0{,}1$",
+        "$100$"
       ],
-      "reponse": "1,25",
-      "explication": "125$\\div$100=1,25",
+      "reponse": "$1$",
+      "explication": "$\\times 1\\,000$ : $0{,}001 \\rightarrow 1$.",
       "image": null
     }
   ]
