@@ -329,6 +329,21 @@
       .notion-card:hover { transform:translateX(4px); border-color:var(--bd-med); }
     }
     .notion-card:active { transform:scale(0.98); }
+
+    /* ── Contenu des cartes au-dessus du canvas saisonnier (z-index:0) ── */
+    .notion-icon-wrap,
+    .notion-info,
+    .notion-card > *:not(.mp-cv),
+    .niveau-card > *:not(.mp-cv),
+    .theme-check > *:not(.mp-cv) {
+      position: relative;
+      z-index: 1;
+    }
+    /* Le ::before (bande colorée gauche) doit rester visible aussi */
+    .notion-card::before,
+    .niveau-card::before,
+    .theme-check::before { z-index: 1; }
+
     .notion-icon-wrap {
       width:42px; height:42px; border-radius:var(--r-sm);
       background:color-mix(in srgb, var(--notion-color) 12%, transparent);
