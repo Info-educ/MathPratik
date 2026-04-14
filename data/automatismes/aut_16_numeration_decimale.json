@@ -100,13 +100,13 @@
       "chrono": 20,
       "enonce": "Écris $12{,}539$ sous la forme entier + fraction.",
       "choix": [
-        "$12 + \\\\dfrac{539}{1000}$",
-        "$12 + \\\\dfrac{53}{100}$",
-        "$12 + \\\\dfrac{5}{10}$",
-        "$1 + \\\\dfrac{2539}{1000}$"
+        "$12 + \\dfrac{539}{1000}$",
+        "$12 + \\dfrac{53}{100}$",
+        "$12 + \\dfrac{5}{10}$",
+        "$1 + \\dfrac{2539}{1000}$"
       ],
-      "reponse": "$12 + \\\\dfrac{539}{1000}$",
-      "explication": "$12{,}539 = 12 + \\\\dfrac{5}{10} + \\\\dfrac{3}{100} + \\\\dfrac{9}{1000} = 12 + \\\\dfrac{539}{1000}$.",
+      "reponse": "$12 + \\dfrac{539}{1000}$",
+      "explication": "$12{,}539 = 12 + \\dfrac{5}{10} + \\dfrac{3}{100} + \\dfrac{9}{1000} = 12 + \\dfrac{539}{1000}$.",
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Écris $\\\\dfrac{7}{10} + \\\\dfrac{3}{100} + \\\\dfrac{5}{1000}$ sous forme décimale.",
+      "enonce": "Écris $\\dfrac{7}{10} + \\dfrac{3}{100} + \\dfrac{5}{1000}$ sous forme décimale.",
       "choix": [
         "$0{,}735$",
         "$7{,}35$",
@@ -140,7 +140,7 @@
         "$73{,}5$"
       ],
       "reponse": "$0{,}735$",
-      "explication": "$\\\\dfrac{7}{10} = 0{,}7$ ; $\\\\dfrac{3}{100} = 0{,}03$ ; $\\\\dfrac{5}{1000} = 0{,}005$. Total : $0{,}735$.",
+      "explication": "$\\dfrac{7}{10} = 0{,}7$ ; $\\dfrac{3}{100} = 0{,}03$ ; $\\dfrac{5}{1000} = 0{,}005$. Total : $0{,}735$.",
       "image": null
     },
     {
@@ -151,13 +151,13 @@
       "chrono": 20,
       "enonce": "Écris $4{,}389$ sous forme de fraction décimale.",
       "choix": [
-        "$\\\\dfrac{4389}{1000}$",
-        "$\\\\dfrac{438}{100}$",
-        "$\\\\dfrac{43}{10}$",
-        "$\\\\dfrac{4389}{100}$"
+        "$\\dfrac{4389}{1000}$",
+        "$\\dfrac{438}{100}$",
+        "$\\dfrac{43}{10}$",
+        "$\\dfrac{4389}{100}$"
       ],
-      "reponse": "$\\\\dfrac{4389}{1000}$",
-      "explication": "$4{,}389 = \\\\dfrac{4389}{1000}$ (3 chiffres après la virgule → dénominateur $1\\,000$).",
+      "reponse": "$\\dfrac{4389}{1000}$",
+      "explication": "$4{,}389 = \\dfrac{4389}{1000}$ (3 chiffres après la virgule → dénominateur $1\\,000$).",
       "image": null
     },
     {
@@ -217,7 +217,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Écris $2 + \\\\dfrac{3}{10} + \\\\dfrac{7}{100}$ sous forme décimale.",
+      "enonce": "Écris $2 + \\dfrac{3}{10} + \\dfrac{7}{100}$ sous forme décimale.",
       "choix": [
         "$2{,}37$",
         "$2{,}307$",
@@ -225,7 +225,7 @@
         "$0{,}237$"
       ],
       "reponse": "$2{,}37$",
-      "explication": "$\\\\dfrac{3}{10} = 0{,}3$ ; $\\\\dfrac{7}{100} = 0{,}07$. Donc $2 + 0{,}3 + 0{,}07 = 2{,}37$.",
+      "explication": "$\\dfrac{3}{10} = 0{,}3$ ; $\\dfrac{7}{100} = 0{,}07$. Donc $2 + 0{,}3 + 0{,}07 = 2{,}37$.",
       "image": null
     },
     {
@@ -236,13 +236,13 @@
       "chrono": 20,
       "enonce": "Écris $0{,}056$ sous forme de fraction décimale.",
       "choix": [
-        "$\\\\dfrac{56}{1000}$",
-        "$\\\\dfrac{56}{100}$",
-        "$\\\\dfrac{5}{10}$",
-        "$\\\\dfrac{560}{1000}$"
+        "$\\dfrac{56}{1000}$",
+        "$\\dfrac{56}{100}$",
+        "$\\dfrac{5}{10}$",
+        "$\\dfrac{560}{1000}$"
       ],
-      "reponse": "$\\\\dfrac{56}{1000}$",
-      "explication": "$0{,}056 = \\\\dfrac{56}{1000}$ (3 chiffres après la virgule).",
+      "reponse": "$\\dfrac{56}{1000}$",
+      "explication": "$0{,}056 = \\dfrac{56}{1000}$ (3 chiffres après la virgule).",
       "image": null
     },
     {
@@ -270,13 +270,13 @@
       "chrono": 20,
       "enonce": "Décompose $8{,}304$ : partie entière + fractions.",
       "choix": [
-        "$8 + \\\\dfrac{3}{10} + \\\\dfrac{4}{1000}$",
-        "$8 + \\\\dfrac{304}{100}$",
-        "$8 + \\\\dfrac{3}{10} + \\\\dfrac{0}{100} + \\\\dfrac{4}{100}$",
-        "$8 + \\\\dfrac{3004}{1000}$"
+        "$8 + \\dfrac{3}{10} + \\dfrac{4}{1000}$",
+        "$8 + \\dfrac{304}{100}$",
+        "$8 + \\dfrac{3}{10} + \\dfrac{0}{100} + \\dfrac{4}{100}$",
+        "$8 + \\dfrac{3004}{1000}$"
       ],
-      "reponse": "$8 + \\\\dfrac{3}{10} + \\\\dfrac{4}{1000}$",
-      "explication": "$8{,}304 = 8 + \\\\dfrac{3}{10} + \\\\dfrac{0}{100} + \\\\dfrac{4}{1000} = 8 + \\\\dfrac{3}{10} + \\\\dfrac{4}{1000}$.",
+      "reponse": "$8 + \\dfrac{3}{10} + \\dfrac{4}{1000}$",
+      "explication": "$8{,}304 = 8 + \\dfrac{3}{10} + \\dfrac{0}{100} + \\dfrac{4}{1000} = 8 + \\dfrac{3}{10} + \\dfrac{4}{1000}$.",
       "image": null
     },
     {
@@ -285,7 +285,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Écris $\\\\dfrac{134}{1000}$ sous forme décimale.",
+      "enonce": "Écris $\\dfrac{134}{1000}$ sous forme décimale.",
       "choix": [
         "$0{,}134$",
         "$1{,}34$",
@@ -293,7 +293,7 @@
         "$0{,}0134$"
       ],
       "reponse": "$0{,}134$",
-      "explication": "$\\\\dfrac{134}{1000} = 0{,}134$.",
+      "explication": "$\\dfrac{134}{1000} = 0{,}134$.",
       "image": null
     },
     {
@@ -321,13 +321,13 @@
       "chrono": 20,
       "enonce": "Écris $6{,}05$ sous forme de fraction décimale.",
       "choix": [
-        "$\\\\dfrac{605}{100}$",
-        "$\\\\dfrac{65}{100}$",
-        "$\\\\dfrac{605}{1000}$",
-        "$\\\\dfrac{6}{10}$"
+        "$\\dfrac{605}{100}$",
+        "$\\dfrac{65}{100}$",
+        "$\\dfrac{605}{1000}$",
+        "$\\dfrac{6}{10}$"
       ],
-      "reponse": "$\\\\dfrac{605}{100}$",
-      "explication": "$6{,}05 = \\\\dfrac{605}{100}$ (2 chiffres après la virgule).",
+      "reponse": "$\\dfrac{605}{100}$",
+      "explication": "$6{,}05 = \\dfrac{605}{100}$ (2 chiffres après la virgule).",
       "image": null
     },
     {
@@ -370,7 +370,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Écris $40 + \\\\dfrac{9}{10} + \\\\dfrac{2}{100}$ sous forme décimale.",
+      "enonce": "Écris $40 + \\dfrac{9}{10} + \\dfrac{2}{100}$ sous forme décimale.",
       "choix": [
         "$40{,}92$",
         "$40{,}092$",
@@ -378,7 +378,7 @@
         "$409{,}2$"
       ],
       "reponse": "$40{,}92$",
-      "explication": "$\\\\dfrac{9}{10} = 0{,}9$ ; $\\\\dfrac{2}{100} = 0{,}02$. Donc $40 + 0{,}9 + 0{,}02 = 40{,}92$.",
+      "explication": "$\\dfrac{9}{10} = 0{,}9$ ; $\\dfrac{2}{100} = 0{,}02$. Donc $40 + 0{,}9 + 0{,}02 = 40{,}92$.",
       "image": null
     },
     {
@@ -404,7 +404,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Écris $\\\\dfrac{9}{100}$ sous forme décimale.",
+      "enonce": "Écris $\\dfrac{9}{100}$ sous forme décimale.",
       "choix": [
         "$0{,}09$",
         "$0{,}9$",
@@ -412,7 +412,7 @@
         "$9{,}0$"
       ],
       "reponse": "$0{,}09$",
-      "explication": "$\\\\dfrac{9}{100} = 0{,}09$.",
+      "explication": "$\\dfrac{9}{100} = 0{,}09$.",
       "image": null
     },
     {
@@ -423,13 +423,13 @@
       "chrono": 20,
       "enonce": "Décompose $15{,}206$ : partie entière + fractions.",
       "choix": [
-        "$15 + \\\\dfrac{2}{10} + \\\\dfrac{6}{1000}$",
-        "$15 + \\\\dfrac{206}{1000}$",
-        "$15 + \\\\dfrac{2}{10} + \\\\dfrac{6}{100}$",
-        "$15 + \\\\dfrac{2006}{1000}$"
+        "$15 + \\dfrac{2}{10} + \\dfrac{6}{1000}$",
+        "$15 + \\dfrac{206}{1000}$",
+        "$15 + \\dfrac{2}{10} + \\dfrac{6}{100}$",
+        "$15 + \\dfrac{2006}{1000}$"
       ],
-      "reponse": "$15 + \\\\dfrac{2}{10} + \\\\dfrac{6}{1000}$",
-      "explication": "$15{,}206 = 15 + \\\\dfrac{2}{10} + \\\\dfrac{0}{100} + \\\\dfrac{6}{1000} = 15 + \\\\dfrac{2}{10} + \\\\dfrac{6}{1000}$.",
+      "reponse": "$15 + \\dfrac{2}{10} + \\dfrac{6}{1000}$",
+      "explication": "$15{,}206 = 15 + \\dfrac{2}{10} + \\dfrac{0}{100} + \\dfrac{6}{1000} = 15 + \\dfrac{2}{10} + \\dfrac{6}{1000}$.",
       "image": null
     },
     {
@@ -455,7 +455,7 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Écris $3 + \\\\dfrac{5}{1000}$ sous forme décimale.",
+      "enonce": "Écris $3 + \\dfrac{5}{1000}$ sous forme décimale.",
       "choix": [
         "$3{,}005$",
         "$3{,}05$",
@@ -463,7 +463,7 @@
         "$3{,}0005$"
       ],
       "reponse": "$3{,}005$",
-      "explication": "$\\\\dfrac{5}{1000} = 0{,}005$. Donc $3 + 0{,}005 = 3{,}005$.",
+      "explication": "$\\dfrac{5}{1000} = 0{,}005$. Donc $3 + 0{,}005 = 3{,}005$.",
       "image": null
     },
     {
@@ -508,13 +508,13 @@
       "chrono": 20,
       "enonce": "Décompose $100{,}04$ : partie entière + fractions.",
       "choix": [
-        "$100 + \\\\dfrac{4}{100}$",
-        "$100 + \\\\dfrac{4}{10}$",
-        "$100 + \\\\dfrac{40}{1000}$",
-        "$100 + \\\\dfrac{4}{1000}$"
+        "$100 + \\dfrac{4}{100}$",
+        "$100 + \\dfrac{4}{10}$",
+        "$100 + \\dfrac{40}{1000}$",
+        "$100 + \\dfrac{4}{1000}$"
       ],
-      "reponse": "$100 + \\\\dfrac{4}{100}$",
-      "explication": "$100{,}04 = 100 + \\\\dfrac{0}{10} + \\\\dfrac{4}{100} = 100 + \\\\dfrac{4}{100}$.",
+      "reponse": "$100 + \\dfrac{4}{100}$",
+      "explication": "$100{,}04 = 100 + \\dfrac{0}{10} + \\dfrac{4}{100} = 100 + \\dfrac{4}{100}$.",
       "image": null
     }
   ]

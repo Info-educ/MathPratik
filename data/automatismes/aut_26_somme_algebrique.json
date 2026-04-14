@@ -200,15 +200,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Calcule : $-\\\\dfrac{1}{2} + \\\\dfrac{3}{4} - \\\\dfrac{1}{4}$",
+      "enonce": "Calcule : $-\\dfrac{1}{2} + \\dfrac{3}{4} - \\dfrac{1}{4}$",
       "choix": [
         "$0$",
         "$+1$",
         "$-1$",
-        "$+\\\\dfrac{1}{2}$"
+        "$+\\dfrac{1}{2}$"
       ],
       "reponse": "$0$",
-      "explication": "$\\\\dfrac{-2+3-1}{4} = \\\\dfrac{0}{4} = 0$.",
+      "explication": "$\\dfrac{-2+3-1}{4} = \\dfrac{0}{4} = 0$.",
       "image": null
     },
     {
@@ -285,15 +285,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Calcule : $+\\\\dfrac{2}{3} - \\\\dfrac{1}{3} + \\\\dfrac{2}{3}$",
+      "enonce": "Calcule : $+\\dfrac{2}{3} - \\dfrac{1}{3} + \\dfrac{2}{3}$",
       "choix": [
         "$+1$",
         "$-1$",
-        "$+\\\\dfrac{1}{3}$",
-        "$+\\\\dfrac{4}{3}$"
+        "$+\\dfrac{1}{3}$",
+        "$+\\dfrac{4}{3}$"
       ],
       "reponse": "$+1$",
-      "explication": "$\\\\dfrac{2-1+2}{3} = \\\\dfrac{3}{3} = 1$.",
+      "explication": "$\\dfrac{2-1+2}{3} = \\dfrac{3}{3} = 1$.",
       "image": null
     },
     {
@@ -353,15 +353,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Calcule : $+\\\\dfrac{5}{6} - \\\\dfrac{1}{3} + \\\\dfrac{1}{6}$",
+      "enonce": "Calcule : $+\\dfrac{5}{6} - \\dfrac{1}{3} + \\dfrac{1}{6}$",
       "choix": [
-        "$\\\\dfrac{2}{3}$",
-        "$-\\\\dfrac{2}{3}$",
+        "$\\dfrac{2}{3}$",
+        "$-\\dfrac{2}{3}$",
         "$1$",
-        "$\\\\dfrac{1}{2}$"
+        "$\\dfrac{1}{2}$"
       ],
-      "reponse": "$\\\\dfrac{2}{3}$",
-      "explication": "$\\\\dfrac{5}{6} - \\\\dfrac{2}{6} + \\\\dfrac{1}{6} = \\\\dfrac{4}{6} = \\\\dfrac{2}{3}$.",
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$\\dfrac{5}{6} - \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{4}{6} = \\dfrac{2}{3}$.",
       "image": null
     },
     {
@@ -455,15 +455,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Calcule : $-\\\\dfrac{3}{4} + \\\\dfrac{5}{8} - \\\\dfrac{1}{8}$",
+      "enonce": "Calcule : $-\\dfrac{3}{4} + \\dfrac{5}{8} - \\dfrac{1}{8}$",
       "choix": [
-        "$-\\\\dfrac{1}{4}$",
-        "$+\\\\dfrac{1}{4}$",
-        "$-\\\\dfrac{7}{8}$",
-        "$+\\\\dfrac{7}{8}$"
+        "$-\\dfrac{1}{4}$",
+        "$+\\dfrac{1}{4}$",
+        "$-\\dfrac{7}{8}$",
+        "$+\\dfrac{7}{8}$"
       ],
-      "reponse": "$-\\\\dfrac{1}{4}$",
-      "explication": "$\\\\dfrac{-6+5-1}{8} = \\\\dfrac{-2}{8} = -\\\\dfrac{1}{4}$.",
+      "reponse": "$-\\dfrac{1}{4}$",
+      "explication": "$\\dfrac{-6+5-1}{8} = \\dfrac{-2}{8} = -\\dfrac{1}{4}$.",
       "image": null
     },
     {

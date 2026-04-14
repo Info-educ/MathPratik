@@ -370,15 +370,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Calcule : $(+\\\\dfrac{1}{2}) + (-\\\\dfrac{3}{4})$",
+      "enonce": "Calcule : $(+\\dfrac{1}{2}) + (-\\dfrac{3}{4})$",
       "choix": [
-        "$-\\\\dfrac{1}{4}$",
-        "$+\\\\dfrac{1}{4}$",
-        "$+\\\\dfrac{5}{4}$",
-        "$-\\\\dfrac{5}{4}$"
+        "$-\\dfrac{1}{4}$",
+        "$+\\dfrac{1}{4}$",
+        "$+\\dfrac{5}{4}$",
+        "$-\\dfrac{5}{4}$"
       ],
-      "reponse": "$-\\\\dfrac{1}{4}$",
-      "explication": "$\\\\dfrac{2}{4} - \\\\dfrac{3}{4} = -\\\\dfrac{1}{4}$.",
+      "reponse": "$-\\dfrac{1}{4}$",
+      "explication": "$\\dfrac{2}{4} - \\dfrac{3}{4} = -\\dfrac{1}{4}$.",
       "image": null
     },
     {
@@ -455,15 +455,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 20,
-      "enonce": "Calcule : $(-\\\\dfrac{2}{3}) - (+\\\\dfrac{1}{3})$",
+      "enonce": "Calcule : $(-\\dfrac{2}{3}) - (+\\dfrac{1}{3})$",
       "choix": [
         "$-1$",
         "$+1$",
-        "$-\\\\dfrac{1}{3}$",
-        "$+\\\\dfrac{1}{3}$"
+        "$-\\dfrac{1}{3}$",
+        "$+\\dfrac{1}{3}$"
       ],
       "reponse": "$-1$",
-      "explication": "$-\\\\dfrac{2}{3} - \\\\dfrac{1}{3} = -\\\\dfrac{3}{3} = -1$.",
+      "explication": "$-\\dfrac{2}{3} - \\dfrac{1}{3} = -\\dfrac{3}{3} = -1$.",
       "image": null
     },
     {

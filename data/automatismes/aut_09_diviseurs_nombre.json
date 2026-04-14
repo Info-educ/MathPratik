@@ -21,7 +21,7 @@
         "$2 ; 3 ; 4 ; 6$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 12$",
-      "explication": "Les diviseurs de $12$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 12$. On vérifie par paires : $1 \\\\times 12 = 12$, $2 \\\\times 6 = 12$, $3 \\\\times 4 = 12$.",
+      "explication": "Les diviseurs de $12$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 12$. On vérifie par paires : $1 \\times 12 = 12$, $2 \\times 6 = 12$, $3 \\times 4 = 12$.",
       "image": null
     },
     {
@@ -38,7 +38,7 @@
         "$2 ; 3 ; 6 ; 9$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 6 ; 9 ; 18$",
-      "explication": "Les diviseurs de $18$ sont : $1 ; 2 ; 3 ; 6 ; 9 ; 18$. Paires : $1 \\\\times 18$, $2 \\\\times 9$, $3 \\\\times 6$.",
+      "explication": "Les diviseurs de $18$ sont : $1 ; 2 ; 3 ; 6 ; 9 ; 18$. Paires : $1 \\times 18$, $2 \\times 9$, $3 \\times 6$.",
       "image": null
     },
     {
@@ -55,7 +55,7 @@
         "$2 ; 3 ; 4 ; 6 ; 8 ; 12$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24$",
-      "explication": "Les diviseurs de $24$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24$. Paires : $1 \\\\times 24$, $2 \\\\times 12$, $3 \\\\times 8$, $4 \\\\times 6$.",
+      "explication": "Les diviseurs de $24$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 24$. Paires : $1 \\times 24$, $2 \\times 12$, $3 \\times 8$, $4 \\times 6$.",
       "image": null
     },
     {
@@ -72,7 +72,7 @@
         "$2 ; 3 ; 5 ; 6 ; 10 ; 15$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 15 ; 30$",
-      "explication": "Les diviseurs de $30$ sont : $1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 15 ; 30$. Paires : $1 \\\\times 30$, $2 \\\\times 15$, $3 \\\\times 10$, $5 \\\\times 6$.",
+      "explication": "Les diviseurs de $30$ sont : $1 ; 2 ; 3 ; 5 ; 6 ; 10 ; 15 ; 30$. Paires : $1 \\times 30$, $2 \\times 15$, $3 \\times 10$, $5 \\times 6$.",
       "image": null
     },
     {
@@ -89,7 +89,7 @@
         "$2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18 ; 36$",
-      "explication": "Les diviseurs de $36$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18 ; 36$. Paires : $1 \\\\times 36$, $2 \\\\times 18$, $3 \\\\times 12$, $4 \\\\times 9$, $6 \\\\times 6$.",
+      "explication": "Les diviseurs de $36$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 9 ; 12 ; 18 ; 36$. Paires : $1 \\times 36$, $2 \\times 18$, $3 \\times 12$, $4 \\times 9$, $6 \\times 6$.",
       "image": null
     },
     {
@@ -106,7 +106,7 @@
         "$2 ; 3 ; 4 ; 6 ; 8 ; 16 ; 24$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48$",
-      "explication": "Les diviseurs de $48$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48$. Paires : $1 \\\\times 48$, $2 \\\\times 24$, $3 \\\\times 16$, $4 \\\\times 12$, $6 \\\\times 8$.",
+      "explication": "Les diviseurs de $48$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 12 ; 16 ; 24 ; 48$. Paires : $1 \\times 48$, $2 \\times 24$, $3 \\times 16$, $4 \\times 12$, $6 \\times 8$.",
       "image": null
     },
     {
@@ -123,7 +123,7 @@
         "$2 ; 5 ; 10 ; 25$"
       ],
       "reponse": "$1 ; 2 ; 5 ; 10 ; 25 ; 50$",
-      "explication": "Les diviseurs de $50$ sont : $1 ; 2 ; 5 ; 10 ; 25 ; 50$. Paires : $1 \\\\times 50$, $2 \\\\times 25$, $5 \\\\times 10$.",
+      "explication": "Les diviseurs de $50$ sont : $1 ; 2 ; 5 ; 10 ; 25 ; 50$. Paires : $1 \\times 50$, $2 \\times 25$, $5 \\times 10$.",
       "image": null
     },
     {
@@ -140,7 +140,7 @@
         "$2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$",
-      "explication": "Les diviseurs de $60$ sont : $1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$. Paires : $1 \\\\times 60$, $2 \\\\times 30$, $3 \\\\times 20$, $4 \\\\times 15$, $5 \\\\times 12$, $6 \\\\times 10$.",
+      "explication": "Les diviseurs de $60$ sont : $1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 10 ; 12 ; 15 ; 20 ; 30 ; 60$. Paires : $1 \\times 60$, $2 \\times 30$, $3 \\times 20$, $4 \\times 15$, $5 \\times 12$, $6 \\times 10$.",
       "image": null
     },
     {
@@ -157,7 +157,7 @@
         "$2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36 ; 72$",
-      "explication": "Les diviseurs de $72$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36 ; 72$. Paires : $1 \\\\times 72$, $2 \\\\times 36$, $3 \\\\times 24$, $4 \\\\times 18$, $6 \\\\times 12$, $8 \\\\times 9$.",
+      "explication": "Les diviseurs de $72$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 8 ; 9 ; 12 ; 18 ; 24 ; 36 ; 72$. Paires : $1 \\times 72$, $2 \\times 36$, $3 \\times 24$, $4 \\times 18$, $6 \\times 12$, $8 \\times 9$.",
       "image": null
     },
     {
@@ -174,7 +174,7 @@
         "$2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100$",
-      "explication": "Les diviseurs de $100$ sont : $1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100$. Paires : $1 \\\\times 100$, $2 \\\\times 50$, $4 \\\\times 25$, $5 \\\\times 20$, $10 \\\\times 10$.",
+      "explication": "Les diviseurs de $100$ sont : $1 ; 2 ; 4 ; 5 ; 10 ; 20 ; 25 ; 50 ; 100$. Paires : $1 \\times 100$, $2 \\times 50$, $4 \\times 25$, $5 \\times 20$, $10 \\times 10$.",
       "image": null
     },
     {
@@ -191,7 +191,7 @@
         "$1 ; 3 ; 15$"
       ],
       "reponse": "$1 ; 3 ; 5 ; 15$",
-      "explication": "Les diviseurs de $15$ sont : $1 ; 3 ; 5 ; 15$. Paires : $1 \\\\times 15$, $3 \\\\times 5$.",
+      "explication": "Les diviseurs de $15$ sont : $1 ; 3 ; 5 ; 15$. Paires : $1 \\times 15$, $3 \\times 5$.",
       "image": null
     },
     {
@@ -208,7 +208,7 @@
         "$2 ; 4 ; 5 ; 10$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 5 ; 10 ; 20$",
-      "explication": "Les diviseurs de $20$ sont : $1 ; 2 ; 4 ; 5 ; 10 ; 20$. Paires : $1 \\\\times 20$, $2 \\\\times 10$, $4 \\\\times 5$.",
+      "explication": "Les diviseurs de $20$ sont : $1 ; 2 ; 4 ; 5 ; 10 ; 20$. Paires : $1 \\times 20$, $2 \\times 10$, $4 \\times 5$.",
       "image": null
     },
     {
@@ -225,7 +225,7 @@
         "$2 ; 4 ; 7 ; 14$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 7 ; 14 ; 28$",
-      "explication": "Les diviseurs de $28$ sont : $1 ; 2 ; 4 ; 7 ; 14 ; 28$. Paires : $1 \\\\times 28$, $2 \\\\times 14$, $4 \\\\times 7$.",
+      "explication": "Les diviseurs de $28$ sont : $1 ; 2 ; 4 ; 7 ; 14 ; 28$. Paires : $1 \\times 28$, $2 \\times 14$, $4 \\times 7$.",
       "image": null
     },
     {
@@ -242,7 +242,7 @@
         "$2 ; 4 ; 8 ; 16$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 8 ; 16 ; 32$",
-      "explication": "Les diviseurs de $32$ sont : $1 ; 2 ; 4 ; 8 ; 16 ; 32$. Paires : $1 \\\\times 32$, $2 \\\\times 16$, $4 \\\\times 8$.",
+      "explication": "Les diviseurs de $32$ sont : $1 ; 2 ; 4 ; 8 ; 16 ; 32$. Paires : $1 \\times 32$, $2 \\times 16$, $4 \\times 8$.",
       "image": null
     },
     {
@@ -259,7 +259,7 @@
         "$2 ; 4 ; 5 ; 8 ; 10 ; 20$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 20 ; 40$",
-      "explication": "Les diviseurs de $40$ sont : $1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 20 ; 40$. Paires : $1 \\\\times 40$, $2 \\\\times 20$, $4 \\\\times 10$, $5 \\\\times 8$.",
+      "explication": "Les diviseurs de $40$ sont : $1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 20 ; 40$. Paires : $1 \\times 40$, $2 \\times 20$, $4 \\times 10$, $5 \\times 8$.",
       "image": null
     },
     {
@@ -276,7 +276,7 @@
         "$3 ; 5 ; 9 ; 15$"
       ],
       "reponse": "$1 ; 3 ; 5 ; 9 ; 15 ; 45$",
-      "explication": "Les diviseurs de $45$ sont : $1 ; 3 ; 5 ; 9 ; 15 ; 45$. Paires : $1 \\\\times 45$, $3 \\\\times 15$, $5 \\\\times 9$.",
+      "explication": "Les diviseurs de $45$ sont : $1 ; 3 ; 5 ; 9 ; 15 ; 45$. Paires : $1 \\times 45$, $3 \\times 15$, $5 \\times 9$.",
       "image": null
     },
     {
@@ -293,7 +293,7 @@
         "$2 ; 4 ; 7 ; 8 ; 14 ; 28$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 7 ; 8 ; 14 ; 28 ; 56$",
-      "explication": "Les diviseurs de $56$ sont : $1 ; 2 ; 4 ; 7 ; 8 ; 14 ; 28 ; 56$. Paires : $1 \\\\times 56$, $2 \\\\times 28$, $4 \\\\times 14$, $7 \\\\times 8$.",
+      "explication": "Les diviseurs de $56$ sont : $1 ; 2 ; 4 ; 7 ; 8 ; 14 ; 28 ; 56$. Paires : $1 \\times 56$, $2 \\times 28$, $4 \\times 14$, $7 \\times 8$.",
       "image": null
     },
     {
@@ -310,7 +310,7 @@
         "$2 ; 4 ; 8 ; 16 ; 32$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 8 ; 16 ; 32 ; 64$",
-      "explication": "Les diviseurs de $64$ sont : $1 ; 2 ; 4 ; 8 ; 16 ; 32 ; 64$. Paires : $1 \\\\times 64$, $2 \\\\times 32$, $4 \\\\times 16$, $8 \\\\times 8$.",
+      "explication": "Les diviseurs de $64$ sont : $1 ; 2 ; 4 ; 8 ; 16 ; 32 ; 64$. Paires : $1 \\times 64$, $2 \\times 32$, $4 \\times 16$, $8 \\times 8$.",
       "image": null
     },
     {
@@ -327,7 +327,7 @@
         "$2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40 ; 80$",
-      "explication": "Les diviseurs de $80$ sont : $1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40 ; 80$. Paires : $1 \\\\times 80$, $2 \\\\times 40$, $4 \\\\times 20$, $5 \\\\times 16$, $8 \\\\times 10$.",
+      "explication": "Les diviseurs de $80$ sont : $1 ; 2 ; 4 ; 5 ; 8 ; 10 ; 16 ; 20 ; 40 ; 80$. Paires : $1 \\times 80$, $2 \\times 40$, $4 \\times 20$, $5 \\times 16$, $8 \\times 10$.",
       "image": null
     },
     {
@@ -344,7 +344,7 @@
         "$2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45 ; 90$",
-      "explication": "Les diviseurs de $90$ sont : $1 ; 2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45 ; 90$. Paires : $1 \\\\times 90$, $2 \\\\times 45$, $3 \\\\times 30$, $5 \\\\times 18$, $6 \\\\times 15$, $9 \\\\times 10$.",
+      "explication": "Les diviseurs de $90$ sont : $1 ; 2 ; 3 ; 5 ; 6 ; 9 ; 10 ; 15 ; 18 ; 30 ; 45 ; 90$. Paires : $1 \\times 90$, $2 \\times 45$, $3 \\times 30$, $5 \\times 18$, $6 \\times 15$, $9 \\times 10$.",
       "image": null
     },
     {
@@ -361,7 +361,7 @@
         "$2 ; 4 ; 8$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 8 ; 16$",
-      "explication": "Les diviseurs de $16$ sont : $1 ; 2 ; 4 ; 8 ; 16$. Paires : $1 \\\\times 16$, $2 \\\\times 8$, $4 \\\\times 4$.",
+      "explication": "Les diviseurs de $16$ sont : $1 ; 2 ; 4 ; 8 ; 16$. Paires : $1 \\times 16$, $2 \\times 8$, $4 \\times 4$.",
       "image": null
     },
     {
@@ -378,7 +378,7 @@
         "$1 ; 3 ; 21$"
       ],
       "reponse": "$1 ; 3 ; 7 ; 21$",
-      "explication": "Les diviseurs de $21$ sont : $1 ; 3 ; 7 ; 21$. Paires : $1 \\\\times 21$, $3 \\\\times 7$.",
+      "explication": "Les diviseurs de $21$ sont : $1 ; 3 ; 7 ; 21$. Paires : $1 \\times 21$, $3 \\times 7$.",
       "image": null
     },
     {
@@ -395,7 +395,7 @@
         "$1 ; 5 ; 10 ; 25$"
       ],
       "reponse": "$1 ; 5 ; 25$",
-      "explication": "Les diviseurs de $25$ sont : $1 ; 5 ; 25$. Paires : $1 \\\\times 25$, $5 \\\\times 5$.",
+      "explication": "Les diviseurs de $25$ sont : $1 ; 5 ; 25$. Paires : $1 \\times 25$, $5 \\times 5$.",
       "image": null
     },
     {
@@ -412,7 +412,7 @@
         "$1 ; 5 ; 35$"
       ],
       "reponse": "$1 ; 5 ; 7 ; 35$",
-      "explication": "Les diviseurs de $35$ sont : $1 ; 5 ; 7 ; 35$. Paires : $1 \\\\times 35$, $5 \\\\times 7$.",
+      "explication": "Les diviseurs de $35$ sont : $1 ; 5 ; 7 ; 35$. Paires : $1 \\times 35$, $5 \\times 7$.",
       "image": null
     },
     {
@@ -429,7 +429,7 @@
         "$2 ; 3 ; 6 ; 7 ; 14 ; 21$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 6 ; 7 ; 14 ; 21 ; 42$",
-      "explication": "Les diviseurs de $42$ sont : $1 ; 2 ; 3 ; 6 ; 7 ; 14 ; 21 ; 42$. Paires : $1 \\\\times 42$, $2 \\\\times 21$, $3 \\\\times 14$, $6 \\\\times 7$.",
+      "explication": "Les diviseurs de $42$ sont : $1 ; 2 ; 3 ; 6 ; 7 ; 14 ; 21 ; 42$. Paires : $1 \\times 42$, $2 \\times 21$, $3 \\times 14$, $6 \\times 7$.",
       "image": null
     },
     {
@@ -446,7 +446,7 @@
         "$2 ; 4 ; 11 ; 22$"
       ],
       "reponse": "$1 ; 2 ; 4 ; 11 ; 22 ; 44$",
-      "explication": "Les diviseurs de $44$ sont : $1 ; 2 ; 4 ; 11 ; 22 ; 44$. Paires : $1 \\\\times 44$, $2 \\\\times 22$, $4 \\\\times 11$.",
+      "explication": "Les diviseurs de $44$ sont : $1 ; 2 ; 4 ; 11 ; 22 ; 44$. Paires : $1 \\times 44$, $2 \\times 22$, $4 \\times 11$.",
       "image": null
     },
     {
@@ -463,7 +463,7 @@
         "$2 ; 3 ; 6 ; 9 ; 18 ; 27$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 6 ; 9 ; 18 ; 27 ; 54$",
-      "explication": "Les diviseurs de $54$ sont : $1 ; 2 ; 3 ; 6 ; 9 ; 18 ; 27 ; 54$. Paires : $1 \\\\times 54$, $2 \\\\times 27$, $3 \\\\times 18$, $6 \\\\times 9$.",
+      "explication": "Les diviseurs de $54$ sont : $1 ; 2 ; 3 ; 6 ; 9 ; 18 ; 27 ; 54$. Paires : $1 \\times 54$, $2 \\times 27$, $3 \\times 18$, $6 \\times 9$.",
       "image": null
     },
     {
@@ -480,7 +480,7 @@
         "$2 ; 3 ; 6 ; 11 ; 22 ; 33$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 6 ; 11 ; 22 ; 33 ; 66$",
-      "explication": "Les diviseurs de $66$ sont : $1 ; 2 ; 3 ; 6 ; 11 ; 22 ; 33 ; 66$. Paires : $1 \\\\times 66$, $2 \\\\times 33$, $3 \\\\times 22$, $6 \\\\times 11$.",
+      "explication": "Les diviseurs de $66$ sont : $1 ; 2 ; 3 ; 6 ; 11 ; 22 ; 33 ; 66$. Paires : $1 \\times 66$, $2 \\times 33$, $3 \\times 22$, $6 \\times 11$.",
       "image": null
     },
     {
@@ -497,7 +497,7 @@
         "$2 ; 5 ; 7 ; 10 ; 14 ; 35$"
       ],
       "reponse": "$1 ; 2 ; 5 ; 7 ; 10 ; 14 ; 35 ; 70$",
-      "explication": "Les diviseurs de $70$ sont : $1 ; 2 ; 5 ; 7 ; 10 ; 14 ; 35 ; 70$. Paires : $1 \\\\times 70$, $2 \\\\times 35$, $5 \\\\times 14$, $7 \\\\times 10$.",
+      "explication": "Les diviseurs de $70$ sont : $1 ; 2 ; 5 ; 7 ; 10 ; 14 ; 35 ; 70$. Paires : $1 \\times 70$, $2 \\times 35$, $5 \\times 14$, $7 \\times 10$.",
       "image": null
     },
     {
@@ -514,7 +514,7 @@
         "$2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42$"
       ],
       "reponse": "$1 ; 2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42 ; 84$",
-      "explication": "Les diviseurs de $84$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42 ; 84$. Paires : $1 \\\\times 84$, $2 \\\\times 42$, $3 \\\\times 28$, $4 \\\\times 21$, $6 \\\\times 14$, $7 \\\\times 12$.",
+      "explication": "Les diviseurs de $84$ sont : $1 ; 2 ; 3 ; 4 ; 6 ; 7 ; 12 ; 14 ; 21 ; 28 ; 42 ; 84$. Paires : $1 \\times 84$, $2 \\times 42$, $3 \\times 28$, $4 \\times 21$, $6 \\times 14$, $7 \\times 12$.",
       "image": null
     }
   ]
