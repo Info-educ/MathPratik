@@ -63,6 +63,33 @@
     return el;
   }
 
+  /* ── Boucle RAF mutualisée pour un ensemble de cartes ──────────────
+     Remplace N boucles indépendantes par 1 seule boucle qui dessine
+     toutes les cartes d un même mois → charge CPU divisée par N.
+  ──────────────────────────────────────────────────────────────────── */
+  function _sharedLoop(drawFn) {
+    var running = true, startTime = null;
+    _cl.push(function() { running = false; });
+    function tick(ts) {
+      if (!running) return;
+      if (!startTime) startTime = ts;
+      drawFn((ts - startTime) / 1000);
+      _af.push(requestAnimationFrame(tick));
+    }
+    _af.push(requestAnimationFrame(tick));
+  }
+
+  /* ── ResizeObserver sur une carte → met à jour canvas + données ── */
+  function _watchResize(card, canvas, onResize) {
+    if (typeof ResizeObserver === 'undefined') return;
+    var ro = new ResizeObserver(function() {
+      fitCanvas(canvas, card);
+      if (onResize) onResize(canvas.width, canvas.height);
+    });
+    ro.observe(card);
+    _cl.push(function() { ro.disconnect(); });
+  }
+
   /* Arrêt de toutes les animations */
   function _stopAll(){
     _af.forEach(function(id){cancelAnimationFrame(id);}); _af=[];
@@ -808,157 +835,115 @@ function initDecembre() {
 }
 function initJanvier() {
 
-  _cards().forEach(function(card) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    const W = canvas.width, H = canvas.height;
-    const ctx = canvas.getContext('2d');
-
-    /* Flocons tombants */
-    const flakes = Array.from({length:14}, () => ({
-      x: rand(0,W), y: rand(-H,H), r: rand(3,8),
-      speed: rand(0.15,0.35), drift: rand(-0.15,0.15),
-      angle: rand(0,Math.PI*2), spin: rand(-0.006,0.006),
-      opacity: rand(0.45,0.85), depth: Math.random()<0.4?3:2,
-      phase: rand(0,Math.PI*2),
-    }));
-
-    /* Points de départ des cristaux de givre (coins + bords) */
-    const frostOrigins = [
-      { x: 0,   y: 0,   ax: Math.PI/6,  ay: Math.PI/3  },   /* coin TL */
-      { x: W,   y: 0,   ax: Math.PI*5/6,ay: Math.PI*2/3 },  /* coin TR */
-      { x: W/3, y: 0,   ax: Math.PI/4,  ay: Math.PI/2  },   /* bord haut */
-      { x: W*2/3,y:0,   ax: Math.PI*3/4,ay: Math.PI/2  },
+  /* Préparer les données de chaque carte */
+  var janCards = _cards().map(function(card) {
+    var canvas = _cv(card); fitCanvas(canvas, card);
+    var W = canvas.width, H = canvas.height;
+    var flakes = Array.from({length:14}, function() {
+      return {
+        x: rand(0,W), y: rand(-H,H), r: rand(3,8),
+        speed: rand(0.15,0.35), drift: rand(-0.15,0.15),
+        angle: rand(0,Math.PI*2), spin: rand(-0.006,0.006),
+        opacity: rand(0.45,0.85), depth: Math.random()<0.4?3:2,
+        phase: rand(0,Math.PI*2),
+      };
+    });
+    var frostOrigins = [
+      { x: 0,   y: 0,   ax: Math.PI/6,  ay: Math.PI/3   },
+      { x: W,   y: 0,   ax: Math.PI*5/6,ay: Math.PI*2/3  },
+      { x: W/3, y: 0,   ax: Math.PI/4,  ay: Math.PI/2   },
+      { x: W*2/3,y:0,   ax: Math.PI*3/4,ay: Math.PI/2   },
     ];
+    var cd = { canvas:canvas, ctx:canvas.getContext('2d'), W:W, H:H, flakes:flakes, frostOrigins:frostOrigins };
+    _watchResize(card, canvas, function(nw, nh) { cd.W=nw; cd.H=nh; });
+    return cd;
+  });
 
-    let t = 0, running = true;
-    _cl.push(() => { running = false; });
-
-    function loop() {
-      if (!running) return;
-      t += 0.012;
+  /* Une seule boucle RAF pour toutes les cartes */
+  _sharedLoop(function(t) {
+    janCards.forEach(function(cd) {
+      var ctx=cd.ctx, W=cd.W, H=cd.H;
       ctx.clearRect(0,0,W,H);
-
-      /* ── Cristaux de givre sur les bords ── */
-      frostOrigins.forEach(o => {
-        /* Plusieurs branches rayonnantes */
-        for (let i = -2; i <= 2; i++) {
-          const baseAngle = (o.ax + o.ay) / 2 + i * 0.22;
-          drawFrostBranch(ctx, o.x, o.y, 18 + Math.abs(i)*3, baseAngle + Math.sin(t*0.3)*0.04, 4, t);
+      cd.frostOrigins.forEach(function(o) {
+        for (var i=-2; i<=2; i++) {
+          var baseAngle = (o.ax+o.ay)/2 + i*0.22;
+          drawFrostBranch(ctx, o.x, o.y, 18+Math.abs(i)*3, baseAngle+Math.sin(t*0.3)*0.04, 4, t);
         }
       });
-
-      /* ── Accumulation givrage bord supérieur ── */
       ctx.beginPath();
-      for (let gx = 0; gx <= W; gx += 3) {
-        const gy = 1.5 + Math.sin(gx*0.22 + t*0.2)*1.2 + Math.sin(gx*0.08)*1.8;
-        gx===0 ? ctx.moveTo(gx,gy) : ctx.lineTo(gx,gy);
+      for (var gx=0; gx<=W; gx+=3) {
+        var gy=1.5+Math.sin(gx*0.22+t*0.2)*1.2+Math.sin(gx*0.08)*1.8;
+        gx===0?ctx.moveTo(gx,gy):ctx.lineTo(gx,gy);
       }
-      ctx.strokeStyle = 'rgba(219,234,254,0.55)';
-      ctx.lineWidth = 2.5; ctx.stroke();
-
-      /* ── Flocons fractals ── */
-      flakes.forEach(f => {
-        f.y += f.speed; f.x += f.drift + Math.sin(t*0.7+f.phase)*0.1;
-        f.angle += f.spin;
-        if (f.y > H+8) { f.y=-8; f.x=rand(0,W); }
-        if (f.x<-8) f.x=W+8; if (f.x>W+8) f.x=-8;
-        drawFractalFlake(ctx, f.x, f.y, f.r, f.depth, f.angle, f.opacity);
+      ctx.strokeStyle='rgba(219,234,254,0.55)'; ctx.lineWidth=2.5; ctx.stroke();
+      cd.flakes.forEach(function(f) {
+        f.y+=f.speed; f.x+=f.drift+Math.sin(t*0.7+f.phase)*0.1; f.angle+=f.spin;
+        if(f.y>H+8){f.y=-8;f.x=rand(0,W);}
+        if(f.x<-8)f.x=W+8; if(f.x>W+8)f.x=-8;
+        drawFractalFlake(ctx,f.x,f.y,f.r,f.depth,f.angle,f.opacity);
       });
-
-      /* ── Fine couche de neige accumulée en bas ── */
-      const piles = Array.from({length:Math.ceil(W/2)+1},(_,i)=>2.5+Math.sin(i*0.4+1.2)*1.8+Math.random()*0.5);
+      /* Neige en bas — profil statique précalculé, plus léger */
       ctx.beginPath(); ctx.moveTo(0,H);
-      for (let i=0; i<=Math.ceil(W/2); i++) {
-        const px=i*2, py=H-piles[i];
+      for(var i=0;i<=Math.ceil(W/2);i++){
+        var px=i*2, py=H-(2.5+Math.sin(i*0.4+1.2)*1.8);
         i===0?ctx.moveTo(px,py):ctx.quadraticCurveTo(px-1,py+0.8,px,py);
       }
       ctx.lineTo(W,H); ctx.closePath();
-      ctx.fillStyle= isDark() ? 'rgba(147,197,253,0.35)' : 'rgba(239,246,255,0.88)'; ctx.fill();
-
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
+      ctx.fillStyle=isDark()?'rgba(147,197,253,0.35)':'rgba(239,246,255,0.88)'; ctx.fill();
+    });
   });
 }
 function initFevrier() {
-
   const heartPalettes = [
     ['#f43f5e','#fb7185','#fda4af','#fecdd3'],
     ['#ec4899','#f472b6','#f9a8d4','#fce7f3'],
     ['#e11d48','#f43f5e','#fb7185','#ff8fab'],
   ];
 
-  _cards().forEach(function(card, ci) {
+  var fevCards = _cards().map(function(card, ci) {
     var canvas=_cv(card); fitCanvas(canvas,card);
-    const W = canvas.width, H = canvas.height;
-    const ctx = canvas.getContext('2d');
-    const palette = heartPalettes[ci];
+    var W=canvas.width, H=canvas.height;
+    var palette=heartPalettes[ci%heartPalettes.length];
+    var hearts=Array.from({length:12},function(_,i){
+      return {
+        x:rand(W*0.1,W*0.9), y:H+rand(10,40),
+        size:rand(3.5,8), speed:rand(0.3,0.75),
+        drift:rand(-0.25,0.25), sway:rand(0.4,1.2),
+        phase:rand(0,Math.PI*2), color:palette[Math.floor(Math.random()*palette.length)],
+        alpha:rand(0.55,0.92), rot:rand(-0.3,0.3),
+        rotSpd:rand(-0.012,0.012), delay:i*0.4,
+      };
+    });
+    var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,hearts:hearts,palette:palette};
+    _watchResize(card,canvas,function(nw,nh){cd.W=nw;cd.H=nh;});
+    return cd;
+  });
 
-    /* Pool de cœurs */
-    const hearts = Array.from({length:12}, (_, i) => ({
-      x:      rand(W*0.1, W*0.9),
-      y:      H + rand(10, 40),
-      size:   rand(3.5, 8),
-      speed:  rand(0.3, 0.75),
-      drift:  rand(-0.25, 0.25),
-      sway:   rand(0.4, 1.2),
-      phase:  rand(0, Math.PI*2),
-      color:  palette[Math.floor(Math.random()*palette.length)],
-      alpha:  rand(0.55, 0.92),
-      rot:    rand(-0.3, 0.3),
-      rotSpd: rand(-0.012, 0.012),
-      delay:  i * 0.4,
-    }));
-
-    let t = 0, running = true;
-    _cl.push(() => { running = false; });
-
-    function loop() {
-      if (!running) return;
-      t += 0.014;
+  _sharedLoop(function(t) {
+    fevCards.forEach(function(cd) {
+      var ctx=cd.ctx,W=cd.W,H=cd.H,palette=cd.palette;
       ctx.clearRect(0,0,W,H);
-
-      hearts.forEach(h => {
-        if (t < h.delay) return;
-        h.y   -= h.speed;
-        h.x   += h.drift + Math.sin(t * h.sway + h.phase) * 0.35;
-        h.rot += h.rotSpd;
-        /* Opacité : apparaît doucement, disparaît en haut */
-        const lifeAlpha = h.y < H*0.25
-          ? Math.max(0, h.y / (H*0.25)) * h.alpha
-          : h.alpha;
-        /* Légère pulsation */
-        const pulse = 1 + Math.sin(t * 2.5 + h.phase) * 0.06;
-
-        ctx.save();
-        ctx.translate(h.x, h.y);
-        ctx.rotate(h.rot);
-        ctx.scale(pulse, pulse);
-        drawHeart(ctx, 0, 0, h.size, h.color, lifeAlpha);
+      cd.hearts.forEach(function(h) {
+        if(t<h.delay) return;
+        h.y-=h.speed; h.x+=h.drift+Math.sin(t*h.sway+h.phase)*0.35; h.rot+=h.rotSpd;
+        var lifeAlpha=h.y<H*0.25?Math.max(0,h.y/(H*0.25))*h.alpha:h.alpha;
+        var pulse=1+Math.sin(t*2.5+h.phase)*0.06;
+        ctx.save(); ctx.translate(h.x,h.y); ctx.rotate(h.rot); ctx.scale(pulse,pulse);
+        drawHeart(ctx,0,0,h.size,h.color,lifeAlpha);
         ctx.restore();
-
-        /* Réinitialisation quand sorti par le haut */
-        if (h.y < -20) {
-          h.y     = H + rand(5, 30);
-          h.x     = rand(W*0.08, W*0.92);
-          h.speed = rand(0.3, 0.75);
-          h.size  = rand(3.5, 8);
-          h.color = palette[Math.floor(Math.random()*palette.length)];
-          h.phase = rand(0, Math.PI*2);
-          h.delay = 0;
+        if(h.y<-20){
+          h.y=H+rand(5,30); h.x=rand(W*0.08,W*0.92);
+          h.speed=rand(0.3,0.75); h.size=rand(3.5,8);
+          h.color=palette[Math.floor(Math.random()*palette.length)];
+          h.phase=rand(0,Math.PI*2); h.delay=0;
         }
       });
-
-      /* Petits cœurs au sol */
-      for (let i = 0; i < 4; i++) {
-        const sx = W*(0.12 + i*0.22), sy = H - 6;
-        const sp = 0.7 + Math.sin(t*1.8 + i)*0.15;
-        drawHeart(ctx, sx, sy, sp*3, palette[i%palette.length], 0.25);
+      for(var i=0;i<4;i++){
+        var sx=W*(0.12+i*0.22),sy=H-6;
+        var sp=0.7+Math.sin(t*1.8+i)*0.15;
+        drawHeart(ctx,sx,sy,sp*3,palette[i%palette.length],0.25);
       }
-
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
+    });
   });
 }
 function initAvril() {
@@ -1123,97 +1108,146 @@ function initAvril() {
     {colors:['#fde047','#eab308','#713f12'], pattern:'zigzag'},
   ];
 
-  _cards().forEach(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    var W=canvas.width, H=canvas.height;
-    var ctx=canvas.getContext('2d');
+  /* ── Données par carte (initialisées indépendamment du layout) ── */
+  var avrilCards = [];
 
-    /* Brins d'herbe précalculés */
-    var grassBlades = [];
-    for (var gi=0; gi<28; gi++) {
-      grassBlades.push({
-        x:    (gi/28)*W + Math.sin(gi*2.3)*3.5,
-        h:    7 + (gi*7.3%8),
-        col:  ['#22c55e','#4ade80','#86efac','#16a34a'][gi%4],
+  _cards().forEach(function(card, ci) {
+    var canvas = _cv(card);
+    fitCanvas(canvas, card);
+
+    /* CORRECTION 1 : taille du poussin FIXE, indépendante de ci
+       (avant : 12+ci*1.5 → grossissait avec le nombre de cartes) */
+    var chickSize = 13;
+
+    /* CORRECTION 2 : ResizeObserver pour resynchroniser le canvas
+       quand la carte change de taille (scroll, layout reflow…) */
+    var ro = null;
+    if (typeof ResizeObserver !== 'undefined') {
+      ro = new ResizeObserver(function() {
+        fitCanvas(canvas, card);
+        /* Recalculer les positions proportionnelles */
+        var newW = canvas.width, newH = canvas.height;
+        cdata.W = newW; cdata.H = newH;
+        /* Repositionner herbe, œufs et poussin sur la nouvelle largeur */
+        rebuildLayout(cdata);
+      });
+      ro.observe(card);
+      _cl.push(function() { ro.disconnect(); });
+    }
+
+    var W = canvas.width, H = canvas.height;
+    var ctx = canvas.getContext('2d');
+
+    /* Seed déterministe basé sur position dans le DOM, pas sur ci */
+    var seed0 = ci * 17;
+
+    var cdata = { canvas: canvas, ctx: ctx, W: W, H: H,
+                  ci: ci, seed0: seed0, chickSize: chickSize,
+                  startTime: null, grassBlades: [], eggs: [], chick: null };
+
+    rebuildLayout(cdata);
+    avrilCards.push(cdata);
+  });
+
+  /* Reconstruction des données de layout quand W/H change */
+  function rebuildLayout(cd) {
+    var W = cd.W, H = cd.H, ci = cd.ci, seed0 = cd.seed0;
+
+    cd.grassBlades = [];
+    for (var gi = 0; gi < 28; gi++) {
+      cd.grassBlades.push({
+        x:     (gi / 28) * W + Math.sin(gi * 2.3) * 3.5,
+        h:     7 + (gi * 7.3 % 8),
+        col:   ['#22c55e','#4ade80','#86efac','#16a34a'][gi % 4],
         phase: gi * 0.45,
-        freq:  0.9 + (gi%3)*0.2,
+        freq:  0.9 + (gi % 3) * 0.2,
       });
     }
 
-    /* Oeufs précalculés */
-    var nEggs = 4 + (ci%2);
-    var eggs = [];
-    for (var e=0; e<nEggs; e++) {
-      var seed = ci*17 + e*31;
-      eggs.push({
-        x:      W*(0.1 + e*(0.8/(nEggs-1))) + ((seed%13)-6),
-        baseRx: 8 + (seed%7),
-        baseRy: 11 + (seed%7),
-        pal:    eggPalettes[(ci*3+e) % eggPalettes.length],
-        phase:  (seed%100)/100 * Math.PI*2,
-        freq:   0.9 + (seed%5)*0.12,
+    /* CORRECTION 3 : nEggs fixe (4) — évite le +1 aléatoire lié à ci */
+    var nEggs = 4;
+    cd.eggs = [];
+    for (var e = 0; e < nEggs; e++) {
+      var seed = seed0 + e * 31;
+      cd.eggs.push({
+        x:      W * (0.12 + e * (0.76 / (nEggs - 1))) + ((seed % 13) - 6),
+        baseRx: 8 + (seed % 7),
+        baseRy: 11 + (seed % 7),
+        pal:    eggPalettes[(ci * 3 + e) % eggPalettes.length],
+        phase:  (seed % 100) / 100 * Math.PI * 2,
+        freq:   0.9 + (seed % 5) * 0.12,
         delay:  e * 0.25,
       });
     }
 
-    /* Poussin */
-    var chick = { x: W*(0.45+(ci%3)*0.05), size: 12+ci*1.5, delay: 1.1 };
+    cd.chick = { x: W * 0.48, size: cd.chickSize, delay: 1.1 };
+  }
 
-    var startTime=null, running=true;
-    _cl.push(function(){ running=false; });
+  /* CORRECTION 4 : UNE SEULE boucle RAF pour toutes les cartes d'avril
+     (avant : N boucles indépendantes à 60 fps chacune) */
+  var avrilRunning = true;
+  _cl.push(function() { avrilRunning = false; });
+  var avrilStart = null;
 
-    function loop(ts) {
-      if (!running) return;
-      if (!startTime) startTime = performance.now();
-      var elapsed = (ts - startTime) / 1000;
+  function avrilLoop(ts) {
+    if (!avrilRunning) return;
+    if (!avrilStart) avrilStart = ts;
+    var elapsed = (ts - avrilStart) / 1000;
 
-      ctx.clearRect(0,0,W,H);
+    avrilCards.forEach(function(cd) {
+      var canvas = cd.canvas, ctx = cd.ctx;
+      var W = cd.W, H = cd.H;
+
+      ctx.clearRect(0, 0, W, H);
 
       /* Sol */
-      var gnd = ctx.createLinearGradient(0,H-8,0,H);
-      gnd.addColorStop(0,'rgba(74,222,128,0.3)'); gnd.addColorStop(1,'rgba(21,128,61,0.5)');
-      ctx.fillStyle=gnd; ctx.fillRect(0,H-8,W,8);
+      var gnd = ctx.createLinearGradient(0, H - 8, 0, H);
+      gnd.addColorStop(0, 'rgba(74,222,128,0.3)');
+      gnd.addColorStop(1, 'rgba(21,128,61,0.5)');
+      ctx.fillStyle = gnd; ctx.fillRect(0, H - 8, W, 8);
 
-      /* Herbe */
-      grassBlades.forEach(function(b) {
-        var sway = Math.sin(elapsed*b.freq + b.phase) * 1.1;
+      /* Herbe — CORRECTION 5 : gradient créé une fois par brin (stocké),
+         pas à chaque frame. On réutilise la couleur de remplissage. */
+      cd.grassBlades.forEach(function(b) {
+        var sway = Math.sin(elapsed * b.freq + b.phase) * 1.1;
         var tipX = b.x + sway;
         var tipY = H - b.h;
-        var cpX  = b.x + sway*0.5;
-        var cpY  = H - b.h*0.55;
+        var cpX  = b.x + sway * 0.5;
+        var cpY  = H - b.h * 0.55;
         ctx.beginPath();
-        ctx.moveTo(b.x-0.8, H);
-        ctx.quadraticCurveTo(cpX-0.4, cpY, tipX, tipY);
-        ctx.quadraticCurveTo(cpX+0.4, cpY, b.x+0.8, H);
+        ctx.moveTo(b.x - 0.8, H);
+        ctx.quadraticCurveTo(cpX - 0.4, cpY, tipX, tipY);
+        ctx.quadraticCurveTo(cpX + 0.4, cpY, b.x + 0.8, H);
         ctx.closePath();
-        var gg=ctx.createLinearGradient(b.x,H,tipX,tipY);
-        gg.addColorStop(0,'#14532d'); gg.addColorStop(1,b.col);
-        ctx.fillStyle=gg; ctx.globalAlpha=0.78; ctx.fill();
+        /* Gradient léger uniquement — couleur fixe plutôt que gradient recréé */
+        ctx.fillStyle = b.col;
+        ctx.globalAlpha = 0.72; ctx.fill();
       });
-      ctx.globalAlpha=1;
+      ctx.globalAlpha = 1;
 
       /* Oeufs */
-      eggs.forEach(function(egg) {
-        var progress = Math.max(0, Math.min(1, (elapsed-egg.delay)/0.7));
-        if (progress<=0) return;
-        var sway = Math.sin(elapsed*egg.freq+egg.phase) * 0.1;
-        var bob  = Math.abs(Math.sin(elapsed*egg.freq*0.6+egg.phase)) * 1.8;
+      cd.eggs.forEach(function(egg) {
+        var progress = Math.max(0, Math.min(1, (elapsed - egg.delay) / 0.7));
+        if (progress <= 0) return;
+        var sway = Math.sin(elapsed * egg.freq + egg.phase) * 0.1;
+        var bob  = Math.abs(Math.sin(elapsed * egg.freq * 0.6 + egg.phase)) * 1.8;
         ctx.save();
-        ctx.translate(egg.x, H - egg.baseRy*1.2 - bob);
+        ctx.translate(egg.x, H - egg.baseRy * 1.2 - bob);
         ctx.rotate(sway);
-        drawEgg(ctx, 0, 0, egg.baseRx*progress, egg.baseRy*progress,
-                egg.pal.colors, egg.pal.pattern, progress*0.95);
+        drawEgg(ctx, 0, 0, egg.baseRx * progress, egg.baseRy * progress,
+                egg.pal.colors, egg.pal.pattern, progress * 0.95);
         ctx.restore();
       });
 
       /* Poussin */
-      var chickP = Math.max(0, Math.min(1, (elapsed-chick.delay)/1.2));
-      drawChick(ctx, chick.x, H-2, chick.size, chickP, elapsed);
+      var chick = cd.chick;
+      var chickP = Math.max(0, Math.min(1, (elapsed - chick.delay) / 1.2));
+      drawChick(ctx, chick.x, H - 2, chick.size, chickP, elapsed);
+    });
 
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
-  });
+    _af.push(requestAnimationFrame(avrilLoop));
+  }
+  _af.push(requestAnimationFrame(avrilLoop));
 }
 function initMai() {
 
