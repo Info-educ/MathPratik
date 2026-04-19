@@ -1021,7 +1021,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Le programme suivant donne $0$. Quelle est l'équation correspondante si le programme est : multiplier par $(-4)$ puis soustraire $8$ ?",
-      "image": null",
+      "image": null,
       "choix": [
         "$4x - 8 = 0$",
         "$-4x - 8 = 0$",
