@@ -571,17 +571,6 @@
       "explication": "$135$ élèves pratiquent un sport sur $200$. $P(\\text{pratique}) = \\dfrac{135}{200} = \\dfrac{27}{40}$."
     },
     {
-      "id": "proba5_n2_022",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Vrai ou faux : si les issues ne sont pas équiprobables, on ne peut pas calculer de probabilité. [Question générée]",
-      "image": null,
-      "choix": ["Vrai, la formule $\\dfrac{\\text{cas favorables}}{\\text{cas totaux}}$ ne s'applique plus", "Faux, on peut calculer des probabilités mais avec d'autres méthodes", "Vrai, seule l'équiprobabilité permet les calculs", "Faux, toutes les situations sont équiprobables"],
-      "reponse": "Faux, on peut calculer des probabilités mais avec d'autres méthodes",
-      "explication": "[Question générée] La formule classique $P = \\dfrac{\\text{cas favorables}}{\\text{cas totaux}}$ s'applique uniquement en situation d'équiprobabilité. Si les issues ne sont pas équiprobables, on peut quand même calculer des probabilités, mais à partir de données expérimentales ou fournies."
-    },
-    {
       "id": "proba5_n2_023",
       "niveau": 2,
       "type": "qcm",
@@ -608,11 +597,11 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "On lance un dé équilibré sur $120$ fois. Combien de fois peut-on espérer obtenir un nombre pair ? [Question générée]",
+      "enonce_html": "On lance un dé équilibré sur $120$ fois. Combien de fois peut-on espérer obtenir un nombre pair ?",
       "image": null,
       "choix": ["$20$", "$40$", "$60$", "$80$"],
       "reponse": "$60$",
-      "explication": "[Question générée] $P(\\text{nombre pair}) = \\dfrac{3}{6} = \\dfrac{1}{2}$. En $120$ lancers : $120 \\times \\dfrac{1}{2} = 60$ fois."
+      "explication": "$P(\\text{nombre pair}) = \\dfrac{3}{6} = \\dfrac{1}{2}$. En $120$ lancers : $120 \\times \\dfrac{1}{2} = 60$ fois."
     },
     {
       "id": "proba5_n2_026",
@@ -630,11 +619,11 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "On lance un dé équilibré sur $240$ fois. Combien de fois peut-on espérer obtenir un $1$ ? [Question générée]",
+      "enonce_html": "On lance un dé équilibré sur $240$ fois. Combien de fois peut-on espérer obtenir un $1$ ?",
       "image": null,
       "choix": ["$20$", "$30$", "$40$", "$60$"],
       "reponse": "$40$",
-      "explication": "[Question générée] $P(1) = \\dfrac{1}{6}$. En $240$ lancers : $240 \\times \\dfrac{1}{6} = 40$ fois."
+      "explication": "$P(1) = \\dfrac{1}{6}$. En $240$ lancers : $240 \\times \\dfrac{1}{6} = 40$ fois."
     },
     {
       "id": "proba5_n2_028",
@@ -645,7 +634,7 @@
       "image": null,
       "choix": ["$0{,}49$", "$0{,}50$", "$0{,}51$", "$0{,}52$"],
       "reponse": "$0{,}49$",
-      "explication": "Fréquence $= \\dfrac{196}{400} = 0{,}49$. C'est proche de la probabilité théorique $0{,}5$, ce qui confirme la loi des grands nombres. [Question générée]"
+      "explication": "Fréquence $= \\dfrac{196}{400} = 0{,}49$. C'est proche de la probabilité théorique $0{,}5$, ce qui confirme la loi des grands nombres."
     },
     {
       "id": "proba5_n2_029",
@@ -667,7 +656,7 @@
       "image": null,
       "choix": ["$\\dfrac{1}{8}$", "$\\dfrac{1}{4}$", "$\\dfrac{1}{32}$", "$\\dfrac{4}{32}$"],
       "reponse": "$\\dfrac{4}{32}$",
-      "explication": "Il y a $4$ as dans un jeu de $32$ cartes (un par couleur). $P(\\text{as}) = \\dfrac{4}{32} = \\dfrac{1}{8}$. [Question générée]"
+      "explication": "Il y a $4$ as dans un jeu de $32$ cartes (un par couleur). $P(\\text{as}) = \\dfrac{4}{32} = \\dfrac{1}{8}$."
     },
 
     {
@@ -781,17 +770,6 @@
       "explication": "$P(\\text{Alice}) = \\dfrac{3}{8}$. $P(\\text{Bob}) = \\dfrac{3+2}{8} = \\dfrac{5}{8}$. Les probabilités sont différentes : le jeu n'est pas équitable."
     },
     {
-      "id": "proba5_n3_011",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Si le jeu Alice/Bob se joue $240$ fois, de combien de victoires Alice peut-elle espérer ?",
-      "image": null,
-      "choix": ["$60$", "$80$", "$90$", "$120$"],
-      "reponse": "$90$",
-      "explication": "$P(\\text{Alice}) = \\dfrac{3}{8}$. En $240$ parties : $240 \\times \\dfrac{3}{8} = 90$ victoires espérées."
-    },
-    {
       "id": "proba5_n3_012",
       "niveau": 3,
       "type": "qcm",
@@ -825,17 +803,6 @@
       "explication": "Cartes rouges (Cœur + Carreau) : $8 + 8 = 16$ cartes. $P(A) = \\dfrac{16}{32} = \\dfrac{1}{2}$."
     },
     {
-      "id": "proba5_n3_015",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le même jeu, $P(\\text{B gagne, carte Pique}) = $. Ce jeu est-il équitable ?",
-      "image": null,
-      "choix": ["$\\dfrac{1}{4}$ — non équitable", "$\\dfrac{1}{2}$ — équitable", "$\\dfrac{1}{4}$ — équitable", "$\\dfrac{1}{2}$ — non équitable"],
-      "reponse": "$\\dfrac{1}{4}$ — non équitable",
-      "explication": "Cartes Pique : $8$. $P(B) = \\dfrac{8}{32} = \\dfrac{1}{4}$. Comme $P(A) = \\dfrac{1}{2} \\neq P(B) = \\dfrac{1}{4}$, le jeu n'est pas équitable."
-    },
-    {
       "id": "proba5_n3_016",
       "niveau": 3,
       "type": "qcm",
@@ -866,29 +833,7 @@
       "image": null,
       "choix": ["$\\dfrac{4}{14}$", "$\\dfrac{4}{17}$", "$\\dfrac{7}{17}$", "$\\dfrac{3}{17}$"],
       "reponse": "$\\dfrac{4}{17}$",
-      "explication": "Nouveau total : $14 + 3 = 17$ boules. Le nombre de vertes reste $4$. $P(\\text{verte}) = \\dfrac{4}{17}$. [Question générée]"
-    },
-    {
-      "id": "proba5_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Une machine distribue des jouets : jouet A avec $P = \\dfrac{1}{2}$ (vaut $1$ €) ; jouet B avec $P = \\dfrac{1}{3}$ (vaut $3$ €) ; jouet C avec $P = \\dfrac{1}{6}$ (vaut $6$ €). Calcule $1 \\times P(A) + 3 \\times P(B) + 6 \\times P(C)$.",
-      "image": null,
-      "choix": ["$1$", "$2$", "$3$", "$6$"],
-      "reponse": "$2$",
-      "explication": "$1 \\times \\dfrac{1}{2} + 3 \\times \\dfrac{1}{3} + 6 \\times \\dfrac{1}{6} = \\dfrac{1}{2} + 1 + 1 = 2{,}5$. Cette somme représente le gain moyen espéré (espérance)."
-    },
-    {
-      "id": "proba5_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un sac contient $x$ boules rouges et $6$ bleues. $P(\\text{rouge}) = \\dfrac{2}{5}$. Après avoir trouvé $x$, on vérifie que $P(R) + P(B) = ?$ [Question générée]",
-      "image": null,
-      "choix": ["$0{,}5$", "$0{,}8$", "$1$", "$\\dfrac{4}{5}$"],
-      "reponse": "$1$",
-      "explication": "[Question générée] Avec $x = 4$ : $P(R) + P(B) = \\dfrac{4}{10} + \\dfrac{6}{10} = 1$. La somme des probabilités de toutes les issues vaut toujours $1$."
+      "explication": "Nouveau total : $14 + 3 = 17$ boules. Le nombre de vertes reste $4$. $P(\\text{verte}) = \\dfrac{4}{17}$."
     },
     {
       "id": "proba5_n3_021",
@@ -906,22 +851,22 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Le fait que $P(J) = P(V)$ pour deux événements $J$ et $V$ signifie-t-il qu'ils sont équiprobables ? [Question générée]",
+      "enonce_html": "Le fait que $P(J) = P(V)$ pour deux événements $J$ et $V$ signifie-t-il qu'ils sont équiprobables ?",
       "image": null,
       "choix": ["Oui, équiprobable signifie même probabilité", "Non, équiprobable s'applique à toutes les issues", "Oui, car les probabilités sont égales", "Non, car ils contiennent peut-être un nombre différent d'issues"],
       "reponse": "Oui, équiprobable signifie même probabilité",
-      "explication": "[Question générée] Deux événements sont équiprobables s'ils ont la même probabilité. Donc si $P(J) = P(V)$, alors $J$ et $V$ sont bien équiprobables."
+      "explication": "Deux événements sont équiprobables s'ils ont la même probabilité. Donc si $P(J) = P(V)$, alors $J$ et $V$ sont bien équiprobables."
     },
     {
       "id": "proba5_n3_023",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "On interroge $500$ personnes. $180$ boivent du thé, $260$ du café, $70$ les deux, $90$ aucun. Quelle est la probabilité de boire au moins l'un des deux ? [Question générée]",
+      "enonce_html": "On interroge $500$ personnes. $180$ boivent du thé, $260$ du café, $70$ les deux, $90$ aucun. Quelle est la probabilité de boire au moins l'un des deux ?",
       "image": null,
       "choix": ["$\\dfrac{370}{500}$", "$\\dfrac{410}{500}$", "$\\dfrac{440}{500}$", "$\\dfrac{500}{500}$"],
       "reponse": "$\\dfrac{410}{500}$",
-      "explication": "[Question générée] Personnes buvant au moins l'un des deux : $500 - 90 = 410$. $P = \\dfrac{410}{500} = \\dfrac{41}{50}$."
+      "explication": "Personnes buvant au moins l'un des deux : $500 - 90 = 410$. $P = \\dfrac{410}{500} = \\dfrac{41}{50}$."
     },
     {
       "id": "proba5_n3_024",
@@ -961,11 +906,11 @@
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
-      "enonce_html": "On sait que $P(R) = \\dfrac{1}{3}$ et que le sac contient $12$ billes en tout. Pour rendre $P(R) = \\dfrac{1}{2}$, combien de billes rouges faut-il ajouter (sans changer les autres) ? [Question générée]",
+      "enonce_html": "On sait que $P(R) = \\dfrac{1}{3}$ et que le sac contient $12$ billes en tout. Pour rendre $P(R) = \\dfrac{1}{2}$, combien de billes rouges faut-il ajouter (sans changer les autres) ?",
       "image": null,
       "choix": ["$2$", "$4$", "$6$", "$8$"],
       "reponse": "$4$",
-      "explication": "[Question générée] Rouges initiales : $4$. Ajoutons $x$ rouges. $\\dfrac{4+x}{12+x} = \\dfrac{1}{2} \\Rightarrow 8 + 2x = 12 + x \\Rightarrow x = 4$."
+      "explication": "Rouges initiales : $4$. Ajoutons $x$ rouges. $\\dfrac{4+x}{12+x} = \\dfrac{1}{2} \\Rightarrow 8 + 2x = 12 + x \\Rightarrow x = 4$."
     },
     {
       "id": "proba5_n3_028",
@@ -977,28 +922,6 @@
       "choix": ["$\\dfrac{1}{4}$", "$\\dfrac{1}{2}$", "$\\dfrac{3}{4}$", "$1$"],
       "reponse": "$\\dfrac{3}{4}$",
       "explication": "Issues avec au moins un Pile : $(P,P), (P,F), (F,P)$ — soit $3$ issues sur $4$. $P = \\dfrac{3}{4}$. Ou : $P(\\text{au moins un Pile}) = 1 - P(\\text{aucun Pile}) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$."
-    },
-    {
-      "id": "proba5_n3_029",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Une roue à $8$ secteurs égaux : si le joueur joue $40$ fois, combien de fois peut-il espérer avancer d'exactement $1$ case ?",
-      "image": null,
-      "choix": ["$3$", "$4$", "$5$", "$8$"],
-      "reponse": "$5$",
-      "explication": "$P(1) = \\dfrac{1}{8}$. En $40$ parties : $40 \\times \\dfrac{1}{8} = 5$ fois. [Question générée]"
-    },
-    {
-      "id": "proba5_n3_030",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On a $P(A) + P(B) = 0{,}9$ et $A$ et $B$ sont deux événements qui ne peuvent pas se produire simultanément. $P(\\bar{A} \\text{ et } \\bar{B}) = $ [Question générée]",
-      "image": null,
-      "choix": ["$0{,}1$", "$0{,}3$", "$0{,}5$", "$0{,}9$"],
-      "reponse": "$0{,}1$",
-      "explication": "[Question générée] Si $A$ et $B$ ne peuvent pas se produire simultanément, $P(A \\text{ ou } B) = P(A) + P(B) = 0{,}9$. $P(\\bar{A} \\text{ et } \\bar{B}) = 1 - P(A \\text{ ou } B) = 1 - 0{,}9 = 0{,}1$."
     }
 
   ]
