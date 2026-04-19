@@ -112,7 +112,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le patron d'un prisme triangulaire, combien y a-t-il de triangles ?",
-      "image": null",
+      "image": null,
       "choix": ["1 triangle", "2 triangles", "3 triangles", "4 triangles"],
       "reponse": "2 triangles",
       "explication": "Le patron d'un prisme triangulaire contient 2 triangles correspondant aux deux bases du prisme."
