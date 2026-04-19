@@ -358,7 +358,7 @@
       "image": null,
       "choix": ["Toujours vraie", "Toujours fausse", "Vraie selon les valeurs de $x$", "Vraie pour $x = 0$"],
       "reponse": "Toujours fausse",
-      "explication": "Par la distributivité : $4(x + 1) = 4x + 4$, qui n'est pas égal à $4x + 1$ (il manque $3$). Cette égalité est donc **toujours fausse**."
+      "explication": "Par la distributivité : $4(x + 1) = 4x + 4$, qui n'est pas égal à $4x + 1$ (il manque $3$). Cette égalité est donc toujours fausse."
     },
     {
       "id": "cl5_n1_033",
@@ -548,17 +548,6 @@
       "explication": "Aire $= \\dfrac{\\text{base} \\times \\text{hauteur}}{2} = \\dfrac{2x \\times 5}{2} = \\dfrac{10x}{2} = 5x$."
     },
     {
-      "id": "cl5_n2_010",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La figure composée ci-contre est un rectangle de côtés $a$ et $b$ accolé à un demi-disque de rayon $r = \\dfrac{b}{2}$. L'aire totale est :",
-      "image": "5eme/calcul_litteral/image11.png",
-      "choix": ["$ab + \\pi r$", "$ab + \\dfrac{\\pi r^2}{2}$", "$ab + \\pi r^2$", "$2ab + \\pi r$"],
-      "reponse": "$ab + \\dfrac{\\pi r^2}{2}$",
-      "explication": "Aire du rectangle $= ab$. Aire du demi-disque $= \\dfrac{\\pi r^2}{2}$. Aire totale $= ab + \\dfrac{\\pi r^2}{2}$."
-    },
-    {
       "id": "cl5_n2_011",
       "niveau": 2,
       "type": "qcm",
@@ -622,14 +611,14 @@
       "image": null,
       "choix": ["Vraie seulement pour $x = 0$", "Vraie seulement pour $x = 5$", "Toujours vraie", "Parfois vraie"],
       "reponse": "Toujours vraie",
-      "explication": "Pour $x=0$ : $2 \\times 3 = 6 = 0 + 6$ ✓. Pour $x=5$ : $2 \\times 8 = 16 = 10 + 6$ ✓. Pour $x=-3$ : $2 \\times 0 = 0 = -6+6=0$ ✓. Par la distributivité, $2(x+3)=2x+6$ est une identité, **toujours vraie**."
+      "explication": "Pour $x=0$ : $2 \\times 3 = 6 = 0 + 6$ ✓. Pour $x=5$ : $2 \\times 8 = 16 = 10 + 6$ ✓. Pour $x=-3$ : $2 \\times 0 = 0 = -6+6=0$ ✓. Par la distributivité, $2(x+3)=2x+6$ est une identité, toujours vraie."
     },
     {
       "id": "cl5_n2_017",
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Périmètre d'un rectangle de longueur $(2n - 1)$ cm et largeur $(n + 2)$ cm. Développé et simplifié, le périmètre est :",
+      "enonce_html": "Périmètre d'un rectangle de longueur $(2n - 1)$ cm et largeur $(n + 2)$ cm. L'expression littérale du périmètre est :",
       "image": "5eme/calcul_litteral/image13.png",
       "choix": ["$6n + 2$", "$6n - 2$", "$6n + 4$", "$4n + 2$"],
       "reponse": "$6n + 2$",
@@ -677,7 +666,7 @@
       "image": null,
       "choix": ["Toujours vraie", "Parfois vraie", "Toujours fausse", "Vraie pour $x = 0$"],
       "reponse": "Toujours fausse",
-      "explication": "$2(x + 3) = 2x + 6 \\neq 2x + 3$. La différence est $3$. Cette affirmation est **toujours fausse** quelle que soit la valeur de $x$."
+      "explication": "$2(x + 3) = 2x + 6 \\neq 2x + 3$. La différence est $3$. Cette affirmation est toujours fausse quelle que soit la valeur de $x$."
     },
     {
       "id": "cl5_n2_022",
@@ -735,28 +724,6 @@
       "explication": "$5x - 10$ est déjà développée : il n'y a plus de facteur commun apparent sous forme factorisée. Les autres s'écrivent encore avec des parenthèses à développer."
     },
     {
-      "id": "cl5_n2_027",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Développer et simplifier $A = 3(x + 2) + 2(x - 1)$ :",
-      "image": null,
-      "choix": ["$5x + 4$", "$5x + 8$", "$5x - 4$", "$5x + 1$"],
-      "reponse": "$5x + 4$",
-      "explication": "$A = 3x + 6 + 2x - 2 = 5x + 4$."
-    },
-    {
-      "id": "cl5_n2_028",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Développer et simplifier $B = 5(2a - 3) - 2(a + 4)$ :",
-      "image": null,
-      "choix": ["$8a - 23$", "$8a + 23$", "$8a - 7$", "$12a - 23$"],
-      "reponse": "$8a - 23$",
-      "explication": "$B = 10a - 15 - 2a - 8 = 8a - 23$."
-    },
-    {
       "id": "cl5_n2_029",
       "niveau": 2,
       "type": "qcm",
@@ -768,17 +735,6 @@
       "explication": "$(n+1)(n-1) = (5+1)(5-1) = 6 \\times 4 = 24$. On peut aussi reconnaître l'identité $n^2 - 1 = 25 - 1 = 24$."
     },
     {
-      "id": "cl5_n2_030",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un carré a pour côté $x$ cm et un rectangle a pour longueur $(x + 3)$ cm et largeur $5$ cm. Leurs aires sont égales pour quelle valeur de $x$ ?",
-      "image": null,
-      "choix": ["$x = 3$", "$x = 5$", "$x = 7{,}5$", "$x = 15$"],
-      "reponse": "$x = 7{,}5$",
-      "explication": "Aire du carré $= x^2$, aire du rectangle $= 5(x+3) = 5x + 15$. Égalité : $x^2 = 5x + 15$. Pour $x = 7{,}5$ : $56{,}25 \\approx 5 \\times 7{,}5 + 15 = 52{,}5$ (valeur approchée). La solution exacte est $x = \\dfrac{5 + \\sqrt{85}}{2} \\approx 7{,}1$. La réponse la plus proche parmi les choix est $x = 7{,}5$."
-    },
-    {
       "id": "cl5_n3_001",
       "niveau": 3,
       "type": "qcm",
@@ -788,17 +744,6 @@
       "choix": ["$-x + 5$", "$-x - 5$", "$x - 5$", "$x + 5$"],
       "reponse": "$-x - 5$",
       "explication": "$-(x + 5) = -1 \\times (x + 5) = -x - 5$. On distribue le signe moins : $-1 \\times x = -x$ et $-1 \\times 5 = -5$."
-    },
-    {
-      "id": "cl5_n3_002",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Si $x = 3$, laquelle de ces expressions vaut $0$ ?",
-      "image": null,
-      "choix": ["$x - 3$", "$x + 3$", "$3x$", "$x^2 - 9$"],
-      "reponse": "$x - 3$",
-      "explication": "Pour $x = 3$ : $x - 3 = 3 - 3 = 0$ ✓. Et $x^2 - 9 = 9 - 9 = 0$ aussi ✓. Mais $x - 3$ est le choix le plus direct. (Note : $x^2 - 9$ vaut également $0$.)"
     },
     {
       "id": "cl5_n3_003",
