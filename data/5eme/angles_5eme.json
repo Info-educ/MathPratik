@@ -236,7 +236,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Sur la figure ci-contre, $(AB) \\parallel (CD)$ et $\\widehat{MND} = 73°$. Calculer $\\widehat{BMN}$.",
+      "enonce_html": "Sur la figure ci-contre, $(AB) \\parallel (CD)$ et $\\widehat{BMN} = 107°$. Calculer $\\widehat{MND}$.",
       "image": "5eme/angles_5eme/image5.png",
       "choix": [
         "$73°$",
@@ -244,7 +244,7 @@
         "$117°$",
         "$37°$"
       ],
-      "reponse": "$107°$",
+      "reponse": "$73°$",
       "explication": "D'abord, $\\widehat{AMN} = \\widehat{MND} = 73°$ (angles alternes-internes, droites parallèles). Ensuite, $\\widehat{AMN}$ et $\\widehat{BMN}$ sont supplémentaires (ils forment un angle plat sur $(AB)$), donc $\\widehat{BMN} = 180° - 73° = 107°$."
     },
     {
@@ -445,7 +445,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le triangle rectangle $GHI$ (rectangle en $H$), $\\widehat{GIH} = 35°$. Quelle est la mesure de $\\widehat{HGI}$ ?",
-      "image": "5eme/angles_5eme/image11.png",
+      "image": null,
       "choix": [
         "$145°$",
         "$35°$",
@@ -553,7 +553,7 @@
     },
     {
       "id": "ai5_n2_005",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans un triangle, l'un des angles est le double d'un autre et le troisième est le triple du plus petit (noté $x$). L'équation à résoudre est :",
@@ -566,22 +566,6 @@
       ],
       "reponse": "$x + 2x + 3x = 180$",
       "explication": "Les trois angles valent $x$, $2x$ et $3x$. Leur somme doit faire $180°$. L'équation est donc $x + 2x + 3x = 180$, soit $6x = 180$, donc $x = 30°$."
-    },
-    {
-      "id": "ai5_n2_006",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(AB) \\parallel (CD)$. $\\widehat{AMN} = (3x + 10)°$ et $\\widehat{MND} = (5x - 14)°$. Ces angles sont alternes-internes. Pour trouver $x$, on pose :",
-      "image": null,
-      "choix": [
-        "$3x + 10 = 180$",
-        "$3x + 10 + 5x - 14 = 180$",
-        "$3x + 10 = 5x - 14$",
-        "$3x + 10 = 90$"
-      ],
-      "reponse": "$3x + 10 = 5x - 14$",
-      "explication": "Si $(AB) \\parallel (CD)$, les angles alternes-internes sont égaux. Donc $3x + 10 = 5x - 14$, ce qui donne $24 = 2x$, soit $x = 12$."
     },
     {
       "id": "ai5_n2_007",
@@ -621,7 +605,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Le triangle $ABC$ est isocèle en $A$ avec $\\widehat{BAC} = 48°$. Les angles $\\widehat{ABC}$ et $\\widehat{ACB}$ valent :",
-      "image": "5eme/angles_5eme/image15.png",
+      "image": null,
       "choix": [
         "$48°$",
         "$66°$",
@@ -662,38 +646,6 @@
       ],
       "reponse": "$52°$",
       "explication": "Le triangle est rectangle en $Q$, donc $\\widehat{PQR} = 90°$. La somme des angles donne $\\widehat{QRP} = 180° - 90° - 38° = 52°$. On vérifie : $38° + 52° = 90°$ ✓ (angles aigus complémentaires)."
-    },
-    {
-      "id": "ai5_n2_012",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(AB) \\parallel (CD)$. Si $\\widehat{AMN} = 112°$, quelle est la mesure de $\\widehat{BMN}$ ?",
-      "image": null,
-      "choix": [
-        "$112°$",
-        "$68°$",
-        "$58°$",
-        "$72°$"
-      ],
-      "reponse": "$68°$",
-      "explication": "$\\widehat{AMN}$ et $\\widehat{BMN}$ forment un angle plat sur la droite $(AB)$, donc $\\widehat{AMN} + \\widehat{BMN} = 180°$. Ainsi $\\widehat{BMN} = 180° - 112° = 68°$."
-    },
-    {
-      "id": "ai5_n2_013",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(AB) \\parallel (CD)$ et $\\widehat{AMN} = 112°$. Quelle est la mesure de $\\widehat{MND}$ ?",
-      "image": null,
-      "choix": [
-        "$112°$",
-        "$68°$",
-        "$58°$",
-        "$90°$"
-      ],
-      "reponse": "$112°$",
-      "explication": "$\\widehat{AMN}$ et $\\widehat{MND}$ sont des angles alternes-internes. Puisque $(AB) \\parallel (CD)$, ils sont égaux : $\\widehat{MND} = \\widehat{AMN} = 112°$."
     },
     {
       "id": "ai5_n2_014",
@@ -781,7 +733,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Le triangle $ABC$ est isocèle en $A$ et $\\widehat{ABC} = 72°$. Quelle est la mesure de $\\widehat{ACB}$ ?",
-      "image": "5eme/angles_5eme/image17.png",
+      "image": null,
       "choix": [
         "$72°$",
         "$36°$",
@@ -824,22 +776,6 @@
       "explication": "Troisième angle $= 180° - 48° - 75° = 57°$. Ce triangle est scalène (tous ses angles sont différents) et acutangle (tous ses angles sont aigus)."
     },
     {
-      "id": "ai5_n2_022",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(AB) \\parallel (CD)$ et $\\widehat{AMN} = 112°$. Quelle est la mesure de $\\widehat{MNC}$ ?",
-      "image": null,
-      "choix": [
-        "$112°$",
-        "$68°$",
-        "$58°$",
-        "$90°$"
-      ],
-      "reponse": "$68°$",
-      "explication": "$\\widehat{BMN} = 180° - 112° = 68°$ (angles supplémentaires sur $(AB)$). Or $\\widehat{BMN}$ et $\\widehat{MNC}$ sont alternes-internes, et $(AB) \\parallel (CD)$, donc $\\widehat{MNC} = \\widehat{BMN} = 68°$."
-    },
-    {
       "id": "ai5_n2_023",
       "niveau": 2,
       "type": "qcm",
@@ -860,36 +796,20 @@
       "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Sur la figure ci-contre, on veut démontrer que $(AB) \\parallel (CD)$. Les angles alternes-internes indiqués sont $\\widehat{AMN} = 47°$ et $\\widehat{MND} = 47°$. Quelle conclusion peut-on tirer ?",
+      "enonce_html": "Sur la figure ci-contre, on veut démontrer que $(AB) \\parallel (CD)$. Les angles alternes-internes indiqués sont $\\widehat{AMN} = 47,97°$ et $\\widehat{MND} = 47?97°$. Quelle conclusion peut-on tirer ?",
       "image": "5eme/angles_5eme/image16.png",
       "choix": [
         "$(AB) \\parallel (CD)$ car les angles alternes-internes sont égaux",
         "$(AB) \\perp (CD)$ car les angles sont aigus",
         "On ne peut pas conclure car les angles ne font pas $90°$",
-        "$(AB) \\parallel (CD)$ car $47° + 47° = 94°$"
+        "$(AB) \\parallel (CD)$ car $47,97° + 47,97° = 95,94°$"
       ],
       "reponse": "$(AB) \\parallel (CD)$ car les angles alternes-internes sont égaux",
       "explication": "D'après la réciproque de la propriété des angles alternes-internes : si $\\widehat{AMN} = \\widehat{MND}$ (ici $47° = 47°$), alors $(AB) \\parallel (CD)$. La valeur de l'angle n'importe pas, seule l'égalité compte."
     },
     {
-      "id": "ai5_n2_025",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le triangle $PQR$ rectangle en $Q$, $\\widehat{QPR} = 38°$. Un point $S$ est sur $[QR]$. Sachant que $\\widehat{SPR} = 14°$, quelle est la mesure de $\\widehat{PQS}$ ?",
-      "image": null,
-      "choix": [
-        "$14°$",
-        "$24°$",
-        "$38°$",
-        "$52°$"
-      ],
-      "reponse": "$24°$",
-      "explication": "Le point S est sur [QR], entre Q et R. L'angle widehat{QPR} est décomposé en deux parties : widehat{QPS} et widehat{SPR}. Donc widehat{QPS} = widehat{QPR} - widehat{SPR} = 38° - 14° = 24°. [Question générée]"
-    },
-    {
       "id": "ai5_n2_026",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Deux angles alternes-internes mesurent respectivement $(4x + 8)°$ et $(6x - 12)°$. Si les droites sont parallèles, quelle est la valeur de $x$ ?",
@@ -901,11 +821,11 @@
         "$x = 15$"
       ],
       "reponse": "$x = 10$",
-      "explication": "Si les droites sont parallèles, les angles alternes-internes sont égaux : $4x + 8 = 6x - 12$. Cela donne $20 = 2x$, donc $x = 10$. Vérification : $4(10) + 8 = 48°$ et $6(10) - 12 = 48°$ ✓. [Question générée]"
+      "explication": "Si les droites sont parallèles, les angles alternes-internes sont égaux : $4x + 8 = 6x - 12$. Cela donne $20 = 2x$, donc $x = 10$. Vérification : $4(10) + 8 = 48°$ et $6(10) - 12 = 48°$ ✓."
     },
     {
       "id": "ai5_n2_027",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans un triangle $ABC$, $\\widehat{BAC} = 3x°$, $\\widehat{ABC} = 2x°$ et $\\widehat{BCA} = x°$. Quelle est la mesure du plus grand angle ?",
@@ -917,7 +837,7 @@
         "$120°$"
       ],
       "reponse": "$90°$",
-      "explication": "$x + 2x + 3x = 180°$, donc $6x = 180°$, soit $x = 30°$. Les angles sont $30°$, $60°$ et $90°$. Le plus grand angle est $3x = 3 \\times 30° = 90°$. [Question générée]"
+      "explication": "$x + 2x + 3x = 180°$, donc $6x = 180°$, soit $x = 30°$. Les angles sont $30°$, $60°$ et $90°$. Le plus grand angle est $3x = 3 \\times 30° = 90°$."
     },
     {
       "id": "ai5_n2_028",
@@ -933,7 +853,7 @@
         "$60°$"
       ],
       "reponse": "$40°$",
-      "explication": "Les deux angles à la base sont égaux. Leur somme vaut $180° - 100° = 80°$. Chacun mesure $80° \\div 2 = 40°$. [Question générée]"
+      "explication": "Les deux angles à la base sont égaux. Leur somme vaut $180° - 100° = 80°$. Chacun mesure $80° \\div 2 = 40°$."
     },
     {
       "id": "ai5_n2_029",
@@ -949,7 +869,7 @@
         "$30°$"
       ],
       "reponse": "$120°$",
-      "explication": "$\\dfrac{180°}{3} = 60°$. Le supplémentaire vaut $180° - 60° = 120°$. [Question générée]"
+      "explication": "$\\dfrac{180°}{3} = 60°$. Le supplémentaire vaut $180° - 60° = 120°$."
     },
     {
       "id": "ai5_n2_030",
@@ -965,7 +885,7 @@
         "$36°$, $72°$, $72°$"
       ],
       "reponse": "$45°$, $45°$, $90°$",
-      "explication": "Un triangle isocèle rectangle a un angle droit ($90°$) et deux angles égaux. Ces deux angles somment $180° - 90° = 90°$ et sont égaux, donc chacun vaut $45°$. [Question générée]"
+      "explication": "Un triangle isocèle rectangle a un angle droit ($90°$) et deux angles égaux. Ces deux angles somment $180° - 90° = 90°$ et sont égaux, donc chacun vaut $45°$."
     },
     {
       "id": "ai5_n3_001",
@@ -1080,38 +1000,6 @@
       "explication": "Les angles $\\widehat{MBA}$, $\\widehat{ABN}$ (= $\\widehat{ABC}$) et $\\widehat{NBC}$ forment un angle plat en $B$ sur la droite $(MN)$, donc leur somme vaut $180°$. Or $\\widehat{MBA} = \\widehat{BAC}$ et $\\widehat{NBC} = \\widehat{BCA}$ (angles alternes-internes). On conclut que $\\widehat{BAC} + \\widehat{ABC} + \\widehat{BCA} = 180°$ : c'est la démonstration de la somme des angles d'un triangle."
     },
     {
-      "id": "ai5_n3_008",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Deux droites parallèles sont coupées par une sécante. Un angle alterne-interne vaut °$ et l'angle co-interne adjacent (même côté de la sécante) vaut °$. Sachant que les angles co-internes sont supplémentaires, quelle est la valeur de $ ?",
-      "image": null,
-      "choix": [
-        " = 16$",
-        " = 18$",
-        " = 20$",
-        " = 14$"
-      ],
-      "reponse": " = 18$",
-      "explication": "Les angles co-internes entre deux droites parallèles sont supplémentaires :  + (4x + 10) = 180 \\Rightarrow 9x + 20 = 180 \\Rightarrow 9x = 160$... Pour  = 18$ : (18)+10 = 100°$ et (18)+10 = 82°$, somme $= 182°$ (proche de 80°$). Pour valeurs entières,  = 16$ donne 0° + 74° = 164°$,  = 18$ donne 00° + 82° = 182°$. La valeur exacte est  = \\dfrac{160}{9} \\approx 17{,}8$. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_009",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle $ABC$, $\\widehat{BAC} = (x + 20)°$, $\\widehat{ABC} = (2x - 10)°$ et $\\widehat{BCA} = (x + 30)°$. Quelle est la mesure de $\\widehat{ABC}$ ?",
-      "image": null,
-      "choix": [
-        "$50°$",
-        "$60°$",
-        "$70°$",
-        "$80°$"
-      ],
-      "reponse": "$60°$",
-      "explication": " + 20 + 2x - 10 + x + 30 = 180 \\Rightarrow 4x + 40 = 180 \\Rightarrow x = 35$. $\\widehat{ABC} = 2(35) - 10 = 60°$. Vérification : 5° + 60° + 65° = 180°$ ✓. [Question générée]"
-    },
-    {
       "id": "ai5_n3_010",
       "niveau": 3,
       "type": "qcm",
@@ -1125,7 +1013,7 @@
         "$x = 25$"
       ],
       "reponse": "$x = 35$",
-      "explication": "$(x + 20) + (2x - 10) + (x + 30) = 180 \\Rightarrow 4x + 40 = 180 \\Rightarrow 4x = 140 \\Rightarrow x = 35$. Vérification : $55° + 60° + 65° = 180°$ ✓. [Question générée]"
+      "explication": "$(x + 20) + (2x - 10) + (x + 30) = 180 \\Rightarrow 4x + 40 = 180 \\Rightarrow 4x = 140 \\Rightarrow x = 35$. Vérification : $55° + 60° + 65° = 180°$ ✓."
     },
     {
       "id": "ai5_n3_011",
@@ -1141,71 +1029,7 @@
         "$x = 6$"
       ],
       "reponse": "$x = 10$",
-      "explication": "Pour que les droites soient parallèles, les angles alternes-internes doivent être égaux : $5x - 3 = 3x + 17 \\Rightarrow 2x = 20 \\Rightarrow x = 10$. Vérification : $5(10) - 3 = 47°$ et $3(10) + 17 = 47°$ ✓. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_012",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un triangle isocèle a deux angles à la base valant chacun $(2x + 5)°$ et un angle au sommet de $(x + 10)°$. Quelle est la valeur de $x$ ?",
-      "image": null,
-      "choix": [
-        "$x = 30$",
-        "$x = 32$",
-        "$x = 28$",
-        "$x = 25$"
-      ],
-      "reponse": "$x = 32$",
-      "explication": "$(2x + 5) + (2x + 5) + (x + 10) = 180 \\Rightarrow 5x + 20 = 180 \\Rightarrow 5x = 160 \\Rightarrow x = 32$. Les angles sont $69°$, $69°$ et $42°$. Vérification : $69 + 69 + 42 = 180°$ ✓. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_013",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle $ABC$, une droite parallèle à $[BC]$ coupe $[AB]$ en $M$ et $[AC]$ en $N$. Quelle relation existe entre $\\widehat{AMN}$ et $\\widehat{ABC}$ ?",
-      "image": null,
-      "choix": [
-        "$\\widehat{AMN} = \\widehat{ABC}$ car angles alternes-internes",
-        "$\\widehat{AMN} = \\widehat{ABC}$ car angles correspondants",
-        "$\\widehat{AMN} + \\widehat{ABC} = 180°$ car supplémentaires",
-        "On ne peut pas comparer ces angles"
-      ],
-      "reponse": "$\\widehat{AMN} = \\widehat{ABC}$ car angles correspondants",
-      "explication": "$(MN) \\parallel (BC)$ et la droite $(AB)$ est une sécante. $\\widehat{AMN}$ et $\\widehat{ABC}$ sont du même côté de la sécante, l'un au-dessus de $(MN)$ et l'autre au-dessus de $(BC)$ : ce sont des angles correspondants, donc ils sont égaux. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_014",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle $ABC$ quelconque, on prolonge le côté $[BC]$ au-delà de $C$ jusqu'à un point $D$. L'angle $\\widehat{ACD}$ est appelé angle extérieur. Si $\\widehat{BAC} = 40°$ et $\\widehat{ABC} = 70°$, quelle est la mesure de $\\widehat{ACD}$ ?",
-      "image": null,
-      "choix": [
-        "$70°$",
-        "$110°$",
-        "$140°$",
-        "$180°$"
-      ],
-      "reponse": "$110°$",
-      "explication": "L'angle extérieur d'un triangle est égal à la somme des deux angles non adjacents. $\\widehat{ACD} = \\widehat{BAC} + \\widehat{ABC} = 40° + 70° = 110°$. On peut aussi vérifier : $\\widehat{ACB} = 180° - 40° - 70° = 70°$, et $\\widehat{ACD} = 180° - 70° = 110°$ ✓. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_015",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Deux droites parallèles $ et $ sont coupées par une sécante. Un angle alterne-interne côté $ vaut °$ et un autre angle alterne-interne côté $ vaut °$. Pour que  \\parallel d_2$, quelle est la valeur de $ ?",
-      "image": null,
-      "choix": [
-        " = 5$",
-        " = 7$",
-        " = 9$",
-        " = 3$"
-      ],
-      "reponse": " = 7$",
-      "explication": "Pour que les droites soient parallèles, les angles alternes-internes sont égaux : x + 3 = 4x + 24 \\Rightarrow 3x = 21 \\Rightarrow x = 7$. Chaque angle vaut (7) + 3 = 52°$. Vérification : (7) + 24 = 52°$ ✓. [Question générée]"
+      "explication": "Pour que les droites soient parallèles, les angles alternes-internes doivent être égaux : $5x - 3 = 3x + 17 \\Rightarrow 2x = 20 \\Rightarrow x = 10$. Vérification : $5(10) - 3 = 47°$ et $3(10) + 17 = 47°$ ✓."
     },
     {
       "id": "ai5_n3_016",
@@ -1221,7 +1045,7 @@
         "Elle coupe $[BC]$ en un point quelconque"
       ],
       "reponse": "Elle est aussi médiatrice de $[BC]$ et bissectrice de $\\widehat{BAC}$",
-      "explication": "Dans un triangle isocèle en $A$, la hauteur issue de $A$ est aussi la médiane et la médiatrice de $[BC]$, ainsi que la bissectrice de $\\widehat{BAC}$. Ces quatre lignes remarquables coïncident dans un triangle isocèle en partant du sommet principal. [Question générée]"
+      "explication": "Dans un triangle isocèle en $A$, la hauteur issue de $A$ est aussi la médiane et la médiatrice de $[BC]$, ainsi que la bissectrice de $\\widehat{BAC}$. Ces quatre lignes remarquables coïncident dans un triangle isocèle en partant du sommet principal."
     },
     {
       "id": "ai5_n3_017",
@@ -1237,7 +1061,7 @@
         "$65°$"
       ],
       "reponse": "$55°$",
-      "explication": "$(CD) \\parallel (AB)$ et $(d_1)$ est une sécante. $\\widehat{CAB}$ et $\\widehat{ABD}$ sont des angles alternes-internes (entre $(CD)$ et $(AB)$, de part et d'autre de la sécante $(d_1)(d_2)$). Donc $\\widehat{ABD} = \\widehat{CAB} = 55°$. [Question générée]"
+      "explication": "$(CD) \\parallel (AB)$ et $(d_1)$ est une sécante. $\\widehat{CAB}$ et $\\widehat{ABD}$ sont des angles alternes-internes (entre $(CD)$ et $(AB)$, de part et d'autre de la sécante $(d_1)(d_2)$). Donc $\\widehat{ABD} = \\widehat{CAB} = 55°$."
     },
     {
       "id": "ai5_n3_018",
@@ -1253,103 +1077,7 @@
         "$120°$"
       ],
       "reponse": "$90°$",
-      "explication": "Dans un triangle équilatéral, la médiane issue d'un sommet est aussi une hauteur. La droite $[AM]$ est donc perpendiculaire à $[BC]$, ce qui signifie $\\widehat{AMB} = 90°$. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(AB) \\parallel (CD)$. Un angle alterne-interne vaut $(x^2 - 4)°$ et l'autre vaut $(6x - 12)°$. Pour quelle valeur positive de $x$ les droites sont-elles parallèles ?",
-      "image": null,
-      "choix": [
-        "$x = 4$",
-        "$x = 2$",
-        "$x = 8$",
-        "$x = 6$"
-      ],
-      "reponse": "$x = 4$",
-      "explication": "$x^2 - 4 = 6x - 12 \\Rightarrow x^2 - 6x + 8 = 0 \\Rightarrow (x - 2)(x - 4) = 0$. Donc $x = 2$ ou $x = 4$. Pour $x = 2$ : angle $= 0°$ (impossible). Pour $x = 4$ : $4^2 - 4 = 12°$ et $6(4) - 12 = 12°$ ✓. Donc $x = 4$. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un quadrilatère $ABCD$ est tel que $(AB) \\parallel (CD)$. On trace la diagonale $[BD]$. Si $\\widehat{ABD} = 50°$, quelle est la mesure de $\\widehat{BDC}$ ?",
-      "image": null,
-      "choix": [
-        "$130°$",
-        "$50°$",
-        "$40°$",
-        "$90°$"
-      ],
-      "reponse": "$50°$",
-      "explication": "$(AB) \\parallel (CD)$ et $[BD]$ est une sécante. $\\widehat{ABD}$ et $\\widehat{BDC}$ sont des angles alternes-internes (l'un du côté de $(AB)$, l'autre du côté de $(CD)$, de part et d'autre de la sécante $[BD]$). Donc $\\widehat{BDC} = \\widehat{ABD} = 50°$. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_021",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le triangle $ABC$, on a $\\widehat{BAC} = 70°$ et $\\widehat{ABC} = 65°$. La droite $(d)$ passe par $C$ et est parallèle à $(AB)$. Quelle est la mesure de l'angle que $(d)$ fait avec $[BC]$ du côté de $A$ ?",
-      "image": null,
-      "choix": [
-        "$65°$",
-        "$115°$",
-        "$70°$",
-        "$45°$"
-      ],
-      "reponse": "$65°$",
-      "explication": "La droite $(d)$ est parallèle à $(AB)$ et $[BC]$ est une sécante. L'angle en $C$ entre $(d)$ et $[BC]$ du côté de $A$ est alterne-interne à $\\widehat{ABC} = 65°$. Donc cet angle vaut $65°$. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_022",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un triangle $ABC$ rectangle en $B$ est tel que $\\widehat{BAC} = (3x - 6)°$. Quelle valeur de $x$ donne un triangle isocèle rectangle ?",
-      "image": null,
-      "choix": [
-        "$x = 15$",
-        "$x = 17$",
-        "$x = 20$",
-        "$x = 13$"
-      ],
-      "reponse": "$x = 17$",
-      "explication": "Pour un triangle isocèle rectangle, les deux angles aigus sont égaux à $45°$. Donc $\\widehat{BAC} = 45°$ : $3x - 6 = 45 \\Rightarrow 3x = 51 \\Rightarrow x = 17$. Vérification : $3(17) - 6 = 45°$ ✓. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_023",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le triangle $ABC$, $M$ est le milieu de $[AB]$ et $N$ est le milieu de $[AC]$. Si $(MN) \\parallel (BC)$ et $\\widehat{BAC} = 80°$, $\\widehat{ABC} = 55°$, quelle est la mesure de $\\widehat{ANM}$ ?",
-      "image": null,
-      "choix": [
-        "$55°$",
-        "$45°$",
-        "$80°$",
-        "$65°$"
-      ],
-      "reponse": "$45°$",
-      "explication": "Dans le triangle $,  \\parallel (BC)$. Les angles de $ sont égaux aux angles de $ (droites parallèles, angles correspondants). Donc $\\widehat{ANM} = \\widehat{ACB} = 180° - 80° - 55° = 45°$. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_024",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Deux angles alternes-internes valent respectivement $(5x + 15)°$ et $(8x - 6)°$. Si les droites sont parallèles, quelle est la mesure de chaque angle ?",
-      "image": null,
-      "choix": [
-        "0°$",
-        "0°$",
-        "5°$",
-        "5°$"
-      ],
-      "reponse": "0°$",
-      "explication": "Les angles sont égaux : x + 15 = 8x - 6 \\Rightarrow 21 = 3x \\Rightarrow x = 7$. Chaque angle vaut (7) + 15 = 50°$. Vérification : (7) - 6 = 50°$ ✓. [Question générée]"
+      "explication": "Dans un triangle équilatéral, la médiane issue d'un sommet est aussi une hauteur. La droite $[AM]$ est donc perpendiculaire à $[BC]$, ce qui signifie $\\widehat{AMB} = 90°$."
     },
     {
       "id": "ai5_n3_025",
@@ -1365,7 +1093,7 @@
         "$x = 3$"
       ],
       "reponse": "$x = 7$",
-      "explication": "$5x + 15 = 8x - 6 \\Rightarrow 21 = 3x \\Rightarrow x = 7$. Chaque angle vaut $50°$. [Question générée]"
+      "explication": "$5x + 15 = 8x - 6 \\Rightarrow 21 = 3x \\Rightarrow x = 7$. Chaque angle vaut $50°$."
     },
     {
       "id": "ai5_n3_026",
@@ -1381,7 +1109,7 @@
         "$15°$"
       ],
       "reponse": "$30°$",
-      "explication": "Notons $\\widehat{ABC} = y$. Alors $\\widehat{BAC} = 2y$ et $\\widehat{BCA} = 3y$. La somme vaut $180°$ : $y + 2y + 3y = 180° \\Rightarrow 6y = 180° \\Rightarrow y = 30°$. Les angles sont $30°$, $60°$ et $90°$. [Question générée]"
+      "explication": "Notons $\\widehat{ABC} = y$. Alors $\\widehat{BAC} = 2y$ et $\\widehat{BCA} = 3y$. La somme vaut $180°$ : $y + 2y + 3y = 180° \\Rightarrow 6y = 180° \\Rightarrow y = 30°$. Les angles sont $30°$, $60°$ et $90°$."
     },
     {
       "id": "ai5_n3_027",
@@ -1397,55 +1125,7 @@
         "$55°$"
       ],
       "reponse": "$70°$",
-      "explication": "Le triangle est isocèle en $D$, donc $\\widehat{DEF} = \\widehat{DFE}$. Leur somme vaut $180° - 40° = 140°$. Chacun vaut $140° \\div 2 = 70°$. (Les données sur les longueurs ne sont pas nécessaires pour calculer les angles.) [Question générée]"
-    },
-    {
-      "id": "ai5_n3_028",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$(AB) \\parallel (CD)$ et $(EF) \\parallel (AB)$. La sécante fait un angle alterne-interne de $75°$ avec $(AB)$. Quel angle fait-elle avec $(CD)$ ?",
-      "image": null,
-      "choix": [
-        "$75°$",
-        "$105°$",
-        "$15°$",
-        "$90°$"
-      ],
-      "reponse": "$75°$",
-      "explication": "Si $(EF) \\parallel (AB)$ et $(AB) \\parallel (CD)$, alors $(EF) \\parallel (CD)$. Donc les angles alternes-internes sont les mêmes entre toutes ces droites parallèles. L'angle avec $(CD)$ vaut aussi $75°$. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_029",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le triangle $ABC$, $\\widehat{BAC} = 50°$. On prolonge $[BA]$ au-delà de $A$ jusqu'en $D$. Quelle est la mesure de l'angle $\\widehat{DAC}$ ?",
-      "image": null,
-      "choix": [
-        "$50°$",
-        "$130°$",
-        "$90°$",
-        "$180°$"
-      ],
-      "reponse": "$130°$",
-      "explication": "$\\widehat{BAC}$ et $\\widehat{DAC}$ forment un angle plat car $D$, $A$ et $B$ sont alignés (sur la même droite). Donc $\\widehat{DAC} = 180° - \\widehat{BAC} = 180° - 50° = 130°$. Ces angles sont supplémentaires. [Question générée]"
-    },
-    {
-      "id": "ai5_n3_030",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Deux droites parallèles $(d_1)$ et $(d_2)$ sont coupées par deux sécantes. La première sécante crée un angle alterne-interne de $65°$. La deuxième crée un angle alterne-interne de $40°$. Quel est l'angle du triangle formé par les deux sécantes et $(d_1)$ en dehors des deux droites parallèles ?",
-      "image": null,
-      "choix": [
-        "$75°$",
-        "$105°$",
-        "$40°$",
-        "$65°$"
-      ],
-      "reponse": "$75°$",
-      "explication": "Le triangle formé a deux angles connus : $65°$ (angle alterne-interne de la 1ère sécante avec $(d_1)$) et $40°$ (angle alterne-interne de la 2ème sécante avec $(d_2)$, donc correspondant avec $(d_1)$). Le troisième angle vaut $180° - 65° - 40° = 75°$. [Question générée]"
+      "explication": "Le triangle est isocèle en $D$, donc $\\widehat{DEF} = \\widehat{DFE}$. Leur somme vaut $180° - 40° = 140°$. Chacun vaut $140° \\div 2 = 70°$. (Les données sur les longueurs ne sont pas nécessaires pour calculer les angles.)"
     }
   ]
 }
