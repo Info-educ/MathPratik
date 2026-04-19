@@ -46,7 +46,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un pavé droit possède combien de faces ?",
-      "image": "5eme/prisme_cylindre/f07a180cbccfc0a4f564cd839e4578beee715f4f.png",
+      "image": null,
       "choix": ["4 faces", "5 faces", "6 faces", "8 faces"],
       "reponse": "6 faces",
       "explication": "Un pavé droit possède 6 faces rectangulaires formant 3 paires de faces opposées et parallèles."
@@ -90,7 +90,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Les bases d'un cylindre de révolution sont de quelle forme ?",
-      "image": "5eme/prisme_cylindre/6d01695bdf4fbe46b27a9df0df7a028c4e3e2136.png",
+      "image": null,
       "choix": ["Des rectangles", "Des triangles", "Des disques (cercles)", "Des hexagones"],
       "reponse": "Des disques (cercles)",
       "explication": "Les deux bases d'un cylindre de révolution sont des disques (surfaces circulaires) de même rayon $r$."
@@ -101,7 +101,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le patron d'un prisme triangulaire, combien y a-t-il de rectangles ?",
-      "image": "5eme/prisme_cylindre/c2c3bce2326171a041cd41125d2d6b12a13d5e02.png",
+      "image": null,
       "choix": ["2 rectangles", "3 rectangles", "4 rectangles", "5 rectangles"],
       "reponse": "3 rectangles",
       "explication": "Le patron d'un prisme triangulaire contient 3 rectangles (faces latérales) et 2 triangles (bases)."
@@ -112,7 +112,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le patron d'un prisme triangulaire, combien y a-t-il de triangles ?",
-      "image": "5eme/prisme_cylindre/c2c3bce2326171a041cd41125d2d6b12a13d5e02.png",
+      "image": null",
       "choix": ["1 triangle", "2 triangles", "3 triangles", "4 triangles"],
       "reponse": "2 triangles",
       "explication": "Le patron d'un prisme triangulaire contient 2 triangles correspondant aux deux bases du prisme."
@@ -134,7 +134,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le patron du pavé droit, combien y a-t-il de rectangles au total ?",
-      "image": "5eme/prisme_cylindre/12fbf8128b7140bf120e406ad9ee43d06b1cb13c.png",
+      "image": null,
       "choix": ["4 rectangles", "5 rectangles", "6 rectangles", "8 rectangles"],
       "reponse": "6 rectangles",
       "explication": "Le patron du pavé droit comprend 6 rectangles formant 3 paires de faces opposées identiques."
@@ -184,23 +184,12 @@
       "explication": "Le patron d'un solide est un développement : une figure plane que l'on peut découper et plier pour reconstituer le solide en trois dimensions."
     },
     {
-      "id": "pc5_n1_017",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "En perspective cavalière, les arêtes de profondeur sont dessinées :",
-      "image": null,
-      "choix": ["À leur vraie longueur", "À la moitié de leur longueur réelle à 45°", "À un tiers de leur longueur réelle", "Verticalement"],
-      "reponse": "À la moitié de leur longueur réelle à 45°",
-      "explication": "En perspective cavalière, les arêtes de profondeur sont tracées à $45°$ et réduites à la moitié de leur longueur réelle."
-    },
-    {
       "id": "pc5_n1_018",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "La surface latérale d'un cylindre de révolution, une fois déroulée, est de quelle forme ?",
-      "image": "5eme/prisme_cylindre/b50b22505992b9b079984863b3060955622184a3.png",
+      "image": null,
       "choix": ["Un carré", "Un cercle", "Un rectangle", "Un triangle"],
       "reponse": "Un rectangle",
       "explication": "Lorsqu'on déroule la surface latérale d'un cylindre, on obtient un rectangle dont la longueur est la circonférence $2\\pi r$ et la largeur est la hauteur $h$."
@@ -212,8 +201,8 @@
       "avec_calculatrice": false,
       "enonce_html": "Le cube est un cas particulier de :",
       "image": null,
-      "choix": ["Prisme triangulaire", "Pavé droit (prisme à base carrée)", "Cylindre", "Pyramide"],
-      "reponse": "Pavé droit (prisme à base carrée)",
+      "choix": ["Prisme triangulaire", "Pavé droit", "Cylindre", "Pyramide"],
+      "reponse": "Pavé droit",
       "explication": "Le cube est un pavé droit dont toutes les arêtes sont égales. Sa base est un carré, il est donc un cas particulier de pavé droit (prisme à base carrée)."
     },
     {
@@ -222,7 +211,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "On obtient un cylindre en faisant tourner :",
-      "image": "5eme/prisme_cylindre/b50b22505992b9b079984863b3060955622184a3.png",
+      "image": null,
       "choix": ["Un cercle autour de son centre", "Un rectangle autour de l'un de ses côtés", "Un triangle autour de sa base", "Un disque autour de son diamètre"],
       "reponse": "Un rectangle autour de l'un de ses côtés",
       "explication": "Un cylindre de révolution est obtenu en faisant tourner un rectangle autour de l'un de ses côtés (qui devient l'axe de révolution)."
@@ -261,23 +250,12 @@
       "explication": "Une boîte de conserve ronde a deux bases circulaires parallèles et une surface latérale courbe : c'est un cylindre de révolution. Une balle de tennis est une sphère."
     },
     {
-      "id": "pc5_n1_024",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le patron du prisme triangulaire, la hauteur des rectangles correspond à :",
-      "image": "5eme/prisme_cylindre/c2c3bce2326171a041cd41125d2d6b12a13d5e02.png",
-      "choix": ["La hauteur du triangle de base", "La hauteur (longueur) du prisme", "Le côté du triangle de base", "La largeur totale du patron"],
-      "reponse": "La hauteur (longueur) du prisme",
-      "explication": "Dans le patron du prisme triangulaire, la hauteur des 3 rectangles correspond à la hauteur (longueur) du prisme, et leur largeur correspond à chaque côté du triangle de base."
-    },
-    {
       "id": "pc5_n1_025",
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans une perspective cavalière d'un pavé droit, combien d'arêtes sont représentées en pointillés ?",
-      "image": "5eme/prisme_cylindre/f07a180cbccfc0a4f564cd839e4578beee715f4f.png",
+      "image": null,
       "choix": ["1", "2", "3", "4"],
       "reponse": "3",
       "explication": "Dans la perspective cavalière d'un pavé droit, les 3 arêtes du sommet arrière caché sont représentées en pointillés."
@@ -288,7 +266,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le patron du cylindre, la longueur du rectangle est égale à :",
-      "image": "5eme/prisme_cylindre/8206fc4aae2ebe862ab86e68a73ed658ffc32ecb.png",
+      "image": null,
       "choix": ["La hauteur $h$", "Le rayon $r$", "La circonférence $2\\pi r$", "Le diamètre $2r$"],
       "reponse": "La circonférence $2\\pi r$",
       "explication": "Quand on déroule la surface latérale du cylindre, la longueur du rectangle obtenu est égale à la circonférence de la base : $2\\pi r$."
@@ -321,7 +299,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le patron du pavé droit, combien de rectangles différents (de dimensions différentes) peut-il y avoir au maximum ?",
-      "image": "5eme/prisme_cylindre/12fbf8128b7140bf120e406ad9ee43d06b1cb13c.png",
+      "image": null,
       "choix": ["1", "2", "3", "6"],
       "reponse": "3",
       "explication": "Un pavé droit a 3 paires de faces opposées identiques, donc au maximum 3 rectangles de dimensions différentes dans son patron."
@@ -371,28 +349,6 @@
       "explication": "Pour un prisme à base $n$-gonale : sommets $= 2n$. Avec $n = 6$ : $2 \\times 6 = 12$ sommets."
     },
     {
-      "id": "pc5_n2_004",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans la représentation en perspective cavalière, les arêtes de profondeur sont dessinées selon quel angle et à quel rapport de réduction ?",
-      "image": null,
-      "choix": ["Angle $30°$, rapport $\\dfrac{1}{3}$", "Angle $45°$, rapport $\\dfrac{1}{2}$", "Angle $60°$, rapport $\\dfrac{1}{2}$", "Angle $45°$, rapport $\\dfrac{2}{3}$"],
-      "reponse": "Angle $45°$, rapport $\\dfrac{1}{2}$",
-      "explication": "En perspective cavalière : les arêtes de profondeur sont tracées à $45°$ et leur longueur dessinée est la moitié de leur longueur réelle (rapport $\\dfrac{1}{2}$)."
-    },
-    {
-      "id": "pc5_n2_005",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un prisme triangulaire vérifie-t-il la formule d'Euler $F + S - A = 2$ ?",
-      "image": null,
-      "choix": ["Non, $F + S - A = 1$", "Non, $F + S - A = 3$", "Oui, $(5) + (6) - (9) = 2$", "Oui, $(4) + (6) - (8) = 2$"],
-      "reponse": "Oui, $(5) + (6) - (9) = 2$",
-      "explication": "Le prisme triangulaire a $F = 5$ faces, $S = 6$ sommets, $A = 9$ arêtes. On vérifie : $5 + 6 - 9 = 2$. La formule d'Euler est bien vérifiée."
-    },
-    {
       "id": "pc5_n2_006",
       "niveau": 2,
       "type": "qcm",
@@ -405,7 +361,7 @@
     },
     {
       "id": "pc5_n2_007",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce_html": "Un cylindre a un rayon $r = 4$ cm et une hauteur $h = 10$ cm. Quelles sont les dimensions du rectangle dans son patron (prendre $\\pi \\approx 3{,}14$) ?",
@@ -443,20 +399,9 @@
       "avec_calculatrice": false,
       "enonce_html": "Dans la perspective cavalière d'un prisme droit, les faces latérales visibles sont représentées sous forme de :",
       "image": "5eme/prisme_cylindre/4f010b96881f4801a798a85312a7838a17cf0025.png",
-      "choix": ["Rectangles exacts", "Parallélogrammes (déformation due à la perspective)", "Triangles", "Pentagones"],
-      "reponse": "Parallélogrammes (déformation due à la perspective)",
+      "choix": ["Rectangles exacts", "Parallélogrammes", "Triangles", "Pentagones"],
+      "reponse": "Parallélogrammes",
       "explication": "En perspective cavalière, les rectangles apparaissent déformés en parallélogrammes à cause de l'inclinaison des arêtes de profondeur à $45°$."
-    },
-    {
-      "id": "pc5_n2_011",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Parmi ces affirmations, laquelle est correcte pour un prisme droit à base $n$-gonale ?",
-      "image": null,
-      "choix": ["Il a toujours 8 sommets", "Il vérifie $F + S - A = 2$ avec $F = n+2$, $S = 2n$, $A = 3n$", "Ses faces latérales sont des triangles", "Il a exactement $n$ faces au total"],
-      "reponse": "Il vérifie $F + S - A = 2$ avec $F = n+2$, $S = 2n$, $A = 3n$",
-      "explication": "Pour un prisme à base $n$-gonale : $F = n + 2$, $S = 2n$, $A = 3n$. On vérifie : $(n+2) + 2n - 3n = 2$. C'est la formule d'Euler."
     },
     {
       "id": "pc5_n2_012",
@@ -468,17 +413,6 @@
       "choix": ["1 seul patron possible", "7 patrons différents", "11 patrons différents", "24 patrons différents"],
       "reponse": "11 patrons différents",
       "explication": "Il existe exactement 11 patrons distincts pour le cube. Un patron de 6 carrés ne donne pas forcément un cube : il faut vérifier que le pliage est possible."
-    },
-    {
-      "id": "pc5_n2_013",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quand on roule le rectangle du patron d'un cylindre, quel côté devient la hauteur $h$ du cylindre ?",
-      "image": "5eme/prisme_cylindre/8206fc4aae2ebe862ab86e68a73ed658ffc32ecb.png",
-      "choix": ["Le côté de longueur $2\\pi r$", "Le côté de longueur $h$ (hauteur du rectangle)", "Le diamètre des cercles", "La somme des deux cercles"],
-      "reponse": "Le côté de longueur $h$ (hauteur du rectangle)",
-      "explication": "Lors du roulage, le côté de longueur $h$ reste vertical et devient la hauteur du cylindre. Le côté de longueur $2\\pi r$ forme la circonférence de la base."
     },
     {
       "id": "pc5_n2_014",
@@ -515,7 +449,7 @@
     },
     {
       "id": "pc5_n2_017",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce_html": "Un cylindre a un rayon $r = 3$ cm et une hauteur $h = 8$ cm. Quelle est l'aire du rectangle de son patron (prendre $\\pi \\approx 3{,}14$) ?",
@@ -523,17 +457,6 @@
       "choix": ["$24$ cm²", "$48\\pi$ cm²", "$150{,}72$ cm²", "$48$ cm²"],
       "reponse": "$150{,}72$ cm²",
       "explication": "Aire rectangle $= 2\\pi r \\times h = 2 \\times 3{,}14 \\times 3 \\times 8 = 18{,}84 \\times 8 = 150{,}72$ cm²."
-    },
-    {
-      "id": "pc5_n2_018",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour un prisme à base $n$-gonale, quelle est la formule du nombre de faces ?",
-      "image": null,
-      "choix": ["$F = n$", "$F = 2n$", "$F = n + 2$", "$F = 3n$"],
-      "reponse": "$F = n + 2$",
-      "explication": "Un prisme à base $n$-gonale a $n$ faces latérales $+ 2$ bases $= n + 2$ faces au total."
     },
     {
       "id": "pc5_n2_019",
@@ -545,17 +468,6 @@
       "choix": ["5 faces", "6 faces", "7 faces", "8 faces"],
       "reponse": "7 faces",
       "explication": "$3n = 15$ donc $n = 5$. Faces $= n + 2 = 5 + 2 = 7$ faces. Ce prisme pentagonal a 7 faces."
-    },
-    {
-      "id": "pc5_n2_020",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un prisme droit à base triangulaire a une base triangulaire dont les 3 côtés mesurent $a$, $b$ et $c$. Sa hauteur est $h$. Combien de rectangles différents comporte son patron ?",
-      "image": null,
-      "choix": ["1 rectangle si $a = b = c$, sinon 3 rectangles différents", "Toujours 3 rectangles identiques", "Toujours 2 rectangles", "Cela dépend uniquement de $h$"],
-      "reponse": "1 rectangle si $a = b = c$, sinon 3 rectangles différents",
-      "explication": "Les 3 faces latérales ont pour largeur les côtés $a$, $b$ et $c$ de la base et pour hauteur $h$. Si $a = b = c$ (base équilatérale), les 3 rectangles sont identiques. Sinon, ils sont tous différents."
     },
     {
       "id": "pc5_n2_021",
@@ -602,39 +514,6 @@
       "explication": "Arêtes $= 3n$ donc $n = 12 \\div 3 = 4$. La base est un quadrilatère (carré ou rectangle). C'est un pavé droit."
     },
     {
-      "id": "pc5_n2_025",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour un prisme droit, si on connaît le nombre d'arêtes $A$, quelle formule permet de trouver le nombre de sommets $S$ ?",
-      "image": null,
-      "choix": ["$S = A$", "$S = \\dfrac{2A}{3}$", "$S = A - 2$", "$S = \\dfrac{A}{2}$"],
-      "reponse": "$S = \\dfrac{2A}{3}$",
-      "explication": "Pour un prisme à base $n$-gonale : $A = 3n$ et $S = 2n$. Donc $S = \\dfrac{2A}{3}$."
-    },
-    {
-      "id": "pc5_n2_026",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un patron de cylindre contient un rectangle de dimensions $31{,}4$ cm $\\times 8$ cm et deux disques. Quel est le rayon $r$ du cylindre (prendre $\\pi \\approx 3{,}14$) ?",
-      "image": null,
-      "choix": ["$r = 4$ cm", "$r = 5$ cm", "$r = 6$ cm", "$r = 8$ cm"],
-      "reponse": "$r = 5$ cm",
-      "explication": "La longueur du rectangle est la circonférence : $2\\pi r = 31{,}4$ cm, donc $r = \\dfrac{31{,}4}{2 \\times 3{,}14} = \\dfrac{31{,}4}{6{,}28} = 5$ cm."
-    },
-    {
-      "id": "pc5_n2_027",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle propriété est FAUSSE pour un cylindre de révolution ?",
-      "image": null,
-      "choix": ["Les deux bases sont des cercles de même rayon", "La surface latérale déroulée est un rectangle", "Les deux bases sont perpendiculaires à l'axe", "Le cylindre est un cas particulier de prisme"],
-      "reponse": "Le cylindre est un cas particulier de prisme",
-      "explication": "Le cylindre n'est PAS un prisme : il n'a pas de faces polygonales latérales mais une surface courbe. On peut le voir comme la limite d'un prisme à base $n$-gonale quand $n \\to \\infty$."
-    },
-    {
       "id": "pc5_n2_028",
       "niveau": 2,
       "type": "qcm",
@@ -644,50 +523,6 @@
       "choix": ["$4$ cm", "$5$ cm", "$8$ cm", "$13$ cm"],
       "reponse": "$5$ cm",
       "explication": "Les faces latérales d'un prisme droit ont pour largeur un côté de la base. La base étant un triangle équilatéral de côté $5$ cm, chaque rectangle latéral a une largeur de $5$ cm et une hauteur de $8$ cm."
-    },
-    {
-      "id": "pc5_n2_029",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On déplie le patron d'un prisme triangulaire (triangle équilatéral de côté $a$ et hauteur $h$). Quelle est la largeur totale du patron (les 3 rectangles mis côte à côte) ?",
-      "image": null,
-      "choix": ["$a$", "$2a$", "$3a$", "$3a + 2h$"],
-      "reponse": "$3a$",
-      "explication": "Les 3 rectangles du patron ont chacun une largeur $a$ (côté de la base équilatérale). Mis côte à côte, leur largeur totale est $3a$."
-    },
-    {
-      "id": "pc5_n2_030",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans la perspective cavalière d'un pavé droit de longueur $L$, largeur $l$ et hauteur $h$, quelle est la longueur dessinée des arêtes de profondeur ?",
-      "image": "5eme/prisme_cylindre/f07a180cbccfc0a4f564cd839e4578beee715f4f.png",
-      "choix": ["$l$", "$\\dfrac{l}{2}$", "$l \\times 2$", "$\\dfrac{l}{3}$"],
-      "reponse": "$\\dfrac{l}{2}$",
-      "explication": "En perspective cavalière, les arêtes de profondeur (ici la largeur $l$) sont représentées à la moitié de leur longueur réelle : on dessine $\\dfrac{l}{2}$."
-    },
-    {
-      "id": "pc5_n3_001",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un prisme droit a pour base un triangle rectangle de côtés $a = 6$ cm, $b = 8$ cm et hypoténuse $c = 10$ cm. Sa hauteur est $h = 15$ cm. Vérifier la formule d'Euler : quelle est la valeur de $F + S - A$ ?",
-      "image": "5eme/prisme_cylindre/103a54173cd68ed6c250c17ad7cf6e473a69048f.png",
-      "choix": ["$F + S - A = 0$", "$F + S - A = 1$", "$F + S - A = 2$", "$F + S - A = 3$"],
-      "reponse": "$F + S - A = 2$",
-      "explication": "Ce prisme triangulaire a $F = 5$ faces, $S = 6$ sommets et $A = 9$ arêtes. $F + S - A = 5 + 6 - 9 = 2$. La formule d'Euler est toujours vérifiée pour les polyèdres convexes."
-    },
-    {
-      "id": "pc5_n3_002",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un cylindre a pour patron un rectangle de dimensions $25{,}12$ cm $\\times 8$ cm et deux disques. Quelle est l'aire totale du patron (2 disques + 1 rectangle), en prenant $\\pi \\approx 3{,}14$ ?",
-      "image": "5eme/prisme_cylindre/8206fc4aae2ebe862ab86e68a73ed658ffc32ecb.png",
-      "choix": ["$139{,}8$ cm²", "$157{,}0$ cm²", "$200{,}96$ cm² + $200{,}96$ cm²", "$200{,}96 + 200{,}96 + 200{,}96$ cm²"],
-      "reponse": "$200{,}96 + 200{,}96 + 200{,}96$ cm²",
-      "explication": "[Question générée] $r = 25{,}12 \\div (2 \\times 3{,}14) = 4$ cm. Aire rectangle $= 25{,}12 \\times 8 = 200{,}96$ cm². Aire disque $= 3{,}14 \\times 4^2 = 50{,}24$ cm². Total $= 200{,}96 + 2 \\times 50{,}24 = 301{,}44$ cm². Note : réponse correcte $301{,}44$ cm² — question reformulée pour QCM."
     },
     {
       "id": "pc5_n3_003",
@@ -712,17 +547,6 @@
       "explication": "Longueur du rectangle (sans couvercle) $= 2\\pi r = 2 \\times 3{,}14 \\times 4 = 25{,}12$ cm. Hauteur $= h = 10$ cm. Le patron complet (sans couvercle) contient : 1 rectangle $25{,}12 \\times 10$ cm + 1 disque de rayon $4$ cm."
     },
     {
-      "id": "pc5_n3_005",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle affirmation est VRAIE concernant un prisme droit à base $n$-gonale ?",
-      "image": null,
-      "choix": ["Il a toujours 8 sommets", "Il vérifie $F + S - A = 2$ avec $F = n+2$, $S = 2n$, $A = 3n$", "Ses faces latérales sont des triangles", "Il a exactement $n$ faces au total"],
-      "reponse": "Il vérifie $F + S - A = 2$ avec $F = n+2$, $S = 2n$, $A = 3n$",
-      "explication": "$(n+2) + 2n - 3n = n + 2 + 2n - 3n = 2$. La formule d'Euler est vérifiée pour tout prisme droit, quel que soit $n$."
-    },
-    {
       "id": "pc5_n3_006",
       "niveau": 3,
       "type": "qcm",
@@ -732,39 +556,6 @@
       "choix": ["1 seul patron", "7 patrons", "11 patrons", "24 patrons"],
       "reponse": "11 patrons",
       "explication": "Il existe exactement 11 patrons distincts (développements) qui permettent de construire un cube par pliage. Tous comportent 6 carrés mais ne sont pas tous valides : certains arrangements de 6 carrés ne forment pas un cube."
-    },
-    {
-      "id": "pc5_n3_007",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "On dispose d'une feuille rectangulaire de $31{,}4$ cm $\\times 12$ cm. Si on la roule dans le sens de la largeur (côté $31{,}4$ cm devient la circonférence), quel est le rayon $r$ du cylindre obtenu (prendre $\\pi \\approx 3{,}14$) ?",
-      "image": "5eme/prisme_cylindre/b50b22505992b9b079984863b3060955622184a3.png",
-      "choix": ["$r \\approx 1{,}9$ cm", "$r = 5$ cm", "$r \\approx 6{,}3$ cm", "$r = 12$ cm"],
-      "reponse": "$r = 5$ cm",
-      "explication": "Circonférence $= 2\\pi r = 31{,}4$ cm, donc $r = \\dfrac{31{,}4}{2 \\times 3{,}14} = \\dfrac{31{,}4}{6{,}28} = 5$ cm. La hauteur du cylindre serait $12$ cm."
-    },
-    {
-      "id": "pc5_n3_008",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "On roule la même feuille ($31{,}4$ cm $\\times 12$ cm) dans l'autre sens (côté $12$ cm devient la circonférence). Quel est le nouveau rayon (prendre $\\pi \\approx 3{,}14$) ?",
-      "image": null,
-      "choix": ["$r \\approx 1{,}9$ cm", "$r \\approx 5$ cm", "$r \\approx 9{,}9$ cm", "$r \\approx 12$ cm"],
-      "reponse": "$r \\approx 1{,}9$ cm",
-      "explication": "Circonférence $= 2\\pi r = 12$ cm, donc $r = \\dfrac{12}{2 \\times 3{,}14} = \\dfrac{12}{6{,}28} \\approx 1{,}91$ cm. Ce cylindre est plus étroit (petit rayon) mais plus haut ($h = 31{,}4$ cm)."
-    },
-    {
-      "id": "pc5_n3_009",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle proposition est correcte concernant la formule d'Euler pour un prisme droit à base $n$-gonale ?",
-      "image": null,
-      "choix": ["$F + S - A = 0$", "$F + S - A = 1$", "$F + S - A = 2$", "$F + S - A = n$"],
-      "reponse": "$F + S - A = 2$",
-      "explication": "La formule d'Euler $F + S - A = 2$ est vérifiée pour tout polyèdre convexe, dont les prismes droits. Avec $F = n+2$, $S = 2n$ et $A = 3n$ : $(n+2) + 2n - 3n = 2$."
     },
     {
       "id": "pc5_n3_010",
@@ -789,39 +580,6 @@
       "explication": "Quand $n \\to \\infty$, le polygone régulier à $n$ côtés se rapproche d'un cercle. Le prisme droit à base $n$-gonale s'approche donc d'un cylindre de révolution."
     },
     {
-      "id": "pc5_n3_012",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un cylindre de rayon $r = 3$ cm et hauteur $h = 8$ cm. Quelle est l'aire totale du patron (2 disques + 1 rectangle), en prenant $\\pi \\approx 3{,}14$ ?",
-      "image": null,
-      "choix": ["$56{,}52$ cm²", "$66\\pi$ cm²", "$150{,}72 + 56{,}52$ cm²", "$207{,}24$ cm²"],
-      "reponse": "$207{,}24$ cm²",
-      "explication": "[Question générée] Aire rectangle $= 2\\pi r \\times h = 2 \\times 3{,}14 \\times 3 \\times 8 = 150{,}72$ cm². Aire d'un disque $= \\pi r^2 = 3{,}14 \\times 9 = 28{,}26$ cm². 2 disques $= 56{,}52$ cm². Total $= 150{,}72 + 56{,}52 = 207{,}24$ cm²."
-    },
-    {
-      "id": "pc5_n3_013",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un prisme droit à base triangulaire a pour base un triangle rectangle de côtés $a = 6$ cm, $b = 8$ cm et hypoténuse $c = 10$ cm. La hauteur du prisme est $h = 15$ cm. Quelles sont les dimensions exactes des 3 faces rectangulaires ?",
-      "image": "5eme/prisme_cylindre/103a54173cd68ed6c250c17ad7cf6e473a69048f.png",
-      "choix": ["$6 \\times 10$, $8 \\times 10$, $10 \\times 10$ cm", "$6 \\times 15$, $8 \\times 15$, $10 \\times 15$ cm", "$6 \\times 8$, $8 \\times 10$, $10 \\times 15$ cm", "$15 \\times 15$, $15 \\times 15$, $15 \\times 15$ cm"],
-      "reponse": "$6 \\times 15$, $8 \\times 15$, $10 \\times 15$ cm",
-      "explication": "Les 3 faces latérales sont des rectangles de hauteur $h = 15$ cm et de largeurs $a = 6$ cm, $b = 8$ cm et $c = 10$ cm. Leurs dimensions sont donc $6 \\times 15$, $8 \\times 15$ et $10 \\times 15$ cm."
-    },
-    {
-      "id": "pc5_n3_014",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans la perspective cavalière d'un prisme droit, une arête frontale de longueur réelle $L = 10$ cm est représentée à quelle longueur sur le dessin ?",
-      "image": null,
-      "choix": ["$3{,}3$ cm", "$5$ cm", "$10$ cm", "$20$ cm"],
-      "reponse": "$10$ cm",
-      "explication": "En perspective cavalière, seules les arêtes de profondeur sont réduites de moitié. Les arêtes frontales (face avant) sont dessinées à leur vraie longueur : $10$ cm."
-    },
-    {
       "id": "pc5_n3_015",
       "niveau": 3,
       "type": "qcm",
@@ -833,169 +591,26 @@
       "explication": "Base hexagonale : $n = 6$. Faces $= n + 2 = 8$. Arêtes $= 3n = 18$. Sommets $= 2n = 12$. Vérification Euler : $8 + 12 - 18 = 2$ ✓"
     },
     {
-      "id": "pc5_n3_016",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un patron de prisme triangulaire équilatéral (côté $a = 8$ cm, hauteur de prisme $h = 20$ cm) doit tenir sur une feuille A4 ($21$ cm $\\times 29{,}7$ cm). La largeur totale du patron est $3a = 24$ cm. La feuille A4 est-elle suffisante ?",
-      "image": "5eme/prisme_cylindre/c2c3bce2326171a041cd41125d2d6b12a13d5e02.png",
-      "choix": ["Oui, car $24 < 21$ et $20 < 29{,}7$", "Non, car la largeur $3a = 24$ cm dépasse la largeur A4 de $21$ cm", "Oui, car $24 < 29{,}7$", "Non, car la hauteur $20$ cm dépasse la longueur A4"],
-      "reponse": "Non, car la largeur $3a = 24$ cm dépasse la largeur A4 de $21$ cm",
-      "explication": "La largeur totale du patron (3 rectangles côte à côte) est $3 \\times 8 = 24$ cm, ce qui dépasse la largeur de la feuille A4 ($21$ cm). Il faut orienter le patron différemment ou utiliser une feuille plus grande."
-    },
-    {
       "id": "pc5_n3_017",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Quelle est la différence fondamentale entre un cylindre et un prisme, du point de vue du nombre d'arêtes ?",
       "image": null,
-      "choix": ["Le cylindre a moins d'arêtes que le prisme triangulaire", "Le prisme a toujours plus d'arêtes que le cylindre", "Le cylindre n'a pas d'arêtes (surfaces courbes)", "Le cylindre et le prisme ont toujours le même nombre d'arêtes"],
-      "reponse": "Le cylindre n'a pas d'arêtes (surfaces courbes)",
-      "explication": "Le cylindre est délimité par des surfaces courbes (deux disques et une surface latérale). Il ne possède pas d'arêtes ni de sommets, contrairement au prisme qui en possède $3n$ arêtes et $2n$ sommets."
-    },
-    {
-      "id": "pc5_n3_018",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un prisme droit à base triangulaire équilatérale de côté $a = 5$ cm et hauteur $h = 8$ cm. Quelle est l'aire totale du patron (3 rectangles + 2 triangles équilatéraux dont l'aire est $\\dfrac{a^2 \\sqrt{3}}{4} \\approx 10{,}83$ cm²) ?",
-      "image": null,
-      "choix": ["$120$ cm²", "$141{,}66$ cm²", "$200$ cm²", "$108{,}3$ cm²"],
-      "reponse": "$141{,}66$ cm²",
-      "explication": "[Question générée] Aire des 3 rectangles $= 3 \\times 5 \\times 8 = 120$ cm². Aire des 2 triangles équilatéraux $= 2 \\times 10{,}83 = 21{,}66$ cm². Aire totale $= 120 + 21{,}66 = 141{,}66$ cm²."
-    },
-    {
-      "id": "pc5_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Pour un prisme droit à base $n$-gonale, si le nombre de faces $F = 12$, quel est le nombre d'arêtes $A$ ?",
-      "image": null,
-      "choix": ["$A = 24$", "$A = 30$", "$A = 36$", "$A = 18$"],
-      "reponse": "$A = 30$",
-      "explication": "[Question générée] $F = n + 2 = 12$ donc $n = 10$. Arêtes $= 3n = 3 \\times 10 = 30$. Sommets $= 2n = 20$. Vérification Euler : $12 + 20 - 30 = 2$ ✓"
-    },
-    {
-      "id": "pc5_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Parmi ces propositions, laquelle décrit correctement un prisme droit à base carrée (pavé droit avec base carrée) ?",
-      "image": null,
-      "choix": ["$F = 6$, $A = 12$, $S = 8$, toutes les faces sont des carrés", "$F = 6$, $A = 12$, $S = 8$, 2 faces carrées et 4 faces rectangulaires", "$F = 8$, $A = 16$, $S = 10$", "$F = 4$, $A = 6$, $S = 4$"],
-      "reponse": "$F = 6$, $A = 12$, $S = 8$, 2 faces carrées et 4 faces rectangulaires",
-      "explication": "[Question générée] Un prisme à base carrée : $n = 4$, $F = 6$, $A = 12$, $S = 8$. Si la base est un carré mais que la hauteur $h \\neq$ côté, les 4 faces latérales sont des rectangles (pas des carrés). Euler : $6 + 8 - 12 = 2$ ✓"
-    },
-    {
-      "id": "pc5_n3_021",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un cylindre a une hauteur $h = 12$ cm. Son patron contient un rectangle de dimensions $18{,}84$ cm $\\times 12$ cm. Quel est le rayon $r$ de ce cylindre (prendre $\\pi \\approx 3{,}14$) ?",
-      "image": null,
-      "choix": ["$r = 2$ cm", "$r = 3$ cm", "$r = 4$ cm", "$r = 6$ cm"],
-      "reponse": "$r = 3$ cm",
-      "explication": "[Question générée] Circonférence $= 2\\pi r = 18{,}84$ cm, donc $r = \\dfrac{18{,}84}{2 \\times 3{,}14} = \\dfrac{18{,}84}{6{,}28} = 3$ cm."
-    },
-    {
-      "id": "pc5_n3_022",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Deux prismes droits ont la même hauteur $h$. L'un a une base triangulaire (triangle équilatéral de côté $a$), l'autre une base carrée (côté $a$). Lequel a le plus grand nombre d'arêtes ?",
-      "image": null,
-      "choix": ["Le prisme triangulaire : 9 arêtes", "Le prisme carré : 12 arêtes", "Ils ont le même nombre d'arêtes", "Cela dépend de la hauteur $h$"],
-      "reponse": "Le prisme carré : 12 arêtes",
-      "explication": "[Question générée] Prisme triangulaire : $3n = 3 \\times 3 = 9$ arêtes. Prisme carré (base carrée = 4 côtés) : $3n = 3 \\times 4 = 12$ arêtes. Plus la base a de côtés, plus le prisme a d'arêtes."
-    },
-    {
-      "id": "pc5_n3_023",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] En perspective cavalière, une arête de profondeur de longueur réelle $6$ cm est dessinée à $45°$. Quelle est sa longueur sur le dessin ?",
-      "image": null,
-      "choix": ["$2$ cm", "$3$ cm", "$4{,}24$ cm", "$6$ cm"],
-      "reponse": "$3$ cm",
-      "explication": "[Question générée] En perspective cavalière, les arêtes de profondeur sont représentées à la moitié de leur longueur réelle : $6 \\div 2 = 3$ cm (à $45°$)."
-    },
-    {
-      "id": "pc5_n3_024",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un prisme à base $n$-gonale vérifie la formule d'Euler. Si on sait que $S - A = -10$, quelle est la valeur de $F$ ?",
-      "image": null,
-      "choix": ["$F = 8$", "$F = 10$", "$F = 12$", "$F = 14$"],
-      "reponse": "$F = 12$",
-      "explication": "[Question générée] $F + S - A = 2$ donc $F = 2 - (S - A) = 2 - (-10) = 12$. On peut vérifier : si $F = n + 2 = 12$ alors $n = 10$, $S = 20$, $A = 30$, $S - A = -10$ ✓"
+      "choix": ["Le cylindre a moins d'arêtes que le prisme triangulaire", "Le prisme a toujours plus d'arêtes que le cylindre", "Le cylindre n'a pas d'arêtes", "Le cylindre et le prisme ont toujours le même nombre d'arêtes"],
+      "reponse": "Le cylindre n'a pas d'arêtes",
+      "explication": "Le cylindre est délimité par des surfaces courbes (deux disques et une surface latérale). Il ne possède pas d'arêtes ni de sommets, contrairement au prisme."
     },
     {
       "id": "pc5_n3_025",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Laquelle de ces affirmations sur le cylindre de révolution est FAUSSE ?",
+      "enonce_html": "Laquelle de ces affirmations sur le cylindre de révolution est FAUSSE ?",
       "image": null,
       "choix": ["Un cylindre est obtenu par rotation d'un rectangle autour d'un de ses côtés", "La surface latérale déroulée d'un cylindre est un rectangle", "Un cylindre possède exactement 2 arêtes circulaires et 0 sommet", "Un cylindre est un polyèdre car il possède des faces planes"],
       "reponse": "Un cylindre est un polyèdre car il possède des faces planes",
-      "explication": "[Question générée] Un cylindre N'EST PAS un polyèdre : il possède une surface latérale courbe (cylindrique). Seules ses deux bases sont planes. Un polyèdre est délimité uniquement par des faces planes."
-    },
-    {
-      "id": "pc5_n3_026",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un cylindre de rayon $r = 5$ cm et hauteur $h = 6$ cm. Quelle est l'aire totale de son patron (prendre $\\pi \\approx 3{,}14$) ?",
-      "image": null,
-      "choix": ["$157$ cm²", "$188{,}4$ cm²", "$345{,}4$ cm²", "$471{,}0$ cm²"],
-      "reponse": "$345{,}4$ cm²",
-      "explication": "[Question générée] Aire rectangle $= 2\\pi r \\times h = 2 \\times 3{,}14 \\times 5 \\times 6 = 188{,}4$ cm². Aire d'un disque $= \\pi r^2 = 3{,}14 \\times 25 = 78{,}5$ cm². 2 disques $= 157$ cm². Total $= 188{,}4 + 157 = 345{,}4$ cm²."
-    },
-    {
-      "id": "pc5_n3_027",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Pour construire un prisme droit, on peut partir d'un patron. Lequel de ces patrons ne peut PAS former un prisme droit ?",
-      "image": null,
-      "choix": ["2 triangles + 3 rectangles", "2 carrés + 4 rectangles", "1 cercle + 1 rectangle + 1 cercle (alignés)", "2 rectangles + 4 triangles"],
-      "reponse": "2 rectangles + 4 triangles",
-      "explication": "[Question générée] Un prisme droit a toujours des faces latérales rectangulaires. Un patron avec des triangles latéraux correspondrait à une pyramide, pas à un prisme droit. Le choix avec 1 cercle + 1 rectangle + 1 cercle est le patron d'un cylindre."
-    },
-    {
-      "id": "pc5_n3_028",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans la table d'Euler pour les prismes droits, quelle colonne contient TOUJOURS la valeur 2 ?",
-      "image": null,
-      "choix": ["La colonne $F$ (faces)", "La colonne $S$ (sommets)", "La colonne $A$ (arêtes)", "La colonne $F + S - A$"],
-      "reponse": "La colonne $F + S - A$",
-      "explication": "[Question générée] La formule d'Euler $F + S - A = 2$ est vérifiée pour tous les polyèdres convexes. Quelle que soit la valeur de $n$ (nombre de côtés de la base), $F + S - A$ vaut toujours $2$."
-    },
-    {
-      "id": "pc5_n3_029",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "[Question générée] Un prisme droit à base triangulaire équilatérale de côté $a = 4$ cm et hauteur $h = 10$ cm. Quelle est l'aire des 3 faces latérales réunies ?",
-      "image": null,
-      "choix": ["$40$ cm²", "$80$ cm²", "$120$ cm²", "$160$ cm²"],
-      "reponse": "$120$ cm²",
-      "explication": "[Question générée] Chaque face latérale est un rectangle de dimensions $4 \\times 10 = 40$ cm². Il y en a 3 (autant que de côtés du triangle équilatéral) : $3 \\times 40 = 120$ cm²."
-    },
-    {
-      "id": "pc5_n3_030",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On compare un cylindre (rayon $r$, hauteur $h$) et un prisme droit à base hexagonale régulière (côté $a$, hauteur $h$). Lequel possède le plus grand nombre de faces si on compte les bases ?",
-      "image": null,
-      "choix": ["Le cylindre (3 faces : 2 bases + 1 surface latérale)", "Le prisme hexagonal (8 faces : 2 bases + 6 rectangles)", "Ils ont le même nombre de faces", "Cela dépend de $r$ et de $a$"],
-      "reponse": "Le prisme hexagonal (8 faces : 2 bases + 6 rectangles)",
-      "explication": "[Question générée] Le cylindre a 2 bases circulaires + 1 surface latérale courbe = 3 surfaces. Le prisme hexagonal a $F = n + 2 = 6 + 2 = 8$ faces (2 hexagones + 6 rectangles). Le prisme possède plus de faces."
+      "explication": "Un cylindre N'EST PAS un polyèdre : il possède une surface latérale courbe (cylindrique). Seules ses deux bases sont planes. Un polyèdre est délimité uniquement par des faces planes."
     }
   ]
 }
