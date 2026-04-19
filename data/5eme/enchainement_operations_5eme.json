@@ -101,7 +101,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Calculer $A = 3 + 4 \\times 5$ :",
-      "image": "5eme/enchainement_operations/image2.png",
+      "image": null,
       "choix": ["$35$", "$23$", "$20$", "$27$"],
       "reponse": "$23$",
       "explication": "$A = 3 + 4 \\times 5 = 3 + 20 = 23$. On effectue d'abord la multiplication $4 \\times 5 = 20$, puis l'addition $3 + 20 = 23$."
@@ -112,7 +112,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Calculer $B = 12 - 6 \\div 2$ :",
-      "image": "5eme/enchainement_operations/image3.png",
+      "image": null,
       "choix": ["$3$", "$6$", "$9$", "$7$"],
       "reponse": "$9$",
       "explication": "$B = 12 - 6 \\div 2 = 12 - 3 = 9$. La division $6 \\div 2 = 3$ est prioritaire, puis $12 - 3 = 9$."
@@ -167,7 +167,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Calculer $3 \\times 4 \\times 2$ (propriété de commutativité) :",
-      "image": "5eme/enchainement_operations/image4.png",
+      "image": null,
       "choix": ["$24$ (dans tous les ordres)", "$14$", "Dépend de l'ordre", "$9$"],
       "reponse": "$24$ (dans tous les ordres)",
       "explication": "La multiplication est commutative et associative : $3 \\times 4 \\times 2 = 12 \\times 2 = 24$, et aussi $3 \\times 8 = 24$ ou $6 \\times 4 = 24$. L'ordre ne change pas le résultat."
@@ -177,7 +177,7 @@
       "niveau": 1,
       "type": "qcm",
       "avec_calculatrice": false,
-      "enonce_html": "Calculer $36 \\div 4 \\div 3$ (de gauche à droite) :",
+      "enonce_html": "Calculer $36 \\div 4 \\div 3$ :",
       "image": null,
       "choix": ["$27$", "$3$", "$4$", "$9$"],
       "reponse": "$3$",
@@ -288,9 +288,9 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Calculer $G = 8 + 3 \\times (10 - 2 \\times 3)$. Quelle est la toute première étape ?",
-      "image": "5eme/enchainement_operations/image5.png",
-      "choix": ["Calculer $8 + 3 = 11$", "Calculer $2 \\times 3 = 6$ (à l'intérieur des parenthèses)", "Calculer $3 \\times 10 = 30$", "Calculer $10 - 2 = 8$"],
-      "reponse": "Calculer $2 \\times 3 = 6$ (à l'intérieur des parenthèses)",
+      "image": null,
+      "choix": ["Calculer $8 + 3 = 11$", "Calculer $2 \\times 3 = 6$", "Calculer $3 \\times 10 = 30$", "Calculer $10 - 2 = 8$"],
+      "reponse": "Calculer $2 \\times 3 = 6$",
       "explication": "$G = 8 + 3 \\times (10 - 2 \\times 3) = 8 + 3 \\times (10 - 6) = 8 + 3 \\times 4 = 8 + 12 = 20$. À l'intérieur des parenthèses, on applique encore les priorités : la multiplication $2 \\times 3 = 6$ d'abord, puis $10 - 6 = 4$, puis $3 \\times 4 = 12$, puis $8 + 12 = 20$."
     },
     {
@@ -350,11 +350,11 @@
     },
     {
       "id": "eo5_n1_032",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Calculer $H = \\dfrac{8 + 4 \\times 2}{5 + 3} + 10$ (la barre de fraction joue le rôle de parenthèses) :",
-      "image": "5eme/enchainement_operations/image6.png",
+      "image": null,
       "choix": ["$22$", "$12$", "$20$", "$10$"],
       "reponse": "$12$",
       "explication": "$H = \\dfrac{8 + 4 \\times 2}{5 + 3} + 10 = \\dfrac{8 + 8}{8} + 10 = \\dfrac{16}{8} + 10 = 2 + 10 = 12$. Au numérateur, $4 \\times 2 = 8$ puis $8 + 8 = 16$. Au dénominateur, $5 + 3 = 8$. Puis $16 \\div 8 = 2$, et $2 + 10 = 12$."
@@ -438,11 +438,11 @@
     },
     {
       "id": "eo5_n1_040",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un élève calcule $2 + 3 \\times 4 = 5 \\times 4 = 20$. Quelle est son erreur et quelle est la valeur correcte ?",
-      "image": "5eme/enchainement_operations/image7.png",
+      "image": null,
       "choix": ["Il a oublié les parenthèses, le résultat correct est $20$", "Il a additionné avant de multiplier, le résultat correct est $14$", "Il a inversé l'opération, le résultat correct est $10$", "Il n'y a pas d'erreur"],
       "reponse": "Il a additionné avant de multiplier, le résultat correct est $14$",
       "explication": "L'erreur est d'avoir calculé $2 + 3 = 5$ en premier. La règle impose la multiplication en priorité : $3 \\times 4 = 12$, puis $2 + 12 = 14$. Le résultat correct est $\\mathbf{14}$."
@@ -482,7 +482,7 @@
     },
     {
       "id": "eo5_n2_004",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Calculer $(2 + 3)^2$ :",
@@ -500,7 +500,7 @@
       "image": null,
       "choix": ["$1$", "$2$", "$3$", "$0$"],
       "reponse": "$2$",
-      "explication": "Il y a **2** multiplications prioritaires : $4 \\times 5 = 20$ et $3 \\times 2 = 6$. On les calcule avant la soustraction : $20 - 6 = 14$."
+      "explication": "Il y a 2 multiplications prioritaires : $4 \\times 5 = 20$ et $3 \\times 2 = 6$. On les calcule avant la soustraction : $20 - 6 = 14$."
     },
     {
       "id": "eo5_n2_006",
@@ -541,18 +541,18 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un élève calcule $12 - 6 \\div 2 + 3$ et obtient $6$. Quelle erreur a-t-il commise ?",
-      "image": "5eme/enchainement_operations/image8.png",
+      "image": null,
       "choix": ["Erreur en ligne 1 : $6 - 6 = 0$", "Il aurait dû faire $\\div 2$ en premier, le résultat correct est $12$", "Le résultat correct est $9$", "Le résultat correct est $3$"],
       "reponse": "Il aurait dû faire $\\div 2$ en premier, le résultat correct est $12$",
       "explication": "$12 - 6 \\div 2 + 3 = 12 - 3 + 3 = 9 + 3 = 12$. La division $6 \\div 2 = 3$ est prioritaire, puis de gauche à droite : $12 - 3 = 9$, puis $9 + 3 = 12$. Le résultat correct est $\\mathbf{12}$."
     },
     {
       "id": "eo5_n2_010",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Calculer $(8 + 4 \\times 2) \\div (5 + 3) + 10$ :",
-      "image": "5eme/enchainement_operations/image9.png",
+      "image": null,
       "choix": ["$12$", "$22$", "$10$", "$8$"],
       "reponse": "$12$",
       "explication": "$(8 + 4 \\times 2) \\div (5 + 3) + 10 = (8 + 8) \\div 8 + 10 = 16 \\div 8 + 10 = 2 + 10 = 12$. Dans les parenthèses : $4 \\times 2 = 8$, puis $8 + 8 = 16$, et $5 + 3 = 8$. Puis $16 \\div 8 = 2$, et $2 + 10 = 12$."
@@ -587,7 +587,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans $12 \\div 3 + 5 \\times 2$, combien de calculs prioritaires faut-il effectuer avant les additions/soustractions ?",
-      "image": "5eme/enchainement_operations/image10.png",
+      "image": null,
       "choix": ["$1$", "$2$", "$3$", "$0$"],
       "reponse": "$2$",
       "explication": "Il y a **2** opérations prioritaires : la division $12 \\div 3 = 4$ et la multiplication $5 \\times 2 = 10$. Puis l'addition $4 + 10 = 14$."
@@ -643,9 +643,9 @@
       "avec_calculatrice": false,
       "enonce_html": "Calculer $2 \\times 3 + 4 \\times 5 + 6 \\times 7$ :",
       "image": null,
-      "choix": ["$98$", "$56$", "$104$", "$64$"],
-      "reponse": "$64$",
-      "explication": "$2 \\times 3 + 4 \\times 5 + 6 \\times 7 = 6 + 20 + 42 = 68$. Les trois multiplications prioritaires donnent $6$, $20$ et $42$. Puis $6 + 20 + 42 = 68$. (Attention : le résultat correct est $68$, aucun choix ne le propose directement — la bonne réponse parmi les propositions est $64$, qui est la moins mauvaise, mais la valeur exacte est $68$.)"
+      "choix": ["$98$", "$56$", "$104$", "$68$"],
+      "reponse": "$68$",
+      "explication": "$2 \\times 3 + 4 \\times 5 + 6 \\times 7 = 6 + 20 + 42 = 68$. Les trois multiplications prioritaires donnent $6$, $20$ et $42$. Puis $6 + 20 + 42 = 68$."
     },
     {
       "id": "eo5_n2_019",
@@ -672,17 +672,6 @@
       "explication": "$10 - 2 \\times 3 + 4 = 10 - 6 + 4 = 4 + 4 = 8$. La multiplication $2 \\times 3 = 6$ est prioritaire. Puis de gauche à droite : $10 - 6 = 4$, $4 + 4 = 8$. **Bastien** a raison."
     },
     {
-      "id": "eo5_n2_021",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Calculer $F = 6 \\times (4 - 1)^2$ (avec $(4-1)^2 = 3^2 = 9$) :",
-      "image": null,
-      "choix": ["$27$", "$54$", "$18$", "$36$"],
-      "reponse": "$54$",
-      "explication": "$F = 6 \\times (4 - 1)^2 = 6 \\times 3^2 = 6 \\times 9 = 54$. On calcule d'abord les parenthèses : $4 - 1 = 3$. Puis la puissance : $3^2 = 9$. Enfin la multiplication : $6 \\times 9 = 54$."
-    },
-    {
       "id": "eo5_n2_022",
       "niveau": 2,
       "type": "qcm",
@@ -692,17 +681,6 @@
       "choix": ["Il a oublié les parenthèses", "Il a additionné avant de multiplier ; la valeur correcte est $11$", "Il a inversé les opérandes ; la valeur correcte est $13$", "Il n'y a pas d'erreur"],
       "reponse": "Il a additionné avant de multiplier ; la valeur correcte est $11$",
       "explication": "L'erreur est d'avoir calculé $5 + 3 = 8$ avant la multiplication. La règle impose $3 \\times 2 = 6$ d'abord, puis $5 + 6 = 11$. La valeur correcte est $\\mathbf{11}$."
-    },
-    {
-      "id": "eo5_n2_023",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour chaque expression, lequel est un produit ? a) $4 + 5 \\times 3$  b) $(7 - 2) \\times 4$  c) $18 \\div (3 \\times 2)$  d) $10 - (3 + 2) \\times 1$",
-      "image": null,
-      "choix": ["a) est un produit", "b) est un produit", "c) est un produit", "d) est un produit"],
-      "reponse": "b) est un produit",
-      "explication": "La dernière opération détermine le type de résultat. b) $(7 - 2) \\times 4 = 5 \\times 4 = 20$ : dernière opération = multiplication → **produit**. a) $4 + 5 \\times 3 = 4 + 15 = 19$ → somme. c) $18 \\div (3 \\times 2) = 18 \\div 6 = 3$ → quotient. d) $10 - (3+2) \\times 1 = 10 - 5 = 5$ → différence."
     },
     {
       "id": "eo5_n2_024",
