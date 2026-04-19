@@ -12,7 +12,7 @@
       "id": "fr5_n1_001",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans la fraction $\\dfrac{3}{4}$, le numérateur est :",
       "image": null,
       "choix": ["$4$", "$3$", "$1$", "$12$"],
@@ -23,7 +23,7 @@
       "id": "fr5_n1_002",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans la fraction $\\dfrac{7}{9}$, quel est le dénominateur ?",
       "image": null,
       "choix": ["$7$", "$63$", "$9$", "$2$"],
@@ -34,7 +34,7 @@
       "id": "fr5_n1_003",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La fraction $\\dfrac{5}{5}$ est égale à :",
       "image": null,
       "choix": ["$5$", "$0$", "$1$", "$25$"],
@@ -45,7 +45,7 @@
       "id": "fr5_n1_004",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La fraction $\\dfrac{0}{8}$ est égale à :",
       "image": null,
       "choix": ["$8$", "$1$", "$0$", "Indéfinie"],
@@ -56,7 +56,7 @@
       "id": "fr5_n1_005",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La fraction $\\dfrac{6}{1}$ est égale à :",
       "image": null,
       "choix": ["$\\dfrac{1}{6}$", "$6$", "$0$", "$1$"],
@@ -67,7 +67,7 @@
       "id": "fr5_n1_006",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi ces fractions, laquelle est supérieure à $1$ ?",
       "image": null,
       "choix": ["$\\dfrac{3}{5}$", "$\\dfrac{7}{9}$", "$\\dfrac{4}{4}$", "$\\dfrac{9}{7}$"],
@@ -78,7 +78,7 @@
       "id": "fr5_n1_007",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi ces fractions, laquelle est inférieure à $1$ ?",
       "image": null,
       "choix": ["$\\dfrac{8}{5}$", "$\\dfrac{3}{2}$", "$\\dfrac{5}{8}$", "$\\dfrac{11}{10}$"],
@@ -89,7 +89,7 @@
       "id": "fr5_n1_008",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$b \\times \\dfrac{a}{b}$ est égal à :",
       "image": null,
       "choix": ["$b$", "$\\dfrac{a}{b}$", "$a$", "$1$"],
@@ -97,48 +97,10 @@
       "explication": "$b \\times \\dfrac{a}{b} = \\dfrac{b \\times a}{b} = a$. Multiplier par $b$ simplifie le $b$ au dénominateur."
     },
     {
-      "id": "fr5_n1_009",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle fraction est représentée par la figure ci-contre ?",
-      "image": "5eme/fractions/image2.png",
-      "choix": ["$\\dfrac{1}{4}$", "$\\dfrac{3}{4}$", "$\\dfrac{4}{3}$", "$\\dfrac{1}{3}$"],
-      "reponse": "$\\dfrac{3}{4}$",
-      "explication": "La figure est divisée en 4 parties égales, et 3 sont coloriées. La fraction représentée est $\\dfrac{3}{4}$."
-    },
-    {
-      "id": "fr5_n1_010",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Quelle fraction du disque ci-contre est coloriée ?",
-      "image": "5eme/fractions/image3.png",
-      "choix": ["$\\dfrac{2}{6}$", "$\\dfrac{4}{6}$", "$\\dfrac{2}{3}$", "$\\dfrac{3}{6}$"],
-      "reponse": "$\\dfrac{4}{6}$",
-      "explication": "Le disque est divisé en 6 parts égales et 4 sont coloriées. La fraction coloriée est $\\dfrac{4}{6}$ (qui peut aussi s'écrire $\\dfrac{2}{3}$ après simplification, mais $\\dfrac{4}{6}$ est la lecture directe de la figure)."
-    },
-    {
-      "id": "fr5_n1_011",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La fraction $\\dfrac{2}{5}$ représentée sur la figure ci-contre correspond à :",
-      "image": "5eme/fractions/image4.png",
-      "choix": [
-        "2 parties sur 5 au total",
-        "5 parties sur 2 au total",
-        "2 parties coloriées sur 5 coloriées",
-        "$\\dfrac{2}{10}$ de la figure"
-      ],
-      "reponse": "2 parties sur 5 au total",
-      "explication": "$\\dfrac{2}{5}$ signifie que l'on a pris $2$ parties parmi $5$ parties égales au total."
-    },
-    {
       "id": "fr5_n1_012",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Sur la droite graduée ci-contre, quelle fraction est la plus grande ?",
       "image": "5eme/fractions/image5.png",
       "choix": ["$\\dfrac{1}{4}$", "$\\dfrac{3}{4}$", "$\\dfrac{5}{4}$", "$\\dfrac{7}{4}$"],
@@ -149,7 +111,7 @@
       "id": "fr5_n1_013",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi $\\dfrac{2{,}5}{4}$, $\\dfrac{8}{31}$, $\\dfrac{4{,}1}{2{,}3}$ et $\\dfrac{2}{5}$, laquelle est une fraction (à numérateur et dénominateur entiers) ?",
       "image": null,
       "choix": [
@@ -165,7 +127,7 @@
       "id": "fr5_n1_014",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$21 \\times \\dfrac{4}{21}$ vaut :",
       "image": null,
       "choix": ["$21$", "$\\dfrac{4}{21}$", "$4$", "$84$"],
@@ -176,7 +138,7 @@
       "id": "fr5_n1_015",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La fraction $\\dfrac{6}{8}$ est égale à :",
       "image": null,
       "choix": ["$\\dfrac{3}{4}$", "$\\dfrac{2}{4}$", "$\\dfrac{6}{8}$ est déjà simplifiée", "$\\dfrac{12}{16}$"],
@@ -187,7 +149,7 @@
       "id": "fr5_n1_016",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La fraction $\\dfrac{21}{24}$ simplifiée par $3$ donne :",
       "image": null,
       "choix": ["$\\dfrac{7}{8}$", "$\\dfrac{18}{21}$", "$\\dfrac{7}{24}$", "$\\dfrac{21}{8}$"],
@@ -198,7 +160,7 @@
       "id": "fr5_n1_017",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces fractions est égale à $\\dfrac{3}{4}$ ?",
       "image": null,
       "choix": ["$\\dfrac{6}{9}$", "$\\dfrac{9}{12}$", "$\\dfrac{4}{3}$", "$\\dfrac{3}{8}$"],
@@ -209,9 +171,9 @@
       "id": "fr5_n1_018",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifier $\\dfrac{21}{14}$ (voir figure ci-contre) donne :",
-      "image": "5eme/fractions/image6.png",
+      "image": null,
       "choix": ["$\\dfrac{7}{14}$", "$\\dfrac{21}{7}$", "$\\dfrac{3}{2}$", "$\\dfrac{2}{3}$"],
       "reponse": "$\\dfrac{3}{2}$",
       "explication": "$\\dfrac{21}{14} = \\dfrac{21 \\div 7}{14 \\div 7} = \\dfrac{3}{2}$."
@@ -220,7 +182,7 @@
       "id": "fr5_n1_019",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{3}{4} = \\dfrac{6}{?}$ → Le dénominateur manquant est :",
       "image": null,
       "choix": ["$5$", "$8$", "$3$", "$6$"],
@@ -231,7 +193,7 @@
       "id": "fr5_n1_020",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{15}{25}$ simplifiée par $5$ donne :",
       "image": null,
       "choix": ["$\\dfrac{10}{20}$", "$\\dfrac{3}{5}$", "$\\dfrac{5}{25}$", "$\\dfrac{3}{25}$"],
@@ -242,7 +204,7 @@
       "id": "fr5_n1_021",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Comparer $\\dfrac{7}{9}$ et $1$ :",
       "image": null,
       "choix": [
@@ -258,7 +220,7 @@
       "id": "fr5_n1_022",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Comparer $\\dfrac{12}{5}$ et $1$ :",
       "image": null,
       "choix": [
@@ -274,7 +236,7 @@
       "id": "fr5_n1_023",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Comparer $\\dfrac{7}{9}$ et $\\dfrac{7}{5}$ (même numérateur, voir figure ci-contre) :",
       "image": "5eme/fractions/image7.png",
       "choix": [
@@ -290,7 +252,7 @@
       "id": "fr5_n1_024",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Comparer $\\dfrac{12}{9}$ et $\\dfrac{15}{9}$ (même dénominateur) :",
       "image": null,
       "choix": [
@@ -306,7 +268,7 @@
       "id": "fr5_n1_025",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{4}{25} + \\dfrac{12}{25} = ?$",
       "image": null,
       "choix": ["$\\dfrac{16}{50}$", "$\\dfrac{16}{25}$", "$\\dfrac{12}{25}$", "$\\dfrac{48}{25}$"],
@@ -317,7 +279,7 @@
       "id": "fr5_n1_026",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{8}{13} - \\dfrac{3}{13} = ?$",
       "image": null,
       "choix": ["$\\dfrac{5}{13}$", "$\\dfrac{5}{0}$", "$\\dfrac{11}{13}$", "$\\dfrac{5}{26}$"],
@@ -328,7 +290,7 @@
       "id": "fr5_n1_027",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{3}{8} + \\dfrac{5}{8} = ?$",
       "image": null,
       "choix": ["$\\dfrac{8}{16}$", "$1$", "$\\dfrac{8}{8} = 1$", "$\\dfrac{15}{64}$"],
@@ -339,7 +301,7 @@
       "id": "fr5_n1_028",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{7}{9} - \\dfrac{7}{9} = ?$",
       "image": null,
       "choix": ["$1$", "$\\dfrac{14}{9}$", "$0$", "$\\dfrac{0}{9} = 0$"],
@@ -350,7 +312,7 @@
       "id": "fr5_n1_029",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle fraction est représentée par la figure ci-contre ?",
       "image": "5eme/fractions/image11.png",
       "choix": ["$\\dfrac{3}{4}$", "$\\dfrac{5}{6}$", "$\\dfrac{1}{6}$", "$\\dfrac{4}{6}$"],
@@ -361,7 +323,7 @@
       "id": "fr5_n1_030",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{5}{12} + \\dfrac{7}{12} - \\dfrac{4}{12} = ?$",
       "image": null,
       "choix": ["$\\dfrac{8}{12}$", "$\\dfrac{2}{3}$", "$\\dfrac{16}{12}$", "$\\dfrac{4}{36}$"],
@@ -373,7 +335,7 @@
       "id": "fr5_n2_001",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Le dénominateur commun de $\\dfrac{1}{4}$ et $\\dfrac{1}{6}$ peut être :",
       "image": null,
       "choix": ["$10$", "$12$", "$24$", "Seulement $12$"],
@@ -384,7 +346,7 @@
       "id": "fr5_n2_002",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{3}{4} + \\dfrac{1}{4} + \\dfrac{1}{2} = ?$",
       "image": null,
       "choix": ["$\\dfrac{5}{10}$", "$\\dfrac{3}{2}$", "$\\dfrac{5}{4}$", "$1$"],
@@ -395,7 +357,7 @@
       "id": "fr5_n2_003",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour comparer $\\dfrac{2}{5}$ et $\\dfrac{3}{7}$, le dénominateur commun le plus simple est :",
       "image": null,
       "choix": ["$2$", "$35$", "$12$", "$57$"],
@@ -406,7 +368,7 @@
       "id": "fr5_n2_004",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{1}{2} + \\dfrac{1}{3} = ?$",
       "image": null,
       "choix": ["$\\dfrac{2}{5}$", "$\\dfrac{2}{6}$", "$\\dfrac{5}{6}$", "$\\dfrac{1}{5}$"],
@@ -417,7 +379,7 @@
       "id": "fr5_n2_005",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{3}{4} - \\dfrac{1}{8} = ?$",
       "image": null,
       "choix": ["$\\dfrac{2}{4}$", "$\\dfrac{5}{8}$", "$\\dfrac{2}{8}$", "$\\dfrac{1}{2}$"],
@@ -428,7 +390,7 @@
       "id": "fr5_n2_006",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Comparer $\\dfrac{3}{4}$ et $\\dfrac{7}{8}$ en mettant au même dénominateur (voir figure ci-contre) :",
       "image": "5eme/fractions/image12.png",
       "choix": [
@@ -444,7 +406,7 @@
       "id": "fr5_n2_007",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Comparer $\\dfrac{2}{5}$ et $\\dfrac{3}{7}$ (voir figure ci-contre) :",
       "image": "5eme/fractions/image13.png",
       "choix": [
@@ -460,7 +422,7 @@
       "id": "fr5_n2_008",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quel est l'ordre croissant de $\\dfrac{1}{2}$, $\\dfrac{2}{3}$ et $\\dfrac{3}{4}$ ?",
       "image": null,
       "choix": [
@@ -473,26 +435,10 @@
       "explication": "Au dénominateur $12$ : $\\dfrac{1}{2} = \\dfrac{6}{12}$, $\\dfrac{2}{3} = \\dfrac{8}{12}$, $\\dfrac{3}{4} = \\dfrac{9}{12}$. Ordre croissant : $\\dfrac{6}{12} < \\dfrac{8}{12} < \\dfrac{9}{12}$."
     },
     {
-      "id": "fr5_n2_009",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le problème des demi-pensionnaires (voir figure), le collège d'Arthur a $\\dfrac{2}{5}$ et le collège de Yaelle a $\\dfrac{1}{3}$. Qui a la plus grande proportion ?",
-      "image": "5eme/fractions/image14.png",
-      "choix": [
-        "Collège de Yaelle ($\\dfrac{1}{3}$)",
-        "Collège d'Arthur ($\\dfrac{2}{5}$)",
-        "Les deux sont égaux",
-        "On ne peut pas comparer"
-      ],
-      "reponse": "Collège d'Arthur ($\\dfrac{2}{5}$)",
-      "explication": "Au dénominateur $15$ : $\\dfrac{2}{5} = \\dfrac{6}{15}$ et $\\dfrac{1}{3} = \\dfrac{5}{15}$. $\\dfrac{6}{15} > \\dfrac{5}{15}$, donc le collège d'Arthur a la plus grande proportion."
-    },
-    {
       "id": "fr5_n2_010",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Ranger dans l'ordre décroissant : $\\dfrac{5}{6}$, $\\dfrac{2}{3}$, $\\dfrac{7}{9}$ :",
       "image": null,
       "choix": [
@@ -508,7 +454,7 @@
       "id": "fr5_n2_011",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle fraction se situe entre $\\dfrac{1}{2}$ et $\\dfrac{3}{4}$ ?",
       "image": null,
       "choix": ["$\\dfrac{1}{3}$", "$\\dfrac{7}{8}$", "$\\dfrac{5}{8}$", "$\\dfrac{1}{4}$"],
@@ -519,9 +465,9 @@
       "id": "fr5_n2_012",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$\\dfrac{7}{9} + \\dfrac{4}{3} = ?$ (voir schéma ci-contre)",
-      "image": "5eme/fractions/image15.png",
+      "avec_calculatrice": true,
+      "enonce_html": "$\\dfrac{7}{9} + \\dfrac{4}{3} = ?$",
+      "image": null,
       "choix": ["$\\dfrac{11}{12}$", "$\\dfrac{11}{9}$", "$\\dfrac{19}{9}$", "$\\dfrac{28}{3}$"],
       "reponse": "$\\dfrac{19}{9}$",
       "explication": "$\\dfrac{7}{9} + \\dfrac{4}{3} = \\dfrac{7}{9} + \\dfrac{12}{9} = \\dfrac{19}{9}$."
@@ -530,9 +476,9 @@
       "id": "fr5_n2_013",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$\\dfrac{3}{4} + \\dfrac{7}{8} = ?$ (voir schéma ci-contre)",
-      "image": "5eme/fractions/image16.png",
+      "avec_calculatrice": true,
+      "enonce_html": "$\\dfrac{3}{4} + \\dfrac{7}{8} = ?$",
+      "image": null,
       "choix": ["$\\dfrac{10}{8}$", "$\\dfrac{10}{12}$", "$\\dfrac{13}{8}$", "$\\dfrac{5}{6}$"],
       "reponse": "$\\dfrac{13}{8}$",
       "explication": "$\\dfrac{3}{4} + \\dfrac{7}{8} = \\dfrac{6}{8} + \\dfrac{7}{8} = \\dfrac{13}{8}$."
@@ -541,7 +487,7 @@
       "id": "fr5_n2_014",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Une classe a $30$ élèves. Si $\\dfrac{2}{5}$ sont des filles, combien y a-t-il de filles ?",
       "image": null,
       "choix": ["$6$", "$10$", "$12$", "$15$"],
@@ -552,7 +498,7 @@
       "id": "fr5_n2_015",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces égalités est FAUSSE ?",
       "image": null,
       "choix": [
@@ -568,7 +514,7 @@
       "id": "fr5_n2_016",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Si $\\dfrac{3}{4}$ de $20$ élèves sont présents, combien d'élèves sont absents ?",
       "image": null,
       "choix": ["$5$", "$15$", "$3$", "$4$"],
@@ -579,7 +525,7 @@
       "id": "fr5_n2_017",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Paul mange $\\dfrac{3}{8}$ d'une pizza, Marie mange $\\dfrac{1}{4}$. Quelle fraction ont-ils mangée au total ?",
       "image": null,
       "choix": [
@@ -595,7 +541,7 @@
       "id": "fr5_n2_018",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Une recette demande $\\dfrac{2}{3}$ de tasse de farine et $\\dfrac{1}{4}$ de tasse de sucre. Quelle quantité totale (en tasses) ?",
       "image": null,
       "choix": [
@@ -611,7 +557,7 @@
       "id": "fr5_n2_019",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$1 - \\dfrac{3}{8} = ?$",
       "image": null,
       "choix": ["$\\dfrac{5}{8}$", "$\\dfrac{3}{8}$", "$\\dfrac{2}{8}$", "$\\dfrac{8}{8}$"],
@@ -622,7 +568,7 @@
       "id": "fr5_n2_020",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un réservoir est rempli aux $\\dfrac{3}{4}$. On enlève $\\dfrac{1}{6}$ du total. Quelle fraction reste-t-il ?",
       "image": null,
       "choix": [
@@ -636,9 +582,9 @@
     },
     {
       "id": "fr5_n2_021",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un collège, $\\dfrac{2}{5}$ pratiquent un sport collectif et $\\dfrac{1}{3}$ un sport individuel. Quelle fraction totale d'élèves est sportive ?",
       "image": null,
       "choix": [
@@ -654,7 +600,7 @@
       "id": "fr5_n2_022",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $\\dfrac{3}{5} + \\dfrac{7}{10} - \\dfrac{2}{5}$.",
       "image": null,
       "choix": [
@@ -670,7 +616,7 @@
       "id": "fr5_n2_023",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $\\dfrac{3}{5} + \\dfrac{7}{10} - \\dfrac{2}{5}$ :",
       "image": null,
       "choix": [
@@ -686,7 +632,7 @@
       "id": "fr5_n2_024",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifier $\\dfrac{24}{36}$ au maximum :",
       "image": null,
       "choix": [
@@ -702,7 +648,7 @@
       "id": "fr5_n2_025",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Mettre dans l'ordre croissant : $\\dfrac{5}{6}$, $\\dfrac{3}{4}$, $\\dfrac{7}{8}$, $\\dfrac{2}{3}$ :",
       "image": null,
       "choix": [
@@ -718,7 +664,7 @@
       "id": "fr5_n2_026",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Montrer que $\\dfrac{3}{4}$ et $\\dfrac{9}{12}$ sont égales. Puis calculer $\\dfrac{9}{12} + \\dfrac{1}{12}$ :",
       "image": null,
       "choix": [
@@ -734,7 +680,7 @@
       "id": "fr5_n2_027",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $\\dfrac{17}{9} - \\dfrac{5}{12}$ :",
       "image": null,
       "choix": [
@@ -750,12 +696,12 @@
       "id": "fr5_n2_028",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $\\dfrac{3}{7} + \\dfrac{1}{8}$ :",
       "image": null,
       "choix": [
         "$\\dfrac{4}{15}$",
-        "$\\dfrac{24}{56} + \\dfrac{7}{56}$",
+        "$\\dfrac{3}{56} + \\dfrac{1}{56}$",
         "$\\dfrac{31}{56}$",
         "$\\dfrac{4}{56}$"
       ],
@@ -766,7 +712,7 @@
       "id": "fr5_n2_029",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $\\dfrac{1}{2} + \\dfrac{3}{4} + \\dfrac{1}{8}$ :",
       "image": null,
       "choix": [
@@ -782,7 +728,7 @@
       "id": "fr5_n2_030",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Simplifier $\\dfrac{42}{70}$ au maximum :",
       "image": null,
       "choix": [
@@ -792,14 +738,14 @@
         "$\\dfrac{7}{10}$"
       ],
       "reponse": "$\\dfrac{3}{5}$",
-      "explication": "$\\dfrac{42}{70} = \\dfrac{42 \\div 14}{70 \\div 14} = \\dfrac{3}{5}$. Le PGCD de $42$ et $70$ est $14$."
+      "explication": "$\\dfrac{42}{70} = \\dfrac{42 \\div 14}{70 \\div 14} = \\dfrac{3}{5}$."
     },
 
     {
       "id": "fr5_n3_001",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{7}{6} - \\dfrac{1}{6} + \\dfrac{2}{6} = ?$",
       "image": null,
       "choix": ["$\\dfrac{8}{6}$", "$\\dfrac{4}{3}$", "$\\dfrac{8}{18}$", "$1$"],
@@ -810,7 +756,7 @@
       "id": "fr5_n3_002",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$\\dfrac{3}{4} + \\dfrac{1}{2} + \\dfrac{1}{8} = ?$",
       "image": null,
       "choix": ["$\\dfrac{5}{14}$", "$\\dfrac{11}{8}$", "$\\dfrac{5}{8}$", "$\\dfrac{13}{8}$"],
@@ -821,7 +767,7 @@
       "id": "fr5_n3_003",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "$2 - \\dfrac{3}{4} = ?$",
       "image": null,
       "choix": ["$\\dfrac{5}{4}$", "$\\dfrac{1}{4}$", "$\\dfrac{3}{4}$", "$\\dfrac{5}{8}$"],
@@ -832,7 +778,7 @@
       "id": "fr5_n3_004",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $\\dfrac{2}{3} + \\dfrac{1}{4} + \\dfrac{5}{12}$ :",
       "image": null,
       "choix": ["$\\dfrac{8}{12}$", "$\\dfrac{17}{12}$", "$\\dfrac{4}{3}$", "$\\dfrac{3}{2}$"],
@@ -843,7 +789,7 @@
       "id": "fr5_n3_005",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $\\dfrac{3}{2} - \\dfrac{2}{3} + \\dfrac{1}{6}$ :",
       "image": null,
       "choix": ["$1$", "$\\dfrac{2}{3}$", "$\\dfrac{1}{2}$", "$\\dfrac{7}{6}$"],
@@ -854,7 +800,7 @@
       "id": "fr5_n3_006",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la forme simplifiée de $\\left(\\dfrac{3}{5} + \\dfrac{2}{5}\\right) \\times \\left(\\dfrac{4}{3} - \\dfrac{1}{3}\\right)$ ?",
       "image": null,
       "choix": ["$1$", "$2$", "$\\dfrac{5}{15}$", "$\\dfrac{3}{5}$"],
@@ -865,7 +811,7 @@
       "id": "fr5_n3_007",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Encadrer $\\dfrac{7}{4}$ entre deux entiers consécutifs :",
       "image": null,
       "choix": [
@@ -881,7 +827,7 @@
       "id": "fr5_n3_008",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Une tarte est partagée : Alice prend $\\dfrac{1}{3}$, Bruno prend $\\dfrac{5}{12}$. Quelle fraction Charlotte reçoit-elle ?",
       "image": null,
       "choix": [
@@ -897,7 +843,7 @@
       "id": "fr5_n3_009",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle expression vaut le même résultat que $\\dfrac{5}{6} - \\dfrac{1}{4} + \\dfrac{1}{12}$ ?",
       "image": null,
       "choix": ["$\\dfrac{5}{12}$", "$\\dfrac{2}{3}$", "$\\dfrac{3}{4}$", "$\\dfrac{7}{12}$"],
@@ -908,7 +854,7 @@
       "id": "fr5_n3_010",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Laquelle de ces sommes donne un entier ?",
       "image": null,
       "choix": [
@@ -924,7 +870,7 @@
       "id": "fr5_n3_011",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Trouver $x$ tel que $\\dfrac{3}{4} + x = \\dfrac{7}{6}$ :",
       "image": null,
       "choix": [
@@ -940,7 +886,7 @@
       "id": "fr5_n3_012",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $A = \\dfrac{1}{2} + \\dfrac{3}{4} - \\dfrac{1}{3} + \\dfrac{5}{12}$ :",
       "image": null,
       "choix": [
@@ -956,7 +902,7 @@
       "id": "fr5_n3_013",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un coureur parcourt $\\dfrac{3}{5}$ du trajet, puis $\\dfrac{1}{4}$ du trajet. Quelle fraction reste-t-il à parcourir ?",
       "image": null,
       "choix": [
@@ -972,7 +918,7 @@
       "id": "fr5_n3_014",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Encadrer $\\dfrac{17}{5}$ entre deux entiers consécutifs :",
       "image": null,
       "choix": [
@@ -988,18 +934,18 @@
       "id": "fr5_n3_015",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Montrer que $\\dfrac{3}{4}$ est supérieur à $\\dfrac{2}{3}$ mais inférieur à $\\dfrac{5}{6}$. Le dénominateur commun le plus simple est :",
       "image": null,
       "choix": ["$6$", "$12$", "$24$", "$9$"],
       "reponse": "$12$",
-      "explication": "Le PPCM de $4$, $3$ et $6$ est $12$. $\\dfrac{3}{4} = \\dfrac{9}{12}$, $\\dfrac{2}{3} = \\dfrac{8}{12}$, $\\dfrac{5}{6} = \\dfrac{10}{12}$. On vérifie bien $\\dfrac{8}{12} < \\dfrac{9}{12} < \\dfrac{10}{12}$."
+      "explication": "$\\dfrac{3}{4} = \\dfrac{9}{12}$, $\\dfrac{2}{3} = \\dfrac{8}{12}$, $\\dfrac{5}{6} = \\dfrac{10}{12}$. On vérifie bien $\\dfrac{8}{12} < \\dfrac{9}{12} < \\dfrac{10}{12}$."
     },
     {
       "id": "fr5_n3_016",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans une classe de $32$ élèves, $\\dfrac{3}{8}$ ont eu la moyenne, $\\dfrac{1}{4}$ ont eu entre $10$ et $15$. Quelle fraction a eu plus de $15$ ?",
       "image": null,
       "choix": [
@@ -1015,7 +961,7 @@
       "id": "fr5_n3_017",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Calculer $A = 2 + \\dfrac{3}{4}$ :",
       "image": null,
       "choix": [
@@ -1031,7 +977,7 @@
       "id": "fr5_n3_018",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un récipient contient $\\dfrac{5}{6}$ de litre. On verse $\\dfrac{1}{4}$ litre puis $\\dfrac{1}{3}$ litre. Quelle fraction reste-t-il ?",
       "image": null,
       "choix": [
@@ -1044,26 +990,10 @@
       "explication": "Versé : $\\dfrac{1}{4} + \\dfrac{1}{3} = \\dfrac{3}{12} + \\dfrac{4}{12} = \\dfrac{7}{12}$. Reste : $\\dfrac{5}{6} - \\dfrac{7}{12} = \\dfrac{10}{12} - \\dfrac{7}{12} = \\dfrac{3}{12} = \\dfrac{1}{4}$."
     },
     {
-      "id": "fr5_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Le récipient de la question précédente ($\\dfrac{1}{4}$ restant) est-il à plus de la moitié plein ?",
-      "image": null,
-      "choix": [
-        "Oui, $\\dfrac{1}{4} > \\dfrac{1}{2}$",
-        "Non, $\\dfrac{1}{4} < \\dfrac{1}{2}$",
-        "Oui, $\\dfrac{1}{4} = \\dfrac{1}{2}$",
-        "Impossible à déterminer"
-      ],
-      "reponse": "Non, $\\dfrac{1}{4} < \\dfrac{1}{2}$",
-      "explication": "$\\dfrac{1}{4} < \\dfrac{2}{4} = \\dfrac{1}{2}$. Le récipient contient moins de la moitié."
-    },
-    {
       "id": "fr5_n3_020",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Ordonner de la plus petite à la plus grande : $\\dfrac{5}{6}$, $\\dfrac{3}{4}$, $\\dfrac{7}{9}$, $\\dfrac{2}{3}$, $\\dfrac{11}{12}$. Quel est le bon ordre ?",
       "image": null,
       "choix": [
@@ -1079,8 +1009,8 @@
       "id": "fr5_n3_021",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Calculer $B = 5 - \\dfrac{2}{3}$ :",
+      "avec_calculatrice": true,
+      "enonce_html": "Calculer $B = 5 - \\dfrac{2}{3}$ :",
       "image": null,
       "choix": [
         "$\\dfrac{13}{3}$",
@@ -1089,14 +1019,14 @@
         "$\\dfrac{14}{3}$"
       ],
       "reponse": "$\\dfrac{13}{3}$",
-      "explication": "[Question générée] $B = 5 - \\dfrac{2}{3} = \\dfrac{15}{3} - \\dfrac{2}{3} = \\dfrac{13}{3}$."
+      "explication": "$B = 5 - \\dfrac{2}{3} = \\dfrac{15}{3} - \\dfrac{2}{3} = \\dfrac{13}{3}$."
     },
     {
       "id": "fr5_n3_022",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Calculer $C = 3 + \\dfrac{1}{2} - \\dfrac{1}{4}$ :",
+      "avec_calculatrice": true,
+      "enonce_html": "Calculer $C = 3 + \\dfrac{1}{2} - \\dfrac{1}{4}$ :",
       "image": null,
       "choix": [
         "$\\dfrac{13}{4}$",
@@ -1105,14 +1035,14 @@
         "$\\dfrac{7}{4}$"
       ],
       "reponse": "$\\dfrac{13}{4}$",
-      "explication": "[Question générée] $C = 3 + \\dfrac{1}{2} - \\dfrac{1}{4} = \\dfrac{12}{4} + \\dfrac{2}{4} - \\dfrac{1}{4} = \\dfrac{13}{4}$."
+      "explication": "$C = 3 + \\dfrac{1}{2} - \\dfrac{1}{4} = \\dfrac{12}{4} + \\dfrac{2}{4} - \\dfrac{1}{4} = \\dfrac{13}{4}$."
     },
     {
       "id": "fr5_n3_023",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Encadrer $\\dfrac{23}{7}$ entre deux entiers consécutifs :",
+      "avec_calculatrice": true,
+      "enonce_html": "Encadrer $\\dfrac{23}{7}$ entre deux entiers consécutifs :",
       "image": null,
       "choix": [
         "$2 < \\dfrac{23}{7} < 3$",
@@ -1121,30 +1051,14 @@
         "$\\dfrac{23}{7} = 3$"
       ],
       "reponse": "$3 < \\dfrac{23}{7} < 4$",
-      "explication": "[Question générée] $\\dfrac{21}{7} = 3$ et $\\dfrac{28}{7} = 4$. Comme $21 < 23 < 28$, on a $3 < \\dfrac{23}{7} < 4$."
-    },
-    {
-      "id": "fr5_n3_024",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Trouver $y$ tel que $\\dfrac{1}{2} + y = \\dfrac{5}{3}$ :",
-      "image": null,
-      "choix": [
-        "$y = \\dfrac{7}{6}$",
-        "$y = \\dfrac{4}{5}$",
-        "$y = \\dfrac{2}{3}$",
-        "$y = \\dfrac{5}{6}$"
-      ],
-      "reponse": "$y = \\dfrac{7}{6}$",
-      "explication": "[Question générée] $y = \\dfrac{5}{3} - \\dfrac{1}{2} = \\dfrac{10}{6} - \\dfrac{3}{6} = \\dfrac{7}{6}$."
+      "explication": "$\\dfrac{21}{7} = 3$ et $\\dfrac{28}{7} = 4$. Comme $21 < 23 < 28$, on a $3 < \\dfrac{23}{7} < 4$."
     },
     {
       "id": "fr5_n3_025",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans une classe de $24$ élèves, $\\dfrac{1}{3}$ pratiquent la natation, $\\dfrac{1}{4}$ le football. Quelle fraction ne pratique ni l'un ni l'autre ?",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans une classe de $24$ élèves, $\\dfrac{1}{3}$ pratiquent la natation, $\\dfrac{1}{4}$ le football. Quelle fraction ne pratique ni l'un ni l'autre ?",
       "image": null,
       "choix": [
         "$\\dfrac{5}{12}$",
@@ -1153,14 +1067,14 @@
         "$\\dfrac{5}{7}$"
       ],
       "reponse": "$\\dfrac{5}{12}$",
-      "explication": "[Question générée] $\\dfrac{1}{3} + \\dfrac{1}{4} = \\dfrac{4}{12} + \\dfrac{3}{12} = \\dfrac{7}{12}$. Fraction ne pratiquant ni l'un ni l'autre : $1 - \\dfrac{7}{12} = \\dfrac{5}{12}$."
+      "explication": "$\\dfrac{1}{3} + \\dfrac{1}{4} = \\dfrac{4}{12} + \\dfrac{3}{12} = \\dfrac{7}{12}$. Fraction ne pratiquant ni l'un ni l'autre : $1 - \\dfrac{7}{12} = \\dfrac{5}{12}$."
     },
     {
       "id": "fr5_n3_026",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Calculer $\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20}$ :",
+      "avec_calculatrice": true,
+      "enonce_html": "Calculer $\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20}$ :",
       "image": null,
       "choix": [
         "$\\dfrac{12}{20}$",
@@ -1169,14 +1083,14 @@
         "$\\dfrac{13}{20}$"
       ],
       "reponse": "$\\dfrac{19}{20}$",
-      "explication": "[Question générée] $\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20} = \\dfrac{8}{20} + \\dfrac{6}{20} + \\dfrac{7}{20} = \\dfrac{21}{20}$. Recalcul : $8 + 6 + 7 = 21$, donc $\\dfrac{21}{20}$. La bonne réponse est $\\dfrac{21}{20}$."
+      "explication": "$\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20} = \\dfrac{8}{20} + \\dfrac{6}{20} + \\dfrac{7}{20} = \\dfrac{21}{20}$. Recalcul : $8 + 6 + 7 = 21$, donc $\\dfrac{21}{20}$. La bonne réponse est $\\dfrac{21}{20}$."
     },
     {
       "id": "fr5_n3_027",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Calculer $\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20}$ :",
+      "avec_calculatrice": true,
+      "enonce_html": "Calculer $\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20}$ :",
       "image": null,
       "choix": [
         "$\\dfrac{21}{20}$",
@@ -1185,14 +1099,14 @@
         "$\\dfrac{3}{4}$"
       ],
       "reponse": "$\\dfrac{21}{20}$",
-      "explication": "[Question générée] $\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20} = \\dfrac{8}{20} + \\dfrac{6}{20} + \\dfrac{7}{20} = \\dfrac{21}{20}$."
+      "explication": "$\\dfrac{2}{5} + \\dfrac{3}{10} + \\dfrac{7}{20} = \\dfrac{8}{20} + \\dfrac{6}{20} + \\dfrac{7}{20} = \\dfrac{21}{20}$."
     },
     {
       "id": "fr5_n3_028",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Encadrer $\\dfrac{41}{9}$ entre deux entiers consécutifs :",
+      "avec_calculatrice": true,
+      "enonce_html": "Encadrer $\\dfrac{41}{9}$ entre deux entiers consécutifs :",
       "image": null,
       "choix": [
         "$3 < \\dfrac{41}{9} < 4$",
@@ -1201,14 +1115,14 @@
         "$\\dfrac{41}{9} = 5$"
       ],
       "reponse": "$4 < \\dfrac{41}{9} < 5$",
-      "explication": "[Question générée] $\\dfrac{36}{9} = 4$ et $\\dfrac{45}{9} = 5$. Comme $36 < 41 < 45$, on a $4 < \\dfrac{41}{9} < 5$."
+      "explication": "$\\dfrac{36}{9} = 4$ et $\\dfrac{45}{9} = 5$. Comme $36 < 41 < 45$, on a $4 < \\dfrac{41}{9} < 5$."
     },
     {
       "id": "fr5_n3_029",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Calculer $\\dfrac{5}{6} - \\dfrac{3}{4} + \\dfrac{1}{12}$ :",
+      "avec_calculatrice": true,
+      "enonce_html": "Calculer $\\dfrac{5}{6} - \\dfrac{3}{4} + \\dfrac{1}{12}$ :",
       "image": null,
       "choix": [
         "$\\dfrac{1}{6}$",
@@ -1217,14 +1131,14 @@
         "$\\dfrac{1}{12}$"
       ],
       "reponse": "$\\dfrac{1}{6}$",
-      "explication": "[Question générée] $\\dfrac{5}{6} - \\dfrac{3}{4} + \\dfrac{1}{12} = \\dfrac{10}{12} - \\dfrac{9}{12} + \\dfrac{1}{12} = \\dfrac{2}{12} = \\dfrac{1}{6}$."
+      "explication": "$\\dfrac{5}{6} - \\dfrac{3}{4} + \\dfrac{1}{12} = \\dfrac{10}{12} - \\dfrac{9}{12} + \\dfrac{1}{12} = \\dfrac{2}{12} = \\dfrac{1}{6}$."
     },
     {
       "id": "fr5_n3_030",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Pour simplifier $\\dfrac{18}{48}$ au maximum, on divise par :",
+      "avec_calculatrice": true,
+      "enonce_html": "Pour simplifier $\\dfrac{18}{48}$ au maximum, on divise par :",
       "image": null,
       "choix": [
         "$2$ (résultat $\\dfrac{9}{24}$)",
@@ -1233,7 +1147,7 @@
         "$9$ (résultat $\\dfrac{2}{48/9}$)"
       ],
       "reponse": "$6$ (résultat $\\dfrac{3}{8}$)",
-      "explication": "[Question générée] Le PGCD de $18$ et $48$ est $6$. $\\dfrac{18}{48} = \\dfrac{18 \\div 6}{48 \\div 6} = \\dfrac{3}{8}$. C'est la forme irréductible."
+      "explication": "$\\dfrac{18}{48} = \\dfrac{18 \\div 6}{48 \\div 6} = \\dfrac{3}{8}$."
     }
 
   ]
