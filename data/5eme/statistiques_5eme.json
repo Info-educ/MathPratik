@@ -845,7 +845,7 @@
       "type": "qcm",
       "avec_calculatrice": true,
       "enonce_html": "On calcule les moyennes des séries : a) $10, 12, 8, 15, 9, 11, 13, 14$. La moyenne de la série a) est :",
-      "image": null",
+      "image": null,
       "choix": [
         "$11$",
         "$11{,}5$",
