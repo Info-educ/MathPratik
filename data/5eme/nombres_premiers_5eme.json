@@ -128,7 +128,7 @@
       "image": null,
       "choix": [
         "Regarder les deux derniers chiffres",
-        "Regarder le dernier chiffre",
+        "Regarder le dernier chiffre pour voir si c'est 9",
         "Vérifier que la somme des chiffres est un multiple de $9$",
         "Regarder le premier chiffre"
       ],
@@ -146,7 +146,7 @@
         "Oui, car $04$ est divisible par $4$",
         "Non, car $204$ est impair",
         "Oui, car la somme des chiffres vaut $6$",
-        "Non, car il ne se termine pas par $0$"
+        "Non, car il ne se termine pas par $4$"
       ],
       "reponse": "Oui, car $04$ est divisible par $4$",
       "explication": "Pour tester la divisibilité par $4$, on examine les deux derniers chiffres : $04 = 4 \\times 1$, donc $04$ est divisible par $4$, et par conséquent $204$ aussi. $204 = 4 \\times 51$."
@@ -265,7 +265,7 @@
     },
     {
       "id": "np5_n1_017",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Le nombre $1\\,260$ est divisible par :",
@@ -473,7 +473,7 @@
     },
     {
       "id": "np5_n2_005",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Combien de facteurs premiers distincts possède le nombre $180$ ?",
@@ -518,22 +518,6 @@
       ],
       "reponse": "$\\dfrac{10}{7}$",
       "explication": "$120 = 2^3 \\times 3 \\times 5$ et $84 = 2^2 \\times 3 \\times 7$. $\\text{PGCD}(120, 84) = 2^2 \\times 3 = 12$. Donc $\\dfrac{120}{84} = \\dfrac{120 \\div 12}{84 \\div 12} = \\dfrac{10}{7}$."
-    },
-    {
-      "id": "np5_n2_008",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un rectangle a une longueur de $48$ cm et une largeur de $36$ cm. On veut le paver avec des carreaux carrés identiques, sans découper aucun carreau. Quelle est la plus grande taille possible d'un carreau ?",
-      "image": null,
-      "choix": [
-        "$6$ cm",
-        "$9$ cm",
-        "$12$ cm",
-        "$18$ cm"
-      ],
-      "reponse": "$12$ cm",
-      "explication": "La plus grande taille de carreau est le PGCD de $48$ et $36$. $48 = 2^4 \\times 3$ et $36 = 2^2 \\times 3^2$. $\\text{PGCD}(48, 36) = 2^2 \\times 3 = 12$. On peut donc paver le rectangle avec des carreaux de $12$ cm de côté ($4 \\times 3 = 12$ carreaux au total)."
     },
     {
       "id": "np5_n2_009",
@@ -598,22 +582,6 @@
       ],
       "reponse": "$3$",
       "explication": "$105$ est impair (non divisible par $2$). Somme des chiffres : $1 + 0 + 5 = 6$, divisible par $3$. Donc $3$ est le plus petit facteur premier de $105$. En effet, $105 = 3 \\times 5 \\times 7$."
-    },
-    {
-      "id": "np5_n2_013",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un bus A passe toutes les $12$ minutes, un bus B toutes les $18$ minutes. Ils partent ensemble à $8$ h $00$. Au bout de combien de minutes se retrouvent-ils ensemble pour la première fois ?",
-      "image": null,
-      "choix": [
-        "$12$ min",
-        "$18$ min",
-        "$36$ min",
-        "$216$ min"
-      ],
-      "reponse": "$36$ min",
-      "explication": "On cherche le PPCM de $12$ et $18$. $12 = 2^2 \\times 3$ et $18 = 2 \\times 3^2$. $\\text{PPCM}(12, 18) = 2^2 \\times 3^2 = 4 \\times 9 = 36$. Les deux bus se retrouvent ensemble au bout de $36$ minutes, soit à $8$ h $36$."
     },
     {
       "id": "np5_n2_014",
@@ -744,22 +712,6 @@
       "explication": "$2310 = 2 \\times 1155 = 2 \\times 3 \\times 385 = 2 \\times 3 \\times 5 \\times 77 = 2 \\times 3 \\times 5 \\times 7 \\times 11$. Les facteurs premiers distincts sont : $2, 3, 5, 7, 11$. Il y en a exactement $5$."
     },
     {
-      "id": "np5_n2_022",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Le nombre de diviseurs de $2^3 \\times 3^2 \\times 5$ est :",
-      "image": null,
-      "choix": [
-        "$12$",
-        "$18$",
-        "$24$",
-        "$30$"
-      ],
-      "reponse": "$24$",
-      "explication": "Si $n = p_1^{a_1} \\times p_2^{a_2} \\times \\ldots$, le nombre de diviseurs est $(a_1 + 1)(a_2 + 1)\\ldots$. Ici : $(3+1)(2+1)(1+1) = 4 \\times 3 \\times 2 = 24$. Exemple : $n = 8 \\times 9 \\times 5 = 360$, qui possède bien $24$ diviseurs."
-    },
-    {
       "id": "np5_n3_001",
       "niveau": 3,
       "type": "qcm",
@@ -806,22 +758,6 @@
       ],
       "reponse": "Non, car $143 = 11 \\times 13$",
       "explication": "$143$ n'est pas divisible par $2$, $3$, $5$, $7$ (vérifications rapides). On teste $11$ : $143 \\div 11 = 13$ (exact). Donc $143 = 11 \\times 13$. Il a plus de deux diviseurs : ce n'est pas un nombre premier. Pour tester la primalité d'un entier $n$, il suffit de tester les diviseurs premiers jusqu'à $\\sqrt{n}$ (ici $\\sqrt{143} \\approx 12$)."
-    },
-    {
-      "id": "np5_n3_004",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Alexia simplifie la fraction $\\dfrac{630}{882}$ et obtient $\\dfrac{5}{7}$. A-t-elle raison ?",
-      "image": null,
-      "choix": [
-        "Oui, le résultat est bien $\\dfrac{5}{7}$",
-        "Non, le résultat est $\\dfrac{5}{7}$ mais le PGCD était $126$",
-        "Non, le résultat est $\\dfrac{3}{5}$",
-        "Non, le résultat est $\\dfrac{5}{7}$ et le PGCD était $90$"
-      ],
-      "reponse": "Non, le résultat est $\\dfrac{5}{7}$ mais le PGCD était $126$",
-      "explication": "$630 = 2 \\times 3^2 \\times 5 \\times 7$ et $882 = 2 \\times 3^2 \\times 7^2$. $\\text{PGCD} = 2 \\times 3^2 \\times 7 = 126$. $\\dfrac{630}{882} = \\dfrac{630 \\div 126}{882 \\div 126} = \\dfrac{5}{7}$. La fraction est correcte mais Alexia a peut-être simplifié en plusieurs étapes sans avoir trouvé le PGCD directement."
     },
     {
       "id": "np5_n3_005",
@@ -1192,22 +1128,6 @@
       "explication": "$3$ et $7$ sont tous les deux premiers. $3 + 7 = 10$ ✓. Pour les autres : $1$ n'est pas premier ; $4 = 2^2$ et $6 = 2 \\times 3$ ne sont pas premiers ; $8 = 2^3$ n'est pas premier. [Question générée]"
     },
     {
-      "id": "np5_n3_015",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Vérifie que $16$ peut s'écrire comme somme de deux nombres premiers.",
-      "image": null,
-      "choix": [
-        "$16 = 2 + 14$",
-        "$16 = 3 + 13$",
-        "$16 = 5 + 11$",
-        "$16 = 3 + 13$ ou $16 = 5 + 11$"
-      ],
-      "reponse": "$16 = 3 + 13$ ou $16 = 5 + 11$",
-      "explication": "$3 + 13 = 16$ avec $3$ et $13$ premiers ✓. $5 + 11 = 16$ avec $5$ et $11$ premiers ✓. $14 = 2 \\times 7$ n'est pas premier, donc $2 + 14$ ne convient pas. Les deux décompositions valides existent. [Question générée]"
-    },
-    {
       "id": "np5_n3_016",
       "niveau": 3,
       "type": "qcm",
@@ -1366,38 +1286,6 @@
       ],
       "reponse": "$\\dfrac{4}{3}$",
       "explication": "$\\dfrac{2^4 \\times 3^2}{2^2 \\times 3^3} = 2^{4-2} \\times 3^{2-3} = 2^2 \\times 3^{-1} = \\dfrac{4}{3}$. Vérification numérique : $\\dfrac{16 \\times 9}{4 \\times 27} = \\dfrac{144}{108} = \\dfrac{4}{3}$ ✓. [Question générée]"
-    },
-    {
-      "id": "np5_n3_026",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "Un entier $n$ a exactement $6$ diviseurs. Laquelle de ces formes est impossible pour $n$ ?",
-      "image": null,
-      "choix": [
-        "$n = p \\times q$ ($p \\neq q$ premiers)",
-        "$n = p^2 \\times q$ ($p, q$ premiers distincts)",
-        "$n = p^5$ ($p$ premier)",
-        "$n = p \\times q \\times r$ ($p, q, r$ premiers distincts)"
-      ],
-      "reponse": "$n = p \\times q \\times r$ ($p, q, r$ premiers distincts)",
-      "explication": "Nombre de diviseurs : $p \\times q$ → $(1+1)^2 = 4$ ; $p^2 \\times q$ → $(2+1)(1+1) = 6$ ✓ ; $p^5$ → $(5+1) = 6$ ✓. Pour $p \\times q \\times r$ : $(1+1)^3 = 8 \\neq 6$ : c'est impossible. [Question générée]"
-    },
-    {
-      "id": "np5_n3_027",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": true,
-      "enonce_html": "On cherche le plus grand entier $d$ qui divise à la fois $180$, $252$ et $270$. Quelle est sa valeur ?",
-      "image": null,
-      "choix": [
-        "$6$",
-        "$9$",
-        "$18$",
-        "$36$"
-      ],
-      "reponse": "$18$",
-      "explication": "$180 = 2^2 \\times 3^2 \\times 5$ ; $252 = 2^2 \\times 3^2 \\times 7$ ; $270 = 2 \\times 3^3 \\times 5$. $\\text{PGCD} = 2^{\\min(2,2,1)} \\times 3^{\\min(2,2,3)} = 2^1 \\times 3^2 = 18$. [Question générée]"
     },
     {
       "id": "np5_n3_028",
