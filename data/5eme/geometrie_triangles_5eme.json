@@ -12,7 +12,7 @@
       "id": "gt5_n1_001",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour que trois longueurs $a$, $b$ et $c$ forment un triangle, il faut que :",
       "image": null,
       "choix": [
@@ -28,7 +28,7 @@
       "id": "gt5_n1_002",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Peut-on construire un triangle avec des côtés de $3$ cm, $4$ cm et $8$ cm ?",
       "image": null,
       "choix": [
@@ -44,7 +44,7 @@
       "id": "gt5_n1_003",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Peut-on construire un triangle avec des côtés de $5$ cm, $8$ cm et $6$ cm ?",
       "image": null,
       "choix": [
@@ -60,7 +60,7 @@
       "id": "gt5_n1_004",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Si un côté d'un triangle vaut exactement la somme des deux autres, le triangle est :",
       "image": null,
       "choix": [
@@ -76,7 +76,7 @@
       "id": "gt5_n1_005",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle a deux côtés de $5$ cm et $12$ cm. Le troisième côté peut être :",
       "image": null,
       "choix": [
@@ -92,7 +92,7 @@
       "id": "gt5_n1_006",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour le triangle EFG représenté, la condition vérifiée est :",
       "image": "5eme/geometrie_triangles/image1.png",
       "choix": [
@@ -108,7 +108,7 @@
       "id": "gt5_n1_007",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Le triangle ci-contre a $AB = 5$ cm, $BC = 3$ cm, $CA = 9$ cm. Est-il constructible ?",
       "image": "5eme/geometrie_triangles/image2.png",
       "choix": [
@@ -124,7 +124,7 @@
       "id": "gt5_n1_008",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle a des côtés de $7$ cm, $7$ cm et $14$ cm. Quel est ce triangle ?",
       "image": null,
       "choix": [
@@ -140,7 +140,7 @@
       "id": "gt5_n1_009",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi ces triplets, lequel forme un triangle constructible ?",
       "image": null,
       "choix": [
@@ -156,7 +156,7 @@
       "id": "gt5_n1_010",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour construire le triangle IJK ci-contre ($IJ = 5$ cm, $JK = 8$ cm, $\\widehat{IJK} = 60°$), on utilise le cas :",
       "image": "5eme/geometrie_triangles/image4.png",
       "choix": [
@@ -172,7 +172,7 @@
       "id": "gt5_n1_011",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour construire le triangle MNO ($\\widehat{MNO} = 60°$, $\\widehat{NMO} = 110°$, $MN = 4$ cm), on utilise le cas :",
       "image": null,
       "choix": [
@@ -188,7 +188,7 @@
       "id": "gt5_n1_012",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans une figure de construction CCC, les tirets sur les côtés indiquent :",
       "image": "5eme/geometrie_triangles/image5.png",
       "choix": [
@@ -204,7 +204,7 @@
       "id": "gt5_n1_013",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La médiatrice du segment $[AB]$ ci-contre est la droite qui :",
       "image": "5eme/geometrie_triangles/image6.png",
       "choix": [
@@ -220,7 +220,7 @@
       "id": "gt5_n1_014",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Si $P$ est sur la médiatrice de $[AB]$, alors :",
       "image": "5eme/geometrie_triangles/image7.png",
       "choix": [
@@ -236,7 +236,7 @@
       "id": "gt5_n1_015",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Si $MA = MB = 4$ cm, alors $M$ se trouve :",
       "image": null,
       "choix": [
@@ -252,7 +252,7 @@
       "id": "gt5_n1_016",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Les 3 médiatrices d'un triangle se coupent en un point $O$ qui est :",
       "image": "5eme/geometrie_triangles/image8.png",
       "choix": [
@@ -268,7 +268,7 @@
       "id": "gt5_n1_017",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La hauteur d'un triangle est :",
       "image": null,
       "choix": [
@@ -284,7 +284,7 @@
       "id": "gt5_n1_018",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Les 3 hauteurs d'un triangle se coupent en un point $H$ appelé :",
       "image": null,
       "choix": [
@@ -300,7 +300,7 @@
       "id": "gt5_n1_019",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, la somme des angles vaut :",
       "image": null,
       "choix": [
@@ -316,7 +316,7 @@
       "id": "gt5_n1_020",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, $\\widehat{BAC} = 60°$ et $\\widehat{ABC} = 80°$. Quelle est la mesure de $\\widehat{BCA}$ ?",
       "image": null,
       "choix": [
@@ -332,7 +332,7 @@
       "id": "gt5_n1_021",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle équilatéral a ses trois angles qui mesurent chacun :",
       "image": null,
       "choix": [
@@ -348,7 +348,7 @@
       "id": "gt5_n1_022",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour construire un triangle avec la méthode CCC, on utilise :",
       "image": null,
       "choix": [
@@ -364,7 +364,7 @@
       "id": "gt5_n1_023",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle isocèle ABC avec $AB = AC$, les angles en $B$ et en $C$ sont :",
       "image": null,
       "choix": [
@@ -380,7 +380,7 @@
       "id": "gt5_n1_024",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Le cercle circonscrit à un triangle passe par :",
       "image": null,
       "choix": [
@@ -396,7 +396,7 @@
       "id": "gt5_n1_025",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Parmi ces triplets, lequel ne forme pas un triangle constructible ?",
       "image": null,
       "choix": [
@@ -412,7 +412,7 @@
       "id": "gt5_n1_026",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Si $O$ est le centre du cercle circonscrit à un triangle ABC, alors :",
       "image": null,
       "choix": [
@@ -428,7 +428,7 @@
       "id": "gt5_n1_027",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC rectangle en A, l'angle $\\widehat{BAC}$ mesure :",
       "image": null,
       "choix": [
@@ -444,7 +444,7 @@
       "id": "gt5_n1_028",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la condition pour que trois longueurs forment un triangle plat ?",
       "image": null,
       "choix": [
@@ -460,7 +460,7 @@
       "id": "gt5_n1_029",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "La hauteur d'un triangle rectangle en A issue du sommet A tombe sur :",
       "image": null,
       "choix": [
@@ -476,7 +476,7 @@
       "id": "gt5_n1_030",
       "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle a $\\widehat{ABC} = 55°$ et $\\widehat{BAC} = 55°$. Quelle est la nature de ce triangle ?",
       "image": null,
       "choix": [
@@ -493,7 +493,7 @@
       "id": "gt5_n2_001",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, $\\widehat{BAC} = 35°$ et $\\widehat{ABC} = 80°$. Quelle est la mesure de $\\widehat{BCA}$ ?",
       "image": "5eme/geometrie_triangles/image20.png",
       "choix": [
@@ -509,7 +509,7 @@
       "id": "gt5_n2_002",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle isocèle ABC avec $AB = AC$ a $\\widehat{ABC} = 55°$. Calculer $\\widehat{BAC}$ :",
       "image": null,
       "choix": [
@@ -522,58 +522,10 @@
       "explication": "Puisque $AB = AC$, les angles en $B$ et $C$ sont égaux : $\\widehat{ABC} = \\widehat{ACB} = 55°$. Donc $\\widehat{BAC} = 180° - 55° - 55° = 70°$."
     },
     {
-      "id": "gt5_n2_003",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Le rayon du cercle circonscrit à un triangle rectangle en A est égal à :",
-      "image": null,
-      "choix": [
-        "La hauteur issue de $A$",
-        "La moitié de l'hypoténuse $[BC]$",
-        "La médiane issue de $A$",
-        "La somme des deux cathètes"
-      ],
-      "reponse": "La moitié de l'hypoténuse $[BC]$",
-      "explication": "Pour un triangle rectangle en $A$, le centre du cercle circonscrit est le milieu de l'hypoténuse $[BC]$. Le rayon est donc $R = \\dfrac{BC}{2}$."
-    },
-    {
-      "id": "gt5_n2_004",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un triangle a des côtés de $3$ cm, $4$ cm et $5$ cm. Son orthocentre est :",
-      "image": null,
-      "choix": [
-        "À l'intérieur",
-        "À l'extérieur",
-        "Sur le sommet de l'angle droit",
-        "Au centre"
-      ],
-      "reponse": "Sur le sommet de l'angle droit",
-      "explication": "$(3, 4, 5)$ est un triplet pythagoricien, ce triangle est rectangle. Pour un triangle rectangle, l'orthocentre coïncide avec le sommet de l'angle droit."
-    },
-    {
-      "id": "gt5_n2_005",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle ABC, si l'orthocentre $H$ coïncide avec $A$, le triangle est :",
-      "image": null,
-      "choix": [
-        "Équilatéral",
-        "Quelconque",
-        "Rectangle en $A$",
-        "Isocèle"
-      ],
-      "reponse": "Rectangle en $A$",
-      "explication": "L'orthocentre d'un triangle rectangle est le sommet de l'angle droit. Si $H = A$, alors l'angle droit est en $A$."
-    },
-    {
       "id": "gt5_n2_006",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle équilatéral, l'orthocentre, le centre du cercle circonscrit et le centre du cercle inscrit sont :",
       "image": null,
       "choix": [
@@ -589,7 +541,7 @@
       "id": "gt5_n2_007",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, $\\widehat{ABC} = 60°$ et $\\widehat{BAC} = 60°$. Il est :",
       "image": null,
       "choix": [
@@ -602,26 +554,10 @@
       "explication": "$\\widehat{BCA} = 180° - 60° - 60° = 60°$. Les trois angles sont égaux à $60°$, donc les trois côtés sont égaux : le triangle est équilatéral."
     },
     {
-      "id": "gt5_n2_008",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Le plus petit côté d'un triangle peut-il être supérieur à la moitié du périmètre ?",
-      "image": null,
-      "choix": [
-        "Oui",
-        "Non (par inégalité triangulaire)",
-        "Seulement si équilatéral",
-        "Oui si rectangle"
-      ],
-      "reponse": "Non (par inégalité triangulaire)",
-      "explication": "Si $a \\leq b \\leq c$, l'inégalité triangulaire donne $c < a + b$. Donc $c < \\dfrac{a + b + c}{?}$. En fait le plus grand côté est inférieur à $\\dfrac{P}{2}$ (moitié du périmètre), a fortiori le plus petit ne peut pas dépasser la moitié du périmètre."
-    },
-    {
       "id": "gt5_n2_009",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un point $M$ est tel que $MA = MB = MC$. $M$ est donc :",
       "image": null,
       "choix": [
@@ -637,7 +573,7 @@
       "id": "gt5_n2_010",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, les 3 médiatrices se coupent toujours en un point unique. Ce résultat s'appelle :",
       "image": null,
       "choix": [
@@ -653,7 +589,7 @@
       "id": "gt5_n2_011",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Quelle est la valeur du rayon du cercle circonscrit à un triangle rectangle dont l'hypoténuse mesure $10$ cm ?",
       "image": null,
       "choix": [
@@ -669,7 +605,7 @@
       "id": "gt5_n2_012",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Si le centre du cercle circonscrit est sur un côté du triangle, le triangle est :",
       "image": null,
       "choix": [
@@ -685,7 +621,7 @@
       "id": "gt5_n2_013",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, $\\widehat{BAC} = 40°$ et $\\widehat{ABC} = 75°$. $\\widehat{ACB}$ vaut :",
       "image": null,
       "choix": [
@@ -701,7 +637,7 @@
       "id": "gt5_n2_014",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle, si les 3 hauteurs sont aussi des médiatrices, le triangle est :",
       "image": null,
       "choix": [
@@ -717,7 +653,7 @@
       "id": "gt5_n2_015",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle isocèle ABC ($AB = AC$) a $\\widehat{BAC} = 72°$. Calculer $\\widehat{ABC}$ :",
       "image": null,
       "choix": [
@@ -733,7 +669,7 @@
       "id": "gt5_n2_016",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC quelconque, on construit la médiatrice de $[AB]$. Un point $P$ sur cette médiatrice vérifie :",
       "image": null,
       "choix": [
@@ -747,9 +683,9 @@
     },
     {
       "id": "gt5_n2_017",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle ABC est tel que $\\widehat{ABC} = 90°$. Le centre du cercle circonscrit se situe :",
       "image": null,
       "choix": [
@@ -765,7 +701,7 @@
       "id": "gt5_n2_018",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "On construit un triangle ABC avec $AB = 9$ cm, $BC = 7$ cm, $AC = 5$ cm. Quelle inégalité doit-on vérifier pour le côté $BC$ ?",
       "image": null,
       "choix": [
@@ -781,7 +717,7 @@
       "id": "gt5_n2_019",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour un triangle ABC construit avec le cas ACA ($\\widehat{BAC} = 50°$, $\\widehat{ABC} = 70°$, $AB = 7$ cm), le troisième angle $\\widehat{ACB}$ vaut :",
       "image": null,
       "choix": [
@@ -797,7 +733,7 @@
       "id": "gt5_n2_020",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Trois élèves font des triangles de périmètre $20$ cm. Alice : $3$, $7$, $10$ cm. Bruno : $4$, $7$, $9$ cm. Clara : $5$, $5$, $10$ cm. Qui a un vrai triangle ?",
       "image": null,
       "choix": [
@@ -813,7 +749,7 @@
       "id": "gt5_n2_021",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un architecte veut trouver le point $O$ équidistant des trois sommets $A$, $B$, $C$ d'un triangle. Il doit construire :",
       "image": null,
       "choix": [
@@ -826,26 +762,10 @@
       "explication": "Le point équidistant des trois sommets est le centre du cercle circonscrit, obtenu par intersection des trois médiatrices."
     },
     {
-      "id": "gt5_n2_022",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour un triangle ABC rectangle en B avec $AB = 6$ cm et $BC = 8$ cm, quelle est la longueur de l'hypoténuse $AC$ ?",
-      "image": null,
-      "choix": [
-        "$10$ cm",
-        "$7$ cm",
-        "$14$ cm",
-        "$\\sqrt{28}$ cm"
-      ],
-      "reponse": "$10$ cm",
-      "explication": "Par le théorème de Pythagore : $AC^{2} = AB^{2} + BC^{2} = 36 + 64 = 100$, donc $AC = 10$ cm."
-    },
-    {
       "id": "gt5_n2_023",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle isocèle ABC avec $AB = AC = 5$ cm et $BC = 6$ cm, la médiatrice de $[BC]$ passe par :",
       "image": null,
       "choix": [
@@ -861,8 +781,8 @@
       "id": "gt5_n2_024",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle ABC acutangle, l'orthocentre $H$ se trouve :",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans un triangle ABC qui ne possède que des angles aigus, l'orthocentre $H$ se trouve :",
       "image": null,
       "choix": [
         "À l'extérieur du triangle",
@@ -871,13 +791,13 @@
         "En un sommet"
       ],
       "reponse": "À l'intérieur du triangle",
-      "explication": "Pour un triangle acutangle (tous les angles sont aigus), l'orthocentre est à l'intérieur du triangle. Pour un triangle obtusangle, il est à l'extérieur."
+      "explication": "Pour un triangle dont les angles sont aigus, l'orthocentre est à l'intérieur du triangle. Pour un triangle obtusangle, il est à l'extérieur."
     },
     {
       "id": "gt5_n2_025",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Trois îles forment un triangle avec $AB = 12$ km, $BC = 9$ km, $CA = 15$ km. Ce triangle est-il constructible ?",
       "image": null,
       "choix": [
@@ -893,7 +813,7 @@
       "id": "gt5_n2_026",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour construire un triangle ABC avec $AB = 8$ cm, $BC = 10$ cm, $AC = 4$ cm (CCC), quelle inégalité doit-on vérifier pour $BC$ ?",
       "image": null,
       "choix": [
@@ -909,7 +829,7 @@
       "id": "gt5_n2_027",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC avec $\\widehat{BAC} = 72°$ et $AB = AC$ (isocèle en A), quelle est la mesure de $\\widehat{ABC}$ ?",
       "image": null,
       "choix": [
@@ -925,7 +845,7 @@
       "id": "gt5_n2_028",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Si CA = CB dans un triangle ABC, alors C appartient à :",
       "image": null,
       "choix": [
@@ -941,7 +861,7 @@
       "id": "gt5_n2_029",
       "niveau": 2,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle quelconque RST, on place un point P sur la médiatrice de [RS]. On mesure PR et PS. Que constate-t-on ?",
       "image": null,
       "choix": [
@@ -954,27 +874,10 @@
       "explication": "Tout point appartenant à la médiatrice de $[RS]$ est équidistant de $R$ et $S$. Donc $PR = PS$ quel que soit $P$ sur la médiatrice."
     },
     {
-      "id": "gt5_n2_030",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour construire un triangle ABC rectangle en B avec $AB = 6$ cm et $BC = 8$ cm, le rayon du cercle circonscrit vaut :",
-      "image": null,
-      "choix": [
-        "$6$ cm",
-        "$8$ cm",
-        "$5$ cm",
-        "$4$ cm"
-      ],
-      "reponse": "$5$ cm",
-      "explication": "$AC = \\sqrt{AB^{2} + BC^{2}} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ cm. Le rayon du cercle circonscrit est $R = \\dfrac{AC}{2} = 5$ cm (car $AC$ est un diamètre du cercle circonscrit)."
-    },
-
-    {
       "id": "gt5_n3_001",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, $\\widehat{BAC} = 40°$ et $\\widehat{ABC} = 75°$. $\\widehat{ACB}$ vaut :",
       "image": null,
       "choix": [
@@ -987,26 +890,10 @@
       "explication": "$\\widehat{ACB} = 180° - 40° - 75° = 65°$."
     },
     {
-      "id": "gt5_n3_002",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le triangle ABC, $\\widehat{BAC} = 50°$ et $\\widehat{ABC} = 70°$. Le troisième angle $\\widehat{ACB}$ vaut $60°$. L'orthocentre $H$ est-il à l'intérieur ou à l'extérieur ?",
-      "image": null,
-      "choix": [
-        "À l'extérieur car un angle est obtus",
-        "À l'intérieur car tous les angles sont aigus",
-        "Sur un sommet",
-        "Sur un côté"
-      ],
-      "reponse": "À l'intérieur car tous les angles sont aigus",
-      "explication": "Les trois angles sont $50°$, $70°$ et $60°$, tous inférieurs à $90°$ : le triangle est acutangle. L'orthocentre est donc à l'intérieur du triangle."
-    },
-    {
       "id": "gt5_n3_003",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, si on construit les 3 médiatrices, elles se coupent en $O$. Si on construit les 3 hauteurs, elles se coupent en $H$. Pour un triangle équilatéral, que peut-on dire de $O$ et $H$ ?",
       "image": null,
       "choix": [
@@ -1022,7 +909,7 @@
       "id": "gt5_n3_004",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC isocèle en A ($AB = AC$), la hauteur issue de $A$ est aussi :",
       "image": null,
       "choix": [
@@ -1035,42 +922,10 @@
       "explication": "Dans un triangle isocèle en $A$, la hauteur issue de $A$ est aussi la médiane et la médiatrice de $[BC]$ (et la bissectrice de $\\widehat{BAC}$). Ces quatre droites se confondent."
     },
     {
-      "id": "gt5_n3_005",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Trois îles A, B, C forment un triangle avec $AB = 12$ km, $BC = 9$ km, $CA = 15$ km. Quelle affirmation est vraie concernant ce triangle ?",
-      "image": null,
-      "choix": [
-        "C'est un triangle quelconque non remarquable",
-        "C'est un triangle rectangle car $15^{2} = 9^{2} + 12^{2}$",
-        "C'est un triangle isocèle",
-        "C'est un triangle équilatéral"
-      ],
-      "reponse": "C'est un triangle rectangle car $15^{2} = 9^{2} + 12^{2}$",
-      "explication": "$9^{2} + 12^{2} = 81 + 144 = 225 = 15^{2}$. Par la réciproque du théorème de Pythagore, ce triangle est rectangle en $B$."
-    },
-    {
-      "id": "gt5_n3_006",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle ABC, les points $O$ (circumcentre), $H$ (orthocentre) et $G$ (centre de gravité) sont alignés sur une droite appelée :",
-      "image": null,
-      "choix": [
-        "La droite de Descartes",
-        "La droite d'Euler",
-        "La droite de Gauss",
-        "La médiatrice principale"
-      ],
-      "reponse": "La droite d'Euler",
-      "explication": "Dans tout triangle, le circumcentre $O$, l'orthocentre $H$ et le centre de gravité $G$ sont alignés sur la droite d'Euler."
-    },
-    {
       "id": "gt5_n3_007",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC, si on démontré que $CA = CB$, quelle conclusion peut-on tirer ?",
       "image": null,
       "choix": [
@@ -1086,7 +941,7 @@
       "id": "gt5_n3_008",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle ABC a $\\widehat{BAC} = 72°$ et $AB = AC$. La médiatrice de $[BC]$ :",
       "image": null,
       "choix": [
@@ -1099,26 +954,10 @@
       "explication": "Puisque $AB = AC$, $A$ est équidistant de $B$ et $C$ : $A$ est sur la médiatrice de $[BC]$. Le centre $O$ est à l'intersection des médiatrices, donc aussi sur cette médiatrice."
     },
     {
-      "id": "gt5_n3_009",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour prouver que le triangle ABC ($AB = 6$ cm, $BC = 8$ cm, $AC = 10$ cm) est rectangle, on utilise :",
-      "image": null,
-      "choix": [
-        "L'inégalité triangulaire",
-        "La réciproque du théorème de Pythagore : $6^{2} + 8^{2} = 10^{2}$",
-        "La propriété des médiatrices",
-        "La somme des angles"
-      ],
-      "reponse": "La réciproque du théorème de Pythagore : $6^{2} + 8^{2} = 10^{2}$",
-      "explication": "$6^{2} + 8^{2} = 36 + 64 = 100 = 10^{2}$. Par la réciproque du théorème de Pythagore, le triangle ABC est rectangle en $B$."
-    },
-    {
       "id": "gt5_n3_010",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC quelconque, quelle propriété justifie que chaque côté est strictement inférieur à la somme des deux autres ?",
       "image": null,
       "choix": [
@@ -1134,7 +973,7 @@
       "id": "gt5_n3_011",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour le problème du phare : trois îles A, B, C forment un triangle ($AB = 8$ km, $BC = 6$ km, $CA = 7$ km). Quelle construction permet de trouver le point équidistant des 3 îles ?",
       "image": null,
       "choix": [
@@ -1150,7 +989,7 @@
       "id": "gt5_n3_012",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC avec $\\widehat{BAC} = 80°$, $\\widehat{ABC} = 60°$, $AB = 6$ cm (cas ACA). Calculer $\\widehat{ACB}$ :",
       "image": null,
       "choix": [
@@ -1163,58 +1002,10 @@
       "explication": "$\\widehat{ACB} = 180° - 80° - 60° = 40°$."
     },
     {
-      "id": "gt5_n3_013",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Les lieux géométriques des points $P$ tels que $PA = PB$ (avec $A$ et $B$ donnés) forment :",
-      "image": null,
-      "choix": [
-        "Un cercle de centre $A$",
-        "La médiatrice de $[AB]$",
-        "Un demi-plan",
-        "Le segment $[AB]$"
-      ],
-      "reponse": "La médiatrice de $[AB]$",
-      "explication": "L'ensemble des points équidistants de $A$ et $B$ est exactement la médiatrice de $[AB]$. C'est la propriété caractéristique de la médiatrice."
-    },
-    {
-      "id": "gt5_n3_014",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Pour un triangle ABC acutangle, lequel de ces résultats est vrai pour l'orthocentre $H$ ?",
-      "image": null,
-      "choix": [
-        "$H$ est à l'extérieur du triangle",
-        "$H$ est sur l'hypoténuse",
-        "$H$ est à l'intérieur du triangle",
-        "$H$ est confondu avec $O$"
-      ],
-      "reponse": "$H$ est à l'intérieur du triangle",
-      "explication": "Pour un triangle acutangle (tous les angles $< 90°$), l'orthocentre est à l'intérieur du triangle. Pour un triangle obtusangle, il est à l'extérieur."
-    },
-    {
-      "id": "gt5_n3_015",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle ABC rectangle en B avec $AB = 6$ cm et $BC = 8$ cm. Quelle affirmation sur le cercle circonscrit est vraie ?",
-      "image": null,
-      "choix": [
-        "Son rayon est $AB = 6$ cm",
-        "$AC$ est un diamètre, donc $R = 5$ cm",
-        "$BC$ est un diamètre",
-        "Son centre est en $B$"
-      ],
-      "reponse": "$AC$ est un diamètre, donc $R = 5$ cm",
-      "explication": "Pour un triangle rectangle en $B$, l'hypoténuse $[AC]$ est un diamètre du cercle circonscrit. $AC = \\sqrt{36 + 64} = 10$ cm, donc $R = 5$ cm."
-    },
-    {
       "id": "gt5_n3_016",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC isocèle en A, laquelle de ces affirmations est vraie ?",
       "image": null,
       "choix": [
@@ -1230,7 +1021,7 @@
       "id": "gt5_n3_017",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Un triangle a des côtés $a$, $b$ et $c$ avec $c < a + b$. Peut-on construire un triangle plat ayant ces mêmes mesures ?",
       "image": null,
       "choix": [
@@ -1243,26 +1034,10 @@
       "explication": "Si $c < a + b$ (inégalité stricte), le triangle est non dégénéré. Un triangle plat nécessite $c = a + b$ (égalité). Les deux cas sont exclusifs."
     },
     {
-      "id": "gt5_n3_018",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans la construction d'un triangle ABC ($\\widehat{ABC} = 60°$, $\\widehat{BAC} = 80°$, $AB = 6$ cm), si $H$ est l'orthocentre et $O$ le circumcentre, la droite $OH$ est :",
-      "image": null,
-      "choix": [
-        "La droite d'Euler",
-        "La médiane principale",
-        "La médiatrice de $[AB]$",
-        "Une hauteur"
-      ],
-      "reponse": "La droite d'Euler",
-      "explication": "La droite passant par le circumcentre $O$, le centre de gravité $G$ et l'orthocentre $H$ est la droite d'Euler, propriété de tout triangle."
-    },
-    {
       "id": "gt5_n3_019",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans un triangle ABC avec $AB = AC$ (isocèle en $A$), on prouve que C est sur la médiatrice de [BC]. Parmi ces raisonnements, lequel est correct ?",
       "image": null,
       "choix": [
@@ -1275,26 +1050,10 @@
       "explication": "La propriété de la médiatrice : $P \\in$ médiatrice de $[BC]$ $\\Leftrightarrow$ $PB = PC$. Ici $AB = AC$, donc $A$ est équidistant de $B$ et $C$, donc $A$ est sur la médiatrice de $[BC]$."
     },
     {
-      "id": "gt5_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans un triangle ABC quelconque acutangle, on construit les 3 médiatrices, les 3 hauteurs et les 3 médianes. Combien obtient-on de points remarquables distincts (circumcentre $O$, orthocentre $H$, centre de gravité $G$) ?",
-      "image": null,
-      "choix": [
-        "1 seul point",
-        "2 points distincts",
-        "3 points distincts",
-        "Cela dépend du triangle"
-      ],
-      "reponse": "3 points distincts",
-      "explication": "Pour un triangle quelconque acutangle (non équilatéral), les trois points $O$ (circumcentre), $H$ (orthocentre) et $G$ (centre de gravité) sont distincts, bien qu'alignés sur la droite d'Euler. Pour un triangle équilatéral, ils coïncident."
-    },
-    {
       "id": "gt5_n3_021",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Pour un triangle ABC avec $\\widehat{BAC} = 72°$, $AB = AC$, $BC = 5$ cm. La médiatrice de $[BC]$ partage le triangle en deux triangles. Ces deux triangles sont :",
       "image": null,
       "choix": [
@@ -1310,7 +1069,7 @@
       "id": "gt5_n3_022",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
+      "avec_calculatrice": true,
       "enonce_html": "Dans le défi final, on construit un triangle ABC ($\\widehat{ABC} = 60°$, $\\widehat{BAC} = 80°$, $AB = 6$ cm). Le troisième angle $\\widehat{ACB}$ vaut :",
       "image": null,
       "choix": [
@@ -1326,8 +1085,8 @@
       "id": "gt5_n3_023",
       "niveau": 3,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle ABC, $\\widehat{BAC} = 100°$. Le triangle est obtusangle. L'orthocentre H se trouve :",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans un triangle ABC, $\\widehat{BAC} = 100°$. L'orthocentre H se trouve :",
       "image": null,
       "choix": [
         "À l'intérieur du triangle",
@@ -1336,30 +1095,14 @@
         "En $A$"
       ],
       "reponse": "À l'extérieur, du côté opposé à $A$",
-      "explication": "[Question générée] Pour un triangle obtusangle en $A$ (angle $\\widehat{BAC} > 90°$), les hauteurs issues de $B$ et $C$ passent en dehors du segment $[AC]$ et $[AB]$ respectivement. L'orthocentre se trouve à l'extérieur du triangle, du côté de l'angle obtus."
-    },
-    {
-      "id": "gt5_n3_024",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle DEF rectangle en D avec $DE = 5$ cm et $EF = 13$ cm. Quelle est la longueur $DF$ ?",
-      "image": null,
-      "choix": [
-        "$8$ cm",
-        "$12$ cm",
-        "$\\sqrt{194}$ cm",
-        "$18$ cm"
-      ],
-      "reponse": "$12$ cm",
-      "explication": "[Question générée] Par le théorème de Pythagore : $EF^{2} = DE^{2} + DF^{2}$, donc $DF^{2} = 13^{2} - 5^{2} = 169 - 25 = 144$, donc $DF = 12$ cm."
+      "explication": "Pour un triangle dont un des angles est obtus (>90°) en $A$ (angle $\\widehat{BAC} > 90°$), les hauteurs issues de $B$ et $C$ passent en dehors du segment $[AC]$ et $[AB]$ respectivement. L'orthocentre se trouve à l'extérieur du triangle, du côté de l'angle obtus."
     },
     {
       "id": "gt5_n3_025",
-      "niveau": 3,
+      "niveau": 1,
       "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Un triangle PQR isocèle en P a $\\widehat{QPR} = 100°$. Quelle est la mesure des angles $\\widehat{PQR}$ et $\\widehat{PRQ}$ ?",
+      "avec_calculatrice": true,
+      "enonce_html": "Un triangle PQR isocèle en P a $\\widehat{QPR} = 100°$. Quelle est la mesure des angles $\\widehat{PQR}$ et $\\widehat{PRQ}$ ?",
       "image": null,
       "choix": [
         "$50°$ chacun",
@@ -1368,87 +1111,7 @@
         "$60°$ chacun"
       ],
       "reponse": "$40°$ chacun",
-      "explication": "[Question générée] $\\widehat{PQR} = \\widehat{PRQ} = \\dfrac{180° - 100°}{2} = \\dfrac{80°}{2} = 40°$."
-    },
-    {
-      "id": "gt5_n3_026",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle ABC quelconque, on trace les 3 médiatrices. Elles se coupent en $O$. Quelle égalité est vraie ?",
-      "image": null,
-      "choix": [
-        "$OA + OB = OC$",
-        "$OA = OB = OC$",
-        "$OA \\times OB = OC^{2}$",
-        "$OA = AB$"
-      ],
-      "reponse": "$OA = OB = OC$",
-      "explication": "[Question générée] Le centre du cercle circonscrit $O$ est équidistant des trois sommets. $OA = OB = OC = R$ (rayon du cercle circonscrit)."
-    },
-    {
-      "id": "gt5_n3_027",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle GHI avec $GH = GI = 7$ cm, on prouve que $G$ appartient à la médiatrice de $[HI]$. Quelle propriété permet cette conclusion ?",
-      "image": null,
-      "choix": [
-        "La somme des angles vaut $180°$",
-        "Tout point équidistant de $H$ et $I$ est sur la médiatrice de $[HI]$",
-        "Le théorème de Pythagore",
-        "L'inégalité triangulaire"
-      ],
-      "reponse": "Tout point équidistant de $H$ et $I$ est sur la médiatrice de $[HI]$",
-      "explication": "[Question générée] $GH = GI$ signifie que $G$ est équidistant de $H$ et $I$. Par la propriété caractéristique de la médiatrice, $G$ appartient à la médiatrice de $[HI]$."
-    },
-    {
-      "id": "gt5_n3_028",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Pour le triangle ABC rectangle en B ($AB = 3$ cm, $BC = 4$ cm), le rayon du cercle circonscrit est :",
-      "image": null,
-      "choix": [
-        "$3$ cm",
-        "$4$ cm",
-        "$2{,}5$ cm",
-        "$5$ cm"
-      ],
-      "reponse": "$2{,}5$ cm",
-      "explication": "[Question générée] $AC = \\sqrt{3^{2} + 4^{2}} = \\sqrt{25} = 5$ cm. Le rayon du cercle circonscrit est $R = \\dfrac{AC}{2} = 2{,}5$ cm."
-    },
-    {
-      "id": "gt5_n3_029",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] On construit un triangle KLM avec $KL = 10$ cm, $LM = 6$ cm, $KM = 8$ cm. Ce triangle est-il constructible ? Si oui, quelle est sa nature ?",
-      "image": null,
-      "choix": [
-        "Non constructible car $10 > 6 + 8$",
-        "Constructible et rectangle car $6^{2} + 8^{2} = 10^{2}$",
-        "Constructible et équilatéral",
-        "Constructible et isocèle uniquement"
-      ],
-      "reponse": "Constructible et rectangle car $6^{2} + 8^{2} = 10^{2}$",
-      "explication": "[Question générée] Constructibilité : $10 < 6 + 8 = 14$ ✓. Nature : $6^{2} + 8^{2} = 36 + 64 = 100 = 10^{2}$. Par la réciproque de Pythagore, ce triangle est rectangle en $M$."
-    },
-    {
-      "id": "gt5_n3_030",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "[Question générée] Dans un triangle ABC, si on trace les 3 médiatrices (intersection en $O$), les 3 hauteurs (intersection en $H$) et les 3 médianes (intersection en $G$), dans quel ordre $O$, $G$, $H$ se trouvent-ils sur la droite d'Euler ?",
-      "image": null,
-      "choix": [
-        "$H$, $O$, $G$ dans cet ordre",
-        "$O$, $G$, $H$ dans cet ordre avec $OG = \\dfrac{1}{2} GH$",
-        "$G$, $O$, $H$ dans cet ordre",
-        "Ils ne sont pas alignés en général"
-      ],
-      "reponse": "$O$, $G$, $H$ dans cet ordre avec $OG = \\dfrac{1}{2} GH$",
-      "explication": "[Question générée] Sur la droite d'Euler, le centre de gravité $G$ est entre $O$ et $H$, avec $OG = \\dfrac{1}{2} GH$ (le centre de gravité est au tiers de $OH$ à partir de $O$)."
+      "explication": "$\\widehat{PQR} = \\widehat{PRQ} = \\dfrac{180° - 100°}{2} = \\dfrac{80°}{2} = 40°$."
     }
 
   ]
