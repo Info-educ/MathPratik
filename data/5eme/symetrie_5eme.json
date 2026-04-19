@@ -361,22 +361,6 @@
       "explication": "La symétrie axiale se définit par rapport à une droite $(d)$ appelée axe. La symétrie centrale se définit par rapport à un point $O$ appelé centre. Ce sont deux transformations géométriques distinctes."
     },
     {
-      "id": "sym5_n1_023",
-      "niveau": 1,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le parallélogramme $ABCD$, les codages rouges sur $AO$, $OC$, $BO$, $OD$ indiquent :",
-      "image": "5eme/symetrie/022f333cf9915994171f5c2be40442b94f58e00a.png",
-      "choix": [
-        "$AO > OC$ et $BO > OD$",
-        "$AO = OC$ ($O$ milieu de $[AC]$) et $BO = OD$ ($O$ milieu de $[BD]$)",
-        "Les diagonales sont perpendiculaires",
-        "$AO = BO$"
-      ],
-      "reponse": "$AO = OC$ ($O$ milieu de $[AC]$) et $BO = OD$ ($O$ milieu de $[BD]$)",
-      "explication": "Dans un parallélogramme, les diagonales se coupent en leur milieu. Le point $O$ est donc le milieu de chaque diagonale : $AO = OC$ et $BO = OD$. Cela signifie que $O$ est le centre de symétrie du parallélogramme."
-    },
-    {
       "id": "sym5_n1_024",
       "niveau": 1,
       "type": "qcm",
@@ -394,7 +378,7 @@
     },
     {
       "id": "sym5_n1_025",
-      "niveau": 1,
+      "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Après une translation de vecteur $(3\\,;\\,2)$, le point $A(1\\,;\\,5)$ a pour image $A'$ de coordonnées :",
@@ -559,7 +543,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le carré $ABCD$ de centre $O$, les diagonales $[AC]$ et $[BD]$ se coupent en $O$. Le symétrique de $A$ par rapport à $O$ est $C$, et le symétrique de $B$ est $D$. Que peut-on dire de $O$ ?",
-      "image": "5eme/symetrie/6b1091243a3da99e34a4d6ddbc9b62718616e9d3.png",
+      "image": null,
       "choix": [
         "$O$ est uniquement le milieu de $[AC]$",
         "$O$ est le centre de symétrie du carré",
@@ -671,7 +655,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Dans le carré $ABCD$ de centre $O$, quel est le symétrique de $B$ par rapport à $O$ ?",
-      "image": "5eme/symetrie/6b1091243a3da99e34a4d6ddbc9b62718616e9d3.png",
+      "image": null,
       "choix": [
         "$A$",
         "$C$",
@@ -714,22 +698,6 @@
       "explication": "Pour une translation de vecteur $(5\\,;\\,-2)$, on ajoute les composantes : $M'(3+5\\,;\\,4+(-2)) = M'(8\\,;\\,2)$."
     },
     {
-      "id": "sym5_n2_015",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Si $A(2\\,;\\,5)$ a pour symétrique $A'(8\\,;\\,5)$ par rapport à un axe vertical $x = k$, quelle est la valeur de $k$ ?",
-      "image": null,
-      "choix": [
-        "$k = 4$",
-        "$k = 5$",
-        "$k = 6$",
-        "$k = 3$"
-      ],
-      "reponse": "$k = 5$",
-      "explication": "L'axe de symétrie est la médiatrice de $[AA']$. Le milieu de $[AA']$ a pour abscisse $\\dfrac{2+8}{2} = \\dfrac{10}{2} = 5$. Donc $k = 5$."
-    },
-    {
       "id": "sym5_n2_016",
       "niveau": 2,
       "type": "qcm",
@@ -746,38 +714,6 @@
       "explication": "La translation conserve toutes les longueurs. Puisque $AB = BC = CA$, on a $A'B' = B'C' = C'A'$. Le triangle image est donc aussi équilatéral."
     },
     {
-      "id": "sym5_n2_017",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$A(1\\,;\\,3)$, $B(4\\,;\\,2)$, $C(2\\,;\\,6)$. L'axe $(d)$ est la droite $x = 5$. Quelles sont les coordonnées de $A'$, image de $A$ par symétrie axiale par rapport à $(d)$ ?",
-      "image": null,
-      "choix": [
-        "$A'(1\\,;\\,3)$",
-        "$A'(5\\,;\\,3)$",
-        "$A'(9\\,;\\,3)$",
-        "$A'(10\\,;\\,3)$"
-      ],
-      "reponse": "$A'(9\\,;\\,3)$",
-      "explication": "Pour une symétrie par rapport à la droite $x = 5$ : l'ordonnée reste inchangée ($y' = 3$) et l'abscisse devient $x' = 2 \\times 5 - 1 = 10 - 1 = 9$. Donc $A'(9\\,;\\,3)$."
-    },
-    {
-      "id": "sym5_n2_018",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$A(1\\,;\\,3)$, centre $O(5\\,;\\,4)$. Quelles sont les coordonnées de $A'$, image de $A$ par symétrie centrale de centre $O$ ?",
-      "image": null,
-      "choix": [
-        "$A'(5\\,;\\,4)$",
-        "$A'(9\\,;\\,5)$",
-        "$A'(4\\,;\\,1)$",
-        "$A'(10\\,;\\,8)$"
-      ],
-      "reponse": "$A'(9\\,;\\,5)$",
-      "explication": "Pour une symétrie centrale de centre $O(5\\,;\\,4)$ : $x' = 2 \\times 5 - 1 = 9$ et $y' = 2 \\times 4 - 3 = 5$. Donc $A'(9\\,;\\,5)$."
-    },
-    {
       "id": "sym5_n2_019",
       "niveau": 2,
       "type": "qcm",
@@ -792,22 +728,6 @@
       ],
       "reponse": "$B'(7\\,;\\,1)$",
       "explication": "Translation de vecteur $(3\\,;\\,-1)$ : $B'(4+3\\,;\\,2+(-1)) = B'(7\\,;\\,1)$."
-    },
-    {
-      "id": "sym5_n2_020",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$A(0\\,;\\,0)$ et $A'(4\\,;\\,-2)$. Quel vecteur de translation transforme $A$ en $A'$ ? Appliqué à $B(3\\,;\\,5)$, on obtient $B'$ de coordonnées :",
-      "image": null,
-      "choix": [
-        "$B'(7\\,;\\,3)$",
-        "$B'(-1\\,;\\,7)$",
-        "$B'(12\\,;\\,-10)$",
-        "$B'(7\\,;\\,-3)$"
-      ],
-      "reponse": "$B'(7\\,;\\,3)$",
-      "explication": "Le vecteur est $(4\\,;\\,-2)$ (coordonnées de $\\overrightarrow{AA'}$). Appliqué à $B(3\\,;\\,5)$ : $B'(3+4\\,;\\,5+(-2)) = B'(7\\,;\\,3)$."
     },
     {
       "id": "sym5_n2_021",
@@ -831,7 +751,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "On donne le carré $ABCD$ de centre $O$. Combien de symétries centrales de centre $O$ envoient $ABCD$ sur lui-même ?",
-      "image": "5eme/symetrie/6b1091243a3da99e34a4d6ddbc9b62718616e9d3.png",
+      "image": null,
       "choix": [
         "$1$",
         "$2$",
@@ -906,38 +826,6 @@
       "explication": "Périmètre de $ABC = AB + BC + CA$ et périmètre de $A'B'C' = A'B' + B'C' + C'A'$. Puisque $AB = A'B'$, $BC = B'C'$, $CA = C'A'$, les deux périmètres sont égaux."
     },
     {
-      "id": "sym5_n2_027",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "$A(1\\,;\\,3)$, $B(4\\,;\\,2)$, $C(2\\,;\\,6)$. Centre $O(5\\,;\\,4)$. Quelles sont les coordonnées de $B'$, image de $B$ par symétrie centrale ?",
-      "image": null,
-      "choix": [
-        "$B'(6\\,;\\,6)$",
-        "$B'(9\\,;\\,5)$",
-        "$B'(1\\,;\\,6)$",
-        "$B'(10\\,;\\,8)$"
-      ],
-      "reponse": "$B'(6\\,;\\,6)$",
-      "explication": "Pour une symétrie centrale de centre $O(5\\,;\\,4)$ : $x' = 2 \\times 5 - 4 = 6$ et $y' = 2 \\times 4 - 2 = 6$. Donc $B'(6\\,;\\,6)$."
-    },
-    {
-      "id": "sym5_n2_028",
-      "niveau": 2,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la figure de la symétrie axiale du triangle, on voit les codages rouges $AH = HA'$, $BK = KB'$, $CL = LC'$. Que signifient ces trois codages ?",
-      "image": "5eme/symetrie/b1d059e1b6bbaa70c51942e7f186d42f80f7cc6b.png",
-      "choix": [
-        "$AH = BK = CL$",
-        "Chaque point et son image sont équidistants de l'axe",
-        "L'axe passe par les milieux du triangle",
-        "Les segments $[AH]$, $[BK]$, $[CL]$ ont la même longueur"
-      ],
-      "reponse": "Chaque point et son image sont équidistants de l'axe",
-      "explication": "$AH = HA'$ signifie que $A$ et $A'$ sont à égale distance de l'axe ($H$ est le milieu de $[AA']$). De même pour $B$, $B'$ et $C$, $C'$. C'est la définition de la symétrie axiale."
-    },
-    {
       "id": "sym5_n2_029",
       "niveau": 2,
       "type": "qcm",
@@ -969,30 +857,13 @@
       "reponse": "$AA' = 8$ cm",
       "explication": "$O$ est le milieu de $[AA']$, donc $AA' = AO + OA' = 4 + 4 = 8$ cm."
     },
-
-    {
-      "id": "sym5_n3_001",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Sur la figure corrigée de la symétrie axiale, les codages montrent $AB = A'B'$, $BC = B'C'$, $CA = C'A'$. Quelle est la raison qui permet d'affirmer que les triangles $ABC$ et $A'B'C'$ sont superposables ?",
-      "image": "5eme/symetrie/b1d059e1b6bbaa70c51942e7f186d42f80f7cc6b.png",
-      "choix": [
-        "Car ils ont la même couleur dans la figure",
-        "Car trois côtés deux à deux égaux impliquent que les triangles sont superposables (critère SSS)",
-        "Car l'un est à gauche et l'autre à droite de l'axe",
-        "Car leurs périmètres sont égaux, donc ils sont identiques"
-      ],
-      "reponse": "Car trois côtés deux à deux égaux impliquent que les triangles sont superposables (critère SSS)",
-      "explication": "Le critère de congruence SSS (Side-Side-Side) affirme que si trois côtés d'un triangle sont respectivement égaux aux trois côtés d'un autre triangle, les deux triangles sont superposables. Ici $AB = A'B'$, $BC = B'C'$, $CA = C'A'$ suffisent pour conclure."
-    },
     {
       "id": "sym5_n3_002",
       "niveau": 3,
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "ABCD est un parallélogramme. On veut montrer que $A$ et $C$ sont symétriques par rapport au milieu $O$ des diagonales. Quelle propriété du parallélogramme justifie cela ?",
-      "image": "5eme/symetrie/022f333cf9915994171f5c2be40442b94f58e00a.png",
+      "image": null,
       "choix": [
         "Les côtés opposés sont parallèles",
         "Les diagonales d'un parallélogramme se coupent en leur milieu",
@@ -1040,7 +911,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Si $O$ est le milieu de $[AC]$ et de $[BD]$, quelle figure ABCD forme-t-on nécessairement ?",
-      "image": "5eme/symetrie/022f333cf9915994171f5c2be40442b94f58e00a.png",
+      "image": null,
       "choix": [
         "Un rectangle",
         "Un carré",
@@ -1049,22 +920,6 @@
       ],
       "reponse": "Un parallélogramme",
       "explication": "Si les diagonales $[AC]$ et $[BD]$ se coupent en leur milieu $O$, alors $ABCD$ est un parallélogramme (c'est une caractérisation du parallélogramme). On ne peut pas conclure que c'est un rectangle, un carré ou un losange sans information supplémentaire."
-    },
-    {
-      "id": "sym5_n3_006",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Une figure $F$ a un axe de symétrie $(d)$. Si on lui applique la symétrie axiale par rapport à $(d)$, on obtient $F'$. Que peut-on affirmer sur $F'$ ?",
-      "image": null,
-      "choix": [
-        "$F'$ est différente de $F$",
-        "$F' = F$ (la figure est invariante par cette symétrie)",
-        "$F'$ est l'image miroir de $F$ de l'autre côté de $(d)$, donc différente",
-        "$F'$ a une aire différente de $F$"
-      ],
-      "reponse": "$F' = F$ (la figure est invariante par cette symétrie)",
-      "explication": "Par définition, $(d)$ est un axe de symétrie de $F$ si et seulement si la symétrie axiale par rapport à $(d)$ envoie $F$ sur elle-même. Donc $F' = F$ : la figure est invariante (inchangée) par cette transformation."
     },
     {
       "id": "sym5_n3_007",
@@ -1097,22 +952,6 @@
       ],
       "reponse": "$2$ axes et un centre de symétrie",
       "explication": "Un rectangle non carré possède exactement $2$ axes de symétrie (les deux axes passant par les milieux des côtés opposés). Il possède aussi un centre de symétrie : l'intersection de ses diagonales. Un carré, lui, aurait $4$ axes de symétrie."
-    },
-    {
-      "id": "sym5_n3_009",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On effectue la composition de deux symétries axiales par rapport au même axe $(d)$ : $M \\to M'$ puis $M' \\to M''$. Quel est le résultat ?",
-      "image": null,
-      "choix": [
-        "$M'' = M'$",
-        "$M''$ est le symétrique de $M$ par rapport à un nouveau point",
-        "$M'' = M$ (la composition de deux symétries axiales identiques est l'identité)",
-        "$M''$ est sur l'axe $(d)$"
-      ],
-      "reponse": "$M'' = M$ (la composition de deux symétries axiales identiques est l'identité)",
-      "explication": "Appliquer deux fois la même symétrie axiale revient à ne rien faire : c'est l'identité. Si sym$(M) = M'$ par rapport à $(d)$, alors sym$(M') = M$, donc $M'' = M$. On dit que la symétrie axiale est une involution."
     },
     {
       "id": "sym5_n3_010",
@@ -1152,7 +991,7 @@
       "type": "qcm",
       "avec_calculatrice": false,
       "enonce_html": "Un carré $ABCD$ a un centre $O$. Combien de symétries centrales de centre $O$ envoient $ABCD$ sur lui-même ? Et combien d'axes de symétrie a-t-il ?",
-      "image": "5eme/symetrie/6b1091243a3da99e34a4d6ddbc9b62718616e9d3.png",
+      "image": null,
       "choix": [
         "$1$ symétrie centrale et $2$ axes",
         "$2$ symétries centrales et $4$ axes",
@@ -1195,38 +1034,6 @@
       "explication": "La symétrie axiale inverse l'orientation ET place les deux figures de part et d'autre d'un axe. La symétrie centrale aussi inverse l'orientation mais utilise un point (centre). La translation ne retourne pas. L'axe est caractéristique de la symétrie axiale."
     },
     {
-      "id": "sym5_n3_015",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans le triangle $ABC$ rectangle en $A$, on effectue la symétrie centrale de centre $O$ milieu de $[BC]$. Qu'est-ce que le quadrilatère $ABCA'B'C'$ (où $A'$, $B'$, $C'$ sont les images) ?",
-      "image": null,
-      "choix": [
-        "Un triangle",
-        "Un rectangle (car les diagonales se coupent en leur milieu et l'angle droit est conservé)",
-        "Un losange",
-        "Un trapèze"
-      ],
-      "reponse": "Un rectangle (car les diagonales se coupent en leur milieu et l'angle droit est conservé)",
-      "explication": "Le quadrilatère $ABA'B'$ (avec $O$ milieu de $[BB']$) est un parallélogramme. De plus, la symétrie centrale conserve l'angle droit : $\\widehat{B'A'C'} = 90°$. On peut montrer que le quadrilatère est un rectangle. [Question générée]"
-    },
-    {
-      "id": "sym5_n3_016",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Soit $M(2\\,;\\,3)$. On effectue d'abord une symétrie centrale de centre $O(4\\,;\\,5)$, puis une autre symétrie centrale de centre $O'(1\\,;\\,2)$. Quelles sont les coordonnées du résultat final ?",
-      "image": null,
-      "choix": [
-        "$(2\\,;\\,3)$ (on revient au départ)",
-        "$(4\\,;\\,5)$",
-        "$(-2\\,;\\,1)$",
-        "$(0\\,;\\,0)$"
-      ],
-      "reponse": "$(-2\\,;\\,1)$",
-      "explication": "Étape 1 : sym centrale de centre $O(4\\,;\\,5)$ : $M' = (2 \\times 4 - 2\\,;\\,2 \\times 5 - 3) = (6\\,;\\,7)$. Étape 2 : sym centrale de centre $O'(1\\,;\\,2)$ : $M'' = (2 \\times 1 - 6\\,;\\,2 \\times 2 - 7) = (-4\\,;\\,-3)$. Attention : la composition de deux symétries centrales différentes est une translation, pas un retour au départ. [Question générée]"
-    },
-    {
       "id": "sym5_n3_017",
       "niveau": 3,
       "type": "qcm",
@@ -1240,71 +1047,7 @@
         "Le triangle équilatéral"
       ],
       "reponse": "Le triangle équilatéral",
-      "explication": "Le parallélogramme, le rectangle et le cercle possèdent tous un centre de symétrie. En revanche, un triangle équilatéral possède $3$ axes de symétrie mais pas de centre de symétrie : aucun demi-tour n'envoie le triangle sur lui-même. [Question générée]"
-    },
-    {
-      "id": "sym5_n3_018",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On veut démontrer que si $\\overrightarrow{AA'} = \\overrightarrow{BB'}$ (translation), alors $AA'B'B$ est un parallélogramme. Quelle propriété du parallélogramme utilise-t-on ?",
-      "image": null,
-      "choix": [
-        "Les diagonales sont perpendiculaires",
-        "Un quadrilatère est un parallélogramme si et seulement si ses diagonales se coupent en leur milieu",
-        "Les angles sont tous droits",
-        "Les côtés sont tous égaux"
-      ],
-      "reponse": "Un quadrilatère est un parallélogramme si et seulement si ses diagonales se coupent en leur milieu",
-      "explication": "Si $\\overrightarrow{AA'} = \\overrightarrow{BB'}$, alors le milieu de $[AB']$ est $\\left(\\dfrac{x_A + x_{B'}}{2}\\,;\\,...\\right)$ et le milieu de $[A'B]$ est le même point. Les diagonales de $AA'B'B$ se coupent en leur milieu : c'est donc un parallélogramme. [Question générée]"
-    },
-    {
-      "id": "sym5_n3_019",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "La symétrie axiale par rapport à la droite $y = x$ transforme le point $A(3\\,;\\,7)$ en :",
-      "image": null,
-      "choix": [
-        "$A'(3\\,;\\,7)$",
-        "$A'(7\\,;\\,3)$",
-        "$A'(-3\\,;\\,-7)$",
-        "$A'(-7\\,;\\,-3)$"
-      ],
-      "reponse": "$A'(7\\,;\\,3)$",
-      "explication": "La symétrie par rapport à la droite $y = x$ échange les coordonnées : si $A(a\\,;\\,b)$ alors $A'(b\\,;\\,a)$. Donc $A(3\\,;\\,7) \\to A'(7\\,;\\,3)$. [Question générée]"
-    },
-    {
-      "id": "sym5_n3_020",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "On applique une symétrie axiale par rapport à l'axe des ordonnées ($x = 0$) au point $P(5\\,;\\,-3)$. On obtient $P'$. Puis on applique une symétrie axiale par rapport à l'axe des abscisses ($y = 0$) à $P'$. On obtient $P''$. Quelles sont les coordonnées de $P''$ ?",
-      "image": null,
-      "choix": [
-        "$P''(5\\,;\\,-3)$",
-        "$P''(-5\\,;\\,3)$",
-        "$P''(-5\\,;\\,-3)$",
-        "$P''(5\\,;\\,3)$"
-      ],
-      "reponse": "$P''(-5\\,;\\,3)$",
-      "explication": "Étape 1 : symétrie par rapport à $x = 0$ : $P(5\\,;\\,-3) \\to P'(-5\\,;\\,-3)$ (on change le signe de l'abscisse). Étape 2 : symétrie par rapport à $y = 0$ : $P'(-5\\,;\\,-3) \\to P''(-5\\,;\\,3)$ (on change le signe de l'ordonnée). [Question générée]"
-    },
-    {
-      "id": "sym5_n3_021",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Dans la figure de comparaison des trois transformations, la translation ne retourne pas la figure. Quelle est la conséquence sur l'orientation (sens de parcours $A \\to B \\to C$) ?",
-      "image": "5eme/symetrie/1daf636c69ba28bdb3b8f0c0f5735328d76d0c30.png",
-      "choix": [
-        "Le sens $A' \\to B' \\to C'$ est inversé par rapport à $A \\to B \\to C$",
-        "Le sens $A' \\to B' \\to C'$ est le même que $A \\to B \\to C$",
-        "On ne peut pas déterminer le sens sans calcul",
-        "La translation change l'orientation de $90°$"
-      ],
-      "reponse": "Le sens $A' \\to B' \\to C'$ est le même que $A \\to B \\to C$",
-      "explication": "La translation conserve l'orientation. Si on parcourt $A \\to B \\to C$ dans le sens direct (anti-horaire), alors $A' \\to B' \\to C'$ est aussi dans le sens direct. C'est la différence fondamentale avec les symétries qui inversent l'orientation."
+      "explication": "Le parallélogramme, le rectangle et le cercle possèdent tous un centre de symétrie. En revanche, un triangle équilatéral possède $3$ axes de symétrie mais pas de centre de symétrie : aucun demi-tour n'envoie le triangle sur lui-même."
     },
     {
       "id": "sym5_n3_022",
@@ -1320,39 +1063,7 @@
         "Il n'y a aucun lien"
       ],
       "reponse": "La médiatrice de $[AB]$ est l'axe de symétrie qui transforme $A$ en $B$",
-      "explication": "La médiatrice de $[AB]$ est la droite perpendiculaire à $[AB]$ passant par son milieu. C'est exactement l'axe de symétrie axiale qui envoie $A$ sur $B$ (et $B$ sur $A$). [Question générée]"
-    },
-    {
-      "id": "sym5_n3_023",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un triangle $ABC$ a des côtés $AB = 6$ cm, $BC = 8$ cm, $CA = 10$ cm. On effectue une symétrie centrale de centre $O$ milieu de $[BC]$. Quel est le périmètre du quadrilatère $ABB'A'$ obtenu (où $A'$ et $B'$ sont les images de $A$ et $B$) ?",
-      "image": null,
-      "choix": [
-        "$12$ cm",
-        "$24$ cm",
-        "$28$ cm",
-        "$48$ cm"
-      ],
-      "reponse": "$28$ cm",
-      "explication": "La symétrie centrale de centre $O$ milieu de $[BC]$ : l'image de $B$ est $C$ et l'image de $C$ est $B$. L'image de $A$ est $A'$ avec $AO = OA'$. Le quadrilatère $ABCA'$ (en passant par $C$) a pour périmètre $AB + BC + CA' + A'A$. On a $CA' = AB = 6$, $A'A$ dépend de la position... En fait $ABB'A'$ : $AB + BB' + B'A' + A'A$. $BB' = BC = 8$, $AB = A'B' = 6$, $AA'$ = ? C'est plus complexe. Par simplification : périmètre = $2(AB + CA) = 2(6+10) = 28$ cm car $ABB'A'$ est un parallélogramme. [Question générée]"
-    },
-    {
-      "id": "sym5_n3_024",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Si on effectue deux translations successives : d'abord le vecteur $\\overrightarrow{u}(2\\,;\\,3)$ puis le vecteur $\\overrightarrow{v}(-1\\,;\\,5)$, quel est le vecteur résultant ?",
-      "image": null,
-      "choix": [
-        "$(2\\,;\\,3)$",
-        "$(-1\\,;\\,5)$",
-        "$(1\\,;\\,8)$",
-        "$(3\\,;\\,-2)$"
-      ],
-      "reponse": "$(1\\,;\\,8)$",
-      "explication": "La composition de deux translations de vecteurs $\\overrightarrow{u}$ et $\\overrightarrow{v}$ est la translation de vecteur $\\overrightarrow{u} + \\overrightarrow{v}$. Ici : $(2 + (-1)\\,;\\,3 + 5) = (1\\,;\\,8)$. [Question générée]"
+      "explication": "La médiatrice de $[AB]$ est la droite perpendiculaire à $[AB]$ passant par son milieu. C'est exactement l'axe de symétrie axiale qui envoie $A$ sur $B$ (et $B$ sur $A$)."
     },
     {
       "id": "sym5_n3_025",
@@ -1368,23 +1079,7 @@
         "Le segment $[PQ]$ lui-même"
       ],
       "reponse": "Le segment $[P'Q']$ où $P'$ et $Q'$ sont les symétriques de $P$ et $Q$",
-      "explication": "La symétrie axiale transforme chaque point de $[PQ]$ en son symétrique. L'image du segment $[PQ]$ est le segment $[P'Q']$ reliant les images de ses extrémités. De plus, $P'Q' = PQ$ (conservation des longueurs). [Question générée]"
-    },
-    {
-      "id": "sym5_n3_026",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Un point $A(a\\,;\\,b)$ a pour symétrique $A'$ par rapport au centre $O$ d'origine $(0\\,;\\,0)$. Quelles sont les coordonnées de $A'$ ?",
-      "image": null,
-      "choix": [
-        "$A'(a\\,;\\,b)$",
-        "$A'(-a\\,;\\,b)$",
-        "$A'(-a\\,;\\,-b)$",
-        "$A'(b\\,;\\,a)$"
-      ],
-      "reponse": "$A'(-a\\,;\\,-b)$",
-      "explication": "Pour la symétrie centrale de centre $O(0\\,;\\,0)$ : $x' = 2 \\times 0 - a = -a$ et $y' = 2 \\times 0 - b = -b$. Donc $A'(-a\\,;\\,-b)$. C'est l'opposé du vecteur $\\overrightarrow{OA}$. [Question générée]"
+      "explication": "La symétrie axiale transforme chaque point de $[PQ]$ en son symétrique. L'image du segment $[PQ]$ est le segment $[P'Q']$ reliant les images de ses extrémités. De plus, $P'Q' = PQ$ (conservation des longueurs)."
     },
     {
       "id": "sym5_n3_027",
@@ -1397,10 +1092,10 @@
         "La symétrie axiale",
         "La symétrie centrale",
         "La translation",
-        "L'homothétie de rapport $2$"
+        "Aucune des trois"
       ],
-      "reponse": "L'homothétie de rapport $2$",
-      "explication": "Les trois transformations étudiées (symétrie axiale, symétrie centrale, translation) sont des isométries : elles conservent toutes les longueurs. L'homothétie de rapport $2$ multiplie toutes les longueurs par $2$ : ce n'est donc pas une isométrie. [Question générée]"
+      "reponse": "Aucune des trois",
+      "explication": "Les trois transformations étudiées (symétrie axiale, symétrie centrale, translation) sont des isométries : elles conservent toutes les longueurs. L'homothétie de rapport $2$ multiplie toutes les longueurs par $2$ : ce n'est donc pas une isométrie."
     },
     {
       "id": "sym5_n3_028",
@@ -1411,28 +1106,12 @@
       "image": null,
       "choix": [
         "Le triangle est rectangle en $A$",
-        "Le triangle est isocèle en $A$ ($AB = AC$)",
+        "Le triangle est isocèle en $A$",
         "Le triangle est équilatéral",
         "Le triangle est quelconque"
       ],
-      "reponse": "Le triangle est isocèle en $A$ ($AB = AC$)",
-      "explication": "Si la droite $(BC)$ est un axe de symétrie du triangle $ABC$, alors $A$ est sur la médiatrice de $[BC]$ (ou bien $A$ est son propre symétrique). Dans ce cas, $A$ est équidistant de $B$ et $C$ : $AB = AC$. Le triangle est isocèle en $A$. [Question générée]"
-    },
-    {
-      "id": "sym5_n3_029",
-      "niveau": 3,
-      "type": "qcm",
-      "avec_calculatrice": false,
-      "enonce_html": "Soit $M$ un point et $O$ un centre de symétrie. Si on effectue successivement deux symétries centrales par rapport à $O$ : $M \\to M'$ puis $M' \\to M''$. Quelle est la transformation obtenue ?",
-      "image": null,
-      "choix": [
-        "Une translation de vecteur $\\overrightarrow{MM'}$",
-        "Une symétrie axiale",
-        "L'identité (chaque point reste en place)",
-        "Une rotation de $90°$"
-      ],
-      "reponse": "L'identité (chaque point reste en place)",
-      "explication": "Appliquer deux fois la même symétrie centrale (même centre $O$) redonne le point initial : $M'' = M$. C'est l'identité. La symétrie centrale est son propre inverse : $f \\circ f = \\text{identité}$. [Question générée]"
+      "reponse": "Le triangle est isocèle en $A$",
+      "explication": "Si la droite $(BC)$ est un axe de symétrie du triangle $ABC$, alors $A$ est sur la médiatrice de $[BC]$ (ou bien $A$ est son propre symétrique). Dans ce cas, $A$ est équidistant de $B$ et $C$ : $AB = AC$. Le triangle est isocèle en $A$."
     },
     {
       "id": "sym5_n3_030",
@@ -1448,7 +1127,7 @@
         "Une rotation"
       ],
       "reponse": "Une translation",
-      "explication": "Les caractéristiques observées (vecteurs $\\overrightarrow{AA'} = \\overrightarrow{BB'} = \\overrightarrow{CC'}$ : même longueur, même direction, même sens) sont exactement la définition de la translation. [Question générée]"
+      "explication": "Les caractéristiques observées (vecteurs $\\overrightarrow{AA'} = \\overrightarrow{BB'} = \\overrightarrow{CC'}$ : même longueur, même direction, même sens) sont exactement la définition de la translation."
     }
   ]
 }
