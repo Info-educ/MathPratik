@@ -144,22 +144,6 @@
       "image": null
     },
     {
-      "id": "aut_28_09",
-      "niveau": 1,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $3 + 2x + 5 - x$",
-      "choix": [
-        "$-x + 8$",
-        "$x + 8$",
-        "$3x + 7$"
-      ],
-      "reponse": "$x + 8$",
-      "explication": "$(2x - x) + (3+5) = x + 8$.",
-      "image": null
-    },
-    {
       "id": "aut_28_10",
       "niveau": 1,
       "type": "qcm",
@@ -347,57 +331,6 @@
       "image": null
     },
     {
-      "id": "aut_28_21",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $(x+2)(x-2)$",
-      "choix": [
-        "$x^2 - 4$",
-        "$x^2 + 4$",
-        "$x^2 - 2$",
-        "$x^2 - 2x$"
-      ],
-      "reponse": "$x^2 - 4$",
-      "explication": "Identité remarquable : $(a+b)(a-b) = a^2 - b^2 = x^2 - 4$.",
-      "image": null
-    },
-    {
-      "id": "aut_28_22",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $(x+3)^2$",
-      "choix": [
-        "$x^2 + 6x + 6$",
-        "$x^2 + 3x + 9$",
-        "$x^2 + 6x + 9$",
-        "$x^2 + 9$"
-      ],
-      "reponse": "$x^2 + 6x + 9$",
-      "explication": "$(a+b)^2 = a^2 + 2ab + b^2 = x^2 + 6x + 9$.",
-      "image": null
-    },
-    {
-      "id": "aut_28_23",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $(2a - 1)^2$",
-      "choix": [
-        "$4a^2 - 4a + 1$",
-        "$4a^2 - 4a - 1$",
-        "$2a^2 - 1$",
-        "$4a^2 + 1$"
-      ],
-      "reponse": "$4a^2 - 4a + 1$",
-      "explication": "$(2a-1)^2 = 4a^2 - 2 \\times 2a \\times 1 + 1 = 4a^2 - 4a + 1$.",
-      "image": null
-    },
-    {
       "id": "aut_28_24",
       "niveau": 3,
       "type": "qcm",
@@ -429,91 +362,6 @@
       ],
       "reponse": "$\\dfrac{5a}{4}$",
       "explication": "$\\dfrac{6a}{4} - \\dfrac{a}{4} = \\dfrac{5a}{4}$.",
-      "image": null
-    },
-    {
-      "id": "aut_28_26",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $(x+1)(x+4) - x^2$",
-      "choix": [
-        "$x^2 + 5x + 4$",
-        "$4x + 4$",
-        "$5x - 4$",
-        "$5x + 4$"
-      ],
-      "reponse": "$5x + 4$",
-      "explication": "$x^2 + 5x + 4 - x^2 = 5x + 4$.",
-      "image": null
-    },
-    {
-      "id": "aut_28_27",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $2(a+b)^2 - 2a^2 - 2b^2$ (développer et réduire)",
-      "choix": [
-        "$4ab$",
-        "$-4ab$",
-        "$0$",
-        "$2ab$"
-      ],
-      "reponse": "$4ab$",
-      "explication": "$2(a^2 + 2ab + b^2) - 2a^2 - 2b^2 = 2a^2 + 4ab + 2b^2 - 2a^2 - 2b^2 = 4ab$.",
-      "image": null
-    },
-    {
-      "id": "aut_28_28",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $4(x-3) - 3(x+2) + 2(x-1)$",
-      "choix": [
-        "$3x + 20$",
-        "$3x - 20$",
-        "$3x - 16$",
-        "$x - 20$"
-      ],
-      "reponse": "$3x - 20$",
-      "explication": "$4x-12-3x-6+2x-2 = 3x - 20$.",
-      "image": null
-    },
-    {
-      "id": "aut_28_29",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $a^2 + 2ab + b^2 - (a+b)^2$",
-      "choix": [
-        "$2a^2b^2$",
-        "$2ab$",
-        "$a^2 + b^2$",
-        "$0$"
-      ],
-      "reponse": "$0$",
-      "explication": "$(a+b)^2 = a^2 + 2ab + b^2$. $a^2 + 2ab + b^2 - (a+b)^2 = 0$.",
-      "image": null
-    },
-    {
-      "id": "aut_28_30",
-      "niveau": 3,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Réduis : $\\dfrac{a+b}{2} - \\dfrac{a-b}{2}$",
-      "choix": [
-        "$a$",
-        "$a-b$",
-        "$b$",
-        "$a+b$"
-      ],
-      "reponse": "$b$",
-      "explication": "$\\dfrac{(a+b)-(a-b)}{2} = \\dfrac{2b}{2} = b$.",
       "image": null
     },
     {
