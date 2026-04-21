@@ -22,7 +22,7 @@
       ],
       "reponse": "$300\\,\\mathrm{cm}$",
       "explication": "$\\mathrm{m} \\rightarrow \\mathrm{cm}$ : $\\times 100$. $3 \\times 100 = 300\\,\\mathrm{cm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q01.png"
     },
     {
       "id": "aut_30_02",
@@ -39,7 +39,7 @@
       ],
       "reponse": "$2{,}5\\,\\mathrm{m}$",
       "explication": "$\\mathrm{cm} \\rightarrow \\mathrm{m}$ : $\\div 100$. $250 \\div 100 = 2{,}5\\,\\mathrm{m}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q02.png"
     },
     {
       "id": "aut_30_03",
@@ -56,7 +56,7 @@
       ],
       "reponse": "$4\\,000\\,\\mathrm{g}$",
       "explication": "$\\mathrm{kg} \\rightarrow \\mathrm{g}$ : $\\times 1\\,000$. $4 \\times 1\\,000 = 4\\,000\\,\\mathrm{g}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q03.png"
     },
     {
       "id": "aut_30_04",
@@ -73,7 +73,7 @@
       ],
       "reponse": "$2{,}5\\,\\mathrm{kg}$",
       "explication": "$\\mathrm{g} \\rightarrow \\mathrm{kg}$ : $\\div 1\\,000$. $2500 \\div 1000 = 2{,}5\\,\\mathrm{kg}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q04.png"
     },
     {
       "id": "aut_30_05",
@@ -90,7 +90,7 @@
       ],
       "reponse": "$300\\,\\mathrm{cL}$",
       "explication": "$\\mathrm{L} \\rightarrow \\mathrm{cL}$ : $\\times 100$. $3 \\times 100 = 300\\,\\mathrm{cL}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q05.png"
     },
     {
       "id": "aut_30_06",
@@ -107,7 +107,7 @@
       ],
       "reponse": "$500\\,\\mathrm{m}$",
       "explication": "$\\mathrm{km} \\rightarrow \\mathrm{m}$ : $\\times 1\\,000$. $0{,}5 \\times 1\\,000 = 500\\,\\mathrm{m}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q06.png"
     },
     {
       "id": "aut_30_07",
@@ -124,7 +124,7 @@
       ],
       "reponse": "$1{,}5\\,\\mathrm{L}$",
       "explication": "$\\mathrm{cL} \\rightarrow \\mathrm{L}$ : $\\div 100$. $150 \\div 100 = 1{,}5\\,\\mathrm{L}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q07.png"
     },
     {
       "id": "aut_30_08",
@@ -141,7 +141,7 @@
       ],
       "reponse": "$3{,}2\\,\\mathrm{km}$",
       "explication": "$\\mathrm{m} \\rightarrow \\mathrm{km}$ : $\\div 1\\,000$. $3200 \\div 1000 = 3{,}2\\,\\mathrm{km}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q08.png"
     },
     {
       "id": "aut_30_09",
@@ -158,7 +158,7 @@
       ],
       "reponse": "$4{,}5\\,\\mathrm{cm}$",
       "explication": "$\\mathrm{mm} \\rightarrow \\mathrm{cm}$ : $\\div 10$. $45 \\div 10 = 4{,}5\\,\\mathrm{cm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q09.png"
     },
     {
       "id": "aut_30_10",
@@ -175,7 +175,7 @@
       ],
       "reponse": "$750\\,\\mathrm{kg}$",
       "explication": "$1\\,\\mathrm{t} = 1\\,000\\,\\mathrm{kg}$. $0{,}75 \\times 1\\,000 = 750\\,\\mathrm{kg}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q10.png"
     },
     {
       "id": "aut_30_11",
@@ -192,7 +192,7 @@
       ],
       "reponse": "$2\\,400\\,\\mathrm{mm}$",
       "explication": "$\\mathrm{m} \\rightarrow \\mathrm{mm}$ : $\\times 1\\,000$. $2{,}4 \\times 1\\,000 = 2\\,400\\,\\mathrm{mm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q11.png"
     },
     {
       "id": "aut_30_12",
@@ -209,7 +209,7 @@
       ],
       "reponse": "$3{,}5\\,\\mathrm{L}$",
       "explication": "$\\mathrm{mL} \\rightarrow \\mathrm{L}$ : $\\div 1\\,000$. $3500 \\div 1000 = 3{,}5\\,\\mathrm{L}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q12.png"
     },
     {
       "id": "aut_30_13",
@@ -226,7 +226,7 @@
       ],
       "reponse": "$60\\,\\mathrm{mm}$",
       "explication": "$\\mathrm{cm} \\rightarrow \\mathrm{mm}$ : $\\times 10$. $6 \\times 10 = 60\\,\\mathrm{mm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q13.png"
     },
     {
       "id": "aut_30_14",
@@ -243,7 +243,7 @@
       ],
       "reponse": "$45\\,\\mathrm{dag}$",
       "explication": "$1\\,\\mathrm{dag} = 10\\,\\mathrm{g}$. $450 \\div 10 = 45\\,\\mathrm{dag}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q14.png"
     },
     {
       "id": "aut_30_15",
@@ -260,7 +260,7 @@
       ],
       "reponse": "$1\\,500\\,\\mathrm{mL}$",
       "explication": "$\\mathrm{L} \\rightarrow \\mathrm{mL}$ : $\\times 1\\,000$. $1{,}5 \\times 1\\,000 = 1\\,500\\,\\mathrm{mL}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q15.png"
     },
     {
       "id": "aut_30_16",
@@ -277,7 +277,7 @@
       ],
       "reponse": "$8\\,500\\,\\mathrm{m}$",
       "explication": "$\\mathrm{km} \\rightarrow \\mathrm{m}$ : $\\times 1\\,000$. $8{,}5 \\times 1\\,000 = 8\\,500\\,\\mathrm{m}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q16.png"
     },
     {
       "id": "aut_30_17",
@@ -294,7 +294,7 @@
       ],
       "reponse": "$3\\,200\\,000\\,\\mathrm{g}$",
       "explication": "$1\\,\\mathrm{t} = 1\\,000\\,\\mathrm{kg} = 1\\,000\\,000\\,\\mathrm{g}$. $3{,}2 \\times 1\\,000\\,000 = 3\\,200\\,000\\,\\mathrm{g}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q17.png"
     },
     {
       "id": "aut_30_18",
@@ -311,7 +311,7 @@
       ],
       "reponse": "$4{,}8\\,\\mathrm{dL}$",
       "explication": "$10\\,\\mathrm{cL} = 1\\,\\mathrm{dL}$. $48 \\div 10 = 4{,}8\\,\\mathrm{dL}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q18.png"
     },
     {
       "id": "aut_30_19",
@@ -328,7 +328,7 @@
       ],
       "reponse": "$320\\,\\mathrm{cm}$",
       "explication": "$3\\,\\mathrm{m} = 300\\,\\mathrm{cm}$. $300 + 20 = 320\\,\\mathrm{cm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q19.png"
     },
     {
       "id": "aut_30_20",
@@ -345,7 +345,7 @@
       ],
       "reponse": "$2\\,500\\,\\mathrm{g}$",
       "explication": "$2\\,\\mathrm{kg} = 2\\,000\\,\\mathrm{g}$. $2\\,000 + 500 = 2\\,500\\,\\mathrm{g}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q20.png"
     },
     {
       "id": "aut_30_21",
@@ -362,7 +362,7 @@
       ],
       "reponse": "$3\\,700\\,\\mathrm{cm}$",
       "explication": "$0{,}037\\,\\mathrm{km} = 37\\,\\mathrm{m} = 3\\,700\\,\\mathrm{cm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q21.png"
     },
     {
       "id": "aut_30_22",
@@ -379,7 +379,7 @@
       ],
       "reponse": "$5{,}6\\,\\mathrm{g}$",
       "explication": "$\\mathrm{mg} \\rightarrow \\mathrm{g}$ : $\\div 1\\,000$. $5600 \\div 1000 = 5{,}6\\,\\mathrm{g}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q22.png"
     },
     {
       "id": "aut_30_23",
@@ -396,7 +396,7 @@
       ],
       "reponse": "$1\\,750\\,\\mathrm{mL}$",
       "explication": "$1\\,\\mathrm{L} = 1\\,000\\,\\mathrm{mL}$ ; $75\\,\\mathrm{cL} = 750\\,\\mathrm{mL}$. Total : $1\\,750\\,\\mathrm{mL}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q23.png"
     },
     {
       "id": "aut_30_24",
@@ -413,7 +413,7 @@
       ],
       "reponse": "$8\\,040\\,\\mathrm{mm}$",
       "explication": "$8{,}04\\,\\mathrm{m} \\times 1\\,000 = 8\\,040\\,\\mathrm{mm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q24.png"
     },
     {
       "id": "aut_30_25",
@@ -447,7 +447,7 @@
       ],
       "reponse": "$5\\,000\\,\\mathrm{g}$",
       "explication": "$0{,}005\\,\\mathrm{t} = 5\\,\\mathrm{kg} = 5\\,000\\,\\mathrm{g}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q26.png"
     },
     {
       "id": "aut_30_27",
@@ -481,7 +481,7 @@
       ],
       "reponse": "$250\\,\\mathrm{cm}$",
       "explication": "$0{,}0025\\,\\mathrm{km} = 2{,}5\\,\\mathrm{m} = 250\\,\\mathrm{cm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q28.png"
     },
     {
       "id": "aut_30_29",
@@ -498,7 +498,7 @@
       ],
       "reponse": "$0{,}00435\\,\\mathrm{t}$",
       "explication": "$4\\,350\\,\\mathrm{g} = 4{,}350\\,\\mathrm{kg} = 0{,}004350\\,\\mathrm{t} = 0{,}00435\\,\\mathrm{t}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q29.png"
     },
     {
       "id": "aut_30_30",
@@ -515,7 +515,7 @@
       ],
       "reponse": "$100\\,\\mathrm{mm}$",
       "explication": "$1\\,\\mathrm{dm} = 10\\,\\mathrm{cm} = 100\\,\\mathrm{mm}$.",
-      "image": null
+      "image": "automatismes/conversion/aut_30_q30.png"
     }
   ]
 }
