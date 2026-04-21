@@ -15,10 +15,10 @@
       "chrono": 20,
       "enonce": "$\\frac{2}{3} \\times \\frac{3}{4}$= ?",
       "choix": [
-        "$\\frac{1}{3}$",
         "$\\frac{1}{2}$",
-        "$\\frac{3}{8}$",
-        "$\\frac{2}{7}$"
+        "$\\frac{2}{7}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{3}{8}$"
       ],
       "reponse": "$\\frac{1}{2}$",
       "explication": "$\\frac{6}{12}=\\frac{1}{2}$",
@@ -32,10 +32,10 @@
       "chrono": 20,
       "enonce": "$\\frac{5}{6} \\times \\frac{3}{10}$= ?",
       "choix": [
-        "$\\frac{1}{3}$",
-        "$\\frac{1}{4}$",
         "$\\frac{3}{8}$",
-        "$\\frac{1}{2}$"
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$"
       ],
       "reponse": "$\\frac{1}{4}$",
       "explication": "$\\frac{15}{60}=\\frac{1}{4}$",
@@ -49,10 +49,10 @@
       "chrono": 20,
       "enonce": "$\\frac{4}{7} \\times \\frac{7}{8}$= ?",
       "choix": [
-        "$\\frac{4}{8}$",
         "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
         "$\\frac{7}{14}$",
-        "$\\frac{1}{4}$"
+        "$\\frac{4}{8}$"
       ],
       "reponse": "$\\frac{1}{2}$",
       "explication": "$\\frac{28}{56}=\\frac{1}{2}$",
@@ -67,9 +67,9 @@
       "enonce": "$\\frac{3}{5} \\times \\frac{10}{9}$= ?",
       "choix": [
         "$\\frac{1}{3}$",
-        "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
-        "$\\frac{3}{5}$"
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{2}{3}$",
       "explication": "$\\frac{30}{45}=\\frac{2}{3}$",
@@ -83,10 +83,10 @@
       "chrono": 20,
       "enonce": "$\\frac{2}{3} \\times \\frac{9}{4}$= ?",
       "choix": [
-        "$\\frac{3}{4}$",
+        "$\\frac{9}{6}$",
         "$\\frac{3}{2}$",
         "$\\frac{6}{4}$",
-        "$\\frac{9}{6}$"
+        "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{3}{2}$",
       "explication": "$\\frac{18}{12}=\\frac{3}{2}$",
@@ -100,10 +100,10 @@
       "chrono": 20,
       "enonce": "$\\frac{5}{8} \\times \\frac{4}{15}$= ?",
       "choix": [
-        "$\\frac{1}{4}$",
-        "$\\frac{1}{6}$",
         "$\\frac{5}{6}$",
-        "$\\frac{2}{8}$"
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{8}$",
+        "$\\frac{1}{6}$"
       ],
       "reponse": "$\\frac{1}{6}$",
       "explication": "$\\frac{20}{120}=\\frac{1}{6}$",
@@ -117,10 +117,10 @@
       "chrono": 20,
       "enonce": "$\\frac{7}{9} \\times \\frac{3}{14}$= ?",
       "choix": [
+        "$\\frac{7}{18}$",
         "$\\frac{1}{3}$",
-        "$\\frac{1}{6}$",
         "$\\frac{3}{14}$",
-        "$\\frac{7}{18}$"
+        "$\\frac{1}{6}$"
       ],
       "reponse": "$\\frac{1}{6}$",
       "explication": "$\\frac{21}{126}=\\frac{1}{6}$",
@@ -134,10 +134,10 @@
       "chrono": 20,
       "enonce": "$\\frac{4}{5} \\times \\frac{15}{8}$= ?",
       "choix": [
-        "$\\frac{3}{4}$",
-        "$\\frac{3}{2}$",
         "$\\frac{4}{5}$",
-        "$\\frac{5}{4}$"
+        "$\\frac{5}{4}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{3}{4}$"
       ],
       "reponse": "$\\frac{3}{2}$",
       "explication": "$\\frac{60}{40}=\\frac{3}{2}$",
@@ -151,10 +151,10 @@
       "chrono": 20,
       "enonce": "$\\frac{3}{4} \\div \\frac{1}{2}$= ?",
       "choix": [
-        "$\\frac{3}{8}$",
+        "$\\frac{6}{4}$",
         "$\\frac{3}{2}$",
-        "$\\frac{1}{2}$",
-        "$\\frac{6}{4}$"
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{3}{2}$",
       "explication": "$\\frac{3}{4}\\times$2=$\\frac{3}{2}$",
@@ -168,10 +168,10 @@
       "chrono": 20,
       "enonce": "$\\frac{5}{6} \\div \\frac{5}{3}$= ?",
       "choix": [
+        "$\\frac{5}{6}$",
         "$\\frac{1}{3}$",
         "$\\frac{1}{2}$",
-        "$\\frac{2}{3}$",
-        "$\\frac{5}{6}$"
+        "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{2}$",
       "explication": "$\\frac{5}{6} \\times \\frac{3}{5}=\\frac{1}{2}$",
@@ -185,8 +185,8 @@
       "chrono": 20,
       "enonce": "$\\frac{2}{3} \\div \\frac{4}{9}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
         "$\\frac{2}{3}$",
+        "$\\frac{1}{2}$",
         "$\\frac{3}{2}$",
         "$\\frac{5}{4}$"
       ],
@@ -202,9 +202,9 @@
       "chrono": 20,
       "enonce": "$\\frac{7}{8} \\div \\frac{7}{4}$= ?",
       "choix": [
+        "$\\frac{7}{32}$",
         "$\\frac{1}{4}$",
         "$\\frac{1}{2}$",
-        "$\\frac{7}{32}$",
         "$\\frac{2}{3}$"
       ],
       "reponse": "$\\frac{1}{2}$",
@@ -219,10 +219,10 @@
       "chrono": 20,
       "enonce": "$\\frac{3}{5} \\div \\frac{6}{10}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
-        "1",
         "$\\frac{3}{5}$",
-        "$\\frac{5}{6}$"
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{6}$",
+        "1"
       ],
       "reponse": "1",
       "explication": "$\\frac{3}{5} \\times \\frac{10}{6}$=1",
@@ -236,10 +236,10 @@
       "chrono": 20,
       "enonce": "$\\frac{4}{7} \\div \\frac{2}{7}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
-        "2",
+        "$\\frac{8}{7}$",
         "$\\frac{4}{2}$",
-        "$\\frac{8}{7}$"
+        "$\\frac{1}{2}$",
+        "2"
       ],
       "reponse": "2",
       "explication": "$\\frac{4}{7} \\times \\frac{7}{2}$=2",
@@ -253,10 +253,10 @@
       "chrono": 20,
       "enonce": "$\\frac{9}{10} \\div \\frac{3}{5}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
-        "$\\frac{3}{2}$",
         "$\\frac{3}{10}$",
-        "$\\frac{2}{3}$"
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$"
       ],
       "reponse": "$\\frac{3}{2}$",
       "explication": "$\\frac{9}{10} \\times \\frac{5}{3}=\\frac{3}{2}$",
@@ -270,10 +270,10 @@
       "chrono": 20,
       "enonce": "$\\frac{1}{2} \\times \\frac{2}{3}\\times\\frac{3}{4}$= ?",
       "choix": [
-        "$\\frac{1}{4}$",
-        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
         "$\\frac{3}{8}$",
-        "$\\frac{1}{3}$"
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{1}{4}$",
       "explication": "$\\frac{6}{24}=\\frac{1}{4}$",
@@ -287,10 +287,10 @@
       "chrono": 20,
       "enonce": "$\\frac{2}{5} \\times \\frac{5}{6}\\times\\frac{3}{4}$= ?",
       "choix": [
-        "$\\frac{1}{4}$",
         "$\\frac{1}{2}$",
-        "$\\frac{3}{8}$",
-        "$\\frac{2}{5}$"
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{8}$"
       ],
       "reponse": "$\\frac{1}{4}$",
       "explication": "$\\frac{30}{120}=\\frac{1}{4}$",
@@ -306,8 +306,8 @@
       "choix": [
         "$\\frac{1}{2}$",
         "1",
-        "$\\frac{3}{4}$",
-        "$\\frac{5}{4}$"
+        "$\\frac{5}{4}$",
+        "$\\frac{3}{4}$"
       ],
       "reponse": "1",
       "explication": "$\\frac{12}{12}$=1",
@@ -321,10 +321,10 @@
       "chrono": 20,
       "enonce": "$\\frac{5}{4} \\div \\frac{5}{8}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
+        "$\\frac{8}{4}$",
         "2",
         "$\\frac{5}{2}$",
-        "$\\frac{8}{4}$"
+        "$\\frac{1}{2}$"
       ],
       "reponse": "2",
       "explication": "$\\frac{5}{4} \\times \\frac{8}{5}$=2",
@@ -339,9 +339,9 @@
       "enonce": "$\\frac{3}{7} \\times \\frac{14}{9}$= ?",
       "choix": [
         "$\\frac{1}{3}$",
+        "$\\frac{6}{9}$",
         "$\\frac{2}{3}$",
-        "$\\frac{3}{9}$",
-        "$\\frac{6}{9}$"
+        "$\\frac{3}{9}$"
       ],
       "reponse": "$\\frac{2}{3}$",
       "explication": "$\\frac{42}{63}=\\frac{2}{3}$",
@@ -355,8 +355,8 @@
       "chrono": 20,
       "enonce": "$\\frac{8}{5} \\div \\frac{4}{5}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
         "2",
+        "$\\frac{1}{2}$",
         "$\\frac{4}{5}$",
         "$\\frac{8}{4}$"
       ],
@@ -372,10 +372,10 @@
       "chrono": 20,
       "enonce": "$\\frac{6}{11} \\times \\frac{11}{3}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
+        "$\\frac{6}{3}$",
         "2",
-        "$\\frac{3}{2}$",
-        "$\\frac{6}{3}$"
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$"
       ],
       "reponse": "2",
       "explication": "$\\frac{66}{33}$=2",
@@ -389,10 +389,10 @@
       "chrono": 20,
       "enonce": "$\\frac{7}{12} \\div \\frac{7}{6}$= ?",
       "choix": [
+        "$\\frac{2}{3}$",
         "$\\frac{1}{2}$",
         "$\\frac{1}{3}$",
-        "$\\frac{7}{6}$",
-        "$\\frac{2}{3}$"
+        "$\\frac{7}{6}$"
       ],
       "reponse": "$\\frac{1}{2}$",
       "explication": "$\\frac{7}{12} \\times \\frac{6}{7}=\\frac{1}{2}$",
@@ -406,10 +406,10 @@
       "chrono": 20,
       "enonce": "$\\frac{9}{16} \\times \\frac{8}{3}$= ?",
       "choix": [
-        "$\\frac{1}{2}$",
         "$\\frac{3}{2}$",
         "$\\frac{9}{6}$",
-        "2"
+        "2",
+        "$\\frac{1}{2}$"
       ],
       "reponse": "$\\frac{3}{2}$",
       "explication": "$\\frac{72}{48}=\\frac{3}{2}$",
@@ -424,9 +424,9 @@
       "enonce": "$\\frac{5}{9} \\div \\frac{5}{3}$= ?",
       "choix": [
         "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
         "$\\frac{1}{2}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{2}{3}$"
+        "$\\frac{3}{5}$"
       ],
       "reponse": "$\\frac{1}{3}$",
       "explication": "$\\frac{5}{9} \\times \\frac{3}{5}=\\frac{1}{3}$",
@@ -441,9 +441,9 @@
       "enonce": "$\\frac{2}{3}\\times$6 = ?",
       "choix": [
         "3",
-        "4",
         "5",
-        "6"
+        "6",
+        "4"
       ],
       "reponse": "4",
       "explication": "$\\frac{12}{3}$=4",
@@ -458,8 +458,8 @@
       "enonce": "$\\frac{3}{4}\\times$8 = ?",
       "choix": [
         "5",
-        "6",
         "7",
+        "6",
         "8"
       ],
       "reponse": "6",
@@ -474,10 +474,10 @@
       "chrono": 20,
       "enonce": "$\\frac{5}{6} \\div \\frac{1}{6}$= ?",
       "choix": [
-        "$\\frac{1}{5}$",
-        "5",
         "4",
-        "6"
+        "6",
+        "$\\frac{1}{5}$",
+        "5"
       ],
       "reponse": "5",
       "explication": "$\\frac{5}{6}\\times$6=5",
@@ -491,10 +491,10 @@
       "chrono": 20,
       "enonce": "$\\frac{4}{5} \\times \\frac{5}{4}$= ?",
       "choix": [
-        "$\\frac{3}{4}$",
-        "$\\frac{4}{5}$",
         "1",
-        "$\\frac{5}{4}$"
+        "$\\frac{5}{4}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{3}{4}$"
       ],
       "reponse": "1",
       "explication": "$\\frac{20}{20}$=1",
@@ -508,9 +508,9 @@
       "chrono": 20,
       "enonce": "$\\frac{7}{10} \\times \\frac{10}{7}$= ?",
       "choix": [
-        "$\\frac{7}{10}$",
-        "$\\frac{10}{7}$",
         "1",
+        "$\\frac{10}{7}$",
+        "$\\frac{7}{10}$",
         "2"
       ],
       "reponse": "1",

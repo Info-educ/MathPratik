@@ -15,9 +15,9 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{3}{5} = \\dfrac{\\ldots}{10}$",
       "choix": [
+        "$\\dfrac{7}{10}$",
         "$\\dfrac{6}{10}$",
         "$\\dfrac{5}{10}$",
-        "$\\dfrac{7}{10}$",
         "$\\dfrac{8}{10}$"
       ],
       "reponse": "$\\dfrac{6}{10}$",
@@ -32,10 +32,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{3}{5} = \\dfrac{\\ldots}{20}$",
       "choix": [
+        "$\\dfrac{16}{20}$",
         "$\\dfrac{12}{20}$",
-        "$\\dfrac{11}{20}$",
         "$\\dfrac{13}{20}$",
-        "$\\dfrac{16}{20}$"
+        "$\\dfrac{11}{20}$"
       ],
       "reponse": "$\\dfrac{12}{20}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 4$ : $\\dfrac{3 \\times 4}{5 \\times 4} = \\dfrac{12}{20}$.",
@@ -50,9 +50,9 @@
       "enonce": "Complète : $\\dfrac{3}{5} = \\dfrac{\\ldots}{100}$",
       "choix": [
         "$\\dfrac{60}{100}$",
-        "$\\dfrac{59}{100}$",
+        "$\\dfrac{80}{100}$",
         "$\\dfrac{61}{100}$",
-        "$\\dfrac{80}{100}$"
+        "$\\dfrac{59}{100}$"
       ],
       "reponse": "$\\dfrac{60}{100}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 20$ : $\\dfrac{3 \\times 20}{5 \\times 20} = \\dfrac{60}{100}$.",
@@ -67,8 +67,8 @@
       "enonce": "Complète : $\\dfrac{2}{3} = \\dfrac{\\ldots}{6}$",
       "choix": [
         "$\\dfrac{4}{6}$",
-        "$\\dfrac{3}{6}$",
         "$\\dfrac{5}{6}$",
+        "$\\dfrac{3}{6}$",
         "$\\dfrac{6}{6}$"
       ],
       "reponse": "$\\dfrac{4}{6}$",
@@ -100,9 +100,9 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{2}{3} = \\dfrac{\\ldots}{30}$",
       "choix": [
+        "$\\dfrac{21}{30}$",
         "$\\dfrac{20}{30}$",
         "$\\dfrac{19}{30}$",
-        "$\\dfrac{21}{30}$",
         "$\\dfrac{30}{30}$"
       ],
       "reponse": "$\\dfrac{20}{30}$",
@@ -117,10 +117,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{1}{4} = \\dfrac{\\ldots}{8}$",
       "choix": [
+        "$\\dfrac{4}{8}$",
         "$\\dfrac{2}{8}$",
-        "$\\dfrac{1}{8}$",
         "$\\dfrac{3}{8}$",
-        "$\\dfrac{4}{8}$"
+        "$\\dfrac{1}{8}$"
       ],
       "reponse": "$\\dfrac{2}{8}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 2$ : $\\dfrac{1 \\times 2}{4 \\times 2} = \\dfrac{2}{8}$.",
@@ -134,10 +134,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{1}{4} = \\dfrac{\\ldots}{12}$",
       "choix": [
-        "$\\dfrac{3}{12}$",
+        "$\\dfrac{6}{12}$",
         "$\\dfrac{2}{12}$",
         "$\\dfrac{4}{12}$",
-        "$\\dfrac{6}{12}$"
+        "$\\dfrac{3}{12}$"
       ],
       "reponse": "$\\dfrac{3}{12}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 3$ : $\\dfrac{1 \\times 3}{4 \\times 3} = \\dfrac{3}{12}$.",
@@ -151,10 +151,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{1}{4} = \\dfrac{\\ldots}{20}$",
       "choix": [
-        "$\\dfrac{5}{20}$",
         "$\\dfrac{4}{20}$",
-        "$\\dfrac{6}{20}$",
-        "$\\dfrac{10}{20}$"
+        "$\\dfrac{5}{20}$",
+        "$\\dfrac{10}{20}$",
+        "$\\dfrac{6}{20}$"
       ],
       "reponse": "$\\dfrac{5}{20}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 5$ : $\\dfrac{1 \\times 5}{4 \\times 5} = \\dfrac{5}{20}$.",
@@ -168,10 +168,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{5}{6} = \\dfrac{\\ldots}{12}$",
       "choix": [
+        "$\\dfrac{12}{12}$",
         "$\\dfrac{10}{12}$",
         "$\\dfrac{9}{12}$",
-        "$\\dfrac{11}{12}$",
-        "$\\dfrac{12}{12}$"
+        "$\\dfrac{11}{12}$"
       ],
       "reponse": "$\\dfrac{10}{12}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 2$ : $\\dfrac{5 \\times 2}{6 \\times 2} = \\dfrac{10}{12}$.",
@@ -185,10 +185,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{5}{6} = \\dfrac{\\ldots}{24}$",
       "choix": [
-        "$\\dfrac{20}{24}$",
         "$\\dfrac{19}{24}$",
+        "$\\dfrac{24}{24}$",
         "$\\dfrac{21}{24}$",
-        "$\\dfrac{24}{24}$"
+        "$\\dfrac{20}{24}$"
       ],
       "reponse": "$\\dfrac{20}{24}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 4$ : $\\dfrac{5 \\times 4}{6 \\times 4} = \\dfrac{20}{24}$.",
@@ -202,10 +202,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{5}{6} = \\dfrac{\\ldots}{30}$",
       "choix": [
-        "$\\dfrac{25}{30}$",
         "$\\dfrac{24}{30}$",
-        "$\\dfrac{26}{30}$",
-        "$\\dfrac{30}{30}$"
+        "$\\dfrac{30}{30}$",
+        "$\\dfrac{25}{30}$",
+        "$\\dfrac{26}{30}$"
       ],
       "reponse": "$\\dfrac{25}{30}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 5$ : $\\dfrac{5 \\times 5}{6 \\times 5} = \\dfrac{25}{30}$.",
@@ -219,10 +219,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{3}{7} = \\dfrac{\\ldots}{14}$",
       "choix": [
-        "$\\dfrac{6}{14}$",
+        "$\\dfrac{8}{14}$",
         "$\\dfrac{5}{14}$",
         "$\\dfrac{7}{14}$",
-        "$\\dfrac{8}{14}$"
+        "$\\dfrac{6}{14}$"
       ],
       "reponse": "$\\dfrac{6}{14}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 2$ : $\\dfrac{3 \\times 2}{7 \\times 2} = \\dfrac{6}{14}$.",
@@ -237,8 +237,8 @@
       "enonce": "Complète : $\\dfrac{3}{7} = \\dfrac{\\ldots}{21}$",
       "choix": [
         "$\\dfrac{9}{21}$",
-        "$\\dfrac{8}{21}$",
         "$\\dfrac{10}{21}$",
+        "$\\dfrac{8}{21}$",
         "$\\dfrac{12}{21}$"
       ],
       "reponse": "$\\dfrac{9}{21}$",
@@ -253,10 +253,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{3}{7} = \\dfrac{\\ldots}{28}$",
       "choix": [
-        "$\\dfrac{12}{28}$",
-        "$\\dfrac{11}{28}$",
+        "$\\dfrac{16}{28}$",
         "$\\dfrac{13}{28}$",
-        "$\\dfrac{16}{28}$"
+        "$\\dfrac{12}{28}$",
+        "$\\dfrac{11}{28}$"
       ],
       "reponse": "$\\dfrac{12}{28}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 4$ : $\\dfrac{3 \\times 4}{7 \\times 4} = \\dfrac{12}{28}$.",
@@ -271,9 +271,9 @@
       "enonce": "Complète : $\\dfrac{4}{5} = \\dfrac{\\ldots}{10}$",
       "choix": [
         "$\\dfrac{8}{10}$",
-        "$\\dfrac{7}{10}$",
         "$\\dfrac{9}{10}$",
-        "$\\dfrac{10}{10}$"
+        "$\\dfrac{10}{10}$",
+        "$\\dfrac{7}{10}$"
       ],
       "reponse": "$\\dfrac{8}{10}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 2$ : $\\dfrac{4 \\times 2}{5 \\times 2} = \\dfrac{8}{10}$.",
@@ -287,10 +287,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{4}{5} = \\dfrac{\\ldots}{15}$",
       "choix": [
-        "$\\dfrac{12}{15}$",
+        "$\\dfrac{15}{15}$",
         "$\\dfrac{11}{15}$",
-        "$\\dfrac{13}{15}$",
-        "$\\dfrac{15}{15}$"
+        "$\\dfrac{12}{15}$",
+        "$\\dfrac{13}{15}$"
       ],
       "reponse": "$\\dfrac{12}{15}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 3$ : $\\dfrac{4 \\times 3}{5 \\times 3} = \\dfrac{12}{15}$.",
@@ -304,10 +304,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{4}{5} = \\dfrac{\\ldots}{25}$",
       "choix": [
-        "$\\dfrac{20}{25}$",
-        "$\\dfrac{19}{25}$",
         "$\\dfrac{21}{25}$",
-        "$\\dfrac{25}{25}$"
+        "$\\dfrac{19}{25}$",
+        "$\\dfrac{25}{25}$",
+        "$\\dfrac{20}{25}$"
       ],
       "reponse": "$\\dfrac{20}{25}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 5$ : $\\dfrac{4 \\times 5}{5 \\times 5} = \\dfrac{20}{25}$.",
@@ -321,10 +321,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{1}{3} = \\dfrac{\\ldots}{6}$",
       "choix": [
-        "$\\dfrac{2}{6}$",
+        "$\\dfrac{4}{6}$",
         "$\\dfrac{1}{6}$",
-        "$\\dfrac{3}{6}$",
-        "$\\dfrac{4}{6}$"
+        "$\\dfrac{2}{6}$",
+        "$\\dfrac{3}{6}$"
       ],
       "reponse": "$\\dfrac{2}{6}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 2$ : $\\dfrac{1 \\times 2}{3 \\times 2} = \\dfrac{2}{6}$.",
@@ -338,10 +338,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{1}{3} = \\dfrac{\\ldots}{9}$",
       "choix": [
-        "$\\dfrac{3}{9}$",
+        "$\\dfrac{6}{9}$",
         "$\\dfrac{2}{9}$",
         "$\\dfrac{4}{9}$",
-        "$\\dfrac{6}{9}$"
+        "$\\dfrac{3}{9}$"
       ],
       "reponse": "$\\dfrac{3}{9}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 3$ : $\\dfrac{1 \\times 3}{3 \\times 3} = \\dfrac{3}{9}$.",
@@ -355,10 +355,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{1}{3} = \\dfrac{\\ldots}{12}$",
       "choix": [
-        "$\\dfrac{4}{12}$",
         "$\\dfrac{3}{12}$",
+        "$\\dfrac{8}{12}$",
         "$\\dfrac{5}{12}$",
-        "$\\dfrac{8}{12}$"
+        "$\\dfrac{4}{12}$"
       ],
       "reponse": "$\\dfrac{4}{12}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 4$ : $\\dfrac{1 \\times 4}{3 \\times 4} = \\dfrac{4}{12}$.",
@@ -372,10 +372,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{7}{8} = \\dfrac{\\ldots}{16}$",
       "choix": [
-        "$\\dfrac{14}{16}$",
-        "$\\dfrac{13}{16}$",
+        "$\\dfrac{16}{16}$",
         "$\\dfrac{15}{16}$",
-        "$\\dfrac{16}{16}$"
+        "$\\dfrac{14}{16}$",
+        "$\\dfrac{13}{16}$"
       ],
       "reponse": "$\\dfrac{14}{16}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 2$ : $\\dfrac{7 \\times 2}{8 \\times 2} = \\dfrac{14}{16}$.",
@@ -391,8 +391,8 @@
       "choix": [
         "$\\dfrac{21}{24}$",
         "$\\dfrac{20}{24}$",
-        "$\\dfrac{22}{24}$",
-        "$\\dfrac{24}{24}$"
+        "$\\dfrac{24}{24}$",
+        "$\\dfrac{22}{24}$"
       ],
       "reponse": "$\\dfrac{21}{24}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 3$ : $\\dfrac{7 \\times 3}{8 \\times 3} = \\dfrac{21}{24}$.",
@@ -406,10 +406,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{7}{8} = \\dfrac{\\ldots}{40}$",
       "choix": [
-        "$\\dfrac{35}{40}$",
-        "$\\dfrac{34}{40}$",
         "$\\dfrac{36}{40}$",
-        "$\\dfrac{40}{40}$"
+        "$\\dfrac{40}{40}$",
+        "$\\dfrac{35}{40}$",
+        "$\\dfrac{34}{40}$"
       ],
       "reponse": "$\\dfrac{35}{40}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 5$ : $\\dfrac{7 \\times 5}{8 \\times 5} = \\dfrac{35}{40}$.",
@@ -423,8 +423,8 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{2}{5} = \\dfrac{\\ldots}{10}$",
       "choix": [
-        "$\\dfrac{4}{10}$",
         "$\\dfrac{3}{10}$",
+        "$\\dfrac{4}{10}$",
         "$\\dfrac{5}{10}$",
         "$\\dfrac{6}{10}$"
       ],
@@ -442,8 +442,8 @@
       "choix": [
         "$\\dfrac{6}{15}$",
         "$\\dfrac{5}{15}$",
-        "$\\dfrac{7}{15}$",
-        "$\\dfrac{9}{15}$"
+        "$\\dfrac{9}{15}$",
+        "$\\dfrac{7}{15}$"
       ],
       "reponse": "$\\dfrac{6}{15}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 3$ : $\\dfrac{2 \\times 3}{5 \\times 3} = \\dfrac{6}{15}$.",
@@ -457,9 +457,9 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{2}{5} = \\dfrac{\\ldots}{25}$",
       "choix": [
-        "$\\dfrac{10}{25}$",
-        "$\\dfrac{9}{25}$",
         "$\\dfrac{11}{25}$",
+        "$\\dfrac{9}{25}$",
+        "$\\dfrac{10}{25}$",
         "$\\dfrac{15}{25}$"
       ],
       "reponse": "$\\dfrac{10}{25}$",
@@ -474,10 +474,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{3}{4} = \\dfrac{\\ldots}{8}$",
       "choix": [
-        "$\\dfrac{6}{8}$",
         "$\\dfrac{5}{8}$",
         "$\\dfrac{7}{8}$",
-        "$\\dfrac{8}{8}$"
+        "$\\dfrac{8}{8}$",
+        "$\\dfrac{6}{8}$"
       ],
       "reponse": "$\\dfrac{6}{8}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 2$ : $\\dfrac{3 \\times 2}{4 \\times 2} = \\dfrac{6}{8}$.",
@@ -491,10 +491,10 @@
       "chrono": 20,
       "enonce": "Complète : $\\dfrac{3}{4} = \\dfrac{\\ldots}{12}$",
       "choix": [
-        "$\\dfrac{9}{12}$",
-        "$\\dfrac{8}{12}$",
+        "$\\dfrac{12}{12}$",
         "$\\dfrac{10}{12}$",
-        "$\\dfrac{12}{12}$"
+        "$\\dfrac{8}{12}$",
+        "$\\dfrac{9}{12}$"
       ],
       "reponse": "$\\dfrac{9}{12}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 3$ : $\\dfrac{3 \\times 3}{4 \\times 3} = \\dfrac{9}{12}$.",
@@ -510,8 +510,8 @@
       "choix": [
         "$\\dfrac{15}{20}$",
         "$\\dfrac{14}{20}$",
-        "$\\dfrac{16}{20}$",
-        "$\\dfrac{20}{20}$"
+        "$\\dfrac{20}{20}$",
+        "$\\dfrac{16}{20}$"
       ],
       "reponse": "$\\dfrac{15}{20}$",
       "explication": "On multiplie numérateur ET dénominateur par $\\times 5$ : $\\dfrac{3 \\times 5}{4 \\times 5} = \\dfrac{15}{20}$.",

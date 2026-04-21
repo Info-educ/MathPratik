@@ -15,10 +15,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 12 = ?",
       "choix": [
-        "36",
-        "48",
         "40",
-        "44"
+        "36",
+        "44",
+        "48"
       ],
       "reponse": "48",
       "explication": "12$\\times$4=48",
@@ -33,9 +33,9 @@
       "enonce": "Quart de 48 = ?",
       "choix": [
         "10",
-        "12",
         "16",
-        "14"
+        "14",
+        "12"
       ],
       "reponse": "12",
       "explication": "48$\\div$4=12",
@@ -50,8 +50,8 @@
       "enonce": "Quadruple de 25 = ?",
       "choix": [
         "75",
-        "100",
         "125",
+        "100",
         "90"
       ],
       "reponse": "100",
@@ -66,9 +66,9 @@
       "chrono": 20,
       "enonce": "Quart de 100 = ?",
       "choix": [
+        "30",
         "20",
         "25",
-        "30",
         "40"
       ],
       "reponse": "25",
@@ -83,10 +83,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 17 = ?",
       "choix": [
-        "58",
-        "68",
+        "56",
         "72",
-        "56"
+        "68",
+        "58"
       ],
       "reponse": "68",
       "explication": "17$\\times$4=68",
@@ -100,10 +100,10 @@
       "chrono": 20,
       "enonce": "Quart de 68 = ?",
       "choix": [
-        "13",
         "17",
+        "19",
         "21",
-        "19"
+        "13"
       ],
       "reponse": "17",
       "explication": "68$\\div$4=17",
@@ -118,9 +118,9 @@
       "enonce": "Quadruple de 30 = ?",
       "choix": [
         "100",
+        "90",
         "120",
-        "110",
-        "90"
+        "110"
       ],
       "reponse": "120",
       "explication": "30$\\times$4=120",
@@ -134,10 +134,10 @@
       "chrono": 20,
       "enonce": "Quart de 120 = ?",
       "choix": [
-        "24",
-        "30",
         "40",
-        "28"
+        "28",
+        "24",
+        "30"
       ],
       "reponse": "30",
       "explication": "120$\\div$4=30",
@@ -151,10 +151,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 23 = ?",
       "choix": [
-        "82",
-        "92",
         "72",
-        "88"
+        "88",
+        "82",
+        "92"
       ],
       "reponse": "92",
       "explication": "23$\\times$4=92",
@@ -168,10 +168,10 @@
       "chrono": 20,
       "enonce": "Quart de 92 = ?",
       "choix": [
-        "21",
         "23",
+        "27",
         "25",
-        "27"
+        "21"
       ],
       "reponse": "23",
       "explication": "92$\\div$4=23",
@@ -185,10 +185,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 14 = ?",
       "choix": [
-        "48",
+        "44",
         "56",
         "60",
-        "44"
+        "48"
       ],
       "reponse": "56",
       "explication": "14$\\times$4=56",
@@ -202,9 +202,9 @@
       "chrono": 20,
       "enonce": "Quart de 56 = ?",
       "choix": [
-        "12",
         "14",
         "16",
+        "12",
         "18"
       ],
       "reponse": "14",
@@ -219,10 +219,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 15 = ?",
       "choix": [
-        "45",
-        "60",
+        "55",
         "75",
-        "55"
+        "45",
+        "60"
       ],
       "reponse": "60",
       "explication": "15$\\times$4=60",
@@ -236,10 +236,10 @@
       "chrono": 20,
       "enonce": "Quart de 60 = ?",
       "choix": [
+        "12",
         "10",
         "15",
-        "20",
-        "12"
+        "20"
       ],
       "reponse": "15",
       "explication": "60$\\div$4=15",
@@ -253,9 +253,9 @@
       "chrono": 20,
       "enonce": "Quadruple de 11 = ?",
       "choix": [
-        "33",
         "44",
         "55",
+        "33",
         "40"
       ],
       "reponse": "44",
@@ -270,9 +270,9 @@
       "chrono": 20,
       "enonce": "Quart de 44 = ?",
       "choix": [
-        "8",
-        "11",
         "14",
+        "11",
+        "8",
         "10"
       ],
       "reponse": "11",
@@ -287,8 +287,8 @@
       "chrono": 20,
       "enonce": "Quadruple de 50 = ?",
       "choix": [
-        "150",
         "200",
+        "150",
         "250",
         "180"
       ],
@@ -304,10 +304,10 @@
       "chrono": 20,
       "enonce": "Quart de 200 = ?",
       "choix": [
-        "40",
-        "50",
         "60",
-        "45"
+        "40",
+        "45",
+        "50"
       ],
       "reponse": "50",
       "explication": "200$\\div$4=50",
@@ -321,9 +321,9 @@
       "chrono": 20,
       "enonce": "Quadruple de 20 = ?",
       "choix": [
-        "60",
-        "80",
         "100",
+        "80",
+        "60",
         "70"
       ],
       "reponse": "80",
@@ -355,10 +355,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 18 = ?",
       "choix": [
-        "54",
         "72",
-        "68",
-        "64"
+        "64",
+        "54",
+        "68"
       ],
       "reponse": "72",
       "explication": "18$\\times$4=72",
@@ -372,9 +372,9 @@
       "chrono": 20,
       "enonce": "Quart de 72 = ?",
       "choix": [
-        "14",
         "18",
         "22",
+        "14",
         "20"
       ],
       "reponse": "18",
@@ -406,10 +406,10 @@
       "chrono": 20,
       "enonce": "Quart de 160 = ?",
       "choix": [
-        "30",
         "40",
-        "50",
-        "35"
+        "30",
+        "35",
+        "50"
       ],
       "reponse": "40",
       "explication": "160$\\div$4=40",
@@ -424,8 +424,8 @@
       "enonce": "Quadruple de 32 = ?",
       "choix": [
         "96",
-        "128",
         "112",
+        "128",
         "120"
       ],
       "reponse": "128",
@@ -440,10 +440,10 @@
       "chrono": 20,
       "enonce": "Quart de 128 = ?",
       "choix": [
-        "28",
-        "32",
+        "30",
         "36",
-        "30"
+        "32",
+        "28"
       ],
       "reponse": "32",
       "explication": "128$\\div$4=32",
@@ -457,10 +457,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 22 = ?",
       "choix": [
-        "66",
-        "88",
         "84",
-        "80"
+        "66",
+        "80",
+        "88"
       ],
       "reponse": "88",
       "explication": "22$\\times$4=88",
@@ -475,9 +475,9 @@
       "enonce": "Quart de 88 = ?",
       "choix": [
         "18",
-        "22",
+        "20",
         "26",
-        "20"
+        "22"
       ],
       "reponse": "22",
       "explication": "88$\\div$4=22",
@@ -491,10 +491,10 @@
       "chrono": 20,
       "enonce": "Quadruple de 13 = ?",
       "choix": [
-        "42",
+        "48",
         "52",
         "62",
-        "48"
+        "42"
       ],
       "reponse": "52",
       "explication": "13$\\times$4=52",
@@ -508,10 +508,10 @@
       "chrono": 20,
       "enonce": "Quart de 52 = ?",
       "choix": [
-        "11",
+        "17",
         "13",
-        "15",
-        "17"
+        "11",
+        "15"
       ],
       "reponse": "13",
       "explication": "52$\\div$4=13",

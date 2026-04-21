@@ -15,10 +15,10 @@
       "chrono": 25,
       "enonce": "Réduis : $3a + 5a$",
       "choix": [
-        "$8a$",
-        "$15a$",
         "$3a^5$",
-        "$8a^2$"
+        "$15a$",
+        "$8a^2$",
+        "$8a$"
       ],
       "reponse": "$8a$",
       "explication": "$3a + 5a = (3+5)a = 8a$.",
@@ -34,8 +34,8 @@
       "choix": [
         "$5b$",
         "$9b$",
-        "$14b$",
-        "$5b^2$"
+        "$5b^2$",
+        "$14b$"
       ],
       "reponse": "$5b$",
       "explication": "$7b - 2b = (7-2)b = 5b$.",
@@ -49,9 +49,9 @@
       "chrono": 25,
       "enonce": "Réduis : $4x + x$",
       "choix": [
-        "$5x$",
-        "$4x$",
         "$5x^2$",
+        "$4x$",
+        "$5x$",
         "$4$"
       ],
       "reponse": "$5x$",
@@ -67,9 +67,9 @@
       "enonce": "Réduis : $6a - 6a$",
       "choix": [
         "$0$",
-        "$6a$",
         "$-6a$",
-        "$6a^2$"
+        "$6a^2$",
+        "$6a$"
       ],
       "reponse": "$0$",
       "explication": "$6a - 6a = 0$.",
@@ -83,10 +83,10 @@
       "chrono": 25,
       "enonce": "Réduis : $2x + 3y + 4x$",
       "choix": [
-        "$6x + 3y$",
-        "$9xy$",
+        "$9x + y$",
         "$2x + 7y$",
-        "$9x + y$"
+        "$9xy$",
+        "$6x + 3y$"
       ],
       "reponse": "$6x + 3y$",
       "explication": "$2x + 4x = 6x$, on garde $3y$ : $6x + 3y$.",
@@ -100,9 +100,9 @@
       "chrono": 25,
       "enonce": "Réduis : $5a + 3b - 2a + b$",
       "choix": [
-        "$3a + 4b$",
         "$3a - 4b$",
         "$4a + 4b$",
+        "$3a + 4b$",
         "$8ab$"
       ],
       "reponse": "$3a + 4b$",
@@ -117,10 +117,10 @@
       "chrono": 25,
       "enonce": "Réduis : $4x^2 + 3x^2$",
       "choix": [
-        "$7x^2$",
         "$7x^4$",
+        "$7x$",
         "$12x^2$",
-        "$7x$"
+        "$7x^2$"
       ],
       "reponse": "$7x^2$",
       "explication": "$4x^2 + 3x^2 = 7x^2$.",
@@ -134,10 +134,10 @@
       "chrono": 25,
       "enonce": "Réduis : $8m - 5m + 2m$",
       "choix": [
+        "$8m$",
         "$5m$",
         "$15m$",
-        "$3m$",
-        "$8m$"
+        "$3m$"
       ],
       "reponse": "$5m$",
       "explication": "$(8-5+2)m = 5m$.",
@@ -151,10 +151,9 @@
       "chrono": 25,
       "enonce": "Réduis : $3 + 2x + 5 - x$",
       "choix": [
+        "$-x + 8$",
         "$x + 8$",
-        "$x + 8$",
-        "$3x + 7$",
-        "$-x + 8$"
+        "$3x + 7$"
       ],
       "reponse": "$x + 8$",
       "explication": "$(2x - x) + (3+5) = x + 8$.",
@@ -169,9 +168,9 @@
       "enonce": "Réduis : $4a + 2b - a - 3b$",
       "choix": [
         "$3a - b$",
-        "$3a + b$",
         "$5a - b$",
-        "$4a - b$"
+        "$4a - b$",
+        "$3a + b$"
       ],
       "reponse": "$3a - b$",
       "explication": "$(4a - a) + (2b - 3b) = 3a - b$.",
@@ -185,10 +184,10 @@
       "chrono": 25,
       "enonce": "Réduis : $2(3a + 1)$",
       "choix": [
+        "$6a$",
         "$6a + 2$",
-        "$6a + 1$",
         "$5a + 1$",
-        "$6a$"
+        "$6a + 1$"
       ],
       "reponse": "$6a + 2$",
       "explication": "$2 \\times 3a + 2 \\times 1 = 6a + 2$.",
@@ -202,10 +201,10 @@
       "chrono": 25,
       "enonce": "Réduis : $3(x - 4)$",
       "choix": [
-        "$3x - 12$",
-        "$3x - 4$",
         "$x - 12$",
-        "$3x + 12$"
+        "$3x - 4$",
+        "$3x + 12$",
+        "$3x - 12$"
       ],
       "reponse": "$3x - 12$",
       "explication": "$3 \\times x + 3 \\times (-4) = 3x - 12$.",
@@ -219,10 +218,10 @@
       "chrono": 25,
       "enonce": "Réduis : $-(a + 3)$",
       "choix": [
-        "$-a - 3$",
+        "$a - 3$",
         "$a + 3$",
         "$-a + 3$",
-        "$a - 3$"
+        "$-a - 3$"
       ],
       "reponse": "$-a - 3$",
       "explication": "$-(a+3) = -a - 3$.",
@@ -236,10 +235,10 @@
       "chrono": 25,
       "enonce": "Réduis : $2x + 3(x - 1)$",
       "choix": [
-        "$5x - 3$",
-        "$5x + 3$",
         "$5x - 1$",
-        "$6x - 3$"
+        "$5x + 3$",
+        "$6x - 3$",
+        "$5x - 3$"
       ],
       "reponse": "$5x - 3$",
       "explication": "$2x + 3x - 3 = 5x - 3$.",
@@ -253,10 +252,10 @@
       "chrono": 25,
       "enonce": "Réduis : $4(a + b) - 2(a - b)$",
       "choix": [
-        "$2a + 6b$",
-        "$2a - 6b$",
         "$6a + 6b$",
-        "$2a + 2b$"
+        "$2a + 2b$",
+        "$2a + 6b$",
+        "$2a - 6b$"
       ],
       "reponse": "$2a + 6b$",
       "explication": "$4a + 4b - 2a + 2b = 2a + 6b$.",
@@ -270,10 +269,10 @@
       "chrono": 25,
       "enonce": "Réduis : $5x - (3x + 2)$",
       "choix": [
-        "$2x - 2$",
         "$2x + 2$",
-        "$8x + 2$",
-        "$8x - 2$"
+        "$2x - 2$",
+        "$8x - 2$",
+        "$8x + 2$"
       ],
       "reponse": "$2x - 2$",
       "explication": "$5x - 3x - 2 = 2x - 2$.",
@@ -288,8 +287,8 @@
       "enonce": "Réduis : $3(2a - 1) + 2(a + 4)$",
       "choix": [
         "$8a + 5$",
-        "$8a - 5$",
         "$5a + 5$",
+        "$8a - 5$",
         "$6a + 5$"
       ],
       "reponse": "$8a + 5$",
@@ -304,8 +303,8 @@
       "chrono": 25,
       "enonce": "Réduis : $x^2 + 3x - 2x^2 + 5x$",
       "choix": [
-        "$-x^2 + 8x$",
         "$x^2 + 8x$",
+        "$-x^2 + 8x$",
         "$-x^2 - 8x$",
         "$3x^2 + 8x$"
       ],
@@ -321,10 +320,10 @@
       "chrono": 25,
       "enonce": "Réduis : $\\dfrac{x}{2} + \\dfrac{x}{4}$",
       "choix": [
-        "$\\dfrac{3x}{4}$",
         "$\\dfrac{x}{6}$",
-        "$\\dfrac{2x}{6}$",
-        "$\\dfrac{x}{8}$"
+        "$\\dfrac{3x}{4}$",
+        "$\\dfrac{x}{8}$",
+        "$\\dfrac{2x}{6}$"
       ],
       "reponse": "$\\dfrac{3x}{4}$",
       "explication": "$\\dfrac{2x}{4} + \\dfrac{x}{4} = \\dfrac{3x}{4}$.",
@@ -338,10 +337,10 @@
       "chrono": 25,
       "enonce": "Réduis : $3a + 2 - (a - 5)$",
       "choix": [
-        "$2a + 7$",
-        "$2a - 7$",
         "$4a + 7$",
-        "$2a - 3$"
+        "$2a - 3$",
+        "$2a + 7$",
+        "$2a - 7$"
       ],
       "reponse": "$2a + 7$",
       "explication": "$3a + 2 - a + 5 = 2a + 7$.",
@@ -357,8 +356,8 @@
       "choix": [
         "$x^2 - 4$",
         "$x^2 + 4$",
-        "$x^2 - 2x$",
-        "$x^2 - 2$"
+        "$x^2 - 2$",
+        "$x^2 - 2x$"
       ],
       "reponse": "$x^2 - 4$",
       "explication": "Identité remarquable : $(a+b)(a-b) = a^2 - b^2 = x^2 - 4$.",
@@ -372,10 +371,10 @@
       "chrono": 25,
       "enonce": "Réduis : $(x+3)^2$",
       "choix": [
-        "$x^2 + 6x + 9$",
-        "$x^2 + 9$",
+        "$x^2 + 6x + 6$",
         "$x^2 + 3x + 9$",
-        "$x^2 + 6x + 6$"
+        "$x^2 + 6x + 9$",
+        "$x^2 + 9$"
       ],
       "reponse": "$x^2 + 6x + 9$",
       "explication": "$(a+b)^2 = a^2 + 2ab + b^2 = x^2 + 6x + 9$.",
@@ -390,9 +389,9 @@
       "enonce": "Réduis : $(2a - 1)^2$",
       "choix": [
         "$4a^2 - 4a + 1$",
-        "$4a^2 + 1$",
+        "$4a^2 - 4a - 1$",
         "$2a^2 - 1$",
-        "$4a^2 - 4a - 1$"
+        "$4a^2 + 1$"
       ],
       "reponse": "$4a^2 - 4a + 1$",
       "explication": "$(2a-1)^2 = 4a^2 - 2 \\times 2a \\times 1 + 1 = 4a^2 - 4a + 1$.",
@@ -406,10 +405,10 @@
       "chrono": 25,
       "enonce": "Réduis : $3x(2x - 5) - x(x + 3)$",
       "choix": [
-        "$5x^2 - 18x$",
-        "$5x^2 + 18x$",
         "$5x^2 - 15x$",
-        "$6x^2 - 18x$"
+        "$5x^2 - 18x$",
+        "$6x^2 - 18x$",
+        "$5x^2 + 18x$"
       ],
       "reponse": "$5x^2 - 18x$",
       "explication": "$6x^2 - 15x - x^2 - 3x = 5x^2 - 18x$.",
@@ -423,10 +422,10 @@
       "chrono": 25,
       "enonce": "Réduis : $\\dfrac{3a}{2} - \\dfrac{a}{4}$",
       "choix": [
-        "$\\dfrac{5a}{4}$",
         "$\\dfrac{2a}{4}$",
-        "$\\dfrac{a}{2}$",
-        "$\\dfrac{5a}{6}$"
+        "$\\dfrac{5a}{6}$",
+        "$\\dfrac{5a}{4}$",
+        "$\\dfrac{a}{2}$"
       ],
       "reponse": "$\\dfrac{5a}{4}$",
       "explication": "$\\dfrac{6a}{4} - \\dfrac{a}{4} = \\dfrac{5a}{4}$.",
@@ -440,10 +439,10 @@
       "chrono": 25,
       "enonce": "Réduis : $(x+1)(x+4) - x^2$",
       "choix": [
-        "$5x + 4$",
-        "$5x - 4$",
         "$x^2 + 5x + 4$",
-        "$4x + 4$"
+        "$4x + 4$",
+        "$5x - 4$",
+        "$5x + 4$"
       ],
       "reponse": "$5x + 4$",
       "explication": "$x^2 + 5x + 4 - x^2 = 5x + 4$.",
@@ -458,9 +457,9 @@
       "enonce": "Réduis : $2(a+b)^2 - 2a^2 - 2b^2$ (développer et réduire)",
       "choix": [
         "$4ab$",
-        "$2ab$",
         "$-4ab$",
-        "$0$"
+        "$0$",
+        "$2ab$"
       ],
       "reponse": "$4ab$",
       "explication": "$2(a^2 + 2ab + b^2) - 2a^2 - 2b^2 = 2a^2 + 4ab + 2b^2 - 2a^2 - 2b^2 = 4ab$.",
@@ -474,10 +473,10 @@
       "chrono": 25,
       "enonce": "Réduis : $4(x-3) - 3(x+2) + 2(x-1)$",
       "choix": [
-        "$3x - 20$",
         "$3x + 20$",
-        "$x - 20$",
-        "$3x - 16$"
+        "$3x - 20$",
+        "$3x - 16$",
+        "$x - 20$"
       ],
       "reponse": "$3x - 20$",
       "explication": "$4x-12-3x-6+2x-2 = 3x - 20$.",
@@ -491,10 +490,10 @@
       "chrono": 25,
       "enonce": "Réduis : $a^2 + 2ab + b^2 - (a+b)^2$",
       "choix": [
-        "$0$",
+        "$2a^2b^2$",
         "$2ab$",
         "$a^2 + b^2$",
-        "$2a^2b^2$"
+        "$0$"
       ],
       "reponse": "$0$",
       "explication": "$(a+b)^2 = a^2 + 2ab + b^2$. $a^2 + 2ab + b^2 - (a+b)^2 = 0$.",
@@ -508,10 +507,10 @@
       "chrono": 25,
       "enonce": "Réduis : $\\dfrac{a+b}{2} - \\dfrac{a-b}{2}$",
       "choix": [
-        "$b$",
         "$a$",
-        "$a+b$",
-        "$a-b$"
+        "$a-b$",
+        "$b$",
+        "$a+b$"
       ],
       "reponse": "$b$",
       "explication": "$\\dfrac{(a+b)-(a-b)}{2} = \\dfrac{2b}{2} = b$.",

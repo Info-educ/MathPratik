@@ -15,10 +15,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $22$.</p></div>",
       "choix": [
-        "$26$",
-        "$28$",
+        "$32$",
         "$30$",
-        "$32$"
+        "$26$",
+        "$28$"
       ],
       "reponse": "$32$",
       "explication": "$22 - 6 = 16$ puis $16 \\times 2 = 32$. Résultat : $\\mathbf{32}$.",
@@ -43,10 +43,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $18$.</p></div>",
       "choix": [
-        "$22$",
         "$24$",
-        "$26$",
-        "$28$"
+        "$22$",
+        "$28$",
+        "$26$"
       ],
       "reponse": "$24$",
       "explication": "$18 - 6 = 12$ puis $12 \\times 2 = 24$. Résultat : $\\mathbf{24}$.",
@@ -71,10 +71,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $33$.</p></div>",
       "choix": [
-        "$50$",
         "$52$",
-        "$54$",
-        "$56$"
+        "$50$",
+        "$56$",
+        "$54$"
       ],
       "reponse": "$54$",
       "explication": "$33 - 6 = 27$ puis $27 \\times 2 = 54$. Résultat : $\\mathbf{54}$.",
@@ -99,10 +99,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $10$.</p></div>",
       "choix": [
-        "$4$",
+        "$10$",
         "$6$",
         "$8$",
-        "$10$"
+        "$4$"
       ],
       "reponse": "$8$",
       "explication": "$10 - 6 = 4$ puis $4 \\times 2 = 8$. Résultat : $\\mathbf{8}$.",
@@ -127,10 +127,10 @@
       "chrono": 30,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Si on choisit un nombre $a$, quelle est l'expression du résultat ?</p></div>",
       "choix": [
-        "$2a - 6$",
-        "$2a - 12$",
         "$a - 12$",
-        "$2(a + 6)$"
+        "$2a - 6$",
+        "$2(a + 6)$",
+        "$2a - 12$"
       ],
       "reponse": "$2a - 12$",
       "explication": "$a - 6$ puis $\\times 2$ donne $2(a-6) = 2a - 12$.",
@@ -154,10 +154,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Applique ce programme avec le nombre $18$.</p></div>",
       "choix": [
-        "$-4$",
-        "$-2$",
         "$0$",
-        "$2$"
+        "$-4$",
+        "$2$",
+        "$-2$"
       ],
       "reponse": "$-2$",
       "explication": "$18 \\div 3 = 6$ puis $6 - 8 = -2$. Résultat : $\\mathbf{-2}$.",
@@ -184,8 +184,8 @@
       "choix": [
         "$1$",
         "$3$",
-        "$5$",
-        "$7$"
+        "$7$",
+        "$5$"
       ],
       "reponse": "$3$",
       "explication": "$33 \\div 3 = 11$ puis $11 - 8 = 3$. Résultat : $\\mathbf{3}$.",
@@ -210,9 +210,9 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Applique ce programme avec le nombre $42$.</p></div>",
       "choix": [
+        "$8$",
         "$4$",
         "$6$",
-        "$8$",
         "$10$"
       ],
       "reponse": "$6$",
@@ -266,9 +266,9 @@
       "chrono": 30,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Si on choisit un nombre $a$, quelle est l'expression du résultat ?</p></div>",
       "choix": [
-        "$\\dfrac{a}{3} - 8$",
-        "$\\dfrac{a - 8}{3}$",
         "$\\dfrac{a}{3} + 8$",
+        "$\\dfrac{a - 8}{3}$",
+        "$\\dfrac{a}{3} - 8$",
         "$a - \\dfrac{8}{3}$"
       ],
       "reponse": "$\\dfrac{a}{3} - 8$",
@@ -294,9 +294,9 @@
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Applique ce programme avec le nombre $5$.</p></div>",
       "choix": [
         "$23$",
-        "$25$",
+        "$29$",
         "$27$",
-        "$29$"
+        "$25$"
       ],
       "reponse": "$27$",
       "explication": "$5 + 4 = 9$ puis $9 \\times 3 = 27$. Résultat : $\\mathbf{27}$.",
@@ -323,8 +323,8 @@
       "choix": [
         "$19$",
         "$21$",
-        "$23$",
-        "$25$"
+        "$25$",
+        "$23$"
       ],
       "reponse": "$21$",
       "explication": "$3 + 4 = 7$ puis $7 \\times 3 = 21$. Résultat : $\\mathbf{21}$.",
@@ -349,10 +349,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Applique ce programme avec le nombre $10$.</p></div>",
       "choix": [
-        "$38$",
+        "$44$",
         "$40$",
         "$42$",
-        "$44$"
+        "$38$"
       ],
       "reponse": "$42$",
       "explication": "$10 + 4 = 14$ puis $14 \\times 3 = 42$. Résultat : $\\mathbf{42}$.",
@@ -377,10 +377,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Applique ce programme avec le nombre $0$.</p></div>",
       "choix": [
-        "$10$",
-        "$12$",
+        "$16$",
         "$14$",
-        "$16$"
+        "$12$",
+        "$10$"
       ],
       "reponse": "$12$",
       "explication": "$0 + 4 = 4$ puis $4 \\times 3 = 12$. Résultat : $\\mathbf{12}$.",
@@ -406,9 +406,9 @@
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Si on choisit un nombre $x$, quelle est l'expression du résultat ?</p></div>",
       "choix": [
         "$3x + 4$",
-        "$3x + 12$",
+        "$x + 12$",
         "$3(x + 12)$",
-        "$x + 12$"
+        "$3x + 12$"
       ],
       "reponse": "$3x + 12$",
       "explication": "$x + 4$ puis $\\times 3$ donne $3(x+4) = 3x + 12$.",
@@ -432,10 +432,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Applique ce programme avec le nombre $4$.</p></div>",
       "choix": [
-        "$21$",
-        "$23$",
         "$25$",
-        "$27$"
+        "$23$",
+        "$27$",
+        "$21$"
       ],
       "reponse": "$23$",
       "explication": "$4 \\times 5 = 20$ puis $20 + 3 = 23$. Résultat : $\\mathbf{23}$.",
@@ -460,10 +460,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Applique ce programme avec le nombre $7$.</p></div>",
       "choix": [
-        "$36$",
         "$38$",
-        "$40$",
-        "$42$"
+        "$42$",
+        "$36$",
+        "$40$"
       ],
       "reponse": "$38$",
       "explication": "$7 \\times 5 = 35$ puis $35 + 3 = 38$. Résultat : $\\mathbf{38}$.",
@@ -488,10 +488,10 @@
       "chrono": 25,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Applique ce programme avec le nombre $12$.</p></div>",
       "choix": [
-        "$61$",
         "$63$",
+        "$67$",
         "$65$",
-        "$67$"
+        "$61$"
       ],
       "reponse": "$63$",
       "explication": "$12 \\times 5 = 60$ puis $60 + 3 = 63$. Résultat : $\\mathbf{63}$.",
@@ -543,10 +543,10 @@
       "chrono": 30,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Quel nombre de départ donne le résultat $53$ ?</p></div>",
       "choix": [
+        "$11$",
         "$8$",
         "$9$",
-        "$10$",
-        "$11$"
+        "$10$"
       ],
       "reponse": "$10$",
       "explication": "$5n + 3 = 53 \\Rightarrow 5n = 50 \\Rightarrow n = 10$. Vérif : $10 \\times 5 + 3 = 53$ ✓.",
@@ -570,10 +570,10 @@
       "chrono": 30,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme E</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Calculer son carré</div><div class='prog-etape'>Soustraire le nombre de départ</div></div><p>Applique ce programme avec le nombre $5$.</p></div>",
       "choix": [
-        "$18$",
         "$20$",
+        "$24$",
         "$22$",
-        "$24$"
+        "$18$"
       ],
       "reponse": "$20$",
       "explication": "$5^2 = 25$ puis $25 - 5 = 20$. Résultat : $\\mathbf{20}$.",
@@ -598,9 +598,9 @@
       "chrono": 30,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme E</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Calculer son carré</div><div class='prog-etape'>Soustraire le nombre de départ</div></div><p>Applique ce programme avec le nombre $3$.</p></div>",
       "choix": [
-        "$4$",
-        "$6$",
         "$8$",
+        "$6$",
+        "$4$",
         "$10$"
       ],
       "reponse": "$6$",
@@ -626,10 +626,10 @@
       "chrono": 30,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme E</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Calculer son carré</div><div class='prog-etape'>Soustraire le nombre de départ</div></div><p>Si on choisit un nombre $x$, quelle est l'expression du résultat ?</p></div>",
       "choix": [
-        "$x^2 - x$",
-        "$x^2 + x$",
+        "$x(x-1)$",
         "$(x-1)^2$",
-        "$x(x-1)$"
+        "$x^2 + x$",
+        "$x^2 - x$"
       ],
       "reponse": "$x^2 - x$",
       "explication": "$x^2$ puis $- x$ donne $x^2 - x$. On peut aussi écrire $x(x-1)$, mais la réponse développée est $x^2 - x$.",
@@ -653,10 +653,10 @@
       "chrono": 35,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme F</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $7$</div><div class='prog-etape'>Calculer le carré du résultat</div><div class='prog-etape'>Soustraire $1$</div></div><p>Applique ce programme avec le nombre $3$.</p></div>",
       "choix": [
+        "$103$",
         "$97$",
-        "$99$",
         "$101$",
-        "$103$"
+        "$99$"
       ],
       "reponse": "$99$",
       "explication": "$3 + 7 = 10$ ; $10^2 = 100$ ; $100 - 1 = 99$. Résultat : $\\mathbf{99}$.",
@@ -682,10 +682,10 @@
       "chrono": 35,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme F</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $7$</div><div class='prog-etape'>Calculer le carré du résultat</div><div class='prog-etape'>Soustraire $1$</div></div><p>Applique ce programme avec le nombre $0$.</p></div>",
       "choix": [
-        "$46$",
         "$48$",
-        "$50$",
-        "$52$"
+        "$46$",
+        "$52$",
+        "$50$"
       ],
       "reponse": "$48$",
       "explication": "$0 + 7 = 7$ ; $7^2 = 49$ ; $49 - 1 = 48$. Résultat : $\\mathbf{48}$.",
@@ -711,10 +711,10 @@
       "chrono": 40,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme F</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $7$</div><div class='prog-etape'>Calculer le carré du résultat</div><div class='prog-etape'>Soustraire $1$</div></div><p>Si on choisit un nombre $n$, quelle est l'expression du résultat ?</p></div>",
       "choix": [
-        "$(n+7)^2 - 1$",
-        "$n^2 + 7 - 1$",
         "$(n+7-1)^2$",
-        "$n^2 + 14n + 48$"
+        "$(n+7)^2 - 1$",
+        "$n^2 + 14n + 48$",
+        "$n^2 + 7 - 1$"
       ],
       "reponse": "$(n+7)^2 - 1$",
       "explication": "$(n+7)$ puis carré donne $(n+7)^2$, puis $-1$ donne $(n+7)^2 - 1$. Développé : $n^2 + 14n + 49 - 1 = n^2 + 14n + 48$.",
@@ -739,10 +739,10 @@
       "chrono": 35,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme G</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $2$</div><div class='prog-etape'>Lui ajouter $10$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $8$.</p></div>",
       "choix": [
-        "$24$",
         "$26$",
+        "$30$",
         "$28$",
-        "$30$"
+        "$24$"
       ],
       "reponse": "$28$",
       "explication": "$8 \\div 2 = 4$ ; $4 + 10 = 14$ ; $14 \\times 2 = 28$. Résultat : $\\mathbf{28}$.",
@@ -768,10 +768,10 @@
       "chrono": 35,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme G</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $2$</div><div class='prog-etape'>Lui ajouter $10$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Si on choisit un nombre $n$, quelle est l'expression du résultat ?</p></div>",
       "choix": [
-        "$n + 20$",
-        "$n + 10$",
+        "$2n + 20$",
         "$\\dfrac{n}{2} + 20$",
-        "$2n + 20$"
+        "$n + 20$",
+        "$n + 10$"
       ],
       "reponse": "$n + 20$",
       "explication": "$\\dfrac{n}{2}$ puis $+ 10$ puis $\\times 2$ donne $2 \\times \\left(\\dfrac{n}{2} + 10\\right) = n + 20$.",
@@ -798,8 +798,8 @@
       "choix": [
         "$5$",
         "$6$",
-        "$7$",
-        "$8$"
+        "$8$",
+        "$7$"
       ],
       "reponse": "$7$",
       "explication": "$4(n-2) = 20 \\Rightarrow n-2 = 5 \\Rightarrow n = 7$. Vérif : $(7-2) \\times 4 = 5 \\times 4 = 20$ ✓.",
@@ -823,10 +823,10 @@
       "chrono": 40,
       "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme H</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $2$</div><div class='prog-etape'>Le multiplier par $4$</div></div><p>Démontre que ce programme donne toujours un multiple de $4$.</p></div>",
       "choix": [
+        "$4n$, multiple de $4$",
         "$4n - 8 = 4(n-2)$, multiple de $4$",
-        "$4n - 2$, multiple de $4$",
         "$4(n+2)$, multiple de $4$",
-        "$4n$, multiple de $4$"
+        "$4n - 2$, multiple de $4$"
       ],
       "reponse": "$4n - 8 = 4(n-2)$, multiple de $4$",
       "explication": "Le résultat est $(n-2) \\times 4 = 4n - 8 = 4(n-2)$. Comme $4$ est un facteur, le résultat est toujours un multiple de $4$.",

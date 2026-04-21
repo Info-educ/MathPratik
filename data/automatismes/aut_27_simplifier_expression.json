@@ -15,10 +15,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $3 \\times a$",
       "choix": [
-        "$3a$",
         "$a^3$",
         "$a+3$",
-        "$a \\times 3$"
+        "$a \\times 3$",
+        "$3a$"
       ],
       "reponse": "$3a$",
       "explication": "On supprime le signe $\\times$ entre un nombre et une lettre : $3 \\times a = 3a$.",
@@ -32,10 +32,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $b \\times 5$",
       "choix": [
-        "$5b$",
-        "$b^5$",
+        "$5+b$",
         "$b+5$",
-        "$5+b$"
+        "$5b$",
+        "$b^5$"
       ],
       "reponse": "$5b$",
       "explication": "On place le nombre devant la lettre : $b \\times 5 = 5b$.",
@@ -49,10 +49,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $1 \\times x$",
       "choix": [
-        "$x$",
+        "$x+1$",
         "$1x$",
-        "$x^1$",
-        "$x+1$"
+        "$x$",
+        "$x^1$"
       ],
       "reponse": "$x$",
       "explication": "$1 \\times x = x$ (le coefficient $1$ est omis).",
@@ -66,10 +66,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $a \\times a$",
       "choix": [
-        "$a^2$",
-        "$2a$",
+        "$a+a$",
         "$a \\times 2$",
-        "$a+a$"
+        "$a^2$",
+        "$2a$"
       ],
       "reponse": "$a^2$",
       "explication": "$a \\times a = a^2$.",
@@ -83,10 +83,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $a \\times b$",
       "choix": [
-        "$ab$",
-        "$a+b$",
         "$a^b$",
-        "$b^a$"
+        "$b^a$",
+        "$a+b$",
+        "$ab$"
       ],
       "reponse": "$ab$",
       "explication": "On supprime le $\\times$ entre deux lettres : $a \\times b = ab$.",
@@ -101,8 +101,8 @@
       "enonce": "Simplifie l'écriture : $2 \\times a \\times b$",
       "choix": [
         "$2ab$",
-        "$a^2b$",
         "$ab^2$",
+        "$a^2b$",
         "$2a+2b$"
       ],
       "reponse": "$2ab$",
@@ -117,10 +117,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $(-1) \\times x$",
       "choix": [
-        "$-x$",
         "$-1x$",
-        "$x-1$",
-        "$x+1$"
+        "$x+1$",
+        "$-x$",
+        "$x-1$"
       ],
       "reponse": "$-x$",
       "explication": "$(-1) \\times x = -x$.",
@@ -134,10 +134,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $a \\times a \\times a$",
       "choix": [
+        "$3+a$",
         "$a^3$",
         "$3a$",
-        "$a \\times 3$",
-        "$3+a$"
+        "$a \\times 3$"
       ],
       "reponse": "$a^3$",
       "explication": "$a \\times a \\times a = a^3$.",
@@ -153,8 +153,8 @@
       "choix": [
         "$\\dfrac{a}{3}$",
         "$3a$",
-        "$a-3$",
-        "$3+a$"
+        "$3+a$",
+        "$a-3$"
       ],
       "reponse": "$\\dfrac{a}{3}$",
       "explication": "La fraction $\\dfrac{a}{3}$ est déjà la notation simplifiée de $a \\div 3$.",
@@ -168,10 +168,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $4 \\times x \\times x$",
       "choix": [
-        "$4x^2$",
         "$4x$",
         "$x^4$",
-        "$4+x^2$"
+        "$4+x^2$",
+        "$4x^2$"
       ],
       "reponse": "$4x^2$",
       "explication": "$4 \\times x \\times x = 4x^2$.",
@@ -187,8 +187,8 @@
       "choix": [
         "$-3ab$",
         "$3ab$",
-        "$-3a+b$",
-        "$3a-b$"
+        "$3a-b$",
+        "$-3a+b$"
       ],
       "reponse": "$-3ab$",
       "explication": "$(-3) \\times a \\times b = -3ab$.",
@@ -202,10 +202,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $a \\times b \\times a$",
       "choix": [
-        "$a^2b$",
-        "$ab^2$",
         "$2ab$",
-        "$a^2+b$"
+        "$a^2b$",
+        "$a^2+b$",
+        "$ab^2$"
       ],
       "reponse": "$a^2b$",
       "explication": "$a \\times b \\times a = a^2 b$.",
@@ -220,9 +220,9 @@
       "enonce": "Simplifie l'écriture : $x \\times x \\times y \\times y$",
       "choix": [
         "$x^2y^2$",
-        "$2xy$",
         "$(xy)^2$",
-        "$x^2+y^2$"
+        "$x^2+y^2$",
+        "$2xy$"
       ],
       "reponse": "$x^2y^2$",
       "explication": "$x^2y^2$ (on groupe les puissances).",
@@ -236,9 +236,9 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $\\dfrac{2 \\times a}{b}$",
       "choix": [
-        "$\\dfrac{2a}{b}$",
-        "$2a-b$",
         "$2 \\times \\dfrac{a}{b}$",
+        "$2a-b$",
+        "$\\dfrac{2a}{b}$",
         "$\\dfrac{a}{2b}$"
       ],
       "reponse": "$\\dfrac{2a}{b}$",
@@ -254,8 +254,8 @@
       "enonce": "Simplifie l'écriture : $5 \\times (a + b)$",
       "choix": [
         "$5(a+b)$",
-        "$5a + b$",
         "$5a \\times 5b$",
+        "$5a + b$",
         "$5ab$"
       ],
       "reponse": "$5(a+b)$",
@@ -270,9 +270,9 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $a \\times b \\times b \\times c$",
       "choix": [
+        "$abc^2$",
         "$ab^2c$",
         "$a^2bc$",
-        "$abc^2$",
         "$ab^2+c$"
       ],
       "reponse": "$ab^2c$",
@@ -287,10 +287,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $(-2) \\times x \\times (-y)$",
       "choix": [
-        "$2xy$",
-        "$-2xy$",
         "$2x-y$",
-        "$-2x+y$"
+        "$-2x+y$",
+        "$2xy$",
+        "$-2xy$"
       ],
       "reponse": "$2xy$",
       "explication": "$(-2) \\times x \\times (-y) = 2xy$ (deux signes $-$ → positif).",
@@ -304,10 +304,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $\\dfrac{a \\times b}{c}$",
       "choix": [
-        "$\\dfrac{ab}{c}$",
-        "$ab-c$",
+        "$a \\times \\dfrac{b}{c}$",
         "$\\dfrac{a}{bc}$",
-        "$a \\times \\dfrac{b}{c}$"
+        "$\\dfrac{ab}{c}$",
+        "$ab-c$"
       ],
       "reponse": "$\\dfrac{ab}{c}$",
       "explication": "$\\dfrac{a \\times b}{c} = \\dfrac{ab}{c}$.",
@@ -321,10 +321,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $3 \\times a^2$",
       "choix": [
-        "$3a^2$",
         "$9a^2$",
         "$(3a)^2$",
-        "$6a$"
+        "$6a$",
+        "$3a^2$"
       ],
       "reponse": "$3a^2$",
       "explication": "$3 \\times a^2 = 3a^2$ (on ne touche pas l'exposant).",
@@ -338,10 +338,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $(-1) \\times (-a)$",
       "choix": [
-        "$a$",
         "$-a$",
         "$1$",
-        "$-1$"
+        "$-1$",
+        "$a$"
       ],
       "reponse": "$a$",
       "explication": "$(-1) \\times (-a) = a$.",
@@ -355,10 +355,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $\\dfrac{x \\times x}{2 \\times x}$ (simplifier)",
       "choix": [
-        "$\\dfrac{x}{2}$",
-        "$x^2$",
+        "$\\dfrac{x^2}{2}$",
         "$\\dfrac{1}{2}$",
-        "$\\dfrac{x^2}{2}$"
+        "$x^2$",
+        "$\\dfrac{x}{2}$"
       ],
       "reponse": "$\\dfrac{x}{2}$",
       "explication": "$\\dfrac{x^2}{2x} = \\dfrac{x}{2}$.",
@@ -372,10 +372,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $\\dfrac{3a \\times 2b}{6}$",
       "choix": [
-        "$ab$",
         "$\\dfrac{6ab}{6}$",
-        "$ab+6$",
-        "$6ab$"
+        "$ab$",
+        "$6ab$",
+        "$ab+6$"
       ],
       "reponse": "$ab$",
       "explication": "$\\dfrac{3a \\times 2b}{6} = \\dfrac{6ab}{6} = ab$.",
@@ -389,9 +389,9 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $(-a) \\times (-a)$",
       "choix": [
+        "$2a$",
         "$a^2$",
         "$-a^2$",
-        "$2a$",
         "$-2a$"
       ],
       "reponse": "$a^2$",
@@ -406,10 +406,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $(-a) \\times (-a) \\times (-a)$",
       "choix": [
+        "$3a$",
         "$-a^3$",
-        "$a^3$",
         "$-3a$",
-        "$3a$"
+        "$a^3$"
       ],
       "reponse": "$-a^3$",
       "explication": "$(-a)^3 = -a^3$ (cube → négatif).",
@@ -441,9 +441,9 @@
       "enonce": "Simplifie l'écriture : $\\dfrac{(a+b)^2}{a+b}$ (simplifier, $a \\neq -b$)",
       "choix": [
         "$a+b$",
+        "$\\dfrac{1}{a+b}$",
         "$a^2+b^2$",
-        "$1$",
-        "$\\dfrac{1}{a+b}$"
+        "$1$"
       ],
       "reponse": "$a+b$",
       "explication": "$\\dfrac{(a+b)^2}{a+b} = a+b$.",
@@ -458,9 +458,9 @@
       "enonce": "Simplifie l'écriture : $(-2a)^2$",
       "choix": [
         "$4a^2$",
-        "$-4a^2$",
+        "$4a$",
         "$-2a^2$",
-        "$4a$"
+        "$-4a^2$"
       ],
       "reponse": "$4a^2$",
       "explication": "$(-2a)^2 = (-2)^2 \\times a^2 = 4a^2$.",
@@ -474,10 +474,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $(-3x)^3$",
       "choix": [
-        "$-27x^3$",
         "$27x^3$",
-        "$-9x^3$",
-        "$9x^3$"
+        "$-27x^3$",
+        "$9x^3$",
+        "$-9x^3$"
       ],
       "reponse": "$-27x^3$",
       "explication": "$(-3x)^3 = (-3)^3 \\times x^3 = -27x^3$.",
@@ -491,10 +491,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $\\dfrac{6a^2b}{3ab}$",
       "choix": [
-        "$2a$",
-        "$2b$",
         "$2$",
-        "$2ab$"
+        "$2ab$",
+        "$2a$",
+        "$2b$"
       ],
       "reponse": "$2a$",
       "explication": "$\\dfrac{6a^2b}{3ab} = 2a$.",
@@ -508,10 +508,10 @@
       "chrono": 20,
       "enonce": "Simplifie l'écriture : $\\dfrac{a \\times a}{a+a}$ (simplifier, $a \\neq 0$)",
       "choix": [
-        "$\\dfrac{a}{2}$",
-        "$\\dfrac{a^2}{2a}$",
         "$1$",
-        "$\\dfrac{1}{2}$"
+        "$\\dfrac{a^2}{2a}$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{a}{2}$"
       ],
       "reponse": "$\\dfrac{a}{2}$",
       "explication": "$a + a = 2a$. $\\dfrac{a^2}{2a} = \\dfrac{a}{2}$.",

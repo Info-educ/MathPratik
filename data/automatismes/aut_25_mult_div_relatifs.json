@@ -15,10 +15,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(+3) \\times (+4)$",
       "choix": [
-        "$+12$",
+        "$-7$",
         "$-12$",
         "$+7$",
-        "$-7$"
+        "$+12$"
       ],
       "reponse": "$+12$",
       "explication": "Même signe → résultat positif : $3 \\times 4 = 12$.",
@@ -33,9 +33,9 @@
       "enonce": "Calcule (ou réponds) : $(-5) \\times (+2)$",
       "choix": [
         "$-10$",
+        "$+7$",
         "$+10$",
-        "$-7$",
-        "$+7$"
+        "$-7$"
       ],
       "reponse": "$-10$",
       "explication": "Signes différents → négatif : $5 \\times 2 = 10$.",
@@ -49,10 +49,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-3) \\times (-4)$",
       "choix": [
-        "$+12$",
-        "$-12$",
+        "$-7$",
         "$+7$",
-        "$-7$"
+        "$+12$",
+        "$-12$"
       ],
       "reponse": "$+12$",
       "explication": "Même signe → positif : $3 \\times 4 = 12$.",
@@ -67,9 +67,9 @@
       "enonce": "Calcule (ou réponds) : $(+8) \\div (-2)$",
       "choix": [
         "$-4$",
-        "$+4$",
+        "$+16$",
         "$-16$",
-        "$+16$"
+        "$+4$"
       ],
       "reponse": "$-4$",
       "explication": "Signes différents → négatif : $8 \\div 2 = 4$.",
@@ -84,9 +84,9 @@
       "enonce": "Calcule (ou réponds) : $(-12) \\div (-3)$",
       "choix": [
         "$+4$",
-        "$-4$",
+        "$+9$",
         "$-9$",
-        "$+9$"
+        "$-4$"
       ],
       "reponse": "$+4$",
       "explication": "Même signe → positif : $12 \\div 3 = 4$.",
@@ -101,8 +101,8 @@
       "enonce": "Calcule (ou réponds) : $(+6) \\times (-5)$",
       "choix": [
         "$-30$",
-        "$+30$",
         "$-11$",
+        "$+30$",
         "$+11$"
       ],
       "reponse": "$-30$",
@@ -117,10 +117,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-7) \\times (-7)$",
       "choix": [
+        "$-14$",
         "$+49$",
         "$-49$",
-        "$0$",
-        "$-14$"
+        "$0$"
       ],
       "reponse": "$+49$",
       "explication": "Même signe → positif : $7 \\times 7 = 49$.",
@@ -134,10 +134,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(+15) \\div (+3)$",
       "choix": [
-        "$+5$",
         "$-5$",
-        "$+18$",
-        "$-18$"
+        "$+5$",
+        "$-18$",
+        "$+18$"
       ],
       "reponse": "$+5$",
       "explication": "Même signe → positif : $15 \\div 3 = 5$.",
@@ -151,10 +151,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-24) \\div (+6)$",
       "choix": [
-        "$-4$",
-        "$+4$",
         "$-30$",
-        "$+30$"
+        "$+30$",
+        "$+4$",
+        "$-4$"
       ],
       "reponse": "$-4$",
       "explication": "Signes différents → négatif : $24 \\div 6 = 4$.",
@@ -168,10 +168,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $0 \\times (-8)$",
       "choix": [
-        "$0$",
         "$-8$",
         "$+8$",
-        "$-80$"
+        "$-80$",
+        "$0$"
       ],
       "reponse": "$0$",
       "explication": "$0$ multiplié par n'importe quel nombre donne $0$.",
@@ -186,9 +186,9 @@
       "enonce": "Calcule (ou réponds) : $(-4) \\times (+3) \\times (-2)$",
       "choix": [
         "$+24$",
-        "$-24$",
         "$+9$",
-        "$-9$"
+        "$-9$",
+        "$-24$"
       ],
       "reponse": "$+24$",
       "explication": "$(-4)(+3) = -12$. $(-12)(-2) = +24$.",
@@ -202,10 +202,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-36) \\div (+4) \\div (-3)$",
       "choix": [
-        "$+3$",
-        "$-3$",
+        "$-9$",
         "$+9$",
-        "$-9$"
+        "$+3$",
+        "$-3$"
       ],
       "reponse": "$+3$",
       "explication": "$(-36) \\div (+4) = -9$. $(-9) \\div (-3) = +3$.",
@@ -219,10 +219,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-2)^2$",
       "choix": [
-        "$+4$",
         "$-4$",
-        "$+8$",
-        "$-8$"
+        "$-8$",
+        "$+4$",
+        "$+8$"
       ],
       "reponse": "$+4$",
       "explication": "$(-2)^2 = (-2) \\times (-2) = +4$.",
@@ -237,9 +237,9 @@
       "enonce": "Calcule (ou réponds) : $(-2)^3$",
       "choix": [
         "$-8$",
-        "$+8$",
+        "$+6$",
         "$-6$",
-        "$+6$"
+        "$+8$"
       ],
       "reponse": "$-8$",
       "explication": "$(-2)^3 = (-2) \\times (-2) \\times (-2) = +4 \\times (-2) = -8$.",
@@ -253,9 +253,9 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(+3) \\times (-5) \\times 0$",
       "choix": [
+        "$+15$",
         "$0$",
         "$-15$",
-        "$+15$",
         "$-8$"
       ],
       "reponse": "$0$",
@@ -270,10 +270,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-1)^{10}$",
       "choix": [
-        "$+1$",
+        "$10$",
         "$-1$",
         "$0$",
-        "$10$"
+        "$+1$"
       ],
       "reponse": "$+1$",
       "explication": "Puissance paire → positif. $(-1)^{10} = +1$.",
@@ -287,9 +287,9 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-1)^{11}$",
       "choix": [
-        "$-1$",
         "$+1$",
         "$0$",
+        "$-1$",
         "$11$"
       ],
       "reponse": "$-1$",
@@ -304,10 +304,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $\\dfrac{(-6) \\times (-4)}{(-3)}$",
       "choix": [
-        "$-8$",
         "$+8$",
         "$-24$",
-        "$+24$"
+        "$+24$",
+        "$-8$"
       ],
       "reponse": "$-8$",
       "explication": "$(-6) \\times (-4) = +24$. $\\dfrac{+24}{-3} = -8$.",
@@ -321,10 +321,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-0{,}5) \\times (+4)$",
       "choix": [
-        "$-2$",
         "$+2$",
-        "$-4{,}5$",
-        "$+4{,}5$"
+        "$+4{,}5$",
+        "$-2$",
+        "$-4{,}5$"
       ],
       "reponse": "$-2$",
       "explication": "Signes différents → négatif : $0{,}5 \\times 4 = 2$.",
@@ -338,10 +338,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-18) \\div (-0{,}5)$",
       "choix": [
+        "$-9$",
         "$+36$",
-        "$-36$",
         "$+9$",
-        "$-9$"
+        "$-36$"
       ],
       "reponse": "$+36$",
       "explication": "Même signe → positif : $18 \\div 0{,}5 = 36$.",
@@ -355,10 +355,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : Donne le signe de $(-2)^5 \\times (+3)^4$.",
       "choix": [
-        "Négatif",
+        "Impossible à déterminer",
         "Positif",
-        "Nul",
-        "Impossible à déterminer"
+        "Négatif",
+        "Nul"
       ],
       "reponse": "Négatif",
       "explication": "$(-2)^5 < 0$ (exposant impair), $(+3)^4 > 0$. Produit négatif $\\times$ positif = négatif.",
@@ -372,10 +372,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-3)^2 - (-4)^2$",
       "choix": [
-        "$-7$",
         "$+7$",
-        "$-1$",
-        "$+1$"
+        "$-7$",
+        "$+1$",
+        "$-1$"
       ],
       "reponse": "$-7$",
       "explication": "$9 - 16 = -7$.",
@@ -390,9 +390,9 @@
       "enonce": "Calcule (ou réponds) : Si $a = -2$ et $b = -3$, calcule $a \\times b - a^2$.",
       "choix": [
         "$-2$",
-        "$+2$",
         "$+10$",
-        "$-10$"
+        "$-10$",
+        "$+2$"
       ],
       "reponse": "$-2$",
       "explication": "$(-2)(-3) = 6$ ; $(-2)^2 = 4$. $6 - 4 = 2$. Attention : $a \\times b - a^2 = 6 - 4 = 2$. Signe positif.",
@@ -406,9 +406,9 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : Produit de $5$ facteurs tous négatifs : quel est le signe ?",
       "choix": [
+        "Nul",
         "Négatif",
         "Positif",
-        "Nul",
         "Impossible à déterminer"
       ],
       "reponse": "Négatif",
@@ -423,10 +423,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $\\dfrac{(-3)^2}{(-3)}$",
       "choix": [
-        "$-3$",
-        "$+3$",
         "$-9$",
-        "$+9$"
+        "$+9$",
+        "$-3$",
+        "$+3$"
       ],
       "reponse": "$-3$",
       "explication": "$\\dfrac{9}{-3} = -3$.",
@@ -440,8 +440,8 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-4) \\times (+2{,}5)$",
       "choix": [
-        "$-10$",
         "$+10$",
+        "$-10$",
         "$-6{,}5$",
         "$+6{,}5$"
       ],
@@ -457,10 +457,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-\\dfrac{3}{4}) \\times (-\\dfrac{4}{3})$",
       "choix": [
-        "$+1$",
-        "$-1$",
+        "$-\\dfrac{9}{16}$",
         "$+\\dfrac{9}{16}$",
-        "$-\\dfrac{9}{16}$"
+        "$+1$",
+        "$-1$"
       ],
       "reponse": "$+1$",
       "explication": "Même signe → positif : $\\dfrac{3}{4} \\times \\dfrac{4}{3} = \\dfrac{12}{12} = 1$.",
@@ -474,10 +474,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : $(-5)^2 \\times (-2)^3$",
       "choix": [
-        "$-200$",
+        "$+100$",
         "$+200$",
         "$-100$",
-        "$+100$"
+        "$-200$"
       ],
       "reponse": "$-200$",
       "explication": "$(-5)^2 = 25$ ; $(-2)^3 = -8$. $25 \\times (-8) = -200$.",
@@ -492,8 +492,8 @@
       "enonce": "Calcule (ou réponds) : $(-\\dfrac{1}{2})^3$",
       "choix": [
         "$-\\dfrac{1}{8}$",
-        "$+\\dfrac{1}{8}$",
         "$-\\dfrac{3}{2}$",
+        "$+\\dfrac{1}{8}$",
         "$+\\dfrac{3}{2}$"
       ],
       "reponse": "$-\\dfrac{1}{8}$",
@@ -508,10 +508,10 @@
       "chrono": 20,
       "enonce": "Calcule (ou réponds) : Si $x \\times (-3) = -21$, alors $x =$",
       "choix": [
-        "$+7$",
-        "$-7$",
+        "$-63$",
         "$+63$",
-        "$-63$"
+        "$-7$",
+        "$+7$"
       ],
       "reponse": "$+7$",
       "explication": "$x = \\dfrac{-21}{-3} = +7$.",

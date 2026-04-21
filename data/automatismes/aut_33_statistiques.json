@@ -15,10 +15,10 @@
       "chrono": 30,
       "enonce": "Série : $5, 8, 3, 6, 8$. Calculer la moyenne.",
       "choix": [
-        "$6$",
+        "$8$",
         "$5$",
-        "$7$",
-        "$8$"
+        "$6$",
+        "$7$"
       ],
       "reponse": "$6$",
       "explication": "$(5+8+3+6+8) \\div 5 = 30 \\div 5 = 6$.",
@@ -32,10 +32,10 @@
       "chrono": 30,
       "enonce": "Série : $10, 12, 14, 16, 18$. Calculer la moyenne.",
       "choix": [
-        "$14$",
-        "$12$",
+        "$70$",
         "$16$",
-        "$70$"
+        "$12$",
+        "$14$"
       ],
       "reponse": "$14$",
       "explication": "$(10+12+14+16+18) \\div 5 = 70 \\div 5 = 14$.",
@@ -49,10 +49,10 @@
       "chrono": 30,
       "enonce": "$5$ élèves ont $0, 5, 10, 15, 20$ de note. Quelle est la moyenne ?",
       "choix": [
-        "$10$",
-        "$5$",
         "$15$",
-        "$50$"
+        "$50$",
+        "$5$",
+        "$10$"
       ],
       "reponse": "$10$",
       "explication": "$\\dfrac{0+5+10+15+20}{5} = \\dfrac{50}{5} = 10$.",
@@ -66,10 +66,10 @@
       "chrono": 30,
       "enonce": "Série : $4, 4, 4, 4, 4$. Quelle est la moyenne ?",
       "choix": [
-        "$4$",
+        "$0$",
         "$16$",
-        "$20$",
-        "$0$"
+        "$4$",
+        "$20$"
       ],
       "reponse": "$4$",
       "explication": "La moyenne d'une série constante est cette valeur : $4$.",
@@ -84,9 +84,9 @@
       "enonce": "Quelle est la fréquence de $A$ si $A$ apparaît $3$ fois sur $12$ données ?",
       "choix": [
         "$25\\,\\%$",
-        "$3\\,\\%$",
         "$12\\,\\%$",
-        "$36\\,\\%$"
+        "$36\\,\\%$",
+        "$3\\,\\%$"
       ],
       "reponse": "$25\\,\\%$",
       "explication": "$\\dfrac{3}{12} = 0{,}25 = 25\\,\\%$.",
@@ -100,10 +100,10 @@
       "chrono": 30,
       "enonce": "$20$ élèves, dont $8$ ont eu $\\geq 15$. Fréquence :",
       "choix": [
-        "$40\\,\\%$",
-        "$8\\,\\%$",
         "$20\\,\\%$",
-        "$60\\,\\%$"
+        "$40\\,\\%$",
+        "$60\\,\\%$",
+        "$8\\,\\%$"
       ],
       "reponse": "$40\\,\\%$",
       "explication": "$\\dfrac{8}{20} = 0{,}4 = 40\\,\\%$.",
@@ -117,9 +117,9 @@
       "chrono": 30,
       "enonce": "Série : $2, 4, 6, 8, 10$. Quel est l'effectif total ?",
       "choix": [
-        "$5$",
         "$2$",
         "$30$",
+        "$5$",
         "$10$"
       ],
       "reponse": "$5$",
@@ -135,9 +135,9 @@
       "enonce": "Série : $7, 9, 5, 3, 6$. Calculer la moyenne.",
       "choix": [
         "$6$",
-        "$5$",
         "$7$",
-        "$30$"
+        "$30$",
+        "$5$"
       ],
       "reponse": "$6$",
       "explication": "$(7+9+5+3+6) \\div 5 = 30 \\div 5 = 6$.",
@@ -152,9 +152,9 @@
       "enonce": "Série : $0, 2, 4, 6, 8, 10$. Quelle est la moyenne ?",
       "choix": [
         "$5$",
-        "$4$",
+        "$10$",
         "$6$",
-        "$10$"
+        "$4$"
       ],
       "reponse": "$5$",
       "explication": "$(0+2+4+6+8+10) \\div 6 = 30 \\div 6 = 5$.",
@@ -168,10 +168,10 @@
       "chrono": 30,
       "enonce": "$30$ personnes interrogées : $6$ préfèrent le bleu. Fréquence :",
       "choix": [
-        "$20\\,\\%$",
         "$6\\,\\%$",
+        "$60\\,\\%$",
         "$30\\,\\%$",
-        "$60\\,\\%$"
+        "$20\\,\\%$"
       ],
       "reponse": "$20\\,\\%$",
       "explication": "$\\dfrac{6}{30} = 0{,}2 = 20\\,\\%$.",
@@ -185,10 +185,10 @@
       "chrono": 30,
       "enonce": "Série : $12, 8, 15, 10, 5$. Calculer la moyenne.",
       "choix": [
-        "$10$",
+        "$50$",
         "$8$",
-        "$12$",
-        "$50$"
+        "$10$",
+        "$12$"
       ],
       "reponse": "$10$",
       "explication": "$(12+8+15+10+5) \\div 5 = 50 \\div 5 = 10$.",
@@ -203,9 +203,9 @@
       "enonce": "$4$ notes : $12, 14, 10, 16$. Moyenne :",
       "choix": [
         "$13$",
-        "$12$",
         "$14$",
-        "$52$"
+        "$52$",
+        "$12$"
       ],
       "reponse": "$13$",
       "explication": "$(12+14+10+16) \\div 4 = 52 \\div 4 = 13$.",
@@ -221,8 +221,8 @@
       "choix": [
         "$10$",
         "$6$",
-        "$4$",
-        "$2$"
+        "$2$",
+        "$4$"
       ],
       "reponse": "$10$",
       "explication": "$4 + 6 = 10$.",
@@ -253,10 +253,10 @@
       "chrono": 30,
       "enonce": "$25$ dés lancés : $8$ fois un $6$. Fréquence :",
       "choix": [
+        "$48\\,\\%$",
         "$32\\,\\%$",
         "$8\\,\\%$",
-        "$25\\,\\%$",
-        "$48\\,\\%$"
+        "$25\\,\\%$"
       ],
       "reponse": "$32\\,\\%$",
       "explication": "$\\dfrac{8}{25} = 0{,}32 = 32\\,\\%$.",
@@ -270,10 +270,10 @@
       "chrono": 30,
       "enonce": "Série de $10$ valeurs de somme $85$. Moyenne :",
       "choix": [
-        "$8{,}5$",
-        "$8$",
+        "$85$",
         "$9$",
-        "$85$"
+        "$8{,}5$",
+        "$8$"
       ],
       "reponse": "$8{,}5$",
       "explication": "$85 \\div 10 = 8{,}5$.",
@@ -287,9 +287,9 @@
       "chrono": 30,
       "enonce": "Moyenne de $8, 12, 10, 14, 6$ = ?",
       "choix": [
-        "$10$",
         "$9$",
         "$11$",
+        "$10$",
         "$50$"
       ],
       "reponse": "$10$",
@@ -304,10 +304,10 @@
       "chrono": 30,
       "enonce": "Un élève a $7$ notes de moyenne $12$. Somme des notes :",
       "choix": [
-        "$84$",
-        "$12$",
         "$7$",
-        "$19$"
+        "$19$",
+        "$12$",
+        "$84$"
       ],
       "reponse": "$84$",
       "explication": "$7 \\times 12 = 84$.",
@@ -321,9 +321,9 @@
       "chrono": 30,
       "enonce": "$3$ notes : $15, 10, 17$. Quelle note faut-il avoir pour avoir $13$ de moyenne sur $4$ notes ?",
       "choix": [
+        "$14$",
         "$10$",
         "$12$",
-        "$14$",
         "$8$"
       ],
       "reponse": "$10$",
@@ -338,10 +338,10 @@
       "chrono": 30,
       "enonce": "Tableau : $2$ données valent $5$, $3$ données valent $10$. Moyenne :",
       "choix": [
-        "$8$",
-        "$7$",
         "$9$",
-        "$7{,}5$"
+        "$8$",
+        "$7{,}5$",
+        "$7$"
       ],
       "reponse": "$8$",
       "explication": "$(2 \\times 5 + 3 \\times 10) \\div 5 = (10+30) \\div 5 = 40 \\div 5 = 8$.",
@@ -355,9 +355,9 @@
       "chrono": 30,
       "enonce": "Série : $a, a+2, a+4, a+6, a+8$. Moyenne :",
       "choix": [
+        "$a+2$",
         "$a+4$",
         "$a$",
-        "$a+2$",
         "$5a+20$"
       ],
       "reponse": "$a+4$",
@@ -372,10 +372,10 @@
       "chrono": 30,
       "enonce": "$10$ valeurs de moyenne $7$, puis $5$ valeurs de moyenne $4$. Moyenne globale :",
       "choix": [
-        "$6$",
         "$5{,}5$",
-        "$7$",
-        "$4{,}5$"
+        "$6$",
+        "$4{,}5$",
+        "$7$"
       ],
       "reponse": "$6$",
       "explication": "$\\dfrac{10 \\times 7 + 5 \\times 4}{15} = \\dfrac{70+20}{15} = \\dfrac{90}{15} = 6$.",
@@ -389,10 +389,10 @@
       "chrono": 30,
       "enonce": "Un sondage : $\\dfrac{3}{5}$ préfèrent A. Sur $200$ personnes, combien préfèrent A ?",
       "choix": [
-        "$120$",
-        "$60$",
         "$80$",
-        "$150$"
+        "$60$",
+        "$150$",
+        "$120$"
       ],
       "reponse": "$120$",
       "explication": "$\\dfrac{3}{5} \\times 200 = 120$.",
@@ -406,9 +406,9 @@
       "chrono": 30,
       "enonce": "Tableau de fréquences : $A$ à $40\\,\\%$, $B$ à $35\\,\\%$, $C$ à $?\\,\\%$. Sur $200$ personnes, effectif de $C$ :",
       "choix": [
-        "$50$",
         "$25$",
         "$70$",
+        "$50$",
         "$100$"
       ],
       "reponse": "$50$",
@@ -423,10 +423,10 @@
       "chrono": 30,
       "enonce": "Série : $3, 5, 7, 7, 8, 10$. Mode :",
       "choix": [
-        "$7$",
         "$5$",
         "$8$",
-        "$10$"
+        "$10$",
+        "$7$"
       ],
       "reponse": "$7$",
       "explication": "Le mode est la valeur la plus fréquente : $7$ (apparaît $2$ fois).",
@@ -442,8 +442,8 @@
       "choix": [
         "$6$",
         "$5$",
-        "$7$",
-        "$5{,}5$"
+        "$5{,}5$",
+        "$7$"
       ],
       "reponse": "$6$",
       "explication": "$6$ valeurs : médiane = moyenne des $3^e$ et $4^e$ = $(5+7) \\div 2 = 6$.",
@@ -457,10 +457,10 @@
       "chrono": 30,
       "enonce": "$5$ notes ont une moyenne de $12$. La $6^e$ note est $18$. Nouvelle moyenne :",
       "choix": [
-        "$13$",
-        "$12$",
         "$14{,}4$",
-        "$15$"
+        "$12$",
+        "$15$",
+        "$13$"
       ],
       "reponse": "$13$",
       "explication": "$(5 \\times 12 + 18) \\div 6 = (60+18) \\div 6 = 78 \\div 6 = 13$.",
@@ -475,8 +475,8 @@
       "enonce": "Fréquence cumulée de $A$ et $B$ si $A$ a $30\\,\\%$ et $B$ a $25\\,\\%$ :",
       "choix": [
         "$55\\,\\%$",
-        "$7{,}5\\,\\%$",
         "$5\\,\\%$",
+        "$7{,}5\\,\\%$",
         "$45\\,\\%$"
       ],
       "reponse": "$55\\,\\%$",
@@ -491,10 +491,10 @@
       "chrono": 30,
       "enonce": "Série : $4, 4, 5, 6, 6, 7, 9$. Médiane :",
       "choix": [
-        "$6$",
-        "$5$",
         "$7$",
-        "$5{,}5$"
+        "$5{,}5$",
+        "$5$",
+        "$6$"
       ],
       "reponse": "$6$",
       "explication": "$7$ valeurs : médiane = $4^e$ valeur = $6$.",
@@ -508,10 +508,10 @@
       "chrono": 30,
       "enonce": "$12$ valeurs : moyenne $= 8$. On enlève une valeur de $8$. Nouvelle moyenne :",
       "choix": [
-        "$8$",
         "$7$",
-        "$9$",
-        "$8{,}5$"
+        "$8$",
+        "$8{,}5$",
+        "$9$"
       ],
       "reponse": "$8$",
       "explication": "$(12 \\times 8 - 8) \\div 11 = (96-8) \\div 11 = 88 \\div 11 = 8$.",
