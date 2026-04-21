@@ -14,7 +14,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q01.png",
+      "image": "automatismes/proportionnalite/aut_22_q01.png",
       "choix": [
         "21",
         "18",
@@ -32,7 +32,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q02.png",
+      "image": "automatismes/proportionnalite/aut_22_q02.png",
       "choix": [
         "9",
         "12",
@@ -50,7 +50,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q03.png",
+      "image": "automatismes/proportionnalite/aut_22_q03.png",
       "choix": [
         "14",
         "12",
@@ -68,7 +68,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q04.png",
+      "image": "automatismes/proportionnalite/aut_22_q04.png",
       "choix": [
         "5",
         "4",
@@ -86,7 +86,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q05.png",
+      "image": "automatismes/proportionnalite/aut_22_q05.png",
       "choix": [
         "3",
         "2",
@@ -104,7 +104,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q06.png",
+      "image": "automatismes/proportionnalite/aut_22_q06.png",
       "choix": [
         "8",
         "6",
@@ -122,7 +122,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q07.png",
+      "image": "automatismes/proportionnalite/aut_22_q07.png",
       "choix": [
         "7",
         "3",
@@ -140,7 +140,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q08.png",
+      "image": "automatismes/proportionnalite/aut_22_q08.png",
       "choix": [
         "36",
         "30",
@@ -158,7 +158,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q09.png",
+      "image": "automatismes/proportionnalite/aut_22_q09.png",
       "choix": [
         "36",
         "30",
@@ -176,7 +176,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q10.png",
+      "image": "automatismes/proportionnalite/aut_22_q10.png",
       "choix": [
         "56",
         "48",
@@ -194,7 +194,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q11.png",
+      "image": "automatismes/proportionnalite/aut_22_q11.png",
       "choix": [
         "15",
         "10",
@@ -212,7 +212,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q12.png",
+      "image": "automatismes/proportionnalite/aut_22_q12.png",
       "choix": [
         "11",
         "9",
@@ -230,7 +230,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q13.png",
+      "image": "automatismes/proportionnalite/aut_22_q13.png",
       "choix": [
         "60",
         "50",
@@ -248,7 +248,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q14.png",
+      "image": "automatismes/proportionnalite/aut_22_q14.png",
       "choix": [
         "$\\dfrac{1}{6}$",
         "1",
@@ -266,7 +266,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q15.png",
+      "image": "automatismes/proportionnalite/aut_22_q15.png",
       "choix": [
         "30",
         "24",
@@ -284,7 +284,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q16.png",
+      "image": "automatismes/proportionnalite/aut_22_q16.png",
       "choix": [
         "4",
         "8",
@@ -302,7 +302,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q17.png",
+      "image": "automatismes/proportionnalite/aut_22_q17.png",
       "choix": [
         "18",
         "15",
@@ -320,7 +320,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q18.png",
+      "image": "automatismes/proportionnalite/aut_22_q18.png",
       "choix": [
         "42",
         "63",
@@ -338,7 +338,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q19.png",
+      "image": "automatismes/proportionnalite/aut_22_q19.png",
       "choix": [
         "4",
         "10",
@@ -356,7 +356,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q20.png",
+      "image": "automatismes/proportionnalite/aut_22_q20.png",
       "choix": [
         "25",
         "20",
@@ -374,7 +374,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q21.png",
+      "image": "automatismes/proportionnalite/aut_22_q21.png",
       "choix": [
         "16",
         "12",
@@ -392,7 +392,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q22.png",
+      "image": "automatismes/proportionnalite/aut_22_q22.png",
       "choix": [
         "6",
         "5",
@@ -410,7 +410,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q23.png",
+      "image": "automatismes/proportionnalite/aut_22_q23.png",
       "choix": [
         "27",
         "63",
@@ -428,7 +428,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q24.png",
+      "image": "automatismes/proportionnalite/aut_22_q24.png",
       "choix": [
         "24",
         "36",
@@ -446,7 +446,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q25.png",
+      "image": "automatismes/proportionnalite/aut_22_q25.png",
       "choix": [
         "27",
         "30",
@@ -464,7 +464,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q26.png",
+      "image": "automatismes/proportionnalite/aut_22_q26.png",
       "choix": [
         "20",
         "15",
@@ -482,7 +482,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q27.png",
+      "image": "automatismes/proportionnalite/aut_22_q27.png",
       "choix": [
         "36",
         "18",
@@ -500,7 +500,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q28.png",
+      "image": "automatismes/proportionnalite/aut_22_q28.png",
       "choix": [
         "20",
         "28",
@@ -518,7 +518,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q29.png",
+      "image": "automatismes/proportionnalite/aut_22_q29.png",
       "choix": [
         "56",
         "36",
@@ -536,7 +536,7 @@
       "calcul_mental": false,
       "chrono": 30,
       "enonce": "Complète la case **?** du tableau de proportionnalité.",
-      "image": "images/automatismes/proportionnalite/aut_22_q30.png",
+      "image": "automatismes/proportionnalite/aut_22_q30.png",
       "choix": [
         "27",
         "$40{,}5$",
