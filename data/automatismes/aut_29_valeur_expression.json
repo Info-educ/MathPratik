@@ -195,23 +195,6 @@
       "image": null
     },
     {
-      "id": "aut_29_12",
-      "niveau": 2,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Calcule $\\dfrac{a^2 - b^2}{a+b}$ pour $a=5$, $b=3$.",
-      "choix": [
-        "$1$",
-        "$2$",
-        "$4$",
-        "$8$"
-      ],
-      "reponse": "$2$",
-      "explication": "$(a+b)(a-b)/(a+b) = a-b = 5-3 = 2$.",
-      "image": null
-    },
-    {
       "id": "aut_29_13",
       "niveau": 2,
       "type": "qcm",
@@ -258,8 +241,8 @@
         "$1$",
         "$\\dfrac{2}{3}$"
       ],
-      "reponse": "$1$",
-      "explication": "$\\dfrac{6-1}{2+1} = \\dfrac{5}{3}$. Attention, réponse $\\dfrac{5}{3}$.",
+      "reponse": "$\\dfrac{5}{3}$",
+      "explication": "$\\dfrac{6-1}{2+1} = \\dfrac{5}{3}$.",
       "image": null
     },
     {
@@ -293,41 +276,7 @@
         "$10$"
       ],
       "reponse": "$6$",
-      "explication": "$2 + 6 - 2 = 6$.",
-      "image": null
-    },
-    {
-      "id": "aut_29_18",
-      "niveau": 2,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Calcule $\\dfrac{n(n+1)}{2}$ pour $n=6$.",
-      "choix": [
-        "$18$",
-        "$24$",
-        "$21$",
-        "$15$"
-      ],
-      "reponse": "$21$",
-      "explication": "$\\dfrac{6 \\times 7}{2} = \\dfrac{42}{2} = 21$.",
-      "image": null
-    },
-    {
-      "id": "aut_29_19",
-      "niveau": 2,
-      "type": "qcm",
-      "calcul_mental": false,
-      "chrono": 25,
-      "enonce": "Calcule $|a - b|$ pour $a=3$, $b=7$.",
-      "choix": [
-        "$4$",
-        "$-4$",
-        "$21$",
-        "$10$"
-      ],
-      "reponse": "$4$",
-      "explication": "$|3-7| = |-4| = 4$.",
+      "explication": "2x1 + 3x2 - 1x2 = 2 + 6 -2 = 6.",
       "image": null
     },
     {
@@ -412,7 +361,7 @@
         "$4$"
       ],
       "reponse": "$4$",
-      "explication": "$(a+b)^2 = (3-1)^2 = 4$.",
+      "explication": "3² + 2x3x(-1) + (-1)² = 9 - 6 + 1 = 4",
       "image": null
     },
     {
@@ -497,7 +446,7 @@
         "$4$"
       ],
       "reponse": "$6$",
-      "explication": "$\\dfrac{(n-1)(n+1)}{n-1} = n+1 = 6$.",
+      "explication": "$\\dfrac{5^2 - 1}{5-1}$ = $\\dfrac{24}{4}$ = 6 ",
       "image": null
     },
     {
