@@ -106,7 +106,7 @@
         "$\\mathcal{P} = 36\\,\\mathrm{m}$"
       ],
       "reponse": "$\\mathcal{P} = 30\\,\\mathrm{m}$",
-      "explication": "Formule : $\\mathcal{P}_{\\text{rectangle}} = 2(L + \\ell)$. $\\mathcal{P} = 2(12+3) = 2 \\times 15 = 30\\,\\mathrm{m}$.",
+      "explication": "$\\mathcal{P} = 2(L + \\ell) = 2(12+3) = 2 \\times 15 = 30\\,\\mathrm{m}$.",
       "image": null
     },
     {
@@ -123,7 +123,7 @@
         "$\\mathcal{P} = 28\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 28\\,\\mathrm{cm}$",
-      "explication": "Formule : $\\mathcal{P}_{\\text{carré}} = 4 \\times c$. $\\mathcal{P} = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
+      "explication": "$\\mathcal{P} = 4 \\times c = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
       "image": null
     },
     {
@@ -157,7 +157,7 @@
         "$\\mathcal{C} = 36\\pi\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{C} = 12\\pi\\,\\mathrm{cm}$",
-      "explication": "Formule : $\\mathcal{C}_{\\text{cercle}} = 2\\pi r$. $\\mathcal{C} = 2\\pi \\times 6 = 12\\pi\\,\\mathrm{cm}$.",
+      "explication": "$\\mathcal{C} = 2\\pi r = 2\\pi \\times 6 = 12\\pi\\,\\mathrm{cm}$.",
       "image": null
     },
     {
@@ -174,7 +174,7 @@
         "$\\mathcal{P} = 28\\,\\mathrm{m}$"
       ],
       "reponse": "$\\mathcal{P} = 56\\,\\mathrm{m}$",
-      "explication": "Formule : $\\mathcal{P}_{\\text{rectangle}} = 2(L + \\ell)$. $\\mathcal{P} = 2(20+8) = 2 \\times 28 = 56\\,\\mathrm{m}$.",
+      "explication": "$\\mathcal{P} = 2(L + \\ell) = 2(20+8) = 2 \\times 28 = 56\\,\\mathrm{m}$.",
       "image": null
     },
     {
@@ -208,7 +208,7 @@
         "$\\mathcal{A} = 100\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 25\\,\\mathrm{m}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{carré}} = c^2$. $\\mathcal{A} = 5^2 = 25\\,\\mathrm{m}^2$.",
+      "explication": "$\\mathcal{A} = c^2 = 5^2 = 25\\,\\mathrm{m}^2$.",
       "image": null
     },
     {
@@ -259,7 +259,7 @@
         "$\\mathcal{A} = 32\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 36\\,\\mathrm{m}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{rectangle}} = L \\times \\ell$. $\\mathcal{A} = 9 \\times 4 = 36\\,\\mathrm{m}^2$.",
+      "explication": "$\\mathcal{A} = L \\times \\ell = 9 \\times 4 = 36\\,\\mathrm{m}^2$.",
       "image": null
     },
     {
@@ -276,7 +276,7 @@
         "$\\mathcal{A} = 144\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 144\\,\\mathrm{cm}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{carré}} = c^2$. $\\mathcal{A} = 12^2 = 144\\,\\mathrm{cm}^2$.",
+      "explication": "$\\mathcal{A} = c^2 = 12^2 = 144\\,\\mathrm{cm}^2$.",
       "image": null
     },
     {
@@ -293,7 +293,7 @@
         "$\\mathcal{A} = 40\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 20\\,\\mathrm{m}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{triangle}} = \\dfrac{\\text{base} \\times h}{2}$. $\\mathcal{A} = \\dfrac{8 \\times 5}{2} = 20\\,\\mathrm{m}^2$.",
+      "explication": "$\\mathcal{A} = \\dfrac{\\text{base} \\times h}{2} = \\dfrac{8 \\times 5}{2} = \\dfrac{40}{2} = 20\\,\\mathrm{m}^2$.",
       "image": null
     },
     {
@@ -310,7 +310,7 @@
         "$\\mathcal{A} = 25\\pi\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 25\\pi\\,\\mathrm{cm}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{disque}} = \\pi r^2$. $\\mathcal{A} = \\pi \\times 5^2 = 25\\pi\\,\\mathrm{cm}^2$.",
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = \\pi \\times 5^2 = 25\\pi\\,\\mathrm{cm}^2$.",
       "image": null
     },
     {
@@ -327,7 +327,7 @@
         "$\\mathcal{A} = 22\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 105\\,\\mathrm{cm}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{rectangle}} = L \\times \\ell$. $\\mathcal{A} = 15 \\times 7 = 105\\,\\mathrm{cm}^2$.",
+      "explication": "$\\mathcal{A} = L \\times \\ell = 15 \\times 7 = 105\\,\\mathrm{cm}^2$.",
       "image": null
     },
     {
@@ -344,7 +344,7 @@
         "$\\mathcal{A} = 3\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 9\\,\\mathrm{m}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{carré}} = c^2$. $\\mathcal{A} = 3^2 = 9\\,\\mathrm{m}^2$.",
+      "explication": "$\\mathcal{A} = c^2 = 3^2 = 9\\,\\mathrm{m}^2$.",
       "image": null
     },
     {
@@ -361,7 +361,7 @@
         "$\\mathcal{A} = 42\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 42\\,\\mathrm{cm}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{triangle}} = \\dfrac{\\text{base} \\times h}{2}$. $\\mathcal{A} = \\dfrac{14 \\times 6}{2} = 42\\,\\mathrm{cm}^2$.",
+      "explication": "$\\mathcal{A} = \\dfrac{\\text{base} \\times h}{2} = \\dfrac{14 \\times 6}{2} = \\dfrac{84}{2} = 42\\,\\mathrm{cm}^2$.",
       "image": null
     },
     {
@@ -378,7 +378,7 @@
         "$\\mathcal{A} = 64\\pi\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 16\\pi\\,\\mathrm{cm}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{disque}} = \\pi r^2$. $r = d \\div 2 = 4\\,\\mathrm{cm}$. $\\mathcal{A} = \\pi \\times 4^2 = 16\\pi\\,\\mathrm{cm}^2$.",
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = \\pi \\times 4^2 = 16\\pi\\,\\mathrm{cm}^2$ ($r = d \\div 2 = 4\\,\\mathrm{cm}$).",
       "image": null
     },
     {
@@ -395,7 +395,7 @@
         "$\\mathcal{P} = 14\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 28\\,\\mathrm{cm}$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{carré}} = c^2$ donc $c = \\sqrt{\\mathcal{A}}$. $c = \\sqrt{49} = 7\\,\\mathrm{cm}$. Formule : $\\mathcal{P}_{\\text{carré}} = 4 \\times c$. $\\mathcal{P} = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
+      "explication": "$c = \\sqrt{\\mathcal{A}} = \\sqrt{49} = 7\\,\\mathrm{cm}$ $\\rightarrow$ $\\mathcal{P} = 4 \\times c = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
       "image": null
     },
     {
@@ -429,7 +429,7 @@
         "$\\mathcal{A} = 81\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 81\\,\\mathrm{m}^2$",
-      "explication": "Formule : $\\mathcal{P}_{\\text{carré}} = 4 \\times c$ donc $c = \\mathcal{P} \\div 4$. $c = 36 \\div 4 = 9\\,\\mathrm{m}$. Formule : $\\mathcal{A}_{\\text{carré}} = c^2$. $\\mathcal{A} = 9^2 = 81\\,\\mathrm{m}^2$.",
+      "explication": "$c = \\mathcal{P} \\div 4 = 36 \\div 4 = 9\\,\\mathrm{m}$ $\\rightarrow$ $\\mathcal{A} = c^2 = 9^2 = 81\\,\\mathrm{m}^2$.",
       "image": null
     },
     {
@@ -463,7 +463,7 @@
         "$\\mathcal{A} = 2\\,500\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 2\\,500\\,\\mathrm{m}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{rectangle}} = L \\times \\ell$. $\\mathcal{A} = 100 \\times 25 = 2\\,500\\,\\mathrm{m}^2$.",
+      "explication": "$\\mathcal{A} = L \\times \\ell = 100 \\times 25 = 2\\,500\\,\\mathrm{m}^2$.",
       "image": null
     },
     {
@@ -480,7 +480,7 @@
         "$\\mathcal{A} = 100\\pi\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 100\\pi\\,\\mathrm{cm}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{disque}} = \\pi r^2$. $\\mathcal{A} = \\pi \\times 10^2 = 100\\pi\\,\\mathrm{cm}^2$.",
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = \\pi \\times 10^2 = 100\\pi\\,\\mathrm{cm}^2$.",
       "image": null
     },
     {
@@ -514,7 +514,7 @@
         "$\\mathcal{A} = 17\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 30\\,\\mathrm{cm}^2$",
-      "explication": "Formule : $\\mathcal{A}_{\\text{triangle}} = \\dfrac{\\text{base} \\times h}{2}$. $\\mathcal{A} = \\dfrac{5 \\times 12}{2} = 30\\,\\mathrm{cm}^2$.",
+      "explication": "$\\mathcal{A} = \\dfrac{\\text{base} \\times h}{2} = \\dfrac{5 \\times 12}{2} = \\dfrac{60}{2} = 30\\,\\mathrm{cm}^2$.",
       "image": null
     }
   ]
