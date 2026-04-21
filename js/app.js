@@ -796,28 +796,39 @@ function renderTrainingQuestion() {
   // Reset feedback
   const fb = document.getElementById('feedback-box');
   fb.className = 'feedback-box';
+  document.getElementById('feedback-text').innerHTML = '';
   document.getElementById('btn-next').classList.remove('visible');
+
+  // Énoncé : adapter pour diviseurs_multi
+  if (q.type === 'diviseurs_multi') {
+    setMathText(document.getElementById('q-text'), q.enonce);
+  }
 
   // Choix
   const list = document.getElementById('choices-list');
   list.innerHTML = '';
-  const choixMelanges = shuffle([...q.choix]);
-  const letters = ['A', 'B', 'C', 'D'];
-  choixMelanges.forEach((choix, i) => {
-    const btn = document.createElement('button');
-    btn.className = 'choice-btn';
-    btn.dataset.val = choix;
-    const letterSpan = document.createElement('span');
-    letterSpan.className = 'choice-letter';
-    letterSpan.textContent = letters[i];
-    const textSpan = document.createElement('span');
-    textSpan.textContent = choix;
-    btn.appendChild(letterSpan);
-    btn.appendChild(textSpan);
-    renderMath(textSpan);
-    btn.addEventListener('click', () => handleTrainingAnswer(choix, q));
-    list.appendChild(btn);
-  });
+
+  if (q.type === 'diviseurs_multi') {
+    renderDiviseursMulti(q, list);
+  } else {
+    const choixMelanges = shuffle([...q.choix]);
+    const letters = ['A', 'B', 'C', 'D'];
+    choixMelanges.forEach((choix, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'choice-btn';
+      btn.dataset.val = choix;
+      const letterSpan = document.createElement('span');
+      letterSpan.className = 'choice-letter';
+      letterSpan.textContent = letters[i];
+      const textSpan = document.createElement('span');
+      textSpan.textContent = choix;
+      btn.appendChild(letterSpan);
+      btn.appendChild(textSpan);
+      renderMath(textSpan);
+      btn.addEventListener('click', () => handleTrainingAnswer(choix, q));
+      list.appendChild(btn);
+    });
+  }
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -856,27 +867,33 @@ function handleTrainingAnswer(chosen, question) {
     fb.className = 'feedback-box correct';
     document.getElementById('feedback-icon').textContent  = '✓';
     document.getElementById('feedback-title').textContent = 'Bonne réponse !';
-    feedbackText.innerHTML = '';
-    setMathText(feedbackText, question.explication || '');
   } else {
     fb.className = 'feedback-box wrong';
     document.getElementById('feedback-icon').textContent  = '✗';
     document.getElementById('feedback-title').textContent = '✗ Mauvaise réponse';
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
-
-    // Bonne réponse mise en évidence + explication
+  }
+  {
+    const isDivMulti = (question.type === 'diviseurs_multi');
     feedbackText.innerHTML = '';
-    const repText = Array.isArray(question.reponse) ? question.reponse.join(', ') : question.reponse;
-    const correctDiv = document.createElement('div');
-    correctDiv.className = 'feedback-correct-answer';
-    correctDiv.textContent = '✅ Bonne réponse : ' + repText;
-    renderMath(correctDiv);
-    feedbackText.appendChild(correctDiv);
-    const explDiv = document.createElement('div');
-    explDiv.style.marginTop = '8px';
-    setMathText(explDiv, question.explication || '');
-    feedbackText.appendChild(explDiv);
+    if (!isCorrect) {
+      const repText = isDivMulti
+        ? '÷' + (Array.isArray(question.reponse) ? question.reponse.join(', ÷') : question.reponse)
+        : (Array.isArray(question.reponse) ? question.reponse.join(', ') : question.reponse);
+      const label = isDivMulti ? '✅ Bons diviseurs : ' : '✅ Bonne réponse : ';
+      const correctDiv = document.createElement('div');
+      correctDiv.className = 'feedback-correct-answer';
+      correctDiv.textContent = label + repText;
+      renderMath(correctDiv);
+      feedbackText.appendChild(correctDiv);
+    }
+    if (question.explication) {
+      const explDiv = document.createElement('div');
+      explDiv.style.marginTop = '8px';
+      setMathText(explDiv, question.explication);
+      feedbackText.appendChild(explDiv);
+    }
   }
 
   document.getElementById('quiz-score-live').textContent = `${State.sessionCorrect}/${State.sessionTotal}`;
@@ -1139,7 +1156,20 @@ function handleAnswerDiviseursMulti(isCorrect, question, grille, bons, sel) {
   State.answered = true;
   State.sessionTotal += 1;
   if (isCorrect) State.sessionCorrect += 1;
-  State.sessionResults[State.currentQIndex] = isCorrect;
+
+  // Mode entraînement : mettre à jour les compteurs de progression
+  const isTrainingMode = (State.selectedMode === 'entrainement') && !State._dmMode;
+  if (isTrainingMode) {
+    const tr = State.train;
+    if (isCorrect) {
+      if (tr.currentLevel === 1 && tr.ok1 < tr.target1)       tr.ok1++;
+      else if (tr.currentLevel === 2 && tr.ok2 < tr.target2)   tr.ok2++;
+      else if (tr.currentLevel === 3 && tr.ok3 < tr.target3)   tr.ok3++;
+    }
+    tr.history.push({ q: question, isCorrect });
+  } else {
+    State.sessionResults[State.currentQIndex] = isCorrect;
+  }
 
   grille.querySelectorAll('.divmulti-btn').forEach(btn => {
     btn.disabled = true;
@@ -1330,19 +1360,27 @@ function afficherFeedback(isCorrect, question) {
   }
 
   const feedbackText = document.getElementById('feedback-text');
-  if (!isCorrect && isTraining) {
-    // En entraînement : afficher d'abord la bonne réponse, puis l'explication
-    const repText = Array.isArray(question.reponse) ? question.reponse.join(', ') : question.reponse;
+  const isDivMulti = (question.type === 'diviseurs_multi');
+
+  if (!isCorrect || isDivMulti) {
     feedbackText.innerHTML = '';
-    const correctDiv = document.createElement('div');
-    correctDiv.className = 'feedback-correct-answer';
-    correctDiv.textContent = '✅ Bonne réponse : ' + repText;
-    renderMath(correctDiv);
-    feedbackText.appendChild(correctDiv);
-    const explDiv = document.createElement('div');
-    explDiv.style.marginTop = '8px';
-    setMathText(explDiv, question.explication || '');
-    feedbackText.appendChild(explDiv);
+    if (!isCorrect) {
+      // Afficher la bonne réponse
+      const repText = Array.isArray(question.reponse)
+        ? '÷' + question.reponse.join(', ÷')
+        : question.reponse;
+      const correctDiv = document.createElement('div');
+      correctDiv.className = 'feedback-correct-answer';
+      correctDiv.textContent = '✅ Bons diviseurs : ' + repText;
+      renderMath(correctDiv);
+      feedbackText.appendChild(correctDiv);
+    }
+    if (question.explication) {
+      const explDiv = document.createElement('div');
+      explDiv.style.marginTop = '8px';
+      setMathText(explDiv, question.explication);
+      feedbackText.appendChild(explDiv);
+    }
   } else {
     feedbackText.innerHTML = '';
     setMathText(feedbackText, question.explication || '');
@@ -1351,15 +1389,29 @@ function afficherFeedback(isCorrect, question) {
   document.getElementById('quiz-score-live').textContent =
     `${State.sessionCorrect}/${State.sessionTotal}`;
 
+  // Mettre à jour la barre de progression en mode entraînement
+  if (isTraining) {
+    const tr = State.train;
+    const done  = tr.ok1 + tr.ok2 + tr.ok3;
+    const total = tr.target1 + tr.target2 + tr.target3;
+    document.getElementById('quiz-progress').style.width = (done / total * 100) + '%';
+    document.getElementById('q-num').textContent = Math.min(done + 1, total);
+  }
+
   const btnNext = document.getElementById('btn-next');
   btnNext.classList.add('visible');
-  const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
+
   if (!isCorrect && !isTraining && !State._dmMode) {
     btnNext.textContent = '→ Recommencer';
-  } else if (isLast) {
-    btnNext.textContent = 'Voir les résultats →';
+  } else if (isTraining) {
+    // En entraînement : vérifier si l'objectif est atteint
+    const tr = State.train;
+    const done  = tr.ok1 + tr.ok2 + tr.ok3;
+    const total = tr.target1 + tr.target2 + tr.target3;
+    btnNext.textContent = (done >= total) ? 'Voir les résultats →' : 'Suivant →';
   } else {
-    btnNext.textContent = 'Suivant →';
+    const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
+    btnNext.textContent = isLast ? 'Voir les résultats →' : 'Suivant →';
   }
 }
 
@@ -1403,7 +1455,29 @@ function handleAnswer(chosen, question) {
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
-  setMathText(document.getElementById('feedback-text'), question.explication || '');
+  {
+    const feedbackText = document.getElementById('feedback-text');
+    const isDivMulti = (question.type === 'diviseurs_multi');
+    if (!isCorrect || isDivMulti) {
+      feedbackText.innerHTML = '';
+      if (!isCorrect && isDivMulti) {
+        const repText = '÷' + (Array.isArray(question.reponse) ? question.reponse.join(', ÷') : question.reponse);
+        const correctDiv = document.createElement('div');
+        correctDiv.className = 'feedback-correct-answer';
+        correctDiv.textContent = '✅ Bons diviseurs : ' + repText;
+        renderMath(correctDiv);
+        feedbackText.appendChild(correctDiv);
+      }
+      if (question.explication) {
+        const explDiv = document.createElement('div');
+        explDiv.style.marginTop = isDivMulti ? '8px' : '0';
+        setMathText(explDiv, question.explication);
+        feedbackText.appendChild(explDiv);
+      }
+    } else {
+      setMathText(feedbackText, question.explication || '');
+    }
+  }
   document.getElementById('quiz-score-live').textContent = `${State.sessionCorrect}/${State.sessionTotal}`;
 
   const btnNext = document.getElementById('btn-next');
@@ -1560,8 +1634,21 @@ function renderMath(el) {
  * Utiliser partout à la place de textContent pour énoncés, choix, explications.
  */
 function setMathText(el, text) {
-  el.textContent = String(text);
-  renderMath(el);
+  const str = String(text);
+  // Les explications diviseurs_multi utilisent " | " comme séparateur de lignes
+  if (str.includes(' | ')) {
+    el.innerHTML = '';
+    str.split(' | ').forEach((part, i) => {
+      if (i > 0) el.appendChild(document.createElement('br'));
+      const span = document.createElement('span');
+      span.textContent = part;
+      el.appendChild(span);
+    });
+    renderMath(el);
+  } else {
+    el.textContent = str;
+    renderMath(el);
+  }
 }
 
 // ══════════════════════════════════════════════════════
@@ -2054,13 +2141,44 @@ function renderReaderQuestion() {
 
   const enonceHtml = q.enonce_html || q.enonce || '';
 
-  const choicesHtml = (q.choix || []).map((c, i) => {
-    const isAns = c === q.reponse;
-    return `<div class="reader-choice ${isAns ? 'is-answer' : ''}">
-      <div class="reader-choice-letter">${letters[i]}</div>
-      <div>${c}</div>
-    </div>`;
-  }).join('');
+  // ── Bloc réponses selon le type ──────────────────────
+  let choicesHtml = '';
+  if (q.type === 'diviseurs_multi') {
+    // Grille de diviseurs avec bons diviseurs mis en évidence
+    const bons = (q.reponse || []).map(Number);
+    const proposes = (q.diviseurs_proposes || []);
+    const grilleBtns = proposes.map(d => {
+      const estBon = bons.includes(Number(d));
+      const cls = estBon ? 'divmulti-btn div-ok' : 'divmulti-btn div-neutre';
+      return `<button class="${cls}" disabled style="pointer-events:none;">
+        <span class="divmulti-op">÷</span><span class="divmulti-num">${d}</span>
+      </button>`;
+    }).join('');
+    const bonsTexte = bons.map(d => `÷${d}`).join(', ');
+    choicesHtml = `
+      <div class="divmulti-wrap" style="background:transparent;padding:0;box-shadow:none;">
+        <div class="divmulti-nombre">${q.nombre_affiche || q.nombre}</div>
+        <div class="divmulti-grille">${grilleBtns}</div>
+        <div class="reader-choice is-answer" style="margin-top:12px;">
+          <div class="reader-choice-letter">✓</div>
+          <div>Bons diviseurs : <strong>${bonsTexte}</strong></div>
+        </div>
+      </div>`;
+  } else {
+    choicesHtml = (q.choix || []).map((c, i) => {
+      const isAns = c === q.reponse;
+      return `<div class="reader-choice ${isAns ? 'is-answer' : ''}">
+        <div class="reader-choice-letter">${isAns ? '✓' : letters[i]}</div>
+        <div>${c}</div>
+      </div>`;
+    }).join('');
+  }
+
+  // ── Explication : convertir | en sauts de ligne ───────
+  const explRaw = q.explication || '';
+  const explHtml = explRaw
+    ? explRaw.split(' | ').map(part => `<div style="margin-bottom:4px;">${part}</div>`).join('')
+    : '<em>—</em>';
 
   content.innerHTML = `
     <div class="reader-q-header">
@@ -2075,7 +2193,7 @@ function renderReaderQuestion() {
 
     <div class="reader-explication">
       <strong>Explication</strong>
-      ${q.explication || '<em>—</em>'}
+      <div style="margin-top:6px;">${explHtml}</div>
     </div>
 
     <div class="reader-id-badge">ID : ${q.id || '—'}</div>
