@@ -22,7 +22,8 @@
       ],
       "reponse": "$120\\,\\mathrm{min}$",
       "explication": "$1\\,\\mathrm{h} = 60\\,\\mathrm{min}$. $2 \\times 60 = 120\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_02",
@@ -39,7 +40,8 @@
       ],
       "reponse": "$3\\,\\mathrm{h}$",
       "explication": "$180 \\div 60 = 3\\,\\mathrm{h}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_03",
@@ -56,7 +58,8 @@
       ],
       "reponse": "$90\\,\\mathrm{min}$",
       "explication": "$60 + 30 = 90\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_04",
@@ -73,7 +76,8 @@
       ],
       "reponse": "$2\\,\\mathrm{min}\\,30\\,\\mathrm{s}$",
       "explication": "$150 \\div 60 = 2$ reste $30$. Donc $2\\,\\mathrm{min}\\,30\\,\\mathrm{s}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_05",
@@ -90,7 +94,8 @@
       ],
       "reponse": "$195\\,\\mathrm{min}$",
       "explication": "$3 \\times 60 + 15 = 180 + 15 = 195\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_06",
@@ -107,7 +112,8 @@
       ],
       "reponse": "$4\\,\\mathrm{h}$",
       "explication": "$240 \\div 60 = 4\\,\\mathrm{h}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_07",
@@ -124,7 +130,8 @@
       ],
       "reponse": "$300\\,\\mathrm{s}$",
       "explication": "$5 \\times 60 = 300\\,\\mathrm{s}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_08",
@@ -141,7 +148,8 @@
       ],
       "reponse": "$48\\,\\mathrm{h}$",
       "explication": "$2 \\times 24 = 48\\,\\mathrm{h}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_09",
@@ -158,7 +166,8 @@
       ],
       "reponse": "$105\\,\\mathrm{min}$",
       "explication": "$60 + 45 = 105\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_10",
@@ -175,7 +184,8 @@
       ],
       "reponse": "$2\\,\\mathrm{min}$",
       "explication": "$120 \\div 60 = 2\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_11",
@@ -192,7 +202,8 @@
       ],
       "reponse": "$140\\,\\mathrm{min}$",
       "explication": "$2 \\times 60 + 20 = 140\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_12",
@@ -209,7 +220,8 @@
       ],
       "reponse": "$4\\,\\mathrm{h}\\,10\\,\\mathrm{min}$",
       "explication": "$250 \\div 60 = 4$ reste $10$. Donc $4\\,\\mathrm{h}\\,10\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_13",
@@ -226,7 +238,8 @@
       ],
       "reponse": "$16\\,\\mathrm{h}\\,15$",
       "explication": "$14\\,\\mathrm{h}\\,25 + 1\\,\\mathrm{h}\\,50\\,\\mathrm{min} = 16\\,\\mathrm{h}\\,15$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_14",
@@ -243,7 +256,8 @@
       ],
       "reponse": "$168\\,\\mathrm{h}$",
       "explication": "$7 \\times 24 = 168\\,\\mathrm{h}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_15",
@@ -260,7 +274,8 @@
       ],
       "reponse": "$30\\,\\mathrm{min}$",
       "explication": "$0{,}5 \\times 60 = 30\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_16",
@@ -277,7 +292,8 @@
       ],
       "reponse": "$5\\,\\mathrm{h}\\,15\\,\\mathrm{min}$",
       "explication": "$3\\,\\mathrm{h}\\,30 + 1\\,\\mathrm{h}\\,45 = 4\\,\\mathrm{h}\\,75 = 5\\,\\mathrm{h}\\,15$ (convertir $75\\,\\mathrm{min} = 1\\,\\mathrm{h}\\,15\\,\\mathrm{min}$).",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_17",
@@ -294,7 +310,8 @@
       ],
       "reponse": "$1{,}5\\,\\mathrm{h}$",
       "explication": "$90 \\div 60 = 1{,}5\\,\\mathrm{h}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_18",
@@ -311,7 +328,8 @@
       ],
       "reponse": "$2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$",
       "explication": "$11\\,\\mathrm{h}\\,20 - 8\\,\\mathrm{h}\\,45 = 2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$ (passer par $9\\,\\mathrm{h}\\,00$ : $15\\,\\mathrm{min} + 2\\,\\mathrm{h}\\,20\\,\\mathrm{min} = 2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$).",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_19",
@@ -328,7 +346,8 @@
       ],
       "reponse": "$80\\,\\mathrm{min}$",
       "explication": "$1\\,\\mathrm{h} = 60\\,\\mathrm{min}$. $1/3$ de heure $= 20\\,\\mathrm{min}$. Total $= 80\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_20",
@@ -345,7 +364,8 @@
       ],
       "reponse": "$3\\,\\mathrm{h}$",
       "explication": "$10800 \\div 60 = 180\\,\\mathrm{min}$. $180 \\div 60 = 3\\,\\mathrm{h}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_21",
@@ -362,7 +382,8 @@
       ],
       "reponse": "$2\\,\\mathrm{h}\\,46\\,\\mathrm{min}$",
       "explication": "$10\\,\\mathrm{h}\\,38 - 7\\,\\mathrm{h}\\,52 = 2\\,\\mathrm{h}\\,46\\,\\mathrm{min}$ (passer par $8\\,\\mathrm{h}\\,00$ : $8\\,\\mathrm{min} + 2\\,\\mathrm{h}\\,38\\,\\mathrm{min}$).",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_22",
@@ -379,7 +400,8 @@
       ],
       "reponse": "$2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$",
       "explication": "$4\\,\\mathrm{h}\\,25 - 1\\,\\mathrm{h}\\,50 = 3\\,\\mathrm{h}\\,85 - 1\\,\\mathrm{h}\\,50 = 2\\,\\mathrm{h}\\,35\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_23",
@@ -396,7 +418,8 @@
       ],
       "reponse": "$1\\,770\\,\\mathrm{min}$",
       "explication": "$24\\,\\mathrm{h} + 5\\,\\mathrm{h}\\,30\\,\\mathrm{min} = 29\\,\\mathrm{h}\\,30\\,\\mathrm{min}$. $29 \\times 60 + 30 = 1770\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_24",
@@ -413,7 +436,8 @@
       ],
       "reponse": "$45\\,\\mathrm{min}$",
       "explication": "$0{,}75 \\times 60 = 45\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_25",
@@ -430,7 +454,8 @@
       ],
       "reponse": "$11\\,\\mathrm{h}$",
       "explication": "$3 \\times 3\\,\\mathrm{h}\\,40\\,\\mathrm{min} = 9\\,\\mathrm{h}\\,120\\,\\mathrm{min} = 9\\,\\mathrm{h} + 2\\,\\mathrm{h} = 11\\,\\mathrm{h}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_26",
@@ -447,7 +472,8 @@
       ],
       "reponse": "$15\\,\\mathrm{min}$",
       "explication": "$\\dfrac{1}{4} \\times 60 = 15\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_27",
@@ -464,7 +490,8 @@
       ],
       "reponse": "$0\\,\\mathrm{h}\\,42\\,\\mathrm{min}$",
       "explication": "$2520 \\div 60 = 42\\,\\mathrm{min}$. C'est moins d'une heure : $0\\,\\mathrm{h}\\,42\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_28",
@@ -481,7 +508,8 @@
       ],
       "reponse": "$3\\,\\mathrm{h}\\,30\\,\\mathrm{min}$",
       "explication": "$23\\,\\mathrm{h}\\,15$ à $24\\,\\mathrm{h}\\,00$ : $45\\,\\mathrm{min}$. Puis $0\\,\\mathrm{h}\\,00$ à $2\\,\\mathrm{h}\\,45$ : $2\\,\\mathrm{h}\\,45\\,\\mathrm{min}$. Total : $3\\,\\mathrm{h}\\,30\\,\\mathrm{min}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_29",
@@ -498,7 +526,8 @@
       ],
       "reponse": "$4{,}17\\,\\%$",
       "explication": "$\\dfrac{1}{24} \\times 100 \\approx 4{,}17\\,\\%$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_32_30",
@@ -515,7 +544,8 @@
       ],
       "reponse": "$6\\,\\mathrm{h}\\,00$",
       "explication": "$3\\,\\mathrm{h}\\,27 + 1\\,\\mathrm{h}\\,43 + 0\\,\\mathrm{h}\\,50 = 4\\,\\mathrm{h}\\,120 = 6\\,\\mathrm{h}\\,00$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     }
   ]
 }

@@ -33,7 +33,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 22
+      "valeur_n": 22,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_02",
@@ -61,7 +62,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 18
+      "valeur_n": 18,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_03",
@@ -89,7 +91,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 33
+      "valeur_n": 33,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_04",
@@ -117,7 +120,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 10
+      "valeur_n": 10,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_05",
@@ -144,7 +148,8 @@
         ],
         "variable": "a"
       },
-      "question_type": "litteral"
+      "question_type": "litteral",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_06",
@@ -172,7 +177,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 18
+      "valeur_n": 18,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_07",
@@ -200,7 +206,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 33
+      "valeur_n": 33,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_08",
@@ -228,7 +235,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 42
+      "valeur_n": 42,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_09",
@@ -256,7 +264,8 @@
         "variable": "a"
       },
       "question_type": "numerique",
-      "valeur_n": 24
+      "valeur_n": 24,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_10",
@@ -283,7 +292,8 @@
         ],
         "variable": "a"
       },
-      "question_type": "litteral"
+      "question_type": "litteral",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_11",
@@ -311,7 +321,8 @@
         "variable": "x"
       },
       "question_type": "numerique",
-      "valeur_n": 5
+      "valeur_n": 5,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_12",
@@ -339,7 +350,8 @@
         "variable": "x"
       },
       "question_type": "numerique",
-      "valeur_n": 3
+      "valeur_n": 3,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_13",
@@ -367,7 +379,8 @@
         "variable": "x"
       },
       "question_type": "numerique",
-      "valeur_n": 10
+      "valeur_n": 10,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_14",
@@ -395,7 +408,8 @@
         "variable": "x"
       },
       "question_type": "numerique",
-      "valeur_n": 0
+      "valeur_n": 0,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_15",
@@ -422,7 +436,8 @@
         ],
         "variable": "x"
       },
-      "question_type": "litteral"
+      "question_type": "litteral",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_16",
@@ -450,7 +465,8 @@
         "variable": "n"
       },
       "question_type": "numerique",
-      "valeur_n": 4
+      "valeur_n": 4,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_17",
@@ -478,7 +494,8 @@
         "variable": "n"
       },
       "question_type": "numerique",
-      "valeur_n": 7
+      "valeur_n": 7,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_18",
@@ -506,7 +523,8 @@
         "variable": "n"
       },
       "question_type": "numerique",
-      "valeur_n": 12
+      "valeur_n": 12,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_19",
@@ -533,7 +551,8 @@
         ],
         "variable": "n"
       },
-      "question_type": "litteral"
+      "question_type": "litteral",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_20",
@@ -560,7 +579,8 @@
         ],
         "variable": "n"
       },
-      "question_type": "inverse"
+      "question_type": "inverse",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_21",
@@ -588,7 +608,8 @@
         "variable": "x"
       },
       "question_type": "numerique",
-      "valeur_n": 5
+      "valeur_n": 5,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_22",
@@ -616,7 +637,8 @@
         "variable": "x"
       },
       "question_type": "numerique",
-      "valeur_n": 3
+      "valeur_n": 3,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_23",
@@ -643,7 +665,8 @@
         ],
         "variable": "x"
       },
-      "question_type": "litteral"
+      "question_type": "litteral",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_24",
@@ -672,7 +695,8 @@
         "variable": "n"
       },
       "question_type": "numerique",
-      "valeur_n": 3
+      "valeur_n": 3,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_25",
@@ -701,7 +725,8 @@
         "variable": "n"
       },
       "question_type": "numerique",
-      "valeur_n": 0
+      "valeur_n": 0,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_26",
@@ -729,7 +754,8 @@
         ],
         "variable": "n"
       },
-      "question_type": "litteral"
+      "question_type": "litteral",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_27",
@@ -758,7 +784,8 @@
         "variable": "n"
       },
       "question_type": "numerique",
-      "valeur_n": 8
+      "valeur_n": 8,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_28",
@@ -786,7 +813,8 @@
         ],
         "variable": "n"
       },
-      "question_type": "litteral"
+      "question_type": "litteral",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_29",
@@ -813,7 +841,8 @@
         ],
         "variable": "n"
       },
-      "question_type": "inverse"
+      "question_type": "inverse",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_35_30",
@@ -840,7 +869,8 @@
         ],
         "variable": "n"
       },
-      "question_type": "demonstration"
+      "question_type": "demonstration",
+      "avec_calculatrice": true
     }
   ]
 }

@@ -22,7 +22,8 @@
       ],
       "reponse": "$6$",
       "explication": "$(5+8+3+6+8) \\div 5 = 30 \\div 5 = 6$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_02",
@@ -39,7 +40,8 @@
       ],
       "reponse": "$14$",
       "explication": "$(10+12+14+16+18) \\div 5 = 70 \\div 5 = 14$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_03",
@@ -56,7 +58,8 @@
       ],
       "reponse": "$10$",
       "explication": "$\\dfrac{0+5+10+15+20}{5} = \\dfrac{50}{5} = 10$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_04",
@@ -73,7 +76,8 @@
       ],
       "reponse": "$4$",
       "explication": "La moyenne d'une série constante est cette valeur : $4$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_05",
@@ -90,7 +94,8 @@
       ],
       "reponse": "$25\\,\\%$",
       "explication": "$\\dfrac{3}{12} = 0{,}25 = 25\\,\\%$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_06",
@@ -107,7 +112,8 @@
       ],
       "reponse": "$40\\,\\%$",
       "explication": "$\\dfrac{8}{20} = 0{,}4 = 40\\,\\%$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_07",
@@ -124,7 +130,8 @@
       ],
       "reponse": "$5$",
       "explication": "Il y a $5$ valeurs dans la série.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_08",
@@ -141,7 +148,8 @@
       ],
       "reponse": "$6$",
       "explication": "$(7+9+5+3+6) \\div 5 = 30 \\div 5 = 6$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_09",
@@ -158,7 +166,8 @@
       ],
       "reponse": "$5$",
       "explication": "$(0+2+4+6+8+10) \\div 6 = 30 \\div 6 = 5$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_10",
@@ -175,7 +184,8 @@
       ],
       "reponse": "$20\\,\\%$",
       "explication": "$\\dfrac{6}{30} = 0{,}2 = 20\\,\\%$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_11",
@@ -192,7 +202,8 @@
       ],
       "reponse": "$10$",
       "explication": "$(12+8+15+10+5) \\div 5 = 50 \\div 5 = 10$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_12",
@@ -209,7 +220,8 @@
       ],
       "reponse": "$13$",
       "explication": "$(12+14+10+16) \\div 4 = 52 \\div 4 = 13$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_13",
@@ -226,7 +238,8 @@
       ],
       "reponse": "$10$",
       "explication": "$4 + 6 = 10$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_14",
@@ -243,7 +256,8 @@
       ],
       "reponse": "$5$",
       "explication": "$(3 \\times 5 + 7 \\times 3 + 9 \\times 2) \\div 10 = (15+21+18) \\div 10 = 54 \\div 10 = 5{,}4$. Réponse corrigée : $5{,}4$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_15",
@@ -260,7 +274,8 @@
       ],
       "reponse": "$32\\,\\%$",
       "explication": "$\\dfrac{8}{25} = 0{,}32 = 32\\,\\%$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_16",
@@ -277,7 +292,8 @@
       ],
       "reponse": "$8{,}5$",
       "explication": "$85 \\div 10 = 8{,}5$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_17",
@@ -294,7 +310,8 @@
       ],
       "reponse": "$10$",
       "explication": "$(8+12+10+14+6) \\div 5 = 50 \\div 5 = 10$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_18",
@@ -311,7 +328,8 @@
       ],
       "reponse": "$84$",
       "explication": "$7 \\times 12 = 84$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_19",
@@ -328,7 +346,8 @@
       ],
       "reponse": "$10$",
       "explication": "$4 \\times 13 = 52$. $52 - (15+10+17) = 52 - 42 = 10$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_20",
@@ -345,7 +364,8 @@
       ],
       "reponse": "$8$",
       "explication": "$(2 \\times 5 + 3 \\times 10) \\div 5 = (10+30) \\div 5 = 40 \\div 5 = 8$.",
-      "image": "automatismes/stats/table_q20.png"
+      "image": "automatismes/stats/table_q20.png",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_21",
@@ -362,7 +382,8 @@
       ],
       "reponse": "$a+4$",
       "explication": "$(5a+20) \\div 5 = a + 4$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_22",
@@ -379,7 +400,8 @@
       ],
       "reponse": "$6$",
       "explication": "$\\dfrac{10 \\times 7 + 5 \\times 4}{15} = \\dfrac{70+20}{15} = \\dfrac{90}{15} = 6$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_23",
@@ -396,7 +418,8 @@
       ],
       "reponse": "$120$",
       "explication": "$\\dfrac{3}{5} \\times 200 = 120$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_24",
@@ -413,7 +436,8 @@
       ],
       "reponse": "$50$",
       "explication": "$C = 100 - 40 - 35 = 25\\,\\%$. $25\\,\\% \\times 200 = 50$.",
-      "image": "automatismes/stats/table_q24.png"
+      "image": "automatismes/stats/table_q24.png",
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_25",
@@ -430,7 +454,8 @@
       ],
       "reponse": "$7$",
       "explication": "Le mode est la valeur la plus fréquente : $7$ (apparaît $2$ fois).",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_26",
@@ -447,7 +472,8 @@
       ],
       "reponse": "$6$",
       "explication": "$6$ valeurs : médiane = moyenne des $3^e$ et $4^e$ = $(5+7) \\div 2 = 6$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_27",
@@ -464,7 +490,8 @@
       ],
       "reponse": "$13$",
       "explication": "$(5 \\times 12 + 18) \\div 6 = (60+18) \\div 6 = 78 \\div 6 = 13$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_29",
@@ -481,7 +508,8 @@
       ],
       "reponse": "$6$",
       "explication": "$7$ valeurs : médiane = $4^e$ valeur = $6$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_30",
@@ -498,7 +526,8 @@
       ],
       "reponse": "$8$",
       "explication": "$(12 \\times 8 - 8) \\div 11 = (96-8) \\div 11 = 88 \\div 11 = 8$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_31",
@@ -515,7 +544,8 @@
       ],
       "reponse": "$7$",
       "explication": "La série a $5$ valeurs. La valeur centrale est en position $3$ : c'est $7$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_32",
@@ -532,7 +562,8 @@
       ],
       "reponse": "$7$",
       "explication": "La série a $6$ valeurs. La médiane est la moyenne des valeurs en positions $3$ et $4$ : $(6+8) \\div 2 = 7$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_33",
@@ -549,7 +580,8 @@
       ],
       "reponse": "$22{,}5$",
       "explication": "La série a $6$ valeurs. La médiane est $(20+25) \\div 2 = 22{,}5$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_34",
@@ -566,7 +598,8 @@
       ],
       "reponse": "$5$",
       "explication": "On ordonne : $1, 3, 5, 6, 8$. La série a $5$ valeurs, la valeur centrale est $5$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_35",
@@ -583,7 +616,8 @@
       ],
       "reponse": "$9$",
       "explication": "On ordonne : $3, 5, 7, 9, 11, 14$. La médiane est $(7+11) \\div 2 = 9$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_36",
@@ -600,7 +634,8 @@
       ],
       "reponse": "$12$",
       "explication": "On ordonne : $4, 8, 12, 16, 20$. La série a $5$ valeurs, la valeur centrale est $12$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_37",
@@ -617,7 +652,8 @@
       ],
       "reponse": "$10$",
       "explication": "On ordonne : $5, 7, 9, 11, 13, 15$. La médiane est $(9+11) \\div 2 = 10$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_38",
@@ -634,7 +670,8 @@
       ],
       "reponse": "$8$",
       "explication": "On ordonne : $2, 4, 6, 8, 10, 12, 14$. La série a $7$ valeurs, la valeur centrale est en position $4$ : $8$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_39",
@@ -651,7 +688,8 @@
       ],
       "reponse": "$20$",
       "explication": "On ordonne : $15, 18, 19, 21, 22, 25$. La médiane est $(19+21) \\div 2 = 20$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_33_40",
@@ -668,7 +706,8 @@
       ],
       "reponse": "$20$",
       "explication": "On ordonne : $5, 10, 15, 20, 25, 30, 35$. La série a $7$ valeurs, la valeur centrale est en position $4$ : $20$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     }
   ]
 }
