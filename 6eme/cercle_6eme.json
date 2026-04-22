@@ -1,0 +1,1322 @@
+{
+  "niveau": "6eme",
+  "thematique": {
+    "id": "cercle_6eme",
+    "label": "Le Cercle",
+    "icon": "⭕",
+    "color": "#0891b2"
+  },
+  "questions": [
+    {
+      "id": "c6_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un rayon de $5$ cm. Quel est son diamètre ?",
+      "image": null,
+      "choix": [
+        "$5$ cm",
+        "$10$ cm",
+        "$15$ cm",
+        "$2{,}5$ cm"
+      ],
+      "reponse": "$10$ cm",
+      "explication": "Le diamètre est le double du rayon : $d = 2 \\times r = 2 \\times 5 = 10$ cm."
+    },
+    {
+      "id": "c6_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un diamètre de $14$ cm. Quel est son rayon ?",
+      "image": null,
+      "choix": [
+        "$28$ cm",
+        "$14$ cm",
+        "$7$ cm",
+        "$3{,}5$ cm"
+      ],
+      "reponse": "$7$ cm",
+      "explication": "Le rayon est la moitié du diamètre : $r = d \\div 2 = 14 \\div 2 = 7$ cm."
+    },
+    {
+      "id": "c6_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un rayon de $3{,}5$ cm. Quel est son diamètre ?",
+      "image": null,
+      "choix": [
+        "$1{,}75$ cm",
+        "$3{,}5$ cm",
+        "$7$ cm",
+        "$10{,}5$ cm"
+      ],
+      "reponse": "$7$ cm",
+      "explication": "Le diamètre est le double du rayon : $d = 2 \\times 3{,}5 = 7$ cm."
+    },
+    {
+      "id": "c6_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un diamètre de $9$ cm. Quel est son rayon ?",
+      "image": null,
+      "choix": [
+        "$18$ cm",
+        "$9$ cm",
+        "$4{,}5$ cm",
+        "$3$ cm"
+      ],
+      "reponse": "$4{,}5$ cm",
+      "explication": "Le rayon est la moitié du diamètre : $r = 9 \\div 2 = 4{,}5$ cm."
+    },
+    {
+      "id": "c6_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O, on sait que $OA = 6$ cm. Quelle est la longueur $OB$ si B est aussi un point du cercle ?",
+      "image": "6eme/cercle/69d26207d9eaad2ed742b08c297a4ae6a9d72826.png",
+      "choix": [
+        "$3$ cm",
+        "$12$ cm",
+        "$6$ cm",
+        "$4$ cm"
+      ],
+      "reponse": "$6$ cm",
+      "explication": "Tous les rayons d'un même cercle ont la même longueur. Donc $OB = OA = 6$ cm."
+    },
+    {
+      "id": "c6_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O, $[AB]$ est un diamètre et $AB = 16$ cm. Quelle est la longueur $OA$ ?",
+      "image": "6eme/cercle/f55351fef53f980f5378dbc657d1dacf07d8ff15.png",
+      "choix": [
+        "$16$ cm",
+        "$32$ cm",
+        "$8$ cm",
+        "$4$ cm"
+      ],
+      "reponse": "$8$ cm",
+      "explication": "Le centre O est le milieu du diamètre, donc $OA = AB \\div 2 = 16 \\div 2 = 8$ cm."
+    },
+    {
+      "id": "c6_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un rayon de $7$ cm. Quelle est la longueur d'un diamètre de ce cercle ?",
+      "image": null,
+      "choix": [
+        "$7$ cm",
+        "$3{,}5$ cm",
+        "$14$ cm",
+        "$21$ cm"
+      ],
+      "reponse": "$14$ cm",
+      "explication": "Le diamètre est le double du rayon : $d = 2 \\times 7 = 14$ cm."
+    },
+    {
+      "id": "c6_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un diamètre de $11$ cm. Quelle est la distance entre le centre O et un point quelconque du cercle ?",
+      "image": null,
+      "choix": [
+        "$11$ cm",
+        "$22$ cm",
+        "$5{,}5$ cm",
+        "$3{,}7$ cm"
+      ],
+      "reponse": "$5{,}5$ cm",
+      "explication": "La distance du centre à tout point du cercle est le rayon : $r = 11 \\div 2 = 5{,}5$ cm."
+    },
+    {
+      "id": "c6_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur un cercle de centre O, quels segments sont des rayons parmi $[OA]$, $[AB]$ et $[OB]$ ?",
+      "image": "6eme/cercle/49dd783af10260d3ad91112e3c22902d72321848.png",
+      "choix": [
+        "$[AB]$ seulement",
+        "$[OA]$ et $[OB]$",
+        "$[OA]$ seulement",
+        "$[OA]$, $[OB]$ et $[AB]$"
+      ],
+      "reponse": "$[OA]$ et $[OB]$",
+      "explication": "Un rayon relie le centre O à un point du cercle. Donc $[OA]$ et $[OB]$ sont des rayons. $[AB]$ est une corde."
+    },
+    {
+      "id": "c6_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon de $4$ cm. Un point M est à $4$ cm de O. Où se trouve M ?",
+      "image": null,
+      "choix": [
+        "À l'intérieur du cercle",
+        "À l'extérieur du cercle",
+        "Sur le cercle",
+        "Au centre du cercle"
+      ],
+      "reponse": "Sur le cercle",
+      "explication": "Un point est sur le cercle si sa distance au centre est égale au rayon. Ici $OM = 4$ cm $= r$, donc M est sur le cercle."
+    },
+    {
+      "id": "c6_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon de $6$ cm. Un point P est à $8$ cm de O. Où se trouve P ?",
+      "image": null,
+      "choix": [
+        "Sur le cercle",
+        "À l'intérieur du cercle",
+        "À l'extérieur du cercle",
+        "Au centre"
+      ],
+      "reponse": "À l'extérieur du cercle",
+      "explication": "$OP = 8$ cm $> r = 6$ cm, donc P est à l'extérieur du cercle."
+    },
+    {
+      "id": "c6_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon de $5$ cm. Un point N est à $3$ cm de O. Où se trouve N ?",
+      "image": null,
+      "choix": [
+        "Sur le cercle",
+        "À l'extérieur du cercle",
+        "À l'intérieur du cercle",
+        "Sur le diamètre"
+      ],
+      "reponse": "À l'intérieur du cercle",
+      "explication": "$ON = 3$ cm $< r = 5$ cm, donc N est à l'intérieur du cercle."
+    },
+    {
+      "id": "c6_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le cercle de centre O est constitué de tous les points situés :",
+      "image": null,
+      "choix": [
+        "À l'intérieur du cercle",
+        "À la même distance de O",
+        "À moins d'1 cm de O",
+        "Sur une ligne droite"
+      ],
+      "reponse": "À la même distance de O",
+      "explication": "Par définition, un cercle est l'ensemble de tous les points situés à la même distance (le rayon) de son centre O."
+    },
+    {
+      "id": "c6_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un rayon d'un cercle est :",
+      "image": null,
+      "choix": [
+        "Un segment entre deux points du cercle",
+        "Un segment entre le centre et un point du cercle",
+        "La moitié d'une corde",
+        "Un arc de cercle"
+      ],
+      "reponse": "Un segment entre le centre et un point du cercle",
+      "explication": "Le rayon est le segment qui relie le centre O à un point du cercle. Sa longueur est appelée rayon (ou $r$)."
+    },
+    {
+      "id": "c6_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un diamètre d'un cercle est :",
+      "image": null,
+      "choix": [
+        "Tout segment entre deux points du cercle",
+        "Un segment entre le centre et un point du cercle",
+        "Une corde passant par le centre",
+        "L'arc le plus long"
+      ],
+      "reponse": "Une corde passant par le centre",
+      "explication": "Le diamètre est une corde particulière : elle passe par le centre O. C'est la corde la plus longue du cercle."
+    },
+    {
+      "id": "c6_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Une corde d'un cercle est :",
+      "image": null,
+      "choix": [
+        "Un segment passant par le centre",
+        "Un segment dont les deux extrémités sont sur le cercle",
+        "Un arc de cercle",
+        "Le rayon multiplié par 2"
+      ],
+      "reponse": "Un segment dont les deux extrémités sont sur le cercle",
+      "explication": "Une corde est un segment reliant deux points du cercle. Le diamètre est un cas particulier de corde (qui passe par le centre)."
+    },
+    {
+      "id": "c6_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un arc de cercle est :",
+      "image": null,
+      "choix": [
+        "Un segment entre deux points du cercle",
+        "Un segment passant par le centre",
+        "Une portion du cercle entre deux de ses points",
+        "La totalité du cercle"
+      ],
+      "reponse": "Une portion du cercle entre deux de ses points",
+      "explication": "Un arc de cercle est une partie de la courbe du cercle délimitée par deux points du cercle."
+    },
+    {
+      "id": "c6_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si le rayon d'un cercle est $8$ cm, son diamètre est :",
+      "image": null,
+      "choix": [
+        "$4$ cm",
+        "$8$ cm",
+        "$16$ cm",
+        "$24$ cm"
+      ],
+      "reponse": "$16$ cm",
+      "explication": "Diamètre $= 2 \\times$ rayon $= 2 \\times 8 = 16$ cm."
+    },
+    {
+      "id": "c6_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si le diamètre d'un cercle est $10$ cm, son rayon est :",
+      "image": null,
+      "choix": [
+        "$5$ cm",
+        "$10$ cm",
+        "$20$ cm",
+        "$2$ cm"
+      ],
+      "reponse": "$5$ cm",
+      "explication": "Rayon $=$ diamètre $\\div 2 = 10 \\div 2 = 5$ cm."
+    },
+    {
+      "id": "c6_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces affirmations, laquelle est VRAIE ?",
+      "image": null,
+      "choix": [
+        "Le rayon est plus grand que le diamètre",
+        "Le diamètre est la moitié du rayon",
+        "Le rayon est la moitié du diamètre",
+        "Rayon et diamètre ont la même longueur"
+      ],
+      "reponse": "Le rayon est la moitié du diamètre",
+      "explication": "Par définition : $r = d \\div 2$, donc le rayon est bien la moitié du diamètre."
+    },
+    {
+      "id": "c6_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure, quel segment est un diamètre ? (Cercle de centre O avec points A, B, C, D, E)",
+      "image": "6eme/cercle/595e742cefeafd83efa4bee7e48ff062ce1c4d76.png",
+      "choix": [
+        "$[OA]$",
+        "$[BD]$",
+        "$[AE]$",
+        "$[OB]$"
+      ],
+      "reponse": "$[BD]$",
+      "explication": "$[BD]$ est une corde passant par le centre O : c'est donc un diamètre. $[OA]$ et $[OB]$ sont des rayons. $[AE]$ est une corde."
+    },
+    {
+      "id": "c6_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la même figure (cercle de centre O, points A, B, C, D, E), quel segment est un rayon ?",
+      "image": "6eme/cercle/595e742cefeafd83efa4bee7e48ff062ce1c4d76.png",
+      "choix": [
+        "$[AE]$",
+        "$[BD]$",
+        "$[OA]$",
+        "$[DE]$"
+      ],
+      "reponse": "$[OA]$",
+      "explication": "$[OA]$ relie le centre O à un point A du cercle : c'est un rayon. $[BD]$ est un diamètre, $[AE]$ et $[DE]$ sont des cordes."
+    },
+    {
+      "id": "c6_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la même figure, quel segment est une corde qui n'est PAS un diamètre ?",
+      "image": "6eme/cercle/595e742cefeafd83efa4bee7e48ff062ce1c4d76.png",
+      "choix": [
+        "$[OA]$",
+        "$[BD]$",
+        "$[AE]$",
+        "$[OE]$"
+      ],
+      "reponse": "$[AE]$",
+      "explication": "$[AE]$ relie deux points du cercle sans passer par O : c'est une corde non-diamètre. $[BD]$ est un diamètre, $[OA]$ et $[OE]$ sont des rayons."
+    },
+    {
+      "id": "c6_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la relation entre le rayon $r$ et le diamètre $d$ d'un cercle ?",
+      "image": null,
+      "choix": [
+        "$d = r + 2$",
+        "$d = r$",
+        "$d = 2 \\times r$",
+        "$d = r \\div 2$"
+      ],
+      "reponse": "$d = 2 \\times r$",
+      "explication": "Le diamètre est toujours le double du rayon : $d = 2 \\times r$, ou encore $r = d \\div 2$."
+    },
+    {
+      "id": "c6_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Tous les rayons d'un même cercle :",
+      "image": null,
+      "choix": [
+        "Ont des longueurs différentes",
+        "Ont la même longueur",
+        "Sont des diamètres",
+        "Sont des cordes"
+      ],
+      "reponse": "Ont la même longueur",
+      "explication": "Par définition du cercle, tous les points du cercle sont à la même distance du centre. Donc tous les rayons ont la même longueur."
+    },
+    {
+      "id": "c6_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un point M est à $3$ cm du centre O d'un cercle de rayon $5$ cm. Où se trouve M ?",
+      "image": "6eme/cercle/343ba2b8b7b00964c580d5be4e32ff2053247636.png",
+      "choix": [
+        "Sur le cercle",
+        "À l'intérieur du cercle",
+        "À l'extérieur du cercle",
+        "Sur un diamètre"
+      ],
+      "reponse": "À l'intérieur du cercle",
+      "explication": "$OM = 3$ cm $< r = 5$ cm, donc M est à l'intérieur du cercle."
+    },
+    {
+      "id": "c6_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien un cercle possède-t-il de diamètres ?",
+      "image": null,
+      "choix": [
+        "Un seul",
+        "Deux",
+        "Quatre",
+        "Une infinité"
+      ],
+      "reponse": "Une infinité",
+      "explication": "On peut tracer un diamètre dans toutes les directions passant par le centre O. Il y en a donc une infinité."
+    },
+    {
+      "id": "c6_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le diamètre d'un cercle est :",
+      "image": null,
+      "choix": [
+        "La corde la plus courte du cercle",
+        "La corde la plus longue du cercle",
+        "Égal au rayon",
+        "Un arc de cercle"
+      ],
+      "reponse": "La corde la plus longue du cercle",
+      "explication": "Le diamètre est la corde la plus longue car il passe par le centre, ce qui maximise la longueur du segment."
+    },
+    {
+      "id": "c6_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure ci-dessous, lequel des arcs est l'arc BC ?",
+      "image": "6eme/cercle/a48b0dd1d773cc13a882a91c8ec47e0ca20b23e3.png",
+      "choix": [
+        "L'arc entre A et B",
+        "La portion de cercle entre B et C",
+        "La portion de cercle entre C et D",
+        "La corde $[BC]$"
+      ],
+      "reponse": "La portion de cercle entre B et C",
+      "explication": "L'arc BC est la portion de la courbe du cercle délimitée par les points B et C."
+    },
+    {
+      "id": "c6_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon de $4{,}5$ cm. Quel est son diamètre ?",
+      "image": "6eme/cercle/a296c94218719bbb04008cd1d89981bcf16e821c.png",
+      "choix": [
+        "$2{,}25$ cm",
+        "$4{,}5$ cm",
+        "$9$ cm",
+        "$13{,}5$ cm"
+      ],
+      "reponse": "$9$ cm",
+      "explication": "$d = 2 \\times r = 2 \\times 4{,}5 = 9$ cm. La distance entre O et tout point du cercle est $4{,}5$ cm (le rayon)."
+    },
+    {
+      "id": "c6_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi les affirmations suivantes, laquelle complète correctement : « Tous les rayons d'un même cercle ont __ longueur » ?",
+      "image": null,
+      "choix": [
+        "une longueur différente selon leur direction",
+        "la même longueur",
+        "une longueur égale au diamètre",
+        "une longueur variable"
+      ],
+      "reponse": "la même longueur",
+      "explication": "Par définition du cercle, tous ses points sont à la même distance du centre (le rayon). Donc tous les rayons ont la même longueur."
+    },
+    {
+      "id": "c6_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cercles concentriques ont le même centre O (cf. figure). Que peut-on dire des rayons OA et OB si A est sur le petit cercle et B sur le grand cercle ?",
+      "image": "6eme/cercle/9627b691704a3f7bb13977973c445a59fd8d017f.png",
+      "choix": [
+        "$OA = OB$",
+        "$OA > OB$",
+        "$OA < OB$",
+        "On ne peut pas comparer $OA$ et $OB$"
+      ],
+      "reponse": "$OA < OB$",
+      "explication": "A est sur le petit cercle (rayon plus court) et B sur le grand cercle (rayon plus long). Donc $OA < OB$."
+    },
+    {
+      "id": "c6_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure avec 6 points A, B, C, D, E, F régulièrement espacés sur un cercle de centre O, quel segment est un diamètre ?",
+      "image": "6eme/cercle/a48b0dd1d773cc13a882a91c8ec47e0ca20b23e3.png",
+      "choix": [
+        "$[AB]$",
+        "$[OA]$",
+        "$[AD]$",
+        "$[BC]$"
+      ],
+      "reponse": "$[AD]$",
+      "explication": "$[AD]$ passe par le centre O et ses deux extrémités sont sur le cercle : c'est un diamètre. Les 6 points étant régulièrement espacés, A et D sont diamétralement opposés."
+    },
+    {
+      "id": "c6_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la même figure avec 6 points, quelle est la nature du segment $[BE]$ ?",
+      "image": "6eme/cercle/a48b0dd1d773cc13a882a91c8ec47e0ca20b23e3.png",
+      "choix": [
+        "Un rayon",
+        "Un diamètre",
+        "Une corde (pas un diamètre)",
+        "Un arc"
+      ],
+      "reponse": "Un diamètre",
+      "explication": "Les 6 points étant régulièrement espacés, B et E sont diamétralement opposés et $[BE]$ passe par O : c'est un diamètre."
+    },
+    {
+      "id": "c6_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure du cercle de centre O avec points A, B, C, D, E, quel est le segment $[AE]$ ?",
+      "image": "6eme/cercle/595e742cefeafd83efa4bee7e48ff062ce1c4d76.png",
+      "choix": [
+        "Un rayon",
+        "Un diamètre",
+        "Une corde qui n'est pas un diamètre",
+        "Un arc de cercle"
+      ],
+      "reponse": "Une corde qui n'est pas un diamètre",
+      "explication": "$[AE]$ relie deux points du cercle (A et E) mais ne passe pas par le centre O. C'est donc une corde, mais pas un diamètre."
+    },
+    {
+      "id": "c6_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure des cercles concentriques de centre O, un point A est sur le petit cercle. Le point A est-il sur le grand cercle ?",
+      "image": "6eme/cercle/9627b691704a3f7bb13977973c445a59fd8d017f.png",
+      "choix": [
+        "Oui, car il est à l'intérieur",
+        "Non, car $OA$ est inférieur au rayon du grand cercle",
+        "Oui, si $OA$ est égal au rayon du grand cercle",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Non, car $OA$ est inférieur au rayon du grand cercle",
+      "explication": "A est sur le petit cercle : $OA = r_1$. Or $r_1 < r_2$ (rayon du grand cercle). Donc $OA < r_2$ et A est à l'intérieur du grand cercle, pas sur lui."
+    },
+    {
+      "id": "c6_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si le rayon d'un cercle est $x$ cm, laquelle de ces expressions donne le diamètre ?",
+      "image": null,
+      "choix": [
+        "$x + 2$",
+        "$x \\div 2$",
+        "$2x$",
+        "$x^{2}$"
+      ],
+      "reponse": "$2x$",
+      "explication": "Le diamètre est le double du rayon : $d = 2 \\times r = 2x$."
+    },
+    {
+      "id": "c6_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O, tous les points du cercle sont à la même distance de O, appelée :",
+      "image": null,
+      "choix": [
+        "Le diamètre",
+        "La corde",
+        "Le rayon",
+        "L'arc"
+      ],
+      "reponse": "Le rayon",
+      "explication": "Par définition, le rayon est la distance constante entre le centre O et tout point du cercle."
+    },
+    {
+      "id": "c6_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Une corde $[AB]$ est-elle toujours un diamètre ?",
+      "image": null,
+      "choix": [
+        "Oui, toujours",
+        "Non, seulement si elle passe par le centre",
+        "Non, jamais",
+        "Oui, si elle est horizontale"
+      ],
+      "reponse": "Non, seulement si elle passe par le centre",
+      "explication": "Une corde est un segment reliant deux points du cercle. Elle n'est un diamètre que si elle passe par le centre O."
+    },
+    {
+      "id": "c6_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cercles de même rayon et de même centre sont :",
+      "image": null,
+      "choix": [
+        "Différents",
+        "Identiques (confondus)",
+        "Concentriques mais distincts",
+        "Perpendiculaires"
+      ],
+      "reponse": "Identiques (confondus)",
+      "explication": "Deux cercles ayant même centre et même rayon sont exactement le même cercle (confondus). Il faut au moins l'un de ces deux éléments différent pour avoir deux cercles distincts."
+    },
+    {
+      "id": "c6_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un arc de cercle est délimité par deux points A et B. Combien de façons peut-on délimiter un arc entre A et B ?",
+      "image": null,
+      "choix": [
+        "1",
+        "2",
+        "4",
+        "Une infinité"
+      ],
+      "reponse": "2",
+      "explication": "Entre deux points A et B d'un cercle, il existe exactement deux arcs : le petit arc AB (court) et le grand arc AB (long)."
+    },
+    {
+      "id": "c6_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure du cercle de centre O avec les points A, B, C, D, E, F, identifie tous les rayons visibles.",
+      "image": "6eme/cercle/a48b0dd1d773cc13a882a91c8ec47e0ca20b23e3.png",
+      "choix": [
+        "$[OA]$ et $[OD]$ seulement",
+        "$[OA]$, $[OB]$, $[OC]$, $[OD]$, $[OE]$, $[OF]$",
+        "$[AD]$, $[BE]$, $[CF]$",
+        "$[AB]$, $[BC]$, $[CD]$"
+      ],
+      "reponse": "$[OA]$, $[OB]$, $[OC]$, $[OD]$, $[OE]$, $[OF]$",
+      "explication": "Tout segment reliant le centre O à l'un des 6 points du cercle est un rayon. Il y a donc 6 rayons : $[OA]$, $[OB]$, $[OC]$, $[OD]$, $[OE]$, $[OF]$."
+    },
+    {
+      "id": "c6_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O et de rayon $5$ cm. Un point M est à $5$ cm de O, N à $3$ cm de O, P à $7$ cm de O. Lequel est à l'extérieur du cercle ?",
+      "image": null,
+      "choix": [
+        "M",
+        "N",
+        "P",
+        "Aucun"
+      ],
+      "reponse": "P",
+      "explication": "$OM = 5 = r$ (sur le cercle), $ON = 3 < r$ (intérieur), $OP = 7 > r$ (extérieur). Donc P est à l'extérieur."
+    },
+    {
+      "id": "c6_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle OAB où O est le centre du cercle et A, B sont des points du cercle, que peut-on dire de OA et OB ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "$OA > OB$",
+        "$OA < OB$",
+        "$OA = OB$ (tous les deux égaux au rayon)",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "$OA = OB$ (tous les deux égaux au rayon)",
+      "explication": "A et B sont sur le cercle, donc $OA = OB = r$. Le triangle OAB est donc isocèle en O."
+    },
+    {
+      "id": "c6_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le cercle de centre O avec 6 points régulièrement espacés A, B, C, D, E, F, quel segment est une corde mais pas un diamètre ?",
+      "image": "6eme/cercle/a48b0dd1d773cc13a882a91c8ec47e0ca20b23e3.png",
+      "choix": [
+        "$[AD]$",
+        "$[BE]$",
+        "$[CF]$",
+        "$[AB]$"
+      ],
+      "reponse": "$[AB]$",
+      "explication": "$[AB]$ relie deux points du cercle sans passer par le centre O : c'est une corde non-diamètre. $[AD]$, $[BE]$ et $[CF]$ passent par O et sont des diamètres."
+    },
+    {
+      "id": "c6_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un diamètre de $15$ cm. Un point M est à $7$ cm du centre O, N est à $7{,}5$ cm, P est à $9$ cm. Lequel est sur le cercle ?",
+      "image": null,
+      "choix": [
+        "M",
+        "N",
+        "P",
+        "Aucun"
+      ],
+      "reponse": "N",
+      "explication": "Le rayon vaut $r = 15 \\div 2 = 7{,}5$ cm. $ON = 7{,}5 = r$ donc N est sur le cercle. $OM = 7 < r$ (intérieur), $OP = 9 > r$ (extérieur)."
+    },
+    {
+      "id": "c6_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cercles concentriques ont des rayons $r_1 = 4$ cm et $r_2 = 7$ cm. Un point A est sur le petit cercle. De combien faut-il éloigner A de O pour qu'il soit sur le grand cercle ?",
+      "image": "6eme/cercle/9627b691704a3f7bb13977973c445a59fd8d017f.png",
+      "choix": [
+        "$3$ cm",
+        "$4$ cm",
+        "$7$ cm",
+        "$11$ cm"
+      ],
+      "reponse": "$3$ cm",
+      "explication": "A est à $OA = r_1 = 4$ cm de O. Pour atteindre le grand cercle, il faut aller jusqu'à $r_2 = 7$ cm. La distance à parcourir est $7 - 4 = 3$ cm."
+    },
+    {
+      "id": "c6_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle OAB a deux côtés égaux $OA = OB$ où O est le centre du cercle. Comment appelle-t-on ce triangle ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "Équilatéral",
+        "Isocèle",
+        "Rectangle",
+        "Quelconque"
+      ],
+      "reponse": "Isocèle",
+      "explication": "$OA = OB = r$ (deux rayons), donc le triangle OAB est isocèle en O (deux côtés égaux issus du même sommet)."
+    },
+    {
+      "id": "c6_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O et de rayon $5$ cm, $[OH]$ est perpendiculaire à une corde $[AB]$ avec H sur $[AB]$. Que peut-on affirmer sur H ?",
+      "image": "6eme/cercle/54d6f5ac2570169a0ef4cb787e9d02327d726839.png",
+      "choix": [
+        "H est le centre du cercle",
+        "H est le milieu de $[AB]$",
+        "H est sur le cercle",
+        "H est à l'extérieur du cercle"
+      ],
+      "reponse": "H est le milieu de $[AB]$",
+      "explication": "Propriété : toute droite passant par le centre O et perpendiculaire à une corde passe par le milieu de cette corde. Donc H est le milieu de $[AB]$."
+    },
+    {
+      "id": "c6_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si le diamètre d'un cercle est multiplié par $3$, que devient le rayon ?",
+      "image": null,
+      "choix": [
+        "Multiplié par $1{,}5$",
+        "Multiplié par $3$",
+        "Divisé par $3$",
+        "Multiplié par $6$"
+      ],
+      "reponse": "Multiplié par $3$",
+      "explication": "$r = d \\div 2$. Si $d$ est multiplié par 3, alors $r = (3d) \\div 2 = 3 \\times (d \\div 2) = 3r$. Le rayon est aussi multiplié par 3."
+    },
+    {
+      "id": "c6_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux points A et B sont sur un cercle de centre O. On sait que $AB = 2 \\times OA$. Que peut-on conclure ?",
+      "image": null,
+      "choix": [
+        "$[AB]$ est une corde quelconque",
+        "$[AB]$ est un diamètre",
+        "A et B sont le même point",
+        "$[AB]$ est un rayon"
+      ],
+      "reponse": "$[AB]$ est un diamètre",
+      "explication": "$OA = r$ (rayon). Si $AB = 2 \\times OA = 2r = d$, alors $[AB]$ a la longueur du diamètre. Comme ses extrémités sont sur le cercle, c'est bien un diamètre."
+    },
+    {
+      "id": "c6_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle passe par les points A, B, C et D. Laquelle de ces affirmations est TOUJOURS vraie ?",
+      "image": "6eme/cercle/a48b0dd1d773cc13a882a91c8ec47e0ca20b23e3.png",
+      "choix": [
+        "$OA = AB$",
+        "$OA = OB = OC = OD$",
+        "$AB = CD$",
+        "$AB$ est un diamètre"
+      ],
+      "reponse": "$OA = OB = OC = OD$",
+      "explication": "Tous les points d'un cercle sont à la même distance du centre (le rayon). Donc $OA = OB = OC = OD = r$, toujours."
+    },
+    {
+      "id": "c6_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Trois cercles de même centre O ont des rayons $2$ cm, $5$ cm et $8$ cm. Un point M est à $5$ cm de O. M est :",
+      "image": null,
+      "choix": [
+        "À l'intérieur des 3 cercles",
+        "Sur le cercle de rayon 5 cm",
+        "Sur le cercle de rayon 2 cm"
+      ],
+      "reponse": "Sur le cercle de rayon 5 cm",
+      "explication": "$OM = 5$ cm. $5 = r_2 = 5$ cm → M est sur le 2ème cercle. $5 > r_1 = 2$ → M est à l'extérieur du 1er. $5 < r_3 = 8$ → M est à l'intérieur du 3ème."
+    },
+    {
+      "id": "c6_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon $r$. On trace deux rayons $[OA]$ et $[OB]$. Laquelle de ces affirmations est vraie ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "Le triangle OAB est équilatéral",
+        "Le triangle OAB est isocèle en O",
+        "Le triangle OAB est rectangle",
+        "On ne peut rien dire sur le triangle OAB"
+      ],
+      "reponse": "Le triangle OAB est isocèle en O",
+      "explication": "$OA = OB = r$ (deux rayons du même cercle). Le triangle OAB a deux côtés égaux issus de O : il est isocèle en O."
+    },
+    {
+      "id": "c6_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de rayon $r$ a un diamètre $[AB]$. Un point C est sur le cercle ($C \\neq A$, $C \\neq B$). Lesquels de ces segments sont de longueur $r$ ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "$AB$ seulement",
+        "$OA$ seulement",
+        "$OA$, $OB$ et $OC$",
+        "$OA$ et $AB$"
+      ],
+      "reponse": "$OA$, $OB$ et $OC$",
+      "explication": "A, B et C sont tous sur le cercle de rayon $r$. Donc $OA = OB = OC = r$. En revanche, $AB = 2r$ (diamètre)."
+    },
+    {
+      "id": "c6_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon de $6$ cm. La corde $[AB]$ passe par O. Quelle est la longueur AB et quelle est la nature de $[AB]$ ?",
+      "image": "6eme/cercle/f55351fef53f980f5378dbc657d1dacf07d8ff15.png",
+      "choix": [
+        "$AB = 6$ cm, c'est un rayon",
+        "$AB = 12$ cm, c'est un diamètre",
+        "$AB = 3$ cm, c'est une corde",
+        "$AB = 9$ cm, c'est un arc"
+      ],
+      "reponse": "$AB = 12$ cm, c'est un diamètre",
+      "explication": "Une corde passant par le centre est un diamètre. Son calcul : $AB = 2r = 2 \\times 6 = 12$ cm."
+    },
+    {
+      "id": "c6_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cercles concentriques ont des rayons $r_1 = 3$ cm et $r_2 = 7$ cm. Un point A est sur le petit cercle. Quelle est la distance $OA$ et quelle est la position de A par rapport au grand cercle ?",
+      "image": "6eme/cercle/9627b691704a3f7bb13977973c445a59fd8d017f.png",
+      "choix": [
+        "$OA = 7$ cm, A est sur le grand cercle",
+        "$OA = 3$ cm, A est à l'intérieur du grand cercle",
+        "$OA = 3$ cm, A est à l'extérieur du grand cercle",
+        "$OA = 4$ cm, A est à l'intérieur du grand cercle"
+      ],
+      "reponse": "$OA = 3$ cm, A est à l'intérieur du grand cercle",
+      "explication": "A est sur le petit cercle : $OA = r_1 = 3$ cm. Or $OA = 3 < r_2 = 7$, donc A est à l'intérieur du grand cercle."
+    },
+    {
+      "id": "c6_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle a un diamètre de $15$ cm. Un point M est à $7$ cm de O, N à $7{,}5$ cm de O, P à $9$ cm de O. Lesquels sont à l'intérieur du cercle ?",
+      "image": null,
+      "choix": [
+        "M et N seulement",
+        "M seulement",
+        "N et P seulement",
+        "M, N et P"
+      ],
+      "reponse": "M seulement",
+      "explication": "Le rayon vaut $r = 15 \\div 2 = 7{,}5$ cm. $OM = 7 < 7{,}5$ → M est à l'intérieur. $ON = 7{,}5 = r$ → N est sur le cercle. $OP = 9 > 7{,}5$ → P est à l'extérieur."
+    },
+    {
+      "id": "c6_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cercles concentriques de centre O ont des rayons $r_1$ et $r_2$ avec $r_1 < r_2$. Un point A est sur le petit cercle. Quelle expression donne la distance à parcourir depuis A pour atteindre le grand cercle (en allant vers l'extérieur) ?",
+      "image": "6eme/cercle/9627b691704a3f7bb13977973c445a59fd8d017f.png",
+      "choix": [
+        "$r_1 + r_2$",
+        "$r_2 - r_1$",
+        "$r_1 \\times r_2$",
+        "$r_2 \\div r_1$"
+      ],
+      "reponse": "$r_2 - r_1$",
+      "explication": "A est à $r_1$ de O. Le grand cercle est à $r_2$ de O. La distance à parcourir est $r_2 - r_1$."
+    },
+    {
+      "id": "c6_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon $r = 5$ cm. On trace deux rayons $[OA]$ et $[OB]$. Le triangle OAB est isocèle en O. Quelle est la longueur de chaque côté égal ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "$10$ cm",
+        "$2{,}5$ cm",
+        "$5$ cm",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "$5$ cm",
+      "explication": "Les deux côtés égaux du triangle isocèle en O sont $OA$ et $OB$. Ce sont des rayons, donc $OA = OB = r = 5$ cm."
+    },
+    {
+      "id": "c6_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O, le triangle OAB a $OA = OB$. Comment appelle-t-on ce triangle et pourquoi ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "Équilatéral, car tous les côtés sont égaux",
+        "Isocèle, car $OA = OB$ (deux rayons du même cercle)",
+        "Rectangle, car l'angle en O est droit",
+        "Quelconque, on ne peut rien affirmer"
+      ],
+      "reponse": "Isocèle, car $OA = OB$ (deux rayons du même cercle)",
+      "explication": "A et B sont sur le cercle, donc $OA = OB = r$. Le triangle a deux côtés égaux issus du sommet O : il est isocèle en O."
+    },
+    {
+      "id": "c6_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La médiatrice d'une corde $[AB]$ d'un cercle de centre O passe-t-elle par O ? Pourquoi ?",
+      "image": "6eme/cercle/2fc6edda34696a274cddbcf4c19784b001056c65.png",
+      "choix": [
+        "Non, car O n'est pas sur $[AB]$",
+        "Oui, car O est équidistant de A et B ($OA = OB = r$)",
+        "Non, car la médiatrice est parallèle au diamètre",
+        "Oui, mais seulement si $[AB]$ est un diamètre"
+      ],
+      "reponse": "Oui, car O est équidistant de A et B ($OA = OB = r$)",
+      "explication": "La médiatrice d'un segment est l'ensemble des points équidistants des deux extrémités. Comme $OA = OB = r$, O est équidistant de A et B, donc O est sur la médiatrice de $[AB]$."
+    },
+    {
+      "id": "c6_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O de rayon $5$ cm, $[OH]$ est perpendiculaire à une corde $[AB]$ avec H sur $[AB]$. Quelle propriété justifie que H est le milieu de $[AB]$ ?",
+      "image": "6eme/cercle/54d6f5ac2570169a0ef4cb787e9d02327d726839.png",
+      "choix": [
+        "Le diamètre est plus long que toute corde",
+        "$OA = OB = r$ donc O est sur la médiatrice de $[AB]$, qui passe par le milieu de $[AB]$",
+        "H est le centre du cercle",
+        "La corde est perpendiculaire au rayon"
+      ],
+      "reponse": "$OA = OB = r$ donc O est sur la médiatrice de $[AB]$, qui passe par le milieu de $[AB]$",
+      "explication": "Puisque $OA = OB = r$, O est sur la médiatrice de $[AB]$. Or la médiatrice est perpendiculaire à $[AB]$ en son milieu. Comme $[OH]$ est la perpendiculaire issue de O à $[AB]$, H est bien le milieu de $[AB]$."
+    },
+    {
+      "id": "c6_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O, de diamètre $[AB]$, avec un point C sur le cercle ($C \\neq A$, $C \\neq B$). Lesquels des triangles OAC et OBC sont isocèles ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "Ni l'un ni l'autre",
+        "Le triangle OAC seulement",
+        "Le triangle OBC seulement",
+        "Les deux triangles OAC et OBC"
+      ],
+      "reponse": "Les deux triangles OAC et OBC",
+      "explication": "$OA = OC = r$ donc OAC est isocèle en O. $OB = OC = r$ donc OBC est isocèle en O. Les deux triangles sont isocèles car les trois points A, B, C sont sur le cercle."
+    },
+    {
+      "id": "c6_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O et de rayon $5$ cm. Une corde $[CD]$ ne passe pas par O. Sa longueur est-elle supérieure, égale ou inférieure au diamètre ?",
+      "image": null,
+      "choix": [
+        "Supérieure au diamètre ($> 10$ cm)",
+        "Égale au diamètre ($= 10$ cm)",
+        "Inférieure au diamètre ($< 10$ cm)",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Inférieure au diamètre ($< 10$ cm)",
+      "explication": "Le diamètre est la corde la plus longue d'un cercle. Toute corde ne passant pas par le centre est strictement plus courte que le diamètre."
+    },
+    {
+      "id": "c6_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cercles de centres $O_1$ et $O_2$ et de même rayon $r = 5$ cm se coupent en deux points A et B. Laquelle de ces affirmations est VRAIE ?",
+      "image": null,
+      "choix": [
+        "$O_1A = O_1B = O_2A = O_2B = 5$ cm",
+        "$[AB]$ est un diamètre du premier cercle",
+        "$[O_1O_2]$ est un rayon",
+        "$[AB]$ est un rayon du second cercle"
+      ],
+      "reponse": "$O_1A = O_1B = O_2A = O_2B = 5$ cm",
+      "explication": "A et B sont sur les deux cercles. Donc $O_1A = O_1B = r = 5$ cm (premier cercle) et $O_2A = O_2B = r = 5$ cm (second cercle). Les quatre distances sont égales à $5$ cm."
+    },
+    {
+      "id": "c6_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un diamètre est une corde particulière. Pourquoi dit-on que tout diamètre est une corde, mais toute corde n'est pas un diamètre ?",
+      "image": null,
+      "choix": [
+        "Parce que le diamètre est plus court que les cordes",
+        "Parce que le diamètre a ses deux extrémités sur le cercle ET passe par le centre, alors que certaines cordes ne passent pas par le centre",
+        "Parce que seul le diamètre peut être tracé dans un cercle",
+        "Parce que les cordes ne relient pas deux points du cercle"
+      ],
+      "reponse": "Parce que le diamètre a ses deux extrémités sur le cercle ET passe par le centre, alors que certaines cordes ne passent pas par le centre",
+      "explication": "Un diamètre satisfait la définition d'une corde (deux extrémités sur le cercle) + il passe par O. Une corde quelconque vérifie seulement la première condition, pas forcément la seconde."
+    },
+    {
+      "id": "c6_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon de $r$ cm. On double le rayon. Le nouveau diamètre est :",
+      "image": null,
+      "choix": [
+        "$2r$",
+        "$r + 2$",
+        "$4r$",
+        "$r^{2}$"
+      ],
+      "reponse": "$4r$",
+      "explication": "Si le nouveau rayon est $2r$, alors le nouveau diamètre est $2 \\times 2r = 4r$."
+    },
+    {
+      "id": "c6_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un diamètre $[AB]$. Un point M est le milieu de $[OA]$. Quelle est la distance $OM$ si le rayon est $8$ cm ?",
+      "image": null,
+      "choix": [
+        "$8$ cm",
+        "$4$ cm",
+        "$2$ cm",
+        "$16$ cm"
+      ],
+      "reponse": "$4$ cm",
+      "explication": "M est le milieu de $[OA]$, donc $OM = OA \\div 2 = r \\div 2 = 8 \\div 2 = 4$ cm."
+    },
+    {
+      "id": "c6_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On sait que $OA = OB = OC = r$ pour un cercle de centre O. Quelle est la propriété fondamentale du cercle qui justifie cela ?",
+      "image": null,
+      "choix": [
+        "Le diamètre est double du rayon",
+        "Tous les points du cercle sont à égale distance du centre (le rayon)",
+        "Le centre est le milieu du diamètre",
+        "Les cordes ont toutes la même longueur"
+      ],
+      "reponse": "Tous les points du cercle sont à égale distance du centre (le rayon)",
+      "explication": "La définition même du cercle : c'est l'ensemble des points situés à la même distance $r$ (le rayon) d'un point fixe O (le centre)."
+    },
+    {
+      "id": "c6_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cordes $[AB]$ et $[CD]$ d'un cercle de centre O sont à égale distance du centre ($OH_1 = OH_2$, avec $H_1$ milieu de $[AB]$ et $H_2$ milieu de $[CD]$). Qu'en déduit-on ?",
+      "image": null,
+      "choix": [
+        "$AB > CD$",
+        "$AB < CD$",
+        "$AB = CD$",
+        "On ne peut rien déduire"
+      ],
+      "reponse": "$AB = CD$",
+      "explication": "Propriété : dans un cercle, deux cordes également éloignées du centre ont la même longueur. Donc $AB = CD$."
+    },
+    {
+      "id": "c6_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O passe par A, B, C. On trace les médiatrices de $[AB]$ et de $[AC]$. Ces deux médiatrices se croisent en un point O'. Que peut-on affirmer sur O' ?",
+      "image": "6eme/cercle/832760711c8d962155fc6676a7f79e5f1acaaa1e.png",
+      "choix": [
+        "O' est un point quelconque du cercle",
+        "O' est le centre du cercle, donc $O' = O$",
+        "O' est le milieu de $[AC]$",
+        "O' est extérieur au cercle"
+      ],
+      "reponse": "O' est le centre du cercle, donc $O' = O$",
+      "explication": "O est sur la médiatrice de $[AB]$ (car $OA = OB$) et sur la médiatrice de $[AC]$ (car $OA = OC$). Ces deux médiatrices se croisent en O, donc $O' = O$."
+    },
+    {
+      "id": "c6_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O et de rayon $r$, on a un diamètre $[AB]$. Un point C est sur le cercle. Le triangle OAC vérifie $OA = OC = r$. Peut-on affirmer que le triangle OAC est équilatéral ?",
+      "image": "6eme/cercle/4942f67de85e1f4d2233456a3e670ba15cba59d7.png",
+      "choix": [
+        "Oui, car $OA = OC = r$",
+        "Non, car on ne sait pas si $AC = r$ aussi",
+        "Oui, car tous les triangles inscrits dans un cercle sont équilatéraux",
+        "Non, car C est sur le cercle"
+      ],
+      "reponse": "Non, car on ne sait pas si $AC = r$ aussi",
+      "explication": "On sait que $OA = OC = r$ (triangle isocèle), mais pour qu'il soit équilatéral il faudrait aussi $AC = r$. Or $AC$ est une corde dont la longueur dépend de la position de C sur le cercle, et n'est pas nécessairement égale à $r$."
+    },
+    {
+      "id": "c6_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La corde la plus longue d'un cercle est son diamètre. Pour un cercle de rayon $6$ cm, quelle est la longueur maximale qu'une corde peut avoir ?",
+      "image": null,
+      "choix": [
+        "$6$ cm",
+        "$8$ cm",
+        "$12$ cm",
+        "$18$ cm"
+      ],
+      "reponse": "$12$ cm",
+      "explication": "La corde la plus longue est le diamètre : $d = 2r = 2 \\times 6 = 12$ cm. Aucune corde ne peut être plus longue que le diamètre."
+    },
+    {
+      "id": "c6_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux cercles de même centre O (concentriques) ont des rayons $r_1 = 3$ cm et $r_2 = 7$ cm. Combien de points sont à la fois sur les deux cercles ?",
+      "image": "6eme/cercle/9627b691704a3f7bb13977973c445a59fd8d017f.png",
+      "choix": [
+        "0",
+        "1",
+        "2",
+        "Une infinité"
+      ],
+      "reponse": "0",
+      "explication": "Pour être sur le petit cercle, un point doit être à $3$ cm de O. Pour être sur le grand cercle, il doit être à $7$ cm de O. Ces deux conditions sont incompatibles ($3 \\neq 7$), donc aucun point ne peut être sur les deux cercles en même temps."
+    },
+    {
+      "id": "c6_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon $r$. On sait que pour tout point M du cercle, $OM = r$. Si un point P vérifie $OP > r$, que peut-on affirmer sur P ?",
+      "image": null,
+      "choix": [
+        "P est sur le cercle",
+        "P est à l'intérieur du cercle",
+        "P est à l'extérieur du cercle",
+        "P est le centre du cercle"
+      ],
+      "reponse": "P est à l'extérieur du cercle",
+      "explication": "Par définition du cercle : un point est sur le cercle si $OP = r$, à l'intérieur si $OP < r$, et à l'extérieur si $OP > r$. Ici $OP > r$ donc P est à l'extérieur."
+    },
+    {
+      "id": "c6_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O et de rayon $r$, le point H est le milieu d'une corde $[AB]$. Quelle relation existe entre $[OH]$ et $[AB]$ ?",
+      "image": null,
+      "choix": [
+        "$[OH]$ est parallèle à $[AB]$",
+        "$[OH]$ est perpendiculaire à $[AB]$",
+        "$[OH]$ est une corde",
+        "$[OH]$ est un arc de cercle"
+      ],
+      "reponse": "$[OH]$ est perpendiculaire à $[AB]$",
+      "explication": "Propriété fondamentale : si H est le milieu d'une corde $[AB]$ et O le centre, alors $[OH]$ est perpendiculaire à $[AB]$. (Et réciproquement, toute perpendiculaire du centre à une corde passe par son milieu.)"
+    },
+    {
+      "id": "c6_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de rayon $r = 4$ cm et un point A sur le cercle. On trace le diamètre $[AB]$ et un autre point C sur le cercle. Quelle est la somme $OA + OB + OC$ ?",
+      "image": null,
+      "choix": [
+        "$4$ cm",
+        "$8$ cm",
+        "$12$ cm",
+        "$16$ cm"
+      ],
+      "reponse": "$12$ cm",
+      "explication": "A, B et C sont tous sur le cercle, donc $OA = OB = OC = r = 4$ cm. La somme vaut $4 + 4 + 4 = 12$ cm."
+    },
+    {
+      "id": "c6_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O passe par A, B, C, D. Sait-on que $AB = CD$ ?",
+      "image": null,
+      "choix": [
+        "Oui, toutes les cordes d'un cercle ont la même longueur",
+        "Non, deux cordes peuvent avoir des longueurs différentes",
+        "Oui, si elles ont la même direction",
+        "Non, seulement les rayons sont égaux"
+      ],
+      "reponse": "Non, deux cordes peuvent avoir des longueurs différentes",
+      "explication": "Deux cordes d'un même cercle peuvent avoir des longueurs différentes (sauf si elles sont à égale distance du centre). Ce qui est constant, c'est la distance de chaque point au centre (le rayon), pas la longueur des cordes."
+    },
+    {
+      "id": "c6_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un cercle de centre O a un rayon $r$. On double à la fois le rayon ET le diamètre. Quelle relation entre le nouveau rayon $r'$ et le nouveau diamètre $d'$ ?",
+      "image": null,
+      "choix": [
+        "$d' = r'$",
+        "$d' = 2r'$",
+        "$d' = 4r'$",
+        "$d' = r' + 2$"
+      ],
+      "reponse": "$d' = 2r'$",
+      "explication": "La relation $d = 2r$ est une propriété du cercle, toujours vraie. Même si on double le rayon, on a $d' = 2r'$. Ici $r' = 2r$ et $d' = 2 \\times 2r = 4r = 2r'$."
+    },
+    {
+      "id": "c6_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces affirmations résume le mieux la définition d'un cercle ?",
+      "image": null,
+      "choix": [
+        "Un cercle est une surface ronde",
+        "Un cercle est l'ensemble des points situés à distance au plus $r$ du centre O",
+        "Un cercle est l'ensemble des points situés exactement à distance $r$ du centre O",
+        "Un cercle est une corde de longueur maximale"
+      ],
+      "reponse": "Un cercle est l'ensemble des points situés exactement à distance $r$ du centre O",
+      "explication": "La définition précise : le cercle est l'ensemble des points à distance EXACTEMENT égale à $r$ du centre O. Les points à distance inférieure forment le disque (intérieur)."
+    },
+    {
+      "id": "c6_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un cercle de centre O et de rayon $5$ cm, la corde $[AB]$ a une longueur de $10$ cm. Quelle est la nature de $[AB]$ et pourquoi ?",
+      "image": null,
+      "choix": [
+        "Une corde ordinaire, car $AB < 2r$",
+        "Un rayon, car $AB = r$",
+        "Un diamètre, car $AB = 2r = 2 \\times 5 = 10$ cm",
+        "On ne peut pas déterminer la nature de $[AB]$"
+      ],
+      "reponse": "Un diamètre, car $AB = 2r = 2 \\times 5 = 10$ cm",
+      "explication": "Le diamètre a pour longueur $d = 2r = 2 \\times 5 = 10$ cm. Comme $AB = 10 = d$, le segment $[AB]$ est forcément un diamètre (la seule corde de longueur maximale passe par le centre)."
+    }
+  ]
+}

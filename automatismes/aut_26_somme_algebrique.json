@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_26",
+    "label": "Calculer une somme algébrique",
+    "icon": "∑",
+    "color": "#1a1a2e"
+  },
+  "questions": [
+    {
+      "id": "aut_26_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+3 - 5 + 2$",
+      "choix": [
+        "$0$",
+        "$-10$",
+        "$+1$",
+        "$+10$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(3+2) - 5 = 5 - 5 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-4 + 7 - 1$",
+      "choix": [
+        "$+12$",
+        "$-2$",
+        "$+2$",
+        "$-12$"
+      ],
+      "reponse": "$+2$",
+      "explication": "$(7) - (4+1) = 7 - 5 = 2$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+6 - 3 - 4$",
+      "choix": [
+        "$-13$",
+        "$-1$",
+        "$+13$",
+        "$+1$"
+      ],
+      "reponse": "$-1$",
+      "explication": "$6 - (3+4) = 6 - 7 = -1$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-2 - 3 + 8$",
+      "choix": [
+        "$+13$",
+        "$-13$",
+        "$+3$",
+        "$-3$"
+      ],
+      "reponse": "$+3$",
+      "explication": "$(8) - (2+3) = 8 - 5 = 3$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+10 - 6 + 2 - 5$",
+      "choix": [
+        "$-23$",
+        "$+23$",
+        "$+1$",
+        "$-1$"
+      ],
+      "reponse": "$+1$",
+      "explication": "$(10+2) - (6+5) = 12 - 11 = 1$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-8 + 3 - 1 + 6$",
+      "choix": [
+        "$+2$",
+        "$0$",
+        "$+18$",
+        "$-18$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(3+6) - (8+1) = 9 - 9 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+5 + 4 - 3 - 6$",
+      "choix": [
+        "$0$",
+        "$+2$",
+        "$+18$",
+        "$-18$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(5+4) - (3+6) = 9 - 9 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-10 + 4 + 6$",
+      "choix": [
+        "$0$",
+        "$-20$",
+        "$+2$",
+        "$+20$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(4+6) - 10 = 10 - 10 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+7 - 12 + 5$",
+      "choix": [
+        "$+14$",
+        "$0$",
+        "$+4$",
+        "$-14$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(7+5) - 12 = 12 - 12 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-1 - 2 - 3 - 4$",
+      "choix": [
+        "$+4$",
+        "$+10$",
+        "$-10$",
+        "$-4$"
+      ],
+      "reponse": "$-10$",
+      "explication": "$-(1+2+3+4) = -10$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+3{,}5 - 1{,}2 + 4{,}7$",
+      "choix": [
+        "$+7$",
+        "$-7$",
+        "$+9{,}4$",
+        "$-0{,}4$"
+      ],
+      "reponse": "$+7$",
+      "explication": "$(3{,}5 + 4{,}7) - 1{,}2 = 8{,}2 - 1{,}2 = 7$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_12",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-\\dfrac{1}{2} + \\dfrac{3}{4} - \\dfrac{1}{4}$",
+      "choix": [
+        "$0$",
+        "$-1$",
+        "$+\\dfrac{1}{2}$",
+        "$+1$"
+      ],
+      "reponse": "$0$",
+      "explication": "$\\dfrac{-2+3-1}{4} = \\dfrac{0}{4} = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+8 - 5 + 3 - 7 + 1$",
+      "choix": [
+        "$-24$",
+        "$+24$",
+        "$0$",
+        "$+2$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(8+3+1) - (5+7) = 12 - 12 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-15 + 8 + 9 - 2$",
+      "choix": [
+        "$+34$",
+        "$0$",
+        "$+2$",
+        "$-34$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(8+9) - (15+2) = 17 - 17 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+4{,}2 - 1{,}7 + 0{,}5$",
+      "choix": [
+        "$+6{,}4$",
+        "$+3$",
+        "$-3$",
+        "$+2{,}5$"
+      ],
+      "reponse": "$+3$",
+      "explication": "$4{,}2 + 0{,}5 - 1{,}7 = 4{,}7 - 1{,}7 = 3$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-100 + 48 + 62 - 10$",
+      "choix": [
+        "$+2$",
+        "$-220$",
+        "$+220$",
+        "$0$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(48+62) - (100+10) = 110 - 110 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+\\dfrac{2}{3} - \\dfrac{1}{3} + \\dfrac{2}{3}$",
+      "choix": [
+        "$+\\dfrac{1}{3}$",
+        "$+1$",
+        "$+\\dfrac{4}{3}$",
+        "$-1$"
+      ],
+      "reponse": "$+1$",
+      "explication": "$\\dfrac{2-1+2}{3} = \\dfrac{3}{3} = 1$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-6 + 2{,}5 - 1{,}5 + 5$",
+      "choix": [
+        "$0$",
+        "$+1$",
+        "$-15$",
+        "$+15$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(2{,}5+5) - (6+1{,}5) = 7{,}5 - 7{,}5 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : Calcule la somme algébrique : $+12 - 7 - 5 + 3 - 3$.",
+      "choix": [
+        "$-30$",
+        "$+30$",
+        "$+2$",
+        "$0$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(12+3) - (7+5+3) = 15 - 15 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-4{,}8 + 2{,}3 - 0{,}5$",
+      "choix": [
+        "$-7{,}6$",
+        "$+3$",
+        "$-3$",
+        "$+7{,}6$"
+      ],
+      "reponse": "$-3$",
+      "explication": "$(2{,}3) - (4{,}8 + 0{,}5) = 2{,}3 - 5{,}3 = -3$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+\\dfrac{5}{6} - \\dfrac{1}{3} + \\dfrac{1}{6}$",
+      "choix": [
+        "$-\\dfrac{2}{3}$",
+        "$1$",
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "reponse": "$\\dfrac{2}{3}$",
+      "explication": "$\\dfrac{5}{6} - \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{4}{6} = \\dfrac{2}{3}$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : Si $x = -3$, calcule $x + 5 - 2x + 1$.",
+      "choix": [
+        "$-2$",
+        "$-10$",
+        "$+2$",
+        "$+10$"
+      ],
+      "reponse": "$+10$",
+      "explication": "$(-3) + 5 - 2(-3) + 1 = -3 + 5 + 6 + 1 = 9$. Correction : $-3+5 = 2$, $2+6 = 8$, $8+1 = 9$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+3 - 8 + 5 - 1 + 6 - 2$",
+      "choix": [
+        "$+25$",
+        "$-25$",
+        "$-3$",
+        "$+3$"
+      ],
+      "reponse": "$+3$",
+      "explication": "$(3+5+6) - (8+1+2) = 14 - 11 = 3$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : Simplifier $a - b + b - a$.",
+      "choix": [
+        "$0$",
+        "$2a$",
+        "$2a - 2b$",
+        "$-2b$"
+      ],
+      "reponse": "$0$",
+      "explication": "$a - b + b - a = 0$ (les termes s'annulent deux à deux).",
+      "image": null
+    },
+    {
+      "id": "aut_26_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : Calcule $(-3) + (+4) + (-5) + (+6) + (-7) + (+8)$.",
+      "choix": [
+        "$+33$",
+        "$-33$",
+        "$-3$",
+        "$+3$"
+      ],
+      "reponse": "$+3$",
+      "explication": "$(4+6+8) - (3+5+7) = 18 - 15 = 3$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+1{,}5 - 3{,}7 + 2{,}2 - 0{,}5 + 1{,}5$",
+      "choix": [
+        "$+9{,}4$",
+        "$-9{,}4$",
+        "$+1$",
+        "$-1$"
+      ],
+      "reponse": "$+1$",
+      "explication": "$(1{,}5+2{,}2+1{,}5) - (3{,}7+0{,}5) = 5{,}2 - 4{,}2 = 1$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $-\\dfrac{3}{4} + \\dfrac{5}{8} - \\dfrac{1}{8}$",
+      "choix": [
+        "$+\\dfrac{1}{4}$",
+        "$-\\dfrac{1}{4}$",
+        "$-\\dfrac{7}{8}$",
+        "$+\\dfrac{7}{8}$"
+      ],
+      "reponse": "$-\\dfrac{1}{4}$",
+      "explication": "$\\dfrac{-6+5-1}{8} = \\dfrac{-2}{8} = -\\dfrac{1}{4}$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : Calcule $|{-5}| + (-3) - |{+2}|$.",
+      "choix": [
+        "$-10$",
+        "$+4$",
+        "$+10$",
+        "$0$"
+      ],
+      "reponse": "$0$",
+      "explication": "$|{-5}| = 5$, $|{+2}| = 2$. $5 + (-3) - 2 = 5 - 3 - 2 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : $+0{,}1 - 0{,}2 + 0{,}3 - 0{,}4 + 0{,}5$",
+      "choix": [
+        "$+1{,}5$",
+        "$+0{,}3$",
+        "$-1{,}5$",
+        "$-0{,}3$"
+      ],
+      "reponse": "$+0{,}3$",
+      "explication": "$(0{,}1+0{,}3+0{,}5) - (0{,}2+0{,}4) = 0{,}9 - 0{,}6 = 0{,}3$.",
+      "image": null
+    },
+    {
+      "id": "aut_26_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule : Quelle est la valeur de $a - b - c$ si $a = 2$, $b = -3$, $c = -1$ ?",
+      "choix": [
+        "$-6$",
+        "$0$",
+        "$+6$",
+        "$+4$"
+      ],
+      "reponse": "$+6$",
+      "explication": "$2 - (-3) - (-1) = 2 + 3 + 1 = 6$.",
+      "image": null
+    }
+  ]
+}

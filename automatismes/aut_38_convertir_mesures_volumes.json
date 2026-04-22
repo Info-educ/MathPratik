@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_38",
+    "label": "Convertir des mesures de volumes",
+    "icon": "📐",
+    "color": "#0284c7"
+  },
+  "questions": [
+    {
+      "id": "aut_38_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$4\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$$40\\,000$$",
+        "$$40$$",
+        "$4\\,000\\,\\mathrm{dm}^3$",
+        "$$400$$"
+      ],
+      "reponse": "$4\\,000\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{m}^3 \\rightarrow \\mathrm{dm}^3$ : $\\times 1\\,000$. $4 \\times 1\\,000 = 4\\,000\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$2\\,500\\,\\mathrm{cm}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$$250$$",
+        "$$25$$",
+        "$$0{,}25$$",
+        "$2{,}5\\,\\mathrm{dm}^3$"
+      ],
+      "reponse": "$2{,}5\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{cm}^3 \\rightarrow \\mathrm{dm}^3$ : $\\div 1\\,000$. $2\\,500 \\div 1\\,000 = 2{,}5\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}3\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$0{,}03$$",
+        "$$30$$",
+        "$300\\,\\mathrm{cm}^3$",
+        "$$3\\,000$$"
+      ],
+      "reponse": "$300\\,\\mathrm{cm}^3$",
+      "explication": "$\\mathrm{dm}^3 \\rightarrow \\mathrm{cm}^3$ : $\\times 1\\,000$. $0{,}3 \\times 1\\,000 = 300\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$8\\,000\\,\\mathrm{mm}^3 = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$8\\,000$$",
+        "$$80$$",
+        "$8\\,\\mathrm{cm}^3$",
+        "$$0{,}8$$"
+      ],
+      "reponse": "$8\\,\\mathrm{cm}^3$",
+      "explication": "$\\mathrm{mm}^3 \\rightarrow \\mathrm{cm}^3$ : $\\div 1\\,000$. $8\\,000 \\div 1\\,000 = 8\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$5\\,\\mathrm{cm}^3 = \\ldots\\,\\mathrm{mm}^3$",
+      "choix": [
+        "$$50\\,000$$",
+        "$$50$$",
+        "$5\\,000\\,\\mathrm{mm}^3$",
+        "$$500$$"
+      ],
+      "reponse": "$5\\,000\\,\\mathrm{mm}^3$",
+      "explication": "$\\mathrm{cm}^3 \\rightarrow \\mathrm{mm}^3$ : $\\times 1\\,000$. $5 \\times 1\\,000 = 5\\,000\\,\\mathrm{mm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}006\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$$0{,}6$$",
+        "$$60$$",
+        "$$600$$",
+        "$6\\,\\mathrm{dm}^3$"
+      ],
+      "reponse": "$6\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{m}^3 \\rightarrow \\mathrm{dm}^3$ : $\\times 1\\,000$. $0{,}006 \\times 1\\,000 = 6\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1\\,200\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{m}^3$",
+      "choix": [
+        "$1{,}2\\,\\mathrm{m}^3$",
+        "$$0{,}12$$",
+        "$$120$$",
+        "$$12$$"
+      ],
+      "reponse": "$1{,}2\\,\\mathrm{m}^3$",
+      "explication": "$\\mathrm{dm}^3 \\rightarrow \\mathrm{m}^3$ : $\\div 1\\,000$. $1\\,200 \\div 1\\,000 = 1{,}2\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3{,}5\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{L}$",
+      "choix": [
+        "$$350$$",
+        "$$0{,}35$$",
+        "$$35$$",
+        "$3{,}5\\,\\mathrm{L}$"
+      ],
+      "reponse": "$3{,}5\\,\\mathrm{L}$",
+      "explication": "$1\\,\\mathrm{dm}^3 = 1\\,\\mathrm{L}$. Donc $3{,}5\\,\\mathrm{dm}^3 = 3{,}5\\,\\mathrm{L}$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$750\\,\\mathrm{cm}^3 = \\ldots\\,\\mathrm{mL}$",
+      "choix": [
+        "$$7{,}5$$",
+        "$750\\,\\mathrm{mL}$",
+        "$$75$$",
+        "$$7\\,500$$"
+      ],
+      "reponse": "$750\\,\\mathrm{mL}$",
+      "explication": "$1\\,\\mathrm{cm}^3 = 1\\,\\mathrm{mL}$. Donc $750\\,\\mathrm{cm}^3 = 750\\,\\mathrm{mL}$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$2\\,\\mathrm{L} = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$200$$",
+        "$$20$$",
+        "$$20\\,000$$",
+        "$2\\,000\\,\\mathrm{cm}^3$"
+      ],
+      "reponse": "$2\\,000\\,\\mathrm{cm}^3$",
+      "explication": "$1\\,\\mathrm{L} = 1\\,\\mathrm{dm}^3 = 1\\,000\\,\\mathrm{cm}^3$. Donc $2\\,\\mathrm{L} = 2\\,000\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}5\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$$50$$",
+        "$$5\\,000$$",
+        "$$5$$",
+        "$500\\,\\mathrm{dm}^3$"
+      ],
+      "reponse": "$500\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{m}^3 \\rightarrow \\mathrm{dm}^3$ : $\\times 1\\,000$. $0{,}5 \\times 1\\,000 = 500\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_12",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$4\\,500\\,\\mathrm{cm}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$$0{,}45$$",
+        "$4{,}5\\,\\mathrm{dm}^3$",
+        "$$45$$",
+        "$$450$$"
+      ],
+      "reponse": "$4{,}5\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{cm}^3 \\rightarrow \\mathrm{dm}^3$ : $\\div 1\\,000$. $4\\,500 \\div 1\\,000 = 4{,}5\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}025\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$250$$",
+        "$$2{,}5$$",
+        "$25\\,\\mathrm{cm}^3$",
+        "$$2\\,500$$"
+      ],
+      "reponse": "$25\\,\\mathrm{cm}^3$",
+      "explication": "$\\mathrm{dm}^3 \\rightarrow \\mathrm{cm}^3$ : $\\times 1\\,000$. $0{,}025 \\times 1\\,000 = 25\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$60\\,000\\,\\mathrm{mm}^3 = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$6\\,000$$",
+        "$60\\,\\mathrm{cm}^3$",
+        "$$6$$",
+        "$$600$$"
+      ],
+      "reponse": "$60\\,\\mathrm{cm}^3$",
+      "explication": "$\\mathrm{mm}^3 \\rightarrow \\mathrm{cm}^3$ : $\\div 1\\,000$. $60\\,000 \\div 1\\,000 = 60\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$8\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$$80$$",
+        "$8\\,000\\,\\mathrm{dm}^3$",
+        "$$80\\,000$$",
+        "$$800$$"
+      ],
+      "reponse": "$8\\,000\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{m}^3 \\rightarrow \\mathrm{dm}^3$ : $\\times 1\\,000$. $8 \\times 1\\,000 = 8\\,000\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$250\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{m}^3$",
+      "choix": [
+        "$0{,}25\\,\\mathrm{m}^3$",
+        "$$0{,}025$$",
+        "$$2{,}5$$",
+        "$$25$$"
+      ],
+      "reponse": "$0{,}25\\,\\mathrm{m}^3$",
+      "explication": "$\\mathrm{dm}^3 \\rightarrow \\mathrm{m}^3$ : $\\div 1\\,000$. $250 \\div 1\\,000 = 0{,}25\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$15\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{L}$",
+      "choix": [
+        "$15\\,\\mathrm{L}$",
+        "$$1{,}5$$",
+        "$$1\\,500$$",
+        "$$150$$"
+      ],
+      "reponse": "$15\\,\\mathrm{L}$",
+      "explication": "$1\\,\\mathrm{dm}^3 = 1\\,\\mathrm{L}$. Donc $15\\,\\mathrm{dm}^3 = 15\\,\\mathrm{L}$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3\\,000\\,\\mathrm{mL} = \\ldots\\,\\mathrm{L}$",
+      "choix": [
+        "$$300$$",
+        "$3\\,\\mathrm{L}$",
+        "$$30$$",
+        "$$0{,}3$$"
+      ],
+      "reponse": "$3\\,\\mathrm{L}$",
+      "explication": "$1\\,000\\,\\mathrm{mL} = 1\\,\\mathrm{L}$. $3\\,000\\,\\mathrm{mL} = 3\\,\\mathrm{L}$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1{,}8\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$180\\,000$$",
+        "$1\\,800\\,000\\,\\mathrm{cm}^3$",
+        "$$18\\,000\\,000$$",
+        "$$18\\,000$$"
+      ],
+      "reponse": "$1\\,800\\,000\\,\\mathrm{cm}^3$",
+      "explication": "$\\mathrm{m}^3 \\rightarrow \\mathrm{cm}^3$ : $\\times 1\\,000\\,000$. $1{,}8 \\times 1\\,000\\,000 = 1\\,800\\,000\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$500\\,\\mathrm{cm}^3 = \\ldots\\,\\mathrm{mL}$",
+      "choix": [
+        "$$5$$",
+        "$$5\\,000$$",
+        "$$50$$",
+        "$500\\,\\mathrm{mL}$"
+      ],
+      "reponse": "$500\\,\\mathrm{mL}$",
+      "explication": "$1\\,\\mathrm{cm}^3 = 1\\,\\mathrm{mL}$. Donc $500\\,\\mathrm{cm}^3 = 500\\,\\mathrm{mL}$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$7\\,200\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{m}^3$",
+      "choix": [
+        "$7{,}2\\,\\mathrm{m}^3$",
+        "$$720$$",
+        "$$0{,}72$$",
+        "$$72$$"
+      ],
+      "reponse": "$7{,}2\\,\\mathrm{m}^3$",
+      "explication": "$\\mathrm{dm}^3 \\rightarrow \\mathrm{m}^3$ : $\\div 1\\,000$. $7\\,200 \\div 1\\,000 = 7{,}2\\,\\mathrm{m}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}4\\,\\mathrm{cm}^3 = \\ldots\\,\\mathrm{mm}^3$",
+      "choix": [
+        "$$4$$",
+        "$$4\\,000$$",
+        "$$40$$",
+        "$400\\,\\mathrm{mm}^3$"
+      ],
+      "reponse": "$400\\,\\mathrm{mm}^3$",
+      "explication": "$\\mathrm{cm}^3 \\rightarrow \\mathrm{mm}^3$ : $\\times 1\\,000$. $0{,}4 \\times 1\\,000 = 400\\,\\mathrm{mm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$3\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{L}$",
+      "choix": [
+        "$$30$$",
+        "$$300$$",
+        "$3\\,000\\,\\mathrm{L}$",
+        "$$30\\,000$$"
+      ],
+      "reponse": "$3\\,000\\,\\mathrm{L}$",
+      "explication": "$1\\,\\mathrm{m}^3 = 1\\,000\\,\\mathrm{dm}^3 = 1\\,000\\,\\mathrm{L}$. $3 \\times 1\\,000 = 3\\,000\\,\\mathrm{L}$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$2\\,500\\,\\mathrm{mL} = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$$25$$",
+        "$2{,}5\\,\\mathrm{dm}^3$",
+        "$$0{,}25$$",
+        "$$250$$"
+      ],
+      "reponse": "$2{,}5\\,\\mathrm{dm}^3$",
+      "explication": "$2\\,500\\,\\mathrm{mL} = 2\\,500\\,\\mathrm{cm}^3 = 2{,}5\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}08\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$80\\,\\mathrm{dm}^3$",
+        "$$0{,}8$$",
+        "$$8$$",
+        "$$800$$"
+      ],
+      "reponse": "$80\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{m}^3 \\rightarrow \\mathrm{dm}^3$ : $\\times 1\\,000$. $0{,}08 \\times 1\\,000 = 80\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$6\\,\\mathrm{dm}^3 = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$60\\,000$$",
+        "$6\\,000\\,\\mathrm{cm}^3$",
+        "$$600$$",
+        "$$60$$"
+      ],
+      "reponse": "$6\\,000\\,\\mathrm{cm}^3$",
+      "explication": "$\\mathrm{dm}^3 \\rightarrow \\mathrm{cm}^3$ : $\\times 1\\,000$. $6 \\times 1\\,000 = 6\\,000\\,\\mathrm{cm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$900\\,000\\,\\mathrm{mm}^3 = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$0{,}9\\,\\mathrm{dm}^3$",
+        "$$0{,}09$$",
+        "$$9$$",
+        "$$90$$"
+      ],
+      "reponse": "$0{,}9\\,\\mathrm{dm}^3$",
+      "explication": "$\\mathrm{mm}^3 \\rightarrow \\mathrm{cm}^3 \\rightarrow \\mathrm{dm}^3$ : $\\div 1\\,000 \\div 1\\,000 = \\div 1\\,000\\,000$. $900\\,000 \\div 1\\,000\\,000 = 0{,}9\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$1{,}5\\,\\mathrm{L} = \\ldots\\,\\mathrm{dm}^3$",
+      "choix": [
+        "$1{,}5\\,\\mathrm{dm}^3$",
+        "$$15$$",
+        "$$0{,}15$$",
+        "$$150$$"
+      ],
+      "reponse": "$1{,}5\\,\\mathrm{dm}^3$",
+      "explication": "$1\\,\\mathrm{L} = 1\\,\\mathrm{dm}^3$. Donc $1{,}5\\,\\mathrm{L} = 1{,}5\\,\\mathrm{dm}^3$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$4\\,000\\,\\mathrm{cm}^3 = \\ldots\\,\\mathrm{L}$",
+      "choix": [
+        "$4\\,\\mathrm{L}$",
+        "$$40$$",
+        "$$0{,}4$$",
+        "$$400$$"
+      ],
+      "reponse": "$4\\,\\mathrm{L}$",
+      "explication": "$4\\,000\\,\\mathrm{cm}^3 = 4\\,000\\,\\mathrm{mL} = 4\\,\\mathrm{L}$.",
+      "image": null
+    },
+    {
+      "id": "aut_38_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$0{,}003\\,\\mathrm{m}^3 = \\ldots\\,\\mathrm{cm}^3$",
+      "choix": [
+        "$$30$$",
+        "$$300$$",
+        "$3\\,000\\,\\mathrm{cm}^3$",
+        "$$30\\,000$$"
+      ],
+      "reponse": "$3\\,000\\,\\mathrm{cm}^3$",
+      "explication": "$\\mathrm{m}^3 \\rightarrow \\mathrm{cm}^3$ : $\\times 1\\,000\\,000$. $0{,}003 \\times 1\\,000\\,000 = 3\\,000\\,\\mathrm{cm}^3$.",
+      "image": null
+    }
+  ]
+}

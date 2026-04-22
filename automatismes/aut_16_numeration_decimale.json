@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_16",
+    "label": "Numération décimale et décomposition",
+    "icon": "🔢",
+    "color": "#0f766e"
+  },
+  "questions": [
+    {
+      "id": "aut_16_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $4\\,537{,}28$ : quel est le chiffre des unités ?",
+      "choix": [
+        "$3$",
+        "$7$",
+        "$5$",
+        "$2$"
+      ],
+      "reponse": "$7$",
+      "explication": "Le chiffre des unités est le chiffre immédiatement à gauche de la virgule. Dans $4\\,537{,}28$, c'est $7$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $4\\,537{,}28$ : quel est le nombre de dizaines ?",
+      "choix": [
+        "$4\\,537$",
+        "$453$",
+        "$43$",
+        "$3$"
+      ],
+      "reponse": "$453$",
+      "explication": "Le nombre de dizaines : on lit $4\\,537 \\div 10 = 453{,}7$, donc $453$ dizaines (partie entière).",
+      "image": null
+    },
+    {
+      "id": "aut_16_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $4\\,537{,}28$ : quel est le chiffre des centièmes ?",
+      "choix": [
+        "$7$",
+        "$8$",
+        "$2$",
+        "$3$"
+      ],
+      "reponse": "$8$",
+      "explication": "Le chiffre des centièmes est le $2^e$ chiffre après la virgule. Dans $4\\,537{,}28$, c'est $8$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $3\\,046{,}75$ : quel est le chiffre des milliers ?",
+      "choix": [
+        "$4$",
+        "$0$",
+        "$3$",
+        "$7$"
+      ],
+      "reponse": "$3$",
+      "explication": "Le chiffre des milliers est le $4^e$ chiffre avant la virgule. Dans $3\\,046{,}75$, c'est $3$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $3\\,046{,}75$ : quel est le nombre de centièmes ?",
+      "choix": [
+        "$30\\,467$",
+        "$3\\,046$",
+        "$304\\,675$",
+        "$7$"
+      ],
+      "reponse": "$304\\,675$",
+      "explication": "$3\\,046{,}75 \\times 100 = 304\\,675$. Il y a $304\\,675$ centièmes.",
+      "image": null
+    },
+    {
+      "id": "aut_16_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $12{,}539$ sous la forme entier + fraction.",
+      "choix": [
+        "$12 + \\dfrac{5}{10}$",
+        "$12 + \\dfrac{539}{1000}$",
+        "$12 + \\dfrac{53}{100}$",
+        "$1 + \\dfrac{2539}{1000}$"
+      ],
+      "reponse": "$12 + \\dfrac{539}{1000}$",
+      "explication": "$12{,}539 = 12 + \\dfrac{5}{10} + \\dfrac{3}{100} + \\dfrac{9}{1000} = 12 + \\dfrac{539}{1000}$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $0{,}408$ : quel est le chiffre des millièmes ?",
+      "choix": [
+        "$0$",
+        "$4$",
+        "$40$",
+        "$8$"
+      ],
+      "reponse": "$8$",
+      "explication": "Le chiffre des millièmes est le $3^e$ chiffre après la virgule. Dans $0{,}408$, c'est $8$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $\\dfrac{7}{10} + \\dfrac{3}{100} + \\dfrac{5}{1000}$ sous forme décimale.",
+      "choix": [
+        "$73{,}5$",
+        "$0{,}0735$",
+        "$7{,}35$",
+        "$0{,}735$"
+      ],
+      "reponse": "$0{,}735$",
+      "explication": "$\\dfrac{7}{10} = 0{,}7$ ; $\\dfrac{3}{100} = 0{,}03$ ; $\\dfrac{5}{1000} = 0{,}005$. Total : $0{,}735$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $4{,}389$ sous forme de fraction décimale.",
+      "choix": [
+        "$\\dfrac{4389}{100}$",
+        "$\\dfrac{4389}{1000}$",
+        "$\\dfrac{43}{10}$",
+        "$\\dfrac{438}{100}$"
+      ],
+      "reponse": "$\\dfrac{4389}{1000}$",
+      "explication": "$4{,}389 = \\dfrac{4389}{1000}$ (3 chiffres après la virgule → dénominateur $1\\,000$).",
+      "image": null
+    },
+    {
+      "id": "aut_16_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $98{,}1$ sous la forme « $N$ dixièmes ».",
+      "choix": [
+        "$981$ dixièmes",
+        "$9{,}81$ dixièmes",
+        "$98$ dixièmes",
+        "$9810$ dixièmes"
+      ],
+      "reponse": "$981$ dixièmes",
+      "explication": "$98{,}1 \\times 10 = 981$. Donc $98{,}1 = 981$ dixièmes.",
+      "image": null
+    },
+    {
+      "id": "aut_16_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $5\\,012{,}6$ : quel est le chiffre des dixièmes ?",
+      "choix": [
+        "$6$",
+        "$1$",
+        "$2$",
+        "$0$"
+      ],
+      "reponse": "$6$",
+      "explication": "Le chiffre des dixièmes est le $1^{er}$ chiffre après la virgule. Dans $5\\,012{,}6$, c'est $6$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_12",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quel est le chiffre des dixièmes dans $23{,}47$ ?",
+      "choix": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
+      ],
+      "reponse": "$4$",
+      "explication": "Le chiffre des dixièmes dans $23{,}47$ est $4$ ($1^{er}$ chiffre après la virgule).",
+      "image": null
+    },
+    {
+      "id": "aut_16_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $2 + \\dfrac{3}{10} + \\dfrac{7}{100}$ sous forme décimale.",
+      "choix": [
+        "$23{,}7$",
+        "$2{,}37$",
+        "$0{,}237$",
+        "$2{,}307$"
+      ],
+      "reponse": "$2{,}37$",
+      "explication": "$\\dfrac{3}{10} = 0{,}3$ ; $\\dfrac{7}{100} = 0{,}07$. Donc $2 + 0{,}3 + 0{,}07 = 2{,}37$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $0{,}056$ sous forme de fraction décimale.",
+      "choix": [
+        "$\\dfrac{56}{100}$",
+        "$\\dfrac{56}{1000}$",
+        "$\\dfrac{5}{10}$",
+        "$\\dfrac{560}{1000}$"
+      ],
+      "reponse": "$\\dfrac{56}{1000}$",
+      "explication": "$0{,}056 = \\dfrac{56}{1000}$ (3 chiffres après la virgule).",
+      "image": null
+    },
+    {
+      "id": "aut_16_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quel est le nombre de centièmes dans $5{,}72$ ?",
+      "choix": [
+        "$5720$",
+        "$57{,}2$",
+        "$572$",
+        "$57$"
+      ],
+      "reponse": "$572$",
+      "explication": "$5{,}72 \\times 100 = 572$. Il y a $572$ centièmes dans $5{,}72$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décompose $8{,}304$ : partie entière + fractions.",
+      "choix": [
+        "$8 + \\dfrac{3}{10} + \\dfrac{0}{100} + \\dfrac{4}{100}$",
+        "$8 + \\dfrac{304}{100}$",
+        "$8 + \\dfrac{3004}{1000}$",
+        "$8 + \\dfrac{3}{10} + \\dfrac{4}{1000}$"
+      ],
+      "reponse": "$8 + \\dfrac{3}{10} + \\dfrac{4}{1000}$",
+      "explication": "$8{,}304 = 8 + \\dfrac{3}{10} + \\dfrac{0}{100} + \\dfrac{4}{1000} = 8 + \\dfrac{3}{10} + \\dfrac{4}{1000}$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $\\dfrac{134}{1000}$ sous forme décimale.",
+      "choix": [
+        "$0{,}134$",
+        "$0{,}0134$",
+        "$13{,}4$",
+        "$1{,}34$"
+      ],
+      "reponse": "$0{,}134$",
+      "explication": "$\\dfrac{134}{1000} = 0{,}134$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quel est le chiffre des dizaines dans $4\\,652{,}9$ ?",
+      "choix": [
+        "$4$",
+        "$6$",
+        "$5$",
+        "$2$"
+      ],
+      "reponse": "$5$",
+      "explication": "Le chiffre des dizaines dans $4\\,652{,}9$ est $5$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $6{,}05$ sous forme de fraction décimale.",
+      "choix": [
+        "$\\dfrac{6}{10}$",
+        "$\\dfrac{65}{100}$",
+        "$\\dfrac{605}{1000}$",
+        "$\\dfrac{605}{100}$"
+      ],
+      "reponse": "$\\dfrac{605}{100}$",
+      "explication": "$6{,}05 = \\dfrac{605}{100}$ (2 chiffres après la virgule).",
+      "image": null
+    },
+    {
+      "id": "aut_16_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quel est le nombre d'unités dans $3\\,728{,}5$ ?",
+      "choix": [
+        "$3\\,728$",
+        "$728$",
+        "$372$",
+        "$37\\,285$"
+      ],
+      "reponse": "$3\\,728$",
+      "explication": "$3\\,728{,}5$ comporte $3\\,728$ unités (partie entière).",
+      "image": null
+    },
+    {
+      "id": "aut_16_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Dans $0{,}073$ : quel est le chiffre des centièmes ?",
+      "choix": [
+        "$7$",
+        "$73$",
+        "$3$",
+        "$0$"
+      ],
+      "reponse": "$7$",
+      "explication": "Le chiffre des centièmes dans $0{,}073$ est $7$ ($2^e$ chiffre après la virgule).",
+      "image": null
+    },
+    {
+      "id": "aut_16_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $40 + \\dfrac{9}{10} + \\dfrac{2}{100}$ sous forme décimale.",
+      "choix": [
+        "$40{,}092$",
+        "$4{,}092$",
+        "$40{,}92$",
+        "$409{,}2$"
+      ],
+      "reponse": "$40{,}92$",
+      "explication": "$\\dfrac{9}{10} = 0{,}9$ ; $\\dfrac{2}{100} = 0{,}02$. Donc $40 + 0{,}9 + 0{,}02 = 40{,}92$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quel est le nombre de dixièmes dans $2{,}8$ ?",
+      "choix": [
+        "$280$",
+        "$2$",
+        "$8$",
+        "$28$"
+      ],
+      "reponse": "$28$",
+      "explication": "$2{,}8 \\times 10 = 28$. Il y a $28$ dixièmes dans $2{,}8$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $\\dfrac{9}{100}$ sous forme décimale.",
+      "choix": [
+        "$0{,}09$",
+        "$0{,}9$",
+        "$9{,}0$",
+        "$0{,}009$"
+      ],
+      "reponse": "$0{,}09$",
+      "explication": "$\\dfrac{9}{100} = 0{,}09$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décompose $15{,}206$ : partie entière + fractions.",
+      "choix": [
+        "$15 + \\dfrac{206}{1000}$",
+        "$15 + \\dfrac{2}{10} + \\dfrac{6}{1000}$",
+        "$15 + \\dfrac{2}{10} + \\dfrac{6}{100}$",
+        "$15 + \\dfrac{2006}{1000}$"
+      ],
+      "reponse": "$15 + \\dfrac{2}{10} + \\dfrac{6}{1000}$",
+      "explication": "$15{,}206 = 15 + \\dfrac{2}{10} + \\dfrac{0}{100} + \\dfrac{6}{1000} = 15 + \\dfrac{2}{10} + \\dfrac{6}{1000}$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quel est le chiffre des centaines dans $27\\,840{,}3$ ?",
+      "choix": [
+        "$8$",
+        "$7$",
+        "$4$",
+        "$2$"
+      ],
+      "reponse": "$8$",
+      "explication": "Le chiffre des centaines dans $27\\,840{,}3$ est $8$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $3 + \\dfrac{5}{1000}$ sous forme décimale.",
+      "choix": [
+        "$3{,}0005$",
+        "$3{,}5$",
+        "$3{,}005$",
+        "$3{,}05$"
+      ],
+      "reponse": "$3{,}005$",
+      "explication": "$\\dfrac{5}{1000} = 0{,}005$. Donc $3 + 0{,}005 = 3{,}005$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quel est le chiffre des centièmes dans $3{,}047$ ?",
+      "choix": [
+        "$3$",
+        "$0$",
+        "$7$",
+        "$4$"
+      ],
+      "reponse": "$4$",
+      "explication": "Le chiffre des centièmes dans $3{,}047$ est $4$.",
+      "image": null
+    },
+    {
+      "id": "aut_16_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Écris $72{,}5$ sous la forme « $N$ dixièmes ».",
+      "choix": [
+        "$72$ dixièmes",
+        "$7{,}25$ dixièmes",
+        "$7250$ dixièmes",
+        "$725$ dixièmes"
+      ],
+      "reponse": "$725$ dixièmes",
+      "explication": "$72{,}5 \\times 10 = 725$. Donc $72{,}5 = 725$ dixièmes.",
+      "image": null
+    },
+    {
+      "id": "aut_16_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Décompose $100{,}04$ : partie entière + fractions.",
+      "choix": [
+        "$100 + \\dfrac{40}{1000}$",
+        "$100 + \\dfrac{4}{1000}$",
+        "$100 + \\dfrac{4}{10}$",
+        "$100 + \\dfrac{4}{100}$"
+      ],
+      "reponse": "$100 + \\dfrac{4}{100}$",
+      "explication": "$100{,}04 = 100 + \\dfrac{0}{10} + \\dfrac{4}{100} = 100 + \\dfrac{4}{100}$.",
+      "image": null
+    }
+  ]
+}

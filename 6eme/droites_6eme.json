@@ -1,0 +1,1115 @@
+{
+  "niveau": "6eme",
+  "thematique": {
+    "id":    "droites_6eme",
+    "label": "Les Droites",
+    "icon":  "📏",
+    "color": "#065f46"
+  },
+  "questions": [
+
+    {
+      "id": "dr6_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux droites sécantes sont des droites qui :",
+      "image": null,
+      "choix": [
+        "N'ont aucun point commun",
+        "Ont exactement un point commun",
+        "Ont deux points communs",
+        "Sont confondues"
+      ],
+      "reponse": "Ont exactement un point commun",
+      "explication": "Deux droites sécantes ont exactement un point commun : leur point d'intersection. Deux droites parallèles, elles, n'ont aucun point commun."
+    },
+    {
+      "id": "dr6_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux droites perpendiculaires se coupent en formant :",
+      "image": null,
+      "choix": [
+        "Deux angles droits",
+        "Trois angles droits",
+        "Quatre angles droits",
+        "Un seul angle droit"
+      ],
+      "reponse": "Quatre angles droits",
+      "explication": "Deux droites perpendiculaires forment quatre angles droits à leur intersection (les quatre angles sont égaux à $90°$)."
+    },
+    {
+      "id": "dr6_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle définition correspond à une droite géométrique ?",
+      "image": null,
+      "choix": [
+        "Un objet limité par deux extrémités",
+        "Un objet limité d'un seul côté par son origine",
+        "Un objet formé d'une infinité de points alignés, illimité des deux côtés",
+        "Un objet courbe passant par deux points"
+      ],
+      "reponse": "Un objet formé d'une infinité de points alignés, illimité des deux côtés",
+      "explication": "Une droite est formée d'une infinité de points alignés et est illimitée des deux côtés. Elle n'a pas d'extrémité, contrairement au segment ou à la demi-droite."
+    },
+    {
+      "id": "dr6_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un segment $[AB]$ mesure $8$ cm. Son milieu est $M$. Quelle est la longueur de $[AM]$ ?",
+      "image": "6eme/droites/fig_segment_milieu.png",
+      "choix": ["$2$ cm", "$4$ cm", "$6$ cm", "$8$ cm"],
+      "reponse": "$4$ cm",
+      "explication": "Le milieu $M$ partage $[AB]$ en deux parties égales : $AM = AB \\div 2 = 8 \\div 2 = 4$ cm."
+    },
+    {
+      "id": "dr6_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux droites horizontales ne se croisent pas. Elles sont :",
+      "image": null,
+      "choix": ["Sécantes", "Perpendiculaires", "Parallèles", "Confondues"],
+      "reponse": "Parallèles",
+      "explication": "Des droites qui ne se coupent pas (aucun point commun) sont parallèles. On note $(d_1) \\parallel (d_2)$."
+    },
+    {
+      "id": "dr6_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la notation correcte pour dire que deux droites $(a)$ et $(b)$ sont parallèles ?",
+      "image": null,
+      "choix": ["$(a) \\perp (b)$", "$(a) \\parallel (b)$", "$(a) = (b)$", "$(a) \\cap (b)$"],
+      "reponse": "$(a) \\parallel (b)$",
+      "explication": "On note $(a) \\parallel (b)$ pour indiquer que les droites $(a)$ et $(b)$ sont parallèles. Le symbole $\\perp$ indique la perpendicularité."
+    },
+    {
+      "id": "dr6_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un segment $[CD]$ mesure $13$ cm. Son milieu est $M$. Quelle est la longueur $[MD]$ ?",
+      "image": null,
+      "choix": ["$5$ cm", "$6$ cm", "$6{,}5$ cm", "$7$ cm"],
+      "reponse": "$6{,}5$ cm",
+      "explication": "$MD = CD \\div 2 = 13 \\div 2 = 6{,}5$ cm. Le milieu partage le segment en deux parties égales."
+    },
+    {
+      "id": "dr6_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le point $P$ unique commun à deux droites sécantes $(d)$ et $(d')$ s'appelle :",
+      "image": null,
+      "choix": [
+        "Le milieu de $(d)$",
+        "Le point d'intersection",
+        "Le pied de la perpendiculaire",
+        "Le milieu de $(d')$"
+      ],
+      "reponse": "Le point d'intersection",
+      "explication": "Le point commun à deux droites sécantes est appelé le point d'intersection. Il est unique pour deux droites non confondues."
+    },
+    {
+      "id": "dr6_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle affirmation est vraie ?",
+      "image": null,
+      "choix": [
+        "Ils sont tous les trois illimités des deux côtés",
+        "La droite est illimitée des deux côtés ; la demi-droite est limitée d'un côté ; le segment est limité par deux extrémités",
+        "La droite est limitée par deux extrémités ; la demi-droite est illimitée",
+        "La demi-droite et le segment sont identiques"
+      ],
+      "reponse": "La droite est illimitée des deux côtés ; la demi-droite est limitée d'un côté ; le segment est limité par deux extrémités",
+      "explication": "Une droite est illimitée des deux côtés. Une demi-droite a une origine et est illimitée d'un seul côté. Un segment a deux extrémités : il est limité des deux côtés."
+    },
+    {
+      "id": "dr6_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $3$ cm = ... mm",
+      "image": null,
+      "choix": ["$3$ mm", "$30$ mm", "$300$ mm", "$0{,}3$ mm"],
+      "reponse": "$30$ mm",
+      "explication": "$1$ cm = $10$ mm, donc $3$ cm $= 3 \\times 10 = 30$ mm."
+    },
+    {
+      "id": "dr6_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La distance d'un point à une droite correspond à :",
+      "image": null,
+      "choix": [
+        "N'importe quelle longueur entre le point et la droite",
+        "La longueur la plus longue",
+        "Le chemin le plus court, mesuré perpendiculairement",
+        "La moitié du segment"
+      ],
+      "reponse": "Le chemin le plus court, mesuré perpendiculairement",
+      "explication": "La distance d'un point à une droite est la longueur du segment perpendiculaire abaissé du point sur la droite. C'est le plus court chemin entre le point et la droite."
+    },
+    {
+      "id": "dr6_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $45$ mm = ... cm",
+      "image": null,
+      "choix": ["$450$ cm", "$4{,}5$ cm", "$0{,}45$ cm", "$45$ cm"],
+      "reponse": "$4{,}5$ cm",
+      "explication": "$1$ cm = $10$ mm, donc $45$ mm $= 45 \\div 10 = 4{,}5$ cm."
+    },
+    {
+      "id": "dr6_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Si un point appartient à une droite, sa distance à cette droite est :",
+      "image": null,
+      "choix": ["$1$ cm", "Infinie", "Nulle", "Impossible à calculer"],
+      "reponse": "Nulle",
+      "explication": "Un point qui appartient à une droite est sur cette droite : sa distance à la droite est $0$. La distance est nulle."
+    },
+    {
+      "id": "dr6_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Vrai ou Faux : deux droites parallèles peuvent se couper. Quelle est la bonne réponse ?",
+      "image": null,
+      "choix": [
+        "Vrai, elles se coupent en deux points",
+        "Vrai, elles se coupent en un seul point",
+        "Faux, par définition des droites parallèles ne se coupent jamais",
+        "Cela dépend des droites"
+      ],
+      "reponse": "Faux, par définition des droites parallèles ne se coupent jamais",
+      "explication": "Faux. Par définition, deux droites parallèles n'ont aucun point commun : elles ne se coupent jamais."
+    },
+    {
+      "id": "dr6_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un segment mesure $7$ cm. Son milieu est $M$ et $A$ est une extrémité. Quelle est la longueur $AM$ ?",
+      "image": null,
+      "choix": ["$7$ cm", "$3$ cm", "$3{,}5$ cm", "$14$ cm"],
+      "reponse": "$3{,}5$ cm",
+      "explication": "$AM = 7 \\div 2 = 3{,}5$ cm. Le milieu partage le segment en deux parties égales."
+    },
+    {
+      "id": "dr6_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le symbole $\\perp$ signifie que deux droites sont :",
+      "image": null,
+      "choix": ["Parallèles", "Perpendiculaires", "Sécantes mais pas perpendiculaires", "Confondues"],
+      "reponse": "Perpendiculaires",
+      "explication": "Le symbole $\\perp$ indique la perpendicularité : les deux droites forment un angle droit ($90°$) à leur intersection."
+    },
+    {
+      "id": "dr6_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces exemples, lequel illustre des droites parallèles dans la vie quotidienne ?",
+      "image": null,
+      "choix": [
+        "Les branches d'un ciseaux ouvert",
+        "Les rails d'une voie ferrée",
+        "Les aiguilles d'une montre à midi moins une",
+        "Les diagonales d'un carré"
+      ],
+      "reponse": "Les rails d'une voie ferrée",
+      "explication": "Les rails d'une voie ferrée sont parallèles : ils restent à distance constante et ne se croisent jamais. Les ciseaux ouverts, les aiguilles et les diagonales forment des droites sécantes."
+    },
+    {
+      "id": "dr6_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $2$ m = ... cm",
+      "image": null,
+      "choix": ["$20$ cm", "$200$ cm", "$2000$ cm", "$0{,}2$ cm"],
+      "reponse": "$200$ cm",
+      "explication": "$1$ m = $100$ cm, donc $2$ m $= 2 \\times 100 = 200$ cm."
+    },
+    {
+      "id": "dr6_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux droites perpendiculaires sont-elles forcément sécantes ?",
+      "image": null,
+      "choix": [
+        "Non, elles peuvent être parallèles",
+        "Oui, car elles se coupent en formant un angle droit",
+        "Non, cela dépend des cas",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Oui, car elles se coupent en formant un angle droit",
+      "explication": "Les droites perpendiculaires sont un cas particulier de droites sécantes : elles se coupent en formant un angle droit. Elles ont donc exactement un point commun."
+    },
+    {
+      "id": "dr6_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle définition correspond au milieu d'un segment $[AB]$ ?",
+      "image": null,
+      "choix": [
+        "Le point qui divise $[AB]$ en deux parties de longueurs différentes",
+        "Le point qui appartient à $[AB]$ et qui est à égale distance des deux extrémités",
+        "L'une des deux extrémités de $[AB]$",
+        "Le point situé en dehors de $[AB]$"
+      ],
+      "reponse": "Le point qui appartient à $[AB]$ et qui est à égale distance des deux extrémités",
+      "explication": "Le milieu $M$ d'un segment $[AB]$ est le point de $[AB]$ tel que $AM = MB$. Il est à égale distance des deux extrémités."
+    },
+    {
+      "id": "dr6_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d_1)$ et $(d_2)$ sont toutes deux perpendiculaires à la droite $(\\Delta)$. Que peut-on conclure ?",
+      "image": "6eme/droites/fig_perp_implique_para.png",
+      "choix": [
+        "$(d_1)$ et $(d_2)$ sont perpendiculaires entre elles",
+        "$(d_1)$ et $(d_2)$ sont parallèles",
+        "$(d_1)$ et $(d_2)$ sont sécantes",
+        "On ne peut rien conclure"
+      ],
+      "reponse": "$(d_1)$ et $(d_2)$ sont parallèles",
+      "explication": "Propriété : si deux droites sont perpendiculaires à une même droite, alors elles sont parallèles entre elles. Donc $(d_1) \\parallel (d_2)$."
+    },
+    {
+      "id": "dr6_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $1{,}5$ m = ... mm",
+      "image": null,
+      "choix": ["$150$ mm", "$1\\,500$ mm", "$15\\,000$ mm", "$15$ mm"],
+      "reponse": "$1\\,500$ mm",
+      "explication": "$1{,}5$ m $= 150$ cm $= 1\\,500$ mm. ($1$ m = $1\\,000$ mm, donc $1{,}5 \\times 1\\,000 = 1\\,500$ mm.)"
+    },
+    {
+      "id": "dr6_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle affirmation est vraie ?",
+      "image": null,
+      "choix": [
+        "Des droites parallèles peuvent se couper en un point",
+        "Des droites sécantes n'ont aucun point commun",
+        "Deux droites perpendiculaires forment des angles droits",
+        "La distance d'un point à une droite est toujours infinie"
+      ],
+      "reponse": "Deux droites perpendiculaires forment des angles droits",
+      "explication": "Seule cette affirmation est vraie. Des droites parallèles ne se coupent jamais. Des droites sécantes ont exactement un point commun. La distance d'un point à une droite est finie (et nulle si le point est sur la droite)."
+    },
+    {
+      "id": "dr6_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On trace un segment $[EF]$ de $6$ cm et on place son milieu $M$. Quelles sont les longueurs de $[EM]$ et $[MF]$ ?",
+      "image": null,
+      "choix": [
+        "$EM = 2$ cm et $MF = 4$ cm",
+        "$EM = MF = 3$ cm",
+        "$EM = MF = 6$ cm",
+        "$EM = 1$ cm et $MF = 5$ cm"
+      ],
+      "reponse": "$EM = MF = 3$ cm",
+      "explication": "$M$ est le milieu de $[EF]$, donc $EM = MF = EF \\div 2 = 6 \\div 2 = 3$ cm."
+    },
+    {
+      "id": "dr6_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le milieu de $[AB]$ est $M$. Si $AM = 9$ cm, quelle est la longueur de $[AB]$ ?",
+      "image": null,
+      "choix": ["$4{,}5$ cm", "$9$ cm", "$18$ cm", "$27$ cm"],
+      "reponse": "$18$ cm",
+      "explication": "$M$ est le milieu de $[AB]$, donc $AM = MB = 9$ cm. Ainsi $AB = AM + MB = 9 + 9 = 18$ cm."
+    },
+    {
+      "id": "dr6_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les côtés adjacents d'un carré sont :",
+      "image": null,
+      "choix": ["Parallèles", "Perpendiculaires", "Ils ne se croisent pas", "De longueurs différentes"],
+      "reponse": "Perpendiculaires",
+      "explication": "Les côtés adjacents d'un carré (qui se rejoignent en un angle) forment un angle droit : ils sont perpendiculaires. Les côtés opposés d'un carré, eux, sont parallèles."
+    },
+    {
+      "id": "dr6_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Deux droites sécantes peuvent-elles former des angles droits ?",
+      "image": null,
+      "choix": [
+        "Non, jamais",
+        "Oui, dans ce cas elles sont aussi perpendiculaires",
+        "Oui, mais ce ne sont pas des angles droits exacts",
+        "Non, seulement des droites parallèles peuvent former des angles droits"
+      ],
+      "reponse": "Oui, dans ce cas elles sont aussi perpendiculaires",
+      "explication": "Vrai : quand deux droites sécantes forment des angles droits, elles sont perpendiculaires. La perpendicularité est un cas particulier de la sécance."
+    },
+    {
+      "id": "dr6_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $3{,}2$ dm = ... cm",
+      "image": null,
+      "choix": ["$3{,}2$ cm", "$32$ cm", "$320$ cm", "$0{,}32$ cm"],
+      "reponse": "$32$ cm",
+      "explication": "$1$ dm = $10$ cm, donc $3{,}2$ dm $= 3{,}2 \\times 10 = 32$ cm."
+    },
+
+    {
+      "id": "dr6_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La droite $(d)$ est perpendiculaire à $(\\Delta)$, et la droite $(d')$ est aussi perpendiculaire à $(\\Delta)$. Quelle est la relation entre $(d)$ et $(d')$ ?",
+      "image": null,
+      "choix": [
+        "$(d) \\perp (d')$",
+        "$(d) \\parallel (d')$",
+        "$(d)$ et $(d')$ sont confondues",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "$(d) \\parallel (d')$",
+      "explication": "Propriété : deux droites perpendiculaires à une même droite sont parallèles entre elles. Donc $(d) \\parallel (d')$."
+    },
+    {
+      "id": "dr6_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On sait que $(d_1) \\parallel (d_2)$ et que $(d_2) \\perp (d_3)$. Quelle est la relation entre $(d_1)$ et $(d_3)$ ?",
+      "image": null,
+      "choix": [
+        "$(d_1) \\parallel (d_3)$",
+        "$(d_1) \\perp (d_3)$",
+        "$(d_1)$ et $(d_3)$ sont confondues",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "$(d_1) \\perp (d_3)$",
+      "explication": "Si deux droites sont parallèles et qu'une troisième est perpendiculaire à l'une, elle est aussi perpendiculaire à l'autre. $(d_1) \\parallel (d_2)$ et $(d_2) \\perp (d_3)$, donc $(d_1) \\perp (d_3)$."
+    },
+    {
+      "id": "dr6_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La distance entre $(d)$ et $(d')$ est $3{,}5$ cm. Le point $M$ est sur $(d)$. Quelle est la distance de $M$ à $(d')$ ?",
+      "image": null,
+      "choix": ["$1{,}75$ cm", "$7$ cm", "$3{,}5$ cm", "Cela dépend de la position de $M$"],
+      "reponse": "$3{,}5$ cm",
+      "explication": "La distance entre deux droites parallèles est constante : tous les points de $(d)$ sont à la même distance de $(d')$. Cette distance est $3{,}5$ cm."
+    },
+    {
+      "id": "dr6_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d) \\parallel (d')$ et $(d'') \\perp (d')$. Quelle est la relation entre $(d)$ et $(d'')$ ?",
+      "image": null,
+      "choix": [
+        "$(d) \\parallel (d'')$",
+        "$(d) \\perp (d'')$",
+        "Sécantes mais pas perpendiculaires",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "$(d) \\perp (d'')$",
+      "explication": "$(d) \\parallel (d')$ et $(d'') \\perp (d')$. Par la propriété : si une droite est perpendiculaire à l'une de deux droites parallèles, elle est aussi perpendiculaire à l'autre. Donc $(d) \\perp (d'')$."
+    },
+    {
+      "id": "dr6_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour construire à l'équerre une perpendiculaire à $(d)$ passant par un point $P$ extérieur, quelle est la bonne démarche ?",
+      "image": null,
+      "choix": [
+        "Poser l'équerre à angle quelconque et tracer depuis $P$",
+        "Poser l'équerre sur $(d)$, la glisser jusqu'à ce qu'un côté passe par $P$, puis tracer",
+        "Utiliser un compas uniquement",
+        "Tracer au hasard depuis $P$"
+      ],
+      "reponse": "Poser l'équerre sur $(d)$, la glisser jusqu'à ce qu'un côté passe par $P$, puis tracer",
+      "explication": "On pose l'équerre de façon que son angle droit soit aligné avec $(d)$. On fait glisser l'équerre jusqu'à ce qu'un côté passe par $P$, puis on trace la perpendiculaire. Le pied $H$ sur $(d)$ donne la distance $[PH]$."
+    },
+    {
+      "id": "dr6_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$AM = 4{,}5$ cm et $M$ est le milieu de $[AB]$. Quelle est la longueur de $[AB]$ ?",
+      "image": null,
+      "choix": ["$2{,}25$ cm", "$4{,}5$ cm", "$9$ cm", "$13{,}5$ cm"],
+      "reponse": "$9$ cm",
+      "explication": "$M$ est le milieu de $[AB]$, donc $AB = 2 \\times AM = 2 \\times 4{,}5 = 9$ cm."
+    },
+    {
+      "id": "dr6_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Trois points $A$, $B$, $C$ sont-ils forcément alignés ?",
+      "image": null,
+      "choix": [
+        "Oui, toujours",
+        "Non, seulement si on le précise ou si on le vérifie",
+        "Cela dépend du nombre de droites",
+        "Non, ils forment toujours un triangle"
+      ],
+      "reponse": "Non, seulement si on le précise ou si on le vérifie",
+      "explication": "Trois points ne sont pas forcément alignés. Il faut le préciser ou le vérifier (par exemple en utilisant la règle ou en calculant). Trois points non alignés définissent un triangle."
+    },
+    {
+      "id": "dr6_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la distance entre le point A et la droite (d)?",
+      "image": "6eme/droites/fig_AHB.png",
+      "choix": [
+        "$[AB]$, car il relie $A$ à $(d)$",
+        "$[AH]$, car il est perpendiculaire à $(d)$",
+        "$[HB]$, car il est sur $(d)$",
+        "Les deux segments $[AH]$ et $[AB]$ conviennent"
+      ],
+      "reponse": "$[AH]$, car il est perpendiculaire à $(d)$",
+      "explication": "$[AH]$ représente la distance du point $A$ à la droite $(d)$ car il est perpendiculaire à $(d)$ : c'est le chemin le plus court. Le segment oblique $[AB]$ est plus long : $AH < AB$."
+    },
+    {
+      "id": "dr6_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $2{,}4$ km = ... m",
+      "image": null,
+      "choix": ["$240$ m", "$24$ m", "$2\\,400$ m", "$24\\,000$ m"],
+      "reponse": "$2\\,400$ m",
+      "explication": "$1$ km = $1\\,000$ m, donc $2{,}4$ km $= 2{,}4 \\times 1\\,000 = 2\\,400$ m."
+    },
+    {
+      "id": "dr6_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(\\Delta_1) \\perp (\\Delta_2)$ et $(\\Delta_1) \\perp (\\Delta_3)$. Peut-on conclure que $(\\Delta_2) \\parallel (\\Delta_3)$ ?",
+      "image": null,
+      "choix": [
+        "Non",
+        "Oui, par la propriété des perpendiculaires",
+        "Seulement si elles sont dans le même plan",
+        "Oui, mais seulement si elles ont la même longueur"
+      ],
+      "reponse": "Oui, par la propriété des perpendiculaires",
+      "explication": "Si $(\\Delta_2)$ et $(\\Delta_3)$ sont toutes deux perpendiculaires à $(\\Delta_1)$, alors $(\\Delta_2) \\parallel (\\Delta_3)$ par la propriété."
+    },
+    {
+      "id": "dr6_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour construire à l'équerre une droite parallèle à $(d)$ passant par un point $P$ extérieur, quelle est la bonne démarche ?",
+      "image": null,
+      "choix": [
+        "Tracer directement une droite horizontale depuis $P$",
+        "Tracer la perpendiculaire à $(d)$ passant par $P$, puis la perpendiculaire à cette droite passant par $P$",
+        "Mesurer au compas la distance de $P$ à $(d)$, puis reporter de l'autre côté",
+        "Prolonger $(d)$ jusqu'à $P$"
+      ],
+      "reponse": "Tracer la perpendiculaire à $(d)$ passant par $P$, puis la perpendiculaire à cette droite passant par $P$",
+      "explication": "On trace d'abord $(d'')$ perpendiculaire à $(d)$ passant par $P$, puis la perpendiculaire à $(d'')$ passant par $P$. Cette droite est parallèle à $(d)$ car elle est perpendiculaire à $(d'')$ comme l'est $(d)$."
+    },
+    {
+      "id": "dr6_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le milieu de $[RS]$ est $T$, et $RT = 6{,}5$ cm. Quelle est la longueur de $[RS]$ ?",
+      "image": null,
+      "choix": ["$3{,}25$ cm", "$6{,}5$ cm", "$13$ cm", "$19{,}5$ cm"],
+      "reponse": "$13$ cm",
+      "explication": "$RS = 2 \\times RT = 2 \\times 6{,}5 = 13$ cm."
+    },
+    {
+      "id": "dr6_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur une figure géométrique, des segments de même longueur sont codés par :",
+      "image": null,
+      "choix": [
+        "Des flèches opposées",
+        "Des petits traits identiques",
+        "Des croix",
+        "Des cercles"
+      ],
+      "reponse": "Des petits traits identiques",
+      "explication": "En géométrie, des petits traits identiques (un trait, deux traits…) indiquent des segments de même longueur. Un trait = longueur $a$, deux traits = longueur $b$, etc."
+    },
+    {
+      "id": "dr6_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le rectangle $ABCD$, pourquoi les droites $(AB)$ et $(CD)$ sont-elles parallèles ?",
+      "image": "6eme/droites/fig_rectangle_ABCD.png",
+      "choix": [
+        "Parce qu'elles ont la même longueur",
+        "Parce que $(AB) \\perp (BC)$ et $(CD) \\perp (BC)$, donc $(AB) \\parallel (CD)$",
+        "Parce que le rectangle a quatre côtés",
+        "Parce que $(AB)$ et $(CD)$ se coupent en dehors de la figure"
+      ],
+      "reponse": "Parce que $(AB) \\perp (BC)$ et $(CD) \\perp (BC)$, donc $(AB) \\parallel (CD)$",
+      "explication": "$(AB) \\perp (BC)$ (angle droit en $B$) et $(CD) \\perp (BC)$ (angle droit en $C$). Deux droites perpendiculaires à une même droite sont parallèles. Donc $(AB) \\parallel (CD)$."
+    },
+    {
+      "id": "dr6_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $350$ cm = ... m",
+      "image": null,
+      "choix": ["$35$ m", "$3{,}5$ m", "$0{,}35$ m", "$3\\,500$ m"],
+      "reponse": "$3{,}5$ m",
+      "explication": "$1$ m = $100$ cm, donc $350$ cm $= 350 \\div 100 = 3{,}5$ m."
+    },
+    {
+      "id": "dr6_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Vrai ou Faux : « Si $(d_1) \\parallel (d_2)$, alors ils ont un point commun. »",
+      "image": null,
+      "choix": [
+        "Vrai, elles ont exactement un point commun",
+        "Vrai, elles ont deux points communs",
+        "Faux, deux droites parallèles n'ont aucun point commun",
+        "Cela dépend des droites"
+      ],
+      "reponse": "Faux, deux droites parallèles n'ont aucun point commun",
+      "explication": "Faux. Par définition, deux droites parallèles distinctes n'ont aucun point commun. Si elles avaient un point commun, elles seraient sécantes (ou confondues)."
+    },
+    {
+      "id": "dr6_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "MN = 15 cm et $T$ est le milieu de $[MN]$. Quelle est la longueur $MT$ ?",
+      "image": null,
+      "choix": ["$5$ cm", "$7{,}5$ cm", "$15$ cm", "$30$ cm"],
+      "reponse": "$7{,}5$ cm",
+      "explication": "$MT = MN \\div 2 = 15 \\div 2 = 7{,}5$ cm."
+    },
+    {
+      "id": "dr6_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un quadrilatère, deux côtés opposés sont chacun perpendiculaire au même troisième côté. Que sont-ils l'un par rapport à l'autre ?",
+      "image": null,
+      "choix": [
+        "Perpendiculaires entre eux",
+        "Parallèles",
+        "Le quadrilatère est nécessairement un losange",
+        "On ne peut rien conclure"
+      ],
+      "reponse": "Parallèles",
+      "explication": "Deux droites perpendiculaires à une même droite sont parallèles entre elles. Donc les deux côtés sont parallèles."
+    },
+    {
+      "id": "dr6_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d) \\parallel (d')$, le point $P$ est sur $(d)$. Comment trouver la distance entre $(d)$ et $(d')$ ?",
+      "image": null,
+      "choix": [
+        "On mesure n'importe quelle longueur entre les deux droites",
+        "On trace la perpendiculaire à $(d)$ passant par $P$ ; elle coupe $(d')$ en $H$ ; $PH$ est la distance",
+        "On mesure la distance entre les origines des droites",
+        "On ne peut pas calculer cette distance"
+      ],
+      "reponse": "On trace la perpendiculaire à $(d)$ passant par $P$ ; elle coupe $(d')$ en $H$ ; $PH$ est la distance",
+      "explication": "On trace la perpendiculaire à $(d)$ passant par $P$. Elle coupe $(d')$ en $H$. La longueur $[PH]$ est la distance entre les deux droites parallèles."
+    },
+    {
+      "id": "dr6_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Convertis : $0{,}75$ m = ... cm = ... mm. Parmi les propositions, laquelle est correcte ?",
+      "image": null,
+      "choix": [
+        "$0{,}75$ m $= 7{,}5$ cm $= 75$ mm",
+        "$0{,}75$ m $= 75$ cm $= 750$ mm",
+        "$0{,}75$ m $= 750$ cm $= 7\\,500$ mm",
+        "$0{,}75$ m $= 7\\,500$ cm $= 75\\,000$ mm"
+      ],
+      "reponse": "$0{,}75$ m $= 75$ cm $= 750$ mm",
+      "explication": "$0{,}75$ m $= 0{,}75 \\times 100 = 75$ cm $= 75 \\times 10 = 750$ mm."
+    },
+    {
+      "id": "dr6_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle affirmation est incorrecte ?",
+      "image": null,
+      "choix": [
+        "Deux droites perpendiculaires sont sécantes",
+        "La distance entre deux droites parallèles est constante",
+        "Si $(a) \\parallel (b)$ et $(b) \\parallel (c)$ alors $(a) \\parallel (c)$",
+        "Deux droites parallèles peuvent se couper en deux points"
+      ],
+      "reponse": "Deux droites parallèles peuvent se couper en deux points",
+      "explication": "Des droites parallèles ne se coupent jamais (aucun point commun). Les trois autres affirmations sont vraies."
+    },
+    {
+      "id": "dr6_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "La distance entre $(d)$ et $(d')$ est $5{,}2$ cm. Quelle est la longueur du segment perpendiculaire reliant les deux droites ?",
+      "image": null,
+      "choix": ["$2{,}6$ cm", "$10{,}4$ cm", "$5{,}2$ cm", "Elle est variable"],
+      "reponse": "$5{,}2$ cm",
+      "explication": "Le segment perpendiculaire mesure exactement la distance entre les deux droites parallèles, soit $5{,}2$ cm. La distance entre deux parallèles est constante."
+    },
+    {
+      "id": "dr6_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(a) \\perp (c)$ et $(b) \\perp (c)$. Quelle est la relation entre $(a)$ et $(b)$ ?",
+      "image": null,
+      "choix": [
+        "$(a) \\perp (b)$",
+        "$(a) \\parallel (b)$",
+        "Elles forment un angle quelconque",
+        "Impossible à déterminer"
+      ],
+      "reponse": "$(a) \\parallel (b)$",
+      "explication": "Si $(a)$ et $(b)$ sont toutes deux perpendiculaires à $(c)$, alors $(a) \\parallel (b)$ par la propriété."
+    },
+    {
+      "id": "dr6_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le carré $ABCD$, combien y a-t-il de paires de côtés perpendiculaires ?",
+      "image": "6eme/droites/fig_carre_ABCD.png",
+      "choix": ["$2$ paires", "$3$ paires", "$4$ paires", "$8$ paires"],
+      "reponse": "$4$ paires",
+      "explication": "Les $4$ paires perpendiculaires sont : $(AB) \\perp (BC)$, $(BC) \\perp (CD)$, $(CD) \\perp (DA)$, $(DA) \\perp (AB)$. Les $2$ paires parallèles sont : $(AB) \\parallel (CD)$ et $(BC) \\parallel (DA)$."
+    },
+    {
+      "id": "dr6_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$[UV]$ a pour milieu $W$ et $UW = 3{,}8$ cm. Quelle est la longueur de $[UV]$ ?",
+      "image": null,
+      "choix": ["$1{,}9$ cm", "$3{,}8$ cm", "$7{,}6$ cm", "$11{,}4$ cm"],
+      "reponse": "$7{,}6$ cm",
+      "explication": "$UV = 2 \\times UW = 2 \\times 3{,}8 = 7{,}6$ cm."
+    },
+    {
+      "id": "dr6_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Laquelle de ces propositions résume correctement une propriété fondamentale ?",
+      "image": null,
+      "choix": [
+        "Si $(a) \\parallel (b)$ et $(a) \\perp (c)$ alors $(b) \\parallel (c)$",
+        "Si $(a) \\parallel (b)$ et $(a) \\perp (c)$ alors $(b) \\perp (c)$",
+        "Si $(a) \\perp (b)$ et $(b) \\perp (c)$ alors $(a) \\perp (c)$",
+        "Si $(a) \\parallel (b)$ et $(b) \\parallel (c)$ alors $(a) \\perp (c)$"
+      ],
+      "reponse": "Si $(a) \\parallel (b)$ et $(a) \\perp (c)$ alors $(b) \\perp (c)$",
+      "explication": "Si $(a) \\parallel (b)$ et que $(a) \\perp (c)$, alors $(b) \\perp (c)$ aussi. C'est la propriété : si deux droites sont parallèles et qu'une troisième est perpendiculaire à l'une, elle est perpendiculaire à l'autre."
+    },
+
+    {
+      "id": "dr6_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On sait que $(d_1) \\perp (d_3)$, $(d_2) \\perp (d_3)$, $(d_4) \\parallel (d_3)$ et $(d_5) \\perp (d_4)$. Quelles droites sont parallèles entre elles ?",
+      "image": null,
+      "choix": [
+        "$(d_1) \\parallel (d_2)$ uniquement",
+        "$(d_1) \\parallel (d_2)$ et $(d_3) \\parallel (d_4)$",
+        "$(d_1) \\parallel (d_2)$, $(d_3) \\parallel (d_4)$ et $(d_1) \\parallel (d_5)$",
+        "On ne peut rien déduire"
+      ],
+      "reponse": "$(d_1) \\parallel (d_2)$, $(d_3) \\parallel (d_4)$ et $(d_1) \\parallel (d_5)$",
+      "explication": "$(d_1) \\perp (d_3)$ et $(d_2) \\perp (d_3)$ → $(d_1) \\parallel (d_2)$. $(d_4) \\parallel (d_3)$ (donné). $(d_5) \\perp (d_4)$ et $(d_4) \\parallel (d_3)$ → $(d_5) \\perp (d_3)$ → $(d_5) \\parallel (d_1)$ et $(d_5) \\parallel (d_2)$."
+    },
+    {
+      "id": "dr6_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un rectangle de largeur $4$ cm, quelle est la distance entre les deux longueurs (côtés parallèles les plus longs) ?",
+      "image": null,
+      "choix": ["$2$ cm", "$4$ cm", "$8$ cm", "Cela dépend de la longueur"],
+      "reponse": "$4$ cm",
+      "explication": "La distance entre les deux côtés longs (parallèles) est mesurée perpendiculairement : c'est la largeur du rectangle, soit $4$ cm."
+    },
+    {
+      "id": "dr6_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d_1) \\parallel (d_2)$. La droite $(d_3)$ est perpendiculaire à $(d_1)$ et coupe $(d_1)$ en $P$. $H$ est le pied de la perpendiculaire de $P$ sur $(d_2)$. Quel angle la droite $(d_3)$ forme-t-elle avec $(d_2)$ ?",
+      "image": "6eme/droites/fig_d1_d2_d3.png",
+      "choix": ["$45°$", "$60°$", "$90°$", "Un angle quelconque"],
+      "reponse": "$90°$",
+      "explication": "$(d_3) \\perp (d_1)$ et $(d_1) \\parallel (d_2)$, donc $(d_3) \\perp (d_2)$ aussi (propriété). L'angle formé par $(d_3)$ avec $(d_2)$ est un angle droit de $90°$."
+    },
+    {
+      "id": "dr6_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les droites $(a)$, $(b)$ et $(c)$ sont parallèles entre elles. La droite $(t)$ coupe $(a)$ à angle droit. Combien d'angles droits la droite $(t)$ forme-t-elle au total avec $(b)$ et $(c)$ ?",
+      "image": null,
+      "choix": ["$0$", "$2$", "$4$", "$8$"],
+      "reponse": "$8$",
+      "explication": "$(t) \\perp (a)$, $(a) \\parallel (b)$, $(a) \\parallel (c)$ → $(t) \\perp (b)$ et $(t) \\perp (c)$. Chaque intersection avec $(b)$ et $(c)$ forme $4$ angles droits. Total : $4 + 4 = 8$ angles droits."
+    },
+    {
+      "id": "dr6_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un rectangle $12$ cm × $5$ cm, quelle est la distance entre les deux largeurs (côtés de $5$ cm) ?",
+      "image": null,
+      "choix": ["$5$ cm", "$12$ cm", "$17$ cm", "$60$ cm"],
+      "reponse": "$12$ cm",
+      "explication": "La distance entre les deux largeurs est mesurée perpendiculairement : c'est la longueur du rectangle, soit $12$ cm."
+    },
+    {
+      "id": "dr6_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un élève dit : « Si $(d) \\perp (d')$ et $(d') \\perp (d'')$, alors $(d) \\parallel (d'')$. » A-t-il raison ?",
+      "image": null,
+      "choix": [
+        "Non, $(d) \\perp (d'')$",
+        "Oui, par la propriété des perpendiculaires",
+        "Non, $(d)$ et $(d'')$ sont sécantes à $45°$",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "Oui, par la propriété des perpendiculaires",
+      "explication": "$(d) \\perp (d')$ et $(d') \\perp (d'')$ : $(d)$ et $(d'')$ sont toutes deux perpendiculaires à $(d')$. Par la propriété, deux droites perpendiculaires à une même droite sont parallèles. Donc $(d) \\parallel (d'')$."
+    },
+    {
+      "id": "dr6_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d_1) \\parallel (d_2)$ distance $7$ cm. $(d_2) \\parallel (d_3)$ distance $3$ cm ($(d_3)$ entre les deux). Quelle est la distance de $(d_1)$ à $(d_3)$ ?",
+      "image": null,
+      "choix": ["$10$ cm", "$3$ cm", "$4$ cm", "$7$ cm"],
+      "reponse": "$4$ cm",
+      "explication": "$(d_3)$ est entre $(d_1)$ et $(d_2)$, à $3$ cm de $(d_2)$. La distance de $(d_1)$ à $(d_3)$ est $7 - 3 = 4$ cm."
+    },
+    {
+      "id": "dr6_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les droites $(d)$ et $(d')$ se coupent en $P$. Le point $A$ est un point quelconque sur $(d')$ différent de $P$. La distance du point $A$ à la droite $(d)$ est-elle la même pour tous les points de $(d')$ ?",
+      "image": null,
+      "choix": [
+        "Oui, la distance est constante car elles sont parallèles",
+        "Non, la distance varie ; elle est nulle seulement en $P$",
+        "Oui, la distance est toujours nulle",
+        "Non, la distance est infinie pour tous les points sauf $P$"
+      ],
+      "reponse": "Non, la distance varie ; elle est nulle seulement en $P$",
+      "explication": "$(d)$ et $(d')$ sont sécantes (non parallèles). La distance d'un point de $(d')$ à la droite $(d)$ varie selon sa position. Elle est nulle uniquement en $P$ (point d'intersection)."
+    },
+    {
+      "id": "dr6_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les droites $(h_1)$ et $(h_2)$ sont parallèles et horizontales. Les droites $(v_1)$ et $(v_2)$ sont parallèles et verticales. Combien y a-t-il de paires de droites perpendiculaires ?",
+      "image": null,
+      "choix": ["$2$", "$4$", "$3$", "$6$"],
+      "reponse": "$4$",
+      "explication": "$(h_1) \\perp (v_1)$, $(h_1) \\perp (v_2)$, $(h_2) \\perp (v_1)$, $(h_2) \\perp (v_2)$ : $4$ paires. Les droites horizontales sont parallèles entre elles et les verticales aussi, donc aucune autre paire perpendiculaire."
+    },
+    {
+      "id": "dr6_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Trois droites parallèles sont espacées de $4$ cm. Quelle est la distance entre la $1$ère et la $3$ème ?",
+      "image": null,
+      "choix": ["$4$ cm", "$6$ cm", "$8$ cm", "$12$ cm"],
+      "reponse": "$8$ cm",
+      "explication": "Entre $3$ droites parallèles, il y a $2$ espaces de $4$ cm chacun. Distance $= 4 + 4 = 8$ cm."
+    },
+    {
+      "id": "dr6_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour prouver que dans le rectangle $ABCD$ la droite $(AB)$ est parallèle à $(CD)$, quelle démonstration est correcte ?",
+      "image": null,
+      "choix": [
+        "$(AB) \\parallel (CD)$ car $AB = CD$",
+        "$(AB) \\perp (AD)$ et $(CD) \\perp (AD)$, donc $(AB) \\parallel (CD)$",
+        "$(AB) \\parallel (CD)$ car le rectangle a $4$ côtés",
+        "$(AB)$ et $(CD)$ ne se croisent pas, donc ils sont parallèles par hasard"
+      ],
+      "reponse": "$(AB) \\perp (AD)$ et $(CD) \\perp (AD)$, donc $(AB) \\parallel (CD)$",
+      "explication": "Angle droit en $A$ : $(AB) \\perp (AD)$. Angle droit en $D$ : $(CD) \\perp (AD)$. Deux droites perpendiculaires à une même droite sont parallèles. Donc $(AB) \\parallel (CD)$."
+    },
+    {
+      "id": "dr6_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Cinq droites parallèles espacées de $2{,}5$ cm. Quelle est la distance entre la $1$ère et la $5$ème ?",
+      "image": null,
+      "choix": ["$2{,}5$ cm", "$5$ cm", "$10$ cm", "$12{,}5$ cm"],
+      "reponse": "$10$ cm",
+      "explication": "Entre $5$ droites parallèles, il y a $4$ espaces. Distance $= 4 \\times 2{,}5 = 10$ cm."
+    },
+    {
+      "id": "dr6_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Toutes les perpendiculaires à une droite $(d)$ tracées depuis des points extérieurs sont-elles parallèles entre elles ?",
+      "image": null,
+      "choix": [
+        "Non, elles se croisent toutes sur $(d)$",
+        "Oui, toutes parallèles entre elles",
+        "Seulement certaines d'entre elles",
+        "Cela dépend des points choisis"
+      ],
+      "reponse": "Oui, toutes parallèles entre elles",
+      "explication": "Toutes ces perpendiculaires sont perpendiculaires à $(d)$. Deux droites perpendiculaires à une même droite sont parallèles entre elles. Donc toutes ces perpendiculaires sont parallèles."
+    },
+    {
+      "id": "dr6_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(a) \\parallel (b)$ et $(b) \\parallel (c)$. Un élève affirme que $(a) \\parallel (c)$. A-t-il raison ?",
+      "image": null,
+      "choix": [
+        "Non, on ne peut pas conclure",
+        "Oui, la relation de parallélisme est transitive",
+        "Non, $(a) \\perp (c)$ dans ce cas",
+        "Oui, mais seulement si les droites sont horizontales"
+      ],
+      "reponse": "Oui, la relation de parallélisme est transitive",
+      "explication": "Oui. $(a)$ et $(c)$ sont toutes deux parallèles à $(b)$. La relation de parallélisme est transitive : si $(a) \\parallel (b)$ et $(b) \\parallel (c)$, alors $(a) \\parallel (c)$."
+    },
+    {
+      "id": "dr6_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On trace le quadrilatère $ABCD$ tel que $[AB] \\perp [BC]$, $[BC] \\perp [CD]$, $AB = CD = 5$ cm et $BC = 8$ cm. Quelle figure obtient-on ?",
+      "image": null,
+      "choix": ["Un losange", "Un carré", "Un rectangle", "Un parallélogramme quelconque"],
+      "reponse": "Un rectangle",
+      "explication": "$[AB] \\perp [BC]$ et $[CD] \\perp [BC]$, donc $[AB] \\parallel [CD]$ (propriété). De plus $AB = CD = 5$ cm et les angles en $B$ et $C$ sont droits. La figure est un rectangle."
+    },
+    {
+      "id": "dr6_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d_1) \\parallel (d_2)$, distance $6$ cm. $(d_3)$ est perpendiculaire à $(d_1)$ et passe par $A$ sur $(d_1)$. Quelle est la distance du point $A$ à la droite $(d_2)$ ?",
+      "image": null,
+      "choix": ["$3$ cm", "$6$ cm", "$12$ cm", "Cela dépend de $A$"],
+      "reponse": "$6$ cm",
+      "explication": "La distance entre deux droites parallèles est constante : $6$ cm. Tout point de $(d_1)$ est à $6$ cm de $(d_2)$, quelle que soit sa position."
+    },
+    {
+      "id": "dr6_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d_1) \\parallel (d_2)$ et $(d_2) \\parallel (d_3)$. Quelle est la relation entre $(d_1)$ et $(d_3)$ ?",
+      "image": null,
+      "choix": [
+        "$(d_1) \\perp (d_3)$",
+        "$(d_1) \\parallel (d_3)$",
+        "$(d_1)$ et $(d_3)$ sont sécantes",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "$(d_1) \\parallel (d_3)$",
+      "explication": "La relation de parallélisme est transitive. Si $(d_1) \\parallel (d_2)$ et $(d_2) \\parallel (d_3)$, alors $(d_1) \\parallel (d_3)$."
+    },
+    {
+      "id": "dr6_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quatre droites parallèles sont espacées régulièrement de $3$ cm. Quelle est la distance entre la $1$ère et la $4$ème droite ?",
+      "image": null,
+      "choix": ["$3$ cm", "$6$ cm", "$9$ cm", "$12$ cm"],
+      "reponse": "$9$ cm",
+      "explication": "Entre $4$ droites parallèles équidistantes de $3$ cm, il y a $3$ espaces. Distance $= 3 \\times 3 = 9$ cm."
+    },
+    {
+      "id": "dr6_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d) \\perp (d')$ et $(d'') \\perp (d')$. Un élève affirme que $(d) \\parallel (d'')$. Est-il correct, et quelle propriété justifie sa réponse ?",
+      "image": null,
+      "choix": [
+        "Non, $(d) \\perp (d'')$ car la perpendicularité se transmet",
+        "Oui : deux droites perpendiculaires à une même droite sont parallèles",
+        "On ne peut pas conclure sans figure",
+        "Oui, mais seulement si $(d)$ et $(d'')$ ont la même longueur"
+      ],
+      "reponse": "Oui : deux droites perpendiculaires à une même droite sont parallèles",
+      "explication": "$(d) \\perp (d')$ et $(d'') \\perp (d')$ : $(d)$ et $(d'')$ sont toutes deux perpendiculaires à $(d')$. Par la propriété, deux droites perpendiculaires à une même droite sont parallèles. Donc $(d) \\parallel (d'')$."
+    },
+    {
+      "id": "dr6_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un quadrilatère $ABCD$, $(AB) \\perp (BC)$ et $(AD) \\perp (BC)$. Quelle conclusion peut-on tirer ?",
+      "image": null,
+      "choix": [
+        "$(AB) \\perp (AD)$",
+        "$(AB) \\parallel (AD)$",
+        "$(AB)$ et $(AD)$ sont confondues",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "$(AB) \\parallel (AD)$",
+      "explication": "$(AB) \\perp (BC)$ et $(AD) \\perp (BC)$ : deux droites perpendiculaires à $(BC)$ sont parallèles entre elles. Donc $(AB) \\parallel (AD)$."
+    },
+    {
+      "id": "dr6_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d_1) \\parallel (d_2)$, distance $10$ cm. $(d_3)$ est parallèle à $(d_1)$ et se trouve à $4$ cm de $(d_1)$ (entre les deux). Quelle est la distance de $(d_3)$ à $(d_2)$ ?",
+      "image": null,
+      "choix": ["$4$ cm", "$6$ cm", "$10$ cm", "$14$ cm"],
+      "reponse": "$6$ cm",
+      "explication": "$(d_3)$ est à $4$ cm de $(d_1)$ et entre les deux droites. La distance de $(d_3)$ à $(d_2)$ est $10 - 4 = 6$ cm."
+    },
+    {
+      "id": "dr6_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le carré $EFGH$, quelles droites sont à la fois parallèles et perpendiculaires à $(EF)$ ?",
+      "image": null,
+      "choix": [
+        "$(GH)$ est parallèle à $(EF)$ ; $(FG)$ et $(EH)$ sont perpendiculaires à $(EF)$",
+        "$(FG)$ est parallèle à $(EF)$ ; $(GH)$ est perpendiculaire à $(EF)$",
+        "Toutes les droites du carré sont parallèles à $(EF)$",
+        "Aucune droite du carré n'est perpendiculaire à $(EF)$"
+      ],
+      "reponse": "$(GH)$ est parallèle à $(EF)$ ; $(FG)$ et $(EH)$ sont perpendiculaires à $(EF)$",
+      "explication": "Dans un carré, les côtés opposés sont parallèles : $(GH) \\parallel (EF)$. Les côtés adjacents sont perpendiculaires : $(FG) \\perp (EF)$ et $(EH) \\perp (EF)$."
+    },
+    {
+      "id": "dr6_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On trace depuis trois points $P_1$, $P_2$, $P_3$ (différents) sur une droite $(d)$, les perpendiculaires à $(d)$. Ces trois perpendiculaires sont-elles parallèles entre elles ?",
+      "image": null,
+      "choix": [
+        "Non, elles se croisent en un seul point",
+        "Oui, elles sont toutes parallèles entre elles",
+        "Seulement deux d'entre elles sont parallèles",
+        "Non, elles divergent à partir de $(d)$"
+      ],
+      "reponse": "Oui, elles sont toutes parallèles entre elles",
+      "explication": "Les trois perpendiculaires sont toutes perpendiculaires à $(d)$. Par la propriété, deux droites perpendiculaires à une même droite sont parallèles. Donc les trois perpendiculaires sont parallèles entre elles."
+    },
+    {
+      "id": "dr6_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "$(d_1) \\perp (d_2)$, $(d_2) \\perp (d_3)$, $(d_3) \\perp (d_4)$. Quelle est la relation entre $(d_1)$ et $(d_4)$ ?",
+      "image": null,
+      "choix": [
+        "$(d_1) \\parallel (d_4)$",
+        "$(d_1) \\perp (d_4)$",
+        "$(d_1)$ et $(d_4)$ sont confondues",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "$(d_1) \\perp (d_4)$",
+      "explication": "$(d_1) \\perp (d_2)$ et $(d_2) \\perp (d_3)$ → $(d_1) \\parallel (d_3)$. $(d_3) \\perp (d_4)$ et $(d_1) \\parallel (d_3)$ → $(d_1) \\perp (d_4)$."
+    },
+    {
+      "id": "dr6_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Six droites parallèles sont espacées de $1{,}5$ cm chacune. Quelle est la distance entre la $1$ère et la $6$ème droite ?",
+      "image": null,
+      "choix": ["$6$ cm", "$7{,}5$ cm", "$9$ cm", "$10{,}5$ cm"],
+      "reponse": "$7{,}5$ cm",
+      "explication": "Entre $6$ droites parallèles, il y a $5$ espaces de $1{,}5$ cm. Distance $= 5 \\times 1{,}5 = 7{,}5$ cm."
+    },
+    {
+      "id": "dr6_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un élève affirme : « Deux droites sécantes ont toujours exactement deux points communs. » Cette affirmation est-elle correcte ?",
+      "image": null,
+      "choix": [
+        "Oui, deux droites sécantes ont toujours deux points communs",
+        "Non, deux droites sécantes ont exactement un seul point commun",
+        "Non, deux droites sécantes n'ont aucun point commun",
+        "Cela dépend de l'angle entre les droites"
+      ],
+      "reponse": "Non, deux droites sécantes ont exactement un seul point commun",
+      "explication": "Deux droites sécantes (distinctes et non parallèles) ont exactement un point commun : leur point d'intersection. Deux points communs impliqueraient que les droites sont confondues."
+    }
+
+  ]
+}

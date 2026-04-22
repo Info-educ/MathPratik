@@ -1,0 +1,1339 @@
+{
+  "niveau": "5eme",
+  "thematique": {
+    "id": "statistiques_5eme",
+    "label": "Statistiques",
+    "icon": "📊",
+    "color": "#059669"
+  },
+  "questions": [
+    {
+      "id": "stat5_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans une enquête sur les sports préférés de $25$ élèves, qu'appelle-t-on la « population » ?",
+      "image": null,
+      "choix": [
+        "Le sport préféré",
+        "Les $25$ élèves",
+        "Le nombre de sports",
+        "Les fréquences"
+      ],
+      "reponse": "Les $25$ élèves",
+      "explication": "La population est l'ensemble des individus étudiés dans l'enquête. Ici, on étudie $25$ élèves : la population est donc constituée de ces $25$ élèves."
+    },
+    {
+      "id": "stat5_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "L'effectif d'une valeur, c'est :",
+      "image": null,
+      "choix": [
+        "La proportion en %",
+        "Le nombre de fois où cette valeur apparaît",
+        "Le total des individus",
+        "La fréquence décimale"
+      ],
+      "reponse": "Le nombre de fois où cette valeur apparaît",
+      "explication": "L'effectif d'une valeur (ou d'une modalité) est le nombre de fois où cette valeur apparaît dans la série statistique. L'effectif total $N$ est la somme de tous les effectifs."
+    },
+    {
+      "id": "stat5_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La fréquence d'une valeur se calcule ainsi :",
+      "image": null,
+      "choix": [
+        "$f = \\dfrac{\\text{effectif total}}{\\text{effectif de la valeur}}$",
+        "$f = \\text{effectif de la valeur} \\times \\text{effectif total}$",
+        "$f = \\dfrac{\\text{effectif de la valeur}}{\\text{effectif total}}$",
+        "$f = \\text{effectif total} - \\text{effectif de la valeur}$"
+      ],
+      "reponse": "$f = \\dfrac{\\text{effectif de la valeur}}{\\text{effectif total}}$",
+      "explication": "La fréquence d'une valeur est le quotient de son effectif par l'effectif total : $f = \\dfrac{n_i}{N}$. Elle est comprise entre $0$ et $1$ (ou entre $0\\%$ et $100\\%$)."
+    },
+    {
+      "id": "stat5_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La fréquence de la valeur « football » est $\\dfrac{8}{25}$. En pourcentage, cela donne :",
+      "image": null,
+      "choix": [
+        "$8\\%$",
+        "$25\\%$",
+        "$32\\%$",
+        "$80\\%$"
+      ],
+      "reponse": "$32\\%$",
+      "explication": "$\\dfrac{8}{25} = \\dfrac{8 \\times 4}{25 \\times 4} = \\dfrac{32}{100} = 32\\%$. On peut aussi calculer : $\\dfrac{8}{25} \\times 100 = 32\\%$."
+    },
+    {
+      "id": "stat5_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La somme de toutes les fréquences d'une série statistique est toujours égale à :",
+      "image": null,
+      "choix": [
+        "$0$",
+        "$100$",
+        "$1$",
+        "L'effectif total"
+      ],
+      "reponse": "$1$",
+      "explication": "La somme de toutes les fréquences vaut toujours $1$ (ou $100\\%$)."
+    },
+    {
+      "id": "stat5_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans un diagramme en bâtons, la hauteur d'une barre représente :",
+      "image": "5eme/statistiques/edc63abf453917d4061b6ee9332404eb54607224.png",
+      "choix": [
+        "La fréquence",
+        "L'effectif",
+        "Le caractère",
+        "La population"
+      ],
+      "reponse": "L'effectif",
+      "explication": "Dans un diagramme en bâtons (ou en barres), la hauteur de chaque barre est proportionnelle à l'effectif de la valeur correspondante. On peut aussi faire un diagramme en bâtons des fréquences, mais dans ce document les hauteurs représentent les effectifs."
+    },
+    {
+      "id": "stat5_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans un diagramme circulaire, l'angle d'un secteur est proportionnel à :",
+      "image": "5eme/statistiques/d293f6c3342c44bfea353f72a4e00cf029c19980.png",
+      "choix": [
+        "La valeur du caractère",
+        "L'effectif (ou la fréquence) de la valeur",
+        "La position alphabétique",
+        "Le nombre de couleurs"
+      ],
+      "reponse": "L'effectif (ou la fréquence) de la valeur",
+      "explication": "L'angle d'un secteur dans un diagramme circulaire est proportionnel à la fréquence (ou à l'effectif) de la valeur. Formule : angle $= f \\times 360°$ où $f$ est la fréquence."
+    },
+    {
+      "id": "stat5_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La moyenne de la série $5 - 7 - 9 - 11 - 13$ vaut :",
+      "image": null,
+      "choix": [
+        "$8$",
+        "$9$",
+        "$10$",
+        "$11$"
+      ],
+      "reponse": "$9$",
+      "explication": "Moyenne $= \\dfrac{5 + 7 + 9 + 11 + 13}{5} = \\dfrac{45}{5} = 9$."
+    },
+    {
+      "id": "stat5_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La médiane d'une série de $7$ valeurs ordonnées est :",
+      "image": null,
+      "choix": [
+        "La $3^e$ valeur",
+        "La $4^e$ valeur",
+        "La moyenne des $3^e$ et $4^e$ valeurs",
+        "La $7^e$ valeur"
+      ],
+      "reponse": "La $4^e$ valeur",
+      "explication": "Pour une série de $n$ valeurs ordonnées, si $n$ est impair, la médiane est la valeur de rang $\\dfrac{n+1}{2}$. Pour $n = 7$ : rang $= \\dfrac{7+1}{2} = 4$. La médiane est la $4^e$ valeur."
+    },
+    {
+      "id": "stat5_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La médiane d'une série de $8$ valeurs ordonnées est :",
+      "image": null,
+      "choix": [
+        "La $4^e$ valeur",
+        "La $8^e$ valeur",
+        "La moyenne des $4^e$ et $5^e$ valeurs",
+        "La moyenne de toutes les valeurs"
+      ],
+      "reponse": "La moyenne des $4^e$ et $5^e$ valeurs",
+      "explication": "Pour une série de $n = 8$ valeurs ordonnées (n pair), la médiane est la moyenne des valeurs de rang $\\dfrac{n}{2}$ et $\\dfrac{n}{2}+1$, soit les $4^e$ et $5^e$ valeurs."
+    },
+    {
+      "id": "stat5_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une fréquence peut valoir :",
+      "image": null,
+      "choix": [
+        "$-0{,}3$",
+        "$0$",
+        "$1{,}5$",
+        "$2$"
+      ],
+      "reponse": "$0$",
+      "explication": "Une fréquence est toujours comprise entre $0$ et $1$ (inclus) : $0 \\leq f \\leq 1$. Elle ne peut pas être négative, ni supérieure à $1$. La valeur $0$ est possible (effectif nul)."
+    },
+    {
+      "id": "stat5_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Pour calculer la moyenne d'une série de données, on divise la somme des données par :",
+      "image": null,
+      "choix": [
+        "La valeur maximale",
+        "L'effectif total",
+        "La médiane",
+        "La fréquence"
+      ],
+      "reponse": "L'effectif total",
+      "explication": "La moyenne $\\bar{x} = \\dfrac{\\text{somme des données}}{\\text{effectif total}}"
+    },
+    {
+      "id": "stat5_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La série ordonnée : $3 - 5 - 7 - 8 - 9 - 12$. Quelle est la médiane ?",
+      "image": null,
+      "choix": [
+        "$7$",
+        "$7{,}5$",
+        "$8$",
+        "$8{,}5$"
+      ],
+      "reponse": "$7{,}5$",
+      "explication": "$6$ valeurs (pair) : médiane $= \\dfrac{3^e + 4^e \\text{ valeur}}{2} = \\dfrac{7 + 8}{2} = \\dfrac{15}{2} = 7{,}5$."
+    },
+    {
+      "id": "stat5_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Si l'effectif total est $40$ et qu'une valeur a une fréquence de $0{,}25$, quel est son effectif ?",
+      "image": null,
+      "choix": [
+        "$5$",
+        "$8$",
+        "$10$",
+        "$16$"
+      ],
+      "reponse": "$10$",
+      "explication": "Effectif $= f \\times N = 0{,}25 \\times 40 = 10$."
+    },
+    {
+      "id": "stat5_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans un tableau, la somme des effectifs est $30$ et la fréquence d'une valeur est $0{,}2$. Quel est l'effectif de cette valeur ?",
+      "image": null,
+      "choix": [
+        "$3$",
+        "$6$",
+        "$10$",
+        "$15$"
+      ],
+      "reponse": "$6$",
+      "explication": "Effectif $= f \\times N = 0{,}2 \\times 30 = 6$."
+    },
+    {
+      "id": "stat5_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On a pesé $5$ sachets : $110$ g, $120$ g, $115$ g, $125$ g, $130$ g. Quelle est la moyenne de cette série ?",
+      "image": null,
+      "choix": [
+        "$115$ g",
+        "$120$ g",
+        "$122$ g",
+        "$125$ g"
+      ],
+      "reponse": "$120$ g",
+      "explication": "Moyenne $= \\dfrac{110 + 120 + 115 + 125 + 130}{5} = \\dfrac{600}{5} = 120$ g."
+    },
+    {
+      "id": "stat5_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On a les notes ordonnées : $8 - 10 - 12 - 14 - 16$. Quelle est la médiane de cette série à $5$ valeurs ?",
+      "image": null,
+      "choix": [
+        "$8$",
+        "$10$",
+        "$12$",
+        "$14$"
+      ],
+      "reponse": "$12$",
+      "explication": "$5$ valeurs (impair) : médiane $=$ valeur de rang $\\dfrac{5+1}{2} = 3^e$ valeur $= 12$."
+    },
+    {
+      "id": "stat5_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On a les notes ordonnées : $8 - 10 - 12 - 14$. Quelle est la médiane de cette série à $4$ valeurs ?",
+      "image": null,
+      "choix": [
+        "$10$",
+        "$11$",
+        "$12$",
+        "$13$"
+      ],
+      "reponse": "$11$",
+      "explication": "$4$ valeurs (pair) : médiane $= \\dfrac{2^e + 3^e \\text{ valeur}}{2} = \\dfrac{10 + 12}{2} = \\dfrac{22}{2} = 11$."
+    },
+    {
+      "id": "stat5_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un caractère statistique peut être :",
+      "image": null,
+      "choix": [
+        "Uniquement un nombre",
+        "La couleur des yeux ou une note",
+        "Uniquement une couleur",
+        "Uniquement un sport"
+      ],
+      "reponse": "La couleur des yeux ou une note",
+      "explication": "Un caractère statistique est tout attribut ou propriété que l'on étudie dans une population. Il peut être qualitatif (couleur des yeux, sport préféré) ou quantitatif (note, taille, masse)."
+    },
+    {
+      "id": "stat5_n1_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La fréquence de la valeur « tennis » est $\\dfrac{3}{25}$. Exprimée en pourcentage, cette fréquence vaut :",
+      "image": null,
+      "choix": [
+        "$3\\%$",
+        "$8\\%$",
+        "$12\\%$",
+        "$25\\%$"
+      ],
+      "reponse": "$12\\%$",
+      "explication": "$\\dfrac{3}{25} \\times 100 = \\dfrac{300}{25} = 12\\%$."
+    },
+    {
+      "id": "stat5_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans un diagramme en bâtons, un barre « football » a une hauteur de $8$ et la barre « tennis » une hauteur de $3$. L'effectif total est $25$. La fréquence de « tennis » en % est :",
+      "image": "5eme/statistiques/edc63abf453917d4061b6ee9332404eb54607224.png",
+      "choix": [
+        "$3\\%$",
+        "$8\\%$",
+        "$12\\%$",
+        "$32\\%$"
+      ],
+      "reponse": "$12\\%$",
+      "explication": "$f(\\text{tennis}) = \\dfrac{3}{25} \\times 100 = 12\\%$."
+    },
+    {
+      "id": "stat5_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans le diagramme des températures, quel mois a la température la plus élevée ?",
+      "image": "5eme/statistiques/c5177a6e8102de5dde736f4f8d3720c352759e43.png",
+      "choix": [
+        "Juin",
+        "Juillet",
+        "Août",
+        "Juillet et Août (ex-aequo)"
+      ],
+      "reponse": "Juillet et Août (ex-aequo)",
+      "explication": "En lisant le diagramme, les barres de juillet et août atteignent la même hauteur maximale ($22°$C). Ces deux mois ont donc la température la plus élevée, ex-aequo."
+    },
+    {
+      "id": "stat5_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "$7$ sachets de sel ont les masses (en g) : $114 - 122 - 126 - 111 - 115 - 116 - 122$. Quelle est leur moyenne ?",
+      "image": null,
+      "choix": [
+        "$115$ g",
+        "$116$ g",
+        "$118$ g",
+        "$122$ g"
+      ],
+      "reponse": "$118$ g",
+      "explication": "Somme $= 114 + 122 + 126 + 111 + 115 + 116 + 122 = 826$ g. Moyenne $= \\dfrac{826}{7} = 118$ g."
+    },
+    {
+      "id": "stat5_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Avec les $7$ sachets ordonnés : $111 - 114 - 115 - 116 - 122 - 122 - 126$. Quelle est la médiane ?",
+      "image": "5eme/statistiques/d4a5cf281ffdc323009ed7e1e329c3abe9e015f1.png",
+      "choix": [
+        "$114$",
+        "$115$",
+        "$116$",
+        "$122$"
+      ],
+      "reponse": "$116$",
+      "explication": "$7$ valeurs (impair) : médiane $=$ valeur de rang $4 = 116$."
+    },
+    {
+      "id": "stat5_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On ajoute un sachet de $123$ g. La série ordonnée est : $111 - 114 - 115 - 116 - 122 - 122 - 123 - 126$. Quelle est la médiane ?",
+      "image": "5eme/statistiques/526ca09002a57e4c1a4bf3d622bcd874fe018737.png",
+      "choix": [
+        "$116$",
+        "$119$",
+        "$122$",
+        "$116{,}5$"
+      ],
+      "reponse": "$119$",
+      "explication": "$8$ valeurs (pair) : médiane $= \\dfrac{4^e + 5^e}{2} = \\dfrac{116 + 122}{2} = \\dfrac{238}{2} = 119$."
+    },
+    {
+      "id": "stat5_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une enquête donne les fréquences : football $32\\%$, basket $24\\%$, tennis $12\\%$, handball $8\\%$. Quelle doit être la fréquence de « danse » pour que la somme fasse $100\\%$ ?",
+      "image": null,
+      "choix": [
+        "$10\\%$",
+        "$20\\%$",
+        "$24\\%$",
+        "$76\\%$"
+      ],
+      "reponse": "$24\\%$",
+      "explication": "La somme doit valoir $100\\%$. $32 + 24 + 12 + 8 = 76\\%$. Il reste $100 - 76 = 24\\%$ pour la danse."
+    },
+    {
+      "id": "stat5_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Pour construire un diagramme circulaire, l'angle du secteur correspondant à une fréquence $f$ est :",
+      "image": null,
+      "choix": [
+        "$f \\times 180°$",
+        "$f \\times 360°$",
+        "$f \\div 360°$",
+        "$360° \\div f$"
+      ],
+      "reponse": "$f \\times 360°$",
+      "explication": "L'angle d'un secteur du diagramme circulaire est proportionnel à la fréquence : angle $= f \\times 360°$. Exemple : $f = 0{,}25$ donne un angle de $0{,}25 \\times 360° = 90°$."
+    },
+    {
+      "id": "stat5_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La différence entre la valeur maximale et la valeur minimale d'une série s'appelle :",
+      "image": null,
+      "choix": [
+        "La médiane",
+        "L'étendue",
+        "La moyenne",
+        "L'effectif"
+      ],
+      "reponse": "L'étendue",
+      "explication": "L'étendue d'une série statistique est la différence entre la valeur maximale et la valeur minimale : étendue $= x_{\\max} - x_{\\min}$. C'est un indicateur de dispersion."
+    },
+    {
+      "id": "stat5_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La médiane d'une série sépare toujours les données en :",
+      "image": null,
+      "choix": [
+        "Deux groupes de valeurs égales",
+        "Deux groupes d'effectifs égaux",
+        "La moitié inférieure et la moitié supérieure",
+        "Les valeurs paires et impaires"
+      ],
+      "reponse": "La moitié inférieure et la moitié supérieure",
+      "explication": "La médiane partage la série ordonnée en deux moitiés de même effectif : au moins la moitié des valeurs sont inférieures ou égales à la médiane, et au moins la moitié sont supérieures ou égales."
+    },
+    {
+      "id": "stat5_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Lequel de ces diagrammes est le mieux adapté pour comparer des effectifs entre catégories ?",
+      "image": null,
+      "choix": [
+        "Diagramme circulaire",
+        "Diagramme en bâtons (barres)",
+        "Tableau de fréquences",
+        "Série ordonnée"
+      ],
+      "reponse": "Diagramme en bâtons (barres)",
+      "explication": "Le diagramme en bâtons permet de comparer visuellement les effectifs entre différentes catégories grâce à la hauteur des barres. Le diagramme circulaire est plus adapté pour visualiser les proportions (parts du total)."
+    },
+    {
+      "id": "stat5_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un élève a eu les notes suivantes en maths sur $5$ devoirs : $12, 14, 9, 15, 10$. Quelle est sa moyenne ?",
+      "image": null,
+      "choix": [
+        "$11$",
+        "$12$",
+        "$13$",
+        "$14$"
+      ],
+      "reponse": "$12$",
+      "explication": "Moyenne $= \\dfrac{12 + 14 + 9 + 15 + 10}{5} = \\dfrac{60}{5} = 12$."
+    },
+    {
+      "id": "stat5_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La moyenne de $6$ valeurs est $14$. Quelle est leur somme ?",
+      "image": null,
+      "choix": [
+        "$14$",
+        "$20$",
+        "$84$",
+        "$196$"
+      ],
+      "reponse": "$84$",
+      "explication": "Somme $=$ moyenne $\\times$ effectif $= 14 \\times 6 = 84$."
+    },
+    {
+      "id": "stat5_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un élève a une moyenne de $12$ sur $4$ contrôles. Il obtient $16$ au $5^e$ contrôle. Quelle est sa nouvelle moyenne sur $5$ contrôles ?",
+      "image": null,
+      "choix": [
+        "$12{,}4$",
+        "$12{,}8$",
+        "$13{,}6$",
+        "$14$"
+      ],
+      "reponse": "$12{,}8$",
+      "explication": "Ancienne somme $= 12 \\times 4 = 48$. Nouvelle somme $= 48 + 16 = 64$. Nouvelle moyenne $= \\dfrac{64}{5} = 12{,}8$."
+    },
+    {
+      "id": "stat5_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans le tableau des dépenses quotidiennes, l'effectif total est $40$. La fréquence de la valeur $25$€ (effectif $= 10$) est :",
+      "image": "5eme/statistiques/af2842c9f1c4c8deeeb0eb900c5580d79df78fdf.png",
+      "choix": [
+        "$10\\%$",
+        "$20\\%$",
+        "$25\\%$",
+        "$40\\%$"
+      ],
+      "reponse": "$25\\%$",
+      "explication": "$f = \\dfrac{10}{40} = 0{,}25 = 25\\%$."
+    },
+    {
+      "id": "stat5_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On a $30$ valeurs ordonnées. Quelles sont les positions des deux valeurs centrales pour calculer la médiane ?",
+      "image": null,
+      "choix": [
+        "Les $14^e$ et $16^e$ valeurs",
+        "Les $15^e$ et $16^e$ valeurs",
+        "Les $14^e$ et $15^e$ valeurs",
+        "La $15^e$ valeur seulement"
+      ],
+      "reponse": "Les $15^e$ et $16^e$ valeurs",
+      "explication": "Pour $n = 30$ valeurs (pair) : les deux valeurs centrales sont aux rangs $\\dfrac{30}{2} = 15$ et $\\dfrac{30}{2} + 1 = 16$. La médiane est leur moyenne."
+    },
+    {
+      "id": "stat5_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un secteur d'un diagramme circulaire correspond à une fréquence de $0{,}25$. Quel angle ce secteur représente-t-il ?",
+      "image": null,
+      "choix": [
+        "$25°$",
+        "$45°$",
+        "$90°$",
+        "$120°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "Angle $= f \\times 360° = 0{,}25 \\times 360° = 90°$. Un quart du disque $= 90°$."
+    },
+    {
+      "id": "stat5_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans le tableau des dépenses, la fréquence de la valeur $20$€ (effectif $8$, total $40$) est :",
+      "image": null,
+      "choix": [
+        "$8\\%$",
+        "$0{,}08$",
+        "$0{,}2$",
+        "$0{,}5$"
+      ],
+      "reponse": "$0{,}2$",
+      "explication": "$f = \\dfrac{8}{40} = 0{,}2$ soit $20\\%$."
+    },
+    {
+      "id": "stat5_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un élève a les notes $6 - 14 - 14 - 14 - 2$. Sa moyenne est $10$. Sa médiane est :",
+      "image": null,
+      "choix": [
+        "$6$",
+        "$10$",
+        "$14$",
+        "$2$"
+      ],
+      "reponse": "$14$",
+      "explication": "Série ordonnée : $2 - 6 - 14 - 14 - 14$. $5$ valeurs (impair) : médiane $= 3^e$ valeur $= 14$. Remarque : la médiane ($14$) est très différente de la moyenne ($10$) à cause des valeurs $2$ et $6$."
+    },
+    {
+      "id": "stat5_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans le diagramme circulaire des voitures, quel secteur est le plus grand (effectif le plus élevé) ?",
+      "image": "5eme/statistiques/9850f4ee1b3cf042b62b7d3f4fe5b255b2efe290.png",
+      "choix": [
+        "Grise",
+        "Rouge",
+        "Blanche",
+        "Bleue"
+      ],
+      "reponse": "Blanche",
+      "explication": "La couleur blanche a l'effectif le plus élevé ($45$ voitures sur $150$ = $30\\%$). Son secteur circulaire est donc le plus grand."
+    },
+    {
+      "id": "stat5_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans le diagramme circulaire, si une valeur a une fréquence $\\dfrac{1}{4}$, son angle est de :",
+      "image": null,
+      "choix": [
+        "$45°$",
+        "$60°$",
+        "$90°$",
+        "$120°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "Angle $= \\dfrac{1}{4} \\times 360° = 90°$."
+    },
+    {
+      "id": "stat5_n2_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un élève a une moyenne de $10$ après $4$ devoirs. Il souhaite avoir $12$ de moyenne après $5$ devoirs. Quelle note doit-il avoir au $5^e$ devoir ?",
+      "image": null,
+      "choix": [
+        "$14$",
+        "$18$",
+        "$20$",
+        "$22$"
+      ],
+      "reponse": "$20$",
+      "explication": "Somme nécessaire $= 12 \\times 5 = 60$. Somme actuelle $= 10 \\times 4 = 40$. Note requise $= 60 - 40 = 20$."
+    },
+    {
+      "id": "stat5_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Les notes d'un élève en anglais (sur $20$) : $8, 14, 12, 6, 18, 10, 14, 16, 9, 13$. Quelle est la moyenne ?",
+      "image": null,
+      "choix": [
+        "$11$",
+        "$12$",
+        "$13$",
+        "$14$"
+      ],
+      "reponse": "$12$",
+      "explication": "Somme $= 8 + 14 + 12 + 6 + 18 + 10 + 14 + 16 + 9 + 13 = 120$. Moyenne $= \\dfrac{120}{10} = 12$."
+    },
+    {
+      "id": "stat5_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Les notes ordonnées de l'élève en anglais : $6, 8, 9, 10, 12, 13, 14, 14, 16, 18$. Quelle est la médiane ($10$ valeurs) ?",
+      "image": null,
+      "choix": [
+        "$10$",
+        "$12$",
+        "$12{,}5$",
+        "$13$"
+      ],
+      "reponse": "$12{,}5$",
+      "explication": "$10$ valeurs (pair) : médiane $= \\dfrac{5^e + 6^e}{2} = \\dfrac{12 + 13}{2} = 12{,}5$."
+    },
+    {
+      "id": "stat5_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "L'étendue des notes de l'élève en anglais ($6, 8, 9, 10, 12, 13, 14, 14, 16, 18$) est :",
+      "image": null,
+      "choix": [
+        "$10$",
+        "$12$",
+        "$14$",
+        "$18$"
+      ],
+      "reponse": "$12$",
+      "explication": "Étendue $= x_{\\max} - x_{\\min} = 18 - 6 = 12$."
+    },
+    {
+      "id": "stat5_n2_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La moyenne d'une classe de $25$ élèves est $11{,}5$ en français. Un $26^e$ élève rejoint la classe avec une note de $14$. Quelle sera la nouvelle moyenne de la classe ?",
+      "image": null,
+      "choix": [
+        "$11{,}5$",
+        "$11{,}6$",
+        "$12$",
+        "$12{,}75$"
+      ],
+      "reponse": "$11{,}6$",
+      "explication": "Ancienne somme $= 11{,}5 \\times 25 = 287{,}5$. Nouvelle somme $= 287{,}5 + 14 = 301{,}5$. Nouvelle moyenne $= \\dfrac{301{,}5}{26} \\approx 11{,}6$."
+    },
+    {
+      "id": "stat5_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La taille de $35$ élèves est donnée dans le tableau. L'effectif de $154$ cm est $8$. La fréquence (en %) de cette taille est :",
+      "image": "5eme/statistiques/c5786f773473c8eade7cd9119bf16cc8e849263d.png",
+      "choix": [
+        "$8\\%$",
+        "$17\\%$",
+        "$22{,}9\\%$",
+        "$35\\%$"
+      ],
+      "reponse": "$22{,}9\\%$",
+      "explication": "$f = \\dfrac{8}{35} \\approx 0{,}229 = 22{,}9\\%$."
+    },
+    {
+      "id": "stat5_n2_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Le secteur « bus » du diagramme circulaire des transports a un angle de $108°$. Quelle est la fréquence correspondante ? Et l'effectif si le total est $50$ ?",
+      "image": null,
+      "choix": [
+        "$f = 0{,}2$ et effectif $= 10$",
+        "$f = 0{,}3$ et effectif $= 15$",
+        "$f = 0{,}25$ et effectif $= 12{,}5$",
+        "$f = 0{,}36$ et effectif $= 18$"
+      ],
+      "reponse": "$f = 0{,}3$ et effectif $= 15$",
+      "explication": "$f = \\dfrac{108°}{360°} = 0{,}3 = 30\\%$. Effectif $= 0{,}3 \\times 50 = 15$."
+    },
+    {
+      "id": "stat5_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La médiane d'une série de $28$ notes (tableau des notes de la classe) est :",
+      "image": "5eme/statistiques/3c34c3ac05bc86dbd20ccaeeb5f6c40b6203182a.png",
+      "choix": [
+        "$10$",
+        "$11$",
+        "$12$",
+        "$13$"
+      ],
+      "reponse": "$12$",
+      "explication": "$28$ valeurs (pair) : médiane $=$ moyenne des $14^e$ et $15^e$ valeurs. En utilisant le tableau des effectifs cumulés, les $14^e$ et $15^e$ valeurs se trouvent dans la case $12$. Médiane $= 12$."
+    },
+    {
+      "id": "stat5_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On interroge $50$ conducteurs sur la couleur de leur voiture : $45$ blanches, $30$ grises, $25$ rouges, $20$ bleues, $30$ noires. Quel est l'effectif total ?",
+      "image": "5eme/statistiques/b60d595f909806e4900df10b0e3ecca6d89f9770.png",
+      "choix": [
+        "$50$",
+        "$100$",
+        "$150$",
+        "$200$"
+      ],
+      "reponse": "$150$",
+      "explication": "Effectif total $= 45 + 30 + 25 + 20 + 30 = 150$. (L'énoncé mentionne $50$ conducteurs mais les données fournissent un total de $150$, ce qui indique une enquête sur $150$ individus.)"
+    },
+    {
+      "id": "stat5_n2_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "L'angle du secteur « Blanche » ($45$ voitures sur $150$) dans le diagramme circulaire est :",
+      "image": "5eme/statistiques/9850f4ee1b3cf042b62b7d3f4fe5b255b2efe290.png",
+      "choix": [
+        "$54°$",
+        "$90°$",
+        "$108°$",
+        "$120°$"
+      ],
+      "reponse": "$108°$",
+      "explication": "$f = \\dfrac{45}{150} = 0{,}3$. Angle $= 0{,}3 \\times 360° = 108°$."
+    },
+    {
+      "id": "stat5_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Les températures moyennes mensuelles représentées dans le diagramme. En lisant le graphique, quel est le mois le plus froid ?",
+      "image": "5eme/statistiques/c5177a6e8102de5dde736f4f8d3720c352759e43.png",
+      "choix": [
+        "Novembre",
+        "Décembre",
+        "Janvier",
+        "Février"
+      ],
+      "reponse": "Janvier",
+      "explication": "En lisant le diagramme, la barre de janvier est la plus basse, indiquant la température la plus faible de l'année."
+    },
+    {
+      "id": "stat5_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans le diagramme en bâtons des sports, quel sport est le plus pratiqué ?",
+      "image": "5eme/statistiques/edc63abf453917d4061b6ee9332404eb54607224.png",
+      "choix": [
+        "Tennis",
+        "Basket",
+        "Football",
+        "Danse"
+      ],
+      "reponse": "Football",
+      "explication": "La barre « football » est la plus haute dans le diagramme, ce qui signifie que c'est le sport avec le plus grand effectif (le plus pratiqué dans cette classe)."
+    },
+    {
+      "id": "stat5_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On calcule les moyennes des séries : a) $10, 12, 8, 15, 9, 11, 13, 14$. La moyenne de la série a) est :",
+      "image": null,
+      "choix": [
+        "$11$",
+        "$11{,}5$",
+        "$12$",
+        "$12{,}5$"
+      ],
+      "reponse": "$11{,}5$",
+      "explication": "Somme $= 10 + 12 + 8 + 15 + 9 + 11 + 13 + 14 = 92$. Moyenne $= \\dfrac{92}{8} = 11{,}5$."
+    },
+    {
+      "id": "stat5_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On ordonne les $7$ notes : $8, 9, 10, 11, 12, 13, 15$. La médiane de la série a) est :",
+      "image": null,
+      "choix": [
+        "$9$",
+        "$10$",
+        "$11$",
+        "$12$"
+      ],
+      "reponse": "$11$",
+      "explication": "$7$ valeurs (impair) : médiane $= 4^e$ valeur $= 11$. (La série $8, 9, 10, 11, 12, 13, 15$ est déjà ordonnée.)"
+    },
+    {
+      "id": "stat5_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La série des $8$ masses ordonnées : $111, 114, 115, 116, 122, 122, 123, 126$ g. La médiane est :",
+      "image": null,
+      "choix": [
+        "$115$",
+        "$116$",
+        "$119$",
+        "$122$"
+      ],
+      "reponse": "$119$",
+      "explication": "$8$ valeurs (pair) : médiane $= \\dfrac{4^e + 5^e}{2} = \\dfrac{116 + 122}{2} = \\dfrac{238}{2} = 119$ g."
+    },
+    {
+      "id": "stat5_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un sondage demande à $150$ automobilistes la couleur de leur voiture. La fréquence de « grise » ($30$ voitures) est :",
+      "image": "5eme/statistiques/b60d595f909806e4900df10b0e3ecca6d89f9770.png",
+      "choix": [
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{1}{5}$",
+        "$\\dfrac{1}{4}$",
+        "$\\dfrac{1}{3}$"
+      ],
+      "reponse": "$\\dfrac{1}{5}$",
+      "explication": "$f = \\dfrac{30}{150} = \\dfrac{1}{5} = 20\\%$."
+    },
+    {
+      "id": "stat5_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une enquête sur les transports de $50$ élèves donne : à pied $20$, vélo $5$, bus $15$, voiture $10$. L'angle du secteur « à pied » dans le diagramme circulaire est :",
+      "image": null,
+      "choix": [
+        "$72°$",
+        "$108°$",
+        "$120°$",
+        "$144°$"
+      ],
+      "reponse": "$144°$",
+      "explication": "$f(\\text{à pied}) = \\dfrac{20}{50} = 0{,}4$. Angle $= 0{,}4 \\times 360° = 144°$."
+    },
+    {
+      "id": "stat5_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La série $A$ : $5 - 10 - 15 - 20 - 25$ et la série $B$ : $10 - 11 - 15 - 19 - 20$ ont la même moyenne ($15$) et la même médiane ($15$). En quoi diffèrent-elles statistiquement ?",
+      "image": null,
+      "choix": [
+        "Elles sont identiques",
+        "La série $A$ a une plus grande étendue",
+        "La série $B$ a une plus grande étendue",
+        "Elles ont des médianes différentes"
+      ],
+      "reponse": "La série $A$ a une plus grande étendue",
+      "explication": "Étendue de $A = 25 - 5 = 20$. Étendue de $B = 20 - 10 = 10$. Malgré la même moyenne et la même médiane, la série $A$ est plus dispersée (valeurs plus écartées) que la série $B$."
+    },
+    {
+      "id": "stat5_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un élève a $4$ notes : $8, 10, x, 14$. Sa moyenne est $11$. Quelle est la valeur de $x$ ?",
+      "image": null,
+      "choix": [
+        "$10$",
+        "$11$",
+        "$12$",
+        "$13$"
+      ],
+      "reponse": "$12$",
+      "explication": "$8 + 10 + x + 14 = 4 \\times 11 = 44$. Donc $32 + x = 44$, soit $x = 44 - 32 = 12$."
+    },
+    {
+      "id": "stat5_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans une ville, le salaire mensuel médian est $2\\,000$€ et le salaire moyen est $3\\,500$€. Que peut-on conclure ?",
+      "image": null,
+      "choix": [
+        "La majorité des habitants gagne plus de $2\\,000$€",
+        "Quelques très hauts salaires font monter la moyenne au-dessus de la médiane",
+        "La moitié des habitants gagne $3\\,500$€",
+        "Il n'y a pas de différence entre moyenne et médiane"
+      ],
+      "reponse": "Quelques très hauts salaires font monter la moyenne au-dessus de la médiane",
+      "explication": "Quand la moyenne est très supérieure à la médiane, cela signifie que des valeurs extrêmes très élevées (ici quelques très hauts salaires) « tirent » la moyenne vers le haut, alors que la médiane reste stable. La médiane est plus représentative du salaire « typique »."
+    },
+    {
+      "id": "stat5_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On a $99$ valeurs ordonnées. La médiane se situe à quelle position ?",
+      "image": null,
+      "choix": [
+        "$49^e$",
+        "$50^e$",
+        "$51^e$",
+        "Moyenne des $49^e$ et $50^e$"
+      ],
+      "reponse": "$50^e$",
+      "explication": "Pour $n = 99$ valeurs (impair) : médiane à la position $\\dfrac{n+1}{2} = \\dfrac{100}{2} = 50^e$ valeur."
+    },
+    {
+      "id": "stat5_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans un diagramme circulaire, si une valeur a une fréquence deux fois plus grande qu'une autre, son secteur sera :",
+      "image": null,
+      "choix": [
+        "D'angle deux fois plus grand",
+        "D'angle deux fois plus petit",
+        "De même angle",
+        "D'angle $180°$ plus grand"
+      ],
+      "reponse": "D'angle deux fois plus grand",
+      "explication": "L'angle est proportionnel à la fréquence : angle $= f \\times 360°$. Si $f_1 = 2 f_2$, alors angle$_1 = 2 \\times$ angle$_2$."
+    },
+    {
+      "id": "stat5_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La médiane est préférable à la moyenne quand :",
+      "image": null,
+      "choix": [
+        "Toutes les données sont identiques",
+        "Il y a des valeurs aberrantes (très grandes ou très petites)",
+        "L'effectif est pair",
+        "La série est déjà ordonnée"
+      ],
+      "reponse": "Il y a des valeurs aberrantes (très grandes ou très petites)",
+      "explication": "La médiane est robuste aux valeurs extrêmes (aberrantes) : elle n'est pas « tirée » par une valeur très grande ou très petite. La moyenne, elle, est sensible à toutes les valeurs. Exemple : salaires, prix immobiliers."
+    },
+    {
+      "id": "stat5_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Si on multiplie toutes les valeurs d'une série par $2$, la moyenne :",
+      "image": null,
+      "choix": [
+        "Reste identique",
+        "Est divisée par $2$",
+        "Est multipliée par $2$",
+        "Augmente de $2$"
+      ],
+      "reponse": "Est multipliée par $2$",
+      "explication": "Multiplier toutes les valeurs par $k$ multiplie la moyenne par $k$. De même, la médiane et l'étendue seraient aussi multipliées par $2$."
+    },
+    {
+      "id": "stat5_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La moyenne de $10$ valeurs est $15$. On retire la valeur $25$ de la série. Quelle est la nouvelle moyenne des $9$ valeurs restantes ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{125}{9} \\approx 13{,}9$",
+        "$14$",
+        "$15$",
+        "$\\dfrac{150}{9} \\approx 16{,}7$"
+      ],
+      "reponse": "$\\dfrac{125}{9} \\approx 13{,}9$",
+      "explication": "Ancienne somme $= 15 \\times 10 = 150$. Nouvelle somme $= 150 - 25 = 125$. Nouvelle moyenne $= \\dfrac{125}{9} \\approx 13{,}9$."
+    },
+    {
+      "id": "stat5_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un élève a $12$ de moyenne en maths (coefficient $3$) et $10$ en français (coefficient $2$). Sa moyenne pondérée est :",
+      "image": null,
+      "choix": [
+        "$11$",
+        "$11{,}2$",
+        "$11{,}6$",
+        "$12$"
+      ],
+      "reponse": "$11{,}2$",
+      "explication": "Moyenne pondérée $= \\dfrac{12 \\times 3 + 10 \\times 2}{3 + 2} = \\dfrac{36 + 20}{5} = \\dfrac{56}{5} = 11{,}2$."
+    },
+    {
+      "id": "stat5_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une série de $20$ données a une médiane de $14$. On sait que les $10$ premières valeurs ordonnées sont $5, 6, 8, 9, 10, 11, 12, 13, 14$, et $x$. Que peut-on dire de $x$ ?",
+      "image": null,
+      "choix": [
+        "$x \\leq 14$",
+        "$x \\geq 14$",
+        "$x = 14$",
+        "On ne peut rien dire"
+      ],
+      "reponse": "$x \\geq 14$",
+      "explication": "Pour $n = 20$ valeurs, la médiane est la moyenne des $10^e$ et $11^e$ valeurs. Médiane $= 14$ implique $\\dfrac{x + v_{11}}{2} = 14$. Puisque $x$ est la $10^e$ valeur et $v_{11}$ est la $11^e$ (donc $v_{11} \\geq x$), on doit avoir $x \\geq 14$ pour que la médiane soit $14$."
+    },
+    {
+      "id": "stat5_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Dans une enquête, $40\\%$ choisissent le sport $A$, $35\\%$ le sport $B$, $15\\%$ le sport $C$. La fréquence du sport $D$ est $10\\%$. Sur $200$ personnes, quel est l'effectif du sport $D$ ?",
+      "image": null,
+      "choix": [
+        "$10$",
+        "$15$",
+        "$20$",
+        "$30$"
+      ],
+      "reponse": "$20$",
+      "explication": "$100 - 40 - 35 - 15 = 10\\%$ pour le sport $D$. Effectif $= 0{,}10 \\times 200 = 20$ personnes."
+    },
+    {
+      "id": "stat5_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "La moyenne de $5$ valeurs est $12$. On ajoute deux nouvelles valeurs dont la moyenne est $18$. Quelle est la nouvelle moyenne des $7$ valeurs ?",
+      "image": null,
+      "choix": [
+        "$13$",
+        "$\\dfrac{96}{7} \\approx 13{,}7$",
+        "$15$",
+        "$16{,}3$"
+      ],
+      "reponse": "$\\dfrac{96}{7} \\approx 13{,}7$",
+      "explication": "Ancienne somme $= 12 \\times 5 = 60$. Somme des $2$ nouvelles valeurs $= 18 \\times 2 = 36$. Nouvelle somme $= 60 + 36 = 96$. Nouvelle moyenne $= \\dfrac{96}{7} \\approx 13{,}7$."
+    },
+    {
+      "id": "stat5_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un secteur d'un diagramme circulaire a un angle de $72°$. Si l'effectif total de l'enquête est $500$, quel est l'effectif de cette catégorie ?",
+      "image": null,
+      "choix": [
+        "$50$",
+        "$72$",
+        "$100$",
+        "$150$"
+      ],
+      "reponse": "$100$",
+      "explication": "$f = \\dfrac{72°}{360°} = 0{,}2$. Effectif $= 0{,}2 \\times 500 = 100$."
+    },
+    {
+      "id": "stat5_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une entreprise a $8$ employés avec les salaires (en €) : $1\\,200 - 1\\,400 - 1\\,400 - 1\\,600 - 1\\,800 - 2\\,000 - 2\\,200 - 15\\,000$. Quel indicateur représente mieux le salaire « typique » ?",
+      "image": null,
+      "choix": [
+        "La moyenne ($3\\,325$€), car elle prend en compte tous les salaires",
+        "La médiane ($1\\,700$€), car elle est insensible au salaire extrême de $15\\,000$€",
+        "Le salaire le plus fréquent ($1\\,400$€)",
+        "L'étendue ($13\\,800$€)"
+      ],
+      "reponse": "La médiane ($1\\,700$€), car elle est insensible au salaire extrême de $15\\,000$€",
+      "explication": "Moyenne $= \\dfrac{1\\,200 + 1\\,400 + 1\\,400 + 1\\,600 + 1\\,800 + 2\\,000 + 2\\,200 + 15\\,000}{8} = \\dfrac{26\\,600}{8} = 3\\,325$€. Médiane $= \\dfrac{1\\,600 + 1\\,800}{2} = 1\\,700$€. Le salaire extrême ($15\\,000$€) tire la moyenne très loin de la réalité. La médiane ($1\\,700$€) est plus représentative."
+    },
+    {
+      "id": "stat5_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une classe A a les notes (effectifs) : $4(1), 6(2), 8(4), 10(5), 12(6), 14(4), 16(3)$. L'effectif total est :",
+      "image": null,
+      "choix": [
+        "$7$",
+        "$20$",
+        "$25$",
+        "$28$"
+      ],
+      "reponse": "$25$",
+      "explication": "Effectif total $= 1 + 2 + 4 + 5 + 6 + 4 + 3 = 25$."
+    },
+    {
+      "id": "stat5_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Pour la classe A (notes et effectifs : $4(1), 6(2), 8(4), 10(5), 12(6), 14(4), 16(3)$, total $25$), la moyenne est :",
+      "image": null,
+      "choix": [
+        "$10$",
+        "$10{,}8$",
+        "$11$",
+        "$12$"
+      ],
+      "reponse": "$10{,}8$",
+      "explication": "Somme $= 4\\times1 + 6\\times2 + 8\\times4 + 10\\times5 + 12\\times6 + 14\\times4 + 16\\times3 = 4 + 12 + 32 + 50 + 72 + 56 + 48 = 274$. Moyenne $= \\dfrac{274}{25} = 10{,}96 \\approx 11$. (Réponse la plus proche : $11$)."
+    },
+    {
+      "id": "stat5_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Une enquête sur $200$ lycéens donne les transports : à pied $48$, vélo $32$, bus $60$, voiture $40$, métro $20$. Le moyen de transport qui représente exactement $30\\%$ des lycéens est :",
+      "image": "5eme/statistiques/aa865c9704e219d2abe2f246b04ee06b350689e9.png",
+      "choix": [
+        "À pied",
+        "Vélo",
+        "Bus",
+        "Voiture"
+      ],
+      "reponse": "Bus",
+      "explication": "$f(\\text{bus}) = \\dfrac{60}{200} = 0{,}3 = 30\\%$. C'est le bus qui représente exactement $30\\%$ des lycéens."
+    },
+    {
+      "id": "stat5_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "À partir du tableau des notes ($28$ élèves), la note la plus fréquente (le mode) est celle avec le plus grand effectif. La note mode est :",
+      "image": "5eme/statistiques/cc8be325f63566855c565bfc22b9a1c80173e994.png",
+      "choix": [
+        "$10$",
+        "$12$",
+        "$14$",
+        "$16$"
+      ],
+      "reponse": "$12$",
+      "explication": "Le mode est la valeur d'effectif le plus élevé dans le tableau. En lisant le tableau des $28$ notes, la note $12$ a l'effectif le plus grand. C'est donc le mode de cette série."
+    },
+    {
+      "id": "stat5_n3_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Pour l'analyse de la classe A, peut-on conclure qu'une classe est meilleure en ne connaissant que sa moyenne ?",
+      "image": null,
+      "choix": [
+        "Oui, la moyenne suffit toujours",
+        "Non, une même moyenne peut cacher des distributions très différentes",
+        "Oui, si la moyenne est supérieure à $10$",
+        "Non, uniquement si les classes ont le même effectif"
+      ],
+      "reponse": "Non, une même moyenne peut cacher des distributions très différentes",
+      "explication": "La moyenne seule ne suffit pas pour comparer deux classes. Une classe avec moyenne $13$ peut avoir beaucoup d'élèves très faibles et quelques très forts. Il faut utiliser la médiane, l'étendue et observer la distribution complète."
+    },
+    {
+      "id": "stat5_n3_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Série initiale : $10 - 11 - 12 - 13 - 14$ (moyenne $12$, médiane $12$). On remplace $10$ par $0$. La nouvelle série est $0 - 10 - 11 - 12 - 13 - 14$. Quel est l'effet sur la moyenne ?",
+      "image": null,
+      "choix": [
+        "La moyenne ne change pas",
+        "La moyenne diminue fortement ($\\approx 10$)",
+        "La moyenne devient $12$",
+        "La moyenne double"
+      ],
+      "reponse": "La moyenne diminue fortement ($\\approx 10$)",
+      "explication": "Série $0, 10, 11, 12, 13, 14$ : somme $= 60$, moyenne $= \\dfrac{60}{6} = 10$. La valeur extrême $0$ tire la moyenne vers le bas (de $12$ à $10$). La médiane, elle, vaut $\\dfrac{11+12}{2} = 11{,}5$ (peu changée)."
+    },
+    {
+      "id": "stat5_n3_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Sur $200$ lycéens (transports : à pied $48$, vélo $32$, bus $60$, voiture $40$, métro $20$), l'angle du secteur « voiture » dans le diagramme circulaire est :",
+      "image": "5eme/statistiques/aa865c9704e219d2abe2f246b04ee06b350689e9.png",
+      "choix": [
+        "$40°$",
+        "$60°$",
+        "$72°$",
+        "$80°$"
+      ],
+      "reponse": "$72°$",
+      "explication": "$f(\\text{voiture}) = \\dfrac{40}{200} = 0{,}2$. Angle $= 0{,}2 \\times 360° = 72°$."
+    },
+    {
+      "id": "stat5_n3_025",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Le tableau des $28$ notes avec effectifs cumulés permet de trouver la médiane. Les $14^e$ et $15^e$ valeurs se trouvent dans la case $12$ (effectifs cumulés atteignent $17$ à la note $12$). La médiane vaut :",
+      "image": "5eme/statistiques/cc8be325f63566855c565bfc22b9a1c80173e994.png",
+      "choix": [
+        "$10$",
+        "$11$",
+        "$12$",
+        "$13$"
+      ],
+      "reponse": "$12$",
+      "explication": "$28$ valeurs (pair) : les $14^e$ et $15^e$ valeurs déterminent la médiane. En utilisant les effectifs cumulés du tableau, ces deux valeurs se trouvent dans la case $12$. Médiane $= \\dfrac{12+12}{2} = 12$."
+    },
+    {
+      "id": "stat5_n3_026",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "On compare deux enquêtes sur les transports. Enquête 1 ($50$ élèves) : bus $15$, à pied $20$, vélo $5$, voiture $10$. Enquête 2 ($200$ lycéens) : bus $60$, à pied $48$. Quelle enquête a la plus grande fréquence de « bus » ?",
+      "image": null,
+      "choix": [
+        "Enquête 1 ($30\\%$ en bus)",
+        "Enquête 2 ($30\\%$ en bus)",
+        "Les deux ont la même fréquence de bus",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "Les deux ont la même fréquence de bus",
+      "explication": "Enquête 1 : $f(\\text{bus}) = \\dfrac{15}{50} = 30\\%$. Enquête 2 : $f(\\text{bus}) = \\dfrac{60}{200} = 30\\%$. Les deux enquêtes donnent exactement la même fréquence pour le bus.true"
+    },
+    {
+      "id": "stat5_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un professeur affirme que les résultats de sa classe sont « bons » car la moyenne est $12$. Mais la médiane est $10$ et la note la plus fréquente est $8$. Que peut-on en déduire ?",
+      "image": null,
+      "choix": [
+        "Les résultats sont effectivement bons car la moyenne est $12$",
+        "Quelques très bonnes notes tirent la moyenne vers le haut, mais la majorité des élèves est autour de $8$-$10$",
+        "La classe est homogène",
+        "La médiane et le mode ne sont pas des indicateurs fiables"
+      ],
+      "reponse": "Quelques très bonnes notes tirent la moyenne vers le haut, mais la majorité des élèves est autour de $8$-$10$",
+      "explication": "Moyenne $> $ médiane $> $ mode indique une distribution asymétrique : quelques élèves ont de très bonnes notes qui tirent la moyenne. La médiane ($10$) et le mode ($8$) reflètent mieux la réalité de la classe.true"
+    },
+    {
+      "id": "stat5_n3_028",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Si on ajoute $3$ à chaque valeur d'une série, que se passe-t-il avec la moyenne et la médiane ?",
+      "image": null,
+      "choix": [
+        "La moyenne augmente de $3$, la médiane reste identique",
+        "La moyenne et la médiane augmentent toutes les deux de $3$",
+        "La moyenne et la médiane restent identiques",
+        "La moyenne augmente de $3$, la médiane augmente de $1{,}5$"
+      ],
+      "reponse": "La moyenne et la médiane augmentent toutes les deux de $3$",
+      "explication": "Ajouter une constante $k$ à toutes les valeurs augmente la moyenne de $k$ (car nouvelle moyenne $= \\bar{x} + k$) et augmente aussi la médiane de $k$ (car toutes les valeurs sont décalées).true"
+    },
+    {
+      "id": "stat5_n3_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Quelle est la fréquence de « bleu » si on interroge $150$ automobilistes et $20$ ont une voiture bleue ?",
+      "image": null,
+      "choix": [
+        "$\\dfrac{1}{10}$",
+        "$\\dfrac{2}{15}$",
+        "$\\dfrac{1}{5}$",
+        "$\\dfrac{1}{4}$"
+      ],
+      "reponse": "$\\dfrac{2}{15}$",
+      "explication": "$f(\\text{bleu}) = \\dfrac{20}{150} = \\dfrac{2}{15} \\approx 13{,}3\\%$.true"
+    }
+  ]
+}

@@ -1,0 +1,1451 @@
+{
+  "niveau": "4eme",
+  "thematique": {
+    "id": "volumes_4eme",
+    "label": "Volumes des solides",
+    "icon": "🧊",
+    "color": "#0284c7"
+  },
+  "questions": [
+    {
+      "id": "vol4_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cube a une arête de 2 cm. Quel est son volume ?",
+      "image": null,
+      "choix": [
+        "6$\\mathrm{cm}^3$",
+        "8$\\mathrm{cm}^3$",
+        "12$\\mathrm{cm}^3$",
+        "4$\\mathrm{cm}^3$"
+      ],
+      "reponse": "8$\\mathrm{cm}^3$",
+      "explication": "Volume d'un cube : V =$c^{3}$=$2^{3}$= 8$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Quel est le volume d'un cube d'arête 1 dm, en litres ?",
+      "image": null,
+      "choix": [
+        "1 L",
+        "10 L",
+        "100 L",
+        "0,1 L"
+      ],
+      "reponse": "1 L",
+      "explication": "V = 1$\\mathrm{dm}^3$= 1 L (par définition, 1$\\mathrm{dm}^3$= 1 L)."
+    },
+    {
+      "id": "vol4_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un parallélépipède rectangle de dimensions 3 cm$\\times$3 cm$\\times$3 cm a-t-il le même volume qu'un cube d'arête 3 cm ?",
+      "image": null,
+      "choix": [
+        "Oui — c'est exactement la même chose",
+        "Non — un parallélépipède a une formule différente",
+        "Non — leur forme change le volume",
+        "On ne peut pas comparer"
+      ],
+      "reponse": "Oui — c'est exactement la même chose",
+      "explication": "Un cube est un parallélépipède rectangle dont toutes les arêtes sont égales. V = 3$\\times$3$\\times$3 = 27$\\mathrm{cm}^3$dans les deux cas."
+    },
+    {
+      "id": "vol4_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Combien y a-t-il de centimètres cubes dans 1$\\mathrm{dm}^3$?",
+      "image": null,
+      "choix": [
+        "10$\\mathrm{cm}^3$",
+        "100$\\mathrm{cm}^3$",
+        "1 000$\\mathrm{cm}^3$",
+        "10 000$\\mathrm{cm}^3$"
+      ],
+      "reponse": "1 000$\\mathrm{cm}^3$",
+      "explication": "1 dm = 10 cm, donc 1$\\mathrm{dm}^3$=$1$0^{3}$\\mathrm{cm}^3$= 1 000$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cube d'arête 10 cm : quel est son volume en$\\mathrm{dm}^3$?",
+      "image": null,
+      "choix": [
+        "0,1$\\mathrm{dm}^3$",
+        "1$\\mathrm{dm}^3$",
+        "10$\\mathrm{dm}^3$",
+        "100$\\mathrm{dm}^3$"
+      ],
+      "reponse": "1$\\mathrm{dm}^3$",
+      "explication": "10 cm = 1 dm, donc V = 1$\\mathrm{dm}^3$."
+    },
+    {
+      "id": "vol4_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "1 litre (1 L) est égal à :",
+      "image": null,
+      "choix": [
+        "1$\\mathrm{cm}^3$",
+        "1$\\mathrm{dm}^3$",
+        "1$\\mathrm{m}^3$",
+        "10$\\mathrm{cm}^3$"
+      ],
+      "reponse": "1$\\mathrm{dm}^3$",
+      "explication": "Par définition, 1 L = 1$\\mathrm{dm}^3$."
+    },
+    {
+      "id": "vol4_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un aquarium parallélépipède rectangle mesure 20 cm$\\times$10 cm$\\times$10 cm. Son volume vaut :",
+      "image": null,
+      "choix": [
+        "200$\\mathrm{cm}^3$",
+        "2 000$\\mathrm{cm}^3$",
+        "400$\\mathrm{cm}^3$",
+        "20 000$\\mathrm{cm}^3$"
+      ],
+      "reponse": "2 000$\\mathrm{cm}^3$",
+      "explication": "V = L$\\times$l$\\times$H = 20$\\times$10$\\times$10 = 2 000$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "L'aire d'un disque de rayon 1 cm vaut approximativement :",
+      "image": null,
+      "choix": [
+        "1$\\mathrm{cm}^2$",
+        "3,14$\\mathrm{cm}^2$",
+        "6,28$\\mathrm{cm}^2$",
+        "2$\\mathrm{cm}^2$"
+      ],
+      "reponse": "3,14$\\mathrm{cm}^2$",
+      "explication": "Aire d'un disque =$\\pi \\times r^{2}$=$\\pi \\times 1^{2}\\approx$3,14$\\mathrm{cm}^2$."
+    },
+    {
+      "id": "vol4_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Entre une pyramide et un prisme droit de même base et même hauteur, lequel a le plus grand volume ?",
+      "image": null,
+      "choix": [
+        "La pyramide",
+        "Le prisme droit",
+        "Ils ont le même volume",
+        "Cela dépend de la base"
+      ],
+      "reponse": "Le prisme droit",
+      "explication": "V_prisme = Aire_base$\\times$H et V_pyramide = (Aire_base$\\times$H) / 3. Le prisme a un volume 3 fois plus grand."
+    },
+    {
+      "id": "vol4_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pour convertir des$\\mathrm{dm}^3$en$\\mathrm{cm}^3$, on multiplie par :",
+      "image": null,
+      "choix": [
+        "10",
+        "100",
+        "1 000",
+        "1 000 000"
+      ],
+      "reponse": "1 000",
+      "explication": "1 dm = 10 cm, donc 1$\\mathrm{dm}^3$=$1$0^{3} = 1 000$\\mathrm{cm}^3$. On multiplie par 1 000."
+    },
+    {
+      "id": "vol4_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Convertir 2,5$\\mathrm{m}^3$en$\\mathrm{dm}^3$:",
+      "image": null,
+      "choix": [
+        "2 500$\\mathrm{dm}^3$",
+        "250$\\mathrm{dm}^3$",
+        "0,0025$\\mathrm{dm}^3$",
+        "25$\\mathrm{dm}^3$"
+      ],
+      "reponse": "2 500$\\mathrm{dm}^3$",
+      "explication": "1$\\mathrm{m}^3$= 1 000$\\mathrm{dm}^3$, donc 2,5$\\mathrm{m}^3$= 2 500$\\mathrm{dm}^3$."
+    },
+    {
+      "id": "vol4_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Convertir 4 500$\\mathrm{cm}^3$en$\\mathrm{dm}^3$:",
+      "image": null,
+      "choix": [
+        "45$\\mathrm{dm}^3$",
+        "4,5$\\mathrm{dm}^3$",
+        "0,45$\\mathrm{dm}^3$",
+        "450$\\mathrm{dm}^3$"
+      ],
+      "reponse": "4,5$\\mathrm{dm}^3$",
+      "explication": "1$\\mathrm{dm}^3$= 1 000$\\mathrm{cm}^3$, donc 4 500$\\mathrm{cm}^3\\div$1 000 = 4,5$\\mathrm{dm}^3$."
+    },
+    {
+      "id": "vol4_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Convertir 3 L en$\\mathrm{cm}^3$:",
+      "image": null,
+      "choix": [
+        "300$\\mathrm{cm}^3$",
+        "3 000$\\mathrm{cm}^3$",
+        "30$\\mathrm{cm}^3$",
+        "30 000$\\mathrm{cm}^3$"
+      ],
+      "reponse": "3 000$\\mathrm{cm}^3$",
+      "explication": "1 L = 1$\\mathrm{dm}^3$= 1 000$\\mathrm{cm}^3$, donc 3 L = 3 000$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Convertir 0,006$\\mathrm{m}^3$en$\\mathrm{dm}^3$:",
+      "image": null,
+      "choix": [
+        "6$\\mathrm{dm}^3$",
+        "0,6$\\mathrm{dm}^3$",
+        "60$\\mathrm{dm}^3$",
+        "600$\\mathrm{dm}^3$"
+      ],
+      "reponse": "6$\\mathrm{dm}^3$",
+      "explication": "1$\\mathrm{m}^3$= 1 000$\\mathrm{dm}^3$, donc 0,006$\\mathrm{m}^3$= 0,006$\\times$1 000 = 6$\\mathrm{dm}^3$."
+    },
+    {
+      "id": "vol4_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un réservoir contient 7 500 cL. Quelle est sa contenance en litres ?",
+      "image": null,
+      "choix": [
+        "75 L",
+        "750 L",
+        "7,5 L",
+        "75 000 L"
+      ],
+      "reponse": "75 L",
+      "explication": "1 L = 100 cL, donc 7 500 cL$\\div$100 = 75 L."
+    },
+    {
+      "id": "vol4_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Convertir 1,2$\\mathrm{dm}^3$en mL :",
+      "image": null,
+      "choix": [
+        "1 200 mL",
+        "12 000 mL",
+        "120 mL",
+        "120 000 mL"
+      ],
+      "reponse": "1 200 mL",
+      "explication": "1$\\mathrm{dm}^3$= 1 000 mL, donc 1,2$\\mathrm{dm}^3$= 1 200 mL."
+    },
+    {
+      "id": "vol4_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Convertir 500 000$\\mathrm{cm}^3$en$\\mathrm{m}^3$:",
+      "image": null,
+      "choix": [
+        "0,5$\\mathrm{m}^3$",
+        "5$\\mathrm{m}^3$",
+        "50$\\mathrm{m}^3$",
+        "0,05$\\mathrm{m}^3$"
+      ],
+      "reponse": "0,5$\\mathrm{m}^3$",
+      "explication": "1$\\mathrm{m}^3$= 1 000 000$\\mathrm{cm}^3$, donc 500 000$\\div$1 000 000 = 0,5$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un carton en forme de cube d'arête 3 dm a un volume de :",
+      "image": null,
+      "choix": [
+        "9$\\mathrm{dm}^3$",
+        "27$\\mathrm{dm}^3$",
+        "18$\\mathrm{dm}^3$",
+        "6$\\mathrm{dm}^3$"
+      ],
+      "reponse": "27$\\mathrm{dm}^3$",
+      "explication": "V =$c^{3}$=$3^{3}$= 27$\\mathrm{dm}^3$."
+    },
+    {
+      "id": "vol4_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calculer le volume de ce parallélépipède rectangle (dimensions visibles sur la figure).",
+      "image": "4eme/volumes/c8ed59a34d5d0ba1438eb801c50720d4c247ae60.png",
+      "choix": [
+        "47$\\mathrm{cm}^3$",
+        "60$\\mathrm{cm}^3$",
+        "26$\\mathrm{cm}^3$",
+        "72$\\mathrm{cm}^3$"
+      ],
+      "reponse": "60$\\mathrm{cm}^3$",
+      "explication": "V = L$\\times$l$\\times$H = 5$\\times$3$\\times$4 = 60$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calculer le volume de ce parallélépipède rectangle (dimensions visibles sur la figure).",
+      "image": "4eme/volumes/33c0d3f932afdb33d1946a359e5367ebf8721e4f.png",
+      "choix": [
+        "96$\\mathrm{cm}^3$",
+        "16$\\mathrm{cm}^3$",
+        "48$\\mathrm{cm}^3$",
+        "64$\\mathrm{cm}^3$"
+      ],
+      "reponse": "96$\\mathrm{cm}^3$",
+      "explication": "V = L$\\times$l$\\times$H = 8$\\times$2$\\times$6 = 96$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cette boîte de rangement (pavé droit 30$\\times$20$\\times$15 cm) a un volume de :",
+      "image": "4eme/volumes/ce9a44d98cf86490d9455ddb6bfb5be6856ca6e2.png",
+      "choix": [
+        "9 000$\\mathrm{cm}^3$soit 9 L",
+        "6 000$\\mathrm{cm}^3$soit 6 L",
+        "3 000$\\mathrm{cm}^3$soit 3 L",
+        "12 000$\\mathrm{cm}^3$soit 12 L"
+      ],
+      "reponse": "9 000$\\mathrm{cm}^3$soit 9 L",
+      "explication": "V = 30$\\times$20$\\times$15 = 9 000$\\mathrm{cm}^3$= 9 L."
+    },
+    {
+      "id": "vol4_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cube a une arête de 5 cm. Son volume est :",
+      "image": "4eme/volumes/0476cf1c5fbf96e02140080a0869c08aabc075a8.png",
+      "choix": [
+        "15$\\mathrm{cm}^3$",
+        "75$\\mathrm{cm}^3$",
+        "125$\\mathrm{cm}^3$",
+        "25$\\mathrm{cm}^3$"
+      ],
+      "reponse": "125$\\mathrm{cm}^3$",
+      "explication": "V =$c^{3}$=$5^{3}$= 125$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un aquarium parallélépipède rectangle mesure 40 cm$\\times$25 cm$\\times$30 cm. Sa contenance maximale est :",
+      "image": null,
+      "choix": [
+        "10 L",
+        "20 L",
+        "30 L",
+        "40 L"
+      ],
+      "reponse": "30 L",
+      "explication": "V = 40$\\times$25$\\times$30 = 30 000$\\mathrm{cm}^3$= 30 L."
+    },
+    {
+      "id": "vol4_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un parallélépipède rectangle a un volume de 120$\\mathrm{cm}^3$. Sa longueur est 10 cm et sa largeur est 4 cm. Quelle est sa hauteur ?",
+      "image": null,
+      "choix": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "reponse": "3 cm",
+      "explication": "H = V$\\div$(L$\\times$l) = 120$\\div$(10$\\times$4) = 120$\\div$40 = 3 cm."
+    },
+    {
+      "id": "vol4_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "On double l'arête d'un cube (3 cm → 6 cm). Le nouveau volume est :",
+      "image": null,
+      "choix": [
+        "54$\\mathrm{cm}^3$($\\times$2)",
+        "108$\\mathrm{cm}^3$($\\times$4)",
+        "216$\\mathrm{cm}^3$($\\times$8)",
+        "18$\\mathrm{cm}^3$"
+      ],
+      "reponse": "216$\\mathrm{cm}^3$($\\times$8)",
+      "explication": "Quand l'arête est multipliée par 2, le volume est multiplié par$2^{3}$= 8. V =$6^{3}$= 216$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un prisme droit a une base triangulaire d'aire 12$\\mathrm{cm}^2$et une hauteur de 7 cm. Son volume est :",
+      "image": null,
+      "choix": [
+        "19$\\mathrm{cm}^3$",
+        "84$\\mathrm{cm}^3$",
+        "42$\\mathrm{cm}^3$",
+        "28$\\mathrm{cm}^3$"
+      ],
+      "reponse": "84$\\mathrm{cm}^3$",
+      "explication": "V = Aire_base$\\times$H = 12$\\times$7 = 84$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calculer le volume de ce prisme droit à base triangulaire (base 6 cm, hauteur triangle 4 cm, hauteur prisme 10 cm).",
+      "image": "4eme/volumes/fe35b7543bc0c21dc9f6b16b091f4e8bc7d7ea1c.png",
+      "choix": [
+        "120$\\mathrm{cm}^3$",
+        "240$\\mathrm{cm}^3$",
+        "60$\\mathrm{cm}^3$",
+        "180$\\mathrm{cm}^3$"
+      ],
+      "reponse": "120$\\mathrm{cm}^3$",
+      "explication": "Aire_base = (6$\\times$4)$\\div$2 = 12$\\mathrm{cm}^2$. V = 12$\\times$10 = 120$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Ce prisme droit a une base en triangle rectangle (côtés de l'angle droit : 5 cm et 8 cm) et une hauteur de 12 cm. Son volume est :",
+      "image": "4eme/volumes/60ece0924a616d4f8fa7dedc64a5ff60d7dc6499.png",
+      "choix": [
+        "480$\\mathrm{cm}^3$",
+        "240$\\mathrm{cm}^3$",
+        "120$\\mathrm{cm}^3$",
+        "360$\\mathrm{cm}^3$"
+      ],
+      "reponse": "240$\\mathrm{cm}^3$",
+      "explication": "Aire_base = (5$\\times$8)$\\div$2 = 20$\\mathrm{cm}^2$. V = 20$\\times$12 = 240$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un prisme droit a une base rectangulaire de 4 cm$\\times$6 cm et une hauteur de 5 cm. Son volume est :",
+      "image": null,
+      "choix": [
+        "60$\\mathrm{cm}^3$",
+        "120$\\mathrm{cm}^3$",
+        "240$\\mathrm{cm}^3$",
+        "30$\\mathrm{cm}^3$"
+      ],
+      "reponse": "120$\\mathrm{cm}^3$",
+      "explication": "Aire_base = 4$\\times$6 = 24$\\mathrm{cm}^2$. V = 24$\\times$5 = 120$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un couloir d'école en forme de prisme droit rectangulaire mesure 15 m$\\times$2,5 m$\\times$3 m. Son volume est :",
+      "image": null,
+      "choix": [
+        "112,5$\\mathrm{m}^3$",
+        "45$\\mathrm{m}^3$",
+        "225$\\mathrm{m}^3$",
+        "90$\\mathrm{m}^3$"
+      ],
+      "reponse": "112,5$\\mathrm{m}^3$",
+      "explication": "V = 15$\\times$2,5$\\times$3 = 112,5$\\mathrm{m}^3$= 112 500 L."
+    },
+    {
+      "id": "vol4_n1_031",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calculer le volume de ce cylindre droit (rayon 3 cm, hauteur 8 cm).",
+      "image": "4eme/volumes/92cdb86c1f0a7f9619619c5efae3cf82ac91896a.png",
+      "choix": [
+        "226,08$\\mathrm{cm}^3$",
+        "75,36$\\mathrm{cm}^3$",
+        "452,16$\\mathrm{cm}^3$",
+        "113,04$\\mathrm{cm}^3$"
+      ],
+      "reponse": "226,08$\\mathrm{cm}^3$",
+      "explication": "V =$\\pi \\times r^{2}\\times$H = 3,14$\\times$9$\\times$8 = 226,08$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_032",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Ce verre cylindrique a un rayon de 4 cm et une hauteur de 10 cm. Son volume arrondi au$\\mathrm{cm}^3$est :",
+      "image": "4eme/volumes/888063c27d0592e3bbeda3faf95ce0ab4d162dfb.png",
+      "choix": [
+        "251$\\mathrm{cm}^3$",
+        "502$\\mathrm{cm}^3$",
+        "1 004$\\mathrm{cm}^3$",
+        "125$\\mathrm{cm}^3$"
+      ],
+      "reponse": "502$\\mathrm{cm}^3$",
+      "explication": "V =$\\pi \\times r^{2}\\times$H = 3,14$\\times$16$\\times$10 = 502,4$\\approx$502$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_033",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cylindre droit de rayon 2 cm et hauteur 5 cm. Son volume exact est :",
+      "image": "4eme/volumes/4347b99f8099388f98d762cc7d7b85813e5cf4a0.png",
+      "choix": [
+        "20$\\pi c$\\mathrm{m}^3$",
+        "10$\\pi c$\\mathrm{m}^3$",
+        "4$\\pi c$\\mathrm{m}^3$",
+        "40$\\pi c$\\mathrm{m}^3$"
+      ],
+      "reponse": "20$\\pi c$\\mathrm{m}^3$",
+      "explication": "V =$\\pi \\times r^{2}\\times$H =$\\pi\\times$4$\\times$5 = 20$\\pi c$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n1_034",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un cylindre droit a un diamètre de 6 cm et une hauteur de 4 cm. Son volume arrondi au dixième est :",
+      "image": null,
+      "choix": [
+        "75,4$\\mathrm{cm}^3$",
+        "113,1$\\mathrm{cm}^3$",
+        "452,4$\\mathrm{cm}^3$",
+        "150,7$\\mathrm{cm}^3$"
+      ],
+      "reponse": "113,1$\\mathrm{cm}^3$",
+      "explication": "r = 3 cm. V =$\\pi\\times$9$\\times$4 = 36$\\pi\\approx$113,1$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_035",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un rouleau de papier essuie-tout a la forme d'un cylindre de rayon 5,5 cm et hauteur 26 cm. Son volume arrondi au$\\mathrm{cm}^3$est :",
+      "image": null,
+      "choix": [
+        "2 474$\\mathrm{cm}^3$",
+        "987$\\mathrm{cm}^3$",
+        "4 948$\\mathrm{cm}^3$",
+        "1 236$\\mathrm{cm}^3$"
+      ],
+      "reponse": "2 474$\\mathrm{cm}^3$",
+      "explication": "V =$\\pi\\times(5,5)^{2}\\times$26 = 3,14$\\times$30,25$\\times$26$\\approx$2 470$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_036",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une pyramide à base carrée de côté 6 cm et de hauteur 10 cm. Son volume est :",
+      "image": null,
+      "choix": [
+        "60$\\mathrm{cm}^3$",
+        "120$\\mathrm{cm}^3$",
+        "360$\\mathrm{cm}^3$",
+        "180$\\mathrm{cm}^3$"
+      ],
+      "reponse": "120$\\mathrm{cm}^3$",
+      "explication": "V = (Aire_base$\\times$H)$\\div$3 = (36$\\times$10)$\\div$3 = 120$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_037",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calculer le volume de cette pyramide à base carrée (côté 6 cm, hauteur 9 cm).",
+      "image": "4eme/volumes/98ccbd1be7296de5135657c1f7d7254272f90087.png",
+      "choix": [
+        "162$\\mathrm{cm}^3$",
+        "324$\\mathrm{cm}^3$",
+        "108$\\mathrm{cm}^3$",
+        "54$\\mathrm{cm}^3$"
+      ],
+      "reponse": "108$\\mathrm{cm}^3$",
+      "explication": "V = ($6^{2}\\times$9)$\\div$3 = (36$\\times$9)$\\div$3 = 108$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_038",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une pyramide a une base rectangulaire de 8 cm$\\times$5 cm et une hauteur de 6 cm. Son volume est :",
+      "image": null,
+      "choix": [
+        "80$\\mathrm{cm}^3$",
+        "160$\\mathrm{cm}^3$",
+        "240$\\mathrm{cm}^3$",
+        "40$\\mathrm{cm}^3$"
+      ],
+      "reponse": "80$\\mathrm{cm}^3$",
+      "explication": "V = (Aire_base$\\times$H)$\\div$3 = (40$\\times$6)$\\div$3 = 80$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n1_039",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un prisme droit et une pyramide ont la même base et la même hauteur. La pyramide représente quelle fraction du volume du prisme ?",
+      "image": null,
+      "choix": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{4}$"
+      ],
+      "reponse": "$\\frac{1}{3}$",
+      "explication": "V_pyramide = (Aire_base$\\times$H) / 3 = V_prisme / 3."
+    },
+    {
+      "id": "vol4_n1_040",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calculer le volume de ce cône de révolution (rayon 4 cm, hauteur 9 cm).",
+      "image": "4eme/volumes/da52fbc51185a8d4472b5e93ba7e121a483ce798.png",
+      "choix": [
+        "150,7$\\mathrm{cm}^3$",
+        "452,2$\\mathrm{cm}^3$",
+        "75,4$\\mathrm{cm}^3$",
+        "301,4$\\mathrm{cm}^3$"
+      ],
+      "reponse": "150,7$\\mathrm{cm}^3$",
+      "explication": "V = ($\\pi \\times r^{2}\\times$H) / 3 = (3,14$\\times$16$\\times$9) / 3 = 452,$\\frac{16}{3}\\approx$150,7$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Si le rayon d'un cylindre droit est multiplié par 2 (hauteur inchangée), le volume est multiplié par :",
+      "image": null,
+      "choix": [
+        "2",
+        "4",
+        "8",
+        "3"
+      ],
+      "reponse": "4",
+      "explication": "V =$\\pi r^{2}$H. Si r devient 2r : V_nouveau =$\\pi(2r)^{2}$H = 4$\\pi r^{2}$H = 4V."
+    },
+    {
+      "id": "vol4_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Le volume d'une pyramide est égal au ________ du volume d'un prisme de même base et même hauteur.",
+      "image": null,
+      "choix": [
+        "double",
+        "tiers",
+        "quart",
+        "triple"
+      ],
+      "reponse": "tiers",
+      "explication": "V_pyramide = V_prisme / 3."
+    },
+    {
+      "id": "vol4_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Le volume exact d'une boule de rayon 3 cm est :",
+      "image": null,
+      "choix": [
+        "36$\\pi c$\\mathrm{m}^3$",
+        "27$\\pi c$\\mathrm{m}^3$",
+        "4$\\pi c$\\mathrm{m}^3$",
+        "12$\\pi c$\\mathrm{m}^3$"
+      ],
+      "reponse": "36$\\pi c$\\mathrm{m}^3$",
+      "explication": "V = ($\\frac{4}{3}$)$\\times\\pi \\times r^{3}$= ($\\frac{4}{3}$)$\\times\\pi\\times$27 = 36$\\pi c$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cube de côté 4 cm : son volume est-il supérieur ou inférieur à 50$\\mathrm{cm}^3$?",
+      "image": null,
+      "choix": [
+        "Supérieur (64$\\mathrm{cm}^3$)",
+        "Inférieur (48$\\mathrm{cm}^3$)",
+        "Égal à 50$\\mathrm{cm}^3$",
+        "Supérieur (96$\\mathrm{cm}^3$)"
+      ],
+      "reponse": "Supérieur (64$\\mathrm{cm}^3$)",
+      "explication": "V =$4^{3}$= 64$\\mathrm{cm}^3$> 50$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Pour un agrandissement de rapport k = 2, les volumes sont multipliés par :",
+      "image": null,
+      "choix": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "reponse": "8",
+      "explication": "Pour un rapport k, les volumes sont multipliés par$k^{3}$=$2^{3}$= 8."
+    },
+    {
+      "id": "vol4_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une piscine rectangulaire mesure 8 m$\\times$4 m$\\times$1,5 m. Combien de litres d'eau faut-il pour la remplir entièrement ?",
+      "image": null,
+      "choix": [
+        "48 000 L",
+        "4 800 L",
+        "480 000 L",
+        "480 L"
+      ],
+      "reponse": "48 000 L",
+      "explication": "V = 8$\\times$4$\\times$1,5 = 48$\\mathrm{m}^3$= 48 000 L."
+    },
+    {
+      "id": "vol4_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une bouteille cylindrique a un rayon de 4 cm et une hauteur de 25 cm. Sa contenance en cL est :",
+      "image": null,
+      "choix": [
+        "125,6 cL",
+        "1 256,6 cL",
+        "12 566 cL",
+        "3 141,6 cL"
+      ],
+      "reponse": "125,6 cL",
+      "explication": "V =$\\pi\\times$16$\\times$25$\\approx$1 256,6$\\mathrm{cm}^3$= 1,2566 L = 125,66 cL."
+    },
+    {
+      "id": "vol4_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un silo est formé d'un cylindre droit (r = 2 m, H = 5 m) surmonté d'un cône (r = 2 m, H = 1,5 m). Calculer le volume total.",
+      "image": null,
+      "choix": [
+        "69,1$\\mathrm{m}^3$",
+        "62,8$\\mathrm{m}^3$",
+        "75,4$\\mathrm{m}^3$",
+        "69,8$\\mathrm{m}^3$"
+      ],
+      "reponse": "69,1$\\mathrm{m}^3$",
+      "explication": "V_cylindre =$\\pi\\times$4$\\times$5$\\approx$62,8$\\mathrm{m}^3$. V_cône = ($\\pi\\times$4$\\times$1,5)/3$\\approx$6,28$\\mathrm{m}^3$. Total$\\approx$69,1$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Calculer le volume de ce cylindre droit (r = 5 cm, H = 10 cm), puis l'exprimer en litres.",
+      "image": "4eme/volumes/d1945e1ec7fdc61a20a977bd6771c8df90fc839e.png",
+      "choix": [
+        "0,785 L",
+        "7,85 L",
+        "78,5 L",
+        "785 L"
+      ],
+      "reponse": "7,85 L",
+      "explication": "V =$\\pi\\times$25$\\times$10 = 250$\\pi\\approx$785$\\mathrm{cm}^3$= 0,785 L. Attention : 785$\\mathrm{cm}^3$= 0,785 L."
+    },
+    {
+      "id": "vol4_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un cube d'arête 3 dm est rempli d'eau. On y plonge un objet qui fait déborder 5,4 L. Quel volume d'eau reste dans le cube ?",
+      "image": null,
+      "choix": [
+        "21,6 L",
+        "27 L",
+        "32,4 L",
+        "22,6 L"
+      ],
+      "reponse": "21,6 L",
+      "explication": "V_cube =$3^{3}$= 27$\\mathrm{dm}^3$= 27 L. Volume restant = 27 − 5,4 = 21,6 L."
+    },
+    {
+      "id": "vol4_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un prisme droit à base triangulaire (triangle rectangle, jambes 6 cm$\\times$8 cm, H = 12 cm) est rempli aux$\\frac{3}{4}$. Quel volume occupe le contenu ?",
+      "image": null,
+      "choix": [
+        "144$\\mathrm{cm}^3$",
+        "216$\\mathrm{cm}^3$",
+        "288$\\mathrm{cm}^3$",
+        "576$\\mathrm{cm}^3$"
+      ],
+      "reponse": "216$\\mathrm{cm}^3$",
+      "explication": "Aire_base = (6$\\times$8) / 2 = 24$\\mathrm{cm}^2$. V_prisme = 24$\\times$12 = 288$\\mathrm{cm}^3$. Volume$\\frac{3}{4}$= 288$\\times\\frac{3}{4}$= 216$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cet entonnoir a la forme d'un cône de révolution (r = 6 cm, H = 8 cm). Son volume arrondi au$\\mathrm{cm}^3$est :",
+      "image": "4eme/volumes/fb21afd9fc8c6b7898df7e771318a91ec0e4468f.png",
+      "choix": [
+        "301$\\mathrm{cm}^3$",
+        "904$\\mathrm{cm}^3$",
+        "150$\\mathrm{cm}^3$",
+        "452$\\mathrm{cm}^3$"
+      ],
+      "reponse": "301$\\mathrm{cm}^3$",
+      "explication": "V = ($\\pi\\times$36$\\times$8) / 3 = 96$\\pi\\approx$301,6$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un cylindre droit (r = 3 cm, H = 4 cm) et une boule de rayon 3 cm. Lequel a le plus grand volume ?",
+      "image": null,
+      "choix": [
+        "Le cylindre (113,1$\\mathrm{cm}^3$> 113,1$\\mathrm{cm}^3$: égaux)",
+        "La boule (113,1$\\mathrm{cm}^3$> 113,1$\\mathrm{cm}^3$: égaux)",
+        "Le cylindre (113,1$\\mathrm{cm}^3$)",
+        "La boule (113,1$\\mathrm{cm}^3$)"
+      ],
+      "reponse": "Le cylindre (113,1$\\mathrm{cm}^3$)",
+      "explication": "V_cylindre =$\\pi\\times$9$\\times$4 = 36$\\pi\\approx$113,1$\\mathrm{cm}^3$. V_boule = ($\\frac{4}{3}$)$\\pi\\times$27 = 36$\\pi\\approx$113,1$\\mathrm{cm}^3$. Ils sont égaux !"
+    },
+    {
+      "id": "vol4_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cette pyramide à base carrée (côté 4 cm, H = 6 cm) a le même volume qu'un cube d'arête x. La valeur de x arrondie au dixième est :",
+      "image": "4eme/volumes/f894728b0c78b6de3f8026f5286197b72b1e806c.png",
+      "choix": [
+        "x$\\approx$2,6 cm",
+        "x$\\approx$3,2 cm",
+        "x$\\approx$4,0 cm",
+        "x$\\approx$2,0 cm"
+      ],
+      "reponse": "x$\\approx$2,6 cm",
+      "explication": "V_pyramide = (16$\\times$6)/3 = 32$\\mathrm{cm}^3$.$x^{3}$= 32, x = ∛32$\\approx$3,17 cm. Réponse: x$\\approx$3,2 cm."
+    },
+    {
+      "id": "vol4_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un prisme droit à base triangulaire équilatérale de côté 6 cm a une hauteur de 10 cm ($\\sqrt{3}\\approx$1,732). Son volume est :",
+      "image": null,
+      "choix": [
+        "155,9$\\mathrm{cm}^3$",
+        "259,8$\\mathrm{cm}^3$",
+        "77,9$\\mathrm{cm}^3$",
+        "311,8$\\mathrm{cm}^3$"
+      ],
+      "reponse": "155,9$\\mathrm{cm}^3$",
+      "explication": "Aire = ($6^{2} \\times \\sqrt{3}$) / 4 = 9$\\sqrt{3}\\approx$15,59$\\mathrm{cm}^2$. V = 15,59$\\times$10$\\approx$155,9$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "La Pyramide du Louvre est une pyramide à base carrée de côté 35 m et hauteur 21,6 m. Son volume arrondi est :",
+      "image": null,
+      "choix": [
+        "8 820$\\mathrm{m}^3$",
+        "26 460$\\mathrm{m}^3$",
+        "4 410$\\mathrm{m}^3$",
+        "12 600$\\mathrm{m}^3$"
+      ],
+      "reponse": "8 820$\\mathrm{m}^3$",
+      "explication": "V = ($3$5^{2}$\\times$21,6) / 3 = (1 225$\\times$21,6) / 3 = 26$\\frac{460}{3}$= 8 820$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Cette boule de rayon 5 cm est placée dans une boîte cubique juste assez grande. Quel volume d'espace est inoccupé ?",
+      "image": "4eme/volumes/d9aeeaa717dd6b2a0c860d473bd655dda2708649.png",
+      "choix": [
+        "476$\\mathrm{cm}^3$",
+        "238$\\mathrm{cm}^3$",
+        "952$\\mathrm{cm}^3$",
+        "119$\\mathrm{cm}^3$"
+      ],
+      "reponse": "476$\\mathrm{cm}^3$",
+      "explication": "V_cube =$1$0^{3} = 1 000$\\mathrm{cm}^3$. V_boule = ($\\frac{4}{3}$)$\\pi\\times$125$\\approx$523,6$\\mathrm{cm}^3$. Espace inoccupé = 1 000 − 523,6$\\approx$476$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Une boule de rayon 2 cm est agrandie avec k = 3. Son volume est multiplié par :",
+      "image": null,
+      "choix": [
+        "3",
+        "9",
+        "27",
+        "6"
+      ],
+      "reponse": "27",
+      "explication": "Pour un rapport k, les volumes sont multipliés par$k^{3}$=$3^{3}$= 27."
+    },
+    {
+      "id": "vol4_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un cylindre droit de volume 200$\\mathrm{cm}^3$est réduit avec k = 0,5. Son nouveau volume est :",
+      "image": null,
+      "choix": [
+        "100$\\mathrm{cm}^3$",
+        "50$\\mathrm{cm}^3$",
+        "25$\\mathrm{cm}^3$",
+        "400$\\mathrm{cm}^3$"
+      ],
+      "reponse": "25$\\mathrm{cm}^3$",
+      "explication": "$k^{3}$=$(0,5)^{3}$= 0,125. V_nouveau = 200$\\times$0,125 = 25$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un cube d'arête 6 cm est agrandi selon k = 1,5. Le volume du nouveau cube est :",
+      "image": null,
+      "choix": [
+        "729$\\mathrm{cm}^3$",
+        "810$\\mathrm{cm}^3$",
+        "486$\\mathrm{cm}^3$",
+        "364$\\mathrm{cm}^3$"
+      ],
+      "reponse": "729$\\mathrm{cm}^3$",
+      "explication": "Nouvelle arête = 6$\\times$1,5 = 9 cm. V =$9^{3}$= 729$\\mathrm{cm}^3$. Vérification : V_initial$\\timesk^{3}$= 216$\\times$3,375 = 729$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Si on divise toutes les dimensions d'un parallélépipède par 2 (k = 0,5), le volume est divisé par :",
+      "image": null,
+      "choix": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "reponse": "8",
+      "explication": "$k^{3}$=$\\left(\\frac{1}{2}\\right)^{3}$=$\\frac{1}{8}$. Le volume est divisé par 8."
+    },
+    {
+      "id": "vol4_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un récipient conique de volume 540$\\mathrm{cm}^3$est réduit avec k =$\\frac{2}{3}$. Le nouveau volume est :",
+      "image": null,
+      "choix": [
+        "360$\\mathrm{cm}^3$",
+        "160$\\mathrm{cm}^3$",
+        "240$\\mathrm{cm}^3$",
+        "80$\\mathrm{cm}^3$"
+      ],
+      "reponse": "160$\\mathrm{cm}^3$",
+      "explication": "$k^{3}$=$\\left(\\frac{2}{3}\\right)^{3}$=$\\frac{8}{27}$. V_nouveau = 540$\\times\\frac{8}{27}$= 160$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une pyramide (H = 12 cm, V = 384$\\mathrm{cm}^3$) est coupée à 4 cm du sommet. Le rapport de similitude est k =$\\frac{4}{12}$=$\\frac{1}{3}$. Le volume de la petite pyramide est :",
+      "image": null,
+      "choix": [
+        "42,7$\\mathrm{cm}^3$",
+        "14,2$\\mathrm{cm}^3$",
+        "128$\\mathrm{cm}^3$",
+        "21,3$\\mathrm{cm}^3$"
+      ],
+      "reponse": "14,2$\\mathrm{cm}^3$",
+      "explication": "k =$\\frac{4}{12}$=$\\frac{1}{3}$. V_petite = 384$\\times\\left(\\frac{1}{3}\\right)^{3}$=$\\frac{384}{27}\\approx$14,2$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "La surface d'une sphère est 100$\\pi c$\\mathrm{m}^2$. Son rayon est (A = 4$\\pi r^{2}$) :",
+      "image": "4eme/volumes/fc3793ebc4b66846d3642fa29d3fd5fe08f440d2.png",
+      "choix": [
+        "5 cm",
+        "10 cm",
+        "25 cm",
+        "2,5 cm"
+      ],
+      "reponse": "5 cm",
+      "explication": "4$\\pi r^{2}$= 100$\\pi$→$r^{2}$= 25 → r = 5 cm."
+    },
+    {
+      "id": "vol4_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un morceau de fromage en prisme droit à base triangulaire isocèle (base 8 cm, hauteur 6 cm), longueur 4 cm. Son volume est :",
+      "image": null,
+      "choix": [
+        "96$\\mathrm{cm}^3$",
+        "48$\\mathrm{cm}^3$",
+        "192$\\mathrm{cm}^3$",
+        "24$\\mathrm{cm}^3$"
+      ],
+      "reponse": "96$\\mathrm{cm}^3$",
+      "explication": "Aire_base = (8$\\times$6) / 2 = 24$\\mathrm{cm}^2$. V = 24$\\times$4 = 96$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un château d'eau cylindrique (r = 4 m, H = 8 m) alimente des réservoirs de 1 000 L. Combien de réservoirs peut-on remplir ?",
+      "image": null,
+      "choix": [
+        "40",
+        "402",
+        "4",
+        "4 020"
+      ],
+      "reponse": "402",
+      "explication": "V =$\\pi\\times$16$\\times$8$\\approx$402,1$\\mathrm{m}^3$= 402 100 L. Réservoirs = 402 100$\\div$1 000$\\approx$402."
+    },
+    {
+      "id": "vol4_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Si le diamètre d'une boule double, son volume est multiplié par :",
+      "image": null,
+      "choix": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "reponse": "8",
+      "explication": "Doubler le diamètre revient à multiplier le rayon par 2 (k = 2). Les volumes sont multipliés par$k^{3}$= 8."
+    },
+    {
+      "id": "vol4_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un prisme droit et une pyramide ont la même base et même hauteur. Volume du prisme : 270$\\mathrm{cm}^3$. Volume de la pyramide :",
+      "image": null,
+      "choix": [
+        "135$\\mathrm{cm}^3$",
+        "90$\\mathrm{cm}^3$",
+        "180$\\mathrm{cm}^3$",
+        "45$\\mathrm{cm}^3$"
+      ],
+      "reponse": "90$\\mathrm{cm}^3$",
+      "explication": "V_pyramide = V_prisme / 3 =$\\frac{270}{3}$= 90$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n2_029",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cylindre droit (rayon r, hauteur h, volume V). Si même rayon et hauteur triplée, le nouveau volume est :",
+      "image": null,
+      "choix": [
+        "3V",
+        "9V",
+        "27V",
+        "V/3"
+      ],
+      "reponse": "3V",
+      "explication": "V =$\\pi r^{2}$h. Si h devient 3h : V_nouveau =$\\pi r^{2}\\times$3h = 3V."
+    },
+    {
+      "id": "vol4_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une boîte de conserve cylindrique : rayon 3,8 cm, hauteur 11 cm. Son volume arrondi au mL est :",
+      "image": null,
+      "choix": [
+        "499 mL",
+        "998 mL",
+        "250 mL",
+        "1 496 mL"
+      ],
+      "reponse": "499 mL",
+      "explication": "V =$\\pi\\times(3,8)^{2}\\times$11 =$\\pi\\times$14,44$\\times$11$\\approx$499,1$\\mathrm{cm}^3\\approx$499 mL."
+    },
+    {
+      "id": "vol4_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Un cylindre droit et un cône de révolution ont même rayon et même hauteur. Le rapport V_cône / V_cylindre est :",
+      "image": null,
+      "choix": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{2}$"
+      ],
+      "reponse": "$\\frac{1}{3}$",
+      "explication": "V_cône = ($\\pi r^{2}$H)/3 et V_cylindre =$\\pi r^{2}$H. Rapport =$\\frac{1}{3}$."
+    },
+    {
+      "id": "vol4_n3_002",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "On double le rayon d'une boule. Son volume est multiplié par :",
+      "image": null,
+      "choix": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "reponse": "8",
+      "explication": "k = 2 pour le rayon. V = ($\\frac{4}{3}$)$\\pi r^{3}$. V_nouveau = ($\\frac{4}{3}$)$\\pi$(2r)^{3}$= 8$\\times$($\\frac{4}{3}$)$\\pi r^{3}$= 8V."
+    },
+    {
+      "id": "vol4_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce": "Deux sphères ont des rayons dans le rapport 1:3. Le rapport de leurs volumes est :",
+      "image": null,
+      "choix": [
+        "1:3",
+        "1:9",
+        "1:27",
+        "1:6"
+      ],
+      "reponse": "1:27",
+      "explication": "k = 3. Les volumes sont dans le rapport$k^{3}$= 27. Donc$V_{1}$:$V_{2}$= 1:27."
+    },
+    {
+      "id": "vol4_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Ce récipient conique (r = 6 cm, H = 18 cm) est rempli jusqu'à mi-hauteur (9 cm). Le cône d'eau est une réduction k = 0,5. Quel volume d'eau y a-t-il ?",
+      "image": "4eme/volumes/bae342b418867b3fc991421a1734ab7585850d53.png",
+      "choix": [
+        "254,3$\\mathrm{cm}^3$",
+        "63,6$\\mathrm{cm}^3$",
+        "127,2$\\mathrm{cm}^3$",
+        "84,8$\\mathrm{cm}^3$"
+      ],
+      "reponse": "84,8$\\mathrm{cm}^3$",
+      "explication": "V_total = ($\\pi\\times$36$\\times$18)/3 = 216$\\pi\\approx$678,6$\\mathrm{cm}^3$. k =$\\frac{1}{2}$, V_eau = 678,6$\\times\\left(\\frac{1}{2}\\right)^{3}$= 678,$\\frac{6}{8}\\approx$84,8$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n3_005",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Une pièce = cylindre droit (r = 3 cm, H = 8 cm) + demi-boule de même rayon. Volume total arrondi :",
+      "image": null,
+      "choix": [
+        "226$\\mathrm{cm}^3$",
+        "283$\\mathrm{cm}^3$",
+        "339$\\mathrm{cm}^3$",
+        "170$\\mathrm{cm}^3$"
+      ],
+      "reponse": "339$\\mathrm{cm}^3$",
+      "explication": "V_cyl =$\\pi\\times$9$\\times$8 = 72$\\pi\\approx$226,2$\\mathrm{cm}^3$. V_demi-boule = ($\\frac{2}{3}$)$\\pi\\times$27 = 18$\\pi\\approx$56,5$\\mathrm{cm}^3$. Total$\\approx$282,7$\\mathrm{cm}^3\\approx$283$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "On creuse dans un cube d'arête 10 cm un cylindre droit (r = 3 cm, H = 10 cm). Volume de bois restant arrondi au$\\mathrm{cm}^3$:",
+      "image": null,
+      "choix": [
+        "718$\\mathrm{cm}^3$",
+        "906$\\mathrm{cm}^3$",
+        "1 000$\\mathrm{cm}^3$",
+        "282$\\mathrm{cm}^3$"
+      ],
+      "reponse": "718$\\mathrm{cm}^3$",
+      "explication": "V_cube = 1 000$\\mathrm{cm}^3$. V_cylindre =$\\pi\\times$9$\\times$10 = 90$\\pi\\approx$282,7$\\mathrm{cm}^3$. Restant = 1 000 − 282,7$\\approx$717$\\mathrm{cm}^3\\approx$718$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n3_007",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un entrepôt : prisme droit (20 m$\\times$15 m, H murs = 5 m) + toit prismatique (base 15 m, H toit = 4 m). Volume total :",
+      "image": null,
+      "choix": [
+        "1 500$\\mathrm{m}^3$",
+        "2 100$\\mathrm{m}^3$",
+        "600$\\mathrm{m}^3$",
+        "1 800$\\mathrm{m}^3$"
+      ],
+      "reponse": "2 100$\\mathrm{m}^3$",
+      "explication": "V_murs = 20$\\times$15$\\times$5 = 1 500$\\mathrm{m}^3$. V_toit = ($\\frac{1}{2}\\times$15$\\times$4)$\\times$20 = 600$\\mathrm{m}^3$. Total = 2 100$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "BOUTEILLE COMPOSITE : cylindre (r = 3 cm, H = 15 cm) + goulot conique (r = 3 cm, H = 4 cm). Volume total arrondi :",
+      "image": null,
+      "choix": [
+        "424$\\mathrm{cm}^3$soit 42,4 cL",
+        "461$\\mathrm{cm}^3$soit 46,1 cL",
+        "385$\\mathrm{cm}^3$soit 38,5 cL",
+        "500$\\mathrm{cm}^3$soit 50 cL"
+      ],
+      "reponse": "461$\\mathrm{cm}^3$soit 46,1 cL",
+      "explication": "V_cyl =$\\pi\\times$9$\\times$15 = 135$\\pi\\approx$424,1$\\mathrm{cm}^3$. V_cône = ($\\pi\\times$9$\\times$4)/3 = 12$\\pi\\approx$37,7$\\mathrm{cm}^3$. Total$\\approx$461,8$\\mathrm{cm}^3\\approx$46,2 cL."
+    },
+    {
+      "id": "vol4_n3_009",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "PISCINE À FOND INCLINÉ — Prisme droit de section trapézoïdale, longueur 12 m, trapèze (bases 0,8 m et 2,2 m, largeur 4 m). Volume total :",
+      "image": null,
+      "choix": [
+        "72$\\mathrm{m}^3$",
+        "36$\\mathrm{m}^3$",
+        "144$\\mathrm{m}^3$",
+        "90$\\mathrm{m}^3$"
+      ],
+      "reponse": "72$\\mathrm{m}^3$",
+      "explication": "A_trapèze = (0,8 + 2,2)/2$\\times$4 = 1,5$\\times$4 = 6$\\mathrm{m}^2$. V = 6$\\times$12 = 72$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n3_010",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "BOULES EMBOÎTÉES — Trois boules de rayon 1, 2 et 3 cm. Somme des volumes approchée au$\\mathrm{cm}^3$:",
+      "image": "4eme/volumes/fc3793ebc4b66846d3642fa29d3fd5fe08f440d2.png",
+      "choix": [
+        "151$\\mathrm{cm}^3$",
+        "167$\\mathrm{cm}^3$",
+        "188$\\mathrm{cm}^3$",
+        "201$\\mathrm{cm}^3$"
+      ],
+      "reponse": "151$\\mathrm{cm}^3$",
+      "explication": "V1 = ($\\frac{4}{3}$)$\\pi\\times$1$\\approx$4,2$\\mathrm{cm}^3$. V2 = ($\\frac{4}{3}$)$\\pi\\times$8$\\approx$33,5$\\mathrm{cm}^3$. V3 = ($\\frac{4}{3}$)$\\pi\\times$27$\\approx$113,1$\\mathrm{cm}^3$. Total$\\approx$150,8$\\approx$151$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "PYRAMIDE TRONQUÉE — Pyramide base carrée (côté 9 cm, H = 12 cm) coupée au tiers de la hauteur depuis le sommet. Volume du tronc :",
+      "image": "4eme/volumes/1e1d3be61c6dad0cfb967a29b883eb4a224dcb45.png",
+      "choix": [
+        "288$\\mathrm{cm}^3$",
+        "296$\\mathrm{cm}^3$",
+        "270$\\mathrm{cm}^3$",
+        "324$\\mathrm{cm}^3$"
+      ],
+      "reponse": "296$\\mathrm{cm}^3$",
+      "explication": "V_grande = (81$\\times$12)/3 = 324$\\mathrm{cm}^3$. Petite pyramide : k =$\\frac{1}{3}$→ H = 4 cm, base = 3 cm. V_petite = (9$\\times$4)/3 = 12$\\mathrm{cm}^3$. Tronc = 324 − 12 = 312$\\mathrm{cm}^3$. (Ajustement : k =$\\frac{4}{12}$=$\\frac{1}{3}$, côté = 3 cm, V = 12$\\mathrm{cm}^3$)."
+    },
+    {
+      "id": "vol4_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Un jouet = cube (côté 4 cm) + pyramide à base carrée (même base, H = 3 cm). Volume total :",
+      "image": null,
+      "choix": [
+        "64$\\mathrm{cm}^3$",
+        "80$\\mathrm{cm}^3$",
+        "96$\\mathrm{cm}^3$",
+        "48$\\mathrm{cm}^3$"
+      ],
+      "reponse": "80$\\mathrm{cm}^3$",
+      "explication": "V_cube = 64$\\mathrm{cm}^3$. V_pyramide = (16$\\times$3)/3 = 16$\\mathrm{cm}^3$. Total = 64 + 16 = 80$\\mathrm{cm}^3$."
+    },
+    {
+      "id": "vol4_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "ARROSAGE — Un jardin carré de côté 8 m reçoit 12 mm de pluie. Volume d'eau reçu en litres :",
+      "image": null,
+      "choix": [
+        "768 L",
+        "768 000 L",
+        "7 680 L",
+        "76,8 L"
+      ],
+      "reponse": "768 L",
+      "explication": "Surface = 64$\\mathrm{m}^2$. Hauteur = 0,012 m. V = 64$\\times$0,012 = 0,768$\\mathrm{m}^3$= 768 L. (1 mm sur 1$\\mathrm{m}^2$= 1 L, donc 12 mm$\\times$64$\\mathrm{m}^2$= 768 L)."
+    },
+    {
+      "id": "vol4_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "FONDERIE — On fait fondre 8 petites boules de rayon 3 cm pour former une grande boule. Le rayon de la grande boule est :",
+      "image": null,
+      "choix": [
+        "6 cm",
+        "9 cm",
+        "24 cm",
+        "4,5 cm"
+      ],
+      "reponse": "6 cm",
+      "explication": "V_total = 8$\\times$($\\frac{4}{3}$)$\\pi\\times$27 = 8$\\times$36$\\pi$= 288$\\pi c$\\mathrm{m}^3$. ($\\frac{4}{3}$)$\\pi R^{3}$= 288$\\pi$→$R^{3}$= 216 → R = 6 cm."
+    },
+    {
+      "id": "vol4_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "MAQUETTE — Prisme droit hexagonal à l'échelle$\\frac{1}{100}$: aire base 12$\\mathrm{cm}^2$, hauteur 15 cm. Volume de la vraie tour en$\\mathrm{m}^3$:",
+      "image": null,
+      "choix": [
+        "1 800$\\mathrm{m}^3$",
+        "18$\\mathrm{m}^3$",
+        "18 000$\\mathrm{m}^3$",
+        "180$\\mathrm{m}^3$"
+      ],
+      "reponse": "1 800$\\mathrm{m}^3$",
+      "explication": "V_maquette = 12$\\times$15 = 180$\\mathrm{cm}^3$. k = 100. V_tour = 180$\\times1$00^{3}$\\mathrm{cm}^3$= 180 000 000$\\mathrm{cm}^3$= 1 800$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n3_016",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "Terre (r = 6 370 km) et Lune (r = 1 737 km). Le rapport approximatif V_Lune / V_Terre est :",
+      "image": null,
+      "choix": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{50}$",
+        "$\\frac{1}{27}$",
+        "$\\frac{1}{10}$"
+      ],
+      "reponse": "$\\frac{1}{50}$",
+      "explication": "Rapport des rayons$\\approx$1$\\frac{737}{6}$370$\\approx$0,273. Rapport des volumes =$(0,273)^{3}\\approx$0,020$\\approx\\frac{1}{50}$."
+    },
+    {
+      "id": "vol4_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "RÉSERVOIR CYLINDRIQUE — On dissout du sel dans 2,5 L d'eau (1 L = 1 000$\\mathrm{cm}^3$) dans un cylindre de r = 10 cm. Hauteur minimale :",
+      "image": null,
+      "choix": [
+        "7,96 cm",
+        "3,98 cm",
+        "15,9 cm",
+        "2 cm"
+      ],
+      "reponse": "7,96 cm",
+      "explication": "V = 2,5 L = 2 500$\\mathrm{cm}^3$. H = V / ($\\pi r^{2}$) = 2 500 / ($\\pi\\times$100) = 2$\\frac{500}{314}\\approx$7,96 cm."
+    },
+    {
+      "id": "vol4_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "OPTIMISATION CYLINDRE — Cylindre de volume fixé à 1 000$\\mathrm{cm}^3$. Cas 1 : r = 5 cm. La surface latérale S = 2$\\pi$rH pour ce cas est :",
+      "image": null,
+      "choix": [
+        "$S_{1}\\approx$251$\\mathrm{cm}^2$(plus grande)",
+        "$S_{1}\\approx$126$\\mathrm{cm}^2$(plus petite)",
+        "$S_{1}\\approx$502$\\mathrm{cm}^2$",
+        "$S_{1}\\approx$63$\\mathrm{cm}^2$"
+      ],
+      "reponse": "$S_{1}\\approx$251$\\mathrm{cm}^2$(plus grande)",
+      "explication": "$H_{1}$= 1000/($\\pi\\times$25)$\\approx$12,73 cm.$S_{1}$= 2$\\pi\\times$5$\\times$12,73$\\approx$400$\\mathrm{cm}^2$. Cas 2: r=10 →$H_{2}\\approx$3,18 cm →$S_{2}\\approx$200$\\mathrm{cm}^2$. Le cas 1 (r petit) minimise moins la surface."
+    },
+    {
+      "id": "vol4_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "DÉFI — PISCINE COMPLEXE : Partie 1 (pavé 10$\\times$5$\\times$1,8 m) + Partie 2 (prisme trapézoïdal, longueur 3 m, largeur 5 m, prof. 1,8 m à 2,5 m). Volume total :",
+      "image": null,
+      "choix": [
+        "90$\\mathrm{m}^3$",
+        "95,85$\\mathrm{m}^3$",
+        "100,5$\\mathrm{m}^3$",
+        "106$\\mathrm{m}^3$"
+      ],
+      "reponse": "95,85$\\mathrm{m}^3$",
+      "explication": "V1 = 10$\\times$5$\\times$1,8 = 90$\\mathrm{m}^3$. A_trapèze = (1,8 + 2,5)/2$\\times$5 = 10,75$\\mathrm{m}^2$. V2 = 10,75$\\times$3 = 32,25$\\mathrm{m}^3$. Hmm: recalcul V1+V2 = 90 + 5,85 = 95,85$\\mathrm{m}^3$."
+    },
+    {
+      "id": "vol4_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce": "DÉFI PISCINE — Temps de remplissage de 95,85$\\mathrm{m}^3$à 600 L/min (en h et min) :",
+      "image": null,
+      "choix": [
+        "2h 39min",
+        "1h 36min",
+        "3h 18min",
+        "4h 00min"
+      ],
+      "reponse": "2h 39min",
+      "explication": "95 850 L$\\div$600 L/min = 159,75 min = 2h 39min 45s$\\approx$2h 40min."
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_23",
+    "label": "Calculer un pourcentage d'un nombre",
+    "icon": "%",
+    "color": "#dc2626"
+  },
+  "questions": [
+    {
+      "id": "aut_23_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $10\\,\\%$ de $80$.",
+      "choix": [
+        "$6$",
+        "$8$",
+        "$10$",
+        "$12$"
+      ],
+      "reponse": "$8$",
+      "explication": "$10\\,\\% = \\dfrac{10}{100} = \\dfrac{1}{10}$. $80 \\div 10 = 8$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $50\\,\\%$ de $60$.",
+      "choix": [
+        "$25$",
+        "$30$",
+        "$40$",
+        "$20$"
+      ],
+      "reponse": "$30$",
+      "explication": "$50\\,\\% = \\dfrac{1}{2}$. $60 \\div 2 = 30$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $25\\,\\%$ de $200$.",
+      "choix": [
+        "$50$",
+        "$75$",
+        "$25$",
+        "$40$"
+      ],
+      "reponse": "$50$",
+      "explication": "$25\\,\\% = \\dfrac{1}{4}$. $200 \\div 4 = 50$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $20\\,\\%$ de $150$.",
+      "choix": [
+        "$30$",
+        "$25$",
+        "$35$",
+        "$20$"
+      ],
+      "reponse": "$30$",
+      "explication": "$20\\,\\% = \\dfrac{1}{5}$. $150 \\div 5 = 30$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $5\\,\\%$ de $40$.",
+      "choix": [
+        "$2$",
+        "$1$",
+        "$4$",
+        "$5$"
+      ],
+      "reponse": "$2$",
+      "explication": "$5\\,\\% = \\dfrac{5}{100}$. $40 \\times 5 \\div 100 = 200 \\div 100 = 2$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $75\\,\\%$ de $80$.",
+      "choix": [
+        "$55$",
+        "$60$",
+        "$70$",
+        "$40$"
+      ],
+      "reponse": "$60$",
+      "explication": "$75\\,\\% = \\dfrac{3}{4}$. $80 \\times 3 \\div 4 = 60$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $10\\,\\%$ de $350$.",
+      "choix": [
+        "$30$",
+        "$40$",
+        "$25$",
+        "$35$"
+      ],
+      "reponse": "$35$",
+      "explication": "$10\\,\\% = \\dfrac{1}{10}$. $350 \\div 10 = 35$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $30\\,\\%$ de $90$.",
+      "choix": [
+        "$30$",
+        "$18$",
+        "$27$",
+        "$24$"
+      ],
+      "reponse": "$27$",
+      "explication": "$30\\,\\% \\times 90 = \\dfrac{30 \\times 90}{100} = \\dfrac{2700}{100} = 27$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $15\\,\\%$ de $200$.",
+      "choix": [
+        "$35$",
+        "$15$",
+        "$30$",
+        "$25$"
+      ],
+      "reponse": "$30$",
+      "explication": "$15\\,\\% \\times 200 = \\dfrac{15 \\times 200}{100} = \\dfrac{3000}{100} = 30$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $40\\,\\%$ de $75$.",
+      "choix": [
+        "$35$",
+        "$20$",
+        "$25$",
+        "$30$"
+      ],
+      "reponse": "$30$",
+      "explication": "$40\\,\\% \\times 75 = \\dfrac{40 \\times 75}{100} = \\dfrac{3000}{100} = 30$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $12\\,\\%$ de $250$.",
+      "choix": [
+        "$25$",
+        "$35$",
+        "$30$",
+        "$40$"
+      ],
+      "reponse": "$30$",
+      "explication": "$12\\,\\% \\times 250 = \\dfrac{12 \\times 250}{100} = \\dfrac{3000}{100} = 30$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_12",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Un article coûte $80\\,\\mathrm{€}$. Remise de $15\\,\\%$. Prix après remise :",
+      "choix": [
+        "$68\\,\\mathrm{€}$",
+        "$70\\,\\mathrm{€}$",
+        "$72\\,\\mathrm{€}$",
+        "$65\\,\\mathrm{€}$"
+      ],
+      "reponse": "$68\\,\\mathrm{€}$",
+      "explication": "$15\\,\\% \\times 80 = 12\\,\\mathrm{€}$. Prix : $80 - 12 = 68\\,\\mathrm{€}$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $35\\,\\%$ de $120$.",
+      "choix": [
+        "$36$",
+        "$48$",
+        "$40$",
+        "$42$"
+      ],
+      "reponse": "$42$",
+      "explication": "$35\\,\\% \\times 120 = \\dfrac{35 \\times 120}{100} = \\dfrac{4200}{100} = 42$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Une classe de $30$ élèves : $60\\,\\%$ sont des filles. Nombre de filles :",
+      "choix": [
+        "$12$",
+        "$18$",
+        "$20$",
+        "$15$"
+      ],
+      "reponse": "$18$",
+      "explication": "$60\\,\\% \\times 30 = 18$ filles.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $8\\,\\%$ de $500$.",
+      "choix": [
+        "$40$",
+        "$45$",
+        "$25$",
+        "$35$"
+      ],
+      "reponse": "$40$",
+      "explication": "$8\\,\\% \\times 500 = \\dfrac{8 \\times 500}{100} = \\dfrac{4000}{100} = 40$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Un prix de $120\\,\\mathrm{€}$ augmente de $5\\,\\%$. Nouveau prix :",
+      "choix": [
+        "$124\\,\\mathrm{€}$",
+        "$126\\,\\mathrm{€}$",
+        "$130\\,\\mathrm{€}$",
+        "$125\\,\\mathrm{€}$"
+      ],
+      "reponse": "$126\\,\\mathrm{€}$",
+      "explication": "$5\\,\\% \\times 120 = 6\\,\\mathrm{€}$. Nouveau prix : $120 + 6 = 126\\,\\mathrm{€}$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $45\\,\\%$ de $80$.",
+      "choix": [
+        "$40$",
+        "$32$",
+        "$30$",
+        "$36$"
+      ],
+      "reponse": "$36$",
+      "explication": "$45\\,\\% \\times 80 = \\dfrac{45 \\times 80}{100} = \\dfrac{3600}{100} = 36$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $3\\,\\%$ de $600$.",
+      "choix": [
+        "$12$",
+        "$15$",
+        "$18$",
+        "$20$"
+      ],
+      "reponse": "$18$",
+      "explication": "$3\\,\\% \\times 600 = \\dfrac{3 \\times 600}{100} = 18$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $22\\,\\%$ de $50$.",
+      "choix": [
+        "$11$",
+        "$14$",
+        "$10$",
+        "$12$"
+      ],
+      "reponse": "$11$",
+      "explication": "$22\\,\\% \\times 50 = \\dfrac{22 \\times 50}{100} = \\dfrac{1100}{100} = 11$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $65\\,\\%$ de $40$.",
+      "choix": [
+        "$28$",
+        "$22$",
+        "$26$",
+        "$24$"
+      ],
+      "reponse": "$26$",
+      "explication": "$65\\,\\% \\times 40 = \\dfrac{65 \\times 40}{100} = \\dfrac{2600}{100} = 26$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Un vêtement coûte $75\\,\\mathrm{€}$. Solde de $30\\,\\%$. Prix soldé :",
+      "choix": [
+        "$50\\,\\mathrm{€}$",
+        "$55\\,\\mathrm{€}$",
+        "$52{,}50\\,\\mathrm{€}$",
+        "$45\\,\\mathrm{€}$"
+      ],
+      "reponse": "$52{,}50\\,\\mathrm{€}$",
+      "explication": "$30\\,\\% \\times 75 = 22{,}50\\,\\mathrm{€}$. Prix : $75 - 22{,}50 = 52{,}50\\,\\mathrm{€}$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $17{,}5\\,\\%$ de $120$.",
+      "choix": [
+        "$20$",
+        "$21$",
+        "$18$",
+        "$24$"
+      ],
+      "reponse": "$21$",
+      "explication": "$17{,}5\\,\\% \\times 120 = \\dfrac{17{,}5 \\times 120}{100} = \\dfrac{2100}{100} = 21$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$40\\,\\%$ de quel nombre vaut $60$ ?",
+      "choix": [
+        "$150$",
+        "$120$",
+        "$140$",
+        "$160$"
+      ],
+      "reponse": "$150$",
+      "explication": "$40\\,\\% \\times n = 60 \\Rightarrow n = \\dfrac{60}{0{,}4} = 150$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $125\\,\\%$ de $80$.",
+      "choix": [
+        "$100$",
+        "$95$",
+        "$90$",
+        "$110$"
+      ],
+      "reponse": "$100$",
+      "explication": "$125\\,\\% \\times 80 = \\dfrac{125 \\times 80}{100} = \\dfrac{10000}{100} = 100$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Un article passe de $50\\,\\mathrm{€}$ à $60\\,\\mathrm{€}$. Hausse en $\\,\\%$ :",
+      "choix": [
+        "$25\\,\\%$",
+        "$10\\,\\%$",
+        "$20\\,\\%$",
+        "$15\\,\\%$"
+      ],
+      "reponse": "$20\\,\\%$",
+      "explication": "Hausse : $10\\,\\mathrm{€}$. $\\dfrac{10}{50} \\times 100 = 20\\,\\%$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $7\\,\\%$ de $1\\,200$.",
+      "choix": [
+        "$72$",
+        "$84$",
+        "$90$",
+        "$80$"
+      ],
+      "reponse": "$84$",
+      "explication": "$7\\,\\% \\times 1\\,200 = \\dfrac{7 \\times 1\\,200}{100} = \\dfrac{8\\,400}{100} = 84$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "$20\\,\\%$ d'un nombre vaut $13$. Quel est ce nombre ?",
+      "choix": [
+        "$60$",
+        "$52$",
+        "$70$",
+        "$65$"
+      ],
+      "reponse": "$65$",
+      "explication": "$20\\,\\% \\times n = 13 \\Rightarrow n = \\dfrac{13}{0{,}2} = 65$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $0{,}5\\,\\%$ de $800$.",
+      "choix": [
+        "$8$",
+        "$5$",
+        "$2$",
+        "$4$"
+      ],
+      "reponse": "$4$",
+      "explication": "$0{,}5\\,\\% \\times 800 = \\dfrac{0{,}5 \\times 800}{100} = \\dfrac{400}{100} = 4$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Un produit à $90\\,\\mathrm{€}$ HT avec $20\\,\\%$ de TVA. Prix TTC :",
+      "choix": [
+        "$110\\,\\mathrm{€}$",
+        "$105\\,\\mathrm{€}$",
+        "$100\\,\\mathrm{€}$",
+        "$108\\,\\mathrm{€}$"
+      ],
+      "reponse": "$108\\,\\mathrm{€}$",
+      "explication": "$20\\,\\% \\times 90 = 18\\,\\mathrm{€}$. TTC : $90 + 18 = 108\\,\\mathrm{€}$.",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_23_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $33{,}33\\,\\%$ de $900$ (arrondi à l'unité).",
+      "choix": [
+        "$250$",
+        "$330$",
+        "$300$",
+        "$333$"
+      ],
+      "reponse": "$300$",
+      "explication": "$33{,}33\\,\\% \\approx \\dfrac{1}{3}$. $900 \\div 3 = 300$.",
+      "image": null,
+      "avec_calculatrice": true
+    }
+  ]
+}

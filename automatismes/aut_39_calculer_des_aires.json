@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_39",
+    "label": "Calculer des aires",
+    "icon": "📐",
+    "color": "#059669"
+  },
+  "questions": [
+    {
+      "id": "aut_39_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du carré $ABCD$ de côté $4\\,\\mathrm{cm}$.",
+      "choix": [
+        "$12\\,\\mathrm{cm}^2$",
+        "$16\\,\\mathrm{cm}^2$",
+        "$20\\,\\mathrm{cm}^2$",
+        "$8\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$16\\,\\mathrm{cm}^2$",
+      "explication": "Aire du carré : $\\mathcal{A} = c^2 = 4^2 = 16\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du rectangle $ABCD$ de longueur $L = 7\\,\\mathrm{cm}$ et de largeur $\\ell = 3\\,\\mathrm{cm}$.",
+      "choix": [
+        "$24\\,\\mathrm{cm}^2$",
+        "$21\\,\\mathrm{cm}^2$",
+        "$20\\,\\mathrm{cm}^2$",
+        "$18\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$21\\,\\mathrm{cm}^2$",
+      "explication": "Aire du rectangle : $\\mathcal{A} = L \\times \\ell = 7 \\times 3 = 21\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du triangle $ABC$ de base $BC = 6\\,\\mathrm{cm}$ et de hauteur $h = 4\\,\\mathrm{cm}$.",
+      "choix": [
+        "$24\\,\\mathrm{cm}^2$",
+        "$14\\,\\mathrm{cm}^2$",
+        "$10\\,\\mathrm{cm}^2$",
+        "$12\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$12\\,\\mathrm{cm}^2$",
+      "explication": "Aire du triangle : $\\mathcal{A} = \\dfrac{BC \\times h}{2} = \\dfrac{6 \\times 4}{2} = \\dfrac{24}{2} = 12\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du disque de centre $O$ et de rayon $r = 5\\,\\mathrm{cm}$. (Donner la valeur exacte.)",
+      "choix": [
+        "$50\\pi\\,\\mathrm{cm}^2$",
+        "$10\\pi\\,\\mathrm{cm}^2$",
+        "$25\\pi\\,\\mathrm{cm}^2$",
+        "$20\\pi\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$25\\pi\\,\\mathrm{cm}^2$",
+      "explication": "Aire du disque : $\\mathcal{A} = \\pi r^2 = \\pi \\times 5^2 = 25\\pi\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du carré $EFGH$ de côté $10\\,\\mathrm{m}$.",
+      "choix": [
+        "$100\\,\\mathrm{m}^2$",
+        "$40\\,\\mathrm{m}^2$",
+        "$120\\,\\mathrm{m}^2$",
+        "$80\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$100\\,\\mathrm{m}^2$",
+      "explication": "Aire du carré : $\\mathcal{A} = c^2 = 10^2 = 100\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du rectangle $KLMN$ de longueur $L = 12\\,\\mathrm{m}$ et de largeur $\\ell = 5\\,\\mathrm{m}$.",
+      "choix": [
+        "$55\\,\\mathrm{m}^2$",
+        "$65\\,\\mathrm{m}^2$",
+        "$60\\,\\mathrm{m}^2$",
+        "$70\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$60\\,\\mathrm{m}^2$",
+      "explication": "Aire du rectangle : $\\mathcal{A} = L \\times \\ell = 12 \\times 5 = 60\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du triangle $PQR$ de base $QR = 10\\,\\mathrm{cm}$ et de hauteur $h = 7\\,\\mathrm{cm}$.",
+      "choix": [
+        "$40\\,\\mathrm{cm}^2$",
+        "$35\\,\\mathrm{cm}^2$",
+        "$70\\,\\mathrm{cm}^2$",
+        "$30\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$35\\,\\mathrm{cm}^2$",
+      "explication": "Aire du triangle : $\\mathcal{A} = \\dfrac{QR \\times h}{2} = \\dfrac{10 \\times 7}{2} = \\dfrac{70}{2} = 35\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du disque de centre $O$ et de rayon $r = 3\\,\\mathrm{m}$. (Valeur exacte.)",
+      "choix": [
+        "$12\\pi\\,\\mathrm{m}^2$",
+        "$9\\pi\\,\\mathrm{m}^2$",
+        "$6\\pi\\,\\mathrm{m}^2$",
+        "$18\\pi\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$9\\pi\\,\\mathrm{m}^2$",
+      "explication": "Aire du disque : $\\mathcal{A} = \\pi r^2 = \\pi \\times 3^2 = 9\\pi\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du carré $ABCD$ de côté $6\\,\\mathrm{cm}$.",
+      "choix": [
+        "$30\\,\\mathrm{cm}^2$",
+        "$24\\,\\mathrm{cm}^2$",
+        "$42\\,\\mathrm{cm}^2$",
+        "$36\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$36\\,\\mathrm{cm}^2$",
+      "explication": "Aire du carré : $\\mathcal{A} = c^2 = 6^2 = 36\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du rectangle $ABCD$ de longueur $L = 15\\,\\mathrm{cm}$ et de largeur $\\ell = 8\\,\\mathrm{cm}$.",
+      "choix": [
+        "$120\\,\\mathrm{cm}^2$",
+        "$105\\,\\mathrm{cm}^2$",
+        "$115\\,\\mathrm{cm}^2$",
+        "$110\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$120\\,\\mathrm{cm}^2$",
+      "explication": "Aire du rectangle : $\\mathcal{A} = L \\times \\ell = 15 \\times 8 = 120\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du triangle $ABC$ de base $BC = 9\\,\\mathrm{m}$ et de hauteur $h = 4\\,\\mathrm{m}$.",
+      "choix": [
+        "$20\\,\\mathrm{m}^2$",
+        "$18\\,\\mathrm{m}^2$",
+        "$16\\,\\mathrm{m}^2$",
+        "$36\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$18\\,\\mathrm{m}^2$",
+      "explication": "Aire du triangle : $\\mathcal{A} = \\dfrac{BC \\times h}{2} = \\dfrac{9 \\times 4}{2} = \\dfrac{36}{2} = 18\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_12",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du disque de centre $O$ et de rayon $r = 7\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$56\\pi\\,\\mathrm{cm}^2$",
+        "$49\\pi\\,\\mathrm{cm}^2$",
+        "$28\\pi\\,\\mathrm{cm}^2$",
+        "$14\\pi\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$49\\pi\\,\\mathrm{cm}^2$",
+      "explication": "Aire du disque : $\\mathcal{A} = \\pi r^2 = \\pi \\times 7^2 = 49\\pi\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du carré $ABCD$ de côté $20\\,\\mathrm{m}$.",
+      "choix": [
+        "$200\\,\\mathrm{m}^2$",
+        "$500\\,\\mathrm{m}^2$",
+        "$300\\,\\mathrm{m}^2$",
+        "$400\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$400\\,\\mathrm{m}^2$",
+      "explication": "Aire du carré : $\\mathcal{A} = c^2 = 20^2 = 400\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du rectangle $ABCD$ de longueur $L = 25\\,\\mathrm{cm}$ et de largeur $\\ell = 4\\,\\mathrm{cm}$.",
+      "choix": [
+        "$95\\,\\mathrm{cm}^2$",
+        "$90\\,\\mathrm{cm}^2$",
+        "$100\\,\\mathrm{cm}^2$",
+        "$110\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$100\\,\\mathrm{cm}^2$",
+      "explication": "Aire du rectangle : $\\mathcal{A} = L \\times \\ell = 25 \\times 4 = 100\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du triangle $ABC$ de base $BC = 14\\,\\mathrm{cm}$ et de hauteur $h = 5\\,\\mathrm{cm}$.",
+      "choix": [
+        "$40\\,\\mathrm{cm}^2$",
+        "$70\\,\\mathrm{cm}^2$",
+        "$35\\,\\mathrm{cm}^2$",
+        "$30\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$35\\,\\mathrm{cm}^2$",
+      "explication": "Aire du triangle : $\\mathcal{A} = \\dfrac{BC \\times h}{2} = \\dfrac{14 \\times 5}{2} = \\dfrac{70}{2} = 35\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du disque de centre $O$ et de rayon $r = 10\\,\\mathrm{m}$. (Valeur exacte.)",
+      "choix": [
+        "$100\\pi\\,\\mathrm{m}^2$",
+        "$10\\pi\\,\\mathrm{m}^2$",
+        "$20\\pi\\,\\mathrm{m}^2$",
+        "$1000\\pi\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$100\\pi\\,\\mathrm{m}^2$",
+      "explication": "Aire du disque : $\\mathcal{A} = \\pi r^2 = \\pi \\times 10^2 = 100\\pi\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du carré $ABCD$ de côté $8\\,\\mathrm{cm}$.",
+      "choix": [
+        "$56\\,\\mathrm{cm}^2$",
+        "$72\\,\\mathrm{cm}^2$",
+        "$48\\,\\mathrm{cm}^2$",
+        "$64\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$64\\,\\mathrm{cm}^2$",
+      "explication": "Aire du carré : $\\mathcal{A} = c^2 = 8^2 = 64\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du rectangle $ABCD$ de longueur $L = 9\\,\\mathrm{m}$ et de largeur $\\ell = 9\\,\\mathrm{m}$.",
+      "choix": [
+        "$72\\,\\mathrm{m}^2$",
+        "$78\\,\\mathrm{m}^2$",
+        "$81\\,\\mathrm{m}^2$",
+        "$90\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$81\\,\\mathrm{m}^2$",
+      "explication": "Aire du rectangle (carré ici) : $\\mathcal{A} = L \\times \\ell = 9 \\times 9 = 81\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du triangle $ABC$ de base $BC = 8\\,\\mathrm{cm}$ et de hauteur $h = 8\\,\\mathrm{cm}$.",
+      "choix": [
+        "$64\\,\\mathrm{cm}^2$",
+        "$28\\,\\mathrm{cm}^2$",
+        "$24\\,\\mathrm{cm}^2$",
+        "$32\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$32\\,\\mathrm{cm}^2$",
+      "explication": "Aire du triangle : $\\mathcal{A} = \\dfrac{BC \\times h}{2} = \\dfrac{8 \\times 8}{2} = \\dfrac{64}{2} = 32\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Le cercle $\\mathcal{C}$ a pour diamètre $d = 6\\,\\mathrm{cm}$. Calcule l'aire du disque correspondant. (Valeur exacte.)",
+      "choix": [
+        "$9\\pi\\,\\mathrm{cm}^2$",
+        "$6\\pi\\,\\mathrm{cm}^2$",
+        "$36\\pi\\,\\mathrm{cm}^2$",
+        "$12\\pi\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$9\\pi\\,\\mathrm{cm}^2$",
+      "explication": "$r = d \\div 2 = 6 \\div 2 = 3\\,\\mathrm{cm}$. Aire du disque : $\\mathcal{A} = \\pi r^2 = \\pi \\times 3^2 = 9\\pi\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 35,
+      "enonce": "Le carré $ABCD$ a un périmètre de $24\\,\\mathrm{cm}$. Calcule son aire.",
+      "choix": [
+        "$24\\,\\mathrm{cm}^2$",
+        "$30\\,\\mathrm{cm}^2$",
+        "$36\\,\\mathrm{cm}^2$",
+        "$48\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$36\\,\\mathrm{cm}^2$",
+      "explication": "Périmètre du carré : $\\mathcal{P} = 4c \\Rightarrow c = \\mathcal{P} \\div 4 = 24 \\div 4 = 6\\,\\mathrm{cm}$. Aire : $\\mathcal{A} = c^2 = 6^2 = 36\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 35,
+      "enonce": "Le rectangle $ABCD$ a un périmètre $\\mathcal{P} = 30\\,\\mathrm{cm}$ et une longueur $L = 10\\,\\mathrm{cm}$. Calcule son aire.",
+      "choix": [
+        "$40\\,\\mathrm{cm}^2$",
+        "$55\\,\\mathrm{cm}^2$",
+        "$45\\,\\mathrm{cm}^2$",
+        "$50\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$50\\,\\mathrm{cm}^2$",
+      "explication": "$\\mathcal{P} = 2(L + \\ell) \\Rightarrow \\ell = \\mathcal{P} \\div 2 - L = 30 \\div 2 - 10 = 5\\,\\mathrm{cm}$. Aire : $\\mathcal{A} = L \\times \\ell = 10 \\times 5 = 50\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce": "Calcule l'aire du triangle $ABC$ de base $BC = 12\\,\\mathrm{m}$ et de hauteur $h = 9\\,\\mathrm{m}$.",
+      "choix": [
+        "$44\\,\\mathrm{m}^2$",
+        "$108\\,\\mathrm{m}^2$",
+        "$48\\,\\mathrm{m}^2$",
+        "$54\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$54\\,\\mathrm{m}^2$",
+      "explication": "Aire du triangle : $\\mathcal{A} = \\dfrac{BC \\times h}{2} = \\dfrac{12 \\times 9}{2} = \\dfrac{108}{2} = 54\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du disque de centre $O$ et de rayon $r = 4\\,\\mathrm{m}$. (Valeur exacte.)",
+      "choix": [
+        "$16\\pi\\,\\mathrm{m}^2$",
+        "$20\\pi\\,\\mathrm{m}^2$",
+        "$8\\pi\\,\\mathrm{m}^2$",
+        "$12\\pi\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$16\\pi\\,\\mathrm{m}^2$",
+      "explication": "Aire du disque : $\\mathcal{A} = \\pi r^2 = \\pi \\times 4^2 = 16\\pi\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du carré $ABCD$ de côté $15\\,\\mathrm{cm}$.",
+      "choix": [
+        "$200\\,\\mathrm{cm}^2$",
+        "$225\\,\\mathrm{cm}^2$",
+        "$250\\,\\mathrm{cm}^2$",
+        "$180\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$225\\,\\mathrm{cm}^2$",
+      "explication": "Aire du carré : $\\mathcal{A} = c^2 = 15^2 = 225\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du rectangle $ABCD$ de longueur $L = 30\\,\\mathrm{m}$ et de largeur $\\ell = 12\\,\\mathrm{m}$.",
+      "choix": [
+        "$360\\,\\mathrm{m}^2$",
+        "$380\\,\\mathrm{m}^2$",
+        "$320\\,\\mathrm{m}^2$",
+        "$340\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$360\\,\\mathrm{m}^2$",
+      "explication": "Aire du rectangle : $\\mathcal{A} = L \\times \\ell = 30 \\times 12 = 360\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du triangle $ABC$ de base $BC = 20\\,\\mathrm{cm}$ et de hauteur $h = 11\\,\\mathrm{cm}$.",
+      "choix": [
+        "$105\\,\\mathrm{cm}^2$",
+        "$100\\,\\mathrm{cm}^2$",
+        "$110\\,\\mathrm{cm}^2$",
+        "$220\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$110\\,\\mathrm{cm}^2$",
+      "explication": "Aire du triangle : $\\mathcal{A} = \\dfrac{BC \\times h}{2} = \\dfrac{20 \\times 11}{2} = \\dfrac{220}{2} = 110\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce": "Calcule l'aire du disque de centre $O$ et de rayon $r = 6\\,\\mathrm{cm}$. (Valeur exacte.)",
+      "choix": [
+        "$18\\pi\\,\\mathrm{cm}^2$",
+        "$12\\pi\\,\\mathrm{cm}^2$",
+        "$60\\pi\\,\\mathrm{cm}^2$",
+        "$36\\pi\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$36\\pi\\,\\mathrm{cm}^2$",
+      "explication": "Aire du disque : $\\mathcal{A} = \\pi r^2 = \\pi \\times 6^2 = 36\\pi\\,\\mathrm{cm}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du carré $ABCD$ de côté $9\\,\\mathrm{m}$.",
+      "choix": [
+        "$81\\,\\mathrm{m}^2$",
+        "$90\\,\\mathrm{m}^2$",
+        "$63\\,\\mathrm{m}^2$",
+        "$72\\,\\mathrm{m}^2$"
+      ],
+      "reponse": "$81\\,\\mathrm{m}^2$",
+      "explication": "Aire du carré : $\\mathcal{A} = c^2 = 9^2 = 81\\,\\mathrm{m}^2$.",
+      "image": null
+    },
+    {
+      "id": "aut_39_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Calcule l'aire du rectangle $ABCD$ de longueur $L = 40\\,\\mathrm{cm}$ et de largeur $\\ell = 15\\,\\mathrm{cm}$.",
+      "choix": [
+        "$600\\,\\mathrm{cm}^2$",
+        "$560\\,\\mathrm{cm}^2$",
+        "$500\\,\\mathrm{cm}^2$",
+        "$640\\,\\mathrm{cm}^2$"
+      ],
+      "reponse": "$600\\,\\mathrm{cm}^2$",
+      "explication": "Aire du rectangle : $\\mathcal{A} = L \\times \\ell = 40 \\times 15 = 600\\,\\mathrm{cm}^2$.",
+      "image": null
+    }
+  ]
+}

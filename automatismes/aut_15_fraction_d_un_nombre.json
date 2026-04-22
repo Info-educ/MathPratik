@@ -1,0 +1,551 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_15",
+    "label": "Prendre une fraction d'un nombre",
+    "icon": "🧮",
+    "color": "#78350f"
+  },
+  "questions": [
+    {
+      "id": "aut_15_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{3}{4}$de 32 = ?",
+      "choix": [
+        "16",
+        "24",
+        "28",
+        "20"
+      ],
+      "reponse": "24",
+      "explication": "32$\\times$3$\\div$4=24",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{2}{5}$de 35 = ?",
+      "choix": [
+        "10",
+        "18",
+        "14",
+        "16"
+      ],
+      "reponse": "14",
+      "explication": "35$\\times$2$\\div$5=14",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{5}{6}$de 24 = ?",
+      "choix": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "reponse": "20",
+      "explication": "24$\\times$5$\\div$6=20",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{3}{7}$de 49 = ?",
+      "choix": [
+        "27",
+        "21",
+        "24",
+        "18"
+      ],
+      "reponse": "21",
+      "explication": "49$\\times$3$\\div$7=21",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{7}{8}$de 64 = ?",
+      "choix": [
+        "56",
+        "60",
+        "64",
+        "48"
+      ],
+      "reponse": "56",
+      "explication": "64$\\times$7$\\div$8=56",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{4}{9}$de 81 = ?",
+      "choix": [
+        "36",
+        "40",
+        "32",
+        "28"
+      ],
+      "reponse": "36",
+      "explication": "81$\\times$4$\\div$9=36",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{5}{12}$de 60 = ?",
+      "choix": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "reponse": "25",
+      "explication": "60$\\times$5$\\div$12=25",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{2}{3}$de 45 = ?",
+      "choix": [
+        "30",
+        "40",
+        "25",
+        "35"
+      ],
+      "reponse": "30",
+      "explication": "45$\\times$2$\\div$3=30",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{3}{5}$de 75 = ?",
+      "choix": [
+        "50",
+        "55",
+        "40",
+        "45"
+      ],
+      "reponse": "45",
+      "explication": "75$\\times$3$\\div$5=45",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{7}{10}$de 90 = ?",
+      "choix": [
+        "77",
+        "63",
+        "70",
+        "56"
+      ],
+      "reponse": "63",
+      "explication": "90$\\times$7$\\div$10=63",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{1}{4}$de 100 = ?",
+      "choix": [
+        "35",
+        "30",
+        "20",
+        "25"
+      ],
+      "reponse": "25",
+      "explication": "100$\\div$4=25",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{5}{8}$de 40 = ?",
+      "choix": [
+        "30",
+        "20",
+        "25",
+        "35"
+      ],
+      "reponse": "25",
+      "explication": "40$\\times$5$\\div$8=25",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{4}{7}$de 63 = ?",
+      "choix": [
+        "30",
+        "42",
+        "36",
+        "40"
+      ],
+      "reponse": "36",
+      "explication": "63$\\times$4$\\div$7=36",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{3}{11}$de 88 = ?",
+      "choix": [
+        "36",
+        "24",
+        "30",
+        "20"
+      ],
+      "reponse": "24",
+      "explication": "88$\\times$3$\\div$11=24",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{9}{10}$de 50 = ?",
+      "choix": [
+        "55",
+        "50",
+        "40",
+        "45"
+      ],
+      "reponse": "45",
+      "explication": "50$\\times$9$\\div$10=45",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{2}{9}$de 72 = ?",
+      "choix": [
+        "14",
+        "20",
+        "18",
+        "16"
+      ],
+      "reponse": "16",
+      "explication": "72$\\times$2$\\div$9=16",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{5}{7}$de 56 = ?",
+      "choix": [
+        "45",
+        "40",
+        "50",
+        "35"
+      ],
+      "reponse": "40",
+      "explication": "56$\\times$5$\\div$7=40",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{7}{12}$de 96 = ?",
+      "choix": [
+        "56",
+        "52",
+        "66",
+        "60"
+      ],
+      "reponse": "56",
+      "explication": "96$\\times$7$\\div$12=56",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{4}{5}$de 120 = ?",
+      "choix": [
+        "100",
+        "88",
+        "96",
+        "80"
+      ],
+      "reponse": "96",
+      "explication": "120$\\times$4$\\div$5=96",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{3}{8}$de 160 = ?",
+      "choix": [
+        "60",
+        "80",
+        "50",
+        "70"
+      ],
+      "reponse": "60",
+      "explication": "160$\\times$3$\\div$8=60",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{5}{9}$de 54 = ?",
+      "choix": [
+        "25",
+        "30",
+        "40",
+        "35"
+      ],
+      "reponse": "30",
+      "explication": "54$\\times$5$\\div$9=30",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{7}{11}$de 99 = ?",
+      "choix": [
+        "77",
+        "70",
+        "56",
+        "63"
+      ],
+      "reponse": "63",
+      "explication": "99$\\times$7$\\div$11=63",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{2}{7}$de 84 = ?",
+      "choix": [
+        "28",
+        "20",
+        "24",
+        "32"
+      ],
+      "reponse": "24",
+      "explication": "84$\\times$2$\\div$7=24",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{9}{16}$de 48 = ?",
+      "choix": [
+        "27",
+        "24",
+        "33",
+        "30"
+      ],
+      "reponse": "27",
+      "explication": "48$\\times$9$\\div$16=27",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{5}{6}$de 36 = ?",
+      "choix": [
+        "40",
+        "35",
+        "25",
+        "30"
+      ],
+      "reponse": "30",
+      "explication": "36$\\times$5$\\div$6=30",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{11}{12}$de 108 = ?",
+      "choix": [
+        "99",
+        "110",
+        "121",
+        "88"
+      ],
+      "reponse": "99",
+      "explication": "108$\\times$11$\\div$12=99",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{3}{10}$de 200 = ?",
+      "choix": [
+        "60",
+        "80",
+        "50",
+        "70"
+      ],
+      "reponse": "60",
+      "explication": "200$\\times$3$\\div$10=60",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{7}{9}$de 63 = ?",
+      "choix": [
+        "63",
+        "49",
+        "56",
+        "42"
+      ],
+      "reponse": "49",
+      "explication": "63$\\times$7$\\div$9=49",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{4}{11}$de 55 = ?",
+      "choix": [
+        "28",
+        "16",
+        "24",
+        "20"
+      ],
+      "reponse": "20",
+      "explication": "55$\\times$4$\\div$11=20",
+      "image": null,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_15_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "$\\frac{6}{7}$de 35 = ?",
+      "choix": [
+        "42",
+        "36",
+        "24",
+        "30"
+      ],
+      "reponse": "30",
+      "explication": "35$\\times$6$\\div$7=30",
+      "image": null,
+      "avec_calculatrice": true
+    }
+  ]
+}

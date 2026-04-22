@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_17",
+    "label": "Multiplier et diviser par 10, 100 ou 1 000",
+    "icon": "✖️",
+    "color": "#0891b2"
+  },
+  "questions": [
+    {
+      "id": "aut_17_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $3{,}67 \\times 10$",
+      "choix": [
+        "$367$",
+        "$36{,}7$",
+        "$0{,}367$",
+        "$3{,}67$"
+      ],
+      "reponse": "$36{,}7$",
+      "explication": "$\\times\\,10$ : le chiffre décale d'un rang vers la gauche. $3{,}67$ $\\rightarrow$ $36{,}7$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_01.png"
+    },
+    {
+      "id": "aut_17_02",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}245 \\times 100$",
+      "choix": [
+        "$245$",
+        "$24{,}5$",
+        "$0{,}0245$",
+        "$2{,}45$"
+      ],
+      "reponse": "$24{,}5$",
+      "explication": "$\\times\\,100$ : le chiffre décale de 2 rangs vers la gauche. $0{,}245$ $\\rightarrow$ $24{,}5$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_02.png"
+    },
+    {
+      "id": "aut_17_03",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}038 \\times 1\\,000$",
+      "choix": [
+        "$380$",
+        "$38$",
+        "$3{,}8$",
+        "$0{,}38$"
+      ],
+      "reponse": "$38$",
+      "explication": "$\\times\\,1\\,000$ : le chiffre décale de 3 rangs vers la gauche. $0{,}038$ $\\rightarrow$ $38$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_03.png"
+    },
+    {
+      "id": "aut_17_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $42{,}1 \\div 10$",
+      "choix": [
+        "$4{,}21$",
+        "$421$",
+        "$0{,}421$",
+        "$42{,}10$"
+      ],
+      "reponse": "$4{,}21$",
+      "explication": "$\\div\\,10$ : le chiffre décale d'un rang vers la droite. $42{,}1$ $\\rightarrow$ $4{,}21$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_04.png"
+    },
+    {
+      "id": "aut_17_05",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $7{,}5 \\div 100$",
+      "choix": [
+        "$0{,}0075$",
+        "$0{,}075$",
+        "$75$",
+        "$0{,}75$"
+      ],
+      "reponse": "$0{,}075$",
+      "explication": "$\\div\\,100$ : le chiffre décale de 2 rangs vers la droite. $7{,}5$ $\\rightarrow$ $0{,}075$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_05.png"
+    },
+    {
+      "id": "aut_17_06",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $85 \\div 1\\,000$",
+      "choix": [
+        "$0{,}0085$",
+        "$8{,}5$",
+        "$0{,}085$",
+        "$0{,}85$"
+      ],
+      "reponse": "$0{,}085$",
+      "explication": "$\\div\\,1\\,000$ : le chiffre décale de 3 rangs vers la droite. $85$ $\\rightarrow$ $0{,}085$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_06.png"
+    },
+    {
+      "id": "aut_17_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $1{,}508 \\times 10$",
+      "choix": [
+        "$15{,}08$",
+        "$15{,}8$",
+        "$150{,}8$",
+        "$0{,}1508$"
+      ],
+      "reponse": "$15{,}08$",
+      "explication": "$\\times\\,10$ : le chiffre décale d'un rang vers la gauche. $1{,}508$ $\\rightarrow$ $15{,}08$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_07.png"
+    },
+    {
+      "id": "aut_17_08",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}072 \\times 100$",
+      "choix": [
+        "$0{,}72$",
+        "$72$",
+        "$720$",
+        "$7{,}2$"
+      ],
+      "reponse": "$7{,}2$",
+      "explication": "$\\times\\,100$ : le chiffre décale de 2 rangs vers la gauche. $0{,}072$ $\\rightarrow$ $7{,}2$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_08.png"
+    },
+    {
+      "id": "aut_17_09",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}9 \\times 1\\,000$",
+      "choix": [
+        "$9$",
+        "$90$",
+        "$900$",
+        "$9\\,000$"
+      ],
+      "reponse": "$900$",
+      "explication": "$\\times\\,1\\,000$ : le chiffre décale de 3 rangs vers la gauche. $0{,}9$ $\\rightarrow$ $900$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_09.png"
+    },
+    {
+      "id": "aut_17_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $136{,}4 \\div 10$",
+      "choix": [
+        "$136{,}4$",
+        "$1{,}364$",
+        "$13{,}64$",
+        "$1\\,364$"
+      ],
+      "reponse": "$13{,}64$",
+      "explication": "$\\div\\,10$ : le chiffre décale d'un rang vers la droite. $136{,}4$ $\\rightarrow$ $13{,}64$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_10.png"
+    },
+    {
+      "id": "aut_17_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $5{,}2 \\div 100$",
+      "choix": [
+        "$52$",
+        "$0{,}52$",
+        "$0{,}052$",
+        "$0{,}0052$"
+      ],
+      "reponse": "$0{,}052$",
+      "explication": "$\\div\\,100$ : le chiffre décale de 2 rangs vers la droite. $5{,}2$ $\\rightarrow$ $0{,}052$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_11.png"
+    },
+    {
+      "id": "aut_17_12",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $4\\,300 \\div 1\\,000$",
+      "choix": [
+        "$43$",
+        "$430$",
+        "$4{,}3$",
+        "$0{,}43$"
+      ],
+      "reponse": "$4{,}3$",
+      "explication": "$\\div\\,1\\,000$ : le chiffre décale de 3 rangs vers la droite. $4\\,300$ $\\rightarrow$ $4{,}3$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_12.png"
+    },
+    {
+      "id": "aut_17_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}006 \\times 10$",
+      "choix": [
+        "$0{,}006$",
+        "$0{,}06$",
+        "$0{,}6$",
+        "$6$"
+      ],
+      "reponse": "$0{,}06$",
+      "explication": "$\\times\\,10$ : le chiffre décale d'un rang vers la gauche. $0{,}006$ $\\rightarrow$ $0{,}06$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_13.png"
+    },
+    {
+      "id": "aut_17_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}0014 \\times 100$",
+      "choix": [
+        "$0{,}14$",
+        "$1{,}4$",
+        "$0{,}014$",
+        "$14$"
+      ],
+      "reponse": "$0{,}14$",
+      "explication": "$\\times\\,100$ : le chiffre décale de 2 rangs vers la gauche. $0{,}0014$ $\\rightarrow$ $0{,}14$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_14.png"
+    },
+    {
+      "id": "aut_17_15",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $1{,}57 \\times 1\\,000$",
+      "choix": [
+        "$157$",
+        "$15{,}7$",
+        "$1\\,570$",
+        "$15\\,700$"
+      ],
+      "reponse": "$1\\,570$",
+      "explication": "$\\times\\,1\\,000$ : le chiffre décale de 3 rangs vers la gauche. $1{,}57$ $\\rightarrow$ $1\\,570$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_15.png"
+    },
+    {
+      "id": "aut_17_16",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}8 \\div 10$",
+      "choix": [
+        "$8$",
+        "$0{,}8$",
+        "$0{,}08$",
+        "$0{,}008$"
+      ],
+      "reponse": "$0{,}08$",
+      "explication": "$\\div\\,10$ : le chiffre décale d'un rang vers la droite. $0{,}8$ $\\rightarrow$ $0{,}08$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_16.png"
+    },
+    {
+      "id": "aut_17_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}03 \\div 100$",
+      "choix": [
+        "$0{,}3$",
+        "$0{,}03$",
+        "$0{,}003$",
+        "$0{,}0003$"
+      ],
+      "reponse": "$0{,}0003$",
+      "explication": "$\\div\\,100$ : le chiffre décale de 2 rangs vers la droite. $0{,}03$ $\\rightarrow$ $0{,}0003$.",
+      "image_explication": null
+    },
+    {
+      "id": "aut_17_18",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $52 \\div 1\\,000$",
+      "choix": [
+        "$0{,}52$",
+        "$0{,}052$",
+        "$5{,}2$",
+        "$520$"
+      ],
+      "reponse": "$0{,}052$",
+      "explication": "$\\div\\,1\\,000$ : le chiffre décale de 3 rangs vers la droite. $52$ $\\rightarrow$ $0{,}052$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_18.png"
+    },
+    {
+      "id": "aut_17_19",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $74 \\times 0{,}1$",
+      "choix": [
+        "$740$",
+        "$74$",
+        "$7{,}4$",
+        "$0{,}74$"
+      ],
+      "reponse": "$7{,}4$",
+      "explication": "$\\times 0{,}1$ équivaut à $\\div 10$ : le chiffre décale d'un rang vers la droite. $74$ $\\rightarrow$ $7{,}4$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_19.png"
+    },
+    {
+      "id": "aut_17_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $630 \\times 0{,}01$",
+      "choix": [
+        "$63$",
+        "$6{,}3$",
+        "$0{,}63$",
+        "$0{,}063$"
+      ],
+      "reponse": "$6{,}3$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : le chiffre décale de 2 rangs vers la droite. $630$ $\\rightarrow$ $6{,}3$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_20.png"
+    },
+    {
+      "id": "aut_17_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $5\\,200 \\times 0{,}001$",
+      "choix": [
+        "$52$",
+        "$5{,}2$",
+        "$0{,}52$",
+        "$520$"
+      ],
+      "reponse": "$5{,}2$",
+      "explication": "$\\times 0{,}001$ équivaut à $\\div 1\\,000$ : le chiffre décale de 3 rangs vers la droite. $5\\,200$ $\\rightarrow$ $5{,}2$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_21.png"
+    },
+    {
+      "id": "aut_17_22",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}45 \\times 0{,}1$",
+      "choix": [
+        "$45$",
+        "$4{,}5$",
+        "$0{,}45$",
+        "$0{,}045$"
+      ],
+      "reponse": "$0{,}045$",
+      "explication": "$\\times 0{,}1$ équivaut à $\\div 10$ : le chiffre décale d'un rang vers la droite. $0{,}45$ $\\rightarrow$ $0{,}045$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_22.png"
+    },
+    {
+      "id": "aut_17_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $2{,}8 \\times 0{,}01$",
+      "choix": [
+        "$28$",
+        "$2{,}8$",
+        "$0{,}28$",
+        "$0{,}028$"
+      ],
+      "reponse": "$0{,}028$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : le chiffre décale de 2 rangs vers la droite. $2{,}8$ $\\rightarrow$ $0{,}028$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_23.png"
+    },
+    {
+      "id": "aut_17_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $16 \\times 0{,}001$",
+      "choix": [
+        "$16$",
+        "$0{,}16$",
+        "$0{,}016$",
+        "$0{,}0016$"
+      ],
+      "reponse": "$0{,}016$",
+      "explication": "$\\times 0{,}001$ équivaut à $\\div 1\\,000$ : le chiffre décale de 3 rangs vers la droite. $16$ $\\rightarrow$ $0{,}016$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_24.png"
+    },
+    {
+      "id": "aut_17_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $9\\,360 \\times 0{,}01$",
+      "choix": [
+        "$9{,}36$",
+        "$93{,}6$",
+        "$936$",
+        "$9\\,360$"
+      ],
+      "reponse": "$93{,}6$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : le chiffre décale de 2 rangs vers la droite. $9\\,360$ $\\rightarrow$ $93{,}6$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_25.png"
+    },
+    {
+      "id": "aut_17_26",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}07 \\times 10$",
+      "choix": [
+        "$0{,}07$",
+        "$0{,}7$",
+        "$7$",
+        "$70$"
+      ],
+      "reponse": "$0{,}7$",
+      "explication": "$\\times\\,10$ : le chiffre décale d'un rang vers la gauche. $0{,}07$ $\\rightarrow$ $0{,}7$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_26.png"
+    },
+    {
+      "id": "aut_17_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $2{,}004 \\times 1\\,000$",
+      "choix": [
+        "$200{,}4$",
+        "$2\\,004$",
+        "$20{,}04$",
+        "$2{,}004$"
+      ],
+      "reponse": "$2\\,004$",
+      "explication": "$\\times\\,1\\,000$ : le chiffre décale de 3 rangs vers la gauche. $2{,}004$ $\\rightarrow$ $2\\,004$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_27.png"
+    },
+    {
+      "id": "aut_17_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $30\\,500 \\div 1\\,000$",
+      "choix": [
+        "$305$",
+        "$30{,}5$",
+        "$3{,}05$",
+        "$0{,}305$"
+      ],
+      "reponse": "$30{,}5$",
+      "explication": "$\\div\\,1\\,000$ : le chiffre décale de 3 rangs vers la droite. $30\\,500$ $\\rightarrow$ $30{,}5$.",
+      "image_explication": null
+    },
+    {
+      "id": "aut_17_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $0{,}003 \\times 100$",
+      "choix": [
+        "$0{,}03$",
+        "$0{,}3$",
+        "$3$",
+        "$30$"
+      ],
+      "reponse": "$0{,}3$",
+      "explication": "$\\times\\,100$ : le chiffre décale de 2 rangs vers la gauche. $0{,}003$ $\\rightarrow$ $0{,}3$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_29.png"
+    },
+    {
+      "id": "aut_17_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 15,
+      "enonce": "Calcule : $125 \\times 0{,}01$",
+      "choix": [
+        "$12{,}5$",
+        "$1{,}25$",
+        "$0{,}125$",
+        "$125$"
+      ],
+      "reponse": "$1{,}25$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : le chiffre décale de 2 rangs vers la droite. $125$ $\\rightarrow$ $1{,}25$.",
+      "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_30.png"
+    }
+  ]
+}

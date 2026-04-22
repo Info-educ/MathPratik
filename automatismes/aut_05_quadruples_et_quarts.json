@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_05",
+    "label": "Quadruples et quarts",
+    "icon": "4️⃣",
+    "color": "#d97706"
+  },
+  "questions": [
+    {
+      "id": "aut_05_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 12 = ?",
+      "choix": [
+        "40",
+        "36",
+        "44",
+        "48"
+      ],
+      "reponse": "48",
+      "explication": "12$\\times$4=48",
+      "image": null
+    },
+    {
+      "id": "aut_05_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 48 = ?",
+      "choix": [
+        "10",
+        "16",
+        "14",
+        "12"
+      ],
+      "reponse": "12",
+      "explication": "48$\\div$4=12",
+      "image": null
+    },
+    {
+      "id": "aut_05_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 25 = ?",
+      "choix": [
+        "75",
+        "125",
+        "100",
+        "90"
+      ],
+      "reponse": "100",
+      "explication": "25$\\times$4=100",
+      "image": null
+    },
+    {
+      "id": "aut_05_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 100 = ?",
+      "choix": [
+        "30",
+        "20",
+        "25",
+        "40"
+      ],
+      "reponse": "25",
+      "explication": "100$\\div$4=25",
+      "image": null
+    },
+    {
+      "id": "aut_05_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 17 = ?",
+      "choix": [
+        "56",
+        "72",
+        "68",
+        "58"
+      ],
+      "reponse": "68",
+      "explication": "17$\\times$4=68",
+      "image": null
+    },
+    {
+      "id": "aut_05_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 68 = ?",
+      "choix": [
+        "17",
+        "19",
+        "21",
+        "13"
+      ],
+      "reponse": "17",
+      "explication": "68$\\div$4=17",
+      "image": null
+    },
+    {
+      "id": "aut_05_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 30 = ?",
+      "choix": [
+        "100",
+        "90",
+        "120",
+        "110"
+      ],
+      "reponse": "120",
+      "explication": "30$\\times$4=120",
+      "image": null
+    },
+    {
+      "id": "aut_05_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 120 = ?",
+      "choix": [
+        "40",
+        "28",
+        "24",
+        "30"
+      ],
+      "reponse": "30",
+      "explication": "120$\\div$4=30",
+      "image": null
+    },
+    {
+      "id": "aut_05_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 23 = ?",
+      "choix": [
+        "72",
+        "88",
+        "82",
+        "92"
+      ],
+      "reponse": "92",
+      "explication": "23$\\times$4=92",
+      "image": null
+    },
+    {
+      "id": "aut_05_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 92 = ?",
+      "choix": [
+        "23",
+        "27",
+        "25",
+        "21"
+      ],
+      "reponse": "23",
+      "explication": "92$\\div$4=23",
+      "image": null
+    },
+    {
+      "id": "aut_05_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 14 = ?",
+      "choix": [
+        "44",
+        "56",
+        "60",
+        "48"
+      ],
+      "reponse": "56",
+      "explication": "14$\\times$4=56",
+      "image": null
+    },
+    {
+      "id": "aut_05_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 56 = ?",
+      "choix": [
+        "14",
+        "16",
+        "12",
+        "18"
+      ],
+      "reponse": "14",
+      "explication": "56$\\div$4=14",
+      "image": null
+    },
+    {
+      "id": "aut_05_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 15 = ?",
+      "choix": [
+        "55",
+        "75",
+        "45",
+        "60"
+      ],
+      "reponse": "60",
+      "explication": "15$\\times$4=60",
+      "image": null
+    },
+    {
+      "id": "aut_05_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 60 = ?",
+      "choix": [
+        "12",
+        "10",
+        "15",
+        "20"
+      ],
+      "reponse": "15",
+      "explication": "60$\\div$4=15",
+      "image": null
+    },
+    {
+      "id": "aut_05_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 11 = ?",
+      "choix": [
+        "44",
+        "55",
+        "33",
+        "40"
+      ],
+      "reponse": "44",
+      "explication": "11$\\times$4=44",
+      "image": null
+    },
+    {
+      "id": "aut_05_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 44 = ?",
+      "choix": [
+        "14",
+        "11",
+        "8",
+        "10"
+      ],
+      "reponse": "11",
+      "explication": "44$\\div$4=11",
+      "image": null
+    },
+    {
+      "id": "aut_05_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 50 = ?",
+      "choix": [
+        "200",
+        "150",
+        "250",
+        "180"
+      ],
+      "reponse": "200",
+      "explication": "50$\\times$4=200",
+      "image": null
+    },
+    {
+      "id": "aut_05_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 200 = ?",
+      "choix": [
+        "60",
+        "40",
+        "45",
+        "50"
+      ],
+      "reponse": "50",
+      "explication": "200$\\div$4=50",
+      "image": null
+    },
+    {
+      "id": "aut_05_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 20 = ?",
+      "choix": [
+        "100",
+        "80",
+        "60",
+        "70"
+      ],
+      "reponse": "80",
+      "explication": "20$\\times$4=80",
+      "image": null
+    },
+    {
+      "id": "aut_05_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 80 = ?",
+      "choix": [
+        "15",
+        "20",
+        "25",
+        "18"
+      ],
+      "reponse": "20",
+      "explication": "80$\\div$4=20",
+      "image": null
+    },
+    {
+      "id": "aut_05_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 18 = ?",
+      "choix": [
+        "72",
+        "64",
+        "54",
+        "68"
+      ],
+      "reponse": "72",
+      "explication": "18$\\times$4=72",
+      "image": null
+    },
+    {
+      "id": "aut_05_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 72 = ?",
+      "choix": [
+        "18",
+        "22",
+        "14",
+        "20"
+      ],
+      "reponse": "18",
+      "explication": "72$\\div$4=18",
+      "image": null
+    },
+    {
+      "id": "aut_05_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 40 = ?",
+      "choix": [
+        "120",
+        "160",
+        "200",
+        "140"
+      ],
+      "reponse": "160",
+      "explication": "40$\\times$4=160",
+      "image": null
+    },
+    {
+      "id": "aut_05_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 160 = ?",
+      "choix": [
+        "40",
+        "30",
+        "35",
+        "50"
+      ],
+      "reponse": "40",
+      "explication": "160$\\div$4=40",
+      "image": null
+    },
+    {
+      "id": "aut_05_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 32 = ?",
+      "choix": [
+        "96",
+        "112",
+        "128",
+        "120"
+      ],
+      "reponse": "128",
+      "explication": "32$\\times$4=128",
+      "image": null
+    },
+    {
+      "id": "aut_05_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 128 = ?",
+      "choix": [
+        "30",
+        "36",
+        "32",
+        "28"
+      ],
+      "reponse": "32",
+      "explication": "128$\\div$4=32",
+      "image": null
+    },
+    {
+      "id": "aut_05_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 22 = ?",
+      "choix": [
+        "84",
+        "66",
+        "80",
+        "88"
+      ],
+      "reponse": "88",
+      "explication": "22$\\times$4=88",
+      "image": null
+    },
+    {
+      "id": "aut_05_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 88 = ?",
+      "choix": [
+        "18",
+        "20",
+        "26",
+        "22"
+      ],
+      "reponse": "22",
+      "explication": "88$\\div$4=22",
+      "image": null
+    },
+    {
+      "id": "aut_05_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quadruple de 13 = ?",
+      "choix": [
+        "48",
+        "52",
+        "62",
+        "42"
+      ],
+      "reponse": "52",
+      "explication": "13$\\times$4=52",
+      "image": null
+    },
+    {
+      "id": "aut_05_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "Quart de 52 = ?",
+      "choix": [
+        "17",
+        "13",
+        "11",
+        "15"
+      ],
+      "reponse": "13",
+      "explication": "52$\\div$4=13",
+      "image": null
+    }
+  ]
+}

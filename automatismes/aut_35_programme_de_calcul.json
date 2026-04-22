@@ -1,0 +1,876 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_35",
+    "label": "Appliquer un programme de calcul",
+    "icon": "🔄",
+    "color": "#0891b2"
+  },
+  "questions": [
+    {
+      "id": "aut_35_01",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $22$.</p></div>",
+      "choix": [
+        "$32$",
+        "$30$",
+        "$26$",
+        "$28$"
+      ],
+      "reponse": "$32$",
+      "explication": "$22 - 6 = 16$ puis $16 \\times 2 = 32$. Résultat : $\\mathbf{32}$.",
+      "image": null,
+      "programme": {
+        "lettre": "A",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui soustraire $6$",
+          "Calculer le double du résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 22,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_02",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $18$.</p></div>",
+      "choix": [
+        "$24$",
+        "$22$",
+        "$28$",
+        "$26$"
+      ],
+      "reponse": "$24$",
+      "explication": "$18 - 6 = 12$ puis $12 \\times 2 = 24$. Résultat : $\\mathbf{24}$.",
+      "image": null,
+      "programme": {
+        "lettre": "A",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui soustraire $6$",
+          "Calculer le double du résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 18,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_03",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $33$.</p></div>",
+      "choix": [
+        "$52$",
+        "$50$",
+        "$56$",
+        "$54$"
+      ],
+      "reponse": "$54$",
+      "explication": "$33 - 6 = 27$ puis $27 \\times 2 = 54$. Résultat : $\\mathbf{54}$.",
+      "image": null,
+      "programme": {
+        "lettre": "A",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui soustraire $6$",
+          "Calculer le double du résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 33,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_04",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $10$.</p></div>",
+      "choix": [
+        "$10$",
+        "$6$",
+        "$8$",
+        "$4$"
+      ],
+      "reponse": "$8$",
+      "explication": "$10 - 6 = 4$ puis $4 \\times 2 = 8$. Résultat : $\\mathbf{8}$.",
+      "image": null,
+      "programme": {
+        "lettre": "A",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui soustraire $6$",
+          "Calculer le double du résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 10,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_05",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme A</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $6$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Si on choisit un nombre $a$, quelle est l'expression du résultat ?</p></div>",
+      "choix": [
+        "$a - 12$",
+        "$2a - 6$",
+        "$2(a + 6)$",
+        "$2a - 12$"
+      ],
+      "reponse": "$2a - 12$",
+      "explication": "$a - 6$ puis $\\times 2$ donne $2(a-6) = 2a - 12$.",
+      "image": null,
+      "programme": {
+        "lettre": "A",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui soustraire $6$",
+          "Calculer le double du résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "litteral",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_06",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Applique ce programme avec le nombre $18$.</p></div>",
+      "choix": [
+        "$0$",
+        "$-4$",
+        "$2$",
+        "$-2$"
+      ],
+      "reponse": "$-2$",
+      "explication": "$18 \\div 3 = 6$ puis $6 - 8 = -2$. Résultat : $\\mathbf{-2}$.",
+      "image": null,
+      "programme": {
+        "lettre": "B",
+        "etapes": [
+          "Choisir un nombre",
+          "Le diviser par $3$",
+          "Soustraire $8$ au résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 18,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_07",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Applique ce programme avec le nombre $33$.</p></div>",
+      "choix": [
+        "$1$",
+        "$3$",
+        "$7$",
+        "$5$"
+      ],
+      "reponse": "$3$",
+      "explication": "$33 \\div 3 = 11$ puis $11 - 8 = 3$. Résultat : $\\mathbf{3}$.",
+      "image": null,
+      "programme": {
+        "lettre": "B",
+        "etapes": [
+          "Choisir un nombre",
+          "Le diviser par $3$",
+          "Soustraire $8$ au résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 33,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_08",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Applique ce programme avec le nombre $42$.</p></div>",
+      "choix": [
+        "$8$",
+        "$4$",
+        "$6$",
+        "$10$"
+      ],
+      "reponse": "$6$",
+      "explication": "$42 \\div 3 = 14$ puis $14 - 8 = 6$. Résultat : $\\mathbf{6}$.",
+      "image": null,
+      "programme": {
+        "lettre": "B",
+        "etapes": [
+          "Choisir un nombre",
+          "Le diviser par $3$",
+          "Soustraire $8$ au résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 42,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_09",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Applique ce programme avec le nombre $24$.</p></div>",
+      "choix": [
+        "$-2$",
+        "$0$",
+        "$2$",
+        "$4$"
+      ],
+      "reponse": "$0$",
+      "explication": "$24 \\div 3 = 8$ puis $8 - 8 = 0$. Résultat : $\\mathbf{0}$.",
+      "image": null,
+      "programme": {
+        "lettre": "B",
+        "etapes": [
+          "Choisir un nombre",
+          "Le diviser par $3$",
+          "Soustraire $8$ au résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "numerique",
+      "valeur_n": 24,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_10",
+      "niveau": 1,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme B</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $3$</div><div class='prog-etape'>Soustraire $8$ au résultat</div></div><p>Si on choisit un nombre $a$, quelle est l'expression du résultat ?</p></div>",
+      "choix": [
+        "$\\dfrac{a}{3} + 8$",
+        "$\\dfrac{a - 8}{3}$",
+        "$\\dfrac{a}{3} - 8$",
+        "$a - \\dfrac{8}{3}$"
+      ],
+      "reponse": "$\\dfrac{a}{3} - 8$",
+      "explication": "$a \\div 3$ puis $- 8$ donne $\\dfrac{a}{3} - 8$.",
+      "image": null,
+      "programme": {
+        "lettre": "B",
+        "etapes": [
+          "Choisir un nombre",
+          "Le diviser par $3$",
+          "Soustraire $8$ au résultat"
+        ],
+        "variable": "a"
+      },
+      "question_type": "litteral",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_11",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Applique ce programme avec le nombre $5$.</p></div>",
+      "choix": [
+        "$23$",
+        "$29$",
+        "$27$",
+        "$25$"
+      ],
+      "reponse": "$27$",
+      "explication": "$5 + 4 = 9$ puis $9 \\times 3 = 27$. Résultat : $\\mathbf{27}$.",
+      "image": null,
+      "programme": {
+        "lettre": "C",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $4$",
+          "Calculer le triple du résultat"
+        ],
+        "variable": "x"
+      },
+      "question_type": "numerique",
+      "valeur_n": 5,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_12",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Applique ce programme avec le nombre $3$.</p></div>",
+      "choix": [
+        "$19$",
+        "$21$",
+        "$25$",
+        "$23$"
+      ],
+      "reponse": "$21$",
+      "explication": "$3 + 4 = 7$ puis $7 \\times 3 = 21$. Résultat : $\\mathbf{21}$.",
+      "image": null,
+      "programme": {
+        "lettre": "C",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $4$",
+          "Calculer le triple du résultat"
+        ],
+        "variable": "x"
+      },
+      "question_type": "numerique",
+      "valeur_n": 3,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_13",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Applique ce programme avec le nombre $10$.</p></div>",
+      "choix": [
+        "$44$",
+        "$40$",
+        "$42$",
+        "$38$"
+      ],
+      "reponse": "$42$",
+      "explication": "$10 + 4 = 14$ puis $14 \\times 3 = 42$. Résultat : $\\mathbf{42}$.",
+      "image": null,
+      "programme": {
+        "lettre": "C",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $4$",
+          "Calculer le triple du résultat"
+        ],
+        "variable": "x"
+      },
+      "question_type": "numerique",
+      "valeur_n": 10,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_14",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Applique ce programme avec le nombre $0$.</p></div>",
+      "choix": [
+        "$16$",
+        "$14$",
+        "$12$",
+        "$10$"
+      ],
+      "reponse": "$12$",
+      "explication": "$0 + 4 = 4$ puis $4 \\times 3 = 12$. Résultat : $\\mathbf{12}$.",
+      "image": null,
+      "programme": {
+        "lettre": "C",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $4$",
+          "Calculer le triple du résultat"
+        ],
+        "variable": "x"
+      },
+      "question_type": "numerique",
+      "valeur_n": 0,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_15",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme C</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $4$</div><div class='prog-etape'>Calculer le triple du résultat</div></div><p>Si on choisit un nombre $x$, quelle est l'expression du résultat ?</p></div>",
+      "choix": [
+        "$3x + 4$",
+        "$x + 12$",
+        "$3(x + 12)$",
+        "$3x + 12$"
+      ],
+      "reponse": "$3x + 12$",
+      "explication": "$x + 4$ puis $\\times 3$ donne $3(x+4) = 3x + 12$.",
+      "image": null,
+      "programme": {
+        "lettre": "C",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $4$",
+          "Calculer le triple du résultat"
+        ],
+        "variable": "x"
+      },
+      "question_type": "litteral",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_16",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Applique ce programme avec le nombre $4$.</p></div>",
+      "choix": [
+        "$25$",
+        "$23$",
+        "$27$",
+        "$21$"
+      ],
+      "reponse": "$23$",
+      "explication": "$4 \\times 5 = 20$ puis $20 + 3 = 23$. Résultat : $\\mathbf{23}$.",
+      "image": null,
+      "programme": {
+        "lettre": "D",
+        "etapes": [
+          "Choisir un nombre",
+          "Le multiplier par $5$",
+          "Lui ajouter $3$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "numerique",
+      "valeur_n": 4,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_17",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Applique ce programme avec le nombre $7$.</p></div>",
+      "choix": [
+        "$38$",
+        "$42$",
+        "$36$",
+        "$40$"
+      ],
+      "reponse": "$38$",
+      "explication": "$7 \\times 5 = 35$ puis $35 + 3 = 38$. Résultat : $\\mathbf{38}$.",
+      "image": null,
+      "programme": {
+        "lettre": "D",
+        "etapes": [
+          "Choisir un nombre",
+          "Le multiplier par $5$",
+          "Lui ajouter $3$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "numerique",
+      "valeur_n": 7,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_18",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 25,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Applique ce programme avec le nombre $12$.</p></div>",
+      "choix": [
+        "$63$",
+        "$67$",
+        "$65$",
+        "$61$"
+      ],
+      "reponse": "$63$",
+      "explication": "$12 \\times 5 = 60$ puis $60 + 3 = 63$. Résultat : $\\mathbf{63}$.",
+      "image": null,
+      "programme": {
+        "lettre": "D",
+        "etapes": [
+          "Choisir un nombre",
+          "Le multiplier par $5$",
+          "Lui ajouter $3$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "numerique",
+      "valeur_n": 12,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_19",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Si on choisit un nombre $n$, quelle est l'expression du résultat ?</p></div>",
+      "choix": [
+        "$5n + 3$",
+        "$5(n + 3)$",
+        "$3n + 5$",
+        "$5n - 3$"
+      ],
+      "reponse": "$5n + 3$",
+      "explication": "$n \\times 5 = 5n$ puis $+ 3$ donne $5n + 3$.",
+      "image": null,
+      "programme": {
+        "lettre": "D",
+        "etapes": [
+          "Choisir un nombre",
+          "Le multiplier par $5$",
+          "Lui ajouter $3$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "litteral",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_20",
+      "niveau": 2,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme D</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le multiplier par $5$</div><div class='prog-etape'>Lui ajouter $3$</div></div><p>Quel nombre de départ donne le résultat $53$ ?</p></div>",
+      "choix": [
+        "$11$",
+        "$8$",
+        "$9$",
+        "$10$"
+      ],
+      "reponse": "$10$",
+      "explication": "$5n + 3 = 53 \\Rightarrow 5n = 50 \\Rightarrow n = 10$. Vérif : $10 \\times 5 + 3 = 53$ ✓.",
+      "image": null,
+      "programme": {
+        "lettre": "D",
+        "etapes": [
+          "Choisir un nombre",
+          "Le multiplier par $5$",
+          "Lui ajouter $3$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "inverse",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_21",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme E</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Calculer son carré</div><div class='prog-etape'>Soustraire le nombre de départ</div></div><p>Applique ce programme avec le nombre $5$.</p></div>",
+      "choix": [
+        "$20$",
+        "$24$",
+        "$22$",
+        "$18$"
+      ],
+      "reponse": "$20$",
+      "explication": "$5^2 = 25$ puis $25 - 5 = 20$. Résultat : $\\mathbf{20}$.",
+      "image": null,
+      "programme": {
+        "lettre": "E",
+        "etapes": [
+          "Choisir un nombre",
+          "Calculer son carré",
+          "Soustraire le nombre de départ"
+        ],
+        "variable": "x"
+      },
+      "question_type": "numerique",
+      "valeur_n": 5,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_22",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme E</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Calculer son carré</div><div class='prog-etape'>Soustraire le nombre de départ</div></div><p>Applique ce programme avec le nombre $3$.</p></div>",
+      "choix": [
+        "$8$",
+        "$6$",
+        "$4$",
+        "$10$"
+      ],
+      "reponse": "$6$",
+      "explication": "$3^2 = 9$ puis $9 - 3 = 6$. Résultat : $\\mathbf{6}$.",
+      "image": null,
+      "programme": {
+        "lettre": "E",
+        "etapes": [
+          "Choisir un nombre",
+          "Calculer son carré",
+          "Soustraire le nombre de départ"
+        ],
+        "variable": "x"
+      },
+      "question_type": "numerique",
+      "valeur_n": 3,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_23",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 30,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme E</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Calculer son carré</div><div class='prog-etape'>Soustraire le nombre de départ</div></div><p>Si on choisit un nombre $x$, quelle est l'expression du résultat ?</p></div>",
+      "choix": [
+        "$x(x-1)$",
+        "$(x-1)^2$",
+        "$x^2 + x$",
+        "$x^2 - x$"
+      ],
+      "reponse": "$x^2 - x$",
+      "explication": "$x^2$ puis $- x$ donne $x^2 - x$. On peut aussi écrire $x(x-1)$, mais la réponse développée est $x^2 - x$.",
+      "image": null,
+      "programme": {
+        "lettre": "E",
+        "etapes": [
+          "Choisir un nombre",
+          "Calculer son carré",
+          "Soustraire le nombre de départ"
+        ],
+        "variable": "x"
+      },
+      "question_type": "litteral",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_24",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": false,
+      "chrono": 35,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme F</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $7$</div><div class='prog-etape'>Calculer le carré du résultat</div><div class='prog-etape'>Soustraire $1$</div></div><p>Applique ce programme avec le nombre $3$.</p></div>",
+      "choix": [
+        "$103$",
+        "$97$",
+        "$101$",
+        "$99$"
+      ],
+      "reponse": "$99$",
+      "explication": "$3 + 7 = 10$ ; $10^2 = 100$ ; $100 - 1 = 99$. Résultat : $\\mathbf{99}$.",
+      "image": null,
+      "programme": {
+        "lettre": "F",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $7$",
+          "Calculer le carré du résultat",
+          "Soustraire $1$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "numerique",
+      "valeur_n": 3,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_25",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": false,
+      "chrono": 35,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme F</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $7$</div><div class='prog-etape'>Calculer le carré du résultat</div><div class='prog-etape'>Soustraire $1$</div></div><p>Applique ce programme avec le nombre $0$.</p></div>",
+      "choix": [
+        "$48$",
+        "$46$",
+        "$52$",
+        "$50$"
+      ],
+      "reponse": "$48$",
+      "explication": "$0 + 7 = 7$ ; $7^2 = 49$ ; $49 - 1 = 48$. Résultat : $\\mathbf{48}$.",
+      "image": null,
+      "programme": {
+        "lettre": "F",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $7$",
+          "Calculer le carré du résultat",
+          "Soustraire $1$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "numerique",
+      "valeur_n": 0,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_26",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": false,
+      "chrono": 40,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme F</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui ajouter $7$</div><div class='prog-etape'>Calculer le carré du résultat</div><div class='prog-etape'>Soustraire $1$</div></div><p>Si on choisit un nombre $n$, quelle est l'expression du résultat ?</p></div>",
+      "choix": [
+        "$(n+7-1)^2$",
+        "$(n+7)^2 - 1$",
+        "$n^2 + 14n + 48$",
+        "$n^2 + 7 - 1$"
+      ],
+      "reponse": "$(n+7)^2 - 1$",
+      "explication": "$(n+7)$ puis carré donne $(n+7)^2$, puis $-1$ donne $(n+7)^2 - 1$. Développé : $n^2 + 14n + 49 - 1 = n^2 + 14n + 48$.",
+      "image": null,
+      "programme": {
+        "lettre": "F",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui ajouter $7$",
+          "Calculer le carré du résultat",
+          "Soustraire $1$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "litteral",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_27",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 35,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme G</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $2$</div><div class='prog-etape'>Lui ajouter $10$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Applique ce programme avec le nombre $8$.</p></div>",
+      "choix": [
+        "$26$",
+        "$30$",
+        "$28$",
+        "$24$"
+      ],
+      "reponse": "$28$",
+      "explication": "$8 \\div 2 = 4$ ; $4 + 10 = 14$ ; $14 \\times 2 = 28$. Résultat : $\\mathbf{28}$.",
+      "image": null,
+      "programme": {
+        "lettre": "G",
+        "etapes": [
+          "Choisir un nombre",
+          "Le diviser par $2$",
+          "Lui ajouter $10$",
+          "Calculer le double du résultat"
+        ],
+        "variable": "n"
+      },
+      "question_type": "numerique",
+      "valeur_n": 8,
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_28",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 35,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme G</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Le diviser par $2$</div><div class='prog-etape'>Lui ajouter $10$</div><div class='prog-etape'>Calculer le double du résultat</div></div><p>Si on choisit un nombre $n$, quelle est l'expression du résultat ?</p></div>",
+      "choix": [
+        "$2n + 20$",
+        "$\\dfrac{n}{2} + 20$",
+        "$n + 20$",
+        "$n + 10$"
+      ],
+      "reponse": "$n + 20$",
+      "explication": "$\\dfrac{n}{2}$ puis $+ 10$ puis $\\times 2$ donne $2 \\times \\left(\\dfrac{n}{2} + 10\\right) = n + 20$.",
+      "image": null,
+      "programme": {
+        "lettre": "G",
+        "etapes": [
+          "Choisir un nombre",
+          "Le diviser par $2$",
+          "Lui ajouter $10$",
+          "Calculer le double du résultat"
+        ],
+        "variable": "n"
+      },
+      "question_type": "litteral",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_29",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 35,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme H</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $2$</div><div class='prog-etape'>Le multiplier par $4$</div></div><p>Pour quel nombre de départ obtient-on $20$ ?</p></div>",
+      "choix": [
+        "$5$",
+        "$6$",
+        "$8$",
+        "$7$"
+      ],
+      "reponse": "$7$",
+      "explication": "$4(n-2) = 20 \\Rightarrow n-2 = 5 \\Rightarrow n = 7$. Vérif : $(7-2) \\times 4 = 5 \\times 4 = 20$ ✓.",
+      "image": null,
+      "programme": {
+        "lettre": "H",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui soustraire $2$",
+          "Le multiplier par $4$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "inverse",
+      "avec_calculatrice": true
+    },
+    {
+      "id": "aut_35_30",
+      "niveau": 3,
+      "type": "programme_calcul",
+      "calcul_mental": true,
+      "chrono": 40,
+      "enonce_html": "<div class='prog-calcul'><div class='prog-titre'>Programme H</div><div class='prog-etapes'><div class='prog-etape'>Choisir un nombre</div><div class='prog-etape'>Lui soustraire $2$</div><div class='prog-etape'>Le multiplier par $4$</div></div><p>Démontre que ce programme donne toujours un multiple de $4$.</p></div>",
+      "choix": [
+        "$4n$, multiple de $4$",
+        "$4n - 8 = 4(n-2)$, multiple de $4$",
+        "$4(n+2)$, multiple de $4$",
+        "$4n - 2$, multiple de $4$"
+      ],
+      "reponse": "$4n - 8 = 4(n-2)$, multiple de $4$",
+      "explication": "Le résultat est $(n-2) \\times 4 = 4n - 8 = 4(n-2)$. Comme $4$ est un facteur, le résultat est toujours un multiple de $4$.",
+      "image": null,
+      "programme": {
+        "lettre": "H",
+        "etapes": [
+          "Choisir un nombre",
+          "Lui soustraire $2$",
+          "Le multiplier par $4$"
+        ],
+        "variable": "n"
+      },
+      "question_type": "demonstration",
+      "avec_calculatrice": true
+    }
+  ]
+}

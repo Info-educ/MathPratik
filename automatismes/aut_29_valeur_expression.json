@@ -1,0 +1,470 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_29",
+    "label": "Calculer la valeur d'une expression littérale",
+    "icon": "🔢",
+    "color": "#0284c7"
+  },
+  "questions": [
+    {
+      "id": "aut_29_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $3x + 2$ pour $x = 4$.",
+      "choix": [
+        "$14$",
+        "$12$",
+        "$10$",
+        "$16$"
+      ],
+      "reponse": "$14$",
+      "explication": "$3 \\times 4 + 2 = 12 + 2 = 14$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $2a - 5$ pour $a = 6$.",
+      "choix": [
+        "$6$",
+        "$8$",
+        "$5$",
+        "$7$"
+      ],
+      "reponse": "$7$",
+      "explication": "$2 \\times 6 - 5 = 12 - 5 = 7$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $x^2 + 1$ pour $x = 3$.",
+      "choix": [
+        "$10$",
+        "$7$",
+        "$9$",
+        "$13$"
+      ],
+      "reponse": "$10$",
+      "explication": "$3^2 + 1 = 9 + 1 = 10$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $5 - 2n$ pour $n = 1$.",
+      "choix": [
+        "$1$",
+        "$7$",
+        "$5$",
+        "$3$"
+      ],
+      "reponse": "$3$",
+      "explication": "$5 - 2 \\times 1 = 5 - 2 = 3$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $ab$ pour $a = 3$ et $b = 4$.",
+      "choix": [
+        "$34$",
+        "$12$",
+        "$7$",
+        "$9$"
+      ],
+      "reponse": "$12$",
+      "explication": "$3 \\times 4 = 12$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $\\dfrac{x+3}{2}$ pour $x = 5$.",
+      "choix": [
+        "$4{,}5$",
+        "$5$",
+        "$3{,}5$",
+        "$4$"
+      ],
+      "reponse": "$4$",
+      "explication": "$\\dfrac{5+3}{2} = \\dfrac{8}{2} = 4$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $2(a+b)$ pour $a=3$, $b=2$.",
+      "choix": [
+        "$8$",
+        "$12$",
+        "$10$",
+        "$5$"
+      ],
+      "reponse": "$10$",
+      "explication": "$2(3+2) = 2 \\times 5 = 10$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $n^2 - n$ pour $n = 5$.",
+      "choix": [
+        "$15$",
+        "$30$",
+        "$20$",
+        "$25$"
+      ],
+      "reponse": "$20$",
+      "explication": "$25 - 5 = 20$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $3x^2$ pour $x = 2$.",
+      "choix": [
+        "$36$",
+        "$12$",
+        "$6$",
+        "$18$"
+      ],
+      "reponse": "$12$",
+      "explication": "$3 \\times 2^2 = 3 \\times 4 = 12$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $\\dfrac{a}{b}$ pour $a=12$, $b=4$.",
+      "choix": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$8$"
+      ],
+      "reponse": "$3$",
+      "explication": "$12 \\div 4 = 3$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_11",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $x^2 - 2x + 1$ pour $x = 4$.",
+      "choix": [
+        "$7$",
+        "$9$",
+        "$11$",
+        "$13$"
+      ],
+      "reponse": "$9$",
+      "explication": "$16 - 8 + 1 = 9$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_13",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $2a^2 - 3a + 1$ pour $a = -1$.",
+      "choix": [
+        "$4$",
+        "$-4$",
+        "$6$",
+        "$-6$"
+      ],
+      "reponse": "$6$",
+      "explication": "$2 \\times 1 - 3 \\times (-1) + 1 = 2 + 3 + 1 = 6$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_14",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $(a+b)^2$ pour $a=2$, $b=-1$.",
+      "choix": [
+        "$1$",
+        "$9$",
+        "$5$",
+        "$3$"
+      ],
+      "reponse": "$1$",
+      "explication": "$(2+(-1))^2 = 1^2 = 1$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_15",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $\\dfrac{3x-1}{x+1}$ pour $x=2$.",
+      "choix": [
+        "$\\dfrac{5}{3}$",
+        "$2$",
+        "$1$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "reponse": "$\\dfrac{5}{3}$",
+      "explication": "$\\dfrac{6-1}{2+1} = \\dfrac{5}{3}$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $a^3$ pour $a = -2$.",
+      "choix": [
+        "$-6$",
+        "$6$",
+        "$8$",
+        "$-8$"
+      ],
+      "reponse": "$-8$",
+      "explication": "$(-2)^3 = -8$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $2x + 3y - xy$ pour $x=1$, $y=2$.",
+      "choix": [
+        "$8$",
+        "$6$",
+        "$4$",
+        "$10$"
+      ],
+      "reponse": "$6$",
+      "explication": "2x1 + 3x2 - 1x2 = 2 + 6 -2 = 6.",
+      "image": null
+    },
+    {
+      "id": "aut_29_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $(2a-b)^2$ pour $a=3$, $b=4$.",
+      "choix": [
+        "$64$",
+        "$16$",
+        "$36$",
+        "$4$"
+      ],
+      "reponse": "$4$",
+      "explication": "$(6-4)^2 = 2^2 = 4$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_21",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $x^3 - x$ pour $x = -2$.",
+      "choix": [
+        "$-10$",
+        "$10$",
+        "$6$",
+        "$-6$"
+      ],
+      "reponse": "$-6$",
+      "explication": "$(-8) - (-2) = -8 + 2 = -6$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_22",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $\\dfrac{a^2 + b^2}{a - b}$ pour $a=5$, $b=1$.",
+      "choix": [
+        "$\\dfrac{26}{4} = 6{,}5$",
+        "$6$",
+        "$\\dfrac{13}{2}$",
+        "$7$"
+      ],
+      "reponse": "$\\dfrac{26}{4} = 6{,}5$",
+      "explication": "$\\dfrac{25+1}{5-1} = \\dfrac{26}{4} = 6{,}5$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_23",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $n(n+1)(n+2)$ pour $n=3$.",
+      "choix": [
+        "$120$",
+        "$30$",
+        "$60$",
+        "$24$"
+      ],
+      "reponse": "$60$",
+      "explication": "$3 \\times 4 \\times 5 = 60$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_24",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $a^2 + 2ab + b^2$ pour $a=3$, $b=-1$.",
+      "choix": [
+        "$6$",
+        "$8$",
+        "$16$",
+        "$4$"
+      ],
+      "reponse": "$4$",
+      "explication": "3² + 2x3x(-1) + (-1)² = 9 - 6 + 1 = 4",
+      "image": null
+    },
+    {
+      "id": "aut_29_25",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $\\dfrac{1}{a} + \\dfrac{1}{b}$ pour $a=2$, $b=3$.",
+      "choix": [
+        "$\\dfrac{1}{5}$",
+        "$\\dfrac{1}{6}$",
+        "$\\dfrac{5}{6}$",
+        "$\\dfrac{2}{3}$"
+      ],
+      "reponse": "$\\dfrac{5}{6}$",
+      "explication": "$\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{3+2}{6} = \\dfrac{5}{6}$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_26",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $2x^2 - 5x + 3$ pour $x = -1$.",
+      "choix": [
+        "$10$",
+        "$0$",
+        "$6$",
+        "$-4$"
+      ],
+      "reponse": "$10$",
+      "explication": "$2 - (-5) + 3 = 2 + 5 + 3 = 10$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_27",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $\\sqrt{a^2 + b^2}$ pour $a=3$, $b=4$.",
+      "choix": [
+        "$\\sqrt{7}$",
+        "$7$",
+        "$25$",
+        "$5$"
+      ],
+      "reponse": "$5$",
+      "explication": "$\\sqrt{9+16} = \\sqrt{25} = 5$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_28",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $(-a)^2 - a^2$ pour $a=3$.",
+      "choix": [
+        "$18$",
+        "$0$",
+        "$9$",
+        "$-9$"
+      ],
+      "reponse": "$0$",
+      "explication": "$(-3)^2 - 3^2 = 9 - 9 = 0$.",
+      "image": null
+    },
+    {
+      "id": "aut_29_29",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $\\dfrac{n^2 - 1}{n-1}$ pour $n=5$.",
+      "choix": [
+        "$6$",
+        "$25$",
+        "$5$",
+        "$4$"
+      ],
+      "reponse": "$6$",
+      "explication": "$\\dfrac{5^2 - 1}{5-1}$ = $\\dfrac{24}{4}$ = 6 ",
+      "image": null
+    },
+    {
+      "id": "aut_29_30",
+      "niveau": 3,
+      "type": "qcm",
+      "calcul_mental": false,
+      "chrono": 25,
+      "enonce": "Calcule $a^2 - b^2$ pour $a = \\dfrac{1}{2}$, $b = \\dfrac{1}{2}$.",
+      "choix": [
+        "$0$",
+        "$1$",
+        "$\\dfrac{1}{4}$",
+        "$-\\dfrac{1}{4}$"
+      ],
+      "reponse": "$0$",
+      "explication": "$\\dfrac{1}{4} - \\dfrac{1}{4} = 0$.",
+      "image": null
+    }
+  ]
+}

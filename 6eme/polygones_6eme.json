@@ -1,0 +1,1099 @@
+{
+  "niveau": "6eme",
+  "thematique": {
+    "id": "polygones_6eme",
+    "label": "Les Polygones",
+    "icon": "🔷",
+    "color": "#4f46e5"
+  },
+  "questions": [
+    {
+      "id": "pol6_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Qu'est-ce qu'un polygone ?",
+      "image": null,
+      "choix": [
+        "Une figure ronde fermée",
+        "Une figure plane, fermée, formée par plusieurs segments",
+        "Un cercle avec des sommets",
+        "Un solide à plusieurs faces"
+      ],
+      "reponse": "Une figure plane, fermée, formée par plusieurs segments",
+      "explication": "Un polygone est une figure plane, fermée et formée par plusieurs segments."
+    },
+    {
+      "id": "pol6_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien de côtés possède un hexagone ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$8$"
+      ],
+      "reponse": "$6$",
+      "explication": "Un hexagone possède $6$ côtés. Le préfixe « hexa » signifie six."
+    },
+    {
+      "id": "pol6_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment s'appelle un polygone à $5$ côtés ?",
+      "image": null,
+      "choix": [
+        "Quadrilatère",
+        "Pentagone",
+        "Hexagone",
+        "Octogone"
+      ],
+      "reponse": "Pentagone",
+      "explication": "Un polygone à $5$ côtés est un pentagone. Le préfixe « penta » signifie cinq."
+    },
+    {
+      "id": "pol6_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces figures, laquelle N'est PAS un polygone ?",
+      "image": null,
+      "choix": [
+        "Un triangle",
+        "Un cercle",
+        "Un carré",
+        "Un hexagone"
+      ],
+      "reponse": "Un cercle",
+      "explication": "Un cercle n'est pas un polygone car il n'est pas formé de segments, mais d'une courbe continue."
+    },
+    {
+      "id": "pol6_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on ce type de triangle ?",
+      "image": "6eme/polygones/0cf1dc2d7a2df6c032bd6bb6c6ba0d2a1c33817e.png",
+      "choix": [
+        "Un triangle avec trois angles égaux",
+        "Un triangle avec deux côtés égaux",
+        "Un triangle qui possède un angle droit",
+        "Un triangle avec tous les côtés différents"
+      ],
+      "reponse": "Un triangle qui possède un angle droit",
+      "explication": "Un triangle rectangle possède un angle droit ($90°$), marqué par le petit carré sur la figure."
+    },
+    {
+      "id": "pol6_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on le côté $EG$ ?",
+      "image": "6eme/polygones/0cf1dc2d7a2df6c032bd6bb6c6ba0d2a1c33817e.png",
+      "choix": [
+        "La médiane",
+        "L'hypoténuse",
+        "La hauteur",
+        "La bissectrice"
+      ],
+      "reponse": "L'hypoténuse",
+      "explication": "$EG$ est l'hypoténuse : le côté opposé à l'angle droit en $F$. L'hypoténuse est toujours le côté le plus long."
+    },
+    {
+      "id": "pol6_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Lequel de ces côtés est l'hypoténuse ?",
+      "image": "6eme/polygones/6634fa80429aa23bff407eddbbec9c33f3fb6d56.png",
+      "choix": [
+        "$AB$",
+        "$BC$",
+        "$AC$",
+        "Impossible à savoir"
+      ],
+      "reponse": "$AC$",
+      "explication": "L'hypoténuse est le côté opposé à l'angle droit. Rectangle en $B$ → hypoténuse $= AC$."
+    },
+    {
+      "id": "pol6_n1_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle rectangle, l'angle droit mesure $90°$. Les deux autres angles somment à combien ?",
+      "image": null,
+      "choix": [
+        "$90°$",
+        "$180°$",
+        "$270°$",
+        "$360°$"
+      ],
+      "reponse": "$90°$",
+      "explication": "Somme des angles d'un triangle $= 180°$. En retirant $90°$ : $180° - 90° = 90°$."
+    },
+    {
+      "id": "pol6_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure, les traits de codage montrent que $JL = LK$. Comment appelle-t-on ce triangle ?",
+      "image": "6eme/polygones/da1f2df20bf184f33d6e79010abf1cc5b0180529.png",
+      "choix": [
+        "Un triangle équilatéral",
+        "Un triangle rectangle",
+        "Un triangle isocèle",
+        "Un triangle quelconque"
+      ],
+      "reponse": "Un triangle isocèle",
+      "explication": "Un triangle isocèle possède deux côtés de même longueur. Ici $JL = LK$, donc le triangle est isocèle en $L$."
+    },
+    {
+      "id": "pol6_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces triangles, lequel est isocèle ?",
+      "image": null,
+      "choix": [
+        "Côtés : $3$ cm, $4$ cm, $5$ cm",
+        "Côtés : $6$ cm, $6$ cm, $4$ cm",
+        "Côtés : $5$ cm, $5$ cm, $5$ cm",
+        "Côtés : $3$ cm, $7$ cm, $9$ cm"
+      ],
+      "reponse": "Côtés : $6$ cm, $6$ cm, $4$ cm",
+      "explication": "$6$ cm, $6$ cm, $4$ cm : deux côtés égaux → isocèle. Le triangle $5, 5, 5$ est équilatéral."
+    },
+    {
+      "id": "pol6_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure, les traits de codage indiquent que les trois côtés du triangle $RST$ sont égaux. Comment appelle-t-on ce triangle ?",
+      "image": "6eme/polygones/b1a105ac60bfca923d83e5e2e354c1ff63b3c093.png",
+      "choix": [
+        "Rectangle",
+        "Isocèle",
+        "Équilatéral",
+        "Scalène"
+      ],
+      "reponse": "Équilatéral",
+      "explication": "Un triangle avec trois côtés égaux est un triangle équilatéral. Ses trois angles mesurent chacun $60°$."
+    },
+    {
+      "id": "pol6_n1_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le triangle $RST$ est équilatéral et son périmètre est $18$ cm. Quelle est la longueur de chaque côté ?",
+      "image": "6eme/polygones/b1a105ac60bfca923d83e5e2e354c1ff63b3c093.png",
+      "choix": [
+        "$4$ cm",
+        "$5$ cm",
+        "$6$ cm",
+        "$9$ cm"
+      ],
+      "reponse": "$6$ cm",
+      "explication": "Triangle équilatéral : $3$ côtés égaux. Côté $= 18 \\div 3 = 6$ cm."
+    },
+    {
+      "id": "pol6_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle équilatéral est-il aussi isocèle ?",
+      "image": null,
+      "choix": [
+        "Non, jamais",
+        "Oui, car il a trois paires de côtés égaux",
+        "Seulement si ses angles sont droits",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Oui, car il a trois paires de côtés égaux",
+      "explication": "Un triangle équilatéral a trois côtés égaux, donc deux côtés égaux : c'est un cas particulier d'isocèle."
+    },
+    {
+      "id": "pol6_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on cette figure ?",
+      "image": "6eme/polygones/f7f36825a4323b2f06a08775ac25159f197fa33a.png",
+      "choix": [
+        "Un losange",
+        "Un carré",
+        "Un rectangle",
+        "Un trapèze"
+      ],
+      "reponse": "Un rectangle",
+      "explication": "Un rectangle est un quadrilatère dont les quatre angles sont droits."
+    },
+    {
+      "id": "pol6_n1_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un rectangle a une longueur de $8$ cm et une largeur de $3$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$11$ cm",
+        "$22$ cm",
+        "$24$ cm",
+        "$48$ cm"
+      ],
+      "reponse": "$22$ cm",
+      "explication": "Périmètre $= 2 \\times (8 + 3) = 2 \\times 11 = 22$ cm."
+    },
+    {
+      "id": "pol6_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on cette figure ?",
+      "image": "6eme/polygones/a87b1c049b39d68a20fa501995b07399d5d8e91a.png",
+      "choix": [
+        "Rectangle",
+        "Carré",
+        "Losange",
+        "Trapèze"
+      ],
+      "reponse": "Losange",
+      "explication": "Un losange est un quadrilatère dont les quatre côtés sont égaux, mais dont les angles ne sont pas nécessairement droits."
+    },
+    {
+      "id": "pol6_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment appelle-t-on cette figure ?",
+      "image": "6eme/polygones/0c15eb41130068e55ed33dafc29dbd95c6504d95.png",
+      "choix": [
+        "Rectangle",
+        "Losange",
+        "Carré",
+        "Hexagone"
+      ],
+      "reponse": "Carré",
+      "explication": "Un carré est un quadrilatère avec quatre côtés égaux ET quatre angles droits. C'est à la fois un rectangle et un losange."
+    },
+    {
+      "id": "pol6_n1_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un carré a un côté de $5$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$10$ cm",
+        "$15$ cm",
+        "$20$ cm",
+        "$25$ cm"
+      ],
+      "reponse": "$20$ cm",
+      "explication": "Périmètre d'un carré : $4 \\times 5 = 20$ cm."
+    },
+    {
+      "id": "pol6_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Tout carré est-il un losange ?",
+      "image": null,
+      "choix": [
+        "Non",
+        "Oui, car un carré a quatre côtés égaux",
+        "Seulement si ses angles ne sont pas droits",
+        "Non, un carré a des angles droits"
+      ],
+      "reponse": "Oui, car un carré a quatre côtés égaux",
+      "explication": "Un carré a quatre côtés égaux : c'est la définition du losange. Donc tout carré est un losange."
+    },
+    {
+      "id": "pol6_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Tout rectangle est-il un carré ?",
+      "image": null,
+      "choix": [
+        "Oui, toujours",
+        "Non, un rectangle peut avoir des côtés inégaux",
+        "Oui, si ses angles sont droits",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Non, un rectangle peut avoir des côtés inégaux",
+      "explication": "Un rectangle a quatre angles droits mais ses côtés peuvent être inégaux (ex : $8$ cm $\\times$ $3$ cm)."
+    },
+    {
+      "id": "pol6_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien d'angles droits possède un carré ?",
+      "image": null,
+      "choix": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "reponse": "$4$",
+      "explication": "Un carré possède quatre angles droits de $90°$ chacun."
+    },
+    {
+      "id": "pol6_n1_022",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle isocèle a deux côtés de $5$ cm. Si le périmètre est $16$ cm, quelle est la longueur du troisième côté ?",
+      "image": null,
+      "choix": [
+        "$4$ cm",
+        "$5$ cm",
+        "$6$ cm",
+        "$8$ cm"
+      ],
+      "reponse": "$6$ cm",
+      "explication": "$5 + 5 + x = 16$, donc $x = 6$ cm."
+    },
+    {
+      "id": "pol6_n1_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle équilatéral a un côté de $7$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$14$ cm",
+        "$17$ cm",
+        "$21$ cm",
+        "$28$ cm"
+      ],
+      "reponse": "$21$ cm",
+      "explication": "Triangle équilatéral : $3$ côtés égaux. Périmètre $= 3 \\times 7 = 21$ cm."
+    },
+    {
+      "id": "pol6_n1_024",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un carré a un périmètre de $36$ cm. Quelle est la longueur d'un côté ?",
+      "image": null,
+      "choix": [
+        "$6$ cm",
+        "$9$ cm",
+        "$12$ cm",
+        "$18$ cm"
+      ],
+      "reponse": "$9$ cm",
+      "explication": "$4 \\times c = 36$, donc $c = 36 \\div 4 = 9$ cm."
+    },
+    {
+      "id": "pol6_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment s'appelle un polygone à $8$ côtés ?",
+      "image": null,
+      "choix": [
+        "Hexagone",
+        "Heptagone",
+        "Octogone",
+        "Décagone"
+      ],
+      "reponse": "Octogone",
+      "explication": "Un polygone à $8$ côtés est un octogone. Le préfixe « octo » signifie huit."
+    },
+    {
+      "id": "pol6_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un polygone $ABCDEF$ a $6$ sommets. Combien de côtés possède-t-il ?",
+      "image": null,
+      "choix": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$"
+      ],
+      "reponse": "$6$",
+      "explication": "Dans un polygone, le nombre de côtés est égal au nombre de sommets."
+    },
+    {
+      "id": "pol6_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Comment s'appelle un polygone à $4$ côtés ?",
+      "image": null,
+      "choix": [
+        "Triangle",
+        "Quadrilatère",
+        "Pentagone",
+        "Hexagone"
+      ],
+      "reponse": "Quadrilatère",
+      "explication": "Un polygone à $4$ côtés est un quadrilatère. Le carré, le rectangle et le losange en sont des exemples."
+    },
+    {
+      "id": "pol6_n1_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un losange a un périmètre de $24$ cm. Quelle est la longueur d'un côté ?",
+      "image": null,
+      "choix": [
+        "$4$ cm",
+        "$6$ cm",
+        "$8$ cm",
+        "$12$ cm"
+      ],
+      "reponse": "$6$ cm",
+      "explication": "Losange : $4$ côtés égaux. Côté $= 24 \\div 4 = 6$ cm."
+    },
+    {
+      "id": "pol6_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces affirmations, laquelle est vraie pour un rectangle ?",
+      "image": null,
+      "choix": [
+        "Ses quatre côtés sont égaux",
+        "Il possède quatre angles droits",
+        "C'est aussi un carré",
+        "Ses diagonales sont perpendiculaires"
+      ],
+      "reponse": "Il possède quatre angles droits",
+      "explication": "Un rectangle est défini par ses quatre angles droits. Ses côtés ne sont pas nécessairement égaux."
+    },
+    {
+      "id": "pol6_n1_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle isocèle en $L$ a $JL = LK = 9$ cm et $JK = 7$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$16$ cm",
+        "$21$ cm",
+        "$25$ cm",
+        "$27$ cm"
+      ],
+      "reponse": "$25$ cm",
+      "explication": "Périmètre $= 9 + 9 + 7 = 25$ cm."
+    },
+    {
+      "id": "pol6_n2_001",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle a des côtés de $5$ cm, $5$ cm et $8$ cm. Quel type est-il ?",
+      "image": null,
+      "choix": [
+        "Rectangle",
+        "Équilatéral",
+        "Isocèle",
+        "Scalène"
+      ],
+      "reponse": "Isocèle",
+      "explication": "Deux côtés égaux ($5$ cm) → triangle isocèle."
+    },
+    {
+      "id": "pol6_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Le triangle ci-dessous est rectangle en $B$ et isocèle ($AB = BC = 4$ cm). L'hypoténuse mesure environ $5{,}66$ cm. Quel est son périmètre ?",
+      "image": "6eme/polygones/90e362c11e08c0f90b65cfb090abb60237f60059.png",
+      "choix": [
+        "$10$ cm",
+        "$13{,}66$ cm",
+        "$16$ cm",
+        "$17{,}32$ cm"
+      ],
+      "reponse": "$13{,}66$ cm",
+      "explication": "Périmètre $= 4 + 4 + 5{,}66 = 13{,}66$ cm."
+    },
+    {
+      "id": "pol6_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un losange a un périmètre de $52$ cm. Quelle est la longueur d'un côté ?",
+      "image": null,
+      "choix": [
+        "$10$ cm",
+        "$13$ cm",
+        "$16$ cm",
+        "$26$ cm"
+      ],
+      "reponse": "$13$ cm",
+      "explication": "Losange : $4$ côtés égaux. Côté $= 52 \\div 4 = 13$ cm."
+    },
+    {
+      "id": "pol6_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un quadrilatère $ABCD$ a $AB = BC = CD = DA = 6$ cm et tous ses angles sont droits. Quelle figure est-ce ?",
+      "image": null,
+      "choix": [
+        "Rectangle",
+        "Losange",
+        "Carré",
+        "Pentagone"
+      ],
+      "reponse": "Carré",
+      "explication": "Quatre côtés égaux ET quatre angles droits $\\rightarrow$ carré."
+    },
+    {
+      "id": "pol6_n2_005",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pourquoi tout carré est-il un rectangle mais tout rectangle n'est-il pas un carré ?",
+      "image": "6eme/polygones/0c15eb41130068e55ed33dafc29dbd95c6504d95.png",
+      "choix": [
+        "Car le carré n'a pas d'angles droits",
+        "Car un rectangle peut avoir des côtés inégaux alors que le carré a quatre côtés égaux",
+        "Car le rectangle a plus de côtés",
+        "Car le carré est un triangle"
+      ],
+      "reponse": "Car un rectangle peut avoir des côtés inégaux alors que le carré a quatre côtés égaux",
+      "explication": "Tout carré a quatre angles droits → c'est un rectangle. Mais un rectangle peut avoir des côtés inégaux (ex : $5 \\times 3$ cm) : ce n'est pas un carré."
+    },
+    {
+      "id": "pol6_n2_006",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un rectangle a $L = 12$ cm et $l = 7$ cm. Un carré a un côté de $9$ cm. Lequel a le plus grand périmètre ?",
+      "image": null,
+      "choix": [
+        "Le rectangle ($38$ cm)",
+        "Le carré ($36$ cm)",
+        "Ils sont égaux",
+        "Le carré ($40$ cm)"
+      ],
+      "reponse": "Le rectangle ($38$ cm)",
+      "explication": "Rectangle : $2 \\times (12 + 7) = 38$ cm. Carré : $4 \\times 9 = 36$ cm. Le rectangle a le plus grand périmètre."
+    },
+    {
+      "id": "pol6_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans ce triangle équilatéral $RST$, quelle est la mesure de chaque angle intérieur ?",
+      "image": "6eme/polygones/b1a105ac60bfca923d83e5e2e354c1ff63b3c093.png",
+      "choix": [
+        "$45°$",
+        "$60°$",
+        "$72°$",
+        "$90°$"
+      ],
+      "reponse": "$60°$",
+      "explication": "Dans un triangle équilatéral, les trois angles sont égaux. $180° \\div 3 = 60°$."
+    },
+    {
+      "id": "pol6_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un triangle $MNO$ isocèle en $M$, l'angle en $M$ est $80°$. Quelle est la mesure des angles en $N$ et en $O$ ?",
+      "image": null,
+      "choix": [
+        "$40°$ chacun",
+        "$50°$ chacun",
+        "$80°$ chacun",
+        "$100°$ chacun"
+      ],
+      "reponse": "$50°$ chacun",
+      "explication": "Triangle isocèle en $M$ : $\\widehat{N} = \\widehat{O}$. $(180° - 80°) \\div 2 = 50°$."
+    },
+    {
+      "id": "pol6_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle rectangle a deux angles aigus de $35°$ et $55°$. La somme des trois angles est-elle bien $180°$ ?",
+      "image": null,
+      "choix": [
+        "Oui : $35° + 55° + 90° = 180°$",
+        "Non : $35° + 55° + 90° = 170°$",
+        "Oui, mais seulement si c'est isocèle",
+        "Non, la somme est $360°$"
+      ],
+      "reponse": "Oui : $35° + 55° + 90° = 180°$",
+      "explication": "$35° + 55° + 90° = 180°$ ✓."
+    },
+    {
+      "id": "pol6_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Périmètre d'un losange de côté $9{,}5$ cm.",
+      "image": null,
+      "choix": [
+        "$19$ cm",
+        "$28{,}5$ cm",
+        "$38$ cm",
+        "$42{,}5$ cm"
+      ],
+      "reponse": "$38$ cm",
+      "explication": "Losange : $4$ côtés égaux. Périmètre $= 4 \\times 9{,}5 = 38$ cm."
+    },
+    {
+      "id": "pol6_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le carré $PULS$ a un côté de $7$ cm. Quel est son périmètre ?",
+      "image": "6eme/polygones/0c15eb41130068e55ed33dafc29dbd95c6504d95.png",
+      "choix": [
+        "$14$ cm",
+        "$21$ cm",
+        "$28$ cm",
+        "$49$ cm"
+      ],
+      "reponse": "$28$ cm",
+      "explication": "Périmètre $= 4 \\times 7 = 28$ cm."
+    },
+    {
+      "id": "pol6_n2_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un octogone régulier a un périmètre de $48$ cm. Quelle est la longueur d'un côté ?",
+      "image": null,
+      "choix": [
+        "$4$ cm",
+        "$6$ cm",
+        "$8$ cm",
+        "$12$ cm"
+      ],
+      "reponse": "$6$ cm",
+      "explication": "$48 \\div 8 = 6$ cm."
+    },
+    {
+      "id": "pol6_n2_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle a des angles $90°$, $45°$, $45°$. Quel(s) type(s) est-il ?",
+      "image": null,
+      "choix": [
+        "Rectangle seulement",
+        "Isocèle seulement",
+        "Rectangle et isocèle",
+        "Équilatéral"
+      ],
+      "reponse": "Rectangle et isocèle",
+      "explication": "Angle droit → rectangle. Deux angles de $45°$ égaux → deux côtés opposés égaux → isocèle."
+    },
+    {
+      "id": "pol6_n2_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Sur la figure, combien de triangles équilatéraux faut-il pour former cet hexagone régulier ?",
+      "image": "6eme/polygones/99167748635890faebc8885270a4dc641c3e1e7d.png",
+      "choix": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$8$"
+      ],
+      "reponse": "$6$",
+      "explication": "Un hexagone régulier se décompose en $6$ triangles équilatéraux identiques."
+    },
+    {
+      "id": "pol6_n2_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un rectangle a un périmètre de $40$ cm. Sa longueur est le double de sa largeur. Quelles sont ses dimensions (approximatives) ?",
+      "image": null,
+      "choix": [
+        "$l \\approx 5$ cm, $L \\approx 10$ cm",
+        "$l \\approx 6{,}7$ cm, $L \\approx 13{,}3$ cm",
+        "$l = 8$ cm, $L = 16$ cm",
+        "$l = 10$ cm, $L = 20$ cm"
+      ],
+      "reponse": "$l \\approx 6{,}7$ cm, $L \\approx 13{,}3$ cm",
+      "explication": "$2(l + 2l) = 40$, donc $6l = 40$, $l \\approx 6{,}7$ cm, $L \\approx 13{,}3$ cm."
+    },
+    {
+      "id": "pol6_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": true,
+      "enonce_html": "Un pentagone régulier a un côté de $4{,}5$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$18$ cm",
+        "$20$ cm",
+        "$22{,}5$ cm",
+        "$27$ cm"
+      ],
+      "reponse": "$22{,}5$ cm",
+      "explication": "$5 \\times 4{,}5 = 22{,}5$ cm."
+    },
+    {
+      "id": "pol6_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un quadrilatère a $4$ côtés égaux mais des angles non droits. Quelle figure est-ce ?",
+      "image": null,
+      "choix": [
+        "Rectangle",
+        "Carré",
+        "Losange",
+        "Triangle"
+      ],
+      "reponse": "Losange",
+      "explication": "Quatre côtés égaux sans angles droits obligatoires → losange."
+    },
+    {
+      "id": "pol6_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans ce triangle rectangle isocèle sur la figure, les deux angles aigus mesurent chacun combien de degrés ?",
+      "image": "6eme/polygones/90e362c11e08c0f90b65cfb090abb60237f60059.png",
+      "choix": [
+        "$30°$",
+        "$45°$",
+        "$60°$",
+        "$90°$"
+      ],
+      "reponse": "$45°$",
+      "explication": "Angle droit $= 90°$. Reste $90°$, partagé en $2$ (isocèle) : $45°$ chacun."
+    },
+    {
+      "id": "pol6_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces affirmations sur les quadrilatères, laquelle est VRAIE ?",
+      "image": null,
+      "choix": [
+        "Tout losange est un carré",
+        "Tout carré est un losange",
+        "Tout rectangle est un losange",
+        "Tout losange est un rectangle"
+      ],
+      "reponse": "Tout carré est un losange",
+      "explication": "Un carré a quatre côtés égaux → c'est un losange. Les autres affirmations sont fausses."
+    },
+    {
+      "id": "pol6_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Le triangle $MNO$ est isocèle en $M$ ($MN = MO = 7$ cm). L'angle en $M$ est $80°$. Quelle est la mesure de l'angle en $N$ ?",
+      "image": null,
+      "choix": [
+        "$40°$",
+        "$50°$",
+        "$80°$",
+        "$100°$"
+      ],
+      "reponse": "$50°$",
+      "explication": "$(180° - 80°) \\div 2 = 50°$."
+    },
+    {
+      "id": "pol6_n2_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Périmètre d'un hexagone régulier de côté $5$ cm.",
+      "image": null,
+      "choix": [
+        "$25$ cm",
+        "$30$ cm",
+        "$35$ cm",
+        "$36$ cm"
+      ],
+      "reponse": "$30$ cm",
+      "explication": "$6 \\times 5 = 30$ cm."
+    },
+    {
+      "id": "pol6_n2_023",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un heptagone régulier a un périmètre de $63$ cm. Quelle est la longueur d'un côté ?",
+      "image": null,
+      "choix": [
+        "$7$ cm",
+        "$8$ cm",
+        "$9$ cm",
+        "$10$ cm"
+      ],
+      "reponse": "$9$ cm",
+      "explication": "$63 \\div 7 = 9$ cm."
+    },
+    {
+      "id": "pol6_n2_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle équilatéral a le même périmètre qu'un carré de côté $6$ cm. Quelle est la longueur d'un côté du triangle ?",
+      "image": null,
+      "choix": [
+        "$6$ cm",
+        "$8$ cm",
+        "$9$ cm",
+        "$12$ cm"
+      ],
+      "reponse": "$8$ cm",
+      "explication": "Périmètre du carré $= 4 \\times 6 = 24$ cm. Côté du triangle $= 24 \\div 3 = 8$ cm."
+    },
+    {
+      "id": "pol6_n2_026",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Triangle isocèle : deux côtés de $9$ cm, troisième côté $5$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": [
+        "$18$ cm",
+        "$21$ cm",
+        "$23$ cm",
+        "$27$ cm"
+      ],
+      "reponse": "$23$ cm",
+      "explication": "Périmètre $= 9 + 9 + 5 = 23$ cm."
+    },
+    {
+      "id": "pol6_n2_027",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On coupe ce carré en traçant la diagonale. Les deux triangles obtenus sont-ils isocèles ?",
+      "image": "6eme/polygones/9d3b6e9f6c96bf51b947d9c8bca5f0392c6ef92d.png",
+      "choix": [
+        "Non",
+        "Oui, car les deux côtés du carré sont égaux",
+        "Seulement si le carré a $4$ cm",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Oui, car les deux côtés du carré sont égaux",
+      "explication": "En traçant la diagonale d'un carré, on obtient deux triangles rectangles isocèles. Les deux jambes de chaque triangle sont les côtés du carré (égaux)."
+    },
+    {
+      "id": "pol6_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle isocèle en $M$ a des angles en $N$ et $O$ de $65°$ chacun. Quelle est la mesure de l'angle en $M$ ?",
+      "image": null,
+      "choix": [
+        "$50°$",
+        "$60°$",
+        "$65°$",
+        "$70°$"
+      ],
+      "reponse": "$50°$",
+      "explication": "Somme des angles $= 180°$. $\\widehat{M} = 180° - 65° - 65° = 50°$."
+    },
+    {
+      "id": "pol6_n2_029",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un rectangle a une largeur de $5$ cm et un périmètre de $34$ cm. Quelle est sa longueur ?",
+      "image": null,
+      "choix": [
+        "$7$ cm",
+        "$10$ cm",
+        "$12$ cm",
+        "$17$ cm"
+      ],
+      "reponse": "$12$ cm",
+      "explication": "$2 \\times (L + 5) = 34$, donc $L + 5 = 17$, $L = 12$ cm."
+    },
+    {
+      "id": "pol6_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un quadrilatère a quatre côtés égaux et un angle droit. Combien d'angles droits a-t-il en tout ?",
+      "image": null,
+      "choix": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "reponse": "$4$",
+      "explication": "Quatre côtés égaux $+$ un angle droit $\\rightarrow$ carré $\\rightarrow$ quatre angles droits."
+    },
+    {
+      "id": "pol6_n3_004",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans ce losange, les diagonales se coupent à angle droit et mesurent $6$ cm et $8$ cm (côté $= 5$ cm car $3^2 + 4^2 = 25$). Quel est le périmètre ?",
+      "image": "6eme/polygones/39d8dcc18a102a8a5b027c25361e7ccceceb481f.png",
+      "choix": [
+        "$20$ cm",
+        "$24$ cm",
+        "$28$ cm",
+        "$32$ cm"
+      ],
+      "reponse": "$20$ cm",
+      "explication": "Côté $= 5$ cm. Périmètre $= 4 \\times 5 = 20$ cm."
+    },
+    {
+      "id": "pol6_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un carré $ABCD$ et un triangle équilatéral $ABE$ partagent le côté $AB = 5$ cm (côté intérieur). Quel est le périmètre du pentagone $AEDCB$ ?",
+      "image": null,
+      "choix": [
+        "$20$ cm",
+        "$25$ cm",
+        "$30$ cm",
+        "$35$ cm"
+      ],
+      "reponse": "$25$ cm",
+      "explication": "$3$ côtés du carré $+ 2$ côtés du triangle $= 3 \\times 5 + 2 \\times 5 = 25$ cm."
+    },
+    {
+      "id": "pol6_n3_012",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le triangle $ABC$ isocèle ($AB = AC$), l'angle en $A$ est $100°$. Quelle est la mesure des angles en $B$ et en $C$ ?",
+      "image": "6eme/polygones/001871aed5654906be18affb0723fa0333efcc0b.png",
+      "choix": [
+        "$50°$",
+        "$40°$",
+        "$80°$",
+        "$100°$"
+      ],
+      "reponse": "$40°$",
+      "explication": "$(180° - 100°) \\div 2 = 40°$."
+    },
+    {
+      "id": "pol6_n3_014",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On assemble $3$ carrés identiques de côté $4$ cm côte à côte. Quel est le périmètre de la figure obtenue ?",
+      "image": "6eme/polygones/04a7a2437c0b7ef30969dcdd85dc62a22e41dfd4.png",
+      "choix": [
+        "$32$ cm",
+        "$40$ cm",
+        "$48$ cm",
+        "$36$ cm"
+      ],
+      "reponse": "$32$ cm",
+      "explication": "Figure : rectangle $12 \\times 4$ cm. Périmètre $= 2 \\times (12 + 4) = 32$ cm."
+    },
+    {
+      "id": "pol6_n3_017",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Prouve qu'un triangle équilatéral ne peut pas être rectangle. Laquelle de ces explications est correcte ?",
+      "image": null,
+      "choix": [
+        "Un triangle équilatéral a des angles de $60°$ et un rectangle en a un de $90°$ : $60° \\neq 90°$, impossible",
+        "Un triangle équilatéral n'a pas d'hypoténuse",
+        "Un triangle équilatéral a trop de côtés égaux",
+        "Un triangle rectangle est plus grand"
+      ],
+      "reponse": "Un triangle équilatéral a des angles de $60°$ et un rectangle en a un de $90°$ : $60° \\neq 90°$, impossible",
+      "explication": "Triangle équilatéral : $3$ angles de $60°$. Triangle rectangle : un angle de $90°$. Or $60° \\neq 90°$ : ces propriétés sont incompatibles."
+    },
+    {
+      "id": "pol6_n3_018",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle isocèle en $M$ a un angle au sommet $\\widehat{M} = 120°$. Les angles à la base sont-ils aigus ou obtus ?",
+      "image": null,
+      "choix": [
+        "Aigus, car $(180° - 120°) \\div 2 = 30°$",
+        "Obtus, car ils mesurent $60°$ chacun",
+        "Droits, car $120° + 2 \\times 30° = 180°$",
+        "On ne peut pas savoir"
+      ],
+      "reponse": "Aigus, car $(180° - 120°) \\div 2 = 30°$",
+      "explication": "$(180° - 120°) \\div 2 = 30°$. Les angles à la base mesurent $30°$ chacun, c'est aigu."
+    },
+    {
+      "id": "pol6_n3_019",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un quadrilatère a des côtés $5$, $7$, $5$, $7$ cm et quatre angles droits. Quel est son périmètre et quelle est cette figure ?",
+      "image": null,
+      "choix": [
+        "$20$ cm — losange",
+        "$24$ cm — rectangle",
+        "$24$ cm — carré",
+        "$28$ cm — rectangle"
+      ],
+      "reponse": "$24$ cm — rectangle",
+      "explication": "Périmètre $= 5+7+5+7 = 24$ cm. Quatre angles droits, côtés opposés égaux → rectangle ($5 \\neq 7$, pas un carré)."
+    },
+    {
+      "id": "pol6_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un triangle équilatéral a le même périmètre qu'un rectangle $8 \\times 4$ cm. Quelle est la longueur d'un côté du triangle ?",
+      "image": null,
+      "choix": [
+        "$6$ cm",
+        "$8$ cm",
+        "$10$ cm",
+        "$12$ cm"
+      ],
+      "reponse": "$8$ cm",
+      "explication": "Périmètre rectangle $= 2 \\times (8+4) = 24$ cm. Côté triangle $= 24 \\div 3 = 8$ cm."
+    },
+    {
+      "id": "pol6_n3_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle configuration de triangle est à la fois rectangle et isocèle ?",
+      "image": null,
+      "choix": [
+        "Angles $60°$, $60°$, $60°$",
+        "Angles $90°$, $45°$, $45°$",
+        "Angles $90°$, $60°$, $30°$",
+        "Angles $90°$, $50°$, $40°$"
+      ],
+      "reponse": "Angles $90°$, $45°$, $45°$",
+      "explication": "Angles $90°$, $45°$, $45°$ : angle droit → rectangle ; deux angles égaux ($45°$) → deux côtés opposés égaux → isocèle."
+    },
+    {
+      "id": "pol6_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "On assemble $4$ triangles équilatéraux de côté $3$ cm pour former un grand triangle équilatéral. Quel est le périmètre du grand triangle ?",
+      "image": null,
+      "choix": [
+        "$12$ cm",
+        "$18$ cm",
+        "$24$ cm",
+        "$36$ cm"
+      ],
+      "reponse": "$18$ cm",
+      "explication": "Le grand triangle a un côté de $2 \\times 3 = 6$ cm. Périmètre $= 3 \\times 6 = 18$ cm."
+    }
+  ]
+}

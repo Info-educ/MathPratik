@@ -1,0 +1,521 @@
+{
+  "niveau": "automatismes",
+  "thematique": {
+    "id": "aut_21",
+    "label": "Priorités opératoires",
+    "icon": "🔢",
+    "color": "#7f1d1d"
+  },
+  "questions": [
+    {
+      "id": "aut_21_01",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "3 + 8$\\times$5 = ?",
+      "choix": [
+        "48",
+        "40",
+        "43",
+        "55"
+      ],
+      "reponse": "43",
+      "explication": "8$\\times$5=40 d'abord → 3+40=43",
+      "image": null
+    },
+    {
+      "id": "aut_21_02",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "12$\\div$4 + 2 = ?",
+      "choix": [
+        "5",
+        "4",
+        "7",
+        "3"
+      ],
+      "reponse": "5",
+      "explication": "12$\\div$4=3 → 3+2=5",
+      "image": null
+    },
+    {
+      "id": "aut_21_03",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "20 - 5$\\times$3 + 1 = ?",
+      "choix": [
+        "7",
+        "46",
+        "50",
+        "6"
+      ],
+      "reponse": "6",
+      "explication": "5$\\times$3=15 → 20-15+1=6",
+      "image": null
+    },
+    {
+      "id": "aut_21_04",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8$\\div$2$\\times$4 = ?",
+      "choix": [
+        "4",
+        "16",
+        "8",
+        "1"
+      ],
+      "reponse": "16",
+      "explication": "G→D: 8$\\div$2=4, 4$\\times$4=16",
+      "image": null
+    },
+    {
+      "id": "aut_21_05",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "32 - 12 + 8 = ?",
+      "choix": [
+        "28",
+        "12",
+        "32",
+        "40"
+      ],
+      "reponse": "28",
+      "explication": "G→D: 32-12=20, 20+8=28",
+      "image": null
+    },
+    {
+      "id": "aut_21_06",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(7 + 4)$\\times$6 = ?",
+      "choix": [
+        "74",
+        "66",
+        "54",
+        "46"
+      ],
+      "reponse": "66",
+      "explication": "(7+4)=11 → 11$\\times$6=66",
+      "image": null
+    },
+    {
+      "id": "aut_21_07",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "45$\\div$(9 - 6) = ?",
+      "choix": [
+        "9",
+        "15",
+        "45",
+        "5"
+      ],
+      "reponse": "15",
+      "explication": "(9-6)=3 → 45$\\div$3=15",
+      "image": null
+    },
+    {
+      "id": "aut_21_08",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(30 - 6)$\\times$(10 - 8) = ?",
+      "choix": [
+        "56",
+        "24",
+        "36",
+        "48"
+      ],
+      "reponse": "48",
+      "explication": "24$\\times$2=48",
+      "image": null
+    },
+    {
+      "id": "aut_21_09",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 + 24$\\div$4 = ?",
+      "choix": [
+        "11",
+        "12",
+        "5",
+        "29"
+      ],
+      "reponse": "11",
+      "explication": "24$\\div$4=6 → 5+6=11",
+      "image": null
+    },
+    {
+      "id": "aut_21_10",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "8 + (18 - 3$\\times$5) = ?",
+      "choix": [
+        "11",
+        "3",
+        "32",
+        "23"
+      ],
+      "reponse": "11",
+      "explication": "3$\\times$5=15, 18-15=3 → 8+3=11",
+      "image": null
+    },
+    {
+      "id": "aut_21_11",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5$\\times$(12 - 3 - 7) = ?",
+      "choix": [
+        "15",
+        "5",
+        "20",
+        "10"
+      ],
+      "reponse": "10",
+      "explication": "(12-3-7)=2 → 5$\\times$2=10",
+      "image": null
+    },
+    {
+      "id": "aut_21_12",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "60$\\div$4$\\times$3$\\div$5 = ?",
+      "choix": [
+        "12",
+        "20",
+        "9",
+        "3"
+      ],
+      "reponse": "9",
+      "explication": "60$\\div$4=15, 15$\\times$3=45, 45$\\div$5=9",
+      "image": null
+    },
+    {
+      "id": "aut_21_13",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "22 - (5 + 2$\\times$7) = ?",
+      "choix": [
+        "3",
+        "5",
+        "22",
+        "7"
+      ],
+      "reponse": "3",
+      "explication": "2$\\times$7=14, 5+14=19 → 22-19=3",
+      "image": null
+    },
+    {
+      "id": "aut_21_14",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2$\\times$(20 - 12 + 3) = ?",
+      "choix": [
+        "22",
+        "11",
+        "46",
+        "32"
+      ],
+      "reponse": "22",
+      "explication": "(20-12+3)=11 → 2$\\times$11=22",
+      "image": null
+    },
+    {
+      "id": "aut_21_15",
+      "niveau": 1,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "15 + 3$\\times$4 - 2 = ?",
+      "choix": [
+        "55",
+        "45",
+        "35",
+        "25"
+      ],
+      "reponse": "25",
+      "explication": "3$\\times$4=12 → 15+12-2=25",
+      "image": null
+    },
+    {
+      "id": "aut_21_16",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "100$\\div$(4$\\times$5) = ?",
+      "choix": [
+        "10",
+        "4",
+        "5",
+        "20"
+      ],
+      "reponse": "5",
+      "explication": "4$\\times$5=20 → 100$\\div$20=5",
+      "image": null
+    },
+    {
+      "id": "aut_21_17",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7$\\times$3 + 4$\\times$5 = ?",
+      "choix": [
+        "55",
+        "41",
+        "53",
+        "61"
+      ],
+      "reponse": "41",
+      "explication": "7$\\times$3=21, 4$\\times$5=20 → 41",
+      "image": null
+    },
+    {
+      "id": "aut_21_18",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(3 + 5)$\\times$(7 - 2) = ?",
+      "choix": [
+        "30",
+        "56",
+        "40",
+        "24"
+      ],
+      "reponse": "40",
+      "explication": "8$\\times$5=40",
+      "image": null
+    },
+    {
+      "id": "aut_21_19",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "18$\\div$3 + 4$\\times$2 = ?",
+      "choix": [
+        "10",
+        "6",
+        "14",
+        "22"
+      ],
+      "reponse": "14",
+      "explication": "6+8=14",
+      "image": null
+    },
+    {
+      "id": "aut_21_20",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "50 - (6 + 4)$\\times$3 = ?",
+      "choix": [
+        "50",
+        "30",
+        "20",
+        "40"
+      ],
+      "reponse": "20",
+      "explication": "10$\\times$3=30 → 50-30=20",
+      "image": null
+    },
+    {
+      "id": "aut_21_21",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "2$\\times$3 + 4$\\times$5 - 10 = ?",
+      "choix": [
+        "36",
+        "6",
+        "26",
+        "16"
+      ],
+      "reponse": "16",
+      "explication": "6+20-10=16",
+      "image": null
+    },
+    {
+      "id": "aut_21_22",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(12 - 4)$\\div$(5 - 3) = ?",
+      "choix": [
+        "8",
+        "4",
+        "6",
+        "2"
+      ],
+      "reponse": "4",
+      "explication": "8$\\div$2=4",
+      "image": null
+    },
+    {
+      "id": "aut_21_23",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "5 + 3$\\times$(8 - 2) = ?",
+      "choix": [
+        "18",
+        "23",
+        "33",
+        "28"
+      ],
+      "reponse": "23",
+      "explication": "3$\\times$6=18 → 5+18=23",
+      "image": null
+    },
+    {
+      "id": "aut_21_24",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "24$\\div$(3 + 5)$\\times$2 = ?",
+      "choix": [
+        "12",
+        "24",
+        "3",
+        "6"
+      ],
+      "reponse": "6",
+      "explication": "24$\\div$8=3, 3$\\times$2=6",
+      "image": null
+    },
+    {
+      "id": "aut_21_25",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "9$\\times$2 - 6$\\div$3 = ?",
+      "choix": [
+        "18",
+        "16",
+        "4",
+        "14"
+      ],
+      "reponse": "16",
+      "explication": "18-2=16",
+      "image": null
+    },
+    {
+      "id": "aut_21_26",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(15 - 3)$\\times$2 + 4 = ?",
+      "choix": [
+        "24",
+        "36",
+        "28",
+        "32"
+      ],
+      "reponse": "28",
+      "explication": "12$\\times$2=24 → 24+4=28",
+      "image": null
+    },
+    {
+      "id": "aut_21_27",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "36$\\div$4 - 2$\\times$3 = ?",
+      "choix": [
+        "0",
+        "3",
+        "9",
+        "6"
+      ],
+      "reponse": "3",
+      "explication": "9-6=3",
+      "image": null
+    },
+    {
+      "id": "aut_21_28",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "(4 + 2)$\\times$(3 + 1) - 5 = ?",
+      "choix": [
+        "23",
+        "17",
+        "29",
+        "19"
+      ],
+      "reponse": "19",
+      "explication": "6$\\times$4=24 → 24-5=19",
+      "image": null
+    },
+    {
+      "id": "aut_21_29",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "100 - (20 + 5)$\\times$3 = ?",
+      "choix": [
+        "25",
+        "15",
+        "75",
+        "35"
+      ],
+      "reponse": "25",
+      "explication": "25$\\times$3=75 → 100-75=25",
+      "image": null
+    },
+    {
+      "id": "aut_21_30",
+      "niveau": 2,
+      "type": "qcm",
+      "calcul_mental": true,
+      "chrono": 20,
+      "enonce": "7 + (18$\\div$6)$\\times$4 = ?",
+      "choix": [
+        "25",
+        "11",
+        "22",
+        "19"
+      ],
+      "reponse": "19",
+      "explication": "18$\\div$6=3, 3$\\times$4=12 → 7+12=19",
+      "image": null
+    }
+  ]
+}

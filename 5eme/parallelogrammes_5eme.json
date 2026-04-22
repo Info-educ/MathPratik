@@ -1,0 +1,876 @@
+{
+  "niveau": "5eme",
+  "thematique": {
+    "id": "parallelogrammes_5eme",
+    "label": "Parallélogrammes",
+    "icon": "🔷",
+    "color": "#4f46e5"
+  },
+  "questions": [
+    {
+      "id": "para5_n1_001",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un parallélogramme a ses diagonales qui :",
+      "image": null,
+      "choix": [
+        "se coupent à angle droit",
+        "se coupent en leur milieu",
+        "ont la même longueur",
+        "sont perpendiculaires"
+      ],
+      "reponse": "se coupent en leur milieu",
+      "explication": "La propriété fondamentale du parallélogramme est que ses diagonales se coupent en leur milieu. Ce n'est pas forcément vrai pour les longueurs ni pour la perpendicularité (sauf cas particuliers)."
+    },
+    {
+      "id": "para5_n1_002",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle est la définition d'un rectangle ?",
+      "image": null,
+      "choix": [
+        "Un quadrilatère aux côtés égaux",
+        "Un quadrilatère aux angles droits",
+        "Un parallélogramme aux diagonales perpendiculaires",
+        "Un quadrilatère à 4 côtés"
+      ],
+      "reponse": "Un quadrilatère aux angles droits",
+      "explication": "Un rectangle est un quadrilatère qui possède 4 angles droits. C'est aussi un parallélogramme particulier dont les diagonales sont de même longueur."
+    },
+    {
+      "id": "para5_n1_003",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un losange, les diagonales sont :",
+      "image": null,
+      "choix": [
+        "de même longueur",
+        "parallèles",
+        "perpendiculaires",
+        "quelconques"
+      ],
+      "reponse": "perpendiculaires",
+      "explication": "Dans un losange, les diagonales sont perpendiculaires (elles se coupent à angle droit). De plus, elles se coupent en leur milieu et sont des bissectrices des angles du losange."
+    },
+    {
+      "id": "para5_n1_004",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un carré est :",
+      "image": null,
+      "choix": [
+        "un rectangle uniquement",
+        "un losange uniquement",
+        "un losange rectangulaire",
+        "un parallélogramme quelconque"
+      ],
+      "reponse": "un losange rectangulaire",
+      "explication": "Un carré possède à la fois toutes les propriétés du rectangle (4 angles droits, diagonales égales) et toutes celles du losange (4 côtés égaux, diagonales perpendiculaires). C'est donc un losange rectangulaire."
+    },
+    {
+      "id": "para5_n1_005",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un parallélogramme ABCD, les angles $\\widehat{DAB}$ et $\\widehat{ABC}$ sont :",
+      "image": null,
+      "choix": [
+        "égaux",
+        "complémentaires",
+        "supplémentaires",
+        "quelconques"
+      ],
+      "reponse": "supplémentaires",
+      "explication": "Dans un parallélogramme, deux angles consécutifs (qui se suivent) sont supplémentaires : leur somme vaut $180°$. Les angles opposés, eux, sont égaux."
+    },
+    {
+      "id": "para5_n1_006",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour prouver qu'un parallélogramme est un rectangle, il suffit de montrer qu'il a :",
+      "image": null,
+      "choix": [
+        "ses côtés égaux",
+        "ses diagonales égales",
+        "ses côtés opposés parallèles",
+        "ses diagonales qui se coupent"
+      ],
+      "reponse": "ses diagonales égales",
+      "explication": "Un parallélogramme est un rectangle si et seulement si ses diagonales sont égales. C'est un critère de reconnaissance du rectangle."
+    },
+    {
+      "id": "para5_n1_007",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Combien d'angles droits suffit-il de montrer dans un quadrilatère pour conclure que c'est un rectangle ?",
+      "image": null,
+      "choix": ["$1$", "$2$", "$3$", "$4$"],
+      "reponse": "$3$",
+      "explication": "Dans un quadrilatère, la somme des angles vaut $360°$. Si 3 angles valent $90°$, alors le 4ème vaut $360° - 3 \\times 90° = 90°$ aussi. 3 angles droits suffisent donc à conclure que c'est un rectangle."
+    },
+    {
+      "id": "para5_n1_008",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme. Lesquels de ces côtés sont égaux ?",
+      "image": "5eme/parallelogrammes/b2681293e793a73bad0ac44906a026d85f9f2a7f.png",
+      "choix": [
+        "$AB = BC$",
+        "$AB = CD$ et $BC = AD$",
+        "$AB = AD$ et $BC = CD$",
+        "Tous les côtés sont égaux"
+      ],
+      "reponse": "$AB = CD$ et $BC = AD$",
+      "explication": "Dans un parallélogramme, les côtés opposés sont égaux : $AB = CD$ et $BC = AD$. Les côtés consécutifs ne sont pas forcément égaux (sauf dans un losange ou un carré)."
+    },
+    {
+      "id": "para5_n1_009",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un losange est un parallélogramme particulier car :",
+      "image": null,
+      "choix": [
+        "il a un angle droit",
+        "ses diagonales sont égales",
+        "tous ses côtés sont égaux",
+        "ses diagonales se coupent en leur milieu"
+      ],
+      "reponse": "tous ses côtés sont égaux",
+      "explication": "Un losange est un parallélogramme dont tous les côtés sont égaux. Le fait que les diagonales se coupent en leur milieu est vrai pour tout parallélogramme, pas seulement pour le losange."
+    },
+    {
+      "id": "para5_n1_010",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un rectangle ABCD de centre O, que peut-on dire des triangles AOB et COD ?",
+      "image": "5eme/parallelogrammes/2b9927fe55c67cf6480f3dc59f34a38a271f797b.png",
+      "choix": [
+        "ils sont rectangles",
+        "ils sont isocèles",
+        "ils sont équilatéraux",
+        "ils sont quelconques"
+      ],
+      "reponse": "ils sont isocèles",
+      "explication": "Dans un rectangle, les diagonales sont égales et se coupent en leur milieu, donc $OA = OB = OC = OD$. Le triangle AOB est donc isocèle en O (car $OA = OB$). De même pour COD."
+    },
+    {
+      "id": "para5_n1_011",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Les diagonales d'un losange se coupent :",
+      "image": null,
+      "choix": [
+        "sans former d'angle particulier",
+        "en formant un angle de $45°$",
+        "en formant un angle droit et en leur milieu",
+        "en leur milieu seulement"
+      ],
+      "reponse": "en formant un angle droit et en leur milieu",
+      "explication": "Les diagonales d'un losange ont deux propriétés : elles se coupent en leur milieu (propriété commune à tout parallélogramme) et elles sont perpendiculaires (propriété spécifique au losange)."
+    },
+    {
+      "id": "para5_n1_012",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour reconnaître un losange parmi les parallélogrammes, on vérifie que :",
+      "image": null,
+      "choix": [
+        "il a un angle droit",
+        "ses diagonales sont égales",
+        "ses diagonales sont perpendiculaires",
+        "il a $4$ angles droits"
+      ],
+      "reponse": "ses diagonales sont perpendiculaires",
+      "explication": "Un parallélogramme est un losange si et seulement si ses diagonales sont perpendiculaires. C'est le critère de reconnaissance du losange."
+    },
+    {
+      "id": "para5_n1_013",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un carré ABCD de côté $5$ cm, quelle est la mesure de chaque angle ?",
+      "image": null,
+      "choix": ["$45°$", "$60°$", "$90°$", "$120°$"],
+      "reponse": "$90°$",
+      "explication": "Un carré est un rectangle, donc il possède 4 angles droits de $90°$ chacun. La somme $4 \\times 90° = 360°$ correspond bien à la somme des angles d'un quadrilatère."
+    },
+    {
+      "id": "para5_n1_014",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme avec $\\widehat{A} = 72°$. L'angle $\\widehat{C}$ vaut :",
+      "image": null,
+      "choix": ["$18°$", "$72°$", "$108°$", "$144°$"],
+      "reponse": "$72°$",
+      "explication": "Dans un parallélogramme, les angles opposés sont égaux. $\\widehat{A}$ et $\\widehat{C}$ sont opposés, donc $\\widehat{C} = \\widehat{A} = 72°$."
+    },
+    {
+      "id": "para5_n1_015",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Quelle figure a TOUTES ses propriétés en commun avec le rectangle ET le losange ?",
+      "image": null,
+      "choix": [
+        "le parallélogramme",
+        "le trapèze",
+        "le carré",
+        "le cerf-volant"
+      ],
+      "reponse": "le carré",
+      "explication": "Le carré est à la fois un rectangle (4 angles droits, diagonales égales) et un losange (4 côtés égaux, diagonales perpendiculaires). C'est le seul quadrilatère à partager toutes les propriétés des deux."
+    },
+    {
+      "id": "para5_n1_016",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Un parallélogramme qui a ses diagonales de même longueur est nécessairement :",
+      "image": null,
+      "choix": [
+        "un losange",
+        "un carré",
+        "un rectangle",
+        "un quadrilatère quelconque"
+      ],
+      "reponse": "un rectangle",
+      "explication": "Si un parallélogramme a ses diagonales égales, alors c'est un rectangle. C'est le critère de reconnaissance du rectangle à partir des diagonales."
+    },
+    {
+      "id": "para5_n1_017",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans un losange ABCD, les diagonales sont des bissectrices des angles. Cela signifie que :",
+      "image": "5eme/parallelogrammes/bf08a4cdeea5a13664e7181c01506d1f2df638ea.png",
+      "choix": [
+        "les diagonales coupent les côtés en deux",
+        "chaque diagonale coupe en deux un angle du losange",
+        "les diagonales sont perpendiculaires",
+        "les diagonales ont la même longueur"
+      ],
+      "reponse": "chaque diagonale coupe en deux un angle du losange",
+      "explication": "Une bissectrice d'un angle est une demi-droite qui partage cet angle en deux angles égaux. Dans un losange, chaque diagonale est la bissectrice des angles qu'elle relie."
+    },
+    {
+      "id": "para5_n1_018",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle avec $AB = 7$ cm et $BC = 4$ cm. Quelle est la valeur de $CD$ ?",
+      "image": "5eme/parallelogrammes/2b9927fe55c67cf6480f3dc59f34a38a271f797b.png",
+      "choix": ["$4$ cm", "$7$ cm", "$11$ cm", "$28$ cm"],
+      "reponse": "$7$ cm",
+      "explication": "Dans un rectangle, les côtés opposés sont égaux. $CD$ est opposé à $AB$, donc $CD = AB = 7$ cm."
+    },
+    {
+      "id": "para5_n1_019",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un losange avec $AB = 5$ cm. Quel est le périmètre de ce losange ?",
+      "image": "5eme/parallelogrammes/bf08a4cdeea5a13664e7181c01506d1f2df638ea.png",
+      "choix": ["$5$ cm", "$10$ cm", "$15$ cm", "$20$ cm"],
+      "reponse": "$20$ cm",
+      "explication": "Dans un losange, les 4 côtés sont égaux. Périmètre $= 4 \\times AB = 4 \\times 5 = 20$ cm."
+    },
+    {
+      "id": "para5_n1_020",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme. L'angle $\\widehat{DAB}$ mesure $65°$. Quelle est la mesure de l'angle $\\widehat{BCD}$ ?",
+      "image": "5eme/parallelogrammes/b2681293e793a73bad0ac44906a026d85f9f2a7f.png",
+      "choix": ["$25°$", "$65°$", "$115°$", "$130°$"],
+      "reponse": "$65°$",
+      "explication": "$\\widehat{DAB}$ et $\\widehat{BCD}$ sont des angles opposés dans le parallélogramme ABCD, donc ils sont égaux : $\\widehat{BCD} = \\widehat{DAB} = 65°$."
+    },
+    {
+      "id": "para5_n1_021",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "EFGH est un rectangle. La diagonale EG mesure $10$ cm. Quelle est la longueur de FH ?",
+      "image": "5eme/parallelogrammes/2b9927fe55c67cf6480f3dc59f34a38a271f797b.png",
+      "choix": ["$5$ cm", "$10$ cm", "$20$ cm", "On ne peut pas savoir"],
+      "reponse": "$10$ cm",
+      "explication": "Dans un rectangle, les diagonales sont égales. Donc $FH = EG = 10$ cm."
+    },
+    {
+      "id": "para5_n1_022",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme de centre O. On sait que $OA = 3{,}5$ cm. Quelle est la longueur $AC$ ?",
+      "image": "5eme/parallelogrammes/b2681293e793a73bad0ac44906a026d85f9f2a7f.png",
+      "choix": ["$1{,}75$ cm", "$3{,}5$ cm", "$7$ cm", "$14$ cm"],
+      "reponse": "$7$ cm",
+      "explication": "Les diagonales d'un parallélogramme se coupent en leur milieu. O est le milieu de $[AC]$, donc $OA = OC = 3{,}5$ cm. Ainsi $AC = 2 \\times OA = 2 \\times 3{,}5 = 7$ cm."
+    },
+    {
+      "id": "para5_n1_023",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "IJKL est un losange. L'angle $\\widehat{IJK} = 110°$. Quelle est la mesure de l'angle $\\widehat{JKL}$ ?",
+      "image": null,
+      "choix": ["$55°$", "$70°$", "$110°$", "$180°$"],
+      "reponse": "$70°$",
+      "explication": "Dans un losange (parallélogramme), deux angles consécutifs sont supplémentaires. $\\widehat{IJK} + \\widehat{JKL} = 180°$, donc $\\widehat{JKL} = 180° - 110° = 70°$."
+    },
+    {
+      "id": "para5_n1_024",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un carré de côté $6$ cm. Quel est son périmètre ?",
+      "image": null,
+      "choix": ["$6$ cm", "$12$ cm", "$24$ cm", "$36$ cm"],
+      "reponse": "$24$ cm",
+      "explication": "Un carré a 4 côtés égaux. Périmètre $= 4 \\times 6 = 24$ cm."
+    },
+    {
+      "id": "para5_n1_025",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle. L'angle $\\widehat{ABD} = 35°$. Quelle est la mesure de l'angle $\\widehat{DBC}$ ?",
+      "image": "5eme/parallelogrammes/2b9927fe55c67cf6480f3dc59f34a38a271f797b.png",
+      "choix": ["$35°$", "$55°$", "$90°$", "$145°$"],
+      "reponse": "$55°$",
+      "explication": "Dans un rectangle, l'angle $\\widehat{ABC} = 90°$. La diagonale BD partage cet angle en deux. $\\widehat{ABD} + \\widehat{DBC} = 90°$, donc $\\widehat{DBC} = 90° - 35° = 55°$."
+    },
+    {
+      "id": "para5_n1_026",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "RSTU est un parallélogramme avec $RS = 8$ cm et $ST = 5$ cm. Quel est son périmètre ?",
+      "image": "5eme/parallelogrammes/b2681293e793a73bad0ac44906a026d85f9f2a7f.png",
+      "choix": ["$13$ cm", "$26$ cm", "$40$ cm", "$80$ cm"],
+      "reponse": "$26$ cm",
+      "explication": "Dans un parallélogramme, les côtés opposés sont égaux : $RS = TU = 8$ cm et $ST = RU = 5$ cm. Périmètre $= 2 \\times (8 + 5) = 2 \\times 13 = 26$ cm."
+    },
+    {
+      "id": "para5_n1_027",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme. L'angle $\\widehat{ABC} = 120°$. Quelle est la mesure de l'angle $\\widehat{DAB}$ ?",
+      "image": "5eme/parallelogrammes/b2681293e793a73bad0ac44906a026d85f9f2a7f.png",
+      "choix": ["$60°$", "$90°$", "$120°$", "$240°$"],
+      "reponse": "$60°$",
+      "explication": "$\\widehat{ABC}$ et $\\widehat{DAB}$ sont des angles consécutifs donc supplémentaires : $\\widehat{DAB} = 180° - 120° = 60°$."
+    },
+    {
+      "id": "para5_n1_028",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "EFGH est un losange de centre O. On sait que $EG = 8$ cm et $FH = 6$ cm. Combien mesure $OE$ ?",
+      "image": null,
+      "choix": ["$3$ cm", "$4$ cm", "$6$ cm", "$8$ cm"],
+      "reponse": "$4$ cm",
+      "explication": "Les diagonales du losange se coupent en leur milieu en O. Donc $OE = \\dfrac{EG}{2} = \\dfrac{8}{2} = 4$ cm."
+    },
+    {
+      "id": "para5_n1_029",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle avec $AB = 9$ cm et $BC = 4$ cm. Quelle est la longueur $AD$ ?",
+      "image": "5eme/parallelogrammes/2b9927fe55c67cf6480f3dc59f34a38a271f797b.png",
+      "choix": ["$4$ cm", "$9$ cm", "$13$ cm", "$36$ cm"],
+      "reponse": "$4$ cm",
+      "explication": "Dans un rectangle, les côtés opposés sont égaux. $AD$ est opposé à $BC$, donc $AD = BC = 4$ cm."
+    },
+    {
+      "id": "para5_n1_030",
+      "niveau": 1,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme avec $AB = 6$ cm et $BC = 3$ cm. Que vaut $CD$ ?",
+      "image": "5eme/parallelogrammes/b2681293e793a73bad0ac44906a026d85f9f2a7f.png",
+      "choix": ["$3$ cm", "$6$ cm", "$9$ cm", "$18$ cm"],
+      "reponse": "$6$ cm",
+      "explication": "Dans un parallélogramme, les côtés opposés sont égaux. $CD$ est opposé à $AB$, donc $CD = AB = 6$ cm."
+    },
+    {
+      "id": "para5_n2_002",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme avec deux côtés consécutifs $AB = BC$. Que peut-on conclure ?",
+      "image": "5eme/parallelogrammes/bf08a4cdeea5a13664e7181c01506d1f2df638ea.png",
+      "choix": [
+        "C'est un rectangle",
+        "C'est un losange",
+        "C'est un carré",
+        "On ne peut pas conclure"
+      ],
+      "reponse": "C'est un losange",
+      "explication": "Si un parallélogramme a deux côtés consécutifs égaux, alors tous ses côtés sont égaux (car les côtés opposés sont déjà égaux dans tout parallélogramme). C'est donc un losange."
+    },
+    {
+      "id": "para5_n2_003",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le losange ci-dessous, les diagonales sont des bissectrices des angles. Si $\\widehat{DAC} = 31°$, quelle est la mesure de $\\widehat{BAC}$ ?",
+      "image": "5eme/parallelogrammes/bf08a4cdeea5a13664e7181c01506d1f2df638ea.png",
+      "choix": ["$62°$", "$31°$", "$59°$", "$119°$"],
+      "reponse": "$31°$",
+      "explication": "Dans un losange, la diagonale $[AC]$ est la bissectrice de l'angle $\\widehat{DAB}$, donc elle coupe cet angle en deux parties égales. $\\widehat{DAC} = \\widehat{BAC} = 31°$."
+    },
+    {
+      "id": "para5_n2_004",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un quadrilatère avec $AB = CD = 5$ cm, $AD = BC = 3$ cm et les diagonales se coupent en leur milieu. C'est :",
+      "image": "5eme/parallelogrammes/b2681293e793a73bad0ac44906a026d85f9f2a7f.png",
+      "choix": [
+        "nécessairement un rectangle",
+        "nécessairement un losange",
+        "un parallélogramme (pas assez d'info pour préciser)",
+        "un carré"
+      ],
+      "reponse": "un parallélogramme (pas assez d'info pour préciser)",
+      "explication": "Les diagonales se coupent en leur milieu : c'est un parallélogramme. Les côtés opposés sont égaux mais différents ($5 \\neq 3$), donc ce n'est ni un losange ni un carré. Pas d'angle droit mentionné, donc pas nécessairement un rectangle."
+    },
+    {
+      "id": "para5_n2_007",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le parallélogramme ABCD, l'angle $\\widehat{DAB} = 115°$. Quelle est la mesure de l'angle $\\widehat{ABC}$ ?",
+      "image": null,
+      "choix": ["$115°$", "$65°$", "$180°$", "$45°$"],
+      "reponse": "$65°$",
+      "explication": "$\\widehat{DAB}$ et $\\widehat{ABC}$ sont des angles consécutifs donc supplémentaires : $\\widehat{ABC} = 180° - 115° = 65°$."
+    },
+    {
+      "id": "para5_n2_008",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour prouver qu'un quadrilatère est un parallélogramme, on peut montrer que :",
+      "image": null,
+      "choix": [
+        "ses diagonales sont perpendiculaires",
+        "ses diagonales se coupent en leur milieu",
+        "ses angles sont droits",
+        "ses diagonales ont la même longueur"
+      ],
+      "reponse": "ses diagonales se coupent en leur milieu",
+      "explication": "Un quadrilatère dont les diagonales se coupent en leur milieu est un parallélogramme. C'est la réciproque de la propriété des diagonales du parallélogramme."
+    },
+    {
+      "id": "para5_n2_009",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle. L'angle $\\widehat{ABD} = 52°$. Quelle est la mesure de l'angle $\\widehat{ADB}$ ?",
+      "image": "5eme/parallelogrammes/2b9927fe55c67cf6480f3dc59f34a38a271f797b.png",
+      "choix": ["$52°$", "$38°$", "$90°$", "$45°$"],
+      "reponse": "$38°$",
+      "explication": "Dans le triangle ABD, $\\widehat{ABD} = 52°$. $\\widehat{DAB} = 90°$ (angle d'un rectangle). La somme des angles d'un triangle est $180°$, donc $\\widehat{ADB} = 180° - 90° - 52° = 38°$."
+    },
+    {
+      "id": "para5_n2_010",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Dans le carré ABCD de centre O, que vaut l'angle $\\widehat{AOB}$ ?",
+      "image": null,
+      "choix": ["$45°$", "$60°$", "$90°$", "$120°$"],
+      "reponse": "$90°$",
+      "explication": "Un carré est un losange, donc ses diagonales sont perpendiculaires. L'angle $\\widehat{AOB}$ formé par les deux diagonales en O est donc de $90°$."
+    },
+    {
+      "id": "para5_n2_011",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "VERT est un quadrilatère non croisé avec $RT = VE$ et $VT = RE$. Quelle propriété permet de dire que c'est un parallélogramme ?",
+      "image": null,
+      "choix": [
+        "Ses côtés opposés sont parallèles",
+        "Ses diagonales sont perpendiculaires",
+        "Ses côtés opposés ont la même longueur",
+        "Ses angles sont droits"
+      ],
+      "reponse": "Ses côtés opposés ont la même longueur",
+      "explication": "Un quadrilatère dont les côtés opposés sont deux à deux égaux est un parallélogramme. Ici $RT = VE$ et $VT = RE$, donc VERT est un parallélogramme."
+    },
+    {
+      "id": "para5_n2_012",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle avec $AB = 4$ cm et $BC = 2{,}5$ cm. O est le centre. Si la diagonale $AC = 10$ cm, que vaut $OA$ ?",
+      "image": null,
+      "choix": ["$2{,}5$ cm", "$4$ cm", "$5$ cm", "$10$ cm"],
+      "reponse": "$5$ cm",
+      "explication": "Dans un rectangle, les diagonales se coupent en leur milieu. O est le milieu de $[AC]$, donc $OA = \\dfrac{AC}{2} = \\dfrac{10}{2} = 5$ cm."
+    },
+    {
+      "id": "para5_n2_013",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle avec $AB = 4$ cm, $BC = 2{,}5$ cm et $AC = 10$ cm. Quelle est la nature du triangle BOC (O centre du rectangle) ?",
+      "image": null,
+      "choix": [
+        "Triangle équilatéral",
+        "Triangle rectangle",
+        "Triangle isocèle",
+        "Triangle quelconque"
+      ],
+      "reponse": "Triangle isocèle",
+      "explication": "Dans un rectangle, les diagonales sont égales et se coupent en leur milieu, donc $OB = OC = \\dfrac{BD}{2} = \\dfrac{AC}{2} = 5$ cm. Le triangle BOC est isocèle en O."
+    },
+    {
+      "id": "para5_n2_014",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle avec $AC = 10$ cm et $\\widehat{OCB} = 74°$. Quelle est la mesure de l'angle $\\widehat{OBC}$ ?",
+      "image": "5eme/parallelogrammes/edfe66b7d841c2df78ab689e80f99d047e598b59.png",
+      "choix": ["$74°$", "$16°$", "$32°$", "$106°$"],
+      "reponse": "$74°$",
+      "explication": "Le triangle OBC est isocèle en O ($OB = OC$), donc les angles à la base sont égaux : $\\widehat{OBC} = \\widehat{OCB} = 74°$."
+    },
+    {
+      "id": "para5_n2_015",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "EFGH est un losange avec $\\widehat{FEH} = 68°$. Quelle est la mesure de l'angle $\\widehat{FGH}$ ?",
+      "image": "5eme/parallelogrammes/bf08a4cdeea5a13664e7181c01506d1f2df638ea.png",
+      "choix": ["$22°$", "$68°$", "$112°$", "$136°$"],
+      "reponse": "$68°$",
+      "explication": "Dans un losange (parallélogramme), les angles opposés sont égaux. $\\widehat{FEH}$ et $\\widehat{FGH}$ sont opposés, donc $\\widehat{FGH} = \\widehat{FEH} = 68°$."
+    },
+    {
+      "id": "para5_n2_016",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "EFGH est un losange avec $\\widehat{FEH} = 68°$. Quelle est la mesure de l'angle $\\widehat{EFG}$ ?",
+      "image": "5eme/parallelogrammes/bf08a4cdeea5a13664e7181c01506d1f2df638ea.png",
+      "choix": ["$22°$", "$68°$", "$112°$", "$136°$"],
+      "reponse": "$112°$",
+      "explication": "Dans un parallélogramme, les angles consécutifs sont supplémentaires. $\\widehat{EFG} = 180° - \\widehat{FEH} = 180° - 68° = 112°$."
+    },
+    {
+      "id": "para5_n2_017",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un losange avec $\\widehat{DAB} = 56°$. Quels sont les quatre angles du losange ?",
+      "image": null,
+      "choix": [
+        "$56°$, $56°$, $56°$, $56°$",
+        "$56°$, $124°$, $56°$, $124°$",
+        "$56°$, $90°$, $56°$, $158°$",
+        "$56°$, $56°$, $124°$, $124°$"
+      ],
+      "reponse": "$56°$, $124°$, $56°$, $124°$",
+      "explication": "$\\widehat{DAB} = \\widehat{BCD} = 56°$ (angles opposés). $\\widehat{ABC} = \\widehat{CDA} = 180° - 56° = 124°$ (angles consécutifs supplémentaires). Les quatre angles sont $56°$, $124°$, $56°$, $124°$."
+    },
+    {
+      "id": "para5_n2_018",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "CTRL est un parallélogramme de centre O avec $CR = 7$ cm et $TL = 5{,}4$ cm. Combien mesure $OC$ ?",
+      "image": null,
+      "choix": ["$1{,}35$ cm", "$2{,}7$ cm", "$3{,}5$ cm", "$7$ cm"],
+      "reponse": "$3{,}5$ cm",
+      "explication": "Les diagonales du parallélogramme se coupent en leur milieu. $OC = \\dfrac{CR}{2} = \\dfrac{7}{2} = 3{,}5$ cm."
+    },
+    {
+      "id": "para5_n2_019",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "CTRL est un parallélogramme de centre O avec $TL = 5{,}4$ cm. Combien mesure $OT$ ?",
+      "image": null,
+      "choix": ["$1{,}35$ cm", "$2{,}7$ cm", "$5{,}4$ cm", "$10{,}8$ cm"],
+      "reponse": "$2{,}7$ cm",
+      "explication": "$OT = \\dfrac{TL}{2} = \\dfrac{5{,}4}{2} = 2{,}7$ cm. Les diagonales se coupent en leur milieu."
+    },
+    {
+      "id": "para5_n2_020",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "EFGH est un losange avec $\\widehat{FEG} = 44°$. Quelle est la mesure de l'angle $\\widehat{FEH}$ ?",
+      "image": "5eme/parallelogrammes/5b5a61ff3be32e1097da6d03069a370426c511ce.png",
+      "choix": ["$22°$", "$44°$", "$88°$", "$136°$"],
+      "reponse": "$88°$",
+      "explication": "Dans un losange, la diagonale $[EG]$ est la bissectrice de l'angle $\\widehat{FEH}$, donc $\\widehat{FEG} = \\widehat{GEH} = 44°$. Ainsi $\\widehat{FEH} = 2 \\times 44° = 88°$."
+    },
+    {
+      "id": "para5_n2_021",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "EFGH est un losange avec $\\widehat{FEG} = 44°$. Quelle est la mesure de l'angle $\\widehat{EFG}$ ?",
+      "image": null,
+      "choix": ["$44°$", "$88°$", "$92°$", "$136°$"],
+      "reponse": "$92°$",
+      "explication": "$\\widehat{FEH} = 88°$ (calculé précédemment). $\\widehat{EFG}$ est consécutif à $\\widehat{FEH}$, donc supplémentaire : $\\widehat{EFG} = 180° - 88° = 92°$."
+    },
+    {
+      "id": "para5_n2_022",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un losange avec $AC = 12$ cm et $BD = 16$ cm. O est le centre. Combien mesure $OA$ ?",
+      "image": null,
+      "choix": ["$4$ cm", "$6$ cm", "$8$ cm", "$12$ cm"],
+      "reponse": "$6$ cm",
+      "explication": "$OA = \\dfrac{AC}{2} = \\dfrac{12}{2} = 6$ cm. Les diagonales se coupent en leur milieu."
+    },
+    {
+      "id": "para5_n2_023",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un losange avec $AC = 12$ cm et $BD = 16$ cm, centre O. Quelle est la nature du triangle AOB ?",
+      "image": null,
+      "choix": [
+        "Équilatéral",
+        "Rectangle en O",
+        "Isocèle en O",
+        "Quelconque"
+      ],
+      "reponse": "Rectangle en O",
+      "explication": "Les diagonales du losange sont perpendiculaires, donc $\\widehat{AOB} = 90°$. Le triangle AOB est rectangle en O. ($OA = 6$ cm, $OB = 8$ cm)"
+    },
+    {
+      "id": "para5_n2_024",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "DEFI est un parallélogramme. $DE = 3{,}2$ cm, $EF = 2{,}5$ cm, $\\widehat{IDE} = 79°$. Quelle est la mesure de l'angle $\\widehat{DEF}$ ?",
+      "image": null,
+      "choix": ["$79°$", "$90°$", "$101°$", "$180°$"],
+      "reponse": "$101°$",
+      "explication": "$\\widehat{IDE}$ et $\\widehat{DEF}$ sont des angles consécutifs dans le parallélogramme DEFI, donc supplémentaires : $\\widehat{DEF} = 180° - 79° = 101°$."
+    },
+    {
+      "id": "para5_n2_025",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "DEFI est un parallélogramme. $DE = 3{,}2$ cm, $EF = 2{,}5$ cm. Quelle est la longueur $DI$ ?",
+      "image": "5eme/parallelogrammes/6015c6db554018a1bec9c00cc1ce384984847b1b.png",
+      "choix": ["$2{,}5$ cm", "$3{,}2$ cm", "$5{,}7$ cm", "$6{,}4$ cm"],
+      "reponse": "$2{,}5$ cm",
+      "explication": "Dans le parallélogramme DEFI, $DI$ est opposé à $EF$, donc $DI = EF = 2{,}5$ cm."
+    },
+    {
+      "id": "para5_n2_027",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un parallélogramme avec $\\widehat{DAB} = 3x + 10°$ et $x = 30°$. Quels sont les quatre angles du parallélogramme ?",
+      "image": null,
+      "choix": [
+        "$100°$, $80°$, $100°$, $80°$",
+        "$90°$, $90°$, $90°$, $90°$",
+        "$100°$, $100°$, $100°$, $100°$",
+        "$30°$, $150°$, $30°$, $150°$"
+      ],
+      "reponse": "$100°$, $80°$, $100°$, $80°$",
+      "explication": "$\\widehat{DAB} = 3 \\times 30 + 10 = 100°$. $\\widehat{BCD} = 100°$ (opposé). $\\widehat{ABC} = \\widehat{CDA} = 180° - 100° = 80°$ (consécutifs). Les angles sont $100°$, $80°$, $100°$, $80°$."
+    },
+    {
+      "id": "para5_n2_028",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "IJKL est un rectangle avec $IK = 5{,}8$ cm et $\\widehat{OIJ} = 30°$ (O centre). Quelle est la mesure de l'angle $\\widehat{JIL}$ ?",
+      "image": "5eme/parallelogrammes/bb07872aad6a7329efb294c0ffba503bc077b1ce.png",
+      "choix": ["$30°$", "$60°$", "$90°$", "$120°$"],
+      "reponse": "$60°$",
+      "explication": "$\\widehat{JIL} = \\widehat{JIK} - \\widehat{LIK}$. Comme $\\widehat{JIL}$ et $\\widehat{OIJ}$ sont complémentaires dans l'angle droit $\\widehat{LIJ} = 90°$ : $\\widehat{JIL} = 90° - 30° = 60°$."
+    },
+    {
+      "id": "para5_n2_030",
+      "niveau": 2,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "EFGH est un quadrilatère non croisé avec $EF = GH = FG = EH$. Quelle est sa nature ?",
+      "image": null,
+      "choix": [
+        "Rectangle",
+        "Losange",
+        "Carré si angle droit, sinon Losange",
+        "Parallélogramme quelconque"
+      ],
+      "reponse": "Carré si angle droit, sinon Losange",
+      "explication": "Si les quatre côtés sont égaux, c'est un losange. Si en plus un angle est droit (donc tous les angles sont droits), c'est un carré. Sans information sur les angles, on ne peut pas conclure davantage que losange."
+    },
+    {
+      "id": "para5_n3_001",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pour prouver qu'un quadrilatère est un carré, il faut montrer que :",
+      "image": null,
+      "choix": [
+        "il a $4$ côtés égaux",
+        "il a $4$ angles droits",
+        "c'est à la fois un rectangle et un losange",
+        "ses diagonales sont perpendiculaires"
+      ],
+      "reponse": "c'est à la fois un rectangle et un losange",
+      "explication": "Un carré est défini comme un losange rectangulaire. Pour prouver qu'un quadrilatère est un carré, il faut montrer qu'il vérifie à la fois les propriétés du rectangle (diagonales égales ou angle droit) et celles du losange (diagonales perpendiculaires ou côtés égaux)."
+    },
+    {
+      "id": "para5_n3_003",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "B est un point sur le cercle de diamètre $[AC]$. Que peut-on affirmer sur le triangle ABC ?",
+      "image": null,
+      "choix": [
+        "ABC est isocèle",
+        "ABC est rectangle en B",
+        "ABC est équilatéral",
+        "ABC est quelconque"
+      ],
+      "reponse": "ABC est rectangle en B",
+      "explication": "D'après la réciproque du théorème de Thalès : tout point du cercle de diamètre $[AC]$ voit $[AC]$ sous un angle droit. Donc $\\widehat{ABC} = 90°$ et le triangle ABC est rectangle en B."
+    },
+    {
+      "id": "para5_n3_006",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un quadrilatère non croisé dont les diagonales se coupent en leur milieu et sont perpendiculaires. Quelle est sa nature ?",
+      "image": "5eme/parallelogrammes/6098650146af229968a05b6ef292b22dbbe45fca.png",
+      "choix": [
+        "Rectangle",
+        "Losange",
+        "Carré",
+        "Parallélogramme quelconque"
+      ],
+      "reponse": "Losange",
+      "explication": "Un quadrilatère dont les diagonales se coupent en leur milieu est un parallélogramme. Si de plus ses diagonales sont perpendiculaires, c'est un losange. (Ce n'est pas forcément un carré car les diagonales peuvent être de longueurs différentes.)"
+    },
+    {
+      "id": "para5_n3_008",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un rectangle. L'angle $\\widehat{ABD} = 3x - 5°$ et l'angle $\\widehat{DBC} = x + 25°$. Sachant que $\\widehat{ABC} = 90°$, que vaut $x$ ?",
+      "image": "5eme/parallelogrammes/2b9927fe55c67cf6480f3dc59f34a38a271f797b.png",
+      "choix": ["$x = 15°$", "$x = 17{,}5°$", "$x = 20°$", "$x = 25°$"],
+      "reponse": "$x = 17{,}5°$",
+      "explication": "$\\widehat{ABD} + \\widehat{DBC} = 90°$, donc $(3x - 5) + (x + 25) = 90$. $4x + 20 = 90$, $4x = 70$, $x = 17{,}5°$."
+    },
+    {
+      "id": "para5_n3_011",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "PEAU est un parallélogramme dont les diagonales $[PA]$ et $[EU]$ se coupent perpendiculairement en leur milieu. Quelle est la nature de PEAU ?",
+      "image": "5eme/parallelogrammes/bf08a4cdeea5a13664e7181c01506d1f2df638ea.png",
+      "choix": [
+        "Rectangle",
+        "Losange",
+        "Carré",
+        "Parallélogramme quelconque"
+      ],
+      "reponse": "Losange",
+      "explication": "PEAU est un parallélogramme (diagonales se coupant en leur milieu). Ses diagonales sont de plus perpendiculaires. Un parallélogramme à diagonales perpendiculaires est un losange."
+    },
+    {
+      "id": "para5_n3_013",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "IJKL est un losange avec $\\widehat{IJK} = 106°$ et $JL = 6$ cm. Quelle est la mesure de l'angle $\\widehat{ILK}$ ?",
+      "image": null,
+      "choix": ["$53°$", "$74°$", "$106°$", "$127°$"],
+      "reponse": "$106°$",
+      "explication": "$\\widehat{ILK}$ est l'angle opposé à $\\widehat{IJK}$ dans le losange IJKL. Les angles opposés d'un parallélogramme sont égaux : $\\widehat{ILK} = \\widehat{IJK} = 106°$."
+    },
+    {
+      "id": "para5_n3_015",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un quadrilatère. Pourquoi peut-on affirmer qu'un quadrilatère avec $3$ angles droits est nécessairement un rectangle ?",
+      "image": "5eme/parallelogrammes/9f29c1d6aef0da13b3b66045b5103481b472d082.png",
+      "choix": [
+        "Car la somme des angles d'un quadrilatère vaut $360°$ donc le $4^e$ angle est aussi droit",
+        "Car un quadrilatère à $3$ angles droits est toujours un carré",
+        "Car ses diagonales sont automatiquement perpendiculaires",
+        "Car ses côtés opposés sont automatiquement égaux"
+      ],
+      "reponse": "Car la somme des angles d'un quadrilatère vaut $360°$ donc le $4^e$ angle est aussi droit",
+      "explication": "La somme des angles d'un quadrilatère est $360°$. Si 3 angles valent $90°$, le 4ème vaut $360° - 3 \\times 90° = 360° - 270° = 90°$. Le quadrilatère a donc 4 angles droits : c'est un rectangle."
+    },
+    {
+      "id": "para5_n3_020",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Pourquoi dit-on qu'un carré est un cas particulier du losange ET du rectangle à la fois ?",
+      "image": null,
+      "choix": [
+        "Car ses côtés sont tous égaux ET ses angles sont tous droits",
+        "Car ses diagonales sont égales uniquement",
+        "Car ses diagonales sont perpendiculaires uniquement",
+        "Car il a plus de 4 propriétés"
+      ],
+      "reponse": "Car ses côtés sont tous égaux ET ses angles sont tous droits",
+      "explication": "Le carré cumule les propriétés du losange (4 côtés égaux, diagonales perpendiculaires et bissectrices) et celles du rectangle (4 angles droits, diagonales égales). C'est le seul quadrilatère à vérifier toutes ces propriétés simultanément."
+    },
+    {
+      "id": "para5_n3_021",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "ABCD est un quadrilatère non croisé tel que $AC \\perp BD$ et $AC = BD$, et les diagonales se coupent en leur milieu. Quelle est la nature de ABCD ?",
+      "image": null,
+      "choix": ["Rectangle", "Losange", "Carré", "Parallélogramme quelconque"],
+      "reponse": "Carré",
+      "explication": "Les diagonales se coupent en leur milieu → parallélogramme. Diagonales perpendiculaires → losange. Diagonales égales → rectangle. Losange + rectangle = carré."
+    },
+    {
+      "id": "para5_n3_030",
+      "niveau": 3,
+      "type": "qcm",
+      "avec_calculatrice": false,
+      "enonce_html": "Parmi ces affirmations sur les parallélogrammes, laquelle est TOUJOURS vraie ?",
+      "image": null,
+      "choix": [
+        "Tout rectangle est un losange",
+        "Tout losange est un rectangle",
+        "Tout carré est un losange",
+        "Tout parallélogramme est un rectangle"
+      ],
+      "reponse": "Tout carré est un losange",
+      "explication": "Un carré est un losange rectangulaire, donc il possède toutes les propriétés d'un losange. L'affirmation 'tout carré est un losange' est toujours vraie. Les autres affirmations sont fausses en général."
+    }
+  ]
+}
