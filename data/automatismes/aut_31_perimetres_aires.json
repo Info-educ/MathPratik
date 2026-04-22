@@ -16,13 +16,14 @@
       "enonce": "Calcule : Périmètre du rectangle $ABCD$ : $L = 8\\,\\mathrm{cm}$, $\\ell = 5\\,\\mathrm{cm}$.",
       "choix": [
         "$\\mathcal{P} = 26\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 22\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 24\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 22\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 40\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 26\\,\\mathrm{cm}$",
       "explication": "$\\mathcal{P} = 2(L + \\ell) = 2(8+5) = 2 \\times 13 = 26\\,\\mathrm{cm}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_02",
@@ -32,14 +33,15 @@
       "chrono": 25,
       "enonce": "Calcule : Périmètre du carré $ABCD$ de côté $9\\,\\mathrm{m}$.",
       "choix": [
-        "$\\mathcal{P} = 36\\,\\mathrm{m}$",
         "$\\mathcal{P} = 27\\,\\mathrm{m}$",
         "$\\mathcal{P} = 45\\,\\mathrm{m}$",
+        "$\\mathcal{P} = 36\\,\\mathrm{m}$",
         "$\\mathcal{P} = 18\\,\\mathrm{m}$"
       ],
       "reponse": "$\\mathcal{P} = 36\\,\\mathrm{m}$",
       "explication": "$\\mathcal{P} = 4 \\times 9 = 36\\,\\mathrm{m}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_03",
@@ -51,12 +53,13 @@
       "choix": [
         "$\\mathcal{P} = 18\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 16\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 20\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 22\\,\\mathrm{cm}$"
+        "$\\mathcal{P} = 22\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 20\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 18\\,\\mathrm{cm}$",
       "explication": "$\\mathcal{P} = 7+5+6 = 18\\,\\mathrm{cm}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_04",
@@ -66,14 +69,15 @@
       "chrono": 25,
       "enonce": "Calcule : Longueur du cercle de centre $O$ et de rayon $r = 4\\,\\mathrm{cm}$ (valeur exacte).",
       "choix": [
-        "$\\mathcal{C} = 8\\pi\\,\\mathrm{cm}$",
         "$\\mathcal{C} = 4\\pi\\,\\mathrm{cm}$",
-        "$\\mathcal{C} = 6\\pi\\,\\mathrm{cm}$",
-        "$\\mathcal{C} = 12\\pi\\,\\mathrm{cm}$"
+        "$\\mathcal{C} = 8\\pi\\,\\mathrm{cm}$",
+        "$\\mathcal{C} = 12\\pi\\,\\mathrm{cm}$",
+        "$\\mathcal{C} = 6\\pi\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{C} = 8\\pi\\,\\mathrm{cm}$",
       "explication": "$\\mathcal{C} = 2\\pi r = 2 \\times \\pi \\times 4 = 8\\pi\\,\\mathrm{cm}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_05",
@@ -85,12 +89,13 @@
       "choix": [
         "$\\mathcal{C} = 10\\pi\\,\\mathrm{m}$",
         "$\\mathcal{C} = 5\\pi\\,\\mathrm{m}$",
-        "$\\mathcal{C} = 20\\pi\\,\\mathrm{m}$",
-        "$\\mathcal{C} = 100\\pi\\,\\mathrm{m}$"
+        "$\\mathcal{C} = 100\\pi\\,\\mathrm{m}$",
+        "$\\mathcal{C} = 20\\pi\\,\\mathrm{m}$"
       ],
       "reponse": "$\\mathcal{C} = 10\\pi\\,\\mathrm{m}$",
       "explication": "$r = d \\div 2 = 5\\,\\mathrm{m}$. $\\mathcal{C} = 2\\pi \\times 5 = 10\\pi\\,\\mathrm{m}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_06",
@@ -100,14 +105,15 @@
       "chrono": 25,
       "enonce": "Calcule : Périmètre du rectangle $KLMN$ : $L = 12\\,\\mathrm{m}$, $\\ell = 3\\,\\mathrm{m}$.",
       "choix": [
+        "$\\mathcal{P} = 24\\,\\mathrm{m}$",
         "$\\mathcal{P} = 30\\,\\mathrm{m}$",
-        "$\\mathcal{P} = 36\\,\\mathrm{m}$",
         "$\\mathcal{P} = 15\\,\\mathrm{m}$",
-        "$\\mathcal{P} = 24\\,\\mathrm{m}$"
+        "$\\mathcal{P} = 36\\,\\mathrm{m}$"
       ],
       "reponse": "$\\mathcal{P} = 30\\,\\mathrm{m}$",
-      "explication": "$\\mathcal{P} = 2(12+3) = 2 \\times 15 = 30\\,\\mathrm{m}$.",
-      "image": null
+      "explication": "$\\mathcal{P} = 2(L + \\ell) = 2(12+3) = 2 \\times 15 = 30\\,\\mathrm{m}$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_07",
@@ -117,14 +123,15 @@
       "chrono": 25,
       "enonce": "Calcule : Périmètre du carré $EFGH$ de côté $7\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{P} = 28\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 21\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 14\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 35\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 14\\,\\mathrm{cm}$"
+        "$\\mathcal{P} = 28\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 28\\,\\mathrm{cm}$",
-      "explication": "$\\mathcal{P} = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
-      "image": null
+      "explication": "$\\mathcal{P} = 4 \\times c = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_08",
@@ -134,14 +141,15 @@
       "chrono": 25,
       "enonce": "Calcule : Périmètre du triangle équilatéral $ABC$ de côté $11\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{P} = 33\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 22\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 44\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 22\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 33\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 121\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 33\\,\\mathrm{cm}$",
       "explication": "$\\mathcal{P} = 3 \\times 11 = 33\\,\\mathrm{cm}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_09",
@@ -151,14 +159,15 @@
       "chrono": 25,
       "enonce": "Calcule : Longueur du cercle de rayon $r = 6\\,\\mathrm{cm}$ (valeur exacte).",
       "choix": [
-        "$\\mathcal{C} = 12\\pi\\,\\mathrm{cm}$",
+        "$\\mathcal{C} = 8\\pi\\,\\mathrm{cm}$",
         "$\\mathcal{C} = 6\\pi\\,\\mathrm{cm}$",
-        "$\\mathcal{C} = 36\\pi\\,\\mathrm{cm}$",
-        "$\\mathcal{C} = 8\\pi\\,\\mathrm{cm}$"
+        "$\\mathcal{C} = 12\\pi\\,\\mathrm{cm}$",
+        "$\\mathcal{C} = 36\\pi\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{C} = 12\\pi\\,\\mathrm{cm}$",
-      "explication": "$\\mathcal{C} = 2\\pi \\times 6 = 12\\pi\\,\\mathrm{cm}$.",
-      "image": null
+      "explication": "$\\mathcal{C} = 2\\pi r = 2\\pi \\times 6 = 12\\pi\\,\\mathrm{cm}$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_10",
@@ -169,13 +178,14 @@
       "enonce": "Calcule : Périmètre du rectangle $ABCD$ : $L = 20\\,\\mathrm{m}$, $\\ell = 8\\,\\mathrm{m}$.",
       "choix": [
         "$\\mathcal{P} = 56\\,\\mathrm{m}$",
-        "$\\mathcal{P} = 28\\,\\mathrm{m}$",
         "$\\mathcal{P} = 48\\,\\mathrm{m}$",
-        "$\\mathcal{P} = 160\\,\\mathrm{m}$"
+        "$\\mathcal{P} = 160\\,\\mathrm{m}$",
+        "$\\mathcal{P} = 28\\,\\mathrm{m}$"
       ],
       "reponse": "$\\mathcal{P} = 56\\,\\mathrm{m}$",
-      "explication": "$\\mathcal{P} = 2(20+8) = 2 \\times 28 = 56\\,\\mathrm{m}$.",
-      "image": null
+      "explication": "$\\mathcal{P} = 2(L + \\ell) = 2(20+8) = 2 \\times 28 = 56\\,\\mathrm{m}$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_11",
@@ -185,14 +195,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du rectangle $ABCD$ : $L = 6\\,\\mathrm{cm}$, $\\ell = 4\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{A} = 24\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 20\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 28\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 10\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 10\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 24\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 20\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 24\\,\\mathrm{cm}^2$",
       "explication": "$\\mathcal{A} = L \\times \\ell = 6 \\times 4 = 24\\,\\mathrm{cm}^2$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_12",
@@ -202,14 +213,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du carré $ABCD$ de côté $5\\,\\mathrm{m}$.",
       "choix": [
-        "$\\mathcal{A} = 25\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 10\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 20\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 100\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 10\\,\\mathrm{m}^2$"
+        "$\\mathcal{A} = 25\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 100\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 25\\,\\mathrm{m}^2$",
-      "explication": "$\\mathcal{A} = 5^2 = 25\\,\\mathrm{m}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = c^2 = 5^2 = 25\\,\\mathrm{m}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_13",
@@ -219,14 +231,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du triangle $ABC$ : $BC = 10\\,\\mathrm{cm}$, hauteur $h = 6\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{A} = 30\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 60\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 24\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 16\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 16\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 30\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 60\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 30\\,\\mathrm{cm}^2$",
       "explication": "$\\mathcal{A} = \\dfrac{BC \\times h}{2} = \\dfrac{10 \\times 6}{2} = 30\\,\\mathrm{cm}^2$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_14",
@@ -238,12 +251,13 @@
       "choix": [
         "$\\mathcal{A} = 9\\pi\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 3\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 6\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 12\\pi\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 12\\pi\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 6\\pi\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 9\\pi\\,\\mathrm{cm}^2$",
       "explication": "$\\mathcal{A} = \\pi r^2 = \\pi \\times 9 = 9\\pi\\,\\mathrm{cm}^2$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_15",
@@ -254,13 +268,14 @@
       "enonce": "Calcule : Aire du rectangle $PQRS$ : $L = 9\\,\\mathrm{m}$, $\\ell = 4\\,\\mathrm{m}$.",
       "choix": [
         "$\\mathcal{A} = 36\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 13\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 26\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 32\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 13\\,\\mathrm{m}^2$"
+        "$\\mathcal{A} = 32\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 36\\,\\mathrm{m}^2$",
-      "explication": "$\\mathcal{A} = 9 \\times 4 = 36\\,\\mathrm{m}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = L \\times \\ell = 9 \\times 4 = 36\\,\\mathrm{m}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_16",
@@ -270,14 +285,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du carré $ABCD$ de côté $12\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{A} = 144\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 48\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 24\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 120\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 120\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 144\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 144\\,\\mathrm{cm}^2$",
-      "explication": "$\\mathcal{A} = 12^2 = 144\\,\\mathrm{cm}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = c^2 = 12^2 = 144\\,\\mathrm{cm}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_17",
@@ -287,14 +303,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du triangle $ABC$ : $BC = 8\\,\\mathrm{m}$, hauteur $h = 5\\,\\mathrm{m}$.",
       "choix": [
+        "$\\mathcal{A} = 16\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 20\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 40\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 13\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 16\\,\\mathrm{m}^2$"
+        "$\\mathcal{A} = 40\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 20\\,\\mathrm{m}^2$",
-      "explication": "$\\mathcal{A} = \\dfrac{8 \\times 5}{2} = 20\\,\\mathrm{m}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = \\dfrac{\\text{base} \\times h}{2} = \\dfrac{8 \\times 5}{2} = \\dfrac{40}{2} = 20\\,\\mathrm{m}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_18",
@@ -304,14 +321,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du disque de rayon $r = 5\\,\\mathrm{cm}$ (valeur exacte).",
       "choix": [
-        "$\\mathcal{A} = 25\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 5\\pi\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 10\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 15\\pi\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 15\\pi\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 5\\pi\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 25\\pi\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 25\\pi\\,\\mathrm{cm}^2$",
-      "explication": "$\\mathcal{A} = \\pi \\times 5^2 = 25\\pi\\,\\mathrm{cm}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = \\pi \\times 5^2 = 25\\pi\\,\\mathrm{cm}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_19",
@@ -321,14 +339,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du rectangle $ABCD$ : $L = 15\\,\\mathrm{cm}$, $\\ell = 7\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{A} = 105\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 44\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 105\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 112\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 22\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 105\\,\\mathrm{cm}^2$",
-      "explication": "$\\mathcal{A} = 15 \\times 7 = 105\\,\\mathrm{cm}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = L \\times \\ell = 15 \\times 7 = 105\\,\\mathrm{cm}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_20",
@@ -338,14 +357,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du carré $ABCD$ de côté $3\\,\\mathrm{m}$.",
       "choix": [
-        "$\\mathcal{A} = 9\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 12\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 6\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 12\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 9\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 3\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 9\\,\\mathrm{m}^2$",
-      "explication": "$\\mathcal{A} = 3^2 = 9\\,\\mathrm{m}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = c^2 = 3^2 = 9\\,\\mathrm{m}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_21",
@@ -355,14 +375,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du triangle $ABC$ : $BC = 14\\,\\mathrm{cm}$, hauteur $h = 6\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{A} = 42\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 84\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 20\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 21\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 21\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 42\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 42\\,\\mathrm{cm}^2$",
-      "explication": "$\\mathcal{A} = \\dfrac{14 \\times 6}{2} = 42\\,\\mathrm{cm}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = \\dfrac{\\text{base} \\times h}{2} = \\dfrac{14 \\times 6}{2} = \\dfrac{84}{2} = 42\\,\\mathrm{cm}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_22",
@@ -372,14 +393,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du disque de diamètre $d = 8\\,\\mathrm{cm}$ (valeur exacte).",
       "choix": [
-        "$\\mathcal{A} = 16\\pi\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 8\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 64\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 4\\pi\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 16\\pi\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 4\\pi\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 64\\pi\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 16\\pi\\,\\mathrm{cm}^2$",
-      "explication": "$r = 4\\,\\mathrm{cm}$. $\\mathcal{A} = \\pi \\times 4^2 = 16\\pi\\,\\mathrm{cm}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = \\pi \\times 4^2 = 16\\pi\\,\\mathrm{cm}^2$ ($r = d \\div 2 = 4\\,\\mathrm{cm}$).",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_23",
@@ -389,14 +411,15 @@
       "chrono": 25,
       "enonce": "Calcule : Périmètre du carré $ABCD$ d'aire $49\\,\\mathrm{cm}^2$.",
       "choix": [
-        "$\\mathcal{P} = 28\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 14\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 49\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 196\\,\\mathrm{cm}$"
+        "$\\mathcal{P} = 28\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 196\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 14\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 28\\,\\mathrm{cm}$",
-      "explication": "Côté $= \\sqrt{49} = 7\\,\\mathrm{cm}$. $\\mathcal{P} = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
-      "image": null
+      "explication": "$c = \\sqrt{\\mathcal{A}} = \\sqrt{49} = 7\\,\\mathrm{cm}$ $\\rightarrow$ $\\mathcal{P} = 4 \\times c = 4 \\times 7 = 28\\,\\mathrm{cm}$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_24",
@@ -406,14 +429,15 @@
       "chrono": 25,
       "enonce": "Calcule : Rectangle $ABCD$ : $\\mathcal{P} = 30\\,\\mathrm{cm}$, $L = 10\\,\\mathrm{cm}$. Calcule $\\ell$.",
       "choix": [
+        "$\\ell = 10\\,\\mathrm{cm}$",
         "$\\ell = 5\\,\\mathrm{cm}$",
         "$\\ell = 8\\,\\mathrm{cm}$",
-        "$\\ell = 10\\,\\mathrm{cm}$",
         "$\\ell = 20\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\ell = 5\\,\\mathrm{cm}$",
       "explication": "$\\ell = \\mathcal{P} \\div 2 - L = 15 - 10 = 5\\,\\mathrm{cm}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_25",
@@ -423,14 +447,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du carré $ABCD$ de périmètre $36\\,\\mathrm{m}$.",
       "choix": [
-        "$\\mathcal{A} = 81\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 9\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 36\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 144\\,\\mathrm{m}^2$"
+        "$\\mathcal{A} = 144\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 81\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 81\\,\\mathrm{m}^2$",
-      "explication": "Côté $= 36 \\div 4 = 9\\,\\mathrm{m}$. $\\mathcal{A} = 9^2 = 81\\,\\mathrm{m}^2$.",
-      "image": null
+      "explication": "$c = \\mathcal{P} \\div 4 = 36 \\div 4 = 9\\,\\mathrm{m}$ $\\rightarrow$ $\\mathcal{A} = c^2 = 9^2 = 81\\,\\mathrm{m}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_26",
@@ -440,14 +465,15 @@
       "chrono": 25,
       "enonce": "Calcule : Longueur du cercle de rayon $r = 3\\,\\mathrm{m}$ (valeur exacte).",
       "choix": [
-        "$\\mathcal{C} = 6\\pi\\,\\mathrm{m}$",
+        "$\\mathcal{C} = 12\\pi\\,\\mathrm{m}$",
         "$\\mathcal{C} = 3\\pi\\,\\mathrm{m}$",
-        "$\\mathcal{C} = 9\\pi\\,\\mathrm{m}$",
-        "$\\mathcal{C} = 12\\pi\\,\\mathrm{m}$"
+        "$\\mathcal{C} = 6\\pi\\,\\mathrm{m}$",
+        "$\\mathcal{C} = 9\\pi\\,\\mathrm{m}$"
       ],
       "reponse": "$\\mathcal{C} = 6\\pi\\,\\mathrm{m}$",
       "explication": "$\\mathcal{C} = 2\\pi \\times 3 = 6\\pi\\,\\mathrm{m}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_27",
@@ -457,14 +483,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du rectangle $ABCD$ : $L = 100\\,\\mathrm{m}$, $\\ell = 25\\,\\mathrm{m}$.",
       "choix": [
-        "$\\mathcal{A} = 2\\,500\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 250\\,\\mathrm{m}^2$",
         "$\\mathcal{A} = 25\\,000\\,\\mathrm{m}^2$",
-        "$\\mathcal{A} = 125\\,\\mathrm{m}^2$"
+        "$\\mathcal{A} = 125\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 250\\,\\mathrm{m}^2$",
+        "$\\mathcal{A} = 2\\,500\\,\\mathrm{m}^2$"
       ],
       "reponse": "$\\mathcal{A} = 2\\,500\\,\\mathrm{m}^2$",
-      "explication": "$\\mathcal{A} = 100 \\times 25 = 2\\,500\\,\\mathrm{m}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = L \\times \\ell = 100 \\times 25 = 2\\,500\\,\\mathrm{m}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_28",
@@ -474,14 +501,15 @@
       "chrono": 25,
       "enonce": "Calcule : Aire du disque de rayon $r = 10\\,\\mathrm{cm}$ (valeur exacte).",
       "choix": [
-        "$\\mathcal{A} = 100\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 10\\pi\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 20\\pi\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 50\\pi\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 50\\pi\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 10\\pi\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 100\\pi\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 100\\pi\\,\\mathrm{cm}^2$",
-      "explication": "$\\mathcal{A} = \\pi \\times 10^2 = 100\\pi\\,\\mathrm{cm}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = \\pi \\times r^2 = \\pi \\times 10^2 = 100\\pi\\,\\mathrm{cm}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_29",
@@ -491,14 +519,15 @@
       "chrono": 25,
       "enonce": "Calcule : Périmètre du triangle isocèle $ABC$ : base $BC = 6\\,\\mathrm{cm}$, côtés égaux $= 8\\,\\mathrm{cm}$.",
       "choix": [
-        "$\\mathcal{P} = 22\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 14\\,\\mathrm{cm}$",
         "$\\mathcal{P} = 24\\,\\mathrm{cm}$",
-        "$\\mathcal{P} = 20\\,\\mathrm{cm}$"
+        "$\\mathcal{P} = 14\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 20\\,\\mathrm{cm}$",
+        "$\\mathcal{P} = 22\\,\\mathrm{cm}$"
       ],
       "reponse": "$\\mathcal{P} = 22\\,\\mathrm{cm}$",
       "explication": "$\\mathcal{P} = 6 + 8 + 8 = 22\\,\\mathrm{cm}$.",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_31_30",
@@ -509,13 +538,14 @@
       "enonce": "Calcule : Aire du triangle $ABC$ : $BC = 5\\,\\mathrm{cm}$, hauteur $h = 12\\,\\mathrm{cm}$.",
       "choix": [
         "$\\mathcal{A} = 30\\,\\mathrm{cm}^2$",
+        "$\\mathcal{A} = 24\\,\\mathrm{cm}^2$",
         "$\\mathcal{A} = 60\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 17\\,\\mathrm{cm}^2$",
-        "$\\mathcal{A} = 24\\,\\mathrm{cm}^2$"
+        "$\\mathcal{A} = 17\\,\\mathrm{cm}^2$"
       ],
       "reponse": "$\\mathcal{A} = 30\\,\\mathrm{cm}^2$",
-      "explication": "$\\mathcal{A} = \\dfrac{5 \\times 12}{2} = 30\\,\\mathrm{cm}^2$.",
-      "image": null
+      "explication": "$\\mathcal{A} = \\dfrac{\\text{base} \\times h}{2} = \\dfrac{5 \\times 12}{2} = \\dfrac{60}{2} = 30\\,\\mathrm{cm}^2$.",
+      "image": null,
+      "avec_calculatrice": true
     }
   ]
 }

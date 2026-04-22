@@ -16,13 +16,14 @@
       "enonce": "120 € selon 2:1. Part A = ?",
       "choix": [
         "60",
-        "70",
         "80",
-        "90"
+        "90",
+        "70"
       ],
       "reponse": "80",
       "explication": "3 parts. 120$\\div$3=40. A=2$\\times$40=80",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_02",
@@ -33,13 +34,14 @@
       "enonce": "80 € selon 5:3. Part A = ?",
       "choix": [
         "40",
+        "60",
         "50",
-        "55",
-        "60"
+        "55"
       ],
       "reponse": "50",
       "explication": "8 parts. 80$\\div$8=10. A=5$\\times$10=50",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_03",
@@ -50,13 +52,14 @@
       "enonce": "49 € selon 6:1. Part A = ?",
       "choix": [
         "42",
+        "45",
         "43",
-        "44",
-        "45"
+        "44"
       ],
       "reponse": "42",
       "explication": "7 parts. 49$\\div$7=7. A=6$\\times$7=42",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_04",
@@ -67,13 +70,14 @@
       "enonce": "440 € selon 3:1. Part A = ?",
       "choix": [
         "310",
+        "340",
         "320",
-        "330",
-        "340"
+        "330"
       ],
       "reponse": "330",
       "explication": "4 parts. 440$\\div$4=110. A=330",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_05",
@@ -83,14 +87,15 @@
       "chrono": 20,
       "enonce": "700 € selon 3:4. Part A = ?",
       "choix": [
-        "280",
-        "300",
+        "340",
         "320",
-        "340"
+        "300",
+        "280"
       ],
       "reponse": "300",
       "explication": "7 parts. 700$\\div$7=100. A=300",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_06",
@@ -100,14 +105,15 @@
       "chrono": 20,
       "enonce": "350 € selon 2:3. Part A = ?",
       "choix": [
-        "120",
         "130",
         "140",
-        "150"
+        "150",
+        "120"
       ],
       "reponse": "140",
       "explication": "5 parts. 350$\\div$5=70. A=140",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_07",
@@ -117,14 +123,15 @@
       "chrono": 20,
       "enonce": "60 € selon 7:5. Part A = ?",
       "choix": [
-        "30",
         "35",
-        "40",
-        "45"
+        "30",
+        "45",
+        "40"
       ],
       "reponse": "35",
       "explication": "12 parts. 60$\\div$12=5. A=35",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_08",
@@ -135,13 +142,14 @@
       "enonce": "320 € selon 3:1. Part A = ?",
       "choix": [
         "210",
+        "240",
         "220",
-        "230",
-        "240"
+        "230"
       ],
       "reponse": "240",
       "explication": "4 parts. 320$\\div$4=80. A=240",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_09",
@@ -152,13 +160,14 @@
       "enonce": "220 € selon 4:7. Part A = ?",
       "choix": [
         "80",
-        "85",
         "90",
+        "85",
         "95"
       ],
       "reponse": "80",
       "explication": "11 parts. 220$\\div$11=20. A=80",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_10",
@@ -168,14 +177,15 @@
       "chrono": 20,
       "enonce": "240 € selon 1:2:3. Part C = ?",
       "choix": [
-        "100",
+        "130",
         "110",
         "120",
-        "130"
+        "100"
       ],
       "reponse": "120",
       "explication": "6 parts. 240$\\div$6=40. C=120",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_11",
@@ -185,14 +195,15 @@
       "chrono": 20,
       "enonce": "90 € selon 2:5:3. Part B = ?",
       "choix": [
+        "55",
         "40",
-        "45",
         "50",
-        "55"
+        "45"
       ],
       "reponse": "45",
       "explication": "10 parts. 90$\\div$10=9. B=45",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_12",
@@ -202,14 +213,15 @@
       "chrono": 20,
       "enonce": "125 € selon 2:1:2. Part B = ?",
       "choix": [
-        "20",
         "25",
+        "20",
         "30",
         "35"
       ],
       "reponse": "25",
       "explication": "5 parts. 125$\\div$5=25. B=25",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_13",
@@ -219,14 +231,15 @@
       "chrono": 20,
       "enonce": "81 € selon 4:2:3. Part A = ?",
       "choix": [
-        "30",
-        "36",
+        "42",
         "40",
-        "42"
+        "30",
+        "36"
       ],
       "reponse": "36",
       "explication": "9 parts. 81$\\div$9=9. A=36",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_14",
@@ -237,13 +250,14 @@
       "enonce": "72 € selon 1:1:4. Part C = ?",
       "choix": [
         "40",
+        "64",
         "48",
-        "56",
-        "64"
+        "56"
       ],
       "reponse": "48",
       "explication": "6 parts. 72$\\div$6=12. C=48",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_15",
@@ -253,14 +267,15 @@
       "chrono": 20,
       "enonce": "420 € selon 3:1:2. Part A = ?",
       "choix": [
-        "180",
         "190",
+        "210",
         "200",
-        "210"
+        "180"
       ],
       "reponse": "210",
       "explication": "6 parts. 420$\\div$6=70. A=210",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_16",
@@ -271,13 +286,14 @@
       "enonce": "45 € selon 2:3:4. Part C = ?",
       "choix": [
         "15",
-        "20",
         "25",
+        "20",
         "30"
       ],
       "reponse": "20",
       "explication": "9 parts. 45$\\div$9=5. C=20",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_17",
@@ -287,14 +303,15 @@
       "chrono": 20,
       "enonce": "80 € selon 1:2:1. Part B = ?",
       "choix": [
-        "30",
+        "60",
         "40",
         "50",
-        "60"
+        "30"
       ],
       "reponse": "40",
       "explication": "4 parts. 80$\\div$4=20. B=40",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_18",
@@ -304,14 +321,15 @@
       "chrono": 20,
       "enonce": "360 € selon 3:2:1. Part A = ?",
       "choix": [
-        "150",
-        "160",
+        "180",
         "170",
-        "180"
+        "160",
+        "150"
       ],
       "reponse": "180",
       "explication": "6 parts. 360$\\div$6=60. A=180",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_19",
@@ -321,14 +339,15 @@
       "chrono": 20,
       "enonce": "150 € selon 1:4. Part B = ?",
       "choix": [
-        "100",
         "110",
-        "120",
-        "130"
+        "130",
+        "100",
+        "120"
       ],
       "reponse": "120",
       "explication": "5 parts. 150$\\div$5=30. B=120",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_20",
@@ -338,14 +357,15 @@
       "chrono": 20,
       "enonce": "200 € selon 3:2. Part A = ?",
       "choix": [
-        "100",
-        "110",
+        "130",
         "120",
-        "130"
+        "110",
+        "100"
       ],
       "reponse": "120",
       "explication": "5 parts. 200$\\div$5=40. A=120",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_21",
@@ -355,14 +375,15 @@
       "chrono": 20,
       "enonce": "180 € selon 5:1. Part A = ?",
       "choix": [
+        "170",
         "140",
         "150",
-        "160",
-        "170"
+        "160"
       ],
       "reponse": "150",
       "explication": "6 parts. 180$\\div$6=30. A=150",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_22",
@@ -374,12 +395,13 @@
       "choix": [
         "300",
         "310",
-        "320",
-        "330"
+        "330",
+        "320"
       ],
       "reponse": "320",
       "explication": "7 parts. 560$\\div$7=80. B=320",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_23",
@@ -389,14 +411,15 @@
       "chrono": 20,
       "enonce": "300 € selon 1:2:3. Part C = ?",
       "choix": [
-        "130",
-        "140",
+        "160",
         "150",
-        "160"
+        "140",
+        "130"
       ],
       "reponse": "150",
       "explication": "6 parts. 300$\\div$6=50. C=150",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_24",
@@ -406,14 +429,15 @@
       "chrono": 20,
       "enonce": "270 € selon 4:5. Part B = ?",
       "choix": [
-        "130",
         "140",
-        "150",
-        "160"
+        "130",
+        "160",
+        "150"
       ],
       "reponse": "150",
       "explication": "9 parts. 270$\\div$9=30. B=150",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_25",
@@ -423,14 +447,15 @@
       "chrono": 20,
       "enonce": "84 € selon 3:4:5. Part C = ?",
       "choix": [
+        "45",
         "30",
-        "35",
         "40",
-        "45"
+        "35"
       ],
       "reponse": "35",
       "explication": "12 parts. 84$\\div$12=7. C=35",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_26",
@@ -440,14 +465,15 @@
       "chrono": 20,
       "enonce": "110 € selon 1:10. Part B = ?",
       "choix": [
+        "105",
         "95",
         "100",
-        "105",
         "110"
       ],
       "reponse": "100",
       "explication": "11 parts. 110$\\div$11=10. B=100",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_27",
@@ -457,14 +483,15 @@
       "chrono": 20,
       "enonce": "144 € selon 2:3:4. Part B = ?",
       "choix": [
-        "40",
-        "48",
+        "64",
         "56",
-        "64"
+        "48",
+        "40"
       ],
       "reponse": "48",
       "explication": "9 parts. 144$\\div$9=16. B=48",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_28",
@@ -474,14 +501,15 @@
       "chrono": 20,
       "enonce": "500 € selon 1:4. Part B = ?",
       "choix": [
+        "400",
         "380",
         "390",
-        "400",
         "410"
       ],
       "reponse": "400",
       "explication": "5 parts. 500$\\div$5=100. B=400",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_29",
@@ -491,14 +519,15 @@
       "chrono": 20,
       "enonce": "630 € selon 2:5. Part B = ?",
       "choix": [
-        "410",
+        "450",
         "420",
-        "430",
-        "450"
+        "410",
+        "430"
       ],
       "reponse": "450",
       "explication": "7 parts. 630$\\div$7=90. B=450",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     },
     {
       "id": "aut_34_30",
@@ -508,14 +537,15 @@
       "chrono": 20,
       "enonce": "120 € selon 1:3:2. Part B = ?",
       "choix": [
-        "50",
-        "60",
         "70",
+        "60",
+        "50",
         "80"
       ],
       "reponse": "60",
       "explication": "6 parts. 120$\\div$6=20. B=60",
-      "image": null
+      "image": null,
+      "avec_calculatrice": true
     }
   ]
 }
