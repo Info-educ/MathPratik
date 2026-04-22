@@ -894,6 +894,13 @@ function handleTrainingAnswer(chosen, question) {
       setMathText(explDiv, question.explication);
       feedbackText.appendChild(explDiv);
     }
+    if (question.image_explication) {
+      const imgEl = document.createElement('img');
+      imgEl.src = question.image_explication;
+      imgEl.alt = 'Illustration de la décomposition';
+      imgEl.style.cssText = 'max-width:100%;border-radius:8px;margin-top:12px;';
+      feedbackText.appendChild(imgEl);
+    }
   }
 
   document.getElementById('quiz-score-live').textContent = `${State.sessionCorrect}/${State.sessionTotal}`;
@@ -1381,6 +1388,13 @@ function afficherFeedback(isCorrect, question) {
       setMathText(explDiv, question.explication);
       feedbackText.appendChild(explDiv);
     }
+    if (question.image_explication) {
+      const imgEl = document.createElement('img');
+      imgEl.src = question.image_explication;
+      imgEl.alt = 'Illustration de la décomposition';
+      imgEl.style.cssText = 'max-width:100%;border-radius:8px;margin-top:12px;';
+      feedbackText.appendChild(imgEl);
+    }
   } else {
     feedbackText.innerHTML = '';
     setMathText(feedbackText, question.explication || '');
@@ -1473,6 +1487,13 @@ function handleAnswer(chosen, question) {
         explDiv.style.marginTop = isDivMulti ? '8px' : '0';
         setMathText(explDiv, question.explication);
         feedbackText.appendChild(explDiv);
+      }
+      if (question.image_explication) {
+        const imgEl = document.createElement('img');
+        imgEl.src = question.image_explication;
+        imgEl.alt = 'Illustration de la décomposition';
+        imgEl.style.cssText = 'max-width:100%;border-radius:8px;margin-top:12px;';
+        feedbackText.appendChild(imgEl);
       }
     } else {
       setMathText(feedbackText, question.explication || '');
