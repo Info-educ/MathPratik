@@ -2215,6 +2215,7 @@ function renderReaderQuestion() {
     <div class="reader-explication">
       <strong>Explication</strong>
       <div style="margin-top:6px;">${explHtml}</div>
+      ${q.image_explication ? `<img src="${q.image_explication}" alt="Illustration de la décomposition" style="max-width:100%;border-radius:8px;margin-top:12px;">` : ''}
     </div>
 
     <div class="reader-id-badge">ID : ${q.id || '—'}</div>
