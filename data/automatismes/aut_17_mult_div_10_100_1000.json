@@ -21,7 +21,7 @@
         "$3{,}67$"
       ],
       "reponse": "$36{,}7$",
-      "explication": "$\\times 10$ : virgule décale d'un rang vers la droite. $3{,}67 \\rightarrow 36{,}7$.",
+      "explication": "$\\times 10$ : chiffre décale d'un rang vers la gauche. $3{,}67 \\rightarrow 36{,}7$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_01.png"
     },
@@ -39,7 +39,7 @@
         "$2{,}45$"
       ],
       "reponse": "$24{,}5$",
-      "explication": "$\\times 100$ : virgule décale de 2 rangs vers la droite. $0{,}245 \\rightarrow 24{,}5$.",
+      "explication": "$\\times 100$ : chiffre décale de 2 rangs vers la gauche. $0{,}245 \\rightarrow 24{,}5$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_02.png"
     },
@@ -57,7 +57,7 @@
         "$0{,}38$"
       ],
       "reponse": "$38$",
-      "explication": "$\\times 1\\,000$ : virgule décale de 3 rangs vers la droite. $0{,}038 \\rightarrow 38$.",
+      "explication": "$\\times 1\\,000$ : chiffre décale de 3 rangs vers la gauche. $0{,}038 \\rightarrow 38$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_03.png"
     },
@@ -75,7 +75,7 @@
         "$42{,}10$"
       ],
       "reponse": "$4{,}21$",
-      "explication": "$\\div 10$ : virgule décale d'un rang vers la gauche. $42{,}1 \\rightarrow 4{,}21$.",
+      "explication": "$\\div 10$ : chiffre décale d'un rang vers la droite. $42{,}1 \\rightarrow 4{,}21$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_04.png"
     },
@@ -93,7 +93,7 @@
         "$0{,}75$"
       ],
       "reponse": "$0{,}075$",
-      "explication": "$\\div 100$ : virgule décale de 2 rangs vers la gauche. $7{,}5 \\rightarrow 0{,}075$.",
+      "explication": "$\\div 100$ : chiffre décale de 2 rangs vers la droite. $7{,}5 \\rightarrow 0{,}075$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_05.png"
     },
@@ -111,7 +111,7 @@
         "$0{,}85$"
       ],
       "reponse": "$0{,}085$",
-      "explication": "$\\div 1\\,000$ : virgule décale de 3 rangs vers la gauche. $85 \\rightarrow 0{,}085$.",
+      "explication": "$\\div 1\\,000$ : chiffre décale de 3 rangs vers la droite. $85 \\rightarrow 0{,}085$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_06.png"
     },
@@ -129,7 +129,7 @@
         "$0{,}1508$"
       ],
       "reponse": "$15{,}08$",
-      "explication": "$\\times 10$ : virgule décale d'un rang vers la droite. $1{,}508 \\rightarrow 15{,}08$.",
+      "explication": "$\\times 10$ : chiffre décale d'un rang vers la gauche. $1{,}508 \\rightarrow 15{,}08$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_07.png"
     },
@@ -147,7 +147,7 @@
         "$7{,}2$"
       ],
       "reponse": "$7{,}2$",
-      "explication": "$\\times 100$ : virgule décale de 2 rangs vers la droite. $0{,}072 \\rightarrow 7{,}2$.",
+      "explication": "$\\times 100$ : chiffre décale de 2 rangs vers la gauche. $0{,}072 \\rightarrow 7{,}2$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_08.png"
     },
@@ -165,7 +165,7 @@
         "$0{,}504$"
       ],
       "reponse": "$0{,}504$",
-      "explication": "$\\div 10$ : virgule décale d'un rang vers la gauche. $5{,}04 \\rightarrow 0{,}504$.",
+      "explication": "$\\div 10$ : chiffre décale d'un rang vers la droite. $5{,}04 \\rightarrow 0{,}504$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_09.png"
     },
@@ -183,7 +183,7 @@
         "$3\\,000$"
       ],
       "reponse": "$300$",
-      "explication": "$\\times 1\\,000$ : virgule décale de 3 rangs vers la droite. $0{,}3 \\rightarrow 300$.",
+      "explication": "$\\times 1\\,000$ : chiffre décale de 3 rangs vers la gauche. $0{,}3 \\rightarrow 300$.",
       "image": null,
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_10.png"
     },
