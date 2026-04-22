@@ -21,13 +21,12 @@
         "$3{,}67$"
       ],
       "reponse": "$36{,}7$",
-      "explication": "$\\times 10$ : chiffre décale d'un rang vers la gauche. $3{,}67 \\rightarrow 36{,}7$.",
-      "image": null,
+      "explication": "$\\times\\,10$ : la virgule décale d'un rang vers la droite. $3{,}67$ $\\rightarrow$ $36{,}7$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_01.png"
     },
     {
       "id": "aut_17_02",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
@@ -39,26 +38,24 @@
         "$2{,}45$"
       ],
       "reponse": "$24{,}5$",
-      "explication": "$\\times 100$ : chiffre décale de 2 rangs vers la gauche. $0{,}245 \\rightarrow 24{,}5$.",
-      "image": null,
+      "explication": "$\\times\\,100$ : la virgule décale de 2 rangs vers la droite. $0{,}245$ $\\rightarrow$ $24{,}5$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_02.png"
     },
     {
       "id": "aut_17_03",
-      "niveau": 1,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
       "enonce": "Calcule : $0{,}038 \\times 1\\,000$",
       "choix": [
         "$380$",
-        "$3{,}8$",
         "$38$",
+        "$3{,}8$",
         "$0{,}38$"
       ],
       "reponse": "$38$",
-      "explication": "$\\times 1\\,000$ : chiffre décale de 3 rangs vers la gauche. $0{,}038 \\rightarrow 38$.",
-      "image": null,
+      "explication": "$\\times\\,1\\,000$ : la virgule décale de 3 rangs vers la droite. $0{,}038$ $\\rightarrow$ $38$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_03.png"
     },
     {
@@ -75,13 +72,12 @@
         "$42{,}10$"
       ],
       "reponse": "$4{,}21$",
-      "explication": "$\\div 10$ : chiffre décale d'un rang vers la droite. $42{,}1 \\rightarrow 4{,}21$.",
-      "image": null,
+      "explication": "$\\div\\,10$ : la virgule décale d'un rang vers la gauche. $42{,}1$ $\\rightarrow$ $4{,}21$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_04.png"
     },
     {
       "id": "aut_17_05",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
@@ -93,13 +89,12 @@
         "$0{,}75$"
       ],
       "reponse": "$0{,}075$",
-      "explication": "$\\div 100$ : chiffre décale de 2 rangs vers la droite. $7{,}5 \\rightarrow 0{,}075$.",
-      "image": null,
+      "explication": "$\\div\\,100$ : la virgule décale de 2 rangs vers la gauche. $7{,}5$ $\\rightarrow$ $0{,}075$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_05.png"
     },
     {
       "id": "aut_17_06",
-      "niveau": 1,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
@@ -111,8 +106,7 @@
         "$0{,}85$"
       ],
       "reponse": "$0{,}085$",
-      "explication": "$\\div 1\\,000$ : chiffre décale de 3 rangs vers la droite. $85 \\rightarrow 0{,}085$.",
-      "image": null,
+      "explication": "$\\div\\,1\\,000$ : la virgule décale de 3 rangs vers la gauche. $85$ $\\rightarrow$ $0{,}085$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_06.png"
     },
     {
@@ -129,13 +123,12 @@
         "$0{,}1508$"
       ],
       "reponse": "$15{,}08$",
-      "explication": "$\\times 10$ : chiffre décale d'un rang vers la gauche. $1{,}508 \\rightarrow 15{,}08$.",
-      "image": null,
+      "explication": "$\\times\\,10$ : la virgule décale d'un rang vers la droite. $1{,}508$ $\\rightarrow$ $15{,}08$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_07.png"
     },
     {
       "id": "aut_17_08",
-      "niveau": 1,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
@@ -147,26 +140,24 @@
         "$7{,}2$"
       ],
       "reponse": "$7{,}2$",
-      "explication": "$\\times 100$ : chiffre décale de 2 rangs vers la gauche. $0{,}072 \\rightarrow 7{,}2$.",
-      "image": null,
+      "explication": "$\\times\\,100$ : la virgule décale de 2 rangs vers la droite. $0{,}072$ $\\rightarrow$ $7{,}2$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_08.png"
     },
     {
       "id": "aut_17_09",
-      "niveau": 1,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $5{,}04 \\div 10$",
+      "enonce": "Calcule : $0{,}9 \\times 1\\,000$",
       "choix": [
-        "$504$",
-        "$0{,}0504$",
-        "$50{,}4$",
-        "$0{,}504$"
+        "$9$",
+        "$90$",
+        "$900$",
+        "$9\\,000$"
       ],
-      "reponse": "$0{,}504$",
-      "explication": "$\\div 10$ : chiffre décale d'un rang vers la droite. $5{,}04 \\rightarrow 0{,}504$.",
-      "image": null,
+      "reponse": "$900$",
+      "explication": "$\\times\\,1\\,000$ : la virgule décale de 3 rangs vers la droite. $0{,}9$ $\\rightarrow$ $900$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_09.png"
     },
     {
@@ -175,16 +166,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}3 \\times 1\\,000$",
+      "enonce": "Calcule : $136{,}4 \\div 10$",
       "choix": [
-        "$3$",
-        "$30$",
-        "$300$",
-        "$3\\,000$"
+        "$136{,}4$",
+        "$1{,}364$",
+        "$13{,}64$",
+        "$1\\,364$"
       ],
-      "reponse": "$300$",
-      "explication": "$\\times 1\\,000$ : chiffre décale de 3 rangs vers la gauche. $0{,}3 \\rightarrow 300$.",
-      "image": null,
+      "reponse": "$13{,}64$",
+      "explication": "$\\div\\,10$ : la virgule décale d'un rang vers la gauche. $136{,}4$ $\\rightarrow$ $13{,}64$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_10.png"
     },
     {
@@ -193,52 +183,49 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $4{,}56 \\times 10$",
+      "enonce": "Calcule : $5{,}2 \\div 100$",
       "choix": [
-        "$0{,}456$",
-        "$45{,}6$",
-        "$4{,}56$",
-        "$456$"
+        "$52$",
+        "$0{,}52$",
+        "$0{,}052$",
+        "$0{,}0052$"
       ],
-      "reponse": "$45{,}6$",
-      "explication": "$\\times 10$ : $4{,}56 \\rightarrow 45{,}6$.",
-      "image": null,
+      "reponse": "$0{,}052$",
+      "explication": "$\\div\\,100$ : la virgule décale de 2 rangs vers la gauche. $5{,}2$ $\\rightarrow$ $0{,}052$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_11.png"
     },
     {
       "id": "aut_17_12",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}007 \\times 100$",
+      "enonce": "Calcule : $4\\,300 \\div 1\\,000$",
       "choix": [
-        "$70$",
-        "$0{,}7$",
-        "$7$",
-        "$0{,}07$"
+        "$43$",
+        "$430$",
+        "$4{,}3$",
+        "$0{,}43$"
       ],
-      "reponse": "$0{,}7$",
-      "explication": "$\\times 100$ : $0{,}007 \\rightarrow 0{,}7$.",
-      "image": null,
+      "reponse": "$4{,}3$",
+      "explication": "$\\div\\,1\\,000$ : la virgule décale de 3 rangs vers la gauche. $4\\,300$ $\\rightarrow$ $4{,}3$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_12.png"
     },
     {
       "id": "aut_17_13",
-      "niveau": 2,
+      "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $12 \\div 1\\,000$",
+      "enonce": "Calcule : $0{,}006 \\times 10$",
       "choix": [
-        "$0{,}012$",
-        "$0{,}12$",
-        "$0{,}0012$",
-        "$1{,}2$"
+        "$0{,}006$",
+        "$0{,}06$",
+        "$0{,}6$",
+        "$6$"
       ],
-      "reponse": "$0{,}012$",
-      "explication": "$\\div 1\\,000$ : $12 \\rightarrow 0{,}012$.",
-      "image": null,
+      "reponse": "$0{,}06$",
+      "explication": "$\\times\\,10$ : la virgule décale d'un rang vers la droite. $0{,}006$ $\\rightarrow$ $0{,}06$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_13.png"
     },
     {
@@ -247,52 +234,49 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}45 \\times 100$",
+      "enonce": "Calcule : $0{,}0014 \\times 100$",
       "choix": [
-        "$45$",
-        "$4{,}5$",
-        "$450$",
-        "$0{,}045$"
+        "$0{,}14$",
+        "$1{,}4$",
+        "$0{,}014$",
+        "$14$"
       ],
-      "reponse": "$45$",
-      "explication": "$\\times 100$ : $0{,}45 \\rightarrow 45$.",
-      "image": null,
+      "reponse": "$0{,}14$",
+      "explication": "$\\times\\,100$ : la virgule décale de 2 rangs vers la droite. $0{,}0014$ $\\rightarrow$ $0{,}14$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_14.png"
     },
     {
       "id": "aut_17_15",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $8{,}3 \\div 100$",
+      "enonce": "Calcule : $1{,}57 \\times 1\\,000$",
       "choix": [
-        "$83$",
-        "$0{,}83$",
-        "$0{,}0083$",
-        "$0{,}083$"
+        "$157$",
+        "$15{,}7$",
+        "$1\\,570$",
+        "$15\\,700$"
       ],
-      "reponse": "$0{,}083$",
-      "explication": "$\\div 100$ : $8{,}3 \\rightarrow 0{,}083$.",
-      "image": null,
+      "reponse": "$1\\,570$",
+      "explication": "$\\times\\,1\\,000$ : la virgule décale de 3 rangs vers la droite. $1{,}57$ $\\rightarrow$ $1\\,570$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_15.png"
     },
     {
       "id": "aut_17_16",
-      "niveau": 2,
+      "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}0016 \\times 1\\,000$",
+      "enonce": "Calcule : $0{,}8 \\div 10$",
       "choix": [
-        "$0{,}16$",
-        "$1{,}6$",
-        "$160$",
-        "$16$"
+        "$8$",
+        "$0{,}8$",
+        "$0{,}08$",
+        "$0{,}008$"
       ],
-      "reponse": "$1{,}6$",
-      "explication": "$\\times 1\\,000$ : $0{,}0016 \\rightarrow 1{,}6$.",
-      "image": null,
+      "reponse": "$0{,}08$",
+      "explication": "$\\div\\,10$ : la virgule décale d'un rang vers la gauche. $0{,}8$ $\\rightarrow$ $0{,}08$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_16.png"
     },
     {
@@ -301,52 +285,49 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $25{,}3 \\div 10$",
+      "enonce": "Calcule : $0{,}03 \\div 100$",
       "choix": [
-        "$25{,}3$",
-        "$0{,}253$",
-        "$2{,}53$",
-        "$253$"
+        "$0{,}3$",
+        "$0{,}03$",
+        "$0{,}003$",
+        "$0{,}0003$"
       ],
-      "reponse": "$2{,}53$",
-      "explication": "$\\div 10$ : $25{,}3 \\rightarrow 2{,}53$.",
-      "image": null,
+      "reponse": "$0{,}0003$",
+      "explication": "$\\div\\,100$ : la virgule décale de 2 rangs vers la gauche. $0{,}03$ $\\rightarrow$ $0{,}0003$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_17.png"
     },
     {
       "id": "aut_17_18",
-      "niveau": 2,
+      "niveau": 3,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}9 \\times 1\\,000$",
+      "enonce": "Calcule : $52 \\div 1\\,000$",
       "choix": [
-        "$90$",
-        "$9$",
-        "$900$",
-        "$9\\,000$"
+        "$0{,}52$",
+        "$0{,}052$",
+        "$5{,}2$",
+        "$520$"
       ],
-      "reponse": "$900$",
-      "explication": "$\\times 1\\,000$ : $0{,}9 \\rightarrow 900$.",
-      "image": null,
+      "reponse": "$0{,}052$",
+      "explication": "$\\div\\,1\\,000$ : la virgule décale de 3 rangs vers la gauche. $52$ $\\rightarrow$ $0{,}052$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_18.png"
     },
     {
       "id": "aut_17_19",
-      "niveau": 2,
+      "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $360 \\div 1\\,000$",
+      "enonce": "Calcule : $74 \\times 0{,}1$",
       "choix": [
-        "$36$",
-        "$0{,}036$",
-        "$3{,}6$",
-        "$0{,}36$"
+        "$740$",
+        "$74$",
+        "$7{,}4$",
+        "$0{,}74$"
       ],
-      "reponse": "$0{,}36$",
-      "explication": "$\\div 1\\,000$ : $360 \\rightarrow 0{,}36$.",
-      "image": null,
+      "reponse": "$7{,}4$",
+      "explication": "$\\times 0{,}1$ équivaut à $\\div 10$ : la virgule décale d'un rang vers la gauche. $74$ $\\rightarrow$ $7{,}4$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_19.png"
     },
     {
@@ -355,16 +336,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}034 \\times 10$",
+      "enonce": "Calcule : $630 \\times 0{,}01$",
       "choix": [
-        "$34$",
-        "$3{,}4$",
-        "$0{,}34$",
-        "$0{,}0034$"
+        "$63$",
+        "$6{,}3$",
+        "$0{,}63$",
+        "$0{,}063$"
       ],
-      "reponse": "$0{,}34$",
-      "explication": "$\\times 10$ : $0{,}034 \\rightarrow 0{,}34$.",
-      "image": null,
+      "reponse": "$6{,}3$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : la virgule décale de 2 rangs vers la gauche. $630$ $\\rightarrow$ $6{,}3$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_20.png"
     },
     {
@@ -373,52 +353,49 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $15{,}4 \\times 100$",
+      "enonce": "Calcule : $5\\,200 \\times 0{,}001$",
       "choix": [
-        "$1\\,540$",
-        "$154$",
-        "$1{,}54$",
-        "$15\\,400$"
+        "$52$",
+        "$5{,}2$",
+        "$0{,}52$",
+        "$520$"
       ],
-      "reponse": "$1\\,540$",
-      "explication": "$\\times 100$ : $15{,}4 \\rightarrow 1\\,540$.",
-      "image": null,
+      "reponse": "$5{,}2$",
+      "explication": "$\\times 0{,}001$ équivaut à $\\div 1\\,000$ : la virgule décale de 3 rangs vers la gauche. $5\\,200$ $\\rightarrow$ $5{,}2$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_21.png"
     },
     {
       "id": "aut_17_22",
-      "niveau": 3,
+      "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}0083 \\times 1\\,000$",
+      "enonce": "Calcule : $0{,}45 \\times 0{,}1$",
       "choix": [
-        "$0{,}083$",
-        "$0{,}83$",
-        "$83$",
-        "$8{,}3$"
+        "$45$",
+        "$4{,}5$",
+        "$0{,}45$",
+        "$0{,}045$"
       ],
-      "reponse": "$8{,}3$",
-      "explication": "$\\times 1\\,000$ : $0{,}0083 \\rightarrow 8{,}3$.",
-      "image": null,
+      "reponse": "$0{,}045$",
+      "explication": "$\\times 0{,}1$ équivaut à $\\div 10$ : la virgule décale d'un rang vers la gauche. $0{,}45$ $\\rightarrow$ $0{,}045$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_22.png"
     },
     {
       "id": "aut_17_23",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $47 \\div 100$",
+      "enonce": "Calcule : $2{,}8 \\times 0{,}01$",
       "choix": [
-        "$0{,}047$",
-        "$470$",
-        "$0{,}47$",
-        "$4{,}7$"
+        "$28$",
+        "$2{,}8$",
+        "$0{,}28$",
+        "$0{,}028$"
       ],
-      "reponse": "$0{,}47$",
-      "explication": "$\\div 100$ : $47 \\rightarrow 0{,}47$.",
-      "image": null,
+      "reponse": "$0{,}028$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : la virgule décale de 2 rangs vers la gauche. $2{,}8$ $\\rightarrow$ $0{,}028$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_23.png"
     },
     {
@@ -427,52 +404,49 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}56 \\times 1\\,000$",
+      "enonce": "Calcule : $16 \\times 0{,}001$",
       "choix": [
-        "$5{,}6$",
-        "$56$",
-        "$5\\,600$",
-        "$560$"
+        "$16$",
+        "$0{,}16$",
+        "$0{,}016$",
+        "$0{,}0016$"
       ],
-      "reponse": "$560$",
-      "explication": "$\\times 1\\,000$ : $0{,}56 \\rightarrow 560$.",
-      "image": null,
+      "reponse": "$0{,}016$",
+      "explication": "$\\times 0{,}001$ équivaut à $\\div 1\\,000$ : la virgule décale de 3 rangs vers la gauche. $16$ $\\rightarrow$ $0{,}016$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_24.png"
     },
     {
       "id": "aut_17_25",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $3\\,700 \\div 1\\,000$",
+      "enonce": "Calcule : $9\\,360 \\times 0{,}01$",
       "choix": [
-        "$0{,}37$",
-        "$370$",
-        "$37$",
-        "$3{,}7$"
+        "$9{,}36$",
+        "$93{,}6$",
+        "$936$",
+        "$9\\,360$"
       ],
-      "reponse": "$3{,}7$",
-      "explication": "$\\div 1\\,000$ : $3\\,700 \\rightarrow 3{,}7$.",
-      "image": null,
+      "reponse": "$93{,}6$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : la virgule décale de 2 rangs vers la gauche. $9\\,360$ $\\rightarrow$ $93{,}6$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_25.png"
     },
     {
       "id": "aut_17_26",
-      "niveau": 3,
+      "niveau": 1,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $2{,}08 \\times 10$",
+      "enonce": "Calcule : $0{,}07 \\times 10$",
       "choix": [
-        "$20{,}8$",
-        "$208$",
-        "$20{,}08$",
-        "$0{,}208$"
+        "$0{,}07$",
+        "$0{,}7$",
+        "$7$",
+        "$70$"
       ],
-      "reponse": "$20{,}8$",
-      "explication": "$\\times 10$ : $2{,}08 \\rightarrow 20{,}8$.",
-      "image": null,
+      "reponse": "$0{,}7$",
+      "explication": "$\\times\\,10$ : la virgule décale d'un rang vers la droite. $0{,}07$ $\\rightarrow$ $0{,}7$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_26.png"
     },
     {
@@ -481,16 +455,15 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}0074 \\times 100$",
+      "enonce": "Calcule : $2{,}004 \\times 1\\,000$",
       "choix": [
-        "$0{,}74$",
-        "$7{,}4$",
-        "$0{,}074$",
-        "$74$"
+        "$200{,}4$",
+        "$2\\,004$",
+        "$20{,}04$",
+        "$2{,}004$"
       ],
-      "reponse": "$0{,}74$",
-      "explication": "$\\times 100$ : $0{,}0074 \\rightarrow 0{,}74$.",
-      "image": null,
+      "reponse": "$2\\,004$",
+      "explication": "$\\times\\,1\\,000$ : la virgule décale de 3 rangs vers la droite. $2{,}004$ $\\rightarrow$ $2\\,004$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_27.png"
     },
     {
@@ -499,52 +472,49 @@
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $6{,}5 \\div 1\\,000$",
+      "enonce": "Calcule : $30\\,500 \\div 1\\,000$",
       "choix": [
-        "$0{,}0065$",
-        "$0{,}65$",
-        "$0{,}00065$",
-        "$0{,}065$"
+        "$305$",
+        "$30{,}5$",
+        "$3{,}05$",
+        "$0{,}305$"
       ],
-      "reponse": "$0{,}0065$",
-      "explication": "$\\div 1\\,000$ : $6{,}5 \\rightarrow 0{,}0065$.",
-      "image": null,
+      "reponse": "$30{,}5$",
+      "explication": "$\\div\\,1\\,000$ : la virgule décale de 3 rangs vers la gauche. $30\\,500$ $\\rightarrow$ $30{,}5$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_28.png"
     },
     {
       "id": "aut_17_29",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $85{,}2 \\div 10$",
+      "enonce": "Calcule : $0{,}003 \\times 100$",
       "choix": [
-        "$85{,}2$",
-        "$0{,}852$",
-        "$852$",
-        "$8{,}52$"
+        "$0{,}03$",
+        "$0{,}3$",
+        "$3$",
+        "$30$"
       ],
-      "reponse": "$8{,}52$",
-      "explication": "$\\div 10$ : $85{,}2 \\rightarrow 8{,}52$.",
-      "image": null,
+      "reponse": "$0{,}3$",
+      "explication": "$\\times\\,100$ : la virgule décale de 2 rangs vers la droite. $0{,}003$ $\\rightarrow$ $0{,}3$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_29.png"
     },
     {
       "id": "aut_17_30",
-      "niveau": 3,
+      "niveau": 2,
       "type": "qcm",
       "calcul_mental": true,
       "chrono": 15,
-      "enonce": "Calcule : $0{,}001 \\times 1\\,000$",
+      "enonce": "Calcule : $125 \\times 0{,}01$",
       "choix": [
-        "$10$",
-        "$1$",
-        "$0{,}1$",
-        "$100$"
+        "$12{,}5$",
+        "$1{,}25$",
+        "$0{,}125$",
+        "$125$"
       ],
-      "reponse": "$1$",
-      "explication": "$\\times 1\\,000$ : $0{,}001 \\rightarrow 1$.",
-      "image": null,
+      "reponse": "$1{,}25$",
+      "explication": "$\\times 0{,}01$ équivaut à $\\div 100$ : la virgule décale de 2 rangs vers la gauche. $125$ $\\rightarrow$ $1{,}25$.",
       "image_explication": "images/automatismes/mult_div_10_100_1000/aut_17_30.png"
     }
   ]
