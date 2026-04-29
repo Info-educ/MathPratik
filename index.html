@@ -2416,7 +2416,7 @@
       <button class="mode-btn active-examen" id="mode-btn-examen" onclick="selectMode('examen')">
         <span class="mode-btn-icon">🏆</span>
         <span class="mode-btn-label">Examen</span>
-        <span class="mode-btn-sub">Erreur = retour à zéro</span>
+        <span class="mode-btn-sub">Score final sur 15</span>
       </button>
       <button class="mode-btn" id="mode-btn-entrainement" onclick="selectMode('entrainement')">
         <span class="mode-btn-icon">💡</span>
@@ -2448,12 +2448,12 @@
     </div>
     <div class="exam-fail-screen">
       <div class="fail-icon" id="fail-icon">❌</div>
-      <div class="fail-title" id="fail-title">Recommencer !</div>
-      <div class="fail-sub" id="fail-sub">Une erreur en mode Examen remet tout à zéro.</div>
+      <div class="fail-title" id="fail-title">Session interrompue</div>
+      <div class="fail-sub" id="fail-sub">Quitter l'application pendant un quiz annule la session.</div>
       <div class="fail-q" id="fail-question-preview"></div>
       <div class="fail-actions">
         <button class="btn-primary" style="background:var(--err);color:white;" onclick="retryExam()">
-          🔄 Réessayer les 15 questions
+          🔄 Recommencer le quiz
         </button>
         <button class="btn-secondary" onclick="showSelect(State.currentNiveau)">← Changer les thèmes</button>
         <button class="btn-secondary" onclick="showHome()">🏠 Accueil</button>
@@ -2482,7 +2482,7 @@
       <span class="exam-banner-icon">🏆</span>
       <div class="exam-banner-text">
         <strong>Mode Examen</strong>
-        <span>Une erreur = retour à la question 1</span>
+        <span>Score final compté sur 15 questions</span>
       </div>
     </div>
     <!-- Bannière mode entraînement -->

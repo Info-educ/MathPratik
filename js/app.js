@@ -1,11 +1,14 @@
 /**
- * MathPratik – Application JavaScript v4
+ * MathPratik – Application JavaScript v5
  * Architecture : chargement dynamique de fichiers JSON par thématique
- * Mode : Examen uniquement (retour à zéro si erreur)
+ * Mode : Examen sans sanction (erreur signalée, quiz continue)
  * Compatible GitHub Pages · 0 dépendance · RGPD
  */
 
 'use strict';
+
+// Marqueur visible dans la console pour vérifier le déploiement
+console.log('%cMathPratik v5.0 · Mode Examen sans sanction', 'background:#4f46e5;color:#fff;padding:4px 8px;border-radius:4px;font-weight:700;');
 
 // ══════════════════════════════════════════════════════
 //  REGISTRE DES DONNÉES (chargé dynamiquement)
