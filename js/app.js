@@ -1932,7 +1932,88 @@ async function showTeacherModule() {
 }
 
 function closeTeacherModule() {
+  teacherSeasonReset();
   showScreen('screen-home');
+}
+
+/* ── Prévisualisation des saisons (mode enseignant) ── */
+var _teacherSeasonsOpen = false;
+
+var _SEASON_LABELS = [
+  { emoji:'❄️',  label:'Janvier'   },
+  { emoji:'💝',  label:'Février'   },
+  { emoji:'🌱',  label:'Mars'      },
+  { emoji:'🐣',  label:'Avril'     },
+  { emoji:'🌿',  label:'Mai'       },
+  { emoji:'✨',  label:'Juin'      },
+  { emoji:'🏖️', label:'Juillet'   },
+  { emoji:'🐠',  label:'Août'      },
+  { emoji:'✏️',  label:'Septembre' },
+  { emoji:'🎃',  label:'Octobre'   },
+  { emoji:'🍂',  label:'Novembre'  },
+  { emoji:'🎄',  label:'Décembre'  },
+];
+
+var _teacherSeasonActive = -1;
+
+function teacherToggleSeasons() {
+  _teacherSeasonsOpen = !_teacherSeasonsOpen;
+  var body = document.getElementById('teacher-seasons-body');
+  var arrow = document.getElementById('teacher-seasons-arrow');
+  body.style.display = _teacherSeasonsOpen ? 'block' : 'none';
+  arrow.style.transform = _teacherSeasonsOpen ? 'rotate(180deg)' : '';
+  if (_teacherSeasonsOpen) _teacherBuildGrid();
+}
+
+function _teacherBuildGrid() {
+  var grid = document.getElementById('teacher-season-grid');
+  if (!grid || grid.children.length > 0) return;
+  var realMonth = new Date().getMonth();
+  _SEASON_LABELS.forEach(function(s, i) {
+    var btn = document.createElement('button');
+    btn.id = 'season-btn-' + i;
+    btn.innerHTML = s.emoji + '<br><span style="font-size:0.68rem;">' + s.label + '</span>';
+    btn.style.cssText = [
+      'padding:8px 4px',
+      'border-radius:var(--r-sm)',
+      'border:1.5px solid ' + (i === realMonth ? 'rgba(129,140,248,0.6)' : 'rgba(129,140,248,0.18)'),
+      'background:' + (i === realMonth ? 'rgba(129,140,248,0.15)' : 'none'),
+      'cursor:pointer',
+      'font-family:var(--font-sans)',
+      'font-size:1.1rem',
+      'color:var(--text-primary,inherit)',
+      'line-height:1.3',
+      'transition:all .15s',
+    ].join(';');
+    btn.onclick = function() { teacherSeasonPick(i); };
+    grid.appendChild(btn);
+  });
+}
+
+function teacherSeasonPick(monthIndex) {
+  if (!window.MathPratikSeasons) return;
+  _teacherSeasonActive = monthIndex;
+  _SEASON_LABELS.forEach(function(_, i) {
+    var btn = document.getElementById('season-btn-' + i);
+    if (!btn) return;
+    var active = (i === monthIndex);
+    btn.style.border = active ? '2px solid #818cf8' : '1.5px solid rgba(129,140,248,0.18)';
+    btn.style.background = active ? 'rgba(129,140,248,0.22)' : 'none';
+  });
+  window.MathPratikSeasons.previewMonth(monthIndex);
+}
+
+function teacherSeasonReset() {
+  if (!window.MathPratikSeasons) return;
+  _teacherSeasonActive = -1;
+  var realMonth = new Date().getMonth();
+  _SEASON_LABELS.forEach(function(_, i) {
+    var btn = document.getElementById('season-btn-' + i);
+    if (!btn) return;
+    btn.style.border = i === realMonth ? '1.5px solid rgba(129,140,248,0.6)' : '1.5px solid rgba(129,140,248,0.18)';
+    btn.style.background = i === realMonth ? 'rgba(129,140,248,0.15)' : 'none';
+  });
+  window.MathPratikSeasons.resetToCurrentMonth();
 }
 
 function renderTeacherFilters() {
