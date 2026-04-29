@@ -46,10 +46,10 @@
   /* Cartes visibles */
   function _cards() {
     var inActive = Array.from(
-      document.querySelectorAll('.screen.active .niveau-card, .screen.active .theme-check, .screen.active .notion-card')
+      document.querySelectorAll('.screen.active .niveau-card, .screen.active .theme-check, .screen.active .notion-card, .screen.active .tn-card')
     );
     if (inActive.length) return inActive;
-    return Array.from(document.querySelectorAll('.niveau-card,.theme-check,.notion-card'));
+    return Array.from(document.querySelectorAll('.niveau-card,.theme-check,.notion-card,.tn-card'));
   }
 
   /* Couche de fond de page */
@@ -1504,7 +1504,7 @@
   window.MathPratikSeasons = {
     previewMonth: function (monthIndex) {
       var m = Math.max(0, Math.min(11, monthIndex));
-      _month = -1;          /* force le rechargement même si même mois */
+      _month = -1;
       _stopAll();
       var body = document.body;
       _MONTHS.forEach(function (mn) { body.classList.remove('season-' + mn); });
@@ -1516,6 +1516,11 @@
     resetToCurrentMonth: function () {
       _month = -1;
       _apply();
+    },
+    /* Exposé pour que app.js puisse relancer les animations après injection de tn-card */
+    _runCards: function () {
+      _runRetries = 0;
+      _runCards();
     },
     months: _MONTHS,
   };

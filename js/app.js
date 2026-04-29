@@ -2121,6 +2121,17 @@ function renderTeacherNotionList() {
   });
 
   container.innerHTML = html;
+
+  /* Déclencher les animations saisonnières sur les tn-card fraîchement injectées */
+  if (window.MathPratikSeasons && window.MathPratikSeasons._runCards) {
+    setTimeout(window.MathPratikSeasons._runCards, 80);
+  } else {
+    /* Fallback : forcer un MutationObserver via un changement de classe */
+    setTimeout(function() {
+      var dummy = container.querySelector('.tn-card');
+      if (dummy) dummy.classList.add('_mp-refresh'); dummy && dummy.classList.remove('_mp-refresh');
+    }, 80);
+  }
 }
 
 // ── LECTEUR DE QUESTIONS ─────────────────────────────
