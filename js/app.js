@@ -42,8 +42,6 @@ const State = {
   },
 };
 
-let currentNiveau = null;
-
 // ══════════════════════════════════════════════════════
 //  CHARGEMENT DYNAMIQUE DES DONNÉES
 // ══════════════════════════════════════════════════════
@@ -167,7 +165,6 @@ function showScreen(id) {
 }
 
 function showHome() {
-  currentNiveau = null;
   State.currentNiveau = null;
   renderHome();
   showScreen('screen-home');
@@ -176,7 +173,6 @@ function showHome() {
 function showSelect(niveau) {
   const nv = niveau || State.currentNiveau;
   if (!nv) return showHome();
-  currentNiveau = nv;
   State.currentNiveau = nv;
 
   // Automatismes : écran de sélection dédié avec les 36 notions
@@ -286,7 +282,6 @@ function renderSelect3eme() {
   const notions = DB.questions['3eme'] || {};
 
   State.currentNiveau = '3eme';
-  currentNiveau       = '3eme';
 
   document.getElementById('notions-badge').textContent = `${meta.emoji || ''} ${meta.label}`;
   document.getElementById('notions-title').innerHTML   = `Notions <em>3ème</em>`;
@@ -384,7 +379,6 @@ function renderSelect(niveau) {
 
   State.selectedThemes = [];
   State.currentNiveau  = niveau;
-  currentNiveau        = niveau;
 
   document.getElementById('select-badge').textContent = `${meta.emoji || ''} ${meta.label}`;
   document.getElementById('select-title').textContent = meta.label;
@@ -472,7 +466,6 @@ function renderSelectAutomatismes() {
   // Toujours réinitialiser la sélection à chaque retour sur cet écran
   State.selectedThemes = [];
   State.currentNiveau  = 'automatismes';
-  currentNiveau        = 'automatismes';
 
   document.getElementById('select-badge').textContent = `${meta.emoji || '⚡'} ${meta.label}`;
   document.getElementById('select-title').textContent = meta.label;
@@ -1359,9 +1352,7 @@ function afficherFeedback(isCorrect, question) {
   } else {
     fb.className = 'feedback-box wrong';
     document.getElementById('feedback-icon').textContent  = '✗';
-    document.getElementById('feedback-title').textContent = State._dmMode
-      ? '✗ Mauvaise réponse'
-      : (isTraining ? '✗ Mauvaise réponse' : '✗ Erreur — Retour à zéro !');
+    document.getElementById('feedback-title').textContent = '✗ Mauvaise réponse';
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
@@ -1415,9 +1406,7 @@ function afficherFeedback(isCorrect, question) {
   const btnNext = document.getElementById('btn-next');
   btnNext.classList.add('visible');
 
-  if (!isCorrect && !isTraining && !State._dmMode) {
-    btnNext.textContent = '→ Recommencer';
-  } else if (isTraining) {
+  if (isTraining) {
     // En entraînement : vérifier si l'objectif est atteint
     const tr = State.train;
     const done  = tr.ok1 + tr.ok2 + tr.ok3;
@@ -1465,7 +1454,7 @@ function handleAnswer(chosen, question) {
   } else {
     fb.className = 'feedback-box wrong';
     document.getElementById('feedback-icon').textContent  = '✗';
-    document.getElementById('feedback-title').textContent = State._dmMode ? '✗ Mauvaise réponse' : '✗ Erreur — Retour à zéro !';
+    document.getElementById('feedback-title').textContent = '✗ Mauvaise réponse';
     document.querySelector('.question-card').classList.add('shake');
     setTimeout(() => document.querySelector('.question-card').classList.remove('shake'), 450);
   }
@@ -1505,13 +1494,7 @@ function handleAnswer(chosen, question) {
   btnNext.classList.add('visible');
   const isLast = State.currentQIndex >= State.quizQuestions.length - 1;
 
-  if (!isCorrect && !State._dmMode) {
-    btnNext.textContent = '→ Recommencer';
-  } else if (isLast) {
-    btnNext.textContent = 'Voir les résultats →';
-  } else {
-    btnNext.textContent = 'Suivant →';
-  }
+  btnNext.textContent = isLast ? 'Voir les résultats →' : 'Suivant →';
 }
 
 // ══════════════════════════════════════════════════════
@@ -1531,22 +1514,11 @@ function nextQuestion() {
     return;
   }
 
-  // ── Mode examen (comportement original) ──────────────
-  const fb = document.getElementById('feedback-box');
-  if (fb.classList.contains('wrong')) {
-    const q = State.quizQuestions[State.currentQIndex];
-    const enonceTexte = q.enonce
-      ? q.enonce.substring(0, 80)
-      : (q.enonce_html
-          ? q.enonce_html.replace(/<[^>]*>/g, '').substring(0, 80)
-          : '—');
-    setMathText(
-      document.getElementById('fail-question-preview'),
-      `Bloqué à la question ${State.currentQIndex + 1} : ${enonceTexte}…`
-    );
-    showScreen('screen-exam-fail');
-    return;
-  }
+  // ── Mode examen ──────────────────────────────────────
+  // Une mauvaise réponse n'interrompt plus la session : on continue
+  // jusqu'au bout, comme en entraînement. L'écran 'screen-exam-fail'
+  // reste utilisé uniquement par la protection anti-triche
+  // (élève qui quitte l'app pendant un quiz).
   if (State.currentQIndex >= State.quizQuestions.length - 1) {
     showResults();
     return;
@@ -2302,14 +2274,14 @@ function readerJump() {
     }
 
     // Quand l'élève revient dans l'appli, remettre les textes par défaut
-    // pour ne pas perturber un futur échec classique
+    // pour ne pas perturber un futur affichage de cet écran
     if (!document.hidden) {
       const iconEl  = document.getElementById('fail-icon');
       const titleEl = document.getElementById('fail-title');
       const subEl   = document.getElementById('fail-sub');
       if (iconEl  && iconEl.textContent  === '📵') iconEl.textContent  = '❌';
-      if (titleEl && titleEl.textContent === 'Session annulée !') titleEl.textContent = 'Recommencer !';
-      if (subEl   && subEl.textContent.startsWith('Tu as quitté')) subEl.textContent = 'Une erreur en mode Examen remet tout à zéro.';
+      if (titleEl && titleEl.textContent === 'Session annulée !') titleEl.textContent = 'Session interrompue';
+      if (subEl   && subEl.textContent.startsWith('Tu as quitté')) subEl.textContent = 'Quitter l\'application pendant un quiz annule la session.';
     }
   });
 })();
@@ -2552,7 +2524,6 @@ async function dmStartQuiz() {
   State.answered       = false;
   State.sessionResults = [];
   State.currentNiveau  = d.notions[0]?.niveau || 'dm';
-  currentNiveau        = State.currentNiveau;
 
   // Masquer la bannière examen (le DM a son propre mode)
   const banner = document.getElementById('exam-banner');
@@ -2685,12 +2656,12 @@ window.quitQuiz = function () {
   _origQuitQuiz();
 };
 
-// En mode DM, nextQuestion texte = "Suivant →" même après erreur
+// En mode DM, ajuster le libellé du bouton final pour parler de devoir
 const _origHandleAnswer = handleAnswer;
 window.handleAnswer = function (chosen, question) {
   _origHandleAnswer(chosen, question);
   if (!State._dmMode) return;
-  // Remplacer le texte "→ Recommencer" par "Suivant →" (ou "Terminer")
+  // En mode DM, le dernier bouton dit "Terminer le devoir temps-libre" plutôt que "Voir les résultats"
   const btnNext = document.getElementById('btn-next');
   const isLast  = State.currentQIndex >= State.quizQuestions.length - 1;
   btnNext.textContent = isLast ? 'Terminer le devoir temps-libre →' : 'Suivant →';
