@@ -195,8 +195,22 @@
 
     /* ── AVRIL : fond herbeux avec ellipse ── */
     if (season === 'avril') {
-      var fillA = isDark() ? 'rgba(21,128,61,0.15)' : 'rgba(187,247,208,0.25)';
-      layer.innerHTML = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><ellipse cx="50%" cy="95%" rx="200" ry="60" fill="' + fillA + '"/></svg>';
+      _ensureKF('mp-kf-pollen', '@keyframes mp-pollen-float{0%{transform:translate(0,0) scale(1);opacity:0}15%{opacity:.6}85%{opacity:.3}100%{transform:translate(var(--dx),var(--dy)) scale(.5);opacity:0}}');
+      var eggColorsA = isDark()
+        ? ['rgba(180,60,130,0.30)', 'rgba(60,100,200,0.28)', 'rgba(40,160,100,0.26)', 'rgba(200,140,40,0.25)', 'rgba(140,60,180,0.28)']
+        : ['rgba(244,114,182,0.38)', 'rgba(96,165,250,0.35)', 'rgba(52,211,153,0.33)', 'rgba(251,191,36,0.32)', 'rgba(167,139,250,0.36)'];
+      var svgA = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">';
+      for (var ai = 0; ai < 20; ai++) {
+        var ax = rand(3, 93), ay = rand(8, 88);
+        var arx = rand(3.5, 6.5), ary = arx * 1.28;
+        var adur = rand(9, 17), adel = rand(0, 12);
+        var acol = eggColorsA[ai % eggColorsA.length];
+        /* Forme œuf = ellipse légèrement asymétrique via path */
+        svgA += '<ellipse cx="' + ax + '%" cy="' + ay + '%" rx="' + arx + '" ry="' + ary + '" fill="' + acol + '"' +
+          ' style="--dx:' + rand(-25, 25) + 'px;--dy:' + rand(-70, -25) + 'px;animation:mp-pollen-float ' + adur + 's ' + adel + 's ease-in-out infinite;"/>';
+      }
+      svgA += '</svg>';
+      layer.innerHTML = svgA;
     }
 
     /* ── MAI : muguet de fond (SVG subtil) ── */
@@ -575,89 +589,73 @@
 
   /* ════════════════════════════════════════════════════════════
      ANIMATIONS CARTES — AVRIL
-     Œufs de Pâques + lapin
+     Pluie de petits œufs de Pâques (comme les cœurs de février)
   ════════════════════════════════════════════════════════════ */
   function initAvril() {
-    var eggPalettes = [
-      { colors: ['#f472b6', '#ec4899', '#9d174d'], pattern: 'dots'    },
-      { colors: ['#60a5fa', '#3b82f6', '#1e3a8a'], pattern: 'stripes' },
-      { colors: ['#34d399', '#10b981', '#065f46'], pattern: 'zigzag'  },
-      { colors: ['#fb923c', '#f97316', '#7c2d12'], pattern: 'dots'    },
-      { colors: ['#a78bfa', '#8b5cf6', '#4c1d95'], pattern: 'stripes' },
-      { colors: ['#fde047', '#eab308', '#713f12'], pattern: 'zigzag'  },
+    var eggPals = [
+      { c1:'#f472b6', c2:'#9d174d' },
+      { c1:'#60a5fa', c2:'#1e3a8a' },
+      { c1:'#34d399', c2:'#065f46' },
+      { c1:'#fb923c', c2:'#7c2d12' },
+      { c1:'#a78bfa', c2:'#4c1d95' },
+      { c1:'#fde047', c2:'#713f12' },
     ];
 
-    function drawEgg(ctx, cx, cy, rx, ry, colors, pattern, alpha, t) {
-      var bob = Math.abs(Math.sin(t * 1.2)) * 2;
-      ctx.save(); ctx.translate(cx, cy - bob); ctx.globalAlpha = alpha;
-      ctx.beginPath(); ctx.save(); ctx.scale(rx, ry * 1.28); ctx.arc(0, 0, 1, 0, Math.PI * 2); ctx.restore(); ctx.clip();
-      var g = ctx.createRadialGradient(-rx * 0.28, -ry * 0.3, 0, 0, 0, rx * 1.5);
-      g.addColorStop(0, colors[0]); g.addColorStop(0.55, colors[1]); g.addColorStop(1, colors[2]);
-      ctx.fillStyle = g; ctx.fillRect(-rx * 1.2, -ry * 1.4, rx * 2.4, ry * 2.8);
-      if (pattern === 'dots') {
-        [[-0.35,-0.38],[0.35,-0.28],[0,0],[-0.3,0.3],[0.32,0.33]].forEach(function (dp) {
-          ctx.beginPath(); ctx.arc(dp[0]*rx, dp[1]*ry, rx*0.15, 0, Math.PI*2);
-          ctx.fillStyle='rgba(255,255,255,0.5)'; ctx.fill();
-        });
-      } else if (pattern === 'stripes') {
-        for (var s = -3; s <= 3; s++) {
-          ctx.fillStyle='rgba(255,255,255,' + (s%2===0 ? 0.28 : 0.14) + ')';
-          ctx.fillRect(-rx, s*ry*0.32-ry*0.1, rx*2, ry*0.16);
-        }
-      }
+    function drawTinyEgg(ctx, cx, cy, rx, ry, pal, alpha) {
+      ctx.save(); ctx.translate(cx, cy); ctx.globalAlpha = alpha;
+      ctx.beginPath();
+      /* Forme œuf : ellipse légèrement plus large en bas */
+      ctx.save(); ctx.scale(rx, ry * 1.25); ctx.arc(0, 0.08, 1, 0, Math.PI * 2); ctx.restore();
+      ctx.clip();
+      var g = ctx.createRadialGradient(-rx*0.25, -ry*0.28, 0, 0, 0, rx*1.4);
+      g.addColorStop(0, pal.c1); g.addColorStop(1, pal.c2);
+      ctx.fillStyle = g; ctx.fillRect(-rx*1.3, -ry*1.4, rx*2.6, ry*2.8);
+      /* Petit reflet */
+      ctx.fillStyle = 'rgba(255,255,255,0.40)';
+      ctx.beginPath(); ctx.ellipse(-rx*0.2, -ry*0.35, rx*0.22, ry*0.18, -0.3, 0, Math.PI*2); ctx.fill();
       ctx.restore();
     }
 
-    function drawRabbit(ctx, rx, ry, flip) {
-      ctx.save(); ctx.translate(rx, ry); if (flip) ctx.scale(-1, 1);
-      ctx.beginPath(); ctx.ellipse(0, 0, 9, 7, 0, 0, Math.PI*2); ctx.fillStyle='#f1f5f9'; ctx.fill();
-      ctx.beginPath(); ctx.arc(10, -3, 6, 0, Math.PI*2); ctx.fillStyle='#f8fafc'; ctx.fill();
-      ctx.fillStyle='#e2e8f0';
-      ctx.beginPath(); ctx.ellipse( 8,-12,2.5,7,-0.2,0,Math.PI*2); ctx.fill();
-      ctx.beginPath(); ctx.ellipse(13,-11,2.5,7, 0.2,0,Math.PI*2); ctx.fill();
-      ctx.fillStyle='rgba(251,207,232,0.7)';
-      ctx.beginPath(); ctx.ellipse( 8,-12,1.2,5,-0.2,0,Math.PI*2); ctx.fill();
-      ctx.beginPath(); ctx.ellipse(13,-11,1.2,5, 0.2,0,Math.PI*2); ctx.fill();
-      ctx.beginPath(); ctx.arc(13,-4,1.2,0,Math.PI*2); ctx.fillStyle='#1e293b'; ctx.fill();
-      ctx.beginPath(); ctx.arc(-9,1,3.5,0,Math.PI*2); ctx.fillStyle='white'; ctx.fill();
-      ctx.restore();
-    }
-
-    var avrilCards = [];
-    _cards().forEach(function (card, ci) {
+    var avrilCards = _cards().map(function (card) {
       var canvas = _cv(card); fitCanvas(canvas, card);
       var W = canvas.width, H = canvas.height;
-      var ctx = canvas.getContext('2d');
-      var eggs = [
-        { x: W*0.30, rx:12, ry:16, pal: eggPalettes[(ci*2)   % eggPalettes.length] },
-        { x: W*0.70, rx:11, ry:15, pal: eggPalettes[(ci*2+1) % eggPalettes.length] },
-      ];
-      var cd = { canvas:canvas, ctx:ctx, W:W, H:H, eggs:eggs, rabbitX:-30, rabbitDir:1 };
-      _watchResize(card, canvas, function (nw,nh){ cd.W=nw; cd.H=nh; });
-      avrilCards.push(cd);
+      /* 14 petits œufs flottants comme les cœurs */
+      var eggs = Array.from({ length: 14 }, function(_, i) {
+        var pal = eggPals[i % eggPals.length];
+        return {
+          x: rand(0.05, 0.90), y: rand(0.05, 0.85),
+          rx: rand(3.5, 6.5), ry: 0, /* ry calculé après */
+          pal: pal,
+          dx: rand(-28, 28), dy: rand(-70, -25),
+          dur: rand(9, 17), del: rand(0, 12),
+          opacity: isDark() ? rand(0.28, 0.50) : rand(0.35, 0.60),
+          /* Phase pour animation flottante CSS-like via RAF */
+          phase: rand(0, Math.PI*2), freq: rand(0.7, 1.4),
+          startT: null,
+        };
+      });
+      eggs.forEach(function(e) { e.ry = e.rx * 1.28; });
+      var cd = { canvas:canvas, ctx:canvas.getContext('2d'), W:W, H:H, eggs:eggs };
+      _watchResize(card, canvas, function(nw,nh){ cd.W=nw; cd.H=nh; });
+      return cd;
     });
 
     _sharedLoop(function (t) {
       avrilCards.forEach(function (cd) {
         var ctx=cd.ctx, W=cd.W, H=cd.H;
         ctx.clearRect(0,0,W,H);
-        var gnd=ctx.createLinearGradient(0,H-8,0,H);
-        gnd.addColorStop(0, isDark()?'rgba(21,128,61,0.45)':'rgba(74,222,128,0.28)');
-        gnd.addColorStop(1, isDark()?'rgba(6,78,59,0.65)':'rgba(21,128,61,0.44)');
-        ctx.fillStyle=gnd; ctx.fillRect(0,H-8,W,8);
-        for (var gi=0; gi<20; gi++) {
-          var gx=(gi/20)*W, gh=5+Math.sin(gi*1.3)*3, gsw=Math.sin(t*1.1+gi)*0.8;
-          ctx.beginPath(); ctx.moveTo(gx,H); ctx.quadraticCurveTo(gx+gsw,H-gh*0.55,gx+gsw*0.6,H-gh);
-          ctx.strokeStyle=isDark()?'rgba(34,197,94,0.5)':'rgba(34,197,94,0.65)';
-          ctx.lineWidth=1.2; ctx.lineCap='round'; ctx.stroke();
-        }
-        cd.rabbitX += cd.rabbitDir * 0.55;
-        if (cd.rabbitX > W + 40) cd.rabbitX = -40;
-        ctx.globalAlpha = isDark() ? 0.35 : 0.50;
-        drawRabbit(ctx, cd.rabbitX, H-10, cd.rabbitDir < 0);
-        ctx.globalAlpha = 1;
-        cd.eggs.forEach(function (e) {
-          drawEgg(ctx, e.x, H-e.ry*1.2, e.rx, e.ry, e.pal.colors, e.pal.pattern, isDark()?0.70:0.92, t);
+        cd.eggs.forEach(function(e) {
+          /* Animation flottante : mouvement sinusoïdal doux */
+          var progress = ((t + e.del) % e.dur) / e.dur; /* 0→1 cyclique */
+          var alpha = 0;
+          if (progress < 0.15) alpha = e.opacity * (progress / 0.15);
+          else if (progress < 0.85) alpha = e.opacity * (1 - (progress - 0.15) / 0.70 * 0.55);
+          else alpha = e.opacity * 0.45 * (1 - (progress - 0.85) / 0.15);
+          if (alpha < 0.02) return;
+          var px = (e.x + e.dx/W * progress) * W;
+          var py = (e.y + e.dy/H * progress) * H + Math.sin(t * e.freq + e.phase) * 2;
+          var sc = 1 - progress * 0.5;
+          drawTinyEgg(ctx, px, py, e.rx * sc, e.ry * sc, e.pal, alpha);
         });
       });
     });
@@ -665,158 +663,93 @@
 
   /* ════════════════════════════════════════════════════════════
      ANIMATIONS CARTES — MAI
-     Muguet avec sol herbeux — dark / light
+     Petites fleurs de muguet au sol — dark / light
   ════════════════════════════════════════════════════════════ */
   function initMai() {
-    /* Dessine une clochette de muguet */
-    function drawBell(ctx, cx, cy, size, t) {
-      var swing = 0.06 * Math.sin(t * 1.2 + cx * 0.03);
+    /* Dessine une minuscule clochette de muguet */
+    function drawTinyBell(ctx, cx, cy, size, t) {
+      var swing = 0.04 * Math.sin(t * 1.5 + cx * 0.05);
       ctx.save(); ctx.translate(cx, cy); ctx.rotate(swing);
-      var g = ctx.createRadialGradient(-size * 0.2, -size * 0.3, 0, 0, 0, size * 0.6);
-      g.addColorStop(0, 'rgba(255,255,255,0.98)');
-      g.addColorStop(0.5, 'rgba(228,248,238,0.93)');
-      g.addColorStop(1, 'rgba(170,220,190,0.85)');
+      var g = ctx.createRadialGradient(-size*0.15, -size*0.2, 0, 0, 0, size*0.55);
+      g.addColorStop(0, 'rgba(255,255,255,0.97)');
+      g.addColorStop(0.5, 'rgba(228,248,238,0.90)');
+      g.addColorStop(1, 'rgba(160,215,180,0.82)');
       ctx.fillStyle = g;
       ctx.beginPath();
-      ctx.moveTo(-size * 0.45, 0);
-      ctx.bezierCurveTo(-size * 0.5, -size * 0.4, -size * 0.3, -size * 0.75, 0, -size * 0.78);
-      ctx.bezierCurveTo( size * 0.3, -size * 0.75,  size * 0.5, -size * 0.4, size * 0.45, 0);
-      ctx.bezierCurveTo( size * 0.3,  size * 0.12, -size * 0.3,  size * 0.12, -size * 0.45, 0);
+      ctx.moveTo(-size*0.40, 0);
+      ctx.bezierCurveTo(-size*0.44, -size*0.35, -size*0.26, -size*0.68, 0, -size*0.70);
+      ctx.bezierCurveTo( size*0.26, -size*0.68,  size*0.44, -size*0.35, size*0.40, 0);
+      ctx.bezierCurveTo( size*0.26,  size*0.10, -size*0.26,  size*0.10, -size*0.40, 0);
       ctx.closePath(); ctx.fill();
-      /* Reflet */
-      ctx.save(); ctx.globalAlpha = 0.50; ctx.fillStyle = 'white';
-      ctx.beginPath(); ctx.ellipse(-size * 0.15, -size * 0.5, size * 0.08, size * 0.13, -0.4, 0, Math.PI * 2); ctx.fill(); ctx.restore();
-      /* Point vert en haut */
-      ctx.save(); ctx.fillStyle = isDark() ? '#3fb96e' : '#2e9955'; ctx.globalAlpha = 0.9;
-      ctx.beginPath(); ctx.arc(0, -size * 0.75, size * 0.07, 0, Math.PI * 2); ctx.fill(); ctx.restore();
-      /* Battant */
-      var bat = Math.sin(t * 1.2 + cx * 0.03) * size * 0.12;
-      ctx.strokeStyle = 'rgba(100,180,140,0.45)'; ctx.lineWidth = 0.7;
-      ctx.beginPath(); ctx.moveTo(0, -size * 0.15); ctx.lineTo(bat, size * 0.08); ctx.stroke();
       ctx.restore();
     }
 
-    /* Dessine une tige avec feuilles et clochettes */
-    function drawPlant(ctx, W, H, groundY, stemX, stemH, bellDefs, leafDefs, t) {
-      /* Feuilles */
-      leafDefs.forEach(function (l) {
-        ctx.save(); ctx.translate(stemX, groundY - stemH * l.yFrac);
-        ctx.rotate(l.angle);
-        var lg = ctx.createLinearGradient(0, 0, l.len, 0);
-        lg.addColorStop(0, isDark() ? '#14451e' : '#1a5e2a');
-        lg.addColorStop(0.5, isDark() ? '#1e6630' : '#29853f');
-        lg.addColorStop(1, isDark() ? '#14451e' : '#1a5e2a');
-        ctx.fillStyle = lg;
-        ctx.beginPath(); ctx.moveTo(0, 0);
-        ctx.bezierCurveTo(l.len * 0.3, -l.w * 0.5, l.len * 0.7, -l.w * 0.5, l.len, 0);
-        ctx.bezierCurveTo(l.len * 0.7, l.w * 0.5, l.len * 0.3, l.w * 0.5, 0, 0);
-        ctx.fill();
-        ctx.strokeStyle = isDark() ? '#0a2810' : '#0f3b1a'; ctx.lineWidth = 0.5; ctx.globalAlpha = 0.35;
-        ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(l.len, 0); ctx.stroke();
-        ctx.restore();
-      });
-      /* Tige principale */
-      ctx.strokeStyle = isDark() ? '#1a6030' : '#1a6e30'; ctx.lineWidth = 1.4; ctx.lineCap = 'round';
-      ctx.beginPath(); ctx.moveTo(stemX, groundY);
-      ctx.bezierCurveTo(stemX + 4, groundY - stemH * 0.3, stemX - 4, groundY - stemH * 0.65, stemX, groundY - stemH * 0.96);
+    /* Dessine une petite tige avec 2-3 clochettes */
+    function drawTinyPlant(ctx, stemX, groundY, stemH, bells, t) {
+      /* Tige */
+      ctx.strokeStyle = isDark() ? '#1a5e28' : '#1e7030';
+      ctx.lineWidth = 0.8; ctx.lineCap = 'round';
+      ctx.beginPath();
+      ctx.moveTo(stemX, groundY);
+      ctx.bezierCurveTo(stemX+2, groundY-stemH*0.35, stemX-2, groundY-stemH*0.68, stemX, groundY-stemH);
       ctx.stroke();
       /* Clochettes */
-      bellDefs.forEach(function (b) {
-        var ty = groundY - stemH * b.yFrac, tx = stemX + b.xOff;
-        ctx.strokeStyle = isDark() ? '#1e7035' : '#22863a'; ctx.lineWidth = 0.85;
-        ctx.beginPath(); ctx.moveTo(stemX + (b.xOff > 0 ? 1 : -1), ty + 3);
-        ctx.quadraticCurveTo(tx * 0.6 + stemX * 0.4, ty - b.size * 0.4, tx, ty - b.size * 0.5);
-        ctx.stroke();
-        drawBell(ctx, tx, ty, b.size, t);
+      bells.forEach(function(b) {
+        var tx = stemX + b.xOff, ty = groundY - stemH * b.yFrac;
+        ctx.strokeStyle = isDark() ? '#1a5e28' : '#1e7030'; ctx.lineWidth = 0.5;
+        ctx.beginPath(); ctx.moveTo(stemX, ty+1); ctx.quadraticCurveTo(tx*0.5+stemX*0.5, ty-b.s*0.3, tx, ty-b.s*0.4); ctx.stroke();
+        drawTinyBell(ctx, tx, ty, b.s, t);
       });
-    }
-
-    /* Sol herbeux */
-    function drawGrass(ctx, W, H, groundY, t) {
-      var dirtG = ctx.createLinearGradient(0, groundY, 0, H);
-      dirtG.addColorStop(0, isDark() ? '#1a3a10' : '#4a7c20');
-      dirtG.addColorStop(0.5, isDark() ? '#0f2208' : '#3a6018');
-      dirtG.addColorStop(1, isDark() ? '#080f04' : '#2a4a10');
-      ctx.fillStyle = dirtG; ctx.fillRect(0, groundY, W, H - groundY);
-      var blades = 20;
-      for (var g = 0; g < blades; g++) {
-        var gx = W * (g + 0.5) / blades + Math.sin(g * 2.7) * 3;
-        var gh = H * (0.09 + Math.sin(g * 1.8) * 0.025);
-        var sway = Math.sin(t * 1.1 + g * 0.9) * (W * 0.011);
-        ctx.strokeStyle = isDark()
-          ? (g % 3 === 0 ? '#2a6018' : '#225014')
-          : (g % 3 === 0 ? '#4a9828' : '#3a8020');
-        ctx.lineWidth = 1.3; ctx.lineCap = 'round';
-        ctx.beginPath(); ctx.moveTo(gx, groundY + 1);
-        ctx.quadraticCurveTo(gx + sway * 0.5, groundY - gh * 0.5, gx + sway, groundY - gh);
-        ctx.stroke();
-      }
     }
 
     var maiCards = _cards().map(function (card) {
       var canvas = _cv(card); fitCanvas(canvas, card);
       var W = canvas.width, H = canvas.height;
-      var groundY = H * 0.80;
-      var stemH1 = groundY * 0.92, stemH2 = groundY * 0.76;
-      var plants = [
-        {
-          stemX: W * 0.22, stemH: stemH1,
-          leaves: [
-            { yFrac: 0.08, angle: -0.5,  len: W * 0.30, w: H * 0.20 },
-            { yFrac: 0.12, angle:  2.7,  len: W * 0.26, w: H * 0.17 },
-          ],
-          bells: [
-            { yFrac: 0.30, xOff:  W * 0.09, size: H * 0.09  },
-            { yFrac: 0.45, xOff: -W * 0.08, size: H * 0.082 },
-            { yFrac: 0.60, xOff:  W * 0.10, size: H * 0.075 },
-            { yFrac: 0.73, xOff: -W * 0.07, size: H * 0.068 },
-            { yFrac: 0.84, xOff:  W * 0.06, size: H * 0.060 },
-          ],
-        },
-        {
-          stemX: W * 0.70, stemH: stemH2,
-          leaves: [
-            { yFrac: 0.07, angle: -0.4,  len: W * 0.24, w: H * 0.16 },
-            { yFrac: 0.10, angle:  2.8,  len: W * 0.20, w: H * 0.14 },
-          ],
-          bells: [
-            { yFrac: 0.35, xOff:  W * 0.08, size: H * 0.080 },
-            { yFrac: 0.52, xOff: -W * 0.07, size: H * 0.072 },
-            { yFrac: 0.67, xOff:  W * 0.09, size: H * 0.065 },
-            { yFrac: 0.80, xOff: -W * 0.06, size: H * 0.058 },
-          ],
-        },
-      ];
-      var cd = { canvas: canvas, ctx: canvas.getContext('2d'), W: W, H: H, groundY: groundY, plants: plants };
-      _watchResize(card, canvas, function (nw, nh) {
-        cd.W = nw; cd.H = nh;
-        cd.groundY = nh * 0.80;
+      /* Générer 4-6 petites plantes réparties au sol */
+      var nbPlants = 5;
+      var plants = Array.from({ length: nbPlants }, function(_, i) {
+        var px = W * (0.10 + i * 0.18 + (Math.random()-0.5)*0.06);
+        var sh = H * (0.16 + Math.random() * 0.10); /* très petites : 16-26% de la hauteur */
+        var nbBells = 2 + Math.floor(Math.random()*2);
+        var bells = [];
+        for (var b = 0; b < nbBells; b++) {
+          bells.push({
+            yFrac: 0.3 + b * (0.55/nbBells),
+            xOff: (b%2===0?1:-1) * (sh*0.25 + Math.random()*sh*0.10),
+            s: sh * 0.18,
+          });
+        }
+        return { x: px, stemH: sh, bells: bells };
       });
+      var cd = { canvas: canvas, ctx: canvas.getContext('2d'), W: W, H: H, plants: plants };
+      _watchResize(card, canvas, function(nw, nh) { cd.W=nw; cd.H=nh; });
       return cd;
     });
 
     _sharedLoop(function (t) {
       maiCards.forEach(function (cd) {
-        var ctx = cd.ctx, W = cd.W, H = cd.H, groundY = cd.groundY;
+        var ctx = cd.ctx, W = cd.W, H = cd.H;
         ctx.clearRect(0, 0, W, H);
-        /* Fond */
-        var bg = ctx.createLinearGradient(0, 0, 0, groundY);
-        if (isDark()) {
-          bg.addColorStop(0, '#0e1f3d'); bg.addColorStop(1, '#1a3a6e');
-        } else {
-          bg.addColorStop(0, '#f0fdf4'); bg.addColorStop(1, '#dcfce7');
+        /* Sol herbeux fin */
+        var groundY = H * 0.94;
+        var dirtG = ctx.createLinearGradient(0, groundY, 0, H);
+        dirtG.addColorStop(0, isDark() ? '#1a3a10' : '#4a7c20');
+        dirtG.addColorStop(1, isDark() ? '#080f04' : '#2a4a10');
+        ctx.fillStyle = dirtG; ctx.fillRect(0, groundY, W, H - groundY);
+        /* Brins d'herbe minuscules */
+        for (var g = 0; g < 28; g++) {
+          var gx = W * (g + 0.5) / 28 + Math.sin(g * 2.7) * 2;
+          var gh = H * (0.032 + Math.sin(g * 1.8) * 0.010);
+          var sway = Math.sin(t * 1.1 + g * 0.9) * (W * 0.006);
+          ctx.strokeStyle = isDark() ? (g%3===0?'#2a6018':'#225014') : (g%3===0?'#4a9828':'#3a8020');
+          ctx.lineWidth = 0.9; ctx.lineCap = 'round';
+          ctx.beginPath(); ctx.moveTo(gx, groundY);
+          ctx.quadraticCurveTo(gx+sway*0.5, groundY-gh*0.5, gx+sway, groundY-gh);
+          ctx.stroke();
         }
-        ctx.fillStyle = bg; ctx.fillRect(0, 0, W, groundY);
-        /* Halo lumineux discret */
-        var halo = ctx.createRadialGradient(W * 0.5, isDark() ? H * 0.05 : H * 0.08, 0, W * 0.5, isDark() ? H * 0.05 : H * 0.08, W * 0.65);
-        halo.addColorStop(0, isDark() ? 'rgba(100,160,255,0.06)' : 'rgba(200,250,200,0.30)');
-        halo.addColorStop(1, 'rgba(0,0,0,0)');
-        ctx.fillStyle = halo; ctx.fillRect(0, 0, W, groundY);
-        /* Sol herbeux */
-        drawGrass(ctx, W, H, groundY, t);
-        /* Plantes */
-        cd.plants.forEach(function (pl) {
-          drawPlant(ctx, W, H, groundY, pl.stemX, pl.stemH, pl.bells, pl.leaves, t);
+        /* Petites plantes de muguet */
+        cd.plants.forEach(function(pl) {
+          drawTinyPlant(ctx, pl.x, groundY, pl.stemH, pl.bells, t);
         });
       });
     });
@@ -921,30 +854,6 @@
         var sg2=ctx.createRadialGradient(sx-2,sy-2,0,sx,sy,sr);
         sg2.addColorStop(0,'rgba(254,240,138,0.95)'); sg2.addColorStop(1,'rgba(251,146,60,0.88)');
         ctx.beginPath(); ctx.arc(sx,sy,sr,0,Math.PI*2); ctx.fillStyle=sg2; ctx.fill();
-        var pax=W*0.30,pay=H*0.60;
-        ctx.save(); ctx.translate(pax,pay);
-        ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(3,H*0.30);
-        ctx.strokeStyle='#92400e'; ctx.lineWidth=2.2; ctx.lineCap='round'; ctx.stroke();
-        var segs=['#ef4444','#ffffff','#3b82f6','#ffffff','#ef4444','#ffffff'];
-        for(var s=0;s<6;s++){
-          var a1=(s/6)*Math.PI,a2=((s+1)/6)*Math.PI;
-          ctx.beginPath(); ctx.moveTo(0,0); ctx.arc(0,0,W*0.13,a1+Math.PI,a2+Math.PI); ctx.closePath();
-          ctx.fillStyle=segs[s]; ctx.globalAlpha=0.88; ctx.fill();
-        }
-        ctx.globalAlpha=1;
-        ctx.beginPath(); ctx.arc(0,-W*0.13*0.95,W*0.013,0,Math.PI*2); ctx.fillStyle='#fbbf24'; ctx.fill();
-        ctx.restore();
-        var tx=W*0.55,ty=H*0.79;
-        ctx.save(); ctx.translate(tx,ty);
-        ctx.save(); ctx.rotate(-0.3);
-        ctx.fillStyle='#d97706'; ctx.globalAlpha=0.88;
-        ctx.beginPath(); ctx.roundRect(-W*0.055,-H*0.14,W*0.11,H*0.15,2); ctx.fill();
-        ctx.strokeStyle='#92400e'; ctx.lineWidth=0.7;
-        [-0.35,-0.1,0.15].forEach(function(fr){ ctx.beginPath(); ctx.moveTo(-W*0.055,fr*H*0.14-H*0.07); ctx.lineTo(W*0.055,fr*H*0.14-H*0.07); ctx.stroke(); });
-        ctx.restore();
-        ctx.fillStyle='#f59e0b';
-        ctx.beginPath(); ctx.roundRect(-W*0.058,0,W*0.116,H*0.08,2); ctx.fill();
-        ctx.globalAlpha=1; ctx.restore();
       });
     });
   }
@@ -1243,8 +1152,7 @@
       var mistLayers=Array.from({length:5},function(_,i){return{
         y:H*(.58+i*.1),w:W*(1.15+i*.2),speed:.006+i*.003,phase:i*Math.PI/2.5,alpha:.05+i*.022,
       };});
-      var squirrel={x:W*.3,vx:.18,dir:1};
-      var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,trees:trees,mistLayers:mistLayers,squirrel:squirrel};
+      var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,trees:trees,mistLayers:mistLayers};
       _watchResize(card,canvas,function(nw,nh){cd.W=nw;cd.H=nh;});
       return cd;
     });
@@ -1268,16 +1176,6 @@
           ctx.beginPath();ctx.ellipse(W/2+ox,m.y+oy,m.w*.5,12+m.phase*3,0,0,Math.PI*2);
           ctx.fillStyle=mg;ctx.fill();
         });
-        var sq=cd.squirrel;
-        sq.x+=sq.vx*sq.dir;
-        if(sq.x>W-12)sq.dir=-1; if(sq.x<12)sq.dir=1;
-        var sqB=Math.abs(Math.sin(t*4))*2.5;
-        ctx.fillStyle=isDark()?'#a78bfa':'#9ca3af';ctx.globalAlpha=0.82;
-        ctx.beginPath();ctx.ellipse(sq.x,H-9-sqB,5,4,0,0,Math.PI*2);ctx.fill();
-        ctx.beginPath();ctx.arc(sq.x+(sq.dir>0?4:-4),H-14-sqB,3,0,Math.PI*2);ctx.fill();
-        ctx.beginPath();ctx.moveTo(sq.x+(sq.dir>0?-3:3),H-10-sqB);
-        ctx.bezierCurveTo(sq.x+(sq.dir>0?-8:8),H-18-sqB,sq.x+(sq.dir>0?-12:12),H-14-sqB,sq.x+(sq.dir>0?-8:8),H-8-sqB);
-        ctx.strokeStyle=isDark()?'#a78bfa':'#9ca3af';ctx.lineWidth=3;ctx.lineCap='round';ctx.stroke();
         ctx.globalAlpha=1;
       });
     });
@@ -1378,12 +1276,12 @@
         var ctx = cd.ctx, W = cd.W, H = cd.H;
         ctx.clearRect(0, 0, W, H);
 
-        /* Fond — nuit étoilée (dark) ou ciel givre clair (light) */
+        /* Fond — léger voile transparent pour laisser les titres visibles */
         var bg = ctx.createLinearGradient(0, 0, 0, H);
         if (isDark()) {
-          bg.addColorStop(0, '#03060f'); bg.addColorStop(1, '#071228');
+          bg.addColorStop(0, 'rgba(3,6,15,0.45)'); bg.addColorStop(1, 'rgba(7,18,40,0.50)');
         } else {
-          bg.addColorStop(0, '#dbeafe'); bg.addColorStop(1, '#eff6ff');
+          bg.addColorStop(0, 'rgba(219,234,254,0.30)'); bg.addColorStop(1, 'rgba(239,246,255,0.35)');
         }
         ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
 
