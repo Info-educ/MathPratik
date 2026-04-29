@@ -2606,6 +2606,27 @@
       </button>
     </div>
 
+    <!-- Prévisualisation des saisons -->
+    <div id="teacher-seasons-panel" style="margin:14px 20px 0;border-radius:var(--r-sm);border:1.5px solid rgba(129,140,248,0.25);background:rgba(129,140,248,0.06);overflow:hidden;">
+      <button onclick="teacherToggleSeasons()" id="teacher-seasons-toggle"
+        style="width:100%;padding:11px 16px;background:none;border:none;display:flex;align-items:center;justify-content:space-between;cursor:pointer;font-family:var(--font-sans);font-size:0.84rem;font-weight:700;color:#818cf8;text-align:left;">
+        <span>🎨 Prévisualiser les saisons</span>
+        <span id="teacher-seasons-arrow" style="font-size:0.75rem;transition:transform .2s;">▼</span>
+      </button>
+      <div id="teacher-seasons-body" style="display:none;padding:0 14px 14px;">
+        <p style="font-size:0.76rem;color:var(--text-secondary,#6b7280);margin:0 0 10px;line-height:1.4;">
+          Cliquez sur un mois pour tester l'animation. Les cartes ci-dessous se mettront à jour.
+        </p>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;" id="teacher-season-grid">
+          <!-- généré par JS -->
+        </div>
+        <button onclick="teacherSeasonReset()"
+          style="margin-top:10px;width:100%;padding:8px;border-radius:var(--r-sm);border:1px solid rgba(129,140,248,0.3);background:none;color:#818cf8;font-family:var(--font-sans);font-size:0.78rem;font-weight:600;cursor:pointer;">
+          ↺ Revenir au mois actuel
+        </button>
+      </div>
+    </div>
+
     <div class="teacher-filters" id="teacher-filters">
       <!-- JS : chips de niveau -->
     </div>
