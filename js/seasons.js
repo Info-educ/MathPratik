@@ -1,75 +1,66 @@
 /* ══════════════════════════════════════════════════════════════
-   seasons.js — Effets saisonniers MathPratik v3.0
-   Autonome · Zéro dépendance · Zéro ID fixe
+   seasons.js — Effets saisonniers MathPratik v4.0
+   Autonome · Zéro dépendance · 1 boucle RAF par mois
+   Mars / Mai / Décembre : placeholders neutres (à compléter)
 ══════════════════════════════════════════════════════════════ */
 (function () {
   'use strict';
 
-  /* ── État ── */
-  var _af    = [];
-  var _cl    = [];
+  /* ── État global ── */
+  var _af    = [];   // IDs requestAnimationFrame en cours
+  var _cl    = [];   // fonctions de nettoyage
   var _month = -1;
   var _wcMap = new WeakMap();
 
   /* ── Utilitaires ── */
-  function rand(min,max){ return min+Math.random()*(max-min); }
-  function hexRgba(hex,alpha){
-    var r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
-    return 'rgba('+r+','+g+','+b+','+(alpha===undefined?1:alpha)+')';
-  }
-  function isDark(){ return document.documentElement.getAttribute('data-theme')==='dark'; }
+  function rand(min, max) { return min + Math.random() * (max - min); }
+  function isDark() { return document.documentElement.getAttribute('data-theme') === 'dark'; }
 
-  function fitCanvas(cv,card){
-    cv.width =card.offsetWidth ||card.getBoundingClientRect().width ||280;
-    cv.height=card.offsetHeight||card.getBoundingClientRect().height||88;
+  function fitCanvas(cv, card) {
+    cv.width  = card.offsetWidth  || card.getBoundingClientRect().width  || 280;
+    cv.height = card.offsetHeight || card.getBoundingClientRect().height || 88;
   }
 
-  /* Canvas injecté dans une carte */
-  function _cv(card){
-    if(_wcMap.has(card)) return _wcMap.get(card);
-    if(getComputedStyle(card).position==='static') card.style.position='relative';
-    card.style.overflow='hidden';
-    var cv=document.createElement('canvas');
-    cv.className='mp-cv';
-    cv.style.cssText='position:absolute;inset:0;pointer-events:none;z-index:0;border-radius:inherit;';
-    cv.width=card.offsetWidth||280; cv.height=card.offsetHeight||88;
-    card.insertBefore(cv,card.firstChild);
-    _wcMap.set(card,cv);
+  /* Canvas injecté dans une carte — z-index:0 pour rester derrière le contenu */
+  function _cv(card) {
+    if (_wcMap.has(card)) return _wcMap.get(card);
+    if (getComputedStyle(card).position === 'static') card.style.position = 'relative';
+    card.style.overflow = 'hidden';
+    var cv = document.createElement('canvas');
+    cv.className = 'mp-cv';
+    cv.style.cssText = 'position:absolute;inset:0;pointer-events:none;z-index:0;border-radius:inherit;';
+    cv.width  = card.offsetWidth  || 280;
+    cv.height = card.offsetHeight || 88;
+    card.insertBefore(cv, card.firstChild);
+    _wcMap.set(card, cv);
     return cv;
   }
 
-  /* Cartes visibles dans le DOM */
-  function _cards(){
-    /* Chercher dans l'écran actif (.screen.active) en priorité,
-       sinon dans tout le DOM */
+  /* Cartes visibles */
+  function _cards() {
     var inActive = Array.from(
       document.querySelectorAll('.screen.active .niveau-card, .screen.active .theme-check, .screen.active .notion-card')
     );
-    if(inActive.length) return inActive;
-    return Array.from(
-      document.querySelectorAll('.niveau-card,.theme-check,.notion-card')
-    );
+    if (inActive.length) return inActive;
+    return Array.from(document.querySelectorAll('.niveau-card,.theme-check,.notion-card'));
   }
 
-  /* Fond de page */
-  function _bgLayer(){
-    var el=document.getElementById('mp-bg');
-    if(!el){
-      el=document.createElement('div');
-      el.id='mp-bg';
-      el.style.cssText='position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;';
-      document.body.insertBefore(el,document.body.firstChild);
+  /* Couche de fond de page */
+  function _bgLayer() {
+    var el = document.getElementById('mp-bg');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'mp-bg';
+      el.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;';
+      document.body.insertBefore(el, document.body.firstChild);
     }
     return el;
   }
 
-  /* ── Boucle RAF mutualisée pour un ensemble de cartes ──────────────
-     Remplace N boucles indépendantes par 1 seule boucle qui dessine
-     toutes les cartes d un même mois → charge CPU divisée par N.
-  ──────────────────────────────────────────────────────────────────── */
+  /* Boucle RAF partagée pour toutes les cartes d'un mois */
   function _sharedLoop(drawFn) {
     var running = true, startTime = null;
-    _cl.push(function() { running = false; });
+    _cl.push(function () { running = false; });
     function tick(ts) {
       if (!running) return;
       if (!startTime) startTime = ts;
@@ -79,1663 +70,1046 @@
     _af.push(requestAnimationFrame(tick));
   }
 
-  /* ── ResizeObserver sur une carte → met à jour canvas + données ── */
+  /* ResizeObserver sur une carte */
   function _watchResize(card, canvas, onResize) {
     if (typeof ResizeObserver === 'undefined') return;
-    var ro = new ResizeObserver(function() {
+    var ro = new ResizeObserver(function () {
       fitCanvas(canvas, card);
       if (onResize) onResize(canvas.width, canvas.height);
     });
     ro.observe(card);
-    _cl.push(function() { ro.disconnect(); });
+    _cl.push(function () { ro.disconnect(); });
   }
 
-  /* Arrêt de toutes les animations */
-  function _stopAll(){
-    _af.forEach(function(id){cancelAnimationFrame(id);}); _af=[];
-    _cl.forEach(function(fn){fn();}); _cl=[];
-    document.querySelectorAll('.mp-cv').forEach(function(cv){
-      try{cv.getContext('2d').clearRect(0,0,cv.width,cv.height);}catch(e){}
+  /* Arrêt complet */
+  function _stopAll() {
+    _af.forEach(function (id) { cancelAnimationFrame(id); }); _af = [];
+    _cl.forEach(function (fn) { fn(); }); _cl = [];
+    document.querySelectorAll('.mp-cv').forEach(function (cv) {
+      try { cv.getContext('2d').clearRect(0, 0, cv.width, cv.height); } catch (e) {}
       cv.remove();
     });
-    document.querySelectorAll('.mp-wave').forEach(function(el){el.remove();});
-    _wcMap=new WeakMap();
+    document.querySelectorAll('.mp-wave').forEach(function (el) { el.remove(); });
+    _wcMap = new WeakMap();
   }
 
-function renderBackground(season) {
-  var layer=_bgLayer(); layer.innerHTML='';
-  const dark = isDark();
+  /* ════════════════════════════════════════════════════════════
+     FOND DE PAGE PAR MOIS
+  ════════════════════════════════════════════════════════════ */
+  function renderBackground(season) {
+    var layer = _bgLayer();
+    layer.innerHTML = '';
 
-  /* ── JANVIER : particules de glace en fond ── */
-  if (season === 'janvier') {
-    const canvas = document.createElement('canvas');
-    canvas.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;';
-    layer.appendChild(canvas);
-    const fitBg = () => { canvas.width = layer.offsetWidth; canvas.height = layer.offsetHeight; };
-    fitBg();
-    window.addEventListener('resize', fitBg);
-    const ctx = canvas.getContext('2d');
-    /* Flocons de fond très lents */
-    const bgFlakes = Array.from({length:35}, () => ({
-      x: Math.random()*100, y: Math.random()*100,
-      r: 1 + Math.random()*3, speed: 0.008 + Math.random()*0.018,
-      drift: (Math.random()-0.5)*0.006, opacity: 0.2+Math.random()*0.4,
-    }));
-    let bgRunning = true;
-    _cl.push(() => { bgRunning = false; });
-    (function bgLoop() {
-      if (!bgRunning) return;
-      const W = canvas.width, H = canvas.height;
-      ctx.clearRect(0,0,W,H);
-      bgFlakes.forEach(f => {
-        f.y += f.speed; f.x += f.drift;
-        if (f.y > 100) { f.y = -2; f.x = Math.random()*100; }
-        ctx.beginPath();
-        ctx.arc(f.x/100*W, f.y/100*H, f.r, 0, Math.PI*2);
-        ctx.fillStyle = `rgba(219,234,254,${f.opacity})`;
-        ctx.fill();
-      });
-      _af.push(requestAnimationFrame(bgLoop));
-    })();
-  }
-
-  /* ── FÉVRIER : petits cœurs flottants en fond ── */
-  if (season === 'fevrier') {
-    let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
-    const heartColors = ['rgba(251,182,206,0.4)','rgba(249,168,212,0.35)','rgba(252,165,165,0.3)','rgba(253,164,175,0.35)'];
-    for (let i = 0; i < 18; i++) {
-      const x = rand(5,90), y = rand(15,85), s = rand(6,14);
-      const dur = rand(8,16), delay = rand(0,10);
-      const col = heartColors[Math.floor(Math.random()*heartColors.length)];
-      /* Cœur SVG path normalisé */
-      svg += `<path transform="translate(${x}%, ${y}%) scale(${s/20})"
-        d="M0,-8 C0,-14 -10,-14 -10,-8 C-10,-2 0,6 0,10 C0,6 10,-2 10,-8 C10,-14 0,-14 0,-8 Z"
-        fill="${col}"
-        style="animation: pollen-float ${dur}s ${delay}s ease-in-out infinite; --dx:${rand(-30,30)}px; --dy:${rand(-80,-30)}px;"/>`;
-    }
-    svg += `</svg>`;
-    layer.innerHTML = svg;
-  }
-
-  /* ── AVRIL : nuages animés + légère pluie de fond ── */
-  if (season === 'avril') {
-    layer.innerHTML = `
-    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="blur-cloud"><feGaussianBlur stdDeviation="3"/></filter>
-      </defs>
-      <!-- Nuages gris doux -->
-      <g class="cloud" style="transform-origin:22% 12%;">
-        <ellipse cx="14%" cy="11%" rx="70" ry="26" fill="rgba(203,213,225,0.65)" filter="url(#blur-cloud)"/>
-        <ellipse cx="20%" cy="9%"  rx="50" ry="22" fill="rgba(226,232,240,0.7)"  filter="url(#blur-cloud)"/>
-        <ellipse cx="28%" cy="12%" rx="60" ry="24" fill="rgba(203,213,225,0.6)"  filter="url(#blur-cloud)"/>
-      </g>
-      <g class="cloud-2" style="transform-origin:65% 18%;">
-        <ellipse cx="58%" cy="17%" rx="80" ry="22" fill="rgba(148,163,184,0.5)" filter="url(#blur-cloud)"/>
-        <ellipse cx="65%" cy="15%" rx="55" ry="20" fill="rgba(203,213,225,0.6)" filter="url(#blur-cloud)"/>
-        <ellipse cx="73%" cy="18%" rx="65" ry="22" fill="rgba(148,163,184,0.45)" filter="url(#blur-cloud)"/>
-      </g>
-      <!-- Éclaircie lumineuse -->
-      <ellipse cx="45%" cy="0%" rx="150" ry="80" fill="rgba(255,255,255,0.25)"/>
-      <!-- Pluie fine fond -->
-      ${Array.from({length:40},(_,i)=>{
-        const x=rand(2,98), dur=rand(0.6,1.2), delay=rand(-2,0), h=rand(8,18);
-        return `<line x1="${x}%" y1="0%" x2="${x-1}%" y2="${h}%"
-          stroke="rgba(148,163,184,0.3)" stroke-width="0.5"
-          style="animation: bg-rain-line ${dur}s ${delay}s linear infinite;"/>`;
-      }).join('')}
-    </svg>`;
-    /* Keyframe pluie fond */
-    if (!document.getElementById('rain-bg-kf')) {
-      const s = document.createElement('style'); s.id='rain-bg-kf';
-      s.textContent = `@keyframes bg-rain-line { from{transform:translateY(-5%);opacity:0} 10%{opacity:1} 90%{opacity:0.6} to{transform:translateY(110%);opacity:0} }`;
-      document.head.appendChild(s);
-    }
-  }
-
-  /* ── MAI : pétales en fond ── */
-  if (season === 'mai') {
-    /* Fond : quelques papillons légers qui dérivent en arrière-plan */
-    let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
-    /* Taches lumineuses douces */
-    const bgColors=['rgba(254,240,138,0.25)','rgba(187,247,208,0.2)','rgba(216,180,254,0.18)','rgba(253,186,116,0.2)'];
-    for (let i=0;i<12;i++) {
-      const x=rand(5,90),y=rand(10,85),r=rand(25,60);
-      const col=bgColors[i%bgColors.length];
-      const dur=rand(8,16),delay=rand(0,10);
-      const dx=rand(-40,40),dy=rand(-60,60);
-      svg+=`<circle cx="${x}%" cy="${y}%" r="${r}" fill="${col}"
-        style="--dx:${dx}px;--dy:${dy}px;
-        animation:pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-    }
-    svg+=`</svg>`;
-    layer.innerHTML=svg;
-  }
-
-  /* ── JUIN : lueurs dorées et lucioles fond ── */
-  if (season === 'juin') {
-    const canvas=document.createElement('canvas');
-    canvas.style.cssText='position:absolute;inset:0;width:100%;height:100%;';
-    layer.appendChild(canvas);
-    const fitBg=()=>{canvas.width=layer.offsetWidth;canvas.height=layer.offsetHeight;};
-    fitBg(); window.addEventListener('resize',fitBg);
-    const ctx=canvas.getContext('2d');
-    const fireflies=Array.from({length:28},()=>({
-      x:rand(5,95),y:rand(20,90),
-      dx:rand(-0.015,0.015),dy:rand(-0.01,0.01),
-      phase:rand(0,Math.PI*2),freq:rand(0.8,2.2),
-      size:rand(1.2,2.8),color:Math.random()<0.6?'#fde047':'#bbf7d0',
-    }));
-    let bgR=true; _cl.push(()=>{bgR=false;});
-    let bt=0;
-    (function bl(){
-      if(!bgR)return; bt+=0.016;
-      const W=canvas.width,H=canvas.height;
-      ctx.clearRect(0,0,W,H);
-      fireflies.forEach(f=>{
-        f.x+=f.dx; f.y+=f.dy;
-        if(f.x<0)f.x=100; if(f.x>100)f.x=0;
-        if(f.y<0)f.y=100; if(f.y>100)f.y=0;
-        const alpha=(Math.sin(bt*f.freq+f.phase)+1)*0.5*0.55+0.05;
-        const glow=ctx.createRadialGradient(f.x/100*W,f.y/100*H,0,f.x/100*W,f.y/100*H,f.size*4);
-        glow.addColorStop(0, hexRgba(f.color, alpha*0.8));
-        glow.addColorStop(1,'rgba(0,0,0,0)');
-        ctx.beginPath();
-        ctx.arc(f.x/100*W,f.y/100*H,f.size*4,0,Math.PI*2);
-        ctx.fillStyle=glow; ctx.fill();
-        ctx.beginPath();
-        ctx.arc(f.x/100*W,f.y/100*H,f.size*0.8,0,Math.PI*2);
-        ctx.fillStyle=f.color; ctx.globalAlpha=alpha*1.5; ctx.fill();
-        ctx.globalAlpha=1;
-      });
-      _af.push(requestAnimationFrame(bl));
-    })();
-  }
-
-  /* ── JUILLET : soleil fort + halo de chaleur fond ── */
-  if (season === 'juillet') {
-    layer.innerHTML=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="82%" cy="8%" r="110" fill="rgba(251,146,60,0.12)"/>
-      <circle cx="82%" cy="8%" r="75"  fill="rgba(253,186,116,0.18)"/>
-      <g style="transform-origin:82% 8%;animation:ray-rotate 18s linear infinite;">
-        ${Array.from({length:20},(_,i)=>{
-          const a=(i/20)*360*Math.PI/180,r1=60,r2=95;
-          const op=i%2===0?0.3:0.15,w=i%2===0?2:1.2;
-          return `<line x1="calc(82% + ${(Math.cos(a)*r1).toFixed(1)}px)" y1="calc(8% + ${(Math.sin(a)*r1).toFixed(1)}px)"
-                        x2="calc(82% + ${(Math.cos(a)*r2).toFixed(1)}px)" y2="calc(8% + ${(Math.sin(a)*r2).toFixed(1)}px)"
-                        stroke="rgba(251,146,60,${op})" stroke-width="${w}" stroke-linecap="round"/>`;
-        }).join('')}
-      </g>
-      <circle cx="82%" cy="8%" r="42" fill="rgba(253,186,116,0.6)"/>
-      <circle cx="82%" cy="8%" r="28" fill="rgba(254,215,170,0.85)"/>
-      <ellipse cx="50%" cy="95%" rx="200" ry="40" fill="rgba(251,146,60,0.1)"/>
-    </svg>`;
-  }
-
-  /* ── SEPTEMBRE : feuilles fond ── */
-  if (season === 'septembre') {
-    let svg=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
-    /* Petites étoiles dorées et bulles colorées — ambiance rentrée */
-    const rentrColors=['rgba(59,130,246,0.2)','rgba(239,68,68,0.18)','rgba(34,197,94,0.18)','rgba(168,85,247,0.18)','rgba(234,179,8,0.25)'];
-    for(let i=0;i<20;i++){
-      const x=rand(3,95),y=rand(5,90),r=rand(12,35);
-      const col=rentrColors[i%rentrColors.length];
-      const dur=rand(8,16),delay=rand(0,10),dx=rand(-30,30),dy=rand(-40,40);
-      svg+=`<circle cx="${x}%" cy="${y}%" r="${r}" fill="${col}"
-        style="--dx:${dx}px;--dy:${dy}px;animation:pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-    }
-    svg+=`</svg>`; layer.innerHTML=svg;
-  }
-
-  /* ── OCTOBRE : brouillard orangé fond ── */
-  if (season === 'octobre') {
-    layer.innerHTML=`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <defs><filter id="blur4"><feGaussianBlur stdDeviation="12"/></filter></defs>
-      <ellipse cx="15%" cy="25%" rx="180" ry="120" fill="rgba(251,146,60,0.18)" filter="url(#blur4)"/>
-      <ellipse cx="80%" cy="15%" rx="150" ry="100" fill="rgba(234,88,12,0.15)"  filter="url(#blur4)"/>
-      <ellipse cx="50%" cy="80%" rx="200" ry="80"  fill="rgba(120,53,15,0.12)"  filter="url(#blur4)"/>
-      ${Array.from({length:15},(_,i)=>{
-        const x=rand(2,95),y=rand(10,80),s=rand(10,20),rot=rand(0,360);
-        const col=['rgba(234,88,12,0.35)','rgba(251,146,60,0.4)','rgba(180,83,9,0.3)'][i%3];
-        const dur=rand(10,18),delay=rand(0,10),dx=rand(20,80),dy=rand(60,140);
-        return `<ellipse cx="${x}%" cy="${y}%" rx="${s}" ry="${s*0.6}" fill="${col}"
-          transform="rotate(${rot})" style="--dx:${dx}px;--dy:${dy}px;
-          animation:pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-      }).join('')}
-    </svg>`;
-  }
-
-  /* ── NOVEMBRE : brume de forêt fond ── */
-  if (season === 'novembre') {
-    const canvas=document.createElement('canvas');
-    canvas.style.cssText='position:absolute;inset:0;width:100%;height:100%;';
-    layer.appendChild(canvas);
-    const fitBg=()=>{canvas.width=layer.offsetWidth;canvas.height=layer.offsetHeight;};
-    fitBg(); window.addEventListener('resize',fitBg);
-    const ctx=canvas.getContext('2d');
-    const mists=Array.from({length:6},(_,i)=>({
-      y:60+i*7, speed:0.008+i*0.003, phase:i*Math.PI/3, alpha:0.06+i*0.015,
-    }));
-    let bgR=true; _cl.push(()=>{bgR=false;});
-    let bt=0;
-    (function bl(){
-      if(!bgR)return; bt+=0.01;
-      const W=canvas.width,H=canvas.height;
-      ctx.clearRect(0,0,W,H);
-      mists.forEach(m=>{
-        const y=(m.y/100)*H+Math.sin(bt*m.speed*10+m.phase)*8;
-        const g=ctx.createLinearGradient(0,y-30,0,y+30);
-        g.addColorStop(0,'rgba(209,213,219,0)');
-        g.addColorStop(0.5,`rgba(209,213,219,${m.alpha})`);
-        g.addColorStop(1,'rgba(209,213,219,0)');
-        ctx.fillStyle=g; ctx.fillRect(0,y-30,W,60);
-      });
-      _af.push(requestAnimationFrame(bl));
-    })();
-  }
-
-  if (season === 'mars') {
-    /* Quelques particules de pollen qui flottent */
-    let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
-    for (let i = 0; i < 22; i++) {
-      const x = rand(5, 95), y = rand(10, 90);
-      const size = rand(3, 7);
-      const dur = rand(6, 14), delay = rand(0, 8);
-      const dx = rand(-80, 80), dy = rand(-120, -40);
-      svg += `<circle cx="${x}%" cy="${y}%" r="${size}" 
-        fill="#fde68a" opacity="0.5"
-        style="--dx:${dx}px;--dy:${dy}px;
-               animation: pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-    }
-    /* Petits pétales qui volent */
-    for (let i = 0; i < 14; i++) {
-      const x = rand(5,95), y = rand(20,80);
-      const dur = rand(8,16), delay = rand(0,10);
-      const dx = rand(60,160), dy = rand(40,120);
-      const rot = rand(0,360);
-      svg += `<ellipse cx="${x}%" cy="${y}%" rx="5" ry="3"
-        fill="#f9a8d4" opacity="0.45"
-        transform="rotate(${rot} 0 0)"
-        style="--dx:${dx}px;--dy:${dy}px;
-               animation: pollen-float ${dur}s ${delay}s ease-in-out infinite;"/>`;
-    }
-    svg += `</svg>`;
-    layer.innerHTML = svg;
-  }
-
-  if (season === 'aout') {
-    /* Grand soleil + nuages + reflets */
-    layer.innerHTML = `
-    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <!-- Halo soleil -->
-      <circle cx="88%" cy="9%" r="90" fill="rgba(253,224,71,0.15)"/>
-      <circle cx="88%" cy="9%" r="60" fill="rgba(253,224,71,0.2)"/>
-      <!-- Rayons -->
-      <g style="transform-origin:88% 9%; animation:ray-rotate 22s linear infinite;">
-        ${Array.from({length:16}, (_,i) => {
-          const a = (i/16)*360;
-          const r1=55, r2=85;
-          const rad = a * Math.PI/180;
-          const x1=Math.cos(rad)*r1, y1=Math.sin(rad)*r1;
-          const x2=Math.cos(rad)*r2, y2=Math.sin(rad)*r2;
-          const op = i%2===0 ? 0.35 : 0.2;
-          const w  = i%2===0 ? 2.5  : 1.5;
-          return `<line x1="calc(88% + ${x1}px)" y1="calc(9% + ${y1}px)" 
-                        x2="calc(88% + ${x2}px)" y2="calc(9% + ${y2}px)"
-                        stroke="rgba(253,224,71,${op})" stroke-width="${w}" stroke-linecap="round"/>`;
-        }).join('')}
-      </g>
-      <!-- Soleil -->
-      <circle class="sun-core" cx="88%" cy="9%" r="38" fill="rgba(253,224,71,0.55)"/>
-      <circle cx="88%" cy="9%" r="28" fill="rgba(254,240,138,0.7)"/>
-      <!-- Nuages -->
-      <g class="cloud" style="transform-origin:25% 18%;">
-        <ellipse cx="18%" cy="16%" rx="60" ry="22" fill="white" opacity="0.7"/>
-        <ellipse cx="22%" cy="14%" rx="40" ry="18" fill="white" opacity="0.7"/>
-        <ellipse cx="26%" cy="16%" rx="50" ry="20" fill="white" opacity="0.6"/>
-      </g>
-      <g class="cloud-2" style="transform-origin:55% 22%;">
-        <ellipse cx="50%" cy="20%" rx="70" ry="18" fill="white" opacity="0.5"/>
-        <ellipse cx="55%" cy="18%" rx="45" ry="16" fill="white" opacity="0.5"/>
-        <ellipse cx="60%" cy="20%" rx="55" ry="17" fill="white" opacity="0.4"/>
-      </g>
-      <!-- Reflet soleil sur eau en bas -->
-      <ellipse cx="88%" cy="95%" rx="120" ry="30" fill="rgba(253,224,71,0.12)"/>
-    </svg>`;
-  }
-
-  if (season === 'decembre') {
-    /* Flocons de fond qui tombent lentement */
-    let svg = `<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">`;
-    for (let i = 0; i < 30; i++) {
-      const x = rand(2, 98);
-      const size = rand(2, 5);
-      const dur  = rand(12, 28);
-      const delay = rand(-20, 0);
-      var flakeColor = dark ? 'rgba(147,197,253,0.5)' : 'rgba(219,234,254,0.7)';
-      svg += `<circle cx="${x}%" cy="0%" r="${size}" fill="${flakeColor}"
-        class="bg-flake"
-        style="animation-duration:${dur}s; animation-delay:${delay}s;"/>`;
-    }
-    /* Étoile en haut */
-    svg += `<polygon points="90%,4% 91%,7% 94%,7% 92%,9% 93%,12% 90%,10% 87%,12% 88%,9% 86%,7% 89%,7%"
-      fill="rgba(253,224,71,0.6)" style="animation:ray-pulse 2s ease-in-out infinite;"/>`;
-    svg += `</svg>`;
-    layer.innerHTML = svg;
-  }
-}
-
-
-/* ══════════════════════════════════════════════════
-   EFFET MARS — Herbe réaliste + Fleurs sur Canvas
-   Chaque brin : forme fermée base-épaisse→pointe fine
-   Couleurs graduées pied foncé → pointe claire
-══════════════════════════════════════════════════ */
-
-/* ── Un brin d'herbe réaliste dessiné sur canvas ──
-   Forme : polygone fermé avec base large, pointe fine,
-   légère courbe naturelle, dégradé vert foncé→clair   */
-function drawGrassBlade(ctx, baseX, baseY, height, lean, baseWidth, phase, t) {
-  /* Courbure dynamique : balancement au vent */
-  const sway    = Math.sin(t * 1.8 + phase) * lean * 0.35;
-  const tipX    = baseX + lean * height * 0.38 + sway * height * 0.012;
-  const tipY    = baseY - height;
-  /* Point de contrôle Bézier — courbe organique */
-  const cpX     = baseX + lean * height * 0.22 + sway * height * 0.008;
-  const cpY     = baseY - height * 0.58;
-  /* Demi-largeur à la base, nulle à la pointe */
-  const hw      = baseWidth * 0.5;
-  /* Bord gauche et droit de la lame */
-  const lbX = baseX - hw,  lbY = baseY;
-  const rbX = baseX + hw,  rbY = baseY;
-  /* Décalage latéral des points de contrôle */
-  const lcpX = cpX - hw * 0.55, rcpX = cpX + hw * 0.55;
-
-  /* Dégradé vertical base→pointe */
-  const grad = ctx.createLinearGradient(baseX, baseY, tipX, tipY);
-  grad.addColorStop(0,   '#15803d');   /* vert très foncé à la base */
-  grad.addColorStop(0.35,'#16a34a');
-  grad.addColorStop(0.65,'#4ade80');
-  grad.addColorStop(1,   '#86efac');   /* vert pâle à la pointe */
-
-  ctx.beginPath();
-  ctx.moveTo(lbX, lbY);
-  ctx.quadraticCurveTo(lcpX, cpY, tipX, tipY);   /* bord gauche */
-  ctx.quadraticCurveTo(rcpX, cpY, rbX,  rbY);    /* bord droit (retour) */
-  ctx.closePath();
-
-  ctx.fillStyle   = grad;
-  ctx.globalAlpha = 0.88 + Math.random() * 0.12;
-  ctx.fill();
-
-  /* Nervure centrale légère */
-  ctx.beginPath();
-  ctx.moveTo(baseX, baseY);
-  ctx.quadraticCurveTo(cpX, cpY, tipX, tipY);
-  ctx.strokeStyle = 'rgba(21,128,61,0.25)';
-  ctx.lineWidth   = 0.4;
-  ctx.globalAlpha = 0.5;
-  ctx.stroke();
-  ctx.globalAlpha = 1;
-}
-
-/* ── Pétale organique dessiné sur canvas ── */
-function drawPetal(ctx, cx, cy, angle, r, color, progress) {
-  if (progress <= 0) return;
-  const sc  = Math.min(progress, 1);
-  const a   = angle;
-  const tip = r * sc;
-  const tx  = cx + Math.cos(a) * tip;
-  const ty  = cy + Math.sin(a) * tip;
-  const lx  = cx + Math.cos(a - 0.5) * r * 0.75 * sc;
-  const ly  = cy + Math.sin(a - 0.5) * r * 0.75 * sc;
-  const rx  = cx + Math.cos(a + 0.5) * r * 0.75 * sc;
-  const ry  = cy + Math.sin(a + 0.5) * r * 0.75 * sc;
-
-  ctx.beginPath();
-  ctx.moveTo(cx, cy);
-  ctx.bezierCurveTo(lx, ly, lx * 0.8 + tx * 0.2, ly * 0.8 + ty * 0.2, tx, ty);
-  ctx.bezierCurveTo(rx * 0.8 + tx * 0.2, ry * 0.8 + ty * 0.2, rx, ry, cx, cy);
-  ctx.fillStyle   = color;
-  ctx.globalAlpha = 0.93 * Math.min(progress, 1);
-  ctx.fill();
-  ctx.globalAlpha = 1;
-}
-
-/* ── Trèfle ── */
-/* ── Pissenlit ── */
-function drawDandelion(ctx, cx, baseY, stemH, progress, t) {
-  if (progress <= 0) return;
-  const sc   = Math.min(progress, 1);
-  const tipY = baseY - stemH * sc;
-  const sway = Math.sin(t * 1.5 + cx * 0.08) * 1.5 * sc;
-
-  /* Tige */
-  ctx.beginPath();
-  ctx.moveTo(cx, baseY);
-  ctx.quadraticCurveTo(cx + sway * 0.5, baseY - stemH * 0.5, cx + sway, tipY);
-  ctx.strokeStyle = '#16a34a';
-  ctx.lineWidth   = 1.2;
-  ctx.globalAlpha = 0.9;
-  ctx.stroke();
-
-  /* Tête jaune */
-  if (sc > 0.85) {
-    const headProgress = (sc - 0.85) / 0.15;
-    const hx = cx + sway;
-    const hy = tipY;
-    /* Pétales rayonnants */
-    for (let p = 0; p < 12; p++) {
-      const a = (p / 12) * Math.PI * 2;
-      ctx.beginPath();
-      ctx.moveTo(hx, hy);
-      ctx.lineTo(hx + Math.cos(a) * 5 * headProgress, hy + Math.sin(a) * 5 * headProgress);
-      ctx.strokeStyle = '#fbbf24';
-      ctx.lineWidth   = 1.5;
-      ctx.globalAlpha = 0.85 * headProgress;
-      ctx.stroke();
-    }
-    ctx.beginPath();
-    ctx.arc(hx, hy, 3 * headProgress, 0, Math.PI * 2);
-    ctx.fillStyle   = '#fde047';
-    ctx.globalAlpha = headProgress;
-    ctx.fill();
-  }
-  ctx.globalAlpha = 1;
-}
-
-/* ── Fleur générique (marguerite / coquelicot / fleur sauvage) ── */
-const FLOWER_TYPES = [
-  { name:'marguerite', petals:10, r:7,   petalColor:'#ffffff', centerColor:'#f59e0b', centerR:3.5, stemW:1.6, stemColor:'#16a34a' },
-  { name:'anemone',   petals:6,  r:7.5, petalColor:'#e879f9', centerColor:'#fde68a', centerR:2.8, stemW:1.5, stemColor:'#15803d' },
-  { name:'sauvage',    petals:5,  r:6,   petalColor:'#c084fc', centerColor:'#fde68a', centerR:2.8, stemW:1.3, stemColor:'#22c55e' },
-  { name:'bouton',     petals:8,  r:5.5, petalColor:'#fde047', centerColor:'#f59e0b', centerR:2.4, stemW:1.4, stemColor:'#4ade80' },
-  { name:'rose_sauvage',petals:5, r:7.5, petalColor:'#f9a8d4', centerColor:'#fbbf24', centerR:3,   stemW:1.5, stemColor:'#16a34a' },
-];
-
-function drawFlower(ctx, cx, baseY, stemH, type, progress, t) {
-  if (progress <= 0) return;
-  const sc   = Math.min(progress, 1);
-  const ft   = FLOWER_TYPES[type % FLOWER_TYPES.length];
-  const sway = Math.sin(t * 1.4 + cx * 0.07) * 2.2 * sc;
-  const stemProgress = Math.min(sc / 0.55, 1);
-  const tipY = baseY - stemH * stemProgress;
-  const tipX = cx + sway * 0.6;
-
-  /* Tige avec courbure */
-  const cpX = cx + sway * 0.3;
-  const cpY = baseY - stemH * 0.5 * stemProgress;
-  ctx.beginPath();
-  ctx.moveTo(cx, baseY);
-  ctx.quadraticCurveTo(cpX, cpY, tipX, tipY);
-  ctx.strokeStyle = ft.stemColor;
-  ctx.lineWidth   = ft.stemW;
-  ctx.lineCap     = 'round';
-  ctx.globalAlpha = 0.9;
-  ctx.stroke();
-
-  /* Feuilles sur la tige */
-  if (stemProgress > 0.4) {
-    const lfp = (stemProgress - 0.4) / 0.6;
-    const lfy = baseY - stemH * 0.45 * stemProgress;
-    drawLeafOnStem(ctx, cx, lfy, -45, 8 * lfp, ft.stemColor);
-    drawLeafOnStem(ctx, cx, baseY - stemH * 0.65 * stemProgress, 225, 7 * lfp, ft.stemColor);
-  }
-
-  /* Fleur (apparaît quand la tige est presque complète) */
-  if (sc > 0.55) {
-    const flowerProgress = (sc - 0.55) / 0.45;
-    for (let p = 0; p < ft.petals; p++) {
-      const angle = (p / ft.petals) * Math.PI * 2 + Math.sin(t * 0.3) * 0.04;
-      drawPetal(ctx, tipX, tipY, angle, ft.r, ft.petalColor, flowerProgress);
-    }
-    /* Centre */
-    if (flowerProgress > 0.6 && ft.centerR > 0) {
-      const cp = (flowerProgress - 0.6) / 0.4;
-      ctx.beginPath();
-      ctx.arc(tipX, tipY, ft.centerR * cp, 0, Math.PI * 2);
-      ctx.fillStyle   = ft.centerColor;
-      ctx.globalAlpha = cp;
-      ctx.fill();
-    }
-  }
-  ctx.globalAlpha = 1;
-}
-
-function drawLeafOnStem(ctx, x, y, angleDeg, size, color) {
-  const a   = angleDeg * Math.PI / 180;
-  const tx  = x + Math.cos(a) * size;
-  const ty  = y + Math.sin(a) * size;
-  const lx  = x + Math.cos(a - 0.55) * size * 0.6;
-  const ly  = y + Math.sin(a - 0.55) * size * 0.6;
-  const rx  = x + Math.cos(a + 0.55) * size * 0.6;
-  const ry  = y + Math.sin(a + 0.55) * size * 0.6;
-  ctx.beginPath();
-  ctx.moveTo(x, y);
-  ctx.bezierCurveTo(lx, ly, lx*0.7+tx*0.3, ly*0.7+ty*0.3, tx, ty);
-  ctx.bezierCurveTo(rx*0.7+tx*0.3, ry*0.7+ty*0.3, rx, ry, x, y);
-  ctx.fillStyle   = color;
-  ctx.globalAlpha = 0.8;
-  ctx.fill();
-  /* Nervure */
-  ctx.beginPath();
-  ctx.moveTo(x, y);
-  ctx.lineTo(tx, ty);
-  ctx.strokeStyle = 'rgba(21,128,61,0.3)';
-  ctx.lineWidth   = 0.4;
-  ctx.stroke();
-  ctx.globalAlpha = 1;
-}
-
-/* ══ Scène complète par carte ══ */
-function buildMarsScene(cardW, cardH) {
-  /* Génère une liste de brins d'herbe et de plantes positionnés aléatoirement */
-  const blades = [];
-  const COUNT  = 55;
-  for (let i = 0; i < COUNT; i++) {
-    blades.push({
-      x:     2 + Math.random() * (cardW - 4),
-      h:     10 + Math.random() * 26,
-      lean:  (Math.random() - 0.5) * 2.2,
-      w:     1.4 + Math.random() * 2.0,
-      phase: Math.random() * Math.PI * 2,
-      delay: Math.random() * 1.2,       /* délai d'apparition */
-    });
-  }
-  /* Trier par hauteur pour que les grands soient derrière */
-  blades.sort((a, b) => b.h - a.h);
-
-  /* Fleurs réparties uniformément */
-  const flowers = [];
-  const FLOWER_COUNT = 7;
-  for (let i = 0; i < FLOWER_COUNT; i++) {
-    flowers.push({
-      x:     18 + (i / (FLOWER_COUNT - 1)) * (cardW - 36) + (Math.random() - 0.5) * 18,
-      stemH: 22 + Math.random() * 22,
-      type:  i % FLOWER_TYPES.length,
-      delay: 0.4 + i * 0.18 + Math.random() * 0.1,
-    });
-  }
-
-  /* Pissenlits */
-  const dandelions = [
-    { x: cardW * 0.18, stemH: 28 + Math.random()*10, delay: 0.6 },
-    { x: cardW * 0.72, stemH: 24 + Math.random()*10, delay: 1.0 },
-  ];
-
-  return { blades, flowers, dandelions };
-}
-function initMars() {
-  _cards().forEach(function(card) {
-    var canvas = _cv(card); fitCanvas(canvas, card);
-
-    const W = canvas.width;
-    const H = canvas.height;
-    const GRASS_H = Math.round(H * 0.68);  /* hauteur max de la végétation */
-    const baseY   = H;                      /* sol = bas de carte */
-
-    const scene   = buildMarsScene(W, GRASS_H);
-    let startTime = null;
-    let running   = true;
-    _cl.push(() => { running = false; });
-
-    function progress(delay, duration, elapsed) {
-      return Math.max(0, Math.min(1, (elapsed - delay) / duration));
-    }
-
-    function loop(ts) {
-      if (!running) return;
-      if (!startTime) startTime = ts;
-      const elapsed = (ts - startTime) / 1000;
-      const t       = elapsed;
-
-      const ctx = canvas.getContext('2d');
-      ctx.clearRect(0, 0, W, H);
-
-      /* ── Sol herbeux ── */
-      const groundGrad = ctx.createLinearGradient(0, baseY - 6, 0, baseY);
-      const isDarkMode = isDark();
-      groundGrad.addColorStop(0, isDarkMode ? 'rgba(74,222,128,0.55)' : 'rgba(74,222,128,0.35)');
-      groundGrad.addColorStop(1, isDarkMode ? 'rgba(21,128,61,0.75)' : 'rgba(21,128,61,0.5)');
-      ctx.beginPath();
-      ctx.moveTo(0, baseY);
-      for (let gx = 0; gx <= W; gx += 4) {
-        const gy = baseY - 3 - Math.sin(gx * 0.15 + t * 0.4) * 1.5;
-        ctx.lineTo(gx, gy);
-      }
-      ctx.lineTo(W, baseY);
-      ctx.closePath();
-      ctx.fillStyle = groundGrad;
-      ctx.fill();
-
-      /* ── Brins d'herbe ── */
-      scene.blades.forEach(b => {
-        const p = progress(b.delay, 0.7, elapsed);
-        if (p <= 0) return;
-        drawGrassBlade(ctx, b.x, baseY, b.h * p, b.lean, b.w, b.phase, t);
-      });
-
-      /* ── Pissenlits ── */
-      scene.dandelions.forEach(d => {
-        const p = progress(d.delay, 1.4, elapsed);
-        drawDandelion(ctx, d.x, baseY, d.stemH, p, t);
-      });
-
-      /* ── Fleurs ── */
-      scene.flowers.forEach(f => {
-        const p = progress(f.delay, 1.5, elapsed);
-        drawFlower(ctx, f.x, baseY, f.stemH, f.type, p, t);
-      });
-
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
-function initAout() {
-  if (!document.getElementById('wave-kf')) {
-    var s=document.createElement('style'); s.id='wave-kf';
-    s.textContent='@keyframes wave-main{from{transform:translateX(0)}to{transform:translateX(-50%)}}@keyframes wave-deep{from{transform:translateX(-50%)}to{transform:translateX(0)}}@keyframes foam-trail{0%{opacity:.3}100%{opacity:.9}}@keyframes ray-pulse{0%,100%{opacity:.2}50%{opacity:.45}}';
-    document.head.appendChild(s);
-  }
-  var aC=['#fbbf24','#fcd34d','#fde68a'], aD=[0,0.5,1];
-  _cards().forEach(function(card, ci) {
-    var sunColor=aC[ci%3], delay=aD[ci%3];
-    var w=card.offsetWidth||280;
-    var wdiv=card.querySelector('.mp-wave');
-    if(!wdiv){wdiv=document.createElement('div');wdiv.className='mp-wave';
-      wdiv.style.cssText='position:absolute;bottom:0;left:0;right:0;height:38px;pointer-events:none;z-index:3;overflow:hidden;';
-      card.appendChild(wdiv);}
-    wdiv.innerHTML=buildWaveSVG(w,w-28,sunColor,delay);
-  });
-}
-function initDecembre() {
-  _cards().forEach(function(card) {
-    const canvas = $(id);
-    fitCanvas(canvas, card);
-
-    const ctx    = canvas.getContext('2d');
-    const W      = canvas.width;
-    const H      = canvas.height;
-    const COUNT  = 12;
-
-    /* Flocons */
-    const flakes = Array.from({length: COUNT}, (_, i) => ({
-      x:       rand(0, W),
-      y:       rand(-H, H),
-      r:       rand(4, 9),
-      speed:   rand(0.18, 0.45),
-      drift:   rand(-0.2, 0.2),
-      angle:   rand(0, Math.PI*2),
-      spin:    rand(-0.008, 0.008),
-      opacity: rand(0.5, 0.9),
-      depth:   i < 4 ? 3 : i < 8 ? 2 : 1,
-      phase:   rand(0, Math.PI*2),
-    }));
-
-    let t = 0;
-    let running = true;
-    _cl.push(() => { running = false; });
-
-    /* Accumulation neige bas */
-    const pileH = Array.from({length: Math.ceil(W/3)+1}, () => rand(3, 8));
-
-    function loop() {
-      if (!running) return;
-      ctx.clearRect(0, 0, W, H);
-      t += 0.014;
-
-      /* Neige accumulée */
-      ctx.beginPath();
-      ctx.moveTo(0, H);
-      for (let i = 0; i <= Math.ceil(W/3); i++) {
-        const px = i * 3;
-        const py = H - pileH[i] * (0.9 + Math.sin(t*0.3 + i)*0.1);
-        i === 0 ? ctx.moveTo(px, py) : ctx.quadraticCurveTo(px - 1.5, py + 1, px, py);
-      }
-      ctx.lineTo(W, H);
-      ctx.closePath();
-      ctx.fillStyle = 'rgba(239,246,255,0.92)';
-      ctx.fill();
-
-      /* Flocons */
-      flakes.forEach(f => {
-        f.y     += f.speed;
-        f.x     += f.drift + Math.sin(t * 0.6 + f.phase) * 0.12;
-        f.angle += f.spin;
-        if (f.y > H + 10) { f.y = -12; f.x = rand(0, W); }
-        if (f.x < -12) f.x = W + 12;
-        if (f.x > W + 12) f.x = -12;
-        drawFractalFlake(ctx, f.x, f.y, f.r, f.depth, f.angle, f.opacity);
-      });
-
-      /* Givre sur bord supérieur */
-      ctx.strokeStyle = isDark() ? 'rgba(147,197,253,0.7)' : 'rgba(186,230,252,0.45)';
-      ctx.lineWidth = 0.8;
-      for (let gx = 8; gx < W - 8; gx += 18) {
-        const gy = 2 + Math.sin(gx * 0.3) * 1.5;
-        ctx.save();
-        ctx.translate(gx, gy);
-        /* Petite branche de givre */
-        for (let d = 0; d < 3; d++) {
-          const a = (d / 3) * Math.PI - Math.PI/2;
-          const len = 5 + Math.sin(gx*0.5)*2;
+    /* ── JANVIER : flocons de fond lents ── */
+    if (season === 'janvier') {
+      var canvas = document.createElement('canvas');
+      canvas.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;';
+      layer.appendChild(canvas);
+      function fitBg() { canvas.width = layer.offsetWidth; canvas.height = layer.offsetHeight; }
+      fitBg();
+      window.addEventListener('resize', fitBg);
+      var ctx = canvas.getContext('2d');
+      var bgFlakes = Array.from({ length: 30 }, function () { return {
+        x: Math.random() * 100, y: Math.random() * 100,
+        r: 1 + Math.random() * 2.5, speed: 0.008 + Math.random() * 0.016,
+        drift: (Math.random() - 0.5) * 0.006, opacity: 0.15 + Math.random() * 0.3,
+      }; });
+      var bgRunning = true;
+      _cl.push(function () { bgRunning = false; });
+      (function bgLoop() {
+        if (!bgRunning) return;
+        var W = canvas.width, H = canvas.height;
+        ctx.clearRect(0, 0, W, H);
+        bgFlakes.forEach(function (f) {
+          f.y += f.speed; f.x += f.drift;
+          if (f.y > 100) { f.y = -2; f.x = Math.random() * 100; }
           ctx.beginPath();
-          ctx.moveTo(0,0);
-          ctx.lineTo(Math.cos(a)*len, Math.sin(a)*len);
-          ctx.stroke();
-        }
-        ctx.restore();
-      }
-
-      _af.push(requestAnimationFrame(loop));
+          ctx.arc(f.x / 100 * W, f.y / 100 * H, f.r, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(219,234,254,' + f.opacity + ')';
+          ctx.fill();
+        });
+        _af.push(requestAnimationFrame(bgLoop));
+      })();
     }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
-function initJanvier() {
 
-  /* Préparer les données de chaque carte */
-  var janCards = _cards().map(function(card) {
-    var canvas = _cv(card); fitCanvas(canvas, card);
-    var W = canvas.width, H = canvas.height;
-    var flakes = Array.from({length:14}, function() {
-      return {
-        x: rand(0,W), y: rand(-H,H), r: rand(3,8),
-        speed: rand(0.15,0.35), drift: rand(-0.15,0.15),
-        angle: rand(0,Math.PI*2), spin: rand(-0.006,0.006),
-        opacity: rand(0.45,0.85), depth: Math.random()<0.4?3:2,
-        phase: rand(0,Math.PI*2),
-      };
-    });
-    var frostOrigins = [
-      { x: 0,   y: 0,   ax: Math.PI/6,  ay: Math.PI/3   },
-      { x: W,   y: 0,   ax: Math.PI*5/6,ay: Math.PI*2/3  },
-      { x: W/3, y: 0,   ax: Math.PI/4,  ay: Math.PI/2   },
-      { x: W*2/3,y:0,   ax: Math.PI*3/4,ay: Math.PI/2   },
-    ];
-    var cd = { canvas:canvas, ctx:canvas.getContext('2d'), W:W, H:H, flakes:flakes, frostOrigins:frostOrigins };
-    _watchResize(card, canvas, function(nw, nh) { cd.W=nw; cd.H=nh; });
-    return cd;
-  });
-
-  /* Une seule boucle RAF pour toutes les cartes */
-  _sharedLoop(function(t) {
-    janCards.forEach(function(cd) {
-      var ctx=cd.ctx, W=cd.W, H=cd.H;
-      ctx.clearRect(0,0,W,H);
-      cd.frostOrigins.forEach(function(o) {
-        for (var i=-2; i<=2; i++) {
-          var baseAngle = (o.ax+o.ay)/2 + i*0.22;
-          drawFrostBranch(ctx, o.x, o.y, 18+Math.abs(i)*3, baseAngle+Math.sin(t*0.3)*0.04, 4, t);
-        }
-      });
-      ctx.beginPath();
-      for (var gx=0; gx<=W; gx+=3) {
-        var gy=1.5+Math.sin(gx*0.22+t*0.2)*1.2+Math.sin(gx*0.08)*1.8;
-        gx===0?ctx.moveTo(gx,gy):ctx.lineTo(gx,gy);
+    /* ── FÉVRIER : petits cœurs SVG flottants ── */
+    if (season === 'fevrier') {
+      if (!document.getElementById('mp-pollen-kf')) {
+        var s = document.createElement('style'); s.id = 'mp-pollen-kf';
+        s.textContent = '@keyframes mp-pollen-float{0%{transform:translate(0,0) scale(1);opacity:0}15%{opacity:.6}85%{opacity:.3}100%{transform:translate(var(--dx),var(--dy)) scale(.5);opacity:0}}';
+        document.head.appendChild(s);
       }
-      ctx.strokeStyle='rgba(219,234,254,0.55)'; ctx.lineWidth=2.5; ctx.stroke();
-      cd.flakes.forEach(function(f) {
-        f.y+=f.speed; f.x+=f.drift+Math.sin(t*0.7+f.phase)*0.1; f.angle+=f.spin;
-        if(f.y>H+8){f.y=-8;f.x=rand(0,W);}
-        if(f.x<-8)f.x=W+8; if(f.x>W+8)f.x=-8;
-        drawFractalFlake(ctx,f.x,f.y,f.r,f.depth,f.angle,f.opacity);
-      });
-      /* Neige en bas — profil statique précalculé, plus léger */
-      ctx.beginPath(); ctx.moveTo(0,H);
-      for(var i=0;i<=Math.ceil(W/2);i++){
-        var px=i*2, py=H-(2.5+Math.sin(i*0.4+1.2)*1.8);
-        i===0?ctx.moveTo(px,py):ctx.quadraticCurveTo(px-1,py+0.8,px,py);
+      var svg = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">';
+      var hcols = ['rgba(251,182,206,0.4)', 'rgba(249,168,212,0.35)', 'rgba(252,165,165,0.3)'];
+      for (var i = 0; i < 16; i++) {
+        var hx = rand(5, 90), hy = rand(15, 85), hs = rand(6, 13);
+        var hdur = rand(8, 16), hdel = rand(0, 10);
+        var hcol = hcols[Math.floor(Math.random() * hcols.length)];
+        svg += '<path transform="translate(' + hx + '%, ' + hy + '%) scale(' + (hs / 20) + ')"' +
+          ' d="M0,-8 C0,-14 -10,-14 -10,-8 C-10,-2 0,6 0,10 C0,6 10,-2 10,-8 C10,-14 0,-14 0,-8 Z"' +
+          ' fill="' + hcol + '"' +
+          ' style="--dx:' + rand(-30, 30) + 'px;--dy:' + rand(-80, -30) + 'px;animation:mp-pollen-float ' + hdur + 's ' + hdel + 's ease-in-out infinite;"/>';
       }
-      ctx.lineTo(W,H); ctx.closePath();
-      ctx.fillStyle=isDark()?'rgba(147,197,253,0.35)':'rgba(239,246,255,0.88)'; ctx.fill();
-    });
-  });
-}
-function initFevrier() {
-  const heartPalettes = [
-    ['#f43f5e','#fb7185','#fda4af','#fecdd3'],
-    ['#ec4899','#f472b6','#f9a8d4','#fce7f3'],
-    ['#e11d48','#f43f5e','#fb7185','#ff8fab'],
-  ];
+      svg += '</svg>';
+      layer.innerHTML = svg;
+    }
 
-  var fevCards = _cards().map(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    var W=canvas.width, H=canvas.height;
-    var palette=heartPalettes[ci%heartPalettes.length];
-    var hearts=Array.from({length:12},function(_,i){
-      return {
-        x:rand(W*0.1,W*0.9), y:H+rand(10,40),
-        size:rand(3.5,8), speed:rand(0.3,0.75),
-        drift:rand(-0.25,0.25), sway:rand(0.4,1.2),
-        phase:rand(0,Math.PI*2), color:palette[Math.floor(Math.random()*palette.length)],
-        alpha:rand(0.55,0.92), rot:rand(-0.3,0.3),
-        rotSpd:rand(-0.012,0.012), delay:i*0.4,
-      };
-    });
-    var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,hearts:hearts,palette:palette};
-    _watchResize(card,canvas,function(nw,nh){cd.W=nw;cd.H=nh;});
-    return cd;
-  });
+    /* ── MARS : placeholder — fond vert printemps ── */
+    /* (animation canvas à implémenter dans une prochaine conversation) */
 
-  _sharedLoop(function(t) {
-    fevCards.forEach(function(cd) {
-      var ctx=cd.ctx,W=cd.W,H=cd.H,palette=cd.palette;
-      ctx.clearRect(0,0,W,H);
-      cd.hearts.forEach(function(h) {
-        if(t<h.delay) return;
-        h.y-=h.speed; h.x+=h.drift+Math.sin(t*h.sway+h.phase)*0.35; h.rot+=h.rotSpd;
-        var lifeAlpha=h.y<H*0.25?Math.max(0,h.y/(H*0.25))*h.alpha:h.alpha;
-        var pulse=1+Math.sin(t*2.5+h.phase)*0.06;
-        ctx.save(); ctx.translate(h.x,h.y); ctx.rotate(h.rot); ctx.scale(pulse,pulse);
-        drawHeart(ctx,0,0,h.size,h.color,lifeAlpha);
-        ctx.restore();
-        if(h.y<-20){
-          h.y=H+rand(5,30); h.x=rand(W*0.08,W*0.92);
-          h.speed=rand(0.3,0.75); h.size=rand(3.5,8);
-          h.color=palette[Math.floor(Math.random()*palette.length)];
-          h.phase=rand(0,Math.PI*2); h.delay=0;
-        }
-      });
-      for(var i=0;i<4;i++){
-        var sx=W*(0.12+i*0.22),sy=H-6;
-        var sp=0.7+Math.sin(t*1.8+i)*0.15;
-        drawHeart(ctx,sx,sy,sp*3,palette[i%palette.length],0.25);
+    /* ── AVRIL : fond doré pâle ── */
+    if (season === 'avril') {
+      layer.innerHTML = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><ellipse cx="50%" cy="95%" rx="200" ry="60" fill="rgba(187,247,208,0.25)"/></svg>';
+    }
+
+    /* ── MAI : placeholder — fond rose pâle ── */
+    /* (animation canvas à implémenter dans une prochaine conversation) */
+
+    /* ── JUIN : lucioles en fond ── */
+    if (season === 'juin') {
+      var canvas2 = document.createElement('canvas');
+      canvas2.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;';
+      layer.appendChild(canvas2);
+      function fitBg2() { canvas2.width = layer.offsetWidth; canvas2.height = layer.offsetHeight; }
+      fitBg2(); window.addEventListener('resize', fitBg2);
+      var ctx2 = canvas2.getContext('2d');
+      var fireflies = Array.from({ length: 24 }, function () { return {
+        x: rand(5, 95), y: rand(20, 90),
+        dx: rand(-0.012, 0.012), dy: rand(-0.008, 0.008),
+        phase: rand(0, Math.PI * 2), freq: rand(0.8, 2.2),
+        size: rand(1.2, 2.5), color: Math.random() < 0.6 ? '#fde047' : '#bbf7d0',
+      }; });
+      var bgR2 = true; _cl.push(function () { bgR2 = false; });
+      var bt2 = 0;
+      (function bl2() {
+        if (!bgR2) return; bt2 += 0.016;
+        var W = canvas2.width, H = canvas2.height;
+        ctx2.clearRect(0, 0, W, H);
+        fireflies.forEach(function (f) {
+          f.x += f.dx; f.y += f.dy;
+          if (f.x < 0) f.x = 100; if (f.x > 100) f.x = 0;
+          if (f.y < 0) f.y = 100; if (f.y > 100) f.y = 0;
+          var alpha = (Math.sin(bt2 * f.freq + f.phase) + 1) * 0.5 * 0.5 + 0.05;
+          var rgb = f.color === '#fde047' ? '253,224,71' : '187,247,208';
+          var glow = ctx2.createRadialGradient(f.x / 100 * W, f.y / 100 * H, 0, f.x / 100 * W, f.y / 100 * H, f.size * 4);
+          glow.addColorStop(0, 'rgba(' + rgb + ',' + (alpha * 0.8) + ')');
+          glow.addColorStop(1, 'rgba(0,0,0,0)');
+          ctx2.beginPath(); ctx2.arc(f.x / 100 * W, f.y / 100 * H, f.size * 4, 0, Math.PI * 2);
+          ctx2.fillStyle = glow; ctx2.fill();
+          ctx2.beginPath(); ctx2.arc(f.x / 100 * W, f.y / 100 * H, f.size * 0.7, 0, Math.PI * 2);
+          ctx2.fillStyle = f.color; ctx2.globalAlpha = Math.min(alpha * 1.5, 1); ctx2.fill();
+          ctx2.globalAlpha = 1;
+        });
+        _af.push(requestAnimationFrame(bl2));
+      })();
+    }
+
+    /* ── JUILLET : soleil + halo de chaleur en fond ── */
+    if (season === 'juillet') {
+      if (!document.getElementById('mp-ray-kf')) {
+        var sr = document.createElement('style'); sr.id = 'mp-ray-kf';
+        sr.textContent = '@keyframes mp-ray-rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}@keyframes mp-ray-pulse{0%,100%{opacity:.15}50%{opacity:.28}}';
+        document.head.appendChild(sr);
       }
-    });
-  });
-}
-function initAvril() {
+      layer.innerHTML = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">' +
+        '<circle cx="82%" cy="8%" r="110" fill="rgba(251,146,60,0.1)"/>' +
+        '<circle cx="82%" cy="8%" r="70"  fill="rgba(253,186,116,0.15)"/>' +
+        '<circle cx="82%" cy="8%" r="38"  fill="rgba(253,186,116,0.55)"/>' +
+        '<circle cx="82%" cy="8%" r="26"  fill="rgba(254,215,170,0.75)"/>' +
+        '<ellipse cx="50%" cy="95%" rx="200" ry="40" fill="rgba(251,146,60,0.08)"/>' +
+        '</svg>';
+    }
 
-  /* ── Dessin d'un oeuf de Pâques ── */
-  function drawEgg(ctx, cx, cy, rx, ry, colors, pattern, alpha) {
+    /* ── AOÛT : reflet solaire sur mer en fond ── */
+    if (season === 'aout') {
+      layer.innerHTML = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">' +
+        '<circle cx="50%" cy="10%" r="90"  fill="rgba(253,224,71,0.12)"/>' +
+        '<circle cx="50%" cy="10%" r="55"  fill="rgba(253,224,71,0.18)"/>' +
+        '<ellipse cx="50%" cy="95%" rx="180" ry="35" fill="rgba(56,189,248,0.2)"/>' +
+        '</svg>';
+    }
+
+    /* ── SEPTEMBRE : bulles colorées rentrée en fond ── */
+    if (season === 'septembre') {
+      if (!document.getElementById('mp-pollen-kf')) {
+        var sp2 = document.createElement('style'); sp2.id = 'mp-pollen-kf';
+        sp2.textContent = '@keyframes mp-pollen-float{0%{transform:translate(0,0) scale(1);opacity:0}15%{opacity:.6}85%{opacity:.3}100%{transform:translate(var(--dx),var(--dy)) scale(.5);opacity:0}}';
+        document.head.appendChild(sp2);
+      }
+      var svg9 = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">';
+      var rc = ['rgba(59,130,246,0.18)', 'rgba(239,68,68,0.16)', 'rgba(34,197,94,0.16)', 'rgba(168,85,247,0.16)', 'rgba(234,179,8,0.22)'];
+      for (var i9 = 0; i9 < 18; i9++) {
+        svg9 += '<circle cx="' + rand(3, 95) + '%" cy="' + rand(5, 90) + '%" r="' + rand(12, 32) + '" fill="' + rc[i9 % rc.length] + '"' +
+          ' style="--dx:' + rand(-30, 30) + 'px;--dy:' + rand(-40, 40) + 'px;animation:mp-pollen-float ' + rand(8, 16) + 's ' + rand(0, 10) + 's ease-in-out infinite;"/>';
+      }
+      svg9 += '</svg>'; layer.innerHTML = svg9;
+    }
+
+    /* ── OCTOBRE : brouillard orangé en fond ── */
+    if (season === 'octobre') {
+      layer.innerHTML = '<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">' +
+        '<defs><filter id="mp-blur4"><feGaussianBlur stdDeviation="14"/></filter></defs>' +
+        '<ellipse cx="15%" cy="25%" rx="180" ry="120" fill="rgba(251,146,60,0.16)" filter="url(#mp-blur4)"/>' +
+        '<ellipse cx="80%" cy="15%" rx="150" ry="100" fill="rgba(234,88,12,0.13)"  filter="url(#mp-blur4)"/>' +
+        '<ellipse cx="50%" cy="80%" rx="200" ry="80"  fill="rgba(120,53,15,0.10)"  filter="url(#mp-blur4)"/>' +
+        '</svg>';
+    }
+
+    /* ── NOVEMBRE : brume de fond ── */
+    if (season === 'novembre') {
+      var canvas3 = document.createElement('canvas');
+      canvas3.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;';
+      layer.appendChild(canvas3);
+      function fitBg3() { canvas3.width = layer.offsetWidth; canvas3.height = layer.offsetHeight; }
+      fitBg3(); window.addEventListener('resize', fitBg3);
+      var ctx3 = canvas3.getContext('2d');
+      var mists = Array.from({ length: 6 }, function (_, i) { return {
+        y: 60 + i * 7, speed: 0.008 + i * 0.003, phase: i * Math.PI / 3, alpha: 0.055 + i * 0.014,
+      }; });
+      var bgR3 = true; _cl.push(function () { bgR3 = false; });
+      var bt3 = 0;
+      (function bl3() {
+        if (!bgR3) return; bt3 += 0.01;
+        var W = canvas3.width, H = canvas3.height;
+        ctx3.clearRect(0, 0, W, H);
+        mists.forEach(function (m) {
+          var y = (m.y / 100) * H + Math.sin(bt3 * m.speed * 10 + m.phase) * 8;
+          var g = ctx3.createLinearGradient(0, y - 30, 0, y + 30);
+          g.addColorStop(0, 'rgba(209,213,219,0)');
+          g.addColorStop(0.5, 'rgba(209,213,219,' + m.alpha + ')');
+          g.addColorStop(1, 'rgba(209,213,219,0)');
+          ctx3.fillStyle = g; ctx3.fillRect(0, y - 30, W, 60);
+        });
+        _af.push(requestAnimationFrame(bl3));
+      })();
+    }
+
+    /* ── DÉCEMBRE : placeholder — fond bleu hivernal ── */
+    /* (animation canvas à implémenter dans une prochaine conversation) */
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     HELPERS COMMUNS AUX ANIMATIONS CARTES
+  ════════════════════════════════════════════════════════════ */
+
+  function drawSnowflake(ctx, fx, fy, r, angle, opacity) {
+    ctx.save();
+    ctx.globalAlpha = opacity;
+    ctx.translate(fx, fy);
+    ctx.rotate(angle);
+    ctx.strokeStyle = isDark() ? 'rgba(147,197,253,0.85)' : 'rgba(186,230,252,0.9)';
+    ctx.lineWidth = 0.9;
+    ctx.lineCap = 'round';
+    for (var i = 0; i < 6; i++) {
+      ctx.save(); ctx.rotate(i * Math.PI / 3);
+      ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(0, -r); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(0, -r * 0.55); ctx.lineTo(-r * 0.28, -r * 0.28); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(0, -r * 0.55); ctx.lineTo( r * 0.28, -r * 0.28); ctx.stroke();
+      ctx.restore();
+    }
+    ctx.restore();
+  }
+
+  function drawHeart(ctx, cx, cy, size, color, alpha) {
     ctx.save();
     ctx.globalAlpha = alpha;
-
-    /* Clip en forme d'oeuf */
-    ctx.save();
+    ctx.translate(cx, cy);
     ctx.beginPath();
-    ctx.save(); ctx.translate(cx, cy); ctx.scale(rx, ry*1.28);
-    ctx.arc(0, 0, 1, 0, Math.PI*2); ctx.restore();
-    ctx.clip();
-
-    /* Corps dégradé */
-    var g = ctx.createRadialGradient(cx-rx*0.28, cy-ry*0.3, 0, cx, cy, rx*1.5);
-    g.addColorStop(0,    hexRgba(colors[0], 0.95));
-    g.addColorStop(0.55, hexRgba(colors[1], 0.9));
-    g.addColorStop(1,    hexRgba(colors[2], 0.85));
-    ctx.fillStyle = g;
-    ctx.fillRect(cx-rx*1.2, cy-ry*1.4, rx*2.4, ry*2.8);
-
-    /* Motifs dans le clip */
-    if (pattern === 'stripes') {
-      for (var s = -3; s <= 3; s++) {
-        ctx.beginPath();
-        ctx.rect(cx-rx*1.2, cy + s*ry*0.32 - ry*0.1, rx*2.4, ry*0.16);
-        ctx.fillStyle = hexRgba(s%2===0 ? colors[0] : colors[2], 0.45);
-        ctx.fill();
-      }
-    } else if (pattern === 'dots') {
-      var dpts = [[-0.35,-0.38],[0.35,-0.28],[0,0],[-0.3,0.3],[0.32,0.33],[0,-0.58],[0,0.52]];
-      dpts.forEach(function(dp) {
-        ctx.beginPath();
-        ctx.arc(cx+dp[0]*rx, cy+dp[1]*ry, rx*0.15, 0, Math.PI*2);
-        ctx.fillStyle = hexRgba(colors[2], 0.65); ctx.fill();
-      });
-    } else if (pattern === 'zigzag') {
-      ctx.beginPath();
-      for (var z = 0; z <= 8; z++) {
-        var zx = cx - rx*0.88 + (z/8)*rx*1.76;
-        var zy = cy + (z%2===0 ? -ry*0.14 : ry*0.14);
-        z===0 ? ctx.moveTo(zx,zy) : ctx.lineTo(zx,zy);
-      }
-      ctx.strokeStyle = hexRgba(colors[2], 0.6);
-      ctx.lineWidth = 2.5; ctx.lineJoin='round'; ctx.stroke();
-      ctx.beginPath();
-      ctx.rect(cx-rx*0.85, cy-ry*0.54, rx*1.7, ry*0.14);
-      ctx.fillStyle = hexRgba(colors[2], 0.3); ctx.fill();
-      ctx.beginPath();
-      ctx.rect(cx-rx*0.85, cy+ry*0.38, rx*1.7, ry*0.14);
-      ctx.fill();
-    }
-
-    /* Reflet */
-    ctx.beginPath();
-    ctx.ellipse(cx-rx*0.25, cy-ry*0.38, rx*0.22, ry*0.15, -0.4, 0, Math.PI*2);
-    ctx.fillStyle = 'rgba(255,255,255,0.55)'; ctx.fill();
-
-    ctx.restore(); /* fin clip */
-
-    /* Contour */
-    ctx.beginPath();
-    ctx.save(); ctx.translate(cx, cy); ctx.scale(rx, ry*1.28);
-    ctx.arc(0, 0, 1, 0, Math.PI*2); ctx.restore();
-    ctx.strokeStyle = hexRgba(colors[2], 0.45);
-    ctx.lineWidth = 0.8; ctx.stroke();
-
+    ctx.moveTo(0, size * 0.35);
+    ctx.bezierCurveTo(-size * 0.6, -size * 0.2, -size * 1.2,  size * 0.3, 0, size);
+    ctx.bezierCurveTo( size * 1.2,  size * 0.3,  size * 0.6, -size * 0.2, 0, size * 0.35);
+    ctx.fillStyle = color; ctx.fill();
     ctx.restore();
   }
 
-  /* ── Poussin qui sort d'un oeuf ── */
-  function drawChick(ctx, cx, baseY, size, progress, t) {
-    if (progress <= 0) return;
-    var sc = Math.min(progress, 1);
-    ctx.save();
-
-    /* Coquille basse */
-    var er = size * 0.85, ey = baseY - er*0.45;
-    ctx.beginPath();
-    ctx.save(); ctx.translate(cx, ey); ctx.scale(er, er*1.28);
-    ctx.arc(0, 0, 1, 0, Math.PI*2); ctx.restore();
-    ctx.fillStyle = hexRgba('#fef9c3', 0.92); ctx.fill();
-    ctx.strokeStyle = hexRgba('#ca8a04', 0.55); ctx.lineWidth=0.8; ctx.stroke();
-
-    /* Fissure */
-    ctx.beginPath();
-    ctx.moveTo(cx-er*0.55, baseY-er*0.62);
-    ctx.lineTo(cx-er*0.1,  baseY-er*0.82);
-    ctx.lineTo(cx+er*0.2,  baseY-er*0.68);
-    ctx.lineTo(cx+er*0.55, baseY-er*0.82);
-    ctx.strokeStyle='rgba(161,98,7,0.8)'; ctx.lineWidth=1.4; ctx.stroke();
-
-    /* Corps + tête (emerge progressivement) */
-    if (sc < 0.08) { ctx.restore(); return; }
-    var emerge = (sc - 0.08) / 0.92;
-    var bodyY = baseY - er*0.55 - size*0.55*emerge;
-
-    /* Corps */
-    ctx.beginPath();
-    ctx.arc(cx, bodyY, size*0.52*sc, 0, Math.PI*2);
-    var bg = ctx.createRadialGradient(cx-size*0.15,bodyY-size*0.12,0,cx,bodyY,size*0.52*sc);
-    bg.addColorStop(0,'#fef08a'); bg.addColorStop(1,'#fbbf24');
-    ctx.fillStyle=bg; ctx.globalAlpha=emerge; ctx.fill();
-
-    /* Tête */
-    var headY = bodyY - size*0.52*sc - size*0.32*sc;
-    ctx.beginPath();
-    ctx.arc(cx, headY, size*0.36*sc, 0, Math.PI*2);
-    var hg = ctx.createRadialGradient(cx-size*0.08,headY-size*0.1,0,cx,headY,size*0.36*sc);
-    hg.addColorStop(0,'#fef08a'); hg.addColorStop(1,'#fbbf24');
-    ctx.fillStyle=hg; ctx.fill();
-
-    /* Yeux */
-    ctx.fillStyle='#1c1917';
-    ctx.beginPath(); ctx.arc(cx-size*0.13*sc, headY-size*0.04*sc, size*0.065*sc, 0, Math.PI*2); ctx.fill();
-    ctx.beginPath(); ctx.arc(cx+size*0.13*sc, headY-size*0.04*sc, size*0.065*sc, 0, Math.PI*2); ctx.fill();
-    ctx.fillStyle='white';
-    ctx.beginPath(); ctx.arc(cx-size*0.1*sc,  headY-size*0.06*sc, size*0.022*sc, 0, Math.PI*2); ctx.fill();
-    ctx.beginPath(); ctx.arc(cx+size*0.16*sc, headY-size*0.06*sc, size*0.022*sc, 0, Math.PI*2); ctx.fill();
-
-    /* Bec */
-    ctx.globalAlpha = emerge;
-    ctx.fillStyle='#f97316';
-    ctx.beginPath();
-    ctx.moveTo(cx, headY+size*0.02*sc);
-    ctx.lineTo(cx-size*0.1*sc, headY+size*0.1*sc);
-    ctx.lineTo(cx+size*0.1*sc, headY+size*0.1*sc);
-    ctx.closePath(); ctx.fill();
-
-    /* Ailes */
-    ctx.fillStyle='#fde047';
-    ctx.beginPath(); ctx.ellipse(cx-size*0.5*sc, bodyY+size*0.05*sc, size*0.2*sc, size*0.14*sc, -0.4, 0, Math.PI*2); ctx.fill();
-    ctx.beginPath(); ctx.ellipse(cx+size*0.5*sc, bodyY+size*0.05*sc, size*0.2*sc, size*0.14*sc,  0.4, 0, Math.PI*2); ctx.fill();
-
-    /* Petits cheveux */
-    ctx.strokeStyle='#fbbf24'; ctx.lineWidth=1.1*sc; ctx.lineCap='round';
-    for (var h=0; h<4; h++) {
-      var ha = -Math.PI*0.5 + (h-1.5)*0.28;
-      var hbx = cx + Math.cos(ha)*size*0.32*sc;
-      var hby = headY - size*0.32*sc;
-      ctx.beginPath();
-      ctx.moveTo(hbx, hby);
-      ctx.quadraticCurveTo(hbx + Math.cos(ha)*size*0.12*sc, hby-size*0.14*sc,
-                           hbx + Math.cos(ha)*size*0.08*sc, hby-size*0.25*sc);
-      ctx.stroke();
-    }
-
-    ctx.globalAlpha=1;
-    ctx.restore();
-  }
-
-  /* Configurations fixes par carte */
-  var eggPalettes = [
-    {colors:['#f472b6','#ec4899','#9d174d'], pattern:'dots'},
-    {colors:['#60a5fa','#3b82f6','#1e3a8a'], pattern:'stripes'},
-    {colors:['#34d399','#10b981','#065f46'], pattern:'zigzag'},
-    {colors:['#fb923c','#f97316','#7c2d12'], pattern:'dots'},
-    {colors:['#a78bfa','#8b5cf6','#4c1d95'], pattern:'stripes'},
-    {colors:['#fde047','#eab308','#713f12'], pattern:'zigzag'},
-  ];
-
-  /* ── Données par carte (initialisées indépendamment du layout) ── */
-  var avrilCards = [];
-
-  _cards().forEach(function(card, ci) {
-    var canvas = _cv(card);
-    fitCanvas(canvas, card);
-
-    /* CORRECTION 1 : taille du poussin FIXE, indépendante de ci
-       (avant : 12+ci*1.5 → grossissait avec le nombre de cartes) */
-    var chickSize = 13;
-
-    /* CORRECTION 2 : ResizeObserver pour resynchroniser le canvas
-       quand la carte change de taille (scroll, layout reflow…) */
-    var ro = null;
-    if (typeof ResizeObserver !== 'undefined') {
-      ro = new ResizeObserver(function() {
-        fitCanvas(canvas, card);
-        /* Recalculer les positions proportionnelles */
-        var newW = canvas.width, newH = canvas.height;
-        cdata.W = newW; cdata.H = newH;
-        /* Repositionner herbe, œufs et poussin sur la nouvelle largeur */
-        rebuildLayout(cdata);
-      });
-      ro.observe(card);
-      _cl.push(function() { ro.disconnect(); });
-    }
-
-    var W = canvas.width, H = canvas.height;
-    var ctx = canvas.getContext('2d');
-
-    /* Seed déterministe basé sur position dans le DOM, pas sur ci */
-    var seed0 = ci * 17;
-
-    var cdata = { canvas: canvas, ctx: ctx, W: W, H: H,
-                  ci: ci, seed0: seed0, chickSize: chickSize,
-                  startTime: null, grassBlades: [], eggs: [], chick: null };
-
-    rebuildLayout(cdata);
-    avrilCards.push(cdata);
-  });
-
-  /* Reconstruction des données de layout quand W/H change */
-  function rebuildLayout(cd) {
-    var W = cd.W, H = cd.H, ci = cd.ci, seed0 = cd.seed0;
-
-    cd.grassBlades = [];
-    for (var gi = 0; gi < 28; gi++) {
-      cd.grassBlades.push({
-        x:     (gi / 28) * W + Math.sin(gi * 2.3) * 3.5,
-        h:     7 + (gi * 7.3 % 8),
-        col:   ['#22c55e','#4ade80','#86efac','#16a34a'][gi % 4],
-        phase: gi * 0.45,
-        freq:  0.9 + (gi % 3) * 0.2,
-      });
-    }
-
-    /* CORRECTION 3 : nEggs fixe (4) — évite le +1 aléatoire lié à ci */
-    var nEggs = 4;
-    cd.eggs = [];
-    for (var e = 0; e < nEggs; e++) {
-      var seed = seed0 + e * 31;
-      cd.eggs.push({
-        x:      W * (0.12 + e * (0.76 / (nEggs - 1))) + ((seed % 13) - 6),
-        baseRx: 8 + (seed % 7),
-        baseRy: 11 + (seed % 7),
-        pal:    eggPalettes[(ci * 3 + e) % eggPalettes.length],
-        phase:  (seed % 100) / 100 * Math.PI * 2,
-        freq:   0.9 + (seed % 5) * 0.12,
-        delay:  e * 0.25,
-      });
-    }
-
-    cd.chick = { x: W * 0.48, size: cd.chickSize, delay: 1.1 };
-  }
-
-  /* CORRECTION 4 : UNE SEULE boucle RAF pour toutes les cartes d'avril
-     (avant : N boucles indépendantes à 60 fps chacune) */
-  var avrilRunning = true;
-  _cl.push(function() { avrilRunning = false; });
-  var avrilStart = null;
-
-  function avrilLoop(ts) {
-    if (!avrilRunning) return;
-    if (!avrilStart) avrilStart = ts;
-    var elapsed = (ts - avrilStart) / 1000;
-
-    avrilCards.forEach(function(cd) {
-      var canvas = cd.canvas, ctx = cd.ctx;
-      var W = cd.W, H = cd.H;
-
-      ctx.clearRect(0, 0, W, H);
-
-      /* Sol */
-      var gnd = ctx.createLinearGradient(0, H - 8, 0, H);
-      gnd.addColorStop(0, 'rgba(74,222,128,0.3)');
-      gnd.addColorStop(1, 'rgba(21,128,61,0.5)');
-      ctx.fillStyle = gnd; ctx.fillRect(0, H - 8, W, 8);
-
-      /* Herbe — CORRECTION 5 : gradient créé une fois par brin (stocké),
-         pas à chaque frame. On réutilise la couleur de remplissage. */
-      cd.grassBlades.forEach(function(b) {
-        var sway = Math.sin(elapsed * b.freq + b.phase) * 1.1;
-        var tipX = b.x + sway;
-        var tipY = H - b.h;
-        var cpX  = b.x + sway * 0.5;
-        var cpY  = H - b.h * 0.55;
-        ctx.beginPath();
-        ctx.moveTo(b.x - 0.8, H);
-        ctx.quadraticCurveTo(cpX - 0.4, cpY, tipX, tipY);
-        ctx.quadraticCurveTo(cpX + 0.4, cpY, b.x + 0.8, H);
-        ctx.closePath();
-        /* Gradient léger uniquement — couleur fixe plutôt que gradient recréé */
-        ctx.fillStyle = b.col;
-        ctx.globalAlpha = 0.72; ctx.fill();
-      });
-      ctx.globalAlpha = 1;
-
-      /* Oeufs */
-      cd.eggs.forEach(function(egg) {
-        var progress = Math.max(0, Math.min(1, (elapsed - egg.delay) / 0.7));
-        if (progress <= 0) return;
-        var sway = Math.sin(elapsed * egg.freq + egg.phase) * 0.1;
-        var bob  = Math.abs(Math.sin(elapsed * egg.freq * 0.6 + egg.phase)) * 1.8;
-        ctx.save();
-        ctx.translate(egg.x, H - egg.baseRy * 1.2 - bob);
-        ctx.rotate(sway);
-        drawEgg(ctx, 0, 0, egg.baseRx * progress, egg.baseRy * progress,
-                egg.pal.colors, egg.pal.pattern, progress * 0.95);
-        ctx.restore();
-      });
-
-      /* Poussin */
-      var chick = cd.chick;
-      var chickP = Math.max(0, Math.min(1, (elapsed - chick.delay) / 1.2));
-      drawChick(ctx, chick.x, H - 2, chick.size, chickP, elapsed);
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — JANVIER
+  ════════════════════════════════════════════════════════════ */
+  function initJanvier() {
+    var janCards = _cards().map(function (card) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var W = canvas.width, H = canvas.height;
+      var flakes = Array.from({ length: 12 }, function () { return {
+        x: rand(0, W), y: rand(-H, H),
+        r: rand(3, 7), speed: rand(0.15, 0.32),
+        drift: rand(-0.15, 0.15), angle: rand(0, Math.PI * 2),
+        spin: rand(-0.006, 0.006), opacity: rand(0.45, 0.85),
+        phase: rand(0, Math.PI * 2),
+      }; });
+      var cd = { canvas: canvas, ctx: canvas.getContext('2d'), W: W, H: H, flakes: flakes };
+      _watchResize(card, canvas, function (nw, nh) { cd.W = nw; cd.H = nh; });
+      return cd;
     });
 
-    _af.push(requestAnimationFrame(avrilLoop));
-  }
-  _af.push(requestAnimationFrame(avrilLoop));
-}
-function initMai() {
-
-  _cards().forEach(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    const W=canvas.width, H=canvas.height, ctx=canvas.getContext('2d');
-
-    /* ── Papillons : 3 par carte ── */
-    const butterflies = [
-      { cx:W*0.22, cy:H*0.38, ax:W*0.18, ay:H*0.22, fx:0.38, fy:0.55,
-        px:0, py:Math.PI/4, wf:rand(5.5,7), wp:rand(0,Math.PI*2),
-        sp:BUTTERFLY_SPECIES[ci%4], sc:rand(0.88,1.1) },
-      { cx:W*0.62, cy:H*0.32, ax:W*0.16, ay:H*0.2,  fx:0.44, fy:0.31,
-        px:Math.PI*0.7, py:Math.PI*1.3, wf:rand(6,8), wp:rand(0,Math.PI*2),
-        sp:BUTTERFLY_SPECIES[(ci+1)%4], sc:rand(0.72,0.9) },
-      { cx:W*0.78, cy:H*0.52, ax:W*0.12, ay:H*0.16, fx:0.27, fy:0.41,
-        px:Math.PI*1.5, py:Math.PI*0.4, wf:rand(6.5,9), wp:rand(0,Math.PI*2),
-        sp:BUTTERFLY_SPECIES[(ci+2)%4], sc:rand(0.62,0.78) },
-    ];
-
-    /* ── Muguets : positions fixes par carte ── */
-    const muguets = [
-      {x: W*0.10, h: H*0.26, delay: 0.0},
-      {x: W*0.34, h: H*0.24, delay: 0.5},
-      {x: W*0.62, h: H*0.28, delay: 1.0},
-      {x: W*0.86, h: H*0.23, delay: 1.4},
-    ];
-
-    /* ── Brins de gazon précalculés (positions et paramètres fixes) ── */
-    const grassColors = ['#22c55e','#16a34a','#4ade80','#15803d','#86efac'];
-    const grassBlades = Array.from({length:32}, (_, gi) => ({
-      x:     (gi / 32) * W + rand(-3, 3),
-      h:     rand(6, 14),
-      lean:  rand(-1.0, 1.0),
-      w:     rand(1.0, 2.2),
-      col:   grassColors[Math.floor(Math.random()*grassColors.length)],
-      freq:  rand(0.8, 1.6),    /* fréquence de balancement lente */
-      phase: rand(0, Math.PI*2),
-    }));
-
-    let t=0, startTime=null, running=true;
-    _cl.push(()=>{ running=false; });
-
-    function loop(ts) {
-      if(!running) return;
-      if(!startTime) startTime=ts;
-      const elapsed=(ts-startTime)/1000;
-      t=elapsed;
-      ctx.clearRect(0,0,W,H);
-
-      /* ── Sol herbeux ── */
-      const gnd = ctx.createLinearGradient(0, H-8, 0, H);
-      const dkM = isDark();
-      gnd.addColorStop(0, dkM ? 'rgba(74,222,128,0.45)' : 'rgba(74,222,128,0.22)');
-      gnd.addColorStop(1, dkM ? 'rgba(21,128,61,0.70)' : 'rgba(21,128,61,0.40)');
-      ctx.fillStyle=gnd; ctx.fillRect(0,H-8,W,8);
-
-      /* ── Gazon : brins précalculés, animés seulement par sway ── */
-      grassBlades.forEach((b, gi) => {
-        /* Balancement : sin lent avec phase individuelle — naturel */
-        const sway  = Math.sin(t * b.freq + b.phase) * b.lean * 0.28;
-        const tipX  = b.x + b.lean * b.h * 0.38 + sway;
-        const tipY  = H - b.h;
-        const cpX   = b.x + b.lean * b.h * 0.20 + sway * 0.5;
-        const cpY   = H - b.h * 0.55;
-        const hw    = b.w * 0.5;
-        ctx.beginPath();
-        ctx.moveTo(b.x - hw, H);
-        ctx.quadraticCurveTo(cpX - hw*0.5, cpY, tipX, tipY);
-        ctx.quadraticCurveTo(cpX + hw*0.5, cpY, b.x + hw, H);
-        ctx.closePath();
-        const gg = ctx.createLinearGradient(b.x, H, tipX, tipY);
-        gg.addColorStop(0, '#14532d'); gg.addColorStop(1, b.col);
-        ctx.fillStyle = gg; ctx.globalAlpha = dkM ? 0.88 : 0.72; ctx.fill();
-      });
-      ctx.globalAlpha = 1;
-
-      /* ── Muguets ── */
-      muguets.forEach(m => drawMuguet(ctx, m.x, H, m.h, m.delay, t, elapsed));
-
-      /* ── Papillons ── */
-      butterflies.forEach(b => {
-        const x = b.cx + Math.cos(t*b.fx + b.px)*b.ax;
-        const y = b.cy + Math.sin(t*b.fy + b.py)*b.ay;
-        /* Inclinaison légère selon direction horizontale */
-        const vx = -Math.sin(t*b.fx + b.px)*b.ax*b.fx;
-        const tilt = Math.atan2(0, vx)*0.15;
-        const wPhase = t*b.wf + b.wp;
-        ctx.save();
-        ctx.translate(x, y);
-        ctx.rotate(tilt);
-        ctx.scale(b.sc, b.sc);
-        drawButterfly(ctx, wPhase, b.sp);
-        ctx.restore();
-      });
-
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
-function initJuin() {
-  _cards().forEach(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
-    /* Lucioles sur la carte */
-    const flies=Array.from({length:8},(_,i)=>({
-      x:rand(W*0.1,W*0.9), y:rand(H*0.15,H*0.85),
-      vx:rand(-0.18,0.18), vy:rand(-0.12,0.12),
-      phase:rand(0,Math.PI*2), freq:rand(1.2,2.8),
-      size:rand(1.5,3), color:i%3===0?'#bbf7d0':'#fde047',
-    }));
-    /* Reflet lumineux qui balaie */
-    let shimmerX=-W*0.3, shimmerDir=1;
-    let t=0,running=true; _cl.push(()=>{running=false;});
-    function loop(){
-      if(!running)return; t+=0.016;
-      ctx.clearRect(0,0,W,H);
-      /* Reflet lumineux diagonal */
-      shimmerX+=shimmerDir*0.6;
-      if(shimmerX>W*1.3){shimmerX=W*1.3;shimmerDir=-1;}
-      if(shimmerX<-W*0.3){shimmerX=-W*0.3;shimmerDir=1;}
-      const sg=ctx.createLinearGradient(shimmerX-40,0,shimmerX+40,H);
-      sg.addColorStop(0,'rgba(253,224,71,0)');
-      sg.addColorStop(0.5,'rgba(253,224,71,0.09)');
-      sg.addColorStop(1,'rgba(253,224,71,0)');
-      ctx.fillStyle=sg; ctx.fillRect(0,0,W,H);
-      /* Lucioles */
-      flies.forEach(f=>{
-        f.x+=f.vx+Math.sin(t*0.6+f.phase)*0.12;
-        f.y+=f.vy+Math.cos(t*0.5+f.phase)*0.1;
-        if(f.x<4)f.vx=Math.abs(f.vx); if(f.x>W-4)f.vx=-Math.abs(f.vx);
-        if(f.y<4)f.vy=Math.abs(f.vy); if(f.y>H-4)f.vy=-Math.abs(f.vy);
-        const alpha=(Math.sin(t*f.freq+f.phase)+1)*0.5;
-        if(alpha<0.08)return;
-        const glow=ctx.createRadialGradient(f.x,f.y,0,f.x,f.y,f.size*5);
-        const rgb=f.color==='#fde047'?'253,224,71':'187,247,208';
-        glow.addColorStop(0,`rgba(${rgb},${alpha*0.8})`);
-        glow.addColorStop(1,`rgba(${rgb},0)`);
-        ctx.beginPath(); ctx.arc(f.x,f.y,f.size*5,0,Math.PI*2);
-        ctx.fillStyle=glow; ctx.fill();
-        ctx.beginPath(); ctx.arc(f.x,f.y,f.size*0.7,0,Math.PI*2);
-        ctx.fillStyle=f.color; ctx.globalAlpha=Math.min(alpha*2,1); ctx.fill();
-        ctx.globalAlpha=1;
-      });
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
-function initJuillet() {
-  _cards().forEach(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
-    /* Soleil dans coin supérieur droit */
-    const sunX=W-18,sunY=14,sunR=10;
-    let t=0,running=true; _cl.push(()=>{running=false;});
-    function loop(){
-      if(!running)return; t+=0.016;
-      ctx.clearRect(0,0,W,H);
-      /* Vagues de chaleur — distorsion thermique */
-      const heatH=H*0.35;
-      for(let row=0;row<6;row++){
-        const wy=H-heatH+row*(heatH/6);
-        const alpha=0.04+row*0.018;
-        const amp=1.2+row*0.4;
-        ctx.beginPath();
-        for(let x=0;x<=W;x+=3){
-          const y=wy+Math.sin(x*0.08+t*(1+row*0.15))*amp
-                   +Math.sin(x*0.12-t*0.8)*amp*0.5;
-          x===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+    _sharedLoop(function (t) {
+      janCards.forEach(function (cd) {
+        var ctx = cd.ctx, W = cd.W, H = cd.H;
+        ctx.clearRect(0, 0, W, H);
+        /* Givre en haut */
+        ctx.strokeStyle = isDark() ? 'rgba(147,197,253,0.6)' : 'rgba(186,230,252,0.4)';
+        ctx.lineWidth = 0.7; ctx.lineCap = 'round';
+        for (var gx = 8; gx < W - 8; gx += 20) {
+          var gy = 2 + Math.sin(gx * 0.3) * 1.5;
+          ctx.save(); ctx.translate(gx, gy);
+          for (var d = 0; d < 3; d++) {
+            var a = (d / 3) * Math.PI - Math.PI / 2;
+            var len = 5 + Math.sin(gx * 0.5) * 2;
+            ctx.beginPath(); ctx.moveTo(0, 0);
+            ctx.lineTo(Math.cos(a) * len, Math.sin(a) * len); ctx.stroke();
+          }
+          ctx.restore();
         }
-        ctx.lineTo(W,H); ctx.lineTo(0,H); ctx.closePath();
-        const g=ctx.createLinearGradient(0,wy,0,H);
-        g.addColorStop(0,`rgba(251,146,60,0)`);
-        g.addColorStop(0.3,`rgba(253,186,116,${alpha})`);
-        g.addColorStop(1,`rgba(251,146,60,${alpha*1.5})`);
-        ctx.fillStyle=g; ctx.fill();
-      }
-      /* Soleil rayonnant */
-      const pulse=1+Math.sin(t*1.8)*0.04;
-      ctx.save(); ctx.translate(sunX,sunY);
-      /* Halo */
-      const halo=ctx.createRadialGradient(0,0,sunR,0,0,sunR*3.5);
-      halo.addColorStop(0,`rgba(253,186,116,${0.35*pulse})`);
-      halo.addColorStop(1,'rgba(253,186,116,0)');
-      ctx.beginPath(); ctx.arc(0,0,sunR*3.5,0,Math.PI*2);
-      ctx.fillStyle=halo; ctx.fill();
-      /* Rayons */
-      ctx.rotate(t*0.4);
-      for(let i=0;i<10;i++){
-        const a=(i/10)*Math.PI*2;
-        ctx.beginPath();
-        ctx.moveTo(Math.cos(a)*(sunR+2),Math.sin(a)*(sunR+2));
-        ctx.lineTo(Math.cos(a)*(sunR+7+i%2*3),Math.sin(a)*(sunR+7+i%2*3));
-        ctx.strokeStyle=`rgba(253,186,116,${0.7*pulse})`;
-        ctx.lineWidth=i%2===0?1.8:1; ctx.lineCap='round'; ctx.stroke();
+        /* Flocons */
+        cd.flakes.forEach(function (f) {
+          f.y += f.speed; f.x += f.drift + Math.sin(t * 0.7 + f.phase) * 0.1; f.angle += f.spin;
+          if (f.y > H + 8) { f.y = -8; f.x = rand(0, W); }
+          if (f.x < -8) f.x = W + 8; if (f.x > W + 8) f.x = -8;
+          drawSnowflake(ctx, f.x, f.y, f.r, f.angle, f.opacity);
+        });
+        /* Neige au sol */
+        ctx.beginPath(); ctx.moveTo(0, H);
+        for (var i = 0; i <= Math.ceil(W / 2); i++) {
+          var px = i * 2, py = H - (2.5 + Math.sin(i * 0.4 + 1.2) * 1.8);
+          i === 0 ? ctx.moveTo(px, py) : ctx.quadraticCurveTo(px - 1, py + 0.8, px, py);
+        }
+        ctx.lineTo(W, H); ctx.closePath();
+        ctx.fillStyle = isDark() ? 'rgba(147,197,253,0.3)' : 'rgba(239,246,255,0.85)'; ctx.fill();
+      });
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — FÉVRIER
+  ════════════════════════════════════════════════════════════ */
+  function initFevrier() {
+    var heartPalettes = [
+      ['#f43f5e', '#fb7185', '#fda4af', '#fecdd3'],
+      ['#ec4899', '#f472b6', '#f9a8d4', '#fce7f3'],
+      ['#e11d48', '#f43f5e', '#fb7185', '#ff8fab'],
+    ];
+    var fevCards = _cards().map(function (card, ci) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var W = canvas.width, H = canvas.height;
+      var palette = heartPalettes[ci % heartPalettes.length];
+      var hearts = Array.from({ length: 11 }, function (_, i) { return {
+        x: rand(W * 0.1, W * 0.9), y: H + rand(10, 40),
+        size: rand(3.5, 7.5), speed: rand(0.3, 0.7),
+        drift: rand(-0.25, 0.25), sway: rand(0.4, 1.2),
+        phase: rand(0, Math.PI * 2), color: palette[Math.floor(Math.random() * palette.length)],
+        alpha: rand(0.55, 0.9), rot: rand(-0.3, 0.3),
+        rotSpd: rand(-0.012, 0.012), delay: i * 0.4,
+      }; });
+      var cd = { canvas: canvas, ctx: canvas.getContext('2d'), W: W, H: H, hearts: hearts, palette: palette };
+      _watchResize(card, canvas, function (nw, nh) { cd.W = nw; cd.H = nh; });
+      return cd;
+    });
+
+    _sharedLoop(function (t) {
+      fevCards.forEach(function (cd) {
+        var ctx = cd.ctx, W = cd.W, H = cd.H, palette = cd.palette;
+        ctx.clearRect(0, 0, W, H);
+        cd.hearts.forEach(function (h) {
+          if (t < h.delay) return;
+          h.y -= h.speed; h.x += h.drift + Math.sin(t * h.sway + h.phase) * 0.35; h.rot += h.rotSpd;
+          var lifeAlpha = h.y < H * 0.25 ? Math.max(0, h.y / (H * 0.25)) * h.alpha : h.alpha;
+          var pulse = 1 + Math.sin(t * 2.5 + h.phase) * 0.06;
+          ctx.save(); ctx.translate(h.x, h.y); ctx.rotate(h.rot); ctx.scale(pulse, pulse);
+          drawHeart(ctx, 0, 0, h.size, h.color, lifeAlpha);
+          ctx.restore();
+          if (h.y < -20) {
+            h.y = H + rand(5, 30); h.x = rand(W * 0.08, W * 0.92);
+            h.speed = rand(0.3, 0.7); h.size = rand(3.5, 7.5);
+            h.color = palette[Math.floor(Math.random() * palette.length)];
+            h.phase = rand(0, Math.PI * 2); h.delay = 0;
+          }
+        });
+        /* Petits cœurs fixes en bas */
+        for (var i = 0; i < 4; i++) {
+          var sx = W * (0.12 + i * 0.22), sy = H - 6;
+          var sp = 0.7 + Math.sin(t * 1.8 + i) * 0.15;
+          drawHeart(ctx, sx, sy, sp * 3, palette[i % palette.length], 0.22);
+        }
+      });
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — MARS (placeholder neutre)
+  ════════════════════════════════════════════════════════════ */
+  function initMars() {
+    /* Placeholder : fond vert très discret, aucune animation coûteuse */
+    _cards().forEach(function (card) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var ctx = canvas.getContext('2d'), W = canvas.width, H = canvas.height;
+      var g = ctx.createLinearGradient(0, H * 0.7, 0, H);
+      g.addColorStop(0, 'rgba(74,222,128,0.12)'); g.addColorStop(1, 'rgba(21,128,61,0.22)');
+      ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — AVRIL
+     2 œufs de Pâques + lapin qui traverse
+  ════════════════════════════════════════════════════════════ */
+  function initAvril() {
+    var eggPalettes = [
+      { colors: ['#f472b6', '#ec4899', '#9d174d'], pattern: 'dots'    },
+      { colors: ['#60a5fa', '#3b82f6', '#1e3a8a'], pattern: 'stripes' },
+      { colors: ['#34d399', '#10b981', '#065f46'], pattern: 'zigzag'  },
+      { colors: ['#fb923c', '#f97316', '#7c2d12'], pattern: 'dots'    },
+      { colors: ['#a78bfa', '#8b5cf6', '#4c1d95'], pattern: 'stripes' },
+      { colors: ['#fde047', '#eab308', '#713f12'], pattern: 'zigzag'  },
+    ];
+
+    function drawEgg(ctx, cx, cy, rx, ry, colors, pattern, alpha, t) {
+      var bob = Math.abs(Math.sin(t * 1.2)) * 2;
+      ctx.save(); ctx.translate(cx, cy - bob); ctx.globalAlpha = alpha;
+      ctx.beginPath(); ctx.save(); ctx.scale(rx, ry * 1.28); ctx.arc(0, 0, 1, 0, Math.PI * 2); ctx.restore(); ctx.clip();
+      var g = ctx.createRadialGradient(-rx * 0.28, -ry * 0.3, 0, 0, 0, rx * 1.5);
+      g.addColorStop(0, colors[0]); g.addColorStop(0.55, colors[1]); g.addColorStop(1, colors[2]);
+      ctx.fillStyle = g; ctx.fillRect(-rx * 1.2, -ry * 1.4, rx * 2.4, ry * 2.8);
+      if (pattern === 'dots') {
+        [[-0.35,-0.38],[0.35,-0.28],[0,0],[-0.3,0.3],[0.32,0.33]].forEach(function (dp) {
+          ctx.beginPath(); ctx.arc(dp[0]*rx, dp[1]*ry, rx*0.15, 0, Math.PI*2);
+          ctx.fillStyle='rgba(255,255,255,0.5)'; ctx.fill();
+        });
+      } else if (pattern === 'stripes') {
+        for (var s = -3; s <= 3; s++) {
+          ctx.fillStyle='rgba(255,255,255,' + (s%2===0 ? 0.28 : 0.14) + ')';
+          ctx.fillRect(-rx, s*ry*0.32-ry*0.1, rx*2, ry*0.16);
+        }
       }
       ctx.restore();
-      /* Corps soleil */
-      const sg=ctx.createRadialGradient(sunX-3,sunY-3,0,sunX,sunY,sunR*pulse);
-      sg.addColorStop(0,'rgba(254,240,138,0.95)');
-      sg.addColorStop(0.6,'rgba(253,186,116,0.9)');
-      sg.addColorStop(1,'rgba(251,146,60,0.85)');
-      ctx.beginPath(); ctx.arc(sunX,sunY,sunR*pulse,0,Math.PI*2);
-      ctx.fillStyle=sg; ctx.fill();
-      _af.push(requestAnimationFrame(loop));
     }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
-function initSeptembre() {
 
-  /* Palette de cahiers par carte */
-  const coverColors = [
-    ['#3b82f6','#ef4444','#22c55e','#a855f7'],
-    ['#f59e0b','#06b6d4','#ec4899','#14b8a6'],
-    ['#6366f1','#f97316','#10b981','#f43f5e'],
-  ];
+    function drawRabbit(ctx, rx, ry, flip) {
+      ctx.save(); ctx.translate(rx, ry); if (flip) ctx.scale(-1, 1);
+      ctx.beginPath(); ctx.ellipse(0, 0, 9, 7, 0, 0, Math.PI*2); ctx.fillStyle='#f1f5f9'; ctx.fill();
+      ctx.beginPath(); ctx.arc(10, -3, 6, 0, Math.PI*2); ctx.fillStyle='#f8fafc'; ctx.fill();
+      ctx.fillStyle='#e2e8f0';
+      ctx.beginPath(); ctx.ellipse( 8,-12,2.5,7,-0.2,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(13,-11,2.5,7, 0.2,0,Math.PI*2); ctx.fill();
+      ctx.fillStyle='rgba(251,207,232,0.7)';
+      ctx.beginPath(); ctx.ellipse( 8,-12,1.2,5,-0.2,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(13,-11,1.2,5, 0.2,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.arc(13,-4,1.2,0,Math.PI*2); ctx.fillStyle='#1e293b'; ctx.fill();
+      ctx.beginPath(); ctx.arc(-9,1,3.5,0,Math.PI*2); ctx.fillStyle='white'; ctx.fill();
+      ctx.restore();
+    }
 
-  _cards().forEach(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
-    const colors=coverColors[ci];
+    var avrilCards = [];
+    _cards().forEach(function (card, ci) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var W = canvas.width, H = canvas.height;
+      var ctx = canvas.getContext('2d');
+      var eggs = [
+        { x: W*0.30, rx:12, ry:16, pal: eggPalettes[(ci*2)   % eggPalettes.length] },
+        { x: W*0.70, rx:11, ry:15, pal: eggPalettes[(ci*2+1) % eggPalettes.length] },
+      ];
+      var cd = { canvas:canvas, ctx:ctx, W:W, H:H, eggs:eggs, rabbitX:-30, rabbitDir:1 };
+      _watchResize(card, canvas, function (nw,nh){ cd.W=nw; cd.H=nh; });
+      avrilCards.push(cd);
+    });
 
-    /* Objets flottants */
-    const objects = [
-      /* Cahiers */
-      {type:'notebook',x:rand(W*0.1,W*0.35),y:rand(H*0.2,H*0.6),
-       w:28,h:20,angle:rand(-0.4,0.4),color:colors[0],
-       vy:rand(-0.06,0.06),vx:rand(-0.04,0.04),phase:rand(0,Math.PI*2),amp:rand(3,6)},
-      {type:'notebook',x:rand(W*0.5,W*0.85),y:rand(H*0.15,H*0.55),
-       w:24,h:18,angle:rand(-0.5,0.5),color:colors[1],
-       vy:rand(-0.06,0.06),vx:rand(-0.04,0.04),phase:rand(0,Math.PI*2),amp:rand(3,6)},
-      /* Crayons */
-      {type:'pencil',x:rand(W*0.15,W*0.45),y:rand(H*0.3,H*0.7),
-       len:32,angle:rand(-0.8,0.8),color:colors[2],
-       vy:rand(-0.05,0.05),vx:rand(-0.04,0.04),phase:rand(0,Math.PI*2),amp:rand(4,7)},
-      {type:'pencil',x:rand(W*0.55,W*0.9),y:rand(H*0.25,H*0.65),
-       len:28,angle:rand(-0.9,0.9),color:colors[3],
-       vy:rand(-0.05,0.05),vx:rand(-0.04,0.04),phase:rand(0,Math.PI*2),amp:rand(3,6)},
-      /* Règle */
-      {type:'ruler',x:rand(W*0.2,W*0.7),y:rand(H*0.4,H*0.75),
-       len:55,angle:rand(-0.3,0.3),
-       vy:rand(-0.04,0.04),vx:rand(-0.03,0.03),phase:rand(0,Math.PI*2),amp:rand(2,5)},
-      /* Étoiles */
-      {type:'star',x:rand(W*0.08,W*0.25),y:rand(H*0.1,H*0.45),
-       r:rand(5,9),angle:0,alpha:rand(0.6,0.9),
-       vy:rand(-0.04,0.04),vx:rand(-0.03,0.03),phase:rand(0,Math.PI*2),amp:rand(3,5),rotSpd:0.01},
-      {type:'star',x:rand(W*0.7,W*0.95),y:rand(H*0.15,H*0.5),
-       r:rand(4,7),angle:0,alpha:rand(0.5,0.8),
-       vy:rand(-0.04,0.04),vx:rand(-0.03,0.03),phase:rand(0,Math.PI*2),amp:rand(2,5),rotSpd:0.015},
-    ];
+    _sharedLoop(function (t) {
+      avrilCards.forEach(function (cd) {
+        var ctx=cd.ctx, W=cd.W, H=cd.H;
+        ctx.clearRect(0,0,W,H);
+        /* Sol */
+        var gnd=ctx.createLinearGradient(0,H-8,0,H);
+        gnd.addColorStop(0,'rgba(74,222,128,0.28)'); gnd.addColorStop(1,'rgba(21,128,61,0.44)');
+        ctx.fillStyle=gnd; ctx.fillRect(0,H-8,W,8);
+        /* Herbe courte */
+        for (var gi=0; gi<20; gi++) {
+          var gx=(gi/20)*W, gh=5+Math.sin(gi*1.3)*3, gsw=Math.sin(t*1.1+gi)*0.8;
+          ctx.beginPath(); ctx.moveTo(gx,H); ctx.quadraticCurveTo(gx+gsw,H-gh*0.55,gx+gsw*0.6,H-gh);
+          ctx.strokeStyle='rgba(34,197,94,0.65)'; ctx.lineWidth=1.2; ctx.lineCap='round'; ctx.stroke();
+        }
+        /* Lapin en fond semi-transparent */
+        cd.rabbitX += cd.rabbitDir * 0.55;
+        if (cd.rabbitX > W + 40) cd.rabbitX = -40;
+        ctx.globalAlpha = 0.50;
+        drawRabbit(ctx, cd.rabbitX, H-10, cd.rabbitDir < 0);
+        ctx.globalAlpha = 1;
+        /* Œufs */
+        cd.eggs.forEach(function (e) {
+          drawEgg(ctx, e.x, H-e.ry*1.2, e.rx, e.ry, e.pal.colors, e.pal.pattern, 0.92, t);
+        });
+      });
+    });
+  }
 
-    let t=0,running=true; _cl.push(()=>{running=false;});
-    function loop(){
-      if(!running)return; t+=0.016;
-      ctx.clearRect(0,0,W,H);
-      objects.forEach(o=>{
-        /* Flottement doux */
-        const fx = o.x + Math.sin(t*0.6+o.phase)*o.amp;
-        const fy = o.y + Math.cos(t*0.5+o.phase)*o.amp*0.6;
-        ctx.globalAlpha = 0.88;
-        if(o.type==='notebook') drawNotebook(ctx,fx,fy,o.w,o.h,o.angle,o.color);
-        if(o.type==='pencil')   drawPencil(ctx,fx,fy,o.len,o.angle,o.color);
-        if(o.type==='ruler')    drawRuler(ctx,fx,fy,o.len,o.angle);
-        if(o.type==='star')     {
-          o.angle += o.rotSpd;
-          drawStar(ctx,fx,fy,o.r,o.angle,o.alpha);
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — MAI (placeholder neutre)
+  ════════════════════════════════════════════════════════════ */
+  function initMai() {
+    _cards().forEach(function (card) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var ctx = canvas.getContext('2d'), W = canvas.width, H = canvas.height;
+      var g = ctx.createLinearGradient(0, H * 0.6, 0, H);
+      g.addColorStop(0, 'rgba(249,168,212,0.10)'); g.addColorStop(1, 'rgba(236,72,153,0.14)');
+      ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — JUIN
+     Lucioles + reflet lumineux diagonal
+  ════════════════════════════════════════════════════════════ */
+  function initJuin() {
+    var juinCards = _cards().map(function (card) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var W = canvas.width, H = canvas.height;
+      var flies = Array.from({ length: 8 }, function (_, i) { return {
+        x: rand(W*0.1, W*0.9), y: rand(H*0.15, H*0.85),
+        vx: rand(-0.18, 0.18), vy: rand(-0.12, 0.12),
+        phase: rand(0, Math.PI*2), freq: rand(1.2, 2.8),
+        size: rand(1.5, 3), color: i%3===0 ? '#bbf7d0' : '#fde047',
+      }; });
+      var shimmerX = -W * 0.3, shimmerDir = 1;
+      var cd = { canvas:canvas, ctx:canvas.getContext('2d'), W:W, H:H, flies:flies, shimmerX:shimmerX, shimmerDir:shimmerDir };
+      _watchResize(card, canvas, function(nw,nh){ cd.W=nw; cd.H=nh; });
+      return cd;
+    });
+
+    _sharedLoop(function (t) {
+      juinCards.forEach(function (cd) {
+        var ctx=cd.ctx, W=cd.W, H=cd.H;
+        ctx.clearRect(0,0,W,H);
+        /* Reflet diagonal */
+        cd.shimmerX += cd.shimmerDir * 0.55;
+        if (cd.shimmerX > W*1.3) { cd.shimmerX=W*1.3; cd.shimmerDir=-1; }
+        if (cd.shimmerX < -W*0.3) { cd.shimmerX=-W*0.3; cd.shimmerDir=1; }
+        var sg = ctx.createLinearGradient(cd.shimmerX-35,0,cd.shimmerX+35,H);
+        sg.addColorStop(0,'rgba(253,224,71,0)');
+        sg.addColorStop(0.5,'rgba(253,224,71,0.07)');
+        sg.addColorStop(1,'rgba(253,224,71,0)');
+        ctx.fillStyle=sg; ctx.fillRect(0,0,W,H);
+        /* Lucioles */
+        cd.flies.forEach(function (f) {
+          f.x += f.vx + Math.sin(t*0.6+f.phase)*0.12;
+          f.y += f.vy + Math.cos(t*0.5+f.phase)*0.1;
+          if(f.x<4)f.vx=Math.abs(f.vx); if(f.x>W-4)f.vx=-Math.abs(f.vx);
+          if(f.y<4)f.vy=Math.abs(f.vy); if(f.y>H-4)f.vy=-Math.abs(f.vy);
+          var alpha=(Math.sin(t*f.freq+f.phase)+1)*0.5;
+          if(alpha<0.08) return;
+          var rgb = f.color==='#fde047'?'253,224,71':'187,247,208';
+          var glow=ctx.createRadialGradient(f.x,f.y,0,f.x,f.y,f.size*5);
+          glow.addColorStop(0,'rgba('+rgb+','+(alpha*0.8)+')');
+          glow.addColorStop(1,'rgba('+rgb+',0)');
+          ctx.beginPath(); ctx.arc(f.x,f.y,f.size*5,0,Math.PI*2); ctx.fillStyle=glow; ctx.fill();
+          ctx.beginPath(); ctx.arc(f.x,f.y,f.size*0.7,0,Math.PI*2);
+          ctx.fillStyle=f.color; ctx.globalAlpha=Math.min(alpha*2,1); ctx.fill();
+          ctx.globalAlpha=1;
+        });
+      });
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — JUILLET
+     Plage : mer + sable + parasol + transat + soleil
+  ════════════════════════════════════════════════════════════ */
+  function initJuillet() {
+    var juillCards = _cards().map(function (card, ci) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var W = canvas.width, H = canvas.height;
+      var cd = { canvas:canvas, ctx:canvas.getContext('2d'), W:W, H:H, ci:ci };
+      _watchResize(card, canvas, function(nw,nh){ cd.W=nw; cd.H=nh; });
+      return cd;
+    });
+
+    _sharedLoop(function (t) {
+      juillCards.forEach(function (cd) {
+        var ctx=cd.ctx, W=cd.W, H=cd.H;
+        ctx.clearRect(0,0,W,H);
+        /* Mer */
+        var seaY=H*0.52;
+        var seaG=ctx.createLinearGradient(0,seaY,0,H*0.75);
+        seaG.addColorStop(0,'rgba(56,189,248,0.7)'); seaG.addColorStop(1,'rgba(14,165,233,0.85)');
+        ctx.beginPath();
+        for(var x=0;x<=W;x+=3){
+          var y=seaY+Math.sin((x/W)*Math.PI*4+t*1.4)*3+Math.sin((x/W)*Math.PI*7-t)*0.8;
+          x===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+        }
+        ctx.lineTo(W,H*0.75); ctx.lineTo(0,H*0.75); ctx.closePath(); ctx.fillStyle=seaG; ctx.fill();
+        /* Sable */
+        var sandG=ctx.createLinearGradient(0,H*0.72,0,H);
+        sandG.addColorStop(0,'#fde68a'); sandG.addColorStop(1,'#fbbf24');
+        ctx.fillStyle=sandG; ctx.fillRect(0,H*0.72,W,H-H*0.72);
+        /* Soleil */
+        var sx=W*0.82,sy=H*0.15,sr=Math.min(W,H)*0.09;
+        var hl=ctx.createRadialGradient(sx,sy,sr,sx,sy,sr*3.5);
+        hl.addColorStop(0,'rgba(253,186,116,0.3)'); hl.addColorStop(1,'rgba(253,186,116,0)');
+        ctx.beginPath(); ctx.arc(sx,sy,sr*3.5,0,Math.PI*2); ctx.fillStyle=hl; ctx.fill();
+        ctx.save(); ctx.translate(sx,sy); ctx.rotate(t*0.3);
+        for(var ri=0;ri<10;ri++){
+          var ra=(ri/10)*Math.PI*2;
+          ctx.beginPath(); ctx.moveTo(Math.cos(ra)*(sr+2),Math.sin(ra)*(sr+2));
+          ctx.lineTo(Math.cos(ra)*(sr+6+ri%2*3),Math.sin(ra)*(sr+6+ri%2*3));
+          ctx.strokeStyle='rgba(253,186,116,0.7)'; ctx.lineWidth=ri%2===0?1.8:1; ctx.lineCap='round'; ctx.stroke();
+        }
+        ctx.restore();
+        var sg2=ctx.createRadialGradient(sx-2,sy-2,0,sx,sy,sr);
+        sg2.addColorStop(0,'rgba(254,240,138,0.95)'); sg2.addColorStop(1,'rgba(251,146,60,0.88)');
+        ctx.beginPath(); ctx.arc(sx,sy,sr,0,Math.PI*2); ctx.fillStyle=sg2; ctx.fill();
+        /* Parasol */
+        var pax=W*0.30,pay=H*0.60;
+        ctx.save(); ctx.translate(pax,pay);
+        ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(3,H*0.30);
+        ctx.strokeStyle='#92400e'; ctx.lineWidth=2.2; ctx.lineCap='round'; ctx.stroke();
+        var segs=['#ef4444','#ffffff','#3b82f6','#ffffff','#ef4444','#ffffff'];
+        for(var s=0;s<6;s++){
+          var a1=(s/6)*Math.PI,a2=((s+1)/6)*Math.PI;
+          ctx.beginPath(); ctx.moveTo(0,0); ctx.arc(0,0,W*0.13,a1+Math.PI,a2+Math.PI); ctx.closePath();
+          ctx.fillStyle=segs[s]; ctx.globalAlpha=0.88; ctx.fill();
         }
         ctx.globalAlpha=1;
-      });
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
-function initOctobre(){
-  const leafCols=['#ea580c','#dc2626','#d97706','#b45309','#c2410c'];
-  _cards().forEach(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
-    /* Feuilles qui tourbillonnent */
-    const leaves=Array.from({length:16},()=>({
-      x:rand(0,W), y:rand(-H,H*0.5),
-      size:rand(6,13), vx:rand(-0.5,0.6), vy:rand(0.3,1.0),
-      rot:rand(0,Math.PI*2), rotSpd:rand(-0.03,0.03),
-      color:leafCols[Math.floor(Math.random()*leafCols.length)],
-      alpha:rand(0.6,0.92), sway:rand(0.5,1.2), phase:rand(0,Math.PI*2),
-    }));
-    /* Citrouilles : une grande droite, une petite gauche */
-    const pumps = [
-      {x: W - 28, y: H - 20, size: 18 + ci * 2},
-      {x: 22,     y: H - 14, size: 11},
-    ];
-    let t=0,running=true; _cl.push(()=>{running=false;});
-    function loop(){
-      if(!running)return; t+=0.016;
-      ctx.clearRect(0,0,W,H);
-      /* Feuilles */
-      leaves.forEach(l=>{
-        l.y+=l.vy; l.x+=l.vx+Math.sin(t*l.sway+l.phase)*0.45;
-        l.rot+=l.rotSpd;
-        if(l.y>H+14){l.y=rand(-20,-4);l.x=rand(0,W);}
-        if(l.x<-14)l.x=W+14; if(l.x>W+14)l.x=-14;
-        const flip=Math.cos(l.rot*2);
-        ctx.save(); ctx.translate(l.x,l.y); ctx.scale(flip,1); ctx.translate(-l.x,-l.y);
-        drawAutumnLeaf(ctx,l.x,l.y,l.size,l.rot,l.color,l.alpha);
+        ctx.beginPath(); ctx.arc(0,-W*0.13*0.95,W*0.013,0,Math.PI*2); ctx.fillStyle='#fbbf24'; ctx.fill();
+        ctx.restore();
+        /* Transat */
+        var tx=W*0.55,ty=H*0.79;
+        ctx.save(); ctx.translate(tx,ty);
+        ctx.save(); ctx.rotate(-0.3);
+        ctx.fillStyle='#d97706'; ctx.globalAlpha=0.88;
+        ctx.beginPath(); ctx.roundRect(-W*0.055,-H*0.14,W*0.11,H*0.15,2); ctx.fill();
+        ctx.strokeStyle='#92400e'; ctx.lineWidth=0.7;
+        [-0.35,-0.1,0.15].forEach(function(fr){ ctx.beginPath(); ctx.moveTo(-W*0.055,fr*H*0.14-H*0.07); ctx.lineTo(W*0.055,fr*H*0.14-H*0.07); ctx.stroke(); });
+        ctx.restore();
+        ctx.fillStyle='#f59e0b';
+        ctx.beginPath(); ctx.roundRect(-W*0.058,0,W*0.116,H*0.08,2); ctx.fill();
+        ctx.globalAlpha=1;
         ctx.restore();
       });
-      /* Citrouilles */
-      pumps.forEach(p => {
-        const glow=0.6+Math.sin(t*2.2 + p.x)*0.4;
-        ctx.shadowColor=`rgba(251,146,60,${glow*0.55})`; ctx.shadowBlur=10*glow;
-        drawPumpkin(ctx, p.x, p.y, p.size);
-      });
-      ctx.shadowBlur=0;
-      _af.push(requestAnimationFrame(loop));
-    }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
-function initNovembre(){
-  _cards().forEach(function(card, ci) {
-    var canvas=_cv(card); fitCanvas(canvas,card);
-    const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d');
+    });
+  }
 
-    /* Arbres en silhouette — positionnés aux bords */
-    const trees = [
-      {x: W*0.05, h: H*0.75, spread:1.1, alpha:0.55},
-      {x: W*0.92, h: H*0.65, spread:1.0, alpha:0.5},
-      {x: W*0.22, h: H*0.5,  spread:0.9, alpha:0.35},
-      {x: W*0.78, h: H*0.45, spread:0.9, alpha:0.3},
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — AOÛT
+     Poissons naturels dans l'océan
+  ════════════════════════════════════════════════════════════ */
+  function initAout() {
+    var fishSpecies = [
+      { c1:'#f97316', c2:'#7c2d12' },
+      { c1:'#60a5fa', c2:'#1e3a8a' },
+      { c1:'#fbbf24', c2:'#92400e' },
+      { c1:'#34d399', c2:'#065f46' },
+      { c1:'#e879f9', c2:'#701a75' },
     ];
 
-    /* Champignons au sol */
-    const shrooms = [
-      {x:W*0.14, size:8+ci*1.5},
-      {x:W*0.42, size:6.5},
-      {x:W*0.68, size:9+ci},
-      {x:W*0.88, size:7},
+    function drawFish(ctx, fx, fy, size, dir, c1, c2, t, phase) {
+      ctx.save(); ctx.translate(fx,fy); if(dir<0) ctx.scale(-1,1);
+      var bw = Math.sin(t*2.8+phase)*size*0.08;
+      /* Queue */
+      ctx.beginPath();
+      ctx.moveTo(-size*0.5,bw*0.3);
+      ctx.bezierCurveTo(-size*0.65,-size*0.4,-size*0.92,-size*0.35,-size,-size*0.16);
+      ctx.lineTo(-size,size*0.16);
+      ctx.bezierCurveTo(-size*0.92,size*0.35,-size*0.65,size*0.4,-size*0.5,bw*0.3);
+      ctx.closePath();
+      var tg=ctx.createLinearGradient(-size,0,-size*0.5,0);
+      tg.addColorStop(0,c2+'88'); tg.addColorStop(1,c1); ctx.fillStyle=tg; ctx.fill();
+      /* Corps */
+      ctx.beginPath();
+      ctx.moveTo(size*0.65,bw*0.2);
+      ctx.bezierCurveTo(size*0.6,-size*0.32,-size*0.3,-size*0.38,-size*0.52,bw*0.3);
+      ctx.bezierCurveTo(-size*0.3,size*0.38,size*0.6,size*0.32,size*0.65,bw*0.2);
+      var bg=ctx.createLinearGradient(size*0.65,-size*0.35,size*0.65,size*0.35);
+      bg.addColorStop(0,c2); bg.addColorStop(0.35,c1); bg.addColorStop(1,c2);
+      ctx.fillStyle=bg; ctx.fill();
+      /* Ventre */
+      ctx.beginPath();
+      ctx.moveTo(size*0.5,bw*0.1);
+      ctx.bezierCurveTo(size*0.4,size*0.18,-size*0.2,size*0.22,-size*0.45,bw*0.25);
+      ctx.bezierCurveTo(-size*0.2,size*0.1,size*0.4,size*0.08,size*0.5,bw*0.1);
+      ctx.fillStyle='rgba(255,255,255,0.2)'; ctx.fill();
+      /* Nageoire dorsale */
+      ctx.beginPath();
+      ctx.moveTo(size*0.1,-size*0.33+bw*0.2);
+      ctx.bezierCurveTo(size*0.05,-size*0.6,-size*0.1,-size*0.62,-size*0.22,-size*0.35+bw*0.2);
+      ctx.bezierCurveTo(-size*0.05,-size*0.38+bw*0.2,size*0.05,-size*0.36+bw*0.2,size*0.1,-size*0.33+bw*0.2);
+      ctx.fillStyle=c2+'aa'; ctx.fill();
+      /* Œil */
+      ctx.beginPath(); ctx.arc(size*0.45,-size*0.06+bw*0.1,size*0.1,0,Math.PI*2);
+      ctx.fillStyle='rgba(20,20,20,0.85)'; ctx.fill();
+      ctx.beginPath(); ctx.arc(size*0.47,-size*0.09+bw*0.1,size*0.033,0,Math.PI*2);
+      ctx.fillStyle='white'; ctx.fill();
+      ctx.restore();
+    }
+
+    var aoutCards = _cards().map(function (card, ci) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var W=canvas.width, H=canvas.height;
+      var fishes = Array.from({length:6}, function(_,i){ return {
+        x:rand(0,W), y:rand(H*0.08,H*0.82),
+        vx:(.22+rand(0,.28))*(Math.random()<.5?1:-1),
+        sp:fishSpecies[(ci*3+i)%fishSpecies.length],
+        size:7+rand(0,9), phase:rand(0,Math.PI*2),
+        bobAmp:rand(1,3), bobFreq:.5+rand(0,.8), bobPh:rand(0,Math.PI*2),
+      }; });
+      var algae = Array.from({length:6},function(_,i){ return {
+        x:(i/5)*W+rand(-10,10), h:H*.18+rand(0,H*.12), ph:rand(0,Math.PI*2)
+      }; });
+      var bubbles = Array.from({length:10},function(){ return {
+        x:rand(0,W),y:rand(0,H),r:0.8+rand(0,2.5),sp:.18+rand(0,.35),ph:rand(0,Math.PI*2)
+      }; });
+      var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,fishes:fishes,algae:algae,bubbles:bubbles};
+      _watchResize(card,canvas,function(nw,nh){cd.W=nw;cd.H=nh;});
+      return cd;
+    });
+
+    _sharedLoop(function(t){
+      aoutCards.forEach(function(cd){
+        var ctx=cd.ctx,W=cd.W,H=cd.H;
+        ctx.clearRect(0,0,W,H);
+        /* Fond sous-marin */
+        var sea=ctx.createLinearGradient(0,0,0,H);
+        sea.addColorStop(0,'rgba(12,74,110,0.55)'); sea.addColorStop(1,'rgba(3,105,161,0.75)');
+        ctx.fillStyle=sea; ctx.fillRect(0,0,W,H);
+        /* Rayon de lumière */
+        var rayG=ctx.createLinearGradient(W*.5,0,W*.5,H*.65);
+        rayG.addColorStop(0,'rgba(186,230,253,0.14)'); rayG.addColorStop(1,'rgba(186,230,253,0)');
+        ctx.save(); ctx.translate(W*.5,0);
+        ctx.beginPath(); ctx.moveTo(-35,0); ctx.lineTo(35,0); ctx.lineTo(16,H*.65); ctx.lineTo(-16,H*.65); ctx.closePath();
+        ctx.fillStyle=rayG; ctx.fill(); ctx.restore();
+        /* Sol sableux */
+        var sand=ctx.createLinearGradient(0,H*.82,0,H);
+        sand.addColorStop(0,'rgba(180,140,60,0.55)'); sand.addColorStop(1,'rgba(140,110,40,0.80)');
+        ctx.fillStyle=sand; ctx.fillRect(0,H*.82,W,H*.18);
+        /* Algues */
+        cd.algae.forEach(function(a){
+          var sw=Math.sin(t*1.2+a.ph)*3;
+          ctx.beginPath(); ctx.moveTo(a.x,H*.82);
+          ctx.bezierCurveTo(a.x+sw,H*.82-a.h*.35,a.x-sw*1.2,H*.82-a.h*.65,a.x+sw*.5,H*.82-a.h);
+          ctx.strokeStyle='rgba(16,185,129,0.65)'; ctx.lineWidth=2.2; ctx.lineCap='round'; ctx.stroke();
+        });
+        /* Bulles */
+        cd.bubbles.forEach(function(b){
+          b.y-=b.sp; b.x+=Math.sin(t*1.2+b.ph)*0.35;
+          if(b.y<-8){b.y=H*.85;b.x=rand(0,W);}
+          ctx.beginPath(); ctx.arc(b.x,b.y,b.r,0,Math.PI*2);
+          ctx.strokeStyle='rgba(186,230,253,0.5)'; ctx.lineWidth=0.6; ctx.stroke();
+          ctx.fillStyle='rgba(186,230,253,0.1)'; ctx.fill();
+        });
+        /* Poissons */
+        cd.fishes.forEach(function(f){
+          f.x+=f.vx;
+          f.y+=Math.sin(t*f.bobFreq+f.bobPh)*f.bobAmp*0.04;
+          if(f.x>W+30){f.x=-30;f.y=rand(H*.08,H*.8);}
+          if(f.x<-30){f.x=W+30;f.y=rand(H*.08,H*.8);}
+          ctx.globalAlpha=0.9;
+          drawFish(ctx,f.x,f.y,f.size,f.vx>0?1:-1,f.sp.c1,f.sp.c2,t,f.phase);
+        });
+        ctx.globalAlpha=1;
+      });
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — SEPTEMBRE
+     Fournitures scolaires flottantes
+  ════════════════════════════════════════════════════════════ */
+  function initSeptembre() {
+    var coverColors = [
+      ['#3b82f6','#ef4444','#22c55e','#a855f7'],
+      ['#f59e0b','#06b6d4','#ec4899','#14b8a6'],
+      ['#6366f1','#f97316','#10b981','#f43f5e'],
     ];
 
-    /* Feuilles mortes au sol */
-    const deadLeaves = Array.from({length:18}, () => ({
-      x: rand(4, W-4), y: H - rand(1,5),
-      size: rand(4, 8), rot: rand(-Math.PI, Math.PI),
-      color: ['#92400e','#b45309','#78350f','#a16207','#6b7280'][Math.floor(Math.random()*5)],
-    }));
-
-    /* Écureuil */
-    const squirrel = {x: W*0.52, y: H-9, size: 9+ci, flip: ci%2===0, vx: 0.18, dir: 1};
-
-    /* Brume en couches */
-    const mistLayers = Array.from({length:5}, (_,i) => ({
-      y: H*(0.6 + i*0.1), w: W*(1.2+i*0.2), speed: 0.006+i*0.003,
-      phase: i*Math.PI/2.5, alpha: 0.05+i*0.025,
-    }));
-
-    let t=0, running=true;
-    _cl.push(()=>{ running=false; });
-
-    function loop(){
-      if(!running) return; t+=0.013;
-      ctx.clearRect(0,0,W,H);
-
-      /* ── Arbres dépouillés (fond, derrière tout) ── */
-      trees.forEach(tr => drawBareTree(ctx, tr.x, H, tr.h, tr.spread, tr.alpha));
-
-      /* ── Sol — litière de feuilles ── */
-      const groundG = ctx.createLinearGradient(0, H-8, 0, H);
-      groundG.addColorStop(0, isDark() ? 'rgba(120,60,20,0.6)' : 'rgba(120,60,20,0.3)');
-      groundG.addColorStop(1, isDark() ? 'rgba(80,40,15,0.8)' : 'rgba(80,40,15,0.45)');
-      ctx.fillStyle = groundG; ctx.fillRect(0, H-8, W, 8);
-
-      /* Feuilles mortes au sol */
-      deadLeaves.forEach(l => drawDeadLeaf(ctx, l.x, l.y, l.size, l.rot, l.color));
-
-      /* Mousse */
-      [[W*0.08,H-2,18],[W*0.55,H-2,14],[W*0.82,H-2,16]].forEach(([mx,my,mw])=>
-        drawMoss(ctx,mx,my,mw,0.7));
-
-      /* ── Brume en nappe (devant le sol, derrière champignons) ── */
-      mistLayers.forEach(m => {
-        const offsetX = Math.sin(t*m.speed*10+m.phase)*20;
-        const offsetY = Math.sin(t*m.speed*8+m.phase)*4;
-        const g = ctx.createRadialGradient(
-          W/2+offsetX, m.y+offsetY, 0,
-          W/2+offsetX, m.y+offsetY, m.w*0.5
-        );
-        const alpha = m.alpha * (0.65+Math.sin(t*1.2+m.phase)*0.35);
-        var mistAlpha = isDark() ? alpha * 1.8 : alpha;
-        g.addColorStop(0, `rgba(209,213,219,${mistAlpha})`);
-        g.addColorStop(0.6, `rgba(209,213,219,${mistAlpha*0.4})`);
-        g.addColorStop(1, 'rgba(209,213,219,0)');
-        ctx.beginPath();
-        ctx.ellipse(W/2+offsetX, m.y+offsetY, m.w*0.5, 12+m.phase*3, 0, 0, Math.PI*2);
-        ctx.fillStyle=g; ctx.fill();
-      });
-
-      /* ── Champignons ── */
-      shrooms.forEach(s => {
-        const bob = Math.sin(t*1.2+s.x*0.04)*0.6;
-        drawForestMushroom(ctx, s.x, H - s.size*0.45 + bob, s.size);
-      });
-
-      /* ── Écureuil ── */
-      squirrel.x += squirrel.vx * squirrel.dir;
-      if(squirrel.x > W-15) squirrel.dir = -1;
-      if(squirrel.x < 15)   squirrel.dir =  1;
-      const sqFlip = squirrel.dir < 0;
-      /* Petit sautillement */
-      const sqBob = Math.abs(Math.sin(t*4))*2.5;
-      drawSquirrel(ctx, squirrel.x, squirrel.y - sqBob, squirrel.size, sqFlip);
-
-      _af.push(requestAnimationFrame(loop));
+    function drawNotebook(ctx,cx,cy,w,h,angle,color){
+      ctx.save();ctx.translate(cx,cy);ctx.rotate(angle);
+      ctx.fillStyle=color;ctx.globalAlpha=0.82;
+      ctx.beginPath();ctx.roundRect(-w/2,-h/2,w,h,2);ctx.fill();
+      ctx.strokeStyle='rgba(255,255,255,0.5)';ctx.lineWidth=0.8;
+      for(var li=-h/2+5;li<h/2;li+=4){ctx.beginPath();ctx.moveTo(-w/2+4,li);ctx.lineTo(w/2-2,li);ctx.stroke();}
+      ctx.fillStyle='rgba(255,255,255,0.35)';ctx.fillRect(-w/2,-h/2,4,h);
+      ctx.globalAlpha=1;ctx.restore();
     }
-    _af.push(requestAnimationFrame(loop));
-  });
-}
+    function drawPencil(ctx,cx,cy,len,angle,color){
+      ctx.save();ctx.translate(cx,cy);ctx.rotate(angle);
+      ctx.fillStyle=color;ctx.globalAlpha=0.85;ctx.fillRect(-2,-len/2,4,len*0.85);
+      ctx.fillStyle='#f8fafc';ctx.fillRect(-2,-len/2,4,len*0.18);
+      ctx.fillStyle='#f97316';ctx.beginPath();ctx.moveTo(-2,len*0.35);ctx.lineTo(2,len*0.35);ctx.lineTo(0,len/2);ctx.closePath();ctx.fill();
+      ctx.globalAlpha=1;ctx.restore();
+    }
+    function drawRuler(ctx,cx,cy,len,angle){
+      ctx.save();ctx.translate(cx,cy);ctx.rotate(angle);
+      ctx.fillStyle='rgba(254,240,138,0.85)';ctx.globalAlpha=0.9;
+      ctx.beginPath();ctx.roundRect(-len/2,-5,len,10,2);ctx.fill();
+      ctx.strokeStyle='rgba(180,140,0,0.5)';ctx.lineWidth=0.6;
+      for(var ti=0;ti<=10;ti++){var tx2=-len/2+ti*(len/10);ctx.beginPath();ctx.moveTo(tx2,ti%5===0?-4:-2);ctx.lineTo(tx2,4);ctx.stroke();}
+      ctx.globalAlpha=1;ctx.restore();
+    }
+    function drawStar(ctx,cx,cy,r,angle,alpha){
+      ctx.save();ctx.translate(cx,cy);ctx.rotate(angle);ctx.globalAlpha=alpha;
+      ctx.fillStyle='#fbbf24';ctx.beginPath();
+      for(var si=0;si<5;si++){var sa=(si/5)*Math.PI*2-Math.PI/2,sa2=((si+.5)/5)*Math.PI*2-Math.PI/2;ctx.lineTo(Math.cos(sa)*r,Math.sin(sa)*r);ctx.lineTo(Math.cos(sa2)*r*.42,Math.sin(sa2)*r*.42);}
+      ctx.closePath();ctx.fill();ctx.globalAlpha=1;ctx.restore();
+    }
 
-/* ═══════════════════════════════════════════════════════
-   ORCHESTRATION
-═══════════════════════════════════════════════════════ */
-  var _MONTHS=[
+    var septCards = _cards().map(function(card,ci){
+      var canvas=_cv(card);fitCanvas(canvas,card);
+      var W=canvas.width,H=canvas.height;
+      var colors=coverColors[ci%coverColors.length];
+      var objects=[
+        {type:'notebook',x:rand(W*.08,W*.35),y:rand(H*.2,H*.6),w:28,h:20,angle:rand(-.45,.45),color:colors[0],phase:rand(0,Math.PI*2),amp:rand(3,6)},
+        {type:'notebook',x:rand(W*.5,W*.88),y:rand(H*.15,H*.55),w:24,h:18,angle:rand(-.5,.5),color:colors[1],phase:rand(0,Math.PI*2),amp:rand(3,6)},
+        {type:'pencil', x:rand(W*.15,W*.45),y:rand(H*.3,H*.7),len:32,angle:rand(-.8,.8),color:colors[2],phase:rand(0,Math.PI*2),amp:rand(4,7)},
+        {type:'pencil', x:rand(W*.55,W*.9), y:rand(H*.25,H*.65),len:28,angle:rand(-.9,.9),color:colors[3],phase:rand(0,Math.PI*2),amp:rand(3,6)},
+        {type:'ruler',  x:rand(W*.2,W*.7),  y:rand(H*.4,H*.75),len:55,angle:rand(-.3,.3),phase:rand(0,Math.PI*2),amp:rand(2,5)},
+        {type:'star',   x:rand(W*.05,W*.25),y:rand(H*.1,H*.45),r:rand(5,9),angle:0,alpha:rand(.6,.9),phase:rand(0,Math.PI*2),amp:rand(3,5),rotSpd:.012},
+        {type:'star',   x:rand(W*.7,W*.96), y:rand(H*.15,H*.5),r:rand(4,7),angle:0,alpha:rand(.5,.8),phase:rand(0,Math.PI*2),amp:rand(2,5),rotSpd:.016},
+      ];
+      var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,objects:objects};
+      _watchResize(card,canvas,function(nw,nh){cd.W=nw;cd.H=nh;});
+      return cd;
+    });
+
+    _sharedLoop(function(t){
+      septCards.forEach(function(cd){
+        var ctx=cd.ctx,W=cd.W,H=cd.H;
+        ctx.clearRect(0,0,W,H);
+        cd.objects.forEach(function(o){
+          var fx=o.x+Math.sin(t*0.6+o.phase)*o.amp;
+          var fy=o.y+Math.cos(t*0.5+o.phase)*(o.amp||4)*0.6;
+          ctx.globalAlpha=0.88;
+          if(o.type==='notebook') drawNotebook(ctx,fx,fy,o.w,o.h,o.angle,o.color);
+          if(o.type==='pencil')   drawPencil(ctx,fx,fy,o.len,o.angle,o.color);
+          if(o.type==='ruler')    drawRuler(ctx,fx,fy,o.len,o.angle);
+          if(o.type==='star'){o.angle+=o.rotSpd; drawStar(ctx,fx,fy,o.r,o.angle,o.alpha);}
+          ctx.globalAlpha=1;
+        });
+      });
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — OCTOBRE
+     Feuilles d'automne + citrouille
+  ════════════════════════════════════════════════════════════ */
+  function initOctobre() {
+    var leafCols = ['#ea580c','#dc2626','#d97706','#b45309','#c2410c'];
+
+    function drawLeaf(ctx,lx,ly,size,rot,color,alpha){
+      ctx.save();ctx.translate(lx,ly);ctx.rotate(rot);
+      ctx.fillStyle=color;ctx.globalAlpha=alpha;
+      ctx.beginPath();ctx.moveTo(0,size);
+      ctx.bezierCurveTo(size*.8,size*.4,size*.8,-size*.4,0,-size);
+      ctx.bezierCurveTo(-size*.8,-size*.4,-size*.8,size*.4,0,size);
+      ctx.fill();
+      ctx.strokeStyle='rgba(0,0,0,0.1)';ctx.lineWidth=0.5;
+      ctx.beginPath();ctx.moveTo(0,-size);ctx.lineTo(0,size);ctx.stroke();
+      ctx.globalAlpha=1;ctx.restore();
+    }
+    function drawPumpkin(ctx,px,py,size){
+      var segs=['#f97316','#fb923c','#f97316'];
+      for(var s=0;s<3;s++){
+        ctx.beginPath();ctx.ellipse(px+(s-1)*size*.7,py,size*.55,size*.65,0,0,Math.PI*2);
+        ctx.fillStyle=segs[s];ctx.globalAlpha=0.88;ctx.fill();
+      }
+      ctx.beginPath();ctx.rect(px-2,py-size*.7,4,size*.28);
+      ctx.fillStyle='#92400e';ctx.globalAlpha=1;ctx.fill();
+      ctx.beginPath();ctx.arc(px,py,size*.28,Math.PI,Math.PI*2);
+      ctx.fillStyle='rgba(0,0,0,0.15)';ctx.fill();
+    }
+
+    var octCards = _cards().map(function(card,ci){
+      var canvas=_cv(card);fitCanvas(canvas,card);
+      var W=canvas.width,H=canvas.height;
+      var leaves=Array.from({length:15},function(){return{
+        x:rand(0,W),y:rand(-H,H*.5),size:rand(6,12),
+        vx:rand(-.5,.6),vy:rand(.3,.95),rot:rand(0,Math.PI*2),
+        rotSpd:rand(-.03,.03),color:leafCols[Math.floor(Math.random()*leafCols.length)],
+        alpha:rand(.6,.9),sway:rand(.5,1.2),phase:rand(0,Math.PI*2),
+      };});
+      var pumps=[{x:W-26,y:H-18,size:Math.min(16+ci*2,22)},{x:20,y:H-12,size:11}];
+      var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,leaves:leaves,pumps:pumps};
+      _watchResize(card,canvas,function(nw,nh){cd.W=nw;cd.H=nh;});
+      return cd;
+    });
+
+    _sharedLoop(function(t){
+      octCards.forEach(function(cd){
+        var ctx=cd.ctx,W=cd.W,H=cd.H;
+        ctx.clearRect(0,0,W,H);
+        cd.leaves.forEach(function(l){
+          l.y+=l.vy;l.x+=l.vx+Math.sin(t*l.sway+l.phase)*.45;l.rot+=l.rotSpd;
+          if(l.y>H+14){l.y=rand(-20,-4);l.x=rand(0,W);}
+          if(l.x<-14)l.x=W+14; if(l.x>W+14)l.x=-14;
+          drawLeaf(ctx,l.x,l.y,l.size,l.rot,l.color,l.alpha);
+        });
+        cd.pumps.forEach(function(p){
+          var glow=.6+Math.sin(t*2.2+p.x)*.4;
+          ctx.shadowColor='rgba(251,146,60,'+(glow*.5)+')';ctx.shadowBlur=10*glow;
+          drawPumpkin(ctx,p.x,p.y,p.size);
+        });
+        ctx.shadowBlur=0;
+      });
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ANIMATIONS CARTES — NOVEMBRE
+     Arbres dépouillés + brume + écureuil
+  ════════════════════════════════════════════════════════════ */
+  function initNovembre() {
+    function drawBareTree(ctx,tx,ty,h,spread,alpha){
+      ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle=isDark()?'#6b7280':'#4b5563';
+      ctx.lineWidth=2.2;ctx.lineCap='round';
+      ctx.beginPath();ctx.moveTo(tx,ty);ctx.lineTo(tx,ty-h);ctx.stroke();
+      for(var b=0;b<5;b++){
+        var by=ty-h*(.35+b*.13),bl=10+b*4,sd=b%2===0?-1:1;
+        ctx.beginPath();ctx.moveTo(tx,by);ctx.lineTo(tx+sd*bl*spread,by-bl*.55);
+        ctx.lineWidth=1;ctx.stroke();
+        if(b<3){
+          ctx.beginPath();ctx.moveTo(tx+sd*bl*spread*.6,by-bl*.35);
+          ctx.lineTo(tx+sd*(bl*spread*.6+bl*.5),by-bl*.55);
+          ctx.lineWidth=0.6;ctx.stroke();
+        }
+      }
+      ctx.restore();
+    }
+
+    var novCards = _cards().map(function(card,ci){
+      var canvas=_cv(card);fitCanvas(canvas,card);
+      var W=canvas.width,H=canvas.height;
+      var trees=[
+        {x:W*.06,h:H*.75,spread:1.1,alpha:isDark()?.65:.5},
+        {x:W*.92,h:H*.65,spread:1.0,alpha:isDark()?.6:.45},
+        {x:W*.22,h:H*.5, spread:.9, alpha:isDark()?.45:.3},
+        {x:W*.78,h:H*.45,spread:.9, alpha:isDark()?.4:.28},
+      ];
+      var mistLayers=Array.from({length:5},function(_,i){return{
+        y:H*(.58+i*.1),w:W*(1.15+i*.2),speed:.006+i*.003,phase:i*Math.PI/2.5,alpha:.05+i*.022,
+      };});
+      var squirrel={x:W*.3,vx:.18,dir:1};
+      var cd={canvas:canvas,ctx:canvas.getContext('2d'),W:W,H:H,trees:trees,mistLayers:mistLayers,squirrel:squirrel};
+      _watchResize(card,canvas,function(nw,nh){cd.W=nw;cd.H=nh;});
+      return cd;
+    });
+
+    _sharedLoop(function(t){
+      novCards.forEach(function(cd){
+        var ctx=cd.ctx,W=cd.W,H=cd.H;
+        ctx.clearRect(0,0,W,H);
+        /* Arbres */
+        cd.trees.forEach(function(tr){drawBareTree(ctx,tr.x,H,tr.h,tr.spread,tr.alpha);});
+        /* Sol */
+        var gg=ctx.createLinearGradient(0,H-8,0,H);
+        gg.addColorStop(0,isDark()?'rgba(120,60,20,0.55)':'rgba(120,60,20,0.28)');
+        gg.addColorStop(1,isDark()?'rgba(80,40,15,0.75)':'rgba(80,40,15,0.42)');
+        ctx.fillStyle=gg;ctx.fillRect(0,H-8,W,8);
+        /* Brume */
+        cd.mistLayers.forEach(function(m){
+          var ox=Math.sin(t*m.speed*10+m.phase)*18,oy=Math.sin(t*m.speed*8+m.phase)*3;
+          var mg=ctx.createRadialGradient(W/2+ox,m.y+oy,0,W/2+ox,m.y+oy,m.w*.5);
+          var a=m.alpha*(0.65+Math.sin(t*1.2+m.phase)*.35)*(isDark()?1.8:1);
+          mg.addColorStop(0,'rgba(209,213,219,'+a+')');
+          mg.addColorStop(.6,'rgba(209,213,219,'+(a*.4)+')');
+          mg.addColorStop(1,'rgba(209,213,219,0)');
+          ctx.beginPath();ctx.ellipse(W/2+ox,m.y+oy,m.w*.5,12+m.phase*3,0,0,Math.PI*2);
+          ctx.fillStyle=mg;ctx.fill();
+        });
+        /* Écureuil */
+        var sq=cd.squirrel;
+        sq.x+=sq.vx*sq.dir;
+        if(sq.x>W-12)sq.dir=-1; if(sq.x<12)sq.dir=1;
+        var sqB=Math.abs(Math.sin(t*4))*2.5;
+        ctx.fillStyle=isDark()?'#a78bfa':'#9ca3af';ctx.globalAlpha=0.82;
+        ctx.beginPath();ctx.ellipse(sq.x,H-9-sqB,5,4,0,0,Math.PI*2);ctx.fill();
+        ctx.beginPath();ctx.arc(sq.x+(sq.dir>0?4:-4),H-14-sqB,3,0,Math.PI*2);ctx.fill();
+        /* Queue en courbe */
+        ctx.beginPath();ctx.moveTo(sq.x+(sq.dir>0?-3:3),H-10-sqB);
+        ctx.bezierCurveTo(sq.x+(sq.dir>0?-8:8),H-18-sqB,sq.x+(sq.dir>0?-12:12),H-14-sqB,sq.x+(sq.dir>0?-8:8),H-8-sqB);
+        ctx.strokeStyle=isDark()?'#a78bfa':'#9ca3af';ctx.lineWidth=3;ctx.lineCap='round';ctx.stroke();
+        ctx.globalAlpha=1;
+      });
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     DÉCEMBRE (placeholder neutre)
+  ════════════════════════════════════════════════════════════ */
+  function initDecembre() {
+    /* Placeholder : fond bleu hivernal discret, flocons CSS simples */
+    _cards().forEach(function (card) {
+      var canvas = _cv(card); fitCanvas(canvas, card);
+      var ctx = canvas.getContext('2d'), W = canvas.width, H = canvas.height;
+      var g = ctx.createLinearGradient(0, 0, 0, H);
+      g.addColorStop(0, 'rgba(219,234,254,0.15)'); g.addColorStop(1, 'rgba(186,230,252,0.22)');
+      ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    });
+  }
+
+  /* ════════════════════════════════════════════════════════════
+     ORCHESTRATION
+  ════════════════════════════════════════════════════════════ */
+  var _MONTHS = [
     'janvier','fevrier','mars','avril','mai','juin',
     'juillet','aout','septembre','octobre','novembre','decembre'
   ];
-  var _INITS=[
-    initJanvier,initFevrier,initMars,initAvril,
-    initMai,initJuin,initJuillet,initAout,
-    initSeptembre,initOctobre,initNovembre,initDecembre
+  var _INITS = [
+    initJanvier, initFevrier, initMars,     initAvril,
+    initMai,     initJuin,    initJuillet,  initAout,
+    initSeptembre, initOctobre, initNovembre, initDecembre
   ];
 
-  function _apply(){
-    var m=new Date().getMonth();
-    if(m===_month) return;
-    _month=m;
-    _runRetries=0;
+  function _apply() {
+    var m = new Date().getMonth();
+    if (m === _month) return;
+    _month = m;
+    _runRetries = 0;
     _stopAll();
-    var body=document.body;
-    _MONTHS.forEach(function(mn){body.classList.remove('season-'+mn);});
-    body.classList.add('season-'+_MONTHS[m]);
+    var body = document.body;
+    _MONTHS.forEach(function (mn) { body.classList.remove('season-' + mn); });
+    body.classList.add('season-' + _MONTHS[m]);
     renderBackground(_MONTHS[m]);
-    setTimeout(_runCards,150);
+    setTimeout(_runCards, 150);
   }
 
-  var _runRetries=0;
-  function _runCards(){
-    var cards=_cards();
-    if(!cards.length){
+  var _runRetries = 0;
+  function _runCards() {
+    var cards = _cards();
+    if (!cards.length) {
       _runRetries++;
-      if(_runRetries<50) setTimeout(_runCards,200); /* retry jusqu'à 10s */
+      if (_runRetries < 50) setTimeout(_runCards, 200);
       return;
     }
-    _runRetries=0;
+    _runRetries = 0;
     _INITS[_month]();
   }
 
-  var _cObs=new MutationObserver(function(mutations){
-    var found=false;
-    mutations.forEach(function(m){
-      /* Nouvelles cartes ajoutées */
-      m.addedNodes.forEach(function(n){
-        if(n.nodeType!==1)return;
-        if((n.matches&&n.matches('.niveau-card,.theme-check,.notion-card,.screen'))||
-           (n.querySelector&&n.querySelector('.niveau-card,.theme-check,.notion-card')))
-          found=true;
+  /* Observer pour les nouvelles cartes / changements d'écran */
+  var _cObs = new MutationObserver(function (mutations) {
+    var found = false;
+    mutations.forEach(function (m) {
+      m.addedNodes.forEach(function (n) {
+        if (n.nodeType !== 1) return;
+        if ((n.matches && n.matches('.niveau-card,.theme-check,.notion-card,.screen')) ||
+            (n.querySelector && n.querySelector('.niveau-card,.theme-check,.notion-card')))
+          found = true;
       });
-      /* Écran qui devient actif (class change sur .screen) */
-      if(m.type==='attributes' && m.target.classList &&
-         m.target.classList.contains('screen') &&
-         m.target.classList.contains('active'))
-        found=true;
+      if (m.type === 'attributes' && m.target.classList &&
+          m.target.classList.contains('screen') &&
+          m.target.classList.contains('active'))
+        found = true;
     });
-    if(found) setTimeout(_runCards,120);
+    if (found) setTimeout(_runCards, 120);
   });
 
-  var _tObs=new MutationObserver(function(){_month=-1;_apply();});
+  /* Observer changement de thème dark/light */
+  var _tObs = new MutationObserver(function () { _month = -1; _apply(); });
 
-  function _init(){
-    _cObs.observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['class']});
-    _tObs.observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+  function _init() {
+    _cObs.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
+    _tObs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
     _apply();
   }
 
-  if(document.readyState==='loading'){
-    document.addEventListener('DOMContentLoaded',_init);
-  } else {_init();}
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', _init);
+  } else {
+    _init();
+  }
 
 })();
