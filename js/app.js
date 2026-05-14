@@ -1817,7 +1817,7 @@ if (document.readyState === 'loading') {
 //  MODULE ENSEIGNANT
 // ══════════════════════════════════════════════════════
 
-const TEACHER_PIN = '1789';
+const TEACHER_PIN = '1992';
 
 const Teacher = {
   pin:          '',
